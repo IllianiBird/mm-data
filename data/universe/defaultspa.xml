@@ -1935,6 +1935,11 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <displayName>Use Edge for acquisition failure.</displayName>
         <desc><![CDATA[Failed acquisition check will be rerolled with edge.]]></desc>
     </ability>
+    <ability>
+        <lookupName>edge_when_fatal_salvage_accident</lookupName>
+        <displayName>Use Edge for fatal salvage accidents.</displayName>
+        <desc><![CDATA[Fatal salvage accidents will be rerolled with edge]]></desc>
+    </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
      See docs/custom_spa.md
