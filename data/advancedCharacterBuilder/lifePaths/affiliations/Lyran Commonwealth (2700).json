@@ -20,10 +20,10 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 45,
+    "xpCost" : 45,
     "source" : "A Time of War",
     "name" : "Lyran Commonwealth (2700)",
     "flavorText" : "I am Lyran, heir to wealth and industry. Though others mock our politics, I know our true strength lies in steel, trade, and the will to endure.",
@@ -54,7 +54,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -80,7 +80,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -99,12 +99,12 @@
             "WILLPOWER" : -50
         }
     },
-"fixedXPEdge": {
-"0": -50
-},
-"fixedXPFlexibleAttribute": {
-"0" : null
-},
+    "fixedXPEdge" : {
+        "0" : -50
+    },
+    "fixedXPFlexibleAttribute" : {
+        "0" : null
+    },
     "fixedXPTraits" : {
         "0" : {
             "WEALTH" : 50,
@@ -123,6 +123,7 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : { }
     },
@@ -130,7 +131,7 @@
         "0" : { },
         "1" : { }
     },
-"flexibleXPEdge": {},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },
@@ -144,6 +145,7 @@
         "0" : { },
         "1" : { }
     },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : {
         "0" : {
             "atow_combat_paralysis" : -100

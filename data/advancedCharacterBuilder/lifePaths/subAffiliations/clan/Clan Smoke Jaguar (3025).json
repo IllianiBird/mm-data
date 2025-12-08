@@ -20,17 +20,17 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 50,
+    "xpCost" : 50,
     "source" : "Era Report 3052",
     "name" : "Clan Smoke Jaguar (3025)",
     "flavorText" : "I am Clan Smoke Jaguar—fierce, relentless, and unmerciful. My strength is domination, and through battle I carve the only truth that matters: victory.",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3025,
-"maximumYear": 3059,
+    "maximumYear" : 3059,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -53,7 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : {
         "0" : null
     },
@@ -81,7 +81,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : {
         "0" : null
     },
@@ -104,9 +104,9 @@
             "REFLEXES" : 50
         }
     },
-"fixedXPEdge" : {
-"0": -50
-},
+    "fixedXPEdge" : {
+        "0" : -50
+    },
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -124,19 +124,21 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
-    "compulsion_other_faction_dislike": -100,
+            "compulsion_other_faction_dislike" : -100,
             "atow_combat_sense" : 100,
             "compulsion_unpleasant_personality" : -100
         }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": { },
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : { },
     "flexibleXPPickCount" : 0
 }

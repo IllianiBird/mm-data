@@ -20,17 +20,17 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
     "xpCost" : 105,
     "source" : "Era Report 2750",
     "name" : "Coventry Province (2400)",
-"flavorText": "I come from the Coventry Province, proud to serve House Steiner. Our factories and fields alike strengthen Lyran might, and our loyalty to Tharkad is the bedrock of our lives.",
+    "flavorText" : "I come from the Coventry Province, proud to serve House Steiner. Our factories and fields alike strengthen Lyran might, and our loyalty to Tharkad is the bedrock of our lives.",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 0,
-"maximumYear": 3062,
+    "maximumYear" : 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -56,7 +56,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -82,7 +82,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -101,7 +101,7 @@
             "WILLPOWER" : 75
         }
     },
-"fixedXPEdge": {},
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
@@ -118,6 +118,7 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
             "flaw_introvert" : -50
@@ -131,7 +132,7 @@
         "4" : { },
         "5" : { }
     },
-"flexibleXPEdge": {},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },
@@ -169,6 +170,7 @@
             "SUPPORT_TECHNICIAN" : 10
         }
     },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : {
         "0" : { },
         "1" : { },

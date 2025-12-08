@@ -20,7 +20,7 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
     "xpCost" : 150,
@@ -53,7 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -79,7 +79,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -100,7 +100,7 @@
             "CHARISMA" : 25
         }
     },
-            "fixedXPEdge": {},
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
@@ -119,6 +119,7 @@
             "SUPPORT_TECHNICIAN" : 10
         }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : { }
     },
@@ -129,15 +130,15 @@
         "3" : { },
         "4" : { },
         "5" : { },
-"6": {},
-"7": { }
-},
-"flexibleXPEdge": {
-"7": 1
+        "6" : { },
+        "7" : { }
     },
-"flexibleXPFlexibleAttribute": {
-"7": null
-},
+    "flexibleXPEdge" : {
+        "7" : 1
+    },
+    "flexibleXPFlexibleAttribute" : {
+        "7" : null
+    },
     "flexibleXPTraits" : {
         "0" : { },
         "1" : { },
@@ -145,8 +146,8 @@
         "3" : { },
         "4" : { },
         "5" : { },
-"6": {},
-"7": { }
+        "6" : { },
+        "7" : { }
     },
     "flexibleXPSkills" : {
         "0" : { },
@@ -155,10 +156,8 @@
         "3" : { },
         "4" : { },
         "5" : { },
-"6": {
-},
-"7": {
-}
+        "6" : { },
+        "7" : { }
     },
     "flexibleXPMetaSkills" : {
         "0" : { },
@@ -167,9 +166,10 @@
         "3" : { },
         "4" : { },
         "5" : { },
-"6": {},
-"7": {}
+        "6" : { },
+        "7" : { }
     },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : {
         "0" : {
             "exceptional_attribute_body" : 50
@@ -192,8 +192,8 @@
         "6" : {
             "exceptional_attribute_willpower" : 50
         },
-"7": {
-"exceptional_attribute_edge": 50
+        "7" : {
+            "exceptional_attribute_edge" : 50
         }
     },
     "flexibleXPPickCount" : 1

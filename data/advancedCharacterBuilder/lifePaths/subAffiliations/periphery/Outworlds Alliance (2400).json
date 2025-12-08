@@ -20,10 +20,10 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 250,
+    "xpCost" : 250,
     "source" : "Era Report 2750",
     "name" : "Outworlds Alliance (2400)",
     "flavorText" : "I come from the Outworlds Alliance, where peace is our strength. We choose unity over conquest, and though the Inner Sphere calls us weak, we know the true power of living free from endless war.",
@@ -54,7 +54,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -80,7 +80,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -97,16 +97,16 @@
     "fixedXPAttributes" : {
         "0" : {
             "DEXTERITY" : 50,
-"INTELLIGENCE": -50,
-"WILLPOWER": 50
+            "INTELLIGENCE" : -50,
+            "WILLPOWER" : 50
         }
     },
-"fixedXPEdge": {
-"0" : -50
-},
-"fixedXPFlexibleAttribute": {
-"0": null
-},
+    "fixedXPEdge" : {
+        "0" : -50
+    },
+    "fixedXPFlexibleAttribute" : {
+        "0" : null
+    },
     "fixedXPTraits" : {
         "0" : {
             "EQUIPPED" : -50
@@ -124,6 +124,7 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
             "exceptional_attribute_dexterity" : 100,
@@ -134,8 +135,7 @@
         "0" : { },
         "1" : { }
     },
-"flexibleXPEdge": {
-},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },
@@ -153,6 +153,7 @@
         "0" : { },
         "1" : { }
     },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : {
         "0" : { },
         "1" : { }

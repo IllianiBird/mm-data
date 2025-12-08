@@ -20,10 +20,10 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 240,
+    "xpCost" : 240,
     "source" : "Unofficial",
     "name" : "Star League Service - Magistracy of Canopus",
     "flavorText" : "I serve the Star League as a child of Canopus—our strength is not only in war, but in the freedom and spirit we bring to a galaxy ruled by crowns and chains.",
@@ -53,7 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -79,7 +79,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -99,12 +99,12 @@
             "CHARISMA" : -50
         }
     },
-    "fixedXPEdge": {
-    "0": -50
+    "fixedXPEdge" : {
+        "0" : -50
     },
-"fixedXPFlexibleAttribute": {
-"0": null
-},
+    "fixedXPFlexibleAttribute" : {
+        "0" : null
+    },
     "fixedXPTraits" : {
         "0" : {
             "REPUTATION" : 100,
@@ -122,16 +122,17 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {
-},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : { },
     "flexibleXPPickCount" : 0
 }

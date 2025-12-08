@@ -20,11 +20,11 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 100,
-        "source" : "A Time of War",
+    "xpCost" : 100,
+    "source" : "A Time of War",
     "name" : "Terran Hegemony (2400)",
     "flavorText" : "I walk the soil where humanity first reached for the stars. I don’t just carry history—I carry the burden of proving we were worthy of it.",
     "age" : 0,
@@ -53,7 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -79,7 +79,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -98,12 +98,12 @@
             "INTELLIGENCE" : 100
         }
     },
-"fixedXPEdge": {
-"0": -150
-},
-"fixedXPFlexibleAttribute": {
-"0" : null
-},
+    "fixedXPEdge" : {
+        "0" : -150
+    },
+    "fixedXPFlexibleAttribute" : {
+        "0" : null
+    },
     "fixedXPTraits" : {
         "0" : {
             "REPUTATION" : 100
@@ -117,6 +117,7 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
             "compulsion_faction_pride" : -75
@@ -142,8 +143,7 @@
             "CHARISMA" : 50
         }
     },
-"flexibleXPEdge": {
-},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },
@@ -169,6 +169,7 @@
         "4" : { },
         "5" : { }
     },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : {
         "0" : { },
         "1" : { },

@@ -20,10 +20,10 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 25,
+    "xpCost" : 25,
     "source" : "A Time of War",
     "name" : "Free Rasalhague Republic (3063)",
     "flavorText" : "I grew up in a republic carved from struggle, and though the Clans circle like wolves, I’ll fight to prove Rasalhague’s spirit cannot be broken.",
@@ -55,7 +55,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -81,7 +81,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -100,12 +100,12 @@
             "WILLPOWER" : 25
         }
     },
-"fixedXPEdge": {
-"0": -25
-},
-"fixedXPFlexibleAttribute": {
-"0" : null
-},
+    "fixedXPEdge" : {
+        "0" : -25
+    },
+    "fixedXPFlexibleAttribute" : {
+        "0" : null
+    },
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -119,16 +119,17 @@
             "ROLEPLAY_INTEREST" : 10
         }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {
-},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : { },
     "flexibleXPPickCount" : 0
 }

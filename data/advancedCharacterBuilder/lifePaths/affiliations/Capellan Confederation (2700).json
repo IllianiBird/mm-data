@@ -20,10 +20,10 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 150,
+    "xpCost" : 150,
     "source" : "Era Report: 2750",
     "name" : "Capellan Confederation (2700)",
     "flavorText" : "I am Capellan, bound to my Chancellor and my House. In loyalty I find strength, and in service I find purpose—our unity is our greatest weapon.",
@@ -54,7 +54,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -80,7 +80,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -99,7 +99,7 @@
             "WILLPOWER" : 50
         }
     },
-"fixedXPEdge": {},
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : { }
@@ -115,17 +115,19 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
-    "0": {
-    "exceptional_attribute_edge": 50
-    }
+        "0" : {
+            "exceptional_attribute_edge" : 50
+        }
     },
     "flexibleXPAttributes" : { },
-    "flexibleXPEdge": { },
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : { },
     "flexibleXPPickCount" : 0
 }

@@ -20,7 +20,7 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
     "xpCost" : 50,
@@ -53,7 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : {
         "0" : null
     },
@@ -81,7 +81,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : {
         "0" : null
     },
@@ -104,14 +104,14 @@
             "WILLPOWER" : 25
         }
     },
-"fixedXPEdge" : {},
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
     "fixedXPTraits" : {
         "0" : {
-    "EQUIPPED": 25,
-"REPUTATION": -50
+            "EQUIPPED" : 25,
+            "REPUTATION" : -50
         }
     },
     "fixedXPSkills" : {
@@ -126,19 +126,21 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
-"atow_toughness": 40,
-"compulsion_other_faction_hate": -100,
-"flaw_impatient" : -50
+            "atow_toughness" : 40,
+            "compulsion_other_faction_hate" : -100,
+            "flaw_impatient" : -50
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : { },
     "flexibleXPPickCount" : 0
 }

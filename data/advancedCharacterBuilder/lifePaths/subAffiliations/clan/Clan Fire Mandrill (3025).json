@@ -20,7 +20,7 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
     "xpCost" : 145,
@@ -53,7 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -79,7 +79,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -98,7 +98,7 @@
             "WILLPOWER" : 25
         }
     },
-"fixedXPEdge": {},
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : {
         "0" : 75
     },
@@ -118,6 +118,7 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
             "compulsion_religious_fanaticism" : -25,
@@ -174,15 +175,14 @@
         "46" : { },
         "47" : { },
         "48" : { },
-"49": {},
-"50": {},
-"51": {},
-"52": {},
-"53": {},
-"54": {}
+        "49" : { },
+        "50" : { },
+        "51" : { },
+        "52" : { },
+        "53" : { },
+        "54" : { }
     },
-"flexibleXPEdge": {
-},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { }
@@ -337,21 +337,21 @@
         },
         "49" : {
             "Tactics/Any" : 10
-},
-"50": {
-"Leadership": 10
-},
-"51": {
-"Melee Weapons (RP Only)": 10
-},
-"52" : {
-"Negotiation": 10
-},
-"53": {
-"Perception (RP Only)": 10
-},
-"54": {
-"Tactics/Any": 10
+        },
+        "50" : {
+            "Leadership" : 10
+        },
+        "51" : {
+            "Melee Weapons (RP Only)" : 10
+        },
+        "52" : {
+            "Negotiation" : 10
+        },
+        "53" : {
+            "Perception (RP Only)" : 10
+        },
+        "54" : {
+            "Tactics/Any" : 10
         }
     },
     "flexibleXPMetaSkills" : {
@@ -404,85 +404,86 @@
         "46" : { },
         "47" : { },
         "48" : { },
-"49": {},
-"50": { },
-"51": {},
-"52": { },
-"53": {},
-"54": { }
+        "49" : { },
+        "50" : { },
+        "51" : { },
+        "52" : { },
+        "53" : { },
+        "54" : { }
     },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : {
         "0" : {
             "atow_combat_sense" : 150
         },
         "1" : {
-"atow_combat_sense": 150
+            "atow_combat_sense" : 150
         },
         "2" : {
-        "atow_combat_sense": 150
+            "atow_combat_sense" : 150
         },
         "3" : {
-        "atow_combat_sense": 150
+            "atow_combat_sense" : 150
         },
         "4" : {
-"atow_combat_sense": 150
+            "atow_combat_sense" : 150
         },
         "5" : {
-"atow_fast_learner" : 150
+            "atow_fast_learner" : 150
         },
         "6" : {
-"atow_fast_learner": 150
+            "atow_fast_learner" : 150
         },
         "7" : {
-        "atow_fast_learner": 150
+            "atow_fast_learner" : 150
         },
         "8" : {
-        "atow_fast_learner": 150
+            "atow_fast_learner" : 150
         },
         "9" : {
-"atow_fast_learner": 150
+            "atow_fast_learner" : 150
         },
         "10" : {
-"atow_sixth_sense" : 150
+            "atow_sixth_sense" : 150
         },
         "11" : {
-"atow_sixth_sense": 150
+            "atow_sixth_sense" : 150
         },
         "12" : {
             "atow_sixth_sense" : 150
         },
         "13" : {
-        "atow_sixth_sense": 150
+            "atow_sixth_sense" : 150
         },
         "14" : {
-"atow_sixth_sense": 150
+            "atow_sixth_sense" : 150
         },
         "15" : {
-"exceptional_attribute_strength" : 150
+            "exceptional_attribute_strength" : 150
         },
         "16" : {
-"exceptional_attribute_strength": 150
+            "exceptional_attribute_strength" : 150
         },
         "17" : {
-        "exceptional_attribute_strength": 150
+            "exceptional_attribute_strength" : 150
         },
         "18" : {
-        "exceptional_attribute_strength": 150
+            "exceptional_attribute_strength" : 150
         },
         "19" : {
-"exceptional_attribute_strength": 150
+            "exceptional_attribute_strength" : 150
         },
         "20" : {
-"exceptional_attribute_body" : 150
+            "exceptional_attribute_body" : 150
         },
         "21" : {
-"exceptional_attribute_body": 150
+            "exceptional_attribute_body" : 150
         },
         "22" : {
-        "exceptional_attribute_body": 150
+            "exceptional_attribute_body" : 150
         },
         "23" : {
-        "exceptional_attribute_body": 150
+            "exceptional_attribute_body" : 150
         },
         "24" : {
             "exceptional_attribute_body" : 150
@@ -491,91 +492,91 @@
             "exceptional_attribute_reflexes" : 150
         },
         "26" : {
-        "exceptional_attribute_reflexes": 150
+            "exceptional_attribute_reflexes" : 150
         },
         "27" : {
-        "exceptional_attribute_reflexes": 150
+            "exceptional_attribute_reflexes" : 150
         },
         "28" : {
-        "exceptional_attribute_reflexes": 150
+            "exceptional_attribute_reflexes" : 150
         },
         "29" : {
-        "exceptional_attribute_reflexes": 150
+            "exceptional_attribute_reflexes" : 150
         },
         "30" : {
-        "exceptional_attribute_dexterity" : 150
+            "exceptional_attribute_dexterity" : 150
         },
         "31" : {
-        "exceptional_attribute_dexterity": 150
+            "exceptional_attribute_dexterity" : 150
         },
         "32" : {
-        "exceptional_attribute_dexterity": 150
+            "exceptional_attribute_dexterity" : 150
         },
         "33" : {
-        "exceptional_attribute_dexterity": 150
+            "exceptional_attribute_dexterity" : 150
         },
         "34" : {
-"exceptional_attribute_dexterity": 150
+            "exceptional_attribute_dexterity" : 150
         },
         "35" : {
-"exceptional_attribute_intelligence" : 150
+            "exceptional_attribute_intelligence" : 150
         },
         "36" : {
-"exceptional_attribute_intelligence": 150
+            "exceptional_attribute_intelligence" : 150
         },
         "37" : {
             "exceptional_attribute_intelligence" : 150
         },
         "38" : {
-        "exceptional_attribute_intelligence": 150
+            "exceptional_attribute_intelligence" : 150
         },
         "39" : {
-"exceptional_attribute_intelligence": 150
+            "exceptional_attribute_intelligence" : 150
         },
         "40" : {
-"exceptional_attribute_willpower" : 150
+            "exceptional_attribute_willpower" : 150
         },
         "41" : {
-"exceptional_attribute_willpower": 150
+            "exceptional_attribute_willpower" : 150
         },
         "42" : {
-        "exceptional_attribute_willpower": 150
+            "exceptional_attribute_willpower" : 150
         },
         "43" : {
-        "exceptional_attribute_willpower": 150
+            "exceptional_attribute_willpower" : 150
         },
         "44" : {
-"exceptional_attribute_willpower": 150
+            "exceptional_attribute_willpower" : 150
         },
         "45" : {
-"exceptional_attribute_charisma" : 150
+            "exceptional_attribute_charisma" : 150
         },
         "46" : {
-"exceptional_attribute_charisma": 150
+            "exceptional_attribute_charisma" : 150
         },
         "47" : {
-        "exceptional_attribute_charisma": 150
+            "exceptional_attribute_charisma" : 150
         },
         "48" : {
-        "exceptional_attribute_charisma": 150
+            "exceptional_attribute_charisma" : 150
         },
         "49" : {
             "exceptional_attribute_charisma" : 150
-},
-"50": {
-"exceptional_attribute_edge" : 150
-},
-"51": {
-"exceptional_attribute_edge": 150
-},
-"52": {
-"exceptional_attribute_edge": 150
-},
-"53": {
-"exceptional_attribute_edge": 150
-},
-"54": {
-"exceptional_attribute_edge": 150
+        },
+        "50" : {
+            "exceptional_attribute_edge" : 150
+        },
+        "51" : {
+            "exceptional_attribute_edge" : 150
+        },
+        "52" : {
+            "exceptional_attribute_edge" : 150
+        },
+        "53" : {
+            "exceptional_attribute_edge" : 150
+        },
+        "54" : {
+            "exceptional_attribute_edge" : 150
         }
     },
     "flexibleXPPickCount" : 1

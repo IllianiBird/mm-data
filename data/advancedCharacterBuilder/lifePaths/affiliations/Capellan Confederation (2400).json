@@ -20,10 +20,10 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 25,
+    "xpCost" : 25,
     "source" : "A Time of War",
     "name" : "Capellan Confederation (2400)",
     "flavorText" : "I serve the Chancellor, not because I must—but because only they have the will to build a future where we are more than pawns in someone else's game.",
@@ -53,7 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -79,7 +79,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -98,12 +98,12 @@
             "WILLPOWER" : 50
         }
     },
-"fixedXPEdge": {
-"0": 50
-},
-"fixedXPFlexibleAttribute": {
-"0" : null
-},
+    "fixedXPEdge" : {
+        "0" : 50
+    },
+    "fixedXPFlexibleAttribute" : {
+        "0" : null
+    },
     "fixedXPTraits" : {
         "0" : { }
     },
@@ -117,17 +117,19 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
             "compulsion_mild_paranoia" : -100
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge" : {},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : { },
     "flexibleXPPickCount" : 0
 }

@@ -20,10 +20,10 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 75,
+    "xpCost" : 75,
     "source" : "Era Digest Golden Century",
     "name" : "Clan Wolf (2800)",
     "flavorText" : "I am Clan Wolf—fierce, cunning, and loyal to the path I choose. My strength is adaptability, and through it I claim victory where others fall.",
@@ -53,7 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : {
         "0" : null
     },
@@ -81,7 +81,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : {
         "0" : null
     },
@@ -99,13 +99,13 @@
     },
     "fixedXPAttributes" : {
         "0" : {
-"WILLPOWER": 25,
-"INTELLIGENCE" : 25
+            "WILLPOWER" : 25,
+            "INTELLIGENCE" : 25
         }
     },
-"fixedXPEdge": {
-"0": 50
-},
+    "fixedXPEdge" : {
+        "0" : 50
+    },
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -124,6 +124,7 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
             "compulsion_unpleasant_personality" : -100
@@ -136,7 +137,7 @@
         "3" : { },
         "4" : { }
     },
-"flexibleXPEdge": {},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : {
         "0" : null,
         "1" : null,
@@ -175,6 +176,7 @@
         "3" : { },
         "4" : { }
     },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : {
         "0" : { },
         "1" : { },

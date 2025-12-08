@@ -20,7 +20,7 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
     "xpCost" : 75,
@@ -30,7 +30,7 @@
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3025,
-"maximumYear": 3052,
+    "maximumYear" : 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -53,7 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : {
         "0" : null
     },
@@ -81,7 +81,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : {
         "0" : null
     },
@@ -104,7 +104,7 @@
             "CHARISMA" : -50
         }
     },
-"fixedXPEdge" : {},
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -124,19 +124,21 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
             "exceptional_attribute_willpower" : 100,
             "flaw_introvert" : -50,
-"compulsion_faction_loyalty": -50
+            "compulsion_faction_loyalty" : -50
         }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : { },
     "flexibleXPPickCount" : 0
 }

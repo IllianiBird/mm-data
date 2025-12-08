@@ -20,17 +20,17 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 105,
+    "xpCost" : 105,
     "source" : "Era Report 3052",
     "name" : "Magistracy of Canopus (3025)",
     "flavorText" : "I come from the Magistracy of Canopus, where freedom shapes every life. We thrive in culture and commerce, proud to stand apart from the wars that consume the Inner Sphere.",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3025,
-"maximumYear": 3051,
+    "maximumYear" : 3051,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -54,7 +54,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : {
         "0" : null
     },
@@ -82,7 +82,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : {
         "0" : null
     },
@@ -100,13 +100,13 @@
     },
     "fixedXPAttributes" : {
         "0" : {
-"WILLPOWER": 25,
-"CHARISMA" : 100
+            "WILLPOWER" : 25,
+            "CHARISMA" : 100
         }
     },
-"fixedXPEdge": {
-"0": 100
-},
+    "fixedXPEdge" : {
+        "0" : 100
+    },
     "fixedXPFlexibleAttribute" : {
         "0" : null
     },
@@ -124,6 +124,7 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
             "flaw_illiterate" : -50,
@@ -134,7 +135,7 @@
         "0" : { },
         "1" : { }
     },
-"flexibleXPEdge": {},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : {
         "0" : null,
         "1" : null
@@ -155,6 +156,7 @@
         "0" : { },
         "1" : { }
     },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : {
         "0" : { },
         "1" : { }

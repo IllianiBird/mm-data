@@ -20,11 +20,11 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
     "xpCost" : 0,
-        "source" : "Interstellar Operations",
+    "source" : "Interstellar Operations",
     "name" : "The Barrens",
     "flavorText" : "I was born in the Barrens, where law is a myth and survival is the only creed. Out here, you carve your place—or vanish into the void.",
     "age" : 0,
@@ -53,7 +53,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -79,7 +79,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -95,20 +95,20 @@
     },
     "fixedXPAttributes" : {
         "0" : {
-"WILLPOWER": 20
+            "WILLPOWER" : 20
         }
     },
-"fixedXPEdge": {
-"0": 20
-},
-"fixedXPFlexibleAttribute": {
-"0" : null
-},
+    "fixedXPEdge" : {
+        "0" : 20
+    },
+    "fixedXPFlexibleAttribute" : {
+        "0" : null
+    },
     "fixedXPTraits" : {
         "0" : {
-"EQUIPPED": 80,
-"WEALTH": -10,
-"REPUTATION": -110
+            "EQUIPPED" : 80,
+            "WEALTH" : -10,
+            "REPUTATION" : -110
         }
     },
     "fixedXPSkills" : {
@@ -117,16 +117,17 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : { }
     },
     "flexibleXPAttributes" : { },
-"flexibleXPEdge": {
-},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : { },
     "flexibleXPPickCount" : 0
 }

@@ -20,11 +20,11 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
-        "xpCost": 100,
-        "source" : "A Time of War",
+    "xpCost" : 100,
+    "source" : "A Time of War",
     "name" : "Terran (2781)",
     "flavorText" : "I am Terran—child of humanity’s cradle. Every step I take carries the weight of history, and every choice I make shapes the legacy of our homeworld.",
     "age" : 0,
@@ -54,7 +54,7 @@
     "requirementsAttributes" : {
         "0" : { }
     },
-"requirementsEdge": {},
+    "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : {
         "0" : { }
@@ -80,7 +80,7 @@
     "exclusionsAttributes" : {
         "0" : { }
     },
-"exclusionsEdge": {},
+    "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
     "exclusionsTraits" : {
         "0" : { }
@@ -99,12 +99,12 @@
             "INTELLIGENCE" : 100
         }
     },
-"fixedXPEdge": {
-"0": -150
-},
-"fixedXPFlexibleAttribute": {
-"0" : null
-},
+    "fixedXPEdge" : {
+        "0" : -150
+    },
+    "fixedXPFlexibleAttribute" : {
+        "0" : null
+    },
     "fixedXPTraits" : {
         "0" : {
             "REPUTATION" : 100
@@ -118,9 +118,10 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
-        "compulsion_unpleasant_personality": -75
+            "compulsion_unpleasant_personality" : -75
         }
     },
     "flexibleXPAttributes" : {
@@ -143,8 +144,7 @@
             "CHARISMA" : 50
         }
     },
-"flexibleXPEdge": {
-},
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : {
         "0" : { },
@@ -170,6 +170,7 @@
         "4" : { },
         "5" : { }
     },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : {
         "0" : { },
         "1" : { },

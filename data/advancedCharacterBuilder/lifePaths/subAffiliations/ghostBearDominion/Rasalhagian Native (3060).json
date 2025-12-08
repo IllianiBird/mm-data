@@ -20,7 +20,7 @@
     "version" : {
         "major" : 0,
         "minor" : 50,
-"patch": 11,
+        "patch" : 11,
         "extra" : ""
     },
     "xpCost" : 75,
@@ -36,8 +36,8 @@
         "SUB_AFFILIATION"
     ],
     "categories" : [
-"GENERAL_INNER_SPHERE",
-"GENERAL_CLAN"
+        "GENERAL_CLAN",
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
@@ -131,6 +131,7 @@
             "ROLEPLAY_INTEREST" : 10
         }
     },
+    "fixedXPNaturalAptitudes" : { },
     "fixedXPAbilities" : {
         "0" : {
             "flaw_introvert" : -25
@@ -142,6 +143,7 @@
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPAbilities" : { },
     "flexibleXPPickCount" : 0
 }
