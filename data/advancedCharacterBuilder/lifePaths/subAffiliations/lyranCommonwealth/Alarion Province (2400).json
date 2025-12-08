@@ -23,7 +23,7 @@
         "patch" : 11,
         "extra" : ""
     },
-    "xpCost" : 65,
+    "xpCost" : 130,
     "source" : "Era Report 2750",
     "name" : "Alarion Province (2400)",
     "flavorText" : "I come from the Alarion Province, where industry and loyalty bind us to the Commonwealth. Though far from the capital, our strength fuels the Lyran state, and we take pride in that duty.",
@@ -109,9 +109,10 @@
     },
     "fixedXPSkills" : {
         "0" : {
+            "Communications/Any" : 25,
             "Survival/Any (RP Only)" : 20,
-            "Career/Any (RP Only)" : 15,
-            "Communications/Any (RP Only)" : 25
+            "Communications/Any (RP Only)" : 25,
+            "Career/Any (RP Only)" : 15
         }
     },
     "fixedXPMetaSkills" : {
@@ -124,7 +125,7 @@
     "fixedXPAbilities" : {
         "0" : {
             "atow_fit" : 25,
-            "compulsion_other_faction_hate" : -50
+            "compulsion_parent_faction_hate" : -50
         }
     },
     "flexibleXPAttributes" : {
@@ -138,19 +139,25 @@
         "1" : { }
     },
     "flexibleXPSkills" : {
-        "0" : {
-            "Survival/Any (RP Only)" : 10
-        },
+        "0" : { },
         "1" : { }
     },
     "flexibleXPMetaSkills" : {
         "0" : { },
+        "1" : { }
+    },
+    "flexibleXPNaturalAptitudes" : {
+        "0" : {
+            "Survival/Any (RP Only)" : 50
+        },
+        "1" : { }
+    },
+    "flexibleXPNaturalAptitudesMetaSkills" : {
+        "0" : { },
         "1" : {
-            "SUPPORT_TECHNICIAN" : 10
+            "SUPPORT_TECHNICIAN" : 50
         }
     },
-    "flexibleXPNaturalAptitudes" : { },
-    "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : {
         "0" : { },
         "1" : { }
