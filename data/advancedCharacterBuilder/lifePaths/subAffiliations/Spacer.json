@@ -124,15 +124,21 @@
     },
     "fixedXPSkills" : {
         "0" : {
-            "Zero-G Operations" : 30,
-            "Career/Any (RP Only)" : 10
+            "Career/Any (RP Only)" : 10,
+            "Zero-G Operations" : 10
         }
     },
     "fixedXPMetaSkills" : {
         "0" : { }
     },
-    "fixedXPNaturalAptitudes" : { },
-    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPNaturalAptitudes" : {
+        "0" : {
+            "Zero-G Operations" : 20
+        }
+    },
+    "fixedXPNaturalAptitudesMetaSkills" : {
+        "0" : { }
+    },
     "fixedXPAbilities" : {
         "0" : {
             "atow_g_tolerance" : 20,

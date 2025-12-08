@@ -119,7 +119,6 @@
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 10,
             "Negotiation" : 15,
             "Protocols/Any (RP Only)" : 15
         }
@@ -127,8 +126,14 @@
     "fixedXPMetaSkills" : {
         "0" : { }
     },
-    "fixedXPNaturalAptitudes" : { },
-    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPNaturalAptitudes" : {
+        "0" : {
+            "Martial Arts" : 10
+        }
+    },
+    "fixedXPNaturalAptitudesMetaSkills" : {
+        "0" : { }
+    },
     "fixedXPAbilities" : {
         "0" : {
             "compulsion_xenophobia" : -10
