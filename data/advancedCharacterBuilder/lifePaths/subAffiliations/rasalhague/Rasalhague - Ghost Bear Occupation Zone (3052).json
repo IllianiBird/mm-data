@@ -36,8 +36,8 @@
         "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE",
-        "GENERAL_CLAN"
+        "GENERAL_CLAN",
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
@@ -121,11 +121,11 @@
     },
     "fixedXPSkills" : {
         "0" : {
+            "Martial Arts" : 20,
             "Negotiation" : 10,
             "Small Arms" : 10,
-            "Martial Arts (RP Only)" : 20,
-            "Protocols/Any (RP Only)" : 10,
-            "Melee Weapons (RP Only)" : 15
+            "Melee Weapons" : 15,
+            "Protocols/Any (RP Only)" : 10
         }
     },
     "fixedXPMetaSkills" : {
