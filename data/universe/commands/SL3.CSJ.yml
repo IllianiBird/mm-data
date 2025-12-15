@@ -1,0 +1,44 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: SL3.CSJ
+name: Star League (Clan Smoke Jaguar)
+capital: New Home
+yearsActive:
+  - start: 3151
+tags:
+  - MINOR
+  - CLAN
+logo: Clan/Clan Smoke Jaguar.png
+background: Clan/Clan Smoke Jaguar.png
+camos: Star League Defense Force/SLDF Drab.jpg
+nameGenerator: Clan
+ratingLevels:
+  - F
+  - D
+  - C
+  - B
+  - A
+fallBackFactions:
+  - SL3
+  - CLAN.IS
+factionLeaders:
+  - title: "Khan"
+    firstName: "Prohaska"
+    surname: "Moon"
+    gender: "FEMALE"
+    startYear: 3151

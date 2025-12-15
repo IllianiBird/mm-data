@@ -1,58 +1,38 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
-#
-# NOTICE: The MegaMek organization is a non-profit group of volunteers
-# creating free software for the BattleTech community.
-#
-# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
-# of The Topps Company, Inc. All Rights Reserved.
-#
-# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
-# InMediaRes Productions, LLC.
-#
-# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
-# Microsoft's "Game Content Usage Rules"
-# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
-# affiliated with Microsoft.
-
+generator:MegaMek Suite 0.50.11 on 2025-12-08
 chassis:Falconer
 model:FLC-8R
 mul id:1033
 
 Config:Biped
-TechBase:Inner Sphere
-Era:3053
-Source:TR:3055U
-Rules Level:2
+techbase:Inner Sphere
+era:3053
+source:TR:3055U
+rules level:2
 role:Skirmisher
-
-
-
 
 quirk:stable
 
+mass:75
+engine:375 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:75
-Engine:375 XL Engine
-Structure:Endo Steel
-Myomer:Standard
+heat sinks:10 IS Double
+walk mp:5
+jump mp:5
 
-Heat Sinks:10 Double
-Walk MP:5
-Jump MP:5
-
-Armor:Standard(Inner Sphere)
-LA Armor:19
-RA Armor:19
-LT Armor:21
-RT Armor:21
-CT Armor:31
-HD Armor:9
-LL Armor:22
-RL Armor:22
-RTL Armor:6
-RTR Armor:6
-RTC Armor:8
+armor:Standard(Inner Sphere)
+LA armor:19
+RA armor:19
+LT armor:21
+RT armor:21
+CT armor:31
+HD armor:9
+LL armor:22
+RL armor:22
+RTL armor:6
+RTR armor:6
+RTC armor:8
 
 Weapons:6
 ER PPC, Left Arm
@@ -69,8 +49,8 @@ Lower Arm Actuator
 ISERPPC
 ISERPPC
 ISERPPC
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -87,8 +67,8 @@ ISGaussRifle
 ISGaussRifle
 ISGaussRifle
 ISGaussRifle
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -96,10 +76,10 @@ Fusion Engine
 Fusion Engine
 Medium Laser
 Medium Laser
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -112,10 +92,10 @@ Medium Laser
 Medium Laser
 IS Gauss Ammo
 IS Gauss Ammo
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 
 Center Torso:
@@ -130,13 +110,13 @@ Fusion Engine
 Fusion Engine
 Fusion Engine
 Jump Jet
-Endo Steel
+IS Endo Steel
 
 Head:
 Life Support
 Sensors
 Cockpit
-Endo Steel
+IS Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -174,4 +154,24 @@ Jump Jet
 -Empty-
 -Empty-
 
+overview:<p>Shortly before his death in 3052, Archon-Prince Hanse Davion issued a directive to develop a BattleMech capable of defeating Clan OmniMechs in single combat. His specific mandate was to create a design that would "tame the Jade Falcons." Whether the resulting name was intentional irony or a designer's jest remains unknown, but the Falconer designation stuck. Entering production in 3053, TharHes Industries delivered a seventy-five-ton heavy BattleMech that represented the pinnacle of recovered Star League technology married to insights gleaned from captured Clan equipment. The Falconer was engineered from the ground up as an anti-Clan platform, incorporating the best technologies the Federated Commonwealth could muster in response to the existential threat posed by the Clan Invasion.</p>
+capabilities:<p>The Falconer's design philosophy centered on matching Clan weapons at their preferred engagement ranges. The Poland Main Model A Gauss rifle serves as the primary armament, capable of inflicting devastating damage at extreme distances without generating waste heat. Backing this weapon is a Defiance 1001 extended-range particle projection cannon, providing similar reach with slightly less hitting power but eliminating ammunition dependency. For close-quarters engagements, four Defiance B3M medium lasers deliver a punishing alpha strike against any enemy that closes the distance.</p>
+
+<p>TharHes engineers borrowed heavily from Clan design principles when constructing the chassis. The McLarren-75B modified endo steel frame saves considerable weight, while eleven and a half tons of Valiant Chainmail armor provide solid protection for a design intended to trade fire with Clan machines. The General Motors 375 extralight engine propels the Falconer to speeds of eighty-six kilometers per hour, and five Devil A7 jump jets grant one hundred fifty meters of jumping distance—making it one of the most mobile heavy BattleMechs in Inner Sphere service. The design's primary weakness lies in heat management; ten double-strength heat sinks prove insufficient for sustained fire from the full weapons complement, forcing pilots to carefully manage their engagement tempo.</p>
+deployment:The standard Falconer configuration pairs a Poland Main Model A Gauss rifle with a Defiance 1001 extended-range PPC, providing accurate long-range firepower designed to match Clan weapons at their preferred engagement distances. Four Defiance B3M medium lasers deliver close-range stopping power when enemies close the gap. The design's combination of an extralight engine and five jump jets grants exceptional mobility for a seventy-five-ton platform, allowing pilots to dictate engagement terms. The Falconer's inherent stability makes it an effective mobile fire support platform. However, the ten double-strength heat sinks cannot sustain continuous fire from the full weapons complement, requiring disciplined heat management.</p>
+history:<p>The Falconer's combat debut came during the controversial FedCom raid on Sudeten in 3054. The Fifth and Twelfth Deneb Light Cavalry regiments carried five prototype Falconers into battle against Clan Jade Falcon forces. Though the operation was ultimately deemed a military failure in terms of strategic objectives, it succeeded in liberating hundreds of prisoners of war and proved the Falconer concept beyond any doubt. MechWarriors piloting those five prototypes recorded an impressive twenty-one confirmed kills against Clan opposition. Only one Falconer remained operational when the surviving forces withdrew from Sudeten, but the design's performance against frontline Clan OmniMechs convinced Armed Forces of the Federated Commonwealth leadership to authorize immediate full-scale production.</p>
+
+<p>Elite formations received priority allocation during initial production runs. The Davion Heavy Guards, Tenth Deneb Light Cavalry, and Twenty-third Arcturan Guards were among the first units to field the new design in significant numbers. The Falconer's reputation for reliability and battlefield effectiveness spread quickly, driving demand throughout both the Federated Suns and Lyran militaries. The design saw action during Operation Guerrero, where Falconers clashed with Capellan forces including McCarron's Armored Cavalry on worlds throughout the contested regions.</p>
+
+<p>Following Archon Katherine Steiner-Davion's seizure of power on New Avalon, General Motors secured a production license for their New Valencia facility. This expansion transformed the Falconer into one of the most prominent new BattleMech designs serving both the Armed Forces of the Federated Suns and the Lyran Alliance Armed Forces. The Com Guards and the reconstituted Star League Defense Force also began procurement shortly after the Second Star League's formation, with Falconers serving in the Com Guards' Second Division during Operation Serpent. The brutal fighting on Huntress demonstrated the design's ability to stand against Clan opposition in sustained combat operations.</p>
+
+<p>The Jihad inflicted severe damage on Falconer production capacity. Word of Blake forces attacked the TharHes Industries facility in the Lyran Commonwealth, halting production there for an extended period. This disruption contributed to the development of the FLC-9R variant, which utilized more readily available weapons systems to maintain production during the conflict. Despite these setbacks, the Falconer remains a respected and sought-after design throughout the Inner Sphere, its reputation secured by decades of proven combat performance against the most dangerous opponents the galaxy has produced.</p>
+manufacturer:General Motors,TharHes Industries 
+primaryfactory:New Valencia,Tharkad 
+systemmanufacturer:CHASSIS:McLarren-75B
+systemmanufacturer:ENGINE:GM 375 XL
+systemmanufacturer:ARMOR:Valiant Chainmail
+systemmanufacturer:JUMP_JET:Devil A7
+systemmanufacturer:COMMUNICATIONS:TharHes Calliope ZE-2
+systemmanufacturer:TARGETING:TharHes Ares-7i
 
