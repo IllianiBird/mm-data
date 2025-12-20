@@ -1,30 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
-#
-# NOTICE: The MegaMek organization is a non-profit group of volunteers
-# creating free software for the BattleTech community.
-#
-# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
-# of The Topps Company, Inc. All Rights Reserved.
-#
-# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
-# InMediaRes Productions, LLC.
-#
-# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
-# Microsoft's "Game Content Usage Rules"
-# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
-# affiliated with Microsoft.
-
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.11 on 2025-12-17
 <UnitType>
 Tank
 </UnitType>
@@ -44,6 +18,10 @@ Huitzilopochtli Assault Tank 'Huey'
 <year>
 3070
 </year>
+
+<originalBuildYear>
+3070
+</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -65,13 +43,21 @@ Tracked
 6
 </engine_type>
 
+<clan_engine>
+false
+</clan_engine>
+
 <armor_type>
 6
 </armor_type>
 
-<armor_tech>
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
 6
-</armor_tech>
+</armor_tech_level>
 
 <armor>
 28
@@ -90,10 +76,10 @@ CLArrowIVAmmo
 CLArrowIVHomingAmmo
 CLArrowIVHomingAmmo
 CLArrowIVHomingAmmo
-HAG/20 Ammo
-HAG/20 Ammo
-HAG/20 Ammo
-HAG/20 Ammo
+Hyper-Assault Gauss Rifle/20 Ammo
+Hyper-Assault Gauss Rifle/20 Ammo
+Hyper-Assault Gauss Rifle/20 Ammo
+Hyper-Assault Gauss Rifle/20 Ammo
 Clan Machine Gun Ammo - Half
 </Body Equipment>
 
@@ -116,7 +102,6 @@ CLMG
 <Turret Equipment>
 CLHAG20
 CLHAG20
-CLCASE
 </Turret Equipment>
 
 <source>
@@ -126,3 +111,5 @@ TR:3060
 <tonnage>
 85.0
 </tonnage>
+
+
