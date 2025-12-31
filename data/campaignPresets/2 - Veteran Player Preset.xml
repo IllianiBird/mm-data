@@ -17,7 +17,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 -->
-<campaignPreset version="0.50.10">
+<campaignPreset version="0.50.11">
     <title>2 - Veteran Player Preset</title>
     <description><![CDATA[This preset offers the full MekHQ experience, with nearly all options enabled and balanced for a long-lasting campaign.
 <br>
@@ -220,7 +220,7 @@
         <factionIntroDate>false</factionIntroDate>
         <useAmmoByType>true</useAmmoByType>
         <waitingPeriod>1</waitingPeriod>
-        <acquisitionSkill>Administration</acquisitionSkill>
+        <acquisitionsType>ADMINISTRATION</acquisitionsType>
         <useFunctionalAppraisal>true</useFunctionalAppraisal>
         <acquisitionPersonnelCategory>LOGISTICS</acquisitionPersonnelCategory>
         <techLevel>3</techLevel>
@@ -237,6 +237,8 @@
         <dropShipContractPercent>0.0</dropShipContractPercent>
         <jumpShipContractPercent>0.0</jumpShipContractPercent>
         <warShipContractPercent>0.0</warShipContractPercent>
+        <useAlternatePaymentMode>true</useAlternatePaymentMode>
+        <useDiminishingContractPay>true</useDiminishingContractPay>
         <equipmentContractBase>true</equipmentContractBase>
         <equipmentContractSaleValue>true</equipmentContractSaleValue>
         <blcSaleValue>true</blcSaleValue>
@@ -333,14 +335,14 @@
         <salaryAntiMekMultiplier>1.5</salaryAntiMekMultiplier>
         <salarySpecialistInfantryMultiplier>1.28</salarySpecialistInfantryMultiplier>
         <salaryXPMultipliers>
-            <NONE>0.5</NONE>
-            <ULTRA_GREEN>0.6</ULTRA_GREEN>
-            <GREEN>0.6</GREEN>
+            <ELITE>3.2</ELITE>
             <VETERAN>1.6</VETERAN>
             <REGULAR>1.0</REGULAR>
-            <ELITE>3.2</ELITE>
-            <HEROIC>6.4</HEROIC>
+            <GREEN>0.6</GREEN>
             <LEGENDARY>12.8</LEGENDARY>
+            <NONE>0.5</NONE>
+            <ULTRA_GREEN>0.6</ULTRA_GREEN>
+            <HEROIC>6.4</HEROIC>
         </salaryXPMultipliers>
         <salaryTypeBase>1500 CSB,2250 CSB,900 CSB,900 CSB,900 CSB,1500 CSB,900 CSB,960 CSB,960 CSB,750 CSB,1000 CSB,1000 CSB,1000 CSB,1000 CSB,800 CSB,800 CSB,800 CSB,800 CSB,400 CSB,1500 CSB,400 CSB,500 CSB,500 CSB,500 CSB,500 CSB,0 CSB,50 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,2500 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB,250 CSB
         </salaryTypeBase>
@@ -434,19 +436,19 @@
         <noInterestInMarriageDiceSize>100</noInterestInMarriageDiceSize>
         <logMarriageNameChanges>true</logMarriageNameChanges>
         <marriageSurnameWeights>
-            <HYPHEN_YOURS>30</HYPHEN_YOURS>
-            <SPACE_SPOUSE>10</SPACE_SPOUSE>
-            <BOTH_SPACE_SPOUSE>5</BOTH_SPACE_SPOUSE>
+            <BOTH_HYPHEN_SPOUSE>20</BOTH_HYPHEN_SPOUSE>
             <SPOUSE>55</SPOUSE>
-            <HYPHEN_SPOUSE>30</HYPHEN_SPOUSE>
+            <BOTH_SPACE_YOURS>5</BOTH_SPACE_YOURS>
             <NO_CHANGE>100</NO_CHANGE>
             <FEMALE>160</FEMALE>
             <MALE>500</MALE>
-            <BOTH_SPACE_YOURS>5</BOTH_SPACE_YOURS>
-            <YOURS>55</YOURS>
-            <SPACE_YOURS>10</SPACE_YOURS>
-            <BOTH_HYPHEN_SPOUSE>20</BOTH_HYPHEN_SPOUSE>
+            <HYPHEN_YOURS>30</HYPHEN_YOURS>
             <BOTH_HYPHEN_YOURS>20</BOTH_HYPHEN_YOURS>
+            <YOURS>55</YOURS>
+            <BOTH_SPACE_SPOUSE>5</BOTH_SPACE_SPOUSE>
+            <SPACE_SPOUSE>10</SPACE_SPOUSE>
+            <SPACE_YOURS>10</SPACE_YOURS>
+            <HYPHEN_SPOUSE>30</HYPHEN_SPOUSE>
         </marriageSurnameWeights>
         <randomMarriageMethod>DICE_ROLL</randomMarriageMethod>
         <useRandomClanPersonnelMarriages>false</useRandomClanPersonnelMarriages>
@@ -461,8 +463,8 @@
         <usePrisonerDivorce>true</usePrisonerDivorce>
         <divorceSurnameWeights>
             <SPOUSE_CHANGES_SURNAME>10</SPOUSE_CHANGES_SURNAME>
-            <BOTH_CHANGE_SURNAME>30</BOTH_CHANGE_SURNAME>
             <ORIGIN_CHANGES_SURNAME>10</ORIGIN_CHANGES_SURNAME>
+            <BOTH_CHANGE_SURNAME>30</BOTH_CHANGE_SURNAME>
             <BOTH_KEEP_SURNAME>50</BOTH_KEEP_SURNAME>
         </divorceSurnameWeights>
         <randomDivorceMethod>DICE_ROLL</randomDivorceMethod>
@@ -506,12 +508,12 @@
         <allAges>false</allAges>
         <militaryAcademyAccidents>10000</militaryAcademyAccidents>
         <enabledRandomDeathAgeGroups>
-            <TEENAGER>false</TEENAGER>
-            <TODDLER>false</TODDLER>
-            <BABY>false</BABY>
-            <ELDER>true</ELDER>
             <ADULT>true</ADULT>
             <PRETEEN>false</PRETEEN>
+            <BABY>false</BABY>
+            <ELDER>true</ELDER>
+            <TEENAGER>false</TEENAGER>
+            <TODDLER>false</TODDLER>
             <CHILD>false</CHILD>
         </enabledRandomDeathAgeGroups>
         <useRandomDeathSuicideCause>false</useRandomDeathSuicideCause>
@@ -564,14 +566,14 @@
         <personnelMarketName>Disabled</personnelMarketName>
         <personnelMarketReportRefresh>true</personnelMarketReportRefresh>
         <personnelMarketRandomRemovalTargets>
-            <NONE>3</NONE>
-            <ULTRA_GREEN>4</ULTRA_GREEN>
-            <GREEN>4</GREEN>
+            <ELITE>10</ELITE>
             <VETERAN>8</VETERAN>
             <REGULAR>6</REGULAR>
-            <ELITE>10</ELITE>
-            <HEROIC>11</HEROIC>
+            <GREEN>4</GREEN>
             <LEGENDARY>11</LEGENDARY>
+            <NONE>3</NONE>
+            <ULTRA_GREEN>4</ULTRA_GREEN>
+            <HEROIC>11</HEROIC>
         </personnelMarketRandomRemovalTargets>
         <personnelMarketDylansWeight>0.3</personnelMarketDylansWeight>
         <usePersonnelHireHiringHallOnly>false</usePersonnelHireHiringHallOnly>
@@ -595,6 +597,7 @@
         <isUseRiskySalvage>true</isUseRiskySalvage>
         <isEnableSalvageFlagByDefault>true</isEnableSalvageFlagByDefault>
         <skillLevel>REGULAR</skillLevel>
+        <boardScalingType>NORMAL</boardScalingType>
         <autoResolveMethod>PRINCESS</autoResolveMethod>
         <autoResolveVictoryChanceEnabled>false</autoResolveVictoryChanceEnabled>
         <autoResolveNumberOfScenarios>100</autoResolveNumberOfScenarios>
@@ -657,31 +660,31 @@
     <randomSkillPreferences>
         <overallRecruitBonus>0</overallRecruitBonus>
         <recruitmentBonuses>
+            <CONVENTIONAL_AIRCRAFT_PILOT>0</CONVENTIONAL_AIRCRAFT_PILOT>
+            <VESSEL_CREW>0</VESSEL_CREW>
+            <VESSEL_PILOT>0</VESSEL_PILOT>
+            <MEK_TECH>0</MEK_TECH>
             <MEKWARRIOR>0</MEKWARRIOR>
             <ADMINISTRATOR_COMMAND>0</ADMINISTRATOR_COMMAND>
-            <ASTECH>0</ASTECH>
-            <AEROSPACE_PILOT>0</AEROSPACE_PILOT>
-            <SOLDIER>0</SOLDIER>
-            <MEDIC>0</MEDIC>
-            <CONVENTIONAL_AIRCRAFT_PILOT>0</CONVENTIONAL_AIRCRAFT_PILOT>
-            <VESSEL_NAVIGATOR>0</VESSEL_NAVIGATOR>
-            <ADMINISTRATOR_LOGISTICS>0</ADMINISTRATOR_LOGISTICS>
-            <MEK_TECH>0</MEK_TECH>
-            <VEHICLE_CREW_VTOL>0</VEHICLE_CREW_VTOL>
             <VEHICLE_CREW_NAVAL>0</VEHICLE_CREW_NAVAL>
-            <AERO_TEK>0</AERO_TEK>
-            <VESSEL_PILOT>0</VESSEL_PILOT>
             <BATTLE_ARMOUR>0</BATTLE_ARMOUR>
-            <VESSEL_CREW>0</VESSEL_CREW>
-            <ADMINISTRATOR_HR>0</ADMINISTRATOR_HR>
+            <ASTECH>0</ASTECH>
             <LAM_PILOT>0</LAM_PILOT>
-            <BA_TECH>0</BA_TECH>
+            <PROTOMEK_PILOT>0</PROTOMEK_PILOT>
+            <AEROSPACE_PILOT>0</AEROSPACE_PILOT>
             <DOCTOR>0</DOCTOR>
             <VEHICLE_CREW_GROUND>0</VEHICLE_CREW_GROUND>
-            <PROTOMEK_PILOT>0</PROTOMEK_PILOT>
-            <ADMINISTRATOR_TRANSPORT>0</ADMINISTRATOR_TRANSPORT>
+            <AERO_TEK>0</AERO_TEK>
             <VESSEL_GUNNER>0</VESSEL_GUNNER>
+            <VEHICLE_CREW_VTOL>0</VEHICLE_CREW_VTOL>
+            <SOLDIER>0</SOLDIER>
+            <BA_TECH>0</BA_TECH>
+            <MEDIC>0</MEDIC>
+            <ADMINISTRATOR_TRANSPORT>0</ADMINISTRATOR_TRANSPORT>
             <MECHANIC>0</MECHANIC>
+            <VESSEL_NAVIGATOR>0</VESSEL_NAVIGATOR>
+            <ADMINISTRATOR_LOGISTICS>0</ADMINISTRATOR_LOGISTICS>
+            <ADMINISTRATOR_HR>0</ADMINISTRATOR_HR>
         </recruitmentBonuses>
         <specialAbilityBonus>-10,-10,-2,0,1,2,3</specialAbilityBonus>
         <commandSkillsModifier>-12,-11,-10,-9,-8,-7,-7</commandSkillsModifier>
@@ -3022,6 +3025,14 @@
             </skillPrereq>
         </ability>
         <ability>
+            <lookupName>flaw_super_spreader</lookupName>
+            <xpCost>-100</xpCost>
+            <originOnly>false</originOnly>
+            <prereqAbilities></prereqAbilities>
+            <invalidAbilities></invalidAbilities>
+            <removeAbilities></removeAbilities>
+        </ability>
+        <ability>
             <lookupName>dark_secret_extreme</lookupName>
             <xpCost>-500</xpCost>
             <originOnly>false</originOnly>
@@ -3184,7 +3195,7 @@
         <ability>
             <lookupName>flaw_vaccine_dodger</lookupName>
             <xpCost>-100</xpCost>
-            <originOnly>true</originOnly>
+            <originOnly>false</originOnly>
             <prereqAbilities></prereqAbilities>
             <invalidAbilities></invalidAbilities>
             <removeAbilities></removeAbilities>

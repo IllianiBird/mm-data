@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.10 on 2025-12-27
 <UnitType>
 Jumpship
 </UnitType>
@@ -62,11 +53,11 @@ Aerodyne
 </motion_type>
 
 <transporters>
-smallcraftbay:4.0:2:1
-cargobay:362.5:1:2
-cargobay:362.0:1:3
-1stclassquarters:50.0:0
-crewquarters:175.0:0
+smallcraftbay:4.0:2:1::-1:0
+cargobay:362.5:1:2::-1:0
+cargobay:362.0:1:3::-1:0
+1stclassquarters:50.0:0:-1::-1:0
+crewquarters:175.0:0:-1::-1:0
 dockingcollar
 dockingcollar
 </transporters>
@@ -95,9 +86,13 @@ dockingcollar
 41
 </armor_type>
 
-<armor_tech>
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
 5
-</armor_tech>
+</armor_tech_level>
 
 <armor>
 7
@@ -141,6 +136,42 @@ ISERLargeLaser
 1
 </structural_integrity>
 
+<capabilities>
+The Chimeisho-class has a traditional needle-like shape featurings a spherical command section at one end, a blocky drive at the other, with twin docking collars located midway along the body. Unlike most Inner Sphere JumpShips, it carries offensive weapons comparable to a middling aerospace fighter, primarily pulse lasers and extended-range lasers. Despite its weapons, it is lightly armored compared to a DropShip and cannot sustain heavy damage. The 30 crew members live in cramped, well-equipped dual-occupancy cabins located below the bridge. Only senior officers have private shower and toilet facilities. A spacious recreation area with modern entertainment systems is provided to compensate for the small cabins. A spacious hangar in the command section provides facilities for up to four small craft, typically two light aerospace fighters and two ST-46 shuttles. Technicians and pilots have staterooms directly above the hangar, on the same deck as the life-support system.
+</capabilities>
+
+<overview>
+The Chimeisho-class JumpShip is a product of the Draconis Combine’s technological renaissance, marking the reactivation of the Izumi JumpShip yards at Altair by the Kurita Combine Munitions Corporation. Operated by a crew of thirty who live in cramped yet technologically advanced quarters, the Chimeisho was initially produced exclusively for the Draconis Combine Mustered Soldiery (DCMS) to bolster their strategic interstellar capabilities in the mid-3050s.
+</overview>
+
+<history>
+The Chimeisho is produced following the reactivation of the Izumi JumpShip yards at Altair, which had been derelict since the start of the Succession Wars. After the War of 3039, the Kurita Combine Munitions Corporation (KCMC) used state grants to reconstruct the yard. Only two have been produced to date, both purchased by the DCMS. The DCMS has also purchased all units scheduled through 3062, with KCMC taking new orders for 3063.
+</history>
+
+<manufacturer>
+Kurita Combine Munitions Corporation
+</manufacturer>
+
+<primaryFactory>
+Izumi JumpShip yards, Altair
+</primaryFactory>
+
+<systemManufacturers>
+CHASSIS:Kurita Combine Munitions Corporation
+ENGINE:Kurita Combine Munitions Corporation
+ARMOR:Kurita Combine Munitions Corporation
+COMMUNICATIONS:Kurita Combine Munitions Corporation
+TARGETING:Kurita Combine Munitions Corporation
+</systemManufacturers>
+
+<use>
+Transport
+</use>
+
+<length>
+645m
+</length>
+
 <source>
 TR:3057r
 </source>
@@ -160,6 +191,10 @@ TR:3057r
 <grav_decks>
 50
 </grav_decks>
+
+<designtype>
+0
+</designtype>
 
 <crew>
 50
@@ -192,3 +227,5 @@ TR:3057r
 <escape_pod>
 0
 </escape_pod>
+
+

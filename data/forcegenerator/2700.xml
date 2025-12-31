@@ -661,7 +661,7 @@
             </model>
         </chassis>
         <chassis name='Bulldog Medium Tank' unitType='Tank'>
-            <availability>CC:9,MOC:8,IS:7,Periphery.Deep:7,RWR:9,FS:6,MERC:7,TC:8,Periphery:7,LA:8,FWL:8,SL.R:0,TH.HM:6,DC:9</availability>
+            <availability>CC:9,MOC:8,IS:7,Periphery.Deep:7,RWR:9,FS:6,MERC:7,TC:8,Periphery:7,LA:8,FWL:8,SL.R:0,TH.pm:6,DC:9</availability>
             <model name=''>
                 <availability>LA:8,General:8,FS:8,MERC:8,DC:8</availability>
             </model>
@@ -2614,7 +2614,7 @@
             </model>
         </chassis>
         <chassis name='Mackie' unitType='Mek'>
-            <availability>TH:3-,SL.R:0,TH.HM:4-,Periphery:3</availability>
+            <availability>TH:3-,SL.R:0,TH.pm:4-,Periphery:3</availability>
             <model name='MSK-7A'>
                 <availability>General:2-</availability>
             </model>
@@ -2991,7 +2991,7 @@
             </model>
         </chassis>
         <chassis name='Merkava Heavy Tank' unitType='Tank'>
-            <availability>TH:8,TH.HM:5</availability>
+            <availability>TH:8,TH.pm:5</availability>
             <model name='Mk VIII'>
                 <availability>General:8</availability>
             </model>
@@ -3270,7 +3270,7 @@
             </model>
             <model name='Mk. XXX(Sqd4)' mechanized='true'>
                 <roles>specops</roles>
-                <availability>SLR.:4:2744</availability>
+                <availability>SL.R:4:2744</availability>
             </model>
         </chassis>
         <chassis name='Nightshade ECM VTOL' unitType='VTOL'>
@@ -3361,7 +3361,7 @@
             </model>
         </chassis>
         <chassis name='Packrat LRPV' unitType='Tank'>
-            <availability>MOC:2,CC:2,IS:3,RWR:2,FS:4,Periphery:3,TC:2,OA:2,LA:4,TH.HM:4</availability>
+            <availability>MOC:2,CC:2,IS:3,RWR:2,FS:4,Periphery:3,TC:2,OA:2,LA:4,TH.pm:4</availability>
             <model name='PKR-T5'>
                 <roles>recon,raider</roles>
                 <availability>General:8,Periphery.Deep:8,Periphery:8</availability>

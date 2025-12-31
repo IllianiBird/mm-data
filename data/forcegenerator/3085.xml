@@ -4991,7 +4991,7 @@
             </model>
         </chassis>
         <chassis name='Cossack' unitType='Mek'>
-            <availability>CC:5,MOC:3,CC.HG:8,MERC:2</availability>
+            <availability>CC:5,MOC:3,CC.CHG:8,MERC:2</availability>
             <model name='C-1FC'>
                 <availability>MERC:5</availability>
             </model>
@@ -9885,7 +9885,7 @@
             </model>
             <model name='HER-6D'>
                 <roles>recon</roles>
-                <availability>FS.LG:10</availability>
+                <availability>FS.DBG:10</availability>
             </model>
         </chassis>
         <chassis name='Hermes' unitType='Mek'>
@@ -10374,7 +10374,7 @@
             </model>
             <model name='(Militarized:MG)'>
                 <roles>cargo,support</roles>
-                <availability>FWL:6-,MH:8,Periphery.NW:8,Periphery.CM:8</availability>
+                <availability>FWL:6-,MH:8,Periphery.MW:8,Periphery.CM:8</availability>
             </model>
         </chassis>
         <chassis name='Icarus II' unitType='Mek'>
@@ -11096,7 +11096,7 @@
             </model>
             <model name='(Laser Anti-Mek 3052+)'>
                 <roles>anti_mek</roles>
-                <availability>FWL:1+,DA:1+,DO!A:3!B:1,OP!A:3!B:1,Do0:2+,DTA:2+,MSC!A:3!B:1,PG:1+,PR:2+,RF:2+,RCM:1+,RFS:1+,TP:2+</availability>
+                <availability>FWL:1+,DA:1+,DO!A:3!B:1,OP!A:3!B:1,DoO:2+,DTA:2+,MSC!A:3!B:1,PG:1+,PR:2+,RF:2+,RCM:1+,RFS:1+,TP:2+</availability>
             </model>
             <model name='(Laser TAG 3051+)'>
                 <roles>spotter</roles>
@@ -11656,7 +11656,7 @@
                 <availability>General:8</availability>
             </model>
             <model name='(XL)'>
-                <availability>CHH:8,Clan:6,CJF:8,CGB:8</availability>
+                <availability>CHH:8,CLAN:6,CJF:8,CGB:8</availability>
             </model>
         </chassis>
         <chassis name='Komodo' unitType='Mek'>
@@ -12729,7 +12729,7 @@
             </model>
         </chassis>
         <chassis name='Main Gauche Light Support Tank' unitType='Tank'>
-            <availability>CC:3,MOC:3,OP:8,Periphery.MM:3,PR:8,DoO:8,DO:8,MERC:3,DTA:8,RF:8,LA:3,ROS:3,Periphery.CM:3,PG:8,Periphery.ME:3,FWL:8,MH:3,MSC:8,TP:8,RCM:8,DA:8,RFS:8</availability>
+            <availability>CC:3,MOC:3,OP:8,Periphery.MW:3,PR:8,DoO:8,DO:8,MERC:3,DTA:8,RF:8,LA:3,ROS:3,Periphery.CM:3,PG:8,Periphery.ME:3,FWL:8,MH:3,MSC:8,TP:8,RCM:8,DA:8,RFS:8</availability>
             <model name=''>
                 <availability>General:8</availability>
             </model>
@@ -14455,7 +14455,7 @@
             </model>
             <model name='(Nonlethal)'>
                 <roles>urban,anti_infantry</roles>
-                <availability>Clan.IS:4,IS:4,Periphery:2</availability>
+                <availability>CLAN.IS:4,IS:4,Periphery:2</availability>
             </model>
             <model name='(Plasma Heavy)'>
                 <roles>urban</roles>

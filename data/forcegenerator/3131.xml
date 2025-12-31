@@ -5589,7 +5589,7 @@
             </model>
         </chassis>
         <chassis name='Cossack' unitType='Mek'>
-            <availability>CC:6,MOC:4,CC.HG:8,MERC:2</availability>
+            <availability>CC:6,MOC:4,CC.CHG:8,MERC:2</availability>
             <model name='C-1FC'>
                 <availability>MERC:6</availability>
             </model>
@@ -10409,7 +10409,7 @@
             </model>
         </chassis>
         <chassis name='Hasek Mechanized Combat Vehicle' unitType='Tank'>
-            <availability>ROS:4,FS.CMM:7,FS.NSF:7,FS:6,MERC:4,CJF:3</availability>
+            <availability>ROS:4,FS.CMM:7,FS.SF:7,FS:6,MERC:4,CJF:3</availability>
             <model name=''>
                 <roles>apc</roles>
                 <availability>General:8</availability>
@@ -11006,7 +11006,7 @@
             </model>
             <model name='HER-6D'>
                 <roles>recon</roles>
-                <availability>FS.LG:10</availability>
+                <availability>FS.DBG:10</availability>
             </model>
         </chassis>
         <chassis name='Hermes' unitType='Mek'>
@@ -11538,7 +11538,7 @@
             </model>
             <model name='(Militarized:MG)'>
                 <roles>cargo,support</roles>
-                <availability>CWE:5,FWL:6-,MH:8,Periphery.NW:8,Periphery.CM:8</availability>
+                <availability>CWE:5,FWL:6-,MH:8,Periphery.MW:8,Periphery.CM:8</availability>
             </model>
         </chassis>
         <chassis name='Icarus II' unitType='Mek'>
@@ -12995,7 +12995,7 @@
                 <availability>General:8,Periphery:8</availability>
             </model>
             <model name='(XL)'>
-                <availability>CHH:8,RD:8,Clan:6,IS:8,CJF:8</availability>
+                <availability>CHH:8,RD:8,CLAN:6,IS:8,CJF:8</availability>
             </model>
         </chassis>
         <chassis name='Komodo' unitType='Mek'>
@@ -13751,7 +13751,7 @@
                 <availability>ROS:2,FWL:4,MSC:5,MERC:3,CP:4</availability>
             </model>
             <model name='LCT-7S'>
-                <availability>MERC.KH:2,LA:2,ROS:2,WD:2</availability>
+                <availability>MERC.KH:2,LA:2,ROS:2,MERC.WD:2</availability>
             </model>
             <model name='LCT-7V'>
                 <availability>MOC:4,IS:4,FR:2,MERC:4,TC:4</availability>
@@ -14267,7 +14267,7 @@
             </model>
         </chassis>
         <chassis name='Main Gauche Light Support Tank' unitType='Tank'>
-            <availability>CC:6,MOC:6,OP:6,Periphery.MM:6,MERC:6,CP:8,DTA:8,RF:8,LA:6,ROS:6,Periphery.CM:6,Periphery.ME:6,FWL:8,MH:6,MSC:8,RCM:8,DA:8</availability>
+            <availability>CC:6,MOC:6,OP:6,Periphery.MW:6,MERC:6,CP:8,DTA:8,RF:8,LA:6,ROS:6,Periphery.CM:6,Periphery.ME:6,FWL:8,MH:6,MSC:8,RCM:8,DA:8</availability>
             <model name=''>
                 <availability>General:8</availability>
             </model>
@@ -16091,7 +16091,7 @@
             </model>
             <model name='(Nonlethal)'>
                 <roles>urban,anti_infantry</roles>
-                <availability>Clan.IS:2,IS:2,Periphery:2</availability>
+                <availability>CLAN.IS:2,IS:2,Periphery:2</availability>
             </model>
             <model name='(Plasma Heavy)'>
                 <roles>urban</roles>
@@ -19046,7 +19046,7 @@
             </model>
         </chassis>
         <chassis name='Rifleman' unitType='Mek'>
-            <availability>Clan.IS:4,ROS:6,IS:4,FWL:7,FS:8,CP:7,CJF:6,Periphery:2</availability>
+            <availability>CLAN.IS:4,ROS:6,IS:4,FWL:7,FS:8,CP:7,CJF:6,Periphery:2</availability>
             <model name='C 2'>
                 <roles>anti_aircraft,raider</roles>
                 <availability>CJF:4</availability>
@@ -20336,7 +20336,7 @@
                 <availability>FS:2:3141</availability>
             </model>
             <model name='SHD-7H'>
-                <availability>IS:6,MH:4,FR:4,Merc:6,DA:4,RCM:4,Periphery:6</availability>
+                <availability>IS:6,MH:4,FR:4,MERC:6,DA:4,RCM:4,Periphery:6</availability>
             </model>
             <model name='SHD-7M'>
                 <availability>CC:4,MOC:3,OP:8,MERC:4,CP:7,CDP:3,TC:3,DTA:8,FVC:3,ROS:4,FWL:7:3139,MSC:8,RCM:8</availability>

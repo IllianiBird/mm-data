@@ -17,7 +17,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 -->
-<campaignPreset version="0.50.10">
+<campaignPreset version="0.50.11">
     <title>4 - Campaign Operations Preset</title>
     <description><![CDATA[This preset follows the rules from the official Campaign Operations manual, designed for human GMs managing CamOps campaigns in MekHQ.
 <br>
@@ -220,7 +220,7 @@
         <factionIntroDate>false</factionIntroDate>
         <useAmmoByType>false</useAmmoByType>
         <waitingPeriod>1</waitingPeriod>
-        <acquisitionSkill>Tech</acquisitionSkill>
+        <acquisitionsType>ANY_TECH</acquisitionsType>
         <useFunctionalAppraisal>false</useFunctionalAppraisal>
         <acquisitionPersonnelCategory>SUPPORT</acquisitionPersonnelCategory>
         <techLevel>3</techLevel>
@@ -237,6 +237,8 @@
         <dropShipContractPercent>0.0</dropShipContractPercent>
         <jumpShipContractPercent>0.0</jumpShipContractPercent>
         <warShipContractPercent>0.0</warShipContractPercent>
+        <useAlternatePaymentMode>false</useAlternatePaymentMode>
+        <useDiminishingContractPay>false</useDiminishingContractPay>
         <equipmentContractBase>true</equipmentContractBase>
         <equipmentContractSaleValue>false</equipmentContractSaleValue>
         <blcSaleValue>false</blcSaleValue>
@@ -434,19 +436,19 @@
         <noInterestInMarriageDiceSize>100</noInterestInMarriageDiceSize>
         <logMarriageNameChanges>true</logMarriageNameChanges>
         <marriageSurnameWeights>
-            <HYPHEN_YOURS>30</HYPHEN_YOURS>
-            <SPACE_SPOUSE>10</SPACE_SPOUSE>
-            <BOTH_SPACE_SPOUSE>5</BOTH_SPACE_SPOUSE>
-            <SPOUSE>55</SPOUSE>
-            <HYPHEN_SPOUSE>30</HYPHEN_SPOUSE>
+            <SPACE_YOURS>10</SPACE_YOURS>
             <NO_CHANGE>100</NO_CHANGE>
-            <FEMALE>160</FEMALE>
+            <SPOUSE>55</SPOUSE>
+            <BOTH_HYPHEN_SPOUSE>20</BOTH_HYPHEN_SPOUSE>
             <MALE>500</MALE>
             <BOTH_SPACE_YOURS>5</BOTH_SPACE_YOURS>
-            <YOURS>55</YOURS>
-            <SPACE_YOURS>10</SPACE_YOURS>
-            <BOTH_HYPHEN_SPOUSE>20</BOTH_HYPHEN_SPOUSE>
+            <HYPHEN_SPOUSE>30</HYPHEN_SPOUSE>
+            <SPACE_SPOUSE>10</SPACE_SPOUSE>
+            <BOTH_SPACE_SPOUSE>5</BOTH_SPACE_SPOUSE>
+            <HYPHEN_YOURS>30</HYPHEN_YOURS>
             <BOTH_HYPHEN_YOURS>20</BOTH_HYPHEN_YOURS>
+            <FEMALE>160</FEMALE>
+            <YOURS>55</YOURS>
         </marriageSurnameWeights>
         <randomMarriageMethod>NONE</randomMarriageMethod>
         <useRandomClanPersonnelMarriages>false</useRandomClanPersonnelMarriages>
@@ -460,10 +462,10 @@
         <useClanPersonnelDivorce>true</useClanPersonnelDivorce>
         <usePrisonerDivorce>true</usePrisonerDivorce>
         <divorceSurnameWeights>
-            <SPOUSE_CHANGES_SURNAME>10</SPOUSE_CHANGES_SURNAME>
-            <BOTH_CHANGE_SURNAME>30</BOTH_CHANGE_SURNAME>
             <ORIGIN_CHANGES_SURNAME>10</ORIGIN_CHANGES_SURNAME>
+            <SPOUSE_CHANGES_SURNAME>10</SPOUSE_CHANGES_SURNAME>
             <BOTH_KEEP_SURNAME>50</BOTH_KEEP_SURNAME>
+            <BOTH_CHANGE_SURNAME>30</BOTH_CHANGE_SURNAME>
         </divorceSurnameWeights>
         <randomDivorceMethod>NONE</randomDivorceMethod>
         <useRandomOppositeSexDivorce>true</useRandomOppositeSexDivorce>
@@ -506,13 +508,13 @@
         <allAges>false</allAges>
         <militaryAcademyAccidents>10000</militaryAcademyAccidents>
         <enabledRandomDeathAgeGroups>
+            <ADULT>true</ADULT>
             <TEENAGER>false</TEENAGER>
-            <TODDLER>false</TODDLER>
             <BABY>false</BABY>
             <ELDER>true</ELDER>
-            <ADULT>true</ADULT>
-            <PRETEEN>false</PRETEEN>
+            <TODDLER>false</TODDLER>
             <CHILD>false</CHILD>
+            <PRETEEN>false</PRETEEN>
         </enabledRandomDeathAgeGroups>
         <useRandomDeathSuicideCause>false</useRandomDeathSuicideCause>
         <randomDeathMultiplier>0.0</randomDeathMultiplier>
@@ -595,6 +597,7 @@
         <isUseRiskySalvage>false</isUseRiskySalvage>
         <isEnableSalvageFlagByDefault>true</isEnableSalvageFlagByDefault>
         <skillLevel>REGULAR</skillLevel>
+        <boardScalingType>NORMAL</boardScalingType>
         <autoResolveMethod>PRINCESS</autoResolveMethod>
         <autoResolveVictoryChanceEnabled>false</autoResolveVictoryChanceEnabled>
         <autoResolveNumberOfScenarios>100</autoResolveNumberOfScenarios>
@@ -657,31 +660,31 @@
     <randomSkillPreferences>
         <overallRecruitBonus>0</overallRecruitBonus>
         <recruitmentBonuses>
-            <MEKWARRIOR>0</MEKWARRIOR>
-            <ADMINISTRATOR_COMMAND>0</ADMINISTRATOR_COMMAND>
+            <BATTLE_ARMOUR>0</BATTLE_ARMOUR>
+            <SOLDIER>0</SOLDIER>
+            <CONVENTIONAL_AIRCRAFT_PILOT>0</CONVENTIONAL_AIRCRAFT_PILOT>
             <ASTECH>0</ASTECH>
             <AEROSPACE_PILOT>0</AEROSPACE_PILOT>
-            <SOLDIER>0</SOLDIER>
-            <MEDIC>0</MEDIC>
-            <CONVENTIONAL_AIRCRAFT_PILOT>0</CONVENTIONAL_AIRCRAFT_PILOT>
-            <VESSEL_NAVIGATOR>0</VESSEL_NAVIGATOR>
             <ADMINISTRATOR_LOGISTICS>0</ADMINISTRATOR_LOGISTICS>
-            <MEK_TECH>0</MEK_TECH>
-            <VEHICLE_CREW_VTOL>0</VEHICLE_CREW_VTOL>
+            <MECHANIC>0</MECHANIC>
+            <VESSEL_GUNNER>0</VESSEL_GUNNER>
+            <VESSEL_NAVIGATOR>0</VESSEL_NAVIGATOR>
             <VEHICLE_CREW_NAVAL>0</VEHICLE_CREW_NAVAL>
             <AERO_TEK>0</AERO_TEK>
-            <VESSEL_PILOT>0</VESSEL_PILOT>
-            <BATTLE_ARMOUR>0</BATTLE_ARMOUR>
             <VESSEL_CREW>0</VESSEL_CREW>
-            <ADMINISTRATOR_HR>0</ADMINISTRATOR_HR>
-            <LAM_PILOT>0</LAM_PILOT>
-            <BA_TECH>0</BA_TECH>
-            <DOCTOR>0</DOCTOR>
+            <MEDIC>0</MEDIC>
             <VEHICLE_CREW_GROUND>0</VEHICLE_CREW_GROUND>
-            <PROTOMEK_PILOT>0</PROTOMEK_PILOT>
+            <VEHICLE_CREW_VTOL>0</VEHICLE_CREW_VTOL>
+            <MEK_TECH>0</MEK_TECH>
+            <BA_TECH>0</BA_TECH>
+            <LAM_PILOT>0</LAM_PILOT>
             <ADMINISTRATOR_TRANSPORT>0</ADMINISTRATOR_TRANSPORT>
-            <VESSEL_GUNNER>0</VESSEL_GUNNER>
-            <MECHANIC>0</MECHANIC>
+            <VESSEL_PILOT>0</VESSEL_PILOT>
+            <PROTOMEK_PILOT>0</PROTOMEK_PILOT>
+            <DOCTOR>0</DOCTOR>
+            <ADMINISTRATOR_COMMAND>0</ADMINISTRATOR_COMMAND>
+            <MEKWARRIOR>0</MEKWARRIOR>
+            <ADMINISTRATOR_HR>0</ADMINISTRATOR_HR>
         </recruitmentBonuses>
         <specialAbilityBonus>-10,-10,-2,0,1,2,3</specialAbilityBonus>
         <commandSkillsModifier>-12,-11,-10,-9,-8,-7,-7</commandSkillsModifier>
@@ -2346,8 +2349,8 @@
             <invalidAbilities></invalidAbilities>
             <removeAbilities></removeAbilities>
             <skillPrereq>
-                <skill>Piloting/Ground Vehicle::Veteran</skill>
                 <skill>Gunnery/ProtoMek::Veteran</skill>
+                <skill>Piloting/Ground Vehicle::Veteran</skill>
                 <skill>Piloting/Mek::Veteran</skill>
             </skillPrereq>
         </ability>
@@ -2362,9 +2365,9 @@
                 <skill>Gunnery/Mek::Veteran</skill>
                 <skill>Gunnery/ProtoMek::Veteran</skill>
                 <skill>Gunnery/Aircraft::Veteran</skill>
-                <skill>Gunnery/BattleArmor::Veteran</skill>
-                <skill>Gunnery/Aerospace::Veteran</skill>
                 <skill>Gunnery/Spacecraft::Veteran</skill>
+                <skill>Gunnery/Aerospace::Veteran</skill>
+                <skill>Gunnery/BattleArmor::Veteran</skill>
                 <skill>Gunnery/Vehicle::Veteran</skill>
             </skillPrereq>
         </ability>
@@ -2390,9 +2393,9 @@
                 <skill>Gunnery/Mek::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
-                <skill>Gunnery/BattleArmor::Regular</skill>
-                <skill>Gunnery/Aerospace::Regular</skill>
                 <skill>Gunnery/Spacecraft::Regular</skill>
+                <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Gunnery/BattleArmor::Regular</skill>
                 <skill>Gunnery/Vehicle::Regular</skill>
             </skillPrereq>
         </ability>
@@ -2407,9 +2410,9 @@
                 <skill>Gunnery/Mek::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
-                <skill>Gunnery/BattleArmor::Regular</skill>
-                <skill>Gunnery/Aerospace::Regular</skill>
                 <skill>Gunnery/Spacecraft::Regular</skill>
+                <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Gunnery/BattleArmor::Regular</skill>
                 <skill>Gunnery/Vehicle::Regular</skill>
             </skillPrereq>
         </ability>
@@ -2421,8 +2424,8 @@
             <invalidAbilities></invalidAbilities>
             <removeAbilities></removeAbilities>
             <skillPrereq>
-                <skill>Piloting/Ground Vehicle::Veteran</skill>
                 <skill>Gunnery/ProtoMek::Veteran</skill>
+                <skill>Piloting/Ground Vehicle::Veteran</skill>
                 <skill>Piloting/Mek::Veteran</skill>
             </skillPrereq>
         </ability>
@@ -2468,8 +2471,8 @@
             <invalidAbilities></invalidAbilities>
             <removeAbilities></removeAbilities>
             <skillPrereq>
-                <skill>Piloting/Ground Vehicle::Veteran</skill>
                 <skill>Gunnery/ProtoMek::Veteran</skill>
+                <skill>Piloting/Ground Vehicle::Veteran</skill>
                 <skill>Piloting/Mek::Veteran</skill>
             </skillPrereq>
         </ability>
@@ -2499,9 +2502,9 @@
                 <skill>Gunnery/Mek::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
-                <skill>Gunnery/BattleArmor::Regular</skill>
-                <skill>Gunnery/Aerospace::Regular</skill>
                 <skill>Gunnery/Spacecraft::Regular</skill>
+                <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Gunnery/BattleArmor::Regular</skill>
                 <skill>Gunnery/Vehicle::Regular</skill>
             </skillPrereq>
         </ability>
@@ -2520,9 +2523,9 @@
                 <skill>Piloting/Mek::Veteran</skill>
                 <skill>Piloting/VTOL::Veteran</skill>
                 <skill>Piloting/Naval::Veteran</skill>
-                <skill>Piloting/Aerospace::Veteran</skill>
-                <skill>Gunnery/Aerospace::Veteran</skill>
                 <skill>Gunnery/BattleArmor::Veteran</skill>
+                <skill>Gunnery/Aerospace::Veteran</skill>
+                <skill>Piloting/Aerospace::Veteran</skill>
                 <skill>Gunnery/ProtoMek::Veteran</skill>
                 <skill>Piloting/Ground Vehicle::Veteran</skill>
                 <skill>Gunnery/Aircraft::Veteran</skill>
@@ -2578,9 +2581,9 @@
                 <skill>Gunnery/Mek::Veteran</skill>
                 <skill>Gunnery/ProtoMek::Veteran</skill>
                 <skill>Gunnery/Aircraft::Veteran</skill>
-                <skill>Gunnery/BattleArmor::Veteran</skill>
-                <skill>Gunnery/Aerospace::Veteran</skill>
                 <skill>Gunnery/Spacecraft::Veteran</skill>
+                <skill>Gunnery/Aerospace::Veteran</skill>
+                <skill>Gunnery/BattleArmor::Veteran</skill>
                 <skill>Gunnery/Vehicle::Veteran</skill>
             </skillPrereq>
         </ability>
@@ -2607,9 +2610,9 @@
                 <skill>Gunnery/Mek::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
-                <skill>Gunnery/BattleArmor::Regular</skill>
-                <skill>Gunnery/Aerospace::Regular</skill>
                 <skill>Gunnery/Spacecraft::Regular</skill>
+                <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Gunnery/BattleArmor::Regular</skill>
                 <skill>Gunnery/Vehicle::Regular</skill>
             </skillPrereq>
         </ability>
@@ -2624,9 +2627,9 @@
                 <skill>Gunnery/Mek::Green</skill>
                 <skill>Gunnery/ProtoMek::Green</skill>
                 <skill>Gunnery/Aircraft::Green</skill>
-                <skill>Gunnery/BattleArmor::Green</skill>
-                <skill>Gunnery/Aerospace::Green</skill>
                 <skill>Gunnery/Spacecraft::Green</skill>
+                <skill>Gunnery/Aerospace::Green</skill>
+                <skill>Gunnery/BattleArmor::Green</skill>
                 <skill>Gunnery/Vehicle::Green</skill>
             </skillPrereq>
         </ability>
@@ -2664,9 +2667,9 @@
                 <skill>Gunnery/Mek::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
-                <skill>Gunnery/BattleArmor::Regular</skill>
-                <skill>Gunnery/Aerospace::Regular</skill>
                 <skill>Gunnery/Spacecraft::Regular</skill>
+                <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Gunnery/BattleArmor::Regular</skill>
                 <skill>Gunnery/Vehicle::Regular</skill>
             </skillPrereq>
         </ability>
@@ -2697,9 +2700,9 @@
                 <skill>Piloting/Mek::Regular</skill>
                 <skill>Piloting/VTOL::Regular</skill>
                 <skill>Piloting/Naval::Regular</skill>
-                <skill>Piloting/Aerospace::Regular</skill>
-                <skill>Gunnery/Aerospace::Regular</skill>
                 <skill>Gunnery/BattleArmor::Regular</skill>
+                <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Piloting/Aerospace::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Piloting/Ground Vehicle::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
@@ -2716,8 +2719,8 @@
             <skillPrereq>
                 <skill>Piloting/Aerospace::Regular</skill>
                 <skill>Piloting/Naval::Regular</skill>
-                <skill>Piloting/Ground Vehicle::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
+                <skill>Piloting/Ground Vehicle::Regular</skill>
                 <skill>Piloting/Spacecraft::Regular</skill>
                 <skill>Piloting/VTOL::Regular</skill>
                 <skill>Piloting/Aircraft::Regular</skill>
@@ -2735,9 +2738,9 @@
                 <skill>Gunnery/Mek::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
-                <skill>Gunnery/BattleArmor::Regular</skill>
-                <skill>Gunnery/Spacecraft::Regular</skill>
                 <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Gunnery/Spacecraft::Regular</skill>
+                <skill>Gunnery/BattleArmor::Regular</skill>
                 <skill>Gunnery/Vehicle::Regular</skill>
                 <skill>Artillery::Regular</skill>
             </skillPrereq>
@@ -2757,9 +2760,9 @@
                 <skill>Piloting/Mek::Regular</skill>
                 <skill>Piloting/VTOL::Regular</skill>
                 <skill>Piloting/Naval::Regular</skill>
-                <skill>Piloting/Aerospace::Regular</skill>
-                <skill>Gunnery/Aerospace::Regular</skill>
                 <skill>Gunnery/BattleArmor::Regular</skill>
+                <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Piloting/Aerospace::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Piloting/Ground Vehicle::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
@@ -2774,8 +2777,8 @@
             <invalidAbilities></invalidAbilities>
             <removeAbilities></removeAbilities>
             <skillPrereq>
-                <skill>Piloting/Ground Vehicle::Veteran</skill>
                 <skill>Gunnery/ProtoMek::Veteran</skill>
+                <skill>Piloting/Ground Vehicle::Veteran</skill>
                 <skill>Piloting/Mek::Veteran</skill>
             </skillPrereq>
         </ability>
@@ -2794,9 +2797,9 @@
                 <skill>Piloting/Mek::Regular</skill>
                 <skill>Piloting/VTOL::Regular</skill>
                 <skill>Piloting/Naval::Regular</skill>
-                <skill>Piloting/Aerospace::Regular</skill>
-                <skill>Gunnery/Aerospace::Regular</skill>
                 <skill>Gunnery/BattleArmor::Regular</skill>
+                <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Piloting/Aerospace::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Piloting/Ground Vehicle::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
@@ -2818,9 +2821,9 @@
                 <skill>Piloting/Mek::Regular</skill>
                 <skill>Piloting/VTOL::Regular</skill>
                 <skill>Piloting/Naval::Regular</skill>
-                <skill>Piloting/Aerospace::Regular</skill>
-                <skill>Gunnery/Aerospace::Regular</skill>
                 <skill>Gunnery/BattleArmor::Regular</skill>
+                <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Piloting/Aerospace::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Piloting/Ground Vehicle::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
@@ -2838,9 +2841,9 @@
                 <skill>Gunnery/Mek::Regular</skill>
                 <skill>Gunnery/ProtoMek::Regular</skill>
                 <skill>Gunnery/Aircraft::Regular</skill>
-                <skill>Gunnery/BattleArmor::Regular</skill>
-                <skill>Gunnery/Aerospace::Regular</skill>
                 <skill>Gunnery/Spacecraft::Regular</skill>
+                <skill>Gunnery/Aerospace::Regular</skill>
+                <skill>Gunnery/BattleArmor::Regular</skill>
                 <skill>Gunnery/Vehicle::Regular</skill>
             </skillPrereq>
         </ability>

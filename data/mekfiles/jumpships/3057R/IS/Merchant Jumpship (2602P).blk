@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.10 on 2025-12-27
 <UnitType>
 Jumpship
 </UnitType>
@@ -54,12 +45,12 @@ Aerodyne
 </motion_type>
 
 <transporters>
-smallcraftbay:2.0:2:1
-cargobay:328.5:1:2
-1stclassquarters:40.0:0
-2ndclassquarters:98.0:0
-cargobay:230.0:1:5
-crewquarters:119.0:0
+smallcraftbay:2.0:2:1::-1:0
+cargobay:328.5:1:2::-1:0
+1stclassquarters:40.0:0:-1::-1:0
+2ndclassquarters:98.0:0:-1::-1:0
+cargobay:230.0:1:5::-1:0
+crewquarters:119.0:0:-1::-1:0
 dockingcollar
 dockingcollar
 </transporters>
@@ -88,9 +79,13 @@ dockingcollar
 41
 </armor_type>
 
-<armor_tech>
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
 1
-</armor_tech>
+</armor_tech_level>
 
 <armor>
 4
@@ -126,6 +121,42 @@ dockingcollar
 1
 </structural_integrity>
 
+<capabilities>
+The Merchant-Class is designed to carry up to two DropShips via docking hard points located midway along a reinforced cylindrical cargo section. The cargo section itself is split into independent sextions totalling over 600 tons of capacity, flanked by two small craft bays. The original design features a 40-meter diameter centrifugal grav deck functioning as a recreation center and lounge. As this class is mostly privately owned and operated, the actual onboard facilities are highly diverse. Common variations include airtight modules (20 to 100 tons) fitted into cargo bays to serve as extra living quarters, lounges, or controlled environments with independent life-support and power. This common variation has dedicated passenger capacity, at the cost of reduced cargo space. The vessel features a spacious, dome-shaped bridge with large viewports and a raised central command platform. While originally designed for a larger crew of six, over the centuries the bridge design has shifted to be operated by just two people. A persistent issue since the First Succession War is a lack of replacement parts for power converters, which increases the average recharge time by 10 to 20 percent compared to other JumpShips.
+</capabilities>
+
+<overview>
+The Merchant-class JumpShip is the smallest JumpShip commonly utilized by independent traders, corporations, and mercenary units, and stands as the second smallest JumpShip still in active service. Originally designed with its name reflecting its intended commercial market, the vessel masses 120,000 tons and measures just over 320 meters in length.
+</overview>
+
+<history>
+The Merchant-class, designed in 2503, is one of the oldest JumpShip designs still in common use this day. In its 550 years of service it has operated throughout the Successor States, though the greatest concentration is found within the Lyran Commonwealth, where an estimated 40 percent of all Merchant ships currently operate.
+</history>
+
+<manufacturer>
+Dover Shipyards, Ioto Galactic Enterprises, Kathil Shipworks, Rashpur-Owens Incorporated, Stellar Trek
+</manufacturer>
+
+<systemManufacturers>
+ENGINE:Rashpur-Owens Incorporated
+</systemManufacturers>
+
+<systemModels>
+ENGINE:KF Mark V
+</systemModels>
+
+<notes>
+This common variation has dedicated passenger capacity, at the cost of reduced cargo space. The vessel features a spacious, dome-shaped bridge with large viewports and a raised central command platform.
+</notes>
+
+<use>
+Mercantile Transport
+</use>
+
+<length>
+320m
+</length>
+
 <source>
 TR:3057r
 </source>
@@ -141,6 +172,10 @@ TR:3057r
 <grav_decks>
 40
 </grav_decks>
+
+<designtype>
+0
+</designtype>
 
 <crew>
 31
@@ -173,3 +208,5 @@ TR:3057r
 <escape_pod>
 4
 </escape_pod>
+
+

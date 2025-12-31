@@ -1252,7 +1252,7 @@
             </model>
         </chassis>
         <chassis name='Aesir Medium AA Vehicle' unitType='Tank'>
-            <availability>CWE:6,CHH:4,CP:4,SLE:4,MERC:4</availability>
+            <availability>CWE:6,CHH:4,CP:4,SL3:4,MERC:4</availability>
             <model name=''>
                 <roles>anti_aircraft</roles>
                 <availability>CHH:4,CWE:8,CP:8,SL3:8,MERC:8</availability>
@@ -5351,7 +5351,7 @@
             </model>
         </chassis>
         <chassis name='Cossack' unitType='Mek'>
-            <availability>CC:6,MOC:4,CC.HG:8,MERC:2</availability>
+            <availability>CC:6,MOC:4,CC.CHG:8,MERC:2</availability>
             <model name='C-1FC'>
                 <availability>MERC:6</availability>
             </model>
@@ -10198,7 +10198,7 @@
             </model>
         </chassis>
         <chassis name='Hasek Mechanized Combat Vehicle' unitType='Tank'>
-            <availability>FS.CMM:6,FS.NSF:6,FS:5,MERC:4,CJF:3</availability>
+            <availability>FS.CMM:6,FS.SF:6,FS:5,MERC:4,CJF:3</availability>
             <model name=''>
                 <roles>apc</roles>
                 <availability>General:8</availability>
@@ -10782,7 +10782,7 @@
             </model>
             <model name='HER-6D'>
                 <roles>recon</roles>
-                <availability>FS.LG:10</availability>
+                <availability>FS.DBG:10</availability>
             </model>
         </chassis>
         <chassis name='Hermes' unitType='Mek'>
@@ -11326,7 +11326,7 @@
             </model>
             <model name='(Militarized:MG)'>
                 <roles>cargo,support</roles>
-                <availability>CWE:5,FWL:6-,MH:8,Periphery.NW:8,Periphery.CM:8</availability>
+                <availability>CWE:5,FWL:6-,MH:8,Periphery.MW:8,Periphery.CM:8</availability>
             </model>
         </chassis>
         <chassis name='Icarus II' unitType='Mek'>
@@ -12781,7 +12781,7 @@
                 <availability>General:8,Periphery:8</availability>
             </model>
             <model name='(XL)'>
-                <availability>CHH:8,RD:8,Clan:6,IS:8,CJF:8</availability>
+                <availability>CHH:8,RD:8,CLAN:6,IS:8,CJF:8</availability>
             </model>
         </chassis>
         <chassis name='Komodo' unitType='Mek'>
@@ -14036,7 +14036,7 @@
             </model>
         </chassis>
         <chassis name='Main Gauche Light Support Tank' unitType='Tank'>
-            <availability>CC:6,MOC:6,Periphery.MM:6,RF:8,LA:6,Periphery.CM:6,Periphery.ME:6,FWL:8,MH:6,MERC:6,CP:8,DA:8</availability>
+            <availability>CC:6,MOC:6,Periphery.MW:6,RF:8,LA:6,Periphery.CM:6,Periphery.ME:6,FWL:8,MH:6,MERC:6,CP:8,DA:8</availability>
             <model name=''>
                 <availability>General:8</availability>
             </model>
@@ -15866,7 +15866,7 @@
             </model>
             <model name='(Nonlethal)'>
                 <roles>urban,anti_infantry</roles>
-                <availability>Clan.IS:2,IS:2,Periphery:2</availability>
+                <availability>CLAN.IS:2,IS:2,Periphery:2</availability>
             </model>
             <model name='(Plasma Heavy)'>
                 <roles>urban</roles>
@@ -18767,7 +18767,7 @@
             </model>
         </chassis>
         <chassis name='Rifleman' unitType='Mek'>
-            <availability>Clan.IS:5,IS:4,FWL:7,FS:8,CP:7,CJF:6,Periphery:2</availability>
+            <availability>CLAN.IS:5,IS:4,FWL:7,FS:8,CP:7,CJF:6,Periphery:2</availability>
             <model name='C 2'>
                 <roles>anti_aircraft,raider</roles>
                 <availability>CJF:4</availability>
@@ -19165,7 +19165,7 @@
             </model>
             <model name='SM3'>
                 <roles>cavalry</roles>
-                <availability>CO:8</availability>
+                <availability>CP:8</availability>
             </model>
         </chassis>
         <chassis name='SM2 Heavy Artillery Vehicle' unitType='Tank'>
@@ -20040,7 +20040,7 @@
                 <availability>FS:4</availability>
             </model>
             <model name='SHD-7H'>
-                <availability>IS:6,MH:4,FR:4,Merc:6,DA:4,Periphery:6</availability>
+                <availability>IS:6,MH:4,FR:4,MERC:6,DA:4,Periphery:6</availability>
             </model>
             <model name='SHD-7M'>
                 <availability>CC:4,MOC:3,FVC:3,FWL:8,MERC:4,CP:8,CDP:3,TC:3</availability>
@@ -22609,7 +22609,7 @@
             </model>
         </chassis>
         <chassis name='Turkina' unitType='Mek' omni='Clan'>
-            <availability>CHH:3,CJF:7,CP:4,CSF:3,RD:5,SE:2+</availability>
+            <availability>CHH:3,CJF:7,CP:4,CDS:3,RD:5,SE:2+</availability>
             <model name='A'>
                 <roles>fire_support</roles>
                 <availability>CLAN:7,SE:7</availability>

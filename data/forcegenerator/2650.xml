@@ -564,7 +564,7 @@
             </model>
         </chassis>
         <chassis name='Bulldog Medium Tank' unitType='Tank'>
-            <availability>CC:9,MOC:8,IS:7,Periphery.Deep:7,RWR:9,FS:6,MERC:7,TC:8,Periphery:7,LA:8,FWL:8,SL.R:0,TH.HM:6,DC:9</availability>
+            <availability>CC:9,MOC:8,IS:7,Periphery.Deep:7,RWR:9,FS:6,MERC:7,TC:8,Periphery:7,LA:8,FWL:8,SL.R:0,TH.pm:6,DC:9</availability>
             <model name=''>
                 <availability>LA:8,General:8,FS:8,MERC:8,DC:8</availability>
             </model>
@@ -2175,7 +2175,7 @@
             </model>
         </chassis>
         <chassis name='Mackie' unitType='Mek'>
-            <availability>TH:3-,IS:1-,Periphery.Deep:4,SL.R:0,TH.HM:4-,Periphery:4</availability>
+            <availability>TH:3-,IS:1-,Periphery.Deep:4,SL.R:0,TH.pm:4-,Periphery:4</availability>
             <model name='MSK-6S'>
                 <availability>General:1,FWL:1</availability>
             </model>
@@ -2505,7 +2505,7 @@
             </model>
         </chassis>
         <chassis name='Merkava Heavy Tank' unitType='Tank'>
-            <availability>TH:8,TH.HM:6</availability>
+            <availability>TH:8,TH.pm:6</availability>
             <model name='Mk VIII'>
                 <availability>General:8</availability>
             </model>
@@ -2810,7 +2810,7 @@
             </model>
         </chassis>
         <chassis name='Packrat LRPV' unitType='Tank'>
-            <availability>MOC:2,CC:2,OA:2,LA:4,IS:3,RWR:2,FS:4,TH.HM:4,Periphery:3,TC:2</availability>
+            <availability>MOC:2,CC:2,OA:2,LA:4,IS:3,RWR:2,FS:4,TH.pm:4,Periphery:3,TC:2</availability>
             <model name='PKR-T5'>
                 <roles>recon,raider</roles>
                 <availability>General:8,Periphery.Deep:8,Periphery:8</availability>

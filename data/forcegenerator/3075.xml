@@ -4942,7 +4942,7 @@
             </model>
         </chassis>
         <chassis name='Cossack' unitType='Mek'>
-            <availability>CC:3,CS:2,MOC:2,CC.HG:5,MERC:2</availability>
+            <availability>CC:3,CS:2,MOC:2,CC.CHG:5,MERC:2</availability>
             <model name='C-1FC'>
                 <availability>MERC:4</availability>
             </model>
@@ -6118,7 +6118,7 @@
                 <availability>CSR:4,CLAN:2,SOC:0</availability>
             </model>
             <model name='[AP Gauss](Sqd5)' mechanized='true'>
-                <availability>CLAN:6+,CJF:7+,WD:4+,SOC:0</availability>
+                <availability>CLAN:6+,CJF:7+,MERC.WD:4+,SOC:0</availability>
             </model>
             <model name='[AP Gauss](Sqd3)' mechanized='true'>
                 <availability>SOC:7</availability>
@@ -10141,7 +10141,7 @@
             </model>
             <model name='HER-6D'>
                 <roles>recon</roles>
-                <availability>FS.LG:10</availability>
+                <availability>FS.DBG:10</availability>
             </model>
         </chassis>
         <chassis name='Hermes' unitType='Mek'>
@@ -10698,7 +10698,7 @@
             </model>
             <model name='(Militarized:MG)'>
                 <roles>cargo,support</roles>
-                <availability>FWL:6,MH:8,Periphery.NW:8,Periphery.CM:8</availability>
+                <availability>FWL:6,MH:8,Periphery.MW:8,Periphery.CM:8</availability>
             </model>
         </chassis>
         <chassis name='Icarus II' unitType='Mek'>
@@ -11956,7 +11956,7 @@
                 <availability>CHH:4,General:8,CJF:4,CGB:4</availability>
             </model>
             <model name='(XL)'>
-                <availability>CHH:8,Clan:6,CJF:8,CGB:8</availability>
+                <availability>CHH:8,CLAN:6,CJF:8,CGB:8</availability>
             </model>
         </chassis>
         <chassis name='Komodo' unitType='Mek'>
