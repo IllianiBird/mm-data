@@ -1980,8 +1980,27 @@ This Flaw only has a mechanical effect when using Alternate Advanced Medical.]]>
         <weight>1</weight>
         <skillPrereq />
     </ability>
+    <ability>
+        <lookupName>unofficial_ageraniums_disease</lookupName>
+        <displayName>Ageranium's Disease (Unofficial)</displayName>
+        <desc><![CDATA[This character has decreased mental acuity, reducing their Intelligence Attribute by 2.]]></desc>
+        <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>unofficial_dobrowski_depression_a_syndrome</lookupName>
+        <displayName>Dobrowski Depression-A Syndrome (Unofficial)</displayName>
+        <desc><![CDATA[This character has a genetic predisposition to severe mental depression, reducing their Edge Attribute by 1 and increasing Fatigue by 2.
 
-    <!-- OTHER SPA -->
+This is a hereditary disease that will be passed onto the character's offspring.
+
+This Flaw has reduced effect if Edge or Fatigue are disabled.]]></desc>
+        <xpCost>-200</xpCost>
+        <originOnly>true</originOnly>
+        <weight>1</weight>
+    </ability>
     <ability>
         <lookupName>pain_resistance</lookupName>
         <xpCost>100</xpCost>
