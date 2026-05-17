@@ -21,6 +21,21 @@ Plenty of room to run, but it will get tight once you get to company levels. Boa
 `convoy1.board` & `convoy2.board` - A useful 2x1 map system for campaigns involving getting your meks/vehicles from
 point A (NW corner) to point B (NE corner). There's plenty to do for both the ambushers and ambushees.
 
-## Installation Instructions
+## License Details
 
-Unzip the contents of this file to the `<megamek root>/data/boards/` directory where you have installed MegaMek.
+MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+NOTICE: The MegaMek organization is a non-profit group of volunteers
+creating free software for the BattleTech community.
+
+MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+of The Topps Company, Inc. All Rights Reserved.
+
+Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+InMediaRes Productions, LLC.
+
+MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+Microsoft's "Game Content Usage Rules"
+<https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+affiliated with Microsoft.

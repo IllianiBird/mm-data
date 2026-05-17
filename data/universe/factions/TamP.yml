@@ -17,7 +17,15 @@
 
 key: TamP
 name: Tamar Pact
-capital: Terra
+sucsCodes:
+  - TamP
+capital: Tamar
+capitalChanges:
+  3151: Arcturus
+yearsActive:
+  - start: 2235
+    end: 2341
+  - start: 3151
 successor: LA
 tags:
   - MINOR
@@ -27,3 +35,11 @@ color:
   green: 161
   blue: 66
 nameGenerator: LA
+fallBackFactions:
+  - LA
+factionLeaders:
+  - title: "Governor-General"
+    firstName: "Sarah"
+    surname: "Regis"
+    gender: "FEMALE"
+    startYear: 3151

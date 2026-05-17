@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -41,9 +32,21 @@ Mountaineer
 2242
 </mul id:>
 
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
 <year>
 3064
 </year>
+
+<originalBuildYear>
+3064
+</originalBuildYear>
 
 <type>
 IS Level 3
@@ -56,6 +59,10 @@ Ambusher
 <motion_type>
 Leg
 </motion_type>
+
+<Troopers Equipment>
+Federated Suns Infantry Kit
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
@@ -73,7 +80,7 @@ Leg
 </secondn>
 
 <Primary>
-Federated Barrett M42B
+InfantryFederatedBarrettM42B
 </Primary>
 
 <Secondary>
@@ -84,10 +91,8 @@ InfantrySRMLight
 128
 </specialization>
 
-<armorKit>
-DavionKit
-</armorKit>
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>The Federated Suns fields some of the most respected infantry in the Inner Sphere, with the AFFS treating its foot soldiers as essential partners in the combined-arms doctrine that defines the Regimental Combat Team. Among the most specialized of these formations, the Cerulean Mountain Infantry trains extensively for high-altitude and rough-terrain operations. Known as the "Goat Men," these troops can establish command posts on sheer cliff faces and launch attacks from approaches that conventional forces consider impassable. Their equipment includes re-breathers that allow them to operate at altitudes where conventional aircraft and VTOLs struggle to maintain lift. Armed with assault rifles and light missile launchers, the mountain troops combine vertical mobility with enough firepower to threaten light vehicles and exposed BattleMech components from unexpected angles.</p>
+</overview>
 
-<era>
-TRO: 3085
-</era>

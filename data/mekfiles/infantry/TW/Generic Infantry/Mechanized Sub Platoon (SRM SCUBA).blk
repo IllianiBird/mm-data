@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -53,15 +44,13 @@ IS Level 3
 Submarine
 </motion_type>
 
-<transporters>
-</transporters>
+<Troopers Equipment>
+Environment Suit, Marine
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-<overview>
-Submersible Mechanized Infantry Kraken Unleashed - The Mermen
-</overview>
 
 <source>
 TR:3085
@@ -84,12 +73,8 @@ InfantryAssaultRifle
 </Primary>
 
 <Secondary>
-SRM Launcher (Std, Two-Shot)
+InfantryStandardSRM
 </Secondary>
-
-<armorKit>
-Environment Suit, Marine
-</armorKit>
 
 <armordivisor>
 2.0
@@ -102,3 +87,9 @@ true
 <specialization>
 4096
 </specialization>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Submarine mechanized SCUBA platoons use motorized underwater propulsion to deliver infantry beneath the surface at speeds faster than combat swimmers can achieve. Armed with assault rifles and two-shot SRM launchers modified for underwater operation, these platoons conduct subsurface infiltration, harbor attack, and coastal sabotage missions. The motorized sleds extend their operational range well beyond what standard SCUBA troops can cover, though the platoon must surface to engage most land targets effectively.</p>
+</overview>
+

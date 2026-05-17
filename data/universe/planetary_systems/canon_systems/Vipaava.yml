@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Vipaava
-sucsId: 2693
+sucsId: 2694
 xcood: 61.258
 ycood: 370.634
 spectralType: M5V
@@ -67,6 +67,12 @@ planet:
         population: 146226.0
       - date: '2270-01-01'
         population: 405841.0
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2280-01-01'
         population: 989766.0
       - date: '2290-01-01'
@@ -77,6 +83,12 @@ planet:
         population: 4195997.0
       - date: '2310-01-01'
         population: 7531053.0
+      - date: '2317-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - PoR
       - date: '2320-01-01'
         population: 12633777.0
       - date: '2330-01-01'
@@ -89,6 +101,15 @@ planet:
             - DC
       - date: '2340-01-01'
         population: 29297966.0
+      - date: '2341-12-31'
+        # administration:
+        #   - Principality of Rasalhague
+      - date: '2341-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - DC
       - date: '2350-01-01'
         population: 41224704.0
       - date: '2360-01-01'
@@ -145,6 +166,16 @@ planet:
         population: 330462376.0
       - date: '2570-01-01'
         population: 332832459.0
+      - date: '2571-12-31'
+        # administration:
+        #   - Rasalhague Military District
+        #   - Radstadt Prefecture
+      - date: '2571-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - DC
       - date: '2580-01-01'
         population: 336360314.0
       - date: '2590-01-01'
@@ -254,6 +285,15 @@ planet:
             - FRR
       - date: '3040-01-01'
         population: 210252392.0
+      - date: '3040-12-31'
+        # administration:
+        #   - Rasalhague Province
+      - date: '3040-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FRR
       - date: '3047-01-01'
         socioIndustrial: C-D-B-C-D
       - date: '3050-01-01'
@@ -261,6 +301,18 @@ planet:
       - date: '3050-08-01'
         faction:
           source: canon
+          value:
+            - CGB
+      - date: '3050-09-30'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FRR
+      - date: '3051-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CGB
       - date: '3060-01-01'
@@ -286,6 +338,15 @@ planet:
         population: 233833348.0
       - date: '3130-01-01'
         population: 237985245.0
+      - date: '3130-12-31'
+        # administration:
+        #   - Region 1
+      - date: '3130-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - RD
       - date: '3140-01-01'
         population: 242210861.0
       - date: '3145-01-01'

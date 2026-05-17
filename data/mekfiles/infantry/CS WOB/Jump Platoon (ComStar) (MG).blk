@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.04-SNAPSHOT on 2025-02-08
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -53,15 +53,15 @@ Jump
 </motion_type>
 
 <Troopers Equipment>
-ComStar Infantry Kit
 AntiMekGear
+ComStar Infantry Kit
 </Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
 
 <source>
-TW
+TW,TM
 </source>
 
 <squad_size>
@@ -83,4 +83,9 @@ InfantryAssaultRifle
 <Secondary>
 Machine Gun (Portable)
 </Secondary>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>The Blessed Order maintained conventional infantry formations equipped with preserved Star League-era weapons and personal armor, fielding platoons that were better armed than most Successor State infantry throughout the late Succession Wars. Jump-capable platoons provide vertical mobility for urban operations and rough terrain that would slow or halt conventional foot infantry. ComStar deployed jump platoons in specialized roles where their ability to bypass obstacles justified the additional cost of jump equipment and training. Carrying infantry-portable machine guns that provide sustained suppressive fire, these troops anchor defensive positions with a volume of fire that discourages enemy movement in the open.</p>
+</overview>
 

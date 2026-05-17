@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-##Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -41,6 +32,10 @@ Clan Mechanized Tracked Squad
 2815
 </year>
 
+<originalBuildYear>
+2815
+</originalBuildYear>
+
 <type>
 Clan Level 2
 </type>
@@ -48,6 +43,10 @@ Clan Level 2
 <motion_type>
 Tracked
 </motion_type>
+
+<Troopers Equipment>
+Clan Armor Kit (All)
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
@@ -69,14 +68,15 @@ TW
 </secondn>
 
 <Primary>
-Auto-Rifle
+InfantryAssaultRifle
 </Primary>
 
 <Secondary>
-SRM Launcher (Hvy, One-Shot)
+InfantryHeavySRM
 </Secondary>
 
-<armorKit>
-ClanKit
-</armorKit>
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Clan mechanized tracked squads move a squad-strength element in tracked APCs for all-terrain mechanized duty. These compact formations provide Clan garrisons with armored reconnaissance and point security capability across rough ground. The tracked carriers handle terrain that would stop wheeled vehicles, and their armor offers protection during movement, though the small troop count limits the squad to holding minor positions or screening larger formations.</p>
+</overview>
 

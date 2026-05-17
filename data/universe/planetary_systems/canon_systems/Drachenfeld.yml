@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Drachenfeld
-sucsId: 3078
+sucsId: 3041
 xcood: 1182.589
 ycood: -105.931
 spectralType: M2V
@@ -54,6 +54,12 @@ planet:
             - IND
         population: 47176.0
         socioIndustrial: F-D-B-D-F
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2280-01-01'
         population: 68920.0
       - date: '2290-01-01'
@@ -234,6 +240,12 @@ planet:
           source: canon
           value:
             - IE
+      - date: '3095-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - IND
       - date: '3097-01-01'
         socioIndustrial: C-D-B-C-C
       - date: '3100-01-01'

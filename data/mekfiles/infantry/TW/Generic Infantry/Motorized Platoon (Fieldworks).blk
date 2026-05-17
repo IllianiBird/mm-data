@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -53,15 +44,14 @@ IS Level 3
 Motorized
 </motion_type>
 
-<transporters>
-</transporters>
+<Troopers Equipment>
+Vibro-Shovel
+Generic Infantry Kit
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-<overview>
-Combat Engineer Royal Engineers; 1st Lyran Royal Guards RCT
-</overview>
 
 <source>
 TR:3085
@@ -79,14 +69,12 @@ TR:3085
 SMG (Gunther MP-20)
 </Primary>
 
-<antimek>
-8
-</antimek>
-
-<armorKit>
-Generic Infantry Kit
-</armorKit>
-
 <specialization>
 32
 </specialization>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Motorized fieldworks platoons are combat engineers transported by light vehicles for rapid deployment to defensive preparation sites. Armed with Gunther MP-20 submachine guns for close defense, these engineers dig trenches and construct ad-hoc field fortifications that provide cover for friendly infantry, turning open ground into defensive positions. The motorized transport allows them to reach forward positions quickly and begin construction before the enemy can contest the ground.</p>
+</overview>
+

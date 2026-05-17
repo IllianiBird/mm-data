@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 These Scenarios allow players to recreate the Great Refusal held on Strana Mechty, where the elite units of Task force Serpent squared off against the Crusader Clans to determine the fate of the invasion of the Inner Sphere.
 
 All of these scenarios were designed for MegaMek version 29 or greater and all have been play tested both against human and bot opponents. Be aware that throughout these battles both sides abided to Clan Honour Level 2 as described on page five of "The Twilight of the Clans" Scenario pack.

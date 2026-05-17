@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 SupportTank
 </UnitType>
@@ -33,9 +24,9 @@ SupportTank
 Small Steamer
 </Name>
 
-<model>
+<Model>
 
-</model>
+</Model>
 
 <mul id:>
 9231
@@ -62,9 +53,9 @@ Naval
 </motion_type>
 
 <transporters>
-cargobay:0.7:1:1
-standardseats:1.0:0
-pillionseats:21.0:0
+cargobay:0.7:1:1::-1:0
+standardseats:1.0:0:-1::-1:0
+pillionseats:21.0:0:-1::-1:0
 </transporters>
 
 <cruiseMP>
@@ -74,6 +65,18 @@ pillionseats:21.0:0
 <engine_type>
 10
 </engine_type>
+
+<armor_type>
+43
+</armor_type>
+
+<armor_tech_rating>
+1
+</armor_tech_rating>
+
+<armor_tech_level>
+1
+</armor_tech_level>
 
 <internal_type>
 -1
@@ -113,10 +116,6 @@ pillionseats:21.0:0
 1
 </engine_tech_rating>
 
-<armor_tech_rating>
-1
-</armor_tech_rating>
-
 <source>
 AToW Companion
 </source>
@@ -128,3 +127,33 @@ AToW Companion
 <fuel>
 0.21
 </fuel>
+
+# Fluff Date: 2026-03-12 17:26:07
+<overview>
+<p>The small, steam-powered riverboat described here is not a military craft per se, but an example of an ultra low-tech vehicle that occasionally appears on many worlds either as a tour boat, light transport, or pleasure craft. Suitable for shallow waters, steamers have been pressed into military use over the centuries, often by scouts to covertly transport infantry troops and light gear through hostile waterways.</p>
+</overview>
+
+<manufacturer>
+Unknown
+</manufacturer>
+
+<primaryFactory>
+Unknown
+</primaryFactory>
+
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<systemModels>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemModels>
+

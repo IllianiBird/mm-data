@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -45,6 +36,10 @@ Jump Platoon
 2100
 </year>
 
+<originalBuildYear>
+2100
+</originalBuildYear>
+
 <type>
 IS Level 2
 </type>
@@ -56,6 +51,11 @@ Ambusher
 <motion_type>
 Jump
 </motion_type>
+
+<Troopers Equipment>
+Generic Infantry Kit
+AntiMekGear
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
@@ -73,13 +73,11 @@ TW
 </squadn>
 
 <Primary>
-Auto-Rifle
+InfantryAssaultRifle
 </Primary>
 
-<antimek>
-6
-</antimek>
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Jump infantry platoons equip their troops with personal jump packs that allow short powered hops across broken terrain, over walls, and onto rooftops. This vertical mobility gives jump platoons access to positions that foot and motorized infantry cannot reach, making them particularly effective in urban combat, mountainous terrain, and defensive operations where elevation matters. The trade-off is cost and logistics: jump packs require fuel, maintenance, and trained operators, limiting the number of jump platoons a garrison command can field compared to standard foot formations.</p>
+</overview>
 
-<armorKit>
-GenericKit
-</armorKit>

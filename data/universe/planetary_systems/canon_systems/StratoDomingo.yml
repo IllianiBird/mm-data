@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Strato Domingo
-sucsId: 2962
+sucsId: 2963
 xcood: 10.796
 ycood: 1880.658
 spectralType:
@@ -88,6 +88,12 @@ planet:
       - name: New Baltimore
       - name: Amini's Mistake
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2802-09-03'
         faction:
           source: canon
@@ -104,6 +110,12 @@ planet:
         population: 62554.0
       - date: '2820-01-01'
         population: 305095.0
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2830-01-01'
         population: 1010366.0
       - date: '2840-01-01'
@@ -115,6 +127,12 @@ planet:
       - date: '2864-11-03'
         faction:
           source: canon
+          value:
+            - CLAN
+      - date: '2864-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CLAN
       - date: '2870-01-01'
@@ -173,6 +191,12 @@ planet:
           value:
             - CSA
             - CSL
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3080-01-01'
         population: 36252884.0
       - date: '3085-03-27'
@@ -182,6 +206,12 @@ planet:
             - CSA
             - CSL
             - CCO
+      - date: '3085-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3090-01-01'
         population: 36595268.0
       - date: '3100-01-01'

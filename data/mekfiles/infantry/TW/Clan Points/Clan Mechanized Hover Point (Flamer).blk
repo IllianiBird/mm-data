@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -45,6 +36,10 @@ Clan Mechanized Hover Point
 2815
 </year>
 
+<originalBuildYear>
+2815
+</originalBuildYear>
+
 <type>
 Clan Level 2
 </type>
@@ -57,11 +52,15 @@ Ambusher
 Hover
 </motion_type>
 
+<Troopers Equipment>
+Clan Armor Kit (All)
+</Troopers Equipment>
+
 <Field Guns Equipment>
 </Field Guns Equipment>
 
 <source>
-TW
+TW,TO:AUE
 </source>
 
 <squad_size>
@@ -77,13 +76,15 @@ TW
 </secondn>
 
 <Primary>
-Auto-Rifle
+InfantryAssaultRifle
 </Primary>
 
 <Secondary>
-Flamer (Man-Pack)
+Flamer (Man-Portable)
 </Secondary>
 
-<armorKit>
-ClanKit
-</armorKit>
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Clan mechanized hover Points transport five warriors in hovercraft for high-speed operations across open ground and water. These fast-moving formations provide Clan garrison forces with amphibious patrol capability and rapid flanking options that slower infantry cannot match. Hover Points are well suited to coastal defense zones, river crossings, and flat terrain where their speed advantage is most pronounced. Rough terrain and forested worlds limit their effectiveness, but on open or littoral garrison worlds, hover Points extend the reach of Clan security forces considerably.</p>
+</overview>
+

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Niles (Clan)
-sucsId: 2955
+sucsId: 2956
 xcood: 118.994
 ycood: 1706.832
 spectralType:
@@ -67,6 +67,12 @@ planet:
         capital: Guma City
       - name: Cassia
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2802-11-28'
         faction:
           source: canon
@@ -82,6 +88,12 @@ planet:
         population: 53459.0
       - date: '2820-01-01'
         population: 267352.0
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2830-01-01'
         population: 905054.0
       - date: '2840-01-01'
@@ -93,6 +105,12 @@ planet:
       - date: '2864-06-27'
         faction:
           source: canon
+          value:
+            - CHH
+      - date: '2864-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CHH
       - date: '2870-01-01'
@@ -139,6 +157,12 @@ planet:
         population: 39235019.0
       - date: '3060-01-01'
         population: 39597825.0
+      - date: '3068-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3070-01-01'
         population: 39888157.0
       - date: '3072-02-27'
@@ -169,6 +193,12 @@ planet:
             - CBS
             - CSL
             - CSA
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3079-01-10'
         faction:
           source: canon
@@ -183,6 +213,12 @@ planet:
       - date: '3085-03-17'
         faction:
           source: canon
+          value:
+            - CSL
+      - date: '3085-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CSL
       - date: '3090-01-01'

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Brim
-sucsId: 2938
+sucsId: 2939
 xcood: -24.525
 ycood: 1768.565
 spectralType:
@@ -129,6 +129,12 @@ planet:
         capital: P4 City
       - name: Larger Layar
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2802-07-01'
         faction:
           source: canon
@@ -150,6 +156,12 @@ planet:
           source: canon
           value:
             - CLAN
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '2830-01-01'
         population: 439777.0
       - date: '2840-03-05'
@@ -165,6 +177,12 @@ planet:
         population: 1666948.0
       - date: '2860-01-01'
         population: 2579234.0
+      - date: '2864-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '2870-01-01'
         population: 3580899.0
       - date: '2880-01-01'
@@ -213,6 +231,12 @@ planet:
             - CSA
             - CSR
         population: 9585863.0
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3070-01-01'
         population: 9632696.0
       - date: '3070-06-01'
@@ -233,6 +257,12 @@ planet:
       - date: '3075-04-17'
         faction:
           source: canon
+          value:
+            - CCC
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CCC
       - date: '3080-01-01'

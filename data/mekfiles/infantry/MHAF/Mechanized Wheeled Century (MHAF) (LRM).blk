@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.03-SNAPSHOT on 2025-02-05
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -59,7 +59,7 @@ Wheeled
 </Field Guns Equipment>
 
 <source>
-TW
+TW,TO:AUE
 </source>
 
 <squad_size>
@@ -81,4 +81,9 @@ InfantryAssaultRifle
 <Secondary>
 InfantryLRM
 </Secondary>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Caesar's ongoing program to modernize the Legiones Marianes has extended to conventional infantry formations, with improved equipment and weapons gradually replacing older stockpiles across the Hegemony's auxiliary legions. A centuria, or century, is the Marian equivalent of a company-sized formation. Mechanized wheeled centuries use wheeled transports that offer good road speed and lower maintenance costs than tracked vehicles, well suited to the Hegemony's infrastructure-limited Periphery worlds where supply lines stretch thin. Support troops operate man-portable long-range missile launchers capable of engaging targets at distances well beyond personal weapon range, providing indirect fire capability against vehicles and fortified positions.</p>
+</overview>
 

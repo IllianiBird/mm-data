@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -41,6 +32,10 @@ Foot Squad (Anti-'Mech)
 1900
 </year>
 
+<originalBuildYear>
+1900
+</originalBuildYear>
+
 <type>
 IS Level 2
 </type>
@@ -48,6 +43,11 @@ IS Level 2
 <motion_type>
 Leg
 </motion_type>
+
+<Troopers Equipment>
+Generic Infantry Kit
+AntiMekGear
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
@@ -65,13 +65,11 @@ TW
 </squadn>
 
 <Primary>
-Auto-Rifle
+InfantryAssaultRifle
 </Primary>
 
-<antimek>
-5
-</antimek>
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Anti-BattleMech foot squads are squad-strength formations trained in close-assault tactics against armored combat vehicles. Smaller than a full anti-BattleMech platoon, these squads rely on stealth, ambush positioning, and terrain advantage to close with targets that outmass them by orders of magnitude. Their reduced numbers make each engagement a high-risk commitment, but in restrictive terrain where a single BattleMech can be isolated, even a squad of trained anti-BattleMech infantry poses a credible threat to leg actuators, sensor arrays, and exposed weapon housings.</p>
+</overview>
 
-<armorKit>
-GenericKit
-</armorKit>

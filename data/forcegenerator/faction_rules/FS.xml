@@ -555,7 +555,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         <name>{alpha} Company</name>
         <co>%LT%</co>
 
-        <role ifRole="lct">
+        <role ifFlags="lct">
             <option>+recon</option>
             <option>+apc</option>
         </role>

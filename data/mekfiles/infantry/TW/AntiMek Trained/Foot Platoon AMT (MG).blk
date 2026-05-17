@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -41,6 +32,10 @@ Foot Platoon (Anti-'Mech)
 1940
 </year>
 
+<originalBuildYear>
+1940
+</originalBuildYear>
+
 <type>
 IS Level 2
 </type>
@@ -48,6 +43,11 @@ IS Level 2
 <motion_type>
 Leg
 </motion_type>
+
+<Troopers Equipment>
+Generic Infantry Kit
+AntiMekGear
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
@@ -69,17 +69,15 @@ TW
 </secondn>
 
 <Primary>
-Auto-Rifle
+InfantryAssaultRifle
 </Primary>
 
 <Secondary>
 Machine Gun (Portable)
 </Secondary>
 
-<antimek>
-5
-</antimek>
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Anti-BattleMech foot platoons train their infantry in the specialized and extremely dangerous art of attacking BattleMechs at close quarters. Armed with standard infantry weapons supplemented by swarming tactics, magnetic grapples, and explosive charges placed on joints and sensor housings, these platoons represent one of the few ways conventional infantry can threaten armored combat vehicles directly. Casualties are typically severe, and most anti-BattleMech training programs emphasize that success depends on terrain, surprise, and the willingness to accept losses that would break a conventional formation. Urban environments, dense forests, and other restrictive terrain give anti-BattleMech platoons their best chance of closing to effective range.</p>
+</overview>
 
-<armorKit>
-GenericKit
-</armorKit>

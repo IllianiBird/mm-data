@@ -439,13 +439,13 @@
                         weight="2">%STAR%
                 </option>
                 <option weightClass="A" unitType="Mek"
-                        ifRating="strike" weight="2">%STAR%
+                        ifFlags="strike" weight="2">%STAR%
                 </option>
                 <option weightClass="H" unitType="Mek"
-                        ifRating="strike" weight="3">%STAR%
+                        ifFlags="strike" weight="3">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRating="strike" weight="2">%STAR%
+                        ifFlags="strike" weight="2">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -479,13 +479,13 @@
                         weight="2">%STAR%
                 </option>
                 <option weightClass="H" unitType="Mek"
-                        ifRole="strike" weight="2">%STAR%
+                        ifFlags="strike" weight="2">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRole="strike" weight="3">%STAR%
+                        ifFlags="strike" weight="3">%STAR%
                 </option>
                 <option weightClass="L" unitType="Mek"
-                        ifRole="strike" weight="2">%STAR%
+                        ifFlags="strike" weight="2">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -523,10 +523,10 @@
                         weight="4">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRole="strike" weight="2">%STAR%
+                        ifFlags="strike" weight="2">%STAR%
                 </option>
                 <option weightClass="L" unitType="Mek"
-                        ifRole="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -779,13 +779,13 @@
                         weight="4">%STAR%
                 </option>
                 <option weightClass="A" unitType="Mek"
-                        ifRating="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
                 <option weightClass="H" unitType="Mek"
-                        ifRating="strike" weight="6">%STAR%
+                        ifFlags="strike" weight="6">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRating="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -819,13 +819,13 @@
                         weight="4">%STAR%
                 </option>
                 <option weightClass="H" unitType="Mek"
-                        ifRole="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRole="strike" weight="6">%STAR%
+                        ifFlags="strike" weight="6">%STAR%
                 </option>
                 <option weightClass="L" unitType="Mek"
-                        ifRole="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -853,10 +853,10 @@
                         weight="8">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRole="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
                 <option weightClass="L" unitType="Mek"
-                        ifRole="strike" weight="8">%STAR%
+                        ifFlags="strike" weight="8">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -1182,10 +1182,10 @@
         <name>Trinary {greek}</name>
         <co>%NOVA_CAPTAIN%</co>
 
-        <changeEschelon ifRole="testTrinary">
-            <option role="-testTrinary">%TRINARY%</option>
-            <option role="-testTrinary" ifFlags="adHoc">%BINARY%</option>
-            <option role="-testTrinary">%BINARY%</option>
+        <changeEschelon ifFlags="testTrinary">
+            <option flags="-testTrinary">%TRINARY%</option>
+            <option flags="-testTrinary" ifFlags="adhoc">%BINARY%</option>
+            <option flags="-testTrinary">%BINARY%</option>
         </changeEschelon>
 
         <ruleGroup>
@@ -1206,10 +1206,10 @@
         <name>Trinary {greek}</name>
         <co>%STAR_CAPTAIN%</co>
 
-        <changeEschelon ifRole="testTrinary">
-            <option role="-testTrinary">%TRINARY%</option>
-            <option role="-testTrinary" ifFlags="adHoc">%BINARY%</option>
-            <option role="-testTrinary">%BINARY%</option>
+        <changeEschelon ifFlags="testTrinary">
+            <option flags="-testTrinary">%TRINARY%</option>
+            <option flags="-testTrinary" ifFlags="adhoc">%BINARY%</option>
+            <option flags="-testTrinary">%BINARY%</option>
         </changeEschelon>
 
         <ruleGroup>
@@ -1231,10 +1231,10 @@
         <name>Trinary {greek}</name>
         <co>%STAR_CAPTAIN%</co>
 
-        <changeEschelon ifRole="testTrinary">
-            <option role="-testTrinary">%TRINARY%</option>
-            <option role="-testTrinary" ifFlags="adHoc">%BINARY%</option>
-            <option role="-testTrinary"
+        <changeEschelon ifFlags="testTrinary">
+            <option flags="-testTrinary">%TRINARY%</option>
+            <option flags="-testTrinary" ifFlags="adhoc">%BINARY%</option>
+            <option flags="-testTrinary"
                     ifDateBetween="3071,">%BINARY%
             </option>
         </changeEschelon>

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Londerholm
-sucsId: 2951
+sucsId: 2952
 xcood: -42.221
 ycood: 1872.682
 spectralType:
@@ -83,6 +83,12 @@ planet:
       - name: Mamakating B
       - name: Mamakating C
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2802-10-12'
         faction:
           source: canon
@@ -100,6 +106,12 @@ planet:
       - date: '2821-12-10'
         faction:
           source: canon
+          value:
+            - CSJ
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CSJ
       - date: '2830-01-01'
@@ -148,6 +160,12 @@ planet:
         population: 5214594.0
       - date: '3040-01-01'
         population: 5194034.0
+      - date: '3040-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3046-01-01'
         socioIndustrial: A-B-D-A-C
       - date: '3050-01-01'
@@ -159,6 +177,12 @@ planet:
             - CIH
             - CCO
         population: 5126877.0
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3070-01-01'
         population: 5133329.0
       - date: '3072-09-07'
@@ -179,6 +203,12 @@ planet:
             - CCO
             - CSA
             - CCC
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3080-01-01'
         population: 5197379.0
       - date: '3085-03-07'
@@ -189,6 +219,12 @@ planet:
             - CSL
             - CCC
             - CSA
+      - date: '3085-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3090-01-01'
         population: 5226566.0
       - date: '3100-01-01'

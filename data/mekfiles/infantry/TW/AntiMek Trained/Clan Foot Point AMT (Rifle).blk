@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -41,6 +32,10 @@ Clan Foot Point (Anti-'Mech)
 2815
 </year>
 
+<originalBuildYear>
+2815
+</originalBuildYear>
+
 <type>
 Clan Level 2
 </type>
@@ -48,6 +43,11 @@ Clan Level 2
 <motion_type>
 Leg
 </motion_type>
+
+<Troopers Equipment>
+Clan Armor Kit (All)
+AntiMekGear
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
@@ -65,13 +65,11 @@ TW
 </squadn>
 
 <Primary>
-Auto-Rifle
+InfantryAssaultRifle
 </Primary>
 
-<antimek>
-5
-</antimek>
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Clan anti-BattleMech foot Points train five warriors in close-assault tactics against armored vehicles and BattleMechs. Within the Clan Touman, anti-BattleMech training carries a grim reputation: the mission demands that conventional warriors close to contact range with machines designed to destroy them. Garrison commanders assign these Points to defensive sectors where terrain favors infantry ambush, particularly urban zones and narrow passes. Success requires patience, discipline, and an acceptance of heavy casualties that reflects the solahma garrison ethos of service to the Clan regardless of personal cost.</p>
+</overview>
 
-<armorKit>
-ClanKit
-</armorKit>

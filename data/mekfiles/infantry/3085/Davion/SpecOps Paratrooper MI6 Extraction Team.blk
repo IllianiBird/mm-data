@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.02-SNAPSHOT on 2024-12-30
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -63,6 +63,10 @@ Sneak Suit (Camo/IR/ECM)
 TR:3085
 </source>
 
+<published>
+RS:3085u-CE
+</published>
+
 <squad_size>
 7
 </squad_size>
@@ -83,7 +87,24 @@ InfantryFederatedBarrettM42B
 Sonic Stunner
 </Secondary>
 
+<sneakcamo>
+true
+</sneakcamo>
+
+<sneakir>
+true
+</sneakir>
+
+<sneakecm>
+true
+</sneakecm>
+
 <specialization>
 512
 </specialization>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>When the Federated Suns requires something extracted from hostile territory overnight, the Rabid Foxes answer the call. Officially designated MI6 within the Department of Military Intelligence, the Rabid Foxes are among the most capable special operations personnel in the AFFS. Their Extraction Specialist Teams are trained to deploy from orbit on personal reentry units, locate a target, and reach the extraction point while avoiding all contact. Equipped with stealth suits, portable electronics, and sonic stunners alongside standard assault rifles, E-Teams prize silence and speed over firepower. MI6 units typically operate in five- to seven-person teams, though larger formations are assembled when the mission demands it.</p>
+</overview>
 

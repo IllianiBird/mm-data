@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Laurent
-sucsId: 1467
+sucsId: 1468
 xcood: -44.218
 ycood: 302.912
 spectralType: M0V
@@ -53,6 +53,12 @@ planet:
       - name: Daalmeijer
       - name: Southern Korendijk
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2473-01-23'
         faction:
           source: canon
@@ -82,6 +88,12 @@ planet:
         population: 154984005.0
       - date: '2570-01-01'
         population: 197136739.0
+      - date: '2571-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2580-01-01'
         population: 237524830.0
       - date: '2590-01-01'
@@ -127,6 +139,16 @@ planet:
           value:
             - LA
         population: 455556268.0
+      - date: '2750-12-31'
+        # administration:
+        #   - Tamar Pact
+        #   - Tamar Domains
+      - date: '2750-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - LA
       - date: '2760-01-01'
         population: 458080737.0
       - date: '2770-01-01'
@@ -196,6 +218,17 @@ planet:
           source: canon
           value:
             - FC
+      - date: '3040-12-31'
+        # administration:
+        #   - Tamar March
+        #   - Benfled Operational Area
+        #   - Region 1
+      - date: '3040-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FC
       - date: '3041-01-01'
         socioIndustrial: C-B-B-B-C
       - date: '3050-01-01'
@@ -203,6 +236,18 @@ planet:
       - date: '3051-11-02'
         faction:
           source: canon
+          value:
+            - CW
+      - date: '3051-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FC
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CW
       - date: '3060-01-01'
@@ -233,6 +278,12 @@ planet:
         population: 480216191.0
       - date: '3145-01-01'
         population: 481659003.0
+      - date: '3145-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CHH
   - name: Ghielen
     type: TERRESTRIAL
     orbitalDist: 0.35

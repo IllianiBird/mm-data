@@ -6534,14 +6534,14 @@
                     battlefield. They can
                     recover downed pilots, but not meks or salvage.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Cartes/35x35 Lilith</map>
                 <botForce>
                     <name>Twelfth Falcon Regulars</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Gamma Galaxy.jpg</filename>
@@ -6956,14 +6956,14 @@
                     destroy all opposing
                     forces.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>false</usingFixedMap>
                 <mapSize>30,30</mapSize>
                 <map>Woods-deep</map>
                 <botForce>
                     <name>Jade Eyrie Cluster</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Gamma Galaxy.jpg</filename>
@@ -7094,14 +7094,14 @@
                     that of the player's
                     forces after round 12 when all available reinforcements have arrived.
                 </desc>
-                <start>2</start>
+                <startingPos>2</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>32,32</mapSize>
                 <map>/unofficial/CSL Maps/32X32 Remote Outpost v1</map>
                 <botForce>
                     <name>Jade Eyrie Cluster</name>
                     <team>2</team>
-                    <start>6</start>
+                    <startingPos>6</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Gamma Galaxy.jpg</filename>
@@ -7458,14 +7458,14 @@
                     that of the player's
                     forces after round 14 when all available reinforcements have arrived.
                 </desc>
-                <start>2</start>
+                <startingPos>2</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>32,32</mapSize>
                 <map>/unofficial/CSL Maps/32X32 Remote Outpost v1</map>
                 <botForce>
                     <name>Jade Eyrie Cluster</name>
                     <team>2</team>
-                    <start>6</start>
+                    <startingPos>6</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Gamma Galaxy.jpg</filename>
@@ -7851,7 +7851,7 @@
                     claim battlefield
                     salvage.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>32,34</mapSize>
                 <map>/unofficial/SimonLandmine/32x34/32x34 DesertPlateaus</map>
@@ -7874,7 +7874,7 @@
                 <botForce>
                     <name>Second Falcon Jaegers</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Delta Galaxy.jpg</filename>
@@ -8781,7 +8781,7 @@
             <missionStoryPointId>a5776ce4-5b16-11ec-bf63-0242ac130002</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial of Possession</name>
-                <start>2</start>
+                <startingPos>2</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>40,40</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/40x40 Arctic Industrial Facility Tango</map>
@@ -8801,7 +8801,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>6</start>
+                    <startingPos>6</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -9157,7 +9157,7 @@
             <missionStoryPointId>5cef43d1-947b-481c-b496-97d4fce04520</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial of Possession</name>
-                <start>2</start>
+                <startingPos>2</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>40,40</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/40x40 Arctic Industrial Facility Tango</map>
@@ -9177,7 +9177,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>6</start>
+                    <startingPos>6</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -9533,7 +9533,7 @@
             <missionStoryPointId>f80458cd-40f8-4d25-aa13-2821a518d42e</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial 1</name>
-                <start>2</start>
+                <startingPos>2</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/35x35 Armor Veil</map>
@@ -9552,7 +9552,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>6</start>
+                    <startingPos>6</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -9644,7 +9644,7 @@
             <missionStoryPointId>f80458cd-40f8-4d25-aa13-2821a518d42e</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial 2</name>
-                <start>2</start>
+                <startingPos>2</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/35x35 Applegate</map>
@@ -9663,7 +9663,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>6</start>
+                    <startingPos>6</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -9753,7 +9753,7 @@
             <missionStoryPointId>f80458cd-40f8-4d25-aa13-2821a518d42e</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial 3</name>
-                <start>2</start>
+                <startingPos>2</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/35x35 Aim Nine</map>
@@ -9772,7 +9772,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>6</start>
+                    <startingPos>6</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -9878,7 +9878,7 @@
             <missionStoryPointId>f80458cd-40f8-4d25-aa13-2821a518d42e</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial 4</name>
-                <start>4</start>
+                <startingPos>4</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/35x35 Armor Veil</map>
@@ -9897,7 +9897,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>8</start>
+                    <startingPos>8</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -9989,7 +9989,7 @@
             <missionStoryPointId>f80458cd-40f8-4d25-aa13-2821a518d42e</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial 5</name>
-                <start>8</start>
+                <startingPos>8</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/35x35 Applegate</map>
@@ -10008,7 +10008,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>4</start>
+                    <startingPos>4</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -10087,7 +10087,7 @@
             <missionStoryPointId>f80458cd-40f8-4d25-aa13-2821a518d42e</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial 6</name>
-                <start>4</start>
+                <startingPos>4</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/35x35 Aim Nine</map>
@@ -10105,7 +10105,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>8</start>
+                    <startingPos>8</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -10200,7 +10200,7 @@
             <missionStoryPointId>f80458cd-40f8-4d25-aa13-2821a518d42e</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial 7</name>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/35x35 Armor Veil</map>
@@ -10218,7 +10218,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -10310,7 +10310,7 @@
             <missionStoryPointId>f80458cd-40f8-4d25-aa13-2821a518d42e</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial 8</name>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/35x35 Applegate</map>
@@ -10329,7 +10329,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -10419,7 +10419,7 @@
             <missionStoryPointId>f80458cd-40f8-4d25-aa13-2821a518d42e</missionStoryPointId>
             <scenario type="mekhq.campaign.mission.Scenario">
                 <name>Trial 9</name>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/35x35 Aim Nine</map>
@@ -10438,7 +10438,7 @@
                 <botForce>
                     <name>Jade Falcon Garrison Binary</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Kappa Galaxy.jpg</filename>
@@ -10546,7 +10546,7 @@
                     grant *hegira*. The wolf forces must withdraw and will not be able to claim
                     battlefield salvage.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>55,55</mapSize>
                 <map>/unofficial/Jakes Map Pack/55x55 Abysmal Flats</map>
@@ -10559,7 +10559,7 @@
                 <botForce>
                     <name>Falcon Guards</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Gamma Galaxy.jpg</filename>
@@ -11146,7 +11146,7 @@
                     for piloting a mek,
                     so be sure to watch your step.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Jakes Map Pack/35x35 Ice Bridge</map>
@@ -11163,7 +11163,7 @@
                 <botForce>
                     <name>Star Commander Mathius</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Wolf/Beta Galaxy/</category>
                         <filename>Beta Galaxy - 2nd Wolf Assault.png</filename>
@@ -11233,7 +11233,7 @@
                     the equator of Butler. The environment will make movement difficult, especially
                     without jump jets.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>25,25</mapSize>
                 <map>/unofficial/Jakes Map Pack/25x25 Swamp Romp</map>
@@ -11249,7 +11249,7 @@
                 <botForce>
                     <name>Star Commander Mathius</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Wolf/Beta Galaxy/</category>
                         <filename>Beta Galaxy - 2nd Wolf Assault.png</filename>
@@ -11320,7 +11320,7 @@
                     disable your mek through
                     breaches into your internal system.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/35x35 Alice</map>
@@ -11338,7 +11338,7 @@
                 <botForce>
                     <name>Star Commander Mathius</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Wolf/Beta Galaxy/</category>
                         <filename>Beta Galaxy - 2nd Wolf Assault.png</filename>
@@ -11409,7 +11409,7 @@
                     block clear line of
                     sight.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Deadborder/35x35 Pleasant Valley</map>
@@ -11425,7 +11425,7 @@
                 <botForce>
                     <name>Star Commander Mathius</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Wolf/Beta Galaxy/</category>
                         <filename>Beta Galaxy - 2nd Wolf Assault.png</filename>
@@ -11505,14 +11505,14 @@
 
                     The player will not be granted *hegira* by the Jade Falcons.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>32,34</mapSize>
                 <map>/unofficial/pokefan548/Fan Pack Arctic/32x34/32x34 Arctic Field</map>
                 <botForce>
                     <name>Fourth Talon Cluster</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Vau Galaxy.jpg</filename>
@@ -11870,7 +11870,7 @@
                 <botForce>
                     <name>Phelan</name>
                     <team>1</team>
-                    <start>6</start>
+                    <startingPos>6</startingPos>
                     <camouflage>
                         <category>Clans/Wolf/Delta Galaxy</category>
                         <filename>Delta Galaxy.jpg</filename>
@@ -11964,7 +11964,7 @@
                     the nature of this
                     strike, you will not be able to claim battlefield salvage.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>45,45</mapSize>
                 <map>/unofficial/Dervs/Map Pack 3/45x45 Alpine</map>
@@ -11979,7 +11979,7 @@
                 <botForce>
                     <name>Eyrie Garrison Cluster</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Omega Galaxy.jpg</filename>
@@ -12009,7 +12009,7 @@
                 <botForce>
                     <name>Jade Falcon Logistical Team</name>
                     <team>2</team>
-                    <start>0</start>
+                    <startingPos>0</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Omega Galaxy.jpg</filename>
@@ -12350,7 +12350,7 @@
                     forced withdrawal. Due
                     to the nature of the scenario, you may not collect *isorla.*
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Deadborder/35x35 Ancient City</map>
@@ -12366,7 +12366,7 @@
                 <botForce>
                     <name>Delta Galaxy</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Delta Galaxy.jpg</filename>
@@ -12395,7 +12395,7 @@
                 <botForce>
                     <name>Star Colonel Ulric Kerensky</name>
                     <team>1</team>
-                    <start>6</start>
+                    <startingPos>6</startingPos>
                     <camouflage>
                         <category>Clans/Wolf/Alpha Galaxy</category>
                         <filename>Golden Keshik.png</filename>
@@ -12545,7 +12545,7 @@
                     commander as MIA in the
                     scenario resolution.
                 </desc>
-                <start>10</start>
+                <startingPos>10</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>35,35</mapSize>
                 <map>/unofficial/Deadborder/35x35 Occupy Paragon City</map>
@@ -12561,7 +12561,7 @@
                 <botForce>
                     <name>Jade Falcons, Wave I</name>
                     <team>2</team>
-                    <start>9</start>
+                    <startingPos>9</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Delta Galaxy.jpg</filename>
@@ -12590,7 +12590,7 @@
                 <botForce>
                     <name>Jade Falcons, Wave II</name>
                     <team>2</team>
-                    <start>9</start>
+                    <startingPos>9</startingPos>
                     <deployRound>7</deployRound>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
@@ -12684,7 +12684,7 @@
                     Aziza will yield the contest if her mek is crippled and your mek is not. You may
                     surrender at any point. You cannot salvage her mek.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>16,17</mapSize>
                 <map>/Essentials Box Maps/16x17 Patchwork (Clear)</map>
@@ -12700,7 +12700,7 @@
                 <botForce>
                     <name>MekWarrior Aziza</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Wolf/Gamma Galaxy</category>
                         <filename>Gamma Galaxy - 7th Wolf Guard.jpg</filename>
@@ -12830,7 +12830,7 @@
                     Damien will yield the contest if his mek is crippled and your mek is not. You
                     may surrender at any point. You cannot salvage his mek.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>16,17</mapSize>
                 <map>/German/Tallassia 3 Country Side I</map>
@@ -12846,7 +12846,7 @@
                 <botForce>
                     <name>MekWarrior Damien</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Wolf/Alpha Galaxy</category>
                         <filename>Alpha Galaxy.jpg</filename>
@@ -12969,7 +12969,7 @@
                     Jameel will yield the contest if his mek is crippled and your mek is not. You
                     may surrender at any point. You cannot salvage his mek.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>16,17</mapSize>
                 <map>/unofficial/Jakes Map Pack/16x17 Fault Hills C</map>
@@ -12985,7 +12985,7 @@
                 <botForce>
                     <name>Star Commander Jameel</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Wolf/Beta Galaxy</category>
                         <filename>Beta Galaxy.jpg</filename>
@@ -13123,7 +13123,7 @@
                     Having reached the finals, Olympia will not surrender until her mek is
                     destroyed. You may surrender at any point. You cannot salvage her mek.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>16,17</mapSize>
                 <map>/AGoAC Maps/16x17 Grassland 3</map>
@@ -13139,7 +13139,7 @@
                 <botForce>
                     <name>Star Captain Olympia</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Wolf/Gamma Galaxy</category>
                         <filename>Bronze Keshik.png</filename>
@@ -13276,7 +13276,7 @@
                     There is no surrender or hegira available in this battle. You must fight until
                     one combatant's mek is destroyed. You cannot salvage Chistu's mek.
                 </desc>
-                <start>6</start>
+                <startingPos>6</startingPos>
                 <usingFixedMap>true</usingFixedMap>
                 <mapSize>25,25</mapSize>
                 <map>/unofficial/Jakes Map Pack/25x25 Tilting Grounds</map>
@@ -13292,7 +13292,7 @@
                 <botForce>
                     <name>saKhan Vandervahn Chistu</name>
                     <team>2</team>
-                    <start>2</start>
+                    <startingPos>2</startingPos>
                     <camouflage>
                         <category>Clans/Jade Falcon</category>
                         <filename>Turkina Keshik.jpg</filename>

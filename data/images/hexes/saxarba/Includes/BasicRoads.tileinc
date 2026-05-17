@@ -1,3 +1,20 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 # Roads
 
 # road:1 / lunar or mars is vacuum tunnels
@@ -13,8 +30,7 @@
 # road:3;road_fluff:1 is softer turns for dirt roads
 # road:4;road_fluff:1 is softer turns for gravel roads
 # road:3;road_fluff:2 is horizontal dirt roads
-# road:4;road_fluff:2 is horizontal gravel roads  
-
+# road:4;road_fluff:2 is horizontal gravel roads
 
 # The lunar roads
 super * "road:1:00" "lunar" "lunar/tunnel00.gif"
@@ -278,7 +294,7 @@ super * "road:2:61" "mars" "lunar/tunnel61.gif"
 super * "road:2:62" "mars" "lunar/tunnel62.gif"
 super * "road:2:63" "mars" "lunar/tunnel63.gif"
 
-# Softer turns: road:1;road_fluff:1 
+# Softer turns: road:1;road_fluff:1
 super * "road:1:05;road_fluff:1" "" "saxarba/roads/roadF05.png"
 super * "road:1:10;road_fluff:1" "" "saxarba/roads/roadF10.png"
 super * "road:1:17;road_fluff:1" "" "saxarba/roads/roadF17.png"
@@ -514,7 +530,7 @@ super * "road:2:61" "" "saxarba/roads/road_trees61.png"
 super * "road:2:62" "" "saxarba/roads/road_trees62.png"
 super * "road:2:63" "" "saxarba/roads/road_trees63.png"
 
-# Softer turns for dirt roads: road:3;road_fluff:1 
+# Softer turns for dirt roads: road:3;road_fluff:1
 super * "road:3:05;road_fluff:1" "" "unpaved_roads/dirtroad/dirtroad_F05.png"
 super * "road:3:10;road_fluff:1" "" "unpaved_roads/dirtroad/dirtroad_F10.png"
 super * "road:3:17;road_fluff:1" "" "unpaved_roads/dirtroad/dirtroad_F17.png"
@@ -552,7 +568,7 @@ super * "road:3:43;road_fluff:2" "" "unpaved_roads/dirtroad/dirtroad_H43.png"
 super * "road:3:50;road_fluff:2" "" "unpaved_roads/dirtroad/dirtroad_H50.png"
 super * "road:3:52;road_fluff:2" "" "unpaved_roads/dirtroad/dirtroad_H52.png"
 
-# Softer turns for gravel roads: road:4;road_fluff:1 
+# Softer turns for gravel roads: road:4;road_fluff:1
 super * "road:4:05;road_fluff:1" "" "unpaved_roads/gravel_road/gravel_roadF05.png"
 super * "road:4:10;road_fluff:1" "" "unpaved_roads/gravel_road/gravel_roadF10.png"
 super * "road:4:17;road_fluff:1" "" "unpaved_roads/gravel_road/gravel_roadF17.png"

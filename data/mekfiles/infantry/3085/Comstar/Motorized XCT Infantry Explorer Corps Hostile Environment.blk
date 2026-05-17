@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.02-SNAPSHOT on 2024-12-30
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -31,6 +31,14 @@ Explorer Corps Hostile Environment
 <mul id:>
 2241
 </mul id:>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
 
 <year>
 3058
@@ -90,4 +98,9 @@ true
 <specialization>
 2048
 </specialization>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>The Explorer Corps fields some of the most capable hostile environment infantry in the Inner Sphere. Formed as the armed escort component of ComStar's deep Periphery survey teams, these XCT platoons train to operate in conditions ranging from hard vacuum to crushing high-gravity atmospheres. Explorer Corps recon infantry are motorized for maximum flexibility, using tracked crawlers on high-gravity worlds and near-flying skimmers in low-gravity or dense-atmosphere environments. Armed with Mauser 960 assault systems and Hellbore assault lasers, a single platoon can provide enough firepower to discourage all but the most determined opposition. Their environment suits allow operations in toxic, irradiated, or airless conditions without degradation, making them one of the few conventional infantry formations capable of fighting on worlds where unprotected humans would die in minutes.</p>
+</overview>
 

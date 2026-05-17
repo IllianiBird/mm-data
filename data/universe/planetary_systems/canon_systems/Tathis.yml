@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Tathis
-sucsId: 2964
+sucsId: 2965
 xcood: 85.61
 ycood: 1811.916
 spectralType:
@@ -78,6 +78,12 @@ planet:
         size: medium
         icon: rock9
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2802-12-15'
         faction:
           source: canon
@@ -98,6 +104,12 @@ planet:
       - date: '2821-04-01'
         faction:
           source: canon
+          value:
+            - CLAN
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CLAN
       - date: '2830-01-01'
@@ -174,11 +186,23 @@ planet:
           value:
             - CCC
             - CSA
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3080-01-01'
         population: 48269554.0
       - date: '3085-04-29'
         faction:
           source: canon
+          value:
+            - CSA
+      - date: '3085-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CSA
       - date: '3090-01-01'

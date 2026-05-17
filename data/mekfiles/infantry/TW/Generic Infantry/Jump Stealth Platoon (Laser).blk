@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -53,15 +44,13 @@ IS Level 3
 Jump
 </motion_type>
 
-<transporters>
-</transporters>
+<Troopers Equipment>
+DEST Infiltration Suit
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-<overview>
-Heavy Jump Infantry DEST Heavy Response Platoon
-</overview>
 
 <source>
 TR:3085
@@ -87,14 +76,12 @@ Laser Pistol (Blazer)
 Particle Cannon (Semi-Portable)
 </Secondary>
 
-<antimek>
-8
-</antimek>
-
-<armorKit>
-DEST Infiltration Suit
-</armorKit>
-
 <dest>
 true
 </dest>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Stealth jump laser platoons combine sneak suit concealment, jump pack mobility, and heavy energy weapons in a special operations formation. Armed with Blazer laser pistols and semi-portable particle cannons, these platoons can approach targets undetected, gain elevated firing positions via jump, and engage with weapons capable of damaging light armor. The particle cannons represent some of the heaviest firepower available to conventional infantry, giving these covert platoons a disproportionate offensive punch.</p>
+</overview>
+

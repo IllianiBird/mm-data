@@ -1,4 +1,21 @@
-#Saved from version 0.50.11 on 2025-12-31
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -38,13 +55,7 @@ Generic Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-<capabilities>
-One of the least desired assignments, but one that is frequently necessary in civilian areas, is crowd control. Primarily equipped with less-lethal weapons such as sonic stunners these troops are responsible for maintaining order, dispersing violent crowds before they can do serious damage, and arresting agitators.
-</capabilities>
 
-<overview>
-After a decade of effort to recover following the distastrous outcome of the Fourth Succession War, the Capellan Confederation finally started fielding upgraded infantry armor in the late 3040s.  Continuing the existing focus on basic but sturdy and reliable material the new armor eventually included minor changes in appearance in line with the new Chancellor's Xin Sheng program.
-</overview>
 
 <notes>
 Intro date based on prototype date of CCAF advanced armor kit
@@ -70,4 +81,8 @@ Shotgun (Combat)
 Ceres Arms Crowdbuster
 </Secondary>
 
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. CCAF foot platoons anchor the Confederation's garrison network, holding worlds that BattleMech forces cannot permanently occupy. Slow and vulnerable in open terrain, they depend on prepared positions and local knowledge to offset their lack of mobility. Equipped with combat shotguns paired with Ceres Arms Crowdbuster riot control systems, these formations provide Capellan security forces with a mix of lethal and less-lethal crowd control capability.</p>
+</overview>
 

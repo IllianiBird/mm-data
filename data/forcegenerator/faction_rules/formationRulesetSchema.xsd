@@ -240,6 +240,7 @@
     <xs:complexType name="optionType">
         <xs:simpleContent>
             <xs:extension base="xs:string">
+                <!-- Deprecated alias for ifDateBetween (predicateAttributeGroup); kept for backwards compatibility. -->
                 <xs:attribute name="ifYearBetween" type="xs:string" />
                 <xs:attribute name="weight" type="xs:integer"
                               default="1" />

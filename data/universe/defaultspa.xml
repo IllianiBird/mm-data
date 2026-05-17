@@ -95,6 +95,15 @@
         </skillPrereq>
     </ability>
     <ability>
+        <lookupName>hvy_lifter</lookupName>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Piloting/Mek::Regular</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
         <lookupName>maneuvering_ace</lookupName>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
@@ -354,7 +363,7 @@
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
         <weight>3</weight>
-        <invalidAbilities>oblique_attacker::sandblaster</invalidAbilities>
+        <invalidAbilities>cluster_hitter</invalidAbilities>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
             <skill>Gunnery/ProtoMek::Regular</skill>

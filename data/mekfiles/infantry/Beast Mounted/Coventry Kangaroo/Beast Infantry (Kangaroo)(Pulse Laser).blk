@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-##Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -53,6 +44,11 @@ IS Level 3
 Beast:Coventry Kangaroo
 </motion_type>
 
+<Troopers Equipment>
+Generic Infantry Kit
+AntiMekGear
+</Troopers Equipment>
+
 <Field Guns Equipment>
 </Field Guns Equipment>
 
@@ -68,11 +64,8 @@ Beast:Coventry Kangaroo
 Pulse Laser Rifle (Inner Sphere)
 </Primary>
 
-<antimek>
-5
-</antimek>
-
-<armorKit>
-Generic Infantry Kit
-</armorKit>
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>The Coventry kangaroo is a genetically modified offshoot of the Terran red kangaroo, bred on the Lyran world of Coventry to be significantly larger than its ancestors. Standing roughly horse-sized with a distinctive chestnut brown coloring, the Coventry kangaroo was originally intended as a pack animal but proved far more effective as a riding mount. The creatures move smoothly and quickly through rough and wooded terrain, making them ideal for light cavalry operations. Troopers of the Coventry Province Militia who adopted the animals as mounts earned the nickname "diggers." Some sub-breeds were intentionally partially deafened through selective breeding to reduce startling under fire, improving their reliability in combat situations. Kangaroo-mounted infantry operate effectively in the broken, forested terrain common across Coventry's landmasses, where heavier vehicles struggle to maintain pace.</p>
+</overview>
 

@@ -5,6 +5,23 @@ http://www.classicbattletech.com/MonteDiablo.html
 
 Conversion by Kurt "Kobra" Kajal
 
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
 INSTRUCTIONS
 ------------
 Just unzip into your MegaMek folder, and you're ready to go!
@@ -14,7 +31,6 @@ There are two scenario files, one for 2 players (Steiner vs Davion) and one for 
 This pack also includes a new board (montediablo.board) which is just an elevated version of openterrain1.
 
 Because not all scenario-specific rules are implemented yet in the MegaMek Scenario system, it is important that you read this file carefully. It contains some additional constraints that should be followed in order to recreate the scenario as its designers intended.
-
 
 SITUATION
 ---------
@@ -36,13 +52,11 @@ Cavanaugh Theatre, Lyran Alliance
 
     Leutnant-General Voss-Steiner hastily ordered all Lyran forces in the area of Monte Diablo to converge on the Davion forces and wipe them out. At dawn on 17 August 3065, the Lyran forces moved in for the kill.
 
-
 DEPLOYMENT
 ----------
 ·Davion and ComStar units deploy anywhere on the Large Mountain map (columns 17XX to 32XX).
 ·Steiner units from the 7th Donegal Guards (Uziel, Lynx, Commando, Razorback) deploy along the West edge.
 ·Steiner units from the 2nd Donegal Guards deploy along the East edge.
-
 
 VICTORY CONDITIONS
 ------------------
@@ -55,7 +69,6 @@ As soon as one of these conditions is fulfilled, calculate each sides point tota
   -15 Points, each Lyran 'Mek forced to withdraw
   -10 Points for each operational Davion or ComStar 'Mek on Monte Diablo at the end of the game.
 
-
 SPECIAL RULES
 -------------
 The following special rules apply during this scenario:
@@ -65,7 +78,6 @@ The following special rules apply during this scenario:
 
 ·Crippling Damage
     A BattleMek is considered crippled when: A side torso location is destroyed, the 'Mek takes 2 engine critical hits, it takes 4 or more pilot hits, or all of its weapons are destroyed. Any ammunition fed weapon is considered destroyed when its ammunition is depleted. If a 'Mek's weapons are destroyed and it can no longer move, it is considered destroyed.
-
 
 VICTORY POINT TABLE
 -------------------

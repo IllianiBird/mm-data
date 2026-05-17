@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+
+<module name="Checker">
+    <module name="SuppressionSingleFilter">
+        <property name="checks" value=".*" />
+        <property name="files" value=".gif$|.png$|.ttf$|.jpg$|.svg$|.bmp$|.JPG$|data\/fonts|.mtf$|.blk$|planetary_systems|ratdata|academies|sourcebooks|forcegenerator|rat|mekset|name_change|news.xml|.gz$|.psd$|.xcf$|.icns$|.ico$|.wav$|.gitkeep$|.docx$|wreckset.txt" />
+    </module>
+
+    <module name="SuppressionSingleFilter">
+        <property name="id" value="CopyrightHeader" />
+        <property name="files" value=".csv$" />
+    </module>
+
+    <!-- Check that "license" appears at least once in the file -->
+    <module name="RegexpSingleline">
+        <property name="id" value="CopyrightHeader" />
+        <property name="format" value="(?i)\b(The MegaMek Team is licensed under|licensed under CC|licensed under the Creative Commons)\b" />
+        <property name="minimum" value="1" />
+        <property name="maximum" value="9999" />
+        <property name="ignoreCase" value="true" />
+        <property name="message" value="File must contain a license header" />
+        <property name="severity" value="error" />
+    </module>
+
+    <module name="RegexpSingleline">
+        <property name="id" value="ForbiddenWords" />
+        <property name="format" value="^(?!.*(bg\.battletech|MechWarrior Copyright|MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks|BattleMech Manual)).*\b(?i)(mech|mechwarrior|battlemech|aerotech|protomech|'mech|`Mech|TripodMech|BipedMech|QuadMech|LandAirMech|OmniMech|'Mechs)\b.*$" />
+        <property name="ignoreCase" value="true" />
+        <property name="message" value="Forbidden word found" />
+        <property name="severity" value="error" />
+    </module>
+</module>

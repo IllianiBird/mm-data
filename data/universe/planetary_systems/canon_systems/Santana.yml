@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Santana
-sucsId: 2229
+sucsId: 2230
 xcood: -198.832
 ycood: 258.445
 spectralType: G8V
@@ -84,6 +84,12 @@ planet:
         capital: Kakoratown
       - name: Castanho
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2299-12-14'
         faction:
           source: canon
@@ -95,12 +101,24 @@ planet:
         population: 69019.0
       - date: '2310-01-01'
         population: 266586.0
+      - date: '2317-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2320-01-01'
         population: 846276.0
       - date: '2330-01-01'
         population: 2278313.0
       - date: '2340-01-01'
         population: 5325383.0
+      - date: '2341-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - IND
       - date: '2350-01-01'
         population: 10977857.0
       - date: '2360-03-14'
@@ -109,6 +127,12 @@ planet:
           value:
             - LA
         population: 20334003.0
+      - date: '2366-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - IND
       - date: '2370-01-01'
         population: 34400036.0
       - date: '2380-01-01'
@@ -155,6 +179,16 @@ planet:
         population: 640572966.0
       - date: '2570-01-01'
         population: 652335835.0
+      - date: '2571-12-31'
+        # administration:
+        #   - Protectorate of Donegal
+        #   - Coventry Province
+      - date: '2571-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - LA
       - date: '2580-01-01'
         population: 660042440.0
       - date: '2590-01-01'
@@ -264,6 +298,17 @@ planet:
           source: canon
           value:
             - FC
+      - date: '3040-12-31'
+        # administration:
+        #   - Donegal March
+        #   - Coventry Operational Area
+        #   - Region 3
+      - date: '3040-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FC
       - date: '3046-01-01'
         socioIndustrial: B-C-C-D-B
       - date: '3050-01-01'
@@ -273,6 +318,15 @@ planet:
           source: canon
           value:
             - LA
+      - date: '3057-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - LA
+      - date: '3058-12-31'
+        # administration:
+        #   - Coventry Province
       - date: '3060-01-01'
         population: 358315601.0
       - date: '3070-01-01'
@@ -303,11 +357,23 @@ planet:
           value:
             - CJF
         population: 401783813.0
+      - date: '3145-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CJF
       - date: '3151-08-01'
         faction:
           source: canon
           value:
             - ARL
+      - date: '3151-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - ARDC
   - name: Oeiras
     type: GIANT_TERRESTRIAL
     orbitalDist: 1.28

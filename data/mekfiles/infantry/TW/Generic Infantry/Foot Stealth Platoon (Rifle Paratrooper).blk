@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -53,15 +44,13 @@ IS Level 3
 Leg
 </motion_type>
 
-<transporters>
-</transporters>
+<Troopers Equipment>
+Sneak Suit (Camo/IR/ECM)
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-<overview>
-SpecOps Paratrooper MI6 Extraction
-</overview>
 
 <source>
 TR:3085
@@ -80,20 +69,12 @@ TR:3085
 </secondn>
 
 <Primary>
-Rifle (Federated-Barrett M42B)
+InfantryFederatedBarrettM42B
 </Primary>
 
 <Secondary>
 Sonic Stunner
 </Secondary>
-
-<antimek>
-8
-</antimek>
-
-<armorKit>
-Sneak Suit (Camo/IR/ECM)
-</armorKit>
 
 <sneakcamo>
 true
@@ -110,3 +91,9 @@ true
 <specialization>
 512
 </specialization>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Stealth paratrooper platoons combine airborne insertion training with sneak suit technology that reduces their detection signature across visual, infrared, and electronic spectra. Armed with Federated-Barrett rifles and sonic stunners for silent incapacitation, these platoons drop behind enemy lines and operate covertly, conducting reconnaissance, sabotage, and prisoner acquisition without alerting the target's security network.</p>
+</overview>
+

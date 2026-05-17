@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Mirfak
-sucsId: 2914
+sucsId: 2915
 xcood: 386.121
 ycood: -478.358
 spectralType:
@@ -67,13 +67,19 @@ planet:
     water: 26
     lifeForm: INSECT
     desc: Mirfak is an arid planet with a small population, mostly consisting of miners
-      working the sveral small germanium and other rare material mines on the planet.
+      working the several small germanium and other rare material mines on the planet.
     landmass:
       - name: Baudry's Delight
         capital: Humud
       - name: Respigli
       - name: Winkel
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '3020-02-20'
         faction:
           source: canon
@@ -85,10 +91,22 @@ planet:
         hpg:
           source: canon
           value: C
+      - date: '3025-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '3030-01-01'
         population: 1242191.0
       - date: '3040-01-01'
         population: 2703749.0
+      - date: '3040-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - TC
       - date: '3046-01-01'
         socioIndustrial: C-D-A-D-D
       - date: '3050-01-01'
@@ -105,10 +123,25 @@ planet:
           source: canon
           value:
             - TC
+      - date: '3067-12-31'
+        # administration:
+        #   - Farseer Union
+      - date: '3067-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - TC
       - date: '3070-01-01'
         population: 3388659.0
       - date: '3080-01-01'
         population: 3446759.0
+      - date: '3085-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - IND
       - date: '3090-01-01'
         population: 3503751.0
       - date: '3100-01-01'
@@ -125,6 +158,12 @@ planet:
         population: 3703337.0
       - date: '3130-01-01'
         population: 3763067.0
+      - date: '3130-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CDP
       - date: '3132-08-07'
         hpg:
           source: canon

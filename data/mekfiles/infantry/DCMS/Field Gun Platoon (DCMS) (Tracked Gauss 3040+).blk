@@ -1,4 +1,21 @@
-#Saved from version 0.50.07 on 2025-09-25
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -40,13 +57,7 @@ ISGaussRifle
 IS Gauss Ammo
 </Field Guns Equipment>
 
-<capabilities>
-Gauss Rifles provide exceptional anti-Mek firepower for infantry formations.  The low ammunition capacity, high weight, and presence of more cost effective options make these weapons a higher pirority for armored units, leaving them relatively rare on the modern battlefield.
-</capabilities>
 
-<overview>
-Infantry are one of the most underserved branches in the DCMS.  Receiving little in the way of training or equipment they are left as garrison forces protecting stockpiles and camps while the mechanized forces take the fight to the enemy.  Offensive use is frequently limited to sacrificial holding actions enabling heavier forces to reposition or withdraw.  The horror of encountering Clan Elementals resulted in minor equipment improvements, with the bulk of infantry development work seeking to counter Clan battle armor with their own models.
-</overview>
 
 <notes>
 Intro date based on re-introduction date of Gauss Rifle
@@ -63,4 +74,9 @@ Intro date based on re-introduction date of Gauss Rifle
 <Primary>
 InfantryAssaultRifle
 </Primary>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Conventional infantry within the DCMS serve as the foundation of planetary defense, providing the manpower essential to territorial control while freeing BattleMech and armored assets for offensive operations. The platoon tows an infantry-portable gauss rifle that uses magnetic acceleration instead of chemical propellant. No muzzle flash, no propellant signature, no risk of ammunition explosion, and the projectile arrives with enough velocity to threaten anything short of assault-weight armor.</p>
+</overview>
 

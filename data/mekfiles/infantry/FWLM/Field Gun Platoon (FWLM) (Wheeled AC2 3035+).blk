@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.05-SNAPSHOT on 2025-04-14
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -63,13 +63,7 @@ Autocannon/2
 IS Ammo AC/2
 </Field Guns Equipment>
 
-<capabilities>
-Although outclassed by many later versions, older autocannon are still in common use as field guns due to lower operational costs plus a wide range of specialized ammunition.
-</capabilities>
 
-<overview>
-In response to the formation of the Federated Commonwealth the Free World League introduced it's own advanced infantry armor kit.  It is widely considered the most effective commonly available kit in the Inner Sphere and is in high demand among FWL forces.
-</overview>
 
 <notes>
 Intro date based on prototype release of FWL advanced infantry kit
@@ -90,4 +84,9 @@ InfantryAssaultRifle
 <encumberingarmor>
 true
 </encumberingarmor>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>New technology and creative tactical thinking have long featured in FWLM infantry deployment, with varied unit types and specialized formations treated as the norm rather than the exception. Towing crew-served autocannon/2 field guns, these platoons provide long-range direct fire support that supplements a formation's organic firepower. The light caliber offers sustained suppressive fire at extended range, though stopping power against armored targets is limited.</p>
+</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -53,15 +44,13 @@ IS Level 3
 Motorized
 </motion_type>
 
-<transporters>
-</transporters>
+<Troopers Equipment>
+Ballistic Plate, Standard
+</Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-<overview>
-Heavy Support Infantry Irian Technologies SWAT Team
-</overview>
 
 <source>
 TR:3085
@@ -87,14 +76,6 @@ Rifle (Imperator AX-22 Assault)
 Gauss Rifle, Light (David)
 </Secondary>
 
-<antimek>
-8
-</antimek>
-
-<armorKit>
-Ballistic Plate, Standard
-</armorKit>
-
 <armordivisor>
 2.0
 </armordivisor>
@@ -102,3 +83,9 @@ Ballistic Plate, Standard
 <encumberingarmor>
 true
 </encumberingarmor>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Heavy gauss motorized platoons mount their troops on light vehicles with Imperator assault rifles and David light gauss support weapons distributed across the formation. The light gauss rifles use magnetic acceleration to deliver projectiles at extreme velocity with no propellant signature, giving the platoon credible anti-armor capability at ranges well beyond personal weapon reach. The motorized transport allows rapid repositioning between firing positions, though troops must dismount to employ the crew-served gauss weapons effectively.</p>
+</overview>
+

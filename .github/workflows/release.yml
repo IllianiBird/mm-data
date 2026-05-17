@@ -3,7 +3,11 @@ name: Compress Files and Release Package
 on:
   push:
     tags:
-      - '*'
+      - "*"
+
+permissions:
+  contents: read
+  packages: write
 
 jobs:
   compress-job:

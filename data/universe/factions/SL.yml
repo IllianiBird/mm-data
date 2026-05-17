@@ -17,10 +17,28 @@
 
 key: SL
 name: Star League
+sucsCodes:
+  - SL
+  - SLDF
 capital: Terra
 yearsActive:
   - start: 2571
     end: 2780
+# NOTE: TH (Terran Hegemony) is intentionally NOT listed here. TH.fallBackFactions
+# already contains SL, so adding TH here would create a SL <-> TH cycle that crashes
+# RATGenerator.findModelAvailabilityRecord with StackOverflowError. The bidirectional
+# Faction.isLineageCompatible check used by Academy.java still resolves TH <-> SL
+# correctly via the existing TH -> SL relationship.
+fallBackFactions:
+  - LA
+  - FS
+  - CC
+  - FWL
+  - DC
+  - MOC
+  - OA
+  - RWR
+  - TC
 tags:
   - PLAYABLE
   - IS
@@ -39,6 +57,8 @@ eraMods:
   - -1
   - -1
 ratingLevels:
+  - F
+  - D
   - C
   - B
   - A

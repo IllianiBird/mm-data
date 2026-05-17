@@ -12,7 +12,7 @@ Contents.
 | IslandSetIndex001.bmp     | Color Map guide               |
 | IslandSetIndex002.bmp     | Color Map guide               |
 | IslandSetIndex003.bmp     | Color Map guide               |
-| DeepWater01.board         | Water Map                     | 
+| DeepWater01.board         | Water Map                     |
 | DeepWater02.board         | Water Map                     |
 | IslandSW.Board            | SW corner of island           |
 | IslandSE.board            | SE corner of island           |
@@ -66,3 +66,22 @@ Have Fun!  I had fun making and testing these maps!
 Thanks to those who helped test them. (You know who you are.)
 
 Comment/questions/requests? riker1of3@yahoo.com / cmdr_riker103@hotmail.com
+
+## License Information
+
+MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+NOTICE: The MegaMek organization is a non-profit group of volunteers
+creating free software for the BattleTech community.
+
+MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+of The Topps Company, Inc. All Rights Reserved.
+
+Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+InMediaRes Productions, LLC.
+
+MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+Microsoft's "Game Content Usage Rules"
+<https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+affiliated with Microsoft.

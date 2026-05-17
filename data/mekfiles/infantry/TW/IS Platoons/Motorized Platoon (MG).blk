@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -45,6 +36,10 @@ Motorized Platoon
 1950
 </year>
 
+<originalBuildYear>
+1950
+</originalBuildYear>
+
 <type>
 IS Level 2
 </type>
@@ -57,11 +52,16 @@ Ambusher
 Motorized
 </motion_type>
 
+<Troopers Equipment>
+Generic Infantry Kit
+AntiMekGear
+</Troopers Equipment>
+
 <Field Guns Equipment>
 </Field Guns Equipment>
 
 <source>
-TW
+TW,TM
 </source>
 
 <squad_size>
@@ -77,17 +77,15 @@ TW
 </secondn>
 
 <Primary>
-Auto-Rifle
+InfantryAssaultRifle
 </Primary>
 
 <Secondary>
 Machine Gun (Portable)
 </Secondary>
 
-<antimek>
-6
-</antimek>
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>Motorized infantry platoons use light ground vehicles, typically motorcycles or utility trucks, for rapid movement between positions. Faster than foot infantry and cheaper than fully mechanized formations, motorized platoons fill the gap between static garrison troops and armored combat units. They excel at road-bound patrol routes, rapid redeployment along prepared axes, and screening operations where speed matters more than protection. Off-road performance depends heavily on terrain and vehicle type, and the troops must dismount to fight, leaving their transport vulnerable.</p>
+</overview>
 
-<armorKit>
-GenericKit
-</armorKit>

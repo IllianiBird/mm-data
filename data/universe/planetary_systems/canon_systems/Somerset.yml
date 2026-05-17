@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Somerset
-sucsId: 2373
+sucsId: 2374
 xcood: -159.482
 ycood: 425.693
 spectralType:
@@ -86,6 +86,12 @@ planet:
         size: large
         icon: rock2
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2372-09-16'
         faction:
           source: canon
@@ -138,6 +144,15 @@ planet:
       - date: '2571-04-05'
         faction:
           source: canon
+          value:
+            - RWR
+      - date: '2571-12-31'
+        # administration:
+        #   - Apollo Province
+      - date: '2571-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - RWR
       - date: '2580-01-01'
@@ -198,6 +213,16 @@ planet:
             - LA
       - date: '2780-01-01'
         population: 167245413.0
+      - date: '2783-12-31'
+        # administration:
+        #   - Tamar Pact
+        #   - Trellshire
+      - date: '2783-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - LA
       - date: '2790-01-01'
         population: 167559092.0
       - date: '2800-01-01'
@@ -254,14 +279,25 @@ planet:
         population: 159694867.0
       - date: '3031-01-01'
         socioIndustrial: D-D-D-D-C
+      - date: '3040-01-19'
+        faction:
+          source: canon
+          value:
+            - FC
       - date: '3040-04-06'
         population: 160816652.0
         socioIndustrial:
           source: canon
           value: C-C-C-C-B
-      - date: '3040-01-19'
+      - date: '3040-12-31'
+        # administration:
+        #   - Tamar March
+        #   - Blackjack Operational Area
+        #   - Region 1
+      - date: '3040-12-31'
         faction:
-          source: canon
+          source: SUCS
+          version: 2026.03.02
           value:
             - FC
       - date: '3050-01-01'
@@ -277,6 +313,29 @@ planet:
           source: canon
           value:
             - CJF
+      - date: '3050-06-30'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CJF
+      - date: '3051-12-31'
+        # administration:
+        #   - Tamar March
+        #   - Blackjack Operational Area
+        #   - Region 1
+      - date: '3051-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FC
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CJF
       - date: '3060-01-01'
         population: 162709257.0
       - date: '3070-01-01'
@@ -289,6 +348,12 @@ planet:
       - date: '3071-07-13'
         faction:
           source: canon
+          value:
+            - CJF
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CJF
       - date: '3080-01-01'
@@ -316,6 +381,12 @@ planet:
       - date: '3151-12-10'
         faction:
           source: canon
+          value:
+            - CHH
+      - date: '3151-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CHH
   - name: Trimdon

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.05-SNAPSHOT on 2025-04-14
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -61,13 +61,7 @@ ISLBXAC5
 IS LB 5-X Cluster Ammo
 </Field Guns Equipment>
 
-<capabilities>
-LBX-class field guns are frequently deployed in the anti-aircraft and anti-vehicle roles due to their improved range and ability to fire cluster munitions. The higher costs compared to conventional autocannon is one of the few things preventing them from becoming the defacto standard.
-</capabilities>
 
-<overview>
-In response to the formation of the Federated Commonwealth the Free World League introduced it's own advanced infantry armor kit.  It is widely considered the most effective commonly available kit in the Inner Sphere and is in high demand among FWL forces.
-</overview>
 
 <notes>
 Intro date based on common production date of LBX autocannon
@@ -88,4 +82,9 @@ InfantryAssaultRifle
 <encumberingarmor>
 true
 </encumberingarmor>
+
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>The Free Worlds League's fractious politics have always made centralized BattleMech procurement difficult, pushing the FWLM toward heavy investment in conventional infantry to fill the gaps. Towing crew-served LB 5-X autocannon, these platoons field versatile weapons capable of firing solid slugs for armor penetration or cluster rounds for area effect against dispersed targets.</p>
+</overview>
 

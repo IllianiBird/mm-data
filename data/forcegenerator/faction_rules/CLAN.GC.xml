@@ -465,10 +465,10 @@
              part of the rearming process after the long war with Clan Wolf (TRO:Prototypes, p. 88). -->
         <attachedForces ifRating="Keshik|FL">
             <subforceOption>
-                <option ifYearBetween="3060," unitType="ProtoMek" weight="3">%STAR%</option>
-                <option ifYearBetween="3060," unitType="ProtoMek" weight="2">%BINARY%</option>
-                <option ifYearBetween="3060," unitType="ProtoMek" weight="1">%TRINARY%</option>
-                <option ifYearBetween="3071,3080" weight="4" />
+                <option ifDateBetween="3060," unitType="ProtoMek" weight="3">%STAR%</option>
+                <option ifDateBetween="3060," unitType="ProtoMek" weight="2">%BINARY%</option>
+                <option ifDateBetween="3060," unitType="ProtoMek" weight="1">%TRINARY%</option>
+                <option ifDateBetween="3071,3080" weight="4" />
             </subforceOption>
         </attachedForces>
     </force>
@@ -506,7 +506,7 @@
             </subforceOption>
             <subforceOption ifWeightClass="H">
                 <option weightClass="A,H,M" ifAugmented="1"
-                        flags="mekTankStar" weight="3">%STAR%
+                        flags="+mekTankStar" weight="3">%STAR%
                 </option>
                 <option weightClass="A,H,L" flags="+mekTankStar"
                         ifAugmented="1">%STAR%
@@ -740,13 +740,13 @@
                         weight="2">%STAR%
                 </option>
                 <option weightClass="A" unitType="Mek"
-                        ifRating="strike" weight="2">%STAR%
+                        ifFlags="strike" weight="2">%STAR%
                 </option>
                 <option weightClass="H" unitType="Mek"
-                        ifRating="strike" weight="3">%STAR%
+                        ifFlags="strike" weight="3">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRating="strike" weight="2">%STAR%
+                        ifFlags="strike" weight="2">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -790,13 +790,13 @@
                         weight="2">%STAR%
                 </option>
                 <option weightClass="H" unitType="Mek"
-                        ifRole="strike" weight="2">%STAR%
+                        ifFlags="strike" weight="2">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRole="strike" weight="3">%STAR%
+                        ifFlags="strike" weight="3">%STAR%
                 </option>
                 <option weightClass="L" unitType="Mek"
-                        ifRole="strike" weight="2">%STAR%
+                        ifFlags="strike" weight="2">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -834,10 +834,10 @@
                         weight="4">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRole="strike" weight="2">%STAR%
+                        ifFlags="strike" weight="2">%STAR%
                 </option>
                 <option weightClass="L" unitType="Mek"
-                        ifRole="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -1109,13 +1109,13 @@
                         weight="4">%STAR%
                 </option>
                 <option weightClass="A" unitType="Mek"
-                        ifRating="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
                 <option weightClass="H" unitType="Mek"
-                        ifRating="strike" weight="6">%STAR%
+                        ifFlags="strike" weight="6">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRating="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -1159,13 +1159,13 @@
                         weight="4">%STAR%
                 </option>
                 <option weightClass="H" unitType="Mek"
-                        ifRole="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRole="strike" weight="6">%STAR%
+                        ifFlags="strike" weight="6">%STAR%
                 </option>
                 <option weightClass="L" unitType="Mek"
-                        ifRole="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -1203,10 +1203,10 @@
                         weight="8">%STAR%
                 </option>
                 <option weightClass="M" unitType="Mek"
-                        ifRole="strike" weight="4">%STAR%
+                        ifFlags="strike" weight="4">%STAR%
                 </option>
                 <option weightClass="L" unitType="Mek"
-                        ifRole="strike" weight="8">%STAR%
+                        ifFlags="strike" weight="8">%STAR%
                 </option>
 
                 <option unitType="BattleArmor"
@@ -1543,10 +1543,10 @@
         <name>Trinary {greek}</name>
         <co>%NOVA_CAPTAIN%</co>
 
-        <changeEschelon ifRole="testTrinary">
-            <option role="-testTrinary">%TRINARY%</option>
-            <option role="-testTrinary" ifFlags="adHoc">%BINARY%</option>
-            <option role="-testTrinary"
+        <changeEschelon ifFlags="testTrinary">
+            <option flags="-testTrinary">%TRINARY%</option>
+            <option flags="-testTrinary" ifFlags="adhoc">%BINARY%</option>
+            <option flags="-testTrinary"
                     ifDateBetween="3071,">%BINARY%
             </option>
         </changeEschelon>
@@ -1569,10 +1569,10 @@
         <name>Trinary {greek}</name>
         <co>%STAR_CAPTAIN%</co>
 
-        <changeEschelon ifRole="testTrinary">
-            <option role="-testTrinary">%TRINARY%</option>
-            <option role="-testTrinary" ifFlags="adHoc">%BINARY%</option>
-            <option role="-testTrinary"
+        <changeEschelon ifFlags="testTrinary">
+            <option flags="-testTrinary">%TRINARY%</option>
+            <option flags="-testTrinary" ifFlags="adhoc">%BINARY%</option>
+            <option flags="-testTrinary"
                     ifDateBetween="3071,">%BINARY%
             </option>
         </changeEschelon>
@@ -1596,10 +1596,10 @@
         <name>Trinary {greek}</name>
         <co>%STAR_CAPTAIN%</co>
 
-        <changeEschelon ifRole="testTrinary">
-            <option role="-testTrinary">%TRINARY%</option>
-            <option role="-testTrinary" ifFlags="adHoc">%BINARY%</option>
-            <option role="-testTrinary"
+        <changeEschelon ifFlags="testTrinary">
+            <option flags="-testTrinary">%TRINARY%</option>
+            <option flags="-testTrinary" ifFlags="adhoc">%BINARY%</option>
+            <option flags="-testTrinary"
                     ifDateBetween="3071,">%BINARY%
             </option>
         </changeEschelon>

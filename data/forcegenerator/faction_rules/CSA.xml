@@ -763,13 +763,13 @@
         <co>%STAR_CAPTAIN%</co>
 
         <changeEschelon ifFlags="testTrinary">
-            <option role="-testTrinary" weight="6">%TRINARY%</option>
-            <option role="-testTrinary" weight="3">%BINARY%</option>
-            <option role="-testTrinary"
+            <option flags="-testTrinary" weight="6">%TRINARY%</option>
+            <option flags="-testTrinary" weight="3">%BINARY%</option>
+            <option flags="-testTrinary"
                     ifRating="FL|Keshik" ifDateBetween="2870,"
                     augmented="1" weight="2">%TRINARY%
             </option>
-            <option role="-testTrinary"
+            <option flags="-testTrinary"
                     ifRating="FL|Keshik" ifDateBetween="2870,"
                     augmented="1">%BINARY%
             </option>

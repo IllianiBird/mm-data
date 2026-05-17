@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Rasalas
-sucsId: 2121
+sucsId: 2122
 xcood: -150.76
 ycood: -93.88
 spectralType: K3V
@@ -66,6 +66,12 @@ planet:
         population: 228816.0
       - date: '2270-01-01'
         population: 698224.0
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - IND
       - date: '2280-10-08'
         faction:
           source: canon
@@ -78,6 +84,12 @@ planet:
         population: 8632037.0
       - date: '2310-01-01'
         population: 16257632.0
+      - date: '2317-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - IND
       - date: '2320-01-01'
         population: 28046938.0
       - date: '2330-01-01'
@@ -88,6 +100,12 @@ planet:
         population: 95647558.0
       - date: '2360-01-01'
         population: 129626058.0
+      - date: '2366-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FWL
       - date: '2370-01-01'
         population: 168429312.0
       - date: '2380-01-01'
@@ -130,6 +148,9 @@ planet:
         population: 833972288.0
       - date: '2570-01-01'
         population: 851530834.0
+      - date: '2571-12-31'
+        # administration:
+        #   - Marik Commonwealth
       - date: '2580-01-01'
         population: 862433174.0
       - date: '2590-01-01'
@@ -249,6 +270,12 @@ planet:
           source: canon
           value:
             - MSC
+      - date: '3079-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - MSC
       - date: '3080-01-01'
         population: 717859132.0
       - date: '3090-01-01'
@@ -273,6 +300,12 @@ planet:
           value:
             - CWE
         population: 759206155.0
+      - date: '3145-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CWE
   - name: Ranga
     type: TERRESTRIAL
     orbitalDist: 0.49

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Barcella
-sucsId: 2936
+sucsId: 2937
 xcood: -23.703
 ycood: 1896.374
 spectralType:
@@ -117,6 +117,12 @@ planet:
         size: large
         icon: rock8
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2802-09-14'
         faction:
           source: canon
@@ -135,6 +141,12 @@ planet:
       - date: '2821-07-19'
         faction:
           source: canon
+          value:
+            - CNC
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CNC
       - date: '2830-01-01'
@@ -192,6 +204,12 @@ planet:
           source: canon
           value:
             - CLAN
+      - date: '3025-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3030-01-01'
         population: 11236578.0
       - date: '3040-01-01'
@@ -208,6 +226,12 @@ planet:
             - CIH
             - CJF
         population: 11060921.0
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3070-02-23'
         faction:
           source: canon
@@ -260,6 +284,12 @@ planet:
             - CCC
             - CGS
             - CSA
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3079-10-12'
         faction:
           source: canon
@@ -272,6 +302,12 @@ planet:
       - date: '3085-07-12'
         faction:
           source: canon
+          value:
+            - CCO
+      - date: '3085-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CCO
       - date: '3090-01-01'

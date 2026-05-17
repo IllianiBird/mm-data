@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Arcadia (Clan)
-sucsId: 2928
+sucsId: 2929
 xcood: -115.655
 ycood: 1608.8
 spectralType:
@@ -85,6 +85,12 @@ planet:
         size: medium
         icon: oddmoon3
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2786-02-15'
         faction:
           source: canon
@@ -92,6 +98,12 @@ planet:
             - SLIE
         population: 1130503.0
         socioIndustrial: C-D-F-D-D
+      - date: '2786-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - SLIE
       - date: '2787-10-06'
         hpg: A
       - date: '2790-01-01'
@@ -107,6 +119,12 @@ planet:
         population: 599554.0
       - date: '2820-01-01'
         population: 425314.0
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - DIS
       - date: '2822-11-13'
         faction:
           source: canon
@@ -115,6 +133,12 @@ planet:
             - CSA
             - CSV
             - CBS
+      - date: '2822-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '2830-01-01'
         population: 1049010.0
       - date: '2840-01-01'
@@ -172,6 +196,12 @@ planet:
             - CGB
             - CSA
             - CSV
+      - date: '3059-03-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3060-01-01'
         population: 53020324.0
       - date: '3067-09-13'
@@ -183,6 +213,12 @@ planet:
             - CGB
             - CBS
             - CCC
+      - date: '3067-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3070-01-01'
         population: 53313205.0
       - date: '3071-04-25'
@@ -209,6 +245,12 @@ planet:
             - CBS
             - CCC
             - CSA
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3079-01-15'
         faction:
           source: canon
@@ -223,6 +265,12 @@ planet:
       - date: '3085-09-16'
         faction:
           source: canon
+          value:
+            - CSA
+      - date: '3085-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CSA
       - date: '3090-01-01'

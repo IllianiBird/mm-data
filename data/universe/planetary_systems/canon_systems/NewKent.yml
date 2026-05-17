@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: New Kent
-sucsId: 2954
+sucsId: 2955
 xcood: 120.807
 ycood: 1784.439
 spectralType:
@@ -90,6 +90,12 @@ planet:
           source: Warriors of Kerensky, pg. 109
           value: Kang
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2802-04-05'
         faction:
           source: canon
@@ -105,6 +111,12 @@ planet:
         population: 34435.0
       - date: '2820-01-01'
         population: 133724.0
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2830-01-01'
         population: 374383.0
       - date: '2840-01-01'
@@ -116,6 +128,12 @@ planet:
       - date: '2864-12-22'
         faction:
           source: canon
+          value:
+            - CSV
+      - date: '2864-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CSV
       - date: '2870-01-01'
@@ -164,6 +182,12 @@ planet:
           source: canon
           value:
             - CLAN
+      - date: '3025-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3030-01-01'
         population: 48633.0
       - date: '3040-01-01'
@@ -178,6 +202,12 @@ planet:
           value:
             - CIH
             - CCO
+      - date: '3059-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3060-01-01'
         population: 13045.0
       - date: '3067-11-07'
@@ -187,6 +217,12 @@ planet:
             - CSV
             - CCO
             - CJF
+      - date: '3067-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3070-01-28'
         faction:
           source: canon
@@ -199,13 +235,6 @@ planet:
           source: canon
           value:
             - CSV
-      - date: '3075-12-22'
-        faction:
-          source: canon
-          value:
-            - ABN
-        population: 0.0
-        socioIndustrial: X-X-X-X-X
       - date: '3075-12-14'
         faction:
           source: canon
@@ -217,9 +246,17 @@ planet:
             - CCO
             - CGS
             - CSA
-      - date: '3151-01-01'
+      - date: '3075-12-22'
         faction:
-          source: sucs
+          source: canon
+          value:
+            - ABN
+        population: 0.0
+        socioIndustrial: X-X-X-X-X
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - ABN
   - name: Wyndrowski

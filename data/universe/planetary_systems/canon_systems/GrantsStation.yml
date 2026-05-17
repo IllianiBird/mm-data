@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Grant's Station
-sucsId: 2944
+sucsId: 2945
 xcood: -66.81
 ycood: 1835.346
 spectralType:
@@ -107,6 +107,12 @@ planet:
       - name: Ikeda
         capital: Foster Town
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2802-08-28'
         faction:
           source: canon
@@ -122,6 +128,12 @@ planet:
         population: 35793.0
       - date: '2820-01-01'
         population: 126833.0
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2830-01-01'
         population: 331467.0
       - date: '2840-01-01'
@@ -133,6 +145,12 @@ planet:
       - date: '2864-08-08'
         faction:
           source: canon
+          value:
+            - CLAN
+      - date: '2864-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CLAN
       - date: '2870-01-01'
@@ -196,6 +214,12 @@ planet:
       - date: '3075-03-06'
         faction:
           source: canon
+          value:
+            - CSA
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CSA
       - date: '3080-01-01'

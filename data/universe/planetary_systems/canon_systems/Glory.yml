@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Glory
-sucsId: 2943
+sucsId: 2944
 xcood: 99.292
 ycood: 1835.555
 spectralType:
@@ -114,6 +114,12 @@ planet:
       - name: New Harper C
       - name: New Harper D
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2802-11-05'
         faction:
           source: canon
@@ -129,6 +135,12 @@ planet:
         population: 37700.0
       - date: '2820-01-01'
         population: 124034.0
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2830-01-01'
         population: 306364.0
       - date: '2840-01-01'
@@ -175,6 +187,12 @@ planet:
           source: canon
           value:
             - CLAN
+      - date: '3025-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3030-01-01'
         population: 5152393.0
       - date: '3040-01-01'
@@ -191,6 +209,12 @@ planet:
           value:
             - CJF
             - CW
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3070-12-22'
         faction:
           source: canon
@@ -218,6 +242,12 @@ planet:
             - CCO
             - CGS
             - CSL
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3079-03-02'
         faction:
           source: canon
@@ -225,6 +255,12 @@ planet:
             - CCO
             - CSA
             - CSL
+      - date: '3079-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3080-01-01'
         population: 5221342.0
       - date: '3085-04-02'
@@ -233,6 +269,12 @@ planet:
           value:
             - CSL
             - CCO
+      - date: '3085-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3090-01-01'
         population: 5302373.0
       - date: '3097-01-01'

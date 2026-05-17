@@ -55,6 +55,12 @@ planet:
       - name: Maeve 2
       - name: Maeve 3
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2703-08-18'
         faction:
           source: canon
@@ -76,6 +82,16 @@ planet:
         population: 3376049.0
       - date: '2750-01-01'
         population: 6685210.0
+      - date: '2750-12-31'
+        # administration:
+        #   - Rasalhague Military District
+        #   - Radstadt Prefecture
+      - date: '2750-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - DC
       - date: '2760-01-01'
         population: 11564754.0
       - date: '2770-01-01'
@@ -140,6 +156,15 @@ planet:
       - date: '3040-08-13'
         population: 132499494.0
         socioIndustrial: B-B-B-C-B
+      - date: '3040-12-31'
+        # administration:
+        #   - Rasalhague Province
+      - date: '3040-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FRR
       - date: '3050-01-01'
         population: 132050170.0
       - date: '3050-07-22'
@@ -153,6 +178,18 @@ planet:
           source: canon
           value:
             - CW
+      - date: '3050-09-30'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FRR
+      - date: '3051-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CW
       - date: '3060-01-01'
         population: 130776810.0
       - date: '3070-01-01'
@@ -160,6 +197,12 @@ planet:
       - date: '3071-09-18'
         faction:
           source: canon
+          value:
+            - CGB
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CGB
       - date: '3080-01-01'
@@ -181,6 +224,15 @@ planet:
         population: 143863377.0
       - date: '3130-01-01'
         population: 146622914.0
+      - date: '3130-12-31'
+        # administration:
+        #   - Region 1
+      - date: '3130-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - RD
       - date: '3132-08-07'
         hpg: X
       - date: '3140-01-01'

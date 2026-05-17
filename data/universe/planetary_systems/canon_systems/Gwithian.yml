@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Gwithian
-sucsId: 3023
+sucsId: 2985
 xcood: 261.325
 ycood: 788.379
 spectralType: K6V
@@ -48,6 +48,12 @@ planet:
       - name: Minor Wordwell
       - name: Trevethin
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2850-05-17'
         faction:
           source: canon
@@ -59,6 +65,12 @@ planet:
         hpg: X
       - date: '2860-01-01'
         population: 122175.0
+      - date: '2864-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2870-01-01'
         population: 222302.0
       - date: '2880-01-01'
@@ -104,6 +116,12 @@ planet:
           source: canon
           value:
             - CNC
+      - date: '3049-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CNC
       - date: '3050-01-01'
         population: 22961.0
       - date: '3052-11-25'
@@ -128,14 +146,32 @@ planet:
             - CDS
         population: 10144.0
         socioIndustrial: D-F-A-D-D
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CDS
       - date: '3068-02-24'
         hpg: A
       - date: '3070-01-01'
         population: 1157348.0
       - date: '3080-01-01'
         population: 1165012.0
+      - date: '3085-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3090-01-01'
         population: 1169681.0
+      - date: '3095-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - IND
       - date: '3100-01-01'
         population: 1171554.0
       - date: '3110-01-01'

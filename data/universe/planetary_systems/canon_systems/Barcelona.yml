@@ -107,6 +107,12 @@ planet:
       - name: Nueva Cérilly IV
       - name: Nueva Cérilly V
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2352-07-27'
         faction:
           source: canon
@@ -116,6 +122,12 @@ planet:
         socioIndustrial: D-D-C-D-B
       - date: '2360-01-01'
         population: 177861.0
+      - date: '2366-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - RWR
       - date: '2370-01-01'
         population: 582408.0
       - date: '2380-01-01'
@@ -160,6 +172,9 @@ planet:
         population: 242147003.0
       - date: '2570-01-01'
         population: 251960682.0
+      - date: '2571-12-31'
+        # administration:
+        #   - Apollo Province
       - date: '2580-01-01'
         population: 259871030.0
       - date: '2590-01-01'
@@ -213,6 +228,16 @@ planet:
             - LA
       - date: '2780-01-01'
         population: 268990923.0
+      - date: '2783-12-31'
+        # administration:
+        #   - Protectorate of Donegal
+        #   - Coventry Province
+      - date: '2783-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - LA
       - date: '2790-01-01'
         population: 265468884.0
       - date: '2800-01-01'
@@ -275,6 +300,17 @@ planet:
           source: canon
           value:
             - FC
+      - date: '3040-12-31'
+        # administration:
+        #   - Tamar March
+        #   - Blackjack Operational Area
+        #   - Region 2
+      - date: '3040-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FC
       - date: '3042-01-01'
         socioIndustrial: A-C-C-B-A
       - date: '3050-01-01'
@@ -290,8 +326,41 @@ planet:
           source: canon
           value:
             - CJF
+      - date: '3050-03-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CJF
+      - date: '3052-12-31'
+        # administration:
+        #   - Tamar March
+        #   - Pasig Operational Area
+        #   - Region 1
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - FC
+      - date: '3057-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - LA
+      - date: '3058-12-31'
+        # administration:
+        #   - Coventry Province
+        #   - Melissia Theater
       - date: '3060-01-01'
         population: 152092586.0
+      - date: '3067-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CJF
       - date: '3070-01-01'
         population: 154036479.0
       - date: '3080-01-01'
@@ -317,6 +386,12 @@ planet:
       - date: '3152-03-10'
         faction:
           source: canon
+          value:
+            - CHH
+      - date: '3152-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
           value:
             - CHH
   - name: Perafita

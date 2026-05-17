@@ -288,6 +288,18 @@ forces).
         <inner>CS</inner>
         <fraction>0.01</fraction>
     </location>
+    <!-- Federated Suns contained within Federated Commonwealth during FedCom era -->
+    <location start="3028-08-20" end="3067-04-16">
+        <outer>FC</outer>
+        <inner>FS</inner>
+        <fraction>0.5</fraction>
+    </location>
+    <!-- Lyran Commonwealth contained within Federated Commonwealth during FedCom era -->
+    <location start="3028-08-20" end="3067-04-16">
+        <outer>FC</outer>
+        <inner>LA</inner>
+        <fraction>0.5</fraction>
+    </location>
     <location start="3029-12-07" end="3081-04-02">
         <outer>FS</outer>
         <inner>CS</inner>
@@ -677,4 +689,90 @@ forces).
     <alliance start="3064-02-18">
         <parties>CSR,OA,RA</parties>
     </alliance>
+    <!-- Clan Ghost Bear contained within Rasalhague Dominion after merger -->
+    <location start="3103-01-01">
+        <outer>RD</outer>
+        <inner>CGB</inner>
+        <fraction>0.5</fraction>
+    </location>
+    <!-- Free Rasalhague Republic contained within Rasalhague Dominion after merger -->
+    <location start="3103-01-01">
+        <outer>RD</outer>
+        <inner>FRR</inner>
+        <fraction>0.5</fraction>
+    </location>
+    <!-- Clan Goliath Scorpion contained within Escorpion Imperio after Abjuration (Dec 3078) and conquest of Nueva Castile/Umayyad (3080) -->
+    <location start="3080-01-01">
+        <outer>CEI</outer>
+        <inner>CGS</inner>
+        <fraction>1.0</fraction>
+    </location>
+    <!-- Nueva Castile contained within Escorpion Imperio after conquest -->
+    <location start="3080-01-01">
+        <outer>CEI</outer>
+        <inner>NC</inner>
+        <fraction>0.3</fraction>
+    </location>
+    <!-- Umayyad Caliphate contained within Escorpion Imperio after conquest -->
+    <location start="3080-01-01">
+        <outer>CEI</outer>
+        <inner>UC</inner>
+        <fraction>0.3</fraction>
+    </location>
+    <!-- Hanseatic League contained within Scorpion Empire after conquest (Jan 3141 - Mar 3142) -->
+    <location start="3141-01-01">
+        <outer>CEI</outer>
+        <inner>HL</inner>
+        <fraction>0.5</fraction>
+    </location>
+    <!-- Free Worlds League (Former FWL) contained within splinter states during 3079-3139 fragmentation -->
+    <!-- Duchy of Andurien controls Andurien region -->
+    <location start="3079-01-01">
+        <outer>DA</outer>
+        <inner>FWL</inner>
+        <fraction>0.15</fraction>
+    </location>
+    <!-- Duchy of Oriente (3079-3086) then becomes Oriente Protectorate -->
+    <location start="3079-01-01" end="3086-01-01">
+        <outer>DO</outer>
+        <inner>FWL</inner>
+        <fraction>0.15</fraction>
+    </location>
+    <!-- Oriente Protectorate (3086-3139) -->
+    <location start="3086-01-01" end="3139-01-01">
+        <outer>OP</outer>
+        <inner>FWL</inner>
+        <fraction>0.15</fraction>
+    </location>
+    <!-- Principality of Regulus (3079-3086) then becomes Regulan Fiefs -->
+    <location start="3079-01-01" end="3086-01-01">
+        <outer>PR</outer>
+        <inner>FWL</inner>
+        <fraction>0.15</fraction>
+    </location>
+    <!-- Regulan Fiefs (3086+) -->
+    <location start="3086-01-01">
+        <outer>RF</outer>
+        <inner>FWL</inner>
+        <fraction>0.15</fraction>
+    </location>
+    <!-- Marik-Stewart Commonwealth controls Atreus (former FWL capital) -->
+    <location start="3082-01-01" end="3138-01-01">
+        <outer>MSC</outer>
+        <inner>FWL</inner>
+        <fraction>0.25</fraction>
+    </location>
+    <!-- Arc-Royal Defense Cordon (3058-3067) - autonomous Lyran region during FedCom Civil War -->
+    <!-- LA players can get contracts in ARDC space -->
+    <location start="3058-01-01" end="3067-04-20">
+        <outer>ARDC</outer>
+        <inner>LA</inner>
+        <fraction>0.5</fraction>
+    </location>
+    <!-- FC players can get contracts in ARDC space (still nominally FedCom territory) -->
+    <location start="3058-01-01" end="3067-04-20">
+        <outer>ARDC</outer>
+        <inner>FC</inner>
+        <fraction>0.3</fraction>
+    </location>
 </factionHints>

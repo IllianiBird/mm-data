@@ -1,4 +1,21 @@
-#Saved from version 0.50.12 on 2026-01-01
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.50.12 on 2026-02-26
 <UnitType>
 Infantry
 </UnitType>
@@ -38,13 +55,7 @@ Generic Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-<capabilities>
-The best defense against air attack has always been friendly air cover.  When that is not available, it falls to dedicated air defense platoons.  Mechanized support vehicles allow carrying slightly more effective weapons, although their effectiveness is typically limited to in-atmosphere conventional fighters.
-</capabilities>
 
-<overview>
-Conventional infantry have always been the defensive backbone of the CCAF.  Equipped with reliable and sturdy gear they depend more on the dedication of individual soldiers than technological superiority to hold the line against invading forces.
-</overview>
 
 <notes>
 Intro date based on common production date of Mk. II Anti-Aircraft Weapon
@@ -70,4 +81,8 @@ InfantryAssaultRifle
 AA Weapon (Mk. 2, Man-Portable)
 </Secondary>
 
+# Fluff Date: 2026-03-18 15:07:44
+<overview>
+<p>The Capellan Confederation has always relied on its infantry to compensate for the CCAF's chronic shortage of heavier assets. Conventional foot soldiers, drawn from the citizens' militia system that defines Capellan military service, form the backbone of garrison forces across the Confederation's commonalities. Mechanized wheeled platoons balance speed and infantry presence, using armored wheeled transports to move troops quickly along the Confederation's road networks. They sacrifice the cross-country capability of tracked vehicles for faster transit between defensive positions. Armed with standard ballistic assault rifles, the most common and affordable infantry weapon in the Inner Sphere, these platoons deliver reliable short-range firepower and can be equipped and resupplied from almost any garrison stockpile. Equipped with man-portable anti-aircraft weapons, these platoons provide ground formations with a dedicated air defense capability against low-flying VTOLs and conventional aircraft.</p>
+</overview>
 

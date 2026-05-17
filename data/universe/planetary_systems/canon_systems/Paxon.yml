@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 id: Paxon
-sucsId: 2956
+sucsId: 2957
 xcood: -70.799
 ycood: 1879.644
 spectralType:
@@ -127,6 +127,12 @@ planet:
         size: medium
         icon: rock7
     event:
+      - date: '2271-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2802-01-01'
         faction:
           source: canon
@@ -143,6 +149,12 @@ planet:
         population: 36685.0
       - date: '2820-01-01'
         population: 137133.0
+      - date: '2821-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - UND
       - date: '2830-01-01'
         population: 375865.0
       - date: '2840-01-01'
@@ -188,6 +200,12 @@ planet:
           source: canon
           value:
             - CLAN
+      - date: '3025-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CLAN
       - date: '3030-01-01'
         population: 68050.0
       - date: '3040-01-01'
@@ -200,6 +218,12 @@ planet:
         population: 37531.0
       - date: '3070-01-01'
         population: 30692.0
+      - date: '3072-04-01'
+        faction:
+          source: canon
+          value:
+            - CDS
+            - CCO
       - date: '3072-04-05'
         faction:
           source: canon
@@ -207,12 +231,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3072-04-01'
-        faction:
-          source: canon
-          value:
-            - CDS
-            - CCO
       - date: '3073-01-30'
         hpg: A
       - date: '3074-02-25'
@@ -229,6 +247,12 @@ planet:
         population:
           source: canon
           value: 0.0
+      - date: '3075-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - ABN
       - date: '3080-01-01'
         population: 142883.0
       - date: '3090-01-01'
