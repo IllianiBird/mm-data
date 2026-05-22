@@ -17,6 +17,9 @@
 
 key: CWIE
 name: Clan Wolf-in-Exile
+# Pinned explicitly so Faction2.getRankSystem() does not iterate fallBackFactions; CLAN tag
+# factions all use the shared CLAN rank table.
+rankSystem: CLAN
 sucsCodes:
   - CWX
 capital: Arc-Royal

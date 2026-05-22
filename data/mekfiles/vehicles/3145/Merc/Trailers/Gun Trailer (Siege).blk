@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.00-nightly-2026-05-04 on 2026-05-18
 <UnitType>
 Tank
 </UnitType>
@@ -81,9 +81,16 @@ Wheeled
 </armor>
 
 <Body Equipment>
+IS Ammo SC Mortar-2
+IS Ammo SC Mortar-2
+IS Ammo SC Mortar-2
+IS Ammo SC Mortar-2
+IS Ammo SC Mortar-2
+IS Ammo SC Mortar-2
 </Body Equipment>
 
 <Front Equipment>
+Hitch
 </Front Equipment>
 
 <Right Equipment>
@@ -101,34 +108,13 @@ IS Mech Mortar-2
 IS Mech Mortar-2
 </Turret Equipment>
 
-<source>
-TR:3145:Merc,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-<trailer>
-1
-</trailer>
-
-# Fluff Date: 2026-03-07 14:37:40
-<overview>
-<p>The Gun Trailer is a cheap, flexible, towed combat platform developed in response to the resource constraints facing armies and planetary militias in the post-HPG Dark Age. The Capellan Confederation Armed Forces are credited with first fielding the concept, recognizing early that forces unable to sustain large BattleMech formations still required effective fire support. The design's simplicity and adaptability proved compelling, and it spread rapidly across the Inner Sphere and into Clan-occupied space as manufacturers on dozens of worlds adopted the basic towed-platform framework. Gun Trailers are produced using locally available materials and straightforward construction techniques, making them accessible to militaries that cannot afford more sophisticated weapons. Their low cost allows saturation fielding, and configurations exist for nearly every tactical role from direct-fire anti-armor work to long-range artillery support, making them fixtures in mercenary commands, planetary militias, and regular House armies alike.</p>
-</overview>
-
 <capabilities>
 <p>Gun Trailers are armored, towed platforms that trade mobility for firepower and economy. Designed to be hauled into position by standard vehicles and then emplaced for combat, they depend on their crews to select advantageous terrain rather than maneuver under fire. Once positioned, a Gun Trailer becomes a formidable static or semi-static weapons platform capable of engaging targets at ranges its compact frame would otherwise suggest impossible.</p><p>The platform's defining strength is its versatility. Configurations exist for virtually every tactical role: direct-fire anti-armor work using autocannons and Thunderbolt missile systems, indirect artillery support with Thumper and Sniper cannon systems, area suppression with rocket launchers, and dedicated anti-infantry and anti-air platforms. When fielded in the standard formation of four to twelve trailers with supporting transports and infantry, a Gun Trailer battery can generate sustained firepower comparable to a conventional BattleMech lance. Advanced configurations mounting Arrow IV systems can threaten even well-armored targets at extended ranges.</p><p>The design's weaknesses are significant. Gun Trailers are essentially immobile once emplaced and are highly vulnerable when caught in the open or flanked by fast-moving forces. Their reliance on towing vehicles creates a logistical dependency that can leave batteries stranded if support elements are destroyed or disrupted. Their light construction offers minimal protection against sustained direct-fire attack, and experienced opponents specifically target the tow vehicles to neutralize entire batteries. Effective use demands terrain selection, proper infantry screening, and careful integration with mobile support elements.</p>
 </capabilities>
+
+<overview>
+<p>The Gun Trailer is a cheap, flexible, towed combat platform developed in response to the resource constraints facing armies and planetary militias in the post-HPG Dark Age. The Capellan Confederation Armed Forces are credited with first fielding the concept, recognizing early that forces unable to sustain large BattleMech formations still required effective fire support. The design's simplicity and adaptability proved compelling, and it spread rapidly across the Inner Sphere and into Clan-occupied space as manufacturers on dozens of worlds adopted the basic towed-platform framework. Gun Trailers are produced using locally available materials and straightforward construction techniques, making them accessible to militaries that cannot afford more sophisticated weapons. Their low cost allows saturation fielding, and configurations exist for nearly every tactical role from direct-fire anti-armor work to long-range artillery support, making them fixtures in mercenary commands, planetary militias, and regular House armies alike.</p>
+</overview>
 
 <deployment>
 <p>The Siege variant, fielded from 3094, adapts the Gun Trailer concept for breaching fortified positions and planetary defense installations. It provides conventional forces with an affordable alternative to dedicated siege artillery when facing prepared defenses. The Siege variant has seen significant use during the irregular conflicts of the Dark Age, where planetary militias defending against pirate and mercenary raids have deployed it to cover approach routes toward critical industrial facilities and population centers.</p>
@@ -161,4 +147,21 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:Merc
+</source>
+
+<tonnage>
+35.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
+
+<trailer>
+1
+</trailer>
+
 

@@ -17,6 +17,10 @@
 
 key: PP
 name: Pentagon Powers
+# Phase 2 pin: canonical-parent rank system, set explicitly so Faction2.getRankSystem()
+# does not recurse through fallBackFactions. Adjust if BattleTech canon for this
+# faction warrants a different rank table.
+rankSystem: SLDF
 sucsCodes: []  # no SUCS equivalent
 yearsActive:
   - start: 2801

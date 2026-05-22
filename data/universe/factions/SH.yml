@@ -17,6 +17,10 @@
 
 key: SH
 name: Sirian Holds
+# Phase 2 pin: canonical-parent rank system, set explicitly so Faction2.getRankSystem()
+# does not recurse through fallBackFactions. Adjust if BattleTech canon for this
+# faction warrants a different rank table.
+rankSystem: CCAF
 sucsCodes:
   - SH
 yearsActive:

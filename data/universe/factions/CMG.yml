@@ -17,6 +17,9 @@
 
 key: CMG
 name: Clan Mongoose
+# Pinned explicitly so Faction2.getRankSystem() does not iterate fallBackFactions; CLAN tag
+# factions all use the shared CLAN rank table.
+rankSystem: CLAN
 sucsCodes:
   - CMN
 capital: Terra
