@@ -431,21 +431,22 @@ ranked SL units.-->
                 </option>
             </subforceOption>
 
+            <!-- Rebalanced for Assault Cluster Assault-density: A,A 1->2, A,H 2->3, H,H 3->2, A,L removed.
+                 Total weight stays at 10. The A,L "Light Trinary in Assault Cluster" option produced ~9% Assault
+                 outliers; dropping it eliminates that path. Heavier weights on A,A and A,H, reduced H,H so the
+                 unbiased baseline pulls toward Assault even before the weight-emphasis toggle. -->
             <subforceOption ifWeightClass="H|A">
                 <option weightClass="A,A" unitType="Mek"
-                        flags="+testTrinary" weight="1">%TRINARY%
+                        flags="+testTrinary" weight="2">%TRINARY%
                 </option>
                 <option weightClass="A,H" unitType="Mek"
-                        flags="+testTrinary" weight="2">%TRINARY%
+                        flags="+testTrinary" weight="3">%TRINARY%
                 </option>
                 <option weightClass="A,M" unitType="Mek"
                         flags="+testTrinary" weight="2">%TRINARY%
                 </option>
-                <option weightClass="A,L" unitType="Mek"
-                        flags="+testTrinary" weight="1">%TRINARY%
-                </option>
                 <option weightClass="H,H" unitType="Mek"
-                        flags="+testTrinary" weight="3">%TRINARY%
+                        flags="+testTrinary" weight="2">%TRINARY%
                 </option>
                 <option weightClass="H,M" unitType="Mek"
                         flags="+testTrinary" weight="1">%TRINARY%
@@ -673,21 +674,22 @@ ranked SL units.-->
 
             <!--At least two Mek binary/trinaries-->
 
+            <!-- Rebalanced for Assault Cluster Assault-density: A,A 1->2, A,H 2->3, H,H 3->2, A,L removed.
+                 Total weight stays at 10. The A,L "Light Trinary in Assault Cluster" option produced ~9% Assault
+                 outliers; dropping it eliminates that path. Heavier weights on A,A and A,H, reduced H,H so the
+                 unbiased baseline pulls toward Assault even before the weight-emphasis toggle. -->
             <subforceOption ifWeightClass="H|A">
                 <option weightClass="A,A" unitType="Mek"
-                        flags="+testTrinary" weight="1">%TRINARY%
+                        flags="+testTrinary" weight="2">%TRINARY%
                 </option>
                 <option weightClass="A,H" unitType="Mek"
-                        flags="+testTrinary" weight="2">%TRINARY%
+                        flags="+testTrinary" weight="3">%TRINARY%
                 </option>
                 <option weightClass="A,M" unitType="Mek"
                         flags="+testTrinary" weight="2">%TRINARY%
                 </option>
-                <option weightClass="A,L" unitType="Mek"
-                        flags="+testTrinary" weight="1">%TRINARY%
-                </option>
                 <option weightClass="H,H" unitType="Mek"
-                        flags="+testTrinary" weight="3">%TRINARY%
+                        flags="+testTrinary" weight="2">%TRINARY%
                 </option>
                 <option weightClass="H,M" unitType="Mek"
                         flags="+testTrinary" weight="1">%TRINARY%
@@ -1137,7 +1139,7 @@ ranked SL units.-->
 
         <subforces generate="group" ifUnitType="Mek">
             <subforceOption ifWeightClass="A">
-                <option weightClass="A,A,A,H,H">%ELEMENT%</option>
+                <option weightClass="A,A,A,A,H">%ELEMENT%</option>
                 <option weightClass="A,A,H,H,H"
                         weight="2">%ELEMENT%
                 </option>
@@ -1247,7 +1249,7 @@ ranked SL units.-->
 
         <subforces generate="group">
             <subforceOption ifWeightClass="A">
-                <option weightClass="A,A,A,H,H">%ELEMENT%</option>
+                <option weightClass="A,A,A,A,H">%ELEMENT%</option>
                 <option weightClass="A,A,H,H,H"
                         weight="2">%ELEMENT%
                 </option>

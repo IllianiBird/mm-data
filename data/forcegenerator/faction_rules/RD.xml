@@ -322,21 +322,22 @@ but have a smaller aerospace arm than most other Clans. -->
         used to tag trinaries for the possibility of a supernova.-->
 
         <subforces>
+            <!-- Rebalanced for Assault Cluster Assault-density: A,A 1->2, A,H 2->3, H,H 3->2, A,L removed.
+                 Total weight stays at 10. The A,L "Light Trinary in Assault Cluster" option produced ~9% Assault
+                 outliers; dropping it eliminates that path. Heavier weights on A,A and A,H, reduced H,H so the
+                 unbiased baseline pulls toward Assault even before the weight-emphasis toggle. -->
             <subforceOption ifWeightClass="H|A">
                 <option weightClass="A,A" unitType="Mek"
-                        flags="+testTrinary" weight="1">%TRINARY%
+                        flags="+testTrinary" weight="2">%TRINARY%
                 </option>
                 <option weightClass="A,H" unitType="Mek"
-                        flags="+testTrinary" weight="2">%TRINARY%
+                        flags="+testTrinary" weight="3">%TRINARY%
                 </option>
                 <option weightClass="A,M" unitType="Mek"
                         flags="+testTrinary" weight="2">%TRINARY%
                 </option>
-                <option weightClass="A,L" unitType="Mek"
-                        flags="+testTrinary" weight="1">%TRINARY%
-                </option>
                 <option weightClass="H,H" unitType="Mek"
-                        flags="+testTrinary" weight="3">%TRINARY%
+                        flags="+testTrinary" weight="2">%TRINARY%
                 </option>
                 <option weightClass="H,M" unitType="Mek"
                         flags="+testTrinary" weight="1">%TRINARY%
@@ -566,7 +567,7 @@ but have a smaller aerospace arm than most other Clans. -->
 
         <attachedForces ifRating="FL">
             <subforceOption>
-                <option unitType="AeroSpaceFighter" name="Tango Fighter Star"
+                <option unitType="AeroSpaceFighter" weightClass="H" name="Tango Fighter Star"
                         weight="1">%STAR%
                 </option>
                 <option weight="5" />
@@ -575,7 +576,7 @@ but have a smaller aerospace arm than most other Clans. -->
 
         <attachedForces ifRating="Keshik">
             <subforceOption>
-                <option unitType="AeroSpaceFighter" name="Tango Fighter Star"
+                <option unitType="AeroSpaceFighter" weightClass="H" name="Tango Fighter Star"
                         weight="2">%STAR%
                 </option>
                 <option unitType="Mek" name="Tango Support Star"
@@ -786,7 +787,7 @@ but have a smaller aerospace arm than most other Clans. -->
 
         <subforces generate="group" ifUnitType="Mek">
             <subforceOption ifWeightClass="A">
-                <option weightClass="A,A,A,H,H">%ELEMENT%</option>
+                <option weightClass="A,A,A,A,H">%ELEMENT%</option>
                 <option weightClass="A,A,H,H,H"
                         weight="2">%ELEMENT%
                 </option>
@@ -892,7 +893,7 @@ but have a smaller aerospace arm than most other Clans. -->
 
         <subforces generate="group">
             <subforceOption ifWeightClass="A">
-                <option weightClass="A,A,A,H,H">%ELEMENT%</option>
+                <option weightClass="A,A,A,A,H">%ELEMENT%</option>
                 <option weightClass="A,A,H,H,H">%ELEMENT%</option>
                 <option weightClass="A,H,H,H,H"
                         weight="2">%ELEMENT%

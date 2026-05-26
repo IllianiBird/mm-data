@@ -812,7 +812,7 @@ division where most factions organize around a regiment. -->
         </weightClass>
 
         <subforces>
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H,H">%WING%</option>
                 <option weightClass="H,H,M">%WING%</option>
                 <option weightClass="H,H,L">%WING%</option>
@@ -849,7 +849,7 @@ division where most factions organize around a regiment. -->
         </weightClass>
 
         <subforces>
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H,H">%SQUADRON%</option>
                 <option weightClass="H,H,M">%SQUADRON%</option>
                 <option weightClass="H,H,L">%SQUADRON%</option>

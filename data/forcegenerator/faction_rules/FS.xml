@@ -842,7 +842,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         </weightClass>
 
         <subforces>
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H,H">%WING%</option>
                 <option weightClass="H,H,M">%WING%</option>
                 <option weightClass="H,H,L">%WING%</option>
@@ -873,7 +873,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         <subforces>
             <subforce role="command">%FLIGHT%</subforce>
 
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H,H">%SQUADRON%</option>
                 <option weightClass="H,H,M">%SQUADRON%</option>
                 <option weightClass="H,H,L">%SQUADRON%</option>

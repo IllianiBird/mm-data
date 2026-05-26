@@ -1002,7 +1002,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         <subforces>
             <subforce role="command" augmented="1" num="2">%FLIGHT%</subforce>
 
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H,H">%WING%</option>
                 <option weightClass="H,H,M">%WING%</option>
                 <option weightClass="H,H,L">%WING%</option>
@@ -1033,7 +1033,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         <subforces>
             <subforce role="command" augmented="1">%FLIGHT%</subforce>
 
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H,H" augmented="1">%SQUADRON%</option>
                 <option weightClass="H,H,M" augmented="1">%SQUADRON%</option>
                 <option weightClass="H,H,L" augmented="1">%SQUADRON%</option>
@@ -1065,7 +1065,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         <subforces>
             <subforce role="command" augmented="1">%FLIGHT%</subforce>
 
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H" augmented="0" weight="2">%SQUADRON%</option>
                 <option weightClass="H,M" augmented="0">%SQUADRON%</option>
             </subforceOption>
@@ -1111,7 +1111,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         </ruleGroup>
 
         <subforces>
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H,H">%FLIGHT%</option>
                 <option weightClass="H,H,M">%FLIGHT%</option>
                 <option weightClass="H,H,L">%FLIGHT%</option>

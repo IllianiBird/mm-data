@@ -115,6 +115,7 @@ tasks.register<Copy>("stageMMFiles") {
         include("sounds/**/*.*")
         include("sourcebooks/*.*")
         include("universe/eras.xml")
+        include("universe/ranks.xml")
         include("universe/commands/**/*.*")
         include("universe/factions/**/*.*")
     }
@@ -154,6 +155,7 @@ tasks.register<Copy>("stageMMLFiles") {
         include("universe/commands/**/*.*")
         include("universe/factions/**/*.*")
         include("universe/eras.xml")
+        include("universe/ranks.xml")
     }
 
     from(stagingFolder) {

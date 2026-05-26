@@ -152,6 +152,19 @@
                 </option>
             </subforceOption>
         </subforces>
+
+        <!-- Hell's Horses canonically pair ProtoMek detachments with their elite Keshik
+             formations, not just FL clusters. Mirrors the Cluster node's ProtoMek attachment
+             so a rating="Keshik" cluster, which matches this force node instead of the
+             generic Cluster, still gets its ProtoMek detachment. -->
+        <attachedForces>
+            <subforceOption>
+                <option ifDateBetween="3060," unitType="ProtoMek" weight="3">%STAR%</option>
+                <option ifDateBetween="3060," unitType="ProtoMek" weight="2">%BINARY%</option>
+                <option ifDateBetween="3060," unitType="ProtoMek" weight="1">%TRINARY%</option>
+                <option ifDateBetween="3071,3080" weight="4" />
+            </subforceOption>
+        </attachedForces>
     </force>
 
     <force echelon="%GALAXY%" eschName="Galaxy">
@@ -1927,7 +1940,7 @@
 
         <subforces>
             <subforceOption ifWeightClass="A">
-                <option weightClass="A,A,A,H,H">%POINT%</option>
+                <option weightClass="A,A,A,A,H">%POINT%</option>
                 <option weightClass="A,A,H,H,H"
                         weight="2">%POINT%
                 </option>
@@ -2013,7 +2026,7 @@
 
         <subforces>
             <subforceOption ifWeightClass="A">
-                <option weightClass="A,A,A,H,H">%POINT%</option>
+                <option weightClass="A,A,A,A,H">%POINT%</option>
                 <option weightClass="A,A,H,H,H"
                         weight="2">%POINT%
                 </option>
@@ -2147,7 +2160,7 @@
 
         <subforces generate="group">
             <subforceOption ifWeightClass="A" ifUnitType="Mek">
-                <option weightClass="A,A,A,H,H">%ELEMENT%</option>
+                <option weightClass="A,A,A,A,H">%ELEMENT%</option>
                 <option weightClass="A,A,H,H,H"
                         weight="2">%ELEMENT%
                 </option>

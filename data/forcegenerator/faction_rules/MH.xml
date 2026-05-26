@@ -192,7 +192,7 @@ support wing (cohort). -->
         </weightClass>
 
         <subforces>
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H,H">%SQUADRON%</option>
                 <option weightClass="H,H,M">%SQUADRON%</option>
                 <option weightClass="H,H,L">%SQUADRON%</option>
@@ -418,7 +418,7 @@ support wing (cohort). -->
         </weightClass>
 
         <subforces>
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H" weight="2">%FLIGHT%
                 </option>
                 <option weightClass="H,M">%FLIGHT%

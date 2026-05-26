@@ -185,7 +185,7 @@
         </weightClass>
 
         <subforces>
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option augmented="1"
                         weightClass="H,H,H">%SQUADRON%
                 </option>
@@ -245,7 +245,7 @@
         </weightClass>
 
         <subforces>
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option augmented="0"
                         weightClass="H,H" weight="2">%SQUADRON%
                 </option>
@@ -302,7 +302,7 @@
         </ruleGroup>
 
         <subforces>
-            <subforceOption ifWeightClass="H" ifUnitType="AeroSpaceFighter">
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
                 <option weightClass="H,H" weight="2">%FLIGHT%</option>
                 <option weightClass="H,M">%FLIGHT%</option>
             </subforceOption>
@@ -641,7 +641,7 @@
 
         <subforces generate="group" ifUnitType="Mek">
             <subforceOption ifWeightClass="A">
-                <option weightClass="A,A,A,H,H">%ELEMENT%</option>
+                <option weightClass="A,A,A,A,H">%ELEMENT%</option>
                 <option weightClass="A,A,H,H,H"
                         weight="2">%ELEMENT%
                 </option>
@@ -720,7 +720,7 @@
 
         <subforces>
             <subforceOption ifWeightClass="A">
-                <option weightClass="A,A,A,H,H">%POINT%</option>
+                <option weightClass="A,A,A,A,H">%POINT%</option>
                 <option weightClass="A,A,H,H,H"
                         weight="2">%POINT%
                 </option>
