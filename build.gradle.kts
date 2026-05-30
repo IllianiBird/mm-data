@@ -201,5 +201,13 @@ tasks.register<Copy>("stageFiles") {
         include("universe/**/*.*")
     }
 
+    // Mirror faction logos into images/force/Units so MekHQ's force-icon code
+    // can resolve them under data/images/force/ without duplicating the files
+    // in the source tree. The original images/universe/factions/ is preserved
+    // by the include("**/*.*") block above.
+    from("data/images/universe/factions") {
+        into("images/force/Units")
+    }
+
     into("${stagingFolder}/all")
 }
