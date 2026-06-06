@@ -339,32 +339,49 @@ ranked SL units.-->
 
     <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifRating="SL"
-              ifWeightClass="A|H">Reserve [Assault] Cluster
+              ifWeightClass="A|H">{cardinalOrdinal} Reserve [Assault] Cluster
         </name>
         <name ifRating="SL"
-              ifWeightClass="M">Reserve [Battle] Cluster
+              ifWeightClass="M">{cardinalOrdinal} Reserve [Battle] Cluster
         </name>
         <name ifRating="SL"
-              ifWeightClass="L">Reserve [Strike] Cluster
+              ifWeightClass="L">{cardinalOrdinal} Reserve [Strike] Cluster
         </name>
         <name ifRating="Sol"
-              ifWeightClass="A|H">Solahma [Assault] Cluster
+              ifWeightClass="A|H">{cardinalOrdinal} Solahma [Assault] Cluster
         </name>
         <name ifRating="Sol"
-              ifWeightClass="M">Solahma [Battle] Cluster
+              ifWeightClass="M">{cardinalOrdinal} Solahma [Battle] Cluster
         </name>
         <name ifRating="Sol"
-              ifWeightClass="L">Solahma [Strike] Cluster
+              ifWeightClass="L">{cardinalOrdinal} Solahma [Strike] Cluster
         </name>
-        <name ifWeightClass="A|H">[Assault] Cluster</name>
-        <name ifWeightClass="M">[Battle] Cluster</name>
-        <name ifWeightClass="L">[Strike] Cluster</name>
+        <name ifWeightClass="A|H">{cardinalOrdinal} [Assault] Cluster</name>
+        <name ifWeightClass="M">{cardinalOrdinal} [Battle] Cluster</name>
+        <name ifWeightClass="L">{cardinalOrdinal} [Strike] Cluster</name>
+
+        <!-- Per-cluster-type weight targets (budget allocator). L/M/H/A% reshape that
+             cluster type's Mek mix; spread = soft +/- jitter per cluster. Selected by the
+             same predicates as the <name> rules. Clan Coyote favors heavy and assault:
+             assault clusters are genuinely assault-heavy. -->
+        <weightTarget ifWeightClass="A" unitType="Mek" spread="8">A:50,H:42,M:8,L:0</weightTarget>
+        <weightTarget ifWeightClass="H" unitType="Mek" spread="8">A:30,H:55,M:13,L:2</weightTarget>
+        <weightTarget ifWeightClass="M" unitType="Mek" spread="8">A:8,H:40,M:42,L:10</weightTarget>
+        <weightTarget ifWeightClass="L" unitType="Mek" spread="8">A:0,H:18,M:42,L:40</weightTarget>
+        <!-- Aerospace: no assault-class fighters exist (caps at Heavy). Standard Clan aero is
+             M/H-centered with light interceptors; one line covers every cluster (aero does not
+             track the cluster's rolled Mek weight). -->
+        <weightTarget unitType="AeroSpaceFighter" spread="8">A:0,H:43,M:42,L:15</weightTarget>
+        <!-- Solahma/second-line armor: expendable, cheaper, lighter than the front-line Meks. -->
+        <weightTarget unitType="Tank" spread="8">A:3,H:30,M:40,L:27</weightTarget>
+
         <co ifName="Golden Keshik">%KHAN%</co>
         <co ifName="Silver Keshik">%SAKHAN%</co>
         <co ifName="Bronze Keshik">%LOREMASTER%</co>
         <co>%STAR_COL%</co>
 
         <weightClass>
+            <option weight="1">A</option>
             <option weight="4">H</option>
             <option weight="2">M</option>
             <option ifRole="!command" weight="1">L</option>

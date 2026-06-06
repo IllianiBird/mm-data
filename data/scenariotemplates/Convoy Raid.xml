@@ -129,8 +129,12 @@ The more convoy units that survive, the greater the spoils. Disabling transports
                 <syncDeploymentType>None</syncDeploymentType>
                 <useArtillery>false</useArtillery>
                 <roleChoices>
-                    <forceRole>CIVILIAN</forceRole>
+                    <forceRole>SUPPORT</forceRole>
+                    <forceRole>SUPPORT</forceRole>
                     <forceRole>CARGO</forceRole>
+                    <forceRole>CARGO</forceRole>
+                    <forceRole>CARGO</forceRole>
+                    <forceRole>APC</forceRole>
                     <forceRole>APC</forceRole>
                 </roleChoices>
             </value>

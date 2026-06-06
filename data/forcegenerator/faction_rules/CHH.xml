@@ -272,6 +272,13 @@
         <name ifFlags="horde">Horde Cluster</name>
         <name ifFlags="ranger">Rangers</name>
         <name ifFlags="adhoc">BattleMek Cluster</name>
+
+        <!-- Cavalry clusters are fast light-to-heavy recon/rapid-response (jump infantry, mobile
+             hovercraft/VTOL). The cluster picker suppresses Heavy for cavalry, but the trinary-level
+             star rolls still skew Heavy, so reshape the final element mix lighter for this type.
+             Assault and Strike clusters are left to the existing recipes (already canon). -->
+        <weightTarget ifFlags="cavalry" unitType="Mek" spread="8">A:2,H:18,M:35,L:45</weightTarget>
+        <weightTarget ifFlags="cavalry" unitType="Tank" spread="8">A:2,H:13,M:45,L:40</weightTarget>
         <co>%STAR_COL%</co>
 
         <!-- If toplevel, flags are assigned after weight distribution. If toplevel,

@@ -200,56 +200,58 @@
         <co>%STAR_COL%</co>
         <xo ifRating="Keshik" title="Aide">%LOREMASTER%</xo>
 
+        <!-- Per-cluster-type weight targets (budget allocator). Clan Blood Spirit is a
+             resource-poor, striker/ProtoMek-leaning Clan: medium/light-centered, Assault a
+             clear minority. Picker rolls M~38/L~38/H~25/A0, so the M and L cluster targets
+             dominate the faction blend; what little Assault there is rides in the H and M
+             targets. Lore blend ~L25/M40/H25/A10. -->
+        <weightTarget ifWeightClass="A|H" unitType="Mek" spread="8">A:26,H:42,M:29,L:3</weightTarget>
+        <weightTarget ifWeightClass="M" unitType="Mek" spread="8">A:11,H:22,M:54,L:13</weightTarget>
+        <weightTarget ifWeightClass="L" unitType="Mek" spread="8">A:2,H:7,M:39,L:52</weightTarget>
+        <!-- Aerospace: no assault-class fighters exist (caps at Heavy). Poor Clan: lighter,
+             interceptor-leaning aero. One line covers every cluster. -->
+        <weightTarget unitType="AeroSpaceFighter" spread="8">A:0,H:30,M:42,L:28</weightTarget>
+        <!-- Vehicles: resource-poor second-line armor runs light/medium, cheaper than the Meks. -->
+        <weightTarget unitType="Tank" spread="8">A:2,H:25,M:38,L:35</weightTarget>
+
         <weightClass>
             <option weight="2">H</option>
-            <option ifRating="!Keshik" weight="2">M</option>
-            <option ifRating="!Keshik" weight="1">L</option>
+            <option ifRating="!Keshik" weight="3">M</option>
+            <option ifRating="!Keshik" weight="3">L</option>
         </weightClass>
 
         <subforces>
             <subforceOption ifWeightClass="H|A">
-                <option weightClass="A,A,A" unitType="Mek"
+                <option weightClass="A,A,A" unitType="Mek" weight="3"
                 >%TRINARY%
                 </option>
-                <option weightClass="A,A,H" unitType="Mek"
+                <option weightClass="A,A,H" unitType="Mek" weight="4"
                 >%TRINARY%
                 </option>
-                <option weightClass="A,A,M" unitType="Mek"
+                <option weightClass="A,A,M" unitType="Mek" weight="2"
                 >%TRINARY%
                 </option>
-                <option weightClass="A,A,L" unitType="Mek"
-                >%TRINARY%
-                </option>
-                <option weightClass="A,H,H" unitType="Mek"
-                >%TRINARY%
-                </option>
-                <option weightClass="H,H,H" unitType="Mek"
+                <option weightClass="A,H,H" unitType="Mek" weight="2"
                 >%TRINARY%
                 </option>
             </subforceOption>
             <subforceOption ifWeightClass="M">
-                <option weightClass="A,H,M" unitType="Mek"
+                <option weightClass="M,M,M" unitType="Mek" weight="3"
                 >%TRINARY%
                 </option>
-                <option weightClass="A,H,L" unitType="Mek"
+                <option weightClass="H,M,M" unitType="Mek" weight="3"
                 >%TRINARY%
                 </option>
-                <option weightClass="A,M,M" unitType="Mek"
+                <option weightClass="M,M,L" unitType="Mek" weight="2"
                 >%TRINARY%
                 </option>
-                <option weightClass="A,M,L" unitType="Mek"
+                <option weightClass="H,M,L" unitType="Mek" weight="2"
                 >%TRINARY%
                 </option>
-                <option weightClass="A,L,L" unitType="Mek"
+                <option weightClass="A,M,M" unitType="Mek" weight="2"
                 >%TRINARY%
                 </option>
-                <option weightClass="H,H,M" unitType="Mek"
-                >%TRINARY%
-                </option>
-                <option weightClass="H,H,L" unitType="Mek"
-                >%TRINARY%
-                </option>
-                <option weightClass="H,M,M" unitType="Mek"
+                <option weightClass="H,H,M" unitType="Mek" weight="1"
                 >%TRINARY%
                 </option>
             </subforceOption>
