@@ -92,12 +92,6 @@ planet:
         population: 39457.0
       - date: '2820-01-01'
         population: 140817.0
-      - date: '2821-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
       - date: '2830-01-01'
         population: 372292.0
       - date: '2840-01-01'
@@ -142,21 +136,34 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CW
       - date: '3025-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CIH
       - date: '3030-01-01'
         population: 385127.0
       - date: '3040-01-01'
         population: 93310.0
       - date: '3047-01-01'
         socioIndustrial: B-B-B-C-D
+      - date: '3049-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CW
       - date: '3050-01-01'
         population: 24319.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CW
+            - CSJ
       - date: '3060-01-01'
         population: 6079.0
       - date: '3060-05-06'
@@ -164,18 +171,13 @@ planet:
           source: canon
           value:
             - CW
-      - date: '3063-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CW
       - date: '3068-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CW
+            - CHH
       - date: '3070-01-01'
         population: 1993.0
       - date: '3072-07-02'
@@ -185,12 +187,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ABN
   - name: Stockholm
     type: GIANT_TERRESTRIAL
     orbitalDist: 1.12

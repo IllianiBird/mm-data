@@ -103,12 +103,6 @@ planet:
       - date: '2317-12-31'
         # administration:
         #   - Stewart Confederation
-      - date: '2317-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - FWL
       - date: '2320-01-01'
         population: 18458458.0
       - date: '2330-01-01'
@@ -302,12 +296,6 @@ planet:
           source: canon
           value:
             - MSC
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - MSC
       - date: '3090-01-01'
         population: 689601319.0
       - date: '3100-01-01'
@@ -330,12 +318,6 @@ planet:
           value:
             - CWE
         population: 689877215.0
-      - date: '3145-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CWE
       - date: '3151-12-30'
         faction:
           source: canon
@@ -356,6 +338,7 @@ planet:
           version: 2026.03.02
           value:
             - FWL
+            - CP
   - name: Lang Singalang Burong
     type: TERRESTRIAL
     orbitalDist: 0.9

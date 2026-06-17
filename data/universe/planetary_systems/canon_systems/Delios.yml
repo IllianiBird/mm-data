@@ -126,13 +126,13 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CDS
       - date: '2821-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CDS
       - date: '2830-01-01'
         population: 290845.0
       - date: '2840-04-24'
@@ -152,7 +152,7 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CDS
       - date: '2870-01-01'
         population: 2301199.0
       - date: '2880-01-01'
@@ -193,6 +193,14 @@ planet:
         socioIndustrial: A-B-D-A-D
       - date: '3050-01-01'
         population: 60820.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CDS
+            - CCO
+            - CNC
       - date: '3060-08-05'
         faction:
           source: canon
@@ -200,24 +208,12 @@ planet:
             - CDS
             - CCO
         population: 52338.0
-      - date: '3063-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3067-12-02'
         faction:
           source: canon
           value:
             - CCO
             - CCC
-      - date: '3067-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3070-01-01'
         population: 36254.0
       - date: '3071-07-15'
@@ -238,12 +234,6 @@ planet:
           source: canon
           value:
             - CCC
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CCC
       - date: '3080-01-01'
         population: 23491.0
       - date: '3085-10-12'
@@ -253,12 +243,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ABN
   - name: Edwards's Refuge
     type: TERRESTRIAL
     orbitalDist: 0.9

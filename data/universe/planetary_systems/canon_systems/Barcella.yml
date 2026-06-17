@@ -143,12 +143,6 @@ planet:
           source: canon
           value:
             - CNC
-      - date: '2821-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CNC
       - date: '2830-01-01'
         population: 491050.0
       - date: '2840-01-01'
@@ -203,13 +197,17 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CNC
+            - CIH
+            - CJF
       - date: '3025-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CIH
+            - CJF
+            - CNC
       - date: '3030-01-01'
         population: 11236578.0
       - date: '3040-01-01'
@@ -218,6 +216,23 @@ planet:
         socioIndustrial: C-C-C-A-F
       - date: '3050-01-01'
         population: 11134803.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CNC
+            - CIH
+            - CDS
+            - CJF
+      - date: '3057-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CIH
+            - CJF
+            - CNC
       - date: '3060-12-01'
         faction:
           source: canon
@@ -226,12 +241,6 @@ planet:
             - CIH
             - CJF
         population: 11060921.0
-      - date: '3063-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3070-02-23'
         faction:
           source: canon
@@ -289,7 +298,10 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCO
+            - CSA
+            - CGS
+            - CCC
       - date: '3079-10-12'
         faction:
           source: canon
@@ -302,12 +314,6 @@ planet:
       - date: '3085-07-12'
         faction:
           source: canon
-          value:
-            - CCO
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CCO
       - date: '3090-01-01'

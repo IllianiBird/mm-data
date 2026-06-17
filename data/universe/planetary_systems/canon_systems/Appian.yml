@@ -108,24 +108,9 @@ planet:
           version: 2026.03.02
           value:
             - IND
-      - date: '2767-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
-      - date: '3025-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - IND
-      - date: '3030-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
+      - date: '3022-01-01'
+        name: Appian
+        message: Polybius renamed to Appian
       - date: '3130-12-24'
         faction:
           source: canon
@@ -133,21 +118,12 @@ planet:
             - FR
         population: 50000.0
         socioIndustrial: F-F-B-D-D
-      - date: '3130-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - FR
       - date: '3131-03-15'
         hpg: X
       - date: '3140-01-01'
         population: 135914.0
       - date: '3145-01-01'
         population: 147160.0
-      - date: '3022-01-01'
-        name: Appian
-        message: Polybius renamed to Appian
   - name: San Giovanni-San Bernardino
     type: TERRESTRIAL
     orbitalDist: 3.64

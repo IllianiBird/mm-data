@@ -136,12 +136,6 @@ planet:
       - date: '2317-12-31'
         # administration:
         #   - Stewart Confederation
-      - date: '2317-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - FWL
       - date: '2320-01-01'
         population: 23191703.0
       - date: '2330-01-01'
@@ -339,12 +333,6 @@ planet:
           source: canon
           value:
             - MSC
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - MSC
       - date: '3090-01-01'
         population: 1638288375.0
       - date: '3091-01-01'
@@ -367,12 +355,6 @@ planet:
           value:
             - CWE
         population: 1745170089.0
-      - date: '3145-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CWE
       - date: '3151-12-30'
         faction:
           source: canon
@@ -393,6 +375,7 @@ planet:
           version: 2026.03.02
           value:
             - FWL
+            - CP
   - name: Krios
     type: ICE_GIANT
     orbitalDist: 3.08

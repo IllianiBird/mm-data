@@ -179,12 +179,6 @@ planet:
         population: 478013.0
       - date: '2310-01-01'
         population: 1573680.0
-      - date: '2317-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
       - date: '2320-01-01'
         population: 4384235.0
       - date: '2330-01-01'
@@ -193,12 +187,6 @@ planet:
         population: 22104136.0
       - date: '2341-01-01'
         socioIndustrial: C-C-A-C-B
-      - date: '2341-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - IND
       - date: '2350-01-01'
         population: 42157492.0
       - date: '2355-10-20'
@@ -383,12 +371,6 @@ planet:
         #   - Donegal March
         #   - Pherkad Operational Area
         #   - Region 2
-      - date: '3040-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - FC
       - date: '3044-01-01'
         socioIndustrial:
           source: canon
@@ -397,7 +379,7 @@ planet:
         population: 2049886673.0
       - date: '3057-01-01'
         hiringHall:
-          source: Mercenary FM revised
+          source: 'Field Manual: Mercenaries, Revised'
           value: STANDARD
       - date: '3057-11-20'
         faction:
@@ -437,6 +419,12 @@ planet:
         # administration:
         #   - Arc-Royal Theater
         # capitalType: Region Capital
+      - date: '3067-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - LA
       - date: '3070-01-01'
         population: 2103882632.0
       - date: '3080-01-01'
@@ -477,12 +465,6 @@ planet:
         hiringHall:
           source: Hotspots Hinterlands
           value: MINOR
-      - date: '3151-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ARDC
   - name: Harris
     type: ICE_GIANT
     orbitalDist: 2.8

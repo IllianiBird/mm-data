@@ -21,7 +21,8 @@ name: St. Ives Mercantile Association
 # does not recurse through fallBackFactions. Adjust if BattleTech canon for this
 # faction warrants a different rank table.
 rankSystem: CCAF
-sucsCodes: []  # no SUCS equivalent
+sucsCodes:
+  - SIML
 capital: Terra
 yearsActive:
   - start: 2245

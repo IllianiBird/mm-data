@@ -93,12 +93,6 @@ planet:
         socioIndustrial: A-C-D-C-D
       - date: '2820-01-01'
         population: 129847.0
-      - date: '2821-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
       - date: '2830-09-20'
         population: 363452.0
         socioIndustrial: A-B-D-B-D
@@ -113,12 +107,6 @@ planet:
           source: canon
           value:
             - CBS
-      - date: '2864-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CBS
       - date: '2870-01-01'
         faction:
           source: canon
@@ -130,7 +118,7 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CCO
       - date: '2880-01-01'
         population: 4238422.0
       - date: '2890-01-01'
@@ -165,13 +153,16 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CCO
+            - CFM
+            - CIH
       - date: '3025-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCO
+            - CFM
       - date: '3030-01-01'
         population: 10832900.0
       - date: '3040-01-01'
@@ -180,6 +171,14 @@ planet:
         socioIndustrial: A-A-D-A-C
       - date: '3050-01-01'
         population: 10995573.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CCO
+            - CFM
+            - CIH
       - date: '3059-12-12'
         faction:
           source: canon
@@ -191,7 +190,9 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCO
+            - CFM
+            - CIH
       - date: '3060-01-01'
         population: 11107675.0
       - date: '3070-01-01'
@@ -241,12 +242,6 @@ planet:
           source: canon
           value:
             - CGS
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CGS
       - date: '3079-02-04'
         faction:
           source: canon
@@ -257,12 +252,6 @@ planet:
       - date: '3085-04-07'
         faction:
           source: canon
-          value:
-            - CCC
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CCC
       - date: '3090-01-01'

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-06-12
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +32,9 @@ Take the Time III-chi; Forty-eighth Division
 428
 </mul id:>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 2830
 </year>
-
-<originalBuildYear>
-2830
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -62,11 +50,23 @@ Tracked
 
 <Troopers Equipment>
 ComStar Infantry Kit
+Infantry Bridge Kit
 </Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>The bridge-building engineers of Take the Time III-chi earned their reputation during the Jihad as part of the Forty-eighth Division. Assigned to the Eleventh Army, these combat engineers became experts at moving the division's heavier combat units across rivers, streams, and chasms that blocked their path. Operating under Word of Blake fire, the bridging troops often worked under direct enemy observation, quickly digging fighting positions along riverbanks while assembling their spans. Armed with pulse laser rifles, the engineers could defend their bridgehead while construction proceeded. Their tracked mechanized transport gave them the carrying capacity for bridge-building equipment and the cross-country mobility to reach remote crossing points that wheeled vehicles could not access.</p>
+</overview>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
 
 <squad_size>
 6
@@ -80,8 +80,8 @@ ComStar Infantry Kit
 Pulse Laser Rifle (Inner Sphere)
 </Primary>
 
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The bridge-building engineers of Take the Time III-chi earned their reputation during the Jihad as part of the Forty-eighth Division. Assigned to the Eleventh Army, these combat engineers became experts at moving the division's heavier combat units across rivers, streams, and chasms that blocked their path. Operating under Word of Blake fire, the bridging troops often worked under direct enemy observation, quickly digging fighting positions along riverbanks while assembling their spans. Armed with pulse laser rifles, the engineers could defend their bridgehead while construction proceeded. Their tracked mechanized transport gave them the carrying capacity for bridge-building equipment and the cross-country mobility to reach remote crossing points that wheeled vehicles could not access.</p>
-</overview>
+<specialization>
+1
+</specialization>
+
 

@@ -185,12 +185,6 @@ planet:
         population: 39452.0
       - date: '2820-01-01'
         population: 151600.0
-      - date: '2821-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
       - date: '2830-01-01'
         population: 424993.0
       - date: '2840-01-01'
@@ -238,13 +232,13 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CDS
       - date: '3025-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CDS
       - date: '3030-01-01'
         population: 56506.0
       - date: '3040-01-01'
@@ -253,15 +247,16 @@ planet:
         socioIndustrial: C-C-B-C-D
       - date: '3050-01-01'
         population: 20428.0
-      - date: '3059-02-27'
-        faction:
-          source: canon
-          value:
-            - CSA
-      - date: '3059-03-31'
+      - date: '3052-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
+          value:
+            - CDS
+            - CB
+      - date: '3059-02-27'
+        faction:
+          source: canon
           value:
             - CSA
       - date: '3060-01-01'
@@ -272,6 +267,12 @@ planet:
           value:
             - CSA
             - CDS
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CSA
       - date: '3070-01-01'
         population: 5323.0
       - date: '3070-10-03'
@@ -297,12 +298,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ABN
   - name: Yakupchina
     type: TERRESTRIAL
     orbitalDist: 31.04

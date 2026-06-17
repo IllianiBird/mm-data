@@ -165,12 +165,6 @@ planet:
         # administration:
         #   - Pesht Military District
         #   - Kagoshima Prefecture
-      - date: '2571-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - DC
       - date: '2580-01-01'
         population: 9980454.0
       - date: '2590-01-01'
@@ -316,7 +310,8 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CNC
+            - CSJ
       - date: '3059-06-02'
         faction:
           source: canon
@@ -332,12 +327,6 @@ planet:
         # administration:
         #   - Pesht Military District
         #   - Kagoshima Prefecture
-      - date: '3059-06-30'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - DC
       - date: '3060-01-01'
         population: 384463280.0
       - date: '3063-12-31'

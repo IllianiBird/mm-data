@@ -60,12 +60,6 @@ planet:
         population: 247903.0
       - date: '2270-01-01'
         population: 734042.0
-      - date: '2271-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - IND
       - date: '2280-04-15'
         faction:
           source: canon
@@ -277,12 +271,6 @@ planet:
           source: canon
           value:
             - IND
-      - date: '3081-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - IND
       - date: '3090-01-01'
         population: 730887197.0
       - date: '3091-01-01'
@@ -320,6 +308,7 @@ planet:
           version: 2026.03.02
           value:
             - FWL
+            - CP
   - name: Yellowknife
     type: DWARF_TERRESTRIAL
     orbitalDist: 0.7

@@ -135,13 +135,14 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CSJ
       - date: '2821-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CDS
+            - CSJ
       - date: '2830-01-01'
         population: 305838.0
       - date: '2840-01-01'
@@ -196,12 +197,6 @@ planet:
           value:
             - CDS
         population: 83045.0
-      - date: '3063-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CDS
       - date: '3070-01-01'
         population: 40543.0
       - date: '3074-01-12'
@@ -217,12 +212,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ABN
   - name: Unihi Pili
     type: GIANT_TERRESTRIAL
     orbitalDist: 0.8

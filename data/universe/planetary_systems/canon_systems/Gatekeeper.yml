@@ -112,13 +112,15 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CNC
+            - CJF
       - date: '2821-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CJF
+            - CNC
       - date: '2830-01-01'
         population: 331111.0
       - date: '2840-01-01'
@@ -173,12 +175,6 @@ planet:
           value:
             - CJF
         population: 6407277.0
-      - date: '3063-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CJF
       - date: '3070-10-01'
         faction:
           source: canon
@@ -188,12 +184,6 @@ planet:
       - date: '3075-10-26'
         faction:
           source: canon
-          value:
-            - CSA
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CSA
       - date: '3080-01-01'

@@ -133,12 +133,6 @@ planet:
             - SLIE
         population: 1274628.0
         socioIndustrial: B-D-A-D-D
-      - date: '2786-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - SLIE
       - date: '2790-01-01'
         population: 1273609.0
       - date: '2793-05-05'
@@ -161,13 +155,23 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - DIS
+            - PP.Aby
+            - PP.MtP
+            - PP.Grl
+            - PP.Opp
+            - PP.Cml
+            - PP.ESr
+            - PP.SuC
       - date: '2822-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCO
+            - CCC
+            - CDS
+            - CIH
+            - CGS
       - date: '2830-01-01'
         population: 804707.0
       - date: '2840-01-01'
@@ -180,7 +184,20 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CCO
+            - CCC
+            - CDS
+            - CIH
+      - date: '2864-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CCO
+            - CCC
+            - CDS
+            - CIH
+            - CGS
       - date: '2870-01-01'
         population: 4203318.0
       - date: '2874-01-01'
@@ -234,20 +251,36 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCO
+            - CCC
+            - CDS
+            - CIH
+            - CGS
       - date: '3060-01-01'
         population: 9993669.0
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CCC
+            - CCO
+            - CDS
+            - CIH
+      - date: '3067-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CCO
+            - CCC
+            - CDS
+            - CIH
       - date: '3070-01-01'
         population: 10026034.0
       - date: '3072-01-23'
         faction:
           source: canon
-          value:
-            - CCO
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CCO
       - date: '3080-01-01'

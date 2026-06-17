@@ -106,12 +106,6 @@ planet:
         population: 62130.0
       - date: '2820-01-01'
         population: 320868.0
-      - date: '2821-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
       - date: '2830-01-01'
         population: 1112053.0
       - date: '2840-01-01'
@@ -160,13 +154,17 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CIH
+            - CB
+            - CNC
       - date: '3025-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CIH
+            - CB
+            - CNC
       - date: '3030-01-01'
         population: 45539164.0
       - date: '3040-01-01'
@@ -175,6 +173,14 @@ planet:
         socioIndustrial: D-B-F-B-C
       - date: '3050-01-01'
         population: 45319834.0
+      - date: '3057-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CB
+            - CIH
+            - CNC
       - date: '3060-08-14'
         faction:
           source: canon
@@ -189,7 +195,18 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CIH
+            - CSA
+            - CW
+            - CHH
+      - date: '3067-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CSA
+            - CIH
+            - CW
       - date: '3070-01-01'
         population: 45117152.0
       - date: '3072-04-01'
@@ -229,21 +246,9 @@ planet:
             - CSA
             - CSL
             - CCC
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3079-09-03'
         faction:
           source: canon
-          value:
-            - CSA
-      - date: '3079-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CSA
       - date: '3080-01-01'

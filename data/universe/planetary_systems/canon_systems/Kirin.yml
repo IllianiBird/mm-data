@@ -102,13 +102,14 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CHH
       - date: '2821-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CHH
+            - CMG
       - date: '2830-01-01'
         population: 339314.0
       - date: '2840-01-01'
@@ -163,7 +164,7 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CHH
       - date: '3030-01-01'
         population: 7082901.0
       - date: '3040-01-01'
@@ -172,35 +173,31 @@ planet:
         socioIndustrial: A-B-D-A-C
       - date: '3050-01-01'
         population: 7228955.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CHH
+            - CSJ
       - date: '3060-07-28'
         faction:
           source: canon
           value:
             - CHH
         population: 7226931.0
-      - date: '3063-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CHH
       - date: '3068-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CFM
+            - CHH
       - date: '3070-01-01'
         population: 7224522.0
       - date: '3070-11-01'
         faction:
           source: canon
-          value:
-            - CCO
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CCO
       - date: '3080-01-01'
@@ -211,12 +208,6 @@ planet:
           value:
             - CCO
             - CSL
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3090-01-01'
         population: 7477369.0
       - date: '3100-01-01'

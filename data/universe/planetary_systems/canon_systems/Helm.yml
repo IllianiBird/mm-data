@@ -169,12 +169,6 @@ planet:
       - date: '2317-12-31'
         # administration:
         #   - Stewart Confederation
-      - date: '2317-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - FWL
       - date: '2320-01-01'
         population: 1376878.0
       - date: '2330-01-01'
@@ -383,12 +377,6 @@ planet:
           source: canon
           value:
             - MSC
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - MSC
       - date: '3090-01-01'
         population: 22852087.0
       - date: '3091-01-01'
@@ -413,12 +401,6 @@ planet:
           value:
             - CWE
         population: 25270620.0
-      - date: '3145-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CWE
       - date: '3152-12-31'
         # administration:
         #   - Clan Protectorate
@@ -428,6 +410,7 @@ planet:
           version: 2026.03.02
           value:
             - FWL
+            - CP
   - name: Colón's Belt
     type: ASTEROID_BELT
     orbitalDist: 1.96

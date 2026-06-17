@@ -93,12 +93,6 @@ planet:
             - SLIE
         population: 1025163.0
         socioIndustrial: B-C-F-C-F
-      - date: '2786-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
       - date: '2790-05-27'
         hpg:
           source: canon
@@ -180,12 +174,6 @@ planet:
           source: canon
           value:
             - CSA
-      - date: '3059-03-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CSA
       - date: '3060-01-01'
         population: 114244.0
       - date: '3070-01-01'
@@ -246,7 +234,10 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCC
+            - CBS
+            - CCO
+            - CSA
       - date: '3079-02-05'
         faction:
           source: canon
@@ -262,7 +253,10 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCC
+            - CBS
+            - CCO
+            - CSA
       - date: '3080-01-01'
         population: 15632.0
       - date: '3085-07-10'
@@ -272,12 +266,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ABN
   - name: P1 Belt
     type: ASTEROID_BELT
     orbitalDist: 0.8

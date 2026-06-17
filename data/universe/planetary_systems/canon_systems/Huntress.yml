@@ -120,12 +120,6 @@ planet:
         population: 38237.0
       - date: '2820-01-01'
         population: 138360.0
-      - date: '2821-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
       - date: '2830-01-01'
         population: 368809.0
       - date: '2840-01-01'
@@ -174,13 +168,13 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CSJ
       - date: '3025-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CSJ
       - date: '3030-01-01'
         population: 7754030.0
       - date: '3040-01-01'
@@ -198,9 +192,16 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CSJ
       - date: '3050-01-01'
         population: 7909358.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CSJ
+            - CJF
       - date: '3060-01-01'
         population: 7977079.0
       - date: '3061-04-01'
@@ -224,7 +225,11 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CJF
+            - CGS
+            - CSA
+            - CFM
+            - CIH
       - date: '3067-07-12'
         faction:
           source: canon
@@ -239,7 +244,12 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CSA
+            - CJF
+            - CGS
+            - CFM
+            - CW
+            - CIH
       - date: '3069-11-07'
         faction:
           source: canon
@@ -305,12 +315,6 @@ planet:
           value:
             - CCC
             - CGS
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3079-10-22'
         faction:
           source: canon
@@ -332,7 +336,10 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCC
+            - CCO
+            - CSA
+            - CSL
       - date: '3090-01-01'
         population: 8218942.0
       - date: '3100-01-01'

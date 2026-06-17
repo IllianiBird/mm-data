@@ -108,12 +108,6 @@ planet:
           source: canon
           value:
             - CSJ
-      - date: '2821-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CSJ
       - date: '2830-01-01'
         population: 293117.0
       - date: '2840-01-01'
@@ -160,16 +154,26 @@ planet:
         population: 5214594.0
       - date: '3040-01-01'
         population: 5194034.0
-      - date: '3040-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3046-01-01'
         socioIndustrial: A-B-D-A-C
       - date: '3050-01-01'
         population: 5154118.0
+      - date: '3050-03-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CCO
+            - CIH
+            - CSJ
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CNC
+            - CIH
+            - CSJ
       - date: '3060-12-26'
         faction:
           source: canon
@@ -177,12 +181,6 @@ planet:
             - CIH
             - CCO
         population: 5126877.0
-      - date: '3063-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3070-01-01'
         population: 5133329.0
       - date: '3072-09-07'
@@ -203,12 +201,6 @@ planet:
             - CCO
             - CSA
             - CCC
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3080-01-01'
         population: 5197379.0
       - date: '3085-03-07'
@@ -219,12 +211,6 @@ planet:
             - CSL
             - CCC
             - CSA
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3090-01-01'
         population: 5226566.0
       - date: '3100-01-01'

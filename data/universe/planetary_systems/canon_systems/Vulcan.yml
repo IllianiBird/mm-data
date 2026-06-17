@@ -160,12 +160,6 @@ planet:
         # administration:
         #   - Tamar Pact
         #   - Tamar Domains
-      - date: '2750-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - LA
       - date: '2760-01-01'
         population: 302154570.0
       - date: '2770-01-01'
@@ -238,12 +232,6 @@ planet:
         #   - Tamar March
         #   - Benfled Operational Area
         #   - Region 1
-      - date: '3040-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - FC
       - date: '3048-01-01'
         socioIndustrial: D-D-C-F-C
       - date: '3050-01-01'
@@ -251,12 +239,6 @@ planet:
       - date: '3050-09-08'
         faction:
           source: canon
-          value:
-            - CW
-      - date: '3051-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CW
       - date: '3060-01-01'
@@ -287,12 +269,6 @@ planet:
         population: 202716069.0
       - date: '3145-01-01'
         population: 203772938.0
-      - date: '3145-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CHH
   - name: Vollpato's Belt
     type: ASTEROID_BELT
     orbitalDist: 3.64

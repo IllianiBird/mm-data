@@ -118,7 +118,7 @@ planet:
         faction:
           source: canon
           value:
-            - MCM
+            - MRep
         population: 41900.0
         socioIndustrial: D-F-D-F-C
       - date: '2250-01-01'
@@ -363,12 +363,6 @@ planet:
           value:
             - CWE
         population: 718300744.0
-      - date: '3145-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CWE
       - date: '3151-12-30'
         faction:
           source: canon
@@ -389,6 +383,7 @@ planet:
           version: 2026.03.02
           value:
             - FWL
+            - CP
   - name: Andrews's Land
     type: ICE_GIANT
     orbitalDist: 3.92

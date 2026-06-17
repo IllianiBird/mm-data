@@ -182,7 +182,7 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CCC
       - date: '3025-12-31'
         faction:
           source: SUCS
@@ -191,18 +191,19 @@ planet:
             - CCC
       - date: '3030-01-01'
         population: 27313.0
-      - date: '3030-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3040-01-01'
         population: 23852.0
       - date: '3045-01-01'
         socioIndustrial: A-C-D-A-C
       - date: '3050-01-01'
         population: 19593.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CB
+            - CCC
       - date: '3059-12-12'
         faction:
           source: canon
@@ -213,9 +214,17 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CB
+            - CCC
       - date: '3060-01-01'
         population: 15206.0
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CCC
+            - CSA
       - date: '3067-12-20'
         faction:
           source: canon
@@ -227,7 +236,8 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCC
+            - CSA
       - date: '3070-01-01'
         population: 12436.0
       - date: '3072-02-04'
@@ -269,12 +279,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ABN
   - name: Ross
     type: GIANT_TERRESTRIAL
     orbitalDist: 2.08

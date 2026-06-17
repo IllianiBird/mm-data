@@ -141,12 +141,6 @@ planet:
         population: 48522.0
       - date: '2820-01-01'
         population: 244079.0
-      - date: '2821-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
       - date: '2824-01-01'
         faction:
           source: canon
@@ -154,27 +148,18 @@ planet:
             - CCC
       - date: '2830-01-01'
         population: 829164.0
-      - date: '2830-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
       - date: '2840-01-01'
         population: 2101615.0
       - date: '2850-01-01'
         population: 4253982.0
+      - date: '2850-01-01'
+        name: Homer
+        message: Zara renamed to Homer
       - date: '2860-01-01'
         population: 7224542.0
       - date: '2864-01-19'
         faction:
           source: canon
-          value:
-            - CCC
-      - date: '2864-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CCC
       - date: '2870-01-01'
@@ -219,13 +204,17 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CCC
+            - CSJ
+            - CSV
       - date: '3025-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCC
+            - CSJ
+            - CSV
       - date: '3030-01-01'
         population: 40928162.0
       - date: '3040-02-03'
@@ -233,6 +222,22 @@ planet:
         socioIndustrial: A-B-C-B-C
       - date: '3050-01-01'
         population: 40527037.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CCC
+            - CSV
+            - CSJ
+      - date: '3057-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CCC
+            - CSJ
+            - CSV
       - date: '3058-09-24'
         faction:
           source: canon
@@ -244,32 +249,29 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCC
+            - CSJ
+            - CSV
       - date: '3060-01-01'
         population: 40228435.0
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CCC
+            - CSV
       - date: '3067-03-26'
         faction:
           source: canon
           value:
             - CCC
             - CSA
-      - date: '3067-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3070-01-01'
         population: 40128205.0
       - date: '3075-03-09'
         faction:
           source: canon
-          value:
-            - CCC
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CCC
       - date: '3080-01-01'
@@ -280,12 +282,6 @@ planet:
           value:
             - CCC
             - CCO
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3090-01-01'
         population: 40734665.0
       - date: '3100-06-04'
@@ -301,9 +297,6 @@ planet:
         population: 44092048.0
       - date: '3145-01-01'
         population: 44463981.0
-      - date: '2850-01-01'
-        name: Homer
-        message: Zara renamed to Homer
   - name: Fort Rodrigues
     type: DWARF_TERRESTRIAL
     orbitalDist: 0.7

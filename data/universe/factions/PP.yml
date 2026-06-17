@@ -23,7 +23,13 @@ name: Pentagon Powers
 rankSystem: SLDF
 sucsCodes: []  # no SUCS equivalent
 yearsActive:
-  - start: 2801
-    end: 2822
+  - start: 2802
+    end: 2821
 fallBackFactions:
   - SL
+# Deliberate neutral gray: the Pentagon Powers aggregate has no documented color, so it uses the
+# default light gray (matches the "unknown -> gray" choice used for undocumented PP sub-factions).
+color:
+  red: 192
+  green: 192
+  blue: 192

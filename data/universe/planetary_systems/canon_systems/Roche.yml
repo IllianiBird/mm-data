@@ -94,15 +94,22 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CWI
       - date: '2821-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CWI
       - date: '2830-01-01'
         population: 341818.0
+      - date: '2830-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CGS
+            - CWI
       - date: '2834-10-07'
         faction:
           source: canon
@@ -120,7 +127,7 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CGS
       - date: '2870-01-01'
         population: 2686262.0
       - date: '2880-01-01'
@@ -161,8 +168,21 @@ planet:
         population: 7999045.0
       - date: '3042-01-01'
         socioIndustrial: A-A-B-A-C
+      - date: '3049-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CW
       - date: '3050-01-01'
         population: 7985653.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CGS
+            - CW
       - date: '3059-12-12'
         faction:
           source: canon
@@ -173,7 +193,8 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CGS
+            - CW
       - date: '3060-01-01'
         population: 8002646.0
       - date: '3070-01-01'
@@ -187,12 +208,6 @@ planet:
       - date: '3075-12-06'
         faction:
           source: canon
-          value:
-            - CGS
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CGS
       - date: '3079-10-08'
@@ -211,7 +226,8 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - DIS
+            - CCC
+            - CGS
       - date: '3080-01-01'
         population: 8033671.0
       - date: '3081-12-31'

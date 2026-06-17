@@ -60,7 +60,7 @@ planet:
         faction:
           source: canon
           value:
-            - MCM
+            - MRep
         population: 53737.0
         socioIndustrial: D-D-C-D-F
       - date: '2250-01-01'
@@ -285,12 +285,6 @@ planet:
       - date: '3085-12-31'
         # administration:
         #   - Prefecture VII
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ROS
       - date: '3090-09-30'
         population: 1192108896.0
         socioIndustrial: A-A-C-A-D
@@ -307,12 +301,6 @@ planet:
       - date: '3135-10-01'
         faction:
           source: canon
-          value:
-            - IND
-      - date: '3135-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - IND
       - date: '3137-08-01'
@@ -338,6 +326,7 @@ planet:
           version: 2026.03.02
           value:
             - FWL
+            - CP
   - name: Bera
     type: ICE_GIANT
     orbitalDist: 0.42

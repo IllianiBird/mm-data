@@ -130,12 +130,6 @@ planet:
             - CSR
         population: 10136.0
         socioIndustrial: C-C-C-C-C
-      - date: '2821-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CSR
       - date: '2822-10-21'
         hpg:
           source: canon
@@ -190,13 +184,15 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CSR
+            - CDS
       - date: '3025-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CDS
+            - CSR
       - date: '3030-01-01'
         population: 18586.0
       - date: '3040-01-01'
@@ -205,6 +201,13 @@ planet:
         socioIndustrial: A-B-C-A-B
       - date: '3050-01-01'
         population: 4134.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CSR
+            - CDS
       - date: '3059-12-12'
         faction:
           source: canon
@@ -215,7 +218,8 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CSR
+            - CDS
       - date: '3060-01-01'
         population: 2022.0
       - date: '3065-09-08'
@@ -235,12 +239,6 @@ planet:
           value:
             - CSR
             - CJF
-      - date: '3067-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3070-01-01'
         population: 1106.0
       - date: '3070-02-10'
@@ -261,12 +259,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ABN
   - name: Hnatek
     type: ICE_GIANT
     orbitalDist: 4.48

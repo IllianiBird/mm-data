@@ -119,7 +119,9 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CGS
+            - CSV
+            - CSA
         population: 8849.0
         socioIndustrial: B-C-C-C-F
       - date: '2821-12-31'
@@ -127,7 +129,12 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CFM
+            - CGS
+            - CIH
+            - CJF
+            - CSA
+            - CSV
       - date: '2826-01-29'
         hpg:
           source: canon
@@ -187,7 +194,12 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CFM
+            - CGS
+            - CIH
+            - CJF
+            - CSA
+            - CSV
       - date: '3030-01-01'
         population: 8524.0
       - date: '3040-05-22'
@@ -195,9 +207,32 @@ planet:
         socioIndustrial: B-C-C-C-D
       - date: '3050-01-01'
         population: 2822.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CSV
+            - CGS
+            - CFM
+            - CSA
+            - CJF
+            - CIH
+            - CCO
+      - date: '3057-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CFM
+            - CGS
+            - CIH
+            - CJF
+            - CSA
+            - CSV
       - date: '3059-12-12'
         faction:
-          source: sarna
+          source: Sarna
           value:
             - CGS
             - CSV
@@ -210,9 +245,25 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CFM
+            - CGS
+            - CIH
+            - CJF
+            - CSA
+            - CSV
       - date: '3060-01-01'
         population: 1612.0
+      - date: '3067-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CGS
+            - CSV
+            - CFM
+            - CSA
+            - CIH
+            - CJF
       - date: '3069-11-07'
         faction:
           source: canon
@@ -247,12 +298,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ABN
   - name: Palarm
     type: DWARF_TERRESTRIAL
     orbitalDist: 0.16

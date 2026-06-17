@@ -21,7 +21,8 @@ name: Star League (Clan Wolf)
 # does not recurse through fallBackFactions. Adjust if BattleTech canon for this
 # faction warrants a different rank table.
 rankSystem: CLAN
-sucsCodes: []  # no SUCS equivalent
+sucsCodes:
+  - 3SL
 yearsActive:
   - start: 3151
 ratingLevels:

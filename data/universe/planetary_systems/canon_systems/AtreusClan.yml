@@ -118,12 +118,6 @@ planet:
         population: 38102.0
       - date: '2820-01-01'
         population: 135669.0
-      - date: '2821-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - UND
       - date: '2830-01-01'
         population: 356636.0
       - date: '2840-01-01'
@@ -176,13 +170,17 @@ planet:
         faction:
           source: canon
           value:
-            - CLAN
+            - CSJ
+            - CFM
+            - CIH
       - date: '3025-12-31'
         faction:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CFM
+            - CIH
+            - CSJ
       - date: '3030-01-01'
         population: 33666.0
       - date: '3040-01-01'
@@ -191,6 +189,21 @@ planet:
         socioIndustrial: B-B-C-A-A
       - date: '3050-01-01'
         population: 6796.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CSJ
+            - CFM
+      - date: '3057-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CFM
+            - CIH
+            - CSJ
       - date: '3059-12-12'
         faction:
           source: canon
@@ -202,7 +215,9 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CFM
+            - CIH
+            - CSJ
       - date: '3060-12-27'
         faction:
           source: canon
@@ -210,12 +225,6 @@ planet:
             - CFM
             - CIH
         population: 3394.0
-      - date: '3063-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3070-01-01'
         population: 1894.0
       - date: '3072-08-22'
@@ -236,12 +245,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ABN
       - date: '3079-01-01'
         population:
           source: canon

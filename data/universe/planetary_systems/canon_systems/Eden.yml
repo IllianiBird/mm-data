@@ -112,12 +112,6 @@ planet:
             - SLIE
         population: 1273354.0
         socioIndustrial: B-C-D-C-F
-      - date: '2786-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - SLIE
       - date: '2790-01-01'
         population: 1275138.0
       - date: '2794-07-12'
@@ -140,7 +134,14 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - PP.MAF
+            - PP.IrI
+            - PP.LvA
+            - PP.McD
+            - PP.PpC
+            - PP.SbK
+            - PP.PgC
+            - PP.AbM
       - date: '2822-12-20'
         faction:
           source: canon
@@ -153,7 +154,10 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CHH
+            - CJF
+            - CSJ
+            - CW
       - date: '2830-01-01'
         population: 773262.0
       - date: '2840-01-01'
@@ -204,8 +208,42 @@ planet:
         socioIndustrial: A-B-D-A-D
       - date: '3050-01-01'
         population: 55533.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CHH
+            - CW
+            - CJF
+            - CSJ
+      - date: '3059-03-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CHH
+            - CJF
+            - CSJ
+            - CW
       - date: '3060-01-01'
         population: 43097.0
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CW
+            - CJF
+            - CHH
+      - date: '3068-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CW
+            - CSV
+            - CHH
       - date: '3069-11-07'
         faction:
           source: canon
@@ -237,12 +275,6 @@ planet:
           value:
             - CCC
             - CBS
-      - date: '3075-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - CLAN
       - date: '3079-12-31'
         faction:
           source: SUCS
@@ -258,12 +290,6 @@ planet:
             - ABN
         population: 0.0
         socioIndustrial: X-X-X-X-X
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - ABN
   - name: Privithi
     type: DWARF_TERRESTRIAL
     orbitalDist: 0.98

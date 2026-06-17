@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-06-12
 <UnitType>
 Infantry
 </UnitType>
@@ -32,10 +32,6 @@ Twenty-fourth Hellfire Firefighting Battalion; 84th Avalon LI; 17th Avalon Hussa
 3060
 </year>
 
-<originalBuildYear>
-3060
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -50,6 +46,10 @@ Federated Suns Infantry Kit
 
 <Field Guns Equipment>
 </Field Guns Equipment>
+
+<overview>
+<p>The AFFS dedicates significant resources to non-combat infantry specialties, recognizing that war produces destruction that must be managed alongside the fighting itself. The Hellfire Battalions are among the most unusual formations in any Successor State military: motorized firefighting engineers equipped to suppress battlefield blazes and protect civilian infrastructure during planetary assaults. Riding compact all-purpose vehicles, Hellfire troops are more likely to be seen carrying shovels and portable chemical sprayers than their issued Thunderstroke II gauss rifles. The guns were selected for their inability to start fires rather than for raw stopping power, a practical choice that reflects the formation's unusual dual mission of fire suppression and area security.</p>
+</overview>
 
 <source>
 TR:3085
@@ -67,8 +67,8 @@ TR:3085
 Gauss Rifle (Thunderstroke II)
 </Primary>
 
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The AFFS dedicates significant resources to non-combat infantry specialties, recognizing that war produces destruction that must be managed alongside the fighting itself. The Hellfire Battalions are among the most unusual formations in any Successor State military: motorized firefighting engineers equipped to suppress battlefield blazes and protect civilian infrastructure during planetary assaults. Riding compact all-purpose vehicles, Hellfire troops are more likely to be seen carrying shovels and portable chemical sprayers than their issued Thunderstroke II gauss rifles. The guns were selected for their inability to start fires rather than for raw stopping power, a practical choice that reflects the formation's unusual dual mission of fire suppression and area security.</p>
-</overview>
+<specialization>
+4
+</specialization>
+
 

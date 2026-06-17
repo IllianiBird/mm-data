@@ -98,12 +98,6 @@ planet:
             - SLIE
         population: 1130503.0
         socioIndustrial: C-D-F-D-D
-      - date: '2786-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - SLIE
       - date: '2787-10-06'
         hpg: A
       - date: '2790-01-01'
@@ -124,7 +118,16 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - DIS
+            - PP.DRR
+            - PP.HgC
+            - PP.KoS
+            - PP.DgR
+            - PP.GaK
+            - PP.PBX
+            - PP.CoA
+            - PP.IlS
+            - PP.NoH
+            - PP.RvC
       - date: '2822-11-13'
         faction:
           source: canon
@@ -138,7 +141,10 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CBS
+            - CGB
+            - CSA
+            - CSV
       - date: '2830-01-01'
         population: 1049010.0
       - date: '2840-01-01'
@@ -189,6 +195,15 @@ planet:
         socioIndustrial: B-B-F-B-C
       - date: '3050-01-01'
         population: 53242831.0
+      - date: '3052-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CSV
+            - CSA
+            - CGB
+            - CBS
       - date: '3059-01-01'
         faction:
           source: canon
@@ -201,9 +216,20 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CSV
+            - CSA
+            - CGB
+            - CBS
       - date: '3060-01-01'
         population: 53020324.0
+      - date: '3063-12-31'
+        faction:
+          source: SUCS
+          version: 2026.03.02
+          value:
+            - CGB
+            - CSA
+            - CSV
       - date: '3067-09-13'
         faction:
           source: canon
@@ -218,7 +244,10 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CSR
+            - CSA
+            - CGB
+            - CBS
       - date: '3070-01-01'
         population: 53313205.0
       - date: '3071-04-25'
@@ -250,7 +279,9 @@ planet:
           source: SUCS
           version: 2026.03.02
           value:
-            - CLAN
+            - CCC
+            - CBS
+            - CSA
       - date: '3079-01-15'
         faction:
           source: canon
@@ -265,12 +296,6 @@ planet:
       - date: '3085-09-16'
         faction:
           source: canon
-          value:
-            - CSA
-      - date: '3085-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - CSA
       - date: '3090-01-01'

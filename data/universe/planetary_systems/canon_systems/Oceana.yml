@@ -72,12 +72,6 @@ planet:
         socioIndustrial: C-D-A-D-F
       - date: '2270-01-01'
         population: 70368.0
-      - date: '2271-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - IND
       - date: '2280-09-30'
         faction:
           source: canon
@@ -270,12 +264,6 @@ planet:
             - FWL
       - date: '3020-01-01'
         population: 451504233.0
-      - date: '3025-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
-          value:
-            - FWL
       - date: '3030-01-01'
         population: 453033167.0
       - date: '3040-01-01'
@@ -293,12 +281,6 @@ planet:
       - date: '3081-06-09'
         faction:
           source: canon
-          value:
-            - IND
-      - date: '3081-12-31'
-        faction:
-          source: SUCS
-          version: 2026.03.02
           value:
             - IND
       - date: '3090-01-01'
@@ -339,6 +321,7 @@ planet:
           version: 2026.03.02
           value:
             - FWL
+            - CP
   - name: Finn Maccoul
     type: GAS_GIANT
     orbitalDist: 4.16

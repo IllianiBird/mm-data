@@ -20,6 +20,19 @@
 <abilities>
     <!-- PILOTING SPA -->
     <ability>
+        <lookupName>wind_walker</lookupName>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Piloting/Aircraft::Regular</skill>
+            <skill>Piloting/Spacecraft::Regular</skill>
+            <skill>Piloting/VTOL::Regular</skill>
+            <skill>Piloting/Aerospace::Regular</skill>
+            <skill>Gunnery/ProtoMek::Regular</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
         <lookupName>env_specialist</lookupName>
         <xpCost>100</xpCost>
         <originOnly>false</originOnly>
@@ -1181,6 +1194,19 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
         <skillPrereq />
     </ability>
     <ability>
+        <lookupName>unofficial_beloved_pet</lookupName>
+        <displayName>Beloved Pet (Unofficial)</displayName>
+        <desc><![CDATA[This character has a beloved pet. Their companionship helps the character through hard times.
+
+Characters can only increase their Attributes up to a maximum determined by their Phenotype.
+
+This SPA increases maximum by Edge 1, but does not increase the Attribute itself.]]></desc>
+        <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
         <lookupName>unofficial_implant_resistance</lookupName>
         <displayName>Implant Resistance (Unofficial)</displayName>
         <desc><![CDATA[Exhibits a natural resistance to the negative effects of EI Implants, reducing the Target Number to avoid gaining an annual Flaw by 2]]></desc>
@@ -1491,6 +1517,45 @@ Furthermore, the character reduces the target number of all Sensor Operations ch
             <skill>Tech/Mek::Regular</skill>
             <skill>Tech/BattleArmor::Regular</skill>
         </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>unofficial_ill_do_it_myself</lookupName>
+        <displayName>I'll Do It Myself (Unofficial)</displayName>
+        <desc><![CDATA[Is a one-person team. Requires no astech or medic assistants.
+
+Has no effect on a character without a Tech/Any (non-vessel) or Doctor profession.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq>
+            <skill>Tech/Aero::Veteran</skill>
+            <skill>Tech/Mechanic::Veteran</skill>
+            <skill>Tech/Mek::Veteran</skill>
+            <skill>Tech/BattleArmor::Veteran</skill>
+            <skill>Surgery/Any::Veteran</skill>
+        </skillPrereq>
+    </ability>
+    <ability>
+        <lookupName>unofficial_spice_is_right</lookupName>
+        <displayName>The Spice is Right (Unofficial)</displayName>
+        <desc><![CDATA[Knows how to make the best of every meal.
+
+Reduces the target number of all Art/Cooking checks by 2.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <invalidAbilities>unofficial_kitchen_menace</invalidAbilities>
+        <weight>1</weight>
+    </ability>
+    <ability>
+        <lookupName>unofficial_kitchen_menace</lookupName>
+        <displayName>Kitchen Menace (Unofficial)</displayName>
+        <desc><![CDATA[Has no idea how to cook even the most basic of meals.
+
+Increases the target number of all Art/Cooking checks by 2.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <invalidAbilities>unofficial_spice_is_right</invalidAbilities>
+        <weight>1</weight>
     </ability>
     <ability>
         <lookupName>tech_maintainer</lookupName>
@@ -2183,6 +2248,11 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <desc><![CDATA[Healing check critical failure will be rerolled with Edge.]]></desc>
     </ability>
     <ability>
+        <lookupName>edge_when_advanced_surgery_fail</lookupName>
+        <displayName>Use Edge for Advanced Surgery failure.</displayName>
+        <desc><![CDATA[Advanced Surgery failure will be rerolled with Edge.]]></desc>
+    </ability>
+    <ability>
         <lookupName>edge_when_repair_break_part</lookupName>
         <displayName>Use Edge for tech breaking part.</displayName>
         <desc><![CDATA[Failed repair check that breaks the part will be rerolled with Edge.]]></desc>
@@ -2193,14 +2263,49 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <desc><![CDATA[Failed refit check will be rerolled with Edge.]]></desc>
     </ability>
     <ability>
-        <lookupName>edge_when_admin_acquire_fail</lookupName>
+        <lookupName>edge_when_admin_acquire_fail_other</lookupName>
         <displayName>Use Edge for acquisition failure.</displayName>
-        <desc><![CDATA[Failed acquisition check will be rerolled with edge.]]></desc>
+        <desc><![CDATA[Failed acquisition check will be rerolled with edge (only if the Target Number is between 0+ and 7+).]]></desc>
+    </ability>
+    <ability>
+        <lookupName>edge_when_admin_acquire_fail_greater_than_eight</lookupName>
+        <displayName>Use Edge for acquisition failure.</displayName>
+        <desc><![CDATA[Failed acquisition check will be rerolled with edge (only if the Target Number is between 8+ and 10+).]]></desc>
+    </ability>
+    <ability>
+        <lookupName>edge_when_admin_acquire_fail_greater_than_eleven</lookupName>
+        <displayName>Use Edge for acquisition failure.</displayName>
+        <desc><![CDATA[Failed acquisition check will be rerolled with edge (only if the Target Number is 11-12+).]]></desc>
     </ability>
     <ability>
         <lookupName>edge_when_salvage_accident</lookupName>
         <displayName>Use Edge for Salvage Accidents.</displayName>
         <desc><![CDATA[Salvage Accidents will be rerolled with edge.]]></desc>
+    </ability>
+    <ability>
+        <lookupName>edge_when_escape_attempt_fail</lookupName>
+        <displayName>Use Edge for escape attempt failure.</displayName>
+        <desc><![CDATA[Failed escape attempts will be rerolled with edge.]]></desc>
+    </ability>
+    <ability>
+        <lookupName>edge_when_admin_fail_appraisal</lookupName>
+        <displayName>Use Edge for procurement cost appraisal failure.</displayName>
+        <desc><![CDATA[Failed appraisal checks made to reduce procurement costs will be rerolled with edge.]]></desc>
+    </ability>
+    <ability>
+        <lookupName>edge_when_commander_negotiation_fail</lookupName>
+        <displayName>Use Edge for commander contract negotiations.</displayName>
+        <desc><![CDATA[Use Edge for commander negotiation failure when generating new contracts.]]></desc>
+    </ability>
+    <ability>
+        <lookupName>edge_when_recon_fail</lookupName>
+        <displayName>Use Edge for Scouting failure.</displayName>
+        <desc><![CDATA[Failed scouting checks will be rerolled with edge.]]></desc>
+    </ability>
+    <ability>
+        <lookupName>edge_when_training_fail</lookupName>
+        <displayName>Use Edge for training operation failure.</displayName>
+        <desc><![CDATA[Failed training checks made during training operations will be rerolled with edge.]]></desc>
     </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
