@@ -235,6 +235,14 @@ super * "rubble:4" "" "saxarba/misc/rubble_hardened.png"
 super * "rubble:5" "" "saxarba/misc/rubble_wall.png"
 super * "rubble:6" "" "saxarba/misc/rubble_heavy.png"
 super * "rubble:*" "" "saxarba/misc/rubble_heavy.png"
+#bulldozer-cleared rubble: the hex is clear; cosmetic overlays show scraped ground (gravel) UNDER the _path
+#tiles. The ground_fluff layer must precede the fluff layer (drawn under it) and any ground_fluff:* catch-all.
+super * "ground_fluff:2000" "" "saxarba/cleared_rubble_gravel.png"
+super * "fluff:2001" "" "saxarba/rubble_light_path.png"
+super * "fluff:2002" "" "saxarba/rubble_medium_path.png"
+super * "fluff:2003" "" "saxarba/rubble_heavy_path.png"
+super * "fluff:2004" "" "saxarba/rubble_hardened_path.png"
+super * "fluff:2005" "" "saxarba/rubble_wall_path.png"
 
 #LUNAR THEME FIELDS
 super * "planted_fields:1" "lunar" "saxarba/theme_lunar/field_lunar_a.png"
