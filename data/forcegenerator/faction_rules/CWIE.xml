@@ -79,9 +79,13 @@
         <co>%GALAXY_CMDR%</co>
 
         <subforces>
+            <!-- Pin the Clan (2851) variant by full name - CWIE is a Clan faction and
+            chassis-only "McKenna Battleship" can fail to resolve (no sprite) as the Clan hull
+            nears extinction late in the gate. Werewolf is the Clan Wolf flagship that went to
+            the Exiles in 3057; destroyed 3077 above Chara III by Word of Blake drones. -->
             <subforce role="command" fluffName="CWS Werewolf"
                       ifDateBetween=",3077"
-                      chassis="McKenna Battleship">%ELEMENT%
+                      chassis="McKenna Battleship (2851)">%ELEMENT%
             </subforce>
             <subforce fluffName="CWS Ulric Kerensky"
                       ifDateBetween=",3074"
@@ -100,14 +104,26 @@
                       chassis="Vincent Corvette">%ELEMENT%
             </subforce>
             <subforce fluffName="CWS Killing Blow"
-                      ifDateBetween=",3072"
+                      ifDateBetween=",3075"
                       chassis="Vincent Corvette">%ELEMENT%
             </subforce>
-            <subforce fluffName="CWS Jade Wolf" ifDateBetween="3062,3072"
+            <!-- Jade Wolf (ex-CJF White Talon) and Black Paw (ex-CJF Black Talon): Aegis
+            cruisers captured from Clan Jade Falcon ca. 3064 above Butler. -->
+            <subforce fluffName="CWS Jade Wolf" ifDateBetween="3064,3072"
                       chassis="Aegis Heavy Cruiser">%ELEMENT%
             </subforce>
-            <subforce fluffName="CWS Black Paw" ifDateBetween="3062,3072"
+            <subforce fluffName="CWS Black Paw" ifDateBetween="3064,3075"
                       chassis="Aegis Heavy Cruiser">%ELEMENT%
+            </subforce>
+            <!-- Winter Wolf (captured LAS Yggdrasil): Lyran Mjolnir, damaged then returned
+            to the Lyrans and lost in transit during the Jihad. Robert Kelswa: Fox corvette,
+            a 3060s acquisition. Both IS hulls pinned by full name so they resolve for a Clan
+            faction (no Clan-legal variant). -->
+            <subforce fluffName="CWS Winter Wolf" ifDateBetween="3064,3072"
+                      chassis="Mjolnir Battlecruiser">%ELEMENT%
+            </subforce>
+            <subforce fluffName="CWS Robert Kelswa" ifDateBetween="3064,3078"
+                      chassis="Fox Corvette (3057)">%ELEMENT%
             </subforce>
         </subforces>
     </force>

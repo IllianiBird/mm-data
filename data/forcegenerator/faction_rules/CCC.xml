@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -97,16 +97,23 @@
             </subforce>
         </subforces>
 
-        <attachedForces>
-            <subforce unitType="Warship">%CLUSTER%</subforce>
-        </attachedForces>
     </force>
 
-    <force echelon="%CLUSTER%" eschName="Fleet" ifUnitType="Warship">
-        <name>Naval Reserve</name>
-        <co>%GALAXY_CMDR%</co>
+    <!-- Cloud Cobra distributes its WarShips across specific Galaxies (3061-3067
+         assignments per Clan Cloud Cobra Naval Forces, Sarna). Each galaxy with ships
+         attaches ONE Naval Star (below) that contains all of that galaxy's WarShips, so
+         the ToE reads: Galaxy -> Clusters + a Naval Star -> ships. Branched by ifName so
+         each galaxy gets the right roster. Each ship appears exactly once - no pooling,
+         no duplication. Ships inside this node inherit unitType=Warship from it (so they
+         need no explicit unitType, unlike a ship attached straight to a galaxy node). -->
+    <force echelon="%CLUSTER%" eschName="Naval Star" ifUnitType="Warship">
+        <name>Naval Star</name>
+        <co>%STAR_CMDR%</co>
 
-        <subforces>
+        <subforces ifName="Alpha Naval Star">
+            <subforce fluffName="CCS Nebulous"
+                      chassis="York Destroyer-Carrier">%ELEMENT%
+            </subforce>
             <subforce fluffName="CCS Incense" ifDateBetween=",3072"
                       chassis="Cameron Battlecruiser">%ELEMENT%
             </subforce>
@@ -122,6 +129,12 @@
             <subforce fluffName="CCS Blind Faith" ifDateBetween="2950,3072"
                       chassis="Carrack Transport">%ELEMENT%
             </subforce>
+        </subforces>
+
+        <subforces ifName="Beta Naval Star">
+            <subforce fluffName="CCS Consequence" ifDateBetween=",3075"
+                      chassis="Aegis Heavy Cruiser">%ELEMENT%
+            </subforce>
             <subforce fluffName="CCS Wisdom of the Ages"
                       chassis="Potemkin Troop Cruiser">%ELEMENT%
             </subforce>
@@ -131,29 +144,35 @@
             <subforce fluffName="CCS Hell Fury" ifDateBetween="3053,3081"
                       chassis="Fredasa (Corvette-Raider)">%ELEMENT%
             </subforce>
-            <subforce fluffName="CCS Nebulous"
-                      chassis="York Destroyer-Carrier">%ELEMENT%
-            </subforce>
-            <subforce fluffName="CCS Consequence" ifDateBetween=",3075"
-                      chassis="Aegis Heavy Cruiser">%ELEMENT%
-            </subforce>
-            <subforce fluffName="CCS Perdition&apos;s Flame"
-                      ifDateBetween="2962,3075"
-                      chassis="Fredasa (Corvette-Raider)">%ELEMENT%
+            <!-- Generic JumpShips round the formation to a 5-6 vessel naval star
+                 (DropShips are handled by the transport system, not the naval star). -->
+            <subforce unitType="Jumpship" num="2">%ELEMENT%</subforce>
+        </subforces>
+
+        <subforces ifName="Delta Naval Star">
+            <subforce fluffName="CCS Second Coming" ifDateBetween=",3073"
+                      chassis="McKenna Battleship">%ELEMENT%
             </subforce>
             <subforce fluffName="CCS Trump" ifDateBetween=",3070"
                       chassis="Vincent Corvette">%ELEMENT%
             </subforce>
-            <subforce fluffName="CCS Hertzog&apos;s Staff"
-                      ifDateBetween=",3075"
+            <subforce fluffName="CCS Hertzog&apos;s Staff" ifDateBetween=",3075"
                       chassis="Vincent Corvette">%ELEMENT%
             </subforce>
-            <subforce fluffName="CCS Second Coming" ifDateBetween=",3073"
-                      chassis="McKenna Battleship">%ELEMENT%
+            <subforce fluffName="CCS Perdition&apos;s Flame" ifDateBetween="2962,3075"
+                      chassis="Fredasa (Corvette-Raider)">%ELEMENT%
             </subforce>
+            <!-- Generic JumpShips round the formation to a 5-6 vessel naval star
+                 (DropShips are handled by the transport system, not the naval star). -->
+            <subforce unitType="Jumpship" num="2">%ELEMENT%</subforce>
+        </subforces>
+
+        <subforces ifName="Zeta Naval Star">
             <subforce fluffName="CCS Inquisitor" ifDateBetween=",3081"
                       chassis="Aegis Heavy Cruiser">%ELEMENT%
             </subforce>
+            <!-- Only one named ship; generic JumpShips make a 5-6 vessel naval star. -->
+            <subforce unitType="Jumpship" num="4">%ELEMENT%</subforce>
         </subforces>
     </force>
 
@@ -192,6 +211,24 @@
             </subforceOption>
             <subforce flags="fang">%CLUSTER%</subforce>
         </subforces>
+
+        <!-- Each galaxy with assigned WarShips attaches ONE Naval Star holding that
+             galaxy's ships (see the Naval Star node above). Structure: Galaxy ->
+             Clusters + a Naval Star -> ships. unitType=Warship routes to that node. -->
+        <attachedForces>
+            <subforce ifName="Alpha Galaxy" unitType="Warship"
+                      name="Alpha Naval Star">%CLUSTER%
+            </subforce>
+            <subforce ifName="Beta Galaxy" unitType="Warship"
+                      name="Beta Naval Star">%CLUSTER%
+            </subforce>
+            <subforce ifName="Delta Galaxy" unitType="Warship"
+                      name="Delta Naval Star">%CLUSTER%
+            </subforce>
+            <subforce ifName="Zeta Galaxy" unitType="Warship"
+                      name="Zeta Naval Star">%CLUSTER%
+            </subforce>
+        </attachedForces>
     </force>
 
     <force echelon="%CLUSTER%" eschName="Cluster" ifRating="Keshik" ifRole="command">

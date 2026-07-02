@@ -120,75 +120,111 @@ ranked SL units.-->
         </subforces>
 
         <attachedForces>
-            <subforce unitType="Warship">%CLUSTER%</subforce>
+            <subforce unitType="Warship" name="Naval Reserve">%CLUSTER%</subforce>
+            <subforce unitType="Warship" name="Independent Naval Assets">%CLUSTER%</subforce>
         </attachedForces>
     </force>
 
-    <force echelon="%CLUSTER%" eschName="Fleet" ifUnitType="Warship">
-        <name>Naval Reserve</name>
-        <co>%GALAXY_CMDR%</co>
+    <!-- WarShip organization per Clan Coyote Naval Forces (Sarna, 3061-67 assignments).
+         Front-line galaxies each field their flagship as a Naval Star (attached from the
+         galaxy node, branched by ifName here); the Khan's flagship plus the two Naval Reserve
+         Trinaries form the central Naval Reserve, and the remaining hulls are Independent
+         Naval Assets (both attached from the Touman). Coyote doctrine: every vessel travels
+         as a provisional naval Star (full aero complement + an Elemental Star), so each
+         formation is padded with JumpShips toward 5-6 vessels; the largest hull is the
+         command vessel (tonnage sort). Existing ship dates preserved; CCS Broken Sea
+         (York carrier, lost 3073) added from canon. -->
+    <force echelon="%CLUSTER%" eschName="Naval Star" ifUnitType="Warship">
+        <name>Naval Star</name>
+        <co>%STAR_CMDR%</co>
 
-        <subforces>
-            <subforce chassis="Nightlord Battleship"
-                      ifDateBetween="2932,3074" role="command"
-                      fluffName="CCS Great Coyote Spirit">%ELEMENT%
-            </subforce>
-            <subforce chassis="Texas Battleship"
-                      ifDateBetween=",3074"
-                      fluffName="CCS Ancestral Home">%ELEMENT%
-            </subforce>
-            <subforce chassis="Cameron Battlecruiser"
-                      ifDateBetween=",3075"
-                      fluffName="CCS Blood of the Coyote">%ELEMENT%
-            </subforce>
-            <subforce chassis="Sovetskii Soyuz Heavy Cruiser"
-                      ifDateBetween=",3072"
-                      fluffName="CCS Howling">%ELEMENT%
-            </subforce>
-            <subforce chassis="Sovetskii Soyuz Heavy Cruiser"
-                      ifDateBetween=",3075"
+        <subforces ifName="Alpha Naval Star">
+            <subforce chassis="Sovetskii Soyuz Heavy Cruiser" ifDateBetween=",3075"
                       fluffName="CCS Steel Fang">%ELEMENT%
             </subforce>
-            <subforce chassis="Avatar Heavy Cruiser"
-                      ifDateBetween=",3023"
+            <subforceOption>
+                <option num="4" unitType="Jumpship">%ELEMENT%</option>
+                <option num="5" unitType="Jumpship">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+
+        <subforces ifName="Delta Naval Star">
+            <subforce chassis="Cameron Battlecruiser" ifDateBetween=",3075"
+                      fluffName="CCS Blood of the Coyote">%ELEMENT%
+            </subforce>
+            <subforceOption>
+                <option num="4" unitType="Jumpship">%ELEMENT%</option>
+                <option num="5" unitType="Jumpship">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+
+        <subforces ifName="Epsilon Naval Star">
+            <subforce chassis="Avatar Heavy Cruiser" ifDateBetween=",3023"
                       fluffName="CCS Spirit in the Sky">%ELEMENT%
             </subforce>
-            <subforce chassis="Liberator Cruiser"
-                      ifDateBetween="3024,"
+            <subforce chassis="Liberator Cruiser" ifDateBetween="3024,"
                       fluffName="CCS Spirit in the Sky">%ELEMENT%
             </subforce>
-            <subforce chassis="Lola III Destroyer"
-                      ifDateBetween=",3073"
-                      fluffName="CCS Honor of Ages">%ELEMENT%
+            <subforceOption>
+                <option num="4" unitType="Jumpship">%ELEMENT%</option>
+                <option num="5" unitType="Jumpship">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+
+        <subforces ifName="Zeta Naval Star">
+            <subforce chassis="Sovetskii Soyuz Heavy Cruiser" ifDateBetween=",3072"
+                      fluffName="CCS Howling">%ELEMENT%
             </subforce>
-            <subforce chassis="Lola III Destroyer"
-                      ifDateBetween=",3073"
+            <subforce chassis="Lola III Destroyer" ifDateBetween=",3073"
                       fluffName="CCS Courage">%ELEMENT%
             </subforce>
-            <subforce chassis="Essex II Destroyer"
-                      ifDateBetween=",3075"
+            <subforceOption>
+                <option num="3" unitType="Jumpship">%ELEMENT%</option>
+                <option num="4" unitType="Jumpship">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+
+        <!-- Khan's flagship + Alpha and Beta Naval Reserve Trinaries. Flagship (Nightlord,
+             largest) leads as command. -->
+        <subforces ifName="Naval Reserve">
+            <subforce chassis="Nightlord Battleship" ifDateBetween="2932,3074"
+                      role="command" fluffName="CCS Great Coyote Spirit">%ELEMENT%
+            </subforce>
+            <subforce chassis="Essex II Destroyer" ifDateBetween=",3075"
                       fluffName="CCS Windrunner">%ELEMENT%
             </subforce>
-            <subforce chassis="Potemkin Troop Cruiser"
-                      ifDateBetween=",3084"
+            <subforce chassis="Lola III Destroyer" ifDateBetween=",3073"
+                      fluffName="CCS Honor of Ages">%ELEMENT%
+            </subforce>
+            <subforce chassis="Potemkin Troop Cruiser" ifDateBetween=",3084"
                       fluffName="CCS Midnight Star">%ELEMENT%
             </subforce>
-            <subforce chassis="Potemkin Troop Cruiser"
-                      ifDateBetween=",3075"
-                      fluffName="CCS Morning Star">%ELEMENT%
-            </subforce>
-            <subforce chassis="Carrack Transport"
-                      ifDateBetween="2950,"
+            <subforce chassis="Carrack Transport" ifDateBetween="2950,"
                       fluffName="CCS Solar Blaze">%ELEMENT%
             </subforce>
-            <subforce chassis="Vincent Corvette"
-                      ifDateBetween="3071"
+            <subforce chassis="Potemkin Troop Cruiser" ifDateBetween=",3075"
+                      fluffName="CCS Morning Star">%ELEMENT%
+            </subforce>
+        </subforces>
+
+        <!-- Independent Assets: heavy hulls + the Clan Wolf hand-offs (3071+). -->
+        <subforces ifName="Independent Naval Assets">
+            <subforce chassis="Texas Battleship" ifDateBetween=",3074"
+                      role="command" fluffName="CCS Ancestral Home">%ELEMENT%
+            </subforce>
+            <subforce chassis="York Destroyer-Carrier" ifDateBetween="3057,3073"
+                      fluffName="CCS Broken Sea">%ELEMENT%
+            </subforce>
+            <subforce chassis="Vincent Corvette" ifDateBetween="3071"
                       fluffName="CCS Relentless Pursuit">%ELEMENT%
             </subforce>
-            <subforce chassis="Volga Transport"
-                      ifDateBetween="3071,3075"
+            <subforce chassis="Volga Transport" ifDateBetween="3071,3075"
                       fluffName="CCS Provider">%ELEMENT%
             </subforce>
+            <subforceOption>
+                <option num="2" unitType="Jumpship">%ELEMENT%</option>
+                <option num="3" unitType="Jumpship">%ELEMENT%</option>
+            </subforceOption>
         </subforces>
     </force>
 
@@ -236,6 +272,24 @@ ranked SL units.-->
             </subforceOption>
             <subforce rating="Sol">%CLUSTER%</subforce>
         </subforces>
+
+        <!-- Each front-line galaxy with an assigned WarShip attaches ONE Naval Star (the
+             naval node above, branched by ifName) holding that galaxy's flagship plus
+             JumpShip support. Per Clan Coyote Naval Forces, Sarna (3061-67). -->
+        <attachedForces>
+            <subforce ifName="Alpha Galaxy" unitType="Warship"
+                      name="Alpha Naval Star">%CLUSTER%
+            </subforce>
+            <subforce ifName="Delta Galaxy" unitType="Warship"
+                      name="Delta Naval Star">%CLUSTER%
+            </subforce>
+            <subforce ifName="Epsilon Galaxy" unitType="Warship"
+                      name="Epsilon Naval Star">%CLUSTER%
+            </subforce>
+            <subforce ifName="Zeta Galaxy" unitType="Warship"
+                      name="Zeta Naval Star">%CLUSTER%
+            </subforce>
+        </attachedForces>
 
         <attachedForces ifRating="SL">
             <subforceOption>
@@ -339,25 +393,25 @@ ranked SL units.-->
 
     <force echelon="%CLUSTER%" eschName="Cluster">
         <name ifRating="SL"
-              ifWeightClass="A|H">{cardinalOrdinal} Reserve [Assault] Cluster
+              ifWeightClass="A">{cardinalOrdinal} Reserve [Assault] Cluster
         </name>
         <name ifRating="SL"
-              ifWeightClass="M">{cardinalOrdinal} Reserve [Battle] Cluster
+              ifWeightClass="H|M">{cardinalOrdinal} Reserve [Battle] Cluster
         </name>
         <name ifRating="SL"
               ifWeightClass="L">{cardinalOrdinal} Reserve [Strike] Cluster
         </name>
         <name ifRating="Sol"
-              ifWeightClass="A|H">{cardinalOrdinal} Solahma [Assault] Cluster
+              ifWeightClass="A">{cardinalOrdinal} Solahma [Assault] Cluster
         </name>
         <name ifRating="Sol"
-              ifWeightClass="M">{cardinalOrdinal} Solahma [Battle] Cluster
+              ifWeightClass="H|M">{cardinalOrdinal} Solahma [Battle] Cluster
         </name>
         <name ifRating="Sol"
               ifWeightClass="L">{cardinalOrdinal} Solahma [Strike] Cluster
         </name>
-        <name ifWeightClass="A|H">{cardinalOrdinal} [Assault] Cluster</name>
-        <name ifWeightClass="M">{cardinalOrdinal} [Battle] Cluster</name>
+        <name ifWeightClass="A">{cardinalOrdinal} [Assault] Cluster</name>
+        <name ifWeightClass="H|M">{cardinalOrdinal} [Battle] Cluster</name>
         <name ifWeightClass="L">{cardinalOrdinal} [Strike] Cluster</name>
 
         <!-- Per-cluster-type weight targets (budget allocator). L/M/H/A% reshape that
@@ -384,7 +438,7 @@ ranked SL units.-->
             <option weight="1">A</option>
             <option weight="4">H</option>
             <option weight="2">M</option>
-            <option ifRole="!command" weight="1">L</option>
+            <option ifRole="!command" weight="2">L</option>
         </weightClass>
 
         <!-- Front Line clusters typically have three Mek, one BA, and one

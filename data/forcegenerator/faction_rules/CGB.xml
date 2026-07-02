@@ -119,6 +119,7 @@ but have a smaller aerospace arm than most other Clans. -->
             </subforce>
 
             <subforce unitType="Warship" name="Naval Reserve">%CLUSTER%</subforce>
+            <subforce unitType="Warship" name="Transport Flotilla">%CLUSTER%</subforce>
         </subforces>
     </force>
 
@@ -182,22 +183,40 @@ but have a smaller aerospace arm than most other Clans. -->
         </subforces>
     </force>
 
-    <force echelon="%GALAXY%" eschName="Fleet" ifUnitType="Warship">
-        <name>Naval Reserve</name>
-        <co>%GALAXY_CMDR%</co>
+    <!-- WarShip organization per Clan Ghost Bear Naval Forces (Sarna). The two galaxy flagships
+         attach as Naval Stars from the galaxy node (branched by ifName below): Alpha fields the
+         Cameron Dieron's Run, Beta the Black Lion Bear's Den. The Touman fields the central Naval
+         Reserve (the Nightlord Ursa Major plus the destroyer/cruiser screen) and a Transport
+         Flotilla (the Carrack/Volga/Leviathan lift the Bears use to move ground forces). Largest
+         hull commands each formation (tonnage sort). Ship loss dates preserved from the prior
+         single reserve; most of the screen was destroyed at Alshain in 3067. -->
+    <force echelon="%CLUSTER%" eschName="Naval Star" ifUnitType="Warship">
+        <name>Naval Star</name>
+        <co>%STAR_CMDR%</co>
 
-        <subforces>
+        <subforces ifName="Alpha Naval Star">
             <subforce fluffName="CGB Dieron&apos;s Run" ifDateBetween=",3067"
                       chassis="Cameron Battlecruiser">%ELEMENT%
             </subforce>
-            <subforce fluffName="CGB Ursa Major" ifDateBetween="2932,3100"
-                      chassis="Nightlord Battleship">%ELEMENT%
-            </subforce>
+            <subforceOption>
+                <option num="4" unitType="Jumpship">%ELEMENT%</option>
+                <option num="5" unitType="Jumpship">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+
+        <subforces ifName="Beta Naval Star">
             <subforce fluffName="CGB Bear&apos;s Den" ifDateBetween=",3066"
                       chassis="Black Lion II Battlecruiser">%ELEMENT%
             </subforce>
-            <subforce fluffName="CGB Shining Claw" ifDateBetween=",3059"
-                      chassis="Congress Frigate">%ELEMENT%
+            <subforceOption>
+                <option num="4" unitType="Jumpship">%ELEMENT%</option>
+                <option num="5" unitType="Jumpship">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+
+        <subforces ifName="Naval Reserve">
+            <subforce fluffName="CGB Ursa Major" ifDateBetween="2932,3100"
+                      chassis="Nightlord Battleship">%ELEMENT%
             </subforce>
             <subforce fluffName="CGB Ursa Minor" ifDateBetween=",2946"
                       chassis="Riga Frigate">%ELEMENT%
@@ -211,12 +230,6 @@ but have a smaller aerospace arm than most other Clans. -->
             <subforce fluffName="CGB White Fang" ifDateBetween=",3066"
                       chassis="Essex II Destroyer">%ELEMENT%
             </subforce>
-            <subforce fluffName="CGB Fire Fang" ifDateBetween=",3059"
-                      chassis="Whirlwind Destroyer">%ELEMENT%
-            </subforce>
-            <subforce fluffName="CGB Ursus" ifDateBetween=",3059"
-                      chassis="Whirlwind Destroyer">%ELEMENT%
-            </subforce>
             <subforce fluffName="CGB Blizzard" ifDateBetween=",3066"
                       chassis="Lola III Destroyer">%ELEMENT%
             </subforce>
@@ -226,17 +239,32 @@ but have a smaller aerospace arm than most other Clans. -->
             <subforce fluffName="CGB Black Ghost" ifDateBetween=",3066"
                       chassis="Fredasa (Corvette-Raider)">%ELEMENT%
             </subforce>
+            <subforce fluffName="CGB Shining Claw" ifDateBetween=",3059"
+                      chassis="Congress Frigate">%ELEMENT%
+            </subforce>
+            <subforce fluffName="CGB Fire Fang" ifDateBetween=",3059"
+                      chassis="Whirlwind Destroyer">%ELEMENT%
+            </subforce>
+            <subforce fluffName="CGB Ursus" ifDateBetween=",3059"
+                      chassis="Whirlwind Destroyer">%ELEMENT%
+            </subforce>
+        </subforces>
+
+        <subforces ifName="Transport Flotilla">
             <subforce fluffName="CGB Great Bear" ifDateBetween="3055,3078"
                       chassis="Leviathan Heavy Transport">%ELEMENT%
             </subforce>
-            <subforce fluffName="CGB Ursine Boatman" ifDateBetween=",3078"
-                      chassis="Volga Transport">%ELEMENT%
+            <subforce fluffName="CGB Leviathan" ifDateBetween="3055,3077"
+                      chassis="Leviathan Heavy Transport">%ELEMENT%
             </subforce>
-            <subforce fluffName="CGB Den Mother" ifDateBetween=",3100"
+            <subforce fluffName="CGB Den Mother"
                       chassis="Carrack Transport">%ELEMENT%
             </subforce>
             <subforce fluffName="CGB Yggdrasil"
                       chassis="Carrack Transport">%ELEMENT%
+            </subforce>
+            <subforce fluffName="CGB Ursine Boatman" ifDateBetween=",3078"
+                      chassis="Volga Transport">%ELEMENT%
             </subforce>
         </subforces>
     </force>
@@ -268,6 +296,18 @@ but have a smaller aerospace arm than most other Clans. -->
                 <option />
             </subforceOption>
         </subforces>
+
+        <!-- Per Clan Ghost Bear Naval Forces (Sarna, 3061): Alpha fields the flagship Dieron's Run,
+             Beta the primary naval flagship Bear's Den. Each front-line galaxy attaches its Naval
+             Star (the naval node above, branched by ifName) with JumpShip support. -->
+        <attachedForces>
+            <subforce ifName="Alpha Galaxy" unitType="Warship"
+                      name="Alpha Naval Star">%CLUSTER%
+            </subforce>
+            <subforce ifName="Beta Galaxy" unitType="Warship"
+                      name="Beta Naval Star">%CLUSTER%
+            </subforce>
+        </attachedForces>
     </force>
 
     <force echelon="%CLUSTER%" eschName="Cluster" ifUnitType="BattleArmor">
@@ -307,7 +347,15 @@ but have a smaller aerospace arm than most other Clans. -->
         <name ifRating="PG">Provisional Garrison Cluster</name>
         <co>%STAR_COL%</co>
 
+        <!-- Ghost Bear is the heaviest Clan (canon +1 weight-class modifier) and fights direct
+             assaults with heavy/assault Meks. Assault clusters roll a real share (weight 2, above
+             Coyote's 1), and the per-cluster targets push assault density past what the trinary
+             rolls reach on their own. Aerospace and Battle Armor are left as-is (already canon). -->
+        <weightTarget ifWeightClass="A" unitType="Mek" spread="8">A:55,H:40,M:5,L:0</weightTarget>
+        <weightTarget ifWeightClass="H" unitType="Mek" spread="8">A:35,H:52,M:11,L:2</weightTarget>
+
         <weightClass>
+            <option weight="2">A</option>
             <option weight="4">H</option>
             <option weight="2">M</option>
             <option ifRole="!command" weight="1">L</option>

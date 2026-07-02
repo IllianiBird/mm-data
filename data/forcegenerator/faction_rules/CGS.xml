@@ -729,17 +729,23 @@
         <name>{phonetic:distinct} [Striker] Trinary</name>
         <co>%STAR_CAPTAIN%</co>
 
+        <!-- Strikers are recon/harassers: mobility-led, light-to-heavy but rarely heavy. Picker
+             leans light/medium (heavy is the exception), and even a heavy roll pairs one heavy
+             star with a lighter one rather than two heavies, keeping the unit fast. This is the
+             Goliath Scorpion finesse/speed doctrine; the heavy backbone lives in cuirassier
+             (battle+assault) clusters instead. -->
         <weightClass>
-            <option weight="2">H</option>
+            <option weight="1">H</option>
             <option weight="4">M</option>
-            <option weight="3">L</option>
+            <option weight="4">L</option>
         </weightClass>
 
         <subforces>
             <subforceOption ifWeightClass="H|A">
-                <option weightClass="A,L" unitType="Mek">%STAR%</option>
-                <option weightClass="H,H" weight="2" unitType="Mek">%STAR%</option>
-                <option weightClass="H,M" weight="3" unitType="Mek">%STAR%</option>
+                <option weightClass="A,L" unitType="Mek" weight="2">%STAR%</option>
+                <option weightClass="H,H" unitType="Mek">%STAR%</option>
+                <option weightClass="H,M" weight="2" unitType="Mek">%STAR%</option>
+                <option weightClass="H,L" weight="2" unitType="Mek">%STAR%</option>
             </subforceOption>
             <subforceOption ifWeightClass="M">
                 <option weightClass="H,L" unitType="Mek">%STAR%</option>
@@ -1174,6 +1180,11 @@
             </subforce>
             <subforce fluffName="CGS Corona Borealis" ifDateBetween=",3073"
                       chassis="Aegis Heavy Cruiser">%ELEMENT%
+            </subforce>
+            <!-- Osis' Pride: ex-Smoke Jaguar Potemkin that passed to the Goliath Scorpions via the
+                 Clan Ice Hellion absorption (3073); scrapped 3076. -->
+            <subforce fluffName="CGS Osis&apos; Pride" ifDateBetween="3073,3076"
+                      chassis="Potemkin Troop Cruiser">%ELEMENT%
             </subforce>
         </subforces>
 

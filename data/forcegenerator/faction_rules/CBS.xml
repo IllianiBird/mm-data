@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -34,7 +34,7 @@
 
         <echelon>
             <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
-            <option ifUnitType="Warship">%GALAXY%</option>
+            <option ifUnitType="Warship">%GALAXY%,%STAR%</option>
             <option ifUnitType="Dropship|Jumpship">%STAR%</option>
             <option ifUnitType="AeroSpaceFighter">%CLUSTER%,%TRINARY%,%BINARY%,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
@@ -106,7 +106,20 @@
         <co position="1">%GALAXY_CMDR%</co>
 
         <subforces>
-            <subforce ifDateBetween=",3059" num="2">%ELEMENT%</subforce>
+            <subforce name="Blood Naval Star" unitType="Warship">%STAR%</subforce>
+        </subforces>
+    </force>
+
+    <!-- The naval reserve as a Clan naval star (5-6 vessels) nested under the Blood Galaxy,
+         rather than ships loose under the galaxy. -->
+    <force echelon="%STAR%" eschName="Naval Star" ifUnitType="Warship">
+        <name>Blood Naval Star</name>
+        <co>%STAR_CMDR%</co>
+
+        <subforces>
+            <!-- Supporting JumpShips keep the naval reserve a 5-6 vessel formation across the
+                 Clan's life as the named WarShip fleet is whittled down by losses. -->
+            <subforce unitType="Jumpship" num="2">%ELEMENT%</subforce>
             <subforce chassis="Black Lion II Battlecruiser"
                       fluffName="CBS Rocinante"
                       ifDateBetween=",3072">%ELEMENT%
@@ -128,31 +141,6 @@
                       ifDateBetween="3070,3084">%ELEMENT%
             </subforce>
         </subforces>
-
-        <attachedForces>
-            <subforceOption>
-                <option num="3" ifDateBetween="3061,"
-                        rating="FL" unitType="AeroSpaceFighter">%CLUSTER%
-                </option>
-                <option num="4" rating="FL"
-                        unitType="AeroSpaceFighter">%CLUSTER%
-                </option>
-                <option num="5" ifDateBetween=",3060"
-                        rating="FL" unitType="AeroSpaceFighter">%CLUSTER%
-                </option>
-            </subforceOption>
-            <subforceOption>
-                <option num="2" ifDateBetween="3061,"
-                        rating="SL" unitType="AeroSpaceFighter">%CLUSTER%
-                </option>
-                <option num="3" rating="SL"
-                        unitType="AeroSpaceFighter">%CLUSTER%
-                </option>
-                <option num="4" ifDateBetween=",3060"
-                        rating="SL" unitType="AeroSpaceFighter">%CLUSTER%
-                </option>
-            </subforceOption>
-        </attachedForces>
     </force>
 
     <force echelon="%GALAXY%" eschName="Galaxy">
@@ -163,6 +151,14 @@
             <subforceOption>
                 <option num="6">%CLUSTER%</option>
                 <option num="5">%CLUSTER%</option>
+            </subforceOption>
+            <!-- Aerospace lives with the combat galaxies now (one ASF cluster per front-line
+                 galaxy) rather than pooled in the naval reserve. Wrapped in a subforceOption so
+                 the engine generates it AFTER the combat clusters: SubForcesNode emits all plain
+                 <subforce> elements before any <subforceOption>, so a plain aero subforce would
+                 sort to the top of the galaxy regardless of XML order. -->
+            <subforceOption>
+                <option unitType="AeroSpaceFighter">%CLUSTER%</option>
             </subforceOption>
         </subforces>
 
@@ -175,8 +171,8 @@
     </force>
 
     <!--All Blood Spirit clusters include three trinaries of Meks,
-    one BA/infantry, and one vehicle. ASFs are attached to the naval
-    reserve.-->
+    one BA/infantry, and one vehicle. Each front-line galaxy also fields
+    one Aerospace Cluster (aero was previously pooled in the naval reserve).-->
 
     <force echelon="%CLUSTER%" eschName="Cluster" ifUnitType="AeroSpaceFighter">
         <name>Aerospace Cluster</name>

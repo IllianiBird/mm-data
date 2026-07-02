@@ -251,7 +251,10 @@
 
         <subforces>
             <subforce flags="+navalFluff" role="command">%STAR%</subforce>
-            <subforce flags="+navalFluff">%STAR%</subforce>
+            <!-- Second warship star only through 3075: the fleet had two stars in 3058-3067, but the
+                 Wars of Reaving cut it to a single ~5-ship star by 3079. Attaching it later would
+                 leave an empty star (no 3076+ ship block) that collapses into a stray default WarShip. -->
+            <subforce flags="+navalFluff" ifDateBetween=",3075">%STAR%</subforce>
             <subforce unitType="Jumpship" num="2">%STAR%</subforce>
             <subforce unitType="Dropship" role="assault">%STAR%</subforce>
         </subforces>
@@ -2232,6 +2235,12 @@
             </subforce>
             <subforce fluffName="CHH Gold Knight"
                       chassis="Lola III Destroyer">%ELEMENT%
+            </subforce>
+            <!-- Stampede: the ex-Ice Hellion York Pack Leader, claimed as isorla at Vantaa in 3072
+                 and renamed (see CIH.xml). Joins the fleet from 3072; carries on in the post-Reaving
+                 star below (still in service 3145). -->
+            <subforce fluffName="CHH Stampede" ifDateBetween="3072,3075"
+                      chassis="York Destroyer-Carrier">%ELEMENT%
             </subforce>
         </subforces>
 
