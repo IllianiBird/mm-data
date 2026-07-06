@@ -25,11 +25,11 @@ Scapha Hovertank
 </Name>
 
 <Model>
-(I)
+F
 </Model>
 
 <mul id:>
-6667
+6664
 </mul id:>
 
 <year>
@@ -90,7 +90,8 @@ BattleArmorHandles - troopers:-1
 
 <Body Equipment>
 ISTargeting Computer:OMNI
-ISC3MasterUnit:OMNI
+IS Ammo AC/5:OMNI
+IS Ammo AC/5:OMNI
 </Body Equipment>
 
 <Front Equipment>
@@ -106,7 +107,8 @@ ISC3MasterUnit:OMNI
 </Rear Equipment>
 
 <Turret Equipment>
-TSEMP Cannon:OMNI
+Autocannon/5:OMNI
+ISTAG:OMNI
 </Turret Equipment>
 
 <source>
@@ -135,7 +137,7 @@ RS:3145
 </capabilities>
 
 <deployment>
-<p>The I Configuration is designed for command-and-control operations and target neutralization. A TSEMP Cannon serves as the vehicle's sole direct weapon, capable of shutting down enemy BattleMechs and combat vehicles through electromagnetic disruption. A C3 master computer coordinates the fire of networked units, making this configuration a high-value command asset. The I is best employed within a protective formation and directed toward capture or immobilization missions rather than front-line independent combat.</p>
+<p>The F Configuration serves as a medium-range fire support platform and artillery coordinator. An AC/5 guided by a Targeting Computer delivers accurate fire against armored targets, while two tons of mixed ammunition allow the crew to shift between round types as engagement conditions change. A Target Acquisition Gear unit enables the F to spot for artillery and semi-guided LRM systems, making it effective in combined-arms fire missions where coordination between multiple weapons platforms is required.</p>
 </deployment>
 
 <history>

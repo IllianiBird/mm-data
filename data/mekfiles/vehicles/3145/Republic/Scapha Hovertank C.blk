@@ -25,11 +25,11 @@ Scapha Hovertank
 </Name>
 
 <Model>
-(G)
+C
 </Model>
 
 <mul id:>
-6665
+6661
 </mul id:>
 
 <year>
@@ -89,10 +89,8 @@ BattleArmorHandles - troopers:-1
 </armor>
 
 <Body Equipment>
-ISTargeting Computer:OMNI
-ISC3SlaveUnit:OMNI
-IS Ammo LAC/2:OMNI
-IS Ammo LAC/2:OMNI
+IS LB 10-X AC Ammo:OMNI
+IS LB 10-X Cluster Ammo:OMNI
 </Body Equipment>
 
 <Front Equipment>
@@ -108,8 +106,7 @@ IS Ammo LAC/2:OMNI
 </Rear Equipment>
 
 <Turret Equipment>
-Light Auto Cannon/2:OMNI
-Light Auto Cannon/2:OMNI
+ISLBXAC10:OMNI
 </Turret Equipment>
 
 <source>
@@ -138,7 +135,7 @@ RS:3145
 </capabilities>
 
 <deployment>
-<p>The G Configuration deploys the Scapha as a long-range precision platform integrated into a C3 fire coordination network. Two Light Autocannon 2s guided by a Targeting Computer provide accurate sustained fire at extended range, while a C3 slave unit links the vehicle into a shared targeting network. Two tons of mixed ammunition allow the crew to engage different target types. The C3 slave draws on network targeting data to improve accuracy against targets designated by other units in the network.</p>
+<p>The C Configuration mounts an LB-10X Autocannon with two tons of ammunition, allowing the crew to select between standard armor-piercing slugs and cluster munitions. This flexibility makes the vehicle effective against conventional armor, where standard rounds punch through plating, and against infantry or lightly armored targets, where cluster fire inflicts broad-area damage. The C is valued by formations that regularly face mixed enemy compositions across varied engagement types.</p>
 </deployment>
 
 <history>

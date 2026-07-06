@@ -25,11 +25,11 @@ Scapha Hovertank
 </Name>
 
 <Model>
-(A)
+J
 </Model>
 
 <mul id:>
-6659
+6668
 </mul id:>
 
 <year>
@@ -41,7 +41,7 @@ Scapha Hovertank
 </originalBuildYear>
 
 <type>
-IS Level 4
+IS Level 3
 </type>
 
 <role>
@@ -89,9 +89,14 @@ BattleArmorHandles - troopers:-1
 </armor>
 
 <Body Equipment>
-ISRotaryAC5 Ammo:OMNI
-ISRotaryAC5 Ammo:OMNI
-ISRotaryAC5 Ammo:OMNI
+ISGuardianECMSuite:OMNI
+VehicleJumpJet:OMNI
+VehicleJumpJet:OMNI
+VehicleJumpJet:OMNI
+VehicleJumpJet:OMNI
+VehicleJumpJet:OMNI
+VehicleJumpJet:OMNI
+VehicleJumpJet:OMNI
 </Body Equipment>
 
 <Front Equipment>
@@ -107,7 +112,9 @@ ISRotaryAC5 Ammo:OMNI
 </Rear Equipment>
 
 <Turret Equipment>
-ISRotaryAC5:OMNI
+ISMediumPulseLaser:OMNI
+ISMediumPulseLaser:OMNI
+ISMediumPulseLaser:OMNI
 </Turret Equipment>
 
 <source>
@@ -136,7 +143,7 @@ RS:3145
 </capabilities>
 
 <deployment>
-<p>The A Configuration converts the Scapha into a high-volume fire suppression platform. A single Rotary Autocannon 5, fed by three tons of ammunition, delivers devastating burst-fire capability against light vehicles and infantry concentrations. The vehicle sacrifices electronic warfare assets and scouting capability in exchange for sustained rate of fire, making this loadout effective in defensive engagements and convoy interdiction roles where volume of fire takes priority over precision or reconnaissance.</p>
+<p>The J Configuration serves as a milestone in OmniVehicle development, being the first such vehicle to successfully integrate jump jets into its pod configuration. Seven jump jets allow the Scapha to bound over terrain obstacles that would stop conventional hover vehicles, dramatically expanding operational options in urban, broken, or heavily obstructed environments. A Guardian ECM Suite provides electronic denial capability, while three Medium Pulse Lasers in the turret deliver accurate close-range firepower. The J excels in city-fighting and assault roles where terrain masking and unexpected mobility are essential to survival.</p>
 </deployment>
 
 <history>
@@ -155,6 +162,7 @@ Terra
 CHASSIS:Grumman Industries
 ENGINE:Strand
 ARMOR:Grumman
+JUMP_JET:Unknown
 COMMUNICATIONS:TransComm
 TARGETING:Bundesweyth
 </systemManufacturers>
@@ -163,6 +171,7 @@ TARGETING:Bundesweyth
 CHASSIS:Unknown
 ENGINE:265 XXL
 ARMOR:CRR Reflective
+JUMP_JET:Unknown
 COMMUNICATIONS:44
 TARGETING:FlexTrak
 </systemModels>

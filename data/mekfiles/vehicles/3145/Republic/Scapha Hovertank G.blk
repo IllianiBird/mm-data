@@ -25,11 +25,11 @@ Scapha Hovertank
 </Name>
 
 <Model>
-(E)
+G
 </Model>
 
 <mul id:>
-6663
+6665
 </mul id:>
 
 <year>
@@ -45,7 +45,7 @@ IS Level 3
 </type>
 
 <role>
-Striker
+Scout
 </role>
 
 <motion_type>
@@ -89,9 +89,10 @@ BattleArmorHandles - troopers:-1
 </armor>
 
 <Body Equipment>
-ISThumperCannonAmmo:OMNI
-ISThumperCannonAmmo:OMNI
-ISThumperCannonAmmo:OMNI
+ISTargeting Computer:OMNI
+ISC3SlaveUnit:OMNI
+IS Ammo LAC/2:OMNI
+IS Ammo LAC/2:OMNI
 </Body Equipment>
 
 <Front Equipment>
@@ -107,7 +108,8 @@ ISThumperCannonAmmo:OMNI
 </Rear Equipment>
 
 <Turret Equipment>
-ISThumperCannon:OMNI
+Light Auto Cannon/2:OMNI
+Light Auto Cannon/2:OMNI
 </Turret Equipment>
 
 <source>
@@ -136,7 +138,7 @@ RS:3145
 </capabilities>
 
 <deployment>
-<p>The E Configuration transforms the Scapha into a highly mobile indirect fire support platform. A Thumper Artillery Cannon with three tons of ammunition provides area-suppression capability from a vehicle fast enough to reposition after firing before counter-battery fire arrives. The near-complete loss of direct combat capability means the E requires screening elements in most deployments. The configuration excels in fire support missions where speed and survivability after engagement outweigh the need for close-in defense.</p>
+<p>The G Configuration deploys the Scapha as a long-range precision platform integrated into a C3 fire coordination network. Two Light Autocannon 2s guided by a Targeting Computer provide accurate sustained fire at extended range, while a C3 slave unit links the vehicle into a shared targeting network. Two tons of mixed ammunition allow the crew to engage different target types. The C3 slave draws on network targeting data to improve accuracy against targets designated by other units in the network.</p>
 </deployment>
 
 <history>
