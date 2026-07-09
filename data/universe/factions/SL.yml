@@ -29,6 +29,12 @@ capital: Terra
 yearsActive:
   - start: 2571
     end: 2780
+  # Second Star League: First Whitting Conference (November 3058) through the Fourth
+  # Whitting Conference dissolution vote on 28 November 3067. Without this span the SL
+  # entries in the faction diplomacy data (Operation Bulldog, Second Star League alliance)
+  # reference an inactive faction. The Third Star League has its own code (SL3).
+  - start: 3058
+    end: 3067
 # NOTE: TH (Terran Hegemony) is intentionally NOT listed here. TH.fallBackFactions
 # already contains SL, so adding TH here would create a SL <-> TH cycle that crashes
 # RATGenerator.findModelAvailabilityRecord with StackOverflowError. The bidirectional
