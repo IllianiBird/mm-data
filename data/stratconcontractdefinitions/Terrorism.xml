@@ -39,7 +39,9 @@
         <deploymentTimes>6</deploymentTimes>
         <deploymentTimes>7</deploymentTimes>
     </deploymentTimes>
-    <globalScenarioModifiers>BadEquipment.xml</globalScenarioModifiers>
+    <globalScenarioModifiers>
+        <globalScenarioModifier>BadEquipment.xml</globalScenarioModifier>
+    </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveCount>-1</objectiveCount>

@@ -39,7 +39,9 @@
         <deploymentTimes>3</deploymentTimes>
         <deploymentTimes>4</deploymentTimes>
     </deploymentTimes>
-    <globalScenarioModifiers>ReinforcementDelayReductionHostile.xml</globalScenarioModifiers>
+    <globalScenarioModifiers>
+        <globalScenarioModifier>ReinforcementDelayReductionHostile.xml</globalScenarioModifier>
+    </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveCount>-1.0</objectiveCount>

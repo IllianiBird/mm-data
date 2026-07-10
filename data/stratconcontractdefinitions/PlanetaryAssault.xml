@@ -38,7 +38,9 @@
         <deploymentTimes>6</deploymentTimes>
         <deploymentTimes>7</deploymentTimes>
     </deploymentTimes>
-    <globalScenarioModifiers>HostileBVBudgetIncrease.xml</globalScenarioModifiers>
+    <globalScenarioModifiers>
+        <globalScenarioModifier>HostileBVBudgetIncrease.xml</globalScenarioModifier>
+    </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveType>FacilityDestruction</objectiveType>

@@ -39,14 +39,14 @@
         <deploymentTimes>3</deploymentTimes>
         <deploymentTimes>4</deploymentTimes>
     </deploymentTimes>
+    <globalScenarioModifiers>
+        <globalScenarioModifier>OverwhelmingEnemyGroundReinforcements.xml</globalScenarioModifier>
+        <globalScenarioModifier>OverwhelmingEnemyAirReinforcements.xml</globalScenarioModifier>
+    </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveCount>-1</objectiveCount>
             <objectiveType>AnyScenarioVictory</objectiveType>
-            <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>OverwhelmingEnemyGroundReinforcements.xml</objectiveScenarioModifier>
-                <objectiveScenarioModifier>OverwhelmingEnemyAirReinforcements.xml</objectiveScenarioModifier>
-            </objectiveScenarioModifiers>
         </objectiveParameter>
         <objectiveParameter>
             <objectiveCount>-0.5</objectiveCount>

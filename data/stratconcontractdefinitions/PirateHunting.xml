@@ -38,14 +38,14 @@
         <deploymentTimes>5</deploymentTimes>
         <deploymentTimes>6</deploymentTimes>
     </deploymentTimes>
-    <globalScenarioModifiers>PreBattleDamageHostiles.xml</globalScenarioModifiers>
+    <globalScenarioModifiers>
+        <globalScenarioModifier>PreBattleDamageHostiles.xml</globalScenarioModifier>
+        <globalScenarioModifier>BadEquipment.xml</globalScenarioModifier>
+    </globalScenarioModifiers>
     <objectiveParameters>
         <objectiveParameter>
             <objectiveType>FacilityDestruction</objectiveType>
             <objectiveCount>-0.33</objectiveCount>
-            <objectiveScenarioModifiers>
-                <objectiveScenarioModifier>BadEquipment.xml</objectiveScenarioModifier>
-            </objectiveScenarioModifiers>
         </objectiveParameter>
         <objectiveParameter>
             <objectiveType>AlliedFacilityControl</objectiveType>
