@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7bb-7efa-af41-095637914463
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ IS Standard Battle Armor
 <year>
 3140
 </year>
-
-<originalBuildYear>
-3140
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -90,42 +90,14 @@ ISBAMineDispenser:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>Developed by the New Avalon Institute of Science in the early 3050s, the Inner Sphere Standard was the first mass-produced battle armor fielded by the Great Houses. The medium-weight suit was reverse-engineered from captured Clan Elemental technology, giving Inner Sphere commanders their first viable counter to Clan powered infantry. Though inferior to its Clan counterpart in almost every measurable respect, the IS Standard proved reliable, affordable, and easy to manufacture across multiple production lines. Its widespread adoption reshaped Inner Sphere infantry doctrine, and the design served as the foundation for numerous successor suits developed by individual Great Houses and their defense contractors.</p>
-</overview>
 
 <capabilities>
 <p>This Fa Sure variant pairs the Andurien mine dispenser refit with a machine gun for anti-personnel operations. The mine dispenser allows troopers to establish defensive minefields and deny terrain to enemy infantry, while the machine gun provides direct fire support against soft targets. The left-arm battle claw and standard jump jets are retained. Armor protection remains at standard specification. The machine gun and mine dispenser combination makes this configuration particularly effective in defensive and area-denial roles, allowing troopers to prepare killing grounds before engaging advancing infantry. Against armored targets the Fa Sure retains only the battle claw for offensive capability, limiting its effectiveness in anti-BattleMech operations.</p>
 </capabilities>
+
+<overview>
+<p>Developed by the New Avalon Institute of Science in the early 3050s, the Inner Sphere Standard was the first mass-produced battle armor fielded by the Great Houses. The medium-weight suit was reverse-engineered from captured Clan Elemental technology, giving Inner Sphere commanders their first viable counter to Clan powered infantry. Though inferior to its Clan counterpart in almost every measurable respect, the IS Standard proved reliable, affordable, and easy to manufacture across multiple production lines. Its widespread adoption reshaped Inner Sphere infantry doctrine, and the design served as the foundation for numerous successor suits developed by individual Great Houses and their defense contractors.</p>
+</overview>
 
 <deployment>
 <p>Andurien four-trooper squads fielding the machine gun Fa Sure variant specialized in anti-infantry area denial. The combination of minefields and automatic weapons fire made these squads lethal to conventional infantry advancing across open ground, a capability valued by Andurien commanders defending provincial borders during the fractured politics of the Dark Age.</p>
@@ -160,4 +132,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

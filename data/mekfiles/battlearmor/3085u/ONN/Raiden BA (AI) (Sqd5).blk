@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a5b5-7294-b460-3ab028d56e2f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Raiden Battle Armor
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -93,38 +93,14 @@ IS BA Advanced:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3085
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Raiden is a medium-weight battle armor developed by the Draconis Combine as an improvement on the Inner Sphere Standard design. Produced by Luthien Armor Works and New Samarkand Metals, the suit entered full production in 3055 after an intensive development program that began with captured Clan technology. Jump-capable and heavily armored for its weight class, the Raiden carries a modular weapon mount that accepts a range of infantry-scale weapons, along with a battle claw for anti-BattleMech operations and OmniMech transport. The suit became the preferred powered armor of the DCMS, earning a fearsome reputation across decades of service with the Dragon's infantry forces.</p>
-</overview>
 
 <capabilities>
 <p>The anti-infantry configuration replaces the standard modular weapon mount with a fixed loadout optimized for close-quarters urban combat. Both a flamer and machine gun are mounted alongside an upgraded vibro-claw, giving the trooper devastating anti-personnel capability at short range. The vibro-claw's molecular-edge blade tears through conventional body armor and light structures with ease, making this variant particularly feared in building-to-building fighting. Jump jets retain the standard ninety-meter capability, allowing troopers to clear obstacles and gain rooftop positions during urban operations. The suit carries the same polymer-bonded armor as other production Raiden variants, providing heavy protection appropriate for the close engagements this configuration is designed to seek out. The dual-weapon approach sacrifices the flexibility of the modular mount for concentrated lethality against infantry and unarmored targets, making this a specialist configuration rather than a general-purpose loadout.</p>
 </capabilities>
+
+<overview>
+<p>The Raiden is a medium-weight battle armor developed by the Draconis Combine as an improvement on the Inner Sphere Standard design. Produced by Luthien Armor Works and New Samarkand Metals, the suit entered full production in 3055 after an intensive development program that began with captured Clan technology. Jump-capable and heavily armored for its weight class, the Raiden carries a modular weapon mount that accepts a range of infantry-scale weapons, along with a battle claw for anti-BattleMech operations and OmniMech transport. The suit became the preferred powered armor of the DCMS, earning a fearsome reputation across decades of service with the Dragon's infantry forces.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Points of anti-infantry Raidens saw occasional deployment with Clan Nova Cat security formations operating in urban environments. The vibro-claw and dual weapon loadout suited the close-quarters fighting common in policing and pacification operations, where Clan formations needed anti-personnel capability beyond what standard Elemental configurations offered.</p>
@@ -159,4 +135,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

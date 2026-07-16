@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a790-7cda-a257-7c27d8601e44
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Infiltrator Suit
 <year>
 3102
 </year>
-
-<originalBuildYear>
-3102
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -96,38 +96,14 @@ IS BA Stealth (Basic):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:LC
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Infiltrator Suit is a medium battle armor design manufactured by Defiance Industries on Furillo. Introduced in 3102 as a successor to the aging Infiltrator Mk. I, the suit fills the scout and skirmisher role with a highly mobile platform built for precision aerial insertion and modular mission flexibility. Nicknamed the Quokka, it can be configured with five distinct equipment packages for roles ranging from direct combat to sensor deployment and target designation.</p>
-</overview>
 
 <capabilities>
 <p>The TAG configuration replaces the Firedrake needler with a Light TAG system, transforming the Infiltrator into a forward observer platform. The David Light Gauss Rifle remains for self-defense and opportunistic engagements, while the TAG designates targets for friendly artillery and semi-guided munitions. Basic Stealth armor, Parafoil, and 90-meter jump range carry forward.</p><p>This loadout pairs well with combined-arms formations that include artillery or units carrying semi-guided missiles. The Infiltrator's stealth characteristics make it an effective TAG platform, as troopers can approach designation range with reduced risk of detection. The trade-off is the loss of anti-infantry firepower, leaving the trooper dependent on the Light Gauss Rifle as a sole weapon system.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Infiltrator Suit is a medium battle armor design manufactured by Defiance Industries on Furillo. Introduced in 3102 as a successor to the aging Infiltrator Mk. I, the suit fills the scout and skirmisher role with a highly mobile platform built for precision aerial insertion and modular mission flexibility. Nicknamed the Quokka, it can be configured with five distinct equipment packages for roles ranging from direct combat to sensor deployment and target designation.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations configured for target designation gave Com Guard commanders multiple simultaneous designation points across a battlefront. The additional troopers allowed Level I leaders to maintain continuous designation coverage even as individual troopers repositioned or came under fire. This redundancy proved critical during defensive operations where artillery support was the primary means of breaking enemy advances.</p>
@@ -162,4 +138,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:LC
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

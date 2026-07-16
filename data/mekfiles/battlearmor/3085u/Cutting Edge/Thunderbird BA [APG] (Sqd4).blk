@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a533-71e1-9d57-41e63fd1359f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Thunderbird Battle Armor
 <year>
 3086
 </year>
-
-<originalBuildYear>
-3086
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -86,42 +86,14 @@ BAHeavyBattleClawVibro:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3085,TR:3085S
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Thunderbird is a heavy battle armor design developed by Clan Nova Cat to address the Clan's chronic shortage of frontline powered infantry. Produced at the Barcella Battle Armor Facility on Irece, the suit entered service in 3086 as the Nova Cats' first independently manufactured heavy armor. Designed as a practical replacement for the Elemental, the Thunderbird prioritized reliable production over technological ambition. The suit earned a reputation as a capable infantry support platform, combining respectable protection with a flexible modular weapon mount that accepted multiple armament configurations.</p>
-</overview>
 
 <capabilities>
 <p>The suit's modular weapon mount in its right arm accepts an AP Gauss rifle with twenty rounds of ammunition, orienting the design toward an anti-infantry role. A vibro-claw on the left arm allows troopers to latch onto friendly OmniMechs and combat vehicles for battlefield transport. Weighing 1,500 kilograms at maximum load, the Thunderbird carries 250 kilograms of standard armor, providing protection comparable to the Elemental it was designed to replace. A jump booster supplements the suit's ground speed, giving troopers limited aerial mobility for repositioning and terrain traversal. The heavy chassis design makes the Thunderbird less effective in the anti-BattleMech swarming attacks that earned the Elemental its fearsome reputation, but its superior mobility compared to most heavy suits and generous payload capacity partially offset this limitation.</p>
 </capabilities>
+
+<overview>
+<p>The Thunderbird is a heavy battle armor design developed by Clan Nova Cat to address the Clan's chronic shortage of frontline powered infantry. Produced at the Barcella Battle Armor Facility on Irece, the suit entered service in 3086 as the Nova Cats' first independently manufactured heavy armor. Designed as a practical replacement for the Elemental, the Thunderbird prioritized reliable production over technological ambition. The suit earned a reputation as a capable infantry support platform, combining respectable protection with a flexible modular weapon mount that accepted multiple armament configurations.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere military formations that captured or acquired Thunderbird suits organized them into four-trooper squads following standard infantry doctrine. Though the Nova Cats refused direct sales to allied nations, limited numbers of suits found their way into Draconis Combine hands through battlefield salvage and covert acquisition during joint operations along the Nova Cat border.</p>
@@ -156,4 +128,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085,TR:3085S
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

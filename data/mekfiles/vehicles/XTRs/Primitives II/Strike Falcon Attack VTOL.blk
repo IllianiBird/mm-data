@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec30-7a43-8727-98b32f4c02d5
+</UUID>
+
 <UnitType>
 SupportVTOL
 </UnitType>
@@ -35,10 +39,6 @@ Strike Falcon Attack VTOL
 <year>
 2371
 </year>
-
-<originalBuildYear>
-2371
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -127,34 +127,13 @@ Machine Gun
 3
 </engine_tech_rating>
 
-<source>
-XTR:Primitives II
-</source>
-
-<published>
-XTR:Primitives II
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-<fuel>
-1.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Strike Falcon Attack VTOL was developed by Grand Union Battle Works on Tikonov, entering service in 2371 as the Capellan Confederation's answer to the aging OT-22 Bird of Prey rotary-wing platform. Designed to fill a demanding dual role, the Strike Falcon combined heavy infantry transport capacity with substantial fire support capability, making it one of the more versatile VTOL designs of the Age of War. Its introduction was enthusiastically received by Capellan commanders, who found its combination of speed, range, and cargo capacity well suited to the mobile warfare of the era.</p><p>The design's reputation spread quickly beyond Capellan borders, and multiple powers attempted to replicate its performance with varying degrees of success. Despite its eventual obsolescence, the Strike Falcon remained in frontline service for over a century before giving way to lighter, faster, and better-protected successors.</p>
-</overview>
-
 <capabilities>
 <p>The Strike Falcon is a 30-ton medium VTOL built around an internal combustion engine, delivering a cruise speed of approximately 119 km/h and a flank speed of 186 km/h. Its primary offensive systems are a pair of SRM 4 launchers mounted in the nose, providing effective short-range fire against armored targets. Three machine guns, positioned in the chin and on both flanks, offer broad-arc anti-infantry suppression. An Advanced Fire Control system improves crew accuracy, partially compensating for the vehicle's relatively modest armament compared to heavier dedicated gunships.</p><p>The aircraft's most operationally significant feature is its large troop bay, designed to carry one fully equipped heavy infantry platoon, or two light platoons in cramped conditions, through three access doors on the right, left, and rear. The wings serve a secondary aerodynamic function, contributing significant lift in forward flight and extending the operational radius to well over 1,500 kilometers. BAR 7 armor provides adequate protection against small arms and light weapons common to the period, but leaves the vehicle dangerously exposed to any concentrated anti-armor fire. The Easy to Pilot design quirk made the Strike Falcon accessible to a broad pool of trained crews, an important advantage when qualified rotary-wing pilots were in short supply across the Confederation's expanding military.</p>
 </capabilities>
+
+<overview>
+<p>The Strike Falcon Attack VTOL was developed by Grand Union Battle Works on Tikonov, entering service in 2371 as the Capellan Confederation's answer to the aging OT-22 Bird of Prey rotary-wing platform. Designed to fill a demanding dual role, the Strike Falcon combined heavy infantry transport capacity with substantial fire support capability, making it one of the more versatile VTOL designs of the Age of War. Its introduction was enthusiastically received by Capellan commanders, who found its combination of speed, range, and cargo capacity well suited to the mobile warfare of the era.</p><p>The design's reputation spread quickly beyond Capellan borders, and multiple powers attempted to replicate its performance with varying degrees of success. Despite its eventual obsolescence, the Strike Falcon remained in frontline service for over a century before giving way to lighter, faster, and better-protected successors.</p>
+</overview>
 
 <deployment>
 <p>The Strike Falcon served across Capellan Confederation ground forces as an assault transport and fire support asset throughout the Age of War. Commanders typically deployed pairs or flights of three to insert a company-sized infantry element, with the aircraft transitioning to suppression and covering fire after troops cleared the landing zone. The design saw action along multiple contested borders, operating in coordination with ground mechanized units to exploit breakthrough opportunities and secure objectives ahead of slower-moving armor.</p><p>As the design aged into the mid-twenty-fourth century, Strike Falcons increasingly appeared in reserve and militia formations, replaced in frontline roles by more capable platforms. Following the 2510 obsolescence declaration, units transferred to civilian operators retained their transport capacity but were stripped of weapons and combat sensors.</p>
@@ -187,4 +166,24 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Primitives II
+</source>
+
+<published>
+XTR:Primitives II
+</published>
+
+<tonnage>
+30.0
+</tonnage>
+
+<fuel>
+1.0
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af6e-7350-a138-498eb9b3e155
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ MNG-8L
 <year>
 3081
 </year>
-
-<originalBuildYear>
-3081
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -134,26 +134,13 @@ IS Ammo LRM-15
 IS Ammo LRM-15
 </Fuselage Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-95.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>Rashpur-Owens Incorporated, the Capellan aerospace firm best known for its assault DropShip lines, entered the fighter market in the 3070s as a deliberate strategy to diversify revenue and reduce reliance on spacecraft contracts alone. The company had clawed its way back from near-insolvency several times during the Succession Wars, and while strong DropShip sales carried it through the Jihad, leadership recognized the post-war environment as an opportunity to expand into a new product category. Design work proceeded with greater difficulty than anticipated, with engineering delays and failed subcomponent negotiations extending the timeline well beyond initial projections. The Magistracy of Canopus ultimately secured co-production rights, and the design entered service in 3081 as the MNG-8L, named the <i>Měngqín</i>. Despite a troubled development record, the aircraft found a receptive audience in the Capellan Confederation Armed Forces, the Magistracy Air Force, and mercenary commands operating across the former Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The <i>Měngqín</i> is built around a mixed-range weapons array rather than a single dominant engagement envelope. Its nose mounts a pair of Ceres Arms Crusher plasma rifles and a Sian/Ceres Cougar SRM-6 rack, delivering concentrated short-to-medium firepower that can burn through armor and generate dangerous heat in enemy units simultaneously. Each wing carries an additional Sian/Ceres Cougar SRM-6, two Ceres Arms ER medium lasers, and a Delta Dart LRM-15, allowing the fighter to engage effectively at all ranges. Two rear-facing Diverse Optics Type 2 ER medium lasers and a Magna 200p small pulse laser cover the aft arc, discouraging pursuit. The Ceres MaserCom B-33 communications suite and Brightstar Model III targeting and tracking system support coordinated multi-range engagements.</p><p>The design has well-documented limitations. A full alpha strike exceeds the capacity of its seventeen double heat sinks by a meaningful margin, and committing to that level of fire risks a forced reactor shutdown. The plasma rifle, SRM, and LRM ammunition reserves barely meet the minimum standard expected for a fighter of this weight class, and pilots who engage aggressively without managing expenditure will exhaust their ammunition before the engagement concludes. The 14.5 tons of Detroit Ferro-Aluminum Special armor and the standard Pitban 285 fusion engine provide solid protection and adequate endurance within those constraints, and the cost-effective design philosophy that produced these trade-offs also kept the unit price within reach of the CCAF's procurement budget.</p>
 </capabilities>
+
+<overview>
+<p>Rashpur-Owens Incorporated, the Capellan aerospace firm best known for its assault DropShip lines, entered the fighter market in the 3070s as a deliberate strategy to diversify revenue and reduce reliance on spacecraft contracts alone. The company had clawed its way back from near-insolvency several times during the Succession Wars, and while strong DropShip sales carried it through the Jihad, leadership recognized the post-war environment as an opportunity to expand into a new product category. Design work proceeded with greater difficulty than anticipated, with engineering delays and failed subcomponent negotiations extending the timeline well beyond initial projections. The Magistracy of Canopus ultimately secured co-production rights, and the design entered service in 3081 as the MNG-8L, named the <i>Měngqín</i>. Despite a troubled development record, the aircraft found a receptive audience in the Capellan Confederation Armed Forces, the Magistracy Air Force, and mercenary commands operating across the former Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The MNG-8L is the production-standard <i>Měngqín</i> and the design that emerged from Rashpur-Owens Incorporated's development program. Rashpur-Owens holds an exclusive supply contract with the Capellan Confederation Armed Forces, where the fighter has been well received across most CCAF commands. A notable number of the type have been observed along the borders of Confederation Prefectures V and VI, though analysts attribute this concentration to standard defensive deployments rather than any directed buildup.</p><p>In the Periphery, Detroit Consolidated Aerospace distributes the MNG-8L throughout Magistracy space, with initial production runs going to the Canopian Fusiliers and subsequent deliveries sold out through 3087. Detroit also exports the design to the broader Inner Sphere mercenary market via distribution networks operating across the former Capellan Confederation, the Republic of the Sphere, the former Free Worlds League, and Federated Suns territories. No variants have been produced to date.</p>
@@ -188,4 +175,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:MaserCom B-33
 TARGETING:Model III
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+95.0
+</tonnage>
 

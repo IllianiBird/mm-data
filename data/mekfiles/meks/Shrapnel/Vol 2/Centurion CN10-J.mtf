@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-dcf5-7d0a-8cbe-d962217d5249
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Centurion
 model:CN10-J
 mul id:7696
@@ -28,8 +29,8 @@ published:ShrapRS
 rules level:2
 role:Brawler
 
-quirk:imp_target_short
 quirk:non_standard
+quirk:imp_target_short
 
 mass:55
 engine:220 Fusion Engine
@@ -171,7 +172,6 @@ Jump Jet
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The CN10-B Centurion was developed by Corean Enterprises in 3057 as a heavier, more resilient version of the venerable fifty-ton Centurion. Weighing in at fifty-five tons, the design was created alongside heavier variants of the Hollander and JagerMech to field more durable BattleMechs in the fight against the Clans. The CN10 was constructed almost entirely from surplus CN9-D components, with even the endo steel frame being a modified version of its progenitor's chassis, enabling rapid production while keeping costs low.</p><p>Engineers deliberately designed the CN10 to appear virtually identical to the CN9-D, hoping the resulting confusion would provide a tactical advantage against Clan sensors. Lacking the fragile extralight engine of its lighter cousin and mounting over twenty percent more armor, the CN10-B quickly earned the informal designation of "armor variant." Following the Great Refusal and the reduction of the Clan threat, interest in the CN10 waned, though Corean Enterprises continued sporadic production using surplus shared parts.</p>
 
 capabilities:<p>The CN10 is in essence a slower but better-armed and more heavily armored evolution of the CN9-D. The additional five tons of mass are devoted primarily to enhanced survivability, with eleven and a half tons of StarGuard III armor providing substantially greater protection than the standard fifty-ton Centurion. A DAV 220 standard fusion engine maintains the same ground speed as the original CN9-A at sixty-four kilometers per hour, trading the CN9-D's superior mobility for the reliability and durability of a standard power plant.</p><p>The primary armament mirrors the CN9-D's proven loadout, with a Mydron Excel LB 10-X autocannon and Luxor 3R LRM-10 enhanced by an Artemis IV fire control system providing effective firepower at multiple range brackets. A Photech 806c medium laser and a rear-facing Sutel Precision Line medium pulse laser complete the weapons array. The medium pulse laser gives the CN10 improved accuracy against flanking threats compared to the CN9-D's standard rear-mounted laser, representing the primary offensive distinction between the two designs.</p>
@@ -183,6 +183,8 @@ history:<p>The CN10's trial by fire came in May 3059 during Operations Bird Dog 
 manufacturer:Corean Enterprises
 
 primaryfactory:New Avalon
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Corean
 systemmode:CHASSIS:Model KL77-M

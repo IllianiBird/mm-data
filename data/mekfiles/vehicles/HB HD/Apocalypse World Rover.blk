@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8f4-7564-9283-eef7d59681c3
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Apocalypse World Rover
 <year>
 2983
 </year>
-
-<originalBuildYear>
-2983
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -113,34 +113,13 @@ PintleTurret
 3
 </engine_tech_rating>
 
-<source>
-HB:HD
-</source>
-
-<tonnage>
-2.0
-</tonnage>
-
-<baseChassisSponsonPintleWeight>
-0.08
-</baseChassisSponsonPintleWeight>
-
-<fuel>
-0.024
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-12 17:47:56
-<overview>
-<p>The Apocalypse World Rover is GM/Rowell's military-grade adaptation of their popular civilian World Rover line of wheeled off-road vehicles. Introduced in 2983 to meet a longstanding need among militia, paramilitary, and secondary military forces across the Inner Sphere and Periphery, the Apocalypse addresses the widespread practice of pressing civilian vehicles into military service. Rather than accept the limitations of unmodified commercial vehicles (poor cross-country mobility, no weapons hardpoints, and minimal protection) GM/Rowell engineered the Apocalypse from the outset for the demanding conditions faced by motorized and mechanized infantry units. Available to buyers across all political boundaries, it has become one of the most recognizable light utility vehicles in the known universe, serving everything from House military rear-echelon formations to Periphery planetary militias and corporate security details.</p>
-</overview>
-
 <capabilities>
 <p>The Apocalypse is a small wheeled support vehicle massing just two metric tons, powered by an internal combustion engine running on petrochemicals. It achieves a cruise speed of 4 movement points and a flank speed of 6, adequate for keeping pace with infantry formations across varied terrain. An off-road chassis and controls modification gives the vehicle meaningful cross-country capability that its civilian counterparts lack.</p><p>Though the Apocalypse carries no fixed weapons, it is equipped with a pintle mount capable of accommodating heavy support weapons up to 80 kilograms in weight, giving crews the flexibility to arm the vehicle with whatever crew-served weapons are available in the field. Armor protection uses BAR 7 composite construction, providing eight points distributed across the hull; three points to the front, two on each side, and one point protecting the rear. This offers meaningful protection against small arms and light support weapons, though it affords minimal defense against heavier military-grade fire. The vehicle seats a crew of one driver alongside up to six passengers, with a 501-kilogram cargo bay accessible through a single rear door.</p>
 </capabilities>
+
+<overview>
+<p>The Apocalypse World Rover is GM/Rowell's military-grade adaptation of their popular civilian World Rover line of wheeled off-road vehicles. Introduced in 2983 to meet a longstanding need among militia, paramilitary, and secondary military forces across the Inner Sphere and Periphery, the Apocalypse addresses the widespread practice of pressing civilian vehicles into military service. Rather than accept the limitations of unmodified commercial vehicles (poor cross-country mobility, no weapons hardpoints, and minimal protection) GM/Rowell engineered the Apocalypse from the outset for the demanding conditions faced by motorized and mechanized infantry units. Available to buyers across all political boundaries, it has become one of the most recognizable light utility vehicles in the known universe, serving everything from House military rear-echelon formations to Periphery planetary militias and corporate security details.</p>
+</overview>
 
 <deployment>
 <p>The Apocalypse World Rover serves in motorized and mechanized infantry support roles across virtually every military and paramilitary organization in the Inner Sphere and Periphery. House military forces assign it to rear-area logistics, security, and reconnaissance missions, while planetary militias use it as a general-purpose tactical vehicle for infantry units that lack access to more sophisticated military transports. Its pintle mount allows individual units to configure it for specific mission requirements, armed with whatever crew-served heavy support weapons are available locally. The vehicle's simple petrochemical powerplant and low maintenance burden make it well-suited to operations far from major supply depots, and the rear-loading cargo bay accommodates a range of payloads from ammunition resupply to casualty evacuation.</p>
@@ -173,4 +152,24 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+HB:HD
+</source>
+
+<tonnage>
+2.0
+</tonnage>
+
+<baseChassisSponsonPintleWeight>
+0.08
+</baseChassisSponsonPintleWeight>
+
+<fuel>
+0.024
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

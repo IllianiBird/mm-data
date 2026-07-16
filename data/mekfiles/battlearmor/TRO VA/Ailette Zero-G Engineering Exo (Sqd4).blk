@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a84e-72e7-8e5e-7ee4cc6f1f35
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Ailette Zero-G Engineering Exoskeleton
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -82,42 +82,14 @@ BAExtendedLifeSupport:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:VAr
-</source>
-
-<published>
-RS:VA
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-0
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Ailette is an engineering exoskeleton developed by Federated-Boeing Interstellar for zero-gravity construction and maintenance work. Introduced in 3056, the suit was designed to improve the performance and safety of orbital laborers working in the hazardous conditions of open space. Taurus Territorial Industries later produced a licensed version from its facilities in the Taurian Concordat, and subsequently developed a rescue variant upgraded to light power armor specifications. The Ailette family has earned a reputation for reliability and ease of use among both civilian and military operators.</p>
-</overview>
 
 <capabilities>
 <p>The Ailette weighs 400 kilograms and resembles a hardened space suit at first glance. Closer inspection reveals servo-assisted joints at major articulation points, providing the strength necessary for manipulating heavy objects in zero gravity. The right arm mounts a salvage arm for handling large components, while the left carries an armored glove that allows the operator to work with hand tools and perform precision tasks. Attitude control thrusters distributed across the suit both facilitate movement and stabilize the wearer during work operations. A specialized maintenance mode allows the suit to brace automatically, compensating for the operator's movements as though anchored in place.</p><p>Fifty kilograms of standard armor protect against micro-debris and minor collisions. Space operations adaptation gear and extended life support enable prolonged extravehicular activity. Ground speed is limited to 10 km/h, and the suit lacks any jump capability, reflecting its purely industrial role.</p>
 </capabilities>
+
+<overview>
+<p>The Ailette is an engineering exoskeleton developed by Federated-Boeing Interstellar for zero-gravity construction and maintenance work. Introduced in 3056, the suit was designed to improve the performance and safety of orbital laborers working in the hazardous conditions of open space. Taurus Territorial Industries later produced a licensed version from its facilities in the Taurian Concordat, and subsequently developed a rescue variant upgraded to light power armor specifications. The Ailette family has earned a reputation for reliability and ease of use among both civilian and military operators.</p>
+</overview>
 
 <deployment>
 <p>Taurian Concordat and Federated Suns operators organized Ailette crews into standard four-person work teams for orbital construction and maintenance. These squads typically operated from DropShips or space stations, with each member assigned specific roles during extravehicular operations.</p>
@@ -150,4 +122,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<published>
+RS:VA
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+0
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

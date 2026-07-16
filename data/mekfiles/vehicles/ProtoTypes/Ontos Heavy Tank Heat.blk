@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e96a-728c-869b-7771f96eaac0
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ HEAT
 <year>
 3084
 </year>
-
-<originalBuildYear>
-3084
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -107,33 +107,13 @@ Medium Laser
 Enhanced LRM 15
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-95.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 21:44:37
-<overview>
-<p>The Ontos was one of three prototype designs built by Grumman Amalgamated, chosen for full production in 2832 because its primary energy weapon armament never required ammunition resupply during extended engagements. Reportedly inspired by an ancient Terran vehicle of the same name, the tank earned a reputation as a formidable close-range combatant valued for its ability to sustain fire long after ammunition-dependent vehicles had exhausted their stores.</p><p>Produced at Grumman's facility on Shiro III and later by Kallon Weapon Industries on Nanking, the Ontos became a staple of heavy armor formations throughout the Inner Sphere. The Free Worlds League in particular embraced the design, making it a backbone of Marik heavy tank regiments. Despite its slow speed and limited engagement range, the Ontos remains in production centuries after its introduction, a reflection of the enduring value of its design philosophy.</p>
-</overview>
-
 <capabilities>
 <p>Weighing 95 tons, the Ontos moves at a modest 54 km/h on its tracked drivetrain, powered by a HeavyLoad 285 internal combustion engine with PowerBoost augmentation. The tank's core armament consists of eight turret-mounted medium lasers, a configuration that demands extensive support systems. More than three times the weight and space occupied by the lasers themselves is devoted to power amplifiers and heat sinks necessary to prevent the ICE from overheating.</p><p>Early production models suffered from heat buildup that could overwhelm the power amplifiers when all lasers fired simultaneously, a flaw corrected by implementing a sequential firing system. Despite these inefficiencies, the energy weapon loadout grants the Ontos a significant logistical advantage, allowing crews to sustain operations through extended campaigns without resupply. Two LongFire LRM 5 racks mounted above the laser array provide limited long-range fire support, enabling the tank to engage targets from cover during its slow advance into effective laser range. Standard armor provides reasonable protection for its weight class, though the tonnage devoted to the weapon support systems limits the available coverage.</p>
 </capabilities>
+
+<overview>
+<p>The Ontos was one of three prototype designs built by Grumman Amalgamated, chosen for full production in 2832 because its primary energy weapon armament never required ammunition resupply during extended engagements. Reportedly inspired by an ancient Terran vehicle of the same name, the tank earned a reputation as a formidable close-range combatant valued for its ability to sustain fire long after ammunition-dependent vehicles had exhausted their stores.</p><p>Produced at Grumman's facility on Shiro III and later by Kallon Weapon Industries on Nanking, the Ontos became a staple of heavy armor formations throughout the Inner Sphere. The Free Worlds League in particular embraced the design, making it a backbone of Marik heavy tank regiments. Despite its slow speed and limited engagement range, the Ontos remains in production centuries after its introduction, a reflection of the enduring value of its design philosophy.</p>
+</overview>
 
 <deployment>
 <p>The Ontos HEAT is deployed in small numbers wherever local environmental conditions are a primary concern. Notable postings include worlds heavily damaged during the Jihad, such as Hesperus II and Tharkad. Quikscell has restricted most sales to the Lyran Commonwealth, though the Capellan Confederation and Free Worlds League have also acquired limited numbers.</p>
@@ -166,4 +146,16 @@ ARMOR:High Grade Ferro-Fibrous
 COMMUNICATIONS:E.A.R.
 TARGETING:Aggressor
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+95.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5be-77d0-84da-9298f6e23310
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Minion Advanced Tactical Vehicle
 <year>
 3080
 </year>
-
-<originalBuildYear>
-3080
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -103,26 +103,13 @@ ISMagshotGR
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 14:43:03
-<overview>
-<p>The Minion Advanced Tactical Vehicle is a 20-ton hovercraft developed through an unusual joint venture between General Motors of Kathil and Ceres Metals Industries of Tikonov, linking manufacturers from the Federated Suns and Capellan Confederation under the political umbrella of the Federated Commonwealth. Conceived around 3061 as an open-battlefield strike vehicle, its commercial rollout was delayed by uncertainty surrounding the Clan threat. The outbreak of the FedCom Civil War revived demand almost immediately, and the design was adapted to serve a dedicated urban combat role alongside the larger Morningstar City Command Vehicle.</p><p>The Minion's integration with C³ Command/Control/Communications networks defines its battlefield purpose. Built from the outset to serve as a network node rather than a standalone combatant, it fills a niche in combined-arms formations for both Federated Suns and Capellan Confederation forces.</p>
-</overview>
-
 <capabilities>
 <p>The Minion's Nissan 95 fusion powerplant gives it a top speed exceeding 150 kph, placing it among the faster combat vehicles in its weight class. Its five and a half tons of Durallex Light armor provide meaningful protection for a hovercraft, allowing it to absorb punishment while continuing to maneuver. The primary armament of two Defiance P5M Medium Pulse Lasers delivers accurate, sustained fire at close to medium range, with the pulse mechanism compensating for the minor targeting fluctuations inherent to high-speed hover movement.</p><p>On open streets and flat terrain, the Minion's exceptional speed forces opponents to track its movement while its pulse weapons strip armor. In urban environments, however, narrow streets and blocked intersections can severely restrict this tactical flexibility, which is the design's most significant operational limitation.</p><p>The Brightstar 17 Mk. II targeting system was developed specifically for use with pulse lasers and integrates with a C³ slave unit, linking the Minion to a broader Command/Control/Communications network. This connectivity is the vehicle's defining tactical asset. The Minion feeds targeting data to friendly units across the battlefield, functioning as a mobile sensor node that multiplies the effectiveness of the entire formation rather than simply contributing its own firepower.</p>
 </capabilities>
+
+<overview>
+<p>The Minion Advanced Tactical Vehicle is a 20-ton hovercraft developed through an unusual joint venture between General Motors of Kathil and Ceres Metals Industries of Tikonov, linking manufacturers from the Federated Suns and Capellan Confederation under the political umbrella of the Federated Commonwealth. Conceived around 3061 as an open-battlefield strike vehicle, its commercial rollout was delayed by uncertainty surrounding the Clan threat. The outbreak of the FedCom Civil War revived demand almost immediately, and the design was adapted to serve a dedicated urban combat role alongside the larger Morningstar City Command Vehicle.</p><p>The Minion's integration with C³ Command/Control/Communications networks defines its battlefield purpose. Built from the outset to serve as a network node rather than a standalone combatant, it fills a niche in combined-arms formations for both Federated Suns and Capellan Confederation forces.</p>
+</overview>
 
 <deployment>
 <p>The 'Sandblaster' replaces the Minion's pulse lasers with a Gauss rifle, trading close-range volume of fire for standoff range and armor penetration. Produced at the Kathil facility for the Federated Suns, this variant appeals to commanders wanting a fast hover platform capable of engaging heavier targets at distance before they can close to effective range. The designation reflects its ability to strip armor from distant opponents in a series of high-velocity strikes. Production began in the Dark Age era, serving as a reconnaissance and harassment platform in Federated Suns formations.</p>
@@ -155,4 +142,16 @@ ARMOR:Light
 COMMUNICATIONS:J-9
 TARGETING:17 Mk. II
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

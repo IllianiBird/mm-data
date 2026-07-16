@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0bd-724c-900e-a23f702f90c5
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Hydra
 <year>
 3059
 </year>
-
-<originalBuildYear>
-3059
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -122,34 +122,13 @@ CLMicroPulseLaser
 CLStreakSRM3
 </Main Gun Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-6.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Hydra is a six-ton first-generation ProtoMek designed by Clan Smoke Jaguar as a medium assault platform within the original ProtoMek program on Huntress. Occupying the weight class between the versatile five-ton Centaur and the heavier Roc, the Hydra centers its firepower around a Streak SRM-3 launcher backed by a Micro Pulse Laser, giving it significant hitting power at short to medium range. The design lacks jump capability and carries moderate armor, trading mobility for raw combat effectiveness. In the combined-arms ProtoMek doctrine developed by the Jaguars, the Hydra was intended to serve as the primary engagement platform, closing with enemies identified by lighter scouts and delivering concentrated missile and energy fire.</p>
-</overview>
-
 <capabilities>
 <p>The Hydra firepower is concentrated in its torso-mounted Streak SRM-3 launcher, which ensures that missiles only fire when the targeting system achieves a solid lock, eliminating waste from near-misses. The three-missile salvo delivers enough kinetic energy to threaten light BattleMek armor, and a full Point of Hydras firing in concert can strip armor from medium-weight targets with alarming efficiency. The Micro Pulse Laser mounted in the main gun provides accurate close-range backup fire, its pulse-firing mode partially compensating for the inherent targeting limitations of the ProtoMek fire control system.</p><p>The Hydra most significant limitation is its lack of mobility options. With a cruising speed of only forty-three kilometers per hour and no jump jets, the six-ton design cannot disengage from unfavorable encounters or navigate broken terrain with any agility. Twenty-nine points of armor provide reasonable protection for the weight class but cannot withstand concentrated fire from BattleMek-scale weapons for long. Ammunition dependency is also a concern, as the Streak launcher carries only twelve rounds before being reduced to the Micro Pulse Laser alone. Commanders typically deploy Hydra Points in terrain that favors short-range engagement, where the Streak missiles and pulse laser can be brought to bear before faster enemies can exploit the Hydra limited speed.</p>
 </capabilities>
+
+<overview>
+<p>The Hydra is a six-ton first-generation ProtoMek designed by Clan Smoke Jaguar as a medium assault platform within the original ProtoMek program on Huntress. Occupying the weight class between the versatile five-ton Centaur and the heavier Roc, the Hydra centers its firepower around a Streak SRM-3 launcher backed by a Micro Pulse Laser, giving it significant hitting power at short to medium range. The design lacks jump capability and carries moderate armor, trading mobility for raw combat effectiveness. In the combined-arms ProtoMek doctrine developed by the Jaguars, the Hydra was intended to serve as the primary engagement platform, closing with enemies identified by lighter scouts and delivering concentrated missile and energy fire.</p>
+</overview>
 
 <deployment>
 <p>The base Hydra mounts a Streak SRM-3 launcher in the torso alongside a Micro Pulse Laser in the main gun mount, providing a complementary short-range weapon suite. The Streak system carries twelve rounds of ammunition, sufficient for four full salvos before depletion. The thirty-six-rated fusion engine delivers forty-three kilometers per hour cruising speed with no jump capability. Twenty-nine points of armor give the Hydra reasonable survivability for its weight class. First produced at the Abysmal Manufacturing Complex on Huntress, the base Hydra entered production at additional Homeworld facilities after multiple Clans acquired Smoke Jaguar ProtoMek technology following the Clan Annihilation in 3060.</p>
@@ -178,4 +157,16 @@ TARGETING:Unknown
 <systemModels>
 ENGINE:36 Fusion
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+6.0
+</tonnage>
 

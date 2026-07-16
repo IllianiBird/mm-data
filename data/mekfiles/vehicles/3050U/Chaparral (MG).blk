@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e344-7d15-86bc-f00e512d6864
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Chaparral Missile Artillery Tank
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -104,26 +104,13 @@ SRM 4
 Machine Gun
 </Rear Equipment>
 
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Chaparral Missile Artillery Tank entered service in 2611 as the Star League Defense Force's premier mobile artillery platform, built around the Arrow IV surface-to-surface missile system. Designed by Grumman Industries of Terra to meet an SLDF requirement for a fast, survivable artillery unit capable of providing responsive tactical fire support to frontline infantry and light armored formations, the Chaparral pioneered a retractable launcher pod that allowed the vehicle to maintain a low combat profile during movement and elevate its weapons through a full 180-degree arc of fire when engaging targets. As the lighter, more agile partner to the heavier Padilla Heavy Artillery Tank, the Chaparral was designed to operate in combined-arms formations where speed and terrain exploitation could substitute for heavier armor protection. Its long absence from Inner Sphere battlefields following the Succession Wars gave the design near-legendary status before its reintroduction in the thirty-first century.</p>
-</overview>
-
 <capabilities>
 <p>At the heart of the Chaparral is its pair of AIL Arrow IV launchers, mounted in a distinctive retractable pod assembly that elevates for firing and retracts flush with the hull during transit. This configuration allows the fifty-ton vehicle to maintain a low silhouette when on the move, reducing its exposure to direct-fire weapons. Because the Arrow IV has a shorter effective range than competing artillery systems such as the Long Tom, Thumper, and Sniper, the Chaparral must approach its targets more closely than most artillery commanders prefer, making speed and survivability critical to its operational doctrine. The Nissan 200 engine provides a cruising speed of forty-three kilometers per hour and a flank speed of sixty-four, sufficient to outpace most pursuit in terrain that favors a mobile artillery unit.</p><p>Two Sapphire medium lasers are mounted along the primary hull flanks with enough traverse to cover the sides and rear, while a Shrike SRM-6 rack provides additional close-defense capability. The Chaparral's most significant tactical limitation is its lack of cellular ammunition storage equipment, which discourages crews from carrying the Inferno munitions that would otherwise substantially increase anti-infantry effectiveness. In practice, the Chaparral typically carries homing Arrow IV rounds and operates alongside TAG-equipped scouts, enabling precision strikes against designated targets at extended ranges. Doctrine calls for immediate repositioning after each fire mission rather than holding a static firing position, and the design is not intended to absorb direct fire in an engagement.</p>
 </capabilities>
+
+<overview>
+<p>The Chaparral Missile Artillery Tank entered service in 2611 as the Star League Defense Force's premier mobile artillery platform, built around the Arrow IV surface-to-surface missile system. Designed by Grumman Industries of Terra to meet an SLDF requirement for a fast, survivable artillery unit capable of providing responsive tactical fire support to frontline infantry and light armored formations, the Chaparral pioneered a retractable launcher pod that allowed the vehicle to maintain a low combat profile during movement and elevate its weapons through a full 180-degree arc of fire when engaging targets. As the lighter, more agile partner to the heavier Padilla Heavy Artillery Tank, the Chaparral was designed to operate in combined-arms formations where speed and terrain exploitation could substitute for heavier armor protection. Its long absence from Inner Sphere battlefields following the Succession Wars gave the design near-legendary status before its reintroduction in the thirty-first century.</p>
+</overview>
 
 <deployment>
 <p>The (MG) field modification replaces the Shrike SRM-6 rack with an anti-infantry machine gun, primarily encountered in units anticipating sustained infantry opposition in urban or jungle environments. The conversion sacrifices some anti-vehicle close-defense capability for improved performance against unarmored targets in confined spaces. Found primarily in planetary garrison and militia formations rather than front-line assault units, and in mercenary companies operating in insurgency or security roles.</p>
@@ -156,4 +143,16 @@ ARMOR:StarSlab/1
 COMMUNICATIONS:12
 TARGETING:WDS40A
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

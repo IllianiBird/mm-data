@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e34e-75e1-8e26-501f3268d2c7
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Cyrano Gunship
 <year>
 2622
 </year>
-
-<originalBuildYear>
-2622
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -100,26 +100,13 @@ BeagleActiveProbe
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Cyrano Gunship is a thirty-ton VTOL combat vehicle developed by Paulina Weapons of the Taurian Concordat in 2622. Conceived as a light escort gunship to accompany heavier strike aircraft, the Cyrano attracted immediate attention from the Star League Defense Force following its introduction, and the SLDF became the design's primary customer. Combining genuine speed, extended endurance, and a sophisticated targeting suite, the Cyrano represented a capable blend of intelligence-gathering and fire support in a single airframe. While pilots universally criticized its thin armor protection, maintenance crews prized its reliable systems and low servicing requirements. By the Golden Age of the Star League, virtually every army and division maintained at least three squadrons, cementing the Cyrano's position as a standard escort and patrol platform. Production disruptions in the third millennium interrupted the line for generations before a factory rebuilding in 3071 restored the design to active availability.</p>
-</overview>
-
 <capabilities>
 <p>The Cyrano's DAV 220 fusion engine drives the thirty-ton airframe to a cruising speed of 130 kph and a flank speed near 200 kph, placing it among the fastest vehicles in its weight class. This velocity supports rapid repositioning, extended patrol endurance, and disengagement from threats that outgun it. Primary armament is a nose-mounted Fuersturm-C large laser fired by either pilot or navigator/cargo master, a configuration that provides fire capability even in the event of crew casualties.</p><p>The Sky Tracer WL targeting and tracking system, integrated with a Beagle Active Probe, gives the Cyrano substantial battlefield intelligence value beyond its direct combat contribution. The probe retains up to thirty minutes of footage for replay, enabling fire information officers to conduct detailed post-engagement analysis. Garret M250 communications equipment supports squadron coordination and ground force liaison.</p><p>Paulina DL ferro-fibrous armor provides protection somewhat better than standard plate for equivalent weight, but the total coverage remains thin for a vehicle regularly committed to escort and combat patrol missions. Pilots routinely cite the armor as the Cyrano's most significant tactical weakness, and experienced crews have learned to use the design's exceptional speed to compensate, avoiding situations where sustained fire can accumulate. Long fuel endurance and self-conforming pilot seats reduce crew fatigue on extended operations.</p>
 </capabilities>
+
+<overview>
+<p>The Cyrano Gunship is a thirty-ton VTOL combat vehicle developed by Paulina Weapons of the Taurian Concordat in 2622. Conceived as a light escort gunship to accompany heavier strike aircraft, the Cyrano attracted immediate attention from the Star League Defense Force following its introduction, and the SLDF became the design's primary customer. Combining genuine speed, extended endurance, and a sophisticated targeting suite, the Cyrano represented a capable blend of intelligence-gathering and fire support in a single airframe. While pilots universally criticized its thin armor protection, maintenance crews prized its reliable systems and low servicing requirements. By the Golden Age of the Star League, virtually every army and division maintained at least three squadrons, cementing the Cyrano's position as a standard escort and patrol platform. Production disruptions in the third millennium interrupted the line for generations before a factory rebuilding in 3071 restored the design to active availability.</p>
+</overview>
 
 <deployment>
 <p>During the Golden Age of the Star League, the Cyrano was a near-universal presence in SLDF escort and patrol formations, with most armies and divisions maintaining three or more full squadrons. Low maintenance requirements made it popular with logistics planners, while the Beagle Active Probe's footage replay capability drove demand for the design as a training and intelligence platform. Pilots accepted the thin armor as a professional inconvenience, relying on speed to minimize exposure rather than seeking sustained engagements.</p><p>Following the 3071 factory rebuilding, the Taurian Concordat's conventional infantry and armored divisions have become the Cyrano's primary operators, with the Protectorate Militia using it heavily as an escort and transport support vehicle. Persistent demand for the design exceeds available production, and units are rarely present in the numbers commanders prefer. The ML and Plasma variants address specific operational requirements, with the ML model serving open-market customers and the Plasma variant equipping TDF strike force escort elements.</p>
@@ -154,4 +141,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Garret M250
 TARGETING:Sky Tracer WL
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

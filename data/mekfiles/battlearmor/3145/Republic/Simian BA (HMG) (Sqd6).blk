@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a757-7640-b38d-bc43564e4ed8
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Simian Battle Armor
 <year>
 3135
 </year>
-
-<originalBuildYear>
-3135
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -96,38 +96,14 @@ BASearchlight:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:RotS
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Simian is a medium-class Inner Sphere battle armor designed for mass production and easy maintenance. Conceived under a Republic of the Sphere program to reduce the rising cost of powered infantry, the suit prioritizes affordability and field serviceability over technological sophistication. Rhodes Foundry of Devil's Rock brought the design into production in 3135, creating a general-purpose combat suit built entirely from standard Inner Sphere components. Jump-capable and equipped with magnetic claws for anti-vehicle operations, the Simian fills a skirmisher role, relying on speed and agility rather than heavy armor to protect its operators. A modular weapon mount allows field-level customization of the primary armament.</p>
-</overview>
 
 <capabilities>
 <p>Mounting a Heavy Machine Gun on the modular weapon mount, this configuration delivers high-volume ballistic fire capable of shredding infantry and light vehicles. The heavy machine gun's rate of fire makes it effective for suppression and area engagement, though ammunition consumption requires careful logistical planning. Magnetic claws on both arms retain the suit's melee and swarming capability, and a searchlight provides illumination for low-visibility operations.</p><p>The Simian's one-thousand-kilogram mass and 350 kilograms of standard armor place it squarely in the medium battle armor class. Protection is sufficient against antipersonnel weapons but inadequate against concentrated fire from heavier platforms. The suit's mobility advantage, with above-average ground speed and a 90-meter jump range, allows troopers to select engagements and reposition before enemy forces can bring heavy weapons to bear. The machine gun configuration excels in sustained firefights, where its volume of fire compensates for the Simian's relatively light armor protection.</p>
 </capabilities>
+
+<overview>
+<p>The Simian is a medium-class Inner Sphere battle armor designed for mass production and easy maintenance. Conceived under a Republic of the Sphere program to reduce the rising cost of powered infantry, the suit prioritizes affordability and field serviceability over technological sophistication. Rhodes Foundry of Devil's Rock brought the design into production in 3135, creating a general-purpose combat suit built entirely from standard Inner Sphere components. Jump-capable and equipped with magnetic claws for anti-vehicle operations, the Simian fills a skirmisher role, relying on speed and agility rather than heavy armor to protect its operators. A modular weapon mount allows field-level customization of the primary armament.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper units armed with Heavy Machine Guns provided the highest sustained firepower of any Simian formation. The concentrated automatic fire from a full Level I element proved devastating against massed infantry and soft-skinned vehicles. These formations served as dedicated fire support elements, anchoring defensive positions or providing base-of-fire for maneuver units.</p>
@@ -162,4 +138,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:RotS
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

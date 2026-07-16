@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-add1-74b3-a725-4266cc9b6c71
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SPD-503
 <year>
 2760
 </year>
-
-<originalBuildYear>
-2760
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -116,34 +116,13 @@ ISMediumPulseLaser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>New Age Systems introduced the Spad in 2749 as a proof-of-concept light aerospace fighter for the Star League Defense Force. The firm, already known for its popular Gotha-class fighter, designed the Spad around the principles of standardized repair, simplified maintenance, and rapid field modification. The SLDF Admiralty was sufficiently impressed to order full-scale production of the SPD-502, though a bureaucratic mix-up resulted in the combat-ready version entering service rather than the expected technology demonstrator. The Spad quickly earned a reputation as one of the finest light fighters in the Star League arsenal, with over two thousand produced before the Amaris Civil War. Its semi-modular interior layout, which allowed components to be swapped regardless of manufacturer, foreshadowed the OmniFighter concept that Clan Snow Raven would later develop using the Spad as its direct ancestor.</p>
-</overview>
-
 <capabilities>
 <p>The Spad was built around easy maintenance rather than raw firepower. Its F-50/C frame and GM 150 fusion engine were arranged so that every internal component could be accessed, repaired, or replaced with minimal downtime. The engine itself could be swapped in roughly six hours, nearly half the average for comparable fighters. Thick Carbondale III armor plates provided impressive protection for a light chassis, with woven construction offering improved ablation against laser fire.</p><p>The SPD-502 carried an all-energy weapons loadout to minimize supply dependence. A nose-mounted StarCutter PPC served as the primary armament, capable of punching through most light fighters' armor in a few volleys. An Allied Technologies Model 2 medium laser and Model 1 small laser rounded out the secondary weapons. All armament was mounted inside the hull behind retractable covers, protecting the weapons during atmospheric reentry and allowing the Spad to disguise its full capabilities. The fighter's wing geometry also incorporated a signature-manipulation feature that projected false radar echoes, making it appear as a larger or different class of aerospace fighter to enemy tracking systems.</p>
 </capabilities>
+
+<overview>
+<p>New Age Systems introduced the Spad in 2749 as a proof-of-concept light aerospace fighter for the Star League Defense Force. The firm, already known for its popular Gotha-class fighter, designed the Spad around the principles of standardized repair, simplified maintenance, and rapid field modification. The SLDF Admiralty was sufficiently impressed to order full-scale production of the SPD-502, though a bureaucratic mix-up resulted in the combat-ready version entering service rather than the expected technology demonstrator. The Spad quickly earned a reputation as one of the finest light fighters in the Star League arsenal, with over two thousand produced before the Amaris Civil War. Its semi-modular interior layout, which allowed components to be swapped regardless of manufacturer, foreshadowed the OmniFighter concept that Clan Snow Raven would later develop using the Spad as its direct ancestor.</p>
+</overview>
 
 <deployment>
 <p>The SPD-503 was the Royal-standard upgrade of the original Spad, replacing single heat sinks with doubles and standard armor with ferro-aluminum. The PPC gave way to a large pulse laser and the secondary weapons were consolidated into a single medium pulse laser. Royal Regiment wings utilized the 503 extensively for escort missions before the Exodus claimed most surviving examples.</p>
@@ -178,4 +157,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:400-D
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b05e-795a-9f86-2ec485393e5a
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ S-2
 <year>
 2330
 </year>
-
-<originalBuildYear>
-2330
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -119,26 +119,13 @@ Machine Gun
 IS Ammo MG - Full
 </Fuselage Equipment>
 
-<source>
-XTR:RetroTech
-</source>
-
-<published>
-XTR:RetroTech
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Star Dagger began its service life as a Terran Hegemony design in the early twenty-fourth century, when the Star League Defense Force sold the fighter to the Draconis Combine as part of a general fleet upgrade. Inexpensive to produce and maintain, the compact light fighter served the DCMS as its primary aerospace asset for generations, fielding in large numbers to compensate for what it lacked in individual capability. When the Sabre entered service the Star Dagger's role as a frontline design began its slow erosion, and the subsequent arrival of the Sholagar in the twenty-ninth century effectively ended its operational life across the Inner Sphere.</p><p>The design might have faded entirely from active service had the Jihad not created desperate demand for any craft capable of flying. The Protectorate Defense Conglomerate, formerly the Concordat Defense Conglomerate, recognized the opportunity and revived production from its facility on Diik in 3077, selling the ancient type broadly without obtaining a license from the Draconis Combine.</p>
-</overview>
-
 <capabilities>
 <p>The Star Dagger is an unremarkable light fighter by any modern standard, a consequence of its primitive construction and limited original design intent. It is slow for its weight class, relying on a bulky primitive engine that consumes significant mass and constrains performance well below contemporary equivalents. Its primitive cockpit reduces situational awareness in contested engagements, and the primitive armor protection offers only marginal survivability against modern opponents.</p><p>The armament configuration consists of a single medium laser and small laser for energy-based firepower, supplemented by three machine guns best suited to engaging infantry and unarmored targets. The lasers will threaten only the most lightly protected modern fighters, while the machine guns require close engagement to achieve meaningful results. Heat management is not a concern given the modest loadout and large number of heat sinks relative to the weapons carried.</p><p>The Star Dagger does carry a especially generous fuel reserve relative to many designs of comparable tonnage, giving it considerable endurance on extended patrol missions. In its intended role as a system picket and perimeter screening craft it performs adequately, discouraging light raiders and extending a formation's detection reach. Pilots quickly learn to commit the design to patrol and escort duties and avoid direct confrontation with any modern aerospace opposition.</p>
 </capabilities>
+
+<overview>
+<p>The Star Dagger began its service life as a Terran Hegemony design in the early twenty-fourth century, when the Star League Defense Force sold the fighter to the Draconis Combine as part of a general fleet upgrade. Inexpensive to produce and maintain, the compact light fighter served the DCMS as its primary aerospace asset for generations, fielding in large numbers to compensate for what it lacked in individual capability. When the Sabre entered service the Star Dagger's role as a frontline design began its slow erosion, and the subsequent arrival of the Sholagar in the twenty-ninth century effectively ended its operational life across the Inner Sphere.</p><p>The design might have faded entirely from active service had the Jihad not created desperate demand for any craft capable of flying. The Protectorate Defense Conglomerate, formerly the Concordat Defense Conglomerate, recognized the opportunity and revived production from its facility on Diik in 3077, selling the ancient type broadly without obtaining a license from the Draconis Combine.</p>
+</overview>
 
 <deployment>
 <p>The S-2 serves as a patrol and system defense asset for operators that lack access to modern aerospace equipment. The Protectorate Defense Conglomerate sold the fighter broadly during and after the Jihad, directing roughly half of production to Calderon Protectorate forces while placing the remainder on the open market. Periphery states and smaller polities that received units through these open-market channels typically assign the S-2 to garrison squadrons alongside more capable designs, relying on its endurance and low operating costs rather than its combat punch. Pilots assigned to the S-2 learn quickly to confine operations to patrol routes, perimeter screening, and escort of slow-moving assets in non-contested space, avoiding direct engagement with any modern aerospace opposition.</p>
@@ -171,4 +158,16 @@ ARMOR:Primitive
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RetroTech
+</source>
+
+<published>
+XTR:RetroTech
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

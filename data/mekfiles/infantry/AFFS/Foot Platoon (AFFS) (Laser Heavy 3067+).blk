@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b6eb-767c-b96e-2b7b9e07e4b2
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Foot Platoon (AFFS)
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Fed Suns Infantry Kit (3067+)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Armed Forces of the Federated Suns integrate conventional infantry directly into their Regimental Combat Teams, assigning foot, mechanized, and jump platoons to work permanently alongside BattleMech and armored formations. Foot infantry remain the backbone of AFFS planetary garrisons, cheap enough to deploy in numbers across the Federated Suns' vast territory and reliable enough to hold ground that BattleMech forces cannot permanently occupy. Equipped with a mix of standard and heavy laser rifles, these platoons deliver concentrated energy fire at ranges that outmatch most ballistic infantry, with the heavier weapons providing additional penetration against hardened targets.</p>
+</overview>
 
 <notes>
 Intro date based on production date of AFFS 3067+ advanced infantry kit
@@ -84,9 +86,4 @@ InfantryFederatedBarrettM61A
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Armed Forces of the Federated Suns integrate conventional infantry directly into their Regimental Combat Teams, assigning foot, mechanized, and jump platoons to work permanently alongside BattleMech and armored formations. Foot infantry remain the backbone of AFFS planetary garrisons, cheap enough to deploy in numbers across the Federated Suns' vast territory and reliable enough to hold ground that BattleMech forces cannot permanently occupy. Equipped with a mix of standard and heavy laser rifles, these platoons deliver concentrated energy fire at ranges that outmatch most ballistic infantry, with the heavier weapons providing additional penetration against hardened targets.</p>
-</overview>
 

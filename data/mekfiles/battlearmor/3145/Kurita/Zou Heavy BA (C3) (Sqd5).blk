@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a645-7254-8ca0-05a6c5ba0548
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Zou Heavy Battle Armor
 <year>
 3113
 </year>
-
-<originalBuildYear>
-3113
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -100,38 +100,14 @@ IS BA Laser Reflective (Reflec/Glazed):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:DC
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 20:20:42
-<overview>
-<p>The Zou is a heavy battle armor suit developed by Ishikawajima-Harima Battle Armor Industries for the Draconis Combine Mustered Soldiery. Named for the Japanese word for elephant, the 1,500-kilogram design entered service in 3113 as part of the Combine's third generation of battle armor. Built to fulfill a command-and-control role while providing heavy infantry capability, the Zou earned a reputation for toughness among DCMS infantry formations. The design is fielded in both a direct-combat configuration and a variant equipped with battlefield coordination electronics.</p>
-</overview>
 
 <capabilities>
 <p>The C3 variant replaces the medium laser with a battle armor C3 system, a medium recoilless rifle with twenty rounds of ammunition, and a battle claw on the left arm. This loadout shifts the suit from direct combatant to a command-and-control platform capable of coordinating fire across linked units. The recoilless rifle provides adequate self-defense, while the battle claw enables close combat and field manipulation tasks.</p><p>The C3 integration provides commanders with a heavier ground unit for combined-arms operations, allowing troopers to direct artillery strikes, call in long-range fire, and coordinate maneuvers from hardened observation posts. When dug into a defensive position, the C3 Zou is exceptionally difficult to dislodge, as any attempt to close exposes attackers to precisely coordinated supporting fire from networked assets.</p>
 </capabilities>
+
+<overview>
+<p>The Zou is a heavy battle armor suit developed by Ishikawajima-Harima Battle Armor Industries for the Draconis Combine Mustered Soldiery. Named for the Japanese word for elephant, the 1,500-kilogram design entered service in 3113 as part of the Combine's third generation of battle armor. Built to fulfill a command-and-control role while providing heavy infantry capability, the Zou earned a reputation for toughness among DCMS infantry formations. The design is fielded in both a direct-combat configuration and a variant equipped with battlefield coordination electronics.</p>
+</overview>
 
 <deployment>
 <p>Organizations fielding five-trooper formations could leverage the C3 Zou's coordination capabilities across a larger tactical element. The additional trooper allowed the formation to maintain C3 network coverage even after taking casualties, preserving the squad's command-and-control function under fire. The heavier formation proved well-suited to defensive operations where maintaining network integrity outweighed individual mobility.</p>
@@ -164,4 +140,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:DC
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

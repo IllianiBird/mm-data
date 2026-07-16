@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a6db-71bb-9fa1-85d42cf18501
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kobold Battle Armor IIC
 <year>
 3094
 </year>
-
-<originalBuildYear>
-3094
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -99,42 +99,14 @@ InfantryAssaultRifle:APM
 <slotless_equipment>
 BAVTOL
 </slotless_equipment>
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-6
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kobold IIC is a Clan-tech redesign of the original Kobold battle armor, produced by Grumium Creations for the Rasalhague Dominion. Entering service in the early 3090s, the IIC was developed to extend the Kobold platform’s operational relevance with a fundamentally different mission profile. Reconfigured as a dedicated aerial reconnaissance platform, the IIC replaced the original’s ground-combat orientation with flight capability, enhanced stealth, and hostile-environment protection, filling a scouting niche that the Dominion’s heavier Clan battle armor could not.</p>
-</overview>
 
 <capabilities>
 <p>The Kobold IIC abandons the original design’s ground-combat orientation in favor of aerial reconnaissance. A VTOL movement system replaces the jump jets of the base Kobold, granting sustained flight capability that dramatically expands the suit’s operational reach as a forward observer. Improved stealth armor and an integrated ECM suite make the IIC significantly harder to detect and track than its predecessor. A light TAG designator serves as the primary mission equipment, allowing troopers to paint targets for artillery and guided munitions from concealed positions. A light machine gun provides limited self-defense capability against soft targets, while HarJel systems give the suit resilience in hostile environments including vacuum and underwater operations. The trade-off is clear: the IIC carries minimal offensive armament and relies on stealth and speed rather than firepower to survive on the battlefield.</p>
 </capabilities>
+
+<overview>
+<p>The Kobold IIC is a Clan-tech redesign of the original Kobold battle armor, produced by Grumium Creations for the Rasalhague Dominion. Entering service in the early 3090s, the IIC was developed to extend the Kobold platform’s operational relevance with a fundamentally different mission profile. Reconfigured as a dedicated aerial reconnaissance platform, the IIC replaced the original’s ground-combat orientation with flight capability, enhanced stealth, and hostile-environment protection, filling a scouting niche that the Dominion’s heavier Clan battle armor could not.</p>
+</overview>
 
 <deployment>
 <p>Kobold IIC suits organized into six-trooper formations appeared in Dominion garrison units that retained ComStar-derived organizational structures. These larger teams leveraged the suit’s VTOL mobility and ECM suite for extended area surveillance missions, maintaining persistent overwatch of critical installations and supply corridors where the additional troopers provided valuable redundancy for long-duration operations.</p>
@@ -167,4 +139,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<published>
+RS:3145-NTNU
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+6
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec1f-7629-b7f5-095c9748cfbb
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Armored Personnel Carrier
 <year>
 2390
 </year>
-
-<originalBuildYear>
-2390
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -118,34 +118,13 @@ Machine Gun
 3
 </engine_tech_rating>
 
-<source>
-XTR:Primitives I
-</source>
-
-<published>
-XTR:Primitives I
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-<fuel>
-0.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
-</overview>
-
 <capabilities>
 <p>The primitive tracked APC dates to approximately 2390, representing one of the earliest purpose-built military personnel carriers. Using civilian drive train components and a petrochemical-powered internal combustion engine, this ten-ton vehicle carries one ton of infantry -- a single squad -- at a maximum speed of only approximately fifty-four kilometers per hour. Two turret-mounted machine guns provide basic self-defense.</p><p>Constructed with barrier armor rating six protection -- twenty-four points of armor coverage -- the primitive tracked APC offers better protection than the hover primitive but at a significant cost in mobility. The extremely low speed leaves the vehicle vulnerable during approach and withdrawal phases, and the reliance on petrochemical fuel limits operational endurance. Despite these limitations, the tracked primitive remained in service with the most resource-constrained forces for centuries, its simplicity and ease of manufacture ensuring continued production long after superior designs became available.</p>
 </capabilities>
+
+<overview>
+<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
+</overview>
 
 <deployment>
 <p>The primitive tracked APC persists in service with militia and paramilitary forces on worlds where more advanced vehicles are unavailable or too expensive to maintain. The Draconis Combine and Free Worlds League both maintain tracked cargo variants derived from the primitive chassis for rear-area logistics. The design's extremely low speed limits its tactical utility, but its simplicity and reliability ensure continued production on the most resource-constrained worlds.</p>
@@ -176,4 +155,24 @@ ARMOR:BAR
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Primitives I
+</source>
+
+<published>
+XTR:Primitives I
+</published>
+
+<tonnage>
+10.0
+</tonnage>
+
+<fuel>
+0.5
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

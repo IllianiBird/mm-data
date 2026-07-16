@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b860-71dc-975f-6dfb0149eed7
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Foot Platoon (CCAF)
 <year>
 2367
 </year>
-
-<originalBuildYear>
-2367
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Generic Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. CCAF foot platoons anchor the Confederation's garrison network, holding worlds that BattleMech forces cannot permanently occupy. Slow and vulnerable in open terrain, they depend on prepared positions and local knowledge to offset their lack of mobility. Mortar sections provide the platoon with organic indirect fire capability, lobbing explosive rounds over obstacles and into defilade positions that direct-fire weapons cannot reach.</p>
+</overview>
 
 <notes>
 Intro date based on start date of Capellan Confederation faction
@@ -80,9 +82,4 @@ InfantryAssaultRifle
 <Secondary>
 InfantryLightMortar
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. CCAF foot platoons anchor the Confederation's garrison network, holding worlds that BattleMech forces cannot permanently occupy. Slow and vulnerable in open terrain, they depend on prepared positions and local knowledge to offset their lack of mobility. Mortar sections provide the platoon with organic indirect fire capability, lobbing explosive rounds over obstacles and into defilade positions that direct-fire weapons cannot reach.</p>
-</overview>
 

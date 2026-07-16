@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7e9-7ab9-8cab-b6b5068e56e4
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Nisos Attack WIGE
 <year>
 3123
 </year>
-
-<originalBuildYear>
-3123
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -113,26 +113,13 @@ ISERMediumLaser
 Extended LRM 10
 </Turret Equipment>
 
-<source>
-TR:3145:CC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 16:54:08
-<overview>
-<p>The Nisos Attack WiGE is a 35-ton wing-in-ground-effect combat vehicle introduced in 3122 by the Quikscell Company at their factory on Ares. Named for a figure from classical Terran mythology who helped place Aegeus on the throne of Athens, the vehicle was designed to fill the gap between traditional scout units and heavier dragoon formations. Quikscell deliberately targeted the advanced reconnaissance market, building the Nisos to outperform comparable units in the interdictor role. The vehicle quickly became a favorite among Capellan Confederation Armed Forces scout and cavalry battalions, where its combination of speed, firepower, and crew comfort gave it a reputation for reliability unusual among Quikscell products.</p>
-</overview>
-
 <capabilities>
 <p>The Nisos is powered by a Nissan 200 XL fusion engine, giving it an impressive top speed of over 150 kilometers per hour. Six tons of Hellespont Heavy Ferro-Fibrous armor provide excellent protection for a vehicle in its weight class, allowing it to survive engagements that would destroy lighter reconnaissance craft. The primary armament consists of a turret-mounted Ceres Arms Crusher plasma rifle supported by a Harpoon-6 SRM launcher, providing both direct-fire suppression and close-range striking power. Two tons of plasma rifle ammunition and one ton of missile reloads sustain the vehicle through extended engagements, though the reliance on ammunition limits operational endurance without resupply.</p><p>Quikscell invested considerable effort in crew accommodations. Both the driver and gunner benefit from comprehensive controls built to ultramodern ergonomic standards, while the commander's station is unusually spacious and comfortable. All three crew stations feature personal storage compartments and adjustable five-point restraints, reducing fatigue during long sorties. The weapon bays use modular construction, allowing field technicians to reconfigure armament loadouts with minimal downtime and support requirements, much like an OmniVehicle but at a fraction of the cost. Despite these advantages, the Nisos remains a light vehicle, and sustained fire from heavier opponents can quickly overwhelm its defenses.</p>
 </capabilities>
+
+<overview>
+<p>The Nisos Attack WiGE is a 35-ton wing-in-ground-effect combat vehicle introduced in 3122 by the Quikscell Company at their factory on Ares. Named for a figure from classical Terran mythology who helped place Aegeus on the throne of Athens, the vehicle was designed to fill the gap between traditional scout units and heavier dragoon formations. Quikscell deliberately targeted the advanced reconnaissance market, building the Nisos to outperform comparable units in the interdictor role. The vehicle quickly became a favorite among Capellan Confederation Armed Forces scout and cavalry battalions, where its combination of speed, firepower, and crew comfort gave it a reputation for reliability unusual among Quikscell products.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3123, the Support variant replaces the standard Nisos armament with a pair of ER medium lasers and a single Extended LRM 10 with eighteen rounds of ammunition. This configuration shifts the vehicle from a close-range interdictor to a fire-support platform capable of engaging targets at extended ranges. The ER medium lasers provide energy-based firepower that eliminates ammunition dependency for the primary weapons, while the Extended LRM gives the Support variant the ability to contribute indirect fire from well behind the front line. The trade-off is a significant reduction in short-range combat effectiveness, making the Support variant more reliant on other units for close defense.</p>
@@ -165,4 +152,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Type 6G Maser
 TARGETING:Mark IV
 </systemModels>
+
+<source>
+TR:3145:CC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

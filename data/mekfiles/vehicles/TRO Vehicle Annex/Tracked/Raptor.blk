@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb19-70e7-944f-06e94c2fb2b5
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Raptor RRV
 <year>
 3059
 </year>
-
-<originalBuildYear>
-3059
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -116,26 +116,13 @@ ISERSmallLaser
 4
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-15.0
-</tonnage>
-
-<fuel>
-0.5
-</fuel>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Raptor RRV is a 15-ton tracked support vehicle developed for the Free Worlds League as a modern, cost-effective alternative for infantry transport and light patrol duties. Introduced in 3059, the vehicle was built around civilian-grade components to minimize procurement and maintenance costs while meeting the operational needs of League auxiliary forces. Lighter and faster than comparable designs fielded by other states, the Raptor has earned a reputation for dependability and useful operational range, making it a practical choice for the planetary militia and garrison formations that form the backbone of the League's distributed defense posture.</p>
-</overview>
-
 <capabilities>
 <p>The Raptor RRV is built around a fuel cell electric engine that propels the vehicle to a top speed of 64 kilometers per hour with an operational range of 833 kilometers, surpassing most comparable vehicles in both speed and endurance. Its civilian-grade components keep manufacturing costs accessible and support widespread maintenance in the field without specialized tooling or rare materials. The vehicle carries 1.5 tons of BAR 8-rated armor, providing reasonable protection against small arms and light weapons, though less total coverage than the heavier Cellco Ranger it conceptually succeeds.</p><p>The primary weapon is a turret-mounted extended-range small laser fitted with a basic fire control system, providing accurate defensive fire at ranges exceeding typical machine gun capability. The energy weapon eliminates ammunition supply concerns for units operating on extended patrol, a useful logistical advantage in the field. The Raptor's principal operational value lies in its 3-ton infantry compartment, carrying a full squad with personal gear and heavy weapons, with personnel exiting through a single rear door. This combination of speed, range, and troop capacity makes the vehicle an effective auxiliary for infantry formations across a wide range of terrain and operational environments.</p>
 </capabilities>
+
+<overview>
+<p>The Raptor RRV is a 15-ton tracked support vehicle developed for the Free Worlds League as a modern, cost-effective alternative for infantry transport and light patrol duties. Introduced in 3059, the vehicle was built around civilian-grade components to minimize procurement and maintenance costs while meeting the operational needs of League auxiliary forces. Lighter and faster than comparable designs fielded by other states, the Raptor has earned a reputation for dependability and useful operational range, making it a practical choice for the planetary militia and garrison formations that form the backbone of the League's distributed defense posture.</p>
+</overview>
 
 <deployment>
 <p>The Raptor RRV serves Free Worlds League auxiliary and militia formations in convoy escort, infantry transport, and light patrol roles. Its fuel cell engine and extended range make it particularly suited to operations away from established supply lines. The 3-ton troop bay carries a full squad with heavy weapons and field gear, allowing the vehicle to serve as a self-contained light infantry platform in situations where dedicated combat vehicles are unavailable. The turret-mounted extended-range laser provides limited but accurate defensive fire without ammunition supply concerns, a practical advantage for units at the end of long logistical chains.</p>
@@ -170,4 +157,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+15.0
+</tonnage>
+
+<fuel>
+0.5
+</fuel>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a32f-743b-b8ba-437a6b17aa52
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Salamander Battle Armor
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -94,44 +94,15 @@ Clan BA Fire Resistant:LA
 
 <slotless_equipment>
 BAJumpJet
-BA-SRM1 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Salamander is a Clan medium battle armor suit developed by Kindraa Faraday-Tanaga of Clan Fire Mandrill. Entering production in 3058, the design revived and modernized an earlier specialist suit that had been phased out in favor of the Elemental. The Salamander's emphasis on fire-based weaponry honors its creators' totem animal and gives the suit a fearsome reputation in close-quarters combat. Jump-capable and equipped with specialized climbing claws, the Salamander excels at anti-BattleMech swarming attacks despite carrying relatively light armor for its weight class. The suit has been widely adopted across Clan militaries, with several Clans producing their own tailored configurations.</p>
-</overview>
 
 <capabilities>
 <p>The anti-infantry configuration replaces both flamers with heavy machine guns, shifting the suit's role toward raw anti-personnel lethality at the cost of its thermal threat profile. The heavy machine guns deliver punishing sustained fire against unarmored and lightly armored targets, cutting through conventional infantry formations with brutal efficiency. Against BattleMechs, the configuration loses the heat-spiking capability that makes the standard Salamander feared, though the shoulder-mounted Inferno SRM launcher still provides a single thermal punch during swarming attacks. Battle claws, magnetic foot claws, jump jets, and fire-resistant armor carry over unchanged. This configuration trades psychological intimidation for volume of fire, making it the preferred choice for garrison duty and counter-insurgency operations.</p>
 </capabilities>
+
+<overview>
+<p>The Salamander is a Clan medium battle armor suit developed by Kindraa Faraday-Tanaga of Clan Fire Mandrill. Entering production in 3058, the design revived and modernized an earlier specialist suit that had been phased out in favor of the Elemental. The Salamander's emphasis on fire-based weaponry honors its creators' totem animal and gives the suit a fearsome reputation in close-quarters combat. Jump-capable and equipped with specialized climbing claws, the Salamander excels at anti-BattleMech swarming attacks despite carrying relatively light armor for its weight class. The suit has been widely adopted across Clan militaries, with several Clans producing their own tailored configurations.</p>
+</overview>
 
 <deployment>
 <p>Clan Jade Falcon developed and primarily fielded this configuration in five-trooper Points, tailored to their emphasis on aggressive anti-personnel operations. Falcon Points employed the suit in garrison roles across their Occupation Zone, where conventional infantry resistance and guerrilla activity demanded sustained firepower over the thermal tactics favored by other Clans.</p>
@@ -166,4 +137,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

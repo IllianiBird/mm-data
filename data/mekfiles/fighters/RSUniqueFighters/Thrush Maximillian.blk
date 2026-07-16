@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acff-73ea-b484-c6f88d36aa68
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Thrush
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -118,26 +118,13 @@ ISERMediumLaser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-
-</source>
-
-<published>
-RS:UF
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>Designed and manufactured by Mujika Aerospace Technologies on St. Ives, the Thrush entered service in 2798 as a light escort and screening fighter for Capellan DropShip detachments and garrison forces throughout the Confederation. An earlier variant had served the CCAF since the mid-twenty-fifth century, but the TR-7 became the definitive model and the backbone of Capellan light aerospace strength for generations. Inexpensive to produce and easy to maintain, the design spread to licensed manufacturing facilities across the Confederation, ensuring broad availability despite the toll the Succession Wars took on industrial capacity. Pilots throughout the Confederation know it as "the Frisbee," a nickname drawn from the fighter's distinctive circular wing planform. The Thrush trades armor protection for exceptional speed and agility, making it most effective in screening, scouting, and escort roles rather than as a front-line interceptor. Despite its limitations against heavier opponents, the design's combination of low cost and high performance has kept it relevant across multiple centuries of continuous production.</p>
-</overview>
-
 <capabilities>
 <p>The Thrush is one of the fastest light fighters in any Successor State aerospace force. Its Rawlings 250 fusion engine delivers thrust figures that let the fighter outrun virtually any opponent it cannot outgun, and the Mujika Aerospace Type 12 airframe handles the stress of most combat maneuvers without difficulty. Three Kajuka Type 2 "Bright Blossom" medium lasers are distributed across the nose and wings, providing adequate firepower for escort and scouting assignments. Heat management requires some discipline with ten single heat sinks, but the loadout is generally adequate for the design's intended role.</p><p>StarShield armor coverage is deliberately thin, a trade-off that purchases the fighter's impressive speed. Against lighter or less numerous opponents this arrangement works well, but the Thrush is at serious risk against heavier interceptors or multiple enemies simultaneously. The standard response is immediate disengagement, relying on thrust advantage to withdraw to supporting units.</p><p>The circular wing design introduces a significant handling hazard during atmospheric entry. The airframe tends to enter uncontrolled spins at the atmospheric interface, a flaw it shares with the Draconis Combine's Sholagar. Where the Combine phased the Sholagar out of service, Capellan flight doctrine took the opposite approach. CCAF instructors developed the "Frisbee Flip," training pilots to lean into the instability and execute a sudden 180-degree reversal, catching pursuing enemies off guard. Capellan pilots used this technique to good effect in orbital engagements against FedCom and Canopian opponents throughout the Succession Wars.</p>
 </capabilities>
+
+<overview>
+<p>Designed and manufactured by Mujika Aerospace Technologies on St. Ives, the Thrush entered service in 2798 as a light escort and screening fighter for Capellan DropShip detachments and garrison forces throughout the Confederation. An earlier variant had served the CCAF since the mid-twenty-fifth century, but the TR-7 became the definitive model and the backbone of Capellan light aerospace strength for generations. Inexpensive to produce and easy to maintain, the design spread to licensed manufacturing facilities across the Confederation, ensuring broad availability despite the toll the Succession Wars took on industrial capacity. Pilots throughout the Confederation know it as "the Frisbee," a nickname drawn from the fighter's distinctive circular wing planform. The Thrush trades armor protection for exceptional speed and agility, making it most effective in screening, scouting, and escort roles rather than as a front-line interceptor. Despite its limitations against heavier opponents, the design's combination of low cost and high performance has kept it relevant across multiple centuries of continuous production.</p>
+</overview>
 
 <deployment>
 <p>Operated by the Maskirovka for clandestine high-speed insertions and extractions, the Maximilian removes two of the standard medium lasers and replaces the baseline engine with a 325-rated XL power plant, enabling acceleration approaching twelve gravities. Additional armor and fuel tankage, along with a small cargo bay, equip the variant for agent delivery and recovery missions rather than air combat. The fighter carries sufficient armament for self-defense but is not intended for sustained engagement. The number of airframes produced is unknown; surviving examples are almost certainly unregistered and operated outside standard military logistics chains under Maskirovka coordination.</p>
@@ -172,4 +159,12 @@ JUMP_JET:N/A
 COMMUNICATIONS:Endicott Type 22 Master
 TARGETING:Dwyerson Mark XI
 </systemModels>
+
+<published>
+RS:UF
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

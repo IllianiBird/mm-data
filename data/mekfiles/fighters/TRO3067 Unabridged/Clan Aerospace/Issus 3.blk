@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aed1-7af9-b536-c1dd8bbbdd78
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Issus
 <year>
 3080
 </year>
-
-<originalBuildYear>
-3080
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -122,26 +122,13 @@ CLERMediumLaser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Issus is one of the most widely distributed second-line aerospace fighters in the Clan toumans, originally developed by Clan Snow Raven as the Stooping Raven during the early years of the Golden Century. Entering service in 2842, the design was later renamed as part of ilKhan Victoria Ward's Uniform Designation Protocols. Built around a conventional 240-rated fusion engine rather than the more powerful but expensive powerplants found in front-line designs, the Issus offers a cost-effective balance of speed, firepower, and logistical simplicity that has drawn operators across all of Clan space. Its signature ferro-aluminum armor and its electronics (communications and targeting systems developed through Snow Raven manufacturing lines) reflect the design's Raven origins even as it spread far beyond its home Clan.</p>
-</overview>
-
 <capabilities>
 <p>The Issus is reasonably fast and agile for its weight class, though it falls short of the performance envelope offered by the Batu OmniFighter. Its 240-rated standard fusion engine sacrifices more than a quarter of the design's mass to propulsion, leaving comparatively less room for armor and weapons than OmniFighter competitors at the same weight. Five tons of Raven Ferro-Aluminum Comp B armor provides baseline protection against opposing fighters, complemented by twelve double heat sinks - a cooling capacity that proves inadequate for the fighter's current weapon configuration.</p><p>The Issus carries a formidable arsenal for a 40-ton design. Wing-mounted Series 6b ER large lasers deliver long-range striking power, while a pair of SEP-Class ER medium lasers extend the engagement envelope at shorter ranges. A Series 1b ER small laser completes the energy armament. The nose mounts a Pattern J7 Streak SRM-6 fitted with sophisticated ammo-conservation systems, adding close-in firepower while minimizing ammunition waste. This predominantly energy-based weapon suite allows the design to operate with minimal logistical support, an advantage valued across Clan garrison formations. However, pilots must manage heat carefully. The fighter's heat-dissipation systems were built around a less demanding load than the current configuration demands, and inexperienced warriors frequently overheat the craft, a fact confirmed by loss rates in solahma and training units throughout the design's service life.</p>
 </capabilities>
+
+<overview>
+<p>The Issus is one of the most widely distributed second-line aerospace fighters in the Clan toumans, originally developed by Clan Snow Raven as the Stooping Raven during the early years of the Golden Century. Entering service in 2842, the design was later renamed as part of ilKhan Victoria Ward's Uniform Designation Protocols. Built around a conventional 240-rated fusion engine rather than the more powerful but expensive powerplants found in front-line designs, the Issus offers a cost-effective balance of speed, firepower, and logistical simplicity that has drawn operators across all of Clan space. Its signature ferro-aluminum armor and its electronics (communications and targeting systems developed through Snow Raven manufacturing lines) reflect the design's Raven origins even as it spread far beyond its home Clan.</p>
+</overview>
 
 <deployment>
 <p>Introduced during the Jihad, this reconnaissance variant strips most of the combat loadout in favor of an infrared imager and high-resolution imager, retaining only an ER large laser in the nose and an ER medium laser in each wing for self-defense. Refitted through the United Outworlders Corporation facility on Ramora, the design passed into Republic of the Sphere service following the post-Jihad settlement, where it serves in dedicated reconnaissance roles from the Early Republic period onward.</p>
@@ -174,4 +161,16 @@ ARMOR:Raven Ferro-Aluminum Comp B
 COMMUNICATIONS:SR Com 7
 TARGETING:Type 11d
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

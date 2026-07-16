@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e6e4-7238-bad6-3f02b459604a
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ JES II Strategic Missile Carrier
 <year>
 3080
 </year>
-
-<originalBuildYear>
-3080
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -118,26 +118,13 @@ ISMML9
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-95.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The JES II Strategic Missile Carrier was Joint Equipment Systems' return to tracked missile carrier production, a market segment the company had dominated before losing its Alshain factories to Clan Ghost Bear. Introduced in 3079 from the expanded Panpour facilities, the ninety-five ton vehicle was a modern interpretation of the classic long-range missile carrier concept that had been a JES specialty for centuries. Produced simultaneously at Panpour for the Federated Suns market and at Alula Australis under Ghost Bear Dominion patronage, the JES II represented the company's successful transformation from a struggling refugee manufacturer into a multi-state defense contractor with facilities spanning the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The JES II is built around four front-mounted FarFire LRM-15 launchers, matching the missile payload of the older carriers that built JES's reputation. A pair of side-mounted FarFire MML-9 racks expand the vehicle's flexibility, allowing crews to supplement the main battery with additional long-range fire or switch to close-in support as the tactical situation demands. A front-mounted BlazeFire Longshot extended-range medium laser rounds out the armament, providing a backup weapon when ammunition runs low and a deterrent against infantry. A cavernous eleven-ton LRM ammunition bay provides nearly four minutes of continuous fire, while a smaller four-ton bay supplies the MMLs, typically split between LRM and SRM reloads.</p><p>Ten and a half tons of ArcShield Maxi IV armor provides solid protection for a vehicle of this size, a welcome feature given the JES II's meager 32 km/h maximum speed from its DAV 190 fusion engine. A Guardian ECM suite provides defensive countermeasures against enemy electronics, and a C3 slave unit enables the vehicle to share targeting data with networked formations. The JES II works best from prepared positions with cover, launching indirect fire at range or using its C3 link to exploit targeting data from faster scouts. Its slow speed makes repositioning difficult once committed, and crews who find themselves without supporting units face serious risk from any opponent capable of closing the distance.</p>
 </capabilities>
+
+<overview>
+<p>The JES II Strategic Missile Carrier was Joint Equipment Systems' return to tracked missile carrier production, a market segment the company had dominated before losing its Alshain factories to Clan Ghost Bear. Introduced in 3079 from the expanded Panpour facilities, the ninety-five ton vehicle was a modern interpretation of the classic long-range missile carrier concept that had been a JES specialty for centuries. Produced simultaneously at Panpour for the Federated Suns market and at Alula Australis under Ghost Bear Dominion patronage, the JES II represented the company's successful transformation from a struggling refugee manufacturer into a multi-state defense contractor with facilities spanning the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Ammo variant was developed in 3080 for the Ghost Bear Dominion. Dominion units did not use Spheroid C3 networking systems, so the C3 slave was removed and replaced with an additional ton of LRM ammunition. This simple modification increased the vehicle's sustained fire capability, better suiting the Dominion's preferred doctrine of massed indirect fire from prepared positions. Production was centered at Panpour.</p>
@@ -170,4 +157,16 @@ ARMOR:Maxi IV
 COMMUNICATIONS:Communicator with Guardian ECM
 TARGETING:FireScan with IndirecTrack
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+95.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7da-79e4-bb90-5e5c5c7d7d73
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Saracen Mk II HCV
 <year>
 3137
 </year>
-
-<originalBuildYear>
-3137
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -103,26 +103,13 @@ ISERMediumLaser
 ISMML7
 </Turret Equipment>
 
-<source>
-TR:3145:DC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 16:18:34
-<overview>
-<p>The Saracen Mk II Heavy Combat Vehicle was developed as part of Scarborough Manufacturers' early thirty-second century program to modernize all three original Scarborough hovertank designs. Like its siblings, the Mk II transitioned to fusion power and substantially heavier armor, bringing the missile-support platform into alignment with the Combine's operational requirements against modern opposition. The Saracen Mk II retains the fire-support role that defined the original while addressing the protection and endurance shortcomings that limited it in sustained operations.</p><p>It serves alongside the Saladin and Scimitar Mk IIs in Draconis Combine armored formations, filling the same tactical niche as the original Saracen but with greater survivability and a more flexible weapons load suited to the variety of threats encountered in the early thirty-second century.</p>
-</overview>
-
 <capabilities>
 <p>The Saracen Mk II mounts a Doombud 7-Tube Multi-Missile Launcher as its primary weapon, supported by two Diverse Optics Extended-Range Medium Lasers. The multi-missile launcher provides tactical flexibility compared to the original design's fixed LRM/SRM mix, accepting different munition types to engage targets at varying ranges. The ER medium lasers give the crew a reliable energy-weapon backup that requires no ammunition management, a meaningful upgrade over the original Saracen's all-missile load.</p><p>The Omni 175 Fusion powerplant removes fuel logistics as a constraint and provides the power budget needed to operate energy weapons alongside the missile launcher. ProtecTech 19 Heavy Ferro-Fibrous armor provides substantially better protection than the original design's ProtecTech 7, allowing the Mk II to sustain closer engagement ranges than its predecessor could safely manage. Cruise speed is 108 kph, a trade-off accepted to accommodate the fusion engine and heavier protection. The upgraded Scarborough Talky 2 and Tracky 2 electronics replace the original Talky-1 and Track-1-1 units, improving integration with other Mk II vehicles in combined hover lances.</p>
 </capabilities>
+
+<overview>
+<p>The Saracen Mk II Heavy Combat Vehicle was developed as part of Scarborough Manufacturers' early thirty-second century program to modernize all three original Scarborough hovertank designs. Like its siblings, the Mk II transitioned to fusion power and substantially heavier armor, bringing the missile-support platform into alignment with the Combine's operational requirements against modern opposition. The Saracen Mk II retains the fire-support role that defined the original while addressing the protection and endurance shortcomings that limited it in sustained operations.</p><p>It serves alongside the Saladin and Scimitar Mk IIs in Draconis Combine armored formations, filling the same tactical niche as the original Saracen but with greater survivability and a more flexible weapons load suited to the variety of threats encountered in the early thirty-second century.</p>
+</overview>
 
 <deployment>
 <p>The Saracen Mk II operates as the fire support element in Combine fast-strike hover lances, typically paired with Saladin and Scimitar Mk IIs. Its multi-missile launcher and ER lasers provide a flexible long-to-medium range attack profile, and the fusion engine allows sustained operations without the fuel constraints that limited the original design.</p>
@@ -155,4 +142,16 @@ ARMOR:19
 COMMUNICATIONS:Talky 2
 TARGETING:Tracky 2
 </systemModels>
+
+<source>
+TR:3145:DC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

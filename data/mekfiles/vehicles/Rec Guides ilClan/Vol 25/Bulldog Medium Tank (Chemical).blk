@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e981-7c4a-b951-cd5687d09fc7
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Bulldog Medium Tank
 <year>
 3146
 </year>
-
-<originalBuildYear>
-3146
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -107,33 +107,13 @@ SRM 4
 SRM 4
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG25
-</source>
-
-<published>
-RG25,RSFP:Battlefield
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 13:33:24
-<overview>
-<p>The Bulldog Medium Tank traces its origins to Bulldog Enterprises, a civilian vehicle manufacturer that sought to expand into the Star League Defense Force market in the twenty-seventh century. Introduced in 2673, the sixty-ton tracked design was conceived as a low-cost, easily maintainable combat vehicle suitable for fielding in battalion and regimental strength without straining the logistics of planetary militias and conventional army formations. While the tank's performance never distinguished itself among competing designs of the era, its competitive price point drove substantial sales, and Bulldog Enterprises licensed production to Quikscell Company on Ares in 2700 to better serve Capellan Confederation markets. The Draconis Combine and Capellan Confederation became the primary operators of the type, and both states continued to adapt and modernize the design across successive eras, producing updated variants suited to the technological capabilities of each period.</p>
-</overview>
-
 <capabilities>
 <p>The Bulldog is an honest but unexceptional combat vehicle. Its internal combustion engine propels the sixty-ton tracked chassis to a cruising speed of forty-three kilometers per hour, reaching sixty-four kilometers per hour at maximum effort, placing it within the typical performance envelope of medium tanks of its era without excelling in any particular quality. Bulldog Standard armor provides adequate protection across the hull, sufficient to withstand infantry weapons and light anti-vehicle fire, though it offers no particular advantage against dedicated anti-armor systems.</p><p>The primary armament is a single Bulldog large laser, providing reliable energy fire at extended range without ammunition dependency. A pair of Hovertec Quad SRM-4 launchers supplements the laser at shorter distances, adding considerable throw weight during engagements where the enemy has closed within a few hundred meters. A forward-mounted machine gun provides anti-infantry coverage and harassment fire capability.</p><p>What the Bulldog lacks in raw performance, it compensates for in mechanical simplicity. Designers deliberately selected standardized, widely available components throughout the vehicle, ensuring technicians can source replacement parts from salvaged hulls across virtually any Inner Sphere battlefield. Many Bulldogs written off as unrecoverable have returned to service under opposing colors within days, a reliable indicator of how interchangeable the design's components have become across the Inner Sphere.</p>
 </capabilities>
+
+<overview>
+<p>The Bulldog Medium Tank traces its origins to Bulldog Enterprises, a civilian vehicle manufacturer that sought to expand into the Star League Defense Force market in the twenty-seventh century. Introduced in 2673, the sixty-ton tracked design was conceived as a low-cost, easily maintainable combat vehicle suitable for fielding in battalion and regimental strength without straining the logistics of planetary militias and conventional army formations. While the tank's performance never distinguished itself among competing designs of the era, its competitive price point drove substantial sales, and Bulldog Enterprises licensed production to Quikscell Company on Ares in 2700 to better serve Capellan Confederation markets. The Draconis Combine and Capellan Confederation became the primary operators of the type, and both states continued to adapt and modernize the design across successive eras, producing updated variants suited to the technological capabilities of each period.</p>
+</overview>
 
 <deployment>
 <p>The Draconis Combine's most ambitious rework of the Bulldog chassis installs a significantly larger engine and a substantial quantity of hardened armor, producing a vehicle with protection well exceeding that of typical medium tanks in its weight class. A chemical laser provides primary armament, its ammunition dependency offset by the enhanced armor that allows the vehicle to operate at effective engagement ranges. Produced exclusively on Proserpina, the Chemical variant represents the Combine's effort to field a medium conventional vehicle capable of engaging ilClan-era threats that would have overwhelmed earlier Bulldog models.</p>
@@ -168,4 +148,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Xilex-2000
 TARGETING:Xilex-2000 with Artemis IV FCS
 </systemModels>
+
+<source>
+RG25
+</source>
+
+<published>
+RG25,RSFP:Battlefield
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

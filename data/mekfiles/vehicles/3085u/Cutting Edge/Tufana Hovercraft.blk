@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e737-7603-b26d-9cf4f35d81c4
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Tufana Hovercraft
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -106,26 +106,13 @@ ISNarcBeacon
 ISTAG
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Tufana is a 35-ton hovercraft designed and produced by Ronin Incorporated on Wallis for the Principality of Regulus. First deployed in 3079, just after the close of the Jihad, it was built to serve as a dedicated fire support spotter, pairing with missile-heavy elements to greatly increase their effectiveness. The Regulan military saw a need for a vehicle focused entirely on target acquisition rather than direct combat, and the Tufana answered that call. Its role demands a particular type of crew, and Regulan commanders screen candidates carefully, favoring team-oriented personnel over independent fighters. The design proved successful enough to attract buyers beyond its original patron, with sales eventually reaching former Free Worlds League successor states, the Capellan Confederation, and the Magistracy of Canopus.</p>
-</overview>
-
 <capabilities>
 <p>The Tufana's foremost asset is its speed. Powered by a Pitban 210 XL fusion engine, the hovercraft reaches a cruising speed of 119 kilometers per hour, with a flank speed approaching 184 kilometers per hour. This outpaces nearly every battlefield unit short of airborne assets and allows the Tufana to keep pace with fast-moving Regulan cavalry formations.</p><p>Armor protection is modest at four and a half tons of Valiant Chainmail ferro-fibrous material. The design relies on speed rather than staying power to avoid return fire, and a well-placed hit can disable the vehicle. Crews accepting this trade-off gain an exceptionally capable spotting platform in return.</p><p>The weapons fit centers on a turret-mounted Doombud multi-missile launcher capable of firing both short- and long-range salvos, backed by three tons of mixed ammunition. Alongside it, an Octagon Narc Missile Beacon and a target acquisition gear designator allow the Tufana to mark enemy units for artillery strikes and semi-guided missile fire from distant lancemates. A crew separated from the rest of the formation can tag a target with the Narc, break off, and let the formation engage the marked unit from cover. The combination of TAG and Narc makes the Tufana a genuine force multiplier when paired with the right supporting elements.</p>
 </capabilities>
+
+<overview>
+<p>The Tufana is a 35-ton hovercraft designed and produced by Ronin Incorporated on Wallis for the Principality of Regulus. First deployed in 3079, just after the close of the Jihad, it was built to serve as a dedicated fire support spotter, pairing with missile-heavy elements to greatly increase their effectiveness. The Regulan military saw a need for a vehicle focused entirely on target acquisition rather than direct combat, and the Tufana answered that call. Its role demands a particular type of crew, and Regulan commanders screen candidates carefully, favoring team-oriented personnel over independent fighters. The design proved successful enough to attract buyers beyond its original patron, with sales eventually reaching former Free Worlds League successor states, the Capellan Confederation, and the Magistracy of Canopus.</p>
+</overview>
 
 <deployment>
 <p>The base Tufana is best deployed as part of a fire support lance with at least one artillery-capable or semi-guided LRM unit in the formation. In Regulan service it commonly operates alongside Arrow IV-equipped platforms, providing TAG designation at close range while the heavier carrier engages from concealed positions. The combination works best in terrain that offers the Tufana cover between designation runs, allowing it to tag a target, withdraw, and relay positioning as the barrage arrives. Commanding officers assign Tufanas to units with strict fire discipline, as the vehicle's spotting value is wasted when crews become drawn into direct engagements. In Canopian service the Tufana fills a similar role alongside heavy multi-missile carriers, benefiting from the additional indirect fire options the MML platform provides.</p>
@@ -158,4 +145,16 @@ ARMOR:Chainmail
 COMMUNICATIONS:T21-C
 TARGETING:Watchdog W105 with A-Trac
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

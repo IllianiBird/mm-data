@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bb94-7ef1-9c9e-40aeaa78e9a4
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Artillery Platoon (DCMS)
 <year>
 3044
 </year>
-
-<originalBuildYear>
-3044
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -57,7 +57,9 @@ ISArrowIV
 ISArrowIVAmmo
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Draconis Combine Mustered Soldiery assigns conventional infantry to garrison roles across its military districts, with district regulars often fielding extra platoons to secure worlds that BattleMech forces cannot permanently garrison. The platoon operates an Arrow IV guided missile system capable of precision indirect fire at extreme range. When a TAG spotter designates a target, the Arrow IV's homing munitions can place ordnance on a specific vehicle or position with accuracy that conventional tube artillery cannot match.</p>
+</overview>
 
 <notes>
 Intro date based on re-introduction date of Arrow IV
@@ -82,9 +84,4 @@ Submachine Gun
 <Secondary>
 InfantryAssaultRifle
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Draconis Combine Mustered Soldiery assigns conventional infantry to garrison roles across its military districts, with district regulars often fielding extra platoons to secure worlds that BattleMech forces cannot permanently garrison. The platoon operates an Arrow IV guided missile system capable of precision indirect fire at extreme range. When a TAG spotter designates a target, the Arrow IV's homing munitions can place ordnance on a specific vehicle or position with accuracy that conventional tube artillery cannot match.</p>
-</overview>
 

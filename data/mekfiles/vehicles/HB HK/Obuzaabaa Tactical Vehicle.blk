@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8ff-7c25-89b0-57a8dae3ae7d
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Obuzaabaa Tactical Vehicle
 <year>
 2965
 </year>
-
-<originalBuildYear>
-2965
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -113,30 +113,13 @@ Communications Equipment:SIZE:2.0
 4
 </engine_tech_rating>
 
-<source>
-HB:HK
-</source>
-
-<published>
-HB:HK
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-<fuel>
-1.0
-</fuel>
-
-# Fluff Date: 2026-03-09 17:12:16
-<overview>
-<p>The Obuzaabaa Tactical Vehicle is a wheeled command-and-control platform produced by Pesht Motors for the Draconis Combine's civilian police forces. Introduced in the late thirtieth century, the low-slung personnel carrier has served as the backbone of Combine law enforcement operations for over a century. Known colloquially as the 'zaabaa among the Friendly Persuaders, the vehicle fills a critical niche in low population zones where the minicars and bicycles common to dense urban areas are impractical. Its versatile design supports roles ranging from routine patrol coordination to tactical team deployment, and it can even coordinate with local DCMS units when situations escalate beyond standard police response.</p>
-</overview>
-
 <capabilities>
 <p>The Obuzaabaa prioritizes communications capability over crew comfort, with its interior crammed with equipment for coordinating tactical teams, patrol groups, and local military units. A fuel cell engine provides a respectable top speed of 80 km/h, adequate for most law enforcement pursuits across the varied terrain of Combine worlds. The vehicle carries four tons of configurable cargo space that crews customize for their assigned missions. Standard loadouts include riot gear, emergency supplies, roadway assistance kits, and criminal suppression systems. Some vehicles carry temporary prisoner transportation cubes for field detention operations. Units assigned to more tactical duties replace standard cargo with additional weapons, surveillance equipment, and sensor arrays. An infantry compartment allows transport of a small team of officers, supplementing the vehicle's primary command role with a limited direct response capability. The utilitarian crew space reflects the design's emphasis on mission equipment over operator amenities.</p>
 </capabilities>
+
+<overview>
+<p>The Obuzaabaa Tactical Vehicle is a wheeled command-and-control platform produced by Pesht Motors for the Draconis Combine's civilian police forces. Introduced in the late thirtieth century, the low-slung personnel carrier has served as the backbone of Combine law enforcement operations for over a century. Known colloquially as the 'zaabaa among the Friendly Persuaders, the vehicle fills a critical niche in low population zones where the minicars and bicycles common to dense urban areas are impractical. Its versatile design supports roles ranging from routine patrol coordination to tactical team deployment, and it can even coordinate with local DCMS units when situations escalate beyond standard police response.</p>
+</overview>
 
 <deployment>
 <p>The Obuzaabaa serves throughout the Draconis Combine's police and Friendly Persuader formations. In sparsely populated regions, the vehicle operates as the primary law enforcement platform, replacing the lighter transport options used in high density urban areas. Its command-and-control capabilities make it the standard coordination vehicle for multi-unit police operations, and it frequently works in tandem with the closely related Sasayaku Control Transport.</p>
@@ -169,4 +152,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+HB:HK
+</source>
+
+<published>
+HB:HK
+</published>
+
+<tonnage>
+25.0
+</tonnage>
+
+<fuel>
+1.0
+</fuel>
 

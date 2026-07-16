@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b82c-76a0-846e-664cf3c5f26f
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Gun Platoon (CCAF)
 <year>
 3055
 </year>
-
-<originalBuildYear>
-3055
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -61,7 +61,9 @@ ISUltraAC5
 IS Ultra AC/5 Ammo
 </Field Guns Equipment>
 
-
+<overview>
+<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. Field gun platoons provide Capellan infantry with organic direct-fire heavy weapons, towing crew-served autocannons or other heavy guns to prepared positions. The weapon crew operates the gun while the remaining troopers provide local security with personal arms. Their ultra autocannon/5 can fire in rapid double-tap mode, significantly increasing its fire rate at the cost of increased jamming risk.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date of Ceres Striker Carbine rifle. Ceres Striker Carbine is standard CCAF long arm.
@@ -78,9 +80,4 @@ Intro date based on prototype date of Ceres Striker Carbine rifle. Ceres Striker
 <Primary>
 Rifle (Striker Carbine)
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. Field gun platoons provide Capellan infantry with organic direct-fire heavy weapons, towing crew-served autocannons or other heavy guns to prepared positions. The weapon crew operates the gun while the remaining troopers provide local security with personal arms. Their ultra autocannon/5 can fire in rapid double-tap mode, significantly increasing its fire rate at the cost of increased jamming risk.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea28-75dd-bd16-cae6af92b225
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Schrek AC Carrier
 <year>
 2916
 </year>
-
-<originalBuildYear>
-2916
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -120,30 +120,13 @@ Autocannon/5
 Autocannon/5
 </Turret Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u,RSFP:Battlefield
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 12:59:54
-<overview>
-<p>The Schrek AC Carrier is a product of Third Succession War desperation rather than deliberate design intent. As BattleMech units competed with armor formations for scarce fusion engine components during that conflict, Schrek crews whose vehicles had been stripped of their power plants and particle projection cannons sought ways to preserve the remaining hull's utility.</p><p>The solution was straightforward: replace the fusion engine with an inexpensive ICE powerplant and rearm the vehicle with autocannons. The resulting autocannon carrier traded the Schrek's sophisticated energy weapons for a more sustainable conventional loadout, accepting reduced long-range capability in exchange for lower maintenance costs and ammunition-based logistics far easier to sustain during the resource-scarce Succession Wars.</p>
-</overview>
-
 <capabilities>
 <p>The standard Schrek AC Carrier carries three AC/5s and eight machine guns, replacing the energy weapons of the base design with a conventional loadout that is easier to support in the field. The removal of the fusion engine eliminates both the Schrek's greatest operational expense and its dependency on a component increasingly difficult to maintain during the Succession Wars. The machine guns address the base design's complete vulnerability to infantry, a significant improvement for a vehicle expected to operate with reduced escort support.</p><p>The trade-offs are considerable. The AC/5s produce substantially less damage per salvo than the three PPCs they replace, and the switch to conventional power reduces operational range in extreme environments. Like its parent design, the Schrek AC Carrier remains slow and lightly protected relative to its mass. The design is best understood as a survival measure, a way to keep a useful asset in the field when the preferred configuration was no longer sustainable. The Lothian variant later formalized and improved on this concept with Ultra AC/10s and ferro-fibrous armor.</p>
 </capabilities>
+
+<overview>
+<p>The Schrek AC Carrier is a product of Third Succession War desperation rather than deliberate design intent. As BattleMech units competed with armor formations for scarce fusion engine components during that conflict, Schrek crews whose vehicles had been stripped of their power plants and particle projection cannons sought ways to preserve the remaining hull's utility.</p><p>The solution was straightforward: replace the fusion engine with an inexpensive ICE powerplant and rearm the vehicle with autocannons. The resulting autocannon carrier traded the Schrek's sophisticated energy weapons for a more sustainable conventional loadout, accepting reduced long-range capability in exchange for lower maintenance costs and ammunition-based logistics far easier to sustain during the resource-scarce Succession Wars.</p>
+</overview>
 
 <deployment>
 <p>As a field conversion rather than a planned design, the Schrek AC Carrier has no fixed production standard. Most examples retain the basic hull layout of the original Schrek, with ICE powerplants and autocannon batteries substituted for the original fusion engine and PPCs. These vehicles circulate primarily in garrison and militia roles where lower operational costs outweigh diminished firepower. Configuration and components varied widely based on available materials and local technical expertise.</p>
@@ -176,4 +159,20 @@ ARMOR:VII Mk 5
 COMMUNICATIONS:3000
 TARGETING:IX
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u,RSFP:Battlefield
+</published>
+
+<tonnage>
+80.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

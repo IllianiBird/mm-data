@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e88b-7932-9bdf-b2264978b2f0
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Shandra Advanced Scout Vehicle
 <year>
 3087
 </year>
-
-<originalBuildYear>
-3087
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -108,30 +108,13 @@ Machine Gun
 Machine Gun
 </Rear Equipment>
 
-<source>
-TR:3145:RotS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 14:27:05
-<overview>
-<p>The Shandra Advanced Scout Vehicle entered service with the Republic of the Sphere in the late 3080s, developed by Brigadier Corporation on Oliver in response to the Republic Armed Forces' need for a fast, self-sufficient reconnaissance vehicle. Designed to gather battlefield intelligence across almost every terrain and climate type, the Shandra became the most widely deployed scout vehicle in Republic combined arms formations and spread to virtually every military force operating in the former Inner Sphere. Its combination of mobility, electronic warfare capability, and modest self-defense armament gave it broad utility beyond pure reconnaissance, establishing a reputation as one of the most versatile wheeled combat vehicles of the Dark Age.</p>
-</overview>
-
 <capabilities>
 <p>The Shandra is optimized for speed and electronic warfare. Its fusion powerplant drives the twenty-five-ton vehicle to a top speed of 129 kilometers per hour, fast enough to disengage from most threats before a sustained engagement develops. An integrated Guardian ECM suite, connected through the Exeter LongScan communications array, creates a portable electronic denial umbrella that masks the vehicle's sensor signature and disrupts enemy targeting systems. For direct engagement, the Shandra carries a Holly SRM launcher for short-range punch, a Diverse Optics Extended Range Small Laser for precision fire, and a pair of SureFire miniguns for suppression against light infantry and aerial threats.</p><p>The vehicle's construction incorporates low-observable materials that reduce its radar cross-section and heat signature, enhancing the ECM suite's concealment effect. These advantages come at a cost: the Shandra lacks the long-range active sensor systems of dedicated electronic warfare platforms, and its modest armor protection means it cannot absorb significant punishment before losing combat effectiveness. Commanders relying on Shandras must ensure the vehicles can extract themselves before hostile contact becomes unavoidable, as the design was built to observe and report, not to fight its way clear of serious opposition.</p>
 </capabilities>
+
+<overview>
+<p>The Shandra Advanced Scout Vehicle entered service with the Republic of the Sphere in the late 3080s, developed by Brigadier Corporation on Oliver in response to the Republic Armed Forces' need for a fast, self-sufficient reconnaissance vehicle. Designed to gather battlefield intelligence across almost every terrain and climate type, the Shandra became the most widely deployed scout vehicle in Republic combined arms formations and spread to virtually every military force operating in the former Inner Sphere. Its combination of mobility, electronic warfare capability, and modest self-defense armament gave it broad utility beyond pure reconnaissance, establishing a reputation as one of the most versatile wheeled combat vehicles of the Dark Age.</p>
+</overview>
 
 <deployment>
 <p>The Shandra (Original) was the initial prototype configuration evaluated by Republic Armed Forces testing units in the late 3080s. Powered by an internal combustion engine and carrying lighter armament than the production model, it served primarily as a developmental testbed for the electronics suite and chassis design that would define the standard vehicle. Production numbers were minimal, with the design superseded by the fusion-powered production variant within two years. Units that did see operational use were assigned to evaluation formations rather than front-line scout elements.</p>
@@ -164,4 +147,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:RotS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+25.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

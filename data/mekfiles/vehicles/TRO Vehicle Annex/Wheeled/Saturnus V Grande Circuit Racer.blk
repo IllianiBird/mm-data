@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb87-7c93-89bf-8b7de4a95ca8
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Saturnus V Grande Circuit Racer
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -111,30 +111,13 @@ UltraLightChassisMod
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-1.5
-</tonnage>
-
-<fuel>
-0.108
-</fuel>
-
-<fuelType>
-ALCOHOL
-</fuelType>
-
-# Fluff Date: 2026-03-05 17:18:25
-<overview>
-<p>The Saturnus V Grande Circuit Racer is a high-performance wheeled racing vehicle that has come to dominate organized motorsport across the Inner Sphere. Introduced in 3062 by an unidentified manufacturer, the small wheeled support vehicle quickly established itself as the premier platform in professional circuit racing. The Saturnus V earned particular renown through its association with the Grande Circuit Challenge Series, an annual competition held on New Earth within the Wolf and Bear Occupation Zones. Compact, fast, and purpose-built for competition, the design represents the pinnacle of civilian racing technology available to professional teams and well-funded amateur drivers across the known Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Saturnus V is powered by a Sprague &amp; Charles 950 gas turbine engine, an internal combustion powerplant that propels the 1,500-kilogram vehicle to speeds approaching 230 kilometers per hour on straightaway course sections. The design employs an ultra-light chassis modification to minimize weight, dedicating the bulk of its mass budget to the powerful engine assembly. A fuel capacity supporting 887 kilometers of range on alcohol fuel allows the vehicle to complete extended race stages without refueling stops.</p><p>Despite being an unarmed civilian vehicle, the Saturnus V incorporates safety features rarely seen outside military applications. Vehicles competing in professional circuit racing are required to carry an ejector system as a mandatory safety precaution, along with reinforced body panels and crash structures. The ejection seats integrate the same sensor circuitry and bio-monitoring suites found in Earthwerks BattleMech cockpits, providing race officials with real-time driver health telemetry. Protection is provided by BAR 6 rated armor, a relatively heavy grade for a civilian vehicle that reflects the extreme speeds and treacherous terrain encountered during competition. The single-seat configuration sacrifices all cargo capacity in favor of performance.</p>
 </capabilities>
+
+<overview>
+<p>The Saturnus V Grande Circuit Racer is a high-performance wheeled racing vehicle that has come to dominate organized motorsport across the Inner Sphere. Introduced in 3062 by an unidentified manufacturer, the small wheeled support vehicle quickly established itself as the premier platform in professional circuit racing. The Saturnus V earned particular renown through its association with the Grande Circuit Challenge Series, an annual competition held on New Earth within the Wolf and Bear Occupation Zones. Compact, fast, and purpose-built for competition, the design represents the pinnacle of civilian racing technology available to professional teams and well-funded amateur drivers across the known Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Saturnus V serves exclusively as a professional and amateur racing platform. Competition on New Earth represents the highest tier of motorsport in the region, though amateur-class Saturnus V racers appear on tracks throughout the Inner Sphere wherever high-performance wheeled racing draws an audience. The vehicle has no military or civilian transport application.</p>
@@ -169,4 +152,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:N/A
 TARGETING:N/A
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+1.5
+</tonnage>
+
+<fuel>
+0.108
+</fuel>
+
+<fuelType>
+ALCOHOL
+</fuelType>
 

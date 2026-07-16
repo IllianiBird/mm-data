@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.00-nightly-2026-05-01 on 2026-05-02
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e79a-7765-bb5e-5fdd5cb0e906
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Aesir Medium AA Vehicle
 <year>
 3142
 </year>
-
-<originalBuildYear>
-3142
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -114,18 +114,6 @@ Hyper-Assault Gauss Rifle/40 Ammo
 CLHAG40
 </Turret Equipment>
 
-<source>
-TR:3145:C,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
 <capabilities>
 <p>Too slow to participate in offensive operations or respond to rapidly developing threats, the Aesir instead excels as a static or semi-mobile air defense platform. A quartet of turret-mounted Type Sierra LB 2-X Autocannons provides long-range flak coverage capable of saturating a wide portion of airspace, with cluster munitions offering particular effectiveness against fast-moving aerospace targets. Two tons of ammunition supply adequate endurance for extended engagements without requiring frequent resupply.</p><p>Protection is substantial for a vehicle of its weight class, with nine and a half tons of Forging OTR20d ferro-fibrous armor supplemented by CASE to contain ammunition explosions and an Armored Motive System to protect the wheeled drive train from crippling mobility kills. The Omni 145 fusion engine provides only modest speed at fifty-four kilometers per hour, reinforcing the Aesir's role as a positional defender rather than a mobile combatant. The TRTTS Mark V AirTracker targeting and tracking system, though aging by current standards, remains effective at acquiring and tracking airborne contacts ranging from VTOLs to DropShips. A Build 1685 Tacticom communications suite rounds out the electronics package.</p>
 </capabilities>
@@ -167,11 +155,14 @@ TARGETING:Mark V AirTracker
 </systemModels>
 
 <source>
-TR:3145:C
+TR:3145:C,TR:3145
 </source>
+
+<published>
+RS:3145
+</published>
 
 <tonnage>
 55.0
 </tonnage>
-
 

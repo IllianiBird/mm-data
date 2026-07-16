@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ae94-764a-84db-672c41dd5ee2
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ DFC-OB
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -123,34 +123,13 @@ IS LB 10-X Cluster Ammo:OMNI
 IS LB 10-X Cluster Ammo:OMNI
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Defiance is a fifty-five ton Inner Sphere OmniFighter developed through the Word of Blake's technological partnership with the Capellan Confederation. As Capellan ties with the Free Worlds League weakened during the early 3060s, the Blakists stepped into the role of technological benefactor, sharing advanced OmniFighter technology with the Confederation in exchange for administering Capellan HPG stations. Ceres Metals Industries on Capella was selected as the production facility, with both the Confederation and Word of Blake agreeing to split early production runs during the initial manufacturing phase. Entering service in 3067, the Defiance was purpose-built for ground-attack and bombing operations, filling a role that traditional Capellan aerospace assets had struggled to address. Its medium weight class provides a useful balance of speed and ordnance capacity that has made it a valued addition to Capellan combined-arms formations.</p>
-</overview>
-
 <capabilities>
 <p>The Defiance is built around a Mujika Aerospace Modular Version 6 frame and powered by a Magna 220 XL engine, providing a safe thrust of six and a maximum thrust of nine. The use of an extra-light engine is central to the design's ground-attack philosophy, freeing twenty-six tons of pod space for weapons and equipment, a generous allowance for a medium-weight fighter. Fifteen tons of Ceres Standard armor provide adequate protection for its intended low-altitude attack role, though pilots must exercise caution when engaging dedicated air superiority fighters. Communications are handled by a Ceres MaserCom Variable 3s system paired with a Dwyerson Upgrade Multitask Version 3 targeting and tracking suite.</p><p>The trade-off for this impressive pod capacity is a limited heat dissipation system, with only eleven double heat sinks fitted to the base chassis. Most configurations must therefore carefully manage their weapon loadouts or devote pod tonnage to additional heat sinks. Despite this constraint, the generous pod space allows the Defiance to mount a diverse array of configurations ranging from energy-heavy strafing loadouts to ballistic-focused anti-vehicle packages, giving commanders considerable tactical flexibility.</p>
 </capabilities>
+
+<overview>
+<p>The Defiance is a fifty-five ton Inner Sphere OmniFighter developed through the Word of Blake's technological partnership with the Capellan Confederation. As Capellan ties with the Free Worlds League weakened during the early 3060s, the Blakists stepped into the role of technological benefactor, sharing advanced OmniFighter technology with the Confederation in exchange for administering Capellan HPG stations. Ceres Metals Industries on Capella was selected as the production facility, with both the Confederation and Word of Blake agreeing to split early production runs during the initial manufacturing phase. Entering service in 3067, the Defiance was purpose-built for ground-attack and bombing operations, filling a role that traditional Capellan aerospace assets had struggled to address. Its medium weight class provides a useful balance of speed and ordnance capacity that has made it a valued addition to Capellan combined-arms formations.</p>
+</overview>
 
 <deployment>
 <p>Alternate Configuration B is a dedicated anti-vehicle ground attack design, mounting an LB 10-X autocannon in each wing. Four tons of ammunition allow the fighter to carry both standard slugs for armored targets and cluster rounds that prove highly effective at shredding the delicate control surfaces of aerospace fighters, giving this configuration unexpected versatility in both ground-attack and air-to-air engagements.</p>
@@ -183,4 +162,16 @@ ARMOR:Ceres Standard
 COMMUNICATIONS:MaserCom Variable 3s
 TARGETING:Upgrade Multitask Version 3
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+55.0
+</tonnage>
 

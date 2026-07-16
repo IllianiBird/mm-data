@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d6fc-7445-b6aa-2d8c448aeb0d
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Screamer LAM
 model:SCR-1X-LAM
 mul id:7320
@@ -170,7 +171,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The Screamer LAM is a prototype Land-Air 'Mech developed during the Amaris Civil War at Martinson Armaments on Terra. Built on the heaviest LAM chassis available at 55 tons, the Screamer was conceived as a heavy strike and harassment platform capable of operating in full BattleMech, AirMech, and aerospace fighter configurations. Unlike earlier LAM designs limited to partial mode transitions, the Screamer represented an ambitious attempt to produce a true multi-role combatant in a medium-weight frame.</p><p>Only a single prototype was ever constructed, and the Screamer never advanced beyond initial testing before the design was rendered obsolete. The project remains a footnote of the Amaris Civil War, among the last Land-Air 'Mech designs ever conceived before the fall of the Star League.</p>
 
 capabilities:<p>A 275-rated fusion engine powered the Screamer LAM, giving the design a ground speed exceeding 86 km/h in BattleMech mode. Four jump jets provided 120 meters of tactical mobility on the ground, while in AirMech mode the Screamer could reach flanking speeds of nearly 300 km/h. This movement profile matched the performance of the older WSP-100 Wasp LAM Mk I across all three operating modes, a remarkable achievement for a 'Mech nearly twice the Wasp's mass. Ten double heat sinks managed the considerable thermal load generated during combat operations and mode transitions.</p><p>The Screamer's primary armament consisted of a single arm-mounted extended-range PPC, providing devastating long-range firepower without ammunition dependency. This was supplemented by four internal bomb bays split between the left and right torsos, allowing the Screamer to deliver ordnance while operating in aerospace fighter mode. The jettison-capable mounting of the ER PPC was an unusual feature, permitting the pilot to discard the weapon in an emergency to reduce mass or eliminate a critical point of failure during conversion.</p><p>Nine tons of standard armor provided adequate protection for a medium-weight LAM, though pilots were expected to rely on the design's exceptional speed rather than absorb sustained fire. This emphasis on mobility over protection reflected the Screamer's intended role as a harassment platform, not a line combatant.</p>
@@ -182,6 +182,8 @@ history:<p>The Screamer LAM emerged from one of the most desperate periods in In
 manufacturer:Martinson Armaments
 
 primaryfactory:Terra
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Unknown
 systemmanufacturer:ENGINE:Unknown

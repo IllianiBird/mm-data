@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ade2-7783-971f-bb293c699ce1
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ TRN-3U
 <year>
 2812
 </year>
-
-<originalBuildYear>
-2812
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -117,26 +117,13 @@ Small Laser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>Designed and produced by Newhart Industries beginning in 2717, the Trident served as a first-response aerospace fighter for planetary defense forces across the Inner Sphere during the height of the Star League. Valued for its combination of speed, durability, and an energy-based weapon suite free from logistical dependence on ammunition resupply, the design earned a reputation as a reliable and cost-effective light fighter suited to both atmospheric defense and carrier operations. Though eventually supplanted in front-line service by more capable designs, Newhart continued producing the Trident for years afterward, often selling units at or near cost to mercenary commands and smaller militaries that lacked access to more advanced equipment. The Trident's ease of maintenance and resilient airframe extended its operational life far beyond what contemporary assessments of its military prospects would have predicted.</p>
-</overview>
-
 <capabilities>
 <p>At twenty tons, the Trident is among the lightest aerospace fighters in service, and its designers at Newhart Industries optimized every kilogram for performance. The Rawlings 200 power plant delivers excellent thrust relative to the airframe's mass, and the Newhall 3P5 frame is built to withstand the stresses of high-speed maneuvering without structural compromise. Two tons of StarGlo ferro-aluminum armor provide better protection than standard plating of equivalent weight, giving the design a meaningful survivability edge against ground-based anti-aircraft systems and opposing light fighters.</p><p>The primary armament consists of three Omicron-Plus medium lasers mounted in the nose, providing a concentrated energy punch ideal for strafing runs and close engagements. A single Maxell small laser covers the aft arc, discouraging pursuit while the pilot repositions for another attack pass. The all-energy configuration eliminates any concern about ammunition depletion in extended operations, though it demands careful heat management during sustained high-tempo combat. The O/P 3000 tracking and targeting system drew considerable praise for its responsiveness, earning the wry observation among Trident pilots that the system could nearly fly the fighter itself, leaving the pilot's only real job as pulling the trigger.</p>
 </capabilities>
+
+<overview>
+<p>Designed and produced by Newhart Industries beginning in 2717, the Trident served as a first-response aerospace fighter for planetary defense forces across the Inner Sphere during the height of the Star League. Valued for its combination of speed, durability, and an energy-based weapon suite free from logistical dependence on ammunition resupply, the design earned a reputation as a reliable and cost-effective light fighter suited to both atmospheric defense and carrier operations. Though eventually supplanted in front-line service by more capable designs, Newhart continued producing the Trident for years afterward, often selling units at or near cost to mercenary commands and smaller militaries that lacked access to more advanced equipment. The Trident's ease of maintenance and resilient airframe extended its operational life far beyond what contemporary assessments of its military prospects would have predicted.</p>
+</overview>
 
 <deployment>
 <p>The standard armor refit emerged during the Early Succession Wars as ferro-aluminum supplies dwindled and field technicians substituted conventional plating to keep airframes operational. This configuration became the most commonly encountered Trident variant across the Inner Sphere by the mid-Succession Wars era, appearing in the aerospace wings of minor Periphery states, independent mercenary outfits, and planetary militia forces. Despite its reduced armor protection relative to the original, the TRN-3U's all-energy armament and reliable airframe ensured it remained a functional combat asset through much of the Dark Ages.</p>
@@ -169,4 +156,16 @@ ARMOR:Standard Armor
 COMMUNICATIONS:42 Transitar
 TARGETING:O/P 3000
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

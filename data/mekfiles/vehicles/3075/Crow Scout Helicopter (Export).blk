@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5d7-77e6-acd5-ea6b57680824
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Crow Scout Helicopter
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -109,38 +109,13 @@ Machine Gun
 <Rotor Equipment>
 </Rotor Equipment>
 
-<slotless_equipment>
-IS Ammo RL-10
-IS Ammo RL-10
-</slotless_equipment>
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-15.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Crow (Export) is a dedicated strike and harassment variant of the Crow Scout Helicopter, developed by Yan Manufacturing for the open mercenary market. Removing the standard model's advanced electronics package entirely and replacing it with conventional direct-fire weapons, Yan produced an attack aircraft priced at approximately one-third the cost of the reconnaissance version. The export Crow trades intelligence-gathering capability for direct combat effectiveness and affordability, making it accessible to mercenary commands that cannot justify the cost of the standard configuration. The variant entered commercial circulation in 3069 and has attracted consistent demand across Inner Sphere mercenary markets.</p>
-</overview>
-
 <capabilities>
 <p>The export Crow replaces the reconnaissance model's full electronics suite with a pair of machine guns and a bank of one-shot rocket launchers, trading electronic warfare capability for direct firepower and dramatically reduced cost. The DAV 100 fusion engine and composite rotor construction remain unchanged, preserving top speed as the variant's primary survivability mechanism. Armor protection is heavier than the standard reconnaissance model, reflecting the export version's role as an active combatant accepting closer engagement ranges. The machine guns provide reliable sustained harassment capability, while the rocket launchers offer a single concentrated strike against hardened targets. As with all Crow variants, non-Combine operators must source locally manufactured rotor blade substitutes when original equipment wears out, with the predictable reduction in performance under sustained operational stress.</p>
 </capabilities>
+
+<overview>
+<p>The Crow (Export) is a dedicated strike and harassment variant of the Crow Scout Helicopter, developed by Yan Manufacturing for the open mercenary market. Removing the standard model's advanced electronics package entirely and replacing it with conventional direct-fire weapons, Yan produced an attack aircraft priced at approximately one-third the cost of the reconnaissance version. The export Crow trades intelligence-gathering capability for direct combat effectiveness and affordability, making it accessible to mercenary commands that cannot justify the cost of the standard configuration. The variant entered commercial circulation in 3069 and has attracted consistent demand across Inner Sphere mercenary markets.</p>
+</overview>
 
 <deployment>
 <p>The export Crow serves primarily with mercenary commands throughout the Inner Sphere, fulfilling strike, harassment, and screening roles across a wide range of operational environments. Its substantially lower cost makes the design accessible to smaller organizations that cannot afford the standard reconnaissance model, and the absence of restricted electronics allows unrestricted commercial sale outside the Draconis Combine. Demand has consistently exceeded initial production estimates, with multiple consecutive runs sold out in advance.</p>
@@ -175,4 +150,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+15.0
+</tonnage>
 

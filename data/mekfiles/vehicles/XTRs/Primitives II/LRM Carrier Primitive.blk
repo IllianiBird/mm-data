@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec2a-7682-bd35-0ff30fe06d81
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ LRM Carrier
 <year>
 2440
 </year>
-
-<originalBuildYear>
-2440
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -123,41 +123,13 @@ LRM 15
 3
 </engine_tech_rating>
 
-
-
-
-
-
-
-
-<source>
-XTR:Primitives II
-</source>
-
-<published>
-XTR:Primitives II
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-<fuel>
-1.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The LRM Carrier is a sixty-ton tracked combat vehicle designed to deliver massed long-range missile fire at minimal cost. Developed by the Quikscell Company as a modernized successor to primitive Age of War designs dating back to the 2440s, the current production model entered service around 2470 and has remained in continuous use ever since. Manufactured by nearly every major military supplier across the Inner Sphere, the LRM Carrier fills the role of cheap, expendable indirect fire support in armies that cannot afford dedicated artillery assets. Its reputation as a disposable weapons platform belies its effectiveness when properly employed in massed formations, where concentrated volleys of missiles can devastate even heavily armored targets.</p>
-</overview>
-
 <capabilities>
 <p>The primitive LRM Carrier represents the original Age of War design developed by Quik Products Inc around 2440. Built as a fifty-five-ton support vehicle using primitive construction methods, it mounts three LRM-20 launchers behind BAR 6 armor rated for battlefield protection but far below modern military standards. The InterComBust 180 engine and basic fire control systems perform adequately but lack the refinements of later production models.</p><p>Advanced fire control systems partially compensate for the crude construction, and the design's straightforward maintenance requirements made it accessible to militaries with limited technical infrastructure. These vehicles were rendered obsolete by the modernized carriers that entered production around 2580, though a handful survived in Periphery arsenals for decades afterward.</p>
 </capabilities>
+
+<overview>
+<p>The LRM Carrier is a sixty-ton tracked combat vehicle designed to deliver massed long-range missile fire at minimal cost. Developed by the Quikscell Company as a modernized successor to primitive Age of War designs dating back to the 2440s, the current production model entered service around 2470 and has remained in continuous use ever since. Manufactured by nearly every major military supplier across the Inner Sphere, the LRM Carrier fills the role of cheap, expendable indirect fire support in armies that cannot afford dedicated artillery assets. Its reputation as a disposable weapons platform belies its effectiveness when properly employed in massed formations, where concentrated volleys of missiles can devastate even heavily armored targets.</p>
+</overview>
 
 <deployment>
 <p>The primitive LRM Carrier served during the Age of War era, providing massed missile fire for armies still relying on pre-spaceflight military technology. Quik Products Inc manufactured these vehicles primarily on Ares and Pandora. The design was rendered obsolete by modernized carriers around 2580 but established the weapons carrier concept that would endure for centuries.</p>
@@ -186,4 +158,24 @@ TARGETING:Unknown
 ENGINE:180 ICE
 ARMOR:BAR 6
 </systemModels>
+
+<source>
+XTR:Primitives II
+</source>
+
+<published>
+XTR:Primitives II
+</published>
+
+<tonnage>
+55.0
+</tonnage>
+
+<fuel>
+1.0
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb7d-7a0e-8c54-ca0a6f56b117
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Mótuö Chë Shang No.2
 <year>
 2469
 </year>
-
-<originalBuildYear>
-2469
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -116,30 +116,13 @@ MonocycleChassisMod
 2
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-0.32
-</tonnage>
-
-<fuel>
-0.01
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Mótuö Chë Shang No. 2 is a handcrafted luxury monocycle produced by the Mótuö Chë Shang family enterprise on Sian. Founded in 2467 by Trun Shang, the company built its reputation around faultless craftsmanship and thorough customer service, securing its first commission from the Chancellor's court in 2469. The No. 2 has remained a coveted status symbol within the Confederation's upper social strata ever since. Production is deliberately limited to a few dozen units annually, with every vehicle assembled by hand and customized entirely to the buyer's specifications. No two No. 2s are identical, and the company regards each machine as a commission rather than a product.</p>
-</overview>
-
 <capabilities>
 <p>The No. 2 is a 320-kilogram wheeled support vehicle built on a Monocycle Chassis Modification, a single-wheel drive arrangement uncommon among production civilian vehicles. Its internal combustion engine produces a cruise speed approaching 130 kilometers per hour and a flank speed near 195 kilometers per hour, providing performance appropriate to its prestige positioning. A pillion seat accommodates a second rider of up to 25 kilograms, and 25 kilograms of storage is available beneath the seat. No armor or weapons are fitted.</p><p>The No. 2's Equipment Rating of C/D-D-D reflects its civilian orientation and limited but consistent availability to buyers of sufficient means. The "Easy to Maintain" design quirk demonstrates that extreme customization need not preclude practicality: the No. 2 uses proven, thoroughly understood components that any competent technician can service without specialist tooling. Parts wear predictably and can be fabricated locally, a deliberate design choice that reflects the company's philosophy of enduring reliability over fashionable novelty.</p>
 </capabilities>
+
+<overview>
+<p>The Mótuö Chë Shang No. 2 is a handcrafted luxury monocycle produced by the Mótuö Chë Shang family enterprise on Sian. Founded in 2467 by Trun Shang, the company built its reputation around faultless craftsmanship and thorough customer service, securing its first commission from the Chancellor's court in 2469. The No. 2 has remained a coveted status symbol within the Confederation's upper social strata ever since. Production is deliberately limited to a few dozen units annually, with every vehicle assembled by hand and customized entirely to the buyer's specifications. No two No. 2s are identical, and the company regards each machine as a commission rather than a product.</p>
+</overview>
 
 <deployment>
 <p>The Mótuö Chë Shang No. 2 is found almost exclusively among Capellan nobility, senior government officials, and wealthy patrons of sufficient social standing to secure a commission from the workshop. With each example unique and output deliberately limited, the vehicle functions as much as a commissioned artwork as a practical transport. Occasional examples reach destinations beyond Sian through diplomatic gifts and private transactions. The company does not pursue export markets and has never sought to expand production volume, regarding the deliberate scarcity as inseparable from the product's identity and value.</p>
@@ -168,4 +151,20 @@ CHASSIS:Monocycle Chassis Modification
 ENGINE:ICE
 COMMUNICATIONS:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+0.32
+</tonnage>
+
+<fuel>
+0.01
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

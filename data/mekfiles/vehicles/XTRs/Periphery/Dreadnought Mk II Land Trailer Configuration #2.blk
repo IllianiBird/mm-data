@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec05-7443-ad84-66d9c73936fa
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Configuration #2
 <year>
 3081
 </year>
-
-<originalBuildYear>
-3081
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -127,30 +127,13 @@ SRM 6
 3
 </engine_tech_rating>
 
-<source>
-XTR:Periphery
-</source>
-
-<published>
-XTR:Periphery
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-05 15:19:28
-<overview>
-<p>The Dreadnought Mk II Land Train is a military conversion of the Gienah-DuraPaq Elite Series 3 civilian land train, developed by Marian Arms, Inc. on Alphard for the Marian Hegemony Armed Forces. Authorized by Hegemony Armed Forces commander Michael Alexander and supervised by Marian Arms technician Proculeius Lodi, the project sought to transform the Hegemony's essential ore transport vehicles into self-defending convoy platforms capable of protecting critical supply routes without diverting dedicated combat assets to escort duty. Development began in 3072 and formal introduction was achieved in 3081. Consisting of a heavily armed tractor module and a series of interchangeable armed trailer configurations, the Mk II represents one of the Hegemony's most ambitious military engineering efforts. Only two complete trains were ever constructed, making the Dreadnought Mk II among the rarest vehicles in Periphery service.</p>
-</overview>
-
 <capabilities>
 <p>Each Dreadnought Mk II trailer is an unpowered 50-ton tracked module towed and powered by the tractor unit. The modules draw motive power directly from the tractor's fusion engine, requiring no independent power plant of their own. Built on a commercial Elite Series 3 trailer chassis upgraded with Tech D armor, each module carries four and a half tons of commercial grade ATC armor rated at BAR 7, substantially heavier than the civilian baseline. The modules are interconnectable, allowing the train to be assembled in varying consists by linking modules to each other as well as directly to the tractor.</p><p>Each module carries a twenty-ton cargo bay with four access doors on the front, left, right, and rear sides. The cargo carried varies by configuration, with each trailer variant equipped for a specific type of freight. Trailer gunners are quartered aboard the tractor and move to their stations when action is called. All weapon systems are governed by Advanced Fire Control. Individual modules are regularly exchanged between Train 838 and Train 520, allowing the two trains to vary their weapon fits and cargo assignments as mission requirements change across Alphard's mining routes.</p>
 </capabilities>
+
+<overview>
+<p>The Dreadnought Mk II Land Train is a military conversion of the Gienah-DuraPaq Elite Series 3 civilian land train, developed by Marian Arms, Inc. on Alphard for the Marian Hegemony Armed Forces. Authorized by Hegemony Armed Forces commander Michael Alexander and supervised by Marian Arms technician Proculeius Lodi, the project sought to transform the Hegemony's essential ore transport vehicles into self-defending convoy platforms capable of protecting critical supply routes without diverting dedicated combat assets to escort duty. Development began in 3072 and formal introduction was achieved in 3081. Consisting of a heavily armed tractor module and a series of interchangeable armed trailer configurations, the Mk II represents one of the Hegemony's most ambitious military engineering efforts. Only two complete trains were ever constructed, making the Dreadnought Mk II among the rarest vehicles in Periphery service.</p>
+</overview>
 
 <deployment>
 <p>Configuration Two arms its turret with an Extended LRM-10 and an SRM-6 launcher, governed by Advanced Fire Control. The combination provides effective firepower across both long and short engagement ranges, with the extended-range missiles engaging threats at distance while the SRM rack handles adversaries that close to direct engagement range. Four gunners crew this configuration, quartered aboard the tractor. Its twenty-ton cargo bay carries eighteen tons of liquid freight, making this trailer the primary bulk liquid transport in the consist. Train 838 fields two Configuration Two trailers alongside its Configuration One modules, relying on this variant's dual-range capability as its primary combat response.</p>
@@ -182,4 +165,20 @@ ARMOR:Commercial ATC (BAR 7, 4.5 tons)
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Periphery
+</source>
+
+<published>
+XTR:Periphery
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

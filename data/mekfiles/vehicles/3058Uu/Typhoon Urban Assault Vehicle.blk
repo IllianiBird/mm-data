@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e49a-7b4a-b0e0-676917261189
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Typhoon Urban Assault Vehicle
 <year>
 3057
 </year>
-
-<originalBuildYear>
-3057
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -113,26 +113,13 @@ ISMediumPulseLaser
 SRM 6
 </Turret Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Typhoon Urban Assault Vehicle was developed by Jalastar Aerospace on Panpour in response to demands from the Armed Forces of the Federated Commonwealth following the Clan Invasion. Intended to replace armor formations destroyed during that conflict, the Typhoon is a 70-ton wheeled design purpose-built for close urban engagements. Administrative complications and technical difficulties during development delayed full-scale production until 3057. The vehicle carries a crew of five and balances heavy firepower with adequate protection for the conditions of city warfare. Though not exceptional in road speed, the Typhoon compensates through its heavy weapons load and solid ferro-fibrous armor, earning a reliable reputation among AFFS planetary defense and assault formations.</p>
-</overview>
-
 <capabilities>
 <p>The Typhoon's primary weapon is a turret-mounted Luxor Devastator-20 autocannon, a heavy piece capable of threatening BattleMechs and vehicles alike at close to medium range. Supporting it in the turret are a Harpoon-6 SRM-6 launcher and a pair of Holly Streak SRM-2 launchers for precision missile engagement. Two additional Holly Streak SRM-2 launchers are fixed on the vehicle's front hull, giving the crew a potent short-range strike option even against flanking threats. A pair of Sutel Precision Line Medium Pulse Lasers provide reliable energy fire in the turret, while a Sutel Precision Line Small Pulse Laser covers the rear arc.</p><p>A Beagle Active Probe integrated with the Jalastar TargiTrack 717 targeting system enhances the crew's ability to detect hidden infantry and concealed vehicles, a meaningful advantage in urban combat. Nine and a half tons of ArcShield Maxi IV ferro-fibrous armor provides strong protection for a vehicle of its tonnage class. The Breen 190 fusion engine yields a modest top speed, reflecting the trade-off Jalastar made in favor of protection and firepower over mobility. The wheeled chassis, while economical and well-suited to road movement between urban sectors, sacrifices some cross-country performance compared to a tracked design. Ammunition dependency for the autocannon and SRM systems also creates a logistical burden on extended operations.</p>
 </capabilities>
+
+<overview>
+<p>The Typhoon Urban Assault Vehicle was developed by Jalastar Aerospace on Panpour in response to demands from the Armed Forces of the Federated Commonwealth following the Clan Invasion. Intended to replace armor formations destroyed during that conflict, the Typhoon is a 70-ton wheeled design purpose-built for close urban engagements. Administrative complications and technical difficulties during development delayed full-scale production until 3057. The vehicle carries a crew of five and balances heavy firepower with adequate protection for the conditions of city warfare. Though not exceptional in road speed, the Typhoon compensates through its heavy weapons load and solid ferro-fibrous armor, earning a reliable reputation among AFFS planetary defense and assault formations.</p>
+</overview>
 
 <deployment>
 <p>The standard Typhoon serves primarily in urban garrison and planetary assault roles within the Armed Forces of the Federated Suns. Introduced in 3057, it is most commonly assigned to combined arms formations alongside infantry and BattleMechs, where its heavy autocannon engages armored threats while its missile systems suppress infantry in building-to-building fighting. It is issued across a range of Regimental Combat Team formations and planetary militia units throughout the Federated Suns.</p>
@@ -165,4 +152,16 @@ ARMOR:Maxi IV
 COMMUNICATIONS:1500
 TARGETING:TargiTrack 717
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

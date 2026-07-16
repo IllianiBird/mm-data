@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec12-75a0-9e3a-3a743e475dfa
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Hi-Scout Drone Carrier
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -111,26 +111,13 @@ RemoteSensorDispenser
 ISC3RemoteSensorLauncher
 </Rear Equipment>
 
-<source>
-XTR:Phantoms
-</source>
-
-<published>
-XTR:Phantoms
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 15:48:35
-<overview>
-<p>The Hi-Scout Drone Carrier is a sixty-ton tracked reconnaissance vehicle produced by ScolTek Associates on Inarcs for the Lyran Commonwealth beginning in 3000. Designed as a mobile command hub for a network of unmanned sensor drones, the Hi-Scout offered planetary garrison forces a cost-effective alternative to committing BattleMechs or manned scout vehicles to forward reconnaissance. The vehicle serves as both the control platform and transport for its complement of six drones, coordinating their movements and processing their sensor data into actionable intelligence for field commanders. Produced initially for the LCAF, the Hi-Scout earned a reputation as one of the most capable dedicated reconnaissance systems of the late Succession Wars era, filling a niche that few other designs attempted to address. ScolTek's facility on Inarcs has maintained continuous production for over eight decades, making the Hi-Scout one of the longest-running vehicle programs in Lyran service.</p>
-</overview>
-
 <capabilities>
 <p>The Hi-Scout's primary strength lies in its StealthMat-Q communications system with MultiTrack coordination, capable of transmitting and monitoring over five hundred channels simultaneously. This allows the vehicle's crew to control six drones, three NapFind hover types and three PathTrak tracked types, carried in a fifteen-ton internal drone hangar. The drones create an overlapping sensor chain that more than doubles the carrier's effective detection range. The vehicle's own sensor suite includes infrared, seismic, audio, motion, radio (including hyperpulse signals), and radar, providing comprehensive coverage within sixty kilometers even without drone support.</p><p>Defensively, the Hi-Scout carries only a single SureShot II SRM-2 launcher with one ton of ammunition, reflecting its role as a rear-echelon asset rather than a frontline combatant. Five and a half tons of ArcShield V armor offer limited protection, sufficient to survive encounters with light hovercraft but inadequate against anything heavier. The Vlar 240 internal combustion engine provides a top speed of 64 kilometers per hour, adequate for keeping pace with infantry formations but leaving the vehicle vulnerable if forced to withdraw under fire. The designers clearly prioritized sensor capability and drone coordination over survivability, accepting that the vehicle must rely on friendly forces for protection.</p>
 </capabilities>
+
+<overview>
+<p>The Hi-Scout Drone Carrier is a sixty-ton tracked reconnaissance vehicle produced by ScolTek Associates on Inarcs for the Lyran Commonwealth beginning in 3000. Designed as a mobile command hub for a network of unmanned sensor drones, the Hi-Scout offered planetary garrison forces a cost-effective alternative to committing BattleMechs or manned scout vehicles to forward reconnaissance. The vehicle serves as both the control platform and transport for its complement of six drones, coordinating their movements and processing their sensor data into actionable intelligence for field commanders. Produced initially for the LCAF, the Hi-Scout earned a reputation as one of the most capable dedicated reconnaissance systems of the late Succession Wars era, filling a niche that few other designs attempted to address. ScolTek's facility on Inarcs has maintained continuous production for over eight decades, making the Hi-Scout one of the longest-running vehicle programs in Lyran service.</p>
+</overview>
 
 <deployment>
 <p>The Cunnington variant is an experimental prototype developed at ScolTek Associates by technician Adler Cunnington beginning in 3077. The design replaces the original internal combustion engine with a 240-rated XL fusion powerplant, freeing tonnage for significant capability upgrades. The SRM launcher is deleted, and the drone control capacity is increased to six units with improved coordination software. A duplex drive system grants limited amphibious capability, allowing the vehicle to cross water obstacles that would stop the standard variant. The addition of an Angel ECM suite provides electronic warfare protection against the heavy ECM environment of the modern battlefield, while a C3 boosted master computer and remote sensor dispenser transform the Hi-Scout from a simple scout into a capable networked command and reconnaissance platform. Approximately four prototypes were constructed by 3081, with continued production expected as the original Hi-Scout design became increasingly obsolete. A proposed headquarters variant would have traded drone capacity and the sensor dispenser for additional communications equipment, creating a dedicated mobile command post.</p>
@@ -163,4 +150,16 @@ ARMOR:ArcShield V
 COMMUNICATIONS:StealthMat-Q with Multitrack
 TARGETING:Mini-Find
 </systemModels>
+
+<source>
+XTR:Phantoms
+</source>
+
+<published>
+XTR:Phantoms
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

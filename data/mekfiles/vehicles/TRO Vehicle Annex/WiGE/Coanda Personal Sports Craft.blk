@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb90-7b4d-bfac-cb63d60e73fa
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Coanda Personal Sports Craft
 <year>
 3054
 </year>
-
-<originalBuildYear>
-3054
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -112,30 +112,13 @@ AmphibiousChassis
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-3.5
-</tonnage>
-
-<fuel>
-0.475
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-04 14:19:26
-<overview>
-<p>The Coanda Personal Sports Craft is a lightweight Wing-in-Ground-Effect racing vehicle produced by Skye Pleasure Craft Ltd on the Lyran world of Skye, introduced in 3054. Built for competitive aquatic racing, the Coanda was developed to serve the commercial opportunities presented by high-profile racing events such as the Skye Water Racing Championship, held every four years and drawing competitors and spectators from across Lyran space. Technically an unarmed civilian utility vehicle, its purpose is purely competitive sport. Interstellar media coverage of the championship circuit gave the Coanda significant commercial visibility, establishing Skye Pleasure Craft as a recognized manufacturer within the recreational WiGE market.</p>
-</overview>
-
 <capabilities>
 <p>The Coanda masses 3,500 kilograms, making it among the lightest Wing-in-Ground-Effect designs in production. Powered by an internal combustion engine, the craft skims the water surface using aerodynamic ground effect to achieve competitive racing speeds while maintaining a fuel range adequate for multi-kilometer championship courses. A BAR 6-rated armor shell provides minimal protection, intended for collision resistance and spray management rather than any combat application. The amphibious chassis modification enables operation across water and marginal coastal terrain, a practical feature for race courses that include shore transitions. No weapons are fitted. A single crew station is complemented by one passenger position, permitting a race observer or technical specialist to accompany the pilot without significantly affecting performance.</p>
 </capabilities>
+
+<overview>
+<p>The Coanda Personal Sports Craft is a lightweight Wing-in-Ground-Effect racing vehicle produced by Skye Pleasure Craft Ltd on the Lyran world of Skye, introduced in 3054. Built for competitive aquatic racing, the Coanda was developed to serve the commercial opportunities presented by high-profile racing events such as the Skye Water Racing Championship, held every four years and drawing competitors and spectators from across Lyran space. Technically an unarmed civilian utility vehicle, its purpose is purely competitive sport. Interstellar media coverage of the championship circuit gave the Coanda significant commercial visibility, establishing Skye Pleasure Craft as a recognized manufacturer within the recreational WiGE market.</p>
+</overview>
 
 <deployment>
 <p>The Coanda is produced at Skye Pleasure Craft's facility on Skye and is distributed primarily to professional racing teams and wealthy private buyers within the Lyran sphere. While technically capable of performing fast reconnaissance or liaison functions given its performance characteristics, the craft sees no meaningful military use. Its commercial prominence derives entirely from its racing profile, sustained by the Skye championship's interstellar media coverage. Distribution outside Lyran space remains limited, though the design's media visibility has created awareness in neighboring states.</p>
@@ -166,4 +149,20 @@ ARMOR:Unknown
 COMMUNICATIONS:N/A
 TARGETING:N/A
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+3.5
+</tonnage>
+
+<fuel>
+0.475
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

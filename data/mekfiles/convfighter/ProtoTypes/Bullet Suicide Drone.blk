@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa1d-733c-b74a-6cc70a417c8f
+</UUID>
+
 <UnitType>
 ConvFighter
 </UnitType>
@@ -35,10 +39,6 @@ Bullet Suicide Drone
 <year>
 3080
 </year>
-
-<originalBuildYear>
-3080
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -117,34 +117,13 @@ ISDroneOperatingSystem
 IS Ammo SRM-2
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Jihad pushed the Capellan Confederation into a vicious cycle of attrition. Horrific equipment losses forced the House to field whatever weapons it could produce, from advanced stealth-armored BattleMeks to expendable Hetzer assault guns. Increasing reliance on inferior equipment drove casualty rates higher, which deepened a crippling manpower shortage. Trainees were rushed through abbreviated courses only to be killed in combat, forcing academies to push yet another ill-prepared class into the field. Mujika Aerospace approached the Strategios with a solution to both problems: the Bullet Suicide Drone, a remotely piloted expendable fighter that could put inexperienced operators into real combat without risking their lives.</p>
-</overview>
-
 <capabilities>
 <p>The Bullet is, by design, an inferior version of the already-spartan Guardian conventional fighter. Its engine and missile system are smaller, and it lacks VSTOL capability, requiring prepared runways for operation. The sole external improvement is a modest increase in armor over the Guardian baseline. What makes the Bullet tactically significant is the absence of a cockpit and pilot compartment entirely.</p><p>Taking a page from Word of Blake drone warfare, Mujika installed a remote operating system that allows a pilot to control the fighter from a distance far enough that targeting the operator is impractical during active combat. The Bullet's nose-mounted SRM 2 provides token offensive capability, but its primary weapon is a powerful internal explosive charge. Designed to look and behave like a damaged Guardian, the Bullet is routinely ignored by anti-aircraft defenders focused on more dangerous aerospace fighters--until the moment it slams into a command center or DropShip in a devastating kamikaze strike.</p>
 </capabilities>
+
+<overview>
+<p>The Jihad pushed the Capellan Confederation into a vicious cycle of attrition. Horrific equipment losses forced the House to field whatever weapons it could produce, from advanced stealth-armored BattleMeks to expendable Hetzer assault guns. Increasing reliance on inferior equipment drove casualty rates higher, which deepened a crippling manpower shortage. Trainees were rushed through abbreviated courses only to be killed in combat, forcing academies to push yet another ill-prepared class into the field. Mujika Aerospace approached the Strategios with a solution to both problems: the Bullet Suicide Drone, a remotely piloted expendable fighter that could put inexperienced operators into real combat without risking their lives.</p>
+</overview>
 
 <deployment>
 <p>Capellan militias began purchasing Bullets by the dozen, deploying them en masse the moment any hostile force entered the atmosphere. The Word of Blake was caught completely off guard when entire squadrons of what appeared to be manned Guardian fighters unwaveringly slammed into their transports and landing zones, destroying assets worth far more than the drones themselves while the operators remained safely distant. Even AFFS forces were caught out--on New Hessen, two dozen Bullets acquired through shell mercenary companies destroyed two Word of Blake supply transports before the Blakists secured their landing zone.</p>
@@ -177,4 +156,16 @@ ARMOR:AeroShell Light
 COMMUNICATIONS:22 Automated
 TARGETING:Special T7
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

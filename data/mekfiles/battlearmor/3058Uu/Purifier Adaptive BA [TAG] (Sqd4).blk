@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a30a-7e00-b666-47133705c5ce
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Purifier Adaptive Battle Armor
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -91,42 +91,14 @@ BABattleClaw:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Purifier Adaptive is a medium battle armor design developed by the Word of Blake, built around a mimetic armor system capable of shifting color to match its surroundings. First fielded in 3062 from the Krupp Armament Works on Terra, the suit was among the first combat systems to employ adaptive camouflage technology, allowing troopers to become nearly invisible when stationary. Though lightly protected compared to other medium suits, the Purifier compensates with stealth and jump capability, filling a specialized reconnaissance and infiltration role. Its unique capabilities have made the Purifier one of the most distinctive battle armor suits in service across the Inner Sphere.</p>
-</overview>
 
 <capabilities>
 <p>The TAG configuration equips the Purifier Adaptive's modular weapon port with a light target acquisition gear system, enabling troopers to designate targets for artillery strikes and semi-guided missile fire from allied units. This configuration carries no direct-fire weapons beyond the suit's battle claw, relying entirely on supporting forces for offensive action. The mimetic armor proves especially valuable in this role, as TAG operators must maintain line of sight to their targets while remaining undetected. Jump jets provide ninety-meter leaps for reaching elevated observation positions, and the trooper's low signature allows extended spotting without drawing counterfire. The TAG loadout demands coordination with artillery and missile assets, making it less useful for independent operations but devastating when integrated into a combined-arms force.</p>
 </capabilities>
+
+<overview>
+<p>The Purifier Adaptive is a medium battle armor design developed by the Word of Blake, built around a mimetic armor system capable of shifting color to match its surroundings. First fielded in 3062 from the Krupp Armament Works on Terra, the suit was among the first combat systems to employ adaptive camouflage technology, allowing troopers to become nearly invisible when stationary. Though lightly protected compared to other medium suits, the Purifier compensates with stealth and jump capability, filling a specialized reconnaissance and infiltration role. Its unique capabilities have made the Purifier one of the most distinctive battle armor suits in service across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>Republic four-trooper squads equipped with TAG systems operated as artillery observers and missile designators within combined-arms task forces. The smaller squad size was sufficient for the spotting role, as TAG requires only one clear line of sight to a target. Republic commanders integrated these squads into defensive networks where concealed observation posts could direct devastating indirect fire.</p>
@@ -161,4 +133,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

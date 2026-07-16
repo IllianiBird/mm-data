@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d6a0-761f-9d05-0e00cdd5de26
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Wakazashi
 model:
 mul id:3475
@@ -171,7 +172,6 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The Wakazashi was the first original BattleMech design produced by Clan Jade Falcon, introduced around 2830 during a period of severe internal crisis. Suffering from self-inflicted injuries to their touman in the early twenty-ninth century, the Falcons needed to rebuild quickly. Khan Lisa Buhallin directed Falcon scientists to develop a heavily armed and armored defensive 'Mech, and the Wakazashi was selected from seven competing submissions. Named for the wakizashi, the short companion sword traditionally associated with desperate measures and ritual sacrifice, the design reflected the Khan's blunt assessment of her Clan's dire situation. Built by Eagle Craft Group on Ironhold, the eighty-five ton assault 'Mech earned a reputation as a durable and reliable garrison fighter, though it would ultimately be overtaken by more advanced technology.</p>
 
 capabilities:<p>The Wakazashi mounts a potent combination of long-range and close-combat weaponry on a heavily armored chassis. An SLDF Model 22-99-b Gauss rifle and a Talon 5 extended-range PPC provide devastating firepower at extended ranges, giving the 'Mech an effective kill zone extending roughly two-thirds of a kilometer. Supporting these is a Flocculation LB 20-X autocannon capable of switching between standard and cluster munitions, allowing the Wakazashi to exploit breaches in enemy armor at closer ranges. A pair of Series 7J extended-range medium lasers round out the armament as backup weapons.</p><p>The design emphasizes durability over sophistication. A standard Falcon 255 engine, while limiting the 'Mech to a top speed of just over fifty kilometers per hour, eliminates the catastrophic vulnerability of extralight designs and reduces resource demands. Sixteen and a half tons of StarForge ferro-fibrous armor mounted on a Falcon 85-1ES endo steel frame provide excellent protection. Falcon Heavy jump jets compensate for the low ground speed with ninety meters of jump capability, allowing effective tactical repositioning. Fourteen double heat sinks manage the thermal load efficiently, permitting alpha strikes with all primary weapons or combined jumping and energy weapon fire without dangerous heat buildup.</p><p>The Wakazashi's greatest limitation is its inflexibility. The combination of endo steel frame and ferro-fibrous armor leaves little internal volume for modification, and the standard engine cannot be easily swapped without extensive structural redesign. This rigidity, combined with the slow ground speed, means the Wakazashi is best employed in defensive or garrison roles where its firepower and armor can be leveraged from prepared positions rather than in mobile operations.</p>
@@ -183,6 +183,8 @@ history:<p>The Wakazashi's development was driven by Clan Jade Falcon's desperat
 manufacturer:Eagle Craft Group
 
 primaryfactory:Ironhold
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Falcon
 systemmode:CHASSIS:85-1ES

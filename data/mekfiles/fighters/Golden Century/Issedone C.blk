@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ac95-75b1-97d9-626e5f6c7f14
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ C
 <year>
 3146
 </year>
-
-<originalBuildYear>
-3146
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Advanced
@@ -133,34 +133,13 @@ ISChaffPod:OMNI
 CLECMSuite:OMNI
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:GC
-</source>
-
-<published>
-TR:GC
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>Clan Snow Raven became the first Clan to develop an OmniFighter when its technicians introduced the Issedone in 2871, drawing directly on the semi-modular Spad light fighter that the Clan had inherited from its Star League-era stores. Just as Clan Coyote had based the first OmniMech on the modular Mercury II, the Ravens leveraged the Spad's maintenance-friendly design to create their new fighter quickly. The result pleased the Clan's technicians, though the Issedone was never as effective as the Issus and Chaeronea fighters already in frontline service. Despite these limitations, it performed yeoman work for the next century before gradually fading into obsolescence. In a surprising development, Clan Sea Fox later reintroduced the Issedone and has found steady sales in tertiary markets like the Periphery, proof of how solid the basic package remains.</p>
-</overview>
-
 <capabilities>
 <p>The Issedone's saving grace is its nine tons of available pod space, generous for a thirty-ton airframe. The base chassis retains the F-50/C frame and GM 150 fusion engine of its Spad ancestor, providing safe thrust of 7 and a maximum of 11. Ten single heat sinks handle baseline thermal load, though most configurations add pod-mounted sinks to compensate for energy-heavy loadouts. Seven and a half tons of Carbondale III armor afford reasonable protection, but a reckless pilot can quickly find it insufficient against sustained fire.</p><p>The Issedone debuted seventeen years after the first OmniMech and faced the same technical limitations that plagued early land-air machines and first-generation aerospace OmniPods. Nine tons of Clan-technology equipment can make any light airframe dangerous, and the fighter uses that capacity effectively. Like the Spad before it, the Issedone is valued by technicians for its ruggedness and ease of servicing. Its CMDSTAT 500-A communications system and Scope Paint v2.41 targeting suite represent incremental upgrades over the Spad's original electronics, maintaining the design philosophy of reliability over sophistication.</p>
 </capabilities>
+
+<overview>
+<p>Clan Snow Raven became the first Clan to develop an OmniFighter when its technicians introduced the Issedone in 2871, drawing directly on the semi-modular Spad light fighter that the Clan had inherited from its Star League-era stores. Just as Clan Coyote had based the first OmniMech on the modular Mercury II, the Ravens leveraged the Spad's maintenance-friendly design to create their new fighter quickly. The result pleased the Clan's technicians, though the Issedone was never as effective as the Issus and Chaeronea fighters already in frontline service. Despite these limitations, it performed yeoman work for the next century before gradually fading into obsolescence. In a surprising development, Clan Sea Fox later reintroduced the Issedone and has found steady sales in tertiary markets like the Periphery, proof of how solid the basic package remains.</p>
+</overview>
 
 <deployment>
 <p>Introduced by Clan Sea Fox for export markets, the C configuration serves a support and electronic warfare role. Modular armor panels on the nose and both wings provide additional protection. The nose carries an ER small laser and light TAG system, while each wing mounts paired micro pulse lasers. An ECM suite and two rear-firing chaff pods sourced from Inner Sphere vendors round out the electronic warfare package.</p>
@@ -195,4 +174,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:500-A
 TARGETING:v2.41
 </systemModels>
+
+<source>
+TR:GC
+</source>
+
+<published>
+TR:GC
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

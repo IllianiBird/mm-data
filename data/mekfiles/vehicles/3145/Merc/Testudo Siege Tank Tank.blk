@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e814-72cf-8cb3-b20f63680afd
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Testudo Siege Tank
 <year>
 3131
 </year>
-
-<originalBuildYear>
-3131
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -114,26 +114,13 @@ Light Machine Gun
 ISArrowIV
 </Turret Equipment>
 
-<source>
-TR:3145:Merc,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Testudo Siege Tank takes its name from a Roman military formation, a tribute to the Marian Hegemony's enduring affection for classical Roman heritage. Designed and manufactured by the Alphard Trading Corporation on Alphard, the Testudo entered service in 3131 in response to growing unrest within the Hegemony's infantry ranks. The caesar of the time recognized that infantry morale demanded a visible, powerful support platform, and the Testudo was the answer to that demand. Built to fulfill a dual role, the design balances devastating long-range artillery capability with the ability to anchor a defensive line as a mobile support vehicle. The result is a vehicle that gives Marian infantry commanders both fire superiority at range and a solid armored presence when the fighting moves to close quarters, a combination rare among Periphery designs of comparable tonnage.</p>
-</overview>
-
 <capabilities>
 <p>The Testudo's primary offensive tool is a turreted Marian Arms Lithobolos Arrow IV artillery system, giving the crew indirect fire capability well beyond conventional direct-fire ranges. Carrying three tons of Arrow IV ammunition, crews can select from a variety of warhead types to suit different tactical situations, from anti-armor salvos to anti-infantry munitions. The flexibility this provides makes the Testudo useful across a wide range of mission profiles, though it burns through ammunition rapidly during sustained fire missions.</p><p>For direct engagements, the Imperator Automatic Ultra AC/10 provides a hard-hitting main weapon capable of double-tap fire when the tactical situation allows. Two SperryBrowning Light Machine Guns, one turret-mounted and one fixed in the hull front, round out the armament and give the crew a reasonable answer to infantry threats at close range.</p><p>Protection comes from 12.5 tons of Lorica Progressia ferro-fibrous armor backed by CASE, which limits blast damage to the crew in the event of an ammunition cook-off. The Omni 225 fuel cell engine keeps the vehicle's heat signature manageable and reduces fire risk compared to fusion alternatives. The trade-off is a modest top speed that leaves the Testudo vulnerable to fast flanking attacks. The machine guns, while effective against unarmored infantry, offer little deterrence against battle armor or faster assault units pressing a close engagement.</p>
 </capabilities>
+
+<overview>
+<p>The Testudo Siege Tank takes its name from a Roman military formation, a tribute to the Marian Hegemony's enduring affection for classical Roman heritage. Designed and manufactured by the Alphard Trading Corporation on Alphard, the Testudo entered service in 3131 in response to growing unrest within the Hegemony's infantry ranks. The caesar of the time recognized that infantry morale demanded a visible, powerful support platform, and the Testudo was the answer to that demand. Built to fulfill a dual role, the design balances devastating long-range artillery capability with the ability to anchor a defensive line as a mobile support vehicle. The result is a vehicle that gives Marian infantry commanders both fire superiority at range and a solid armored presence when the fighting moves to close quarters, a combination rare among Periphery designs of comparable tonnage.</p>
+</overview>
 
 <deployment>
 <p>The Testudo is deployed in dedicated fire support lances attached to Marian Hegemony Armed Forces infantry formations, typically operating two to four vehicles per company. Standard doctrine calls for the tanks to establish firing positions at the outer edge of indirect fire range before an assault, shifting forward as the infantry advances to maintain coverage. The Arrow IV system requires a relatively stable platform during bombardment, making terrain selection critical for the crew. In defensive operations, Testudos are often positioned in hull-down emplacements, using their heavy armor and artillery reach to deny ground rather than maneuver against the enemy. The design has seen limited export beyond the Hegemony and remains almost exclusively a Marian asset.</p>
@@ -166,4 +153,16 @@ ARMOR:Lorica Progressia
 COMMUNICATIONS:T21-C
 TARGETING:GRD 059
 </systemModels>
+
+<source>
+TR:3145:Merc,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea9d-76b7-99cd-2165b9e79aab
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Freedom 900 Hover Jeep
 <year>
 3013
 </year>
-
-<originalBuildYear>
-3013
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -112,30 +112,13 @@ ConvertibleChassisMod
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-3.0
-</tonnage>
-
-<fuel>
-0.3
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-02 15:52:16
-<overview>
-<p>The Freedom 900 Hover Jeep is the current production model of the Freedom series of utility hover vehicles, manufactured by Earthwerks Incorporated and sold across the Inner Sphere. The Freedom series has been in continuous production since the late twenty-seventh century, establishing a reputation for simplicity and durability that has made it the most widely distributed civilian hover vehicle in known space. The Freedom 900 is a refinement of that long heritage, introduced in 3013 as a four-seat utility platform designed for maximum accessibility across every economic tier of Inner Sphere society. Earthwerks' dominance of the hover utility market has made the Freedom 900 as common a sight on developed worlds as on struggling fringe planets, serving roles ranging from personal transport to emergency services.</p>
-</overview>
-
 <capabilities>
 <p>The Freedom 900 is a 3,000-kilogram hover vehicle built around an internal combustion engine, prioritizing reliability and ease of maintenance over raw performance. Its cruise speed and moderate top speed are unremarkable by military standards but entirely adequate for its intended civilian applications. The design carries meaningful structural armor rated to withstand routine hazards, far more than its stablemate the Bayamo, making it genuinely suitable for rough terrain and environments where incidental damage is likely.</p><p>A Convertible Chassis Modification allows the Freedom 900 to be configured as a fully enclosed four-seat passenger vehicle, with a crew position and three dedicated passenger seats. The design carries 304 kilograms of standard cargo. Its fuel tank holds sufficient ICE fuel for approximately 2,564 kilometers of range, one of its most practical attributes for long-distance travel on worlds with sparse infrastructure. No weapons are fitted in the standard configuration, though the vehicle's cargo capacity and sturdy chassis have made it a common base for field modifications and specialty variants across its long production history. The rugged, uncomplicated powertrain requires minimal specialist tools to maintain, a feature Earthwerks has consistently highlighted in its marketing and one that has proven decisive in keeping the Freedom series dominant across underdeveloped worlds.</p>
 </capabilities>
+
+<overview>
+<p>The Freedom 900 Hover Jeep is the current production model of the Freedom series of utility hover vehicles, manufactured by Earthwerks Incorporated and sold across the Inner Sphere. The Freedom series has been in continuous production since the late twenty-seventh century, establishing a reputation for simplicity and durability that has made it the most widely distributed civilian hover vehicle in known space. The Freedom 900 is a refinement of that long heritage, introduced in 3013 as a four-seat utility platform designed for maximum accessibility across every economic tier of Inner Sphere society. Earthwerks' dominance of the hover utility market has made the Freedom 900 as common a sight on developed worlds as on struggling fringe planets, serving roles ranging from personal transport to emergency services.</p>
+</overview>
 
 <deployment>
 <p>The Freedom 900 is found on virtually every inhabited world in the Inner Sphere in some form, from personal family transports to municipal utility fleets. Earthwerks has developed an extensive catalog of factory variants to serve specific markets, including multi-purpose vehicles, light cargo conversions, law enforcement configurations, and ambulance models. The basic platform's combination of range, carrying capacity, and low maintenance requirements makes it particularly prevalent on frontier worlds and developing colonies where specialized vehicles are unavailable. Military and paramilitary organizations occasionally use Freedom 900 variants for logistics, courier duty, and base transport in rear-echelon roles where the vehicle's lack of armor and weapons is not a disqualifying factor.</p>
@@ -170,4 +153,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:N/A
 TARGETING:N/A
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+3.0
+</tonnage>
+
+<fuel>
+0.3
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

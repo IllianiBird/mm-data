@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e856-73e5-a492-341601806465
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Winston Combat Vehicle
 <year>
 3107
 </year>
-
-<originalBuildYear>
-3107
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -115,26 +115,13 @@ CLLRM20
 ISTAG
 </Turret Equipment>
 
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>The Winston Combat Vehicle emerged in 3085 as a product of Pandora 'Mech Works, a Terra-based manufacturer struggling to find its footing in the post-Jihad economy. Known previously for the Puma assault tank, Pandora found that the Puma's close association with the Word of Blake had rendered it nearly unsaleable, forcing the company to develop an entirely new design or face closure. The resulting vehicle offered better protection and comparable firepower to tanks several tons heavier, without any of that political baggage. A procurement controversy over the vehicle's original name led to its renaming in honor of the famous soldier and statesman Winston Churchill. The tank entered field trials in November 3085 and impressed Republic Armed Forces evaluators, with full production and deployment to Republic front-line armor formations expected to begin in 3086.</p>
-</overview>
-
 <capabilities>
 <p>The Winston mounts its primary weapons in a central turret, pairing two Donal Technologies Light PPCs with a pair of Holly LRM 15 racks for sustained long-range engagements. Critics have questioned whether the light PPCs provide adequate penetrating power for a 70-ton main battle tank, but the designers prioritized redundancy over raw punch. The widely spaced LRM racks serve as mutual backups, ensuring the Winston can continue fighting even if one system is disabled. A fore-mounted Buzzsaw Anti-Missile System provides active defense against incoming guided munitions, while a Holly Streak SRM 6 adds reliable close-range firepower.</p><p>The key to the Winston's performance is its Pitban Light 210 fusion engine, which frees up substantial internal space compared to a conventional powerplant. This allows the vehicle to carry fourteen and a half tons of AmberStar Weave heavy ferro-fibrous armor, making it one of the best-protected vehicles in its weight class. A vehicular CASE installation shields the crew from ammunition explosions. The trade-off is modest ground speed and somewhat reduced offensive punch at close range compared to heavier conventional tanks. In practice, the Winston's layered defenses and redundant weapons systems allow it to absorb and return fire well beyond what its tonnage would suggest, compensating for its limited closing ability.</p>
 </capabilities>
+
+<overview>
+<p>The Winston Combat Vehicle emerged in 3085 as a product of Pandora 'Mech Works, a Terra-based manufacturer struggling to find its footing in the post-Jihad economy. Known previously for the Puma assault tank, Pandora found that the Puma's close association with the Word of Blake had rendered it nearly unsaleable, forcing the company to develop an entirely new design or face closure. The resulting vehicle offered better protection and comparable firepower to tanks several tons heavier, without any of that political baggage. A procurement controversy over the vehicle's original name led to its renaming in honor of the famous soldier and statesman Winston Churchill. The tank entered field trials in November 3085 and impressed Republic Armed Forces evaluators, with full production and deployment to Republic front-line armor formations expected to begin in 3086.</p>
+</overview>
 
 <deployment>
 <p>The Support variant upgrades the Winston's weapons suite to incorporate Clan-grade LRM technology, significantly extending engagement range and increasing missile strike volume without adding weight. Introduced in 3107 to serve alongside Republic Armed Forces heavy armor formations, the Support variant functions as a force multiplier in mixed combined-arms units, providing long-range fire support to heavier vehicles and BattleMechs. It retains the base variant's hull, protection, and mobility characteristics.</p>
@@ -167,4 +154,16 @@ ARMOR:Weave Heavy Ferro
 COMMUNICATIONS:400E
 TARGETING:EE-4
 </systemModels>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

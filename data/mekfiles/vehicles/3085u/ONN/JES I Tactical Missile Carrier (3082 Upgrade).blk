@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e767-70d0-b654-39137f93ac39
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ JES I Tactical Missile Carrier
 <year>
 3082
 </year>
-
-<originalBuildYear>
-3082
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -112,26 +112,13 @@ Machine Gun
 SRM 6
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The JES I Tactical Missile Carrier was the first new combat vehicle produced by Joint Equipment Systems after the Clan Invasion stripped the company of its primary manufacturing facilities on Alshain. Introduced in 3075 from the company's Panpour facility in the Federated Suns, the JES I represented a desperate attempt by a struggling manufacturer to re-enter the military vehicle market with limited resources. Designed as a short-range ambush platform, it carried a staggering number of missile launchers on a hovercraft chassis, offering enormous firepower in a package that was both cheap to produce and easy to maintain. The vehicle found a niche among cost-conscious buyers, particularly in the Periphery, where its low price offset its well-known shortcomings.</p>
-</overview>
-
 <capabilities>
 <p>The JES I is built around a massive short-range missile battery consisting of three Holly SRM-6 launchers and four Holly SRM-4 launchers, giving it an initial barrage of more than thirty missiles. A Sutel Precision Line extended-range small laser provides a token energy weapon, while two 22mm Gatling Guns handle infantry threats. Seven tons of missile ammunition give the crew reasonable endurance for sustained engagements.</p><p>The vehicle's critical weakness is its powerplant. Joint Equipment Systems lacked the capital to invest in a proper military-grade fusion engine and instead adapted a civilian JES 15-rated engine, giving the fifty-ton hovercraft a cruising speed of only 54 km/h and a flank speed of 86 km/h. This makes the JES I one of the slowest hovercraft in active service, a serious liability for a vehicle designed around ambush tactics. Lexington Ltd. High Grade armor provides modest protection, but the thin coverage cannot sustain serious return fire. The combination of slow speed, light armor, and exclusively short-range weaponry makes the JES I heavily dependent on terrain and tactical surprise to survive engagements.</p>
 </capabilities>
+
+<overview>
+<p>The JES I Tactical Missile Carrier was the first new combat vehicle produced by Joint Equipment Systems after the Clan Invasion stripped the company of its primary manufacturing facilities on Alshain. Introduced in 3075 from the company's Panpour facility in the Federated Suns, the JES I represented a desperate attempt by a struggling manufacturer to re-enter the military vehicle market with limited resources. Designed as a short-range ambush platform, it carried a staggering number of missile launchers on a hovercraft chassis, offering enormous firepower in a package that was both cheap to produce and easy to maintain. The vehicle found a niche among cost-conscious buyers, particularly in the Periphery, where its low price offset its well-known shortcomings.</p>
+</overview>
 
 <deployment>
 <p>The 3082 Upgrade addressed the JES I's most notorious shortcoming by replacing the tiny JES 15 engine with a 165-rated powerplant produced at JES's expanded Cartago engine facility. The upgraded vehicle was built on a tracked chassis rather than the original hovercraft platform, and the larger engine increased maximum speed substantially. Despite a nearly sixty percent increase in unit cost, the upgraded version saw strong sales and became a common support element in JES II platoons.</p>
@@ -164,4 +151,16 @@ ARMOR:High Grade
 COMMUNICATIONS:Communicator
 TARGETING:FireScan with IndirecTrack
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

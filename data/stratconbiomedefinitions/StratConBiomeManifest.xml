@@ -226,11 +226,10 @@
         <entry>
             <key>ColdSea</key>
             <value>
-                <mapTypes>ColdSeaCoastalFort</mapTypes>
-                <mapTypes>ColdSeaCoastalRoads</mapTypes>
                 <mapTypes>ColdSeaDeltas</mapTypes>
                 <mapTypes>ColdSeaFjords</mapTypes>
                 <mapTypes>ColdSeaFjordsSteep</mapTypes>
+                <mapTypes>OpenOceanCold</mapTypes>
             </value>
         </entry>
         <entry>
@@ -240,6 +239,7 @@
                 <mapTypes>CityCold</mapTypes>
                 <mapTypes>TownCold</mapTypes>
                 <mapTypes>RuralHomesteadsCold</mapTypes>
+                <mapTypes>ColdSeaCoastalRoads</mapTypes>
             </value>
         </entry>
         <entry>
@@ -307,6 +307,7 @@
             <key>FrozenSea</key>
             <value>
                 <mapTypes>FrozenSea</mapTypes>
+                <mapTypes>OpenOceanFrozen</mapTypes>
             </value>
         </entry>
         <entry>
@@ -393,6 +394,7 @@
             <value>
                 <mapTypes>SeaHotDesert</mapTypes>
                 <mapTypes>SeaHotJungle</mapTypes>
+                <mapTypes>OpenOceanTropical</mapTypes>
             </value>
         </entry>
         <entry>
@@ -457,13 +459,9 @@
         <entry>
             <key>Sea</key>
             <value>
-                <mapTypes>Sea-CoastalFort</mapTypes>
-                <mapTypes>Sea-CoastalRoads</mapTypes>
                 <mapTypes>Sea-Deltas</mapTypes>
                 <mapTypes>Sea-Fjord</mapTypes>
-                <mapTypes>Sea-MangroveCliffs</mapTypes>
-                <mapTypes>Sea-SaltwaterMarsh</mapTypes>
-                <mapTypes>Seaport</mapTypes>
+                <mapTypes>OpenOcean</mapTypes>
             </value>
         </entry>
         <entry>
@@ -500,6 +498,8 @@
                 <mapTypes>Muddy-swamp - Jazz</mapTypes>
                 <mapTypes>River-wetlands - Jazz</mapTypes>
                 <mapTypes>Swamp - Jazz</mapTypes>
+                <mapTypes>Sea-MangroveCliffs</mapTypes>
+                <mapTypes>Sea-SaltwaterMarsh</mapTypes>
             </value>
         </entry>
         <entry>
@@ -525,6 +525,7 @@
                 <mapTypes>PlainsOutpost</mapTypes>
                 <mapTypes>PlainsTown</mapTypes>
                 <mapTypes>Town-wooded</mapTypes>
+                <mapTypes>Sea-CoastalFort</mapTypes>
             </value>
         </entry>
         <entry>
@@ -538,6 +539,7 @@
                 <mapTypes>Town-ruin</mapTypes>
                 <mapTypes>Seaport</mapTypes>
                 <mapTypes>Town-mining</mapTypes>
+                <mapTypes>Sea-CoastalRoads</mapTypes>
             </value>
         </entry>
     </biomeMapTypes>

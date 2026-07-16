@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ab6f-7897-a7ff-44d79f9c6a07
+</UUID>
+
 <UnitType>
 Dropship
 </UnitType>
@@ -35,10 +39,6 @@ Mercer
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -201,6 +201,46 @@ CLArtemisIV
 30
 </structural_integrity>
 
+<capabilities>
+<p>The Mercer's nose concentrates devastating firepower: six ER large lasers, three ER medium lasers, four ER PPCs, two large pulse lasers, two Gauss rifles, four LRM-20 racks with Artemis IV fire control, and two Streak SRM-6 launchers. Each broadside carries two ER large lasers, five ER medium lasers, four ER PPCs, two large pulse lasers, and two medium pulse lasers. The aft arc mounts four ER large lasers, two ER PPCs, and two Artemis-guided LRM-20 racks for rear defense.</p><p>One hundred seventy-five double heat sinks manage the enormous thermal output from this Clan-grade arsenal. The vessel carries 1,320 points of armor and achieves a safe thrust of five with a structural integrity of thirty, giving it both resilience and agility for a transport of its size. The transport bays accommodate ten OmniMechs, a full Binary, alongside 577 tons of cargo for spare parts and OmniMech pod equipment. A crew of fifty-three operates the vessel.</p>
+</capabilities>
+
+<overview>
+<p>The Mercer class assault transport is a 4,500-ton Spheroid DropShip developed by Clan Steel Viper as part of a major rearmament program in the mid-3060s. Designed specifically to land troops in the face of determined aerospace opposition without relying on safcon protocols, the Mercer was conceived to carry a full Binary of ten OmniMechs while mounting enough firepower and armor to fight through hostile aerospace screens independently.</p><p>While the final design fell short of its ambitious specifications on several counts, the Mercer nonetheless represented a significant addition to the Steel Viper touman's transport capabilities. Its heavy armament and substantial armor made it a formidable opponent for any defending force, and its unexpected appearance proved a potent tactical advantage in the Mercer's first engagements.</p>
+</overview>
+
+<deployment>
+<p>The Mercer served exclusively with Clan Steel Viper's touman, deployed as the spearhead of contested planetary assaults where enemy aerospace opposition was expected. These vessels were typically assigned to frontline Galaxies tasked with offensive operations against Clan Snow Raven holdings and other Steel Viper rivals. The design's brief combat record demonstrated both its strengths in forcing landings and its vulnerability when operating beyond the protection of its own fighter escorts.</p>
+</deployment>
+
+<history>
+<p>The Mercer was born from Clan Steel Viper's rearmament program, which included a major bolstering of aerospace forces. The Steel Vipers recognized that their campaign of vengeance against Clan Snow Raven would require assaulting worlds defended by the formidable Raven aerospace arm, and that safcon would neither be requested nor granted. The Vipers needed a transport that could force a contested landing against the best the so-called naval Clan could deploy.</p><p>The Mercer's first combat deployment came at the world of Lum, where its unexpected appearance as a completely unknown design caught the Snow Raven defenders off guard. The Mercer allowed the Steel Vipers to punch through the Raven aerospace cordon and successfully land troops on the factory world. However, the assault came at significant cost. Two Mercers were lost to aerospace fighter attacks after they outran their own fighter escorts, and a third was destroyed on the ground during Raven counterattacks. Though the Snow Ravens eventually drove the Vipers off world, the battle disrupted manufacturing operations at Lum for over a month.</p>
+</history>
+
+<manufacturer>
+Unknown
+</manufacturer>
+
+<primaryFactory>
+Unknown
+</primaryFactory>
+
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<systemModels>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemModels>
+
 <source>
 TR:3067
 </source>
@@ -252,45 +292,4 @@ RS:3067u
 <escape_pod>
 4
 </escape_pod>
-
-# Fluff Date: 2026-02-28 15:44:34
-<overview>
-<p>The Mercer class assault transport is a 4,500-ton Spheroid DropShip developed by Clan Steel Viper as part of a major rearmament program in the mid-3060s. Designed specifically to land troops in the face of determined aerospace opposition without relying on safcon protocols, the Mercer was conceived to carry a full Binary of ten OmniMechs while mounting enough firepower and armor to fight through hostile aerospace screens independently.</p><p>While the final design fell short of its ambitious specifications on several counts, the Mercer nonetheless represented a significant addition to the Steel Viper touman's transport capabilities. Its heavy armament and substantial armor made it a formidable opponent for any defending force, and its unexpected appearance proved a potent tactical advantage in the Mercer's first engagements.</p>
-</overview>
-
-<capabilities>
-<p>The Mercer's nose concentrates devastating firepower: six ER large lasers, three ER medium lasers, four ER PPCs, two large pulse lasers, two Gauss rifles, four LRM-20 racks with Artemis IV fire control, and two Streak SRM-6 launchers. Each broadside carries two ER large lasers, five ER medium lasers, four ER PPCs, two large pulse lasers, and two medium pulse lasers. The aft arc mounts four ER large lasers, two ER PPCs, and two Artemis-guided LRM-20 racks for rear defense.</p><p>One hundred seventy-five double heat sinks manage the enormous thermal output from this Clan-grade arsenal. The vessel carries 1,320 points of armor and achieves a safe thrust of five with a structural integrity of thirty, giving it both resilience and agility for a transport of its size. The transport bays accommodate ten OmniMechs, a full Binary, alongside 577 tons of cargo for spare parts and OmniMech pod equipment. A crew of fifty-three operates the vessel.</p>
-</capabilities>
-
-<deployment>
-<p>The Mercer served exclusively with Clan Steel Viper's touman, deployed as the spearhead of contested planetary assaults where enemy aerospace opposition was expected. These vessels were typically assigned to frontline Galaxies tasked with offensive operations against Clan Snow Raven holdings and other Steel Viper rivals. The design's brief combat record demonstrated both its strengths in forcing landings and its vulnerability when operating beyond the protection of its own fighter escorts.</p>
-</deployment>
-
-<history>
-<p>The Mercer was born from Clan Steel Viper's rearmament program, which included a major bolstering of aerospace forces. The Steel Vipers recognized that their campaign of vengeance against Clan Snow Raven would require assaulting worlds defended by the formidable Raven aerospace arm, and that safcon would neither be requested nor granted. The Vipers needed a transport that could force a contested landing against the best the so-called naval Clan could deploy.</p><p>The Mercer's first combat deployment came at the world of Lum, where its unexpected appearance as a completely unknown design caught the Snow Raven defenders off guard. The Mercer allowed the Steel Vipers to punch through the Raven aerospace cordon and successfully land troops on the factory world. However, the assault came at significant cost. Two Mercers were lost to aerospace fighter attacks after they outran their own fighter escorts, and a third was destroyed on the ground during Raven counterattacks. Though the Snow Ravens eventually drove the Vipers off world, the battle disrupted manufacturing operations at Lum for over a month.</p>
-</history>
-
-<manufacturer>
-Unknown
-</manufacturer>
-
-<primaryFactory>
-Unknown
-</primaryFactory>
-
-<systemManufacturers>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemManufacturers>
-
-<systemModels>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemModels>
 

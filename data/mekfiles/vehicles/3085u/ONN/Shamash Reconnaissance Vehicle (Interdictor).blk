@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e780-73b8-b8b4-40c7cddfb1ef
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Shamash Reconnaissance Vehicle
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -104,26 +104,13 @@ CLECMSuite
 CLERMediumLaser
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<tonnage>
-11.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 14:27:05
-<overview>
-<p>The Shamash Reconnaissance Vehicle was developed by Clan Blood Spirit in the late twenty-ninth century as an economical alternative to the heavier Asshur. Facing declining planetary holdings and shrinking access to raw materials, Blood Spirit's scientist caste was pressed to create a platform that could be manufactured and fielded quickly. The result was a lightweight hover vehicle, massing roughly half of the Asshur, designed around exceptional speed and simplicity of operation. At just eleven tons, the Shamash relies on velocity rather than heavy armor or weapons to survive on the battlefield.</p><p>One of its most distinctive characteristics is its single-crew configuration, which reduces both operational costs and manufacturing complexity. That same solo arrangement granted Shamash drivers a measure of individual combat glory more commonly associated with MechWarriors, an unusual cultural distinction for a vehicle crew. Clan Diamond Shark later acquired the facility plans and brought the Shamash into Inner Sphere production, broadening its reach far beyond Blood Spirit's Touman.</p>
-</overview>
-
 <capabilities>
 <p>The Shamash's defining advantage is its exceptional ground speed. Powered by a Fusion 60 engine, the vehicle achieves a cruising speed of 140 kilometers per hour and a top speed exceeding 200 kilometers per hour on favorable terrain, outpacing most BattleMechs, ground vehicles, and even many VTOL aircraft. That speed is its primary survival tool, allowing the vehicle to enter and exit engagement ranges faster than most opponents can respond.</p><p>Its offensive capability rests on four Series 1 extended-range small lasers mounted in a fully rotating turret. While each individual laser is modest in output, the combined fire of all four poses a genuine threat to BattleMechs at the ranges where the Shamash prefers to operate. The turret mount provides a full 360-degree field of fire, allowing the vehicle to engage targets while continuing to maneuver, a critical capability for a reconnaissance platform.</p><p>The Compound JX2 ferro-fibrous armor offers reasonable protection for a vehicle of this tonnage, providing better coverage than standard plate while keeping mass to a minimum. Nonetheless, the eleven-ton chassis cannot absorb sustained punishment, and any engagement that turns into a slugging match is likely to end badly. The single-crew design compounds this vulnerability: the driver handles reconnaissance, gunnery, navigation, and vehicle command simultaneously, degrading reaction time under fire. Blood Spirit accepted this trade-off deliberately, exchanging reduced survivability for lower production costs and the warrior-culture advantages of solo operation.</p>
 </capabilities>
+
+<overview>
+<p>The Shamash Reconnaissance Vehicle was developed by Clan Blood Spirit in the late twenty-ninth century as an economical alternative to the heavier Asshur. Facing declining planetary holdings and shrinking access to raw materials, Blood Spirit's scientist caste was pressed to create a platform that could be manufactured and fielded quickly. The result was a lightweight hover vehicle, massing roughly half of the Asshur, designed around exceptional speed and simplicity of operation. At just eleven tons, the Shamash relies on velocity rather than heavy armor or weapons to survive on the battlefield.</p><p>One of its most distinctive characteristics is its single-crew configuration, which reduces both operational costs and manufacturing complexity. That same solo arrangement granted Shamash drivers a measure of individual combat glory more commonly associated with MechWarriors, an unusual cultural distinction for a vehicle crew. Clan Diamond Shark later acquired the facility plans and brought the Shamash into Inner Sphere production, broadening its reach far beyond Blood Spirit's Touman.</p>
+</overview>
 
 <deployment>
 <p>Developed by Clan Ghost Bear at the New York Vehicle Y2 Facility on Trondheim during the Jihad, the Interdictor replaces the laser armament with an ECM suite and a single extended-range medium laser. The design optimizes the Shamash for electronic warfare, using the vehicle's exceptional speed to position the ECM suite where it can best disrupt enemy communications and targeting systems. The single laser provides enough deterrent to discourage pursuit by comparable light units.</p><p>Ghost Bear and Rasalhague Dominion forces fielded it as a dedicated electronic warfare screening element, using its speed to deny sensor coverage to enemy reconnaissance units while protecting friendly formations from targeting interference. Production at Trondheim began in the Dark Age era, with the MUPL noting Trondheim as the likely manufacturer based on its role as the producer of the original design.</p>
@@ -156,4 +143,16 @@ ARMOR:Compound JX2 Ferro-Fibrous
 COMMUNICATIONS:Type 2M
 TARGETING:Type V TTS
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<tonnage>
+11.0
+</tonnage>
 

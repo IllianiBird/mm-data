@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a3d5-78a6-90c4-3be0445f0dbf
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Grenadier Battle Armor
 <year>
 3075
 </year>
-
-<originalBuildYear>
-3075
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -99,38 +99,14 @@ BA-Compact Narc Ammo:LA:Shots3#
 CLBACompactNarc:LA
 BA-Compact Narc Ammo:LA:Shots3#
 </Trooper 5 Equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Grenadier is an assault-weight Inner Sphere battlesuit developed by the Hahm-Heinze Design Bureau for the Armed Forces of the Federated Suns. Designed to mount the heaviest weapon systems possible on a single suit frame, the Grenadier prioritized raw firepower over mobility or protection. The suit carries a fixed missile launcher, a modular weapon mount accommodating a range of battlefield roles, and an anti-personnel station for close-range defense. Standard stealth armor provides electronic signature reduction, though total protection is modest for the weight class. At two thousand kilograms, the Grenadier is too heavy for OmniMech transport, restricting deployment to ground-based insertion methods.</p>
-</overview>
 
 <capabilities>
 <p>This Hunter-Killer variant replaces the Magshot with a Compact Narc launcher in the missile-capable modular mount. The Narc system attaches homing beacons to enemy units, guiding friendly missile fire with improved accuracy. Combined with the upgraded missile launcher and Firedrake support needler, the configuration creates a self-contained target marking and strike package. Troopers can tag an enemy vehicle or BattleMech with the Narc beacon, then contribute their own missile fire to the guided barrage. The Compact Narc system was reverse-engineered from salvaged Purifier battle armor suits, giving the Federated Suns access to technology originally developed outside their industrial base. Ammunition for the Narc launcher is generous at twelve rounds, though the configuration shares the Hunter-Killer's reduced missile endurance compared to base Grenadier loadouts.</p>
 </capabilities>
+
+<overview>
+<p>The Grenadier is an assault-weight Inner Sphere battlesuit developed by the Hahm-Heinze Design Bureau for the Armed Forces of the Federated Suns. Designed to mount the heaviest weapon systems possible on a single suit frame, the Grenadier prioritized raw firepower over mobility or protection. The suit carries a fixed missile launcher, a modular weapon mount accommodating a range of battlefield roles, and an anti-personnel station for close-range defense. Standard stealth armor provides electronic signature reduction, though total protection is modest for the weight class. At two thousand kilograms, the Grenadier is too heavy for OmniMech transport, restricting deployment to ground-based insertion methods.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper NARC Hunter-Killer squads provide redundant beacon placement capability, ensuring that at least one homing signal remains active even after enemy countermeasures or trooper casualties degrade the squad. The Draconis March command fielded augmented NARC teams during border skirmishes with Combine forces, pairing them with vehicle-mounted LRM carriers in mobile fire groups. The additional trooper allowed the squad leader to assign separate tagging and missile fire duties, improving the squad's overall engagement tempo.</p>
@@ -163,4 +139,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

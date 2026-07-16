@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e3ec-7731-928c-16c874b83cca
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Cavalry Attack Helicopter
 <year>
 3055
 </year>
-
-<originalBuildYear>
-3055
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -105,30 +105,13 @@ SRM 2
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-04 16:23:06
-<overview>
-<p>The Cavalry Attack Helicopter is a 25-ton VTOL assault craft developed by Michaelson Heavy Industries and first produced at Ruchbah in 3054. Designed as a rapid relief and assault platform, the helicopter was intended for hit-and-run operations against armored targets, and it quickly became one of the most capable strike helicopters in the AFFC inventory within its first decade of service. Early production runs were acquired primarily by AFFC units and noble houses of the Draconis March and Sarna March, while a substantial portion reached mercenary operators concentrated in the Chaos March. The Cavalry's sturdy airframe proved adaptable enough to support multiple specialized variants across its production life. Cal-Boeing of Dorwinion at Belladonna later developed advanced stealth-equipped configurations for Federated Suns intelligence and rapid-deployment operations. Licensed production spread further during the Dark Age, with Kallon Weapon Industries and Yan Manufacturing extending the design's reach across multiple successor states.</p>
-</overview>
-
 <capabilities>
 <p>The base Cavalry combines a Harpoon SRM-6 rack with three Holly SRM-2 launchers, delivering a dozen short-range missile tubes from a fast-moving airframe. Cruising at 108 kph with a flank speed of 162 kph, pilots strike from concealed positions or attack from the rear before breaking off before the enemy can respond effectively. This tactic is particularly effective against armored vehicles and tanks, the helicopter's primary targets. The Michaelson 110 internal combustion engine provides reliable performance, while StarSlab/3 armor applied to the nose section allows the Cavalry to absorb hits from weapons as powerful as a Clan PPC or Gauss rifle and remain airborne. Garret Supremesound and Garret D2j electronics handle communications and targeting duties across most production variants.</p><p>The design's primary limitation is ammunition supply. With no backup weapons, crews must exercise strict fire discipline, as exhausting the missile bays leaves the helicopter defenseless in extended engagements. Like all VTOLs, the rotor system is a critical vulnerability, though Michaelson reinforced it as heavily as the weight budget permitted.</p><p>Later variants significantly expanded the design's capabilities. The infantry support model replaces the internal combustion engine with a fusion powerplant and trades missile armament for medium lasers, machine guns, and a troop bay sized for a full infantry platoon. Advanced Cal-Boeing configurations add vehicular stealth armor and VTOL jet boosters for covert insertion operations, while an experimental prototype incorporated a Guardian ECM suite and chin-mounted Magshot Gauss rifles.</p>
 </capabilities>
+
+<overview>
+<p>The Cavalry Attack Helicopter is a 25-ton VTOL assault craft developed by Michaelson Heavy Industries and first produced at Ruchbah in 3054. Designed as a rapid relief and assault platform, the helicopter was intended for hit-and-run operations against armored targets, and it quickly became one of the most capable strike helicopters in the AFFC inventory within its first decade of service. Early production runs were acquired primarily by AFFC units and noble houses of the Draconis March and Sarna March, while a substantial portion reached mercenary operators concentrated in the Chaos March. The Cavalry's sturdy airframe proved adaptable enough to support multiple specialized variants across its production life. Cal-Boeing of Dorwinion at Belladonna later developed advanced stealth-equipped configurations for Federated Suns intelligence and rapid-deployment operations. Licensed production spread further during the Dark Age, with Kallon Weapon Industries and Yan Manufacturing extending the design's reach across multiple successor states.</p>
+</overview>
 
 <deployment>
 <p>Sacrificing one ton of armor protection to mount an additional SRM-2 launcher, this variant increases missile output at the cost of battlefield durability. The trade-off proved problematic in extended engagements, and elevated casualty rates were noted among units operating this configuration in the Chaos March, where reduced armor protection left crews more exposed during the close-range strikes for which the Cavalry was designed. Production remained concentrated at Michaelson's Ruchbah facility throughout its service life.</p>
@@ -161,4 +144,20 @@ ARMOR:StarSlab/3
 COMMUNICATIONS:Supremesound
 TARGETING:D2j
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+25.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

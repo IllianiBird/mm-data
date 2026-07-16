@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acc0-7561-8e9f-b3f7c72091cc
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Mk. 30
 <year>
 2728
 </year>
-
-<originalBuildYear>
-2728
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -116,30 +116,13 @@ ISERLargeLaser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-ISP2
-</source>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The BlackWasp is a medium robotic interceptor developed by Allied Aerospace, Inc. for the Terran Hegemony. Entering service in 2728, the Mk. 30 was one of the first fully autonomous aerospace fighters designed exclusively for automated planetary defense. Built to complement the much larger Caspar drone WarShips, the BlackWasp filled a critical role by engaging fighter-sized threats that the robot warships could not effectively target. Distributed widely across Hegemony outpost worlds and integrated into Space Defense System networks, the design earned recognition as the premier drone fighter of the Star League era. Capable of performing maneuvers impossible for crewed fighters and operating without any need for ammunition resupply, the BlackWasp served as a cornerstone of automated defense for decades before the introduction of the Mk. 39 VoidSeeker series.</p>
-</overview>
-
 <capabilities>
 <p>Powered by a VOX 250 fusion engine and controlled by a sophisticated robotics suite perfected by Ulsop Robotics, the BlackWasp could outfly most human pilots in any engagement. Its primary armament consists of two Hellion Prime extended-range large lasers, backed by a nose-mounted Maxell medium laser. Fourteen double heat sinks allow the drone to fire its energy weapons continuously, ensuring that targets face relentless harassment until one combatant is destroyed. With no ammunition concerns and a generous six-ton fuel supply, the BlackWasp can sustain prolonged engagements far longer than conventional fighters.</p><p>Designed to operate exclusively in space, BlackWasps typically deploy in squadrons of six, launched from Caspar drone WarShips, specially built drone DropShips, or dedicated carrier satellites placed in planetary orbit. The Ulsop WaspWave X100 communications system and Ulsop Inquisitor K37 targeting computer allow each drone to react to changing combat situations without human supervision. However, the advanced control systems proved susceptible to electronic interference and performance degradation during protracted operations, with programming glitches occasionally drawing units too far from their carriers. The most common tactic against BlackWasp squadrons involved forcing the drones to expend their fuel reserves, leaving them on permanent glide courses out of the system with no carrier fast enough to retrieve them.</p>
 </capabilities>
+
+<overview>
+<p>The BlackWasp is a medium robotic interceptor developed by Allied Aerospace, Inc. for the Terran Hegemony. Entering service in 2728, the Mk. 30 was one of the first fully autonomous aerospace fighters designed exclusively for automated planetary defense. Built to complement the much larger Caspar drone WarShips, the BlackWasp filled a critical role by engaging fighter-sized threats that the robot warships could not effectively target. Distributed widely across Hegemony outpost worlds and integrated into Space Defense System networks, the design earned recognition as the premier drone fighter of the Star League era. Capable of performing maneuvers impossible for crewed fighters and operating without any need for ammunition resupply, the BlackWasp served as a cornerstone of automated defense for decades before the introduction of the Mk. 39 VoidSeeker series.</p>
+</overview>
 
 <deployment>
 <p>The Mk. 30 was originally deployed exclusively by forces of the Terran Hegemony as part of its planetary defense networks. As VoidSeekers gradually replaced them in frontline SDS installations, many displaced BlackWasps were redistributed to outlying SLDF outposts as far from Terra as the frontier world of Antallos. In the centuries since the Star League's collapse, traders and prospectors across the Inner Sphere have reported contact with ancient squadrons of what many believe are rogue Mk. 30 units, still carrying out their original defensive programming around long-forgotten outposts.</p>
@@ -172,4 +155,12 @@ ARMOR:SearWeave
 COMMUNICATIONS:WaspWave X100
 TARGETING:Inquisitor K37
 </systemModels>
+
+<source>
+ISP2
+</source>
+
+<tonnage>
+50.0
+</tonnage>
 

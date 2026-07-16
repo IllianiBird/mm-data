@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a599-76a1-9e0f-d392a3d3b0b7
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Heavy Suit
 <year>
 3083
 </year>
-
-<originalBuildYear>
-3083
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -92,50 +92,13 @@ BABasicManipulator:RA
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
 
-<slotless_equipment>
-BA-SRM4 Ammo:Shots1#
-BA-SRM4 Ammo:Shots1#
-</slotless_equipment>
-<notes>
-From this forum post. https://bg.battletech.com/forums/fan-articles/battle-armor-of-the-week-gray-death-heavy/
-</notes>
-
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Heavy Suit is a heavy battle armor design produced by Defiance Industries on Furillo. Introduced in 3083, the suit was the first entirely new Gray Death design created after Defiance absorbed Gray Death Technologies. Built for direct assault operations where lighter suits lack the necessary firepower, the Heavy carries significantly heavier weaponry and armor than other designs in the Gray Death family, filling the heavy fire support role within Lyran battle armor formations.</p>
-</overview>
-
 <capabilities>
 <p>The Gray Death Heavy Suit is the largest and most heavily armed design in the Gray Death battle armor family. A built-in Support PPC provides sustained direct-fire capability against armored targets, while two detachable one-shot SRM-4 packs deliver a devastating opening salvo. A Basic Manipulator and Improved Sensors round out the equipment package. At 1,500 kilograms, the suit carries significantly more armor than its lighter siblings.</p><p>Ground speed tops out at 21 km/h, making the Heavy the slowest Gray Death design. The suit lacks jump capability entirely, limiting its tactical mobility in broken terrain. The trade-off is raw combat power: the Support PPC can threaten targets that lighter battle armor cannot meaningfully engage, and the twin SRM-4 packs allow a single trooper to deliver concentrated missile fire before closing to direct-fire range. Once the missile packs are expended and jettisoned, the trooper relies on the Support PPC alone.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Heavy Suit is a heavy battle armor design produced by Defiance Industries on Furillo. Introduced in 3083, the suit was the first entirely new Gray Death design created after Defiance absorbed Gray Death Technologies. Built for direct assault operations where lighter suits lack the necessary firepower, the Heavy carries significantly heavier weaponry and armor than other designs in the Gray Death family, filling the heavy fire support role within Lyran battle armor formations.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations of Gray Death Heavy Suits delivered devastating opening salvos when all twelve detachable missile packs fired simultaneously. Com Guard doctrine leveraged the Heavy's firepower in defensive operations, positioning Level I units at chokepoints where the suit's limited mobility was less of a disadvantage. The additional troopers compensated for the Heavy's slow speed by providing overlapping fields of fire that could cover a wider frontage than a four-trooper squad.</p>
@@ -168,4 +131,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+From this forum post. https://bg.battletech.com/forums/fan-articles/battle-armor-of-the-week-gray-death-heavy/
+</notes>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

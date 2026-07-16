@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4b9-75fb-aa23-9758f227444a
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Asshur Fast Reconnaissance Vehicle
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -105,26 +105,13 @@ CLCASE
 CLProtoMechAC8
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 11:45:11
-<overview>
-<p>The Asshur Fast Reconnaissance Vehicle (Proto AC) is a Jihad-era armament experiment applied to the long-serving Asshur hull. Developed at Hector's manufacturing infrastructure during the turbulent thirty-first century, the variant explores the integration of ProtoMech-derived autocannon technology into a proven combat vehicle chassis. First observed in the field with Jade Falcon forces, the variant represents one of the few instances of ProtoMech autocannon technology applied to conventional combat vehicles in the Clan inventory. Its development came from Hector's complex ownership history, with production occurring under Goliath Scorpion oversight during the Jihad period from a facility that had originally been part of Clan Blood Spirit's Homeworld production network.</p>
-</overview>
-
 <capabilities>
 <p>The (Proto AC) variant's defining feature is its ProtoMech Autocannon armament, which replaces the extended-range laser and Streak configuration of the standard Asshur and Artillery Spotter variants. ProtoMech autocannons offer a balance of range and damage output suited to the vehicle's hit-and-run operational approach, with ammunition-based firepower providing sustained engagement capability that beam-weapon variants cannot match over extended operations. The variant retains the Asshur's core performance envelope (flank speeds exceeding 150 kilometers per hour and the full hover mobility package) allowing it to employ its autocannon at high speed and withdraw before effective counter-fire develops.</p><p>Armor protection remains the Compound JX2 ferro-fibrous suite from the base chassis, with the Consolidated communications and targeting electronics package retained without modification. The vehicle's primary constraint is ammunition dependency. Unlike the ER laser configuration, the Proto AC requires resupply to sustain operations, a logistical consideration that limits its deployment in extended reconnaissance or screening missions far from support elements.</p>
 </capabilities>
+
+<overview>
+<p>The Asshur Fast Reconnaissance Vehicle (Proto AC) is a Jihad-era armament experiment applied to the long-serving Asshur hull. Developed at Hector's manufacturing infrastructure during the turbulent thirty-first century, the variant explores the integration of ProtoMech-derived autocannon technology into a proven combat vehicle chassis. First observed in the field with Jade Falcon forces, the variant represents one of the few instances of ProtoMech autocannon technology applied to conventional combat vehicles in the Clan inventory. Its development came from Hector's complex ownership history, with production occurring under Goliath Scorpion oversight during the Jihad period from a facility that had originally been part of Clan Blood Spirit's Homeworld production network.</p>
+</overview>
 
 <deployment>
 <p>The (Proto AC) variant saw limited deployment concentrated among Clan forces with access to Hector's production output or connections to the Jade Falcon forces that first fielded it during the Jihad. Its narrow distribution distinguished it sharply from the Artillery Spotter's broad multi-Clan adoption. Field use was concentrated during the Jihad era in Clan space, where it served in reconnaissance and light screening roles with the autocannon providing sustained firepower advantages over the beam-weapon variants in protracted engagements. The exact extent of distribution beyond the original Jade Falcon association has not been conclusively documented.</p>
@@ -155,4 +142,16 @@ ARMOR:Compound JX2 Ferro-Fibrous
 COMMUNICATIONS:Consolidated Type 2M
 TARGETING:Consolidated Type V TTS
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

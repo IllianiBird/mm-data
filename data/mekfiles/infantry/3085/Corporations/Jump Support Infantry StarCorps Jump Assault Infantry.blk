@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b631-7450-902f-7c4a7a0c2b00
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ StarCorps Jump Assault Infantry
 1724
 </mul id:>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -67,6 +59,18 @@ Generic Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>StarCorps Industries fields its jump assault infantry as a middle ground between fast but lightly armed rapid response forces and heavily equipped but slow static security teams. Equipped with reinforced jump packs capable of carrying a full combat load, StarCorps troopers can operate across any urban or industrial battlefield with vertical mobility that ground-bound security forces cannot match. Armed with auto-rifles and heavy grenade launchers loaded with inferno rounds, these platoons bring both conventional firepower and incendiary capability that can threaten even BattleMechs. As the Jihad intensified and StarCorps facilities on worlds like Son Hoa came under repeated attack, the company expanded its use of inferno-equipped jump infantry to counter armored threats that corporate security had not previously faced. The grenade launchers add significant weight, but the jump packs compensate by allowing troopers to bypass obstacles and engage from unexpected angles.</p>
+</overview>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
 <squad_size>
 7
 </squad_size>
@@ -86,9 +90,4 @@ InfantryAssaultRifle
 <Secondary>
 InfantryHeavyGrenadeLauncherInferno
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>StarCorps Industries fields its jump assault infantry as a middle ground between fast but lightly armed rapid response forces and heavily equipped but slow static security teams. Equipped with reinforced jump packs capable of carrying a full combat load, StarCorps troopers can operate across any urban or industrial battlefield with vertical mobility that ground-bound security forces cannot match. Armed with auto-rifles and heavy grenade launchers loaded with inferno rounds, these platoons bring both conventional firepower and incendiary capability that can threaten even BattleMechs. As the Jihad intensified and StarCorps facilities on worlds like Son Hoa came under repeated attack, the company expanded its use of inferno-equipped jump infantry to counter armored threats that corporate security had not previously faced. The grenade launchers add significant weight, but the jump packs compensate by allowing troopers to bypass obstacles and engage from unexpected angles.</p>
-</overview>
 

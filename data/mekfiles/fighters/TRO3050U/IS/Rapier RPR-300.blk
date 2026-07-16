@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-adc5-76b7-96b6-c6486d81635c
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ RPR-300
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -120,33 +120,13 @@ ISHeavyGauss Ammo
 ISHeavyGauss Ammo
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>Bauer Enterprises shocked the military aerospace world when it announced the RPR-100 Rapier in 2590. Better known as a maker of consumer electronics, few believed the company had the engineering depth to compete with established aerospace contractors. The Rapier proved the skeptics wrong. A heavyweight fighter designed around an innovative targeting system that Bauer's engineers developed entirely in-house, the craft drew the attention of the Star League Defense Force with its unusual combination of long-range missile capability and devastating close-in striking power. Though production delays pushed first deliveries back to 2596, the Rapier went on to become a fixture in SLDF heavy fighter lances, earning a reputation as a versatile craft capable of engaging enemies across virtually any range. That reputation outlasted the Star League, carrying the design through the Succession Wars and into the modern era through successive waves of upgrades and production revivals.</p>
-</overview>
-
 <capabilities>
 <p>The Rapier's design philosophy centers on the Bauer-Scope 130Y targeting and tracking system, one of the most sophisticated fire control suites of its era. By providing independent targeting data for each missile in the Cavalier Industries LRM-10 system, the Bauer-Scope allowed pilots to make mid-flight corrections that dramatically improved the effectiveness of long-range munitions. This capability was carefully matched to the rest of the weapons loadout: twin PDVR Piledriver Model 11-D PPCs mounted beneath the cockpit and a nose-mounted RNG Ranger AC/20 autocannon. The combination allowed pilots to engage targets effectively from beyond standard fighter range using missiles and particle cannon fire, or close to point-blank distance for a devastating autocannon strike.</p><p>The design's primary limitation is thermal management. Firing both PPCs simultaneously places severe demands on the craft's heat dissipation systems, a problem Bauer's engineers never fully resolved in the base design. Rapier pilots are trained to monitor PPC radiator temperatures carefully during pre-flight and throughout combat, and the craft is not recommended for sustained simultaneous particle cannon fire in high-temperature operating environments. The heat issue shaped Rapier tactics for generations: experienced pilots learned to alternate fire rather than rely on simultaneous salvo capability.</p><p>Built on an Interstar 290M airframe and driven by an AeroFord 340 fusion plant, the Rapier carries PhilterMesh armor and uses the COMHRT II.Q communications suite. Its atmospheric handling is reliable without being exceptional, making it effective in both deep-space engagements and low-altitude planetary operations where its heavy armament pays dividends against ground targets and DropShip approach screens alike.</p>
 </capabilities>
+
+<overview>
+<p>Bauer Enterprises shocked the military aerospace world when it announced the RPR-100 Rapier in 2590. Better known as a maker of consumer electronics, few believed the company had the engineering depth to compete with established aerospace contractors. The Rapier proved the skeptics wrong. A heavyweight fighter designed around an innovative targeting system that Bauer's engineers developed entirely in-house, the craft drew the attention of the Star League Defense Force with its unusual combination of long-range missile capability and devastating close-in striking power. Though production delays pushed first deliveries back to 2596, the Rapier went on to become a fixture in SLDF heavy fighter lances, earning a reputation as a versatile craft capable of engaging enemies across virtually any range. That reputation outlasted the Star League, carrying the design through the Succession Wars and into the modern era through successive waves of upgrades and production revivals.</p>
+</overview>
 
 <deployment>
 <p>The RPR-300 entered service as a product of the Word of Blake's Tharkad occupation, produced at the captured Lockheed/CBM facilities as a comprehensively redesigned version bearing the Rapier name. The Blakist configuration replaced the original's ballistic and missile-heavy armament with a focused energy weapons array optimized for sustained engagements at range, making it a capable multi-role fighter by Jihad-era standards. When Lyran forces retook Tharkad, they recognized the military value of the existing production line immediately and continued RPR-300 manufacturing even while Lockheed/CBM engineers developed the follow-on RPR-300S. The RPR-300 remains in frontline Lyran service alongside its successor, and the two variants are frequently deployed together in mixed lances that exploit their nearly identical performance envelopes.</p>
@@ -181,4 +161,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:COMHRT II.Q
 TARGETING:Bauer-Scope 130Z
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

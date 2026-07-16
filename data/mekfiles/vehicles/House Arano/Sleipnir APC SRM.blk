@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e92e-7d80-969b-92befde43f0c
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Sleipnir APC Tank
 <year>
 3004
 </year>
-
-<originalBuildYear>
-3004
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -110,30 +110,13 @@ SRM 4
 SRM 4
 </Turret Equipment>
 
-<source>
-Arano
-</source>
-
-<published>
-Arano
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 14:27:05
-<overview>
-<p>The Sleipnir APC Tank is a wheeled armored personnel carrier produced by Aspero-Dinton Mining on Mechdur for the Aurigan Coalition. First fielded in 3002, the Sleipnir was designed to move infantry squads across the battlefield, filling a critical transport role for the Coalition's ground forces. Built on Mechdur, the Aurigan Reach's primary industrial world, the Sleipnir reflects the Coalition's pragmatic approach to military procurement: a straightforward, maintainable design suited to the limited industrial base of a periphery nation. Its presence across Aurigan Coalition force tables highlights the vehicle's reliability in supporting infantry operations throughout the Reach.</p>
-</overview>
-
 <capabilities>
 <p>The Sleipnir is a 50-ton wheeled vehicle powered by an internal combustion engine, giving it a top road speed of 86 km/h. ICE propulsion keeps the vehicle affordable and easy to maintain in the field, a significant advantage for the Aurigan Coalition's logistics chain. Wheeled mobility suits the vehicle to road networks and developed terrain, though cross-country performance is more limited than tracked alternatives.</p><p>The vehicle's primary function is troop transport, with a four-ton infantry bay capable of carrying a standard infantry squad. Seven tons of standard armor provide reasonable protection for an APC, sufficient to deflect small-arms fire and light weapon impacts during troop delivery operations.</p><p>For self-defense, the Sleipnir mounts a turret carrying two machine guns and two medium lasers. This armament is not intended for engaging armored targets; it exists to suppress opposing infantry and provide covering fire during dismount. The machine guns carry half a ton of ammunition, and the medium lasers offer heat-free sustained fire against soft targets. The Sleipnir is not a frontline combat vehicle, and its armament reflects that role honestly. Without escort, it is vulnerable to any opposition capable of fielding light armor or heavy weapons.</p>
 </capabilities>
+
+<overview>
+<p>The Sleipnir APC Tank is a wheeled armored personnel carrier produced by Aspero-Dinton Mining on Mechdur for the Aurigan Coalition. First fielded in 3002, the Sleipnir was designed to move infantry squads across the battlefield, filling a critical transport role for the Coalition's ground forces. Built on Mechdur, the Aurigan Reach's primary industrial world, the Sleipnir reflects the Coalition's pragmatic approach to military procurement: a straightforward, maintainable design suited to the limited industrial base of a periphery nation. Its presence across Aurigan Coalition force tables highlights the vehicle's reliability in supporting infantry operations throughout the Reach.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3004, the SRM variant replaces the standard medium lasers, heat sinks, and troop adapters with three turret-mounted SRM-4 launchers carrying two tons of ammunition, while retaining the twin machine guns. This modification gives the vehicle a more credible offensive capability against light armored targets and fortified infantry positions. The SRM armament trades the sustained heat-free fire of the medium lasers for short-range missile punch, making this variant better suited to operations where the vehicle may face opposing light vehicles. As with the base model, the SRM variant is not intended for independent armored combat.</p>
@@ -166,4 +149,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+Arano
+</source>
+
+<published>
+Arano
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

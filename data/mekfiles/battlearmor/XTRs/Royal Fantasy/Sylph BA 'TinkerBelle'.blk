@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a9c7-74ff-a5ab-8c489dd63322
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Sylph Battle Armor
 <year>
 3060
 </year>
-
-<originalBuildYear>
-3060
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -85,44 +85,15 @@ CLBASRM5OS:Body
 
 <slotless_equipment>
 BAVTOL
-BA-SRM5 Ammo:Shots1#
 </slotless_equipment>
-<source>
-XTR:Royal Fantasy
-</source>
-
-<published>
-XTR:Royal Fantasy
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-5
-</jumpingMP>
-
-<armor>
-8
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Sylph is a light Clan battle armor suit developed by Clan Cloud Cobra as the first fully airborne infantry design in known space. Fielded in 3060, the suit was conceived to extend the Cloud Cobras' aerospace dominance into the battle armor domain, giving their touman an infantry capability no other Clan possessed. The Sylph's VTOL-capable propulsion system allows sustained flight at speeds exceeding fifty kilometers per hour, though this mobility comes at the cost of reduced armor protection and a limited weapon payload. The design earned its operators a level of respect typically reserved for fighter pilots within Clan Cloud Cobra's warrior caste.</p>
-</overview>
 
 <capabilities>
 <p>The TinkerBelle is a custom weight-upgraded rebuild that increases the base Sylph chassis to medium weight class, adding substantial armor protection and heavier armament without sacrificing airborne mobility or anti-BattleMech capability. HarJel technology and improved life support systems keep the pilot combat-ready even when the suit's integrity is compromised. Lighter-weight Clan armor, upgraded by roughly sixty percent over the standard Sylph, enables the suit to absorb hits from most energy weapons and light autocannon while closing to swarm range. An extended-range micro laser replaces the original's micro pulse laser, and a five-tube short-range missile launcher replaces the bomb rack, giving each trooper a meaningful punch against medium BattleMechs. The increased mass comes at the cost of ground mobility, but the VTOL system compensates by maintaining the suit's aerial agility and approach vectors.</p>
 </capabilities>
+
+<overview>
+<p>The Sylph is a light Clan battle armor suit developed by Clan Cloud Cobra as the first fully airborne infantry design in known space. Fielded in 3060, the suit was conceived to extend the Cloud Cobras' aerospace dominance into the battle armor domain, giving their touman an infantry capability no other Clan possessed. The Sylph's VTOL-capable propulsion system allows sustained flight at speeds exceeding fifty kilometers per hour, though this mobility comes at the cost of reduced armor protection and a limited weapon payload. The design earned its operators a level of respect typically reserved for fighter pilots within Clan Cloud Cobra's warrior caste.</p>
+</overview>
 
 <deployment>
 <p>Jillian Robertson's Team Neverland fielded the TinkerBelle in a four-trooper squad on Solaris VII, debuting in the Black Hills Urban Combat Zone in 3144. Robertson's squad employed deliberately erratic aerial maneuvers designed to mimic mythical faeries, using the unpredictable flight patterns to distract opponents while closing to missile range. The configuration's improved armor and SRM capability allowed the squad to threaten medium BattleMechs in arena combat, winning bouts at venues including the Scrapyard, the Black Hills UCZ, and the Crankshaft.</p>
@@ -155,4 +126,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Royal Fantasy
+</source>
+
+<published>
+XTR:Royal Fantasy
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+5
+</jumpingMP>
+
+<armor>
+8
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

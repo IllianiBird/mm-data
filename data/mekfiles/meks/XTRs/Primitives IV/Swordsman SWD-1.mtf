@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.51.00 on 2026-05-03
+uuid:019f583e-dffd-7862-9a29-a3ab1a441911
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Swordsman
 model:SWD-1
 mul id:7181
@@ -32,8 +33,8 @@ quirk:bad_rep_is
 quirk:obsolete:2482
 quirk:searchlight
 quirk:poor_work
-weaponquirk:accurate:LT:1:Autocannon/5
 weaponquirk:ammo_feed_problems:LT:1:Autocannon/5
+weaponquirk:accurate:LT:1:Autocannon/5
 
 mass:40
 engine:145 Fusion Engine
@@ -198,4 +199,3 @@ systemmanufacturer:ARMOR:Maximillian
 systemmode:ARMOR:Primitive Armor
 systemmanufacturer:COMMUNICATIONS:Unknown
 systemmanufacturer:TARGETING:Unknown
-

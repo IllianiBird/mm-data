@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea9a-76d8-8101-7d4068cefc55
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Dillinger Police Vehicle
 <year>
 3059
 </year>
-
-<originalBuildYear>
-3059
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -121,26 +121,13 @@ Machine Gun
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-40.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-05 15:19:28
-<overview>
-<p>The Dillinger Police Vehicle is a forty-ton hover support vehicle designed and built by Kressly Warworks on Epsilon Eridani in 3059. Created at the direct request of planetary president Pierre Benton, the vehicle was intended to give local police forces a credible and visible presence in cities overwhelmed by rising crime during the instability of the Chaos March period. Kressly's engineers deliberately expanded the vehicle's physical footprint beyond its strictly functional requirements, producing a hovercraft large enough to tower over civilian traffic and signal authority before a single officer stepped out. Although intended purely for law enforcement, its military-grade components gave it durability well suited to the volatile conditions of an independent world, and its blend of command, medical, and transport capabilities quickly attracted interest from buyers across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Dillinger is a hover support vehicle built around a fusion engine, giving it effectively unlimited operational range without refueling constraints. A cruise speed of seventy kilometers per hour allows it to respond rapidly across an urban area while still maintaining the imposing bulk that defines its visual deterrent role. Two tons of armor rated to BAR 10 provide meaningful protection against the small arms and light weapons most commonly encountered in riot and criminal interdiction environments, and an Armored Chassis Modification further reinforces the vehicle's structural integrity against improvised attacks.</p><p>For self-defense, the vehicle carries four military-grade machine guns distributed across its hull: one mounted in a roof turret for overhead engagement, one fixed forward, and one on each side. A single ton of ammunition supports extended patrols before resupply is required. The guns are loaded with rubber projectiles as standard but carry live ammunition as well, giving commanders flexibility in how they respond to escalating situations.</p><p>Three integrated support systems define the Dillinger's operational role. A ton of military-grade communications equipment provides encrypted tactical coordination, allowing the vehicle to serve as a mobile command post directing multiple units across a district. Paramedic equipment is fitted in the rear compartment for immediate casualty treatment. A rear-access cargo bay provides space for police equipment and supplies, while a forward infantry compartment can carry over a dozen officers directly to an incident. The vehicle's Distracting design quirk reflects its intentionally overwhelming presence.</p>
 </capabilities>
+
+<overview>
+<p>The Dillinger Police Vehicle is a forty-ton hover support vehicle designed and built by Kressly Warworks on Epsilon Eridani in 3059. Created at the direct request of planetary president Pierre Benton, the vehicle was intended to give local police forces a credible and visible presence in cities overwhelmed by rising crime during the instability of the Chaos March period. Kressly's engineers deliberately expanded the vehicle's physical footprint beyond its strictly functional requirements, producing a hovercraft large enough to tower over civilian traffic and signal authority before a single officer stepped out. Although intended purely for law enforcement, its military-grade components gave it durability well suited to the volatile conditions of an independent world, and its blend of command, medical, and transport capabilities quickly attracted interest from buyers across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Dillinger serves law enforcement and paramilitary police roles in urban environments, functioning primarily as a mobile command post capable of directing operations across an entire district from a single vehicle. Its infantry transport capacity allows a full squad to be delivered directly to an incident without exposing officers to ambush during approach. Beyond law enforcement, individual units have found use as armored executive transport, emergency response coordination platforms, and tactical headquarters for small garrisons without dedicated command vehicles. The design is most commonly encountered operating alone or in pairs at the precinct level, though the Word of Blake Protectorate deployed them in coordinated groups as part of broader civil control operations across occupied worlds.</p>
@@ -171,4 +158,16 @@ ENGINE:Unknown
 ARMOR:Unknown
 COMMUNICATIONS:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+40.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

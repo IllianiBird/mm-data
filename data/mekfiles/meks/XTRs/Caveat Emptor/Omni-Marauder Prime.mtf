@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-df50-7db5-88ee-cb250069ac8d
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:OmniMarauder
 model:MAD-BR-O
 mul id:8110
@@ -30,8 +31,8 @@ role:Sniper
 
 quirk:low_profile
 quirk:command_mech
-quirk:hyper_actuator
 quirk:directional_torso_mount:RT
+quirk:hyper_actuator
 
 mass:75
 engine:300 XL (Clan) Engine
@@ -177,7 +178,6 @@ Clan Ferro-Lamellor
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:24:59
 overview:<p>The OmniMarauder was born from a 3135 General Motors feasibility study conducted at their Kathil facility, exploring the future potential of the iconic Marauder chassis. Rather than simply upgrading the existing design, the project took the radical step of reimagining the venerable heavy 'Mech as a mixed-technology OmniMech, incorporating extensive Clan-grade components into an Inner Sphere frame. The design effort drew upon outside expertise from Bander BattleMechs, reflecting the collaborative nature of the ambitious undertaking.</p><p>The resulting prototype demonstrated remarkable capability but at a prohibitive cost, ensuring the design remained an individual prototype rather than entering mass production. The OmniMarauder serves primarily as a technology demonstrator for what the Marauder platform could become when freed from the constraints of production economics.</p>
 
 capabilities:<p>The OmniMarauder's fixed chassis serves as a masterwork of mixed-technology engineering. Built around a Clan-grade endo steel internal structure and powered by a Clan 300-rated extralight engine, the design achieves a respectable cruising speed of sixty-four kilometers per hour while leaving an impressive thirty-five and a half tons available for pod-mounted weaponry and equipment. Clan-manufactured double heat sinks provide efficient thermal management across all configurations. An Inner Sphere compact gyro further maximizes available space, a clever design choice that opens additional room in the torso sections for heavy armament. Sixteen and a half tons of ferro-lamellor armor provide exceptional protection, with the advanced armor's ability to reduce the impact of incoming fire giving the OmniMarauder survivability well beyond what standard armor of equivalent weight could offer.</p><p>The Primary configuration pays homage to the classic Marauder layout, mounting a Clan-grade extended-range PPC and extended-range medium laser in each arm alongside a devastating Hyper-Assault Gauss Rifle 30 in the right torso. This combination of precision energy weapons and massive ballistic firepower gives the OmniMarauder tremendous damage potential at virtually all combat ranges. CASE II protects the MechWarrior from ammunition detonation, while five additional Clan double heat sinks supplement the chassis-mounted sinks to manage the considerable thermal load. The design's inherent quirks further enhance its battlefield presence, with a narrow and low-profile silhouette making it a difficult target, hyper-extending actuators providing superior firing arcs, and command-grade electronics supporting its role as a formation leader.</p><p>The OmniMarauder's greatest weakness is its near-total dependence on Clan-sourced components for every major structural system. This creates severe supply chain vulnerabilities that would make sustained frontline operations impractical, as battlefield damage to the chassis, engine, or armor would require Clan-manufactured replacements that cannot be sourced through standard Inner Sphere logistics networks.</p>
@@ -189,6 +189,8 @@ history:<p>The OmniMarauder emerged from a period of significant investment in a
 manufacturer:General Motors
 
 primaryfactory:Kathil
+
+fluffdate:2026-02-21 18:24:59
 
 systemmanufacturer:CHASSIS:Unknown
 systemmode:CHASSIS:Endo Steel (Clan)

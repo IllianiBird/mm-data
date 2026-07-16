@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e46c-7771-a7cc-e2ffe1f60be4
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Regulator Hovertank
 <year>
 3057
 </year>
-
-<originalBuildYear>
-3057
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -101,26 +101,13 @@ IS Gauss Ammo
 ISGaussRifle
 </Turret Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 14:55:21
-<overview>
-<p>The Regulator Hovertank emerged from the Capellan Confederation's systematic effort to rebuild its military-industrial base in the aftermath of the Fourth Succession War. Aldis Industries, operating from their Kingston plant on Betelgeuse, developed the design by leveraging technology recovered through the Helm Memory Core to create a fast, effective cavalry platform. Rather than compete directly with BattleMechs in sustained engagements, the Regulator was designed to overwhelm opponents through superior speed and a single, devastating weapon. Introduced in 3057, it represented the CCAF's philosophical shift toward effective conventional forces as a force multiplier for BattleMech formations. The design quickly proved its worth across multiple theaters of operation and established Aldis Industries as a premier producer of advanced hovertank platforms for the Confederation.</p>
-</overview>
-
 <capabilities>
 <p>The Regulator's design philosophy centers on delivering maximum firepower through outstanding mobility. A General Motors 170 fusion engine propels the 45-ton platform to a flank speed of 151 km/h, enabling it to outmaneuver most BattleMechs and position itself to strike exposed flanks and rear facings. The turret-mounted Inokuma Gauss rifle provides the vehicle's sole offensive weapon, but the electromagnetic accelerator's range and accuracy make that single gun genuinely dangerous to any target on the battlefield.</p><p>Hellespont Lite ferro-fibrous armor covers the hull, but the protection scheme reveals a calculated trade-off. Designers concentrated coverage heavily on the front and turret, leaving side and rear facings comparatively thin. This approach maximizes protection in head-on engagements while accepting vulnerability when enemies achieve flanking positions. The Regulator depends on its speed to prevent that outcome rather than relying on armor to absorb blows.</p><p>The advanced Virtutrack S1 targeting system provides the crew with pseudo-360-degree tracking capability for up to fifteen simultaneous targets, pairing the Gauss rifle's reach with the situational awareness needed to make the most of superior positioning. The combination makes the Regulator effective at engaging at maximum range before opponents can close to return fire, though the single-weapon configuration means a mechanical failure can completely neutralize the vehicle.</p>
 </capabilities>
+
+<overview>
+<p>The Regulator Hovertank emerged from the Capellan Confederation's systematic effort to rebuild its military-industrial base in the aftermath of the Fourth Succession War. Aldis Industries, operating from their Kingston plant on Betelgeuse, developed the design by leveraging technology recovered through the Helm Memory Core to create a fast, effective cavalry platform. Rather than compete directly with BattleMechs in sustained engagements, the Regulator was designed to overwhelm opponents through superior speed and a single, devastating weapon. Introduced in 3057, it represented the CCAF's philosophical shift toward effective conventional forces as a force multiplier for BattleMech formations. The design quickly proved its worth across multiple theaters of operation and established Aldis Industries as a premier producer of advanced hovertank platforms for the Confederation.</p>
+</overview>
 
 <deployment>
 <p>The standard Regulator serves as the backbone of Capellan hover cavalry formations, combining Gauss rifle firepower with exceptional mobility to fill the flanking and exploitation roles that CCAF tactical doctrine assigns to fast cavalry units. Every CCAF front-line regiment and most reserve formations deploy several lances, treating the vehicle as an essential force multiplier for their BattleMech elements. Its first combat action during Operation Guerrero in 3057 established the template that subsequent engagements would follow: Regulator lances flanking and destroying heavier opponents through superior positioning rather than direct firepower trades. Procurement demand has kept the Kingston plant at or near capacity since the vehicle entered service.</p>
@@ -153,4 +140,16 @@ ARMOR:Lite Ferro-Fibrous
 COMMUNICATIONS:37
 TARGETING:S1
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7e2-7a43-af63-e87f066a8425
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Shillelagh Missile Tank
 <year>
 3093
 </year>
-
-<originalBuildYear>
-3093
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -120,26 +120,13 @@ ISMML5
 ISMML5
 </Turret Equipment>
 
-<source>
-TR:3145:DC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 14:27:05
-<overview>
-<p>The Shillelagh Missile Tank is a light tracked combat vehicle built by Buda Imperial Vehicles on Luthien for the Draconis Combine's planetary militia forces. First developed during the Second Succession War as a cost-effective missile platform, the design sat dormant for decades before being revived in the Dark Age to address the DCMS's need for affordable garrison vehicles along the Periphery border. Drawing on older technical specifications and surplus components to keep production costs low, Buda Imperial Vehicles produced the Shillelagh in modest numbers for planetary militia regiments that could not be equipped with more capable machines. The vehicle fills a fire support role for forces assigned to quiet border sectors, providing volume missile fire from a chassis that is inexpensive to produce and maintain, though limited in overall battlefield capability.</p>
-</overview>
-
 <capabilities>
 <p>The Shillelagh mounts three Shigunga 5-Tube Multi-Missile Launchers as its primary armament, providing significant fire volume for a 40-ton tracked vehicle. This battery gives the tank flexibility in munitions selection, allowing crews to tailor their loadout to the threat environment, and can deliver substantial damage at multiple range bands. Two Sperry Browning Light Machine Guns offer a degree of anti-infantry protection, though they provide little deterrent against armored targets. The Nissan 200 Fuel Cell powerplant pushes the Shillelagh to a top speed of 86 kilometers per hour, competitive for a militia-grade vehicle of its weight class.</p><p>The Shillelagh's shortcomings are considerable. The suspension and control linkages are especially stiff, making the tank difficult to maneuver on uneven ground or moderate slopes, and the vehicle is prone to instability in sharp turns at speed. The Nissan fuel cell's consumption rate is poor even by fuel cell standards, limiting operational range. The Sipher CommSys 2 communications suite and Rat's Eyes targeting system were considered second-tier equipment even at introduction, and neither has been updated since. Armor protection from the StarSlab/2 array is modest, adequate for harassment and fire support duties but insufficient for sustained direct engagement against prepared opponents.</p>
 </capabilities>
+
+<overview>
+<p>The Shillelagh Missile Tank is a light tracked combat vehicle built by Buda Imperial Vehicles on Luthien for the Draconis Combine's planetary militia forces. First developed during the Second Succession War as a cost-effective missile platform, the design sat dormant for decades before being revived in the Dark Age to address the DCMS's need for affordable garrison vehicles along the Periphery border. Drawing on older technical specifications and surplus components to keep production costs low, Buda Imperial Vehicles produced the Shillelagh in modest numbers for planetary militia regiments that could not be equipped with more capable machines. The vehicle fills a fire support role for forces assigned to quiet border sectors, providing volume missile fire from a chassis that is inexpensive to produce and maintain, though limited in overall battlefield capability.</p>
+</overview>
 
 <deployment>
 <p>The revised Shillelagh is assigned primarily to planetary militia regiments tasked with Periphery border defense, where quiet sectors and modest threat levels match its limited combat capability. The vehicle performs best from concealed positions in heavy terrain, using its missile battery to suppress or attrite approaching forces before they can close to effective range. Commanders employ them as anchoring units within larger harasser formations, holding fixed positions while faster vehicles exploit openings created by missile fire.</p><p>The Shillelagh is ill-suited to open terrain engagements or rapid advances and should not be expected to hold its own in direct combat against front-line armored forces. Crews drawn from militia pools typically require additional training to exploit the vehicle's munitions flexibility, as inexperienced tankers tend to rely on standard ammunition loadouts and forfeit much of the design's tactical adaptability.</p>
@@ -172,4 +159,16 @@ ARMOR:StarSlab/2
 COMMUNICATIONS:CommSys 2
 TARGETING:Rat's Eyes
 </systemModels>
+
+<source>
+TR:3145:DC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

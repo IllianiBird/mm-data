@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b731-7c39-a7a5-48fb5ccd8a58
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Mechanized Wheeled Platoon (AFFS)
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Fed Suns Infantry Kit (3067+)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>The AFFS treats its infantry as professionals rather than expendable garrison filler, drawing soldiers from single worlds or neighboring systems to build the unit cohesion that the Federated Suns considers essential to effective combined-arms operations. Mechanized wheeled platoons ride wheeled transports that offer good speed on roads and developed terrain, making them well-suited to garrison duty on worlds with established infrastructure where rapid response matters more than cross-country capability. These anti-aircraft specialists are trained and equipped to engage low-flying aerospace fighters, VTOLs, and conventional aircraft, providing dedicated point air defense for installations and ground formations.</p>
+</overview>
 
 <notes>
 Intro date based on production date of AFFS 3067+ advanced infantry kit.  Federated Long Rifle is the classic long arm of the AFFS.
@@ -84,9 +86,4 @@ AA Weapon (Mk. 2, Man-Portable)
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The AFFS treats its infantry as professionals rather than expendable garrison filler, drawing soldiers from single worlds or neighboring systems to build the unit cohesion that the Federated Suns considers essential to effective combined-arms operations. Mechanized wheeled platoons ride wheeled transports that offer good speed on roads and developed terrain, making them well-suited to garrison duty on worlds with established infrastructure where rapid response matters more than cross-country capability. These anti-aircraft specialists are trained and equipped to engage low-flying aerospace fighters, VTOLs, and conventional aircraft, providing dedicated point air defense for installations and ground formations.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e782-79ad-838b-bd1bca4344ef
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Skulker Wheeled Scout Tank
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -95,37 +95,13 @@ ISC3MasterUnit
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN,RSFP:Battlefield
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 14:27:05
-<overview>
-<p>Joint Equipment Systems approached the Skulker Wheeled Scout Tank as a deliberate departure from convention when the vehicle entered production at Alshain in 2659. Rather than minimizing weight at the cost of crew capacity, JES designed a four-person vehicle intended for extended independent operations, prioritizing endurance over absolute speed or firepower. The Skulker entered service with both the Draconis Combine Mustered Soldiery and the Star League Defense Force, carrying a medium laser, an advanced sensor suite, and crew quarters substantial enough for week-long missions without resupply. Its reputation for crew comfort spread through military channels quickly, and units that had operated the design frequently requested its continued assignment, an unusual testimonial for a combat vehicle. The Skulker became one of the more broadly distributed scout vehicles of the late Star League era, finding its way into most Inner Sphere powers through export agreements and the secondhand market that followed the Star League's collapse.</p>
-</overview>
-
 <capabilities>
 <p>The Skulker cruises at 75 kph and reaches 118 kph under emergency power, competitive for a 20-ton wheeled scout, though hover designs will outpace it in open terrain. The Standard Systems medium laser provides effective direct-fire capability without ammunition dependency, well suited to the long-range, low-resupply missions the vehicle was built for. The ProtecTech Light armor exceeds that of many comparable scouts, though it provides limited margin against dedicated anti-armor fire.</p><p>The vehicle ties an advanced detection suite into the Communique Equipment communications system and Targeting System 2.3, allowing the driver to navigate through sensor data directly. The GM 120 Classic internal combustion engine adds a practical advantage: heat sinks can actively cool the electronics when the laser is not firing, allowing reliable operation on high-temperature worlds where fusion-powered scouts struggle.</p><p>The four-person crew is the design's most discussed feature. Interior quarters support crew rotation during extended missions, with an entertainment suite that commanders variously dismissed as extravagant or credited as a genuine morale benefit over multi-day operations. The Skulker's weaknesses are equally documented: wheeled mobility degrades on broken terrain, and the vehicle cannot match the tactical flexibility of tracked or hover designs. It performs best in sustained reconnaissance on trafficable ground, demanding careful employment to avoid situations where those limitations become decisive.</p>
 </capabilities>
+
+<overview>
+<p>Joint Equipment Systems approached the Skulker Wheeled Scout Tank as a deliberate departure from convention when the vehicle entered production at Alshain in 2659. Rather than minimizing weight at the cost of crew capacity, JES designed a four-person vehicle intended for extended independent operations, prioritizing endurance over absolute speed or firepower. The Skulker entered service with both the Draconis Combine Mustered Soldiery and the Star League Defense Force, carrying a medium laser, an advanced sensor suite, and crew quarters substantial enough for week-long missions without resupply. Its reputation for crew comfort spread through military channels quickly, and units that had operated the design frequently requested its continued assignment, an unusual testimonial for a combat vehicle. The Skulker became one of the more broadly distributed scout vehicles of the late Star League era, finding its way into most Inner Sphere powers through export agreements and the secondhand market that followed the Star League's collapse.</p>
+</overview>
 
 <deployment>
 <p>The C3M is a DCMS-commissioned command variant deployed within formations operating established C3 master networks. Weaponless and relying on upgraded armor for protection, it is intended to remain unengaged while coordinating fire from networked units. Effective employment requires a formation with sufficient C3-equipped units to justify a dedicated command vehicle, limiting practical use to formations at company level and above with the appropriate electronic infrastructure.</p>
@@ -158,4 +134,20 @@ ARMOR:Light
 COMMUNICATIONS:Communique Equipment
 TARGETING:Targeting System 2.3
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN,RSFP:Battlefield
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

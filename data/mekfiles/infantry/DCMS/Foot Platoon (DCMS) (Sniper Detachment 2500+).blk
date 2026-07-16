@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bbdf-7afb-b810-9c1c4428d131
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Foot Platoon (DCMS)
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Sneak Suit (IR)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Combine's martial traditions extend beyond the BattleMech cockpit, and the Dictum Honorium demands that all citizens contribute their talents to the defense of House Kurita. Infantry soldiers of the DCMS embody that expectation on garrison worlds across the realm. Foot infantry are the cheapest troops the DCMS can field, and the Combine fields them in enormous numbers. Every military district maintains garrison formations whose sole purpose is holding ground that BattleMech regiments cannot occupy permanently. Slow and vulnerable in open terrain, these soldiers prove their worth through discipline and endurance, standing post on worlds across the Combine because the Dragon demands nothing less. Armed with standard assault rifles, the cheapest and most widely manufactured personal weapon in the Inner Sphere. Effective range is limited, but any world with basic industry can produce and stockpile them in quantity, and resupply is rarely a concern even on remote garrison posts. These designated marksmen operate in small teams, engaging high-value targets from concealed positions at ranges where the enemy cannot effectively respond. A single sniper team can disrupt enemy command and control out of proportion to the resources it consumes.</p>
+</overview>
 
 <notes>
 Hammel Marksman selected as representative weapon of decent but not overwhelming range. Intro date based on common availability for one-system stealth suit.
@@ -84,9 +86,4 @@ Submachine Gun
 <sneakir>
 true
 </sneakir>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Combine's martial traditions extend beyond the BattleMech cockpit, and the Dictum Honorium demands that all citizens contribute their talents to the defense of House Kurita. Infantry soldiers of the DCMS embody that expectation on garrison worlds across the realm. Foot infantry are the cheapest troops the DCMS can field, and the Combine fields them in enormous numbers. Every military district maintains garrison formations whose sole purpose is holding ground that BattleMech regiments cannot occupy permanently. Slow and vulnerable in open terrain, these soldiers prove their worth through discipline and endurance, standing post on worlds across the Combine because the Dragon demands nothing less. Armed with standard assault rifles, the cheapest and most widely manufactured personal weapon in the Inner Sphere. Effective range is limited, but any world with basic industry can produce and stockpile them in quantity, and resupply is rarely a concern even on remote garrison posts. These designated marksmen operate in small teams, engaging high-value targets from concealed positions at ranges where the enemy cannot effectively respond. A single sniper team can disrupt enemy command and control out of proportion to the resources it consumes.</p>
-</overview>
 

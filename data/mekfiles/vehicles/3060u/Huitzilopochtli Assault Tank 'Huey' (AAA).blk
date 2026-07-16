@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e518-755e-82ce-b9420d6fd3e3
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Huitzilopochtli Assault Tank 'Huey'
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -121,26 +121,13 @@ CLHAG20
 CLHAG20
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 16:13:24
-<overview>
-<p>The Huitzilopochtli is a Clan assault-weight tracked combat vehicle designed as a mobile artillery platform. Descended from the Star League Defense Force's Padilla heavy artillery tank, the design was authorized by ilKhan Nicholas Kerensky after the Pentagon Civil War destroyed most of the artillery vehicles the Clans' forebears had brought on the Exodus. First produced in 2845, the vehicle quickly earned the nickname "Huey" among crews. The Clans' well-documented disdain for both artillery and combat vehicles ensured the Huitzilopochtli received minimal investment during its development, resulting in a slow, lightly armored platform powered by a conventional engine. Despite these shortcomings, the Huey fills a necessary role that few other Clan designs address, providing indirect fire support at ranges exceeding three kilometers.</p>
-</overview>
-
 <capabilities>
 <p>Twin Arrow IV launchers dominate the forward hull, each capable of striking targets more than three kilometers away. Four tons of ammunition allow crews to load a mix of TAG-homing missiles for precision strikes and area-effect rounds for saturation bombardment, along with field artillery scatterable mine submunitions. The vehicle's internal combustion engine limits it to a flanking speed of just 32 km/h, making it too slow to reposition under its own power in most tactical situations. DropShip transport is the standard method of moving Hueys to their operational areas.</p><p>Secondary armament centers on a turret-mounted ultra autocannon for medium-range defense, paired with two medium pulse lasers offering accurate fire against both armored and unarmored targets. An extended-range small laser supplements the turret weapons at close range. Side-mounted machine guns provide anti-infantry coverage along the vehicle's flanks. A broad-band ECM suite offers the Huey's most meaningful layer of protection, jamming enemy sensors and targeting systems to degrade incoming fire. Standard armor provides only modest physical protection at five and a half tons, a deliberate cost-saving measure reflecting the expectation that the vehicle would operate far behind the front lines.</p>
 </capabilities>
+
+<overview>
+<p>The Huitzilopochtli is a Clan assault-weight tracked combat vehicle designed as a mobile artillery platform. Descended from the Star League Defense Force's Padilla heavy artillery tank, the design was authorized by ilKhan Nicholas Kerensky after the Pentagon Civil War destroyed most of the artillery vehicles the Clans' forebears had brought on the Exodus. First produced in 2845, the vehicle quickly earned the nickname "Huey" among crews. The Clans' well-documented disdain for both artillery and combat vehicles ensured the Huitzilopochtli received minimal investment during its development, resulting in a slow, lightly armored platform powered by a conventional engine. Despite these shortcomings, the Huey fills a necessary role that few other Clan designs address, providing indirect fire support at ranges exceeding three kilometers.</p>
+</overview>
 
 <deployment>
 <p>The AAA variant replaces the standard's secondary armament with a pair of Class 20 Hyper-Assault Gauss cannons mounted in the turret, fed by twenty-four rounds of ammunition. This configuration transforms the Huey from an artillery platform into a potent anti-aircraft and fire support vehicle. The original internal combustion engine gives way to a fuel cell powerplant, and artillery ammunition is increased to fifteen rounds split between homing and standard Arrow IV missiles. Developed by Clan Ghost Bear at Spittal, the AAA model serves primarily with Ghost Bear and Rasalhague Dominion formations, where it fills a screening role that would otherwise require dedicated frontline units.</p>
@@ -173,4 +160,16 @@ ARMOR:Forging ZK11
 COMMUNICATIONS:TJ6 "Bell" Integrated
 TARGETING:Series VI TTS
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

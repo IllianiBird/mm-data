@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5eb-7780-83f8-b460a261464f
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Darter Scout Car
 <year>
 3057
 </year>
-
-<originalBuildYear>
-3057
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -101,30 +101,13 @@ Machine Gun
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-13.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Darter Scout Car is a thirteen-ton wheeled reconnaissance vehicle produced by General Motors at their Kathil facilities beginning in 2822. The design emerged from a pragmatic Federated Suns response to the First Succession War's devastation: rather than divert scarce resources toward additional BattleMechs, the AFFS sought a lightweight support vehicle that logistics officers could maintain without consuming fusion engines, advanced electronics, or specialized components. General Motors won the production contract with a deliberately minimal design, one built around an internal combustion engine, minimal armor, and simple mechanics. What the Darter sacrificed in combat capability it more than recovered in availability and serviceability, making it one of the most persistently widespread reconnaissance vehicles in Davion conventional forces across the Succession Wars and beyond.</p>
-</overview>
-
 <capabilities>
 <p>The Darter's defining characteristic is its remarkable simplicity. Its GM 75 internal combustion engine provides a cruising speed of seventy-five kilometers per hour and a maximum of one hundred eighteen, making it one of the faster ground vehicles in support roles. Two tons of ProtecTech Light armor protect the hull, enough to deflect small arms and infantry weapons but offering little resistance to anything heavier. The sole dedicated weapon is a Johnston Minigun machine gun with a full ton of ammunition, sufficient for deterring infantry or harassing other light vehicles but not intended for serious combat.</p><p>The vehicle's most operationally valuable feature is its three tons of flexible cargo space. Field crews can reconfigure this capacity to carry communications gear, supplies, or mission-specific equipment. This adaptability, combined with General Motors' deliberate design philosophy encouraging jury-rigging and improvised maintenance, means technicians can replace most components using salvaged or battlefield-sourced parts. General Motors also provides explicit instructions for field modification of many components. An automatic tire pressure monitoring system adjusts the vehicle's tires to match terrain as conditions change, transitioning between soft and hard surfaces without requiring the crew to stop, a meaningful tactical advantage on mixed terrain.</p><p>The Darter's limitations are by design. Its armor offers no meaningful protection against anything heavier than small arms, and its single machine gun discourages serious engagement. The vehicle survives by avoiding combat, not by weathering it.</p>
 </capabilities>
+
+<overview>
+<p>The Darter Scout Car is a thirteen-ton wheeled reconnaissance vehicle produced by General Motors at their Kathil facilities beginning in 2822. The design emerged from a pragmatic Federated Suns response to the First Succession War's devastation: rather than divert scarce resources toward additional BattleMechs, the AFFS sought a lightweight support vehicle that logistics officers could maintain without consuming fusion engines, advanced electronics, or specialized components. General Motors won the production contract with a deliberately minimal design, one built around an internal combustion engine, minimal armor, and simple mechanics. What the Darter sacrificed in combat capability it more than recovered in availability and serviceability, making it one of the most persistently widespread reconnaissance vehicles in Davion conventional forces across the Succession Wars and beyond.</p>
+</overview>
 
 <deployment>
 <p>The C3 variant replaces one ton of cargo with a C3 slave unit, allowing the vehicle to feed targeting data to friendly units equipped with compatible master computers. The Darter's speed and small profile make it well suited to operating as a forward observer within organized C3 networks, extending effective engagement ranges for fire support elements by providing frontline targeting data from positions too exposed for heavier platforms.</p>
@@ -159,4 +142,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:Overlook J9
 TARGETING:Brightstar 17 Mk. I
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+13.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

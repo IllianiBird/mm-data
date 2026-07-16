@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e72c-7117-8218-6b211133c2d9
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Trajan Assault Infantry Fighting Vehicle
 <year>
 3080
 </year>
-
-<originalBuildYear>
-3080
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -123,26 +123,13 @@ Light Auto Cannon/5
 ISERMediumLaser
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 21:44:37
-<overview>
-<p>The Trajan Assault Infantry Fighting Vehicle is an 85-ton tracked combat vehicle produced by Aldis Industries on Terra for the Republic of the Sphere's Armed Forces. Entering service in 3080, the Trajan is a rebranded and modernized version of the Word of Blake's Palmoni, redesigned to Republic specifications after the Jihad. Named after a Roman Emperor and General, the Trajan serves as the primary battle armor transport for RAF combined-arms formations. Its eight-ton infantry bay can accommodate the largest battle armor suits, making it a cornerstone of Republic armored infantry doctrine. Aldis Industries, eager to distance the design from its Blakist origins, marketed the Trajan as a purpose-built battle armor carrier rather than a conventional infantry transport.</p>
-</overview>
-
 <capabilities>
 <p>The Trajan is powered by a GoreTex 255 fusion engine, giving the 85-ton vehicle a flank speed of roughly fifty-four kilometers per hour. This modest pace limits the vehicle's ability to rapidly deploy its battle armor cargo, a weakness that RAF doctrine mitigates by assigning dedicated assault armor to escort the Trajan. The turret mounts twin Holly MML 7 launchers, a SarLon MiniCannon light autocannon, and a Kreiger ER medium laser. The multi-missile launchers provide flexible engagement options, though they are outmatched at range by dedicated fire support platforms. At closer distances, the combined turret weapons, often loaded with precision ammunition, deliver respectable firepower. Four MainFire light machine guns cover all facings for anti-infantry defense.</p><p>Two SureFire 444 anti-missile systems mounted forward offer some protection against incoming missiles. The Trajan's thirteen and a half tons of ArchShield Maxi II armor, while adequate for a transport, prove insufficient for sustained close-quarters combat. This forces crews to rely on cover, their carried battle armor, and their C3 slave computer's ability to share targeting data with company members. The Guardian ECM suite provides electronic protection that the original Blakist model lacked, making the Republic variant somewhat more survivable on the modern battlefield.</p>
 </capabilities>
+
+<overview>
+<p>The Trajan Assault Infantry Fighting Vehicle is an 85-ton tracked combat vehicle produced by Aldis Industries on Terra for the Republic of the Sphere's Armed Forces. Entering service in 3080, the Trajan is a rebranded and modernized version of the Word of Blake's Palmoni, redesigned to Republic specifications after the Jihad. Named after a Roman Emperor and General, the Trajan serves as the primary battle armor transport for RAF combined-arms formations. Its eight-ton infantry bay can accommodate the largest battle armor suits, making it a cornerstone of Republic armored infantry doctrine. Aldis Industries, eager to distance the design from its Blakist origins, marketed the Trajan as a purpose-built battle armor carrier rather than a conventional infantry transport.</p>
+</overview>
 
 <deployment>
 <p>The standard Trajan replaced the Palmoni's Improved C3 with a C3 slave computer and Guardian ECM suite, integrating the vehicle into Republic command networks. This version represents the primary production model and is the most widely fielded variant in RAF service. It retains the full weapon suite of the original design while offering improved electronic warfare capabilities that make it better suited to the combined-arms doctrine favored by Republic forces.</p>
@@ -175,4 +162,16 @@ ARMOR:Maxi II
 COMMUNICATIONS:3000
 TARGETING:Omicron X
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5fd-7a4e-b08d-78f0b0b17f4a
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Hiryo Armored Infantry Transport
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -99,26 +99,13 @@ ISSNPPC
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 15:48:35
-<overview>
-<p>Japanese for "Flying Dragon," the Hiryo Armored Infantry Transport is a Wing in Ground Effect vehicle developed by Pesht Motors to deliver battle armor infantry into the field. The design began as a commercial project aimed at countering Wakazashi Enterprises in the civilian transport market, and was already well advanced when the Draconis Combine Mustered Soldiery issued an urgent call for dedicated battle armor transports after the Combine-Ghost Bear War exposed a critical gap in the DCMS order of battle. Despite aggressive lobbying from Wakazashi executives, the Hiryo won the procurement competition and became the Combine's battle armor transport of choice during the Jihad. Manufactured exclusively by Pesht Motors, the design proved adaptable enough to generate several variants tailored to different tactical requirements.</p>
-</overview>
-
 <capabilities>
 <p>The Hiryo relies on a GM 205 Light Fusion Engine to achieve a cruising speed of 86 kilometers per hour and a flank speed of 129 kilometers per hour, endurance limited only by the crew. Six tons of New Samarkand Heavy Ferro-Fibrous armor provide the strongest Inner Sphere protection available at the time of the design's introduction, a substantial investment for a vehicle whose primary role is troop delivery rather than direct combat.</p><p>The sole weapon is a Lord's Light 2b Snub-Nose PPC mounted on the nose. While capable of concentrated firepower at close range, the weapon's minimum range and the vehicle's transport mission mean the Hiryo is poorly suited to sustained offensive action. It is a defensive weapon, not a fighting platform, and commanders who engage enemy armor with the Hiryo risk the troops aboard.</p><p>Where the Hiryo excels is in the delivery of its passengers. A large rear ramp allows rapid ground disembarkation, and eight hatches on the underside enable jump-capable battle armor suits to drop directly into combat. The vehicle carries eight troopers in full battle armor, maintains a small internal maintenance facility for field repairs, and provides storage for additional ammunition and supplies. At cruising altitude, the WiGE configuration skims terrain that would stop a tracked vehicle. That same surface dependency, however, limits operations over open water and makes the Hiryo vulnerable in cluttered or broken terrain where sustained low altitude flight is impractical.</p>
 </capabilities>
+
+<overview>
+<p>Japanese for "Flying Dragon," the Hiryo Armored Infantry Transport is a Wing in Ground Effect vehicle developed by Pesht Motors to deliver battle armor infantry into the field. The design began as a commercial project aimed at countering Wakazashi Enterprises in the civilian transport market, and was already well advanced when the Draconis Combine Mustered Soldiery issued an urgent call for dedicated battle armor transports after the Combine-Ghost Bear War exposed a critical gap in the DCMS order of battle. Despite aggressive lobbying from Wakazashi executives, the Hiryo won the procurement competition and became the Combine's battle armor transport of choice during the Jihad. Manufactured exclusively by Pesht Motors, the design proved adaptable enough to generate several variants tailored to different tactical requirements.</p>
+</overview>
 
 <deployment>
 <p>The Hiryo entered service primarily with district regular units of the DCMS, which received the fewest vehicles while high-prestige formations took priority. The Sword of Light and the Izanagi Warriors, charged with protecting the Coordinator, integrated elite battle armor troopers using the Hiryo to provide exceptional defensive coverage on Luthien, where much of the surface remained radioactive for years after the Blakist assault. Planetary defense forces whose worlds suffered nuclear, chemical, or biological attack also received the design, relying on its environmental systems to operate in contaminated zones. Some vehicles and accompanying volunteer troops were reportedly dropped to An Ting along with medical and testing supplies to assess radiation levels in contested territories.</p>
@@ -151,4 +138,16 @@ ARMOR:New Samarkand Heavy Ferro-Fibrous
 COMMUNICATIONS:400
 TARGETING:ASR 26
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

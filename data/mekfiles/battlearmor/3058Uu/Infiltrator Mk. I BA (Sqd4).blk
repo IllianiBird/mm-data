@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a29d-7b81-a95f-85f80330642d
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Infiltrator Mk. I Battle Armor
 <year>
 3050
 </year>
-
-<originalBuildYear>
-3050
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -84,42 +84,14 @@ IS BA Stealth (Prototype):Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Infiltrator was among the first battle armor designs fielded by any Inner Sphere military. Produced by Albion Advanced Technologies and Products on New Avalon, the light reconnaissance suit entered service in 3050 as a stealth-focused platform built around advanced sensor and concealment systems. Designed to operate deep behind enemy lines, the Infiltrator emphasized electronic stealth and intelligence-gathering capability over combat power, setting it apart from the heavier battle armor designs emerging across the Inner Sphere during the same period. The suit filled an important role in Federated Commonwealth force structure, providing covert reconnaissance capabilities that no other platform of its era could match.</p>
-</overview>
 
 <capabilities>
 <p>The Infiltrator Mk. I is a 750-kilogram light battle armor suit built around stealth and sensor operations. Its 500 kilograms of prototype stealth armor incorporates radar, infrared, and acoustic suppression systems that mimic a combined ECM and IR sneak suit. This protection is minimal, absorbing roughly one hit from a medium laser before failing. The suit mounts an impressive array of passive sensing equipment, including heat sensors, magnetic-anomaly detectors, and recording devices capable of gathering intelligence deep within enemy territory. Its sole weapon is a heavy grenade launcher in the left arm, offering limited defensive firepower against unarmored personnel and light vehicles. A basic manipulator on the right arm provides object handling, though the suit is not configured for anti-BattleMech attacks or OmniMech transport. Ground speed reaches 21.6 km/h, but the suit's characteristic waddling stride and total lack of jump capability limit tactical mobility considerably.</p>
 </capabilities>
+
+<overview>
+<p>The Infiltrator was among the first battle armor designs fielded by any Inner Sphere military. Produced by Albion Advanced Technologies and Products on New Avalon, the light reconnaissance suit entered service in 3050 as a stealth-focused platform built around advanced sensor and concealment systems. Designed to operate deep behind enemy lines, the Infiltrator emphasized electronic stealth and intelligence-gathering capability over combat power, setting it apart from the heavier battle armor designs emerging across the Inner Sphere during the same period. The suit filled an important role in Federated Commonwealth force structure, providing covert reconnaissance capabilities that no other platform of its era could match.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere militaries organized their Infiltrators into standard four-trooper squads following conventional infantry doctrine. AFFS and LAAF line units employed these squads for tactical reconnaissance, screening operations, and rear-area security where stealth mattered more than firepower. Integration with existing infantry command structures and BattleMech lance formations was straightforward, and the four-trooper squad became the most common fielding arrangement across both successor states.</p>
@@ -152,4 +124,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

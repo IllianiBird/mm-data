@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a5aa-7ece-ba28-a90702909996
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Mk. XXX(Bounty Hunter)(Restored)
 <year>
 3061
 </year>
-
-<originalBuildYear>
-3061
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -80,42 +80,14 @@ IS BA Stealth (Standard):LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-1
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 16:39:49
-<overview>
-<p>The Nighthawk Mk. XXI PA(L) is the progenitor of modern battle armor, developed by the Terran Hegemony from commercial exoskeleton technology through one of the most challenging military engineering programs of the Star League era. Commissioned in 2720, the Nighthawk was designed as a light power armor suit for reconnaissance and covert operations. The suit entered service exclusively with the SLDF Special Forces Command, where it equipped elite special operations teams whose very existence remained classified. Classified as Power Armor (Light), the Nighthawk provided its operators with capabilities far beyond conventional infantry while maintaining the stealth profile necessary for behind-the-lines work, establishing the conceptual foundation for every battle armor design that followed.</p>
-</overview>
 
 <capabilities>
 <p>The Bounty Hunter's personal Nighthawk is a fully restored Mk. XXX with its stealth systems and jump pack returned to operational condition after decades of degraded functionality. The suit features the same Standard Stealth armor and thirty kilometer per hour ground speed as the standard Mk. XXX, augmented by restored jump jets providing ninety meters of leap capability. The Bounty Hunter typically wields paired Sternsnacht Claymore heavy pistols through the suit's armored gloves, the power armor compensating for the weight and recoil of these oversized sidearms. Additional mission-specific heavy weapons are carried as needed.</p><p>The fully operational stealth suite allows the wearer to move undetected when operating outside a BattleMech cockpit, a capability leveraged for personal reconnaissance, target acquisition, and close-quarters operations throughout a career spanning multiple generations of the Bounty Hunter identity.</p>
 </capabilities>
+
+<overview>
+<p>The Nighthawk Mk. XXI PA(L) is the progenitor of modern battle armor, developed by the Terran Hegemony from commercial exoskeleton technology through one of the most challenging military engineering programs of the Star League era. Commissioned in 2720, the Nighthawk was designed as a light power armor suit for reconnaissance and covert operations. The suit entered service exclusively with the SLDF Special Forces Command, where it equipped elite special operations teams whose very existence remained classified. Classified as Power Armor (Light), the Nighthawk provided its operators with capabilities far beyond conventional infantry while maintaining the stealth profile necessary for behind-the-lines work, establishing the conceptual foundation for every battle armor design that followed.</p>
+</overview>
 
 <deployment>
 <p>This suit is the personal Nighthawk of the enigmatic Bounty Hunter, a priceless Star League-era Mk. XXX restored to full operational capability by the time of the FedCom Civil War. The Bounty Hunter wears the suit whenever expecting combat outside a BattleMech cockpit, using it for personal reconnaissance, target acquisition, and close-quarters engagements. The restored stealth and jump systems, combined with the wearer's formidable combat skills, make this single suit one of the most dangerous pieces of personal equipment operating in the Inner Sphere.</p>
@@ -150,4 +122,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+1
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b953-7219-8806-3f5a5bf2f1d2
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Artillery Platoon (ComStar)
 <year>
 2825
 </year>
-
-<originalBuildYear>
-2825
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -57,6 +57,9 @@ ISThumper
 ISThumperAmmo
 </Field Guns Equipment>
 
+<overview>
+<p>ComStar's infantry served across the Inner Sphere in garrison and security roles, stationed on HPG compound worlds where they provided protection for the Order's most critical infrastructure while maintaining the facade of a purely defensive force. Crewing Thumper artillery pieces, these gunners provide organic indirect fire support capable of suppressing enemy formations at ranges well beyond direct-fire weapons, dropping explosive rounds onto positions that cannot be engaged by line-of-sight weapons.</p>
+</overview>
 
 <squad_size>
 7
@@ -69,9 +72,4 @@ ISThumperAmmo
 <Primary>
 Submachine Gun
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>ComStar's infantry served across the Inner Sphere in garrison and security roles, stationed on HPG compound worlds where they provided protection for the Order's most critical infrastructure while maintaining the facade of a purely defensive force. Crewing Thumper artillery pieces, these gunners provide organic indirect fire support capable of suppressing enemy formations at ranges well beyond direct-fire weapons, dropping explosive rounds onto positions that cannot be engaged by line-of-sight weapons.</p>
-</overview>
 

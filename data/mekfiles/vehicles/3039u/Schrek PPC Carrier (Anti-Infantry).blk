@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e303-7897-9b56-71c323ab563f
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Schrek PPC Carrier
 <year>
 2833
 </year>
-
-<originalBuildYear>
-2833
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -108,33 +108,13 @@ Machine Gun
 Machine Gun
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 12:59:54
-<overview>
-<p>The Schrek PPC Carrier emerged in 2813 as Aldis Industries' answer to the persistent heat management problems that plagued their popular Demolisher heavy tank. Rather than persisting with the Demolisher's massive autocannons, Aldis engineers replaced the entire weapons philosophy with a trio of particle projection cannons backed by enough heat sinks to sustain continuous fire. The result was a long-range fire support platform without equal among tracked assault vehicles, capable of walking steady particle volleys into enemy formations without pause or ammunition constraint.</p><p>Produced at Aldis facilities on Terra and Betelgeuse alongside New Samarkand Metals' plant on New Samarkand, the Schrek quickly became a fixture in well-equipped armor units throughout the Inner Sphere. Its combination of devastating firepower and freedom from ammunition dependency made it the natural companion to the close-quarters Demolisher, the two designs complementing each other's limitations across centuries of warfare.</p>
-</overview>
-
 <capabilities>
 <p>Three turret-mounted Magna Hellstar PPCs give the Schrek a combined firepower output rivaling many heavy BattleMechs. Unlike comparable designs that must stagger fire to manage thermal buildup, the Schrek carries enough heat sinks to sustain all three weapons simultaneously, making it an ideal stationary bombardment platform. When deployed in prepared hull-down positions, the design can hold its fire line indefinitely, pouring particle bolts into approaching formations at ranges that leave most opponents unable to respond effectively. Because the PPCs have a minimum range that prevents effective close-in fire, the Schrek is rarely deployed without dedicated escorts.</p><p>This firepower advantage carries significant costs. With only seven tons of ArcShield VII Mk 5 armor, the Schrek is dangerously thin-skinned for a vehicle of its mass, and its top speed of 54 kph leaves it unable to reposition quickly when flanked or encircled. The reliance on a fusion engine restricts the Schrek to well-resourced units, as both procurement and maintenance costs exceed those of comparable ICE-powered designs. The complete absence of anti-infantry weapons is a persistent tactical liability, making dedicated escort assignments nearly mandatory for sustained operations.</p>
 </capabilities>
+
+<overview>
+<p>The Schrek PPC Carrier emerged in 2813 as Aldis Industries' answer to the persistent heat management problems that plagued their popular Demolisher heavy tank. Rather than persisting with the Demolisher's massive autocannons, Aldis engineers replaced the entire weapons philosophy with a trio of particle projection cannons backed by enough heat sinks to sustain continuous fire. The result was a long-range fire support platform without equal among tracked assault vehicles, capable of walking steady particle volleys into enemy formations without pause or ammunition constraint.</p><p>Produced at Aldis facilities on Terra and Betelgeuse alongside New Samarkand Metals' plant on New Samarkand, the Schrek quickly became a fixture in well-equipped armor units throughout the Inner Sphere. Its combination of devastating firepower and freedom from ammunition dependency made it the natural companion to the close-quarters Demolisher, the two designs complementing each other's limitations across centuries of warfare.</p>
+</overview>
 
 <deployment>
 <p>A field modification first documented in 2833, this variant drops a modest amount of armor to mount small anti-infantry weapons, typically a machine gun or small laser. Units operating in environments with significant infantry threat devised this conversion to address the base Schrek's complete vulnerability to infantry attack. As a field refit with no fixed production standard, configuration and specific components varied considerably between units.</p>
@@ -167,4 +147,16 @@ ARMOR:VII Mk 5
 COMMUNICATIONS:3000
 TARGETING:IX
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

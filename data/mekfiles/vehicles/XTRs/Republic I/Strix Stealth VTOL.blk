@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec64-7b33-bb65-b705dec25ca0
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Strix Stealth VTOL
 <year>
 3117
 </year>
-
-<originalBuildYear>
-3117
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Experimental
@@ -118,26 +118,13 @@ CLERSmallLaser
 CLERSmallLaser
 </Turret Equipment>
 
-<source>
-XTR:RotS 1,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Strix Stealth VTOL is a landmark achievement in mixed-technology design, born from the ingenuity of Nova Cat refugees settled in Prefecture II of the Republic of the Sphere. Developed at Wayne Station on Shitara under the direction of Technician Pádraig, the Strix combines advanced Inner Sphere electronics and armor with Clan-grade weapons and targeting systems. The design emerged not from any official Republic military program but from the Nova Cat community's desire to contribute meaningfully to their adoptive nation while preserving their martial heritage. Four handcrafted prototypes were completed in 3117, and the Republic Armed Forces took notice quickly, licensing the design to StarCorps of Terra for full production beginning in 3121.</p>
-</overview>
-
 <capabilities>
 <p>The Strix weighs thirty tons and carries a formidable combination of armament for its class. A chin turret mounting two ER Small Lasers provides flexible close-range firepower with a near-full arc of coverage, while an Ultra AC/2 in the front gives the vehicle reach that few aircraft of comparable size can match. A Targeting Computer sharpens both weapon systems, improving accuracy in even demanding tactical environments.</p><p>Protection relies on sixty-four points of Inner Sphere Stealth Armor, powered by the integrated Watchdog Counter-Electronics Warfare System. This pairing makes the Strix extremely difficult to acquire on sensors and suppresses enemy targeting locks, allowing it to approach defended positions that would deter conventional VTOLs. A VTOL Jet Booster extends its operational speed in burst maneuvers, giving pilots additional options for repositioning or disengagement.</p><p>The Strix carries significant trade-offs. Its Non-Standard Parts designation means replacement components are difficult to source outside the original manufacturing sites, making sustained operations logistically challenging. The mixed Clan and Inner Sphere technology base also demands specialized maintenance knowledge that most field technicians do not possess.</p>
 </capabilities>
+
+<overview>
+<p>The Strix Stealth VTOL is a landmark achievement in mixed-technology design, born from the ingenuity of Nova Cat refugees settled in Prefecture II of the Republic of the Sphere. Developed at Wayne Station on Shitara under the direction of Technician Pádraig, the Strix combines advanced Inner Sphere electronics and armor with Clan-grade weapons and targeting systems. The design emerged not from any official Republic military program but from the Nova Cat community's desire to contribute meaningfully to their adoptive nation while preserving their martial heritage. Four handcrafted prototypes were completed in 3117, and the Republic Armed Forces took notice quickly, licensing the design to StarCorps of Terra for full production beginning in 3121.</p>
+</overview>
 
 <deployment>
 <p>The Strix is assigned to light attack and reconnaissance forces within the Republic Armed Forces, capitalizing on its stealth armor and Watchdog CEWS suite to operate in contested airspace where conventional VTOLs cannot safely operate. The design pairs well with light ground vehicles and conventional infantry, providing air cover and suppressing enemy electronic systems at ranges that complement the capabilities of those formations. Initial deployment was limited to the four prototype units assigned to the Second Triarii Protectors in Prefecture II. Production variants from StarCorps were expected to distribute the design to a wider range of Republic formations, though the Non-Standard Parts designation initially constrained the number of units that could be kept in front-line service simultaneously.</p>
@@ -170,4 +157,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RotS 1,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

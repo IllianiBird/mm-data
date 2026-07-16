@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e952-793a-8b90-5dd09c811f56
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Mk. XV
 <year>
 3081
 </year>
-
-<originalBuildYear>
-3081
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -118,26 +118,13 @@ ISGaussRifle
 ISSBGR
 </Turret Equipment>
 
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Challenger MBT is a ninety-ton main battle tank developed jointly by Kallon Industries and General Motors in response to the Federated Suns' urgent need for heavy tracked combat vehicles capable of engaging Clan BattleMechs during the invasion years of the 3050s. Rather than compete for lucrative armored vehicle contracts, the two manufacturers pooled their resources to produce an entirely new assault vehicle that could go head-to-head with most frontline OmniMechs. Entering service with the Armed Forces of the Federated Suns in 3057, the Challenger was simultaneously produced at plants on Salem, Kathil, and Kirklin, allowing rapid distribution across AFFS armored formations throughout the Crucis Reach and beyond. Its combination of a heavy Gauss rifle, layered secondary weapons, and substantial armor protection established the Challenger as the primary main battle tank of the Federated Suns, a role it has maintained through successive variants spanning the Clan Invasion, the FedCom Civil War, the Jihad, and the post-Jihad eras.</p>
-</overview>
-
 <capabilities>
 <p>The Challenger Mk. XV addresses the Federated Suns' post-Jihad need for a main battle tank affordable enough to distribute across the entire AFFS structure, not only to elite formations. The key change from earlier Challengers is replacement of the expensive XL fusion engine with a GM Powercell 270 fuel cell power plant, dramatically reducing both procurement and maintenance costs while retaining the same 32 kph cruising speed and 54 kph flank speed. This change, combined with removal of the Thunderbolt launcher from the earlier prototype, freed space for additional armor and ammunition, resulting in a tank with heavier protection than any prior Challenger variant in the form of Valiant Plate heavy ferro-fibrous armor.</p><p>The Mk. XV carries six electromagnetically-propelled weapons, a configuration field tests by the Davion Heavy Guards identified as optimal after determining the Thunderbolt launcher was the design's least essential weapon due to its poor firing arc and arming delay. The resulting arrangement creates a literal Gauss boat, with all primary weapons firing electromagnetically-propelled rounds that generate no heat and require no energy from the fuel cell power plant beyond electronics. The Wunderland XXXV-2 communications suite is carried forward from earlier production variants, and the new Sync-Tracker (4034-A30) targeting system provides reliable fire control for the all-Gauss battery, simplifying logistics across mixed armor formations.</p>
 </capabilities>
+
+<overview>
+<p>The Challenger MBT is a ninety-ton main battle tank developed jointly by Kallon Industries and General Motors in response to the Federated Suns' urgent need for heavy tracked combat vehicles capable of engaging Clan BattleMechs during the invasion years of the 3050s. Rather than compete for lucrative armored vehicle contracts, the two manufacturers pooled their resources to produce an entirely new assault vehicle that could go head-to-head with most frontline OmniMechs. Entering service with the Armed Forces of the Federated Suns in 3057, the Challenger was simultaneously produced at plants on Salem, Kathil, and Kirklin, allowing rapid distribution across AFFS armored formations throughout the Crucis Reach and beyond. Its combination of a heavy Gauss rifle, layered secondary weapons, and substantial armor protection established the Challenger as the primary main battle tank of the Federated Suns, a role it has maintained through successive variants spanning the Clan Invasion, the FedCom Civil War, the Jihad, and the post-Jihad eras.</p>
+</overview>
 
 <deployment>
 <p>The AFFS reacted enthusiastically to the Mk. XV as a practical solution to post-Jihad procurement constraints. Unlike earlier Challenger variants whose costs restricted them to elite formations, the fuel cell-powered Mk. XV is affordable enough to issue throughout the entire AFFS structure, from the most prestigious Guards regiments to March Militias previously too far down the supply chain to receive this class of heavy tank. Units that had never operated Challengers quickly adopted the design, with crews appreciating its high-tech appearance and solid battlefield performance. The Mk. XV proliferates throughout March Militias and is found in substantial numbers within the First Federated Suns Lancers and the Avalon Hussars, establishing itself as the standard heavy armored vehicle of the modern AFFS across all formation tiers.</p>
@@ -170,4 +157,16 @@ ARMOR:Valiant Plate Heavy Ferro-Fibrous
 COMMUNICATIONS:Wunderland XXXV-2 Series
 TARGETING:Sync-Tracker (4034-A30)
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e11d-7fc2-8424-befb1d5cc1d6
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Basilisk ProtoMech (Quad)
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Clan Level 4
@@ -119,34 +119,13 @@ Clan Electric Discharge ProtoMech
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-WoR,WoRS
-</source>
-
-<published>
-WoR,WoRS
-</published>
-
-<tonnage>
-7.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Basilisk ProtoMek Quad is a seven-ton quadruped variant of the Cloud Cobra Basilisk, developed during the Wars of Reaving to provide a more mobile and stable weapons platform for close-range assault operations. The four-legged chassis trades the bipedal Basilisk's ranged firepower for enhanced ground speed and a built-in melee weapons system augmented by Electric Discharge ProtoMek armor, creating a design uniquely suited to aggressive close-quarters tactics. The quad configuration provides fifty-four kilometers per hour cruising speed, significantly faster than the bipedal variant's forty-three, while maintaining the Basilisk family's reputation for durability and reliability.</p>
-</overview>
-
 <capabilities>
 <p>The Basilisk Quad mounts an SRM-4 launcher in the torso with ten salvos of ammunition, providing the primary ranged firepower. However, the design's true combat power comes from its integrated melee weapons system and Electric Discharge ProtoMek armor. The quad chassis allows the Basilisk to physically engage targets, and the EDP armor adds a taser-like electrical discharge effect to melee attacks that can disrupt Mek systems. This combination makes the Basilisk Quad uniquely dangerous in close combat, capable of both physical and electrical disruption attacks that no other ProtoMek can replicate.</p><p>Thirty-two points of armor provide solid protection, and the quad chassis delivers fifty-four kilometers per hour cruising speed with a flank speed approaching eighty. Without jump jets, the design relies on its superior ground speed to close with targets and engage them in melee range. The quad configuration also provides inherently better stability than bipedal designs, reducing the risk of falling during physical combat maneuvers. Commanders deploy Basilisk Quad Points as shock assault elements, using their speed to close rapidly with enemy formations and engage in the close-range melee combat where their EDP armor provides maximum advantage.</p>
 </capabilities>
+
+<overview>
+<p>The Basilisk ProtoMek Quad is a seven-ton quadruped variant of the Cloud Cobra Basilisk, developed during the Wars of Reaving to provide a more mobile and stable weapons platform for close-range assault operations. The four-legged chassis trades the bipedal Basilisk's ranged firepower for enhanced ground speed and a built-in melee weapons system augmented by Electric Discharge ProtoMek armor, creating a design uniquely suited to aggressive close-quarters tactics. The quad configuration provides fifty-four kilometers per hour cruising speed, significantly faster than the bipedal variant's forty-three, while maintaining the Basilisk family's reputation for durability and reliability.</p>
+</overview>
 
 <deployment>
 <p>The base Basilisk Quad mounts an SRM-4 launcher in the torso with ten salvos of ammunition, supplemented by a quad melee weapons system and Electric Discharge ProtoMek armor. The four-legged chassis provides fifty-four kilometers per hour cruising speed, significantly faster than the bipedal Basilisk. Thirty-two points of armor provide solid protection. The EDP armor adds a taser-like electrical discharge to melee attacks, capable of disrupting Mek systems in close combat. Without jump jets, the design relies on its superior ground speed to close with opponents. The combination of SRM firepower, melee weapons, and electrical disruption makes the base Basilisk Quad a formidable close-range assault platform.</p>
@@ -177,4 +156,16 @@ CHASSIS:Standard Quad
 ENGINE:45
 ARMOR:EDP
 </systemModels>
+
+<source>
+WoR,WoRS
+</source>
+
+<published>
+WoR,WoRS
+</published>
+
+<tonnage>
+7.0
+</tonnage>
 

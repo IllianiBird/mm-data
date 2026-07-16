@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4c1-7867-97ac-2a925ba30b67
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Athena Combat Vehicle
 <year>
 3008
 </year>
-
-<originalBuildYear>
-3008
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -116,26 +116,13 @@ CLMG
 CLMG
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 11:45:11
-<overview>
-<p>The Athena Combat Vehicle is a 75-ton tracked fire-support platform developed by Clan Hell's Horses at the Niles Industriplex Alpha on their Homeworld of Niles. Entering production in 3008, the design embodies the Horses' longstanding and unorthodox preference for conventional armored vehicles in roles that most Clans reserve exclusively for BattleMechs. Conceived to bring Clan-grade accuracy and hitting power to a vehicle chassis, the Athena can threaten enemy BattleMechs at extreme range and does so reliably enough that it earned comparison to some of the most dangerous Clan OmniMechs in terms of firepower delivery.</p><p>Though its defensive characteristics are more modest than those of Inner Sphere vehicles of equivalent tonnage, the Athena compensates through combined-arms doctrine, always operating under BattleMech or Elemental cover. Its unusual success has drawn quiet admiration even from Clans skeptical of conventional vehicle forces, and the design has spread through capture and salvage to several other Clans over the decades since its introduction.</p>
-</overview>
-
 <capabilities>
 <p>The Athena functions as a dedicated long-range sniper platform built around twin Type AA4 Gauss rifles fixed in the forward hull compartment. Mounting these weapons in the hull rather than a rotating turret sacrifices traverse flexibility, but provides exceptional stability for accurate fire at extreme range. A Type Xa LRM-10 rack extends the vehicle's reach for indirect fire missions. A secondary semi-independent turret mounts two Series 2h Extended Range Medium Lasers and two Type AP40 Machine Guns, crewed by a secondary gunner whose primary duty is keeping lighter threats at bay while the main crew concentrates on priority targets.</p><p>The critical performance multiplier is the Consolidated Type VII targeting computer paired with a Mark-5 Series Targeting Enhancement module. This system equals those carried by frontline Clan OmniMechs and allows even average crews to place Gauss slugs on the most vulnerable sections of enemy armor at distances most vehicles cannot reach. The design's weaknesses are equally clear. Ground speed is sufficient only to keep pace with the heaviest assault elements, and the ferro-fibrous armor protection is particularly weaker than Inner Sphere vehicles of the same tonnage. The secondary gunner is typically the crew's lowest-ranked warrior, reflecting the Athena's primary mission emphasis on long-range fire over close-quarters defense.</p>
 </capabilities>
+
+<overview>
+<p>The Athena Combat Vehicle is a 75-ton tracked fire-support platform developed by Clan Hell's Horses at the Niles Industriplex Alpha on their Homeworld of Niles. Entering production in 3008, the design embodies the Horses' longstanding and unorthodox preference for conventional armored vehicles in roles that most Clans reserve exclusively for BattleMechs. Conceived to bring Clan-grade accuracy and hitting power to a vehicle chassis, the Athena can threaten enemy BattleMechs at extreme range and does so reliably enough that it earned comparison to some of the most dangerous Clan OmniMechs in terms of firepower delivery.</p><p>Though its defensive characteristics are more modest than those of Inner Sphere vehicles of equivalent tonnage, the Athena compensates through combined-arms doctrine, always operating under BattleMech or Elemental cover. Its unusual success has drawn quiet admiration even from Clans skeptical of conventional vehicle forces, and the design has spread through capture and salvage to several other Clans over the decades since its introduction.</p>
+</overview>
 
 <deployment>
 <p>The Athena serves in the heavy and assault vehicle Stars of nearly every frontline Cluster and Galaxy in Clan Hell's Horses. Horses command considers these vehicles too valuable to risk in unsupported operations, and crews rarely deploy without accompanying BattleMech or Elemental elements. In assault operations they anchor the long-range fire component, engaging priority targets while faster elements close distance. Salvaged examples appear in limited numbers with Clan Wolf and Clan Jade Falcon, typically integrated into vehicle Stars rather than used as standalone assets.</p>
@@ -170,4 +157,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Build 1690/2 Tacticom
 TARGETING:Type VII TTC with Mark-5 Series Targeting Enhancement Computer
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

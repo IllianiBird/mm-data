@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb3a-748f-a3dc-0eab4dba3cbe
+</UUID>
+
 <UnitType>
 SupportVTOL
 </UnitType>
@@ -35,10 +39,6 @@ Cascatelle Firefighting VTOL
 <year>
 3063
 </year>
-
-<originalBuildYear>
-3063
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -118,30 +118,13 @@ Cargo Container (10 tons)
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuel>
-3.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Cascatelle is a sixty-ton heavy firefighting VTOL manufactured by Pion-Laurier on Chenier, designed to serve as a large-scale aerial suppression platform for civil emergency services across the Federated Suns. Introduced in 3063, the aircraft was the product of a deliberate strategic pivot by its manufacturer, which had spent nearly two years pursuing novel and ultimately failed extinguishing technologies under the PEQRAF research program. After scrapping those efforts and returning to conventional design principles, Pion-Laurier delivered the Cascatelle as a practical tilt-rotor aircraft built around modular cargo capacity, long operational range, and the ability to carry and drop-dispense large volumes of extinguishing agents over considerable distances. The design fills a critical gap in planetary firefighting fleets, particularly for forest fires and dense urban infernos that exceed the reach of ground-based equipment.</p>
-</overview>
-
 <capabilities>
 <p>The Cascatelle's primary strength is its modular cargo bay, designed to accept containerized tank configurations holding water or dry powder suppressants. Fire command can select different payloads based on the nature of the emergency, and two large cargo containers provide capacity for up to twenty tons of suppression agent alongside a small amount of standard cargo. For specialized deployments the aircraft can carry equipment bombs; fireproof detachable cargo containers used to supply parachuting firemen transported in the passenger compartment. The result is a platform that functions as both a suppression aircraft and a light airborne logistics vehicle in a single operation.</p><p>Powered by an ICE powerplant with a cruising speed of roughly fifty-four kilometers per hour and a flank speed of eighty, the Cascatelle is adequate for emergency response but not exceptional in contested airspace. A fuselage rated at BAR 6 with sixty-four points of armor offers meaningful resilience against heat exposure and collapse debris, though the design carries no weapons and offers no defense against anti-aircraft fire. The dual VTOL rotor arrangement provides hovering stability for extended stationary operations over a fire zone. Refueling and tank recharging can be accomplished by several means: manual ground exchange, in-flight tank swap, suction tube draw, standardized filler necks at equipped ground stations, or direct water pickup from lakes and reservoirs through the aircraft's forward hatch. This operational flexibility extends sortie times significantly in sustained firefighting campaigns where return-to-base delays would cost lives.</p>
 </capabilities>
+
+<overview>
+<p>The Cascatelle is a sixty-ton heavy firefighting VTOL manufactured by Pion-Laurier on Chenier, designed to serve as a large-scale aerial suppression platform for civil emergency services across the Federated Suns. Introduced in 3063, the aircraft was the product of a deliberate strategic pivot by its manufacturer, which had spent nearly two years pursuing novel and ultimately failed extinguishing technologies under the PEQRAF research program. After scrapping those efforts and returning to conventional design principles, Pion-Laurier delivered the Cascatelle as a practical tilt-rotor aircraft built around modular cargo capacity, long operational range, and the ability to carry and drop-dispense large volumes of extinguishing agents over considerable distances. The design fills a critical gap in planetary firefighting fleets, particularly for forest fires and dense urban infernos that exceed the reach of ground-based equipment.</p>
+</overview>
 
 <deployment>
 <p>The Cascatelle serves planetary fire departments throughout the Federated Suns, with the greatest concentrations on industrialized and urbanized worlds where the scale of potential fires exceeds ground equipment capabilities. Its modular cargo bay makes it a versatile choice for emergencies ranging from forest fires to metropolitan infernos, and its range of over two thousand kilometers supports coverage of remote settlements without pre-positioned ground support. The passenger compartment allows insertion or extraction of firefighting personnel from multi-story structures, extending the aircraft's role beyond suppression to include light rescue operations. Civil emergency services on worlds with active heavy industry or large DropShip yards consider the Cascatelle a high-priority acquisition given the scale of fires that industrial accidents can produce.</p>
@@ -176,4 +159,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuel>
+3.0
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

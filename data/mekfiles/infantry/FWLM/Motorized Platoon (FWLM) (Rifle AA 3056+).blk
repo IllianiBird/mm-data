@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bcd9-7d68-bff6-77b6b44e95b7
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Motorized Platoon (FWLM)
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Free Worlds League Infantry Kit (3035+)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>Conventional infantry within the FWLM serve as the backbone of provincial defense across a patchwork of semi-autonomous states, each maintaining its own military traditions and equipment preferences. Motorized platoons provide the speed the FWLM needs to cover the vast distances between garrison posts on provincial worlds, mounting troops on light vehicles that can respond to threats faster than foot infantry but without the expense of full mechanization. Armed with standard ballistic assault rifles, the most common and affordable infantry weapon in the Inner Sphere, these platoons deliver reliable short-range firepower and can be equipped and resupplied from almost any garrison stockpile. These anti-aircraft specialists are trained and equipped to engage low-flying aerospace fighters, VTOLs, and conventional aircraft, providing dedicated point air defense for installations and ground formations.</p>
+</overview>
 
 <notes>
 Intro date based on re-introduction date of AA weapon
@@ -84,9 +86,4 @@ AA Weapon (Mk. 1, Light)
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Conventional infantry within the FWLM serve as the backbone of provincial defense across a patchwork of semi-autonomous states, each maintaining its own military traditions and equipment preferences. Motorized platoons provide the speed the FWLM needs to cover the vast distances between garrison posts on provincial worlds, mounting troops on light vehicles that can respond to threats faster than foot infantry but without the expense of full mechanization. Armed with standard ballistic assault rifles, the most common and affordable infantry weapon in the Inner Sphere, these platoons deliver reliable short-range firepower and can be equipped and resupplied from almost any garrison stockpile. These anti-aircraft specialists are trained and equipped to engage low-flying aerospace fighters, VTOLs, and conventional aircraft, providing dedicated point air defense for installations and ground formations.</p>
-</overview>
 

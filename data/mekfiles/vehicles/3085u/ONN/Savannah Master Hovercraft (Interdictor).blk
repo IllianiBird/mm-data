@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e777-759a-b73f-6f8d502989ed
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Savannah Master Hovercraft
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -95,33 +95,13 @@ ISGuardianECMSuite
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<tonnage>
-5.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 12:59:54
-<overview>
-<p>The Savannah Master Hovercraft is the product of a fortunate encounter between an ambitious contractor and a remarkable cache of salvaged Star League technology. S.L. Lewis, Incorporated, a small arms firm based on Carlisle, built the design around a stock of recovered Edasich Omni 25 fusion engines drawn from a former Star League storage facility. Introduced in 3025, the craft became the preeminent cavalry and pursuit vehicle in the Lyran Commonwealth Armed Forces, eventually spreading to the Federated Suns and dozens of mercenary commands across the Inner Sphere.</p><p>The vehicle's defining characteristic is its phenomenal ground speed. Exceeding 200 kilometers per hour at flank, the Savannah Master outpaces nearly every other vehicle on the modern battlefield. Its extreme simplicity keeps maintenance requirements low and allows sustained operations far from established supply lines. No other light combat vehicle at comparable cost offers the same combination of speed, availability, and ease of support.</p>
-</overview>
-
 <capabilities>
 <p>The Savannah Master's combat effectiveness rests almost entirely on its speed. The Edasich Omni 25 fusion engine drives the craft to a flank speed of 216 kilometers per hour, making sustained pursuit or escape from heavier forces a reliable tactical option. Lewis designed the vehicle around the principle of maximum simplicity, using commonly available components throughout. The TharHes communications and targeting systems are manufactured on Tharkad, ensuring reliable resupply across Lyran-controlled space.</p><p>The sole armament is a Defiance B3M Medium Laser, a capable weapon at close range but one that leaves little flexibility for engagements at longer distances. Ammunition independence is a genuine advantage in extended operations, but the single weapon means any opponent willing to close range and absorb a few hits can quickly bring the Savannah Master to disadvantage.</p><p>The Durallex Light armor offers minimal protection, and pilots are trained to treat any direct hit as a warning to disengage. The craft excels when used in mass, coordinating high-speed passes to prevent targets from focusing fire on any single vehicle. Used individually and held in place, the Savannah Master is fragile. Used in the lightning raid role its designers intended, it is one of the most cost-effective combat vehicles in existence.</p>
 </capabilities>
+
+<overview>
+<p>The Savannah Master Hovercraft is the product of a fortunate encounter between an ambitious contractor and a remarkable cache of salvaged Star League technology. S.L. Lewis, Incorporated, a small arms firm based on Carlisle, built the design around a stock of recovered Edasich Omni 25 fusion engines drawn from a former Star League storage facility. Introduced in 3025, the craft became the preeminent cavalry and pursuit vehicle in the Lyran Commonwealth Armed Forces, eventually spreading to the Federated Suns and dozens of mercenary commands across the Inner Sphere.</p><p>The vehicle's defining characteristic is its phenomenal ground speed. Exceeding 200 kilometers per hour at flank, the Savannah Master outpaces nearly every other vehicle on the modern battlefield. Its extreme simplicity keeps maintenance requirements low and allows sustained operations far from established supply lines. No other light combat vehicle at comparable cost offers the same combination of speed, availability, and ease of support.</p>
+</overview>
 
 <deployment>
 <p>The Interdictor variant addresses the standard model's recognized vulnerability against enemy infantry. Introduced during the Jihad era, it replaces the standard laser with a weapons fit suited for area suppression, operating in fast-moving anti-infantry sweeps ahead of advancing conventional forces. Interdictor units clear approach routes and deny terrain to enemy foot soldiers, coordinating with infantry elements and other light vehicles in a combined arms role that the standard Savannah Master was never equipped to fill. The Lyran Alliance and later the Lyran Commonwealth deployed the variant extensively in defensive operations during post-Jihad reconstruction, particularly in contested urban zones where dispersed enemy infantry posed persistent threats to armored columns.</p>
@@ -154,4 +134,16 @@ ARMOR:Light
 COMMUNICATIONS:Hm 10
 TARGETING:Alpha-2a
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<tonnage>
+5.0
+</tonnage>
 

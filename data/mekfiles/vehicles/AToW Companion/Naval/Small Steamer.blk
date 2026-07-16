@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8d4-7f7c-9235-fa32872c784e
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Small Steamer
 <year>
 2100
 </year>
-
-<originalBuildYear>
-2100
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -116,19 +116,6 @@ pillionseats:21.0:0:-1::-1:0
 1
 </engine_tech_rating>
 
-<source>
-AToW Companion
-</source>
-
-<tonnage>
-2.5
-</tonnage>
-
-<fuel>
-0.21
-</fuel>
-
-# Fluff Date: 2026-03-12 17:26:07
 <overview>
 <p>The small, steam-powered riverboat described here is not a military craft per se, but an example of an ultra low-tech vehicle that occasionally appears on many worlds either as a tour boat, light transport, or pleasure craft. Suitable for shallow waters, steamers have been pressed into military use over the centuries, often by scouts to covertly transport infantry troops and light gear through hostile waterways.</p>
 </overview>
@@ -156,4 +143,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+AToW Companion
+</source>
+
+<tonnage>
+2.5
+</tonnage>
+
+<fuel>
+0.21
+</fuel>
 

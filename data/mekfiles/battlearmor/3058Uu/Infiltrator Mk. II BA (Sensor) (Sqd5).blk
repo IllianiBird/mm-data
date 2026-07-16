@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a2a4-7d74-9dee-996767af6a1f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Infiltrator Mk. II Battle Armor
 <year>
 3063
 </year>
-
-<originalBuildYear>
-3063
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -99,38 +99,14 @@ IS BA Stealth (Standard):LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Infiltrator Mk. II was developed by the New Avalon Institute of Science as a replacement for the original Infiltrator battle armor. Produced by Albion Advanced Technologies and Products on New Avalon, the medium-weight stealth suit entered service in 3060 after a lengthy development program. Nicknamed the "Puma" by its operators, the Mk. II addressed the shortcomings of its predecessor while preserving the core mission of deep reconnaissance and covert operations. The suit earned a strong reputation among Federated Commonwealth special forces and intelligence agencies as a capable platform for both stealth scouting and direct action missions that the original Infiltrator could not perform.</p>
-</overview>
 
 <capabilities>
 <p>The Sensor configuration removes the Magshot Gauss Rifle to create a dedicated reconnaissance platform with enhanced detection capability. Improved sensors extend the operator's detection range and target identification accuracy. A machine gun on the right arm provides heavier anti-infantry firepower than the standard model, while a second anti-personnel weapon mount supplements close-range defense. This loadout is devastating against unarmored personnel but sacrifices the long-range precision strike capability that defines the standard Puma. The suit retains its stealth armor, ECM suite, jump jets, and parafoil compatibility, preserving the core infiltration mission while shifting the operator's role from precision shooter to area scout and infantry suppressor.</p>
 </capabilities>
+
+<overview>
+<p>The Infiltrator Mk. II was developed by the New Avalon Institute of Science as a replacement for the original Infiltrator battle armor. Produced by Albion Advanced Technologies and Products on New Avalon, the medium-weight stealth suit entered service in 3060 after a lengthy development program. Nicknamed the "Puma" by its operators, the Mk. II addressed the shortcomings of its predecessor while preserving the core mission of deep reconnaissance and covert operations. The suit earned a strong reputation among Federated Commonwealth special forces and intelligence agencies as a capable platform for both stealth scouting and direct action missions that the original Infiltrator could not perform.</p>
+</overview>
 
 <deployment>
 <p>Clan formations that acquired Sensor-configured Infiltrators organized them into five-trooper Points for reconnaissance operations. The dedicated sensor package offered detection capabilities that complemented standard Clan reconnaissance assets, making these captured suits somewhat more attractive to garrison commanders than the standard Puma configuration for area surveillance duties.</p>
@@ -165,4 +141,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

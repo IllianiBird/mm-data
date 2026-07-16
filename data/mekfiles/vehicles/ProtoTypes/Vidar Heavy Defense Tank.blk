@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e97d-744e-aa20-d31939f07937
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Vidar Heavy Defense Tank
 <year>
 3085
 </year>
-
-<originalBuildYear>
-3085
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -134,26 +134,13 @@ CLLargeChemicalLaser
 CLLargeChemicalLaser
 </Front Turret Equipment>
 
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>The Vidar Heavy Defense Tank was the product of a political dispute within the Ghost Bear Dominion, born from a design competition that set the scientist caste against the Dominion's established Rasalhagian vehicle manufacturers. Benson and Bjorn of Spittal built the tank under duress, compelled to accept a scientist caste design over their own strong objections. Entering service in 3085, the Vidar was intended to provide low-cost garrison firepower to supplement the heavier assault vehicles already serving the Dominion. Its unconventional configuration and specialized laser armament gave it a distinct profile among Dominion armor, but its troubled origins left the vehicle with a reputation it has never fully overcome. The Vidar remains a controversial machine, championed by conservative elements in Clan Ghost Bear society while regarded with deep suspicion by the largely Rasalhagian warriors who crew it.</p>
-</overview>
-
 <capabilities>
 <p>The Vidar's most distinctive characteristic is its dual-turret arrangement, intended to improve battlefield flexibility and reduce vulnerability to turret jams. The forward turret mounts four Series 7CHM large chemical lasers, delivering devastating firepower against armored targets at close range. The rear turret carries a pair of Type XVI LRM-15 launchers with Artemis V fire control, providing effective indirect support across longer engagement distances. Two Goalkeeper anti-missile systems add modest protection against incoming missile volleys.</p><p>The design is compromised throughout by competing requirements. The specification demanded an inexpensive vehicle, but the scientist caste's insistence on twin turrets forced available armor to be spread thinly across a larger surface area. Coverage at any single point ends up no thicker than that of an average Clan design. The fuel cell powerplant posed additional problems: chemical lasers were chosen in part to avoid heat sinks, but their tonnage overloaded the engine. The result is a vehicle limited to 32 km/h, no faster than the heavy assault tanks it was meant to escort. The Vidar trades genuine survivability and mobility for firepower concentration that remains effective only at close to medium range.</p>
 </capabilities>
+
+<overview>
+<p>The Vidar Heavy Defense Tank was the product of a political dispute within the Ghost Bear Dominion, born from a design competition that set the scientist caste against the Dominion's established Rasalhagian vehicle manufacturers. Benson and Bjorn of Spittal built the tank under duress, compelled to accept a scientist caste design over their own strong objections. Entering service in 3085, the Vidar was intended to provide low-cost garrison firepower to supplement the heavier assault vehicles already serving the Dominion. Its unconventional configuration and specialized laser armament gave it a distinct profile among Dominion armor, but its troubled origins left the vehicle with a reputation it has never fully overcome. The Vidar remains a controversial machine, championed by conservative elements in Clan Ghost Bear society while regarded with deep suspicion by the largely Rasalhagian warriors who crew it.</p>
+</overview>
 
 <deployment>
 <p>The Vidar serves as a garrison and defensive support unit within the Ghost Bear Dominion, and later the Rasalhague Dominion. Standard doctrine assigns it as an escort for heavier assault platforms including the Mars and Huitzilopochtli, where its dual turrets cover flanking approaches that larger tanks cannot address. Experience has shown it performs best in prepared defensive positions rather than mobile operations. On stable ground, the twin-turret arrangement can bring all weapons to bear and compensate for limited speed.</p><p>Crews drawn from Rasalhagian solahma and lower-caste warriors regard the Vidar with consistent hostility. The bad reputation persists not only from the original Trial of Refusal but from the genuine vulnerability that light armor and low speed create when operating forward. Conservative Ghost Bear factions continue to push for broader deployment, citing the vehicle's firepower concentration as a strategic asset for defensive line reinforcement.</p>
@@ -186,4 +173,16 @@ ARMOR:Compound A2F Ferro-Fibrous
 COMMUNICATIONS:Q2 Block 7
 TARGETING:Build 2 JRD TTS
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

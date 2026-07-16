@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-c23e-79c8-a5bb-3fbbf23addc5
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:JagerMech
 model:JM6-S
 mul id:1670
@@ -172,7 +173,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The JagerMech was introduced in 2774 by Kallon Industries as a dedicated anti-aircraft platform and long-range fire support unit, designed to address several critical shortcomings identified in the Rifleman. Kallon engineers reviewed the battlefield performance of the older design and found three major flaws: excessive heat generation, insufficient armor protection, and inadequate ammunition reserves. While the resulting JagerMech successfully resolved the heat and ammunition concerns, its engineers were unable to increase armor coverage despite the larger sixty-five-ton chassis. Kallon justified this compromise by noting the 'Mech's intended role as a second-line platform, where its long-ranged autocannons would allow it to engage targets well beyond effective return fire range. The design entered mass production for the Star League Defense Force and became a mainstay of fire support formations, particularly within the Armed Forces of the Federated Suns.</p>
 
 capabilities:<p>The JagerMech's defining feature is its battery of four Mydron autocannons, mounting a Model C class-five and a Model D class-two weapon in each arm. This configuration provides devastating long-range direct fire capability, with the lighter autocannons reaching out to extreme distances for suppression and anti-aircraft work while the heavier weapons deliver punishing volleys at medium range. Ammunition is carried in the torso, with two tons for the class-five autocannons split between the side torsos and a single ton for the class-twos in the center, providing twenty full-strength volleys before resupply. A pair of Magna Mk. II medium lasers mounted in the torso provide a last-ditch close defense capability.</p><p>The JagerMech shares the Rifleman's excellent Garret D2j targeting and tracking system, making it equally accurate when assigned to anti-aircraft duties. When stationary, the design can fire its entire arsenal without heat buildup thanks to ten single heat sinks, a marked improvement over the Rifleman's notorious thermal management problems. However, this efficiency comes at a steep cost: only six tons of standard armor protect the chassis, making the JagerMech dangerously vulnerable if an enemy closes to effective range. Commanders who fail to keep their JagerMechs properly screened by heavier units often learn this lesson the hard way.</p>
@@ -184,6 +184,8 @@ history:<p>The JagerMech was born from Kallon Industries' analysis of early Rifl
 manufacturer:Kallon Industries|Independence Weaponry
 
 primaryfactory:Talon (Wernke)|Quentin
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Kallon
 systemmode:CHASSIS:Type XII

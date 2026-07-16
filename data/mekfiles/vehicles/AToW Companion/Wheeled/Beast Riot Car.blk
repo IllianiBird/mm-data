@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8d9-715d-abd9-9da2e9f5bc2f
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Beast Riot Car
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -108,12 +108,6 @@ InfantryAutoGL:SIZE:1.0
 Flamer (Heavy):SIZE:1.0
 </Turret Equipment>
 
-<slotless_equipment>
-Infantry Ammo
-Infantry Inferno Ammo
-Infantry Ammo
-</slotless_equipment>
-
 <barrating>
 10
 </barrating>
@@ -126,20 +120,6 @@ Infantry Ammo
 3
 </engine_tech_rating>
 
-
-<source>
-AToW Companion
-</source>
-
-<tonnage>
-4.054
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-12 17:26:07
 <overview>
 <p>The Beast, first fielded in the Word of Blake Protectorate, is an anti-riot vehicle equipped to handle extreme crises. Its weapons include a turret-mounted flamer, a front-mounted grenade launcher, and a driver-operated grenade launcher system, generally equipped with non-lethal ammunition but adaptable to deadly use. The large, well-armored vehicle can transport two full squads of infantry and detain up to seven apprehended individuals.</p>
 </overview>
@@ -167,4 +147,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+AToW Companion
+</source>
+
+<tonnage>
+4.054
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

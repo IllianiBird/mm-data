@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7cb-7c60-a45f-001505064b77
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Kamakiri Attack VTOL
 <year>
 3106
 </year>
-
-<originalBuildYear>
-3106
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -108,33 +108,13 @@ ISImprovedHeavyGaussRifle
 <Rotor Equipment>
 </Rotor Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3145:DC,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The Kamakiri Attack VTOL is a 55-ton air assault platform developed by Yan Manufacturing for the Draconis Combine Mustered Soldiery. Introduced in 3100, the design emerged from years of DCMS pressure for a dedicated strike craft capable of supporting combined-arms operations beyond the capabilities of conventional reconnaissance VTOLs. Named for the Japanese praying mantis, the Kamakiri was designed to pair strong direct-fire weaponry with high VTOL speed, offering field commanders a responsive strike asset capable of threatening both armored vehicles and BattleMechs. Yan Manufacturing secured the production contract through an extended Combine procurement process, delivering a platform that has since proven its value across frontier operations in Republic border regions and beyond.</p>
-</overview>
-
 <capabilities>
 <p>The Kamakiri carries a Tiegart Particle Projection Cannon for reliable long-range direct fire, paired with two Telos ThunderShot Thunderbolt 10 missile launchers that deliver high-damage cluster strikes against armored targets. The combination allows pilots to engage at range with the PPC while using Thunderbolt salvos to threaten heavier opponents, including BattleMechs. A top speed of 118 kilometers per hour gives the design the mobility to strike quickly and disengage before ground forces can respond.</p><p>The StarGuard Aurora Reflective armor reflects the DCMS preference for energy-resistant protection, providing improved survival rates against laser and PPC fire. This defensive choice introduces a notable vulnerability to concentrated ballistic and missile fire, requiring pilots to avoid static positions and flak-heavy opponents. The design is best employed in fast attack roles where its speed limits exposure to return fire.</p><p>The DAV 155 XL fusion engine powers both the high-speed rotor assembly and the energy weapon systems, but the XL configuration adds structural fragility that experienced pilots account for when taking fire. Overall, the Kamakiri trades baseline armor protection for a combination of speed, firepower, and energy resistance well suited to the mobile strike role it was built to fill.</p>
 </capabilities>
+
+<overview>
+<p>The Kamakiri Attack VTOL is a 55-ton air assault platform developed by Yan Manufacturing for the Draconis Combine Mustered Soldiery. Introduced in 3100, the design emerged from years of DCMS pressure for a dedicated strike craft capable of supporting combined-arms operations beyond the capabilities of conventional reconnaissance VTOLs. Named for the Japanese praying mantis, the Kamakiri was designed to pair strong direct-fire weaponry with high VTOL speed, offering field commanders a responsive strike asset capable of threatening both armored vehicles and BattleMechs. Yan Manufacturing secured the production contract through an extended Combine procurement process, delivering a platform that has since proven its value across frontier operations in Republic border regions and beyond.</p>
+</overview>
 
 <deployment>
 <p>The Shi Kamakiri, or 'death mantis,' is a specialized factory variant operated exclusively within the Ryuken regiments. An improved heavy Gauss rifle replaces the standard Thunderbolt 10 launchers under the centerline, providing significantly greater range and armor penetration against high-value targets. A flight of Shi Kamakiris demonstrated the variant's effectiveness when repulsing a Davion raid on Mokane, accounting for multiple 'Mech kills including an Atlas III. The variant entered production in 3106, six years after the base model.</p>
@@ -167,4 +147,16 @@ ARMOR:Aurora Reflective
 COMMUNICATIONS:Dualcom
 TARGETING:T11
 </systemModels>
+
+<source>
+TR:3145:DC,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+55.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b87a-7eda-a3d9-3ad5244bc87c
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Foot Platoon (CCAF)
 <year>
 3055
 </year>
-
-<originalBuildYear>
-3055
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Sneak Suit (Camo/IR/ECM)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Capellan Confederation has always relied on its infantry to compensate for the CCAF's chronic shortage of heavier assets. Conventional foot soldiers, drawn from the citizens' militia system that defines Capellan military service, form the backbone of garrison forces across the Confederation's commonalities. CCAF foot platoons anchor the Confederation's garrison network, holding worlds that BattleMech forces cannot permanently occupy. Slow and vulnerable in open terrain, they depend on prepared positions and local knowledge to offset their lack of mobility. Designated marksmen carry precision sniper rifles that allow the platoon to engage targets at extended range with lethal accuracy, providing a force-multiplying capability well beyond the formation's small size.</p>
+</overview>
 
 <notes>
 Hammel Marksman selected as representative weapon of decent but not overwhelming range.
@@ -92,9 +94,4 @@ true
 <sneakecm>
 true
 </sneakecm>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Capellan Confederation has always relied on its infantry to compensate for the CCAF's chronic shortage of heavier assets. Conventional foot soldiers, drawn from the citizens' militia system that defines Capellan military service, form the backbone of garrison forces across the Confederation's commonalities. CCAF foot platoons anchor the Confederation's garrison network, holding worlds that BattleMech forces cannot permanently occupy. Slow and vulnerable in open terrain, they depend on prepared positions and local knowledge to offset their lack of mobility. Designated marksmen carry precision sniper rifles that allow the platoon to engage targets at extended range with lethal accuracy, providing a force-multiplying capability well beyond the formation's small size.</p>
-</overview>
 

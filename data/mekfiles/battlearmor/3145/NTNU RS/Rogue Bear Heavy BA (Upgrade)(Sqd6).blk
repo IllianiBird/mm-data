@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a71b-7a39-bc7a-aa256351ccbf
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Rogue Bear Heavy Battle Armor
 <year>
 3108
 </year>
-
-<originalBuildYear>
-3108
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -94,42 +94,14 @@ BAHeavyBattleClaw:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-13
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Rogue Bear is a Clan Ghost Bear heavy battlesuit produced at BA Facility Gamma on Mannedorf. First fielded in 3073 during the closing years of the Jihad, the design fills a rapid-response role within garrison and second-line formations, offering jump capability and fixed armament suited to patrol and security operations. Weighing 1,500 kilograms, the Rogue Bear earned a reputation for reliability and low maintenance requirements, qualities that proved valuable during a period of significant logistical strain across the Ghost Bear Dominion. Several derivative designs have since been developed from the Rogue Bear chassis.</p>
-</overview>
 
 <capabilities>
 <p>The Upgrade configuration trades raw firepower for improved survivability. Engineers reduced the missile launcher to a two-tube system while retaining its four-shot ammunition supply, and replaced the original vibro-blade manipulators with heavy battle claws. The freed weight and volume allowed installation of reactive armor plating across the suit's frame, providing significantly better protection against missile and ballistic threats than the standard armor of the original design.</p><p>The heavy battle claws retain OmniMech transport capability while offering strong melee performance, though they lack the cutting precision of vibro-blades. The twin machine guns carry over unchanged, maintaining the suit's anti-infantry effectiveness. This configuration shifts the Rogue Bear toward a more defensive role, better suited to holding positions and absorbing fire during close-quarters engagements where the reactive armor's properties are most effective.</p>
 </capabilities>
+
+<overview>
+<p>The Rogue Bear is a Clan Ghost Bear heavy battlesuit produced at BA Facility Gamma on Mannedorf. First fielded in 3073 during the closing years of the Jihad, the design fills a rapid-response role within garrison and second-line formations, offering jump capability and fixed armament suited to patrol and security operations. Weighing 1,500 kilograms, the Rogue Bear earned a reputation for reliability and low maintenance requirements, qualities that proved valuable during a period of significant logistical strain across the Ghost Bear Dominion. Several derivative designs have since been developed from the Rogue Bear chassis.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Upgrade formations maximized the variant's defensive strengths, with larger tactical elements able to establish overlapping fields of fire from fortified positions. The reactive armor's effectiveness against missile and ballistic weapons made these formations particularly resilient in defensive scenarios, compensating for reduced missile firepower with volume of machine gun and melee capability across six suits.</p>
@@ -164,4 +136,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<published>
+RS:3145-NTNU
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+13
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

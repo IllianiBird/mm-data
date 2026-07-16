@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e805-723c-bf2c-9d876a55e2be
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Thang-Ta APC
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -104,26 +104,13 @@ ISERSmallLaser
 ISERSmallLaser
 </Turret Equipment>
 
-<source>
-TR:3145:FWL,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>Earthwerks-FWL, Incorporated introduced the Thang-Ta shortly before the Jihad as a straightforward, cost-effective infantry transport built for the Free Worlds League's combined-arms doctrine. Simple construction kept production costs low without sacrificing the durability required on contested worlds. When the Jihad shattered the League into warring splinter states, the Thang-Ta proved well suited to the chaotic conditions that followed. Affordable to manufacture and maintain, the vehicle became a staple carrier for the Regulan Fiefs and other successor states struggling to field viable ground forces across a prolonged period of political fragmentation. Its adaptability to varied theaters, from disputed border worlds to urban pacification roles, cemented its reputation as a reliable workhorse. When Captain-General Jessica Marik oversaw the reunification of the Free Worlds League, the Thang-Ta had already proven its value across decades of continuous service with multiple successor states.</p>
-</overview>
-
 <capabilities>
 <p>The Thang-Ta carries an infantry squad into combat aboard a sturdy wheeled chassis powered by a Magna 70 fusion engine, reaching a top speed just over 150 kilometers per hour. That speed is the vehicle's most reliable asset and its primary defensive tool. Valiant Chainmail ferro-fibrous armor provides solid protection for a vehicle of this weight class, allowing the Thang-Ta to absorb fire while delivering its passengers to the objective.</p><p>The armament consists of two Magna Mk IV Extended-Range Small Lasers mounted in a turret, offering full-circle coverage without heat concerns. Against lightly armored infantry or unprotected targets, the lasers perform adequately. Against serious armored opposition, they offer little beyond nuisance value, and crews are expected to disengage rather than engage heavier threats.</p><p>The turret has long been a source of frustration. Balky mechanical linkages mean that even glancing hits can seize the mount entirely, leaving the crew with no offensive recourse beyond their road speed. Earthwerks sacrificed creature comforts throughout the design to minimize weight and cost, a compromise noticed on extended deployments. The Thang-Ta is not a fire support platform and was never intended to be. Its value lies in delivering infantry intact.</p>
 </capabilities>
+
+<overview>
+<p>Earthwerks-FWL, Incorporated introduced the Thang-Ta shortly before the Jihad as a straightforward, cost-effective infantry transport built for the Free Worlds League's combined-arms doctrine. Simple construction kept production costs low without sacrificing the durability required on contested worlds. When the Jihad shattered the League into warring splinter states, the Thang-Ta proved well suited to the chaotic conditions that followed. Affordable to manufacture and maintain, the vehicle became a staple carrier for the Regulan Fiefs and other successor states struggling to field viable ground forces across a prolonged period of political fragmentation. Its adaptability to varied theaters, from disputed border worlds to urban pacification roles, cemented its reputation as a reliable workhorse. When Captain-General Jessica Marik oversaw the reunification of the Free Worlds League, the Thang-Ta had already proven its value across decades of continuous service with multiple successor states.</p>
+</overview>
 
 <deployment>
 <p>The Thang-Ta serves throughout the reformed Free Worlds League as a standard light infantry carrier, assigned to combined-arms formations at the battalion level and below. It operates frequently in platoon-strength groups alongside heavier armor or BattleMech support, particularly in garrison and security roles on contested League worlds. Cost-effective construction has enabled deployment in substantial numbers. The Regulan Fiefs and several former League splinter states distributed the type widely across their ground forces during the Dark Age, and captured or transferred examples serve in non-League militaries as well. Logistics officers favor the vehicle for its reliable fusion powerplant and simplified systems, which minimize maintenance demands across varied operational environments.</p>
@@ -156,4 +143,16 @@ ARMOR:Chainmail
 COMMUNICATIONS:T21-C
 TARGETING:Watchdog W112
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+10.0
+</tonnage>
 

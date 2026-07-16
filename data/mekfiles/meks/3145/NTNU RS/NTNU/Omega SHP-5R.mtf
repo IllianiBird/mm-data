@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d4f4-7966-8c38-1ba20d38e192
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Omega
 model:SHP-5R
 mul id:7997
@@ -172,7 +173,6 @@ ISDoubleHeatSink
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Omega is the first truly viable superheavy BattleMech ever produced, introduced in 3076 by Skobel MechWorks on Terra under Word of Blake direction. Weighing an unprecedented 150 tons, the Omega represents the culmination of centuries of failed attempts at superheavy construction, from the Terran Hegemony's early experiments through the infamous Matar. Standing half again as tall as the hundred-ton King Crab, the design proved that the superheavy concept could succeed where all previous efforts had failed. Close to thirty were manufactured before the fall of the Word of Blake, earning a fearsome reputation during their brief operational service in the final battles of the Jihad on Terra.</p>
 
 capabilities:<p>Powered by a Vlar 300 XL engine, the Omega achieves a maximum speed of just 32 kph, making it among the slowest 'Mechs to walk any battlefield. This deliberate sacrifice of mobility allows the design to carry twenty-seven tons of Aldis Plate armor reinforced with CASE II protection across the arms and torso sections, creating an extraordinarily resilient platform capable of absorbing tremendous punishment. The superheavy construction demanded a Heavy-Duty Gyro to manage the immense stresses placed on the chassis, adding weight but significantly improving the design's ability to remain standing under concentrated fire.</p><p>The Omega's primary armament consists of three M-7 Gauss Rifles distributed across the left torso, center torso, and right torso, a configuration made possible by the superheavy construction that allowed mounting a standard Inner Sphere Gauss Rifle with ammunition and CASE II in the center torso for the first time. Two Imperator Code Red LB 10-X Autocannons mounted in the arms provide flexible firepower through cluster or solid-shot ammunition selection. This weapons mix creates a devastating defensive emplacement and even a serviceable low-altitude anti-air platform.</p><p>Each Omega integrates an Improved C3 Computer into its communications suite, enabling the massive 'Mech to share targeting data across a network. Despite this technological sophistication, the Omega remains cumbersome and difficult to pilot, with the superheavy mass imposing severe limitations on tactical maneuverability.</p>
@@ -184,6 +184,8 @@ history:<p>The quest to build a BattleMech exceeding one hundred tons stretches 
 manufacturer:Refit - Skobel MechWorks
 
 primaryfactory:Terra
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Unknown
 systemmode:CHASSIS:Standard Superheavy

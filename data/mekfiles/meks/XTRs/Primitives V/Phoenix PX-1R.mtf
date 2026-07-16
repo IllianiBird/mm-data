@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-e00a-7b76-951e-441c84bcbccc
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Phoenix
 model:PX-1R
 mul id:2488
@@ -32,8 +33,8 @@ quirk:em_inter_whole
 quirk:obsolete:2525
 quirk:weak_legs
 quirk:poor_work
-weaponquirk:em_interference:RA:2:PPC
 quirk:directional_torso_mount:LT
+weaponquirk:em_interference:RA:2:PPC
 
 mass:50
 engine:240 Fusion Engine
@@ -176,7 +177,6 @@ Heat Sink
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Phoenix was the Rim Worlds Republic's first jump-capable BattleMech, designed and manufactured by Krauss-Liemann Incorporated on Wotan. Following the success of the Terran Hegemony's Wasp, First Consul Terens Amaris became convinced that jump jet technology represented a fundamental shift in BattleMech tactics and ordered the development of a heavier jump-capable design. Originally conceived in the late 2460s, the project stalled when Republic engineers were forced to reverse-engineer jump jet technology acquired through intelligence operations. Amaris' insistence on "quality over quantity" diverted resources from other programs, delaying the Phoenix's introduction until 2520, well after the Hegemony had fielded the Griffin and Shadow Hawk.</p><p>Produced exclusively for the Republic's military, the fifty-ton Phoenix filled a unique role as a medium-weight trooper capable of executing combat drops from DropShips and engaging enemies at multiple ranges. A secondary production line was also established at Diplass BattleMechs on Apollo, expanding the Republic's manufacturing base for this design.</p>
 
 capabilities:<p>The Phoenix is built around a Magna 250 fusion engine that propels the fifty-ton 'Mech to a top speed of 86 kilometers per hour. Five Gerard Special A jump jets grant a maximum jump distance of 150 meters, providing tactical flexibility that most medium 'Mechs of its era could not match. Nine tons of PanzerSlab Type 3 standard armor provide reasonable protection for its weight class, though the design clearly prioritizes mobility over survivability.</p><p>The primary armament centers on a Stolz Harbinger 2 particle projector cannon, making the Phoenix an effective sniper at long range. Two Marklin Mini SRM-2 launchers supplement the PPC at closer ranges, with dual ammunition bins allowing MechWarriors to carry different munition types including inferno missiles. This combination gave Phoenix formations considerable tactical versatility, particularly when rotating damaged 'Mechs through firing positions to distribute armor damage across the unit.</p><p>The 12b Krauss-Liemann chassis proved adequate for its era, though the Phoenix suffered from persistent electromagnetic interference whenever its particle cannon fired, a flaw serious enough to earn it the nickname "Sparkly Bird" among pilots. The Vex/Holden TriComm Plus communications system and Dillon QuadTrac targeting system with integrated Particle Cannon Suite helped compensate for these issues but never fully eliminated them.</p>
@@ -188,6 +188,8 @@ history:<p>The Phoenix's development began in the late 2460s when several Rim Wo
 manufacturer:Diplass BattleMechs|Krauss Heavy Industries|Taurus Territorial Industries|Wechsel Royal Industrial Repair & Heavy Machining
 
 primaryfactory:Apollo|Wotan|Jansen's Hold|Kaumberg
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Krauss-Liemann
 systemmode:CHASSIS:12b Krauss-Liemann (Primitive)

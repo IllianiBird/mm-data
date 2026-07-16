@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af5f-753c-ac63-8480343bef0c
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ S-HA-OE Eminus
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -122,26 +122,13 @@ IS Light Gauss Ammo:OMNI
 ISCASE:OMNI
 </Fuselage Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Shade is the lightest and most recently introduced of the Word of Blake's Spectral Series OmniFighters, named for a ghostly apparition in keeping with the trio's supernatural motif. Commissioned by Precentor Apollyon and designed by Precentor Vapula, the Shade entered service on Gibson approximately one year after the Striga's debut in late 3071, representing the final refinement of Vapula's Spectral concept in a light-fighter package. At thirty-five tons it is the fastest and most maneuverable of the three Spectrals, and while it carries the least armor and weapons capacity of its siblings, its extraordinary speed and the distinctive capabilities of the Spectral vectoring thrust system make it a demanding adversary for opponents unfamiliar with the series.</p>
-</overview>
-
 <capabilities>
 <p>The Shade draws power from a Hermes 245-rated extralight engine, producing a thrust-to-weight ratio that gives this light fighter maneuverability exceeding many heavier designs. The collapsible wing structure, refined from the Striga's original system and improved further on the Rusalka, reaches its most effective expression on the Shade's lighter airframe, allowing the wings to fold to the point where the fighter resembles a small shuttle or escape pod in vacuum operations. Six and a half tons of Divine Shield-D ferro-aluminum armor provides adequate protection relative to the Shade's weight class, though it remains the most lightly armored of the three Spectrals. The fifteen and a half tons of pod space limits raw firepower compared to its siblings, a trade-off offset by the fighter's exceptional agility in dictating engagement range. As with the entire Spectral line, the minimized cockpit and Master's Voice Cel-Beta communications system restrict effective operation to Manei Domini pilots whose augmentations match the design's demanding performance envelope.</p>
 </capabilities>
+
+<overview>
+<p>The Shade is the lightest and most recently introduced of the Word of Blake's Spectral Series OmniFighters, named for a ghostly apparition in keeping with the trio's supernatural motif. Commissioned by Precentor Apollyon and designed by Precentor Vapula, the Shade entered service on Gibson approximately one year after the Striga's debut in late 3071, representing the final refinement of Vapula's Spectral concept in a light-fighter package. At thirty-five tons it is the fastest and most maneuverable of the three Spectrals, and while it carries the least armor and weapons capacity of its siblings, its extraordinary speed and the distinctive capabilities of the Spectral vectoring thrust system make it a demanding adversary for opponents unfamiliar with the series.</p>
+</overview>
 
 <deployment>
 <p>A long-range variant maximizing the standoff utility of the Shade's exceptional speed and collapsible wing profile, engaging targets at distances where the fighter is most easily mistaken for a shuttle or escape pod. The Eminus was used to deliver precise long-range fire within Shadow Division aerospace formations before closing to the distances where the Shade's speed becomes its primary asset.</p>
@@ -174,4 +161,16 @@ ARMOR:Divine Shield-D
 COMMUNICATIONS:Master's Voice Cel-Beta
 TARGETING:Master's Sight 2-Psi
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

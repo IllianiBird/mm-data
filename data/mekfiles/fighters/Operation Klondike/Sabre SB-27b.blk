@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acd3-71c9-8ccb-f33810e2c724
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SB-27b
 <year>
 2722
 </year>
-
-<originalBuildYear>
-2722
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,33 +119,13 @@ Medium Laser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:OK
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Sabre is among the oldest aerospace fighter designs in continuous production across the Inner Sphere, with origins tracing to 2314 in the fledgling Alliance of Galedon. Developed by Raimei, a manufacturer with close ties to House Kurita, the design began as a primitive close-defense fighter and was refined over two centuries into the SB-27 - a capable light fighter valued for speed, maneuverability, and ease of maintenance. Though never intended for front-line fleet duties, the Sabre became one of the most widely distributed aerospace fighters in history through Raimei's network of semi-independent production facilities, which spread the design across every Great House and two Periphery nations by 2572.</p><p>That production network concealed one of the most consequential intelligence operations in Combine history, a legacy that gave the unassuming garrison fighter an infamy far exceeding its modest combat role.</p>
-</overview>
-
 <capabilities>
 <p>The SB-27 is a straightforward light fighter built for dependability and ease of operation rather than peak combat performance. Its Nissan 225 fusion engine provides strong thrust for a 25-ton airframe, delivering excellent speed and maneuverability relative to class, while four tons of Nimakachi Type 3 armor offer adequate protection for a garrison platform. Armament consists of three Tronel II medium lasers, one in the nose and one in each wing, providing clean fire arcs and manageable heat output across ten single heat sinks. The BipStar 49-G communications suite and Ki-II TTS targeting system are workmanlike installations suited to the fighter's garrison duties. Fuel capacity, doubled from the primitive SB-26, supports useful patrol and escort operations in most planetary defense environments.</p><p>These strengths carry clear limitations. The laser armament offers no standoff capability, and the Sabre cannot threaten hardened assault craft or heavily armored opponents at extended range. It is a platform for atmospheric control and deterrence where numbers and availability matter more than raw capability, not a ship-killer or heavy interceptor.</p>
 </capabilities>
+
+<overview>
+<p>The Sabre is among the oldest aerospace fighter designs in continuous production across the Inner Sphere, with origins tracing to 2314 in the fledgling Alliance of Galedon. Developed by Raimei, a manufacturer with close ties to House Kurita, the design began as a primitive close-defense fighter and was refined over two centuries into the SB-27 - a capable light fighter valued for speed, maneuverability, and ease of maintenance. Though never intended for front-line fleet duties, the Sabre became one of the most widely distributed aerospace fighters in history through Raimei's network of semi-independent production facilities, which spread the design across every Great House and two Periphery nations by 2572.</p><p>That production network concealed one of the most consequential intelligence operations in Combine history, a legacy that gave the unassuming garrison fighter an infamy far exceeding its modest combat role.</p>
+</overview>
 
 <deployment>
 <p>The SB-27b was produced for SLDF Royal units during the Amaris Civil War and saw service in the campaign to liberate Terra. Production was limited to Star League-era facilities operating the Royal upgrade package. Following Kerensky's Exodus, SB-27b airframes dispersed into the militaries of the Pentagon states and their successors, though active production ceased with the collapse of the Star League manufacturing network. Jalastar Aerospace restarted production of the SB-27b on Panpour in the Dark Age era using the New Dallas Memory Core data.</p>
@@ -180,4 +160,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:BipStar 49-G
 TARGETING:Ki-II TTS
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:OK
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

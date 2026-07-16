@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e803-7d9b-ae2d-5ac44715526b
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Red Kite Attack VTOL
 <year>
 3093
 </year>
-
-<originalBuildYear>
-3093
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -124,26 +124,13 @@ CLMediumChemicalLaser
 CLMediumChemicalLaser
 </Turret Equipment>
 
-<source>
-TR:3145:FWL,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 14:55:21
-<overview>
-<p>The Red Kite Attack VTOL is a 25-ton combat rotary-wing aircraft introduced by Imstar Aerospace in 3093, designed to fill the reconnaissance and light attack needs of the Marik-Stewart Commonwealth. Imstar developed the design at its production facilities on Amity and Marik, capitalizing on a low acoustic profile to create a platform suited for operations in contested environments where stealth of approach is as important as firepower. Though the finished design carries significantly different armament than its original specifications called for, the Red Kite proved effective enough in service to earn a sustained production run. Against dedicated gunship platforms, it faces a persistent range disadvantage, but its exceptional speed allows it to dictate the terms of engagement, closing quickly with targets or disengaging before opponents can respond effectively.</p>
-</overview>
-
 <capabilities>
 <p>The Red Kite mounts six Series 2CHM Medium Chemical Lasers, four in an oscillating turret and two in fixed forward mounts. These Clan-developed weapons were secured late in the development program, replacing an Imperator Napoleon Light AC/5 that had originally been specified for the turret. The chemical lasers generate no recoil, which initially appeared an ideal match for the oscillating turret mechanism.</p><p>However, the redesign introduced a significant flaw. The loading mechanism draws from a three-ton ammunition bay and cycles in synchronization with turret movement. If the turret has rotated more than sixty degrees off-center when the mechanism engages, the loader jams. Experienced crews learn to manage their engagement angles carefully to avoid triggering this limitation, making crew discipline as important to effective employment as raw firepower.</p><p>The fuel cell powerplant provides excellent performance for the airframe, pushing the Red Kite to a maximum speed of 183 kph. This makes it decisively faster than most dedicated gunship platforms, including the Yasha and Yellow Jacket. The trade-off is range. Chemical lasers are effective at close quarters but cannot match the standoff distance offered by the autocannons and missile racks carried by competing designs. The Red Kite must close with its targets to be effective, accepting exposure during the approach. Its ferro-fibrous armor provides reasonable protection for its weight class, but against prepared positions or sustained fire it remains vulnerable, as is typical of any VTOL platform.</p>
 </capabilities>
+
+<overview>
+<p>The Red Kite Attack VTOL is a 25-ton combat rotary-wing aircraft introduced by Imstar Aerospace in 3093, designed to fill the reconnaissance and light attack needs of the Marik-Stewart Commonwealth. Imstar developed the design at its production facilities on Amity and Marik, capitalizing on a low acoustic profile to create a platform suited for operations in contested environments where stealth of approach is as important as firepower. Though the finished design carries significantly different armament than its original specifications called for, the Red Kite proved effective enough in service to earn a sustained production run. Against dedicated gunship platforms, it faces a persistent range disadvantage, but its exceptional speed allows it to dictate the terms of engagement, closing quickly with targets or disengaging before opponents can respond effectively.</p>
+</overview>
 
 <deployment>
 <p>The Red Kite serves primarily in reconnaissance and screening roles across Marik-Stewart Commonwealth forces, later extending into Free Worlds League and Clan Wolf Empire inventories as political control over the production worlds changed. It is most commonly assigned to mixed combined-arms formations as a fast-reaction element, providing fire support and anti-infantry capability while using its speed advantage to avoid sustained engagement.</p><p>Units that field the Red Kite value its fuel cell powerplant for the logistical simplicity it provides in garrison and patrol roles, though extended operations far from maintenance support remain a limitation. In urban environments, the design's speed and low acoustic profile make it well-suited for rapid response missions. Commanders are advised to plan approach vectors that keep the oscillating turret within safe rotation angles throughout engagements, as managing the loader's jam vulnerability is the single most significant factor in effective employment of the design.</p>
@@ -176,4 +163,16 @@ ARMOR:HL Ferro-Fibrous
 COMMUNICATIONS:E.A.R.
 TARGETING:SYS 1540
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

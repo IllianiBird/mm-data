@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b66d-76b4-9216-7147e3ebfaa1
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ Principes III 103rd Jump Battalion
 1717
 </mul id:>
 
-<source>
-TR:3085S
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -67,6 +59,18 @@ Flak, Standard
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>The III Principes' 103rd Jump Battalion is a lesson in making do with what the Republic provides. With soldiers drawn from half a dozen former Marik worlds and two Capellan planets, jump packs sourced from five different manufacturers, and laser rifles ranging from current-issue models to century-old battery pack designs, the battalion fields one of the most eclectic equipment inventories in the RAF. That the 103rd remains an effective fighting force, and regularly outperforms better-supplied units in war games, speaks to the ingenuity and self-reliance of its troopers. When the Quartermaster's office forgot to ship replacement parts for over a year, the battalion simply kept operating through improvisation and sheer determination.</p>
+</overview>
+
+<source>
+TR:3085S
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
 <squad_size>
 7
 </squad_size>
@@ -78,9 +82,4 @@ Flak, Standard
 <Primary>
 Laser Rifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The III Principes' 103rd Jump Battalion is a lesson in making do with what the Republic provides. With soldiers drawn from half a dozen former Marik worlds and two Capellan planets, jump packs sourced from five different manufacturers, and laser rifles ranging from current-issue models to century-old battery pack designs, the battalion fields one of the most eclectic equipment inventories in the RAF. That the 103rd remains an effective fighting force, and regularly outperforms better-supplied units in war games, speaks to the ingenuity and self-reliance of its troopers. When the Quartermaster's office forgot to ship replacement parts for over a year, the battalion simply kept operating through improvisation and sheer determination.</p>
-</overview>
 

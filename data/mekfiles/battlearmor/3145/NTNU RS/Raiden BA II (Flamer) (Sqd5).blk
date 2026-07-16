@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a703-710b-b705-62abb5c777cf
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Raiden II Battle Armor
 <year>
 3123
 </year>
-
-<originalBuildYear>
-3123
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -94,42 +94,14 @@ IS BA Laser Reflective (Reflec/Glazed):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Raiden II is a Dark Age-era upgrade of the Draconis Combine's long-serving Raiden battle armor. Produced by New Samarkand Metals, the suit features upgraded armor protection and an additional weapon mount, addressing limitations identified through decades of operational experience with the original design. The upgrade retains the Raiden's proven jump capability and battle claw, maintaining compatibility with established DCMS infantry doctrine. Introduced around 3123, the Raiden II gave Combine armored infantry improved survivability without requiring a complete redesign of the familiar Raiden platform.</p>
-</overview>
 
 <capabilities>
 <p>The Raiden II's flamer configuration carries a battle armor-scale flamer as its primary weapon, paired with the anti-personnel weapon mount that distinguishes the Raiden II from its predecessor. The suit's most significant upgrade is its reflective armor, which disperses energy weapon impacts more effectively than the original Raiden's polymer-bonded standard plating. Against laser-heavy opponents this protection gives Raiden II troopers a meaningful survivability advantage, though the reflective coating offers reduced protection against ballistic and explosive weapons compared to conventional armor of equivalent weight. Jump jets maintain the ninety-meter leap capability inherited from the original Raiden, and the left-arm battle claw retains full anti-BattleMech attack and OmniMech transport functionality. The flamer's area-effect fire combined with the anti-personnel mount makes this configuration effective for clearing infantry positions, particularly in environments where energy weapons are the primary threat.</p>
 </capabilities>
+
+<overview>
+<p>The Raiden II is a Dark Age-era upgrade of the Draconis Combine's long-serving Raiden battle armor. Produced by New Samarkand Metals, the suit features upgraded armor protection and an additional weapon mount, addressing limitations identified through decades of operational experience with the original design. The upgrade retains the Raiden's proven jump capability and battle claw, maintaining compatibility with established DCMS infantry doctrine. Introduced around 3123, the Raiden II gave Combine armored infantry improved survivability without requiring a complete redesign of the familiar Raiden platform.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Points of Raiden II suits appeared in DCMS formations that adopted Clan-influenced organizational structures following decades of cultural exchange. These Points operated within mixed battle armor Stars, where the reflective armor's energy resistance complemented heavier Clan-tech equipped units during combined arms operations along the Combine's contested borders.</p>
@@ -164,4 +136,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<published>
+RS:3145-NTNU
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

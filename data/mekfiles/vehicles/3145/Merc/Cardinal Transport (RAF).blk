@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e809-7ed4-8db9-cace00c737f1
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Cardinal Transport
 <year>
 3112
 </year>
-
-<originalBuildYear>
-3112
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Experimental
@@ -112,26 +112,13 @@ ISMML5
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3145:Merc,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 16:23:06
-<overview>
-<p>The Cardinal Transport is a fifty-ton military VTOL produced by Trellshire Heavy Industries at facilities on Twycross and Itabaiana. Introduced in 3112 to meet the assault transport requirements of Clan Sea Fox and its commercial partners, the Cardinal was designed around a dual-rotor configuration that provides superior load-bearing capacity relative to its weight class. Built to Clan manufacturing standards, the design prioritizes low maintenance overhead and operational reliability, making it well-suited to the extended deployments and disrupted logistics that characterize Dark Age operations. Its ten-ton infantry transport capacity and self-defense armament established the Cardinal as a versatile platform, and its availability through Sea Fox commercial trade networks extended its reach well beyond the Clan space, placing it in service with mercenary commands, Successor State forces, and other buyers seeking capable VTOL assault transport in an era of fractured supply lines.</p>
-</overview>
-
 <capabilities>
 <p>The Cardinal Transport is powered by a Type 215 XL fusion engine that allows the design to cruise at 86 kph and reach a maximum of 129 kph, delivering the speed appropriate for its assault transport role. The dual-rotor arrangement provides enhanced load stability at the cost of greater pilot workload during low-speed insertion maneuvers, and the ten-ton infantry bay accommodates two Points of Elementals or three squads of Inner Sphere battle armor with full equipment. This transport capacity is the design's primary tactical asset, enabling rapid delivery of armored infantry to contested objectives in environments where ground transport would face unacceptable risk.</p><p>The forward-facing armament is modest but effective for a design of this class. A Type OVR-X LB 2-X autocannon provides anti-infantry and light suppression capability, supported by a Type V “Longbow” LRM 5 launcher for standoff engagement. Two Tau-II AP Gauss Rifles give the Cardinal a point-defense capability against battle armor threats, a deliberate design choice given its primary operating environment. All weaponry is concentrated in the forward arc to allow the pilot to bring firepower to bear without repositioning the aircraft.</p><p>The Forging AM15 ferro-fibrous armor provides solid protection for a vehicle of this weight class, and the Neil 9000 communications system paired with the RCA Econotrac targeting suite reflects the straightforward, maintainable electronics philosophy that characterizes Trellshire's commercial product line.</p>
 </capabilities>
+
+<overview>
+<p>The Cardinal Transport is a fifty-ton military VTOL produced by Trellshire Heavy Industries at facilities on Twycross and Itabaiana. Introduced in 3112 to meet the assault transport requirements of Clan Sea Fox and its commercial partners, the Cardinal was designed around a dual-rotor configuration that provides superior load-bearing capacity relative to its weight class. Built to Clan manufacturing standards, the design prioritizes low maintenance overhead and operational reliability, making it well-suited to the extended deployments and disrupted logistics that characterize Dark Age operations. Its ten-ton infantry transport capacity and self-defense armament established the Cardinal as a versatile platform, and its availability through Sea Fox commercial trade networks extended its reach well beyond the Clan space, placing it in service with mercenary commands, Successor State forces, and other buyers seeking capable VTOL assault transport in an era of fractured supply lines.</p>
+</overview>
 
 <deployment>
 <p>The Republic Armed Forces variant emerged from a program to expand the Cardinal's infantry capacity for Republic-specific operational requirements. The enlarged twelve-ton infantry compartment allows the variant to carry a full Point of Elementals plus additional support personnel, or larger conventional infantry complements, giving Republic commanders greater flexibility in assault planning. The armament was substantially modified to suit Republic tactical doctrine and supply realities: an MML 5 replaces the original launcher arrangement for flexible short- and long-range indirect fire support, while three small pulse lasers replace the original weapons for improved anti-infantry and point defense performance. This reconfiguration reflects the Republic's preference for organic fire support within individual transport elements rather than reliance on coordinated combined-arms fires. The variant served primarily within Republic Armed Forces formations during the Dark Age, providing assault transport capability in an era when the HPG blackout made centralized logistics increasingly difficult to sustain.</p>
@@ -148,4 +135,16 @@ Manufacturing Plant SFF-IT1
 <primaryFactory>
 Itabaiana
 </primaryFactory>
+
+<source>
+TR:3145:Merc,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

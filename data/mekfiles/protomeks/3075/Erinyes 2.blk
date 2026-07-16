@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0ef-7710-b890-7af2a6bda983
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Erinyes
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -116,34 +116,13 @@ CLERMicroLaser
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-2.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Erinyes is a two-ton second-generation ProtoMek designed by Clan Jade Falcon after obtaining Smoke Jaguar scientific records following the Jaguar Annihilation. Conceived as a proof-of-concept effort to validate the Falcons' ability to independently produce ProtoMek technology, the Erinyes was a deliberately conservative design that hewed closely to the parameters established by the first-generation Harpy. Khan Marthe Pryde terminated the program in 3064 after lackluster performance in test raids against the Lyran Alliance, but the design resurfaced nearly a decade later under mysterious circumstances during devastating attacks on Falcon worlds by unknown forces wielding upgraded Erinyes variants.</p>
-</overview>
-
 <capabilities>
 <p>Built along similar lines to the Smoke Jaguar Harpy, the Erinyes is barely more than a slightly upgraded battlesuit in practical terms. The base configuration mounts a single SRM-1 launcher in the torso with five rounds of ammunition and four jump jets providing one hundred twenty meters of leaping distance. This gives the Erinyes better terrain mobility than most two-ton designs, though the single missile tube provides woefully inadequate firepower for anything beyond guard duty and riot control. Ten points of armor offer minimal protection against battlefield weapons.</p><p>The Erinyes' primary tactical value lies in its jump capability and small profile rather than raw combat power. Operating in Stars or larger formations, Erinyes pilots can use their jump jets to stage ambushes from heavy terrain, concentrating their fire on single targets before fading back into cover along paths too restrictive for pursuing BattleMeks. This hit-and-fade approach proved remarkably effective during the Hellion Incursion, where Falcon Erinyes Points used heavy woodlands and canyon terrain to savage overextended Hellion patrols. However, the design's limited ammunition supply and fragile armor make prolonged engagements untenable.</p>
 </capabilities>
+
+<overview>
+<p>The Erinyes is a two-ton second-generation ProtoMek designed by Clan Jade Falcon after obtaining Smoke Jaguar scientific records following the Jaguar Annihilation. Conceived as a proof-of-concept effort to validate the Falcons' ability to independently produce ProtoMek technology, the Erinyes was a deliberately conservative design that hewed closely to the parameters established by the first-generation Harpy. Khan Marthe Pryde terminated the program in 3064 after lackluster performance in test raids against the Lyran Alliance, but the design resurfaced nearly a decade later under mysterious circumstances during devastating attacks on Falcon worlds by unknown forces wielding upgraded Erinyes variants.</p>
+</overview>
 
 <deployment>
 <p>Circulated through remaining Erinyes units after the program was officially shelved in 3064, the Erinyes 2 replaces the SRM launcher and jump jets with a slightly larger engine that increases ground speed to fifty-four kilometers per hour cruising. An ER Micro Laser replaces the missile system, eliminating ammunition dependency but providing even less damage output against armored targets. Armor protection drops to eight points, making the variant dangerously fragile. Pilots were given the option of retaining the original configuration or transitioning to this variant, and opinions were divided on whether the speed increase justified the loss of jump capability and what little missile punch the base model offered.</p>
@@ -175,4 +154,16 @@ ENGINE:15 Fusion
 ARMOR:Standard
 TARGETING:402 TTS
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+2.0
+</tonnage>
 

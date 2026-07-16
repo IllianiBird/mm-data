@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e978-792a-a203-14b2f1894ce4
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Sokar Urban Combat Unit
 <year>
 3084
 </year>
-
-<originalBuildYear>
-3084
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -123,30 +123,13 @@ CLAPGaussRifle
 CLAPGaussRifle
 </Turret Equipment>
 
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Sokar Urban Combat Unit is a wheeled medium combat vehicle produced by Quikscell Company at their Pandora facility for Clan Jade Falcon. Introduced in 3084 in the aftermath of the Jihad, the design emerged from the Falcons' urgent need for a dedicated internal security vehicle capable of suppressing lower-caste unrest across their occupation zone. Quikscell delivered a vehicle adequate for its narrow purpose, though the Sokar carries the manufacturer's characteristic reputation for substandard construction and poor fuel economy.</p><p>The vehicle's role is tightly defined, its weapons optimized against unarmored crowds and light resistance rather than conventional military opponents. Reflecting this limited utility, the Jade Falcons assign the Sokar exclusively to solahma units and their police subcaste, making it an unwanted posting that few warriors seek and none desire.</p>
-</overview>
-
 <capabilities>
 <p>The Sokar's primary armament is a turret-mounted quartet of Tau-II Anti-Personnel Gauss Rifles, weapons designed to cut down unarmored infantry and personnel in light battle armor at range. Against heavier opposition, the turret carries two Type P-A ProtoMech Autocannon/8s, offering a long-range punch capable of holding improvised combat vehicles at bay until reinforcements arrive. In the bow, two Type 18h Heavy Flamers serve both as direct-fire weapons and psychological tools, their visible threat frequently effective at dispersing crowds before engagement becomes necessary. Two tons of ammunition are provided for each weapon system, giving the Sokar considerable endurance for extended field operations.</p><p>Five tons of Compound Alpha ferro-fibrous armor protects the vehicle well beyond what crowd-control duty strictly demands. The designers built in this reserve anticipating that civil unrest could escalate to encounters with smuggled or improvised combat vehicles. Quikscell's targeting suite performs adequately at the close ranges typical of urban pacification work, and the improved short-range accuracy partially compensates for the vehicle's modest overall capability.</p><p>The Sokar's weaknesses are significant. The 180 ICE powerplant delivers a top speed of 64 km/h, adequate for urban patrol but a liability against any mobile military opponent. The engine is also fuel-hungry, limiting the vehicle's operational endurance without resupply. Quikscell's manufacturing standards are reflected throughout, and the fit and finish fall well below what most Clan facilities produce. The Sokar is, in short, a product designed to a price, for a mission no warrior considers prestigious.</p>
 </capabilities>
+
+<overview>
+<p>The Sokar Urban Combat Unit is a wheeled medium combat vehicle produced by Quikscell Company at their Pandora facility for Clan Jade Falcon. Introduced in 3084 in the aftermath of the Jihad, the design emerged from the Falcons' urgent need for a dedicated internal security vehicle capable of suppressing lower-caste unrest across their occupation zone. Quikscell delivered a vehicle adequate for its narrow purpose, though the Sokar carries the manufacturer's characteristic reputation for substandard construction and poor fuel economy.</p><p>The vehicle's role is tightly defined, its weapons optimized against unarmored crowds and light resistance rather than conventional military opponents. Reflecting this limited utility, the Jade Falcons assign the Sokar exclusively to solahma units and their police subcaste, making it an unwanted posting that few warriors seek and none desire.</p>
+</overview>
 
 <deployment>
 <p>The Sokar has seen wide distribution throughout the Jade Falcon Occupation Zone. It is issued exclusively to solahma garrison units and the Falcon police subcaste, never to frontline combat forces. Deployments concentrate on urban centers and worlds with large lower-caste populations and documented histories of civil unrest. Some Sokars operate directly through Clan-run civilian police departments on worlds where intelligence assessed the risk of disorder as highest, giving the police subcaste a visible deterrent against further incidents.</p><p>The vehicle's presence at a protest or gathering typically serves its purpose without firing a shot. Warriors assigned to Sokar units generally serve out their remaining career in garrison postings far from any conventional military action. No variants are known to exist, and the design has not been modified since its introduction.</p>
@@ -179,4 +162,20 @@ ARMOR:Compound Alpha Ferro-Fibrous
 COMMUNICATIONS:Basix 200
 TARGETING:OptiSight 12
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

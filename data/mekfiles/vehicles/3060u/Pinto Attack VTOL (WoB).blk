@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e542-7d08-84e3-7269105eed50
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Pinto Attack VTOL
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -108,26 +108,13 @@ ISArtemisIV
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Pinto Attack VTOL represents Krupp Armament Works' effort to provide ComStar's Com Guard and Explorer Corps with a swift, well-armed rotary-wing combat platform. Entering service in 3055 from Krupp's facility at Bochum, Terra, the design was conceived as a dedicated assault craft capable of delivering consistent firepower while exploiting the speed and terrain masking available to VTOL operations. The Pinto earned a strong reputation for versatility and resilience, pairing solid close-range punch with standoff missile capability. Its compact profile and disassembling rotor system made it exceptionally easy to transport, giving commanders an offensive asset that could be staged from conventional cargo bays rather than dedicated aerospace facilities. Subsequent events tied the Pinto's production history to the broader struggle for control of Terra, complicating its supply chain and operational legacy across the latter half of the thirty-first century.</p>
-</overview>
-
 <capabilities>
 <p>The Pinto is driven by a Robinson 160 Fuse-Pak fusion power plant, reaching a cruising speed of 108 kph and a maximum of 162 kph, giving it strong tactical mobility over most terrain. Offensive systems consist of three Blankenburg Technologies medium lasers mounted in a chin turret immediately forward of the cockpit, combined with a belly-mounted Magna Longbow-5 LRM launcher equipped with an Artemis IV fire control system. The chin lasers deliver reliable close-range firepower, while the Artemis-enhanced LRM-5 allows the Pinto to engage from standoff distance without exposing itself to short-range return fire. Krupp Draco-100 ferro-fibrous armor provides solid protection for a craft of its mass class.</p><p>A one-ton cargo hold positioned behind the cockpit accommodates small infantry squads or supplemental electronics, expanding mission flexibility without major modifications. The Pinto's rotor assembly disassembles in under five minutes, allowing stowage in standard vehicle or cargo bays rather than requiring dedicated aerospace facilities, a meaningful operational advantage when deploying from DropShips or forward staging areas not equipped for conventional VTOLs.</p><p>These strengths come with trade-offs. The LRM-5 carries limited ammunition for extended engagements, and the combined heat load of sustained laser and missile fire can strain thermal management during prolonged combat. The Pinto's light frame also means that concentrated fire from heavier opponents can neutralize it quickly, demanding careful use of terrain and speed to survive in contested airspace.</p>
 </capabilities>
+
+<overview>
+<p>The Pinto Attack VTOL represents Krupp Armament Works' effort to provide ComStar's Com Guard and Explorer Corps with a swift, well-armed rotary-wing combat platform. Entering service in 3055 from Krupp's facility at Bochum, Terra, the design was conceived as a dedicated assault craft capable of delivering consistent firepower while exploiting the speed and terrain masking available to VTOL operations. The Pinto earned a strong reputation for versatility and resilience, pairing solid close-range punch with standoff missile capability. Its compact profile and disassembling rotor system made it exceptionally easy to transport, giving commanders an offensive asset that could be staged from conventional cargo bays rather than dedicated aerospace facilities. Subsequent events tied the Pinto's production history to the broader struggle for control of Terra, complicating its supply chain and operational legacy across the latter half of the thirty-first century.</p>
+</overview>
 
 <deployment>
 <p>The (WoB) variant operates exclusively with Word of Blake formations during the Jihad period. After assuming control of Krupp Armament Works on Terra, Word of Blake engineers developed a modified production variant suited to Blakist operational doctrines, introducing the revised platform in 3070. The Word of Blake Fourth Division, Blake's Boldest, fields examples of this variant, and Blakist Pintos have been documented in multiple theaters during the Jihad. The design serves in direct combat support and screening roles within Blakist combined-arms formations, taking advantage of the same logistical flexibility that made the base variant valuable to its earlier ComStar operators.</p>
@@ -160,4 +147,16 @@ ARMOR:Draco-100
 COMMUNICATIONS:Long-Talk
 TARGETING:Multi-Track
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

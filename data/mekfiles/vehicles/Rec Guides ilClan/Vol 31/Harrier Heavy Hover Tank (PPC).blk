@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea04-7ba3-8547-8bd590d2902f
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Harrier Heavy Hover Tank
 <year>
 3030
 </year>
-
-<originalBuildYear>
-3030
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -97,33 +97,13 @@ SRM 6
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG31
-</source>
-
-<published>
-RG31
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 16:36:16
-<overview>
-<p>The Harrier Heavy Hover Tank entered service with the Star League Defense Force in 2749, commissioned by Brooks Incorporated at their facility on Carver V. Designed to support BattleMech operations and provide fast cavalry capability, the Harrier distinguished itself early through a combination of exceptional ground speed and dependable firepower. Commanders quickly adapted the vehicle to reconnaissance and flanking roles beyond its original brief, finding its hover drive ideal for rapid exploitation of gaps in enemy formations. A light fusion engine shielded the design from the component stripping that gutted most hovercraft during the Succession Wars, allowing hulls to survive long after the production lines fell silent. Brooks Incorporated maintained a long relationship with the design across multiple eras and factory relocations, refining and upgrading the platform as each generation of conflict demanded new capabilities.</p>
-</overview>
-
 <capabilities>
 <p>The Harrier's most significant attribute is its hover mobility. At cruising speeds exceeding 100 kilometers per hour and capable of bursts approaching 160, it can outrun virtually any comparable fighting vehicle and dictate the terms of most engagements. This speed is the vehicle's primary defense, and crews are trained to exploit terrain and movement to compensate for armor that is adequate but not exceptional for a vehicle of its class.</p><p>The weapons fit has evolved substantially across the design's production history. The original configuration paired a large laser with a short-range missile launcher, providing flexible firepower at standoff ranges. The Federated Commonwealth replaced these with a particle projector cannon in the early thirty-first century, accepting a loss of dual-weapon flexibility in exchange for heavier hitting power suited to striker operations. The current Re-Laser variant represents the most significant redesign, pairing a large re-engineered laser capable of degrading advanced composite armor with a Streak SRM launcher and a medium laser for close engagement. Heavy ferro-fibrous armor with CASE protection reflects an improved protection philosophy in the modern build, though speed remains the platform's fundamental survival strategy across all configurations.</p>
 </capabilities>
+
+<overview>
+<p>The Harrier Heavy Hover Tank entered service with the Star League Defense Force in 2749, commissioned by Brooks Incorporated at their facility on Carver V. Designed to support BattleMech operations and provide fast cavalry capability, the Harrier distinguished itself early through a combination of exceptional ground speed and dependable firepower. Commanders quickly adapted the vehicle to reconnaissance and flanking roles beyond its original brief, finding its hover drive ideal for rapid exploitation of gaps in enemy formations. A light fusion engine shielded the design from the component stripping that gutted most hovercraft during the Succession Wars, allowing hulls to survive long after the production lines fell silent. Brooks Incorporated maintained a long relationship with the design across multiple eras and factory relocations, refining and upgrading the platform as each generation of conflict demanded new capabilities.</p>
+</overview>
 
 <deployment>
 <p>The PPC variant entered service in 3030 with Federated Commonwealth armor formations following the reopening of the Carver V production line. Fast and carrying a heavy direct-fire weapon, the vehicle proved well suited to striker and raider doctrine and attracted significant mercenary interest. Political changes at Carver V cycled the factory through Tikonov Free Republic, Federated Commonwealth, and eventually Word of Blake and Republic control, with production continuing through each transition. The Elektrougli facility began production of the PPC variant during the late Dark Age, extending the design's reach into Free Worlds League space. The variant remained in service with Republic of the Sphere formations through the Dark Age before the Re-Laser model displaced it in front-line inventory.</p>
@@ -156,4 +136,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG31
+</source>
+
+<published>
+RG31
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

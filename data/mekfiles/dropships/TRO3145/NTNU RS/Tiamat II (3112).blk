@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ac2a-7c08-8fc3-aee2203bbcc7
+</UUID>
+
 <UnitType>
 Dropship
 </UnitType>
@@ -35,10 +39,6 @@ Tiamat II
 <year>
 3112
 </year>
-
-<originalBuildYear>
-3112
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -249,12 +249,45 @@ ISNC3
 75
 </structural_integrity>
 
+<capabilities>
+<p>The Tiamat II introduced by the Republic of the Sphere in 3112 removes the nose-mounted AR-10 launcher from the base manned design and uses the freed tonnage to install a Naval C3 System, enabling coordinated fire between squadron mates for dramatically improved tactical effectiveness. The remaining weapons array is extensive: Sub-Capital Laser/3 batteries and Heavy Sub-Capital Cannons in the nose alongside Heavy Gauss Rifles and ER PPCs, while each broadside carries paired AR-10 launchers, Heavy PPCs, ER large lasers, Artemis IV-equipped MML-9 racks, Large Variable Speed Pulse Lasers, and Laser Anti-Missile Systems.</p><p>The aft arc mounts Piranha sub-capital missile launchers, Large Variable Speed Pulse Lasers, MML-9 batteries with Artemis IV, Laser AMS, and a Screen Launcher. Six aerospace fighter bays provide organic fighter support. Cargo capacity increases to 2,581 tons compared to the drone variant. A crew of 145 operates the vessel. The 526 double heat sinks and 3,015 points of Heavy Ferro-Aluminum armor match the base Tiamat specifications.</p>
+</capabilities>
 
+<overview>
+<p>The Tiamat is a massive 36,000-ton Spheroid pocket warship originally conceived during the Jihad as a command and control vessel capable of engaging and destroying multiple Star League era WarShips in a single engagement. Designed to withstand tremendous punishment while delivering devastating firepower at both capital and conventional scales, the Tiamat represents one of the most ambitious DropShip designs ever attempted.</p><p>Following the Jihad, the design was adapted for conventional manned operation and entered production for a new generation of naval forces. The Tiamat's combination of sub-capital and capital weaponry, heavy armor protection, and substantial cargo capacity makes it one of the most powerful non-WarShip combatants in known space.</p>
+</overview>
 
+<deployment>
+<p>The Tiamat II serves as the backbone of the Republic of the Sphere's Black Water Navy, operating in squadrons where the Naval C3 system enables coordinated fire between multiple hulls. These vessels provide the Republic with capital-grade firepower without the enormous expense and infrastructure requirements of maintaining conventional WarShips, filling a critical gap in the post-Jihad naval theater.</p>
+</deployment>
 
+<history>
+<p>The Tiamat was originally conceived in 3066 by order of Apollyon, commanding officer of the Manei Domini, who demanded a vessel capable of challenging WarShips without being one itself. The resulting design was intended exclusively for Manei Domini use, with the first operational vessel completed by 3076. As the pressures of the Jihad escalated, Precentor Martial Cameron St. Jamais convinced Apollyon to release the design for regular Word of Blake forces, though Apollyon insisted that no unaugmented human should control the vessels. This restriction led to the development of a variant equipped with CASPAR II drone technology, allowing autonomous operation without a human crew.</p><p>These drone-operated Tiamats proved effective in the defense of the last Word of Blake Protectorate worlds, including the final battle for Terra. After the Jihad, the newly formed Republic of the Sphere, desperate to build a viable navy from the wreckage of the conflict, seized upon the Tiamat design. The Republic put a manned version into production at Terra's badly damaged O'Neil Shipyards by 3085, and later introduced the Tiamat II upgrade in 3112 with improved coordination systems for squadron-level operations.</p>
+</history>
 
+<manufacturer>
+O'Neil Yards - Titan Yards
+</manufacturer>
 
+<primaryFactory>
+Terra
+</primaryFactory>
 
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<systemModels>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemModels>
 
 <use>
 Pocket WarShip
@@ -323,45 +356,4 @@ RS:3145-NTNU,RS:3145
 <escape_pod>
 10
 </escape_pod>
-
-# Fluff Date: 2026-02-28 15:44:34
-<overview>
-<p>The Tiamat is a massive 36,000-ton Spheroid pocket warship originally conceived during the Jihad as a command and control vessel capable of engaging and destroying multiple Star League era WarShips in a single engagement. Designed to withstand tremendous punishment while delivering devastating firepower at both capital and conventional scales, the Tiamat represents one of the most ambitious DropShip designs ever attempted.</p><p>Following the Jihad, the design was adapted for conventional manned operation and entered production for a new generation of naval forces. The Tiamat's combination of sub-capital and capital weaponry, heavy armor protection, and substantial cargo capacity makes it one of the most powerful non-WarShip combatants in known space.</p>
-</overview>
-
-<capabilities>
-<p>The Tiamat II introduced by the Republic of the Sphere in 3112 removes the nose-mounted AR-10 launcher from the base manned design and uses the freed tonnage to install a Naval C3 System, enabling coordinated fire between squadron mates for dramatically improved tactical effectiveness. The remaining weapons array is extensive: Sub-Capital Laser/3 batteries and Heavy Sub-Capital Cannons in the nose alongside Heavy Gauss Rifles and ER PPCs, while each broadside carries paired AR-10 launchers, Heavy PPCs, ER large lasers, Artemis IV-equipped MML-9 racks, Large Variable Speed Pulse Lasers, and Laser Anti-Missile Systems.</p><p>The aft arc mounts Piranha sub-capital missile launchers, Large Variable Speed Pulse Lasers, MML-9 batteries with Artemis IV, Laser AMS, and a Screen Launcher. Six aerospace fighter bays provide organic fighter support. Cargo capacity increases to 2,581 tons compared to the drone variant. A crew of 145 operates the vessel. The 526 double heat sinks and 3,015 points of Heavy Ferro-Aluminum armor match the base Tiamat specifications.</p>
-</capabilities>
-
-<deployment>
-<p>The Tiamat II serves as the backbone of the Republic of the Sphere's Black Water Navy, operating in squadrons where the Naval C3 system enables coordinated fire between multiple hulls. These vessels provide the Republic with capital-grade firepower without the enormous expense and infrastructure requirements of maintaining conventional WarShips, filling a critical gap in the post-Jihad naval theater.</p>
-</deployment>
-
-<history>
-<p>The Tiamat was originally conceived in 3066 by order of Apollyon, commanding officer of the Manei Domini, who demanded a vessel capable of challenging WarShips without being one itself. The resulting design was intended exclusively for Manei Domini use, with the first operational vessel completed by 3076. As the pressures of the Jihad escalated, Precentor Martial Cameron St. Jamais convinced Apollyon to release the design for regular Word of Blake forces, though Apollyon insisted that no unaugmented human should control the vessels. This restriction led to the development of a variant equipped with CASPAR II drone technology, allowing autonomous operation without a human crew.</p><p>These drone-operated Tiamats proved effective in the defense of the last Word of Blake Protectorate worlds, including the final battle for Terra. After the Jihad, the newly formed Republic of the Sphere, desperate to build a viable navy from the wreckage of the conflict, seized upon the Tiamat design. The Republic put a manned version into production at Terra's badly damaged O'Neil Shipyards by 3085, and later introduced the Tiamat II upgrade in 3112 with improved coordination systems for squadron-level operations.</p>
-</history>
-
-<manufacturer>
-O'Neil Yards - Titan Yards
-</manufacturer>
-
-<primaryFactory>
-Terra
-</primaryFactory>
-
-<systemManufacturers>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemManufacturers>
-
-<systemModels>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemModels>
 

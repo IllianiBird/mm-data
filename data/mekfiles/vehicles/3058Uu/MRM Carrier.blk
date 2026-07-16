@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e421-7c7f-b316-18884fe5a67e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ MRM Carrier
 <year>
 3063
 </year>
-
-<originalBuildYear>
-3063
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -101,37 +101,13 @@ MRM 30
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 19:27:01
-<overview>
-<p>The MRM Carrier is a sixty-ton tracked combat vehicle mounting three MRM-30 launchers on the standard carrier chassis. Developed by the Quikscell Company as a variant of the SRM/LRM Carrier family, the MRM Carrier emerged during the FedCom Civil War era to exploit medium-range missile technology. A C3 slave unit enables networked targeting to compensate for the MRM system's inherent inaccuracy at extended range.</p>
-</overview>
-
 <capabilities>
 <p>The MRM Carrier mounts three MRM-30 launchers as its primary armament, supplemented by a C3 slave unit for networked targeting data. An InterComBust 180 internal combustion engine maintains the standard fifty-four kilometer per hour top speed. Lexington Ltd. High Grade ferro-fibrous armor provides fifty-three points of protection, improved over the standard carrier's Simple Armor Plate.</p><p>A Communicator system with C3 link and FireScan with IndirecTrack targeting enable coordination with C3 master units. Each MRM-30 launcher carries only eight rounds, giving the vehicle limited endurance before requiring resupply. The MRM system's inherent scatter pattern makes it most effective against clustered targets or in area-denial roles.</p>
 </capabilities>
+
+<overview>
+<p>The MRM Carrier is a sixty-ton tracked combat vehicle mounting three MRM-30 launchers on the standard carrier chassis. Developed by the Quikscell Company as a variant of the SRM/LRM Carrier family, the MRM Carrier emerged during the FedCom Civil War era to exploit medium-range missile technology. A C3 slave unit enables networked targeting to compensate for the MRM system's inherent inaccuracy at extended range.</p>
+</overview>
 
 <deployment>
 <p>Quikscell produced the MRM Carrier at its Oliver facility beginning around 3063. The design found modest adoption across the Inner Sphere, often paired with ECM-equipped units to protect the slow-moving carrier from electronic countermeasures during engagements.</p>
@@ -162,4 +138,20 @@ ARMOR:High Grade
 COMMUNICATIONS:with C3
 TARGETING:with IndirecTrack
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

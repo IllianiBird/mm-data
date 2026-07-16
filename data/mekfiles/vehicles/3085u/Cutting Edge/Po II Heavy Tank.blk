@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e70b-7d08-aa9a-56ae45dacef3
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Po II Heavy Tank
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -111,26 +111,13 @@ Machine Gun
 Machine Gun
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Po II Heavy Tank is a generational advance over its predecessor, trading the original's simplicity and low cost for a comprehensive weapons suite befitting a true main battle tank. Developed by Ceres Metals Industries following Blakist destruction of the St. Ives production facilities during the Jihad, the Po II incorporates an XL fusion engine, an Ultra Autocannon/20, and multiple missile systems into a redesigned hull derived from the familiar Po. Entering production in 3077, it became the Capellan Confederation Armed Forces' primary heavy tracked combat vehicle in the Dark Age, serving alongside surviving Po units rather than replacing them wholesale. Export demand from allied Periphery states and steady domestic requirement have kept both Menke and St. Ives lines running at capacity.</p>
-</overview>
-
 <capabilities>
 <p>The Po II's defining weapon is the turret-mounted Ceres Huang Di Ultra AC/20, capable of devastating short-to-medium range firepower. The Ultra autocannon's double-fire mode delivers exceptional burst damage against any opponent, representing a near-quadrupling of the original Po's firepower output. Two SperyBrowning Machine Guns provide anti-infantry coverage. Two five-tube LongFire V LRM launchers extend the engagement envelope, while twin Hovertec Streak SRM 2 racks add reliable close-range punch that wastes no shots on missed salvos.</p><p>The Pitban 240 XL Fusion engine maintains the same road speed as the original Po while freeing sufficient mass for the heavier weapons and armor package. Fourteen tons of Starshield V armor substantially exceeds the original's protection. The CeresCom Model 37-P communications system and Ceres/Maladev 3 targeting carry forward from the original design, providing familiar and proven electronics for crews transitioning from earlier Po variants.</p><p>The Po II's improvements come with meaningful trade-offs. The XL engine makes the vehicle significantly more vulnerable to side hits than the ICE-equipped original, and battle damage to the engine compartment can be catastrophic rather than merely disabling. The UAC/20's impressive firepower has limited effective range. The Po II's overall cost far exceeds the original, restricting availability to frontline units rather than the garrison formations the base Po equips.</p>
 </capabilities>
+
+<overview>
+<p>The Po II Heavy Tank is a generational advance over its predecessor, trading the original's simplicity and low cost for a comprehensive weapons suite befitting a true main battle tank. Developed by Ceres Metals Industries following Blakist destruction of the St. Ives production facilities during the Jihad, the Po II incorporates an XL fusion engine, an Ultra Autocannon/20, and multiple missile systems into a redesigned hull derived from the familiar Po. Entering production in 3077, it became the Capellan Confederation Armed Forces' primary heavy tracked combat vehicle in the Dark Age, serving alongside surviving Po units rather than replacing them wholesale. Export demand from allied Periphery states and steady domestic requirement have kept both Menke and St. Ives lines running at capacity.</p>
+</overview>
 
 <deployment>
 <p>The Po II entered service with the St. Ives Lancers and spread rapidly to frontline CCAF formations throughout the Dark Age period. Most concentrated deployments are in contested Tikonov Corridor worlds and along the Confederation's active borders, where the dramatically increased firepower over the original Po has produced consistent tactical surprises for opponents accustomed to the lighter-armed predecessor. Production at both Menke and St. Ives supports Confederation demand, with limited export availability given the priority placed on CCAF equipping.</p>
@@ -163,4 +150,16 @@ ARMOR:V
 COMMUNICATIONS:Model 37-P
 TARGETING:Maladev 3
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

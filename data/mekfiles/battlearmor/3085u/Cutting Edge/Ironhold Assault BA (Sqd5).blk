@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a515-7deb-897c-ac9c16fe99b0
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Ironhold Assault Battle Armor
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -89,42 +89,14 @@ BABasicManipulator:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-16
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Ironhold is Clan Jade Falcon's dedicated assault battle armor, produced by Olivetti Weaponry on Sudeten. Entering service in 3077, the suit was developed during the Jihad as the Falcon response to the growing number of heavy and assault battle armor designs fielded by rival Clans and Inner Sphere powers. At two tons, the Ironhold balances firepower and protection while retaining greater agility than most assault-weight designs. Falcon warriors quickly embraced the suit for its combination of ranged lethality and tactical flexibility.</p>
-</overview>
 
 <capabilities>
 <p>The standard Ironhold mounts two arm-mounted Anti-Personnel Gauss Rifles, each fed by a twenty-round magazine. These weapons provide excellent range and striking power against both infantry and light armored targets. The suit's two-ton frame carries sufficient standard armor to absorb considerable punishment, while integrated jump jets propel troopers up to sixty meters per bound. This mobility distinguishes the Ironhold from most assault-class battle armor, allowing operators to seize elevated positions and close gaps that heavier suits cannot. Battle claws on each arm enable swarming attacks against BattleMechs. The design trades raw firepower for tactical positioning, leaving it outgunned by dedicated fire-support suits in sustained engagements.</p>
 </capabilities>
+
+<overview>
+<p>The Ironhold is Clan Jade Falcon's dedicated assault battle armor, produced by Olivetti Weaponry on Sudeten. Entering service in 3077, the suit was developed during the Jihad as the Falcon response to the growing number of heavy and assault battle armor designs fielded by rival Clans and Inner Sphere powers. At two tons, the Ironhold balances firepower and protection while retaining greater agility than most assault-weight designs. Falcon warriors quickly embraced the suit for its combination of ranged lethality and tactical flexibility.</p>
+</overview>
 
 <deployment>
 <p>Clan Jade Falcon Elemental Points of five troopers formed the primary operational unit for the standard Ironhold. Points deployed from OmniMech transports to seize key terrain, exploit breaches in enemy lines, and conduct anti-infantry sweeps. The jump-capable configuration allowed Falcon Points to operate across broken terrain where heavier assault armor would be confined to ground-level approaches. The Third Falcon Talon Cluster fielded entire Stars of Ironhold Points during the late Jihad.</p>
@@ -159,4 +131,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+16
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

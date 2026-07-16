@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec23-7b21-9c77-d12e9659c093
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Mk VI
 <year>
 2384
 </year>
-
-<originalBuildYear>
-2384
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -120,34 +120,13 @@ Machine Gun
 2
 </engine_tech_rating>
 
-<source>
-XTR:Primitives I
-</source>
-
-<published>
-XTR:Primitives I
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-<fuel>
-2.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-09 14:43:03
-<overview>
-<p>Named for the Hebrew word meaning "chariot," the Merkava was Leopard Armor's signature heavy tank and the primary armored vehicle of the Terran Alliance and its successor state, the Terran Hegemony. The original design entered service with the Alliance in 2294, and a succession of upgraded marks followed over the next two centuries. Each iteration built upon the tank's reputation for rugged construction and ease of field maintenance. The Merkava became a symbol of Hegemony military power during the Age of War, serving on dozens of fronts across known space. Its lineage influenced subsequent heavy tank designs for centuries, with vehicles such as the Manticore and Von Luckner drawing upon battlefield lessons learned by Merkava crews.</p>
-</overview>
-
 <capabilities>
 <p>The Merkava is a turret-based heavy tank designed around a balanced mix of direct fire and missile support. In its definitive Mk. VIII configuration, the tank mounts a Class 5 Armstrong autocannon as its primary weapon, supplemented by a Harpoon-15 long-range missile launcher for indirect fire support. A Harpoon-4 short-range missile launcher provides close-range punch, while a pair of M-3 machine guns handle anti-infantry duties, one mounted in the turret and the other on the hull front. The Vlar 300 fusion engine gives the 75-ton tank a respectable top speed of 64 kph, a significant improvement over the 54 kph achieved by earlier ICE and primitive fusion variants.</p><p>Ten tons of PanzerSlab armor provide solid protection across all facings, with near-even distribution between hull and turret. The Merkava's chief weakness was its inability to evolve alongside increasingly powerful weapons technology. Even the fusion-powered marks carried armament considered outdated by the late Star League era. Earlier variants suffered additional drawbacks, including the fuel dependency of internal combustion engines and the substandard protection of primitive armor that proved especially vulnerable to energy weapons.</p>
 </capabilities>
+
+<overview>
+<p>Named for the Hebrew word meaning "chariot," the Merkava was Leopard Armor's signature heavy tank and the primary armored vehicle of the Terran Alliance and its successor state, the Terran Hegemony. The original design entered service with the Alliance in 2294, and a succession of upgraded marks followed over the next two centuries. Each iteration built upon the tank's reputation for rugged construction and ease of field maintenance. The Merkava became a symbol of Hegemony military power during the Age of War, serving on dozens of fronts across known space. Its lineage influenced subsequent heavy tank designs for centuries, with vehicles such as the Manticore and Von Luckner drawing upon battlefield lessons learned by Merkava crews.</p>
+</overview>
 
 <deployment>
 <p>The Mk. VI was the last internal combustion engine variant of the Merkava line. Introduced in 2384, it mounted an LRM-10 launcher alongside the standard autocannon, SRM rack, and machine guns. Only four and a half tons of BAR 7 primitive armor protected the hull, a critical vulnerability that became more acute as energy weapons proliferated. The Mk. VI served as the backbone of Hegemony armor formations during the early Age of War. As fusion-powered variants entered production, surviving Mk. VIs were reassigned to planetary militias and training commands, with many eventually sold for scrap.</p>
@@ -180,4 +159,24 @@ ARMOR:Unknown (BAR 7 Primitive)
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Primitives I
+</source>
+
+<published>
+XTR:Primitives I
+</published>
+
+<tonnage>
+75.0
+</tonnage>
+
+<fuel>
+2.0
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

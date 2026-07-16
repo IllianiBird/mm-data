@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4a1-7d2d-b9de-a7a1119d89a4
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Vedette Medium Tank
 <year>
 3054
 </year>
-
-<originalBuildYear>
-3054
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -100,37 +100,13 @@ IS Ultra AC/5 Ammo
 ISUltraAC5
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I,RSFP:Battlefield
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>The Vedette Medium Tank has stood as the measuring stick for combat vehicles across the Inner Sphere for over two centuries. Introduced in 2943 by the New Earth Trading Company, the design's practical combination of high speed, adequate protection, and reliable firepower proved so broadly appealing that demand quickly overwhelmed NETC's manufacturing capacity. Licenses were extended to producers across the Inner Sphere and Periphery, and the Vedette spread to become one of the most widely built and operated fighting vehicles in recorded history. No single variant stands as the pinnacle of tank design, but the accumulated weight of parts availability, trained technicians, and institutional knowledge surrounding the Vedette ensures that any force operating it can maintain it in the field. It is the foundation against which all other medium combat vehicles are still measured.</p>
-</overview>
-
 <capabilities>
 <p>The Vedette's greatest tactical asset is its Locom-Pack 250 InterComBust combustion engine, which drives the fifty-ton tracked hull to a maximum speed of 86 km/h. This is an exceptional performance figure for a medium vehicle, allowing formations to reposition rapidly, advance through flanking lanes, and disengage before heavier opponents can concentrate fire. The turret-mounted Armstrong J11 Autocannon provides reliable medium-range anti-armor capability, identical to the weapon fitted to the SHD-2H Shadow Hawk, while a Scatter Gun Light Machine Gun in a bow ball turret handles infantry and unprotected vehicles. Six tons of ProtecTech 6 armor provides adequate crew protection without the weight penalty of heavier configurations.</p><p>The design's most significant limitation is its single anti-vehicle weapon. Individual Vedettes cannot reliably penetrate well-armored opponents, and the platform depends on massed formation fire to compensate for this shortcoming. A lone Vedette facing a heavy tank or assault BattleMech is poorly positioned to survive. New Earth Trading Company production models use ComStar-sourced Rover communications and Test-2 targeting systems, providing a consistent edge in electronics reliability over vehicles using locally produced alternatives. Licensed variants from other manufacturers typically substitute local electronics, with some reduction in overall system performance.</p>
 </capabilities>
+
+<overview>
+<p>The Vedette Medium Tank has stood as the measuring stick for combat vehicles across the Inner Sphere for over two centuries. Introduced in 2943 by the New Earth Trading Company, the design's practical combination of high speed, adequate protection, and reliable firepower proved so broadly appealing that demand quickly overwhelmed NETC's manufacturing capacity. Licenses were extended to producers across the Inner Sphere and Periphery, and the Vedette spread to become one of the most widely built and operated fighting vehicles in recorded history. No single variant stands as the pinnacle of tank design, but the accumulated weight of parts availability, trained technicians, and institutional knowledge surrounding the Vedette ensures that any force operating it can maintain it in the field. It is the foundation against which all other medium combat vehicles are still measured.</p>
+</overview>
 
 <deployment>
 <p>The Ultra variant is Hellespont Industrials' first modernization of the Vedette, introduced in 3054 for buyers who could afford a modest technology premium. The Imperator Ultra series autocannon's enhanced fire rate effectively doubles peak damage output, and replacement of standard plate with Hellespont Lite ferro-fibrous armor improves survivability by roughly 20 percent. The variant appeals to units seeking a direct upgrade path from the standard model without extensive crew retraining or logistical disruption. Hellespont markets it to Capellan commands and Trinity Alliance forces, and it sees use in both front-line and second-echelon armored formations that require improved firepower without a fundamental change in vehicle doctrine.</p>
@@ -163,4 +139,20 @@ ARMOR:Lite
 COMMUNICATIONS:Rover
 TARGETING:Test-2
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I,RSFP:Battlefield
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

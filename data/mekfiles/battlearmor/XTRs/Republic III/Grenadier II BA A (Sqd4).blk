@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a9af-75b1-92a8-e74c907cc81c
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ A(Sqd4)
 <year>
 3137
 </year>
-
-<originalBuildYear>
-3137
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -91,42 +91,14 @@ BA-SRM4 Ammo:Body:Shots4#
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-XTR:RotS 3
-</source>
-
-<published>
-XTR:RotS 3
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-12
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Grenadier II is a heavy-class battlesuit produced by General Motors as an evolution of the original Grenadier design. Incorporating Clan-specification armor technology on an Inner Sphere chassis, the suit achieves comparable protection to its predecessor at a reduced weight of fifteen hundred kilograms. This lighter mass enables OmniMech transport, a capability the heavier Grenadier lacks. The suit features dual modular weapon mounts accommodating a wide variety of loadout configurations and a basic manipulator for environmental interaction. Mixed Inner Sphere and Clan technology gives the Grenadier II a competitive edge in firepower and protection, though the hybrid construction carries a maintenance burden that field technicians have found challenging to manage.</p>
-</overview>
 
 <capabilities>
 <p>The Grenadier II is a heavy-class battlesuit massing fifteen hundred kilograms, built on an Inner Sphere chassis fitted with Clan-specification standard stealth armor. This mixed-technology approach delivers protection and signature reduction comparable to the assault-weight Grenadier at significantly reduced weight, enabling OmniMech transport that the original cannot support. Configuration A mounts a small laser in the left arm modular weapon slot and a Clan-specification short-range missile launcher with eight reloads in the body mount. A basic manipulator on the right arm allows interaction with objects and terrain. This general-purpose combat loadout benefits from improved ground speed over the heavier Grenadier. The Clan-sourced components carry a maintenance burden, and field technicians accustomed to purely Inner Sphere equipment have found the hybrid systems difficult to service.</p>
 </capabilities>
+
+<overview>
+<p>The Grenadier II is a heavy-class battlesuit produced by General Motors as an evolution of the original Grenadier design. Incorporating Clan-specification armor technology on an Inner Sphere chassis, the suit achieves comparable protection to its predecessor at a reduced weight of fifteen hundred kilograms. This lighter mass enables OmniMech transport, a capability the heavier Grenadier lacks. The suit features dual modular weapon mounts accommodating a wide variety of loadout configurations and a basic manipulator for environmental interaction. Mixed Inner Sphere and Clan technology gives the Grenadier II a competitive edge in firepower and protection, though the hybrid construction carries a maintenance burden that field technicians have found challenging to manage.</p>
+</overview>
 
 <deployment>
 <p>Configuration A serves as the general-purpose combat loadout for AFFS units fielding the Grenadier II. Four-trooper squads are the standard formation, deployed by elite commands that have access to the mixed-technology suit. The First Davion Guards were among the earliest AFFS recipients, integrating the Mk. II into their existing battle armor doctrine as a lighter complement to the original Grenadier. The suit's ability to ride OmniMechs gave these squads tactical mobility that the heavier original could not match.</p>
@@ -159,4 +131,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RotS 3
+</source>
+
+<published>
+XTR:RotS 3
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+12
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

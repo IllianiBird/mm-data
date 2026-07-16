@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12-nightly-2026-02-26 on 2026-02-28
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a9b8-7ad7-bb6d-3bb7c452aa7e
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ B(Sqd6)
 <year>
 3137
 </year>
-
-<originalBuildYear>
-3137
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -97,38 +97,14 @@ BABasicManipulator:RA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-XTR:RotS 3
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-12
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Grenadier II is a heavy-class battlesuit produced by General Motors as an evolution of the original Grenadier design. Incorporating Clan-specification armor technology on an Inner Sphere chassis, the suit achieves comparable protection to its predecessor at a reduced weight of fifteen hundred kilograms. This lighter mass enables OmniMech transport, a capability the heavier Grenadier lacks. The suit features dual modular weapon mounts accommodating a wide variety of loadout configurations and a basic manipulator for environmental interaction. Mixed Inner Sphere and Clan technology gives the Grenadier II a competitive edge in firepower and protection, though the hybrid construction carries a maintenance burden that field technicians have found challenging to manage.</p>
-</overview>
 
 <capabilities>
 <p>Configuration B replaces the left arm weapon with a battle armor C3 computer system, transforming the Grenadier II into a networked coordination platform. The body-mounted Clan-specification long-range missile launcher with eight reloads provides indirect fire capability at extended range. The C3 link shares targeting data across networked formations, improving accuracy for all connected units. This configuration trades direct-fire lethality for force multiplication, making it most effective within a larger C3 network alongside more heavily armed suits or vehicles. The long-range missiles allow troopers to contribute firepower from covered positions, reducing exposure. Without the network link active, the configuration offers only modest standalone combat capability, relying entirely on the missile launcher for offensive output.</p>
 </capabilities>
+
+<overview>
+<p>The Grenadier II is a heavy-class battlesuit produced by General Motors as an evolution of the original Grenadier design. Incorporating Clan-specification armor technology on an Inner Sphere chassis, the suit achieves comparable protection to its predecessor at a reduced weight of fifteen hundred kilograms. This lighter mass enables OmniMech transport, a capability the heavier Grenadier lacks. The suit features dual modular weapon mounts accommodating a wide variety of loadout configurations and a basic manipulator for environmental interaction. Mixed Inner Sphere and Clan technology gives the Grenadier II a competitive edge in firepower and protection, though the hybrid construction carries a maintenance burden that field technicians have found challenging to manage.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Configuration B formations provide sustained C3 network coverage across extended frontages. These oversized squads are organized by AFFS commands that rely on networked fire coordination for defensive operations, particularly along the Draconis border where Combine raiding tactics demand early warning and rapid fire response. The reinforced squad ensures that network coverage persists even after casualties reduce the formation below standard strength.</p>
@@ -161,4 +137,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RotS 3
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+12
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

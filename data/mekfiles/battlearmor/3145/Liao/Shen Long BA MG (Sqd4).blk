@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a65e-7225-aa93-2f707167c635
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Shen Long Battle Armor
 <year>
 3092
 </year>
-
-<originalBuildYear>
-3092
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -89,46 +89,14 @@ CLBAMG:TU
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3145:CC,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<chassis>
-quad
-</chassis>
-
-<turret>
-Modular:4
-</turret>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Shen Long is a heavy battle armor suit produced by Hellespont Industrials for the Capellan Confederation Armed Forces and the Magistracy of Canopus. Introduced in 3092, the design employs a quad chassis that provides exceptional ground speed for its weight class, paired with advanced camouflage systems that allow troopers to approach targets undetected. A reconfigurable weapon platform enables rapid loadout changes between missions, giving field commanders flexibility to tailor formations for specific tactical situations. The suit earned its name, meaning "Divine Dragon" in Chinese, for the aggressive ambush doctrine that defines its primary employment.</p>
-</overview>
 
 <capabilities>
 <p>The Shen Long's quad chassis carries 1,500 kilograms at a ground speed of 43 kilometers per hour, outpacing most heavy battlesuits in Inner Sphere arsenals. Its mimetic armor system uses 550 kilograms of specialized coating to distort visual and electronic sensor returns, granting significant concealment advantages. The modular turret mount provides 400 kilograms of interchangeable payload capacity while the four-legged design eliminates manipulator capability.</p><p>The machine gun configuration loads four machine guns into the turret, each carrying fifty rounds of ammunition. This loadout delivers withering anti-infantry firepower and can threaten exposed rear armor on vehicles and BattleMechs through sustained volume of fire. The deep ammunition reserves provide longer endurance than many other Shen Long configurations. Machine guns struggle against armored targets at range, however, limiting this configuration to close engagements and soft-target suppression.</p>
 </capabilities>
+
+<overview>
+<p>The Shen Long is a heavy battle armor suit produced by Hellespont Industrials for the Capellan Confederation Armed Forces and the Magistracy of Canopus. Introduced in 3092, the design employs a quad chassis that provides exceptional ground speed for its weight class, paired with advanced camouflage systems that allow troopers to approach targets undetected. A reconfigurable weapon platform enables rapid loadout changes between missions, giving field commanders flexibility to tailor formations for specific tactical situations. The suit earned its name, meaning "Divine Dragon" in Chinese, for the aggressive ambush doctrine that defines its primary employment.</p>
+</overview>
 
 <deployment>
 <p>Machine gun squads deployed in standard four-trooper Inner Sphere formations excel at anti-infantry sweeps and perimeter security. CCAF units assign this configuration to clear buildings, suppress light opposition, and protect flanks during combined-arms operations. The deep ammunition reserves make it well suited to sustained urban fighting where frequent contact drains lighter loadouts.</p>
@@ -161,4 +129,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:CC,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<chassis>
+quad
+</chassis>
+
+<turret>
+Modular:4
+</turret>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

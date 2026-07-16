@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a875-71b9-8a41-ba2b0cb76b7a
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ CEX-205 [Industrial Drill](Sqd6)
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -91,42 +91,14 @@ BAIndustrialDrill:RA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:VAr
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
-</overview>
 
 <capabilities>
 <p>The Industrial Drill configuration mounts paired drilling assemblies on the Groundhog's modular adaptors, providing operators with the tools needed for excavation, fortification construction, and demolition work. The drills can bore through reinforced materials at speeds far exceeding manual methods, making this configuration particularly valuable for combat engineering tasks such as preparing defensive positions, cutting through obstacles, and creating improvised access points.</p><p>The standard four-hundred-kilogram chassis carries one hundred kilograms of armor and moves at thirty kilometers per hour without jump capability. The integrated searchlight and mission equipment bay support extended field operations. While the drilling assemblies are not designed as weapons, they pose an obvious threat in close quarters. The Industrial Drill configuration cannot conduct standard anti-BattleMech attacks or employ infantry weapons, however, limiting the operator's options if threatened directly. Groundhogs equipped with this loadout typically work alongside combat-configured suits that can provide security during engineering operations.</p>
 </capabilities>
+
+<overview>
+<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake engineering formations organized Industrial Drill Groundhogs into six-trooper Level Is for fortification and infrastructure projects. During the occupation of Solaris VII, Blakist engineers used these formations to construct defensive positions throughout the arena districts and to clear debris from battle-damaged areas of Solaris City.</p>
@@ -159,4 +131,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

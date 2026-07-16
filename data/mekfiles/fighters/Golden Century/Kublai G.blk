@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ac9f-7fb9-ad01-d4a985848fe3
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ G
 <year>
 3143
 </year>
-
-<originalBuildYear>
-3143
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Advanced
@@ -132,33 +132,13 @@ IS MRM 30 Ammo:OMNI
 CLCASE
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:GC
-</source>
-
-<published>
-TR:GC
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Kublai is a Draconis Combine OmniFighter derived from the captured Qasar design, developed at the LAW Irece Delta Refit Center following the Combine's seizure of the facility in 3142. Named with deliberate historical irony for the Mongol emperor who conquered the Jin dynasty, the Kublai addresses the most persistent criticism of its predecessor by incorporating reflective armor that substantially improves survivability against energy weapons. This modification transformed the Qasar from a technically brilliant but fragile dueling platform into a design capable of sustaining the prolonged combat operations the Draconis Combine demands of its aerospace forces. Entering service in 3143, the Kublai represents one of the few instances of the Combine successfully adapting captured Clan OmniFighter technology into a viable front-line asset.</p>
-</overview>
-
 <capabilities>
 <p>The Kublai retains the complete structural and propulsion architecture of the Qasar, including the Starborn 1.1 chassis, the 400 Model SF-3 XL power plant, and the full 26-ton pod space arrangement. The NC-TelCom Mk X communications suite and Big Cat Mk XXI targeting system carry forward from the original design unchanged, preserving the sensor and fire control capabilities that made the Qasar effective. What distinguishes the Kublai is the replacement of its predecessor's conventional armor with Naketsu Nagareboshi reflective plating, which dramatically reduces damage from the energy-heavy weapons common among Clan opponents and much of the Draconis Combine's own front-line forces.</p><p>The trade-off is an increased vulnerability to physical attacks and autocannon fire. In engagements against energy-armed opponents, however, the Kublai can absorb punishment that would have ended a Qasar engagement decisively. The design retains all the speed and weapons flexibility of the original, making it capable in the same engagement profiles while adding meaningful staying power. Like its predecessor, the Kublai remains fuel-limited, and experienced Combine pilots manage endurance carefully in extended operations.</p>
 </capabilities>
+
+<overview>
+<p>The Kublai is a Draconis Combine OmniFighter derived from the captured Qasar design, developed at the LAW Irece Delta Refit Center following the Combine's seizure of the facility in 3142. Named with deliberate historical irony for the Mongol emperor who conquered the Jin dynasty, the Kublai addresses the most persistent criticism of its predecessor by incorporating reflective armor that substantially improves survivability against energy weapons. This modification transformed the Qasar from a technically brilliant but fragile dueling platform into a design capable of sustaining the prolonged combat operations the Draconis Combine demands of its aerospace forces. Entering service in 3143, the Kublai represents one of the few instances of the Combine successfully adapting captured Clan OmniFighter technology into a viable front-line asset.</p>
+</overview>
 
 <deployment>
 <p>The G configuration is oriented toward sustained anti-shipping firepower, configured for DropShip interdiction operations where consistent damage output matters more than spike performance. The G variant has seen use in ongoing disputes over transit corridors in the Combine's contested frontier, providing aerospace fire support in situations where losing air supremacy carries serious strategic consequences. Its reflective armor makes it considerably more durable in the face of defensive energy weapons than the Qasar it replaced.</p>
@@ -193,4 +173,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:NC-TelCom Mk X
 TARGETING:Big Cat Mk XXI TTS
 </systemModels>
+
+<source>
+TR:GC
+</source>
+
+<published>
+TR:GC
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

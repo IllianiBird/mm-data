@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-cc7c-7f85-a3d9-a7b533c4c941
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Shugenja
 model:SJA-7D
 mul id:2942
@@ -173,7 +174,6 @@ IS Ferro-Fibrous
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-03-12 18:03:23
 overview:<p>The Shugenja is a 75-ton heavy BattleMech produced by Independence Weaponry on Quentin for the Draconis Combine. Introduced in 3061 during the Civil War era, the design was conceived as a dedicated C³ command platform capable of coordinating lance-level targeting networks. Named after the Japanese concept of a mystical practitioner or "magic user," the Shugenja reflects the Draconis Combine's growing acceptance of C³ computer technology following years of cultural resistance among Combine MechWarriors. Independence Weaponry built the design on a reinforced heavy chassis derived from the lighter Komodo, adding substantial mass while maintaining respectable speed for its weight class. The first production units were assigned to elite formations such as the Genyosha regiments, demonstrating DCMS high command's confidence in the platform's battlefield potential.</p>
 
 capabilities:<p>The Shugenja's defining feature is its C³ master computer, integrated directly into the communications suite. This allows the BattleMech to serve as a network hub, sharing real-time targeting data with up to three lance mates equipped with C³ slave units. The resulting coordination enables all connected units to fire using the most favorable targeting solutions available within the network.</p><p>Built on an Alshain Type Heavy Chi chassis purchased from Luthien Armor Works and reinforced to support an additional thirty tons over the base Komodo design, the Shugenja mounts a Vlar 300 XL engine providing a top speed of 64.8 km/h. Thirteen tons of ferro-fibrous armor give solid protection for a heavy BattleMech, though the design particularly lacks CASE protection for its ammunition bins, leaving it vulnerable to catastrophic ammunition explosions.</p><p>The weapons loadout favors medium to long range engagement. A Lord's Light 2 extended-range PPC serves as the primary weapon, supplemented by two Diverse Optics Type 30 large lasers and a Shigunga MRM-30 launcher for concentrated damage at closer ranges. Fifteen double heat sinks manage the considerable thermal output, though sustained fire from all weapons simultaneously can overwhelm cooling capacity. The absence of jump jets limits tactical flexibility in rough terrain.</p>
@@ -185,6 +185,8 @@ history:<p>The Shugenja's origins trace to the late 3050s, when Independence Wea
 manufacturer:Independence Weaponry
 
 primaryfactory:Quentin
+
+fluffdate:2026-03-12 18:03:23
 
 systemmanufacturer:CHASSIS:Alshain
 systemmode:CHASSIS:Type Heavy Chi

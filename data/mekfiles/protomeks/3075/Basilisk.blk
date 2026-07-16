@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0df-79b4-b96e-3aa7c08e0715
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Basilisk
 <year>
 3063
 </year>
-
-<originalBuildYear>
-3063
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -122,34 +122,13 @@ CLERMediumLaser
 CLLRM3
 </Main Gun Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-7.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Basilisk is a seven-ton second-generation ProtoMek produced by Clan Cloud Cobra to provide reliable heavy fire support for armored infantry and BattleMek formations. With firepower to match some light BattleMeks and nearly two full tons of armor protection, the Basilisk is a significant step up in combat capability from the lighter ProtoMek designs. Unusual for a Clan war machine, the Basilisk's trademark is sturdiness and reliability rather than speed or innovation, reflecting the Cloud Cobras' pragmatic approach to integrating ProtoMek technology into their ground forces.</p>
-</overview>
-
 <capabilities>
 <p>The Basilisk's primary armament is a full-size Mek-scale ER Medium Laser, one of the most powerful energy weapons mounted on any ProtoMek. This weapon allows the Basilisk to inflict considerable damage at ranges normally associated with light BattleMek engagements. An LRM-3 launcher in the main gun mount provides supplementary fire support with two salvos of ammunition, typically used to soften targets at long range before closing to laser range. Five heat sinks manage the substantial thermal output from the ER Medium Laser.</p><p>Thirty-eight points of armor make the Basilisk one of the most heavily protected ProtoMeks in service, capable of absorbing multiple medium weapon hits before structural compromise. The trade-off is speed: a forty-five-rated engine provides only forty-three kilometers per hour cruising speed, making the Basilisk slower than an Elemental in powered armor. Without jump jets, the design relies on its heavy armor to survive the approach to engagement range. Most Basilisk operations proceed at a slow, steady pace that contrasts sharply with standard Clan battle doctrine, but the design's exceptional protection allows this conservative approach to succeed where faster but more fragile designs would be destroyed.</p>
 </capabilities>
+
+<overview>
+<p>The Basilisk is a seven-ton second-generation ProtoMek produced by Clan Cloud Cobra to provide reliable heavy fire support for armored infantry and BattleMek formations. With firepower to match some light BattleMeks and nearly two full tons of armor protection, the Basilisk is a significant step up in combat capability from the lighter ProtoMek designs. Unusual for a Clan war machine, the Basilisk's trademark is sturdiness and reliability rather than speed or innovation, reflecting the Cloud Cobras' pragmatic approach to integrating ProtoMek technology into their ground forces.</p>
+</overview>
 
 <deployment>
 <p>The base Basilisk mounts an ER Medium Laser in the torso and an LRM-3 launcher in the main gun mount with two salvos of ammunition. Five heat sinks manage the ER Medium Laser's thermal output. Most Basilisk Points use their lasers as primary weapons, taking advantage of the LRM's superior range to weaken opponents during the approach before transitioning to sustained laser fire at closer ranges. Thirty-eight points of armor provide exceptional protection for a seven-ton design. The forty-five-rated engine limits cruising speed to forty-three kilometers per hour, making the Basilisk one of the slower ProtoMek designs but compensating with the staying power to survive protracted engagements. Produced at Complex H-6 CCC on Homer under Clan Cloud Cobra.</p>
@@ -180,4 +159,16 @@ CHASSIS:Standard
 ENGINE:45
 ARMOR:Standard
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+7.0
+</tonnage>
 

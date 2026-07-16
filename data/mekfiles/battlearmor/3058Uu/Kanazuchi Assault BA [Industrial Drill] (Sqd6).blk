@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a2de-7fbb-af0f-618da5f9aa5b
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kanazuchi Assault Battle Armor
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -94,42 +94,13 @@ InfantryAssaultRifle:APM:Body
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
 
-<slotless_equipment>
-BA-SRM2 Ammo:Shots1#
-BA-SRM2 Ammo:Shots1#
-</slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-15
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kanazuchi is an assault-class battle armor design produced by Luthien Armor Works for the Draconis Combine Mustered Soldiery. One of the heaviest and most heavily armored suits developed by any Inner Sphere power, its name translates from Japanese as "hammer." Introduced in 3058 after a prolonged and difficult development cycle, the Kanazuchi was designed to provide the Combine with a ground-based armored infantry platform optimized for urban defense operations. The suit's exceptional protection and interchangeable manipulator system earned it a reputation as one of the most survivable designs in service, though its lack of mobility and inability to perform anti-BattleMech attacks limited its tactical flexibility compared to lighter alternatives.</p>
-</overview>
-
 <capabilities>
 <p>This configuration replaces the standard heavy battle claw with an industrial drill, converting the Kanazuchi from a pure combat platform into a dual-purpose engineering asset. The drill allows troopers to breach reinforced walls, cut through vehicle armor at contact range, and perform demolition tasks in urban environments. All other systems remain identical to the standard loadout: the right-arm medium laser, twin SRM-2 racks, anti-personnel mounts, and 750 kilograms of armor plating.</p><p>The trade-off is straightforward. The industrial drill lacks the grappling capability of the battle claw, reducing the suit's effectiveness in close combat against other battle armor, but it opens tactical options in siege warfare and fortification clearance that the standard configuration cannot match.</p>
 </capabilities>
+
+<overview>
+<p>The Kanazuchi is an assault-class battle armor design produced by Luthien Armor Works for the Draconis Combine Mustered Soldiery. One of the heaviest and most heavily armored suits developed by any Inner Sphere power, its name translates from Japanese as "hammer." Introduced in 3058 after a prolonged and difficult development cycle, the Kanazuchi was designed to provide the Combine with a ground-based armored infantry platform optimized for urban defense operations. The suit's exceptional protection and interchangeable manipulator system earned it a reputation as one of the most survivable designs in service, though its lack of mobility and inability to perform anti-BattleMech attacks limited its tactical flexibility compared to lighter alternatives.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake Militia formations used six-trooper Level I detachments of drill-equipped Kanazuchi suits during their occupation of Combine worlds. The engineering capability proved useful for demolishing defensive works and clearing urban rubble during pacification operations across the Dieron district.</p>
@@ -162,4 +133,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+15
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

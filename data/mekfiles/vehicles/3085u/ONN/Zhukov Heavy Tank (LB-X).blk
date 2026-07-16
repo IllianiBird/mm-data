@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e78b-74bd-9f19-7cec43981c90
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Zhukov Heavy Tank
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -106,30 +106,13 @@ ISLBXAC10
 ISLBXAC10
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>Aldis Industries introduced the Zhukov in 3030 as a deliberate follow-up to their venerable Demolisher, targeting customers who wanted the design philosophy of the 'Mech Slayer in a lighter, better-armored, and more mobile package. At 75 tons, the Zhukov trades raw destructive power for improved protection and a reduced target profile, qualities that Wolf's Dragoons identified immediately when they became the first major unit to deploy the type in quantity. The Dragoons' sustained operational feedback over the following decades drove a series of refinements and design improvements that Aldis incorporated into successive production runs, making the Zhukov one of the most field-tested combat vehicles of its era. Though smaller and less destructive than the Demolisher, the Zhukov's improved range and secondary weaponry give it a distinct tactical identity, filling roles the 'Mech Slayer cannot occupy effectively.</p>
-</overview>
-
 <capabilities>
 <p>The Zhukov replaces the Demolisher's massive autocannons with twin SarLon MaxiCannon Autocannon/10s, sacrificing per-shot impact in exchange for improved range, ammunition efficiency, and the ability to engage targets at distances where the Demolisher cannot respond. A Harvester 20K SRM 6 launcher provides a secondary punch at close quarters, giving crews an option when engagement geometry favors missiles over cannon fire. The autocannons use an autoloader system derived directly from the Demolisher's ChemJet Gun autoloaders, simplifying crew training and cross-stocking for units operating both designs simultaneously.</p><p>ArcShield Max I armor provides better protection than the Demolisher's standard plate despite the Zhukov's lighter tonnage, reflecting Aldis's deliberate trade of offensive power for defensive durability. The smaller hull presents a reduced target profile that partially compensates for the more modest armor load. Running gear, suspension, and transmission are direct transfers from the Demolisher, while the turret geometry and fire control systems differ between the two designs. This parts commonality proved a significant logistical advantage in units operating mixed armored companies, reducing spare parts demands and simplifying field maintenance considerably.</p>
 </capabilities>
+
+<overview>
+<p>Aldis Industries introduced the Zhukov in 3030 as a deliberate follow-up to their venerable Demolisher, targeting customers who wanted the design philosophy of the 'Mech Slayer in a lighter, better-armored, and more mobile package. At 75 tons, the Zhukov trades raw destructive power for improved protection and a reduced target profile, qualities that Wolf's Dragoons identified immediately when they became the first major unit to deploy the type in quantity. The Dragoons' sustained operational feedback over the following decades drove a series of refinements and design improvements that Aldis incorporated into successive production runs, making the Zhukov one of the most field-tested combat vehicles of its era. Though smaller and less destructive than the Demolisher, the Zhukov's improved range and secondary weaponry give it a distinct tactical identity, filling roles the 'Mech Slayer cannot occupy effectively.</p>
+</overview>
 
 <deployment>
 <p>Produced at the Terra facility during the Jihad period, this variant upgrades the autocannons to LB-10X models and reduces the SRM launcher to a 4-tube configuration, freeing space for C3i computer installation and CASE protection. The combination of improved autocannons and targeting network integration substantially increases combat effectiveness over the standard model. A Capellan copy uses a standard C³ system with a Guardian ECM suite instead of C3i, optimizing the design for Capellan combined arms doctrine.</p>
@@ -162,4 +145,20 @@ ARMOR:ArcShield Max I
 COMMUNICATIONS:Olmstead 30
 TARGETING:BallistaCheck / RockeCheck
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<tonnage>
+75.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

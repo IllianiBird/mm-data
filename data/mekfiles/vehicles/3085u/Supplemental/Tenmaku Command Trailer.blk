@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e797-7d1c-af4d-f859f223fc85
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Tenmaku Command Trailer
 <year>
 3086
 </year>
-
-<originalBuildYear>
-3086
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -121,26 +121,13 @@ Light Machine Gun
 ISAntiMissileSystem
 </Turret Equipment>
 
-<source>
-TR:3085S
-</source>
-
-<tonnage>
-75.0
-</tonnage>
-
-<trailer>
-1
-</trailer>
-
-# Fluff Date: 2026-03-02 16:49:49
-<overview>
-<p>The Tenmaku is the command element of the Teppō combined arms system, a purpose-built seventy-five ton trailer designed to protect senior DCMS commanders during engagements while maintaining complete battlefield awareness. Developed concurrently with the Teppō by Pesht Motors and assembled at the same Unity facility, the Tenmaku translates the Ryuken regiments' informal command-and-control doctrine into a dedicated platform. By physically separating commanding officers from direct fire while keeping them connected to a real-time tactical picture, the Tenmaku addresses the DCMS's identified strategic vulnerability: the preventable loss of experienced staff through unnecessary proximity to the front line. The trailer is towed by the Teppō and is not designed for independent operation.</p>
-</overview>
-
 <capabilities>
 <p>The Tenmaku carries ten tons of dedicated communications equipment, including a full satellite uplink and real-time integration with a holographic mapping system, giving an embarked commander visibility of every combat unit across a planetary engagement. Two C³ Master Computers extend this coordination network to an entire company of units. An infantry compartment provides space for attached command staff. The trailer sustains its systems through a self-contained 10-rated fusion reactor, operating independently of the Teppō's fuel cell.</p><p>Though the Tenmaku lacks independent mobility, it carries a defensive suite including pulse lasers, machine guns, and an anti-missile system capable of engaging infantry threats and lighter vehicles. The trailer shares the same heavy ferro-fibrous armor profile, anti-missile coverage, ECM protection, and CASE-protected ammunition bays found on the Teppō, presenting a uniform defensive character across the combined system. This consistency allows crews of both vehicles to train and maintain their equipment against the same threat parameters.</p>
 </capabilities>
+
+<overview>
+<p>The Tenmaku is the command element of the Teppō combined arms system, a purpose-built seventy-five ton trailer designed to protect senior DCMS commanders during engagements while maintaining complete battlefield awareness. Developed concurrently with the Teppō by Pesht Motors and assembled at the same Unity facility, the Tenmaku translates the Ryuken regiments' informal command-and-control doctrine into a dedicated platform. By physically separating commanding officers from direct fire while keeping them connected to a real-time tactical picture, the Tenmaku addresses the DCMS's identified strategic vulnerability: the preventable loss of experienced staff through unnecessary proximity to the front line. The trailer is towed by the Teppō and is not designed for independent operation.</p>
+</overview>
 
 <deployment>
 <p>The Tenmaku operates exclusively as part of the Teppō combined arms system and is not designed for independent deployment. It is towed into position by the Teppō and relies on the artillery vehicle for all strategic and tactical movement. The first Tenmaku units were assigned alongside the Teppō to the Ryuken-san. Broader distribution was planned to follow the same allocation model as the Teppō itself, with each assigned system including both the Tenmaku and Bokkusu trailers as standard equipment.</p>
@@ -175,4 +162,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085S
+</source>
+
+<tonnage>
+75.0
+</tonnage>
+
+<trailer>
+1
+</trailer>
 

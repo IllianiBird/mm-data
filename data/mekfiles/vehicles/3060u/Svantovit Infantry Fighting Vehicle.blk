@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e556-7fb8-b557-14bdf9f2a792
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Svantovit Infantry Fighting Vehicle
 <year>
 2870
 </year>
-
-<originalBuildYear>
-2870
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -116,26 +116,13 @@ CLStreakSRM2
 CLStreakSRM2
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Svantovit Infantry Fighting Vehicle emerged during the Succession Wars era as a purpose-built transport for second-line Clan garrison forces. Originally conceived to carry conventional infantry platoons, the design was substantially reworked in 2870 to serve the more demanding requirements of Elemental Point transportation, recognizing that non-OmniMech units lacked the handholds necessary for battle armor to ride into combat. Manufactured across numerous Clan Homeworld facilities under no single producing entity, the Svantovit became a ubiquitous fixture of Clan second-line and garrison operations across virtually every Clan. Its exceptional hover speed made it well-suited to repositioning infantry assets rapidly across diverse terrain, though the vehicle's light armor demanded careful tactical employment. Few designs so thoroughly defined the logistics of non-OmniMech Elemental delivery in the era before more capable carriers became widely available.</p>
-</overview>
-
 <capabilities>
 <p>The Svantovit's fusion power plant drives it to a flanking speed of 162 kph, allowing the vehicle to cross open ground quickly when transporting Elementals to a contact point. The five-ton infantry compartment, accessible via a large rear hatch, can accommodate a full Elemental Point. That hatch is also the vehicle's most significant tactical liability: it occupies the entire rear facing, eliminating any rearward firing arc and demanding careful positioning when deploying troops. Standard operating procedure requires the Svantovit to come to a complete halt before opening the hatch, as the rapid weight shift during high-speed deceleration has been known to cause serious handling problems and crashes. Experienced crews learned to manage crash-deceleration from near-flank speed to a full stop in seconds, a technique that is rough on personnel but minimizes the vehicle's exposure during the vulnerable deployment window.</p><p>Firepower is organized to support the disembarking troops. Two Type V "Longbow" LRM-5 launchers fixed in the forward arc provide ranged suppression and can also fire indirectly. A pair of Pattern J2 Streak SRM-2 launchers in a full-traverse turret gives 360-degree defensive coverage, though the Streak guidance system requires target lock and cannot engage speculatively. Series IX Machine Guns on each side discourage enemy infantry from approaching the vehicle's flanks during troop deployment. The Streak turret cannot cover the sides of the vehicle's hull at close range, leaving a dead zone that infantry and light vehicles can exploit. Compound Alpha ferro-fibrous armor provides only three tons of protection, and the Svantovit must rely on speed and its escorts rather than durability to survive sustained fire.</p>
 </capabilities>
+
+<overview>
+<p>The Svantovit Infantry Fighting Vehicle emerged during the Succession Wars era as a purpose-built transport for second-line Clan garrison forces. Originally conceived to carry conventional infantry platoons, the design was substantially reworked in 2870 to serve the more demanding requirements of Elemental Point transportation, recognizing that non-OmniMech units lacked the handholds necessary for battle armor to ride into combat. Manufactured across numerous Clan Homeworld facilities under no single producing entity, the Svantovit became a ubiquitous fixture of Clan second-line and garrison operations across virtually every Clan. Its exceptional hover speed made it well-suited to repositioning infantry assets rapidly across diverse terrain, though the vehicle's light armor demanded careful tactical employment. Few designs so thoroughly defined the logistics of non-OmniMech Elemental delivery in the era before more capable carriers became widely available.</p>
+</overview>
 
 <deployment>
 <p>The standard Svantovit was distributed to second-line and garrison formations across every Clan from 2870 onward. Clans Blood Spirit and Hell's Horses operated the greatest concentrations, fielding the vehicle in numbers that reflected their reliance on conventional forces and Elemental Points in garrison roles. Clans Star Adder and Jade Falcon operated minimal numbers, with Jade Falcon limiting use to training exercises. Inner Sphere forces gained access to the design through Clan occupation zones and salvage from the Clan Invasion onward, with Draconis Combine production eventually restarting on Irece and later at Hyner.</p>
@@ -168,4 +155,16 @@ ARMOR:Compound Alpha Ferro-Fibrous
 COMMUNICATIONS:Type 2I
 TARGETING:Series II GPS
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

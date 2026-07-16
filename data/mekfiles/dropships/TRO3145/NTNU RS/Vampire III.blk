@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ac2d-7f64-a095-b6d50c22dbe6
+</UUID>
+
 <UnitType>
 Dropship
 </UnitType>
@@ -35,10 +39,6 @@ III
 <year>
 3094
 </year>
-
-<originalBuildYear>
-3094
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -130,12 +130,45 @@ ISERMediumLaser
 11
 </structural_integrity>
 
+<capabilities>
+<p>The Vampire III returns to the original 400-ton displacement while incorporating modern battle armor delivery capability. Four Battle Armor bays and sixteen tons of cargo replace the original's jump infantry compartments. The weapons suite shifts to a missile and laser combination: the nose mounts two ER medium lasers and an Artemis-equipped SRM-6, each wing carries an Artemis-equipped LRM-20 and two ER medium lasers, and the aft arc mounts two ER medium lasers.</p><p>Protected by 460 points of heavy ferro-aluminum armor, the Vampire III trades the raw firepower of the Vampire II for restored speed, matching the original's safe thrust of six. Twenty-three double heat sinks easily handle the modest thermal output of the missile and laser armament. A crew of fifty-nine operates the vessel. The structural integrity of eleven matches the original design, maintaining the Vampire's characteristic resilience during high-speed combat insertions.</p>
+</capabilities>
 
+<overview>
+<p>The Vampire is one of the smallest DropShips ever to see combat, a tiny 400-ton Aerodyne so fast and well-armed that it is frequently mistaken for a heavy aerospace fighter. Conceived as the fastest jump infantry carrier in existence, the Vampire was designed to minimize the time its embarked troops were exposed to enemy interceptors by matching the performance of non-interceptor fighters it might encounter.</p><p>The vessel's distinctive combat profile involves high-speed, low-altitude passes over targets, during which jump infantry deploy through specialized ventral drop hatches. At long range, this gives the Vampire the appearance of a fighter on a bombing run, a deliberate deception that has proven highly effective at sowing confusion among defenders expecting ordnance rather than infantry. This combination of speed, firepower, and tactical surprise has made the Vampire a prized asset for special operations forces.</p>
+</overview>
 
+<deployment>
+<p>The Vampire III entered service in 3094 as a more affordable alternative to the heavier Vampire II, returning to the original's 400-ton displacement while retaining battle armor delivery capability. These vessels have seen service with AFFS special operations forces, continuing the Vampire lineage's tradition of high-speed covert insertion missions.</p>
+</deployment>
 
+<history>
+<p>The Vampire was developed by Markesan Astronautics for the Federated Suns, entering service in 2715 as a specialized jump infantry delivery platform. The design proved highly effective during the Border War between the Federated Suns and the Capellan Confederation, where defending troops were thrown into confusion when jump infantry began raining down from what they assumed were fighter bombing runs. Federated Suns Special Forces became particularly fond of the Vampire for its ability to achieve tactical surprise.</p><p>However, the Vampire's high performance came at a significant cost. Its powerful drive system had a relatively short operational lifespan and required maintenance far exceeding that of comparable DropShip engines. When Markesan Astronautics' manufacturing facilities were destroyed during the Draconis Combine's First Succession War thrust toward New Avalon, the several dozen surviving Vampires were gradually grounded and eventually scrapped as their engines failed without replacement parts available.</p><p>The design was considered lost until the recovery of the Hegemony Memory Core during the Jihad enabled Jalastar Aerospace to revive the Vampire. The company began producing updated versions for the AFFS's special forces, incorporating modern weapons technology while retaining the original design's core philosophy of speed and deception. Subsequent variants expanded the concept to include battle armor delivery alongside the traditional jump infantry role.</p>
+</history>
 
+<manufacturer>
+Jalastar Aerospace
+</manufacturer>
 
+<primaryFactory>
+Panpour
+</primaryFactory>
 
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<systemModels>
+CHASSIS:Unknown
+ENGINE:Donovan XVIII
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemModels>
 
 <use>
 Troop Carrier
@@ -204,45 +237,4 @@ RS:3150
 <escape_pod>
 0
 </escape_pod>
-
-# Fluff Date: 2026-02-28 15:44:34
-<overview>
-<p>The Vampire is one of the smallest DropShips ever to see combat, a tiny 400-ton Aerodyne so fast and well-armed that it is frequently mistaken for a heavy aerospace fighter. Conceived as the fastest jump infantry carrier in existence, the Vampire was designed to minimize the time its embarked troops were exposed to enemy interceptors by matching the performance of non-interceptor fighters it might encounter.</p><p>The vessel's distinctive combat profile involves high-speed, low-altitude passes over targets, during which jump infantry deploy through specialized ventral drop hatches. At long range, this gives the Vampire the appearance of a fighter on a bombing run, a deliberate deception that has proven highly effective at sowing confusion among defenders expecting ordnance rather than infantry. This combination of speed, firepower, and tactical surprise has made the Vampire a prized asset for special operations forces.</p>
-</overview>
-
-<capabilities>
-<p>The Vampire III returns to the original 400-ton displacement while incorporating modern battle armor delivery capability. Four Battle Armor bays and sixteen tons of cargo replace the original's jump infantry compartments. The weapons suite shifts to a missile and laser combination: the nose mounts two ER medium lasers and an Artemis-equipped SRM-6, each wing carries an Artemis-equipped LRM-20 and two ER medium lasers, and the aft arc mounts two ER medium lasers.</p><p>Protected by 460 points of heavy ferro-aluminum armor, the Vampire III trades the raw firepower of the Vampire II for restored speed, matching the original's safe thrust of six. Twenty-three double heat sinks easily handle the modest thermal output of the missile and laser armament. A crew of fifty-nine operates the vessel. The structural integrity of eleven matches the original design, maintaining the Vampire's characteristic resilience during high-speed combat insertions.</p>
-</capabilities>
-
-<deployment>
-<p>The Vampire III entered service in 3094 as a more affordable alternative to the heavier Vampire II, returning to the original's 400-ton displacement while retaining battle armor delivery capability. These vessels have seen service with AFFS special operations forces, continuing the Vampire lineage's tradition of high-speed covert insertion missions.</p>
-</deployment>
-
-<history>
-<p>The Vampire was developed by Markesan Astronautics for the Federated Suns, entering service in 2715 as a specialized jump infantry delivery platform. The design proved highly effective during the Border War between the Federated Suns and the Capellan Confederation, where defending troops were thrown into confusion when jump infantry began raining down from what they assumed were fighter bombing runs. Federated Suns Special Forces became particularly fond of the Vampire for its ability to achieve tactical surprise.</p><p>However, the Vampire's high performance came at a significant cost. Its powerful drive system had a relatively short operational lifespan and required maintenance far exceeding that of comparable DropShip engines. When Markesan Astronautics' manufacturing facilities were destroyed during the Draconis Combine's First Succession War thrust toward New Avalon, the several dozen surviving Vampires were gradually grounded and eventually scrapped as their engines failed without replacement parts available.</p><p>The design was considered lost until the recovery of the Hegemony Memory Core during the Jihad enabled Jalastar Aerospace to revive the Vampire. The company began producing updated versions for the AFFS's special forces, incorporating modern weapons technology while retaining the original design's core philosophy of speed and deception. Subsequent variants expanded the concept to include battle armor delivery alongside the traditional jump infantry role.</p>
-</history>
-
-<manufacturer>
-Jalastar Aerospace
-</manufacturer>
-
-<primaryFactory>
-Panpour
-</primaryFactory>
-
-<systemManufacturers>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemManufacturers>
-
-<systemModels>
-CHASSIS:Unknown
-ENGINE:Donovan XVIII
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemModels>
 

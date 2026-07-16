@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4f2-74eb-bcaf-bd6e1660a04f
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Hachiman Fire Support Tank
 <year>
 2842
 </year>
-
-<originalBuildYear>
-2842
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -115,26 +115,13 @@ CLLRM20
 CLArtemisIV
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 16:36:16
-<overview>
-<p>The Hachiman Fire Support Tank is a second-line Clan combat vehicle introduced in 2842, born from the need to provide reliable indirect fire support across the Clans' extensive touman hierarchies. Designed to operate alongside front-line BattleMechs and heavier OmniMechs in a supporting role, the Hachiman is produced at numerous Clan homeworld facilities by a variety of manufacturers, reflecting its widespread adoption. Despite the cultural bias many Clan warriors hold toward combat vehicles, the Hachiman's consistent battlefield effectiveness has ensured its continued place in Clan arsenals. Clans that favor combined-arms approaches, such as Clan Hell's Horses and Clan Blood Spirit, have integrated the Hachiman into front-line formations, evidence of the design's practical value even within a culture that prizes the BattleMech above all else.</p>
-</overview>
-
 <capabilities>
 <p>The Hachiman is built around a pair of turret-mounted Type XX "Great Bow" LRM-20 launchers, each linked to an Artemis IV Fire Control System. The Artemis integration tightens missile grouping noticeably, increasing damage consistency at range. Four tons of LRM ammunition supports sustained fire through a typical Trial or skirmish, but crews engaged in prolonged conventional warfare can exhaust the magazines quickly, leaving the vehicle reliant on its secondary weapons.</p><p>When opponents close the distance, the Hachiman responds with a pair of Series 2d Extended Range Medium Lasers and a hull-mounted Pattern J6 Streak SRM-4. The Streak launcher fires only on a confirmed lock, preventing wasted ammunition, and provides a meaningful short-range punch for a vehicle of this class. The combination of long-range precision and short-range backup gives the Hachiman reasonable flexibility across engagement ranges, though it is clearly most effective at distance.</p><p>Seven tons of Compound G5 ferro-fibrous armor provides solid protection for a 50-ton tracked vehicle, and the Hachiman's compartmentalized crew layout maximizes crew survival in the event of a penetrating hit. The trade-off is reduced inter-crew communication. The compartmentalization impairs coordination between the driver, gunners, and commander, degrading fighting effectiveness when compared to an open-crew design. Scientist-caste studies have confirmed this reduces combat efficiency, though the same studies acknowledge the Hachiman achieves the highest crew survival rate of any Clan armored vehicle. At a top speed of 65 km/h, the design is reasonably mobile for a missile-focused platform, allowing it to reposition between firing positions more readily than heavier fire-support vehicles.</p>
 </capabilities>
+
+<overview>
+<p>The Hachiman Fire Support Tank is a second-line Clan combat vehicle introduced in 2842, born from the need to provide reliable indirect fire support across the Clans' extensive touman hierarchies. Designed to operate alongside front-line BattleMechs and heavier OmniMechs in a supporting role, the Hachiman is produced at numerous Clan homeworld facilities by a variety of manufacturers, reflecting its widespread adoption. Despite the cultural bias many Clan warriors hold toward combat vehicles, the Hachiman's consistent battlefield effectiveness has ensured its continued place in Clan arsenals. Clans that favor combined-arms approaches, such as Clan Hell's Horses and Clan Blood Spirit, have integrated the Hachiman into front-line formations, evidence of the design's practical value even within a culture that prizes the BattleMech above all else.</p>
+</overview>
 
 <deployment>
 <p>The Hachiman is deployed primarily in fire-support and garrison roles throughout the Clan homeworlds and, following the Jihad, across the broader Inner Sphere. Most Clans assign it to second-line and solahma formations where its role is to provide sustained indirect fire from covered or defiladed positions. Clan Hell's Horses and Clan Blood Spirit are notable exceptions, fielding the Hachiman in front-line units where its combination of LRM reach and Artemis accuracy supports OmniMech advances. The design also sees use among pro-vehicle Clans as an offensive platform in environments where BattleMech assets are limited or in high demand. Post-Jihad Inner Sphere adoption has placed the Hachiman in mercenary and regional militia service, particularly among units that prize crew survivability alongside fire support capacity.</p>
@@ -167,4 +154,16 @@ ARMOR:Compound G5 Ferro-Fibrous
 COMMUNICATIONS:JNE Integrated
 TARGETING:Build 2 JRD TTS with Artemis IV FCS
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a819-7fb9-80f5-52103a2fe861
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Dragoon Battle Armor
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -86,44 +86,13 @@ CLBAMicroPulseLaser:RA
 BAJumpJet
 </slotless_equipment>
 
-
-
-<source>
-RG29
-</source>
-
-<published>
-RG29
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Dragoon is a medium battle armor suit produced by General Motors for Wolf's Dragoons. Introduced in 3072, the design was originally conceived to support combat engineering and high-risk intrusion operations, providing heavier protection than standard infiltration suits without sacrificing the mobility expected of lighter designs. The suit's ease of use and rapid deployment capability made it well-suited to the unpredictable demands of special operations work. An advanced mixed-technology variant incorporates Clan-manufactured protective systems, reflecting the Dragoons' access to both Inner Sphere and Clan resources. The Dragoon has earned a reputation as a capable anti-infantry platform with enough agility to threaten heavier targets through unconventional tactics.</p>
-</overview>
-
 <capabilities>
 <p>The Advanced Dragoon trades the standard configuration's flamer for a micro pulse laser while retaining the light mortar and heavy battle claw. This swap provides a more precise anti-infantry weapon that does not require ammunition, reducing the logistical burden on extended operations. The micro pulse laser's rapid-fire capability maintains the suit's lethality against soft targets at close range.</p><p>The most significant upgrade is the adoption of Clan-specification armor plating, which offers improved protection over the standard variant's Inner Sphere advanced armor. This mixed-technology approach reflects Wolf's Dragoons' unique access to Clan equipment and manufacturing expertise. The Advanced model remains exclusive to the Dragoons, who retain tight control over the ClanTech components. Despite the improved protection, the suit remains a medium-weight design and is not intended for prolonged stand-up fights against heavier battle armor or BattleMechs.</p>
 </capabilities>
+
+<overview>
+<p>The Dragoon is a medium battle armor suit produced by General Motors for Wolf's Dragoons. Introduced in 3072, the design was originally conceived to support combat engineering and high-risk intrusion operations, providing heavier protection than standard infiltration suits without sacrificing the mobility expected of lighter designs. The suit's ease of use and rapid deployment capability made it well-suited to the unpredictable demands of special operations work. An advanced mixed-technology variant incorporates Clan-manufactured protective systems, reflecting the Dragoons' access to both Inner Sphere and Clan resources. The Dragoon has earned a reputation as a capable anti-infantry platform with enough agility to threaten heavier targets through unconventional tactics.</p>
+</overview>
 
 <deployment>
 <p>The Advanced Dragoon operates in four-trooper squads within Wolf's Dragoons' Inner Sphere-standard force organization. As a Dragoons-exclusive variant incorporating ClanTech armor, these squads deploy only under Seventh Kommando's direct operational control. The four-trooper squad size allows efficient transport aboard standard infantry carriers while maintaining the concentrated firepower needed for high-risk infiltration missions.</p>
@@ -158,4 +127,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG29
+</source>
+
+<published>
+RG29
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

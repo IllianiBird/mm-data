@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ae83-7c64-9162-573ab222fc7a
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ CRX-O
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -120,34 +120,13 @@ Medium Laser:OMNI
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Corax is a thirty-ton Inner Sphere OmniFighter developed by the United Outworlders Corporation on Ramora for the Outworlds Alliance. Introduced in 3067, it holds the distinction of being the Alliance's first domestically produced OmniFighter, a feat that baffled military analysts across the Inner Sphere who questioned how a minor Periphery state could develop such advanced technology. Named in honor of the growing bond of friendship between the Outworlds Alliance and Clan Snow Raven, the Corax is a light, fast design intended primarily for defensive patrol and air superiority roles within Alliance space. Despite its modest size and limited pod capacity, the design earned a reputation as a capable light combatant that proved even Periphery nations could field competitive OmniFighter designs with the right partnerships.</p>
-</overview>
-
 <capabilities>
 <p>The Corax's chassis mounts a GM 210 XL engine on a UOC Light Spec 3 frame, giving the fighter an impressive thrust profile for its weight class. The use of an extralight engine frees up nine tons of pod space for weapons and equipment, though this comes at the cost of heat management, with only ten double heat sinks integrated into the base chassis. Outworld Weave Standard II armor provides adequate protection for a light fighter, while the Outworlds Advanced 6ai communications system and Multi-platform T12d targeting and tracking system handle sensor duties.</p><p>The Prime configuration mounts a large pulse laser in the nose supported by two wing-mounted medium lasers, providing considerable close-range firepower ideal for strafing runs, though the lack of any aft-facing weaponry leaves the fighter vulnerable when pursued. Alternative configurations address different tactical needs, with paired SRM-6 racks and rear-mounted small lasers for dogfighting, an all-energy loadout of medium pulse and standard medium lasers for extended operations, and even a ground suppression variant mounting a medium-range missile system sourced from the Draconis Combine.</p>
 </capabilities>
+
+<overview>
+<p>The Corax is a thirty-ton Inner Sphere OmniFighter developed by the United Outworlders Corporation on Ramora for the Outworlds Alliance. Introduced in 3067, it holds the distinction of being the Alliance's first domestically produced OmniFighter, a feat that baffled military analysts across the Inner Sphere who questioned how a minor Periphery state could develop such advanced technology. Named in honor of the growing bond of friendship between the Outworlds Alliance and Clan Snow Raven, the Corax is a light, fast design intended primarily for defensive patrol and air superiority roles within Alliance space. Despite its modest size and limited pod capacity, the design earned a reputation as a capable light combatant that proved even Periphery nations could field competitive OmniFighter designs with the right partnerships.</p>
+</overview>
 
 <deployment>
 <p>The Prime configuration represents the Corax's baseline combat loadout, pairing a nose-mounted large pulse laser with wing-mounted medium lasers for concentrated close-range firepower. Best suited for strafing runs and ground attack missions, the Prime's lack of aft weaponry means pilots must rely on speed and maneuverability to avoid being tailed in extended engagements.</p>
@@ -182,4 +161,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Advanced 6ai
 TARGETING:T12d
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

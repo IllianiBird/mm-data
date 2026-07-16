@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d620-7b09-847f-72804205ea87
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Ostsol
 model:OTL-4D (Ragnar)
 mul id:8287
@@ -173,7 +174,6 @@ Heat Sink
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-10 14:00:04
 overview:<p>The Ostsol emerged in 2694 as Ostmann Industries' answer to demands for an ammunition-independent heavy 'Mech capable of extended independent operations. Rather than compete with their own successful Ostroc line, Ostmann licensed the new design to Kong Interstellar Corporation, whose production facilities on Connaught could meet Star League Defense Force requirements. The first Ostsols entered service with SLDF Hussar and Dragoon regiments, where their all-energy armament proved ideal for deep raids and extended deployments.</p><p>The Ostsol's design philosophy prioritized self-sufficiency over raw firepower. Armed exclusively with lasers and requiring no ammunition resupply, the 'Mech could operate behind enemy lines indefinitely, limited only by its pilot's endurance. This capability, combined with sophisticated sensor systems and respectable speed, made the Ostsol a natural choice for reconnaissance lance command positions despite its heavy weight classification.</p>
 
 capabilities:<p>The Ostsol mounts two Tronel III Heavy large lasers in the side torsos as primary armament, delivering substantial damage at medium-to-long ranges. Four Tronel II medium lasers provide close-range firepower, with two mounted forward and two covering the rear arc. This rear-firing capability distinguishes the Ostsol from most heavy 'Mechs, allowing it to discourage pursuit and engage multiple opponents simultaneously, though it necessarily limits the firepower available against any single target.</p><p>The highly sensitive TRSS.2L3 targeting-tracking system represents one of the Ostsol's most valuable assets. Capable of detecting enemies at extended ranges even in difficult terrain, this electronics suite frequently led to Ostsols being assigned as lance command platforms despite the design's cavalry origins. Great care was invested in preserving these sensors during the technology-poor Succession Wars, as they could not be easily replaced.</p><p>A nineteen-ton Vlar 300 engine drives the Ostsol to 86 kilometers per hour, matching the Ostroc's speed while sixteen heat sinks manage the considerable thermal load of the all-laser armament. Nine tons of armor provide adequate protection, though like its sister design, the Ostsol suffers from weak rear armor that makes prolonged rear-arc engagements inadvisable despite the presence of rear-firing weapons. The 'Mech's fully functional hands make it especially effective in physical combat, compensating somewhat for its inability to concentrate all weapons forward.</p>
@@ -185,6 +185,8 @@ history:<p>Kong Interstellar's Ostsol production served the SLDF exclusively unt
 manufacturer:Field Refit
 
 primaryfactory:Various
+
+fluffdate:2026-02-10 14:00:04
 
 systemmanufacturer:CHASSIS:Kong Interstellar
 systemmode:CHASSIS:Kell/H

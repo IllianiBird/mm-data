@@ -20,7 +20,7 @@
 <ScenarioTemplate>
     <name>Hold Until Relief</name>
     <shortBriefing>Hold against a superior force until your reinforcements arrive.</shortBriefing>
-    <detailedBriefing><![CDATA[You are caught out ahead of support and a superior force is bearing down on you. Help is coming, but not soon—you must hold together long enough for the relief column to reach you.
+    <detailedBriefing><![CDATA[You are caught out ahead of support, and a superior force is bearing down on you. Help is coming, but not soon—you must hold together long enough for the relief column to reach you.
 
 The early turns are the dangerous ones: outnumbered and alone, you cannot trade blows evenly. Fight defensively, preserve your strength, and stay intact until reinforcements arrive to turn the tide. Throwing away units before help comes only guarantees there is nothing left to relieve.
 
@@ -28,6 +28,8 @@ Keep the bulk of your command intact. Reinforcements are inbound—survive until
     <battlefieldControl>VICTOR</battlefieldControl>
     <isHostileFacility>false</isHostileFacility>
     <isAlliedFacility>false</isAlliedFacility>
+    <isSuitedForAmbushes>true</isSuitedForAmbushes>
+    <isSuitedForBungledPatrols>true</isSuitedForBungledPatrols>
     <mapParameters>
         <allowedTerrainTypes>
             <allowedTerrainType>Hills</allowedTerrainType>

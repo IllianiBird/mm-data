@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e36a-716d-8309-fec22ed6549b
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Lightning Attack Hovercraft
 <year>
 2696
 </year>
-
-<originalBuildYear>
-2696
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -98,31 +98,13 @@ ISSRM4OS
 <Rear Equipment>
 </Rear Equipment>
 
-<slotless_equipment>
-IS Ammo SRM-4
-IS Ammo SRM-4
-</slotless_equipment>
-
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 20:16:39
-<overview>
-<p>The Lightning Attack Hovercraft was commissioned in 2696 by the Star League Defense Force as a light strike vehicle designed to exploit the flanks and rear of enemy formations. Produced by Curtiss Industries on New Stevens, it was conceived as a fast, expendable platform capable of disrupting slower BattleMechs and vehicles through coordinated hit-and-run attacks. Multiple Lightnings were often grouped into temporary compact units tasked with punching through hostile lines, using their exceptional speed to break up formations before heavier assets could engage. The design featured a distinctive low-mounted rear wing that improved stability at high speeds, giving crews greater control during the aggressive maneuvering the vehicle's mission profile demanded. Broadly distributed throughout the SLDF's conventional forces, the Lightning earned a reputation as an effective, if specialized, harassment platform that rewarded bold crews willing to close with much larger adversaries.</p>
-</overview>
-
 <capabilities>
 <p>The Lightning's defining attribute is raw speed. Its GM 210 fusion engine pushes the thirty-five-ton hovercraft to a flank speed exceeding 180 kilometers per hour, making it one of the faster combat vehicles in its weight class. Rear-mounted wings with small thrusters and elevators provide remarkable high-speed stability, and testing has demonstrated the craft can clear obstacles up to two meters high at full throttle. This is an extremely dangerous maneuver, however, and numerous Lightnings have been destroyed along with their crews during failed attempts.</p><p>The vehicle's armament is built around a pass-and-fire concept. Two Raker-IV medium pulse lasers in the front allow the crew to engage targets on approach, while a Maxima One Shot SRM-4 rack on each flank delivers a missile volley as the Lightning passes its target. A return pass fires the second rack from the opposite side. This tactic can inflict surprising damage on heavier opponents, particularly when multiple Lightnings coordinate their attack runs. StarSlab/3 ferro-fibrous armor provides reasonable protection for the vehicle's mass, but the one-shot missile launchers represent a significant limitation. Once both racks are expended, the Lightning's offensive capability drops to its pulse lasers alone, and crews must choose their missile targets carefully.</p>
 </capabilities>
+
+<overview>
+<p>The Lightning Attack Hovercraft was commissioned in 2696 by the Star League Defense Force as a light strike vehicle designed to exploit the flanks and rear of enemy formations. Produced by Curtiss Industries on New Stevens, it was conceived as a fast, expendable platform capable of disrupting slower BattleMechs and vehicles through coordinated hit-and-run attacks. Multiple Lightnings were often grouped into temporary compact units tasked with punching through hostile lines, using their exceptional speed to break up formations before heavier assets could engage. The design featured a distinctive low-mounted rear wing that improved stability at high speeds, giving crews greater control during the aggressive maneuvering the vehicle's mission profile demanded. Broadly distributed throughout the SLDF's conventional forces, the Lightning earned a reputation as an effective, if specialized, harassment platform that rewarded bold crews willing to close with much larger adversaries.</p>
+</overview>
 
 <deployment>
 <p>Originally fielded by SLDF armor and infantry regiments as a formation-disruption asset, the standard Lightning was designed for coordinated group attacks against slower opponents. The vehicle's one-shot missile profile made it ideal for rapid, aggressive strikes, though its limited endurance constrained it to short engagements or harassment operations requiring frequent withdrawal to rearm. Kressly Warworks resumed production of the original configuration alongside the newer Word of Blake variants in 3067, supplying it to Blakist militia and garrison formations throughout the Protectorate.</p>
@@ -155,4 +137,16 @@ ARMOR:StarSlab/3 Ferro Fibrous
 COMMUNICATIONS:Model 770
 TARGETING:2331C/TGI F-190
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-afbb-7184-b630-c877adcdd76b
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SCK-OA
 <year>
 3097
 </year>
-
-<originalBuildYear>
-3097
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -137,26 +137,13 @@ IS Gauss Ammo:OMNI
 IS Gauss Ammo:OMNI
 </Fuselage Equipment>
 
-<source>
-TR:3145:RotS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Schrack is a medium-class OmniFighter developed by Wangker Aerospace of Mars and introduced into service with the Republic of the Sphere's Armed Forces in 3097. Designed for speed and flexibility, the Schrack serves as a primary interceptor and interdiction platform in Republic aerospace wings, relying on its OmniPod architecture to support a range of tactical configurations across its service life.</p><p>Accessible enough for a broad pool of Republic pilots and fast enough to compete with lighter designs despite its 60-ton frame, the Schrack has been a consistent and valued component of the Republic's aerospace forces through the turbulent decades of the Dark Ages. It stands as one of Wangker Aerospace's most significant contributions to the Republic's military capability, serving fleet escort and high-priority intercept roles as the needs of the Republic's navy demanded.</p>
-</overview>
-
 <capabilities>
 <p>The Schrack achieves medium-fighter speed through a Krupp 300 XL fusion engine, reaching thrust levels once associated only with lighter designs. Its Shipil SC1F airframe dedicates 30 tons to OmniPod-mounted weapons and equipment, providing significant configuration flexibility across the design's three variants. Twelve and a half tons of Fiber 15 heavy ferro-aluminum armor offers solid protection for the weight class, and ten double heat sinks provide adequate thermal management for energy-weapon loadouts. The COMSTAT 500 ATM communications system and IMB SYS 6000 targeting package complete the fixed equipment suite.</p><p>Three design quirks define the Schrack's character in service. The Easy to Pilot quirk makes it accessible to a broader range of aircrew than many comparable designs, reducing training burden and allowing Republic aerospace wings to maintain pilot proficiency even as experienced veterans became scarce during the Dark Ages. However, Non-Standard Parts and Difficult to Maintain impose real logistical costs: replacement components are harder to source and field repairs take longer than on more conventional designs. This tension between cockpit accessibility and maintenance difficulty shapes how squadron commanders employ the Schrack, favoring it for high-priority sorties over sustained high-tempo rotation schedules where component wear accumulates quickly.</p><p>All three Schrack configurations are offense-oriented. The primary and A configurations serve the interceptor and interdiction role, while the B configuration shifts to close-in dogfighting.</p>
 </capabilities>
+
+<overview>
+<p>The Schrack is a medium-class OmniFighter developed by Wangker Aerospace of Mars and introduced into service with the Republic of the Sphere's Armed Forces in 3097. Designed for speed and flexibility, the Schrack serves as a primary interceptor and interdiction platform in Republic aerospace wings, relying on its OmniPod architecture to support a range of tactical configurations across its service life.</p><p>Accessible enough for a broad pool of Republic pilots and fast enough to compete with lighter designs despite its 60-ton frame, the Schrack has been a consistent and valued component of the Republic's aerospace forces through the turbulent decades of the Dark Ages. It stands as one of Wangker Aerospace's most significant contributions to the Republic's military capability, serving fleet escort and high-priority intercept roles as the needs of the Republic's navy demanded.</p>
+</overview>
 
 <deployment>
 <p>The A configuration trades the primary's improved heavy Gauss rifle for a conventional Gauss rifle and redirects significant pod weight toward a dense array of ER medium lasers spread across both wings and the aft arc, with six additional double heat sinks to support the heavier energy weapon load. This arrangement provides broader coverage across multiple firing arcs and is favored for engagements where sustained medium-range pressure matters more than long-range anti-armor capability. The A configuration shares the interceptor role with the primary and is most commonly deployed alongside SCK-O variants in mixed squadrons, where complementary loadouts cover different threat profiles.</p>
@@ -191,4 +178,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:COMSTAT 500 ATM
 TARGETING:IMB SYS 6000
 </systemModels>
+
+<source>
+TR:3145:RotS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

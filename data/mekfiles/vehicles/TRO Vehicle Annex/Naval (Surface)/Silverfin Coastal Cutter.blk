@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eab4-7121-a296-3d6a5868bf90
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Silverfin Coastal Cutter
 <year>
 2302
 </year>
-
-<originalBuildYear>
-2302
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -124,30 +124,13 @@ Searchlight
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-40.0
-</tonnage>
-
-<fuel>
-3.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-12 19:12:50
-<overview>
-<p>The Silverfin coastal cutter is a blue-water patrol hydrofoil produced by Windancer Marine Technologies of Terra, introduced in 2302. Designed by naval architect Tyler Raymonds and built in partnership with the Tadaki Company of Japan, the Silverfin was conceived in desperation and proved its worth in a single dramatic demonstration that saved its manufacturer from bankruptcy. The design quickly won contracts from every major government of the era, and Windancer spent the following centuries supplying Silverfin cutters to water-rich worlds across what would become the Inner Sphere.</p><p>The Silverfin is not a warship in the traditional sense. It serves as a tool of governance, patrolling coastlines and river routes, conducting anti-smuggling operations, and providing escort coverage for larger naval vessels. Its exceptional speed and range make it effective at those duties regardless of era, and the design's simplicity has allowed it to survive centuries of production with only minor revisions.</p>
-</overview>
-
 <capabilities>
 <p>The Silverfin is built on a 10.5-ton hydrofoil chassis constructed from a proprietary polymer composite blend, a material robust enough to endure repeated heavy-gale conditions without warping or snapping. When the foils are engaged, the 17-ton internal combustion engine drives the vessel to a flank speed of 120 km/h, making the Silverfin among the fastest naval support vehicles available to Inner Sphere wet navies. Three and a half tons of fuel gives it a range of over 2,000 km before refueling is required.</p><p>Primary armament is a single Magnum-Sperry Class 9 rotary machine gun designed for maritime use, mounted in the bow turret alongside two Sky Raven SRT-2 short-range torpedo launchers. Both weapon systems are linked to an Advanced Fire Control system, and together they are sufficient to engage pirate and smuggling craft. When Silverfins operate in coordinated groups, they can overwhelm better-armored targets with coordinated torpedo salvos.</p><p>The vessel's primary shortcoming is its armor. One ton of Windancer Lightwave commercial-grade protection carries a Barrier Armor Rating of 7, far below military-combat standards. A single full-powered shot from even a light military laser can penetrate the hull and require extensive repairs, though the hydrofoil frame itself remains structurally sound. The HUNTER communications suite is similarly fragile, as the combination of heavy vibration in hydrofoil mode and constant salt-spray exposure degrades its electronics and requires a complete overhaul every fifty years.</p>
 </capabilities>
+
+<overview>
+<p>The Silverfin coastal cutter is a blue-water patrol hydrofoil produced by Windancer Marine Technologies of Terra, introduced in 2302. Designed by naval architect Tyler Raymonds and built in partnership with the Tadaki Company of Japan, the Silverfin was conceived in desperation and proved its worth in a single dramatic demonstration that saved its manufacturer from bankruptcy. The design quickly won contracts from every major government of the era, and Windancer spent the following centuries supplying Silverfin cutters to water-rich worlds across what would become the Inner Sphere.</p><p>The Silverfin is not a warship in the traditional sense. It serves as a tool of governance, patrolling coastlines and river routes, conducting anti-smuggling operations, and providing escort coverage for larger naval vessels. Its exceptional speed and range make it effective at those duties regardless of era, and the design's simplicity has allowed it to survive centuries of production with only minor revisions.</p>
+</overview>
 
 <deployment>
 <p>The Silverfin serves in coast guard and planetary militia naval forces across the Inner Sphere, assigned to patrol coastal approaches, police trade routes against smuggling, and escort larger naval vessels along important sea lanes. Nearly every water-rich world under any of the Great Houses has at least one Silverfin in service. The vessel's speed and endurance make it effective at rapid-response patrol work, and its straightforward maintenance requirements suit the limited resources of planetary militias.</p><p>In patrol pack formations, Silverfins compensate for their individual firepower limits. Coordinated torpedo salvos allow a group of Silverfins to engage armored naval vessels or even light BattleMechs wading coastal approaches, though such engagements are atypical. The vessel is not intended for sustained combat and relies on speed to disengage when facing military opposition.</p>
@@ -180,4 +163,20 @@ ARMOR:Lightwave
 COMMUNICATIONS:HUNTER
 TARGETING:Advanced Fire Control
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+40.0
+</tonnage>
+
+<fuel>
+3.5
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

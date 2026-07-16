@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7c8-71dd-a4fa-e7c32eac98e3
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Cizin Hover Tank
 <year>
 3097
 </year>
-
-<originalBuildYear>
-3097
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -114,26 +114,13 @@ CLERMediumLaser
 CLERMediumLaser
 </Turret Equipment>
 
-<source>
-TR:3145:DC,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 14:19:26
-<overview>
-<p>The Cizin is a 45-ton hover tank developed by Clan Nova Cat during the late thirty-first century as a dedicated fast-strike platform for the Clan's combined-arms Stars and Binaries. Drawing on Nova Cat doctrine that emphasized aggressive coordination between vehicle and BattleMech forces, the design prioritizes exceptional speed as its primary survival mechanism, relying on velocity rather than heavy protection to dictate engagement terms. The Cizin is named for the Mayan deity of earthquakes and death, a choice reflecting the cultural diversity the Nova Cats wove into their military traditions. Originally manufactured at the Irece-based LAW-Barcella Beta facility, the design was later produced by Clan Sea Fox and Luthien Armor Works, spreading into Draconis Combine service long after the Clan that created it ceased to exist.</p>
-</overview>
-
 <capabilities>
 <p>Powered by a Consolidated 215-rated XL fusion engine, the Cizin reaches a top speed of 162 kilometers per hour. This velocity defines the vehicle's tactical identity, allowing a Cizin Point to engage a medium-class BattleMech and withdraw before suffering disabling return fire. Seven tons of Alpha Compound ferro-fibrous armor with integrated CASE protection provides a respectable defensive baseline for the tank's mass, but the design is built for speed rather than sustained combat. A slow-moving Cizin presents a dangerous target for heavier weapons, and crews who rely on their protection rather than their throttle rarely survive repeated engagements.</p><p>The primary armament centers on four Series 2d Extended-Range Medium Lasers mounted in the turret, all linked to a targeting computer for accuracy at combat speeds. This energy-only turret arrangement eliminates ammunition dependency from the vehicle's primary strike capability, while the computer integration improves effective accuracy against fast-moving targets. Two Pattern D-II SRM 2 launchers mounted in the front hull supplement the turret with short-range burst fire, though the one ton of ammunition carried limits sustained engagement duration against multiple threats.</p><p>A modular turret design allows the entire assembly to be swapped in under an hour, letting damaged vehicles return to action while technicians service components separately. This rapid-return maintainability reinforced the Cizin's role in fast-tempo operations where sustained availability mattered as much as peak firepower. The vehicle's limitations become apparent when forced into static defense or attrition engagements where its modest protection and limited missile reserves are quickly exhausted.</p>
 </capabilities>
+
+<overview>
+<p>The Cizin is a 45-ton hover tank developed by Clan Nova Cat during the late thirty-first century as a dedicated fast-strike platform for the Clan's combined-arms Stars and Binaries. Drawing on Nova Cat doctrine that emphasized aggressive coordination between vehicle and BattleMech forces, the design prioritizes exceptional speed as its primary survival mechanism, relying on velocity rather than heavy protection to dictate engagement terms. The Cizin is named for the Mayan deity of earthquakes and death, a choice reflecting the cultural diversity the Nova Cats wove into their military traditions. Originally manufactured at the Irece-based LAW-Barcella Beta facility, the design was later produced by Clan Sea Fox and Luthien Armor Works, spreading into Draconis Combine service long after the Clan that created it ceased to exist.</p>
+</overview>
 
 <deployment>
 <p>The Cizin served as a mainstay of Clan Nova Cat's combined-arms Stars, assigned to fast-strike and target-designation missions in support of OmniMech forces. Points of Cizins operated well forward of the main body, identifying targets and drawing pursuing enemy units back toward waiting 'Mechs. The Fury Star of Alpha Galaxy's Ninth Cluster became particularly skilled at this tactic, most particularly during the Clan's final days on Irece when Cizins harassed a First Sword of Light Hatamoto-chi into pursuing them far enough for two Shadow Cat IIs to close and engage. Neither Cizin survived the encounter, but the Hatamoto sustained sufficient damage to force it from the field, demonstrating the willingness of Nova Cat crews to accept personal risk in service of the larger formation.</p><p>Following the transfer of production to Luthien Armor Works, the Cizin entered standard DCMS service and has been distributed across multiple regiments engaged in operations against the Armed Forces of the Federated Suns, where its speed remains valued in mobile warfare across varied terrain.</p>
@@ -168,4 +155,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Omicron 5000
 TARGETING:Build 4 CAT TTS w/ Advanced Targeting Computer
 </systemModels>
+
+<source>
+TR:3145:DC,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

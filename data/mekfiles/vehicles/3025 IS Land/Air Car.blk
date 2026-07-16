@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e231-73a2-9055-f7d8459e4f09
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Air Car
 <year>
 2100
 </year>
-
-<originalBuildYear>
-2100
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -102,34 +102,13 @@ Hover
 3
 </engine_tech_rating>
 
-<source>
-TR:3025,MW1e
-</source>
-
-<published>
-RS:V5-V
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-01 12:28:32
-<overview>
-<p>The Air Car is a ubiquitous civilian hovercraft found across the Inner Sphere, Periphery, and Clan occupation zones alike. Produced by countless manufacturers on hundreds of worlds, the design is a broad class of medium-weight hover transports in the thirty to fifty ton range rather than a single specific model from one factory. Intended primarily for civilian passenger and light cargo movement, the Air Car's combination of high speed, simple construction, and low operating costs has made it one of the most common ground vehicles encountered on developed worlds. Its widespread availability and ease of maintenance have also led to its frequent conscription into militia and paramilitary service, where it fills rear-area transport and courier roles despite never having been designed for the battlefield.</p>
-</overview>
-
 <capabilities>
 <p>Built around a Class 265 internal combustion engine, the Air Car achieves an impressive top speed of roughly one hundred eighty-three kilometers per hour on its hover skirt. This makes it one of the faster ground vehicles available for civilian purchase, capable of outrunning most military vehicles over open terrain. The reliance on an ICE powerplant rather than a fusion engine keeps both purchase price and maintenance costs low, a key consideration for a vehicle intended for the civilian market. Fuel consumption is manageable for routine transit operations, though sustained high-speed travel reduces operational range considerably.</p><p>At forty tons, the Air Car carries only two tons of standard armor plating, providing minimal protection against small arms fire and little else. The vehicle mounts no weapons of any kind, leaving it entirely dependent on escort or evasion for survival in hostile environments. Despite being categorized as a transport vehicle, the Air Car lacks dedicated cargo capacity in its standard configuration, with interior volume devoted almost entirely to passenger seating and the powerplant. This limitation restricts its military utility to personnel movement rather than supply transport, a shortcoming that has led many garrison commands to prefer purpose-built military transports when available.</p>
 </capabilities>
+
+<overview>
+<p>The Air Car is a ubiquitous civilian hovercraft found across the Inner Sphere, Periphery, and Clan occupation zones alike. Produced by countless manufacturers on hundreds of worlds, the design is a broad class of medium-weight hover transports in the thirty to fifty ton range rather than a single specific model from one factory. Intended primarily for civilian passenger and light cargo movement, the Air Car's combination of high speed, simple construction, and low operating costs has made it one of the most common ground vehicles encountered on developed worlds. Its widespread availability and ease of maintenance have also led to its frequent conscription into militia and paramilitary service, where it fills rear-area transport and courier roles despite never having been designed for the battlefield.</p>
+</overview>
 
 <deployment>
 <p>The base Air Car configuration sees service in virtually every military and paramilitary organization across known space, though rarely in frontline combat roles. Planetary militia forces and rear-echelon commands are the most common operators, using the vehicle for rapid personnel shuttling between installations, courier duties, and emergency evacuation runs. Mercenary commands operating on tight budgets have been known to press Air Cars into service as improvised scout vehicles, relying on their considerable speed to compensate for the complete lack of armament or meaningful protection.</p>
@@ -164,4 +143,24 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3025,MW1e
+</source>
+
+<published>
+RS:V5-V
+</published>
+
+<tonnage>
+40.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

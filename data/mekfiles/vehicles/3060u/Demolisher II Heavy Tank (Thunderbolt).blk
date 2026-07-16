@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4ca-77a8-9b33-078e7b2cba0e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Demolisher II Heavy Tank
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -115,33 +115,13 @@ ISERMediumLaser
 ISERMediumLaser
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Demolisher II is the Lyran Alliance's 100-ton successor to the original Demolisher, built to an LAAF specification demanding performance exceeding any existing assault vehicle in their inventory. Developed by Defiance Industries of Hesperus II and entering service in 3059, the design carries the Demolisher family's philosophical commitment to concentrated autocannon firepower forward into the post-Clan era with modern weapons systems and fusion power. Where the original relied on propellant-driven autocannons, Defiance Industries' engineers incorporated the Lyran Alliance's advancing mastery of large-bore autocannon technology, pairing an LB 20-X with an Ultra AC/20 in a shared turret. Since its introduction, Defiance Industries has supplied the Demolisher II exclusively to Lyran Alliance Armed Forces, maintaining strict production control that has limited the design's presence outside Commonwealth borders despite its clear technical advantages over earlier Demolisher configurations.</p>
-</overview>
-
 <capabilities>
 <p>The Demolisher II pairs a Defiance Disintegrator LB 20-X autocannon with a Defiance Thunder Ultra AC/20 in a shared turret, providing both cluster munition capability for anti-personnel and anti-armor work and the raw damage output of an Ultra autocannon at maximum cyclic rate. Both weapons share the turret-mounted architecture of the original Demolisher, preserving the command sight that allows a commander to aim and fire both weapons from a single position. A Vlar 300 fusion engine replaces the internal combustion powerplant of the original design, removing the heat management complications that plagued earlier autocannon vehicles.</p><p>StarSlab/6 ferro-fibrous armor with CASE provides substantially more protection than the original Demolisher's standard plate. Twin Coventry Light Autoguns are fixed forward as an anti-infantry deterrent, the only secondary weapons in a design otherwise devoted entirely to its primary armament. The Demolisher II's greatest practical limitation at introduction was political rather than technical: Defiance Industries' exclusive supply arrangement with the Lyran Alliance Armed Forces kept the design from spreading beyond Commonwealth service during its formative years, despite clear demand from other buyers who observed its battlefield effectiveness.</p>
 </capabilities>
+
+<overview>
+<p>The Demolisher II is the Lyran Alliance's 100-ton successor to the original Demolisher, built to an LAAF specification demanding performance exceeding any existing assault vehicle in their inventory. Developed by Defiance Industries of Hesperus II and entering service in 3059, the design carries the Demolisher family's philosophical commitment to concentrated autocannon firepower forward into the post-Clan era with modern weapons systems and fusion power. Where the original relied on propellant-driven autocannons, Defiance Industries' engineers incorporated the Lyran Alliance's advancing mastery of large-bore autocannon technology, pairing an LB 20-X with an Ultra AC/20 in a shared turret. Since its introduction, Defiance Industries has supplied the Demolisher II exclusively to Lyran Alliance Armed Forces, maintaining strict production control that has limited the design's presence outside Commonwealth borders despite its clear technical advantages over earlier Demolisher configurations.</p>
+</overview>
 
 <deployment>
 <p>Introduced during the Jihad period, this variant replaces one autocannon with a Thunderbolt missile launcher, providing engagement options at ranges beyond the standard configuration's optimal envelope. CASE protection is retained for the variant's ammunition bays. This configuration serves primarily in Lyran Alliance formations and has seen deployment in various Dark Age conflicts along Commonwealth frontiers.</p>
@@ -174,4 +154,16 @@ ARMOR:StarSlab/6 Ferro-Fibrous with CASE
 COMMUNICATIONS:9000
 TARGETING:Clear View 2A
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+100.0
+</tonnage>
 

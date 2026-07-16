@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a611-701e-85b8-222ebda7b3be
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Wraith Battle Armor
 <year>
 3116
 </year>
-
-<originalBuildYear>
-3116
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Advanced
@@ -91,42 +91,14 @@ ISBAFireDrakeNeedler:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:C,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 20:20:42
-<overview>
-<p>The Wraith is a medium battle armor suit developed by the Rasalhague Dominion at BA Facility Gamma on Mannedorf. Entering service in 3116, the design descended from extensive testing of the earlier Rogue Bear prototype and was built to support conventional infantry forces and conduct infiltration operations. The Wraith's mixed Clan and Inner Sphere technology base reflected the Dominion's hybrid military culture. Offered in a variety of frame sizes uncommon for Clan battle armor, the suit became a practical workhorse for both garrison and frontline Dominion formations.</p>
-</overview>
 
 <capabilities>
 <p>The Anti-Infantry configuration replaces the standard Wraith's machine guns with a Firedrake Support Needler in each arm, weapons optimized for suppressing and eliminating unarmored personnel. Reactive Armor replaces the Basic Stealth system, trading electronic concealment for improved resistance to explosive ordnance and missile fire. An Improved Sensor suite allows troopers to detect hidden or camouflaged units, making this configuration well suited for sweep-and-clear operations.</p><p>The shift from stealth to reactive protection reflects a different tactical philosophy. Where the standard Wraith relies on avoiding detection to close with targets, the Anti-Infantry variant expects to operate in direct contact with enemy forces and prioritizes survivability under fire. The vibro-claws and jump capability carry over from the base design, preserving the suit's close-quarters lethality. The trade-off leaves this configuration more exposed to detection at range, a limitation that commanders must account for during approach planning.</p>
 </capabilities>
+
+<overview>
+<p>The Wraith is a medium battle armor suit developed by the Rasalhague Dominion at BA Facility Gamma on Mannedorf. Entering service in 3116, the design descended from extensive testing of the earlier Rogue Bear prototype and was built to support conventional infantry forces and conduct infiltration operations. The Wraith's mixed Clan and Inner Sphere technology base reflected the Dominion's hybrid military culture. Offered in a variety of frame sizes uncommon for Clan battle armor, the suit became a practical workhorse for both garrison and frontline Dominion formations.</p>
+</overview>
 
 <deployment>
 <p>Four-trooper Anti-Infantry squads serve in Dominion formations organized along Inner Sphere lines, where the smaller squad size allows tighter coordination during building-clearing and urban sweep operations. The reduced headcount concentrates the squad's improved sensor capability into a more manageable element for freeborn infantry officers accustomed to conventional fire-team tactics.</p>
@@ -161,4 +133,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:C,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

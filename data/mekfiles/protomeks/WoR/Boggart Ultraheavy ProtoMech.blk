@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e120-762f-b68e-29c927fc5051
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Boggart Ultraheavy ProtoMech
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -126,34 +126,13 @@ EIInterface
 CLPlasmaCannon
 </Main Gun Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-WoR,WoRS
-</source>
-
-<published>
-WoR,WoRS
-</published>
-
-<tonnage>
-13.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Boggart is a thirteen-ton ultraheavy quadruped ProtoMek developed during the Wars of Reaving, mounting one of the most devastating weapons ever fitted to a ProtoMek chassis: a Clan Plasma Cannon. At nearly three times the mass of most standard ProtoMeks, the Boggart represents the extreme end of ProtoMek design philosophy, blurring the line between ProtoMek and light BattleMek. The four-legged chassis provides the stability needed to absorb the Plasma Cannon's recoil while maintaining the mobility to reposition between shots, and five jump jets give the massive design terrain-crossing capability unusual for its weight class.</p>
-</overview>
-
 <capabilities>
 <p>The Boggart's Plasma Cannon is its defining feature, a weapon system that inflicts both physical damage and extreme heat buildup on targets. Each plasma bolt delivers ten points of damage while generating significant heat in the target, making the Boggart uniquely dangerous to Meks that rely on tight heat management for weapons cycling. Ten rounds of plasma ammunition provide adequate engagement endurance for most combat scenarios. Five body-mounted jump jets give the thirteen-ton design one hundred fifty meters of leaping distance, remarkable mobility for a machine this heavy.</p><p>Thirty-nine points of armor provide reasonable protection, though this is modest for a design of this tonnage, reflecting the mass demands of the Plasma Cannon and jump jet systems. The quad chassis delivers fifty-four kilometers per hour cruising speed, and the combination of ground speed and jump capability allows the Boggart to maneuver effectively despite its bulk. The design lacks secondary weapons, making it entirely dependent on the Plasma Cannon for offensive capability. Commanders deploy Boggart Points as heavy fire support elements, using the plasma weapons' combined damage and heat effects to soften targets for lighter, faster assets to finish.</p>
 </capabilities>
+
+<overview>
+<p>The Boggart is a thirteen-ton ultraheavy quadruped ProtoMek developed during the Wars of Reaving, mounting one of the most devastating weapons ever fitted to a ProtoMek chassis: a Clan Plasma Cannon. At nearly three times the mass of most standard ProtoMeks, the Boggart represents the extreme end of ProtoMek design philosophy, blurring the line between ProtoMek and light BattleMek. The four-legged chassis provides the stability needed to absorb the Plasma Cannon's recoil while maintaining the mobility to reposition between shots, and five jump jets give the massive design terrain-crossing capability unusual for its weight class.</p>
+</overview>
 
 <deployment>
 <p>The base Boggart mounts a Plasma Cannon in the main gun position with ten rounds of ammunition. The weapon delivers both kinetic damage and extreme heat buildup to targets, making it especially effective against Meks operating near their heat thresholds. Five body-mounted jump jets provide one hundred fifty meters of leaping distance, giving the thirteen-ton quad exceptional terrain mobility. Thirty-nine points of armor provide reasonable protection. The quad chassis delivers fifty-four kilometers per hour cruising speed. The Boggart lacks secondary weapons, relying entirely on its Plasma Cannon for combat capability, which makes ammunition management critical during extended engagements.</p>
@@ -185,4 +164,16 @@ CHASSIS:Ultraheavy Quad
 ENGINE:75
 ARMOR:Standard
 </systemModels>
+
+<source>
+WoR,WoRS
+</source>
+
+<published>
+WoR,WoRS
+</published>
+
+<tonnage>
+13.0
+</tonnage>
 

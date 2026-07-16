@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b66a-7044-a3fb-d82059c34c57
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ Lady Death's 'Pacification' Squads
 4835
 </mul id:>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -67,6 +59,18 @@ Generic Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>The "Pacification" Squads of the Death's Consorts were motorized infantry platoons employed as instruments of terror rather than legitimate military formations. Formed under the pirate leader Paula Trevaline, known as Lady Death, the Consorts operated from the Pirates Haven star cluster and later the Malagrotta Cooperative during the Jihad era. The squads earned their grim reputation after Gary Tiqualme seized control of the Consorts following Trevaline's murder in 3075 and turned them loose on the civilian population of Malagrotta.</p><p>Clad in whatever mismatched armor could be scavenged, the Pacification Squads compensated for poor equipment with brutality. Their twenty-eight troopers operated from motorized transports, carrying laser rifles alongside heavy flamers that served as their signature weapons. Under Tiqualme's direction, these platoons reduced great swaths of Malagrotta's urban territory to ash, raining fire on anyone who resisted Consort authority. The squads functioned as enforcers rather than soldiers, their discipline maintained through fear of their commanders rather than any professional military tradition.</p>
+</overview>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
 <squad_size>
 7
 </squad_size>
@@ -86,9 +90,4 @@ Laser Rifle
 <Secondary>
 Flamer (Heavy)
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The "Pacification" Squads of the Death's Consorts were motorized infantry platoons employed as instruments of terror rather than legitimate military formations. Formed under the pirate leader Paula Trevaline, known as Lady Death, the Consorts operated from the Pirates Haven star cluster and later the Malagrotta Cooperative during the Jihad era. The squads earned their grim reputation after Gary Tiqualme seized control of the Consorts following Trevaline's murder in 3075 and turned them loose on the civilian population of Malagrotta.</p><p>Clad in whatever mismatched armor could be scavenged, the Pacification Squads compensated for poor equipment with brutality. Their twenty-eight troopers operated from motorized transports, carrying laser rifles alongside heavy flamers that served as their signature weapons. Under Tiqualme's direction, these platoons reduced great swaths of Malagrotta's urban territory to ash, raining fire on anyone who resisted Consort authority. The squads functioned as enforcers rather than soldiers, their discipline maintained through fear of their commanders rather than any professional military tradition.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bff2-7e5d-bbbb-b26f16ccc4d2
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,10 +36,6 @@ Motorized Platoon
 3060
 </year>
 
-<originalBuildYear>
-3060
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -46,11 +46,15 @@ Motorized
 
 <Troopers Equipment>
 Generic Infantry Kit
+Fire Extinguisher
 </Troopers Equipment>
 
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Motorized firefighting platoons carry portable fire-suppression gear aboard light vehicles for rapid response to battlefield fires. Armed with Thunderstroke gauss rifles for self-defense, these engineers combat fires ignited by inferno munitions, fuel explosions, and energy weapon strikes that threaten friendly positions or civilian infrastructure. Their motorized transport allows fast deployment to fire sites, and the gauss rifles provide effective protection without the risk of ammunition detonation in fire-prone environments.</p>
+</overview>
 
 <source>
 TR:3085
@@ -71,9 +75,4 @@ Gauss Rifle (Thunderstroke II)
 <specialization>
 4
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Motorized firefighting platoons carry portable fire-suppression gear aboard light vehicles for rapid response to battlefield fires. Armed with Thunderstroke gauss rifles for self-defense, these engineers combat fires ignited by inferno munitions, fuel explosions, and energy weapon strikes that threaten friendly positions or civilian infrastructure. Their motorized transport allows fast deployment to fire sites, and the gauss rifles provide effective protection without the risk of ammunition detonation in fire-prone environments.</p>
-</overview>
 

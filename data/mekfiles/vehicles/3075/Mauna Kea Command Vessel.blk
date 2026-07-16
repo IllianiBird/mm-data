@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e617-721c-81d0-49102a3d6fff
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Mauna Kea Command Vessel
 <year>
 2515
 </year>
-
-<originalBuildYear>
-2515
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -119,30 +119,13 @@ Autocannon/10
 LRM 15
 </Turret Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-02 17:28:43
-<overview>
-<p>The Mauna Kea Command Vessel is one of the most common naval combat vessels in the Inner Sphere, serving in wet navies across hundreds of worlds since the Age of War. Named for a volcano on Terra's Hawaii island whose summit lookout warned of approaching danger from the north, the vessel was designed by the Hegemony's Earthwerks Incorporated to serve as a blue water command platform. Earthwerks' decision to license the design at below-standard rates proved to be a gamble that paid off, as the sheer volume of licensed production established the Mauna Kea as the default naval command vessel for any world with significant bodies of water.</p>
-</overview>
-
 <capabilities>
 <p>Built to command other ships at sea, the Mauna Kea prioritizes durability and communications over speed or heavy armament. A GM 225 turbine ICE engine provides adequate speed to accompany a naval task force, while simple construction materials keep licensing agreements manageable for manufacturers across the Inner Sphere. Fifteen tons of Republic UltraWeave armor protect the hull and superstructure, shielding the crew and command staff from most threats the vessel is likely to encounter in littoral and blue water operations.</p><p>The offensive suite consists of a Mydron Model B autocannon and a Holly fifteen-tube long-range missile launcher, each fed by two tons of ammunition. The LRMs support other task force members during engagements while the Mydron is held in reserve for direct defense. Five 20mm Gatling machine guns are spread around the hull in point-defense and anti-boarding stations, placed in pairs on port and starboard with a single gun covering the stern. A CBR ComSat communications system and Corean B-Tech targeting array provide the vessel's command and sensor capability. Eight tons of cargo space allows customization, with room often allocated for a marine platoon and expanded command facilities.</p>
 </capabilities>
+
+<overview>
+<p>The Mauna Kea Command Vessel is one of the most common naval combat vessels in the Inner Sphere, serving in wet navies across hundreds of worlds since the Age of War. Named for a volcano on Terra's Hawaii island whose summit lookout warned of approaching danger from the north, the vessel was designed by the Hegemony's Earthwerks Incorporated to serve as a blue water command platform. Earthwerks' decision to license the design at below-standard rates proved to be a gamble that paid off, as the sheer volume of licensed production established the Mauna Kea as the default naval command vessel for any world with significant bodies of water.</p>
+</overview>
 
 <deployment>
 <p>The standard Mauna Kea appears in almost every command position in wet navies across the Inner Sphere and near Periphery. Licensed clones are produced under various local names by manufacturers on dozens of worlds. The Draconis Combine's Nav Hull facility on New Samarkand has maintained the longest continuous production run, while the Lyran world of Skye produces occasional hulls through Skye Pleasure Craft Ltd. The vessel's strategic importance lies in its ubiquity rather than any single capability.</p>
@@ -165,4 +148,20 @@ ARMOR:UltraWeave
 COMMUNICATIONS:ComSat
 TARGETING:B-Tech
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+85.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

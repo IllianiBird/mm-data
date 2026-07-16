@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e63a-78db-96ff-12caa6aad270
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Tamerlane Strike Sled
 <year>
 3071
 </year>
-
-<originalBuildYear>
-3071
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -105,26 +105,13 @@ SRM 2
 ISERMediumLaser
 </Turret Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Tamerlane Strike Sled was designed by Novis AT-H, Inc on Detroit as a low-cost, high-speed harasser drawing on the same flying-gun philosophy as the Savannah Master and the SM1. Introduced in 3071, it was conceived as an answer to the Magistracy of Canopus's need for a fast, maintainable raider that could threaten enemy formations without requiring the logistical overhead of heavier combat vehicles. Novis borrowed the bubble cockpit arrangement from Luthien Armor Work's SM1 design, adapting it to the LAW assemblage for ease of maintenance under Periphery field conditions. Though the Capellan Confederation initially dismissed the design as a Periphery novelty, small orders to bolster local militia units provided early operational credibility, and growing feedback led the CCAF to expand its commitment substantially. Novis responded by adding two production plants on Krimari and Palladix by 3075, and the company has since extended sales to Magistracy-employed mercenary units at competitive pricing.</p>
-</overview>
-
 <capabilities>
 <p>The Tamerlane is built around its Magna 155 fusion engine, which gives the twenty-ton hover sled a cruising speed of 129 kilometers per hour and a flank speed exceeding 190. That velocity is the design's primary defensive asset, allowing crews to make slashing attacks and withdraw before most opponents can effectively respond. The standard armament pairs a Diverse Optics Extended Range Medium Laser with a Marklin Mini SRM 2-pack, giving the Tamerlane both long-range reach and the ability to deliver short-range damage during a fast approach. The SRM ammunition bay mounts beneath the vehicle, making warhead swaps between standard and Inferno rounds quick and practical in the field.</p><p>The Maximillian 43 armor provides protection appropriate to the design's scout and raider role, though it will not sustain repeated hits from anything heavier than light weapons. The adapted bubble cockpit positions the pilot and gunner in tandem for good forward visibility, but the cramped two-man arrangement generated persistent complaints from taller crew members. Initial production runs caused back and leg problems after extended sorties, and a subsequent interior modification reduced but did not eliminate the issue. On hard or unpredictable terrain, the hover cushion is prone to side-slipping at high speed, a characteristic that has surprised more than one inexperienced pilot attempting high-velocity maneuvers over irregular ground.</p>
 </capabilities>
+
+<overview>
+<p>The Tamerlane Strike Sled was designed by Novis AT-H, Inc on Detroit as a low-cost, high-speed harasser drawing on the same flying-gun philosophy as the Savannah Master and the SM1. Introduced in 3071, it was conceived as an answer to the Magistracy of Canopus's need for a fast, maintainable raider that could threaten enemy formations without requiring the logistical overhead of heavier combat vehicles. Novis borrowed the bubble cockpit arrangement from Luthien Armor Work's SM1 design, adapting it to the LAW assemblage for ease of maintenance under Periphery field conditions. Though the Capellan Confederation initially dismissed the design as a Periphery novelty, small orders to bolster local militia units provided early operational credibility, and growing feedback led the CCAF to expand its commitment substantially. Novis responded by adding two production plants on Krimari and Palladix by 3075, and the company has since extended sales to Magistracy-employed mercenary units at competitive pricing.</p>
+</overview>
 
 <deployment>
 <p>The standard Tamerlane Strike Sled equips fast-attack and reconnaissance companies within both the MAF and CCAF. Its combination of extended-range laser capability and short-range SRM punch makes it flexible across a range of engagement types, and its low logistics footprint allows deployment with formations that lack dedicated vehicle support elements. MAF standing units with priority access to Diverse Optics equipment receive the full-specification variant directly from the Krimari and Palladix plants.</p>
@@ -157,4 +144,16 @@ ARMOR:Maximillian 43
 COMMUNICATIONS:M-Pulse VI
 TARGETING:TTS series II
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

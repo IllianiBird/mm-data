@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bd0c-767c-a0a9-7b6d72bd2fe5
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Gunners
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -57,6 +57,9 @@ ISRotaryAC2
 ISRotaryAC2 Ammo
 </Field Guns Equipment>
 
+<overview>
+<p>Field gun platoons crew rotary autocannons that spin multiple barrels to achieve extreme rates of fire. The rotary mechanism sustains a volume of ballistic fire that no single-barrel weapon can match, shredding light vehicles and suppressing entire infantry formations with sustained bursts. The trade-off is severe: rotary autocannons consume ammunition at alarming speed and generate significant heat, demanding careful fire discipline and well-stocked supply lines to sustain operations beyond initial contact.</p>
+</overview>
 
 <squad_size>
 7
@@ -69,9 +72,4 @@ ISRotaryAC2 Ammo
 <Primary>
 InfantryAssaultRifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Field gun platoons crew rotary autocannons that spin multiple barrels to achieve extreme rates of fire. The rotary mechanism sustains a volume of ballistic fire that no single-barrel weapon can match, shredding light vehicles and suppressing entire infantry formations with sustained bursts. The trade-off is severe: rotary autocannons consume ammunition at alarming speed and generate significant heat, demanding careful fire discipline and well-stocked supply lines to sustain operations beyond initial contact.</p>
-</overview>
 

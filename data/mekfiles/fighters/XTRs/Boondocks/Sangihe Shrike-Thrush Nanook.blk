@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-afd5-7dc9-8ece-4572d360943c
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Sangihe Shrike-Thrush 'Nanook'
 <year>
 3068
 </year>
-
-<originalBuildYear>
-3068
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Experimental
@@ -79,6 +79,18 @@ Aerodyne
 <armor_type>
 7
 </armor_type>
+
+<Nose_armor_type>
+0
+</Nose_armor_type>
+
+<Nose_armor_tech>
+Inner Sphere
+</Nose_armor_tech>
+
+<Nose_armor_tech_rating>
+3
+</Nose_armor_tech_rating>
 
 <Left Wing_armor_type>
 3
@@ -170,26 +182,13 @@ Small Laser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-XTR:Boondocks
-</source>
-
-<published>
-XTR:Boondocks
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Sangihe Shrike-Thrush "Nanook" is a unique experimental modification of the TR-7 Thrush assembled on Solaris VII in the years surrounding the Jihad. Built by Vining Engineering and Salvage Team for a pilot known only as Nanook, the aircraft represents independent engineering work drawing on Clan-surplus components available through informal channels in the post-Tukayyid Inner Sphere. Project records indicate work began sometime after 3052 and continued until at least the Jihad's outbreak in 3068, when the Solaris VII fighting disrupted operations across the planet. The result is a one-of-a-kind fighter with capabilities substantially exceeding any production Thrush variant, though at considerable expense and complexity. The craft has been seen at air shows and aerospace events throughout the Inner Sphere periphery in the years following the Jihad.</p>
-</overview>
-
 <capabilities>
 <p>The Nanook's defining modification is a Magna 250 XXL engine that reduces propulsion mass dramatically compared to the standard airframe, freeing weight for heavier weapons and armor. The engine supports acceleration to six gravities under normal thrust and a theoretical maximum of nine, though the FrontierTech agreement governing reactor access formally limits operations to five gravities to protect the modified airframe. Under combat thrust the fighter's five-ton fuel supply is consumed in little more than twenty minutes, imposing a strict operational endurance ceiling regardless of other capabilities.</p><p>Offensive armament uses Clan technology throughout: a pair of ER medium lasers in the nose, a Clan medium pulse laser in each wing, and a small laser defending the rear arc. The Clan weapons deliver superior accuracy and output compared to equivalent Inner Sphere equipment without requiring ammunition. Ten double heat sinks handle the weapon load comfortably under standard thrust. Patchwork protection combines laser reflective armor on the wings with reactive armor on the nose and aft fuselage, giving the fighter meaningful resistance against both energy weapons and ballistic or explosive threats. The mixed armor approach reflects the materials available to an independent salvage team rather than a planned design choice.</p>
 </capabilities>
+
+<overview>
+<p>The Sangihe Shrike-Thrush "Nanook" is a unique experimental modification of the TR-7 Thrush assembled on Solaris VII in the years surrounding the Jihad. Built by Vining Engineering and Salvage Team for a pilot known only as Nanook, the aircraft represents independent engineering work drawing on Clan-surplus components available through informal channels in the post-Tukayyid Inner Sphere. Project records indicate work began sometime after 3052 and continued until at least the Jihad's outbreak in 3068, when the Solaris VII fighting disrupted operations across the planet. The result is a one-of-a-kind fighter with capabilities substantially exceeding any production Thrush variant, though at considerable expense and complexity. The craft has been seen at air shows and aerospace events throughout the Inner Sphere periphery in the years following the Jihad.</p>
+</overview>
 
 <deployment>
 <p>The Nanook is a non-production, one-of-a-kind aircraft with no formal military affiliation or operational doctrine. It has appeared at air shows and aerospace events throughout the Inner Sphere periphery following the Jihad, drawing attention for its unusual Clan-technology armament and modified performance profile. The craft's Clan energy weapons and mixed armor give it capabilities substantially exceeding any production Thrush, but its extreme fuel consumption under combat thrust limits tactical endurance, and its unique status makes component replacement and maintenance demanding. The FrontierTech-imposed thrust limit and ongoing maintenance requirements constrain operational deployment, leaving the aircraft primarily a demonstration piece and personal transport for its owner rather than a combat asset.</p>
@@ -224,4 +223,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Boondocks
+</source>
+
+<published>
+XTR:Boondocks
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

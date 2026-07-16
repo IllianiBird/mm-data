@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec73-76ec-ad8b-cbe1aef6566b
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Nike Air Defense Platform
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -108,26 +108,13 @@ ISLBXAC5
 ISLBXAC5
 </Turret Equipment>
 
-<source>
-XTR:RetroTech
-</source>
-
-<published>
-XTR:RetroTech
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 17:12:16
-<overview>
-<p>The Nike Air Defense Platform entered production in 3079, designed by New Samarkand Metals of Xinyang as a budget alternative to the Partisan family. Intended for customers in the Draconis Combine who could not afford the increasingly expensive Partisan variants, the Nike prioritized raw firepower and simplicity over the sophisticated command and coordination systems that defined later Partisan models. Built on a modified support vehicle chassis using older manufacturing techniques and commercially available components, the ninety-ton tracked vehicle represented the wave of retrotech designs emerging from secondary manufacturers during the Jihad's aftermath. The Nike's philosophy of straightforward, affordable air defense found a receptive market among garrison commands stretched thin by years of conflict.</p>
-</overview>
-
 <capabilities>
 <p>The Nike mounts a pair of LB 5-X autocannons as its primary weapons alongside two Light AC/2s for supporting fire. Both weapon types accept cluster ammunition effective against airborne targets, and a generous two-ton ammunition supply per weapon type provides good endurance for sustained engagements. An Advanced Fire Control system enhances accuracy beyond what the individual weapons would achieve alone.</p><p>The ninety-ton vehicle rides on a fuel cell engine that provides adequate 54 km/h speed while keeping production costs low. Thirteen tons of BAR 9 armor provides substantial protection against most threats short of dedicated anti-armor weapons, making the Nike surprisingly durable for a retrotech design. The vehicle deliberately omits the sophisticated C3 networking and removable targeting systems characteristic of the Partisan family, relying instead on simple, reliable construction that secondary manufacturing facilities can produce and maintain without access to advanced technology. This design philosophy makes the Nike well-suited for peripheral and garrison forces that lack the technical infrastructure to support more complex systems, though it means the vehicle must rely on individual crew skill rather than networked coordination.</p>
 </capabilities>
+
+<overview>
+<p>The Nike Air Defense Platform entered production in 3079, designed by New Samarkand Metals of Xinyang as a budget alternative to the Partisan family. Intended for customers in the Draconis Combine who could not afford the increasingly expensive Partisan variants, the Nike prioritized raw firepower and simplicity over the sophisticated command and coordination systems that defined later Partisan models. Built on a modified support vehicle chassis using older manufacturing techniques and commercially available components, the ninety-ton tracked vehicle represented the wave of retrotech designs emerging from secondary manufacturers during the Jihad's aftermath. The Nike's philosophy of straightforward, affordable air defense found a receptive market among garrison commands stretched thin by years of conflict.</p>
+</overview>
 
 <deployment>
 <p>Produced exclusively at New Samarkand Metals' Xinyang facility, the Nike has been sold solely to the Draconis Combine. Its low cost and simple maintenance requirements make it ideal for the many garrison and militia commands tasked with defending Combine worlds against pirate raids and border incursions. Reports from the field indicate the Nike performs well in the defensive anti-aircraft role for which it was designed.</p>
@@ -160,4 +147,16 @@ ARMOR:Unknown (BAR 9)
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RetroTech
+</source>
+
+<published>
+XTR:RetroTech
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

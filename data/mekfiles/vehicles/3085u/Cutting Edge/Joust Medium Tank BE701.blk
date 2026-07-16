@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e6e9-7fc8-a700-31d70a472675
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ BE701
 <year>
 3086
 </year>
-
-<originalBuildYear>
-3086
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -115,26 +115,13 @@ CLLightMG
 CLLightMG
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The Joust Medium Tank is Clan Nova Cat's second purpose-built combat vehicle designed for Inner Sphere service, produced at the Barcella Beta facility on Irece beginning in 3077. Intended to complement the heavier assault Starmates of the Nova Cat touman, the Joust delivers protection and firepower that far exceed expectations for its forty-ton frame. The design serves as a deliberate effort by Clan Nova Cat's scientific and merchant castes to expand their vehicle offerings for both the Nova Cat military and prospective Inner Sphere buyers. Though development was hampered by the Jihad, the finished product proved worth the delay. Since entering service, the Joust has earned a reputation as a reliable fire support and escort vehicle capable of accompanying even the heaviest assault formations.</p>
-</overview>
-
 <capabilities>
 <p>The BE701 retains the defensive profile of the base Joust, with the same ferro-fibrous armor protection and general hull configuration. The variant trades the ATM launcher for a ten-tube long-range missile battery, reducing the cost and logistical complexity of the munitions load at the expense of ammunition flexibility. The savings in mass from the simpler missile system allowed designers to add four additional light machine guns to the hull, significantly improving the variant's anti-infantry capability. This makes the BE701 particularly suited to urban combat environments where dismounted infantry pose a persistent threat.</p><p>The most significant change is the replacement of the XL fusion engine with a standard unit of equivalent rating. The XL engine of the base Joust is expensive and difficult to procure outside Clan production networks. The standard engine sacrifices the mass efficiency of the XL design but draws on a parts pool accessible to virtually any Inner Sphere technician. The trade-off reduces the vehicle's vulnerability to catastrophic side torso damage, as a standard engine does not suffer the same critical hit cascade that makes XL-equipped vehicles fragile when flanked.</p><p>The BE701 retains the Series 7NC ER Large Laser as its primary weapon and the same communications and targeting electronics as the base variant. Its overall firepower is somewhat reduced from the BE700, but its broader logistical accessibility makes it a practical choice for formations that cannot maintain Clan supply chains.</p>
 </capabilities>
+
+<overview>
+<p>The Joust Medium Tank is Clan Nova Cat's second purpose-built combat vehicle designed for Inner Sphere service, produced at the Barcella Beta facility on Irece beginning in 3077. Intended to complement the heavier assault Starmates of the Nova Cat touman, the Joust delivers protection and firepower that far exceed expectations for its forty-ton frame. The design serves as a deliberate effort by Clan Nova Cat's scientific and merchant castes to expand their vehicle offerings for both the Nova Cat military and prospective Inner Sphere buyers. Though development was hampered by the Jihad, the finished product proved worth the delay. Since entering service, the Joust has earned a reputation as a reliable fire support and escort vehicle capable of accompanying even the heaviest assault formations.</p>
+</overview>
 
 <deployment>
 <p>The BE701 was undergoing testing at Barcella Beta on Irece at the time of its introduction. The variant's substitution of a standard fusion engine for the XL unit, combined with the replacement of the expensive ATM launcher with a long-range missile system, were interpreted by observers as deliberate compromises to improve affordability and logistical compatibility for Inner Sphere customers unfamiliar with Clan supply chains. Nova Cat intent appeared to be positioning the BE701 as an export product accessible to buyers who could not reliably procure the specialized advanced tactical munitions the standard Joust requires.</p>
@@ -167,4 +154,16 @@ ARMOR:Advanced Compound Beta
 COMMUNICATIONS:1685/6 Tacticom
 TARGETING:Series XXVIII IWS
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

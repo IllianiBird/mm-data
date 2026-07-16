@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e2d5-7422-8ff1-8f65b6c80cd0
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Monitor Naval Vessel
 <year>
 2910
 </year>
-
-<originalBuildYear>
-2910
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -111,30 +111,13 @@ Autocannon/20
 Autocannon/20
 </Turret Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:V5-V
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-09 16:42:39
-<overview>
-<p>The Monitor Naval Vessel was developed by Nav Hull, a small company founded by entrepreneur Robert Habeas in the mid-twenty-ninth century. Habeas had traveled to numerous water-rich worlds and observed how planetary defense forces relied on improvised patrol craft, armed wooden barges fitted with recoilless rifles and small SRM tubes, to police their rivers and coastal regions. Dedicated military riverine vessels existed for wealthier states, but light-industrial worlds had no practical options. Nav Hull addressed this gap not by building a conventional factory, but by designing the Monitor as an unassembled kit. Customers, typically planetary governments and militia forces, sourced the hull, power system, and combustion engine locally from available suppliers. Nav Hull supplied the weapons package and turret assembly as the primary value-added components, keeping overhead low and spreading production risk across the supply chain.</p>
-</overview>
-
 <capabilities>
 <p>The Monitor's armament is built around two 185mm ChemJet Gun autocannons mounted in a turret assembly derived from the Demolisher heavy tank. The turret itself comes from Demolisher production, with Nav Hull adapting the mounting hardware for aquatic operations. Three Harvester 2k SRM launchers are positioned along the sides and rear of the vessel, providing close-range coverage against ambushing infantry in dense riverside terrain. Commanders frequently load inferno rounds for engagements along riverbanks, as the flammable gel floats and burns on the water surface long enough to deny the shoreline to assaulting forces for a brief but critical window.</p><p>The Monitor carries eight tons of ArcShield Maxi II armor, a practical but modest protection level. Some of this plating comes directly from the Demolisher turret, while the remainder consists of flat panels, a cost-reduction measure Nav Hull adopted to keep kits affordable. The armor is sufficient against small arms fire and light weapons typical of riverine piracy and guerrilla actions, though it provides limited protection against dedicated anti-armor systems. The vessel's most operationally significant characteristic is its half-meter draft, which allows it to operate in the shallowest river channels and wetland systems that deny access to heavier naval assets. The tradeoff is that the Monitor relies on its shallow-water mobility rather than armor to survive encounters with better-armed opponents.</p>
 </capabilities>
+
+<overview>
+<p>The Monitor Naval Vessel was developed by Nav Hull, a small company founded by entrepreneur Robert Habeas in the mid-twenty-ninth century. Habeas had traveled to numerous water-rich worlds and observed how planetary defense forces relied on improvised patrol craft, armed wooden barges fitted with recoilless rifles and small SRM tubes, to police their rivers and coastal regions. Dedicated military riverine vessels existed for wealthier states, but light-industrial worlds had no practical options. Nav Hull addressed this gap not by building a conventional factory, but by designing the Monitor as an unassembled kit. Customers, typically planetary governments and militia forces, sourced the hull, power system, and combustion engine locally from available suppliers. Nav Hull supplied the weapons package and turret assembly as the primary value-added components, keeping overhead low and spreading production risk across the supply chain.</p>
+</overview>
 
 <deployment>
 <p>The Monitor is deployed primarily by planetary defense forces and militia units throughout the Draconis Combine, with the heaviest concentrations on worlds featuring extensive river systems, delta regions, or shallow coastal waters. Because the kit model allows customers to substitute locally available components, individual examples vary considerably in their electronics suites and armor configurations, depending on what parts the purchasing government could supply. Most end up in low-priority garrison assignments, patrolling waterways that conventional armored units cannot easily access. The Galedon Military District has historically been the Monitor's strongest market, given the extensive river delta systems found on several district worlds. A small number of examples have appeared in the hands of pirate bands operating along the Combine's spinward frontier, likely captured from militia units or obtained through gray-market kit sales.</p>
@@ -167,4 +150,20 @@ ARMOR:ArcShield Maxi II
 COMMUNICATIONS:Various
 TARGETING:Various
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:V5-V
+</published>
+
+<tonnage>
+75.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

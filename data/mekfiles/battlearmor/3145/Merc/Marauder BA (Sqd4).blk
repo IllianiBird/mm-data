@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a6a2-70ba-ac21-3478366a1598
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Marauder Battle Armor
 <year>
 3110
 </year>
-
-<originalBuildYear>
-3110
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -95,42 +95,14 @@ BA-Magnetic Clamp:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3145:Merc,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Marauder is a heavy battle armor suit developed by Marian Arms, Incorporated for the Marian Hegemony Armed Forces. Introduced in 3110 as the Hegemony's second indigenous battle armor design, the Marauder takes a markedly different approach from its predecessor. Where the Ravager emphasized survivability, the Marauder prioritizes offensive output and fire support capability. The suit takes its name from the iconic Marauder BattleMech, and its weapon layout pays deliberate homage to that venerable design. The Marauder has earned a solid reputation among Periphery military forces and the mercenary commands they employ.</p>
-</overview>
 
 <capabilities>
 <p>Weighing 1,500 kilograms, the Marauder is built around delivering punishing firepower at the expense of both speed and protection. Each arm mounts a Support PPC paired with an Anti-Personnel Weapon Mount, while a Light Recoilless Rifle sits on the body. A Light TAG unit rounds out the loadout, allowing troopers to designate targets for Arrow IV missiles and semi-guided long-range munitions.</p><p>Ground speed is limited to just 11 km/h, making the Marauder one of the slower suits in active service. Magnetic clamps partially offset this limitation by allowing troopers to ride friendly vehicles or BattleMechs into the fight. Armor protection sits at roughly half that of the Ravager, a conscious trade-off that has drawn criticism from field commanders. The open chassis design does make the suit easy to service, earning it high marks from maintenance crews who appreciate the accessibility of internal systems.</p>
 </capabilities>
+
+<overview>
+<p>The Marauder is a heavy battle armor suit developed by Marian Arms, Incorporated for the Marian Hegemony Armed Forces. Introduced in 3110 as the Hegemony's second indigenous battle armor design, the Marauder takes a markedly different approach from its predecessor. Where the Ravager emphasized survivability, the Marauder prioritizes offensive output and fire support capability. The suit takes its name from the iconic Marauder BattleMech, and its weapon layout pays deliberate homage to that venerable design. The Marauder has earned a solid reputation among Periphery military forces and the mercenary commands they employ.</p>
+</overview>
 
 <deployment>
 <p>Marian Hegemony legions field the Marauder in four-trooper squads, the standard formation size for Inner Sphere battle armor. Marian commanders typically employ squads in a fire support role, using the suit's target designation capability to call in indirect fire while engaging at range. Taurian militia units and Periphery mercenary commands also operate the suit in this configuration.</p>
@@ -163,4 +135,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:Merc,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

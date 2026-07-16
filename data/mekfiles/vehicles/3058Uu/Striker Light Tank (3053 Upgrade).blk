@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e483-7d3d-aabe-8498e75597d4
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Striker Light Tank
 <year>
 3053
 </year>
-
-<originalBuildYear>
-3053
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -104,33 +104,13 @@ ISStreakSRM2
 ISStreakSRM2
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>Valiant Systems, working alongside Wunderland Enterprises, developed the Striker Light Tank to meet pressing demand for an affordable, mobile fire support platform. First produced in the early decades of this century, the design filled gaps in second-line and planetary defense formations that lacked access to heavier vehicles. Initial versions relied on conventional internal combustion power plants, limiting endurance and cross-country performance, but demand quickly outstripped Valiant's production capacity. A comprehensive redesign transitioned the chassis to fusion power and upgraded the weapons suite, creating a vehicle capable of sustained high-tempo operations. The Striker became a fixture in AFFS armored regiments and spread through alliance arrangements to Lyran formations. Limited sales to the Draconis Combine further extended its operational presence, establishing the type across much of the Inner Sphere as an affordable and reliable fire support asset.</p>
-</overview>
-
 <capabilities>
 <p>The production Striker's primary armament is a Valiant Arbalest LRM-15 rack integrated with an Artemis IV fire control system, giving the vehicle effective long-range indirect fire capability suited to harassment, interdiction, and fire support missions. Two Valiant Javelin Streak SRM-2 launchers supplement the main battery, providing reliable short-range defense while conserving ammunition against small and fast targets. Four tons of ammunition distributed between the three launcher systems allows flexible munition selection, though sustained high-tempo operations demand careful resupply planning.</p><p>The InterFus 155 fusion power plant drives the Striker to a cruising speed of 54 km/h and a flank speed of 86 km/h, enabling rapid repositioning between fire positions. Valiant Scutum ferro-fibrous armor provides meaningful protection for a 35-ton chassis, though the vehicle is not designed for sustained close combat against heavier opponents. The wheeled drivetrain favors road operations and firm terrain. In rough or boggy ground, the Striker's performance lags behind tracked designs, limiting its utility in certain operational environments. The Wunderland XXXV-1 Series communications and targeting systems are adequate without being exceptional, with the Artemis IV integration representing the primary qualitative advantage over earlier configurations.</p>
 </capabilities>
+
+<overview>
+<p>Valiant Systems, working alongside Wunderland Enterprises, developed the Striker Light Tank to meet pressing demand for an affordable, mobile fire support platform. First produced in the early decades of this century, the design filled gaps in second-line and planetary defense formations that lacked access to heavier vehicles. Initial versions relied on conventional internal combustion power plants, limiting endurance and cross-country performance, but demand quickly outstripped Valiant's production capacity. A comprehensive redesign transitioned the chassis to fusion power and upgraded the weapons suite, creating a vehicle capable of sustained high-tempo operations. The Striker became a fixture in AFFS armored regiments and spread through alliance arrangements to Lyran formations. Limited sales to the Draconis Combine further extended its operational presence, establishing the type across much of the Inner Sphere as an affordable and reliable fire support asset.</p>
+</overview>
 
 <deployment>
 <p>The 3053 Upgrade entered production at Johnsondale following the Clan Invasion, distributing the Artemis IV-slaved LRM-15 and Streak SRM-2 configuration to front-line AFFS formations in the Draconis March. The upgrade replaced original models in priority units, with older variants cascading to militia forces. Lyran Alliance procurement accepted the 3053 Upgrade in limited numbers during the FedCom period, and a small batch was delivered to DCMS garrison units under the continuing sales arrangement.</p>
@@ -163,4 +143,16 @@ ARMOR:Scutum
 COMMUNICATIONS:XXXV-1 Series
 TARGETING:XXXV-1 Series with Artemis FCS
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

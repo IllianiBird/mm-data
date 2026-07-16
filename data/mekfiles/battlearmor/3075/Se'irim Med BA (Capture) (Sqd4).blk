@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a466-7527-9b7b-51becd2f05c8
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Se'irim Medium Battle Armor
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -97,47 +97,15 @@ ISBATaser:DWP
 
 <slotless_equipment>
 BAJumpJet
-Taser Ammo:Shots1#
-Taser Ammo:Shots1#
-Taser Ammo:Shots1#
-Taser Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
 
 <capabilities>
 <p>The capture team variant appeared in mid-3073 as a specialized tool for seizing enemy vehicle crews and MechWarriors alive. Its defining feature is a battle armor taser mounted in a detachable weapon pack, capable of disrupting and disabling vehicles and BattleMechs through electromagnetic discharge. The heavy taser's bulk reduces the suit's ground speed to roughly 10 kilometers per hour until the pack is jettisoned. A pair of light machine guns, one in each arm, provide conventional firepower, and battle claws on both arms enable boarding actions. A searchlight carries over from the standard configuration. The stealth armor allows the capture team to approach targets undetected before delivering the disabling shock. A successful taser strike can net the Manei Domini a prisoner and salvageable equipment, making this variant as much an intelligence-gathering tool as a combat platform.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>The capture team variant attracted significant allied intelligence interest. Four-trooper squads equipped with the taser-armed Se'irim represented a capability most Inner Sphere forces lacked: the ability to disable BattleMechs and vehicles nonlethally for intact seizure. The detachable weapon pack's severe mobility penalty made the suits tactically awkward, however, and few were fielded outside controlled evaluation settings.</p>
@@ -170,4 +138,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

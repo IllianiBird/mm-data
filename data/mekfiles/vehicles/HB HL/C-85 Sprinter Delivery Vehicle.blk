@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e904-79eb-b552-460ed6242c3c
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ C-85 Sprinter Delivery Vehicle
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -111,34 +111,13 @@ standardseats:1.0:0:-1::-1:0
 4
 </engine_tech_rating>
 
-<notes>
-Overweight by 75 kg. The official unit does not account for crew seating.
-</notes>
-
-<source>
-HB:HL
-</source>
-
-<published>
-HB:HL
-</published>
-
-<tonnage>
-2.5
-</tonnage>
-
-<fuel>
-0.244
-</fuel>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Ceres-85 Delivery Vehicle, informally known as the Sprinter, is a civilian courier and package transport platform manufactured by Ceres Motors on Capella. Designed to serve the needs of urban courier operations in the Capellan Confederation, it fills a narrow commercial niche by pairing high speed with minimal maintenance demands and substantial range. Ceres Motors developed the vehicle following direct consultation with established courier firms operating on Capella, building the design around their consistently stated requirements rather than adapting existing civilian platforms. The vehicle debuted in 3067 and earned strong commercial reception almost immediately, generating over two hundred orders within its first six months on the market. Constructed from locally processed materials, the Ceres-85 carries the "Made on Capella" distinction, a mark of provenance that holds growing commercial and cultural significance across the Confederation in the wake of Xin Sheng.</p>
-</overview>
-
 <capabilities>
 <p>The Ceres-85 is a 2.5-ton wheeled support vehicle built around speed, operational range, and cargo efficiency within city environments. Its electric drive system propels the vehicle at speeds exceeding one hundred kilometers per hour while producing minimal noise - an important consideration when operating in residential and commercial districts where quiet surroundings are expected. The long-endurance battery system extends the vehicle's operational radius to over five hundred kilometers on a single charge, well in excess of the two hundred and fifty kilometer range minimum specified by the courier firms consulted during development.</p><p>The pre-shelved cargo bay accommodates over eight hundred kilograms of documents and small packages, organized for efficient loading and rapid retrieval. The electric drivetrain reduces maintenance demands significantly compared to combustion-powered alternatives, addressing the courier industry's consistent preference for vehicles that minimize downtime and require fewer specialist technicians. Compact dimensions allow the vehicle to operate effectively on congested city thoroughfares. The Ceres-85 carries no weapons, defensive armor systems, or military-grade electronics, relying instead on unobtrusiveness and speed to ensure cargo integrity during urban deliveries.</p>
 </capabilities>
+
+<overview>
+<p>The Ceres-85 Delivery Vehicle, informally known as the Sprinter, is a civilian courier and package transport platform manufactured by Ceres Motors on Capella. Designed to serve the needs of urban courier operations in the Capellan Confederation, it fills a narrow commercial niche by pairing high speed with minimal maintenance demands and substantial range. Ceres Motors developed the vehicle following direct consultation with established courier firms operating on Capella, building the design around their consistently stated requirements rather than adapting existing civilian platforms. The vehicle debuted in 3067 and earned strong commercial reception almost immediately, generating over two hundred orders within its first six months on the market. Constructed from locally processed materials, the Ceres-85 carries the "Made on Capella" distinction, a mark of provenance that holds growing commercial and cultural significance across the Confederation in the wake of Xin Sheng.</p>
+</overview>
 
 <deployment>
 <p>The base C-85A model is configured as a general document and small-package transport vehicle, serving the House of Scions and corporate clients on Capella requiring reliable, discreet courier services across urban environments. Its open pre-shelved cargo bay allows flexible loading and is well suited to high-volume document runs between government offices and the corporate headquarters of the Capellan Commonality Bank and similar institutions. A second model, the C-85B, is offered specifically to the Capella Commonality Bank and corporate clients requiring enhanced cargo security; it replaces the open bay with locked individual cubicles that limit access to authorized personnel. Both models operate primarily within Capella's urban centers, and Ceres Metals is pursuing a broader marketing campaign to introduce the design to other heavily urbanized worlds in the Confederation.</p>
@@ -173,4 +152,24 @@ JUMP_JET:N/A
 COMMUNICATIONS:N/A
 TARGETING:N/A
 </systemModels>
+
+<notes>
+Overweight by 75 kg. The official unit does not account for crew seating.
+</notes>
+
+<source>
+HB:HL
+</source>
+
+<published>
+HB:HL
+</published>
+
+<tonnage>
+2.5
+</tonnage>
+
+<fuel>
+0.244
+</fuel>
 

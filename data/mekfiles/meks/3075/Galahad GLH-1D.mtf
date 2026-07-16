@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-ce65-7db0-bc4e-6e5d0ea81a56
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Galahad
 model:GLH-1D
 mul id:1167
@@ -170,7 +171,6 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Galahad was conceived by Mitchell Vehicles as a direct replacement for the RFL-2N Rifleman in service with the Terran Hegemony. First unveiled in 2570, the GLH-1D was a fifty-ton medium fire-support platform that carried heavier firepower than its predecessor but suffered from the same chronic overheating problems. Despite finding acceptance within the Hegemony Armed Forces and seeing action during the Reunification War, the Galahad never fully supplanted the Rifleman in the fire-support role.</p><p>The development of the Gauss rifle prompted Mitchell Vehicles to fundamentally redesign the chassis in 2594, creating the sixty-ton GLH-2D heavy BattleMech that would become the definitive version. The Hegemony restricted the advanced GLH-2D primarily to SLDF Royal units, and the design's reliance on cutting-edge Star League technology would ultimately seal its fate during the technological decline of the Succession Wars.</p>
 
 capabilities:<p>The GLH-2D Galahad serves as a bold commitment to ballistic firepower over all other considerations. Mounting two massive M-7 Gauss rifles in fully articulated arm assemblies, the design earned the nickname "Gausszilla" for its ability to deliver devastating long-range barrages. This firepower comes at significant cost, however. The GM 180 engine provides a maximum speed of only 54 km/h, making it one of the slowest heavy 'Mechs of its era and often forcing accompanying units to reduce speed to avoid leaving the Galahad behind. The complete absence of secondary armament or hand and lower arm actuators leaves the design critically vulnerable in close-quarters engagements.</p><p>The shoulder rotation rings, originally engineered for the GLH-1D's energy weapon loadout, proved inadequate for absorbing Gauss rifle recoil. Frontline units during the Reunification War reported catastrophic coupling failures, with accounts of fifteen-ton detached rifle assemblies spinning through the air after firing. Although Mitchell Vehicles redesigned the couplings, the Galahad still required fifteen percent more preventative maintenance time compared to similar-weight designs. Eleven tons of Grumman-3 ferro-fibrous armor mounted on a Star League VI endo-steel frame provide respectable protection, but the design's true survivability depends on maintaining the standoff distance its Gauss rifles demand.</p>
@@ -182,6 +182,8 @@ history:<p>Mitchell Vehicles developed the original GLH-1D to replace the aging 
 manufacturer:Mitchell Vehicles
 
 primaryfactory:Graham IV
+
+fluffdate:2026-02-21 18:07:19
 
 systemmanufacturer:CHASSIS:Unknown
 systemmode:CHASSIS:Star League V

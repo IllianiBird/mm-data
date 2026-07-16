@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7f6-7625-b1fb-bd307d3112ad
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Bardiche Heavy Strike Tank
 <year>
 3101
 </year>
-
-<originalBuildYear>
-3101
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -124,26 +124,13 @@ Light PPC
 Light PPC
 </Turret Equipment>
 
-<source>
-TR:3145:FWL,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 15:52:16
-<overview>
-<p>The Bardiche Heavy Strike Tank was developed by Earthwerks-FWL, Incorporated for the Marik-Stewart Commonwealth in the early Dark Age, entering production in 3101. Originally conceived as an infantry support platform to serve alongside BattleMech forces, the Bardiche was intended to leverage its wheeled chassis for high-speed repositioning while delivering sustained fire against lighter opposing units. Despite its ambitious design goals, the vehicle quickly developed a troubled reputation, with critics famously describing it as little more than an expensive liability in the field. Earthwerks marketed the Bardiche aggressively through a series of incentivized deals and broad procurement arrangements, making it a surprisingly common sight in militias and second-line regiments across Free Worlds League space. Its reputation has never fully recovered from its difficult early service record, though it continues to serve in significant numbers wherever Earthwerks-FWL maintains manufacturing influence.</p>
-</overview>
-
 <capabilities>
 <p>The Bardiche is built around a VOX 330 XL fusion plant that pushes its 70-ton frame to a maximum speed of 86 kilometers per hour. Its Alice Z-20 transmission provides full flank speed in reverse, a feature that gives the vehicle its most meaningful tactical advantage by allowing it to disengage without turning its rear to the enemy. The armament suite is broad but inconsistent: an Octagon Siren iNarc Missile Beacon handles target designation, a Holly 7-Tube Multi-Missile Launcher provides flexible fire support, two Fusigon Shorttooth Light Particle Projection Cannons address close-range threats, four Corean Magshot Gauss Rifles deliver sustained anti-infantry suppression, and two Earthwerks Model 4 Mine Dispensers offer battlefield denial capability. Riese 400 Reactive armor provides reasonable protection against conventional munitions.</p><p>The vehicle's core weakness is its sprawling, unfocused weapons load, which renders it poorly suited to direct engagement against any specific threat class. A 3121 service bulletin restricting deployment to breathable-atmosphere environments further limits its operational flexibility. Multiple field-serviceable upgrade packages have been issued over the years without meaningfully resolving these fundamental deficiencies.</p>
 </capabilities>
+
+<overview>
+<p>The Bardiche Heavy Strike Tank was developed by Earthwerks-FWL, Incorporated for the Marik-Stewart Commonwealth in the early Dark Age, entering production in 3101. Originally conceived as an infantry support platform to serve alongside BattleMech forces, the Bardiche was intended to leverage its wheeled chassis for high-speed repositioning while delivering sustained fire against lighter opposing units. Despite its ambitious design goals, the vehicle quickly developed a troubled reputation, with critics famously describing it as little more than an expensive liability in the field. Earthwerks marketed the Bardiche aggressively through a series of incentivized deals and broad procurement arrangements, making it a surprisingly common sight in militias and second-line regiments across Free Worlds League space. Its reputation has never fully recovered from its difficult early service record, though it continues to serve in significant numbers wherever Earthwerks-FWL maintains manufacturing influence.</p>
+</overview>
 
 <deployment>
 <p>The standard Bardiche entered service with the Marik-Stewart Commonwealth in 3101, assigned primarily to militia and second-line regiments that could not justify the cost of BattleMech formations. Earthwerks-FWL's aggressive sales strategy and incentivized procurement deals made the vehicle a common presence across Free Worlds League space throughout the early Dark Age. Production was maintained at both Keystone and Calloway VI, ensuring steady supply to FWL-aligned customer states. Following the Clan Wolf conquest of Keystone, production rights passed to the Clan Wolf Empire, while the Calloway VI line continued under successive Marik successor states. The standard configuration remains the most widely distributed Bardiche variant, found in militia inventories, planetary defense forces, and occasional mercenary service across former Free Worlds League territory.</p>
@@ -176,4 +163,16 @@ ARMOR:Riese 400 Reactive
 COMMUNICATIONS:Neil 6000
 TARGETING:Hartford S2200T
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

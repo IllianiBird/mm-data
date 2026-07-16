@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a436-7e5d-a30e-eb2900fe010e
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Mk. XXI(Sqd4)
 <year>
 2720
 </year>
-
-<originalBuildYear>
-2720
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -91,42 +91,14 @@ IS BA Stealth (Standard):LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 16:39:49
-<overview>
-<p>The Nighthawk Mk. XXI PA(L) is the progenitor of modern battle armor, developed by the Terran Hegemony from commercial exoskeleton technology through one of the most challenging military engineering programs of the Star League era. Commissioned in 2720, the Nighthawk was designed as a light power armor suit for reconnaissance and covert operations. The suit entered service exclusively with the SLDF Special Forces Command, where it equipped elite special operations teams whose very existence remained classified. Classified as Power Armor (Light), the Nighthawk provided its operators with capabilities far beyond conventional infantry while maintaining the stealth profile necessary for behind-the-lines work, establishing the conceptual foundation for every battle armor design that followed.</p>
-</overview>
 
 <capabilities>
 <p>The Mk. XXI weighs four hundred kilograms and mounts Standard Stealth armor incorporating both infrared suppression and electronic countermeasures. An integral ECM suite further enhances the trooper's ability to avoid detection, making the Nighthawk exceptionally difficult to locate through conventional sensor sweeps. Jump jets allow leaps of up to ninety meters, providing excellent mobility across broken terrain and urban environments. The suit carries no integral weapons, relying instead on a pair of armored gloves that allow troopers to wield standard infantry arms, typically the Mauser 960 assault system, without loss of dexterity. Extended life support enables prolonged independent operations behind enemy lines.</p><p>The Nighthawk's protection is adequate against small arms fire but offers little resistance to crew-served weapons or BattleMech-scale armaments, limiting the suit's effectiveness to roles where stealth and evasion take priority over direct engagement.</p>
 </capabilities>
+
+<overview>
+<p>The Nighthawk Mk. XXI PA(L) is the progenitor of modern battle armor, developed by the Terran Hegemony from commercial exoskeleton technology through one of the most challenging military engineering programs of the Star League era. Commissioned in 2720, the Nighthawk was designed as a light power armor suit for reconnaissance and covert operations. The suit entered service exclusively with the SLDF Special Forces Command, where it equipped elite special operations teams whose very existence remained classified. Classified as Power Armor (Light), the Nighthawk provided its operators with capabilities far beyond conventional infantry while maintaining the stealth profile necessary for behind-the-lines work, establishing the conceptual foundation for every battle armor design that followed.</p>
+</overview>
 
 <deployment>
 <p>Following the reintroduction of the Nighthawk in 3065, Inner Sphere military commands organized their operators into standard four-trooper squads consistent with conventional infantry doctrine. These squads typically served as dedicated reconnaissance and intelligence-gathering elements attached to larger formations. The compact squad size proved well-suited to the Nighthawk's covert operational profile, with four-trooper teams small enough to infiltrate sensitive areas while still providing mutual support during extraction under fire.</p>
@@ -161,4 +133,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad27-7e4f-9b1c-091c0234cf61
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ LCF-R16
 <year>
 3052
 </year>
-
-<originalBuildYear>
-3052
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -123,33 +123,13 @@ IS Ammo LRM-20 Artemis-capable
 IS Streak SRM 2 Ammo
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Lucifer entered service in 2526 as Lockheed/CBM Corporation's answer to Lyran Commonwealth demand for a dedicated anti-DropShip medium fighter. Built at the Donegal facility, the design promised sustained firepower and extended combat endurance through an unusually generous heat sink allocation. That promise was complicated almost immediately by structural and mechanical shortcomings that required a production recall within two years of first delivery, and by cooling and electronics problems that demanded repeated fleet-wide modifications before the fighter settled into anything approaching stable service. Despite this troubled beginning, the Lucifer was manufactured in sufficient numbers to become the Lyran Commonwealth Aerospace Forces' primary medium fighter and one of the most recognizable designs in its weight class across the Inner Sphere. Its longevity reflects the practical logic of aerospace warfare: a flawed fighter available in adequate numbers provides a form of strategic reliability that no ideal replacement design can easily displace.</p>
-</overview>
-
 <capabilities>
 <p>The Lucifer's core strength is its heat management capacity, which allows a higher sustained rate of fire than most fighters of comparable weight. The Maxell laser suite (two large lasers, four small lasers, and a rear-facing medium laser) can maintain coordinated fire through extended approach runs without requiring the pilot to restrict weapons output. The Holly LRM-20 provides long-range attrition capability useful for softening DropShip armor before close-in passes begin. Pilots have nicknamed the craft "The Dragger" for its mediocre thrust performance, and the fighter genuinely depends on escort from faster companions during the approach phase, as unprotected Lucifers are highly vulnerable to interception before reaching effective attack range.</p><p>The design's weaknesses are numerous and persistent. The Lockheed/CBM COMSET 100 communications and TarSet 55 targeting systems are sensitive to jarring and electromagnetic interference, requiring constant preventive maintenance and remaining marginally off-caliber even in good condition. The original emergency ejection system was removed when the frame was modified for high-G maneuvering, leaving pilots without extraction capability in a damaged airframe. The large LRM magazine creates internal explosion risk, and the fighter's uneven nose-heavy armor distribution produces handling difficulties during atmospheric re-entry. For commanders willing to accept these costs and provide adequate escort, the Lucifer offers a genuinely effective DropShip-killing platform with endurance few other fighters in its weight class can match.</p>
 </capabilities>
+
+<overview>
+<p>The Lucifer entered service in 2526 as Lockheed/CBM Corporation's answer to Lyran Commonwealth demand for a dedicated anti-DropShip medium fighter. Built at the Donegal facility, the design promised sustained firepower and extended combat endurance through an unusually generous heat sink allocation. That promise was complicated almost immediately by structural and mechanical shortcomings that required a production recall within two years of first delivery, and by cooling and electronics problems that demanded repeated fleet-wide modifications before the fighter settled into anything approaching stable service. Despite this troubled beginning, the Lucifer was manufactured in sufficient numbers to become the Lyran Commonwealth Aerospace Forces' primary medium fighter and one of the most recognizable designs in its weight class across the Inner Sphere. Its longevity reflects the practical logic of aerospace warfare: a flawed fighter available in adequate numbers provides a form of strategic reliability that no ideal replacement design can easily displace.</p>
+</overview>
 
 <deployment>
 <p>Entered production in 3052 as a direct response to the challenges posed by Clan aerospace assets, with distribution prioritized to LCAF frontline formations along the Clan border and Lyran Alliance units reequipping through the Civil War era. The R16's Artemis IV FCS and ER large laser upgrades made it substantially more capable against Clan OmniFighters than the R15, and it progressively replaced older airframes in frontline wings. The Jihad's destruction of the Donegal line halted new production, leaving surviving R16s increasingly dependent on cannibalized components.</p>
@@ -184,4 +164,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Lockheed/CBM COMSET 100
 TARGETING:Lockheed/CBM TarSet 55
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+65.0
+</tonnage>
 

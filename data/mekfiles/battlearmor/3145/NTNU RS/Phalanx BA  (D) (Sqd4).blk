@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a6f9-7e55-81d3-7c0cf6f79c60
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Phalanx Battle Armor
 <year>
 3132
 </year>
-
-<originalBuildYear>
-3132
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -88,42 +88,14 @@ IS BA Stealth (Improved):RA
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Phalanx is a heavy battle armor suit developed by Irian Technologies for the Free Worlds League Military. Entering production in 3065, the design filled a gap in the FWLM’s battle armor roster for a heavier platform capable of delivering sustained ranged firepower. Weighing 1,500 kilograms, the suit trades jump capability for ground speed and mounting flexibility, allowing troopers to ride OmniMechs into combat while retaining the ability to handle infantry-scale weapons. Advanced stealth protection makes the suit considerably harder to detect and engage than most contemporary heavy designs, though this comes at the cost of reduced overall durability.</p>
-</overview>
 
 <capabilities>
 <p>The modernized Phalanx D strips the suit’s missile and gauss weaponry in favor of a single detachable medium variable speed pulse laser. This energy weapon provides flexible engagement profiles, with adjustable pulse rates allowing troopers to balance accuracy against raw damage output depending on combat conditions. The simplified armament eliminates ammunition dependency, reducing logistical demands compared to earlier configurations.</p><p>A single battle claw replaces the original’s mixed manipulator arrangement, maintaining OmniMech transport capability. The base chassis characteristics carry forward: 22 km/h ground speed, improved stealth armor, and no jump capability. The configuration sacrifices the ranged versatility of earlier variants for a self-contained energy platform that can operate for extended periods without resupply, making it well suited for garrison and patrol duties where ammunition supply lines may be unreliable.</p>
 </capabilities>
+
+<overview>
+<p>The Phalanx is a heavy battle armor suit developed by Irian Technologies for the Free Worlds League Military. Entering production in 3065, the design filled a gap in the FWLM’s battle armor roster for a heavier platform capable of delivering sustained ranged firepower. Weighing 1,500 kilograms, the suit trades jump capability for ground speed and mounting flexibility, allowing troopers to ride OmniMechs into combat while retaining the ability to handle infantry-scale weapons. Advanced stealth protection makes the suit considerably harder to detect and engage than most contemporary heavy designs, though this comes at the cost of reduced overall durability.</p>
+</overview>
 
 <deployment>
 <p>Four-trooper squads operating the modernized Phalanx D found favor with garrison and patrol commands, where the energy weapon’s independence from ammunition supply chains reduced logistical strain on remote postings. The pulse laser’s adjustable fire modes gave squad leaders flexible engagement options for the varied threats encountered during peacekeeping operations.</p>
@@ -156,4 +128,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

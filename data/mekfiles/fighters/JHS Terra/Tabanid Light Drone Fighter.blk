@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acc7-7648-8bf0-226bd9868077
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Tabanid Light Drone Fighter
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -116,38 +116,13 @@ BeagleActiveProbe
 ImprovedSmartRoboticControlSystem
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<notes>
-Aerospace Smart Robotic Control System (Improved) gives the Tabanid a Piloting Skill of 5 and a Gunnery Skill of 4
-</notes>
-
-<source>
-JHS:Terra
-</source>
-
-<published>
-JHS:Terra
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Hive-class drone fighters represent the Word of Blake's most ambitious unmanned aerospace program, drawing on Smart Robotic Control Systems technology retained by ComStar since the fall of the Star League. Designed as a coordinated suite of three complementary airframes, the Hive series was conceived to operate in self-supporting concert, with each design filling a distinct tactical role. Blakist engineers drew upon experience with ancient BlackWasp and VoidSeeker drones, as well as modern experimental Trident fighters, to create a new generation of unmanned combat aerospace vehicles optimized from inception for autonomous operation. Produced at Master's Wings Aerospace on Mars, the Hive fighters leveraged Terra's unmatched industrial base to incorporate technologies rarely seen on conventional manned fighters. The program produced three distinct designs: the light Tabanid interceptor, the medium Scarab fighter-bomber, and the heavy Aeshna strike fighter, each carrying specialized equipment that enhanced the effectiveness of the entire formation.</p>
-</overview>
-
 <capabilities>
 <p>The Tabanid fills the interceptor role within the Hive formation, built for high-speed slashing attacks against enemy aerospace assets. Its primary weapon is an extended-range large laser capable of engaging targets at long range while the fighter's light airframe maintains superior speed relative to its heavier stablemates. A nose-mounted Beagle Active Probe serves a critical formation-level function, piercing hostile electronic countermeasures to provide sensor data for its companion Scarab and Aeshna drones. This scouting and electronic penetration role makes the Tabanid the formation's forward eyes, pushing ahead to identify threats and disrupt enemy electronic warfare screens.</p><p>Heavy ferro-aluminum armor provides exceptional durability for a light fighter, enabling the Tabanid to survive return fire during aggressive penetration runs deep into enemy formations. The improved Smart Robotic Control System grants superior autonomous combat performance compared to earlier drone fighters, though the battle computer remains fundamentally limited compared to a trained pilot's situational awareness and adaptability. The combination of speed, advanced sensors, and survivable armor ensures the Tabanid can fulfill its reconnaissance and screening duties even in heavily contested airspace.</p>
 </capabilities>
+
+<overview>
+<p>The Hive-class drone fighters represent the Word of Blake's most ambitious unmanned aerospace program, drawing on Smart Robotic Control Systems technology retained by ComStar since the fall of the Star League. Designed as a coordinated suite of three complementary airframes, the Hive series was conceived to operate in self-supporting concert, with each design filling a distinct tactical role. Blakist engineers drew upon experience with ancient BlackWasp and VoidSeeker drones, as well as modern experimental Trident fighters, to create a new generation of unmanned combat aerospace vehicles optimized from inception for autonomous operation. Produced at Master's Wings Aerospace on Mars, the Hive fighters leveraged Terra's unmatched industrial base to incorporate technologies rarely seen on conventional manned fighters. The program produced three distinct designs: the light Tabanid interceptor, the medium Scarab fighter-bomber, and the heavy Aeshna strike fighter, each carrying specialized equipment that enhanced the effectiveness of the entire formation.</p>
+</overview>
 
 <deployment>
 <p>The standard Tabanid represents the upgraded production model introduced during the early 3070s refit program. The most significant change from the original 3058-era design is the replacement of conventional ferro-fibrous armor with heavy ferro-aluminum plating, giving the airframe a more angular profile while substantially improving its ability to absorb damage. The Tabanid's weapon and sensor suite remained largely unchanged during the refit, as its extended-range large laser and active probe were already well-suited to the interceptor role.</p>
@@ -180,4 +155,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+Aerospace Smart Robotic Control System (Improved) gives the Tabanid a Piloting Skill of 5 and a Gunnery Skill of 4
+</notes>
+
+<source>
+JHS:Terra
+</source>
+
+<published>
+JHS:Terra
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

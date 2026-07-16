@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af83-73f3-a515-bcc71764ba97
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ PGD-Y3
 <year>
 3083
 </year>
-
-<originalBuildYear>
-3083
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -120,26 +120,13 @@ ISERMediumLaser
 IS Ammo LAC/5
 </Fuselage Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Poignard is a light aerospace fighter produced by Kallon Industries, a company better known for its DropShip manufacturing operations in the Loyalty system. Designed in the years following the Jihad as an interceptor capable of engaging modern threat fighters, the Poignard represents Kallon's first foray into aerospace fighter production, leveraging fabrication expertise and supply chains developed through decades of spacecraft construction. Entering service in 3083 with the Marik-Stewart Commonwealth, the design proved capable enough to earn sales to the Republic of the Sphere within two years, establishing Kallon as a credible player in the light aerospace fighter market. The Poignard is a fast, aggressively armed platform for its weight class, designed to close quickly and deliver concentrated medium-range firepower against both air and ground targets.</p>
-</overview>
-
 <capabilities>
 <p>The Poignard relies on a Magna 245 XL engine to achieve exceptional acceleration for a light fighter, reaching a safe sustained thrust of 4.5 Gs with a maximum burst of 7 Gs. Kallon's engineers caution against sustained full-thrust operation: exceeding sixty-five percent throttle risks damaging the Aeroframe XSR structure, and a complete 7-G burn can damage the craft outright and injure the pilot. This ceiling places practical limits on combat maneuvering, requiring disciplined throttle management even in close engagements.</p><p>The fighter's primary offensive punch comes from four Magna Mk VI extended-range medium lasers mounted in underwing pods, split evenly across both wings. These weapons, which can be mistaken visually for external ordnance stores, give the Poignard an approximately 200-kilometer engagement range in space operations. Supporting them is a nose-mounted Imperator Napoleon Light AC/5 carrying twenty bursts of ammunition, providing the sole ballistic option and an additional damage tier at shorter ranges. A single Martell Small Pulse Laser occupies the nose alongside the autocannon, serving a point-defense function, though its forward placement limits effectiveness in direct head-to-head engagements.</p><p>Coordinating the entire weapons suite is the Kallon Victory Tracker Delta fire control system, which manages all five weapons simultaneously while operating the Martell independently in point-defense mode. Five programmable firing modes allow pilots to tailor engagement profiles to mission requirements. Approach vector, armor status, and velocity data are surfaced through the throttle interface, keeping the control stick uncluttered during high-G maneuvering. Ten tons of Kallon AeroWeave II ferro-aluminum armor provide solid protection for a 35-ton design, and eleven double heat sinks keep the energy loadout comfortably managed under sustained fire.</p>
 </capabilities>
+
+<overview>
+<p>The Poignard is a light aerospace fighter produced by Kallon Industries, a company better known for its DropShip manufacturing operations in the Loyalty system. Designed in the years following the Jihad as an interceptor capable of engaging modern threat fighters, the Poignard represents Kallon's first foray into aerospace fighter production, leveraging fabrication expertise and supply chains developed through decades of spacecraft construction. Entering service in 3083 with the Marik-Stewart Commonwealth, the design proved capable enough to earn sales to the Republic of the Sphere within two years, establishing Kallon as a credible player in the light aerospace fighter market. The Poignard is a fast, aggressively armed platform for its weight class, designed to close quickly and deliver concentrated medium-range firepower against both air and ground targets.</p>
+</overview>
 
 <deployment>
 <p>The Y3 is the primary production variant and serves with Marik-Stewart Commonwealth forces as a general-purpose interceptor and close-support platform. Its combined energy and ballistic armament suits it to both patrol and escort duties across a range of engagement profiles. Among the Republic Armed Forces, initial production runs from the new Asuncion line are being directed to Stone's Lament, with subsequent deliveries allocated to the Triarii Protectors and Hastati Sentinels as capacity increases.</p>
@@ -174,4 +161,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:SecureComm 867
 TARGETING:Victory Tracker Delta
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

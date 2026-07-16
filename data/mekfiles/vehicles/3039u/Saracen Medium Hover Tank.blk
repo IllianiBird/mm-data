@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e2ff-783e-8604-b534d466fabb
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Saracen Medium Hover Tank
 <year>
 2932
 </year>
-
-<originalBuildYear>
-2932
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -105,30 +105,13 @@ SRM 2
 SRM 2
 </Turret Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-10 16:18:34
-<overview>
-<p>The Saracen Medium Hover Tank was the first vehicle produced by Scarborough, Ltd. in its family of medium hover combat vehicles. Introduced in 2932, the Saracen was designed to provide affordable, mobile missile fire support to garrison forces and cavalry formations that needed indirect-fire capability without the logistical burden of heavier tracked alternatives. Scarborough positioned the vehicle as an economical option that could be maintained with widely available components, and its simple chassis was designed to share elements with the Scimitar and Saladin that followed within a decade.</p><p>The Saracen achieved broad distribution across the Inner Sphere, with the Free Worlds League emerging as its largest customer. Critics consistently cite the light armor as a liability in sustained combat, while supporters emphasize the value of its speed, sustained fire volume, and low acquisition cost for units that need fire support without a heavy price tag.</p>
-</overview>
-
 <capabilities>
 <p>The Saracen mounts a Coventry StarLight LRM 10 as its primary weapon, supported by three Guided Technologies SRM 2 packs. The StarLight system provides reliable indirect-fire capability that allows the vehicle to engage targets from concealed positions without exposing itself to direct return fire. The triple SRM 2 configuration offers meaningful close-range firepower while providing redundancy, as the loss of one or even two racks still leaves the Saracen with some missile capacity.</p><p>Cost considerations shaped several design choices. The Guided Technologies SRM systems were selected as much for their competitive price as for their performance, and the use of three independent racks rather than a single larger launcher reflects a deliberate choice to accept lower peak damage in exchange for battlefield survivability. The vehicle's speed of nearly 130 kph allows it to reposition between fire missions and break contact when direct fire threatens.</p><p>The ProtecTech 7 armor is marginal for front-line service. The Saracen is designed as a support platform, not a line combatant. Commanders who allow the vehicle to absorb direct fire at close range find that it has very little staying power against anything heavier than infantry weapons. Its effectiveness depends almost entirely on positioning and fire discipline rather than the ability to trade blows.</p>
 </capabilities>
+
+<overview>
+<p>The Saracen Medium Hover Tank was the first vehicle produced by Scarborough, Ltd. in its family of medium hover combat vehicles. Introduced in 2932, the Saracen was designed to provide affordable, mobile missile fire support to garrison forces and cavalry formations that needed indirect-fire capability without the logistical burden of heavier tracked alternatives. Scarborough positioned the vehicle as an economical option that could be maintained with widely available components, and its simple chassis was designed to share elements with the Scimitar and Saladin that followed within a decade.</p><p>The Saracen achieved broad distribution across the Inner Sphere, with the Free Worlds League emerging as its largest customer. Critics consistently cite the light armor as a liability in sustained combat, while supporters emphasize the value of its speed, sustained fire volume, and low acquisition cost for units that need fire support without a heavy price tag.</p>
+</overview>
 
 <deployment>
 <p>Saracen units appear throughout the Inner Sphere in garrison and support roles, with the largest concentrations in Free Worlds League militia formations. The vehicle is most effective as a fire support platform operating behind friendly lines, leveraging its speed to reposition between LRM salvos. Mercenary commands frequently field mixed lances combining Saracens with Scimitars and Saladins to cover the full tactical range of the Scarborough hover family.</p>
@@ -161,4 +144,20 @@ ARMOR:7
 COMMUNICATIONS:Talky-1
 TARGETING:Track-1-1
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+35.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

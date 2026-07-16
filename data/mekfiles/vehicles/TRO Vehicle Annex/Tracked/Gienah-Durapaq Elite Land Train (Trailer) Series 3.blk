@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eaf4-7edb-81b9-282313c635d6
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Gienah-Durapaq Elite Land Train
 <year>
 2899
 </year>
-
-<originalBuildYear>
-2899
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -112,26 +112,13 @@ SV Chassis Mod [Trailer]
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-07 11:22:50
-<overview>
-<p>The Gienah-DuraPaq Elite Series 3T is the trailer module complement to the Elite Series 3 land train tractor. Produced by the same Gienah-DuraPaq joint venture on Gienah, the 50-ton module is an unpowered unit designed to be towed by the Series 3 tractor across colony worlds and frontier territories lacking transportation infrastructure. Multiple trailer modules can be coupled behind a single tractor, providing scalable cargo capacity for a given mission. The Series 3T is manufactured in four standard configurations covering dry cargo, refrigerated goods, liquid freight, and livestock transport. This modular approach gave the Elite Series 3 system a versatility that regional competitors largely lacked, and it contributed significantly to the design's commercial success across both the Lyran Commonwealth and the Free Worlds League.</p>
-</overview>
-
 <capabilities>
 <p>The Series 3T trailer has no propulsion system of its own, relying entirely on the Series 3 tractor for movement. It is built on a tracked medium chassis incorporating tractor and trailer chassis modification controls to facilitate coupling. The standard dry goods configuration carries 39 tons of cargo, accessible through four doors, one per side. The refrigerated variant reduces capacity to 33.9 tons to accommodate cooling equipment, making it suitable for perishable goods transport. The liquid cargo version carries 35.4 tons of fluid freight, while the livestock configuration supports up to 31.9 tons of live animals with appropriate ventilation.</p><p>Three tons of BAR 3 commercial armor provides physical resilience against the hazards of wilderness travel. The lighter protection compared to the tractor reflects the trailer's passive role. No crew is assigned to the module, with all loading and securing operations performed by the tractor crew using the tractor's integrated lift hoist. The lack of weapons or active systems makes the trailer entirely dependent on the tractor and any escort elements for security in contested areas.</p>
 </capabilities>
+
+<overview>
+<p>The Gienah-DuraPaq Elite Series 3T is the trailer module complement to the Elite Series 3 land train tractor. Produced by the same Gienah-DuraPaq joint venture on Gienah, the 50-ton module is an unpowered unit designed to be towed by the Series 3 tractor across colony worlds and frontier territories lacking transportation infrastructure. Multiple trailer modules can be coupled behind a single tractor, providing scalable cargo capacity for a given mission. The Series 3T is manufactured in four standard configurations covering dry cargo, refrigerated goods, liquid freight, and livestock transport. This modular approach gave the Elite Series 3 system a versatility that regional competitors largely lacked, and it contributed significantly to the design's commercial success across both the Lyran Commonwealth and the Free Worlds League.</p>
+</overview>
 
 <deployment>
 <p>The Series 3T trailer is deployed wherever the Elite Series 3 tractor operates, typically in trains of two to six modules depending on terrain and mission requirements. Standard cargo modules are most common, used for general freight between frontier settlements. Refrigerated and liquid cargo variants are found on agricultural worlds where food preservation and bulk liquid transport support the local economy. The livestock configuration sees use on ranching worlds and early-stage colony planets. Individual trailer modules are also maintained as stationary storage units at remote sites between transit cycles, a secondary use case that further extended the design's commercial appeal.</p>
@@ -162,4 +149,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

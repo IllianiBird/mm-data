@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a854-7f2a-a915-ffe86c5bf737
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gladiator Exoskeleton
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -86,46 +86,14 @@ BAArmoredGlove:RA
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:VAr
-</source>
-
-<published>
-RS:VA
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Gladiator is a combat exoskeleton produced by Solaris Arms for the Class One fighting circuit on Solaris VII. Introduced in 3056, the 200-kilogram suit was designed to give pit fighters a sturdy, affordable platform capable of mounting a wide range of melee weaponry and handheld infantry arms. Its rugged construction and ease of maintenance made it well-suited to the brutal demands of arena competition, where fighters operated on tight budgets and equipment took constant punishment. The Gladiator earned a reputation as the workhorse of the Class One circuit, with its distinctive armored profile becoming a familiar sight in the lower tiers of Solaris competition.</p>
-</overview>
 
 <capabilities>
 <p>The base Gladiator is a 200-kilogram exoskeleton built around a simple, reliable frame. A pair of armored gloves allow the pilot to wield a wide variety of handheld infantry weapons and heavy melee implements, from clubs and maces to hatchets and blades. One hundred kilograms of standard armor provides respectable protection for an exoskeleton of this weight class, enough to absorb punishment from opposing pit fighters while keeping the suit's overall mass manageable. Ground speed is limited to roughly ten kilometers per hour, slow by battle armor standards but adequate for the confined spaces of a Class One arena. The armored glove configuration accepts virtually any handheld weapon an operator can carry, from improvised clubs to military-grade blades, giving the pilot options that fixed-weapon designs cannot match. Its primary weakness is equally straightforward: it carries no integrated weapons and relies entirely on whatever its operator can hold.</p>
 </capabilities>
+
+<overview>
+<p>The Gladiator is a combat exoskeleton produced by Solaris Arms for the Class One fighting circuit on Solaris VII. Introduced in 3056, the 200-kilogram suit was designed to give pit fighters a sturdy, affordable platform capable of mounting a wide range of melee weaponry and handheld infantry arms. Its rugged construction and ease of maintenance made it well-suited to the brutal demands of arena competition, where fighters operated on tight budgets and equipment took constant punishment. The Gladiator earned a reputation as the workhorse of the Class One circuit, with its distinctive armored profile becoming a familiar sight in the lower tiers of Solaris competition.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere mercenary commands and corporate security details occasionally fielded Gladiators in four-trooper squads, mirroring conventional infantry organization. These small teams served as sentries and close-quarters guards in environments where battle armor was unavailable or too expensive. Solaris stables also organized their pit fighters into similar groupings for team arena events.</p>
@@ -158,4 +126,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<published>
+RS:VA
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

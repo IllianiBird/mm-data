@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a36d-79ad-8127-038128fdf9ed
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Aerie PA(L)
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -96,38 +96,14 @@ Clan BA Stealth (Standard):RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-1
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Aerie is a lightweight power armor suit developed by Clan Snow Raven in collaboration with Outworlds Alliance scientists in the late 3060s. Designed for space-borne operations, the suit fills a role that earlier Raven battle armor designs had left unaddressed: purpose-built combat capability in zero-gravity and shipboard environments. Classified as PA(L), the Aerie prioritizes agility and freedom of movement over heavy protection, making it well-suited for boarding actions, marine security, and close-quarters fighting aboard spacecraft. A dedicated salvage configuration extends the platform's utility beyond direct combat roles.</p>
-</overview>
 
 <capabilities>
 <p>The Salvage configuration replaces the standard Aerie's extended life support module with a dedicated salvage arm mounted in the right forearm. This gives the suit a powerful tool for repair and recovery operations, allowing operators to strip components, cut through damaged hull plating, and manipulate heavy salvage in both gravity and zero-g environments.</p><p>All other systems remain unchanged from the base Aerie. The suit retains its jump capability, armored gloves, and minimal armor protection. The loss of extended life support limits operational endurance in vacuum, requiring more frequent cycling of troopers during prolonged salvage work outside a pressurized environment. The armored gloves still permit use of infantry weapons for self-defense, though most operators in salvage roles carry tools rather than firearms.</p>
 </capabilities>
+
+<overview>
+<p>The Aerie is a lightweight power armor suit developed by Clan Snow Raven in collaboration with Outworlds Alliance scientists in the late 3060s. Designed for space-borne operations, the suit fills a role that earlier Raven battle armor designs had left unaddressed: purpose-built combat capability in zero-gravity and shipboard environments. Classified as PA(L), the Aerie prioritizes agility and freedom of movement over heavy protection, making it well-suited for boarding actions, marine security, and close-quarters fighting aboard spacecraft. A dedicated salvage configuration extends the platform's utility beyond direct combat roles.</p>
+</overview>
 
 <deployment>
 <p>The Salvage configuration saw even more limited distribution than the standard Aerie outside Raven Alliance forces. Any six-trooper formations organized along Level I lines operated in rear-area salvage and recovery roles, supporting fleet logistics where the suit's repair capabilities outweighed its minimal combat utility.</p>
@@ -162,4 +138,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+1
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

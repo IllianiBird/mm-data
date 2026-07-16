@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af90-72f1-878f-46ff604832be
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ CUT-01E
 <year>
 3104
 </year>
-
-<originalBuildYear>
-3104
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -126,34 +126,13 @@ IS Ammo Extended LRM-20
 IS Ammo Extended LRM-20
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3145:FS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Cutlass is a seventy-ton medium aerospace fighter manufactured by Wangker Aerospace for the Armed Forces of the Federated Suns. Entering service in 3102 from the company's facilities on Axton, the design was conceived as a dedicated interceptor to counter increasingly capable Capellan Confederation aerospace fighters operating along the Federated Suns' spinward border. Combining advanced electronic warfare systems with specialized armor protection, the Cutlass was tailored from the outset to engage laser-heavy opponents on favorable terms. An instant hit with AFFS interceptor squadrons, the fighter quickly earned a reputation as one of the premier aerospace assets available to Davion aerospace commands, seeing widespread deployment along multiple contested frontiers.</p>
-</overview>
-
 <capabilities>
 <p>The Cutlass is built around a Magna 350 XL engine that provides high acceleration, enabling the fighter to close rapidly with targets and then disengage before opponents can mount an effective response. Sixteen tons of Wangker Solarion reflective armor offer exceptional protection against laser-armed opponents, significantly reducing the effectiveness of the energy-heavy loadouts common among Capellan front-line fighters. A Rander 200B communications system paired with a Guardian ECM suite shrouds the fighter in electronic distortion, making it difficult for opponents to achieve reliable targeting solutions at range. A Rander TA1000 targeting and tracking system augmented by a Beagle active probe gives Cutlass pilots superior situational awareness, allowing them to detect and engage threats well before the enemy can respond in kind.</p><p>The primary armament centers on a nose-mounted Poland Main Model C Gauss rifle, a devastating kinetic weapon capable of crippling lighter craft in a single pass. A single ExoStar extended range large laser provides additional long-range firepower, while four Martell extended range medium lasers distributed across the wings deliver credible punch during closer engagements. The combination of electronic warfare protection, reflective armor, and hard-hitting weaponry makes the Cutlass a formidable interceptor, though its reliance on ammunition for its primary weapon and a noted tendency toward atmospheric flight instability represent its most significant operational limitations.</p>
 </capabilities>
+
+<overview>
+<p>The Cutlass is a seventy-ton medium aerospace fighter manufactured by Wangker Aerospace for the Armed Forces of the Federated Suns. Entering service in 3102 from the company's facilities on Axton, the design was conceived as a dedicated interceptor to counter increasingly capable Capellan Confederation aerospace fighters operating along the Federated Suns' spinward border. Combining advanced electronic warfare systems with specialized armor protection, the Cutlass was tailored from the outset to engage laser-heavy opponents on favorable terms. An instant hit with AFFS interceptor squadrons, the fighter quickly earned a reputation as one of the premier aerospace assets available to Davion aerospace commands, seeing widespread deployment along multiple contested frontiers.</p>
+</overview>
 
 <deployment>
 <p>Entering service in 3104, the CUT-01E reconfigures the Cutlass airframe for a pursuit and harassment role. The Gauss rifle and four extended range medium lasers are removed in favor of a single ELRM 20 with a deep ammunition reserve of sixteen volleys. This transformation trades the devastating close-pass firepower of the base model for sustained long-range engagement capability, allowing the CUT-01E to shadow and wear down fleeing targets or suppress enemy formations from beyond effective return fire range. The variant retains the extended range large laser, reflective armor, and full electronic warfare suite of its predecessor, preserving the Cutlass's signature survivability while filling a distinctly different tactical niche.</p>
@@ -186,4 +165,16 @@ ARMOR:Wangker Solarion Reflective
 COMMUNICATIONS:200B with Guardian ECM Suite
 TARGETING:TA1000 with Beagle Active Probe
 </systemModels>
+
+<source>
+TR:3145:FS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

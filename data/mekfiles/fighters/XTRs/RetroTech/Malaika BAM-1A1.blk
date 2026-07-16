@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b058-73a5-95d9-dfc22c8d2a9c
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ BAM-1A1
 <year>
 3078
 </year>
-
-<originalBuildYear>
-3078
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -121,26 +121,13 @@ IS Ammo MML-5 LRM Artemis-capable
 IS Ammo MML-5 SRM Artemis-capable
 </Fuselage Equipment>
 
-<source>
-XTR:RetroTech
-</source>
-
-<published>
-XTR:RetroTech
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Malaika is a medium aerospace fighter produced by Bagamoyo Aerospace Manufacturing on Mosiro, introduced in 3078 as a locally built defense platform for the Mosiro Archipelago. Designed to match the limited manufacturing capabilities available to the micro-state, the fighter deliberately combines primitive-grade construction with a modern weapons package, providing an economical path to aerospace capability without requiring advanced industrial infrastructure. The design bears a superficial visual resemblance to the old Lyran Banshee fighter but shares no technical lineage with it. While constrained by its construction standards in protection and maintenance characteristics, the Malaika offers its operators a capable and self-sufficient aerospace asset well suited to a small polity's defensive requirements.</p>
-</overview>
-
 <capabilities>
 <p>The Malaika's performance reflects the deliberate trade-offs of its design. A primitive-rated power plant delivers respectable thrust for its weight class, giving the fighter competitive acceleration suited to both atmospheric and space operations. Ten single heat sinks manage the thermal load of the weapons suite with a modest margin to spare, keeping heat buildup within manageable limits during sustained combat.</p><p>The fighter's offensive capability centers on two five-tube multi-missile launchers fitted with Artemis IV guidance systems, allowing the Malaika to engage at both long and short range with a single weapon type while improving hit probability against maneuvering targets. An extended-range small laser in the aft arc provides rear-quarter protection, though its contribution to the main attack envelope is limited.</p><p>The Malaika's most significant weakness is its armor, a primitive-grade installation that provides meaningful protection by mass while remaining distinctly inferior to modern equivalents of comparable tonnage. A distributed component layout compounds this vulnerability, with access ports and internal systems positioned in a manner that creates significant maintenance burdens and can slow combat repair times, a recurring frustration even for experienced ground crews.</p>
 </capabilities>
+
+<overview>
+<p>The Malaika is a medium aerospace fighter produced by Bagamoyo Aerospace Manufacturing on Mosiro, introduced in 3078 as a locally built defense platform for the Mosiro Archipelago. Designed to match the limited manufacturing capabilities available to the micro-state, the fighter deliberately combines primitive-grade construction with a modern weapons package, providing an economical path to aerospace capability without requiring advanced industrial infrastructure. The design bears a superficial visual resemblance to the old Lyran Banshee fighter but shares no technical lineage with it. While constrained by its construction standards in protection and maintenance characteristics, the Malaika offers its operators a capable and self-sufficient aerospace asset well suited to a small polity's defensive requirements.</p>
+</overview>
 
 <deployment>
 <p>The BAM-1A1 is the Malaika's only known production variant, combining the fighter's full primitive airframe and engine with its modern weapons fit. At introduction, production was reserved exclusively for the Mosiro Defense Bureau, the Archipelago's primary military authority, with external sales anticipated but not confirmed at the time of initial delivery. The fighter's mixed-technology profile limited its appeal to buyers with more sophisticated logistics chains, though its self-contained weapons fit made it manageable for local operators with constrained supply infrastructure. Distribution remained limited through the Jihad and into the early Dark Age.</p>
@@ -175,4 +162,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RetroTech
+</source>
+
+<published>
+XTR:RetroTech
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

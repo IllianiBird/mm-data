@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e792-7277-9db6-5952843d9eae
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Manta Fast Attack Submarine
 <year>
 2698
 </year>
-
-<originalBuildYear>
-2698
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -97,22 +97,13 @@ SRT 6
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3085S
-</source>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Star League Defense Force's drive toward military specialization across all domains of warfare led to the development of numerous purpose-built combat platforms during the twenty-seventh century. Among these was the Manta Fast Attack Submarine, designed in 2698 by the Royal Nelson Memorial Shipwrights of Portsmouth on Terra. Commissioned for the SLDF's elite Royal CAAN (Combined Armor, Air, and Naval) regiments, the fifty-ton Manta filled a critical niche as a rapid-response undersea interceptor. Built on a hull optimized for raw speed, the submarine was intended to operate in tandem with the larger Moray Heavy Attack Submarine. Where the Moray provided heavy firepower and endurance, the Manta brought unmatched underwater agility to the pairing. The design earned a reputation as one of the fastest military submarines ever fielded, though its lightweight construction and minimal armament made it dependent on its heavier companion for sustained engagements.</p>
-</overview>
-
 <capabilities>
 <p>The Manta's design philosophy prioritized speed above all other considerations. Its GM 320 XL fusion engine consumes nearly eighteen tons of the submarine's fifty-ton displacement, granting a remarkable underwater flank speed of 119 kilometers per hour. This extreme power-to-weight ratio comes at significant cost, however. The oversized powerplant leaves little internal volume for weapons or protection, forcing designers to accept severe compromises in both areas.</p><p>Nine tons of AmberStar Weave ferro-fibrous armor protect the hull, concentrated heavily in the bow to support the Manta's preferred attack profile of high-speed nose-on passes. Coverage along the flanks and stern is particularly thinner, leaving the vessel vulnerable if forced into a turning engagement. The armor distribution reflects a tactical doctrine built around slashing attacks rather than prolonged exchanges of fire.</p><p>Armament is limited to a single Selitex Aqua extended-range large laser and a Sea Harvester six-tube short-range torpedo launcher mounted in the nose. The torpedo launcher carries only a single ton of ammunition, restricting the Manta to brief engagements before needing to withdraw and rearm. While the laser provides unlimited firepower for repeated passes, the overall weapons load is light for a fifty-ton platform.</p>
 </capabilities>
+
+<overview>
+<p>The Star League Defense Force's drive toward military specialization across all domains of warfare led to the development of numerous purpose-built combat platforms during the twenty-seventh century. Among these was the Manta Fast Attack Submarine, designed in 2698 by the Royal Nelson Memorial Shipwrights of Portsmouth on Terra. Commissioned for the SLDF's elite Royal CAAN (Combined Armor, Air, and Naval) regiments, the fifty-ton Manta filled a critical niche as a rapid-response undersea interceptor. Built on a hull optimized for raw speed, the submarine was intended to operate in tandem with the larger Moray Heavy Attack Submarine. Where the Moray provided heavy firepower and endurance, the Manta brought unmatched underwater agility to the pairing. The design earned a reputation as one of the fastest military submarines ever fielded, though its lightweight construction and minimal armament made it dependent on its heavier companion for sustained engagements.</p>
+</overview>
 
 <deployment>
 <p>The baseline Manta remains the primary fast attack variant in Republic of the Sphere service. Originally fielded by the SLDF in 2698, the design was reintroduced by the Word of Blake during the Jihad with no significant modifications to its original configuration. Republic Naval Command continues to deploy the standard Manta in its traditional escort role alongside Moray submarines, providing rapid-response capability for underwater task forces. The type also serves in independent patrol and reconnaissance missions where its exceptional speed allows it to cover vast stretches of ocean quickly.</p>
@@ -145,4 +136,12 @@ ARMOR:Weave Ferro-Fibrous
 COMMUNICATIONS:GN5
 TARGETING:OT73N
 </systemModels>
+
+<source>
+TR:3085S
+</source>
+
+<tonnage>
+50.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e34a-74da-94e6-9d4ab438261b
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Cyrano Gunship
 <year>
 3071
 </year>
-
-<originalBuildYear>
-3071
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -106,34 +106,13 @@ RL10
 <Rotor Equipment>
 </Rotor Equipment>
 
-<slotless_equipment>
-IS Ammo RL-10
-IS Ammo RL-10
-IS Ammo RL-10
-IS Ammo RL-10
-IS Ammo RL-10
-</slotless_equipment>
-
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Cyrano (ML) is an open-market variant of the Cyrano Gunship developed by Paulina Weapons at New Vandenberg in 3071 alongside the facility's reconstruction. Designed to serve customers outside the Taurian Defense Force, the ML model replaces the original large laser with a pair of Exostar medium lasers and a battery of rocket launcher pods, trading long-range punch for improved short-range firepower and broader logistical accessibility. The design retains the original DAV 220 fusion engine and most of the base Cyrano's systems, adding a modest armor improvement from weight saved by the lighter armament. Intended for escort, scout, and light patrol duties across a range of operational contexts, the ML variant has found buyers throughout the post-Jihad Inner Sphere who value the Cyrano platform's proven reliability and exceptional speed.</p>
-</overview>
-
 <capabilities>
 <p>The Cyrano (ML) substitutes two Exostar medium lasers for the base model's Fuersturm-C large laser, accepting reduced range in exchange for a more heat-efficient armament with better short-range performance against lightly armored targets. Multiple rocket launcher pods add burst damage capacity, enabling effective engagement of infantry concentrations and lightly armored vehicles. The original DAV 220 fusion engine and Paulina DL ferro-fibrous armor are retained, with the ML carrying an additional half-ton of armor compared to the base model.</p><p>The Sky Tracer WL targeting and tracking system with Beagle Active Probe carries forward from the base design, preserving the intelligence-gathering capability that made the standard Cyrano attractive as a patrol platform. Garret M250 communications equipment remains unchanged. The ML's medium laser and rocket load make it effective in close escort and screening roles where the original large laser's extended range is less operationally relevant. Its greatest weakness mirrors the base model, as the ferro-fibrous armor, while improved over the original, still leaves the crew exposed to sustained fire from heavier opponents.</p>
 </capabilities>
+
+<overview>
+<p>The Cyrano (ML) is an open-market variant of the Cyrano Gunship developed by Paulina Weapons at New Vandenberg in 3071 alongside the facility's reconstruction. Designed to serve customers outside the Taurian Defense Force, the ML model replaces the original large laser with a pair of Exostar medium lasers and a battery of rocket launcher pods, trading long-range punch for improved short-range firepower and broader logistical accessibility. The design retains the original DAV 220 fusion engine and most of the base Cyrano's systems, adding a modest armor improvement from weight saved by the lighter armament. Intended for escort, scout, and light patrol duties across a range of operational contexts, the ML variant has found buyers throughout the post-Jihad Inner Sphere who value the Cyrano platform's proven reliability and exceptional speed.</p>
+</overview>
 
 <deployment>
 <p>The Cyrano (ML) serves open-market customers across the Inner Sphere in escort, scout, and light patrol roles. Its accessible armament and the Cyrano platform's established logistical footprint make it attractive to smaller powers, mercenary units, and planetary militia organizations that lack the supply chains to support more exotic weapon systems. The short-to-medium range armament and rocket pods suit it for close escort duty alongside ground armor columns and for screening operations in terrain that limits long-range engagements. Taurian Concordat forces use limited numbers alongside the Plasma variant, and post-Jihad commerce has placed ML models in service across multiple successor states.</p>
@@ -168,4 +147,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Garret M250
 TARGETING:Sky Tracer WL
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

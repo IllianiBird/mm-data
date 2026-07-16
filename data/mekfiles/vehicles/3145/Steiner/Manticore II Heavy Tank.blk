@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e89e-7e9a-8c64-9cc3ae669224
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Manticore II Heavy Tank
 <year>
 3112
 </year>
-
-<originalBuildYear>
-3112
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -105,33 +105,13 @@ Enhanced LRM 10
 Heavy PPC
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3145:LC,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Manticore II is a seventy-ton amphibious heavy tank developed by Defiance Industries on Hesperus II, introduced in 3112 as a heavier and more specialized successor to the original Manticore. Where the original served as a general-purpose infantry support vehicle, the Manticore II was purpose-built for littoral and amphibious operations, filling a tactical niche that few heavy tanks could address. Its combination of heavy firepower, advanced targeting systems, and amphibious capability made it a valuable asset on water-rich worlds, though its specialized nature and high cost limited its adoption compared to its more versatile ancestor. Defiance Industries marketed the vehicle as a complement rather than a replacement for the original Manticore, recognizing that different operational theaters demanded different tools.</p>
-</overview>
-
 <capabilities>
 <p>The Manticore II's armament centers on a Defiance 980 heavy particle projection cannon paired with two Delta Dart II enhanced LRM-10 launchers, all mounted in the turret and integrated with an advanced targeting computer. This weapons suite provides devastating long-range firepower, allowing the vehicle to engage targets from positions where most opponents cannot effectively return fire. The absence of short-range weapons reflects the vehicle's intended role as a standoff fire support platform rather than a close-quarters brawler.</p><p>A GM 280 extra-extra-light fusion engine propels the seventy-ton tank to speeds of 64 km/h, providing excellent mobility for its weight class, particularly in wet terrain where the amphibious design truly excels. Nine and a half tons of Durallex Special heavy ferro-fibrous armor offer substantial protection, comparable to many BattleMechs in the same tonnage range. The Manticore II's primary weakness is its extreme expense, driven by the extra-extra-light engine and advanced electronics suite. Many militia and mercenary commanders balk at the cost, and those who attempt to use it as a direct replacement for the original Manticore often find its specialized capabilities wasted in general-purpose roles where the cheaper original performs adequately.</p>
 </capabilities>
+
+<overview>
+<p>The Manticore II is a seventy-ton amphibious heavy tank developed by Defiance Industries on Hesperus II, introduced in 3112 as a heavier and more specialized successor to the original Manticore. Where the original served as a general-purpose infantry support vehicle, the Manticore II was purpose-built for littoral and amphibious operations, filling a tactical niche that few heavy tanks could address. Its combination of heavy firepower, advanced targeting systems, and amphibious capability made it a valuable asset on water-rich worlds, though its specialized nature and high cost limited its adoption compared to its more versatile ancestor. Defiance Industries marketed the vehicle as a complement rather than a replacement for the original Manticore, recognizing that different operational theaters demanded different tools.</p>
+</overview>
 
 <deployment>
 <p>The Manticore II is deployed primarily by Lyran Commonwealth Armed Forces units on water-rich worlds where its amphibious capabilities offer the greatest tactical advantage. The LCAF assigns Manticore IIs directly to regiments based on worlds where they will be useful, maintaining a number of independent formations expected to attach to commands as needed. Mercenary commands and Republic militia forces also field the vehicle, though its high cost limits widespread adoption outside well-funded organizations.</p>
@@ -164,4 +144,16 @@ ARMOR:Special Heavy Ferro-Fibrous
 COMMUNICATIONS:Muse 65-128K
 TARGETING:TargiTrack with Advanced Targeting Computer
 </systemModels>
+
+<source>
+TR:3145:LC,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

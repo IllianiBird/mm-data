@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aeec-7616-9eb8-20cf2cd05b5a
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ LX-3
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -116,26 +116,13 @@ ISLargeVSPLaser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Free Worlds League's post-Clan Invasion commitment to rebuilding and modernizing its naval forces produced a generation of aerospace fighters designed around fleet operations. The Lancer was Gutierrez Aerospace's contribution to that effort, offering the Free Worlds League Military a capable carrier-based platform built on practical experience rather than unproven technology. Entering service with the FWLM in 3064 after a measured four-year development program, the Lancer earned quick acceptance as a reliable reconnaissance fighter optimized for DropShip and WarShip operations. Though not the most cutting-edge design in the Free Worlds League arsenal, it filled a genuine capability gap in the FWLM navy, earning a reputation among pilots and maintenance crews alike as a forgiving, maintainable aircraft suited to the demanding realities of sustained carrier service.</p>
-</overview>
-
 <capabilities>
 <p>Built on the L2 Standard airframe, the Lancer is powered by a 250-rated fusion engine and carries five tons of diatomic hydrogen fuel, giving it the range and performance needed for extended carrier operations. Advanced terrain-avoidance sensors allow the aircraft to fly at nape-of-the-earth altitudes, an effective if uncomfortable technique for penetrating defended airspace beneath enemy radar. The NOE capability is the Lancer's defining operational characteristic, used primarily for covert reconnaissance approaches rather than sustained flight.</p><p>The nose carries an Irian Weapon Works Class 10b LRM-10 launcher fitted with an Artemis IV fire control system, the same launcher carried by the F-94 Stingray and a deliberate choice to simplify logistics across the fleet. Two Tronel PPL-22 large pulse lasers in the wings provide precise medium-range firepower. Together these weapons make the Lancer a well-rounded platform, though it carries only one ton of LRM ammunition, demanding careful fire discipline from the pilot. The pulse lasers generate significant heat, which the aircraft's ten double heat sinks manage at a premium. Eight and a half tons of Durallex Heavy Standard armor provides solid protection for a medium fighter.</p><p>Under-wing hardpoints allow the Lancer to carry bombs or external equipment pods, but doing so degrades atmospheric handling and undermines performance in the NOE role. Most naval crews operate the aircraft clean, relying on its speed and low-altitude agility rather than its secondary payload capacity.</p>
 </capabilities>
+
+<overview>
+<p>The Free Worlds League's post-Clan Invasion commitment to rebuilding and modernizing its naval forces produced a generation of aerospace fighters designed around fleet operations. The Lancer was Gutierrez Aerospace's contribution to that effort, offering the Free Worlds League Military a capable carrier-based platform built on practical experience rather than unproven technology. Entering service with the FWLM in 3064 after a measured four-year development program, the Lancer earned quick acceptance as a reliable reconnaissance fighter optimized for DropShip and WarShip operations. Though not the most cutting-edge design in the Free Worlds League arsenal, it filled a genuine capability gap in the FWLM navy, earning a reputation among pilots and maintenance crews alike as a forgiving, maintainable aircraft suited to the demanding realities of sustained carrier service.</p>
+</overview>
 
 <deployment>
 <p>Produced at the Ellsworth facility from 3074, the LX-3 was built to meet the electronic warfare demands of the Jihad. It replaced the Lancer's standard weapons fit with a Guardian ECM suite and a pair of variable-speed pulse lasers suited to a wide range of engagement distances, giving the variant utility in the contested airspace typical of Jihad-era operations. Following the conflict, the LX-3 spread to successor state forces across the fractured Free Worlds League, where its ECM capability remained a valued asset for reconnaissance and penetration missions.</p>
@@ -170,4 +157,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Telestar G-3
 TARGETING:SynCom DEC with Artemis IV FCS
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

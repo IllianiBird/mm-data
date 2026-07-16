@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-c719-7649-b989-3c8554aa57b0
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Wolfhound IIC
 model:'Grinner'
 mul id:3570
@@ -170,7 +171,6 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:24:59
 overview:<p>The Wolfhound IIC is a unique Clan-technology rebuild of a captured Inner Sphere Wolfhound BattleMech, produced around 3051 by Clan Wolf technicians. Authorized by Khan Ulric Kerensky, the rebuild spared no expense in upgrading the original design with advanced Clan materials and weaponry. The project used an endo-steel internal structure and a Clan XL engine to dramatically reduce weight, while maximizing armor protection with six and a half tons of ferro-fibrous plating. An ECM suite provides additional electronic defense capabilities unusual for a design of this era. Whether the Wolfhound IIC ever achieved full production remains unclear, and the only confirmed example in existence is the original rebuild. The design nonetheless demonstrates the transformative potential of applying Clan technology to a proven Inner Sphere chassis, retaining the original Wolfhound's all-energy weapon philosophy while dramatically improving performance across every metric.</p>
 
 capabilities:<p>The Wolfhound IIC maintains the original Wolfhound's all-energy weapon design philosophy while leveraging Clan technology for substantial improvements in firepower and heat management. The primary weapon is an arm-mounted Series 7K ER large laser, providing excellent range and damage output. Three torso-mounted Kolibri Omega Series medium pulse lasers deliver accurate close-range firepower, while a rear-mounted Series 2b ER medium laser discourages pursuit, a defensive feature inherited from the original design.</p><p>Fourteen Clan-specification double heat sinks provide exceptional thermal management, keeping the 'Mech cool during sustained engagements provided the rear-mounted laser sees limited use. The design team considered mounting an anti-missile system but ultimately decided against it, preserving the Wolfhound's traditional ammunition-free operational profile.</p><p>The Clan XL engine maintains the standard 97 kph top speed while freeing significant tonnage for other systems. Six and a half tons of ferro-fibrous armor provides the maximum protection achievable on the thirty-five-ton chassis, substantially exceeding the protection offered by the Inner Sphere original. The addition of an ECM suite is a rare defensive electronics package that enhances the 'Mech's survivability against enemy targeting systems and guided munitions, making it a formidable light combatant despite its unique, non-production status.</p>
@@ -182,6 +182,8 @@ history:<p>The Wolfhound IIC's origins trace to the capture of an Inner Sphere W
 manufacturer:Unknown
 
 primaryfactory:Unknown
+
+fluffdate:2026-02-21 18:24:59
 
 systemmanufacturer:CHASSIS:Unknown
 systemmode:CHASSIS:Endo Steel (Clan)

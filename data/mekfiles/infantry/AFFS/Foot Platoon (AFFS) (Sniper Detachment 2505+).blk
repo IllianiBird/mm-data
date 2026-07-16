@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b6fc-74e9-84f0-d586bc28436d
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Foot Platoon (AFFS)
 <year>
 2505
 </year>
-
-<originalBuildYear>
-2505
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Sneak Suit (Camo/IR)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>Federated Suns infantry benefit from one of the strongest industrial bases in the Inner Sphere, with AFFS quartermasters able to supply platoons with standardized equipment and ammunition from a logistics network that few rival states can match. Foot infantry remain the backbone of AFFS planetary garrisons, cheap enough to deploy in numbers across the Federated Suns' vast territory and reliable enough to hold ground that BattleMech forces cannot permanently occupy. Operating as designated marksman teams within a larger platoon framework, these snipers provide precision long-range fire from concealed positions, engaging high-value targets with disproportionate tactical and psychological effect.</p>
+</overview>
 
 <notes>
 Hammel Marksman selected as representative weapon of decent but not overwhelming range. Intro date based on common availability for two-system stealth suit.
@@ -88,9 +90,4 @@ true
 <sneakir>
 true
 </sneakir>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Federated Suns infantry benefit from one of the strongest industrial bases in the Inner Sphere, with AFFS quartermasters able to supply platoons with standardized equipment and ammunition from a logistics network that few rival states can match. Foot infantry remain the backbone of AFFS planetary garrisons, cheap enough to deploy in numbers across the Federated Suns' vast territory and reliable enough to hold ground that BattleMech forces cannot permanently occupy. Operating as designated marksman teams within a larger platoon framework, these snipers provide precision long-range fire from concealed positions, engaging high-value targets with disproportionate tactical and psychological effect.</p>
-</overview>
 

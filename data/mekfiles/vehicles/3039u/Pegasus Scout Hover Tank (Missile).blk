@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e2ed-7cd2-8e2b-84a3c6930eca
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Pegasus Scout Hover Tank
 <year>
 2854
 </year>
-
-<originalBuildYear>
-2854
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -103,36 +103,13 @@ SRM 6
 SRM 6
 </Turret Equipment>
 
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Pegasus Scout Hover Tank first appeared during the First Succession War, when heavy combat losses forced the Great Houses to redirect BattleMech scouts to frontline duty, creating a critical gap in light reconnaissance. The Exeter Organization on Keystone designed the Pegasus to fill this role, producing a fast, maneuverable hovercraft built on internal combustion technology that remained accessible even as fusion engines grew scarce. A successful licensing arrangement with Red Devil Industries on Pandora and Hellespont Industries on Sian quickly established it as a multi-faction platform available across the Inner Sphere.</p><p>Found in virtually every major military organization and many minor powers, the Pegasus earned the informal designation "Harasser on Steroids" for combining reasonable armament with impressive speed and capable electronics. Its widespread availability, relatively simple maintenance requirements, and flexibility across multiple variants have made it one of the most prolific light combat vehicles produced in the history of the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The base Pegasus carries a pair of turret-mounted SRM 6 racks as its primary offensive armament, backed by a front-mounted medium laser. The laser is weight-inefficient on an internal combustion vehicle of this size, but it allows the crew to continue fighting after expending their missiles and provides a backup at range. Six and a half tons of ProtecTech 6 armor provides solid protection for a light hover tank, sufficient to absorb several large laser hits to any location. At nearly 130 kph, the Pegasus ranks among the faster vehicles in its weight class.</p><p>The vehicle's standout feature is its electronics suite. The Exeter LongScan communications system with ReconLock interfaces with the Salamander Systems CommPhase targeting unit, creating an automated fire-control loop that identifies and prioritizes targets, firing the laser and missiles simultaneously unless the gunner overrides. This near-autonomous targeting capability made many crews uneasy in the decades following the Amaris Civil War, and reservations about automated weapons systems persist in forces that field the design.</p><p>A meaningful limitation is the Pegasus's inability to communicate with orbiting vessels without a separately purchased TransBoost unit, an Exeter-built tight-beam transmitter for secure long-range communication. Customers complained about paying extra for a capability standard on larger vehicles, and Exeter began pre-installing units in 3027. Many older Pegasi in service still lack the upgrade.</p>
 </capabilities>
+
+<overview>
+<p>The Pegasus Scout Hover Tank first appeared during the First Succession War, when heavy combat losses forced the Great Houses to redirect BattleMech scouts to frontline duty, creating a critical gap in light reconnaissance. The Exeter Organization on Keystone designed the Pegasus to fill this role, producing a fast, maneuverable hovercraft built on internal combustion technology that remained accessible even as fusion engines grew scarce. A successful licensing arrangement with Red Devil Industries on Pandora and Hellespont Industries on Sian quickly established it as a multi-faction platform available across the Inner Sphere.</p><p>Found in virtually every major military organization and many minor powers, the Pegasus earned the informal designation "Harasser on Steroids" for combining reasonable armament with impressive speed and capable electronics. Its widespread availability, relatively simple maintenance requirements, and flexibility across multiple variants have made it one of the most prolific light combat vehicles produced in the history of the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Missile variant trades the front-mounted medium laser for an additional SRM 6 rack, increasing short-range firepower at the cost of the backup ranged weapon. Operators who favor this configuration tend to work in dense terrain where the medium laser offers little advantage, preferring heavier missile saturation for close-in engagements. The modification is straightforward to perform in the field, and examples of the Missile variant appear in virtually every force that regularly uses the standard Pegasus.</p>
@@ -165,4 +142,20 @@ ARMOR:ProtecTech 6
 COMMUNICATIONS:LongScan with ReconLock
 TARGETING:CommPhase Unit
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+35.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

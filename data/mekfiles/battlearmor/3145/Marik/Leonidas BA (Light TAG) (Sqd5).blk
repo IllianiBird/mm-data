@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a680-70da-a3a0-1dea87f0387c
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Leonidas Battle Armor
 <year>
 3096
 </year>
-
-<originalBuildYear>
-3096
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -90,42 +90,14 @@ BAISAngelECMSuite:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:FWL,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Leonidas is a medium Inner Sphere battle armor suit produced by Etna Foundries on Oriente for the Duchy of Oriente's armed forces. Introduced in 3096, the design filled a gap in the Duchy's reconnaissance and infiltration capabilities caused by dwindling stocks of the Achileus stealth suit. The Leonidas prioritizes concealment and electronic warfare over raw speed or firepower, making it well suited for ambush operations, artillery spotting, and counterinsurgency patrol. A modular weapon mount allows rapid reconfiguration across multiple mission roles, from direct engagement to battlefield surveillance. The suit earned a strong reputation for tactical flexibility among operators across multiple factions.</p>
-</overview>
 
 <capabilities>
 <p>The TAG configuration replaces the modular weapon slot with a Light TAG system carrying sixty uses, transforming the suit into a dedicated artillery spotter. Paired with Standard Stealth armor and the Angel ECM Suite, this loadout creates an effective forward observation platform capable of designating targets for supporting artillery and missile systems while remaining concealed from enemy detection.</p><p>The Heavy Battle Claw and anti-personnel weapon mount provide self-defense capability, though troopers in this configuration are expected to avoid direct combat and focus on target acquisition. Ground speed of thirty-two kilometers per hour and the absence of jump capability demand careful route planning to reach observation positions. The combination of stealth technology and electronic countermeasures makes this configuration particularly difficult to locate, which is critical for troopers who must remain stationary while painting targets for indirect fire support.</p>
 </capabilities>
+
+<overview>
+<p>The Leonidas is a medium Inner Sphere battle armor suit produced by Etna Foundries on Oriente for the Duchy of Oriente's armed forces. Introduced in 3096, the design filled a gap in the Duchy's reconnaissance and infiltration capabilities caused by dwindling stocks of the Achileus stealth suit. The Leonidas prioritizes concealment and electronic warfare over raw speed or firepower, making it well suited for ambush operations, artillery spotting, and counterinsurgency patrol. A modular weapon mount allows rapid reconfiguration across multiple mission roles, from direct engagement to battlefield surveillance. The suit earned a strong reputation for tactical flexibility among operators across multiple factions.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Points equipped with the TAG configuration provided Clan-affiliated forces with forward observation capability tailored to standard Clan battle armor organization. The additional trooper compared to Inner Sphere squads allowed Points to maintain continuous target designation even if individual troopers were disabled. These Points typically operated in concert with Arrow IV-equipped OmniMechs or artillery vehicles organic to the garrison cluster.</p>
@@ -158,4 +130,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

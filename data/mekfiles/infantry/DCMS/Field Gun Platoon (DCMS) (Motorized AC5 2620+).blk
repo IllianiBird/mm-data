@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bba5-75b1-9709-4051b90ef3ca
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Gun Platoon (DCMS)
 <year>
 2620
 </year>
-
-<originalBuildYear>
-2620
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -61,7 +61,9 @@ Autocannon/5
 IS Ammo AC/5
 </Field Guns Equipment>
 
-
+<overview>
+<p>Conventional infantry within the DCMS serve as the foundation of planetary defense, providing the manpower essential to territorial control while freeing BattleMech and armored assets for offensive operations. The platoon tows a light autocannon that balances range and hitting power, capable of threatening armored vehicles at distances that keep the gun crew clear of direct infantry engagement. A versatile field piece that earns its place in any garrison defense plan.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date of DCMS armor kit
@@ -78,9 +80,4 @@ Intro date based on prototype date of DCMS armor kit
 <Primary>
 InfantryAssaultRifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Conventional infantry within the DCMS serve as the foundation of planetary defense, providing the manpower essential to territorial control while freeing BattleMech and armored assets for offensive operations. The platoon tows a light autocannon that balances range and hitting power, capable of threatening armored vehicles at distances that keep the gun crew clear of direct infantry engagement. A versatile field piece that earns its place in any garrison defense plan.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bff0-7969-b597-e57c72e070a5
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Motorized Platoon
 <year>
 3045
 </year>
-
-<originalBuildYear>
-3045
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -52,6 +52,9 @@ Generic Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Motorized fieldworks platoons are combat engineers transported by light vehicles for rapid deployment to defensive preparation sites. Armed with Gunther MP-20 submachine guns for close defense, these engineers dig trenches and construct ad-hoc field fortifications that provide cover for friendly infantry, turning open ground into defensive positions. The motorized transport allows them to reach forward positions quickly and begin construction before the enemy can contest the ground.</p>
+</overview>
 
 <source>
 TR:3085
@@ -72,9 +75,4 @@ SMG (Gunther MP-20)
 <specialization>
 32
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Motorized fieldworks platoons are combat engineers transported by light vehicles for rapid deployment to defensive preparation sites. Armed with Gunther MP-20 submachine guns for close defense, these engineers dig trenches and construct ad-hoc field fortifications that provide cover for friendly infantry, turning open ground into defensive positions. The motorized transport allows them to reach forward positions quickly and begin construction before the enemy can contest the ground.</p>
-</overview>
 

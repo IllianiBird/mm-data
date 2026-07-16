@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a817-7ad6-9260-3da9055274a9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ TinStar BattleArmor
 <year>
 3087
 </year>
-
-<originalBuildYear>
-3087
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -98,42 +98,14 @@ ISBAMagshotGaussRifle:RA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-RG28
-</source>
-
-<published>
-RG28
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The TinStar is a medium battle armor suit developed by Hilltopper Engineering for the Colonial Marshals of the Fronc Reaches. Introduced in the late 3080s, the design filled a critical gap in the small Periphery nation's defensive capabilities, providing the Marshals with a domestically sourced battlesuit tailored to their specialized law enforcement mission. The suit exists in two configurations: a fully Inner Sphere production model adopted by the Marshals' TinStar Brigade, and a rarer mixed-technology original incorporating Clan components. Few expected a Periphery nation of the Reaches' size to field indigenous battle armor, and the TinStar drew considerable attention from neighbors and pirates alike upon its debut.</p>
-</overview>
 
 <capabilities>
 <p>The original TinStar mounts a Magshot Gauss Rifle paired with a support particle projector cannon, delivering considerable punch for a medium-weight suit. An anti-personnel weapon mount rounds out the loadout for close-quarters engagements. Clan standard armor provides heavier protection than the production variant's Inner Sphere equivalent, giving troopers a meaningful edge in sustained firefights. Like the standard model, magnetic clamps allow the suit to hitch rides on BattleMechs and combat vehicles for rapid deployment.</p><p>The mixed Clan and Inner Sphere technology base gave the original TinStar a potent combination of firepower and durability, though it carried significant logistical drawbacks. The Magshot relied on Davion supply chains, and the Clan armor required importation through Clan Diamond Shark, creating dependencies that the Fronc Reaches could not sustain independently. Troopers fielding the original variant benefit from superior protection and hitting power at the cost of a fragile supply chain that limits the suit's long-term operational viability in extended campaigns.</p>
 </capabilities>
+
+<overview>
+<p>The TinStar is a medium battle armor suit developed by Hilltopper Engineering for the Colonial Marshals of the Fronc Reaches. Introduced in the late 3080s, the design filled a critical gap in the small Periphery nation's defensive capabilities, providing the Marshals with a domestically sourced battlesuit tailored to their specialized law enforcement mission. The suit exists in two configurations: a fully Inner Sphere production model adopted by the Marshals' TinStar Brigade, and a rarer mixed-technology original incorporating Clan components. Few expected a Periphery nation of the Reaches' size to field indigenous battle armor, and the TinStar drew considerable attention from neighbors and pirates alike upon its debut.</p>
+</overview>
 
 <deployment>
 <p>No documented deployments of the original TinStar exist in six-trooper Level I formations. The suit's mixed technology base and extremely limited production run confined it almost entirely to Fronc Reaches service, making acquisition by organizations employing ComStar-derived military doctrine virtually impossible.</p>
@@ -168,4 +140,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG28
+</source>
+
+<published>
+RG28
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

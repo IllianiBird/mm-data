@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-afb0-791a-8cb0-8ad705bfa03b
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ F
 <year>
 3108
 </year>
-
-<originalBuildYear>
-3108
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -126,26 +126,13 @@ WatchdogECMSuite:OMNI
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Sulla is a forty-five-ton Clan OmniFighter introduced in 2998 by Forge 7 on Priori. Designed to fill the gap between lighter interceptors and heavier strike fighters in Clan aerospace formations, it prioritizes a balanced combination of weapons capacity, armor protection, and fuel endurance over specialization in any single role. Its OmniPod architecture allows commanders to reconfigure the fighter's weapons suite for the demands of a given operation, from long-range standoff strikes to close-range ground-attack support. Widely distributed across Clanspace through production at multiple Clan facilities and through Trials of Possession, the Sulla has established itself as one of the most commonly encountered Clan OmniFighters in service.</p>
-</overview>
-
 <capabilities>
 <p>The Sulla's base chassis pairs a 315-rated XL fusion engine with Composition G ferro-aluminum armor, freeing fourteen and a half tons of pod space for weapons and equipment across its configurations. Thirteen double heat sinks on the base chassis provide strong sustained-fire characteristics, while five tons of fuel give patrol and escort endurance that few medium OmniFighters can match. These qualities make the Sulla particularly effective in extended operations where resupply may not be immediately available, and its consistent performance during prolonged sorties has become a defining characteristic of the design.</p><p>The Prime configuration illustrates the general-purpose philosophy, pairing a nose-mounted extended-range PPC with an extended-range large laser under each wing for consistent engagement across long and medium ranges. A stern extended-range small laser provides minimal discouragement to pursuing fighters, reflecting the design's emphasis on forward firepower over defensive countermeasures. While the extended-range PPC generates significant heat for a craft of this tonnage, the base chassis heat management gives pilots adequate room to sustain fire without frequent shutdown risk. The primary limitation of the design in its Prime loadout is reliance on a single high-heat weapon in the nose, which restricts burst-fire potential against well-armored opponents. Communications are managed by the BCom 8 system and targeting by the Pattern 9 TTS, both base chassis-mounted and shared across all configurations.</p>
 </capabilities>
+
+<overview>
+<p>The Sulla is a forty-five-ton Clan OmniFighter introduced in 2998 by Forge 7 on Priori. Designed to fill the gap between lighter interceptors and heavier strike fighters in Clan aerospace formations, it prioritizes a balanced combination of weapons capacity, armor protection, and fuel endurance over specialization in any single role. Its OmniPod architecture allows commanders to reconfigure the fighter's weapons suite for the demands of a given operation, from long-range standoff strikes to close-range ground-attack support. Widely distributed across Clanspace through production at multiple Clan facilities and through Trials of Possession, the Sulla has established itself as one of the most commonly encountered Clan OmniFighters in service.</p>
+</overview>
 
 <deployment>
 <p>A Dark Age configuration built around the Watchdog combined electronic warfare system, the F variant pairs the Watchdog with two improved heavy large lasers to combine electronic suppression with precision strike capability. The improved heavy large lasers deliver substantial damage against armored targets at moderate ranges, while the Watchdog provides electronic countermeasure capability absent from all earlier configurations. This variant is assigned to missions where disrupting enemy communications and targeting takes priority alongside delivering direct strikes, and is most commonly deployed in support of ground operations requiring coordinated electronic and kinetic effects.</p>
@@ -178,4 +165,12 @@ ARMOR:Composition G Ferro-aluminum
 COMMUNICATIONS:BCom 8
 TARGETING:Pattern 9 TTS
 </systemModels>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

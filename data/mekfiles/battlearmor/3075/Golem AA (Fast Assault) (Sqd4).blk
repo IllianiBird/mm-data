@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a3c0-7f20-9b54-541542226ac9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Golem Assault Armor
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -88,40 +88,15 @@ InfantryAssaultRifle:APM:LA
 
 <slotless_equipment>
 BAJumpJet
-BA-SRM5 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-18
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Golem is an assault-class battle armor developed by Clan Ghost Bear, first fielded in 3067. Designed to be the definitive assault battlesuit, the two-ton suit was built to deliver heavy firepower while providing exceptional protection for its troopers. Thick, specialized armor plating and powerful short-range armament earned the design a fearsome reputation among both Clan and Inner Sphere forces. Though the Golem sacrifices speed for protection, it remains one of the most formidable assault battlesuits in active service, with multiple configurations fielded across several Clan factions.</p>
-</overview>
 
 <capabilities>
 <p>The Fast Assault configuration takes a fundamentally different approach from other Golem variants. The fire-resistant armor is swapped for standard battlesuit plating, and the ground motive systems are lightened to accommodate jump packs paired with a mechanical jump booster. This enables the suit to cover ninety meters per jump, a dramatic improvement in tactical mobility for an assault-weight design. Ground speed drops to 10 km/h, but the jump capability more than compensates in most terrain.</p><p>Offensive capability is reduced accordingly. A single standard machine gun occupies the right arm, while the left mounts a generic anti-personnel weapon. A detachable SRM-5 launcher, identical to the Rock Golem's missile pack, provides the suit's heaviest punch but is expended after a single salvo. The Fast Assault trades the Golem's signature toughness and firepower for mobility, filling a shock assault role that other variants cannot.</p>
 </capabilities>
+
+<overview>
+<p>The Golem is an assault-class battle armor developed by Clan Ghost Bear, first fielded in 3067. Designed to be the definitive assault battlesuit, the two-ton suit was built to deliver heavy firepower while providing exceptional protection for its troopers. Thick, specialized armor plating and powerful short-range armament earned the design a fearsome reputation among both Clan and Inner Sphere forces. Though the Golem sacrifices speed for protection, it remains one of the most formidable assault battlesuits in active service, with multiple configurations fielded across several Clan factions.</p>
+</overview>
 
 <deployment>
 <p>Hell's Horses commands fielded Fast Assault Golems in four-trooper squads for rapid strike operations within their Inner Sphere territories. The squad's jump capability made it effective for seizing elevated positions and conducting vertical assaults on fortified structures, roles where the standard Golem's lack of jump jets left tactical gaps.</p>
@@ -156,4 +131,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+18
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

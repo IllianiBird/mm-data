@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a601-775c-ab36-2746f4fab1f0
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Constable Pacification Suit
 <year>
 3092
 </year>
-
-<originalBuildYear>
-3092
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -100,38 +100,14 @@ BASearchlight:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:C
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Constable Pacification Suit is a light Clan-tech battle armor designed for law enforcement and counter-terrorism operations. Commissioned by the Ghost Bear Watch and produced at BA Facility Gamma on Mannedorf, the suit entered service in 3092 to address internal security threats beyond the reach of conventional police. Based on a lighter adaptation of the Rogue Bear battlesuit, the Constable offers enhanced mobility, jump capability, and a modular equipment system that allows rapid reconfiguration for different operational requirements. The suit has since spread beyond the Ghost Bear Dominion to police forces and paramilitary organizations across multiple Clan occupation zones and into the Draconis Combine.</p>
-</overview>
 
 <capabilities>
 <p>The Constable provides its operators with excellent mobility through a jump-capable chassis derived from the Rogue Bear battlesuit. At 750 kilograms, the suit is light enough for rapid deployment while offering standard armor protection on par with military light battle armor. Dual heavy grenade launchers provide flexible force options through lethal and nonlethal munition types, and a pair of cutting torches give operators the ability to breach barriers without heavy explosives.</p><p>The sensor configuration equips the modular weapon mount with an improved sensor package, greatly extending the operator's detection range and allowing identification of concealed threats, hidden compartments, and underground structures. This variant excels in reconnaissance and search operations where locating a target matters more than raw firepower, though it sacrifices any additional offensive capability for its enhanced detection ability.</p>
 </capabilities>
+
+<overview>
+<p>The Constable Pacification Suit is a light Clan-tech battle armor designed for law enforcement and counter-terrorism operations. Commissioned by the Ghost Bear Watch and produced at BA Facility Gamma on Mannedorf, the suit entered service in 3092 to address internal security threats beyond the reach of conventional police. Based on a lighter adaptation of the Rogue Bear battlesuit, the Constable offers enhanced mobility, jump capability, and a modular equipment system that allows rapid reconfiguration for different operational requirements. The suit has since spread beyond the Ghost Bear Dominion to police forces and paramilitary organizations across multiple Clan occupation zones and into the Draconis Combine.</p>
+</overview>
 
 <deployment>
 <p>Larger six-trooper sensor formations were employed by organizations conducting area-denial or wide-perimeter searches. The additional operators allowed sensor-equipped teams to cover more ground during security sweeps at major events, infrastructure facilities, and border checkpoints, where thorough detection coverage outweighed the need for a smaller tactical footprint.</p>
@@ -166,4 +142,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:C
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

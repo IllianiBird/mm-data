@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d6cd-79f0-9387-fb79eeb061c6
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Talos
 model:TLS-1B
 mul id:5175
@@ -170,7 +171,6 @@ Heat Sink
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Talos was conceived in 2521 when the Taurian Defense Force solicited requirements for a new domestically-produced BattleMech to counter the increasingly advanced designs fielded by the Capellan Confederation and Federated Suns. Vandenberg Heavy Industries, one of the Taurian Concordat's largest IndustrialMech manufacturers, formed its Vandenberg MilTech division specifically to answer this call. After nearly a decade of development, Vandenberg MilTech delivered the TLS-1B Talos to the TDF in 2532.</p><p>A fifty-ton medium 'Mech emphasizing ease of production and simplified logistics, the Talos proved immediately popular with Taurian MechWarriors and became the backbone trooper 'Mech of the TDF through the 2540s. Its financial success and reputation for reliability led to strong export sales across the Periphery, ensuring the design remained in continuous production for nearly five decades.</p>
 
 capabilities:<p>The Talos was designed first and foremost around heat management, a direct response to TDF MechWarriors' persistent complaints about the poor thermal performance of contemporary designs. As a medium BattleMech, the Talos required less maintenance than the heavier designs favored by the Federated Suns and Terran Hegemony, while its compact stature simplified DropShip loading and transport logistics. The design achieves a top speed of 64 kph, matching or exceeding the average speed of most 'Mech designs of its era, though it lacks jump jet capability entirely.</p><p>The Talos relies on a proven combination of autocannon and missile systems arranged for layered fire to optimize heat dissipation. The Westen Heavy Autocannon class-10, mounted in the lower right arm, serves as the primary weapon and earned widespread praise among Taurian armor crews for its accuracy and stopping power. This is supplemented by a pair of shoulder-mounted Delta Dart long-range missile racks and a Delta Bolt short-range missile system, giving the Talos engagement capability across all range brackets. Eight and a half tons of Hoyt StarPlate armor provide solid protection for a design of its tonnage, allowing the Talos to absorb considerable punishment while closing to effective engagement range. The trade-off for this thermally efficient loadout is complete ammunition dependency; once its magazines run dry, the Talos is effectively defenseless.</p>
@@ -182,6 +182,8 @@ history:<p>The Taurian Defense Force accepted its first Talos BattleMechs in the
 manufacturer:Vandenberg MilTech
 
 primaryfactory:New Vandenberg
+
+fluffdate:2026-02-21 18:07:19
 
 systemmanufacturer:CHASSIS:Vandenberg Technologies
 systemmode:CHASSIS:Medium-III

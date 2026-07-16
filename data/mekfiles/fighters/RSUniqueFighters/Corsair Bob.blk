@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acf5-7d36-b1cd-095e61cffa1d
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Corsair
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -120,34 +120,13 @@ ISRotaryAC5 Ammo
 IS Streak SRM 6 Ammo
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-
-</source>
-
-<published>
-RS:UF
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Corsair is a fifty-ton medium aerospace fighter developed by Wangker Aerospace for the Star League Defense Force in 2779. Commissioned to replace the devastating fighter losses suffered during the Amaris Civil War, the Corsair was built around a compact all-energy weapons package and a sleek airframe optimized for atmospheric operations. Wangker already had a working prototype on hand when the SLDF came calling, which allowed full-scale production to begin within months. Despite early reliability problems that plagued the initial production series, the design's raw performance convinced the Star League to keep the program alive while Wangker corrected the deficiencies. The Corsair has since become one of the most widely recognized medium fighters in the Inner Sphere, earning a reputation for ruggedness and dependability across centuries of continuous service.</p>
-</overview>
-
 <capabilities>
 <p>The Corsair's weapons package centers on two Exostar large lasers mounted in the nose, providing the fighter's primary striking power at range. Close-in firepower comes from two Martell medium lasers positioned in each wing and four Exostar small lasers, two of which are rear-mounted and tied directly into the Ranker TA800 targeting system for exceptional accuracy in the aft firing arc. The all-energy loadout eliminates ammunition dependency entirely, giving the Corsair excellent operational endurance and freeing pilots from concerns about supply lines during extended deployments.</p><p>A GM 200 fusion engine provides a safe thrust of three gravities and a maximum of four and a half, making the Corsair competitive with most medium fighters in its weight class. Thirteen and a half tons of Wangker Corsair Standard armor give it substantial protection against anti-aircraft fire and rival fighters. Sixteen single heat sinks allow both large lasers to fire continuously while the medium and small lasers contribute with only marginal heat buildup. The compact laser systems and aerodynamic airframe make the Corsair particularly deadly in atmospheric combat, where it can outmaneuver many conventional fighters at low altitudes. The design's primary weakness is its short optimal engagement range, as pilots must close to exploit the bulk of its firepower.</p>
 </capabilities>
+
+<overview>
+<p>The Corsair is a fifty-ton medium aerospace fighter developed by Wangker Aerospace for the Star League Defense Force in 2779. Commissioned to replace the devastating fighter losses suffered during the Amaris Civil War, the Corsair was built around a compact all-energy weapons package and a sleek airframe optimized for atmospheric operations. Wangker already had a working prototype on hand when the SLDF came calling, which allowed full-scale production to begin within months. Despite early reliability problems that plagued the initial production series, the design's raw performance convinced the Star League to keep the program alive while Wangker corrected the deficiencies. The Corsair has since become one of the most widely recognized medium fighters in the Inner Sphere, earning a reputation for ruggedness and dependability across centuries of continuous service.</p>
+</overview>
 
 <deployment>
 <p>The Corsair Bob is a one-of-a-kind custom modification flown by a pilot in the Tsamma Crucis March Militia. The unique refit replaces the entire standard laser battery with a rotary autocannon/5 and a Streak SRM-6 launcher, radically altering the Corsair's combat profile from an energy-dependent dogfighter to a ballistic-heavy striker. Three tons of autocannon ammunition and one ton of Streak reloads provide reasonable combat endurance, while a slight increase in armor protection helps offset the vulnerability introduced by the ammunition dependency.</p>
@@ -182,4 +161,12 @@ JUMP_JET:N/A
 COMMUNICATIONS:Ranker 100B
 TARGETING:Ranker TA800
 </systemModels>
+
+<published>
+RS:UF
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

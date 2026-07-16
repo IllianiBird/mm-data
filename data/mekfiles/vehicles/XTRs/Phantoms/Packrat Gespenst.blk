@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec14-7939-8a7d-a1150189834a
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Packrat LRPV
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -108,26 +108,13 @@ ISLimitedAmphibiousChassis
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-XTR:Phantoms
-</source>
-
-<published>
-XTR:Phantoms
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 21:44:37
-<overview>
-<p>The Packrat Long Range Patrol Vehicle entered service in 2650 as a purpose-built deep reconnaissance and raiding platform produced by Robertson Technologies. Designed to operate independently behind enemy lines for extended periods, the twenty-ton wheeled vehicle combined fusion power, generous armor protection, and a potent communications suite in a package small enough to avoid detection. Robertson Technologies originally held the production contract, but the design eventually passed to Bowie Industries and Gienah Combat Vehicles, both operating in the Lyran Commonwealth. The Packrat's combination of speed, self-sufficiency, and robust communications made it a favorite of march militias and garrison commands across the Inner Sphere, where its ability to sustain independent operations complemented the limited logistics of frontier forces.</p>
-</overview>
-
 <capabilities>
 <p>The Doorman 120 fusion engine gives the Packrat a top speed of 118 km/h, providing exceptional mobility for a vehicle of its class. Eight solid rubber tires, each with independent suspension and drive systems, deliver reliable traction across varied terrain without risk of deflation. The fusion powerplant eliminates any dependence on external fuel supplies, a critical advantage for missions lasting weeks or months behind enemy lines.</p><p>The Packrat's primary armament is a Harvester 20K SRM-6 rack mounted in the front hull, supported by two tons of ammunition. An HS Flamer covers the rear, serving dual roles as an anti-infantry weapon and a concealment device capable of generating smoke screens to break contact. Four tons of StarSlab/1 armor provide respectable protection for a twenty-ton vehicle, allowing the crew to survive limited engagements that would destroy lighter scouts.</p><p>The vehicle's most significant feature is its O/P COMTES communications system, among the most powerful ever fitted to a vehicle of this size. The system provides exceptional transmission range and limited electronic countermeasures capability. A one-ton infantry bay accommodates up to ten passengers, typically intelligence specialists or infiltrators, with fold-down cots providing sleeping arrangements for extended deployments.</p>
 </capabilities>
+
+<overview>
+<p>The Packrat Long Range Patrol Vehicle entered service in 2650 as a purpose-built deep reconnaissance and raiding platform produced by Robertson Technologies. Designed to operate independently behind enemy lines for extended periods, the twenty-ton wheeled vehicle combined fusion power, generous armor protection, and a potent communications suite in a package small enough to avoid detection. Robertson Technologies originally held the production contract, but the design eventually passed to Bowie Industries and Gienah Combat Vehicles, both operating in the Lyran Commonwealth. The Packrat's combination of speed, self-sufficiency, and robust communications made it a favorite of march militias and garrison commands across the Inner Sphere, where its ability to sustain independent operations complemented the limited logistics of frontier forces.</p>
+</overview>
 
 <deployment>
 <p>The Gespenst is a radical Loki-produced special operations refit built around vehicular stealth armor and a hand-built XXL fusion engine that pushes ground speed well beyond the standard model. An Angel ECM suite and Bloodhound active probe replace all conventional armament, while environmental sealing and limited amphibious equipment allow the vehicle to operate in hostile environments including deep water crossings. A four-ton battle armor compartment replaces the infantry bay, though the cramped quarters limit capacity to a single squad. Reports from the Jihad placed Gespensts operating behind Word of Blake lines on New Earth and on Saturn's moon Titan, where they eliminated early warning systems prior to Task Force CRONUS operations. At least eight examples were produced, all operated by Loki personnel.</p>
@@ -160,4 +147,16 @@ ARMOR:Vehicular Stealth
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Phantoms
+</source>
+
+<published>
+XTR:Phantoms
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

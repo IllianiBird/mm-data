@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e28a-7029-b390-6214a578fdae
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Harasser Laser Platform
 <year>
 2957
 </year>
-
-<originalBuildYear>
-2957
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -100,37 +100,13 @@ Medium Laser
 Medium Laser
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-07 16:36:16
-<overview>
-<p>The Harasser Laser Platform is a field modification of the standard Harasser Missile Platform, developed organically within Galleon light tank units as a practical solution to ammunition shortages during the Succession Wars. Rather than relying on SRM stocks that were increasingly difficult to obtain, crews replaced the missile racks with medium lasers salvaged from damaged or destroyed Galleons. The modification first appeared in 2957 as an unofficial conversion performed at forward operating bases and company-level repair shops. Though never formally produced by Brooks Incorporated, the conversion spread throughout Galleon-equipped units across the Inner Sphere, its straightforward process making it attractive to any unit with access to salvage and the shared electronic architecture that simplified integration considerably.</p>
-</overview>
-
 <capabilities>
 <p>The Laser Platform retains the base Harasser's speed and mobility, with its GM 120 Classic II internal combustion engine delivering a maximum speed of 162 km/h. In place of the SRM-6 racks, the turret mounts a pair of medium lasers salvaged from Galleon hulks. This configuration trades raw missile firepower for logistical self-sufficiency. Where a standard Harasser exhausts its ammunition within minutes of sustained combat, the Laser Platform can engage indefinitely, limited only by fuel and crew endurance.</p><p>The trade-off is meaningful. Two medium lasers deliver significantly less damage per volley than a pair of SRM-6 racks, and while the effective engagement range is somewhat longer, the vehicle still cannot reach out at long range like an LRM variant. The Laser Platform cannot deliver the concentrated missile shock that makes the standard Harasser so dangerous against massed infantry or lightly armored vehicles. For raids, extended reconnaissance patrols, or operations in supply-poor regions, however, eliminating ammunition dependence is a meaningful tactical advantage.</p><p>The StarSlab/2 armor of the base chassis is retained in most field conversions, leaving the vehicle as lightly protected as the standard model. Conversion quality varies considerably depending on the equipment and expertise available at the point of modification. The best versions have properly integrated fire control, while rougher conversions require crews to compensate for targeting misalignment through experience and familiarity with their specific vehicle.</p>
 </capabilities>
+
+<overview>
+<p>The Harasser Laser Platform is a field modification of the standard Harasser Missile Platform, developed organically within Galleon light tank units as a practical solution to ammunition shortages during the Succession Wars. Rather than relying on SRM stocks that were increasingly difficult to obtain, crews replaced the missile racks with medium lasers salvaged from damaged or destroyed Galleons. The modification first appeared in 2957 as an unofficial conversion performed at forward operating bases and company-level repair shops. Though never formally produced by Brooks Incorporated, the conversion spread throughout Galleon-equipped units across the Inner Sphere, its straightforward process making it attractive to any unit with access to salvage and the shared electronic architecture that simplified integration considerably.</p>
+</overview>
 
 <deployment>
 <p>The Laser Platform fills a reconnaissance and economy-of-force role wherever Galleon units operate. It is most commonly seen in older or economically marginal units that cannot maintain consistent SRM supply, and in formations operating far from established logistics networks. Despite lacking the raw firepower of the missile-armed Harasser, the Laser Platform's effectively unlimited engagement endurance makes it valuable on extended patrols and raiding operations. Field conversions vary in quality, and laser alignment and fire control calibration are ongoing maintenance concerns. The design appears in militaries across the Inner Sphere and Periphery wherever salvaged Galleon components remain available.</p>
@@ -163,4 +139,20 @@ ARMOR:StarSlab/2
 COMMUNICATIONS:500
 TARGETING:TA 55
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+25.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

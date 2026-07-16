@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e52a-752d-9e37-5a90b908ecf4
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Mantis Light Attack VTOL
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -102,26 +102,13 @@ ISGuardianECMSuite
 ISMastMount
 </Rotor Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-15.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Mantis is a light attack VTOL produced by Michaelson Heavy Industries, one of the Inner Sphere's most prolific rotary-wing combat vehicle manufacturers. Designed at their Ruchbah facility, the Mantis was developed to fill a fast-attack cavalry role, combining exceptional speed with concentrated laser firepower. The design emerged from Michaelson's growing trade relationships with Free Worlds League weapons manufacturers, allowing the Federated Suns company to equip the helicopter with imported advanced laser technology. Building on the company's strong reputation for producing effective VTOL designs, the Mantis represented a new direction for Michaelson, moving beyond traditional ballistic and missile armament into energy-weapon-focused platforms. Entering production in 3061 after an extended prototype phase, the Mantis quickly proved its value as a high-speed strike helicopter capable of punching well above its modest fifteen-ton weight class.</p>
-</overview>
-
 <capabilities>
 <p>The Mantis mounts five Diverse Optics Sunbeam extended-range small lasers, providing devastating firepower for a vehicle of its size. This battery delivers nearly twice the energy output of most helicopters twice its weight, and the ammunition-independent nature of the laser array allows the Mantis to maintain sustained operations without resupply concerns. A Galas 70 micro-fusion engine propels the helicopter to a maximum speed of 184 kilometers per hour, enabling it to outrun most ground vehicles and even many BattleMechs on the battlefield.</p><p>The Mantis also carries a Beagle Active Probe and Guardian ECM Suite, giving it significant electronic warfare and reconnaissance capability beyond its primary strike role. Two and a half tons of StarSlab/3 armor provides impressive protection for a fifteen-ton VTOL, and Michaelson engineers deliberately reinforced the nose section to absorb direct hits from even Clan extended-range particle projector cannons. The primary trade-off is the helicopter's vulnerability to sustained fire, a limitation common to all VTOLs that relies on speed and agility rather than raw durability for survival.</p>
 </capabilities>
+
+<overview>
+<p>The Mantis is a light attack VTOL produced by Michaelson Heavy Industries, one of the Inner Sphere's most prolific rotary-wing combat vehicle manufacturers. Designed at their Ruchbah facility, the Mantis was developed to fill a fast-attack cavalry role, combining exceptional speed with concentrated laser firepower. The design emerged from Michaelson's growing trade relationships with Free Worlds League weapons manufacturers, allowing the Federated Suns company to equip the helicopter with imported advanced laser technology. Building on the company's strong reputation for producing effective VTOL designs, the Mantis represented a new direction for Michaelson, moving beyond traditional ballistic and missile armament into energy-weapon-focused platforms. Entering production in 3061 after an extended prototype phase, the Mantis quickly proved its value as a high-speed strike helicopter capable of punching well above its modest fifteen-ton weight class.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3073 during the Jihad, the ECCM variant strips all weaponry and the standard sensor suite in favor of a dedicated electronic warfare configuration. Mounting a second Guardian ECM Suite alongside a C3 slave computer and mast mount, this Mantis serves as an advanced scout and battlefield coordination platform. An extralight fusion engine replaces the standard micro-fusion powerplant, increasing both speed and available tonnage for additional armor protection. The variant found immediate use in counter-Blakist operations, where its electronic warfare capabilities helped disrupt Word of Blake command and control networks.</p>
@@ -154,4 +141,16 @@ ARMOR:StarSlab/3
 COMMUNICATIONS:Supremesound
 TARGETING:D2j
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+15.0
+</tonnage>
 

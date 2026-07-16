@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5a9-7b7d-a20c-2cc12dbff7b5
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Morrigu Fire Support Vehicle
 <year>
 3083
 </year>
-
-<originalBuildYear>
-3083
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -119,26 +119,13 @@ CLLRM15
 CLLRM15
 </Turret Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 16:42:39
-<overview>
-<p>The Morrígú is an 80-ton tracked fire support vehicle introduced in 3064 by Clan Blood Spirit. Khan Karianna Schmitt commissioned the design in the aftermath of the Absorption War, intending it to stand alongside new developments in the Blood Spirit OmniMech and ProtoMech programs as a demonstration of the Clan's continuing martial capability. The design reflects a century of Blood Spirit engineering philosophy: practical weapons without extravagant technologies, paired with more armor protection than is typically found on Clan combat vehicles of comparable size.</p><p>Khan Schmitt chose the vehicle's name personally, drawing on the Welsh ancestry revered within Blood Spirit culture to invoke a Celtic goddess of war, reinforcing the Clan's intention to remain a dangerous force. The Morrígú delivers concentrated long-range firepower from a well-protected hull, establishing a clear combat identity as a dedicated fire support platform.</p>
-</overview>
-
 <capabilities>
 <p>The Morrígú's primary armament consists of two Series 1 extended-range large lasers and two Type XV "Crossbow" LRM-15 launchers, all mounted in a turret for full traverse. This configuration delivers concentrated fire at extended range and reflects the Blood Spirits' long-standing preference for direct energy weapons, a philosophy evident across multiple Blood Spirit designs including the Blood Kite. Mounting all primary weapons in the turret allows the Morrígú to engage targets at any bearing without repositioning the hull, a useful capability given its limited ground speed.</p><p>For close defense, a Pattern J1 SRM-2 launcher is mounted on each flank, covering threats that close inside the main engagement envelope. A Consolidated Type 2M ECM suite adds electronic protection, complicating enemy targeting solutions. Both the communications and targeting systems are Consolidated products, providing reliable electronics performance.</p><p>The Morrígú carries thirteen tons of Compound JX4 armor, more substantial than most Clan combat vehicles at this weight class. However, the Fusion 240 powerplant produces a top speed of only 54 km/h, limiting tactical flexibility considerably. This vehicle is designed for static fire positions at range rather than mobile engagements. Commanders who rely on the Morrígú in fluid situations where the battle line shifts quickly will find its pace a genuine liability. It carries no jump jets, and repositioning under pressure offers no quick solution.</p>
 </capabilities>
+
+<overview>
+<p>The Morrígú is an 80-ton tracked fire support vehicle introduced in 3064 by Clan Blood Spirit. Khan Karianna Schmitt commissioned the design in the aftermath of the Absorption War, intending it to stand alongside new developments in the Blood Spirit OmniMech and ProtoMech programs as a demonstration of the Clan's continuing martial capability. The design reflects a century of Blood Spirit engineering philosophy: practical weapons without extravagant technologies, paired with more armor protection than is typically found on Clan combat vehicles of comparable size.</p><p>Khan Schmitt chose the vehicle's name personally, drawing on the Welsh ancestry revered within Blood Spirit culture to invoke a Celtic goddess of war, reinforcing the Clan's intention to remain a dangerous force. The Morrígú delivers concentrated long-range firepower from a well-protected hull, establishing a clear combat identity as a dedicated fire support platform.</p>
+</overview>
 
 <deployment>
 <p>The HAG variant was developed at the New York Vehicle Y2 Facility on Trondheim and introduced in 3083, reflecting the Diamond Sharks' willingness to evolve the design beyond its Blood Spirit origins. The two ER large lasers are replaced with a single HAG/40, retained in the turret alongside the LRM-15s and SRM-2 flankers of the base vehicle. The hyper-assault Gauss rifle delivers exceptional damage in the medium-to-long range bracket and is particularly effective against massed or concentrated targets. The cost is increased dependence on ammunition supply, as the HAG/40 consumes significant stores in sustained engagements. This variant appeals most to forces with guaranteed resupply access seeking maximum burst damage rather than sustained energy fire. Production is exclusive to Trondheim; the original York facility never produced this configuration.</p>
@@ -171,4 +158,16 @@ ARMOR:Compound JX4
 COMMUNICATIONS:Type 2M w/ECM Suite
 TARGETING:Type V TTS
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

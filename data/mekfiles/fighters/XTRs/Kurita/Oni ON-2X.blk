@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b001-781f-85dc-e3768a2e40bb
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ ON-2X
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -123,26 +123,13 @@ ISAngelECMSuite
 IS MRM 30 Ammo
 </Fuselage Equipment>
 
-<source>
-XTR:Kurita
-</source>
-
-<published>
-XTR:Kurita
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Oni is a medium aerospace fighter developed by Wakazashi Enterprises at their Chatham facility for the Draconis Combine Mustered Soldiery, representing the first new non-OmniFighter design fielded by the Combine following the Clan Invasion. Named for the demonic figures of Japanese folklore, the 55-ton craft was designed to address a gap left by years of prioritizing upgrades to existing airframes and the development of OmniFighter technology. The Oni emphasizes protection and concentrated medium-range firepower, trading some maneuverability for a heavier and more affordable power plant. The DCMS received the fighter with considerable enthusiasm, recognizing its durability and hitting power as assets well suited to the defensive and patrol roles increasingly demanded of Combine aerospace assets.</p>
-</overview>
-
 <capabilities>
 <p>The Oni is built around a balanced weapons mix that emphasizes sustained volume of fire at medium range with dependable long-range backup. Its nose-mounted Shigunga MRM-30 delivers a withering weight of missiles capable of saturating targets at medium engagement distances, while a Diverse Optics Sunbeam ER small laser provides close-range support. Each wing carries a Diverse Optics Type 30X ER large laser, extending the fighter's effective reach and giving it genuine long-range strike capability. Two tons of missile ammunition provides adequate reloads for normal combat sorties.</p><p>The fighter mounts six tons of Chatham "Bakemono" ferro-aluminum armor, providing protection comparable to heavier designs and giving it the resilience to absorb significant punishment. Thirteen double heat sinks manage its thermal load effectively under most conditions. The standard Shinobi 275 fusion engine is less powerful than an extralight equivalent, reducing maneuverability, but lowering manufacturing costs and improving structural robustness. The Wakazashi V-On airframe supports this configuration with a solid, maintainable structure, while the Garret T22 communications suite and Neko Megane 6 targeting system round out the design's electronics. The fighter's limited endurance is its acknowledged weakness, restricting mission duration and range without resupply.</p>
 </capabilities>
+
+<overview>
+<p>The Oni is a medium aerospace fighter developed by Wakazashi Enterprises at their Chatham facility for the Draconis Combine Mustered Soldiery, representing the first new non-OmniFighter design fielded by the Combine following the Clan Invasion. Named for the demonic figures of Japanese folklore, the 55-ton craft was designed to address a gap left by years of prioritizing upgrades to existing airframes and the development of OmniFighter technology. The Oni emphasizes protection and concentrated medium-range firepower, trading some maneuverability for a heavier and more affordable power plant. The DCMS received the fighter with considerable enthusiasm, recognizing its durability and hitting power as assets well suited to the defensive and patrol roles increasingly demanded of Combine aerospace assets.</p>
+</overview>
 
 <deployment>
 <p>The ON-2X is an experimental Jihad-era prototype developed at Chatham that incorporated stolen Capellan vehicular stealth armor technology obtained through the Word of Blake. Due to the limited availability of the stealth armor component, only a single prototype existed before local production was established at Chatham in 3079. Classified as an experimental platform, the ON-2X remained limited in distribution and was evaluated primarily as a specialized penetration design capable of operating with a reduced sensor signature. Its experimental status and reliance on novel components constrained broader operational deployment.</p>
@@ -177,4 +164,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Garret T22
 TARGETING:Neko Megane 6
 </systemModels>
+
+<source>
+XTR:Kurita
+</source>
+
+<published>
+XTR:Kurita
+</published>
+
+<tonnage>
+55.0
+</tonnage>
 

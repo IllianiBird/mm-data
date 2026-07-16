@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eaac-74d2-9629-c1f2eb661366
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Seahorse Cargo Sub
 <year>
 2625
 </year>
-
-<originalBuildYear>
-2625
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,30 +119,13 @@ LRT 10
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-250.0
-</tonnage>
-
-<fuel>
-26.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 14:27:05
-<overview>
-<p>The Seahorse Cargo Sub is a small submersible cargo carrier designed to support underwater operations across the Inner Sphere and beyond. Produced by the Galtor Naval Yards on New Ivaarsen, the Seahorse has served as a workhorse of underwater commerce and logistics since the golden years of the First Star League. Simple to operate and widely available, the design has proven remarkably durable across centuries of use, surviving the upheavals of the Succession Wars with only modest updates to its basic configuration. The most current version of the vessel continues to be assembled on the construction slips at New Ivaarsen. Though it lacks the sophistication of more advanced submersibles, the Seahorse remains a practical and reliable choice for operators working in demanding undersea environments throughout the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Seahorse is driven by an internal combustion engine, giving it a cruising speed adequate for its role as a cargo carrier. Its chief limitation is dive endurance. The vessel can sustain submerged operations for approximately twelve hours before it must surface to run its engines and replenish fuel. This is typically sufficient for transit between submerged habitats, underwater farms, and the factories and depots that many planets maintain on their ocean floors. Captains operating in coastal waters with elevated threat exposure will often surface to recharge in deeper water before making the final approach, accepting the operational delay to reduce risk.</p><p>Protection consists of a moderate layer of standard armor rated to BAR 7, sufficient to resist small arms fire and light weapons, but not designed to withstand sustained military attack. The Seahorse is not a combat vessel, and its armor reflects that reality.</p><p>Factory specifications include a pair of torpedo launcher mounts, one to each side, and a basic fire control package. In practice the vast majority of operating examples carry no torpedoes at all. The fire control equipment proved inadequate for reliable targeting, and most operators concluded the launchers consumed space and crew attention better spent elsewhere. The empty ports are left visible rather than plated over, functioning as a passive deterrent. A Seahorse running without weapons is the norm across the Inner Sphere; a fully armed example is the exception.</p>
 </capabilities>
+
+<overview>
+<p>The Seahorse Cargo Sub is a small submersible cargo carrier designed to support underwater operations across the Inner Sphere and beyond. Produced by the Galtor Naval Yards on New Ivaarsen, the Seahorse has served as a workhorse of underwater commerce and logistics since the golden years of the First Star League. Simple to operate and widely available, the design has proven remarkably durable across centuries of use, surviving the upheavals of the Succession Wars with only modest updates to its basic configuration. The most current version of the vessel continues to be assembled on the construction slips at New Ivaarsen. Though it lacks the sophistication of more advanced submersibles, the Seahorse remains a practical and reliable choice for operators working in demanding undersea environments throughout the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Seahorse is found most commonly in the hands of independent owner-operators and small planetary freight companies, typically serving routes between surface ports and submerged habitats, mining stations, or underwater industrial facilities. Larger corporations with extensive undersea extraction operations maintain fleets of the type to support logistical needs that surface vessels cannot reach. The design's modest cost and simple maintenance profile make it accessible to operators who cannot support more capable submersibles. The empty torpedo ports visible on most examples serve as the vessel's primary security measure, relying on the appearance of a threat-conscious crew rather than actual firepower.</p>
@@ -175,4 +158,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+250.0
+</tonnage>
+
+<fuel>
+26.5
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

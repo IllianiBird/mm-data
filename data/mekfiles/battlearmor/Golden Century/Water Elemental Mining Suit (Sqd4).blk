@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12-nightly-2026-02-26 on 2026-02-28
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7d3-7211-8ea4-3267e20495ff
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Water Elemental Mining Suit
 <year>
 2842
 </year>
-
-<originalBuildYear>
-2842
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Experimental
@@ -92,41 +92,13 @@ BAUMU
 BAUMU
 </slotless_equipment>
 
-<slotless_equipment>
-BAUMU
-</slotless_equipment>
-<source>
-TR:GC
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 20:33:02
-<overview>
-<p>The Water Elemental mining suit was a sophisticated submersible exoskeleton developed by Clan Goliath Scorpion for deep-sea industrial operations. Produced at the Hades Industrial Complex on Dagda beginning around 2842, the medium-weight design gave its operators the strength, mobility, and environmental protection needed for underwater mineral extraction and construction work at extreme depths. Though conceived as a purely civilian tool, the Water Elemental proved to be the most consequential industrial development in Clan history, providing the technical and engineering foundation from which all Clan battle armor would eventually descend.</p>
-</overview>
-
 <capabilities>
 <p>Powered by myomer musculature and sealed against extreme underwater pressure, the Water Elemental mining suit achieved its remarkable performance through a network of synchronized micro thrusters linked to thousands of pressure sensors woven into the inner lining. Simple gestures from the operator translated into precise thrust commands, allowing the suit to reach speeds rivaling dedicated submersible transports. The thruster array could also lock the suit motionless against strong currents, enabling precision work in turbulent conditions. Additional buoyancy control devices and depth sensors prevented dangerous rapid ascents while monitoring remaining power and air supply.</p><p>As a purely industrial design, the suit carried no weapons. Its equipment loadout included cutting torches, an industrial drill, a basic manipulator for material handling, and a searchlight for low-visibility operations. Two hundred kilograms of standard armor protected the operator from environmental hazards, though this protection was never intended to withstand directed weapons fire. On land, the suit managed only modest walking speed, with its design optimized entirely for underwater mobility.</p>
 </capabilities>
+
+<overview>
+<p>The Water Elemental mining suit was a sophisticated submersible exoskeleton developed by Clan Goliath Scorpion for deep-sea industrial operations. Produced at the Hades Industrial Complex on Dagda beginning around 2842, the medium-weight design gave its operators the strength, mobility, and environmental protection needed for underwater mineral extraction and construction work at extreme depths. Though conceived as a purely civilian tool, the Water Elemental proved to be the most consequential industrial development in Clan history, providing the technical and engineering foundation from which all Clan battle armor would eventually descend.</p>
+</overview>
 
 <deployment>
 <p>Smaller four-trooper work crews proved effective in confined mining tunnels and narrow underwater passages where the standard five-trooper formation was impractical. Clan Wolf also employed reduced-size teams during their early examination of the suits, before developing the formal doctrine that would eventually produce the Elemental battle armor.</p>
@@ -159,4 +131,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:GC
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

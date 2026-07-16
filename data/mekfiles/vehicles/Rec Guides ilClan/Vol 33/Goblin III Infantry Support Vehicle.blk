@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea36-7358-a12f-040b94f72257
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Goblin III Infantry Support Vehicle
 <year>
 3141
 </year>
-
-<originalBuildYear>
-3141
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -106,33 +106,13 @@ Machine Gun
 Large Re-engineered Laser
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG33
-</source>
-
-<published>
-RG33
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 14:37:40
-<overview>
-<p>The Goblin III Infantry Support Vehicle represents the most modern iteration of a lineage stretching back centuries, developed jointly by Jalastar Aerospace on Panpour and Johnston Industries on New Syrtis. By the late Dark Age, the aging ISV chassis struggled to keep pace with contemporary medium vehicles, limiting combined-arms effectiveness. The Goblin III addressed this with an enlarged powerplant that matches the speed of modern medium tanks, while expanding the infantry bay to accommodate battle armor squads and upgrading armor protection to heavy ferro-fibrous standards.</p><p>The design retains the Goblin's fundamental philosophy, a heavy weapon on a turret over a troop compartment, updated for the operational demands of the ilClan era.</p>
-</overview>
-
 <capabilities>
 <p>The Goblin III mounts a Large Re-engineered Laser as its primary weapon, providing substantial firepower with performance characteristics suited to the modern battlefield. A Machine Gun with CASE-protected ammunition gives the vehicle secondary anti-infantry capability without exposing the crew to ammunition explosion risk. The four-ton infantry bay comfortably accommodates a full battle armor squad, making the Goblin III effective both as a standalone combatant and as a battle armor delivery platform. Heavy ferro-fibrous armor provides protection exceeding most vehicles of equivalent weight.</p><p>The enlarged fusion engine enables the Goblin III to match the speed of contemporary medium designs, resolving the generational speed deficit that had characterized the Goblin family for decades. This speed increase is achieved without sacrificing armor protection or infantry capacity, representing a genuine across-the-board upgrade rather than a compromise between competing priorities.</p><p>The Goblin III's primary limitation is the same faced by all Goblin variants: it is a close-range platform. Its weapons profile suits short to medium engagement distances, and formations built around the Goblin III still require fire support assets to engage at extended ranges or to prepare objectives before the IFVs can close effectively.</p>
 </capabilities>
+
+<overview>
+<p>The Goblin III Infantry Support Vehicle represents the most modern iteration of a lineage stretching back centuries, developed jointly by Jalastar Aerospace on Panpour and Johnston Industries on New Syrtis. By the late Dark Age, the aging ISV chassis struggled to keep pace with contemporary medium vehicles, limiting combined-arms effectiveness. The Goblin III addressed this with an enlarged powerplant that matches the speed of modern medium tanks, while expanding the infantry bay to accommodate battle armor squads and upgrading armor protection to heavy ferro-fibrous standards.</p><p>The design retains the Goblin's fundamental philosophy, a heavy weapon on a turret over a troop compartment, updated for the operational demands of the ilClan era.</p>
+</overview>
 
 <deployment>
 <p>The Goblin III is deployed with Federated Suns mechanized formations requiring a modern IFV capable of keeping pace with contemporary medium vehicles. Its battle armor compatibility makes it particularly valuable in units integrating power-armored infantry into combined-arms doctrine. Both Johnston Industries on New Syrtis and Jalastar Aerospace on Panpour produce the vehicle for AFFS distribution, with supply maintained through the dual production arrangement even when one facility faces disruption. It is considered the current-generation Goblin for front-line formation issue.</p>
@@ -165,4 +145,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG33
+</source>
+
+<published>
+RG33
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

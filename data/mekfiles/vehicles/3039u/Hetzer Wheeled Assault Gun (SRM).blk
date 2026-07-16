@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e298-7150-8e89-a2a5e57f3785
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Hetzer Wheeled Assault Gun
 <year>
 2957
 </year>
-
-<originalBuildYear>
-2957
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -108,37 +108,13 @@ SRM 6
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u,RSFP:Battlefield
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-08 15:17:18
-<overview>
-<p>The Hetzer Wheeled Assault Gun represents the distilled philosophy of the Quikscell Company: maximum firepower at minimum cost. Introduced in 2887, the design was built to arm the militias and planetary defense forces of poorer worlds across the Inner Sphere, particularly those within or aligned with the Capellan Confederation. Quikscell mounted the most powerful conventional autocannon available on a wheeled platform just sturdy enough to carry it, cutting costs everywhere else to produce a vehicle with no turret, minimal armor, and a conventional internal combustion engine. The result could deliver a one-shot kill against virtually any battlefield target. Dubbed the H-WAG by English-speaking crews, the Hetzer earned both respect and contempt in equal measure, entering continuous production across multiple worlds and remaining relevant through centuries of conflict and field modification.</p>
-</overview>
-
 <capabilities>
 <p>The Hetzer's defining characteristic is its Crusher SH Cannon Autocannon/20, an enormous weapon for a 40-ton vehicle. To accommodate this gun, Quikscell accepted severe trade-offs across every other system. The vehicle has no turret, requiring the entire chassis to face the intended target before firing. The StarSlab/6 armor provides only marginal protection against sustained incoming fire, and the SitiCide 140 ICE engine delivers modest speed with none of the survivability of a fusion powerplant. These deficiencies make the Hetzer extremely vulnerable to anything that can maneuver around it or outrange it, and any enemy able to approach the vehicle's flanks or rear will find little armor to stop them.</p><p>Where the design excels is in prepared positions. Experienced crews entrench before battle, presenting only the front arc while delivering the full destructive power of the AC/20. Against BattleMechs approaching fixed fortifications or caught in ambush, the Hetzer is a genuine threat. In open terrain, it is little more than a slow and thinly armored target. Mechanically, the ICE powerplant is simple to maintain and requires minimal support infrastructure, keeping the vehicle operational on worlds that could not sustain anything more sophisticated. The Johnston Q-Band communications suite and Scantrex Dual Tac targeting system are reliable if unspectacular, consistent with the vehicle's overall design philosophy of functional sufficiency over technical excellence.</p>
 </capabilities>
+
+<overview>
+<p>The Hetzer Wheeled Assault Gun represents the distilled philosophy of the Quikscell Company: maximum firepower at minimum cost. Introduced in 2887, the design was built to arm the militias and planetary defense forces of poorer worlds across the Inner Sphere, particularly those within or aligned with the Capellan Confederation. Quikscell mounted the most powerful conventional autocannon available on a wheeled platform just sturdy enough to carry it, cutting costs everywhere else to produce a vehicle with no turret, minimal armor, and a conventional internal combustion engine. The result could deliver a one-shot kill against virtually any battlefield target. Dubbed the H-WAG by English-speaking crews, the Hetzer earned both respect and contempt in equal measure, entering continuous production across multiple worlds and remaining relevant through centuries of conflict and field modification.</p>
+</overview>
 
 <deployment>
 <p>The SRM variant replaces the primary cannon with short-range missiles, giving the Hetzer a more flexible if shorter-ranged weapons package. Short-range missile ammunition is widely available throughout the Inner Sphere, making this variant viable in supply-constrained environments. It is most commonly found in Capellan Confederation and associated militia forces, where the modification is performed at the unit level.</p>
@@ -171,4 +147,20 @@ ARMOR:StarSlab/6
 COMMUNICATIONS:Q-Band
 TARGETING:Dual Tac
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u,RSFP:Battlefield
+</published>
+
+<tonnage>
+40.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

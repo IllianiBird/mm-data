@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a40d-7fb1-a5bd-e2ad9f85062d
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kobold Battle Armor
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -97,42 +97,14 @@ CLBAFlamer:SSWM:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kobold is a light battle armor suit jointly developed by the Free Rasalhague Republic, ComStar, and the second Star League. Entering production in 3069 at Grumium Creations on Grumium, the design was born from the Republic’s desire for a stealth-capable scout suit after failed efforts to procure existing designs from other powers. A humanoid suit with jump capability and low-observable armor, the Kobold filled a gap in Republic and ComStar inventories for a light reconnaissance platform that could hold its own in direct combat while operating alongside heavier battle armor types.</p>
-</overview>
 
 <capabilities>
 <p>The small laser and flamer configuration emphasizes energy-based firepower, freeing the squad from dependence on limited ammunition stores. Each trooper’s modular weapon mount carries a small laser for consistent ranged output, while the squad leader’s flamer provides close-quarters area denial. This loadout favors extended operations where resupply is uncertain, as both primary weapons draw from the suit’s power systems rather than expendable magazines. The Kobold’s basic stealth armor absorbs a medium laser hit and reduces the squad’s targeting signature at range, giving these energy-focused teams additional survivability when operating ahead of friendly lines. At 750 kilograms with a ninety-meter jump capability, the suit retains enough mobility for scouting and flanking work. Armored gloves allow anti-BattleMech attacks and OmniMech transport, keeping the formation integrated with heavier combined-arms elements.</p>
 </capabilities>
+
+<overview>
+<p>The Kobold is a light battle armor suit jointly developed by the Free Rasalhague Republic, ComStar, and the second Star League. Entering production in 3069 at Grumium Creations on Grumium, the design was born from the Republic’s desire for a stealth-capable scout suit after failed efforts to procure existing designs from other powers. A humanoid suit with jump capability and low-observable armor, the Kobold filled a gap in Republic and ComStar inventories for a light reconnaissance platform that could hold its own in direct combat while operating alongside heavier battle armor types.</p>
+</overview>
 
 <deployment>
 <p>Com Guard Level Is carrying this all-energy configuration were distributed among rear-echelon security detachments, where their independence from ammunition supply lines made them attractive for static defense assignments. These six-trooper teams could sustain combat operations for extended periods without resupply, a critical advantage as ComStar’s logistical networks deteriorated during the Jihad.</p>
@@ -167,4 +139,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

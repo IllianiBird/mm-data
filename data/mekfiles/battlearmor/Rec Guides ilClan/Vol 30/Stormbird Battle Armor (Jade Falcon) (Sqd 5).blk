@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a827-7ed5-bf58-31d648149481
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Stormbird Battle Armor
 <year>
 3092
 </year>
-
-<originalBuildYear>
-3092
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis)
@@ -96,44 +96,13 @@ Clan BA Fire Resistant:LA
 BAJumpJet
 </slotless_equipment>
 
-
-
-<source>
-RG30
-</source>
-
-<published>
-RG30
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-13
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Stormbird is a heavy Clan battle armor suit developed jointly by Clan Jade Falcon and Clan Snow Raven. Introduced in 3092, the design was commissioned to address a capability gap in the Jade Falcon battle armor inventory while providing the Snow Ravens with an anti-infantry platform they had long desired. Classified as a heavy assault suit, the Stormbird earned a divided reception. The Snow Ravens considered it an immediate success, while the Falcons found the final product too narrowly specialized for their broader operational needs.</p>
-</overview>
-
 <capabilities>
 <p>The Jade Falcon configuration replaces the arm-mounted flamer with an AP Gauss Rifle carrying twenty rounds, paired with a downgraded SRM 3 launcher and four reloads. Jump jets provide vertical mobility at the cost of halving the suit's ground speed, while Inner Sphere-produced magnetic clamps allow troopers to ride on friendly OmniMechs. These modifications reflect the Falcons' efforts to reshape the Stormbird into a broader combat platform.</p><p>The AP Gauss Rifle offers precision anti-infantry fire at longer range than the base configuration's flamer, and jump capability addresses the original design's most significant limitation. However, the reduced ground speed and lighter missile armament leave this variant less devastating in close-quarters engagements.</p>
 </capabilities>
+
+<overview>
+<p>The Stormbird is a heavy Clan battle armor suit developed jointly by Clan Jade Falcon and Clan Snow Raven. Introduced in 3092, the design was commissioned to address a capability gap in the Jade Falcon battle armor inventory while providing the Snow Ravens with an anti-infantry platform they had long desired. Classified as a heavy assault suit, the Stormbird earned a divided reception. The Snow Ravens considered it an immediate success, while the Falcons found the final product too narrowly specialized for their broader operational needs.</p>
+</overview>
 
 <deployment>
 <p>Jade Falcon Points deployed the reconfigured Stormbird as a more flexible complement to existing Elemental forces. Jump capability and magnetic clamps allowed five-trooper elements to ride OmniMechs into battle and deploy rapidly across uneven terrain, filling a tactical gap the base configuration could not address.</p>
@@ -168,4 +137,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG30
+</source>
+
+<published>
+RG30
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+13
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

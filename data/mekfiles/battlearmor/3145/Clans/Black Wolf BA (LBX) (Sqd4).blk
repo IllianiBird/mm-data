@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a5de-7bbf-9a55-8f20c8bea06a
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Black Wolf Battle Armor
 <year>
 3138
 </year>
-
-<originalBuildYear>
-3138
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -95,46 +95,14 @@ Clan BA Reactive (Blazer):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<notes>
-The Black Wolf was originally conceived by WizKids' MechWarrior Dark Age Collectable Miniatures game as a part of its Battleforce expansion set. The figure for the Black Wolf battle armor would only be used with a mercenary faction. The battle armor would later adopted by Catalyst Game Labs and redefined in the tabletop game once the company advanced the franchise's timeline to 3145.
-</notes>
-
-<source>
-TR:3145:C,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-1
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Black Wolf is a heavy class battle armor developed jointly by the scientist castes of Clan Wolf and Clan Wolf-in-Exile. Entering production in 3138, the suit was designed for close-in assault and support roles, configurable across multiple weapon loadouts to match mission requirements. Built on a Clan technology base, the design prioritizes heavy armor protection and durability over speed, giving it the staying power expected of a front-line Clan combat platform. Despite the complications that arose from its dual-origin development, the Black Wolf earned a reputation as a flexible and capable suit in the hands of both Clans.</p>
-</overview>
 
 <capabilities>
 <p>The Black Wolf weighs 1,500 kilograms, with its bulk devoted to heavy armor and weapon systems rather than speed. Ground mobility is limited to ten kilometers per hour, supplemented by jump jets capable of thirty-meter bounds. The right arm carries a Heavy Battle Claw that serves double duty as an OmniMech mounting bracket and a melee weapon. Reactive armor plating, 385 kilograms in total, provides strong resistance to explosive damage and missile fire while offering less protection against focused energy attacks.</p><p>The LBX configuration mounts a battle armor-scale LB-X autocannon on the left arm modular weapon point. Cluster munitions make this loadout effective against other battle armor, light vehicles, and exposed infantry, spreading damage across a wide impact area. The autocannon requires ammunition resupply that limits sustained operations, but its raw burst damage output at close range gives the LBX configuration a hard-hitting anti-materiel role that complements the suit aggressive assault profile.</p>
 </capabilities>
+
+<overview>
+<p>The Black Wolf is a heavy class battle armor developed jointly by the scientist castes of Clan Wolf and Clan Wolf-in-Exile. Entering production in 3138, the suit was designed for close-in assault and support roles, configurable across multiple weapon loadouts to match mission requirements. Built on a Clan technology base, the design prioritizes heavy armor protection and durability over speed, giving it the staying power expected of a front-line Clan combat platform. Despite the complications that arose from its dual-origin development, the Black Wolf earned a reputation as a flexible and capable suit in the hands of both Clans.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere units fielding the LBX configuration in four-trooper squads employed them as anti-armor hunter-killer teams. The LB-X autocannon cluster munitions gave each squad a credible threat against light vehicles and opposing battle armor, and the smaller formation lower signature allowed these teams to set ambushes along supply routes and patrol corridors.</p>
@@ -169,4 +137,36 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+The Black Wolf was originally conceived by WizKids' MechWarrior Dark Age Collectable Miniatures game as a part of its Battleforce expansion set. The figure for the Black Wolf battle armor would only be used with a mercenary faction. The battle armor would later adopted by Catalyst Game Labs and redefined in the tabletop game once the company advanced the franchise's timeline to 3145.
+</notes>
+
+<source>
+TR:3145:C,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+1
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

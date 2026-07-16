@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e947-75fa-ac34-ea5ecf8aebfc
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Thor Artillery Vehicle
 <year>
 2801
 </year>
-
-<originalBuildYear>
-2801
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -108,35 +108,13 @@ Machine Gun
 Machine Gun
 </Turret Equipment>
 
-<slotless_equipment>
-IS Ammo RL-20
-IS Ammo RL-20
-</slotless_equipment>
-
-<source>
-His:OK
-</source>
-
-<published>
-RS:OK
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Thor Artillery Vehicle was developed in 2680 to meet a critical SLDF operational requirement: a wheeled fire support platform fast enough to keep pace with combined-arms formations while delivering the Thumper cannon's devastating payload. Ulston Armor of Terra won the development contract by submitting the only design that met Quartermaster Command's 80 km/h minimum speed specification, and the resulting vehicle entered service as the SLDF's primary self-propelled artillery asset. Built around the integration of the Thumper with a rapid-deploy chassis, the Thor gave frontline commanders direct access to artillery support without the delays that had plagued fixed or slower-moving systems. Though initial reception was mixed due to the design's wheeled configuration limiting off-road mobility, the Thor's combination of speed, crew protection, and sustained fire support proved itself in service and the vehicle became a standard component of SLDF task force organizations.</p>
-</overview>
-
 <capabilities>
 <p>The Thor's primary armament is a Thumper artillery piece carrying forty rounds of ammunition. An auto-loading system speeds the weapon's firing cycle considerably, and an advanced trans-optical aiming system allows spotters working alongside the vehicle to direct fire with precision at ranges up to seven kilometers. A battery of Thors operating together can saturate entire city blocks within minutes, making them decisive assets in siege operations and area-denial roles.</p><p>Defensively, the Thor carries seven and a half tons of ferro-fibrous armor, which provides above-average protection for the vehicle's weight class but still leaves it more lightly protected than many contemporary designs. The Thor relies heavily on its exceptional road speed for survival rather than raw armor thickness. A CASE system channels any ammunition detonation away from the crew, a critical feature given the substantial artillery ammunition load aboard. Two medium lasers mounted on an elevated crane turret provide close-range self-defense options, though the preferred tactic is to redeploy before threats can close. The wheeled suspension that grants the design its speed advantage becomes a significant liability in rough or broken terrain, confining effective Thor operations to environments where that mobility can be exploited.</p>
 </capabilities>
+
+<overview>
+<p>The Thor Artillery Vehicle was developed in 2680 to meet a critical SLDF operational requirement: a wheeled fire support platform fast enough to keep pace with combined-arms formations while delivering the Thumper cannon's devastating payload. Ulston Armor of Terra won the development contract by submitting the only design that met Quartermaster Command's 80 km/h minimum speed specification, and the resulting vehicle entered service as the SLDF's primary self-propelled artillery asset. Built around the integration of the Thumper with a rapid-deploy chassis, the Thor gave frontline commanders direct access to artillery support without the delays that had plagued fixed or slower-moving systems. Though initial reception was mixed due to the design's wheeled configuration limiting off-road mobility, the Thor's combination of speed, crew protection, and sustained fire support proved itself in service and the vehicle became a standard component of SLDF task force organizations.</p>
+</overview>
 
 <deployment>
 <p>This stripped-down variant emerged on the Pentagon Worlds in the centuries following the Exodus, where Star League components could no longer be maintained or replaced. Military commanders substituted available materials, replacing the Thumper and its fire control with an AC/10, a quad machine gun mount, and a pair of heavy rocket launchers, while an ICE powerplant replaced the fusion engine. The result was a generalist combat vehicle suited to garrison and raiding roles rather than dedicated artillery support, representing the practical adaptation of a sophisticated design to the severe industrial limitations of Pentagon Worlds forces before Operation Klondike.</p>
@@ -169,4 +147,20 @@ ARMOR:Unknown Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+His:OK
+</source>
+
+<published>
+RS:OK
+</published>
+
+<tonnage>
+55.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

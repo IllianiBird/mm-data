@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a931-7cd2-9283-e569a33d97a9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Coral Intent(Sqd5)
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -98,38 +98,14 @@ IS BA Mimetic:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Davion
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Infiltrator Mk. II was developed by the New Avalon Institute of Science as a replacement for the original Infiltrator battle armor. Produced by Albion Advanced Technologies and Products on New Avalon, the medium-weight stealth suit entered service in 3060 after a lengthy development program. Nicknamed the "Puma" by its operators, the Mk. II addressed the shortcomings of its predecessor while preserving the core mission of deep reconnaissance and covert operations. The suit earned a strong reputation among Federated Commonwealth special forces and intelligence agencies as a capable platform for both stealth scouting and direct action missions that the original Infiltrator could not perform.</p>
-</overview>
 
 <capabilities>
 <p>The Coral Intent is an experimental configuration developed under Project CORAL INTENT at Achernar BattleMechs on New Avalon. The prototypes replace the standard stealth armor with mimetic armor that adapts its surface appearance to surrounding terrain. A battle armor C3 system, acquired from Draconis Combine sources, provides networked targeting data to friendly units. Because the C3 system cannot function alongside the standard ECM suite, the Coral Intent trades electronic warfare protection for force multiplication through shared targeting. Federated-Barrett developed the "Thunderstick," a modification of the David light Gauss rifle, as the primary weapon after the standard Magshot proved too massive for the modified chassis. Basic manipulators on both arms and integral jump jets are retained. The prototypes remain in extended field testing, with operational deployment limited to evaluation scenarios.</p>
 </capabilities>
+
+<overview>
+<p>The Infiltrator Mk. II was developed by the New Avalon Institute of Science as a replacement for the original Infiltrator battle armor. Produced by Albion Advanced Technologies and Products on New Avalon, the medium-weight stealth suit entered service in 3060 after a lengthy development program. Nicknamed the "Puma" by its operators, the Mk. II addressed the shortcomings of its predecessor while preserving the core mission of deep reconnaissance and covert operations. The suit earned a strong reputation among Federated Commonwealth special forces and intelligence agencies as a capable platform for both stealth scouting and direct action missions that the original Infiltrator could not perform.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Coral Intent Points were assembled for evaluation in Clan-compatible organizational structures. The C3 system's force-multiplication capability was tested across a broader formation spread, though the experimental nature of the program restricted deployment to controlled evaluation scenarios and limited field trials.</p>
@@ -164,4 +140,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Davion
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

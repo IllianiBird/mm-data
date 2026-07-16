@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0d5-7f38-8924-961193df64df
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Siren
 <year>
 3068
 </year>
-
-<originalBuildYear>
-3068
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -117,34 +117,13 @@ CLERMicroLaser
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-3.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Siren is a three-ton first-generation ProtoMek designed by Clan Smoke Jaguar as the fastest ground unit in the original ProtoMek program. Built around an oversized forty-five-rated fusion engine that accounts for a third of the machine total mass, the Siren achieves a cruising speed of one hundred and eight kilometers per hour, outpacing virtually every ground-based combat unit short of a hovercraft. This extraordinary speed comes at the cost of nearly everything else: the Siren carries only minimal armor and a pair of light machine guns, making it almost useless in direct combat against anything heavier than conventional infantry. Its intended role as a forward scout and spotter for heavier ProtoMek formations leverages its one overwhelming advantage to compensate for its many limitations.</p>
-</overview>
-
 <capabilities>
 <p>Speed defines the Siren. Its forty-five-rated engine pushes the three-ton frame to a flank speed approaching one hundred and sixty-two kilometers per hour, making it the fastest ProtoMek ever produced and one of the fastest ground combat units in any arsenal. A pair of light machine guns provide suppressive capability against unarmored targets, though they pose no meaningful threat to battle armor or armored vehicles. The Siren carries twelve points of armor, barely sufficient to survive a single medium laser hit, and mounts no jump jets.</p><p>The Siren excels in exactly one role: high-speed reconnaissance. A Point of Sirens can cover enormous distances in minimal time, identifying enemy positions and calling in strikes from heavier assets before the opposition can react. The design is catastrophically vulnerable to interception, however, as any hit that penetrates its thin armor is likely to cause critical damage. Pilots learn quickly that the Siren survival depends entirely on maintaining speed and avoiding engagement. Those who stop moving or attempt to stand and fight rarely survive the experience. In combined-arms formations, Sirens typically operate well ahead of the main body, providing real-time intelligence that allows heavier ProtoMeks and BattleMeks to maneuver into advantageous positions.</p>
 </capabilities>
+
+<overview>
+<p>The Siren is a three-ton first-generation ProtoMek designed by Clan Smoke Jaguar as the fastest ground unit in the original ProtoMek program. Built around an oversized forty-five-rated fusion engine that accounts for a third of the machine total mass, the Siren achieves a cruising speed of one hundred and eight kilometers per hour, outpacing virtually every ground-based combat unit short of a hovercraft. This extraordinary speed comes at the cost of nearly everything else: the Siren carries only minimal armor and a pair of light machine guns, making it almost useless in direct combat against anything heavier than conventional infantry. Its intended role as a forward scout and spotter for heavier ProtoMek formations leverages its one overwhelming advantage to compensate for its many limitations.</p>
+</overview>
 
 <deployment>
 <p>The Siren 4 incorporates a myomer booster system alongside an ER Micro Laser, maintaining the original cruising speed of one hundred and eight kilometers per hour while adding dramatically increased sprint capability when the booster activates. The ER Micro Laser eliminates ammunition dependency entirely, allowing indefinite patrol duration limited only by pilot endurance. Armor protection remains at twelve points. This variant is favored for deep-penetration reconnaissance missions where resupply is impossible and the booster sprint speed allows rapid disengagement from unexpected contacts.</p>
@@ -173,4 +152,16 @@ TARGETING:Unknown
 <systemModels>
 ENGINE:45 Fusion
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+3.0
+</tonnage>
 

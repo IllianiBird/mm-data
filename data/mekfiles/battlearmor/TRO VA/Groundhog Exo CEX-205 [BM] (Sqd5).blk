@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a86b-71b3-bd85-0f48327f2b00
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ CEX-205 [Basic Manipulator](Sqd5)
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -88,46 +88,14 @@ BABasicManipulator:RA
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:VAr
-</source>
-
-<published>
-RS:VA
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
-</overview>
 
 <capabilities>
 <p>The Basic Manipulator configuration mounts standard dexterous manipulators on both arms, providing operators with the fine motor control needed for general-purpose field work. Like all Groundhog configurations, the suit weighs four hundred kilograms and carries one hundred kilograms of standard armor, sufficient against small arms fire but inadequate against battlefield weapons. Ground speed reaches thirty kilometers per hour with no jump capability.</p><p>The Basic Manipulator loadout retains the ability to conduct swarm and leg attacks against BattleMechs and can employ standard infantry weapons, making it functionally similar to the Armored Glove configuration in combat situations. Where the two diverge is in utility: the Basic Manipulator's articulated fingers excel at tasks requiring precision handling, from field repairs to equipment setup. The integrated searchlight and mission equipment bay round out the configuration's support capabilities. The lack of specialized tooling makes this the most general-purpose of the Groundhog's standard configurations, trading task-specific efficiency for broad adaptability.</p>
 </capabilities>
+
+<overview>
+<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
+</overview>
 
 <deployment>
 <p>Clan Points fielding Basic Manipulator Groundhogs served primarily in rear-area support roles, performing maintenance and logistics tasks at garrison facilities. The exoskeleton's general-purpose manipulators suited the broad range of duties assigned to Clan labor caste personnel, and five-trooper Points could cover substantial work areas during facility maintenance rotations.</p>
@@ -160,4 +128,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<published>
+RS:VA
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

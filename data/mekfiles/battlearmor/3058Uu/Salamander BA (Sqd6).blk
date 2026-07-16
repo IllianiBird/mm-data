@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a33d-77cb-8aa1-e5beecd3b895
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Salamander Battle Armor
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -97,40 +97,15 @@ Clan BA Fire Resistant:LA
 
 <slotless_equipment>
 BAJumpJet
-BA-SRM1 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Salamander is a Clan medium battle armor suit developed by Kindraa Faraday-Tanaga of Clan Fire Mandrill. Entering production in 3058, the design revived and modernized an earlier specialist suit that had been phased out in favor of the Elemental. The Salamander's emphasis on fire-based weaponry honors its creators' totem animal and gives the suit a fearsome reputation in close-quarters combat. Jump-capable and equipped with specialized climbing claws, the Salamander excels at anti-BattleMech swarming attacks despite carrying relatively light armor for its weight class. The suit has been widely adopted across Clan militaries, with several Clans producing their own tailored configurations.</p>
-</overview>
 
 <capabilities>
 <p>The Salamander is a one-ton medium battlesuit built around fire-based weaponry. A pair of 'Mech-scale flamers, one mounted beneath each arm, form the primary armament. These weapons generate enough thermal output to threaten the heat management systems of light and lighter medium BattleMechs, while proving devastating against infantry and vehicles. A single one-shot Inferno SRM launcher on the shoulder provides an additional heat spike during anti-'Mech engagements. Each arm terminates in a battle claw, and magnetic claws on the feet allow the suit to scale a BattleMech's hull as easily as walking on flat ground, making it one of the most effective swarming platforms in Clan service. Jump jets provide ninety meters of leap capability. The trade-off for this offensive package is thin armor protection, roughly half that of the Gnome. Fire-resistant plating shrugs off heat-based attacks, but the suit remains exposed to ballistic and missile fire.</p>
 </capabilities>
+
+<overview>
+<p>The Salamander is a Clan medium battle armor suit developed by Kindraa Faraday-Tanaga of Clan Fire Mandrill. Entering production in 3058, the design revived and modernized an earlier specialist suit that had been phased out in favor of the Elemental. The Salamander's emphasis on fire-based weaponry honors its creators' totem animal and gives the suit a fearsome reputation in close-quarters combat. Jump-capable and equipped with specialized climbing claws, the Salamander excels at anti-BattleMech swarming attacks despite carrying relatively light armor for its weight class. The suit has been widely adopted across Clan militaries, with several Clans producing their own tailored configurations.</p>
+</overview>
 
 <deployment>
 <p>ComStar and Word of Blake formations organized Salamanders into six-trooper Level I units, reflecting their unique military structure. Access to Clan battle armor remained limited for both factions, and Salamander Level Is were typically attached to specialized Com Guard or Word of Blake Militia formations tasked with garrison and security operations in contested zones.</p>
@@ -165,4 +140,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

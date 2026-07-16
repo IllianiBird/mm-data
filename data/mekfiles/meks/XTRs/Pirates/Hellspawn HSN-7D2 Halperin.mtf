@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-dfd1-7fd5-be4e-21bfbdde441e
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Hellspawn
 model:HSN-7D2 (Halperin)
 mul id:1478
@@ -176,7 +177,6 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Hellspawn was developed by General Motors in response to a 3056 call from the Armed Forces of the Federated Commonwealth for a modern, highly mobile fire support BattleMech to replace the aging Dervish. As the flagship design of GM's newly opened production facility on Talcott, the Hellspawn was awarded its contract by the Department of the Quartermaster in October 3060 and first entered service in 3062.</p><p>At 45 tons, the Hellspawn carries the same primary firepower as the Dervish in a package ten tons lighter, trading armor protection and structural durability for dramatically increased speed and maneuverability. The design incorporates advanced technologies including an endo steel chassis, extralight engine, and integrated Guardian ECM suite, positioning it as a next-generation fire support platform for Federated Suns forces. Despite its technological sophistication, the Hellspawn has earned a mixed reputation, praised for its agility but criticized for its fragility.</p>
 
 capabilities:<p>The Hellspawn is built on a GM Fury-M endo steel chassis powered by a GM 270 XL extralight engine, achieving a top speed of 97.2 kph, significantly faster than the Dervish it was designed to replace. Six Rawlings 80 jump jets provide an impressive 180 meters of jumping capability, making the Hellspawn one of the most mobile fire support platforms in active service. A Dalban SuperMicronics communications system integrated with a Guardian ECM suite provides protection against enemy electronic warfare systems such as C3 networks and Artemis IV fire control.</p><p>Twin Federated 10-Shot LRM-10 launchers deliver effective ranged fire support, while three RAMTech 800P medium pulse lasers provide accurate close-range defense that actually improves upon the Dervish's short-range capability while reducing ammunition dependency. However, the design's most significant weakness is its armor protection. Six and a half tons of StarGuard III armor represents less than seventy percent of the chassis' theoretical maximum, leaving the Hellspawn dangerously vulnerable to concentrated fire. The decision to forgo CASE protection for the left torso ammunition bins compounds this fragility, and the XL engine amplifies the vulnerability further, any side torso breach results in a catastrophic combat kill, leading some pilots to label the 'Mech a deathtrap.</p>
@@ -188,6 +188,8 @@ history:<p>The Hellspawn's development was driven by the devastation inflicted u
 manufacturer:General Motors
 
 primaryfactory:Talcott
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:GM
 systemmode:CHASSIS:Fury-M Endo

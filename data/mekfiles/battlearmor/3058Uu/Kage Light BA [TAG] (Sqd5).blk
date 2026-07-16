@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a2cd-7ca8-8449-afe3f11d8711
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kage Light Battle Armor
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -94,38 +94,14 @@ CLBALightTAG:SSWM:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kage ("shadow") light battle armor was one of the first Draconis Combine designs to enter production following the Truce of Tukayyid. Developed jointly by Internal Security Force scientists and Draconis Elite Strike Team advisers, the suit was built for reconnaissance, infiltration, and intelligence gathering in hostile environments. Produced by New Samarkand Metals and Luthien Armor Works, the Kage entered service in 3056 as a replacement for the older DEST Infiltration Suit, offering far greater protection and mobility. The design earned a strong reputation within DCMS special operations and line formations alike for its exceptional aerial agility and advanced stealth characteristics.</p>
-</overview>
 
 <capabilities>
 <p>The TAG configuration equips one trooper with a light target acquisition gear unit carried as a squad support weapon, allowing the team to designate targets for Arrow IV artillery missiles and semi-guided munitions. The remaining troopers carry anti-personnel weapons on the right forearm, and all operators retain their armored gloves. The suit weighs 750 kilograms and carries 275 kilograms of basic stealth armor with electronic and infrared suppression capable of defeating active probe systems. Its partial wing assembly provides 120-meter assisted jumps with a retractable profile for reduced visibility.</p><p>This loadout transforms the Kage from a pure reconnaissance platform into a force multiplier, enabling precision strikes from supporting artillery batteries. DCMS line units favor this configuration for forward observation duty, where the suit's stealth allows troopers to reach and hold designation positions deep in enemy territory. The TAG provides no direct combat capability, leaving the team dependent on anti-personnel weapons and extraction speed if discovered.</p>
 </capabilities>
+
+<overview>
+<p>The Kage ("shadow") light battle armor was one of the first Draconis Combine designs to enter production following the Truce of Tukayyid. Developed jointly by Internal Security Force scientists and Draconis Elite Strike Team advisers, the suit was built for reconnaissance, infiltration, and intelligence gathering in hostile environments. Produced by New Samarkand Metals and Luthien Armor Works, the Kage entered service in 3056 as a replacement for the older DEST Infiltration Suit, offering far greater protection and mobility. The design earned a strong reputation within DCMS special operations and line formations alike for its exceptional aerial agility and advanced stealth characteristics.</p>
+</overview>
 
 <deployment>
 <p>Clan Nova Cat organized TAG-carrying Kage suits into five-trooper Points to support combined-arms operations alongside Combine artillery assets. The designation capability proved valuable during joint exercises and garrison operations, where Nova Cat commanders integrated Combine indirect fire doctrine into their tactical planning.</p>
@@ -160,4 +136,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

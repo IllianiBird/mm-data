@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a34f-7414-827e-3c2fe720e0f8
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Sylph Battle Armor
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -92,38 +92,14 @@ BABattleClaw:LA
 <slotless_equipment>
 BAVTOL
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-5
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Sylph is a light Clan battle armor suit developed by Clan Cloud Cobra as the first fully airborne infantry design in known space. Fielded in 3060, the suit was conceived to extend the Cloud Cobras' aerospace dominance into the battle armor domain, giving their touman an infantry capability no other Clan possessed. The Sylph's VTOL-capable propulsion system allows sustained flight at speeds exceeding fifty kilometers per hour, though this mobility comes at the cost of reduced armor protection and a limited weapon payload. The design earned its operators a level of respect typically reserved for fighter pilots within Clan Cloud Cobra's warrior caste.</p>
-</overview>
 
 <capabilities>
 <p>The upgraded Sylph replaces the micro pulse laser and bomb rack with a heavy machine gun in the right arm and a standard machine gun in the left, trading precision energy fire for raw ballistic output. This loadout dramatically increases lethality against unarmored infantry and soft targets. A body-mounted searchlight rounds out the configuration, enabling effective operations in darkness and low-visibility conditions. The VTOL propulsion system remains unchanged, preserving the suit's aerial mobility and agility. Without the bomb rack, the Upgrade sacrifices its burst damage capability, and the machine guns lack effective stopping power against armored targets or hardened vehicles. The configuration excels in a night-fighting and anti-infantry role but struggles in engagements where opponents field heavy protection.</p>
 </capabilities>
+
+<overview>
+<p>The Sylph is a light Clan battle armor suit developed by Clan Cloud Cobra as the first fully airborne infantry design in known space. Fielded in 3060, the suit was conceived to extend the Cloud Cobras' aerospace dominance into the battle armor domain, giving their touman an infantry capability no other Clan possessed. The Sylph's VTOL-capable propulsion system allows sustained flight at speeds exceeding fifty kilometers per hour, though this mobility comes at the cost of reduced armor protection and a limited weapon payload. The design earned its operators a level of respect typically reserved for fighter pilots within Clan Cloud Cobra's warrior caste.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake and ComStar Level I formations that acquired the Upgrade variant valued its anti-infantry firepower and night-fighting capability. Six-trooper teams conducted building clearance and urban patrol operations where the searchlight illuminated targets for the machine gun armament, a straightforward and effective tactical pairing.</p>
@@ -156,4 +132,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+5
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

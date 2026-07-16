@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-c03d-7bab-baf5-6d68727ea1f2
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Jump Squad
 <year>
 2025
 </year>
-
-<originalBuildYear>
-2025
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -52,6 +52,10 @@ AntiMekGear
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Jump infantry squads are squad-strength formations equipped with personal jump packs for vertical mobility. Smaller than a full jump platoon, these squads operate as reconnaissance elements, rooftop security teams, and rapid insertion forces where a compact footprint and three-dimensional movement matter more than sustained combat power. Their reduced numbers limit staying power in prolonged engagements, but the combination of small size and jump capability makes them difficult to pin down or predict.</p>
+</overview>
+
 <source>
 TW
 </source>
@@ -67,9 +71,4 @@ TW
 <Primary>
 InfantryAssaultRifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Jump infantry squads are squad-strength formations equipped with personal jump packs for vertical mobility. Smaller than a full jump platoon, these squads operate as reconnaissance elements, rooftop security teams, and rapid insertion forces where a compact footprint and three-dimensional movement matter more than sustained combat power. Their reduced numbers limit staying power in prolonged engagements, but the combination of small size and jump capability makes them difficult to pin down or predict.</p>
-</overview>
 

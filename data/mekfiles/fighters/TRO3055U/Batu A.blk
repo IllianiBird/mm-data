@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-adfc-7a99-bfd2-778fe3bf7be3
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ A
 <year>
 2987
 </year>
-
-<originalBuildYear>
-2987
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -131,34 +131,13 @@ Clan Ammo SRM-6:OMNI
 CLCASE
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3055U
-</source>
-
-<published>
-RS:3055Uu
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Batu is a forty-ton Clan OmniFighter developed by Clan Steel Viper as a light interceptor. Introduced in 2987 at the Mercer Foundries on New Kent, the design reflects the Vipers' preference for swift, decisive strikes in both aerial and ground engagements. The Batu prioritizes agility and raw offensive potential over durability, carrying an impressive eighteen tons of pod space for a fighter of its weight class. This generous payload allows the Batu to be configured for a wide range of combat roles despite its light frame.</p><p>Over the centuries, Clans Wolf, Jade Falcon, Fire Mandrill, and others have acquired Batu fighters through Trials of Possession and battlefield salvage, redistributing the design wherever it was most needed. The fighter remains a respected, if niche, presence in Clan toumans as a fast-response interceptor.</p>
-</overview>
-
 <capabilities>
 <p>Built on the Mercer Ultralight chassis and powered by a 280-rated XL engine, the Batu achieves a safe thrust of nine and maximum thrust of fourteen, making it one of the more agile fighters in its weight class. The Cobra Pattern 12 ferro-aluminum armor provides reasonable protection while keeping weight available for weaponry, though the resulting 153 points of armor coverage is below average for a forty-ton fighter. Ten fixed double heat sinks handle baseline thermal loads, though many configurations push beyond their capacity.</p><p>The Batu's eighteen tons of pod space represent its primary advantage, allowing it to mount firepower that rivals heavier designs. This comes at a cost, however. The fighter carries only 240 points of fuel, which severely limits its operational endurance. Pilots must engage decisively and withdraw quickly, as extended patrols or prolonged dogfights will exhaust fuel reserves well before ammunition or heat become concerns. The LongTalk 2 communications suite and Mark IX targeting and tracking system provide solid electronic support across all configurations.</p>
 </capabilities>
+
+<overview>
+<p>The Batu is a forty-ton Clan OmniFighter developed by Clan Steel Viper as a light interceptor. Introduced in 2987 at the Mercer Foundries on New Kent, the design reflects the Vipers' preference for swift, decisive strikes in both aerial and ground engagements. The Batu prioritizes agility and raw offensive potential over durability, carrying an impressive eighteen tons of pod space for a fighter of its weight class. This generous payload allows the Batu to be configured for a wide range of combat roles despite its light frame.</p><p>Over the centuries, Clans Wolf, Jade Falcon, Fire Mandrill, and others have acquired Batu fighters through Trials of Possession and battlefield salvage, redistributing the design wherever it was most needed. The fighter remains a respected, if niche, presence in Clan toumans as a fast-response interceptor.</p>
+</overview>
 
 <deployment>
 <p>The A configuration combines long-range striking power with close-in missile saturation. A nose-mounted ER PPC provides reach, while a Narc missile beacon feeds targeting data to four SRM-6 launchers split between the wings. An additional double heat sink manages the PPC's thermal output. The Narc system carries only a single ton of pods, limiting its usefulness in extended engagements, though the two tons of SRM ammunition will outlast the beacon's supply.</p>
@@ -191,4 +170,16 @@ ARMOR:Pattern 12 Ferro-aluminum
 COMMUNICATIONS:LongTalk 2
 TARGETING:Mark IX TTS
 </systemModels>
+
+<source>
+TR:3055U
+</source>
+
+<published>
+RS:3055Uu
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

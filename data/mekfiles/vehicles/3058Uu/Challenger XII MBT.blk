@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e3f9-731b-a761-078316611839
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ XII
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -116,26 +116,13 @@ ISArtemisIV
 ISStreakSRM4
 </Turret Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Challenger MBT is a ninety-ton main battle tank developed jointly by Kallon Industries and General Motors in response to the Federated Suns' urgent need for heavy tracked combat vehicles capable of engaging Clan BattleMechs during the invasion years of the 3050s. Rather than compete for lucrative armored vehicle contracts, the two manufacturers pooled their resources to produce an entirely new assault vehicle that could go head-to-head with most frontline OmniMechs. Entering service with the Armed Forces of the Federated Suns in 3057, the Challenger was simultaneously produced at plants on Salem, Kathil, and Kirklin, allowing rapid distribution across AFFS armored formations throughout the Crucis Reach and beyond. Its combination of a heavy Gauss rifle, layered secondary weapons, and substantial armor protection established the Challenger as the primary main battle tank of the Federated Suns, a role it has maintained through successive variants spanning the Clan Invasion, the FedCom Civil War, the Jihad, and the post-Jihad eras.</p>
-</overview>
-
 <capabilities>
 <p>The Challenger XII is a less radical C³ alternative to the XI, designed for commanders who wanted network integration without sacrificing the original's multi-range weapons capability. First fielded during the FedCom Civil War in 3065, the XII replaces the LB 10-X autocannon with a rotary autocannon/2, providing higher sustained fire rates against lightly armored targets. The LRM-10 is upgraded to a fifteen-tube launcher for improved indirect fire volume, and the two Streak SRM-2 racks are consolidated into a single Streak SRM-4 for more efficient ammunition management. A pair of ER medium lasers rounds out the close-range suite.</p><p>The XII carries a Guardian ECM suite that complicates enemy targeting solutions and counters opposing C³ networks, a significant advantage against Word of Blake forces encountered during the Jihad. A C³ slave link allows the XII to integrate into a master-linked formation without requiring the vehicle itself to carry the heavier master computer. This more conservative approach preserves the Challenger's multi-range engagement capability while adding electronic warfare capacity unavailable on earlier variants. Hull protection and mobility are retained from the base X, with the GM 270 XL engine and Kallon Unity Weave armor unchanged.</p>
 </capabilities>
+
+<overview>
+<p>The Challenger MBT is a ninety-ton main battle tank developed jointly by Kallon Industries and General Motors in response to the Federated Suns' urgent need for heavy tracked combat vehicles capable of engaging Clan BattleMechs during the invasion years of the 3050s. Rather than compete for lucrative armored vehicle contracts, the two manufacturers pooled their resources to produce an entirely new assault vehicle that could go head-to-head with most frontline OmniMechs. Entering service with the Armed Forces of the Federated Suns in 3057, the Challenger was simultaneously produced at plants on Salem, Kathil, and Kirklin, allowing rapid distribution across AFFS armored formations throughout the Crucis Reach and beyond. Its combination of a heavy Gauss rifle, layered secondary weapons, and substantial armor protection established the Challenger as the primary main battle tank of the Federated Suns, a role it has maintained through successive variants spanning the Clan Invasion, the FedCom Civil War, the Jihad, and the post-Jihad eras.</p>
+</overview>
 
 <deployment>
 <p>The Challenger XII was distributed more broadly than the XI, as its combination of C³ slave link and more complete weapons array made it viable as both a networked team vehicle and a capable standalone combatant. First fielded during the FedCom Civil War in 3065, it appeared in Davion Assault and Heavy Guards formations alongside units further down the supply chain receiving C³-capable equipment for the first time. The Guardian ECM suite proved particularly valuable during the Jihad, complicating Word of Blake targeting solutions and disrupting Blakist C³ networks in contested engagements across the Crucis Reach. As with the XI, General Motors concluded XII production at Salem and Kathil in 3081, while Kallon's Kirklin facility continued producing the variant for elite AFFS commands through the Dark Age and ilClan periods.</p>
@@ -168,4 +155,16 @@ ARMOR:Kallon Unity Weave Ferro-Fibrous
 COMMUNICATIONS:Wunderland XXXV-2 Series
 TARGETING:Lock-On with Artemis FCS
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

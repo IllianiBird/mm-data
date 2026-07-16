@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a3c7-7a50-953c-8cbdcc2e3419
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Golem Assault Armor
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -94,45 +94,13 @@ Clan BA Fire Resistant:Body
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
 
-<slotless_equipment>
-BA-SRM5 Ammo:Shots1#
-</slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-18
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Golem is an assault-class battle armor developed by Clan Ghost Bear, first fielded in 3067. Designed to be the definitive assault battlesuit, the two-ton suit was built to deliver heavy firepower while providing exceptional protection for its troopers. Thick, specialized armor plating and powerful short-range armament earned the design a fearsome reputation among both Clan and Inner Sphere forces. Though the Golem sacrifices speed for protection, it remains one of the most formidable assault battlesuits in active service, with multiple configurations fielded across several Clan factions.</p>
-</overview>
-
 <capabilities>
 <p>The Rock Golem retains the standard Golem's fire-resistant armor and basic chassis but replaces the primary armament entirely. A pair of Heavy Recoilless Rifles, each carried in a detachable weapon pack, provide significantly greater engagement range than the Bearhunter autocannons they replace. The missile system is downgraded to a detachable one-shot standard SRM-5 launcher. This combination gives the Rock Golem comparable firepower at longer distances, though the external weapon packs reduce ground speed to just 10 km/h while mounted.</p><p>Troopers can jettison the detachable packs during combat to regain mobility, though at the cost of their primary weapons. This trade-off gives field commanders flexibility to tailor the suit's role mid-engagement. The Rock Golem shares the standard variant's lack of jump capability, and its reduced ground speed with packs mounted makes it the slowest configuration in the family.</p>
 </capabilities>
+
+<overview>
+<p>The Golem is an assault-class battle armor developed by Clan Ghost Bear, first fielded in 3067. Designed to be the definitive assault battlesuit, the two-ton suit was built to deliver heavy firepower while providing exceptional protection for its troopers. Thick, specialized armor plating and powerful short-range armament earned the design a fearsome reputation among both Clan and Inner Sphere forces. Though the Golem sacrifices speed for protection, it remains one of the most formidable assault battlesuits in active service, with multiple configurations fielded across several Clan factions.</p>
+</overview>
 
 <deployment>
 <p>Hell's Horses Clusters deployed Rock Golem Points as fire support elements within combined-arms Stars. The variant's longer-ranged armament allowed five-trooper Points to engage targets at distances where standard Golems could not, providing suppressive fire while faster units closed to contact. Points operating in open terrain proved particularly effective in this overwatch role.</p>
@@ -165,4 +133,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+18
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

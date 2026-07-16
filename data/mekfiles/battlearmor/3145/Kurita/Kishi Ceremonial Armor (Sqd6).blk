@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a630-7b30-b376-5ea0a80512b6
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kishi Ceremonial Armor
 <year>
 3105
 </year>
-
-<originalBuildYear>
-3105
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -102,38 +102,14 @@ IS BA Laser Reflective (Reflec/Glazed):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:DC
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kishi battle armor was developed by Ishikawajima-Harima Battle Armor Industries on Luthien, entering service with the Draconis Combine Mustered Soldiery in 3105. A lightweight suit born from collaborative research with Clan Nova Cat engineers, the Kishi was purpose-built for urban warfare and close-quarters combat. Unlike many battle armor designs, the suit does not require operators of exceptional physical stature, broadening its pool of eligible troopers across the DCMS considerably. Practical and dependable, the Kishi earned rapid acceptance within the Combine's infantry corps and became the DCMS' primary battle armor suit within a generation of its introduction.</p>
-</overview>
 
 <capabilities>
 <p>The Kishi is a 750-kilogram light battle armor suit optimized for close-quarters engagements. Its primary armament pairs a heavy machine gun mounted on the right arm with a heavy vibro battle claw on the left, giving troopers both ranged suppression capability and formidable melee striking power. A mechanical jump booster provides thirty meters of vertical mobility, allowing troopers to exploit rooftops, elevated walkways, and other terrain features that ground-bound units cannot reach.</p><p>Protection comes from a third of a ton of reflective armor, which offers improved resistance against energy weapons but provides only modest defense against ballistic threats. The suit supports swarm and leg attacks against larger units and is fully mechanized for transport on OmniMechs and compatible vehicles. A lining of compact memory foam throughout the interior improves trooper comfort during extended operations. The Kishi's straightforward mechanical design keeps logistical demands low, though its light weight class and limited ammunition supply for the machine gun constrain sustained engagements.</p>
 </capabilities>
+
+<overview>
+<p>The Kishi battle armor was developed by Ishikawajima-Harima Battle Armor Industries on Luthien, entering service with the Draconis Combine Mustered Soldiery in 3105. A lightweight suit born from collaborative research with Clan Nova Cat engineers, the Kishi was purpose-built for urban warfare and close-quarters combat. Unlike many battle armor designs, the suit does not require operators of exceptional physical stature, broadening its pool of eligible troopers across the DCMS considerably. Practical and dependable, the Kishi earned rapid acceptance within the Combine's infantry corps and became the DCMS' primary battle armor suit within a generation of its introduction.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Kishi formations appeared in units organized along ComStar or Word of Blake doctrinal lines, where the Level I served as the base tactical element. These larger groupings provided additional firepower density per formation, though the increased squad size demanded greater coordination in the confined urban environments where the Kishi performed best. Such formations remained uncommon compared to the standard DCMS four-trooper configuration.</p>
@@ -168,4 +144,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:DC
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

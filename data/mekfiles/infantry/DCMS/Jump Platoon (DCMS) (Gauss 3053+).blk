@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bbed-735d-a0dc-0050e540c5b6
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Jump Platoon (DCMS)
 <year>
 3053
 </year>
-
-<originalBuildYear>
-3053
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Draconis Combine Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Draconis Combine Mustered Soldiery assigns conventional infantry to garrison roles across its military districts, with district regulars often fielding extra platoons to secure worlds that BattleMech forces cannot permanently garrison. Jump infantry carry jump packs that make them the most mobile troops in the DCMS inventory for urban and broken terrain fighting. The ability to bypass obstacles and seize elevated positions gives these platoons a tactical value that district commanders prize, particularly on heavily built-up garrison worlds where conventional movement is restricted. Armed with infantry-scale gauss rifles that use magnetic acceleration to hurl projectiles at extreme velocities. The longest-ranged and hardest-hitting personal ballistic weapon available to conventional soldiers, though the weapons are expensive and maintenance-intensive enough that most commands reserve them for their best marksmen.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date of Gauss Rifle (Tsunami Heavy)
@@ -80,9 +82,4 @@ InfantryAssaultRifle
 <Secondary>
 Gauss Rifle (Tsunami Heavy)
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Draconis Combine Mustered Soldiery assigns conventional infantry to garrison roles across its military districts, with district regulars often fielding extra platoons to secure worlds that BattleMech forces cannot permanently garrison. Jump infantry carry jump packs that make them the most mobile troops in the DCMS inventory for urban and broken terrain fighting. The ability to bypass obstacles and seize elevated positions gives these platoons a tactical value that district commanders prize, particularly on heavily built-up garrison worlds where conventional movement is restricted. Armed with infantry-scale gauss rifles that use magnetic acceleration to hurl projectiles at extreme velocities. The longest-ranged and hardest-hitting personal ballistic weapon available to conventional soldiers, though the weapons are expensive and maintenance-intensive enough that most commands reserve them for their best marksmen.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bdb7-729e-8150-33bad5280a7c
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Foot Platoon (LCAF)
 <year>
 2505
 </year>
-
-<originalBuildYear>
-2505
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -56,7 +56,9 @@ Sneak Suit (Camo/IR)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>After the Jihad stripped many elite units to fill battle armor companies, the LCAF recognized that conventional infantry remained essential for roles that battle armor could not cost-effectively fill. Foot infantry platoons form the backbone of the LCAF's garrison forces, deploying on foot to hold positions, patrol perimeters, and secure urban areas where vehicles cannot easily operate. Armed with assault rifles and Blazer laser rifles that combine two emitters into a single devastating energy weapon, these platoons mix conventional ballistic firepower with high-energy precision shots. These special operations fireteams are small, highly trained units configured for reconnaissance, sabotage, and direct action behind enemy lines, relying on stealth and precise execution rather than conventional firepower.</p>
+</overview>
 
 <notes>
 Intro date based on common availability for two-system stealth suit. Slightly oversized squads selected for minimum anti-Mek capability.
@@ -93,9 +95,4 @@ true
 <specialization>
 512
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>After the Jihad stripped many elite units to fill battle armor companies, the LCAF recognized that conventional infantry remained essential for roles that battle armor could not cost-effectively fill. Foot infantry platoons form the backbone of the LCAF's garrison forces, deploying on foot to hold positions, patrol perimeters, and secure urban areas where vehicles cannot easily operate. Armed with assault rifles and Blazer laser rifles that combine two emitters into a single devastating energy weapon, these platoons mix conventional ballistic firepower with high-energy precision shots. These special operations fireteams are small, highly trained units configured for reconnaissance, sabotage, and direct action behind enemy lines, relying on stealth and precise execution rather than conventional firepower.</p>
-</overview>
 

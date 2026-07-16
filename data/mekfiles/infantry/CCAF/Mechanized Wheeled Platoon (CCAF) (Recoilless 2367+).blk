@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b8f0-7e4d-acea-8e6539a2cf1f
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Mechanized Wheeled Platoon (CCAF)
 <year>
 2367
 </year>
-
-<originalBuildYear>
-2367
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Generic Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. Mechanized wheeled platoons balance speed and infantry presence, using armored wheeled transports to move troops quickly along the Confederation's road networks. They sacrifice the cross-country capability of tracked vehicles for faster transit between defensive positions. Heavy weapons teams carry recoilless rifles that provide a portable anti-armor capability, allowing infantry to engage vehicles and hardened positions that would otherwise require dedicated support weapons.</p>
+</overview>
 
 <notes>
 Intro date based on start date of Capellan Confederation faction
@@ -80,9 +82,4 @@ InfantryAssaultRifle
 <Secondary>
 InfantryHRR
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. Mechanized wheeled platoons balance speed and infantry presence, using armored wheeled transports to move troops quickly along the Confederation's road networks. They sacrifice the cross-country capability of tracked vehicles for faster transit between defensive positions. Heavy weapons teams carry recoilless rifles that provide a portable anti-armor capability, allowing infantry to engage vehicles and hardened positions that would otherwise require dedicated support weapons.</p>
-</overview>
 

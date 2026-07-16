@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e75b-7621-a245-11018aeefdf0
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ XIVs
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -116,26 +116,13 @@ ISMML7
 ISAntiMissileSystem
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Challenger MBT is a ninety-ton main battle tank developed jointly by Kallon Industries and General Motors in response to the Federated Suns' urgent need for heavy tracked combat vehicles capable of engaging Clan BattleMechs during the invasion years of the 3050s. Rather than compete for lucrative armored vehicle contracts, the two manufacturers pooled their resources to produce an entirely new assault vehicle that could go head-to-head with most frontline OmniMechs. Entering service with the Armed Forces of the Federated Suns in 3057, the Challenger was simultaneously produced at plants on Salem, Kathil, and Kirklin, allowing rapid distribution across AFFS armored formations throughout the Crucis Reach and beyond. Its combination of a heavy Gauss rifle, layered secondary weapons, and substantial armor protection established the Challenger as the primary main battle tank of the Federated Suns, a role it has maintained through successive variants spanning the Clan Invasion, the FedCom Civil War, the Jihad, and the post-Jihad eras.</p>
-</overview>
-
 <capabilities>
 <p>The Challenger XIVs is a Jihad-era modification produced exclusively by Kallon Weapon Industries at their Kirklin facility, adapting the Challenger chassis to the operational requirements identified through years of brutal combat against Word of Blake and other hostile forces. Developed in 3077 and entering full production in the early Republic period following post-war reconstruction of the Kirklin plant, the XIVs incorporates weapons and systems optimized for the threat environments AFFS elite formations encountered during the Jihad. The design retains the proven hull geometry, propulsion, and protection of earlier Challenger variants while reworking the weapon suite and electronics to address specific combat lessons learned during the conflict.</p><p>Produced exclusively at Kirklin for elite AFFS formations, the XIVs represents Kallon's continued commitment to supplying premium Challenger variants to the Federated Suns' most demanding armored commands. The manufacturer's long experience producing the X, XI, and XII at Kirklin allowed the XIVs to reach production without requiring significant new tooling investment. Full technical specifications are documented in Technical Readout: 3085, page 191.</p>
 </capabilities>
+
+<overview>
+<p>The Challenger MBT is a ninety-ton main battle tank developed jointly by Kallon Industries and General Motors in response to the Federated Suns' urgent need for heavy tracked combat vehicles capable of engaging Clan BattleMechs during the invasion years of the 3050s. Rather than compete for lucrative armored vehicle contracts, the two manufacturers pooled their resources to produce an entirely new assault vehicle that could go head-to-head with most frontline OmniMechs. Entering service with the Armed Forces of the Federated Suns in 3057, the Challenger was simultaneously produced at plants on Salem, Kathil, and Kirklin, allowing rapid distribution across AFFS armored formations throughout the Crucis Reach and beyond. Its combination of a heavy Gauss rifle, layered secondary weapons, and substantial armor protection established the Challenger as the primary main battle tank of the Federated Suns, a role it has maintained through successive variants spanning the Clan Invasion, the FedCom Civil War, the Jihad, and the post-Jihad eras.</p>
+</overview>
 
 <deployment>
 <p>The Challenger XIVs was produced by Kallon Weapon Industries at their Kirklin plant beginning in the early Republic era, intended for elite AFFS formations whose requirements during and after the Jihad exceeded what the standard Challenger variants could provide. The XIVs was distributed primarily to Davion Assault and Heavy Guards formations and other high-priority AFFS units that continued demanding peak performance from their armored vehicles during the long post-war reconstruction period. Kallon's exclusive production of the XIVs at Kirklin reflects the facility's established role as the premier supplier of elite Challenger variants to the Federated Suns' most demanding armored commands, a position the plant has maintained continuously from the Clan Invasion through the ilClan era.</p>
@@ -168,4 +155,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

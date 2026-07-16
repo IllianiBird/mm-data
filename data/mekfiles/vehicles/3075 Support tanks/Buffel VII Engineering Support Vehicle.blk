@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e64d-79ff-af8b-7dd38cde63fd
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Büffel Engineering Support Vehicle VII
 <year>
 2407
 </year>
-
-<originalBuildYear>
-2407
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -114,11 +114,6 @@ Lift Hoist/Arresting Hoist
 Lift Hoist/Arresting Hoist
 </Turret Equipment>
 
-<slotless_equipment>
-IS Ammo VGL
-IS Ammo VGL
-</slotless_equipment>
-
 <barrating>
 7
 </barrating>
@@ -131,34 +126,13 @@ IS Ammo VGL
 2
 </engine_tech_rating>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-<fuel>
-0.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-03 13:33:24
-<overview>
-<p>The Büffel VII Engineering Support Vehicle represents one of the oldest combat-support designs still in active service anywhere in the Inner Sphere, tracing its lineage to a pre-spaceflight era when humanity first developed equipment capable of clearing battlefields and recovering disabled war machines. Introduced in 2407 by Arcturan Arms on Arcturus, the vehicle was designed to operate in the most hazardous forward areas of any conflict, extracting disabled vehicles, clearing minefields, and removing rubble obstructions that could impede military operations. The Lyran Commonwealth Armed Forces adopted it as a standard engineering support asset, and the design proved durable enough to outlast the company that built it, the state that originally commissioned it, and most of the combat equipment it was designed to support. By the thirty-first century, examples of the Büffel VII served in planetary militias, mercenary units, and foreign militaries across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Büffel VII is a seventy-ton tracked vehicle powered by a diesel internal combustion engine, a deliberate design choice that prioritizes mechanical simplicity and ease of field maintenance over the performance characteristics of fusion alternatives. Its cruising and flanking speeds are modest by military standards, reflecting the engineering doctrine that a recovery and obstacle-clearance platform requires endurance and durability rather than maneuverability. Hull plating provides substantial protection across all facets of the vehicle, with the heaviest reinforcement concentrated at the rear where the minesweeping apparatus is mounted and where the vehicle presents its profile during sweeping operations.</p><p>The vehicle's engineering toolkit defines its operational role. Twin high-capacity lift hoists mounted in the turret can recover most disabled combat vehicles when used in conjunction with the built-in trailer connectors, making the Büffel VII a primary extraction asset for formations operating in contested terrain. A reinforced bulldozer blade at the front enables rapid clearance of rubble, collapsed structures, and other battlefield obstacles. The rear-mounted minesweeper apparatus locates and neutralizes mines and unexploded ordnance, though the system requires the vehicle to operate in reverse during deployment, a deliberate concession that keeps the most heavily armored hull section facing any incoming threats during sweeping work.</p><p>For self-defense, three machine guns split between the turret and front hull provide suppressive fire against infantry, supplemented by rear-mounted vehicle grenade launchers. A modest internal cargo bay accommodates critical supplies or repair components for supported units.</p>
 </capabilities>
+
+<overview>
+<p>The Büffel VII Engineering Support Vehicle represents one of the oldest combat-support designs still in active service anywhere in the Inner Sphere, tracing its lineage to a pre-spaceflight era when humanity first developed equipment capable of clearing battlefields and recovering disabled war machines. Introduced in 2407 by Arcturan Arms on Arcturus, the vehicle was designed to operate in the most hazardous forward areas of any conflict, extracting disabled vehicles, clearing minefields, and removing rubble obstructions that could impede military operations. The Lyran Commonwealth Armed Forces adopted it as a standard engineering support asset, and the design proved durable enough to outlast the company that built it, the state that originally commissioned it, and most of the combat equipment it was designed to support. By the thirty-first century, examples of the Büffel VII served in planetary militias, mercenary units, and foreign militaries across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Büffel VII in standard configuration serves as a general-purpose engineering support asset across Lyran Commonwealth formations, mercenary commands, and foreign militaries throughout the Inner Sphere. Assigned primarily to rear-area and garrison units responsible for route clearance, obstacle removal, and vehicle recovery, the design is most common in engineering detachments and support battalions rather than front-line combat elements. The vehicle's long service life and wide distribution mean it appears across a broad range of faction affiliations and unit quality levels, from well-maintained regimental assets to barely operational garrison holdovers. Operations typically pair the Büffel VII with infantry security elements to compensate for its modest self-defense capability during extended engineering work.</p>
@@ -193,4 +167,24 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+70.0
+</tonnage>
+
+<fuel>
+0.5
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec82-72d3-9cf2-54264e8173d8
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Soarece Superheavy MBT
 <year>
 2881
 </year>
-
-<originalBuildYear>
-2881
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -134,26 +134,13 @@ Autocannon/2
 Autocannon/20
 </Turret Equipment>
 
-<source>
-XTR:SW
-</source>
-
-<published>
-XTR:SW
-</published>
-
-<tonnage>
-175.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Şoarece Superheavy Main Battle Tank emerged from a crisis in Free Worlds League vehicle manufacturing. The Second Succession War stripped the League of its last reliable battle tank production capability, and Captain-General Philippa Marik turned to Earthwerks Incorporated on Keystone to answer the need. Commissioned in 2881, the project set out to produce a non-fusion armored vehicle simpler and more survivable than a BattleMech, yet capable of matching one in firepower and protection. The design evolved through nearly two decades of revision before reaching production, growing far beyond initial specifications. Designers quietly abandoned the original Romanian name for mouse in favor of a vehicle that was anything but small. Earthwerks brought the Şoarece to limited production in the early thirtieth century, and though the tank never achieved the mass deployment Philippa Marik envisioned, it stood as evidence of the League's determination to defend itself through the darkest years of the Succession Wars.</p>
-</overview>
-
 <capabilities>
 <p>The Şoarece is a super-heavy tracked vehicle displacing 175 tons, among the heaviest ground combat units ever fielded in the Inner Sphere. Its core offensive battery centers on three classes of autocannons mounted primarily in a fully traversing turret. The Imperator Zeta Class 20 autocannon delivers the killing blow against BattleMechs and heavily armored vehicles at close range. An AC/10 handles mid-range engagements against a wide variety of targets. A Smoothie-2 Class 2 autocannon handles the anti-aircraft role, and a forward-facing machine gun covers lighter infantry threats. A Limited Amphibious Equipment package extends the vehicle's operational reach across water obstacles that would otherwise halt it entirely.</p><p>The Şoarece runs on a specially developed 350-rated fuel cell powerplant. The fuel cell eliminates fusion plant explosion risk and simplifies field maintenance, but limits available power severely and imposes a punishing restriction on speed. Cruise speed barely qualifies the vehicle as mobile, limiting it to a crawl over open ground and making rapid redeployment essentially impossible. The armor distribution is formidable, with the front arc and turret face capable of absorbing punishment from most battlefield weapon systems. The Şoarece carries several design quirks stemming from its experimental origins, including a reputation for mechanical difficulty and poor overall performance that reflects the tradeoffs made to reach the army's weight and firepower requirements. The sheer mass of the vehicle also restricts deployment to ground capable of supporting it.</p>
 </capabilities>
+
+<overview>
+<p>The Şoarece Superheavy Main Battle Tank emerged from a crisis in Free Worlds League vehicle manufacturing. The Second Succession War stripped the League of its last reliable battle tank production capability, and Captain-General Philippa Marik turned to Earthwerks Incorporated on Keystone to answer the need. Commissioned in 2881, the project set out to produce a non-fusion armored vehicle simpler and more survivable than a BattleMech, yet capable of matching one in firepower and protection. The design evolved through nearly two decades of revision before reaching production, growing far beyond initial specifications. Designers quietly abandoned the original Romanian name for mouse in favor of a vehicle that was anything but small. Earthwerks brought the Şoarece to limited production in the early thirtieth century, and though the tank never achieved the mass deployment Philippa Marik envisioned, it stood as evidence of the League's determination to defend itself through the darkest years of the Succession Wars.</p>
+</overview>
 
 <deployment>
 <p>The Şoarece Superheavy MBT was produced in strictly limited numbers, with slightly over one hundred units completed before the production line was cancelled. Deployed exclusively within the Free Worlds League, these vehicles were assigned to defensive garrison formations on worlds the League judged in greatest need of heavy direct-fire support. The Şoarece's extreme mass and poor ground speed made it poorly suited for mobile operations or offensive campaigns, but it excelled in static defensive positions, chokepoints, and urban fortification roles where its massive frontal armor and multi-autocannon battery could be fully exploited. The experimental nature of the design and the non-standard fuel cell powerplant made sustained field maintenance a persistent challenge. Surviving examples remained in service in diminishing numbers into the Late Succession Wars period, eventually replaced by the Ontos tanks whose availability had originally ended the Şoarece's production run.</p>
@@ -186,4 +173,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:SW
+</source>
+
+<published>
+XTR:SW
+</published>
+
+<tonnage>
+175.0
+</tonnage>
 

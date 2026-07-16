@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b05b-77f2-8bd8-7c1fae89b0e0
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SPR-DH
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -117,26 +117,13 @@ ISERSmallLaser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-XTR:RetroTech
-</source>
-
-<published>
-XTR:RetroTech
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Sparrowhawk is a thirty-ton light aerospace fighter that entered service with the Terran Hegemony in 2520 as an escort for heavier attack craft and assault DropShips. Designed for high thrust and combat persistence, the fighter excels in the interceptor role, relying on an all-energy weapons arrangement that eliminates ammunition dependency across extended engagements. A distinctive feature of the design is its manually operated armor ejection system, which allows pilots to jettison badly damaged armor plates that might otherwise compromise atmospheric reentry. The fighter's communications suite earned a reputation as among the most reliable in its class, and its overall performance made it a natural export across the Star League and into the Periphery. Subsequent improvements resolved dangerous early production flaws, and the Sparrowhawk went on to serve virtually every major power in the Inner Sphere as a durable and adaptable design.</p>
-</overview>
-
 <capabilities>
 <p>The Sparrowhawk is built on a StarTech Mod II airframe powered by a Warner 240J fusion plant, delivering sufficient thrust to serve as both an escort and a first-response interceptor. Early production models exhibited a dangerous combination of airframe stress fractures and a problematic fuel tank positioned beneath the pilot's seat, which could rupture and allow hydrogen to seep into the cockpit. The H5 redesign addressed both concerns with a completely reworked airframe and the addition of a dedicated fuel venting system, significantly reducing the risk to pilots.</p><p>The fighter carries an entirely laser-based weapons arrangement. Two Martell medium lasers in the nose deliver accurate fire at short and medium range, while a pair of Exostar small lasers in the wings provide additional close-range punch, though their accuracy degrades under fire-control damage. This heat-efficient, ammunition-independent loadout suits the fighter's endurance-oriented design philosophy well. Seven and a half tons of Carbondale II armor provides reasonable protection for a fighter of its class, supplemented by the unique manual release system that allows pilots to eject plates so severely damaged that they would restrict atmospheric flight. The Rander TA4 tracking and targeting system rounds out the electronics suite, while the Rander 100 communications system provides the reliable inter-unit coordination the fighter's escort mission demands.</p>
 </capabilities>
+
+<overview>
+<p>The Sparrowhawk is a thirty-ton light aerospace fighter that entered service with the Terran Hegemony in 2520 as an escort for heavier attack craft and assault DropShips. Designed for high thrust and combat persistence, the fighter excels in the interceptor role, relying on an all-energy weapons arrangement that eliminates ammunition dependency across extended engagements. A distinctive feature of the design is its manually operated armor ejection system, which allows pilots to jettison badly damaged armor plates that might otherwise compromise atmospheric reentry. The fighter's communications suite earned a reputation as among the most reliable in its class, and its overall performance made it a natural export across the Star League and into the Periphery. Subsequent improvements resolved dangerous early production flaws, and the Sparrowhawk went on to serve virtually every major power in the Inner Sphere as a durable and adaptable design.</p>
+</overview>
 
 <deployment>
 <p>The SPR-DH is a primitive RetroTech interpretation of the Sparrowhawk developed by Kukk Transportation Industries on Cerberus in 3076, built from recovered Terran Hegemony blueprints of the H5 airframe. The Outworlds Alliance produced the design as a practical response to the upheavals of the Jihad, seeking to restore aerospace coverage to outlying worlds using manufacturing techniques within the Alliance's constrained industrial capacity. The SPR-DH carries extended-range small lasers in the wing positions rather than conventional small lasers, a slight offensive improvement over the H5 baseline, but the primitive engine, primitive cockpit, and dramatically reduced armor make it significantly more vulnerable than any mainstream Sparrowhawk variant. Despite its limitations, the SPR-DH found a ready market among mercenary forces and Alliance militia units, where its resemblance to a more advanced design provided some tactical benefit against less sophisticated targeting systems.</p>
@@ -169,4 +156,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RetroTech
+</source>
+
+<published>
+XTR:RetroTech
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

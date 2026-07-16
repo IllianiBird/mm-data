@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a5af-720b-9990-7bb38da01110
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Mk. XXX(Sqd5)
 <year>
 2744
 </year>
-
-<originalBuildYear>
-2744
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -92,42 +92,14 @@ IS BA Stealth (Standard):LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 16:39:49
-<overview>
-<p>The Nighthawk Mk. XXI PA(L) is the progenitor of modern battle armor, developed by the Terran Hegemony from commercial exoskeleton technology through one of the most challenging military engineering programs of the Star League era. Commissioned in 2720, the Nighthawk was designed as a light power armor suit for reconnaissance and covert operations. The suit entered service exclusively with the SLDF Special Forces Command, where it equipped elite special operations teams whose very existence remained classified. Classified as Power Armor (Light), the Nighthawk provided its operators with capabilities far beyond conventional infantry while maintaining the stealth profile necessary for behind-the-lines work, establishing the conceptual foundation for every battle armor design that followed.</p>
-</overview>
 
 <capabilities>
 <p>The Mk. XXX is a mobility-focused evolution of the Nighthawk platform. While retaining the Standard Stealth armor and ninety-meter jump capability common to the Nighthawk family, the Mk. XXX features a significantly improved ground speed of thirty kilometers per hour, roughly three times the pace of the Mk. XXI. This enhanced overland mobility makes the suit more effective for extended patrol routes and rapid ground-level repositioning between jump points, allowing troopers to cover greater distances without consuming jump jet fuel reserves.</p><p>Like other Nighthawk variants, the suit carries no integral weapons, depending on armored gloves and standard infantry arms for any combat requirement. The Mk. XXX remains just as vulnerable to heavy weapons as its siblings, filling a useful niche for missions where sustained ground movement takes priority over the stop-and-leap pattern typical of jump-equipped power armor.</p>
 </capabilities>
+
+<overview>
+<p>The Nighthawk Mk. XXI PA(L) is the progenitor of modern battle armor, developed by the Terran Hegemony from commercial exoskeleton technology through one of the most challenging military engineering programs of the Star League era. Commissioned in 2720, the Nighthawk was designed as a light power armor suit for reconnaissance and covert operations. The suit entered service exclusively with the SLDF Special Forces Command, where it equipped elite special operations teams whose very existence remained classified. Classified as Power Armor (Light), the Nighthawk provided its operators with capabilities far beyond conventional infantry while maintaining the stealth profile necessary for behind-the-lines work, establishing the conceptual foundation for every battle armor design that followed.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper teams of the Mk. XXX exist primarily as an organizational option for forces using Clan-pattern formations. The variant's Star League origins and extreme rarity mean that Point-sized deployments have been exceedingly uncommon, limited to isolated instances where recovered suits were integrated into five-trooper teams following the operational practices of their parent command.</p>
@@ -162,4 +134,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

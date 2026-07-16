@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a9c9-741a-971a-d8c331251d30
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Undine Battle Armor
 <year>
 3145
 </year>
-
-<originalBuildYear>
-3145
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -87,49 +87,15 @@ CLBASRM1OS:Body
 
 <slotless_equipment>
 BAUMU
-BA-SRM1 Ammo:Shots1#
-BA-SRM1 Ammo:Shots1#
 </slotless_equipment>
-<notes>
-Should be SRT1 but not coded in the MM at this time.
-</notes>
-
-<source>
-XTR:Royal Fantasy
-</source>
-
-<published>
-XTR:Royal Fantasy
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Undine battle armor is a medium-weight underwater combat suit developed by Clan Goliath Scorpion. A direct descendant of the Water Elemental mining suit that spawned all Clan battle armor, the Undine was the first purpose-built military adaptation of the original exoskeleton's aquatic design. Entering service in 3059, the suit gave its operators unmatched combat capability in underwater and amphibious environments. Armed with a dual-purpose weapon system effective both above and below the waterline, the Undine filled a niche that no other Clan battle armor addressed. Its specialized nature limited broader adoption, but for those who mastered underwater warfare, the Undine had no equal.</p>
-</overview>
 
 <capabilities>
 <p>The Sebastian is a heavily modified custom variant weighing fifteen hundred kilograms, placing it in the heavy weight class rather than the standard medium classification. This additional mass allows for significantly improved armor protection at two hundred twenty-five kilograms, enough to withstand hits from Inner Sphere-grade lasers and even light particle projection cannons without critical system failure.</p><p>The Sebastian doubles the base Undine's energy weapon output with two ER Micro Lasers, one in each arm, paired with twin one-shot SRM launchers loaded with multi-purpose torpedo-capable ammunition. A second battle claw replaces the original's searchlight, improving melee capability in close-quarters underwater engagements. The suit retains the Undine's underwater maneuvering system and Clan HarJel sealing for amphibious operations. The increased weight precludes anti-BattleMech swarming attacks entirely, and the suit is even slower on land than the standard model. These trade-offs make the Sebastian a specialist dueling platform rather than a general combat asset.</p>
 </capabilities>
+
+<overview>
+<p>The Undine battle armor is a medium-weight underwater combat suit developed by Clan Goliath Scorpion. A direct descendant of the Water Elemental mining suit that spawned all Clan battle armor, the Undine was the first purpose-built military adaptation of the original exoskeleton's aquatic design. Entering service in 3059, the suit gave its operators unmatched combat capability in underwater and amphibious environments. Armed with a dual-purpose weapon system effective both above and below the waterline, the Undine filled a niche that no other Clan battle armor addressed. Its specialized nature limited broader adoption, but for those who mastered underwater warfare, the Undine had no equal.</p>
+</overview>
 
 <deployment>
 <p>The Sebastian debuted in 3145 at the Arena Amazonia on Solaris VII, fielded by Team Triton in underwater arena combat. The custom variant exploited the unique flooding conditions of the Arena Amazonia, where fully submerged engagements created an environment tailor-made for the Undine platform. Team Triton's four-trooper squad used the Sebastian's improved armor and twin laser armament to engage both submerged BattleMechs and opposing infantry, scoring kills through leg attacks against wading opponents in the arena's deeper sections.</p>
@@ -162,4 +128,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+Should be SRT1 but not coded in the MM at this time.
+</notes>
+
+<source>
+XTR:Royal Fantasy
+</source>
+
+<published>
+XTR:Royal Fantasy
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

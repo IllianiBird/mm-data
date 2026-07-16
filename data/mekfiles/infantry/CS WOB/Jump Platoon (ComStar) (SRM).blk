@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ba4b-7231-8652-c24f17a9d4f9
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -36,10 +40,6 @@ Jump Platoon (ComStar)
 2825
 </year>
 
-<originalBuildYear>
-2825
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -59,6 +59,10 @@ ComStar Infantry Kit
 
 <Field Guns Equipment>
 </Field Guns Equipment>
+
+<overview>
+<p>ComStar organized its military forces around a combined-arms doctrine that valued infantry as an essential element of the Level I through Level VI command structure, with conventional platoons serving alongside BattleMechs, armor, and aerospace assets at every echelon. Jump-capable platoons provide vertical mobility for urban operations and rough terrain that would slow or halt conventional foot infantry. ComStar deployed jump platoons in specialized roles where their ability to bypass obstacles justified the additional cost of jump equipment and training. Equipped with infantry-portable short-range missile launchers that provide anti-armor capability beyond what personal weapons can achieve, these troops can threaten light vehicles and battle armor at close range.</p>
+</overview>
 
 <source>
 TW,TM
@@ -83,9 +87,4 @@ InfantryAssaultRifle
 <Secondary>
 InfantryHeavySRM
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>ComStar organized its military forces around a combined-arms doctrine that valued infantry as an essential element of the Level I through Level VI command structure, with conventional platoons serving alongside BattleMechs, armor, and aerospace assets at every echelon. Jump-capable platoons provide vertical mobility for urban operations and rough terrain that would slow or halt conventional foot infantry. ComStar deployed jump platoons in specialized roles where their ability to bypass obstacles justified the additional cost of jump equipment and training. Equipped with infantry-portable short-range missile launchers that provide anti-armor capability beyond what personal weapons can achieve, these troops can threaten light vehicles and battle armor at close range.</p>
-</overview>
 

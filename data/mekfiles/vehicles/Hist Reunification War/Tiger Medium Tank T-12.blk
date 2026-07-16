@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e92b-7726-a39f-8902252bd7c9
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ T-12
 <year>
 2478
 </year>
-
-<originalBuildYear>
-2478
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -107,26 +107,13 @@ SRM 4
 Machine Gun
 </Turret Equipment>
 
-<source>
-His:RW
-</source>
-
-<tonnage>
-55.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The T-12 Tiger emerged from House Davion's search for a conventional armored platform capable of meeting the threats posed by the BattleMech revolution of the Age of War. While most successor powers poured resources into fusion-powered walkers, Veridian Dynamics on Torrence delivered a tracked medium tank that matched or exceeded contemporary designs at a fraction of the cost. Introduced in 2478, the Tiger quickly became the primary main battle tank of the Armed Forces of the Federated Suns and spread to dozens of other militaries across the Inner Sphere and Periphery over the following decades. Its influence on armored warfare doctrine during the Age of War and Reunification War period established the Tiger as one of the most widely produced and operated conventional vehicles of its era.</p>
-</overview>
-
 <capabilities>
 <p>The Tiger's primary weapon is the Federated Autoloader/10-B medium autocannon, a heavy-caliber system capable of defeating the armor of most contemporary combat vehicles while maintaining a high rate of fire. Two tons of ammunition allow for sustained engagement, though most crews carry standard armor-piercing rounds given the single ton available for the SRM pack. The autocannon's proven design and low maintenance requirements contributed significantly to the Tiger's appeal for mass production.</p><p>Supplementing the main gun, a Grizzly-3 Minigun mounts coaxially, providing effective anti-infantry fire in close-quarters engagements. An Archer SRM-4 Pack adds medium-range punch against armored targets, while two Borman-A5C Heavy Machineguns protect the fore and aft quarters from infantry assault. This combined armament package gives the Tiger credible capability against all target types encountered in combined-arms operations.</p><p>The Tiger's principal weakness is its protection. The Quantum Heavy Plate covers barely ten percent of the vehicle's total mass, sufficient to absorb hits from its own autocannon on most facings but vulnerable to heavier weapons systems common among contemporary BattleMechs and larger vehicles. The Veridian 220 ICE delivers reliable performance at a top speed of 64 kph, adequate for most tactical roles but insufficient to disengage from faster opponents once contact is made.</p>
 </capabilities>
+
+<overview>
+<p>The T-12 Tiger emerged from House Davion's search for a conventional armored platform capable of meeting the threats posed by the BattleMech revolution of the Age of War. While most successor powers poured resources into fusion-powered walkers, Veridian Dynamics on Torrence delivered a tracked medium tank that matched or exceeded contemporary designs at a fraction of the cost. Introduced in 2478, the Tiger quickly became the primary main battle tank of the Armed Forces of the Federated Suns and spread to dozens of other militaries across the Inner Sphere and Periphery over the following decades. Its influence on armored warfare doctrine during the Age of War and Reunification War period established the Tiger as one of the most widely produced and operated conventional vehicles of its era.</p>
+</overview>
 
 <deployment>
 <p>The T-12 served as the primary main battle tank for the Armed Forces of the Federated Suns throughout the Age of War and Reunification War, deployed in armored regiments and combined-arms formations across Davion space. Its low production cost allowed widespread fielding in both garrison and line units. As licenses spread to Lyran, Capellan, Combine, and Free Worlds League facilities, Tiger variants entered service across much of the Inner Sphere and Periphery. Reserve and militia forces continued operating the design for generations after front-line units transitioned to newer equipment.</p>
@@ -159,4 +146,16 @@ ARMOR:Heavy Plate
 COMMUNICATIONS:Communications Model C
 TARGETING:Model K7-Ta
 </systemModels>
+
+<source>
+His:RW
+</source>
+
+<tonnage>
+55.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

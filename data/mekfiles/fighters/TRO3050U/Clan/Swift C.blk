@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad96-7b78-86d0-2125a08983c3
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ C
 <year>
 2834
 </year>
-
-<originalBuildYear>
-2834
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -119,32 +119,13 @@ CLERMediumLaser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Swift is a twenty-five-ton light aerospace fighter developed by Caletra Fighters of Terra for the Star League Defense Force. Entering service in 2682, the design arrived six years behind its original schedule after Caletra's engineers worked to integrate advanced technologies at a level unprecedented for the era. The extended development timeline ultimately produced a fighter whose performance rivaled far heavier designs. Serving for over a century as the principal light fighter of the SLDF, the Swift earned widespread respect for its exceptional speed and sophisticated electronics suite, even as pilots and technicians initially regarded its revolutionary systems with suspicion. After the Exodus, the design effectively disappeared from the Inner Sphere, surviving primarily in Clan second-line forces and in the hands of ComStar, whose manufacturing presence on Terra kept the type in limited service long after the Succession Wars erased knowledge of the original production techniques.</p>
-</overview>
-
 <capabilities>
 <p>The Swift's performance comes at considerable cost to payload capacity. The Shinobi 275-A engine accounts for roughly sixty percent of the airframe, with fuel, avionics, and life support consuming most of the remainder. Only three and a half tons of KX4 ferro-aluminum armor and a light weapons suite of one Maxell-UD6 medium laser and one McCorkel small laser remain for combat purposes. The fighter can sting its targets and rely on its speed to escape retaliation, but cannot absorb sustained punishment in a protracted engagement.</p><p>In raw thrust, the Swift excels. The Shinobi plant generates ten gravities of acceleration, matched only by the Bashkir among fighters of comparable mass and exceeded solely by the Avar. This performance, combined with plug-and-play component architecture, made the design popular with both pilots and ground crews. Engineers could diagnose and remedy faults quickly, reducing the downtime that afflicted more complex contemporary fighters.</p><p>The B-TT7i central computer oversees navigation, communications, fire control, and life support, providing voice-based feedback through the Lockheed Matrix-V communications system. Despite a controversial reception from crews accustomed to simpler interfaces, the system ultimately freed pilots from many routine monitoring tasks, allowing them to concentrate on maneuvering and target acquisition. Later software revisions allowed pilots to set threshold levels for advisory warnings, reducing the interruptions that initially earned the system its unflattering nickname.</p>
 </capabilities>
+
+<overview>
+<p>The Swift is a twenty-five-ton light aerospace fighter developed by Caletra Fighters of Terra for the Star League Defense Force. Entering service in 2682, the design arrived six years behind its original schedule after Caletra's engineers worked to integrate advanced technologies at a level unprecedented for the era. The extended development timeline ultimately produced a fighter whose performance rivaled far heavier designs. Serving for over a century as the principal light fighter of the SLDF, the Swift earned widespread respect for its exceptional speed and sophisticated electronics suite, even as pilots and technicians initially regarded its revolutionary systems with suspicion. After the Exodus, the design effectively disappeared from the Inner Sphere, surviving primarily in Clan second-line forces and in the hands of ComStar, whose manufacturing presence on Terra kept the type in limited service long after the Succession Wars erased knowledge of the original production techniques.</p>
+</overview>
 
 <deployment>
 <p>The Clan refit replaces the original Star League laser suite with extended-range equivalents, bringing the design's firepower up to standards consistent with Clan second-line aerospace assets. Operated primarily in solahma and garrison units across most Clans, the Swift C serves most commonly as a transitional trainer for pilots advancing to OmniFighter platforms. Its integrated electronics architecture provides relevant familiarity with systems found on more advanced Clan designs, making it a practical instruction aircraft despite its age. Some examples have been observed with pirate and Dark Caste forces.</p>
@@ -177,4 +158,16 @@ ARMOR:KX4 Ferro-Aluminum
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

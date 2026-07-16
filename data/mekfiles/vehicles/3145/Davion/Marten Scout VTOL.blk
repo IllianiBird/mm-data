@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7b6-7c76-864e-4e3584f6fb97
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Marten Scout VTOL
 <year>
 3021
 </year>
-
-<originalBuildYear>
-3021
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -109,26 +109,13 @@ RemoteSensorDispenser
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3145:FS,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-15.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Marten Scout VTOL entered service in 3021 as a product of Cal-Boeing of Dorwinion's Belladonna production line, built to meet demand for a reliable, affordable combat helicopter suited to scouting and special forces insertion. Though production never reached the volumes Cal-Boeing's planners envisioned, the design spread steadily through secondary markets to militia formations and small mercenary units across the Inner Sphere and Periphery over the decades following its introduction.</p><p>The Marten earned a reputation as dependable, if unloved. It offered journeyman service in roles other units often neglected, and its simplicity and low cost kept it operational long after more capable platforms became available. Commanders who understood its limitations found it a useful tool. Those who did not often discovered the Marten's boundaries through painful operational experience.</p>
-</overview>
-
 <capabilities>
 <p>The Marten is a 15-ton VTOL driven by a Tyron 100 internal combustion engine. The ICE powerplant keeps the design simple and inexpensive to maintain, an important consideration for the militia and mercenary formations that form the Marten's primary customer base. That simplicity comes at a cost: the ICE provides no fusion-derived endurance advantages, and the design's bulky muffling system limits its ability to approach targets quietly, which is a significant liability for a scout platform.</p><p>Speed is the Marten's strongest asset. The design reaches a cruising speed of 140 kilometers per hour and a maximum of 216, placing it among the faster light combat helicopters available to Inner Sphere forces. That speed allows it to cross contested airspace quickly and withdraw before enemy fire concentrates.</p><p>Armament consists of a single Federated SuperStreak SRM 2 launcher. The streak guidance system improves hit probability against maneuvering targets, giving the Marten reliable close-in firepower for a platform of its size. ProtecTech Light armor protects the airframe, though coverage is thin and offers little resilience against sustained fire. The Marten carries just enough firepower to make its presence felt and just enough armor to survive a brief engagement, but it exceeds neither threshold by any meaningful margin. Commanders who deploy it in attack or sustained interdiction roles typically find it wanting.</p>
 </capabilities>
+
+<overview>
+<p>The Marten Scout VTOL entered service in 3021 as a product of Cal-Boeing of Dorwinion's Belladonna production line, built to meet demand for a reliable, affordable combat helicopter suited to scouting and special forces insertion. Though production never reached the volumes Cal-Boeing's planners envisioned, the design spread steadily through secondary markets to militia formations and small mercenary units across the Inner Sphere and Periphery over the decades following its introduction.</p><p>The Marten earned a reputation as dependable, if unloved. It offered journeyman service in roles other units often neglected, and its simplicity and low cost kept it operational long after more capable platforms became available. Commanders who understood its limitations found it a useful tool. Those who did not often discovered the Marten's boundaries through painful operational experience.</p>
+</overview>
 
 <deployment>
 <p>The standard Marten fills scout and special forces insertion roles across militia and mercenary formations throughout the Inner Sphere and Periphery. Its speed allows it to penetrate contested airspace and withdraw before opposition concentrates, and its SRM launcher provides limited self-defense against light infantry and unarmored vehicles. Commanders typically assign it to reconnaissance missions and single-pass insertion operations rather than sustained combat tasks. Its mechanical simplicity also makes it attractive to budget-constrained forces lacking the logistics to support more complex VTOL platforms.</p>
@@ -161,4 +148,16 @@ ARMOR:Light
 COMMUNICATIONS:Standard
 TARGETING:Lantirn
 </systemModels>
+
+<source>
+TR:3145:FS,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+15.0
+</tonnage>
 

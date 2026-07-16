@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a947-76d3-8992-883545e47139
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ C(Sqd5)
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -96,38 +96,14 @@ IS BA Mimetic:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Kurita
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kage ("shadow") light battle armor was one of the first Draconis Combine designs to enter production following the Truce of Tukayyid. Developed jointly by Internal Security Force scientists and Draconis Elite Strike Team advisers, the suit was built for reconnaissance, infiltration, and intelligence gathering in hostile environments. Produced by New Samarkand Metals and Luthien Armor Works, the Kage entered service in 3056 as a replacement for the older DEST Infiltration Suit, offering far greater protection and mobility. The design earned a strong reputation within DCMS special operations and line formations alike for its exceptional aerial agility and advanced stealth characteristics.</p>
-</overview>
 
 <capabilities>
 <p>The experimental Kage C replaces the standard basic stealth armor with mimetic armor salvaged from captured Blakist Purifier suits, providing superior camouflage capability and approximately twenty percent more protection than the original design. A battle armor C3 system occupies much of the remaining weight budget, allowing the suit to share targeting data within a networked formation. The C3 system alone accounts for roughly one-third of the suit's 750-kilogram mass. Both hands retain armored gloves, but the suit carries no weapons of any kind: no anti-personnel mount and no squad support weapon.</p><p>The mimetic armor's superior concealment allows the Kage C to hold observation positions with less risk of detection, while the C3 link feeds targeting data directly to friendly units. The partial wing assembly was removed to accommodate the new systems, though standard jump jets provide 90 meters of jump capability. The complete lack of offensive armament drew criticism during field trials, and the suit's reliance on experimental salvaged technology raises questions about long-term availability of replacement parts.</p>
 </capabilities>
+
+<overview>
+<p>The Kage ("shadow") light battle armor was one of the first Draconis Combine designs to enter production following the Truce of Tukayyid. Developed jointly by Internal Security Force scientists and Draconis Elite Strike Team advisers, the suit was built for reconnaissance, infiltration, and intelligence gathering in hostile environments. Produced by New Samarkand Metals and Luthien Armor Works, the Kage entered service in 3056 as a replacement for the older DEST Infiltration Suit, offering far greater protection and mobility. The design earned a strong reputation within DCMS special operations and line formations alike for its exceptional aerial agility and advanced stealth characteristics.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Points of Kage C suits were considered for joint operations with Clan Nova Cat forces, where the C3 system's ability to share targeting data across networked formations offered potential for coordinated strikes. The experimental nature of the design and reliance on salvaged Blakist technology limited wider adoption.</p>
@@ -162,4 +138,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Kurita
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bc04-7472-b083-aed2759075a6
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,17 +36,9 @@ Mechanized Hover Platoon (DCMS)
 2135
 </mul id:>
 
-<source>
-TW,TM
-</source>
-
 <year>
 2620
 </year>
-
-<originalBuildYear>
-2620
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -63,10 +59,17 @@ Draconis Combine Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Conventional infantry within the DCMS serve as the foundation of planetary defense, providing the manpower essential to territorial control while freeing BattleMech and armored assets for offensive operations. Hover-mechanized infantry ride hovercraft that can cover ground faster than any tracked or wheeled formation in the DCMS inventory. District commanders prize these platoons for rapid redeployment between garrison posts, and during the Jihad, hover-mechanized troops proved their worth in the kind of hit-and-run resistance operations that the Dictum Honorium demanded of citizens on occupied worlds. Their support squads operate portable machine guns that deliver sustained automatic fire at ranges well beyond personal weapons. A single well-placed machine gun team can suppress an entire enemy platoon and threaten light vehicles that would otherwise ignore conventional infantry.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date of DCMS armor kit
 </notes>
+
+<source>
+TW,TM
+</source>
 
 <squad_size>
 5
@@ -87,9 +90,4 @@ InfantryAssaultRifle
 <Secondary>
 Machine Gun (Portable)
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Conventional infantry within the DCMS serve as the foundation of planetary defense, providing the manpower essential to territorial control while freeing BattleMech and armored assets for offensive operations. Hover-mechanized infantry ride hovercraft that can cover ground faster than any tracked or wheeled formation in the DCMS inventory. District commanders prize these platoons for rapid redeployment between garrison posts, and during the Jihad, hover-mechanized troops proved their worth in the kind of hit-and-run resistance operations that the Dictum Honorium demanded of citizens on occupied worlds. Their support squads operate portable machine guns that deliver sustained automatic fire at ranges well beyond personal weapons. A single well-placed machine gun team can suppress an entire enemy platoon and threaten light vehicles that would otherwise ignore conventional infantry.</p>
-</overview>
 

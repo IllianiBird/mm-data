@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a9c5-7d7b-b3e0-9eea33c9d839
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gnome Battle Armor
 <year>
 3140
 </year>
-
-<originalBuildYear>
-3140
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Advanced
@@ -82,38 +82,14 @@ Jump
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Royal Fantasy
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Gnome was developed by Clan Hell's Horses as the first Clan-manufactured heavy battle armor design. Introduced in 3056, the suit was created in response to growing Inner Sphere battle armor capabilities that threatened Clan supremacy in armored infantry warfare. Classified as a heavy-weight assault platform, the Gnome combined substantial armor protection with jump capability and fixed weaponry, offering a heavier alternative to the ubiquitous Elemental without sacrificing all mobility. Named after the earth spirit of classical mythology in keeping with the Clan tradition for second-generation battlesuits, the Gnome quickly established itself as a cornerstone of Hell's Horses infantry doctrine and saw adoption by multiple Clans.</p>
-</overview>
 
 <capabilities>
 <p>The Dwarf is a mixed-technology custom refit developed by Team Magic Mirror for the Solaris VII arena circuit. Debuting in 3140 on the Black Hills Urban Combat Zone, the Dwarf replaces the standard Clan internals with an Inner Sphere chassis while retaining the Gnome's base weight of 1,500 kilograms. Armor protection is reduced from the standard model, though the suit remains sturdy enough to absorb a direct PPC strike.</p><p>The freed weight allows a dramatically expanded weapons package: a Clan SRM 6 one-shot launcher, a small variable-speed pulse laser, and a battle vibro-claw for close combat. An armored glove on the opposite arm provides basic manipulation. Magnetic clamps replace the standard OmniMech handholds, allowing the suit to attach to any transport vehicle. The Dwarf eschews Clan HarJel in favor of the Inner Sphere chassis construction, a trade-off that reduces survivability in exchange for the weight savings that make its extensive armament possible.</p>
 </capabilities>
+
+<overview>
+<p>The Gnome was developed by Clan Hell's Horses as the first Clan-manufactured heavy battle armor design. Introduced in 3056, the suit was created in response to growing Inner Sphere battle armor capabilities that threatened Clan supremacy in armored infantry warfare. Classified as a heavy-weight assault platform, the Gnome combined substantial armor protection with jump capability and fixed weaponry, offering a heavier alternative to the ubiquitous Elemental without sacrificing all mobility. Named after the earth spirit of classical mythology in keeping with the Clan tradition for second-generation battlesuits, the Gnome quickly established itself as a cornerstone of Hell's Horses infantry doctrine and saw adoption by multiple Clans.</p>
+</overview>
 
 <deployment>
 <p>Team Magic Mirror debuted the Dwarf on Solaris VII's Black Hills Urban Combat Zone in 3140. The free agent stable fielded the suit in oversized squads under Capellan-born warrior Raulo Ashwani, whose rotating call signs and unconventional stealth tactics routinely confounded arena opponents. The Confederation-backed refit traded Clan survivability features for concentrated short-range firepower, and the magnetic clamp system allowed the squad to deploy without requiring an OmniMech for battlefield transport.</p>
@@ -148,4 +124,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Royal Fantasy
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ebc3-74fb-9232-24f9b1cb39d4
+</UUID>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Nishikigoi Support Aircraft
 <year>
 3071
 </year>
-
-<originalBuildYear>
-3071
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -145,30 +145,13 @@ Thunderbolt 10
 4
 </engine_tech_rating>
 
-<source>
-XTR:Boondocks
-</source>
-
-<published>
-XTR:Boondocks
-</published>
-
-<tonnage>
-240.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-08 20:16:39
-<overview>
-<p>The Nishikigoi is a heavily modified Koi chassis developed as a militarized intelligence and fire support platform for the Draconis Combine. The vehicle traces its origins to an unusual arrangement between Wakazashi Enterprises and Kaumberg Enterprises, a Lyran firm, following the 3061 arson at Wakazashi's Dover facility. The prototype emerged in 3071 on Kaumberg, drawing immediate attention from ISF investigators and public conspiracy theorists alike. A production variant, the Koi configuration, entered service with the Combine in 3079 after the Jihad.</p><p>The Nishikigoi sacrifices most of the Koi's cargo capacity in favor of advanced electronics, a supercharged fusion engine, and a weapons suite optimized to screen light and medium scout units. It is the largest WiGE currently in production and one of the fastest vehicles of its class.</p>
-</overview>
-
 <capabilities>
 <p>The Nishikigoi's defining feature is its communication bay, which occupies the aft cargo section with eight tons of advanced electronics. The suite provides ECM and ECCM capabilities, satellite uplink, and remote sensor monitoring, giving the vehicle a battlefield awareness role far beyond what its size might suggest. Wakazashi chose commercial-grade systems to hold down cost and complexity during the Jihad period, accepting some performance limitations in exchange for field reliability and maintainability. The result covers its intended roles at less than ten percent of the cost of equivalent purpose-built systems.</p><p>The Edasich-Shinobi Waverunner XIX is a supercharged fusion engine that propels the Nishikigoi at sustained speeds of eighty-six kilometers per hour, with short bursts exceeding one hundred kilometers per hour. This speed, combined with the vehicle's two-hundred-forty-ton frame, gives it a significant performance edge over most comparably sized WiGEs.</p><p>Armament centers on four Thunderbolt 10 launchers in a dorsal turret, paired with an advanced fire control system. The damage profile at range exceeds many lighter BattleMechs. Two anti-missile systems cover the rear flanks against incoming fire, though these occupy space that critics argue would be better used for anti-personnel machine guns. The Nishikigoi's weapons are designed to deter scouts and destroy light units, not to repel infantry boarding actions or engage hardened targets. Cargo capacity is reduced to just over eighty tons.</p>
 </capabilities>
+
+<overview>
+<p>The Nishikigoi is a heavily modified Koi chassis developed as a militarized intelligence and fire support platform for the Draconis Combine. The vehicle traces its origins to an unusual arrangement between Wakazashi Enterprises and Kaumberg Enterprises, a Lyran firm, following the 3061 arson at Wakazashi's Dover facility. The prototype emerged in 3071 on Kaumberg, drawing immediate attention from ISF investigators and public conspiracy theorists alike. A production variant, the Koi configuration, entered service with the Combine in 3079 after the Jihad.</p><p>The Nishikigoi sacrifices most of the Koi's cargo capacity in favor of advanced electronics, a supercharged fusion engine, and a weapons suite optimized to screen light and medium scout units. It is the largest WiGE currently in production and one of the fastest vehicles of its class.</p>
+</overview>
 
 <deployment>
 <p>The Nishikigoi prototype was assembled and operated on Kaumberg in the Lyran Alliance under commercial registration held by Kaumberg Enterprises on behalf of Wakazashi Enterprises. The single prototype remained on Kaumberg following the legal proceedings that accompanied its exposure and has not been reported operating outside Lyran Alliance space.</p>
@@ -201,4 +184,20 @@ ARMOR:Kappa no Yoroi
 COMMUNICATIONS:GAW-79
 TARGETING:G4RM-Z
 </systemModels>
+
+<source>
+XTR:Boondocks
+</source>
+
+<published>
+XTR:Boondocks
+</published>
+
+<tonnage>
+240.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a9d4-7247-a250-30a058cbf6d9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Strike Suit
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -95,38 +95,14 @@ InfantryAssaultRifle:APM:LA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-XTR:Steiner
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Strike Suit is a medium battle armor design developed by Gray Death Technologies in the early 3070s. Created to give the Lyran Commonwealth a dedicated fire support battle armor platform, the Strike combined missile armament with target designation capability in a well-armored package that could soften enemy positions before heavier forces closed the distance. The production model entered service in 3080 after a protracted development process that began with a Clan-technology prototype.</p>
-</overview>
 
 <capabilities>
 <p>The prototype Strike Suit mounts a Clan-specification Advanced SRM-3 launcher with three shots, delivering greater effective range and hitting power than the production model's Inner Sphere equivalent. A Light TAG system in the left arm provides target designation capability, and both arms end in Battle Claws rather than the production model's Basic Manipulators. The Anti-Personnel Weapon Mount is retained.</p><p>Mixed Clan and Inner Sphere technology classifies the prototype as experimental. The 450 kilograms of standard armor and ground-only movement profile match the production model, but the Clan launcher must be jettisoned before anti-BattleMech attacks can be performed. The dependence on Clan-sourced components limited the prototype's operational availability and complicated logistics for any unit fielding the suit alongside Inner Sphere standard equipment.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Strike Suit is a medium battle armor design developed by Gray Death Technologies in the early 3070s. Created to give the Lyran Commonwealth a dedicated fire support battle armor platform, the Strike combined missile armament with target designation capability in a well-armored package that could soften enemy positions before heavier forces closed the distance. The production model entered service in 3080 after a protracted development process that began with a Clan-technology prototype.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations of prototype Strike Suits existed only in theory, as the small number of prototypes produced never reached ComStar or Word of Blake hands in sufficient quantity for organized formation-level deployment. Any Level I equipped with these experimental suits would have gained substantial fire support capability from the Clan-sourced weapon systems, but the prototypes remained confined to their original operators throughout their limited service life.</p>
@@ -159,4 +135,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Steiner
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

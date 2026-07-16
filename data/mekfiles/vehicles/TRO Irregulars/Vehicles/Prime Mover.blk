@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea75-7bc0-9f24-7cec82d88f2b
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Prime Mover
 <year>
 3050
 </year>
-
-<originalBuildYear>
-3050
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -116,33 +116,13 @@ LRM 5
 3
 </engine_tech_rating>
 
-
-
-
-<source>
-TR:I
-</source>
-
-<published>
-TR:I
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Prime Mover is not a single designed vehicle but a broad classification of large wheeled logistics platforms that have supported military operations across the Inner Sphere for centuries. First recorded in Inner Sphere inventories around 2420, these six-wheeled fusion-powered trucks share common features, including a cabover cab, an integrated flatbed, and a rear cargo bay, rather than a shared blueprint. Multiple manufacturers across every major state and many Periphery worlds independently developed compatible designs, resulting in a vehicle class united by operational requirements rather than common production. The Prime Mover's ability to haul up to twenty tons of cargo over cross-country terrain without refueling stops made it indispensable to military logistics from the Age of War onward. Though designed as a civilian hauler, modest defensive armament and sturdy construction drew military operators to the platform, and prime movers have served line armies, garrison forces, and irregular units with equal reliability across every era of Inner Sphere history.</p>
-</overview>
-
 <capabilities>
 <p>The standard Prime Mover is built around a cabover-style crew cab with two small lasers mounted on either side, connected to a large integrated flatbed rated for twenty tons of cargo. A rear-mounted SRM-4 provides additional defensive firepower, operated by the vehicle's cargo handler, who serves as the third crew member alongside the driver and a cab gunner. Advanced Fire Control improves weapons accuracy beyond what is typical for a logistics vehicle, giving the Prime Mover genuine defensive capability against light infantry and vehicles.</p><p>The fusion power plant eliminates range limitations that would otherwise constrain logistics operations, allowing prime movers to sustain forward supply chains without fuel depots. Six tons of commercial armor, rated at BAR 7, provides limited protection against small arms and light fragmentary threats, but the design was never intended to absorb sustained weapons fire. The off-road chassis and six-wheel drive allow it to follow combat forces through broken terrain that would stop conventional trucks, though ground speed is moderate. The design's three-man crew allows simultaneous cargo operations and weapons management, but the requirement to crew both cab mounts and the rear launcher demands coordination under fire. The Prime Mover's main weakness is its bulk, which reduces maneuverability and makes it a large target for heavier weapons.</p>
 </capabilities>
+
+<overview>
+<p>The Prime Mover is not a single designed vehicle but a broad classification of large wheeled logistics platforms that have supported military operations across the Inner Sphere for centuries. First recorded in Inner Sphere inventories around 2420, these six-wheeled fusion-powered trucks share common features, including a cabover cab, an integrated flatbed, and a rear cargo bay, rather than a shared blueprint. Multiple manufacturers across every major state and many Periphery worlds independently developed compatible designs, resulting in a vehicle class united by operational requirements rather than common production. The Prime Mover's ability to haul up to twenty tons of cargo over cross-country terrain without refueling stops made it indispensable to military logistics from the Age of War onward. Though designed as a civilian hauler, modest defensive armament and sturdy construction drew military operators to the platform, and prime movers have served line armies, garrison forces, and irregular units with equal reliability across every era of Inner Sphere history.</p>
+</overview>
 
 <deployment>
 <p>The LRM variant adapts the Prime Mover for indirect fire support, giving field commanders a mobile platform for long-range suppression that requires no dedicated fire support vehicle. It replaces the SRM-4 with an LRM-5 and adds a third weapon mount to the cab, carrying two machine guns for close defense alongside the single small laser retained in the roof. One ton of LRM ammunition and a half ton of machine gun ammunition provide reasonable endurance for support missions. This configuration is typically found in logistics-heavy formations that occasionally need long-range fire capability without the expense of maintaining a separate fire support asset, accepting the Prime Mover's low ground speed and light armor as the price of that flexibility.</p>
@@ -175,4 +155,20 @@ ARMOR:Commercial (BAR 7)
 COMMUNICATIONS:Unknown
 TARGETING:Advanced Fire Control
 </systemModels>
+
+<source>
+TR:I
+</source>
+
+<published>
+TR:I
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

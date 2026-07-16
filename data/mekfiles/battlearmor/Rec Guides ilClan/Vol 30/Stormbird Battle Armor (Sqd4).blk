@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a82a-7624-91d4-1c5f84d8ae14
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Stormbird Battle Armor
 <year>
 3092
 </year>
-
-<originalBuildYear>
-3092
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -89,44 +89,13 @@ CLBAHeavyFlamer:RA
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
 
-
-
-<source>
-RG30
-</source>
-
-<published>
-RG30
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-13
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Stormbird is a heavy Clan battle armor suit developed jointly by Clan Jade Falcon and Clan Snow Raven. Introduced in 3092, the design was commissioned to address a capability gap in the Jade Falcon battle armor inventory while providing the Snow Ravens with an anti-infantry platform they had long desired. Classified as a heavy assault suit, the Stormbird earned a divided reception. The Snow Ravens considered it an immediate success, while the Falcons found the final product too narrowly specialized for their broader operational needs.</p>
-</overview>
-
 <capabilities>
 <p>The Stormbird mounts a heavy flamer in its right arm with twenty shots, paired with a body-mounted Advanced SRM 3 launcher carrying five missiles. This combination makes the suit lethal against conventional infantry and light vehicles, with the flamer proving especially effective in confined spaces and urban terrain. Fire-resistant armor provides protection against incendiary weapons and heat-based attacks.</p><p>At 1,500 kilograms, the suit moves at a ground speed of 21.6 kilometers per hour but lacks jump capability, limiting its tactical flexibility across broken terrain. No anti-personnel secondary weapon is mounted. The design trades mobility for raw close-range destructive power, excelling in its intended anti-infantry role but struggling to adapt beyond it.</p>
 </capabilities>
+
+<overview>
+<p>The Stormbird is a heavy Clan battle armor suit developed jointly by Clan Jade Falcon and Clan Snow Raven. Introduced in 3092, the design was commissioned to address a capability gap in the Jade Falcon battle armor inventory while providing the Snow Ravens with an anti-infantry platform they had long desired. Classified as a heavy assault suit, the Stormbird earned a divided reception. The Snow Ravens considered it an immediate success, while the Falcons found the final product too narrowly specialized for their broader operational needs.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere forces that acquired Stormbird suits through trade or salvage organized them into standard four-trooper squads. The suit's straightforward anti-infantry profile required minimal doctrinal adaptation, though its lack of jump capability limited tactical flexibility compared to designs already in wider service.</p>
@@ -159,4 +128,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG30
+</source>
+
+<published>
+RG30
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+13
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

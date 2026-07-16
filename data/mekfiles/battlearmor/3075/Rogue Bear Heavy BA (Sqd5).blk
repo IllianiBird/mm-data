@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a450-744f-9edc-f9d6b01aa29a
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Rogue Bear Heavy Battle Armor
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -91,42 +91,14 @@ BABattleClawVibro:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-13
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Rogue Bear is a Clan Ghost Bear heavy battlesuit produced at BA Facility Gamma on Mannedorf. First fielded in 3073 during the closing years of the Jihad, the design fills a rapid-response role within garrison and second-line formations, offering jump capability and fixed armament suited to patrol and security operations. Weighing 1,500 kilograms, the Rogue Bear earned a reputation for reliability and low maintenance requirements, qualities that proved valuable during a period of significant logistical strain across the Ghost Bear Dominion. Several derivative designs have since been developed from the Rogue Bear chassis.</p>
-</overview>
 
 <capabilities>
 <p>The Rogue Bear is a heavy battlesuit weighing 1,500 kilograms, built around a fixed weapons loadout with no disposable components. Its primary anti-vehicle armament is a three-tube short-range missile launcher hardwired to its back, carrying four reloads. Two arm-mounted machine guns provide effective anti-infantry firepower. For close combat and OmniMech transport capability, the suit employs vibro-blade-enhanced battle claw manipulators. Jump jets allow sixty-meter leaps under terrestrial gravity.</p><p>The suit carries enough standard armor to nearly absorb a Gauss rifle hit, though this protection comes at the cost of reduced sophistication compared to heavier assault designs. The emphasis on standard, non-disposable components reflects a practical design philosophy, reducing logistical strain on garrison formations operating far from primary supply lines. The fixed missile launcher does add bulk even when ammunition is expended, limiting the suit's utility in prolonged engagements where weight becomes a factor.</p>
 </capabilities>
+
+<overview>
+<p>The Rogue Bear is a Clan Ghost Bear heavy battlesuit produced at BA Facility Gamma on Mannedorf. First fielded in 3073 during the closing years of the Jihad, the design fills a rapid-response role within garrison and second-line formations, offering jump capability and fixed armament suited to patrol and security operations. Weighing 1,500 kilograms, the Rogue Bear earned a reputation for reliability and low maintenance requirements, qualities that proved valuable during a period of significant logistical strain across the Ghost Bear Dominion. Several derivative designs have since been developed from the Rogue Bear chassis.</p>
+</overview>
 
 <deployment>
 <p>Clan Ghost Bear deployed Rogue Bear troopers in standard five-warrior Points, the foundational tactical unit of Clan military organization. Garrison Clusters across the Dominion fielded Rogue Bear Points as rapid-response elements, their jump capability and fixed armament well-suited to the patrol and security duties that defined second-line operations. The 283rd Battle Cluster on Mannedorf maintained particularly strong Rogue Bear contingents given its proximity to the production facility.</p>
@@ -161,4 +133,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+13
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

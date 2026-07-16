@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af33-7c17-9efc-d98a9e93f9aa
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ TFN-3M
 <year>
 2473
 </year>
-
-<originalBuildYear>
-2473
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -124,33 +124,13 @@ IS Ammo LRM-20
 IS Ammo LRM-20
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>Developed by CBM Aerospace of Donegal and introduced in 2461, the Typhoon was the Lyran Commonwealth's premier heavy ground attack aerospace fighter of the pre–Star League era. Built around a distinctive flying-wing airframe engineered for excellent glide characteristics and broad hardpoint coverage, the design was conceived as a dedicated close air support platform capable of delivering sustained fire against fortified ground positions and armored formations. Its respectable thrust output also gave it enough agility for limited dogfighting engagements alongside its primary ground attack mission, making it a versatile platform across a range of aerospace wing assignments.</p><p>The Typhoon offered commanders a purpose-built heavy striker at a time when most available aerospace designs were compromises between competing roles. Despite an ultimately modest production run, it left a notable impression on Lyran aerospace doctrine, remaining a recognizable symbol of the Commonwealth's pre–Star League aerospace ambitions. Its demanding heat management requirements were a persistent challenge, but experienced crews who mastered the aircraft's characteristics found it a formidable strike platform.</p>
-</overview>
-
 <capabilities>
 <p>The Typhoon's flying-wing airframe gave it a graceful, low-drag profile well suited to low-altitude attack runs, combining favorable glide characteristics with ample wing surface for weapons hardpoints and bomb ports. Its primary weapons load centered on a pair of Defiance 600 particle projection cannons and four Rassal Emerald Series large lasers distributed across its wings, providing a concentrated all-energy strike capability capable of cutting through vehicle armor and fortified positions with equal effectiveness. A nose-mounted Screamer LRM-15 rack completed the loadout, giving pilots a ranged option for target suppression before closing to deliver the full weight of the energy suite.</p><p>The design's most persistent weakness was heat management. The combined output of its particle cannons and large lasers routinely overwhelmed the heat exchange systems, forcing pilots into careful fire discipline or risking dangerous temperature spikes. CBM engineers addressed part of this problem by mounting the LRM rack in a dedicated offset nose pod, providing a cooler fallback weapon while the energy systems recovered between salvos. Efficiency improvements to the particle cannon designs in the 2470s offered some relief, but the Typhoon remained a demanding, heat-intensive aircraft throughout its service life, with cockpit temperatures during sustained energy fire earning a notable reputation among experienced crews.</p>
 </capabilities>
+
+<overview>
+<p>Developed by CBM Aerospace of Donegal and introduced in 2461, the Typhoon was the Lyran Commonwealth's premier heavy ground attack aerospace fighter of the pre–Star League era. Built around a distinctive flying-wing airframe engineered for excellent glide characteristics and broad hardpoint coverage, the design was conceived as a dedicated close air support platform capable of delivering sustained fire against fortified ground positions and armored formations. Its respectable thrust output also gave it enough agility for limited dogfighting engagements alongside its primary ground attack mission, making it a versatile platform across a range of aerospace wing assignments.</p><p>The Typhoon offered commanders a purpose-built heavy striker at a time when most available aerospace designs were compromises between competing roles. Despite an ultimately modest production run, it left a notable impression on Lyran aerospace doctrine, remaining a recognizable symbol of the Commonwealth's pre–Star League aerospace ambitions. Its demanding heat management requirements were a persistent challenge, but experienced crews who mastered the aircraft's characteristics found it a formidable strike platform.</p>
+</overview>
 
 <deployment>
 <p>Developed in 2473, the TFN-3M shifted the Typhoon's combat focus toward standoff bombardment, replacing the energy weapons with long-range missile launchers capable of delivering massed fire support against armored formations and fortified positions from outside effective return range. LCAF commanders found the variant particularly valuable for planetary assault support, where its ability to suppress and disable heavy vehicles across broad engagement areas made it an effective force multiplier for advancing ground forces. Like its sister variants, the TFN-3M served in mixed-type Lyran aerospace wings during the Typhoon's operational period, complementing the base model and the TFN-3A to give wing commanders broader tactical options.</p>
@@ -185,4 +165,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:CBM COMSET 3
 TARGETING:CBM TRAK-2
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

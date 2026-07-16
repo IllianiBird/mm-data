@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-ddb1-7f2a-9fd1-ca4a66d0e1d5
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Inquisitor
 model:ITW-80 SecurityMech
 mul id:4364
@@ -169,7 +170,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Inquisitor is a 35-ton SecurityMech introduced in 3062 by Irian Technologies, Unlimited, designed exclusively to defend the megacorporation's extensive network of factories and industrial complexes across the Free Worlds League. Built to IndustrialMech specifications but armed and armored to standards that push the legal boundaries of recognized treaties, the Inquisitor has earned a reputation as the closest thing to a true BattleMech in the SecurityMech class.</p><p>Originally restricted to internal use by IrTech, the design was released to the open market following the Jihad. Aggressive pricing and strong performance reviews propelled the Inquisitor to become one of the most recognizable and widespread SecurityMechs in the Inner Sphere, frequently mentioned alongside the Copper, Guard, and Pacifier as a benchmark of the class.</p>
 
 capabilities:<p>The Inquisitor's weapons loadout positions it at the very edge of what interstellar law permits for a SecurityMech. A Diverse Optics extended range medium laser provides accurate fire at medium ranges, while an Irian Weapon Works Class 4 SRM launcher delivers credible anti-armor punch at closer distances. Twin Voelkers 200 machine guns round out the armament, offering effective suppression against unarmored infantry and rioters. All weapons are managed through an advanced fire control system, granting accuracy comparable to dedicated military platforms.</p><p>The ITW Heavy Industrial chassis carries seven tons of Irian HardCase heavy industrial armor, providing protection that rivals some light BattleMechs. An ITW 175 fusion engine propels the design to a respectable 86 kilometers per hour, giving it the mobility to patrol large industrial complexes or respond rapidly to perimeter breaches. Two tons of dedicated communications equipment via the McCall Home-10 CommoRig allow the pilot to coordinate effectively with other security assets and local law enforcement.</p><p>The design's primary weakness is its lack of CASE protection for its ammunition stores. The unprotected right torso earned the ITW-80 a poor reputation among pilots for its tendency toward catastrophic ammunition explosions, a flaw that would not be addressed until the introduction of the ITW-85 variant decades later. An ejection seat provides the pilot a last resort should the armor be breached.</p>
@@ -181,6 +181,8 @@ history:<p>The Inquisitor was born from Irian Technologies' need for a capable i
 manufacturer:Irian Technologies, Unlimited
 
 primaryfactory:Irian
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:ITW
 systemmode:CHASSIS:Heavy Industrial

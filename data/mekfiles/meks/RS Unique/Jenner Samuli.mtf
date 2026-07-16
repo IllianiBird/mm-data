@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d7c6-766e-aae7-bbde5a19a7a1
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Jenner
 model:JR7-K (Samuli)
 mul id:1697
@@ -23,7 +24,6 @@ mul id:1697
 Config:Biped
 techbase:Inner Sphere
 era:3060
-source:
 published:RS:UM
 rules level:2
 role:Missile Boat
@@ -171,7 +171,6 @@ IS Ferro-Fibrous
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Jenner is a relatively modern design, first constructed in 2784 by Diplan Mechyards of Ozawa under contract to House Kurita. Originally developed for the Star League Defense Force, the design was secretly acquired by the Draconis Combine after Kerensky's Exodus. Designed as a fast, hit-and-run guerrilla fighter, the Jenner would form the foundation for highly mobile lances that became a hallmark of DCMS doctrine.</p><p>Faster than most opponents while carrying respectable firepower for its weight class, the Jenner became synonymous with Combine military power, remaining the exclusive property of House Kurita for over fifty years. However, the Jenner's reputation was forever tarnished by its prominent role in the Kentares Massacre of 2796, when waves of Jenners carried out Coordinator Jinjiro Kurita's infamous directive.</p>
 
 capabilities:<p>Among the fastest 'Mechs of its era, the Jenner packs impressive firepower at close range. Its optimum engagement range is 30 to 90 meters, and its speed and jump capability make it exceptionally hard to hit. The Jenner can move in quickly, deliver its attack, and retreat before sustaining serious damage. Because the Argra 3L medium lasers are the primary armament, the 'Mech can operate for extended periods without ammunition concerns during deep raids.</p><p>The Thunderstroke SRM-4 provides additional hitting power for decisive moments, though the limited ammunition supply requires careful management during prolonged operations. Combined, these weapons give the Jenner more firepower than most light BattleMechs and several medium designs as well. Though an alpha strike generates significant heat, pilots use their impressive jump capability to buy cooling time between engagements.</p><p>The Jenner lacks arms for physical attacks, a deliberate design choice given its low tonnage. The four tons of armor provide only light protection compared to similar weight classes, making pilot skill and mobility essential to survival in sustained combat.</p>
@@ -183,6 +182,8 @@ history:<p>Diplan was originally contracted by the SLDF to produce Jenners, with
 manufacturer:Diplan 'Mechyards
 
 primaryfactory:Ozawa
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Alshain
 systemmode:CHASSIS:Class 48

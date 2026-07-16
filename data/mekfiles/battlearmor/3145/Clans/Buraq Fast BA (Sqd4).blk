@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a5ed-70b4-8b3b-435f2c7a0bcb
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Buraq Fast Battle Armor
 <year>
 3104
 </year>
-
-<originalBuildYear>
-3104
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -86,38 +86,14 @@ CLBAMG:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3145:C
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Buraq is a Clan medium-weight quad battlesuit developed by Clan Hell's Horses in the early thirty-second century. Manufactured at Csesztreg Industriplex Gamma, the design prioritizes speed above all other characteristics, using myomer-enhanced mobility to fulfill scouting, interdiction, and anti-piracy roles along the Horses' Periphery frontier. Named for a mythological steed of ancient Terra, the four-legged suit matches its namesake in raw velocity, closing ground faster than nearly any other battlesuit in service. Clan Hell's Horses typically deploy mixed Stars of Buraq variants, combining different weapon fits into cohesive reconnaissance formations that range far ahead of heavier Cluster elements.</p>
-</overview>
 
 <capabilities>
 <p>The standard Buraq's myomer booster drives the quad suit to remarkable ground speeds, easily keeping pace with fast OmniMechs in Ranger Cluster formations. This speed comes at significant cost. The booster consumes so much internal volume that armor protection is limited to 175 kilograms of standard plating, and offensive armament is restricted to a pair of body-mounted machine guns with limited ammunition. Troopers rely on speed rather than durability to survive contact.</p><p>The suit's primary value lies in reconnaissance and interdiction. An improved communications suite allows operators to maintain contact through heavy electronic warfare environments, reporting enemy positions and movements even under intense jamming. Buraqs typically patrol avenues of approach and retreat, flushing soft targets toward heavier formations or fixing enemies in place until reinforcements arrive. The quad chassis prevents swarm and leg attacks against BattleMechs, reinforcing the Buraq's role as a support platform rather than a direct combatant.</p>
 </capabilities>
+
+<overview>
+<p>The Buraq is a Clan medium-weight quad battlesuit developed by Clan Hell's Horses in the early thirty-second century. Manufactured at Csesztreg Industriplex Gamma, the design prioritizes speed above all other characteristics, using myomer-enhanced mobility to fulfill scouting, interdiction, and anti-piracy roles along the Horses' Periphery frontier. Named for a mythological steed of ancient Terra, the four-legged suit matches its namesake in raw velocity, closing ground faster than nearly any other battlesuit in service. Clan Hell's Horses typically deploy mixed Stars of Buraq variants, combining different weapon fits into cohesive reconnaissance formations that range far ahead of heavier Cluster elements.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere forces that captured Buraq suits organized them into four-trooper squads following standard infantry doctrine. Captured examples remained rare, as Clan Hell's Horses aggressively recovered disabled suits from the field. Those few squads that were assembled typically served in reconnaissance roles, though operators frequently struggled with the quad chassis's unfamiliar movement patterns and the Horses' proprietary communications protocols.</p>
@@ -150,4 +126,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:C
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

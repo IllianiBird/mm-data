@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a586-7a97-8aa1-e05ed512aca1
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Fa Shih Battle Armor
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -92,38 +92,14 @@ BABasicManipulator:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3085
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Fa Shih, or "Master of Methods," was the Capellan Confederation's first indigenous battle armor design. Developed by Ceres Metals with assistance from the Word of Blake, the medium suit entered service in 3062 as an adaptation of the Inner Sphere Standard. Distinguished by its mine-laying capability and ability to ride conventional vehicles into battle, the Fa Shih filled a defensive and area-denial role that complemented the Confederation's long tradition of mine warfare. The design earned a strong reputation among Capellan armed forces and continued serving long after more advanced suits became available.</p>
-</overview>
 
 <capabilities>
 <p>The support variant of the Fa Shih removes all mine-laying equipment and switches to lighter advanced armor in exchange for mounting a heavier primary weapon system. This trade sacrifices the suit's signature area-denial capability and reduces overall protection, but the weight savings allow it to carry weapons previously too heavy for the chassis. The King David configuration mounts a light gauss rifle, providing precision ranged fire support that extends the Fa Shih's effective engagement envelope well beyond its standard loadouts. Jump capability and magnetic clamps are retained, keeping the suit mobile and able to ride conventional vehicles into the field.</p>
 </capabilities>
+
+<overview>
+<p>The Fa Shih, or "Master of Methods," was the Capellan Confederation's first indigenous battle armor design. Developed by Ceres Metals with assistance from the Word of Blake, the medium suit entered service in 3062 as an adaptation of the Inner Sphere Standard. Distinguished by its mine-laying capability and ability to ride conventional vehicles into battle, the Fa Shih filled a defensive and area-denial role that complemented the Confederation's long tradition of mine warfare. The design earned a strong reputation among Capellan armed forces and continued serving long after more advanced suits became available.</p>
+</overview>
 
 <deployment>
 <p>The King David support variant in six-trooper Level I formations offered precision fire support at the squad level. Blakist and Com Guard commanders valued the light gauss rifle's range and accuracy, and the larger formation size allowed these Level I units to deliver sustained long-range volleys that smaller squads could not match.</p>
@@ -158,4 +134,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

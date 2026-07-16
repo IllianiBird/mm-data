@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a865-70a4-ab08-98d473da8f2c
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ CEX-205 [Armored Glove](Sqd5)
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -88,46 +88,14 @@ BASearchlight:Body
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:VAr
-</source>
-
-<published>
-RS:VA
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
-</overview>
 
 <capabilities>
 <p>The Armored Glove configuration equips the CEX-205 with reinforced gauntlets on both manipulator mounts, giving operators the ability to handle standard infantry weapons and conduct anti-BattleMech swarm and leg attacks. At four hundred kilograms, the Groundhog is a maximum-weight exoskeleton protected by one hundred kilograms of standard armor, enough to resist small arms fire but offering little protection against heavier ordnance. The suit's ground speed of thirty kilometers per hour keeps pace with foot infantry, though the lack of jump capability limits vertical mobility in urban or broken terrain.</p><p>An integral searchlight supports low-visibility operations, while the body-mounted mission equipment storage bay provides one hundred forty-five kilograms of carrying capacity. Of the Groundhog's available configurations, the Armored Glove loadout is the most combat-oriented, though operators should not mistake the suit's ability to engage BattleMechs for genuine offensive power. The Groundhog remains an engineering platform pressed into a combat-adjacent role, not a dedicated fighting suit.</p>
 </capabilities>
+
+<overview>
+<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
+</overview>
 
 <deployment>
 <p>Clan formations that acquired Groundhog exoskeletons through salvage or trade organized operators into five-trooper Points, consistent with standard Clan military structure. The Armored Glove configuration saw limited Clan adoption given the generally low regard for industrial exoskeletons among warrior caste personnel, but labor and garrison castes occasionally fielded Points for facility defense and engineering support where dedicated Elemental suits were unavailable or unwarranted.</p>
@@ -160,4 +128,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<published>
+RS:VA
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

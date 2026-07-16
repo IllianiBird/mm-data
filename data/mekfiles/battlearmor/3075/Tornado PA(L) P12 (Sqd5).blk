@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a4c9-7430-b29c-c363754f5499
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ P12 'Hurricane'(Sqd5)
 <year>
 2905
 </year>
-
-<originalBuildYear>
-2905
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -89,42 +89,14 @@ IS BA Stealth (Basic):LA
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-16 21:37:26
-<overview>
-<p>ComStar developed the Tornado power armor (light) suit in the late twenty-ninth century as a covert operations platform for its intelligence service and special forces units. Derived from Star League-era Nighthawk technology preserved on Terra, the Tornado combined lightweight stealth protection with an adaptive concealment system in a package light enough for extended clandestine deployments. The suit gained a reputation as one of the most effective infiltration tools in the Inner Sphere, serving ComStar and later the Word of Blake across decades of covert operations. Multiple variants expanded the design beyond intelligence work into direct combat and logistics support roles.</p>
-</overview>
 
 <capabilities>
 <p>The original P12 Tornado combines basic stealth armor with an adaptive camouflage system that mimics combined visual, infrared, and electronic countermeasure concealment, allowing operators to approach targets undetected across most sensor bands. The suit's nearly 400-kilogram mass is supported entirely by the operator, permitting extended deployment without the energy signature of powered exoskeleton systems. A built-in heads-up display provides environmental data, low-light enhancement, and visual magnification, though some operators chose to forgo the helmet's protection for unimpeded sensory awareness. Two waist-mounted connection ports allow modified weapons to draw from the military power pack. Armored gloves enable infantry weapon use and anti-BattleMech attacks, though they can be removed for tasks requiring fine manual dexterity. The suit provides no mobility assistance beyond the operator's own speed.</p>
 </capabilities>
+
+<overview>
+<p>ComStar developed the Tornado power armor (light) suit in the late twenty-ninth century as a covert operations platform for its intelligence service and special forces units. Derived from Star League-era Nighthawk technology preserved on Terra, the Tornado combined lightweight stealth protection with an adaptive concealment system in a package light enough for extended clandestine deployments. The suit gained a reputation as one of the most effective infiltration tools in the Inner Sphere, serving ComStar and later the Word of Blake across decades of covert operations. Multiple variants expanded the design beyond intelligence work into direct combat and logistics support roles.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Points of P12 Tornado suits saw limited fielding among Republic of the Sphere formations that inherited Terra's Krupp Armament Works production lines. Republic units with Clan-influenced organizational structures occasionally grouped Tornado operators into Points for covert reconnaissance missions, adapting the suit's stealth capabilities to the larger formation size.</p>
@@ -157,4 +129,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

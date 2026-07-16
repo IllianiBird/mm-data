@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4aa-7cf3-b23a-40b9dbd4c7ae
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Yellow Jacket Gunship
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -102,30 +102,13 @@ ISArrowIV
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>The Yellow Jacket Gunship is Michaelson Heavy Industries' flagship light combat vehicle, first produced on Ruchbah in 3058. Conceived as a highly mobile fire-support platform, the design married exceptional VTOL agility with the punishing range of a Poland Main Model C Gauss Rifle. Though a single-weapon design, the Yellow Jacket earned a reputation for sustained-fire capability that made a coordinated lance a genuine threat to BattleMechs and conventional forces alike. Michaelson initially targeted the Federated Suns market, but the combination of speed, armor, and long-range firepower attracted broader interest over time. Production later expanded beyond Ruchbah to additional facilities across the Inner Sphere, reflecting the design's growing acceptance as a versatile fire-support asset.</p>
-</overview>
-
 <capabilities>
 <p>The Yellow Jacket is built around the Poland Main Model C Gauss Rifle, a weapon whose range and damage output would be remarkable in any combat platform. Mounted centrally, the rifle allows the Yellow Jacket to engage targets well beyond effective counter-range for most ground-based autocannons. The Michaelson-Omni 40 internal combustion engine delivers a cruising speed of 64 kilometers per hour, with a flank speed of 97 kilometers per hour. While this is slower than many dedicated combat VTOLs, it exceeds the ground speed of nearly all BattleMechs and OmniMechs, giving the Yellow Jacket excellent disengagement options after each firing pass.</p><p>Survivability is a defining characteristic. The StarSlab/3 armor package provides frontal protection sufficient to absorb a Clan Particle Projector Cannon hit without downing the craft, exceptional endurance for a 30-ton VTOL. The Garret Supremesound communications system and Garret D2j targeting computer provide reliable data-sharing and fire control within a lance formation. Together, these systems support effective coordination across extended operational distances.</p><p>The Yellow Jacket's primary weakness is ammunition dependency. A single-weapon platform carrying a finite Gauss load can be rendered combat-ineffective during prolonged engagements, requiring rotation to rearming points. The internal combustion engine, while reliable and cheap to maintain, is also a vulnerability, as a single penetrating hit to the power plant can trigger a catastrophic fire. Crew comfort is limited, with the cockpit optimized for function over endurance on extended sorties.</p>
 </capabilities>
+
+<overview>
+<p>The Yellow Jacket Gunship is Michaelson Heavy Industries' flagship light combat vehicle, first produced on Ruchbah in 3058. Conceived as a highly mobile fire-support platform, the design married exceptional VTOL agility with the punishing range of a Poland Main Model C Gauss Rifle. Though a single-weapon design, the Yellow Jacket earned a reputation for sustained-fire capability that made a coordinated lance a genuine threat to BattleMechs and conventional forces alike. Michaelson initially targeted the Federated Suns market, but the combination of speed, armor, and long-range firepower attracted broader interest over time. Production later expanded beyond Ruchbah to additional facilities across the Inner Sphere, reflecting the design's growing acceptance as a versatile fire-support asset.</p>
+</overview>
 
 <deployment>
 <p>The Arrow IV variant trades the Gauss Rifle for a Pitban LFT Arrow IV artillery missile system with two tons of ammunition and CASE protection. The switch to Arrow IV missiles provides an indirect-fire capability, allowing coordinated strikes beyond visual engagement distances when paired with appropriately positioned spotters. The CASE installation mitigates ammunition explosion risk. The trade-off is a half-ton reduction in armor, making this configuration slightly more fragile than the baseline. Entered service in 3067 and adopted by combined-arms formations requiring mobile indirect-fire assets.</p>
@@ -158,4 +141,20 @@ ARMOR:/3
 COMMUNICATIONS:Supremesound
 TARGETING:D2j
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+30.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

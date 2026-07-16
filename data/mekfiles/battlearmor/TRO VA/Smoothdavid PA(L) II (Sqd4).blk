@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a8cc-7a99-b5df-e552c389f15d
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ II(Sqd4)
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -81,42 +81,14 @@ BASearchlight:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:VAr
-</source>
-
-<published>
-RS:VA
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-1
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Smoothdavid is a light personal armor suit produced by TharHes Industries of Tharkad for law enforcement and government security applications. Introduced in 3064, the design filled a gap between industrial exoskeletons and military battle armor, providing a purpose-built platform for police and civil security forces who found conventional combat suits too heavy and cumbersome for their duties. The suit earned a reputation for practical versatility, with its modular construction allowing rapid reconfiguration across a range of security tasks.</p>
-</overview>
 
 <capabilities>
 <p>The Smoothdavid II mounts a pair of modular anti-personnel weapon mounts, one on each arm, giving operators flexibility to tailor their loadout to the task at hand. Armored glove manipulators allow the wearer to handle standard infantry weapons and equipment without restriction, a critical feature for police work where officers must interact with civilians, operate vehicles, and manage evidence. A built-in searchlight rounds out the suit's standard equipment package.</p><p>The chassis employs an open-construction design with modular hardpoints marketed as the "Snap-On" system. Accessories such as armor vests, manipulator upgrades, and filtration breathers can be attached or removed quickly, allowing rapid reconfiguration between assignments. The suit carries an impressive 205 kilograms of mission equipment. Protection is minimal at just 50 kilograms of standard armor, leaving operators vulnerable to anything heavier than small arms fire. Despite this limitation, the lightweight frame maintains a respectable ground speed that keeps pace with foot patrols and crowd movements.</p>
 </capabilities>
+
+<overview>
+<p>The Smoothdavid is a light personal armor suit produced by TharHes Industries of Tharkad for law enforcement and government security applications. Introduced in 3064, the design filled a gap between industrial exoskeletons and military battle armor, providing a purpose-built platform for police and civil security forces who found conventional combat suits too heavy and cumbersome for their duties. The suit earned a reputation for practical versatility, with its modular construction allowing rapid reconfiguration across a range of security tasks.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere law enforcement agencies organized Smoothdavid operators into four-trooper squads, mirroring conventional police tactical team structures. This formation size proved well matched to building entry, crowd control cordons, and VIP escort details where small, coordinated teams could cover angles and communicate efficiently without the overhead of larger units.</p>
@@ -149,4 +121,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<published>
+RS:VA
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+1
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

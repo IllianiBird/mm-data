@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-ddb7-70df-a87c-4648eae40f43
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Opossum
 model:OPO-2 SalvageMech
 mul id:7847
@@ -165,7 +166,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Opossum is a twenty-five-ton IndustrialMech produced by DiNapoli Industries on the world of Ankaa, introduced in 3110 as the company's inaugural product. Designed as a SalvageMech, the Opossum was built to fill growing market demand for affordable, reliable salvage and recovery equipment within the Republic of the Sphere. DiNapoli Industries positioned the Opossum as a cost-effective alternative to competing designs like the Fwltur, and the design gained early traction among civilian contractors and small military formations operating across Prefecture IV.</p><p>Though purely an industrial design with no combat capability in its base configuration, the Opossum's robust construction and versatile equipment suite earned it a reputation as one of the most dependable SalvageMechs in the Republic's civilian market.</p>
 
 capabilities:<p>The Opossum's design centers on its InterComBust 75 internal combustion engine, which provides a modest top speed of fifty-four kilometers per hour, adequate for its salvage recovery role but insufficient for battlefield maneuver. The IM Heavy II chassis carries StrongArm III heavy industrial armor, providing protection levels well above standard industrial grades and offering meaningful resistance to small arms and light weapons fire. The lack of jump jets limits the design's ability to navigate rough terrain, though the low ground pressure of the light chassis partially compensates in softer ground conditions.</p><p>The design's most notable feature is its Apple Churchill 2000 targeting and tracking system, paired with a Garret T10B communications suite, which together provide exceptional situational awareness for a machine of its class. In its standard configuration, the Opossum mounts a Beagle active probe linked to the Apple Churchill system, enabling detailed mapping of operational areas and identification of salvageable equipment at extended range. A DiNapoli ST7 salvage arm and spot welder round out the equipment suite, allowing field recovery and basic repairs. While the sensor package is impressive for its class, the Opossum's complete lack of weaponry leaves it entirely dependent on escorts in contested areas, a significant operational limitation.</p><p>The OPO-3 MOD variant replaces the spot welder and active probe with a Mydron Light Autocannon and advanced fire control system, trading reconnaissance and repair capability for meaningful self-defense. While this modification limits the SalvageMech's utility in its primary role, the addition of a ballistic weapon allows MOD-equipped Opossums to operate in contested environments where unmodified industrial machines would be prohibitively vulnerable.</p>
@@ -177,6 +177,8 @@ history:<p>DiNapoli Industries was founded in 3110 by Angelo DiNapoli on the wor
 manufacturer:DiNapoli Industries
 
 primaryfactory:Ankaa
+
+fluffdate:2026-02-21 18:07:19
 
 systemmanufacturer:CHASSIS:Unknown
 systemmode:CHASSIS:IM Heavy II

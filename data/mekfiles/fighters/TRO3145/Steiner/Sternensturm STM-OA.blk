@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-afc8-7ccb-8b92-b3b6e5eb8676
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ STM-OA
 <year>
 3098
 </year>
-
-<originalBuildYear>
-3098
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -124,26 +124,13 @@ ISTargeting Computer:OMNI
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-TR:3145:LC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Sternensturm is Lockheed/CBM's forty-ton OmniFighter, developed in the years following the Jihad to fill a critical gap in the Lyran Commonwealth Armed Forces' light aerospace assets. Designed at Lockheed/CBM's facilities on Tharkad and introduced in 3098, it entered service as the smaller companion to the heavier Morgenstern, giving LCAF commanders a fast, durable platform capable of air superiority missions or close air support with equal effectiveness. Rather than competing with the Morgenstern's raw firepower, the Sternensturm was conceived to operate in conjunction with it, providing the speed and flexibility needed to screen heavier assets and chase down lighter opposition. Its combination of thrust, protective airframe, and OmniFighter adaptability made it one of the more capable light fighters available to Lyran aerospace forces in the Dark Age period.</p>
-</overview>
-
 <capabilities>
 <p>The Sternensturm's Lockheed/CBM 320 airframe is driven by a Pitban 320 XL fusion plant, delivering thrust performance that allows the fighter to outpace virtually all medium and heavy aerospace designs it is likely to encounter. This speed is paired with Donegal Omni-Sheath Heavy Ferro-Aluminum armor that provides a level of protection unusual for a forty-ton airframe, permitting pilots to sustain hits that would cripple lighter fighters while continuing to engage. The fighter's avionics suite uses the Lockheed/CBM COMSET 300 for communications and the Lockheed/CBM TarSet 75 for targeting and fire control, both produced in-house and tuned for the design's operational tempo.</p><p>As an OmniFighter, the Sternensturm carries ten tons of configurable pod space distributed across three standard loadouts. The Prime configuration emphasizes close-range engagement, delivering concentrated firepower without requiring the pilot to close to suicidal distances. The second configuration trades some flexibility for greater reach and precision, suited for interception and escort duties where targets must be engaged before closing to short range. The third configuration replaces direct firepower with electronic warfare systems, transforming the airframe into a force-multiplier for larger formations. Across all configurations, the fighter's speed and armor remain its most consistent advantages, compensating for the modest pod space that limits total weapons tonnage compared to heavier OmniFighter designs.</p>
 </capabilities>
+
+<overview>
+<p>The Sternensturm is Lockheed/CBM's forty-ton OmniFighter, developed in the years following the Jihad to fill a critical gap in the Lyran Commonwealth Armed Forces' light aerospace assets. Designed at Lockheed/CBM's facilities on Tharkad and introduced in 3098, it entered service as the smaller companion to the heavier Morgenstern, giving LCAF commanders a fast, durable platform capable of air superiority missions or close air support with equal effectiveness. Rather than competing with the Morgenstern's raw firepower, the Sternensturm was conceived to operate in conjunction with it, providing the speed and flexibility needed to screen heavier assets and chase down lighter opposition. Its combination of thrust, protective airframe, and OmniFighter adaptability made it one of the more capable light fighters available to Lyran aerospace forces in the Dark Age period.</p>
+</overview>
 
 <deployment>
 <p>The A configuration is maintained in smaller numbers than the Prime and is assigned primarily to units tasked with interception and escort duties where pilots need to engage at longer ranges before targets can close. It is less flexible than the Prime across mission types but is preferred by pilots whose operational theaters favor extended engagement distances. LCAF aerospace wings with dedicated intercept roles typically maintain a mixed allocation of Prime and A configurations to balance close and extended engagement capability.</p>
@@ -176,4 +163,16 @@ ARMOR:Omni-Sheath Heavy Ferro-Aluminum
 COMMUNICATIONS:COMSET 300
 TARGETING:TarSet 75
 </systemModels>
+
+<source>
+TR:3145:LC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

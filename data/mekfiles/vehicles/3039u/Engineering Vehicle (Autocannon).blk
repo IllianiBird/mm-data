@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e27a-7541-8f95-f597234ba9ac
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Engineering Vehicle
 <year>
 2570
 </year>
-
-<originalBuildYear>
-2570
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -96,30 +96,13 @@ Autocannon/20
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-05 17:18:25
-<overview>
-<p>The Engineering Vehicle is a forty-ton tracked support platform produced by the New Earth Trading Company on New Earth. Introduced in 2570 during the final decades of the Age of War, the design was commissioned to provide military engineering units with a robust, affordable platform capable of performing construction, demolition, and obstacle clearance tasks in forward operating environments. Powered by an internal combustion engine rather than a costly fusion reactor, the vehicle offered commanders a practical and economical solution for the demanding logistical requirements of modern combined-arms warfare. Engineering Vehicles produced by the New Earth Trading Company became a common sight across the Inner Sphere, serving with armies of every major power for centuries.</p>
-</overview>
-
 <capabilities>
 <p>The Engineering Vehicle is built around a WorkHorse 240 internal combustion engine fitted with a PowerChain overdrive system that prevents motor burnout during sustained heavy equipment operation. This powerplant drives the tracked chassis to a cruising speed of 64 km/h with a top flank speed of 97 km/h, making the vehicle surprisingly quick for a construction platform. Communications are handled by a TharHes Caliope HM-10 system, though the vehicle mounts no dedicated targeting or tracking equipment, reflecting its non-combat design philosophy.</p><p>The standard configuration mounts a turret-mounted backhoe and a rear-mounted lift hoist, giving the crew the ability to excavate positions, remove obstacles, and recover damaged vehicles or salvageable components from the battlefield. The vehicle carries 2.5 tons of Basic Metal Plate Standard armor, sufficient to resist small arms fire and light shrapnel but inadequate against any serious military threat. The base model carries no weapons at all, leaving crews entirely dependent on escort forces for protection. While the oversized engine provides ample power for heavy equipment tasks, the reliance on an internal combustion powerplant means the vehicle cannot operate in vacuum or hostile atmospheric conditions without modification.</p>
 </capabilities>
+
+<overview>
+<p>The Engineering Vehicle is a forty-ton tracked support platform produced by the New Earth Trading Company on New Earth. Introduced in 2570 during the final decades of the Age of War, the design was commissioned to provide military engineering units with a robust, affordable platform capable of performing construction, demolition, and obstacle clearance tasks in forward operating environments. Powered by an internal combustion engine rather than a costly fusion reactor, the vehicle offered commanders a practical and economical solution for the demanding logistical requirements of modern combined-arms warfare. Engineering Vehicles produced by the New Earth Trading Company became a common sight across the Inner Sphere, serving with armies of every major power for centuries.</p>
+</overview>
 
 <deployment>
 <p>The Autocannon variant replaces all standard engineering equipment with a Class 20 Autocannon and a single ton of ammunition. Intended for demolition and obstacle clearance rather than direct combat, this configuration sacrifices the vehicle's construction capabilities in exchange for the ability to rapidly reduce fortifications, collapsed structures, and other heavy obstructions that would be impractical to remove with conventional engineering tools. The limited ammunition supply and lack of any secondary equipment reflect its narrow specialization.</p>
@@ -152,4 +135,20 @@ ARMOR:Basic Metal Plate Standard
 JUMP_JET:N/A
 COMMUNICATIONS:Caliope HM-10
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+40.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

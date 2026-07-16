@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e257-78ab-adc7-03f35720b363
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Mk 1
 <year>
 3036
 </year>
-
-<originalBuildYear>
-3036
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -114,36 +114,13 @@ Machine Gun
 Autocannon/20
 </Turret Equipment>
 
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-02 12:09:09
-<overview>
-<p>The Axel is the Free Rasalhague Republic's answer to the main battle tank problem, a licensed derivative of the Rommel and Patton designed to give the new state a credible heavy armor force without dependency on fusion engine supply chains the FRR could not sustain. Built by Benson and Bjorn on Spittal, the Axel trades the fusion powerplant of its Lyran progenitors for a combustion engine, accepting a reduction in sustained performance for dramatically simpler logistics. The design proved adaptable enough to remain in production through successive annexations and political upheavals, with the Clan Ghost Bear occupation eventually leading to an entirely new branch of the family using advanced technology. The Axel IIC variants represent a modern evolution of the original concept, built to equip the Kungsarme with capable front-line armor using manufacturing infrastructure that survived the Republic's end.</p>
-</overview>
-
 <capabilities>
 <p>The Axel Mk 1 and Mk 2 share the Rommel and Patton's general profile but use an ICE powerplant, which reduces top speed compared to their fusion-powered progenitors. Both variants retain the low silhouette that distinguishes the family, and both arm their turrets with machine guns in place of the lasers found on the Lyran originals. The Mk 1 carries a larger ammunition supply and a second machine gun, while the Mk 2 trades one machine gun and much of its ammunition for a vehicle flamer suited to anti-infantry work. Both mount a ten-rack missile launcher, an upgrade from the five-tube system of the originals, improving indirect-fire capability at the cost of additional ammunition management.</p><p>The Axel IIC and IIC (XL) variants are substantially more capable machines, incorporating advanced technology unavailable to the original design. The IIC uses the reconfigured Benson and Bjorn production line to produce an Inner Sphere-style main battle tank with modern electronics and improved protection. The XL variant uses an extralight engine to free mass for additional weapons and systems, intended as a command and flanking unit for armored formations. Both IIC variants carry higher costs than the original Axels, limiting overall production numbers despite improved capabilities.</p>
 </capabilities>
+
+<overview>
+<p>The Axel is the Free Rasalhague Republic's answer to the main battle tank problem, a licensed derivative of the Rommel and Patton designed to give the new state a credible heavy armor force without dependency on fusion engine supply chains the FRR could not sustain. Built by Benson and Bjorn on Spittal, the Axel trades the fusion powerplant of its Lyran progenitors for a combustion engine, accepting a reduction in sustained performance for dramatically simpler logistics. The design proved adaptable enough to remain in production through successive annexations and political upheavals, with the Clan Ghost Bear occupation eventually leading to an entirely new branch of the family using advanced technology. The Axel IIC variants represent a modern evolution of the original concept, built to equip the Kungsarme with capable front-line armor using manufacturing infrastructure that survived the Republic's end.</p>
+</overview>
 
 <deployment>
 <p>The Axel Mk 1 entered service with the Free Rasalhague Republic from 3036, produced by Benson and Bjorn on Spittal. Initial deliveries prioritized planetary militias on heavily populated border worlds, though frontline units quickly lobbied for allocation. When Clan Ghost Bear's occupation absorbed Spittal, production continued under Clan oversight through the Civil War era for garrison and second-line use before being discontinued in favor of the IIC variants.</p>
@@ -160,4 +137,20 @@ Benson and Bjorn
 <primaryFactory>
 Spittal
 </primaryFactory>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+65.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

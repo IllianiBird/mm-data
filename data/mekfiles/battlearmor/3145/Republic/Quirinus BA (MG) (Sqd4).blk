@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a749-70c1-aa20-29eadea2a3a9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Quirinus Battle Armor
 <year>
 3138
 </year>
-
-<originalBuildYear>
-3138
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -93,42 +93,14 @@ IS BA Reactive (Blazer):LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:RotS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-8
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Quirinus is a medium-weight Inner Sphere battle armor produced by StarCorp Industries on Terra. Entering service in 3093, the suit was designed as a general-purpose trooper platform for the open market rather than exclusive military procurement. Its medium frame balances protection and mobility, offering jump-capable movement and armor well suited to its weight class. A modular weapon mount allows field commanders to tailor the suit's primary armament to mission requirements, giving the Quirinus a generalist flexibility valued by military and mercenary organizations alike.</p>
-</overview>
 
 <capabilities>
 <p>The Machine Gun configuration, introduced in 3138, adds a high-volume ballistic option to the Quirinus weapon family. The machine gun excels at suppressing infantry and engaging light targets with sustained fire, making this the most effective anti-personnel loadout available for the suit. The integral Light TAG designator complements the machine gun's suppressive role by allowing troopers to guide indirect fire onto hardened targets that resist small-arms fire. Reactive armor totaling four hundred eighty kilograms shields the trooper from explosive threats, though energy weapons bypass this protection entirely.</p><p>Jump capability of ninety meters per leap offsets the slow ground pace of ten kilometers per hour, enabling troopers to reposition quickly between engagements. The vibro battle claw retains the suit's anti-BattleMech swarming potential, giving this configuration a broader target profile than either the David or grenade launcher loadouts. Ammunition consumption remains the primary constraint during extended operations.</p>
 </capabilities>
+
+<overview>
+<p>The Quirinus is a medium-weight Inner Sphere battle armor produced by StarCorp Industries on Terra. Entering service in 3093, the suit was designed as a general-purpose trooper platform for the open market rather than exclusive military procurement. Its medium frame balances protection and mobility, offering jump-capable movement and armor well suited to its weight class. A modular weapon mount allows field commanders to tailor the suit's primary armament to mission requirements, giving the Quirinus a generalist flexibility valued by military and mercenary organizations alike.</p>
+</overview>
 
 <deployment>
 <p>Four-trooper squads mounting Machine Guns served as anti-infantry specialists within Inner Sphere formations. Introduced later than the other configurations, machine gun squads found particular favor with mercenary companies operating in counterinsurgency environments where sustained suppressive fire against unarmored opponents was more valuable than anti-armor capability. Provincial garrison forces also adopted this loadout for base security and patrol operations.</p>
@@ -163,4 +135,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:RotS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+8
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

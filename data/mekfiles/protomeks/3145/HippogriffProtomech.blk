@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e109-799b-8027-27ed20123663
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Hippogriff
 <year>
 3110
 </year>
-
-<originalBuildYear>
-3110
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -129,34 +129,13 @@ CLLRM2
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3145:Merc,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-8.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Hippogriff is an eight-ton ProtoMek designed by the Raven Alliance around partial wing technology, making it one of the most mobile ProtoMeks ever built. The first entirely new ProtoMek developed by the Raven Alliance, the Hippogriff was born from the Ravens' need for additional ground troops and the availability of a dedicated ProtoMek transport DropShip, the Arcadia class. Special care was invested in the design's unique flight-enhanced jump capability, with the partial wing enabling the Hippogriff to leap distances that far exceed what its mass would normally allow. The quasi-totemic design, with its feathered wing profile and avian aesthetic, has become a symbol of the Raven Alliance's ProtoMek program.</p>
-</overview>
-
 <capabilities>
 <p>The Hippogriff joins the Gorgon in the eight-ton weight bracket but takes a fundamentally different tactical approach. Where the Gorgon features heavy weaponry, the Hippogriff relies on two compact LRM-2 launchers with atypically deep ammunition bins of twenty-four rounds each, providing an exceptional forty-eight total salvos. Its primary features are extended jump jets and a feathered partial wing that enables it to leap enormous distances in standard atmosphere, adding sixty meters to each jump for a total of one hundred fifty meters of leaping distance under standard atmospheric conditions.</p><p>Thirty points of armor provide solid protection, and the Hippogriff's doctrine of maintaining range while supplying constant covering fire means it is more likely to survive engagements than more aggressive ProtoMek designs. The trade-off is limited damage output per volley; the twin LRM-2 launchers cannot inflict enough damage to seriously threaten BattleMeks without sustained concentrated fire from an entire Point. Ground speed is modest at thirty-two kilometers per hour cruising, and the partial wing is useless in vacuum or airless environments, reducing the design to average jump performance in space or on airless moons. The Hippogriff excels as a long-range support unit that uses its exceptional mobility to maintain optimal engagement distance while providing persistent covering fire.</p>
 </capabilities>
+
+<overview>
+<p>The Hippogriff is an eight-ton ProtoMek designed by the Raven Alliance around partial wing technology, making it one of the most mobile ProtoMeks ever built. The first entirely new ProtoMek developed by the Raven Alliance, the Hippogriff was born from the Ravens' need for additional ground troops and the availability of a dedicated ProtoMek transport DropShip, the Arcadia class. Special care was invested in the design's unique flight-enhanced jump capability, with the partial wing enabling the Hippogriff to leap distances that far exceed what its mass would normally allow. The quasi-totemic design, with its feathered wing profile and avian aesthetic, has become a symbol of the Raven Alliance's ProtoMek program.</p>
+</overview>
 
 <deployment>
 <p>The Hippogriff mounts LRM-2 launchers in each arm, each fed by a deep twenty-four-round ammunition bin providing a total of forty-eight salvos. A partial wing mounted in the torso augments five extended jump jets for one hundred fifty meters of leaping distance in standard atmosphere. The forty-rated fusion engine provides a modest thirty-two kilometers per hour cruising speed on the ground, making the jump capability essential for tactical movement. Thirty points of armor provide solid protection for the weight class. Produced at the Snow Raven Industrial Complex Alpha on Dante, the Hippogriff serves primarily in the Raven Alliance's Gamma and Beta Galaxies, with additional units traded to Clan Hell's Horses for garrison and solahma support duties.</p>
@@ -191,4 +170,16 @@ JUMP_JET:MicroLeapers
 COMMUNICATIONS:Micro
 TARGETING:Model 8
 </systemModels>
+
+<source>
+TR:3145:Merc,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+8.0
+</tonnage>
 

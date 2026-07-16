@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a943-7be9-bf32-2677858443ef
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kanazuchi Assault Battle Armor
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Experimental
@@ -94,38 +94,14 @@ IS BA Advanced:RA
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-XTR:Gladiators
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kanazuchi is an assault-class battle armor design produced by Luthien Armor Works for the Draconis Combine Mustered Soldiery. One of the heaviest and most heavily armored suits developed by any Inner Sphere power, its name translates from Japanese as "hammer." Introduced in 3058 after a prolonged and difficult development cycle, the Kanazuchi was designed to provide the Combine with a ground-based armored infantry platform optimized for urban defense operations. The suit's exceptional protection and interchangeable manipulator system earned it a reputation as one of the most survivable designs in service, though its lack of mobility and inability to perform anti-BattleMech attacks limited its tactical flexibility compared to lighter alternatives.</p>
-</overview>
 
 <capabilities>
 <p>A radical field modification using mixed Inner Sphere and Clan technology, the 'Cyclops' strips the Kanazuchi's standard armament entirely. A detachable weapon mount over the right shoulder carries a Clan-manufactured extended-range medium pulse laser, giving the suit precision firepower far beyond what its original design anticipated. A second heavy battle claw replaces the right-arm weapon, providing devastating close-range striking power against other suits and light vehicles. The anti-personnel mounts are retained.</p><p>Armor protection is reduced compared to the standard configuration to accommodate the detachable mount hardware. The suit's already limited ground speed drops to a crawl when carrying the weapon pack, but removing the detachable weapon restores a measure of mobility. The experimental Clan technology base restricts this configuration to specialized applications.</p>
 </capabilities>
+
+<overview>
+<p>The Kanazuchi is an assault-class battle armor design produced by Luthien Armor Works for the Draconis Combine Mustered Soldiery. One of the heaviest and most heavily armored suits developed by any Inner Sphere power, its name translates from Japanese as "hammer." Introduced in 3058 after a prolonged and difficult development cycle, the Kanazuchi was designed to provide the Combine with a ground-based armored infantry platform optimized for urban defense operations. The suit's exceptional protection and interchangeable manipulator system earned it a reputation as one of the most survivable designs in service, though its lack of mobility and inability to perform anti-BattleMech attacks limited its tactical flexibility compared to lighter alternatives.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Point formations of the 'Cyclops' appeared in broader Solaris-adjacent arena circuits, where mixed-faction sporting leagues adopted Clan organizational structures for team competitions. The larger formation leveraged the suit's precision firepower for coordinated arena tactics that overwhelmed opponents through volume of accurate pulse laser fire.</p>
@@ -158,4 +134,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Gladiators
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

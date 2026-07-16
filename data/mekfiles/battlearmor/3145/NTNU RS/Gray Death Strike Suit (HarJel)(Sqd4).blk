@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a6ae-7a2a-ae47-37cd3ba5b271
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Strike Suit
 <year>
 3107
 </year>
-
-<originalBuildYear>
-3107
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis)
@@ -93,46 +93,14 @@ CLBASRM3:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<notes>
-BA Harjel not coded. Unit included for completeness
-</notes>
-
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Strike Suit is a medium battle armor design developed by Gray Death Technologies in the early 3070s. Created to give the Lyran Commonwealth a dedicated fire support battle armor platform, the Strike combined missile armament with target designation capability in a well-armored package that could soften enemy positions before heavier forces closed the distance. The production model entered service in 3080 after a protracted development process that began with a Clan-technology prototype.</p>
-</overview>
 
 <capabilities>
 <p>The HarJel variant incorporates self-sealing technology that automatically patches breaches in the suit's armor, maintaining atmospheric integrity in hostile environments. Advanced armor replaces the standard plating, providing equivalent protection at reduced weight and freeing mass for the HarJel system and a Firedrake Needler for anti-infantry work. The SRM-3 launcher and Light TAG system carry forward from the production model.</p><p>Basic Manipulators and ground-only movement remain consistent with the base Strike platform. The HarJel system broadens the suit's operational envelope to include vacuum, underwater, and contaminated atmosphere operations where a single armor breach could prove fatal. This makes the variant particularly valuable for boarding actions and operations on worlds with hazardous conditions.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Strike Suit is a medium battle armor design developed by Gray Death Technologies in the early 3070s. Created to give the Lyran Commonwealth a dedicated fire support battle armor platform, the Strike combined missile armament with target designation capability in a well-armored package that could soften enemy positions before heavier forces closed the distance. The production model entered service in 3080 after a protracted development process that began with a Clan-technology prototype.</p>
+</overview>
 
 <deployment>
 <p>LCAF commands operating in hostile atmospheric or vacuum conditions adopted the self-sealing variant for four-trooper squads tasked with boarding actions and operations on worlds with hazardous environments. The suit's ability to maintain integrity after armor breaches gave troopers confidence in situations where a single puncture could prove fatal. Lyran naval infantry units were among the first to receive the variant for shipboard assault operations.</p>
@@ -165,4 +133,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+BA Harjel not coded. Unit included for completeness
+</notes>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

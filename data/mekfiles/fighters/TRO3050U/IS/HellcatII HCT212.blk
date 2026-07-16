@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-adb2-7ed7-b26b-84eeeaed4fc0
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ HCT-212
 <year>
 2838
 </year>
-
-<originalBuildYear>
-2838
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -117,34 +117,13 @@ Medium Laser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Hellcat II is a fifty-ton medium aerospace fighter commissioned by Mitchell Vehicles in 2710 as a heavy aerospace scout for the Star League Defense Force. Despite sharing a name and manufacturer with the older Hellcat, the Hellcat II is an entirely different design, ten tons lighter and built around a flying-wing airframe intended to minimize its emissions footprint. The craft's inclusion of a Beagle Active Probe made it one of the most capable reconnaissance fighters in the SLDF inventory, though its late introduction meant it saw only limited deployment before the fall of the Star League. In the centuries since, surviving examples have served with Clan second-line formations, ComStar's Com Guards, and various Successor State forces.</p>
-</overview>
-
 <capabilities>
 <p>Built on a Wakazashi IX airframe with a Rawlings 250 fusion engine, the Hellcat II achieves roughly twenty-two percent greater acceleration than its heavier predecessor despite mounting a similarly sized powerplant. The original prototypes carried fifteen tons of standard armor, earning the craft the nickname "flying tank" from test pilots, but three tons were removed to improve handling. Designers compensated by switching to SRT ferro-aluminum armor, which provides superior protection per ton while improving heat dissipation characteristics.</p><p>The Hellcat II's primary armament consists of two wing-mounted Diverse Optics large lasers and a single rear-facing Starflash medium laser. Though modest compared to dedicated combat fighters, this all-energy loadout supports extended patrol missions without ammunition concerns. The design's most distinctive feature is its nose-mounted Beagle Active Probe, integrated directly into the Telecron M75 targeting system. This arrangement allows the large lasers to benefit from the probe's enhanced detection capability, providing accuracy rivaling some DropShip-grade sensor suites. Fifteen single heat sinks manage the thermal output adequately, and the Telecron L50 communications system matches the electronics package found on the original Hellcat.</p>
 </capabilities>
+
+<overview>
+<p>The Hellcat II is a fifty-ton medium aerospace fighter commissioned by Mitchell Vehicles in 2710 as a heavy aerospace scout for the Star League Defense Force. Despite sharing a name and manufacturer with the older Hellcat, the Hellcat II is an entirely different design, ten tons lighter and built around a flying-wing airframe intended to minimize its emissions footprint. The craft's inclusion of a Beagle Active Probe made it one of the most capable reconnaissance fighters in the SLDF inventory, though its late introduction meant it saw only limited deployment before the fall of the Star League. In the centuries since, surviving examples have served with Clan second-line formations, ComStar's Com Guards, and various Successor State forces.</p>
+</overview>
 
 <deployment>
 <p>The HCT-212 represents the degraded Succession Wars configuration of the Hellcat II, created not by deliberate design but through the progressive loss of advanced technology. As ferro-aluminum armor and Beagle Active Probes became irreplaceable, field technicians substituted standard armor and removed the probe entirely. The resulting fighter carries two large lasers co-axed with a pair of medium lasers in the wings and sixteen single heat sinks, but is prone to overheating when all weapons fire simultaneously. Despite these limitations, the 212 saw widespread service as a field refit across multiple Successor States beginning around 2838.</p>
@@ -177,4 +156,16 @@ ARMOR:Standard
 COMMUNICATIONS:L50
 TARGETING:M75
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

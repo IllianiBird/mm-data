@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-c564-7c7f-bc17-91951fa263d4
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Hussar
 model:HSR-400-D
 mul id:1589
@@ -29,8 +30,8 @@ rules level:2
 role:Scout
 
 quirk:rugged_1
-quirk:imp_com
 quirk:directional_torso_mount:LT
+quirk:imp_com
 
 mass:30
 engine:240 XL Engine
@@ -169,7 +170,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Hussar was introduced in 2620 by Newhart Industries as a light reconnaissance BattleMech for the Star League Defense Force. Originally conceived as an infantry support platform, the thirty-ton design's extraordinary speed naturally lent itself to a scouting role, eventually replacing the majority of light scout vehicles in SLDF formations. Its advanced communications and electronic warfare suite made the Hussar invaluable for deep reconnaissance behind enemy lines.</p><p>The SLDF maintained tight control over Newhart's production, and very few Hussars reached the Great Houses through anything other than salvage or deliberate "shipping errors." The loss of its sole factory during the Amaris Civil War and the subsequent Exodus left the design all but extinct in the Inner Sphere for nearly three centuries, lending surviving examples an almost mythical reputation among reconnaissance specialists.</p>
 
 capabilities:<p>The Hussar mounts a single Newhart extended-range large laser in a unique turreted center torso mount, providing stand-off engagement capability well beyond the reach of most light 'Mech weaponry. While limiting the design's offensive output, this single weapon philosophy reflects the Hussar's core doctrine: the MechWarrior's primary advantage is speed, not firepower. At over 150 kilometers per hour, the Hussar can dictate engagement ranges and disengage from unfavorable fights before heavier opponents can bring weapons to bear.</p><p>The design's most significant weakness is its armor protection, barely a ton and a half of Lexington Limited High Grade ferro-fibrous plating, making it among the least-protected 'Mechs ever fielded. Even a Locust carries more armor. This extreme vulnerability means that any hit to the legs can cripple the design instantly, and concentrated fire from any source is likely fatal.</p><p>Where the Hussar truly excels is in its electronic warfare suite. The Field Ranger Sightseer communications system can jam enemy signals and tap into hostile communications up to thirty-five kilometers distant. A well-placed lance of Hussars can completely disrupt an enemy's command network while reporting detailed intelligence on movements and dispositions. These capabilities made the Hussar the standard by which all SLDF reconnaissance platforms were measured.</p>
@@ -181,6 +181,8 @@ history:<p>Newhart Industries designed the Hussar on New Earth within the Terran
 manufacturer:Coventry Metal Works|Bonn Mekarmorwerks
 
 primaryfactory:Coventry|Terra
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Benztrov
 systemmode:CHASSIS:40

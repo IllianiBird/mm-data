@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a95a-7505-9680-75bc597179ee
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Longinus Battle Armor
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -98,38 +98,14 @@ IS BA Advanced:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Marik
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Longinus was the Free Worlds League's answer to the Clan Elemental battle armor, developed jointly with the Word of Blake beginning in 3054. Classified as a medium battle armor, the suit came closer to matching its Clan-tech inspiration than any other Inner Sphere design of the era. The FWL's alliance with the Blakists provided access to technologies that rival programs in other Great Houses lacked. First fielded in 3057, the Longinus earned a reputation as both capable and expensive, with production costs well above comparable Inner Sphere designs.</p>
-</overview>
 
 <capabilities>
 <p>The "Hacked" Longinus strips down the standard suit to accommodate an experimental battle armor C³i computer system captured from the Word of Blake. To fit the electronics, jump capability is reduced to sixty meters, armor is cut by a third to 240 kilograms, and the detachable SRM launcher is removed entirely. The David configuration equips a "David" light Gauss rifle in the right-arm modular mount, providing ranged engagement capability that compensates somewhat for the suit's reduced survivability. A battle claw and anti-personnel weapon mount on the left arm are retained. The C³i system allows a squad to share targeting data with heavier networked units, extending the reach of a friendly C³ network into areas that larger platforms cannot access, such as cave complexes and fortified interiors. The substantial loss of armor and weapons payload means the "Hacked" functions more as a mobile sensor node than a frontline combatant.</p>
 </capabilities>
+
+<overview>
+<p>The Longinus was the Free Worlds League's answer to the Clan Elemental battle armor, developed jointly with the Word of Blake beginning in 3054. Classified as a medium battle armor, the suit came closer to matching its Clan-tech inspiration than any other Inner Sphere design of the era. The FWL's alliance with the Blakists provided access to technologies that rival programs in other Great Houses lacked. First fielded in 3057, the Longinus earned a reputation as both capable and expensive, with production costs well above comparable Inner Sphere designs.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations of David-equipped "Hacked" Longinus suits were never fielded operationally. The experimental C³i project remained confined to Regulan trials using standard Inner Sphere squad organization before cancellation, and no ComStar or Word of Blake formations adopted the design.</p>
@@ -164,4 +140,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Marik
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

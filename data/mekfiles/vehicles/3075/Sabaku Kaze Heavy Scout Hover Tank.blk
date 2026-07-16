@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e629-733b-9464-08c74940ccaa
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Sabaku Kaze Heavy Scout Hover Tank
 <year>
 2695
 </year>
-
-<originalBuildYear>
-2695
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -111,26 +111,13 @@ Medium Laser
 Medium Laser
 </Turret Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 16:18:34
-<overview>
-<p>The Sabaku Kaze Heavy Scout Hover Tank is a medium hover vehicle produced by Buda Imperial Vehicles on Dabih, entering service in 2695. Built as a redesign of the older Sand Devil hovercraft developed by Cairo Enterprises, the Sabaku Kaze, meaning "desert wind" in the Azami dialect, replaced the original petrochemical power plant with a fusion engine and upgraded both armor and weapons to military-grade standards. Conceived for the fast, mobile style of warfare favored by the Azami people of the Draconis Combine, the Sabaku Kaze was well-suited to hit-and-run operations and open-terrain patrol duties.</p><p>Cairo Enterprises retained ownership of the underlying design while Buda Imperial Vehicles held the exclusive production rights on Dabih, giving the tank a narrow production base that kept it largely an Azami-specific vehicle throughout its operational life.</p>
-</overview>
-
 <capabilities>
 <p>The Sabaku Kaze carries a strong armaments package for a medium hover vehicle. Its primary weapons consist of four Intek Medium Lasers and two Intek Small Lasers, providing reliable anti-infantry and light vehicle firepower without ammunition dependence. Two Holly-4 SRM 4 launchers add burst-damage capability, and their placement allows the crew to engage threats from multiple directions during patrol. The Nissan 215 fusion engine pushes the Sabaku Kaze to a flank speed of 151 kilometers per hour, making it one of the faster medium designs of its era and well-suited to scouting and screening assignments.</p><p>Nimakachi Type 3 armor provides substantially greater protection than the Sand Devil carried, allowing the Sabaku Kaze to absorb hits that would have disabled its predecessor. The Dalban Series K communications suite and Dalban AQ targeting system support effective operations across the open desert terrain the design was built for.</p><p>The primary weakness is a logistics burden: the Sabaku Kaze uses components unique to the design, making field repair difficult without a dedicated supply chain. Its hover profile also limits effectiveness in rough or obstructed terrain where ground disruption would impede movement.</p>
 </capabilities>
+
+<overview>
+<p>The Sabaku Kaze Heavy Scout Hover Tank is a medium hover vehicle produced by Buda Imperial Vehicles on Dabih, entering service in 2695. Built as a redesign of the older Sand Devil hovercraft developed by Cairo Enterprises, the Sabaku Kaze, meaning "desert wind" in the Azami dialect, replaced the original petrochemical power plant with a fusion engine and upgraded both armor and weapons to military-grade standards. Conceived for the fast, mobile style of warfare favored by the Azami people of the Draconis Combine, the Sabaku Kaze was well-suited to hit-and-run operations and open-terrain patrol duties.</p><p>Cairo Enterprises retained ownership of the underlying design while Buda Imperial Vehicles held the exclusive production rights on Dabih, giving the tank a narrow production base that kept it largely an Azami-specific vehicle throughout its operational life.</p>
+</overview>
 
 <deployment>
 <p>The Sabaku Kaze served exclusively within Azami forces during its production run, with only limited representation in the broader DCMS. Distribution outside Azami tribal units was minimal even at peak production. After the 2883 destruction of the Dabih factory, no new vehicles entered service. Surviving examples became increasingly difficult to sustain as proprietary replacement parts grew scarce, and most were cannibalized or taken out of frontline service by the late Succession Wars period. No meaningful numbers of Sabaku Kazes have been reported in active service since that time.</p>
@@ -163,4 +150,16 @@ ARMOR:Type 3
 COMMUNICATIONS:Series K
 TARGETING:AQ
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

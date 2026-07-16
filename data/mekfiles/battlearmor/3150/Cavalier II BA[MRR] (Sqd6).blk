@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7a1-799d-ac51-92c8d147c6bd
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Cavalier II Battle Armor
 <year>
 3142
 </year>
-
-<originalBuildYear>
-3142
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -96,38 +96,14 @@ InfantryAssaultRifle:APM
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3150
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Cavalier II is a medium Inner Sphere battle armor suit produced by General Motors on Talcott for the Armed Forces of the Federated Suns. Entering service in 3142, the design was developed specifically to counter Capellan Confederation battle armor threats along the contested Davion-Liao border. The suit incorporates Clan-specification stealth armor and improved jump performance alongside a modular weapon mount and a dedicated anti-personnel weapon station, giving it broader tactical flexibility than its predecessor.</p>
-</overview>
 
 <capabilities>
 <p>The medium recoilless rifle configuration arms the Cavalier II with a ballistic weapon that offers stronger ranged punch than the energy and flame options. The dedicated anti-personnel weapon mount provides a secondary weapon for engaging soft targets independently of the primary armament. Clan-specification stealth armor reduces the suit's sensor profile, allowing troopers to set up firing positions without detection and engage at the weapon's effective range before relocating. Improved jump jets provide superior mobility for rapid repositioning after firing. The rifle's ammunition dependency limits sustained operations compared to energy-armed variants, but its hitting power against light armor and battle armor targets exceeds what a laser or flamer can deliver at range.</p>
 </capabilities>
+
+<overview>
+<p>The Cavalier II is a medium Inner Sphere battle armor suit produced by General Motors on Talcott for the Armed Forces of the Federated Suns. Entering service in 3142, the design was developed specifically to counter Capellan Confederation battle armor threats along the contested Davion-Liao border. The suit incorporates Clan-specification stealth armor and improved jump performance alongside a modular weapon mount and a dedicated anti-personnel weapon station, giving it broader tactical flexibility than its predecessor.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper formations armed with medium recoilless rifle Cavalier IIs appeared in small numbers among mercenary commands and independent military organizations that adopted the larger formation size. These units used the rifle's range and the stealth armor's concealment to establish ambush positions along defensive perimeters.</p>
@@ -162,4 +138,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

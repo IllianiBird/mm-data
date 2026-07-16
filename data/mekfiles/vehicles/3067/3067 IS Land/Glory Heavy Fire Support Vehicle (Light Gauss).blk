@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e57e-78e7-b36d-3830318a29ac
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Glory Heavy Fire Support Vehicle
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -110,26 +110,13 @@ LRM 15
 ISArtemisIV
 </Turret Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 14:37:40
-<overview>
-<p>The Glory Heavy Fire Support Vehicle is a tracked combat vehicle designed and produced by Johnston Industries on New Syrtis. Developed in the early 3060s at the request of Armed Forces of the Federated Commonwealth High Command, the Glory was conceived to address fire support shortfalls emerging in armor brigades depleted by escalating border conflicts. Johnston based the design on its established Goblin Infantry Support Vehicle, adapting the familiar hull for a dedicated long-range suppression role rather than troop transport. Development was approved and testing was underway when the FedCom Civil War intervened, forcing the company to suspend the program in favor of existing production lines. The first vehicles reached assembly in 3067, entering service at the tail end of hostilities.</p>
-</overview>
-
 <capabilities>
 <p>The Glory's offensive load centers on a Mydron Tornado Rotary Autocannon/5, which delivers a high volume of fire at medium range, capable of suppressing infantry and lighter vehicles with sustained bursts. Two Coventry Star Fire LRM-15 racks provide the long-range indirect fire capability that defines the vehicle's fire support role, and Artemis IV guidance integration via the BlazeFire Ranging System Type 3 improves cluster spread and hit probability at extended distances. Two Diverse Optics Extended Range Medium Lasers round out the armament, offering reliable energy-based backup that does not depend on ammunition supply.</p><p>The Strand 255 Fusion engine delivers a flank speed of 54 km/h, adequate for repositioning between fire positions but insufficient to disengage from a determined pursuit. Durallex Heavy Ferro-Fibrous armor provides solid frontal and side protection for an 85-ton vehicle. The CommuTech Multichannel communications suite incorporates a Guardian ECM system, adding an electronic warfare layer that degrades enemy targeting and offers limited protection against missile guidance systems.</p><p>The Glory's primary tactical limitation is its short-range vulnerability. With no weapons optimized for close engagement and modest mobility, the vehicle relies on escort elements to keep enemy units at a distance. Its cost, while substantially lower than comparable OmniVehicles, remains a point of criticism given these defensive gaps.</p>
 </capabilities>
+
+<overview>
+<p>The Glory Heavy Fire Support Vehicle is a tracked combat vehicle designed and produced by Johnston Industries on New Syrtis. Developed in the early 3060s at the request of Armed Forces of the Federated Commonwealth High Command, the Glory was conceived to address fire support shortfalls emerging in armor brigades depleted by escalating border conflicts. Johnston based the design on its established Goblin Infantry Support Vehicle, adapting the familiar hull for a dedicated long-range suppression role rather than troop transport. Development was approved and testing was underway when the FedCom Civil War intervened, forcing the company to suspend the program in favor of existing production lines. The first vehicles reached assembly in 3067, entering service at the tail end of hostilities.</p>
+</overview>
 
 <deployment>
 <p>The Light Gauss variant was an early parallel design intended to offer extended precision fire at the cost of sustained volume. The configuration replaces the Rotary Autocannon and Extended Range Medium Lasers with a single light Gauss rifle and two tons of ammunition. The trade proved costly in practical terms, as the weapons required importation from the Free Worlds League and drove per-unit expenses well above the standard model. Only a small number of examples were completed before Johnston discontinued the configuration. Those built were assigned to select Federated Suns cavalry and recon commands that valued the variant's superior range over its limited ammunition endurance.</p>
@@ -162,4 +149,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Multichannel
 TARGETING:Ranging System Type 3
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

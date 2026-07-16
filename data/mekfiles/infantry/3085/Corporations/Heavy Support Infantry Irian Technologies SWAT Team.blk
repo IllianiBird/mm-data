@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b62e-7dbd-8f4d-2d1432fcdf64
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ Irian Technologies SWAT Team
 1449
 </mul id:>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 3063
 </year>
-
-<originalBuildYear>
-3063
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -66,6 +58,18 @@ Ballistic Plate, Standard
 
 <Field Guns Equipment>
 </Field Guns Equipment>
+
+<overview>
+<p>Irian BattleMechs Unlimited, the military division of the Free Worlds League industrial giant Irian Technologies, takes a direct approach to facility security. Deploying from full-sized APCs, Irian SWAT teams wear the heaviest unpowered armor available to conventional infantry and carry Imperator AX-22 assault rifles backed by David light Gauss rifles as secondary weapons. The combination delivers firepower that can threaten light combat vehicles and challenge even battle armor at close range. The weight of their ballistic plate armor and heavy weapons loadout makes these troops slow and unable to conduct anti-BattleMech swarming attacks, but their role is facility defense rather than mobile warfare. Irian's vast factory complexes on worlds across the Free Worlds League demand security forces capable of standing their ground against serious threats, and these SWAT teams are built for exactly that purpose.</p>
+</overview>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
 
 <squad_size>
 7
@@ -94,9 +98,4 @@ Gauss Rifle, Light (David)
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Irian BattleMechs Unlimited, the military division of the Free Worlds League industrial giant Irian Technologies, takes a direct approach to facility security. Deploying from full-sized APCs, Irian SWAT teams wear the heaviest unpowered armor available to conventional infantry and carry Imperator AX-22 assault rifles backed by David light Gauss rifles as secondary weapons. The combination delivers firepower that can threaten light combat vehicles and challenge even battle armor at close range. The weight of their ballistic plate armor and heavy weapons loadout makes these troops slow and unable to conduct anti-BattleMech swarming attacks, but their role is facility defense rather than mobile warfare. Irian's vast factory complexes on worlds across the Free Worlds League demand security forces capable of standing their ground against serious threats, and these SWAT teams are built for exactly that purpose.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a91b-7aed-9db5-4b765b9a3f23
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ HR(Sqd5)
 <year>
 3078
 </year>
-
-<originalBuildYear>
-3078
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis)
@@ -100,42 +100,14 @@ Clan BA Stealth (Basic):RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Clans
-</source>
-
-<published>
-XTR:Clans
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Rogue Bear is a Clan Ghost Bear heavy battlesuit produced at BA Facility Gamma on Mannedorf. First fielded in 3073 during the closing years of the Jihad, the design fills a rapid-response role within garrison and second-line formations, offering jump capability and fixed armament suited to patrol and security operations. Weighing 1,500 kilograms, the Rogue Bear earned a reputation for reliability and low maintenance requirements, qualities that proved valuable during a period of significant logistical strain across the Ghost Bear Dominion. Several derivative designs have since been developed from the Rogue Bear chassis.</p>
-</overview>
 
 <capabilities>
 <p>The HR is an experimental prototype blending Inner Sphere and Clan technologies into a heavy reconnaissance platform. A partial wing system grants ninety-meter jump capability, while a Spheroid-designed camouflage system and basic stealth armor reduce the suit's detection profile. Offensive armament is deliberately light, limited to a single machine gun and one anti-personnel weapon mount, reflecting the HR's intended role as a scout and insurgent hunter rather than a frontline combatant. Battle claws provide OmniMech transport capability and melee options.</p><p>The fusion of Clan structural engineering with Inner Sphere stealth and sensor technologies produced mixed results during field testing. The suit's firepower was judged insufficient for its weight class, and the partial wing system proved problematic in low-atmosphere environments, limiting the HR's operational utility despite its strong reconnaissance performance.</p>
 </capabilities>
+
+<overview>
+<p>The Rogue Bear is a Clan Ghost Bear heavy battlesuit produced at BA Facility Gamma on Mannedorf. First fielded in 3073 during the closing years of the Jihad, the design fills a rapid-response role within garrison and second-line formations, offering jump capability and fixed armament suited to patrol and security operations. Weighing 1,500 kilograms, the Rogue Bear earned a reputation for reliability and low maintenance requirements, qualities that proved valuable during a period of significant logistical strain across the Ghost Bear Dominion. Several derivative designs have since been developed from the Rogue Bear chassis.</p>
+</overview>
 
 <deployment>
 <p>Clan-organized Points of HR prototypes underwent combat trials during the late Jihad, though the experimental nature of the design limited deployment to controlled evaluation scenarios. Five-trooper Points provided sufficient mass to test the suit's partial wing system and stealth armor under realistic conditions while maintaining the standard Clan tactical structure that evaluators could compare against conventional Elemental Points.</p>
@@ -170,4 +142,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Clans
+</source>
+
+<published>
+XTR:Clans
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

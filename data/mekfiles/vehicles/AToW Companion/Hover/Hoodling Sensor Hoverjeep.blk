@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8cd-79f5-ac82-f89dfc20dbee
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Hoodling Sensor HoverJeep
 <year>
 3050
 </year>
-
-<originalBuildYear>
-3050
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -114,20 +114,6 @@ RemoteSensorDispenser
 3
 </engine_tech_rating>
 
-
-<source>
-AToW Companion
-</source>
-
-<tonnage>
-4.999
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-12 17:26:07
 <overview>
 <p>The sealed Hoodling is a vehicle of extremely high quality that has been continuously manufactured on Terra since the twenty-ninth century. With its high speed, excellent communication and sensor suite, and comfortable crew accommodations, it is the premier covert operations vehicle for ComStar and its Explorer Corps. On a battlefield, there are few better eyes and ears than those of the Hoodling.</p>
 </overview>
@@ -155,4 +141,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+AToW Companion
+</source>
+
+<tonnage>
+4.999
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

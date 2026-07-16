@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec2e-7d66-812c-e49ba2b9acb6
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ SRM Carrier
 <year>
 2440
 </year>
-
-<originalBuildYear>
-2440
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -132,41 +132,13 @@ SRM 4
 3
 </engine_tech_rating>
 
-
-
-
-
-
-
-
-<source>
-XTR:Primitives II
-</source>
-
-<published>
-XTR:Primitives II
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-<fuel>
-1.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The SRM Carrier is a sixty-ton tracked combat vehicle built to deliver devastating short-range missile barrages at minimal cost. Developed by the Quikscell Company as a close-range counterpart to the LRM Carrier, the modern production model entered service around 2470, though its primitive ancestors date back to the Age of War in the 2440s. Manufactured by virtually every major military supplier across the Inner Sphere, the SRM Carrier provides cheap, expendable close-range fire support capable of crippling even assault-weight targets in a single volley. Its reputation as a disposable asset masks the genuine tactical threat posed by massed SRM carriers operating in coordinated ambush positions.</p>
-</overview>
-
 <capabilities>
 <p>The primitive SRM Carrier represents the original Age of War design from Quik Products Inc, dating to approximately 2440. Built as a fifty-five-ton support vehicle using primitive construction methods, it mounts SRM-6 launchers behind BAR 6 armor rated for battlefield protection but far below modern standards. The straightforward design emphasized ease of manufacture and maintenance over combat performance.</p><p>These vehicles were rendered obsolete by modernized carriers around 2580 but served effectively during the Age of War, establishing the close-range missile carrier concept that would endure for centuries.</p>
 </capabilities>
+
+<overview>
+<p>The SRM Carrier is a sixty-ton tracked combat vehicle built to deliver devastating short-range missile barrages at minimal cost. Developed by the Quikscell Company as a close-range counterpart to the LRM Carrier, the modern production model entered service around 2470, though its primitive ancestors date back to the Age of War in the 2440s. Manufactured by virtually every major military supplier across the Inner Sphere, the SRM Carrier provides cheap, expendable close-range fire support capable of crippling even assault-weight targets in a single volley. Its reputation as a disposable asset masks the genuine tactical threat posed by massed SRM carriers operating in coordinated ambush positions.</p>
+</overview>
 
 <deployment>
 <p>The primitive SRM Carrier served alongside its LRM counterpart during the Age of War, providing close-range fire support for armies still developing combined-arms doctrine. Quik Products Inc manufactured these vehicles primarily on Ares and Pandora before the design was superseded by modernized carriers.</p>
@@ -195,4 +167,24 @@ TARGETING:Unknown
 ENGINE:180 ICE
 ARMOR:BAR 6
 </systemModels>
+
+<source>
+XTR:Primitives II
+</source>
+
+<published>
+XTR:Primitives II
+</published>
+
+<tonnage>
+55.0
+</tonnage>
+
+<fuel>
+1.0
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

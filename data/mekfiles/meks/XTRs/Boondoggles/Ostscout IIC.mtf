@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-df45-7844-ab90-18dcd7edd737
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Ostscout IIC
 model:
 mul id:5844
@@ -173,7 +174,6 @@ Jump Jet
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The Ostscout IIC represents one of Clan Jade Falcon's most notable failures in BattleMech development. Initiated in 3063 to address the Clan's lack of effective reconnaissance and electronic warfare units, the project tasked Falcon engineers with upgrading the venerable Inner Sphere Ostscout to Clan standards. Development proved troubled from the start, with multiple design teams producing competing plans over the first decade before a final team of Inner Sphere engineers partnered with captured Wolf scientists and Falcon technicians delivered four prototypes to the Hazen Proving Grounds on Sudeten.</p><p>While the design achieved impressive speed (outpacing even the Fire Moth despite weighing fifteen tons more) and a nearly 400-meter jump distance through its partial wing system, critical flaws doomed the project. Khan Samantha Clees ultimately cancelled the Ostscout IIC, and the surviving prototypes were sold to Clan Diamond Shark in an attempt to recoup development costs. It remains perhaps the most damning evidence against the design that even the Sharks have been unable to find buyers.</p>
 
 capabilities:<p>The Ostscout IIC's designers prioritized speed and mobility above all other considerations. A massive 385-rated XXL engine propels the 35-ton 'Mech to an unprecedented 170 kilometers per hour, while eleven jump jets working in conjunction with a partial wing assembly provide nearly 400 meters of jumping distance. This exceptional performance comes at severe cost. The cramped Inner Sphere-developed small cockpit lacks an ejection system, and bulky components forced unbalanced placement of the jump jets, causing the 'Mech to spin counterclockwise during every leap.</p><p>The Ostscout IIC carries no offensive weapons whatsoever, a decision that proved especially offensive to Clan warriors accustomed to honorable combat. Only a Clan-grade TAG laser designator allows the MechWarrior to participate in battle, though with artillery support rare in Clan toumans, opportunities to contribute directly remain limited. The 'Mech's electronics suite (an Inner Sphere Bloodhound active probe and Angel ECM) proves capable for scouting and electronic warfare but cannot compensate for the design's other failings.</p><p>Perhaps most damning, cost-cutting measures led engineers to install standard single heat sinks rather than doubles. Combined with the highly heat-intensive XXL engine and eleven jump jets, this decision caused prototypes to suffer shutdown after merely three consecutive jumps, rendering the design's impressive mobility largely theoretical.</p>
@@ -185,6 +185,8 @@ history:<p>Fighting against the powers of the Inner Sphere brought several harsh
 manufacturer:Olivetti Weaponry
 
 primaryfactory:Sudeten
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Unknown
 systemmode:CHASSIS:Endo Steel

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b6aa-7422-b473-e9f65da59429
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Gun Platoon (AFFS)
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -59,7 +59,9 @@ ISLBXAC20
 IS LB 20-X Cluster Ammo
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Armed Forces of the Federated Suns integrate conventional infantry directly into their Regimental Combat Teams, assigning foot, mechanized, and jump platoons to work permanently alongside BattleMech and armored formations. Towing assault-class LB-X autocannon that can fire cluster rounds capable of shredding infantry in the open, these field gun crews deliver the heaviest area-effect direct fire available to ground forces.</p>
+</overview>
 
 <notes>
 Intro date based on production date of AFFS 3067+ advanced infantry kit.  Federated Long Rifle is the classic long arm of the AFFS.
@@ -80,9 +82,4 @@ Rifle (Federated Long)
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Armed Forces of the Federated Suns integrate conventional infantry directly into their Regimental Combat Teams, assigning foot, mechanized, and jump platoons to work permanently alongside BattleMech and armored formations. Towing assault-class LB-X autocannon that can fire cluster rounds capable of shredding infantry in the open, these field gun crews deliver the heaviest area-effect direct fire available to ground forces.</p>
-</overview>
 

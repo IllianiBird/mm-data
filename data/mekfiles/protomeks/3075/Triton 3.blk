@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e104-736a-958d-8118ab0a16d8
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Triton
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -124,34 +124,13 @@ EIInterface
 CLHeavyMediumLaser
 </Main Gun Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-8.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Triton is an eight-ton second-generation ProtoMek designed by Clan Goliath Scorpion to complement their Seeker tradition. After a string of humbling failures following the Great Refusal, the Scorpions leveraged resources acquired through overtures to the Snow Ravens to jump-start their faltering ProtoMek program. The resulting Triton was purpose-built to efficiently accompany the solitary warriors dedicated to carrying on the Seeker mandate, combining robust armor protection, full jump capability, and ammunition-efficient weaponry in a heavy ProtoMek frame optimized for independent extended operations.</p>
-</overview>
-
 <capabilities>
 <p>The Triton's primary armament is a Streak SRM-4 launcher mounted in the main gun position, fed by ten volleys of ammunition. The Streak system ensures every missile hits its target, making the Triton one of the most ammunition-efficient missile platforms among ProtoMek designs. The system's lock-on-or-don't-fire logic means that each trigger pull either delivers a full four-missile salvo or conserves the ammunition entirely, a significant advantage during the extended independent operations the Seeker tradition demands. A torso-mounted ER Micro Laser provides backup firepower for the unlikely event the Streak magazines run dry.</p><p>Four jump jets provide one hundred twenty meters of leaping distance, giving the eight-ton design terrain mobility unusual for its weight class. Almost two tons of armor at thirty-eight points provide excellent protection, allowing the Triton to survive hits from heavy weapons that would destroy lighter ProtoMeks outright. The combination of heavy armor, efficient weapons, and jump capability makes the Triton one of the most self-sufficient ProtoMek designs in service, capable of sustained independent operations that mirror the Seeker tradition it was built to serve. Cruising speed of forty-three kilometers per hour is modest, but the jump jets compensate for the lack of ground speed in tactical situations.</p>
 </capabilities>
+
+<overview>
+<p>The Triton is an eight-ton second-generation ProtoMek designed by Clan Goliath Scorpion to complement their Seeker tradition. After a string of humbling failures following the Great Refusal, the Scorpions leveraged resources acquired through overtures to the Snow Ravens to jump-start their faltering ProtoMek program. The resulting Triton was purpose-built to efficiently accompany the solitary warriors dedicated to carrying on the Seeker mandate, combining robust armor protection, full jump capability, and ammunition-efficient weaponry in a heavy ProtoMek frame optimized for independent extended operations.</p>
+</overview>
 
 <deployment>
 <p>The most radical Triton variant, the Triton 3 strips the entire weapons suite for a single Heavy Medium Laser mounted in the main gun position. While this dramatically reduces the design's tactical flexibility, the Heavy Medium Laser delivers devastating armor-piercing damage that can threaten targets far above the Triton's weight class. Complete ammunition independence makes the variant ideal for the longest-duration independent operations. Armor increases to forty-one points, the heaviest of any Triton configuration, allowing the design to close to optimal laser range under fire. Four jump jets are retained. This configuration appeared just before the HPG blackout, and limited intelligence suggests it was used sparingly by the most skilled ProtoMek pilots.</p>
@@ -183,4 +162,16 @@ CHASSIS:Standard
 ENGINE:50
 ARMOR:Standard
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+8.0
+</tonnage>
 

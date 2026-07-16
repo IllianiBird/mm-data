@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ebb5-7b81-b882-32b442895807
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Weapons-Troop Carrier
 <year>
 3025
 </year>
-
-<originalBuildYear>
-3025
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -105,30 +105,13 @@ IS Ammo LRM-10
 LRM 10
 </Turret Equipment>
 
-<source>
-TP:Helm
-</source>
-
-<published>
-TP:Helm
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 19:27:01
-<overview>
-<p>The Weapons-Troop Carrier is a twenty-ton hover vehicle combining a single LRM-10 launcher with limited infantry transport capacity. A field refit design documented in Turning Points: Helm, it represents the kind of ad-hoc military improvisation common to garrison forces operating far from established supply chains. The internal combustion engine and minimal armor reflect its origins as a hasty conversion rather than a purpose-built combat vehicle.</p>
-</overview>
-
 <capabilities>
 <p>The Weapons-Troop Carrier mounts a single LRM-10 launcher with two tons of ammunition, supplemented by a 1.5-ton infantry compartment. An internal combustion engine provides adequate speed on the twenty-ton hover chassis, though operational range is limited by fuel capacity. Thirty-two points of standard armor provide minimal protection.</p><p>The LRM-10 provides indirect fire capability at ranges beyond most light vehicles, while the small infantry compartment allows transport of a half-squad for reconnaissance or security operations. The field refit nature of the design means individual vehicles may vary significantly in component quality and configuration.</p>
 </capabilities>
+
+<overview>
+<p>The Weapons-Troop Carrier is a twenty-ton hover vehicle combining a single LRM-10 launcher with limited infantry transport capacity. A field refit design documented in Turning Points: Helm, it represents the kind of ad-hoc military improvisation common to garrison forces operating far from established supply chains. The internal combustion engine and minimal armor reflect its origins as a hasty conversion rather than a purpose-built combat vehicle.</p>
+</overview>
 
 <deployment>
 <p>The Weapons-Troop Carrier is documented in the Helm scenario context, representing the type of improvised vehicle fielded by garrison forces during the Succession Wars. The MUPL designates it as a field refit produced by various manufacturers, confirming limited and ad-hoc production rather than organized manufacturing.</p>
@@ -157,4 +140,20 @@ TARGETING:Unknown
 ENGINE:ICE
 ARMOR:Standard
 </systemModels>
+
+<source>
+TP:Helm
+</source>
+
+<published>
+TP:Helm
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

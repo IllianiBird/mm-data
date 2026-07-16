@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ed32-7ec0-966f-e9a2e63327bb
+</UUID>
+
 <UnitType>
 Warship
 </UnitType>
@@ -35,10 +39,6 @@ Sylvester Transport
 <year>
 2499
 </year>
-
-<originalBuildYear>
-2499
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -380,11 +380,47 @@ IS Ammo LRM-10:108
 20
 </structural_integrity>
 
+<capabilities>
+<p>At 280,000 tons and 905 meters in length, the Sylvester is a massive transport vessel with armament rivaling many dedicated WarShips. A single NL55 naval laser and two NL35 naval lasers anchor the nose battery, supported by four AC/10 and two AC/20 conventional autocannons, five small lasers, and ten machine guns for point defense. Each forward quarter mounts a NAC/20 naval autocannon for capital-scale firepower alongside four LRM 15 launchers, ten small lasers, and fifteen machine guns. The broadsides carry twin NL35 naval lasers supplemented by five LRM 10 launchers, ten small lasers, and fifteen machine guns per side. The aft quarters each mount a single NL35 naval laser with two large lasers, four medium lasers, six small lasers, and ten machine guns. Twin NL55 naval lasers defend the stern alongside ten small lasers and twenty machine guns. Seven hundred sixty-seven double heat sinks manage the considerable thermal load. The vessel's primary weakness is its armor protection, with only 104 tons of standard plating encouraging captains to rely on firepower and maneuverability rather than absorb hits directly. Two docking collars accommodate attached DropShips, while four small craft bays and three cavernous cargo holds totaling over 73,000 tons round out the transport's carrying capacity.</p>
+</capabilities>
 
+<overview>
+<p>The Sylvester-class transport holds the rare distinction of being the first WarShip designed by a civilian. Conceived by Graf Hans Sylvester, a merchant-nobleman of the Lyran Commonwealth, the vessel was intended to guarantee the dominance of Lyran traders across the Inner Sphere while protecting Commonwealth shipping lanes against piracy. In 2496, Sylvester sold his design to a Lyran trade committee, which contracted Ioto Galactic Enterprises on Alarion to build the massive armed freighter. When the first vessel launched in 2499 during the Age of War, it combined the carrying capacity of a bulk freighter with firepower that rivaled dedicated military vessels. The Sylvester occupied a unique niche in interstellar commerce, operating as both a profitable cargo hauler and a credible deterrent against piracy, though its extraordinary cost made it as much a financial curiosity as a martial one.</p>
+</overview>
 
+<deployment>
+<p>No individual Sylvester-class vessels are recorded by name in published sources. The completed transports served the Lyran Commonwealth as armed merchant escorts during the late Age of War, running high-value cargo along major trade corridors where piracy threatened commercial traffic. Their imposing armament made them effective deterrents, and few raiders proved willing to engage a vessel mounting capital-grade weaponry. Beyond pure freight hauling, the passenger accommodations and marine contingent aboard each vessel suggest a secondary role in VIP transport and boarding defense, protecting both cargo and high-value personnel against hostile action during an era of intensifying interstellar rivalry.</p>
+</deployment>
 
+<history>
+<p>The Sylvester-class transport emerged during the Age of War as an unconventional answer to a persistent commercial problem: securing Lyran Commonwealth trade routes against piracy while projecting mercantile dominance across the Inner Sphere. The Age of War saw escalating military tensions between the Great Houses, and merchant shipping faced growing threats from both state-sponsored raiders and independent pirates. Graf Hans Sylvester, a wealthy merchant-nobleman, conceived the design as a heavily armed convoy escort that could carry enormous quantities of freight, combining military capability and commercial hauling in a single hull. In 2496, Sylvester sold his concept to a Lyran trade committee, which placed a production contract with Ioto Galactic Enterprises on Alarion.</p><p>The first vessel launched in 2499, and was immediately recognized as both an engineering achievement and a commercial oddity. The Sylvester dwarfed every merchant vessel of its era, and its combination of vast cargo capacity and capital-scale armament had no precedent in either civilian or military construction. The vessel earned the distinction of being the most heavily armed civilian craft ever built. However, thin armor protection left it ill-suited for sustained engagements against purpose-built military WarShips, a trade-off that reflected its merchant origins rather than any failure of engineering.</p><p>The class's greatest flaw proved to be financial rather than tactical. At over three billion C-Bills per hull, the Sylvester was extraordinarily expensive for a nominally civilian transport. Fifteen years of production yielded just four completed hulls before the Lyran Commonwealth cancelled the program. The prohibitive cost could not be justified when conventional naval escorts offered adequate security at a fraction of the price. The completed vessels served during the late Age of War, but none survived into the Succession Wars era. Their individual fates are unrecorded in surviving documentation. The shipyard on Alarion continued operations under what eventually became Ioto Galactic Enterprises, though it never resumed Sylvester-class construction.</p><p>Despite its brief production run, the Sylvester left a lasting mark on interstellar naval architecture. The Terran Hegemony studied the design and adapted the basic concept into the Carrack-class military transport, stripping away the commercial trappings in favor of a pure military configuration. The Carrack saw widespread service in the Star League Defense Force and eventually became one of the most common WarShip classes in the Clan toumans, carrying the Sylvester's conceptual DNA across centuries of conflict. Graf Sylvester himself later commissioned a more economically viable, DropShip-sized descendant, the so-called 'Baby Sylvester,' produced at Bolson Shipyards over New Kyoto. That production line ended when Bolson Shipyards was destroyed during the First Succession War, closing the final chapter of the Sylvester design lineage.</p>
+</history>
 
+<manufacturer>
+Ioto Galactic Enterprises
+</manufacturer>
 
+<primaryFactory>
+Alarion
+</primaryFactory>
+
+<systemManufacturers>
+CHASSIS:Di Tron Heavy Industries
+ENGINE:Unknown
+ARMOR:Unknown
+JUMP_JET:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<systemModels>
+CHASSIS:Sylvester
+ENGINE:Unknown
+ARMOR:Standard
+JUMP_JET:Standard
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemModels>
 
 <use>
 Transport
@@ -454,47 +490,4 @@ TR:3057r
 <escape_pod>
 10
 </escape_pod>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Sylvester-class transport holds the rare distinction of being the first WarShip designed by a civilian. Conceived by Graf Hans Sylvester, a merchant-nobleman of the Lyran Commonwealth, the vessel was intended to guarantee the dominance of Lyran traders across the Inner Sphere while protecting Commonwealth shipping lanes against piracy. In 2496, Sylvester sold his design to a Lyran trade committee, which contracted Ioto Galactic Enterprises on Alarion to build the massive armed freighter. When the first vessel launched in 2499 during the Age of War, it combined the carrying capacity of a bulk freighter with firepower that rivaled dedicated military vessels. The Sylvester occupied a unique niche in interstellar commerce, operating as both a profitable cargo hauler and a credible deterrent against piracy, though its extraordinary cost made it as much a financial curiosity as a martial one.</p>
-</overview>
-
-<capabilities>
-<p>At 280,000 tons and 905 meters in length, the Sylvester is a massive transport vessel with armament rivaling many dedicated WarShips. A single NL55 naval laser and two NL35 naval lasers anchor the nose battery, supported by four AC/10 and two AC/20 conventional autocannons, five small lasers, and ten machine guns for point defense. Each forward quarter mounts a NAC/20 naval autocannon for capital-scale firepower alongside four LRM 15 launchers, ten small lasers, and fifteen machine guns. The broadsides carry twin NL35 naval lasers supplemented by five LRM 10 launchers, ten small lasers, and fifteen machine guns per side. The aft quarters each mount a single NL35 naval laser with two large lasers, four medium lasers, six small lasers, and ten machine guns. Twin NL55 naval lasers defend the stern alongside ten small lasers and twenty machine guns. Seven hundred sixty-seven double heat sinks manage the considerable thermal load. The vessel's primary weakness is its armor protection, with only 104 tons of standard plating encouraging captains to rely on firepower and maneuverability rather than absorb hits directly. Two docking collars accommodate attached DropShips, while four small craft bays and three cavernous cargo holds totaling over 73,000 tons round out the transport's carrying capacity.</p>
-</capabilities>
-
-<deployment>
-<p>No individual Sylvester-class vessels are recorded by name in published sources. The completed transports served the Lyran Commonwealth as armed merchant escorts during the late Age of War, running high-value cargo along major trade corridors where piracy threatened commercial traffic. Their imposing armament made them effective deterrents, and few raiders proved willing to engage a vessel mounting capital-grade weaponry. Beyond pure freight hauling, the passenger accommodations and marine contingent aboard each vessel suggest a secondary role in VIP transport and boarding defense, protecting both cargo and high-value personnel against hostile action during an era of intensifying interstellar rivalry.</p>
-</deployment>
-
-<history>
-<p>The Sylvester-class transport emerged during the Age of War as an unconventional answer to a persistent commercial problem: securing Lyran Commonwealth trade routes against piracy while projecting mercantile dominance across the Inner Sphere. The Age of War saw escalating military tensions between the Great Houses, and merchant shipping faced growing threats from both state-sponsored raiders and independent pirates. Graf Hans Sylvester, a wealthy merchant-nobleman, conceived the design as a heavily armed convoy escort that could carry enormous quantities of freight, combining military capability and commercial hauling in a single hull. In 2496, Sylvester sold his concept to a Lyran trade committee, which placed a production contract with Ioto Galactic Enterprises on Alarion.</p><p>The first vessel launched in 2499, and was immediately recognized as both an engineering achievement and a commercial oddity. The Sylvester dwarfed every merchant vessel of its era, and its combination of vast cargo capacity and capital-scale armament had no precedent in either civilian or military construction. The vessel earned the distinction of being the most heavily armed civilian craft ever built. However, thin armor protection left it ill-suited for sustained engagements against purpose-built military WarShips, a trade-off that reflected its merchant origins rather than any failure of engineering.</p><p>The class's greatest flaw proved to be financial rather than tactical. At over three billion C-Bills per hull, the Sylvester was extraordinarily expensive for a nominally civilian transport. Fifteen years of production yielded just four completed hulls before the Lyran Commonwealth cancelled the program. The prohibitive cost could not be justified when conventional naval escorts offered adequate security at a fraction of the price. The completed vessels served during the late Age of War, but none survived into the Succession Wars era. Their individual fates are unrecorded in surviving documentation. The shipyard on Alarion continued operations under what eventually became Ioto Galactic Enterprises, though it never resumed Sylvester-class construction.</p><p>Despite its brief production run, the Sylvester left a lasting mark on interstellar naval architecture. The Terran Hegemony studied the design and adapted the basic concept into the Carrack-class military transport, stripping away the commercial trappings in favor of a pure military configuration. The Carrack saw widespread service in the Star League Defense Force and eventually became one of the most common WarShip classes in the Clan toumans, carrying the Sylvester's conceptual DNA across centuries of conflict. Graf Sylvester himself later commissioned a more economically viable, DropShip-sized descendant, the so-called 'Baby Sylvester,' produced at Bolson Shipyards over New Kyoto. That production line ended when Bolson Shipyards was destroyed during the First Succession War, closing the final chapter of the Sylvester design lineage.</p>
-</history>
-
-<manufacturer>
-Ioto Galactic Enterprises
-</manufacturer>
-
-<primaryFactory>
-Alarion
-</primaryFactory>
-
-<systemManufacturers>
-CHASSIS:Di Tron Heavy Industries
-ENGINE:Unknown
-ARMOR:Unknown
-JUMP_JET:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemManufacturers>
-
-<systemModels>
-CHASSIS:Sylvester
-ENGINE:Unknown
-ARMOR:Standard
-JUMP_JET:Standard
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemModels>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a970-72a6-be4e-7394e8fc203a
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Groundhog Exoskeleton
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -80,46 +80,14 @@ Mission Equipment Storage:Body:SIZE:20.0
 
 <Trooper 1 Equipment>
 </Trooper 1 Equipment>
-<source>
-XTR:Most Wanted
-</source>
-
-<published>
-XTR:Most Wanted
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-1
-</armor>
-
-<Trooper Count>
-1
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
-</overview>
 
 <capabilities>
 <p>The 'Master Thief' is a heavily customized Groundhog built around an experimental Battle Armor Myomer Booster that dramatically increases the operator's strength and speed. The myomer enhancement allows the suit to match the standard Groundhog's thirty-kilometer-per-hour ground speed despite the modifications, and grants sufficient strength to rip reinforced safe doors from their hinges. To accommodate the booster system, armor protection was halved to approximately fifty kilograms, leaving the operator far more vulnerable than in a standard Groundhog.</p><p>The suit mounts Armored Gloves on both arms rather than modular adaptors, providing basic manipulation capability without the tool-swapping flexibility of production models. A reduced mission equipment storage bay holds twenty kilograms of cargo, enough for small valuables but far less than the standard configuration's capacity. The 'Master Thief' carries no weapons and lacks jump capability. While the myomer booster provides impressive physical strength, the reduced armor makes prolonged exposure to any form of fire extremely dangerous.</p>
 </capabilities>
+
+<overview>
+<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
+</overview>
 
 <deployment>
 <p>Frank Otega, the notorious thief known in many circles as "the Gentleman Thief," operated his customized Groundhog alone, consistent with his preference for solo infiltration over coordinated team operations. Otega used the suit's myomer-boosted strength to breach secure vaults and rip open reinforced doors during heists that spanned multiple successor states. His operational pattern favored striking the same target area three times before relocating to a different realm, a habit that made him difficult to track but predictable once security forces recognized the cycle. Otega was last reported active in the Ghost Bear Dominion, with intelligence suggesting a likely move to the Republic of the Sphere.</p>
@@ -152,4 +120,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Most Wanted
+</source>
+
+<published>
+XTR:Most Wanted
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+1
+</armor>
+
+<Trooper Count>
+1
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

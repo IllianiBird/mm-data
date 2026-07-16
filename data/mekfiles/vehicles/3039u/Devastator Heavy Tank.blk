@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e275-73d0-8f34-c30fbebafccb
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Devastator Heavy Tank
 <year>
 3003
 </year>
-
-<originalBuildYear>
-3003
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -110,33 +110,13 @@ Autocannon/20
 Autocannon/20
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-05 13:44:18
-<overview>
-<p>The Devastator is a premium third-generation evolution of the Demolisher heavy tank, produced by Aldis Industries on Terra. Where the standard Demolisher relied on a conventional internal combustion engine, the Devastator substitutes a fusion powerplant, eliminating fuel logistics and reducing the acoustic and thermal signature inherent to ICE-driven vehicles. Aldis marketed the design to wealthier Inner Sphere worlds that could afford the increased unit cost, positioning it as an upgrade for planetary militias seeking capable armor support without fielding BattleMechs. The vehicle retains the twin-autocannon turret that defines the Demolisher line while adding supplementary weapons to address the original design's lack of close-range defense. Its reputation as a terror weapon, already well established by the Demolisher family, was reinforced by high-profile Succession Wars engagements demonstrating the Devastator's effectiveness against elite BattleMech forces in urban terrain.</p>
-</overview>
-
 <capabilities>
 <p>The Devastator's most significant departure from the Demolisher baseline is its Type 240 fusion engine, which delivers the same 54 km/h top speed without the fuel supply and exhaust management challenges of internal combustion systems. The twin 185mm ChemJet Gun Autocannon/20s remain the core armament, capable of stripping armor from assault-weight BattleMechs in a single turret cycle. These weapons use integral autoloaders and fire four-round bursts that generate substantial heat, a manageable concern given the fusion powerplant's superior thermal envelope compared to the ICE it replaced.</p><p>Secondary armament distinguishes the Devastator from its predecessor. A Holly SRM-6 in the front hull provides medium-range punch against targets the autocannons cannot engage effectively, while a Zippo flamer mounted in the turret deters infantry attempting to board or disable the vehicle at close range. Three Intek small lasers, one front and one on each side, extend close-in defensive coverage across the hull flanks. The Durandal 160 standard armor package provides solid protection for the vehicle's weight class. The design shares the Demolisher's lack of jump capability and limited secondary arc coverage, requiring crews to rely on mutual support and positioning to compensate.</p>
 </capabilities>
+
+<overview>
+<p>The Devastator is a premium third-generation evolution of the Demolisher heavy tank, produced by Aldis Industries on Terra. Where the standard Demolisher relied on a conventional internal combustion engine, the Devastator substitutes a fusion powerplant, eliminating fuel logistics and reducing the acoustic and thermal signature inherent to ICE-driven vehicles. Aldis marketed the design to wealthier Inner Sphere worlds that could afford the increased unit cost, positioning it as an upgrade for planetary militias seeking capable armor support without fielding BattleMechs. The vehicle retains the twin-autocannon turret that defines the Demolisher line while adding supplementary weapons to address the original design's lack of close-range defense. Its reputation as a terror weapon, already well established by the Demolisher family, was reinforced by high-profile Succession Wars engagements demonstrating the Devastator's effectiveness against elite BattleMech forces in urban terrain.</p>
+</overview>
 
 <deployment>
 <p>The Devastator served as a premium urban assault vehicle for well-funded planetary militias and major faction garrison forces. Its fusion powerplant made it attractive to commands operating in environments where fuel resupply was difficult, particularly fortified worlds with constrained logistics infrastructure. ComStar maintained significant stocks in Com Guard reserve and garrison roles during the Succession Wars and Clan Invasion, while Word of Blake forces continued deploying the type through the Jihad. The Republic of the Sphere fielded Devastators in planetary militia and fortress garrison configurations, typically paired with standard Demolishers for combined heavy armor support throughout the Dark Age.</p>
@@ -169,4 +149,16 @@ ARMOR:Durandal 160 Standard
 COMMUNICATIONS:Omicron 5000
 TARGETING:Omicron VII
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

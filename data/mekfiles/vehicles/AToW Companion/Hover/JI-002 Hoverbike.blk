@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8d0-7cae-9e0c-25c7f6e835bf
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ JI-002 HoverBike
 <year>
 3050
 </year>
-
-<originalBuildYear>
-3050
-</originalBuildYear>
 
 <type>
 IS Level 5
@@ -113,20 +113,6 @@ BicycleChassisMod
 3
 </engine_tech_rating>
 
-
-<source>
-AToW Companion
-</source>
-
-<tonnage>
-0.66
-</tonnage>
-
-<fuel>
-0.03
-</fuel>
-
-# Fluff Date: 2026-03-12 17:26:07
 <overview>
 <p>Johnston Industries' military hoverbike was initially manufactured for the company's own security force and for the AFFS, which utilizes it in its mechanized infantry elements. It differs from other hoverbikes only in its extremely sturdy, reinforced structure, which allows for the becoming popular use of higher-grade military armor, giving it durability unusual for a vehicle of its size.</p>
 </overview>
@@ -154,4 +140,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+AToW Companion
+</source>
+
+<tonnage>
+0.66
+</tonnage>
+
+<fuel>
+0.03
+</fuel>
 

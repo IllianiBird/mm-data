@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e2bc-723e-9792-d01ac831d593
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Laser Carrier
 <year>
 2874
 </year>
-
-<originalBuildYear>
-2874
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -102,30 +102,13 @@ Medium Laser
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 19:27:01
-<overview>
-<p>The Laser Carrier is a sixty-ton tracked combat vehicle that replaces the standard missile carrier's launchers with eight medium lasers. Introduced in 2874 during the Succession Wars as a field modification of the standard carrier chassis, the Laser Carrier was designed to eliminate ammunition dependency entirely. While never as popular or effective as the missile variants, the Laser Carrier found a niche with units operating in supply-poor environments where ammunition resupply could not be guaranteed.</p>
-</overview>
-
 <capabilities>
 <p>The Laser Carrier mounts eight forward-firing medium lasers as its sole armament, drawing power from the InterComBust 180 engine's generator capacity. This configuration provides unlimited ammunition endurance, eliminating the resupply dependency that constrains missile and autocannon carriers. The vehicle retains the standard carrier chassis with fifty-four kilometer per hour top speed and forty-eight points of Simple Armor Plate Standard protection.</p><p>The medium laser battery's effective range is considerably shorter than LRM systems, limiting the Laser Carrier's ability to engage from standoff distances. Heat management poses a challenge during sustained fire, as the eight lasers generate substantial thermal load. A Communicator system and FireScan with IndirecTrack targeting provide standard coordination capability.</p>
 </capabilities>
+
+<overview>
+<p>The Laser Carrier is a sixty-ton tracked combat vehicle that replaces the standard missile carrier's launchers with eight medium lasers. Introduced in 2874 during the Succession Wars as a field modification of the standard carrier chassis, the Laser Carrier was designed to eliminate ammunition dependency entirely. While never as popular or effective as the missile variants, the Laser Carrier found a niche with units operating in supply-poor environments where ammunition resupply could not be guaranteed.</p>
+</overview>
 
 <deployment>
 <p>The Laser Carrier serves across the Inner Sphere in units that prioritize sustained-fire capability over raw damage output. Production mirrors the missile carrier network, with Quikscell, Joint Equipment Systems, Aldis Industries, and Hadrian Mechanized Industries all contributing to a broad manufacturing base.</p>
@@ -155,4 +138,20 @@ ENGINE:180 ICE
 ARMOR:Standard
 TARGETING:with IndirecTrack
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

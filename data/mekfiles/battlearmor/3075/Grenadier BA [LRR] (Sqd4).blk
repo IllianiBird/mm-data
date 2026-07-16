@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a3dd-7057-858a-02be266eac00
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Grenadier Battle Armor
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -89,42 +89,14 @@ IS BA Stealth (Standard):Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Grenadier is an assault-weight Inner Sphere battlesuit developed by the Hahm-Heinze Design Bureau for the Armed Forces of the Federated Suns. Designed to mount the heaviest weapon systems possible on a single suit frame, the Grenadier prioritized raw firepower over mobility or protection. The suit carries a fixed missile launcher, a modular weapon mount accommodating a range of battlefield roles, and an anti-personnel station for close-range defense. Standard stealth armor provides electronic signature reduction, though total protection is modest for the weight class. At two thousand kilograms, the Grenadier is too heavy for OmniMech transport, restricting deployment to ground-based insertion methods.</p>
-</overview>
 
 <capabilities>
 <p>Mounting a light recoilless rifle in the left arm modular slot, this configuration offers solid ballistic firepower at moderate range. The recoilless rifle provides reliable kinetic damage against both armored and soft targets, pairing well with the fixed missile launcher for concentrated salvos. The anti-personnel mount on the right arm rounds out the weapon suite. This loadout gives troopers a balanced engagement profile, capable of contributing meaningful firepower at ranges where the flamer or small laser configurations fall short. The recoilless rifle's ammunition dependency does limit sustained operations, and the combined ballistic and missile loadout means troopers must manage two separate ammunition supplies during extended engagements, a logistical consideration that offsets the configuration's range advantage.</p>
 </capabilities>
+
+<overview>
+<p>The Grenadier is an assault-weight Inner Sphere battlesuit developed by the Hahm-Heinze Design Bureau for the Armed Forces of the Federated Suns. Designed to mount the heaviest weapon systems possible on a single suit frame, the Grenadier prioritized raw firepower over mobility or protection. The suit carries a fixed missile launcher, a modular weapon mount accommodating a range of battlefield roles, and an anti-personnel station for close-range defense. Standard stealth armor provides electronic signature reduction, though total protection is modest for the weight class. At two thousand kilograms, the Grenadier is too heavy for OmniMech transport, restricting deployment to ground-based insertion methods.</p>
+</overview>
 
 <deployment>
 <p>The ballistic rifle configuration is popular with AFFS commands that prefer ranged versatility over the specialized roles offered by other Grenadier loadouts. Standard four-trooper squads carrying this loadout frequently deploy alongside conventional infantry, providing direct-fire support against light vehicles and fortifications. The Davion Brigade of Guards allocates these Grenadiers to its reconnaissance companies, where the weapon's effective range allows troopers to engage targets from positions that keep the squad outside typical anti-infantry weapon envelopes.</p>
@@ -157,4 +129,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

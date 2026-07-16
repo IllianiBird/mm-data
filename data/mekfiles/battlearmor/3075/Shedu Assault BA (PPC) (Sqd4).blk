@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a475-78a9-996d-dc599100ab10
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Shedu Assault Battle Armor
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -87,46 +87,14 @@ IS BA Advanced:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<notes>
-The TRO: 3075 entry lists a 3-slot configurable turret with a weight of 40 kg. The correct weight of 80 kg would exceed the maximum 2000 kg.
-</notes>
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-15
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
 
 <capabilities>
 <p>The PPC variant leverages detachable weapon technology to mount a pair of turret-based support PPCs, giving the Shedu considerable direct-fire energy capability. A heavy machine gun in a detachable weapon pack supplements the energy weapons but slows the suit to roughly 10 kilometers per hour until jettisoned. The 600 kilograms of advanced armor and quad chassis are unchanged. The twin PPCs can threaten battle armor squads and light vehicles at range, though the mobility cost of the detachable pack limits the suit's ability to reposition during combat. Once the pack is dropped, the Shedu regains full ground speed while retaining its paired energy weapons, making it effective as a mobile fire platform in the later stages of an engagement.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>The PPC Shedu's paired energy weapons offered Inner Sphere operators sustained direct-fire capability without ammunition concerns. Four-trooper squads required the same quad-chassis training as other Shedu variants, but the energy-based loadout simplified logistics for units willing to invest in that training. The detachable heavy machine gun pack provided additional flexibility during the opening phase of engagements.</p>
@@ -159,4 +127,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+The TRO: 3075 entry lists a 3-slot configurable turret with a weight of 40 kg. The correct weight of 80 kg would exceed the maximum 2000 kg.
+</notes>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+15
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

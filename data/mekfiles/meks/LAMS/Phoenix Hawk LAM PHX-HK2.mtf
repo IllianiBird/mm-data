@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d6f9-7abd-ada3-7c8867c9e15f
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Phoenix Hawk LAM
 model:PHX-HK2
 mul id:4822
@@ -171,7 +172,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The Phoenix Hawk LAM was the definitive production model of the Phoenix Hawk Land-Air 'Mech series, succeeding the Mk I prototype. The PHX-HK2 debuted in 2730 and became the largest LAM ever manufactured, nearly double the mass of earlier Wasp and Stinger designs. Allied Aerospace achieved a remarkable technological feat in scaling up the LAM conversion systems, though this knowledge was lost following the Star League's collapse and the destruction of Allied's Pollux factory.</p><p>Armed with an Amsterdam 120 large laser, twin Maxum medium lasers, and machine guns, the Phoenix Hawk LAM suffered from persistent overheating, a recall was issued three months before the Star League fell. Despite its flaws, the Phoenix Hawk LAM remained the only LAM variant with armor protecting actuators during transformation, offering minimal but meaningful protection during the vulnerable conversion process. House Marik retained the largest concentration of Phoenix Hawk LAMs through the Succession Wars era, maintaining stockpiles at the Borden supply depot.</p>
 
 capabilities:<p>The Phoenix Hawk LAM's sheer scale represented a major technological achievement in LAM conversion systems. The Amsterdam 120 large laser served as the primary weapon, supported by tandem Maxum medium laser and Sperry/Browning machine gun mounts in each arm. The Hartford S2000 targeting system effectively coordinated this firepower across all three operational modes. However, persistent overheating remained the design's most significant flaw, and the conversion mechanism's bulk created structural vulnerabilities, particularly with landing gear, where even minor damage could prove catastrophic.</p><p>In 'Mech mode, the Phoenix Hawk LAM performed comparably to standard medium BattleMechs, though its armor remained inadequate for sustained ground combat. The AirMech mode provided the greatest tactical flexibility, enabling rapid deployment across terrain impassable to conventional forces. Full aerospace mode delivered acceptable atmospheric performance but proved vulnerable to dedicated fighters of equivalent tonnage.</p><p>The critical weakness remained the conversion process itself, which exposed internal systems to damage. A well-placed hit during transformation could leave the LAM trapped in a half-converted state, rendering it helpless. This vulnerability was never fully resolved before the Star League's fall.</p>
@@ -183,6 +183,8 @@ history:<p>The PHX-HK2 entered service in 2730 as the definitive Phoenix Hawk LA
 manufacturer:Allied Aerospace
 
 primaryfactory:Pollux
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Allied Aerospace
 systemmode:CHASSIS:Unknown LAM

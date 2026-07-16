@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e642-714b-ad17-5f63521efeeb
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Turhan Urban Combat Vehicle
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -113,26 +113,13 @@ Large Laser
 Large Laser
 </Turret Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>Buhallin Military Products, a Dieron-based manufacturer renowned for wheeled combat vehicles, introduced the Turhan Urban Combat Vehicle in 2530 to fulfill a Terran Hegemony Armed Forces requirement for a dedicated urban assault platform. Designed to support infantry in the dense, ancient street grids of the Hegemony's oldest colonial cities, the Turhan scored over competing designs by incorporating an articulating joint at the chassis midpoint, a feature that earned the vehicle an enduring nickname among its crews but proved essential to navigating tight urban corridors. Its combination of sustained energy firepower and a purpose-built infantry transport compartment made it a natural fit for combined-arms operations. The Turhan served the Star League Defense Force for generations and remained in service long after its original manufacturer closed, a sign of the soundness of its core design.</p>
-</overview>
-
 <capabilities>
 <p>The Turhan's defining engineering feature is the articulating joint dividing its chassis at the midpoint, which allows the vehicle to negotiate corners and alleyways that would defeat any rigid-frame design of comparable mass. Its multi-axle wheeled drive system distributes weight to achieve ground pressure comparable to a civilian transport, limiting damage to urban road surfaces, though this configuration limits cross-country agility. In open terrain or against fast-moving adversaries, the Turhan's modest speed leaves it exposed, and the design depends heavily on the infantry it carries to screen against dismounted threats it cannot outrun.</p><p>Primary armament consists of two large lasers mounted in the main turret, providing sustained energy-based firepower with no dependence on ammunition resupply, a significant logistical advantage in extended urban operations. Two machine guns handle anti-personnel threats. The five-ton infantry compartment can accommodate a full squad with flexibility for different troop types, functioning equally as a fighting vehicle and an armored personnel carrier. The production standard variant added ferro-fibrous armor over the original's conventional protection, substantially improving crew survivability. The absence of any missile countermeasure system is a recurring limitation, leaving the crew reliant on their infantry escort when facing missile-armed opposition.</p>
 </capabilities>
+
+<overview>
+<p>Buhallin Military Products, a Dieron-based manufacturer renowned for wheeled combat vehicles, introduced the Turhan Urban Combat Vehicle in 2530 to fulfill a Terran Hegemony Armed Forces requirement for a dedicated urban assault platform. Designed to support infantry in the dense, ancient street grids of the Hegemony's oldest colonial cities, the Turhan scored over competing designs by incorporating an articulating joint at the chassis midpoint, a feature that earned the vehicle an enduring nickname among its crews but proved essential to navigating tight urban corridors. Its combination of sustained energy firepower and a purpose-built infantry transport compartment made it a natural fit for combined-arms operations. The Turhan served the Star League Defense Force for generations and remained in service long after its original manufacturer closed, a sign of the soundness of its core design.</p>
+</overview>
 
 <deployment>
 <p>The C3 variant was developed by Pesht Motors on Unity during the Jihad as a command vehicle optimized for coordinating networked combined-arms formations in urban terrain. An XL fusion engine offsets the weight of the C3 master computer and additional electronics, while the infantry compartment contracts to four tons to accommodate the new systems. One machine gun relocates to the hull front while its turret companion is replaced by an anti-missile system, giving the crew some protection against the missile threats that standard Turhans lack. The C3 computer connects the vehicle to broader lance- and company-level tactical networks, allowing it to serve as a command node for BattleMech and vehicle elements operating in the dense urban environments where the Turhan's design excels.</p>
@@ -165,4 +152,16 @@ ARMOR:Mercury Weave Ferro-Fibrous
 COMMUNICATIONS:SP/2 HAYOT
 TARGETING:K580
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

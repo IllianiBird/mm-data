@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e764-787f-a770-72da26497fe2
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Goblin Infantry Support Vehicle
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -106,33 +106,13 @@ ISSNPPC
 SRM 6
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 14:37:40
-<overview>
-<p>The Goblin Infantry Support Vehicle is Johnston Industries' comprehensive redesign of the Goblin for the Clan Invasion era. Federated Commonwealth commanders facing power-armored Elemental infantry for the first time found the original Goblin's large laser and conventional infantry bay dangerously inadequate. Johnston redesigned the vehicle from the ground up, replacing the aging ICE powerplant with a fusion engine, upgrading the weapons suite for anti-battle-armor work, and expanding the infantry bay to carry a full platoon.</p><p>The result, entering production in 3053, redefined the Goblin from a medium tank with infantry capacity to a dedicated infantry fighting vehicle. Johnston classified it separately from its predecessor, reflecting the depth of the redesign and the shift in intended role.</p>
-</overview>
-
 <capabilities>
 <p>The Goblin ISV's weapons suite is purpose-built for combined-arms close-range combat. The Sutel Precision Line large pulse laser forms the primary weapon, combining pulse accuracy with energy weapon endurance, and is especially effective against power-armored targets. The Harpoon-6 SRM 6 adds short-range punch capable of threatening BattleMechs and heavy vehicles, while two Johnston Miniguns handle conventional infantry. The MainFire Point-Defense anti-missile system increases survivability against missile-heavy opponents, though its limited ammunition restricts its effectiveness to the first several volleys of an engagement.</p><p>The Fireheart 180 fusion engine enables expansion of the infantry bay to full platoon capacity. Nearly ten tons of Durallex Light ferro-fibrous armor make the Goblin ISV among the most heavily protected vehicles of its weight class, a significant upgrade from the original Goblin's standard protection.</p><p>The design's primary weakness is its lack of long-range firepower. Commanders must pair Goblin ISVs with indirect fire assets to shape engagements before the vehicle can close effectively. The vehicle's modest speed also makes it dependent on other units to control terrain in advance of its approach, and experienced opponents learn to force engagements beyond short range where the ISV cannot contribute fully.</p>
 </capabilities>
+
+<overview>
+<p>The Goblin Infantry Support Vehicle is Johnston Industries' comprehensive redesign of the Goblin for the Clan Invasion era. Federated Commonwealth commanders facing power-armored Elemental infantry for the first time found the original Goblin's large laser and conventional infantry bay dangerously inadequate. Johnston redesigned the vehicle from the ground up, replacing the aging ICE powerplant with a fusion engine, upgrading the weapons suite for anti-battle-armor work, and expanding the infantry bay to carry a full platoon.</p><p>The result, entering production in 3053, redefined the Goblin from a medium tank with infantry capacity to a dedicated infantry fighting vehicle. Johnston classified it separately from its predecessor, reflecting the depth of the redesign and the shift in intended role.</p>
+</overview>
 
 <deployment>
 <p>The Sealed variant adds environmental sealing for operation in vacuum, underwater, and contaminated environments, replacing the infantry bay with a fusion-engine drivetrain and a more defensible weapons mix. A Snub-Nose PPC provides medium-range firepower, supplemented by an SRM-6, anti-missile system, and machine gun. The loss of the infantry bay limits its role to direct combat support rather than combined-arms operations. It serves in specialized roles with formations assigned to hostile-environment missions, including post-Jihad contamination zones and orbital industrial operations.</p>
@@ -165,4 +145,16 @@ ARMOR:Light Ferro-Fibrous
 COMMUNICATIONS:XL
 TARGETING:Tracker with Range Check
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

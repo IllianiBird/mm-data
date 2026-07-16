@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec70-76c7-a26a-3b560de8e435
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ HW1
 <year>
 3078
 </year>
-
-<originalBuildYear>
-3078
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,41 +119,13 @@ MRM 20
 2
 </engine_tech_rating>
 
-
-
-
-
-
-
-
-<notes>
-Overweight resolved due to errata. Removed 1 ton of Ammo.
-</notes>
-
-<source>
-XTR:RetroTech
-</source>
-
-<published>
-XTR:RetroTech
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuel>
-1.0
-</fuel>
-
-# Fluff Date: 2026-03-08 16:19:17
-<overview>
-<p>The Hwacha Urban Combat Vehicle entered production in 3078 as a budget missile carrier designed by Hellespont Industrials at their Betelgeuse facility. Conceived during the chaos of the Jihad, the vehicle was built to fill urgent gaps in the Capellan Confederation Armed Forces using a blend of primitive construction techniques and modern weaponry. Hellespont leveraged surplus capacity on their recently reopened UrbanMech production lines to create an inexpensive urban defense platform capable of delivering punishing missile volleys against light vehicles and infantry formations. The Hwacha draws its conceptual lineage from the venerable Light SRM Carrier, though it trades short-range punch for medium-range saturation fire at a fraction of the cost of more sophisticated designs.</p>
-</overview>
-
 <capabilities>
 <p>Built on a fifty-ton wheeled chassis powered by a fuel cell engine, the Hwacha reaches a modest top speed of sixty-five kilometers per hour on paved surfaces. While not fast by wheeled vehicle standards, this speed is adequate for the urban defense missions the vehicle was designed to perform. The primitive chassis, engine, and armor all conform to Tech Level C specifications, keeping production costs low at the expense of overall durability and performance.</p><p>The Hwacha's primary striking power comes from three turret-mounted MRM 20 launchers, giving the vehicle a devastating sixty-tube salvo capability. An Advanced Fire Control system compensates for the inherent inaccuracy of medium-range missiles, improving hit probability at all engagement ranges. Six tons of ammunition provide enough reloads for roughly two dozen full salvos, granting the Hwacha considerable staying power in prolonged engagements. Nine dedicated gunners crew the turret weapons, reflecting the labor-intensive nature of the missile systems.</p><p>The vehicle's greatest weakness is its armor protection. Rated at BAR 6, the lightweight plating is designed primarily to absorb fire from small arms and light combat vehicles. Any engagement with heavier opponents exposes the Hwacha to rapid destruction, making it poorly suited for frontline combat against BattleMechs or heavy armor.</p>
 </capabilities>
+
+<overview>
+<p>The Hwacha Urban Combat Vehicle entered production in 3078 as a budget missile carrier designed by Hellespont Industrials at their Betelgeuse facility. Conceived during the chaos of the Jihad, the vehicle was built to fill urgent gaps in the Capellan Confederation Armed Forces using a blend of primitive construction techniques and modern weaponry. Hellespont leveraged surplus capacity on their recently reopened UrbanMech production lines to create an inexpensive urban defense platform capable of delivering punishing missile volleys against light vehicles and infantry formations. The Hwacha draws its conceptual lineage from the venerable Light SRM Carrier, though it trades short-range punch for medium-range saturation fire at a fraction of the cost of more sophisticated designs.</p>
+</overview>
 
 <deployment>
 <p>The HW1 is the sole production variant of the Hwacha, fielded primarily in urban garrison and planetary defense roles. Capellan units that do operate the vehicle typically assign it to second-line formations and militia garrisons where its firepower can compensate for the lack of heavier assets. Outside Confederation space, Andurien and Canopus militia forces deploy the Hwacha in defensive positions along urban corridors and industrial complexes, where its turret-mounted missile battery can cover multiple approach vectors. The vehicle is rarely seen in offensive operations due to its fragile armor protection.</p>
@@ -186,4 +158,24 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+Overweight resolved due to errata. Removed 1 ton of Ammo.
+</notes>
+
+<source>
+XTR:RetroTech
+</source>
+
+<published>
+XTR:RetroTech
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuel>
+1.0
+</fuel>
 

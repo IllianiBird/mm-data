@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bfd6-7b76-a958-7a6a163b1e71
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,10 +36,6 @@ Foot Platoon
 3055
 </year>
 
-<originalBuildYear>
-3055
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -51,6 +51,9 @@ Flak, Standard
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>TAG spotter platoons carry Target Acquisition Gear alongside laser rifles, designating targets with a laser for guided munitions delivered by artillery, aerospace, or missile-equipped units. The TAG operators replace standard support weapon troops, trading direct firepower for the ability to call in precision strikes that extend the platoon's effective reach far beyond its organic weapons. Laser rifles give the remaining troops reliable personal arms while the TAG teams focus on target designation.</p>
+</overview>
 
 <source>
 TR:3085
@@ -79,9 +82,4 @@ InfantryTAG
 <specialization>
 1024
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>TAG spotter platoons carry Target Acquisition Gear alongside laser rifles, designating targets with a laser for guided munitions delivered by artillery, aerospace, or missile-equipped units. The TAG operators replace standard support weapon troops, trading direct firepower for the ability to call in precision strikes that extend the platoon's effective reach far beyond its organic weapons. Laser rifles give the remaining troops reliable personal arms while the TAG teams focus on target designation.</p>
-</overview>
 

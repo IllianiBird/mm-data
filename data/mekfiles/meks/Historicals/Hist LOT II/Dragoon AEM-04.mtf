@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d6c8-77af-b4d5-894260fc670e
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Dragoon
 model:AEM-04
 mul id:6783
@@ -184,7 +185,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The Dragoon was born from Stefan Amaris's ambitious vision to standardize the Amaris Empire Armed Forces around a family of modular, multi-mission combat platforms. Following the Amaris Coup in 2767, the self-proclaimed Emperor directed Terra's military contractors to develop a heavy BattleMech capable of replacing dozens of models through rapid reconfiguration. Krupp Stellar Technologies, builders of the Lancelot and a long-established producer of heavy machinery, won the contract over two competitors. Entering production in 2771 as Krupp's second BattleMech design, the seventy-ton Dragoon was designed around modular weapon subsystems that allowed depot-level reconfiguration for mission-specific loadouts, a concept that foreshadowed the later development of OmniMech technology. Though produced in strictly limited numbers, the Dragoon earned a fearsome reputation among those few formations that fielded it.</p>
 
 capabilities:<p>The standard Dragoon mounts a potent armament of a Blankenburg Technologies 200 extended-range particle projection cannon supported by paired Krupp 120 KgK 78 L/66 LB 10-X autocannons, all carried in the arms. This loadout delivers excellent versatility at medium to long range, with the autocannons' dual-ammunition capability adding tactical flexibility against both hardened and dispersed targets. The absence of lower arm actuators prevents the design from delivering effective punches, though its seventy-ton mass makes its kicks devastating in close quarters.</p><p>A Nissan 280 XL fusion engine drives the Dragoon at a respectable sixty-four kilometers per hour, while Corwin Consolidated Model 3H jump jets provide a ninety-meter jump capability. Eleven and a half tons of PanzerFerro Type 7F ferro-fibrous armor offer solid protection for a heavy 'Mech, though the extralight engine creates inherent vulnerability to side torso penetration. A Guardian ECM Suite provides valuable electronic warfare coverage against advanced targeting systems.</p><p>The Dragoon's most notable engineering achievement is its modular subsystem architecture. Weapon and equipment housings mount to the chassis through universal attachment points, enabling rapid depot-level reconfiguration between mission profiles. While falling well short of true field reconfiguration, this design philosophy (inspired by the Mercury BattleMech) represented a significant logistics advantage and a conceptual stepping stone toward the OmniMech technology that would emerge centuries later.</p>
@@ -196,6 +196,8 @@ history:<p>The Dragoon's origins are inseparable from the ambitions of Stefan Am
 manufacturer:Krupp Stellar Technologies, Inc.
 
 primaryfactory:Terra
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:KruppTech
 systemmode:CHASSIS:770

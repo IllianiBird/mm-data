@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a84c-70d3-993b-2fcc745f9958
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Scout Suit
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -98,38 +98,14 @@ IS BA Stealth (Improved):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-Shrap08
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-4
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Scout Suit is a light battle armor design created by Gray Death Legion technicians on Glengarry. Developed alongside the Gray Death Standard from NAIS-supplied Inner Sphere Standard prototypes, the Scout took a radical approach by sacrificing weapons and heavy armor in favor of enhanced sensors, communications, and mobility. First fielded in 3052, the suit earned a reputation as one of the most capable reconnaissance platforms available to Inner Sphere forces, filling a niche that heavier combat-oriented battle armor could not address.</p>
-</overview>
 
 <capabilities>
 <p>The Reaper configuration adds offensive capability to the Scout Suit's reconnaissance platform. A Clan-manufactured Machine Gun and Clan Flamer replace the emphasis on pure scouting, giving troopers meaningful firepower against conventional infantry, unarmored vehicles, and exposed equipment. The Improved Stealth armor and Improved Sensors carry forward from the base configuration, preserving the suit's low sensor signature and battlefield awareness.</p><p>Armored Gloves and the Jump Booster are retained, maintaining the exceptional mobility and anti-BattleMech capability that define the Scout platform. The use of Clan weaponry reflects the growing availability of Clan-tech components through mercantile channels. The trade-off is straightforward: the Reaper gives up the Light Active Probe for weapons that let scout teams handle threats they would otherwise need to avoid or call in support against.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Scout Suit is a light battle armor design created by Gray Death Legion technicians on Glengarry. Developed alongside the Gray Death Standard from NAIS-supplied Inner Sphere Standard prototypes, the Scout took a radical approach by sacrificing weapons and heavy armor in favor of enhanced sensors, communications, and mobility. First fielded in 3052, the suit earned a reputation as one of the most capable reconnaissance platforms available to Inner Sphere forces, filling a niche that heavier combat-oriented battle armor could not address.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations equipped with the Reaper configuration combined the Scout's stealth and sensor advantages with enough organic firepower to contest enemy reconnaissance screens. The additional two troopers over a standard Inner Sphere squad gave Level I Reaper teams greater staying power in running engagements. Com Guard doctrine emphasized using these formations to establish forward sensor networks while denying the same capability to opposing forces.</p>
@@ -164,4 +140,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+Shrap08
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+4
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

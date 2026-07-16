@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e72d-7c97-8533-361a8ee2926a
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ JI-100
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -104,26 +104,13 @@ Lift Hoist/Arresting Hoist
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 18:08:04
-<overview>
-<p>The JI-100 Transportable Field Repair Unit is a 70-ton tracked recovery and repair vehicle manufactured by Johnston Industries. Introduced in the first quarter of 3074, the JI-100 was designed as a larger, more capable successor to the company's JI-50 Jifty. Following the simple philosophy of bigger and better, the JI-100 resembles the Jifty only in its mission profile, utilizing a heavy tracked tank chassis rather than the civilian truck-like frame of its predecessor. With a combined cargo capacity that dwarfs other heavy BattleMech recovery vehicles, the JI-100 quickly established itself as the premier field repair platform in the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The JI-100 is powered by a General Motors fusion engine that propels the 70-ton vehicle at speeds up to 50 kilometers per hour. Three front-mounted lift hoists, each capable of handling heavy loads, provide the vehicle's primary recovery capability. This arrangement allows the JI-100 to approach salvage from the front and immediately begin lifting operations, a significant improvement over the Jifty's dual rear-facing hoists. The vehicle carries 33 tons of cargo in its internal bay, nearly double the Jifty's capacity, with space for spare parts, tools, and recovered components.</p><p>Defensive armament consists of a pair of front-mounted machine guns with a half-ton of ammunition, intended to discourage infantry hijacking attempts rather than engage combat vehicles. Protection comes from 2.5 tons of standard armor. Detractors noted that the armor, while higher quality than the Jifty's industrial-grade plating, is actually thinner overall. Johnston Industries maintains that the JI-100 should never approach an active battlefield, and its sturdy chassis provides the durability needed for hazardous salvage operations rather than combat survival. The vehicle carries a crew of five.</p>
 </capabilities>
+
+<overview>
+<p>The JI-100 Transportable Field Repair Unit is a 70-ton tracked recovery and repair vehicle manufactured by Johnston Industries. Introduced in the first quarter of 3074, the JI-100 was designed as a larger, more capable successor to the company's JI-50 Jifty. Following the simple philosophy of bigger and better, the JI-100 resembles the Jifty only in its mission profile, utilizing a heavy tracked tank chassis rather than the civilian truck-like frame of its predecessor. With a combined cargo capacity that dwarfs other heavy BattleMech recovery vehicles, the JI-100 quickly established itself as the premier field repair platform in the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The JI-100 has no known variants as of the ilClan era. Its single configuration has proven versatile enough for the full range of field repair, recovery, and salvage missions without requiring the field modifications that spawned multiple Jifty variants during the Jihad. Military commands across the Federated Suns and the broader Inner Sphere have steadily upgraded from the JI-50 to the JI-100 where budgets allow.</p>
@@ -156,4 +143,16 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

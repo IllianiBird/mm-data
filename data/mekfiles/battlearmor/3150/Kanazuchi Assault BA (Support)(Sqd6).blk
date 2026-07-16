@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7c2-7019-a51c-22057a29fab9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kanazuchi Assault Battle Armor
 <year>
 3120
 </year>
-
-<originalBuildYear>
-3120
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -96,42 +96,13 @@ BA-SRM4 Ammo:Body:Shots1#
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
 
-<slotless_equipment>
-BA-SRM3 Ammo:Shots1#
-BA-SRM3 Ammo:Shots1#
-</slotless_equipment>
-<source>
-TR:3150
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-15
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kanazuchi is an assault-class battle armor design produced by Luthien Armor Works for the Draconis Combine Mustered Soldiery. One of the heaviest and most heavily armored suits developed by any Inner Sphere power, its name translates from Japanese as "hammer." Introduced in 3058 after a prolonged and difficult development cycle, the Kanazuchi was designed to provide the Combine with a ground-based armored infantry platform optimized for urban defense operations. The suit's exceptional protection and interchangeable manipulator system earned it a reputation as one of the most survivable designs in service, though its lack of mobility and inability to perform anti-BattleMech attacks limited its tactical flexibility compared to lighter alternatives.</p>
-</overview>
-
 <capabilities>
 <p>The Dark Age-era support configuration replaces the Kanazuchi's original armor with advanced armor plating, freeing sufficient mass for a dramatically expanded missile battery. Ten SRM tubes give each trooper the ability to deliver concentrated short-range missile fire that approaches the output of some light vehicle weapon systems. This reconfiguration transforms the suit from a balanced close-quarters combatant into a dedicated fire support platform.</p><p>The advanced armor maintains adequate protection despite the reduced weight, though it falls short of the original's ability to absorb capital-grade energy weapon hits. The support variant's expanded missile capability cannot fully compensate for the chassis's fundamental limitations in speed and anti-BattleMech capability, leaving it outclassed by current-generation Combine assault armor.</p>
 </capabilities>
+
+<overview>
+<p>The Kanazuchi is an assault-class battle armor design produced by Luthien Armor Works for the Draconis Combine Mustered Soldiery. One of the heaviest and most heavily armored suits developed by any Inner Sphere power, its name translates from Japanese as "hammer." Introduced in 3058 after a prolonged and difficult development cycle, the Kanazuchi was designed to provide the Combine with a ground-based armored infantry platform optimized for urban defense operations. The suit's exceptional protection and interchangeable manipulator system earned it a reputation as one of the most survivable designs in service, though its lack of mobility and inability to perform anti-BattleMech attacks limited its tactical flexibility compared to lighter alternatives.</p>
+</overview>
 
 <deployment>
 <p>Dark Age-era Com Guard remnant formations organized six-trooper Level I detachments of support Kanazuchi suits for defensive garrison duty. The expanded missile battery made each Level I a significant fire support element capable of suppressing vehicle-weight targets, compensating for declining suit availability through increased per-trooper lethality.</p>
@@ -164,4 +135,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+15
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e743-7f23-9a76-77f9b4d954d8
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Yasha VTOL
 <year>
 3085
 </year>
-
-<originalBuildYear>
-3085
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -103,26 +103,13 @@ Light Machine Gun
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>The Yasha VTOL entered production in 3085 as a Draconis Combine multi-role airborne combat platform developed by Wakazashi Enterprises of Dover. Its conceptual roots trace back to a failed OmniVTOL program originally initiated by Luthien Armor Works in the mid-3060s. After the original project stalled, Wakazashi acquired the design rights and redirected the effort, ultimately producing three factory-purpose variants capable of serving as fire-support gunships, electronic warfare platforms, and stealthy reconnaissance strikers.</p><p>The result is a capable 30-ton VTOL that leverages speed, versatility, and C³ integration to compensate for the inherent vulnerability common to all aircraft of its type. Named after a class of nature spirits from Buddhist and Hindu tradition, the Yasha occupies a distinct tactical niche within the Combine's combined-arms doctrine and has attracted buyers from across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Yasha's primary tactical advantage is its speed. With a flank rate that outpaces most conventional VTOLs and many WiGE vehicles, the design can dictate engagement range, sidestep ground fire, and cover large operational areas quickly. Its ability to fly over difficult terrain adds a strategic mobility dimension that purely ground-bound equivalents cannot match.</p><p>The nose-mounted heavy particle cannon is the Yasha's defining weapon. It generates considerable penetration power at range and requires no ammunition supply, freeing logistics concerns for other systems in the lance. A light machine gun provides a secondary option against light infantry, though it contributes only modestly to anti-personnel capability. An integrated C³ slave module allows the Yasha to share targeting data with lance members, amplifying the effective accuracy of accompanying fire-support units even when the VTOL operates at standoff distance.</p><p>Three and a half tons of heavy ferro-fibrous armor protects the airframe substantially better than an equivalent weight of standard plate would offer. Cellular ammunition storage safeguards the machine gun's ammunition bays against catastrophic secondary detonations, a critical feature given the consequences of ammunition loss in flight. The principal weakness is heat: the heavy cannon and machine gun together consume a large fraction of available heat capacity, limiting the tempo of sustained engagements and requiring disciplined fire control from the crew.</p>
 </capabilities>
+
+<overview>
+<p>The Yasha VTOL entered production in 3085 as a Draconis Combine multi-role airborne combat platform developed by Wakazashi Enterprises of Dover. Its conceptual roots trace back to a failed OmniVTOL program originally initiated by Luthien Armor Works in the mid-3060s. After the original project stalled, Wakazashi acquired the design rights and redirected the effort, ultimately producing three factory-purpose variants capable of serving as fire-support gunships, electronic warfare platforms, and stealthy reconnaissance strikers.</p><p>The result is a capable 30-ton VTOL that leverages speed, versatility, and C³ integration to compensate for the inherent vulnerability common to all aircraft of its type. Named after a class of nature spirits from Buddhist and Hindu tradition, the Yasha occupies a distinct tactical niche within the Combine's combined-arms doctrine and has attracted buyers from across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The standard Yasha serves as a fire-support and C³ coordination platform within Combine combined-arms lances. Its heavy particle cannon and C³ slave allow it to range ahead of ground elements, identify targets at standoff distance, and feed targeting data to accompanying fire-support assets without exposing itself to return fire. DCMS commanders have used it extensively in advance screening roles ahead of armored columns, particularly in open terrain where its speed advantage is most decisive. The design was offered for export from the outset, and customers across the Inner Sphere have employed it in analogous screening and support roles suited to their own combined-arms doctrine.</p>
@@ -155,4 +142,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:MSF-23 w/C³
 TARGETING:T11
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

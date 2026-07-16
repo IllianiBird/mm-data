@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a8dc-7273-aeba-7c77dffcfee3
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ II(Sqd5)
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -85,38 +85,14 @@ BASearchlight:Body
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:VAr
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Smoothgoliath is a light personal armor suit produced by TharHes Industries as a dedicated explosives disposal and hazardous environment companion to the Smoothdavid. Introduced alongside the Smoothdavid in 3064, the design trades all offensive capability for substantially increased armor protection and specialized sensor equipment. Government agencies and emergency services across the Lyran Alliance adopted the suit for bomb disposal, hazardous materials response, and industrial safety roles where operator survival outweighed the need for armament.</p>
-</overview>
 
 <capabilities>
 <p>The Smoothgoliath II doubles the Smoothdavid's armor protection to 100 kilograms of standard plating, giving operators meaningful resistance against fragmentation, blast overpressure, and incidental weapons fire. This added protection comes at the cost of both anti-personnel weapon mounts, which are replaced by a cutting torch on the right arm and a heat sensor on the left. The cutting torch allows operators to breach containers, sever wiring, and access sealed compartments during disposal operations. The heat sensor provides thermal detection capability for locating concealed devices and monitoring chemical reactions.</p><p>A searchlight and armored glove manipulators are retained from the base Smoothdavid design. Cargo capacity drops to 140 kilograms to accommodate the heavier armor shell. The suit maintains the same ground speed as the Smoothdavid II, ensuring disposal teams can keep pace with their security escorts. The Smoothgoliath lacks any offensive armament, making it wholly dependent on escort suits or conventional security personnel for protection during field operations.</p>
 </capabilities>
+
+<overview>
+<p>The Smoothgoliath is a light personal armor suit produced by TharHes Industries as a dedicated explosives disposal and hazardous environment companion to the Smoothdavid. Introduced alongside the Smoothdavid in 3064, the design trades all offensive capability for substantially increased armor protection and specialized sensor equipment. Government agencies and emergency services across the Lyran Alliance adopted the suit for bomb disposal, hazardous materials response, and industrial safety roles where operator survival outweighed the need for armament.</p>
+</overview>
 
 <deployment>
 <p>Clan security castes organized Smoothgoliath operators into five-trooper Points for engineering and hazardous environment tasks within Clan-administered territories. Mining operations, industrial accident response, and munitions disposal all fell within the suit's operational profile, filling a niche that Clan battle armor was poorly suited to address.</p>
@@ -149,4 +125,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

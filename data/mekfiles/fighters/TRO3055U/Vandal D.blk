@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ae64-7325-8d05-77024a037356
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ D
 <year>
 3063
 </year>
-
-<originalBuildYear>
-3063
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -120,26 +120,13 @@ CLHeavyMediumLaser:OMNI
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-TR:3055U
-</source>
-
-<published>
-RS:3055Uu
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Vandal is a thirty-ton Clan OmniFighter developed in 2941 by Clan Ice Hellion, conceived from the outset as a high-speed scout and pursuit craft rather than a front-line combatant. Its exceptional agility distinguishes it from heavier fighters of comparable cost, though its limited weapons payload means most Clan commanders assign it to reconnaissance and rear-echelon screening duties rather than direct combat. Every Clan maintains Vandals for fast scouting work, and the design has spread widely through salvage and Trials since its introduction. The years following the Great Refusal gave the craft renewed relevance, particularly among the home Clans, who recognized it as an economical platform for power projection. Clan Hell's Horses became its most committed later-era patron, investing in new production capacity to sustain the type through the Dark Age.</p>
-</overview>
-
 <capabilities>
 <p>The Vandal's defining characteristic is its exceptional thrust-to-weight ratio, which makes it among the most agile fighters in the Clan inventory. Its 360 XL engine provides the acceleration needed to disengage from heavier interceptors that cannot match its pace. The Tokasha Foundry Series 9 ferro-aluminum armor offers adequate protection for a craft of its weight, though pilots who linger in a defensive engagement against dedicated combat fighters do so at considerable risk. The primary configuration mounts an active probe in place of heavier offensive weapons, making the craft an effective sensor platform when operating as the eyes of a Trinary or Cluster. An additional ton of fuel in this configuration gives it superior mission endurance compared to the alternate configurations. The pair of nose-mounted small lasers provides minimal self-defense capability, though aggressive pilots have been known to use them against soft ground targets during reconnaissance passes.</p><p>The Vandal's OmniFighter pod system allows rapid reconfiguration between its roles. The tradeoff in each alternate configuration is straightforward: sensor equipment gives way to weapons as the mission emphasis shifts from reconnaissance to attack. None of the configurations are optimized for stand-up dogfighting against comparable Clan fighters; the Vandal's strengths lie in speed, endurance, and surprise rather than raw firepower.</p>
 </capabilities>
+
+<overview>
+<p>The Vandal is a thirty-ton Clan OmniFighter developed in 2941 by Clan Ice Hellion, conceived from the outset as a high-speed scout and pursuit craft rather than a front-line combatant. Its exceptional agility distinguishes it from heavier fighters of comparable cost, though its limited weapons payload means most Clan commanders assign it to reconnaissance and rear-echelon screening duties rather than direct combat. Every Clan maintains Vandals for fast scouting work, and the design has spread widely through salvage and Trials since its introduction. The years following the Great Refusal gave the craft renewed relevance, particularly among the home Clans, who recognized it as an economical platform for power projection. Clan Hell's Horses became its most committed later-era patron, investing in new production capacity to sustain the type through the Dark Age.</p>
+</overview>
 
 <deployment>
 <p>The D configuration appeared in 3063 and found particular favor with Clan Hell's Horses pilots, who appreciate its direct and aggressive weapons philosophy. CHH commands routinely deploy D-configured Vandals alongside Prime reconnaissance elements, using the scouting variant to identify targets and the D to prosecute them. The configuration's straightforward design has been cited by CHH commanders as an example of the pragmatic engineering philosophy they favor, and it remains one of the more common Vandal variants in Hell's Horses toumans through the Dark Age and beyond.</p>
@@ -174,4 +161,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:SL Interlink 5
 TARGETING:Gatekeeper Model 5
 </systemModels>
+
+<source>
+TR:3055U
+</source>
+
+<published>
+RS:3055Uu
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

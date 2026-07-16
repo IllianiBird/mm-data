@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a82e-7942-9d88-183465b865eb
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ A [Bearhunter](Sqd4)
 <year>
 3147
 </year>
-
-<originalBuildYear>
-3147
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -82,42 +82,13 @@ BABattleClaw:LA
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
 
-<source>
-RG31
-</source>
-
-<published>
-RG31
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Callisto is a medium Clan battle armor suit developed by the Rasalhague Dominion in the mid-thirty-second century. Built upon the foundation of the proven Elemental battlesuit, the Callisto retains a familiar profile that allows warriors to transition between designs with minimal retraining. Its modular weapon mounting system gives infantry commanders the flexibility to tailor each formation's loadout to the mission. Produced at facilities on Alshain and Stewart, the suit has spread across the Dominion, the Wolf Empire, and Clan Sea Fox merchant networks, earning a reputation as a practical complement to longer-established battle armor designs.</p>
-</overview>
-
 <capabilities>
 <p>The Configuration A Callisto with Bearhunter mount builds on the proven Elemental frame to deliver focused anti-infantry firepower. The Bearhunter Superheavy Autocannon in the modular weapon position provides punishing close-range capability against soft targets, while an ER Medium Laser in the squad support role handles armored threats at medium range. A standard Battle Claw on the left arm enables anti-BattleMech swarming attacks.</p><p>Lacking jump jets, the Callisto compensates with improved ground speed over its Elemental predecessor. This trade-off limits tactical options in vertical terrain but allows troopers to close distance rapidly across open ground. Armor protection falls below the Elemental baseline, a concession operators accept given the enhanced offensive capability. The Bearhunter configuration excels at clearing infantry positions, though its autocannon ammunition is finite, requiring careful fire discipline during prolonged operations.</p>
 </capabilities>
+
+<overview>
+<p>The Callisto is a medium Clan battle armor suit developed by the Rasalhague Dominion in the mid-thirty-second century. Built upon the foundation of the proven Elemental battlesuit, the Callisto retains a familiar profile that allows warriors to transition between designs with minimal retraining. Its modular weapon mounting system gives infantry commanders the flexibility to tailor each formation's loadout to the mission. Produced at facilities on Alshain and Stewart, the suit has spread across the Dominion, the Wolf Empire, and Clan Sea Fox merchant networks, earning a reputation as a practical complement to longer-established battle armor designs.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere factions that have acquired Callistos through Clan Sea Fox trade networks typically organize them into four-trooper squads following standard infantry doctrine. The Bearhunter-armed configuration sees particular favor among garrison commands looking for dedicated anti-infantry capability, with squads deployed alongside conventional forces for base security and urban patrol duties.</p>
@@ -150,4 +121,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG31
+</source>
+
+<published>
+RG31
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

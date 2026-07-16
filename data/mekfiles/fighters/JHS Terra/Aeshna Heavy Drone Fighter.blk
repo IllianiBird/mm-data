@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acc3-7c0d-81d1-09c4d72a5a75
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Aeshna Heavy Drone Fighter
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -124,38 +124,13 @@ IS Ultra AC/10 Ammo
 ImprovedSmartRoboticControlSystem
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<notes>
-Aerospace Smart Robotic Control System (Improved) gives the Aeshna a Piloting Skill of 5 and a Gunnery Skill of 4
-</notes>
-
-<source>
-JHS:Terra
-</source>
-
-<published>
-JHS:Terra
-</published>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Hive-class drone fighters represent the Word of Blake's most ambitious unmanned aerospace program, drawing on Smart Robotic Control Systems technology retained by ComStar since the fall of the Star League. Designed as a coordinated suite of three complementary airframes, the Hive series was conceived to operate in self-supporting concert, with each design filling a distinct tactical role. Blakist engineers drew upon experience with ancient BlackWasp and VoidSeeker drones, as well as modern experimental Trident fighters, to create a new generation of unmanned combat aerospace vehicles optimized from inception for autonomous operation. Produced at Master's Wings Aerospace on Mars, the Hive fighters leveraged Terra's unmatched industrial base to incorporate technologies rarely seen on conventional manned fighters. The program produced three distinct designs: the light Tabanid interceptor, the medium Scarab fighter-bomber, and the heavy Aeshna strike fighter, each carrying specialized equipment that enhanced the effectiveness of the entire formation.</p>
-</overview>
-
 <capabilities>
 <p>The Aeshna is the heaviest of the three Hive-class designs, carrying armor protection comparable to the most heavily plated fighters in production. Large variable-speed pulse lasers serve as primary weapons, their adjustable pulse rates providing consistent accuracy across all engagement ranges. A pair of ultra-class autocannons deliver devastating ballistic firepower, and a concentrated squadron of Aeshnas can tear through a DropShip's armor plating in just a few salvos. Dual extended-range lasers mounted in the nose round out an already formidable weapons suite, providing additional reach that complements the autocannons' raw destructive output.</p><p>Despite its heavy airframe, the Aeshna mounts a comparatively modest engine that limits its speed relative to the lighter Scarab. This trade-off prioritizes protection and firepower over maneuverability, a sensible approach for an unmanned platform where pilot survivability is not a design consideration. The fighter can carry a limited anti-ship missile loadout of two weapons, though its airframe could theoretically support a heavier bomb load. Heavy ferro-aluminum armor completes the design's emphasis on durability and sustained engagement, ensuring the Aeshna can absorb significant punishment while delivering its heavy ordnance on target.</p>
 </capabilities>
+
+<overview>
+<p>The Hive-class drone fighters represent the Word of Blake's most ambitious unmanned aerospace program, drawing on Smart Robotic Control Systems technology retained by ComStar since the fall of the Star League. Designed as a coordinated suite of three complementary airframes, the Hive series was conceived to operate in self-supporting concert, with each design filling a distinct tactical role. Blakist engineers drew upon experience with ancient BlackWasp and VoidSeeker drones, as well as modern experimental Trident fighters, to create a new generation of unmanned combat aerospace vehicles optimized from inception for autonomous operation. Produced at Master's Wings Aerospace on Mars, the Hive fighters leveraged Terra's unmatched industrial base to incorporate technologies rarely seen on conventional manned fighters. The program produced three distinct designs: the light Tabanid interceptor, the medium Scarab fighter-bomber, and the heavy Aeshna strike fighter, each carrying specialized equipment that enhanced the effectiveness of the entire formation.</p>
+</overview>
 
 <deployment>
 <p>The standard Aeshna represents the upgraded production model resulting from the early 3070s refit program. In addition to the heavy ferro-aluminum armor upgrade shared across all three Hive-class designs, the Aeshna received advanced variable-speed pulse lasers to replace its original laser systems. This exchange improved accuracy across varying engagement distances, complementing the heavy fighter's already formidable autocannon and missile armament. The refit gave the Aeshna a distinctly angular profile that has become the upgraded design's most recognizable visual feature.</p>
@@ -188,4 +163,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+Aerospace Smart Robotic Control System (Improved) gives the Aeshna a Piloting Skill of 5 and a Gunnery Skill of 4
+</notes>
+
+<source>
+JHS:Terra
+</source>
+
+<published>
+JHS:Terra
+</published>
+
+<tonnage>
+100.0
+</tonnage>
 

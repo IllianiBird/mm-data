@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e848-7eea-8fcc-f6a848ef749f
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Mortar Carrier
 <year>
 3083
 </year>
-
-<originalBuildYear>
-3083
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -105,33 +105,13 @@ IS Mech Mortar-8
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 19:27:01
-<overview>
-<p>The Mortar Carrier is a sixty-ton tracked combat vehicle mounting three Class 8 Mech Mortars on the standard carrier chassis. Developed by the Quikscell Company in 3083, the design is a Dark Age evolution of the weapons carrier concept, providing indirect fire capability through ballistic mortar bombardment rather than guided missiles. The fuel cell engine and heavy ferro-fibrous armor distinguish it from earlier carrier designs.</p>
-</overview>
-
 <capabilities>
 <p>The Mortar Carrier mounts three forward-firing Class 8 Mech Mortars, providing indirect fire capability through ballistic bombardment. A 180-rated fuel cell engine replaces the traditional internal combustion powerplant, maintaining fifty-four kilometer per hour speed with cleaner operation. Aldis Heavy Ferro-Fibrous armor provides eighty-nine points of protection, nearly double the standard carrier family's coverage.</p><p>A Communicator system and FireScan with IndirecTrack targeting provide fire direction capability. The mortar system fires in a high ballistic arc, allowing engagement of targets behind terrain features and buildings. The substantially improved armor protection and fuel cell engine represent a generational leap over earlier carrier designs, though at increased production cost.</p>
 </capabilities>
+
+<overview>
+<p>The Mortar Carrier is a sixty-ton tracked combat vehicle mounting three Class 8 Mech Mortars on the standard carrier chassis. Developed by the Quikscell Company in 3083, the design is a Dark Age evolution of the weapons carrier concept, providing indirect fire capability through ballistic mortar bombardment rather than guided missiles. The fuel cell engine and heavy ferro-fibrous armor distinguish it from earlier carrier designs.</p>
+</overview>
 
 <deployment>
 <p>Quikscell plants on Richvale, Kalidasa, and Layover produce the Mortar Carrier alongside Maxwell Planetary Defense Consortium on Maxwell. The design entered service in 3083, filling an indirect fire role in Dark Age-era combined-arms formations.</p>
@@ -161,4 +141,16 @@ ENGINE:180 Fuel Cell
 ARMOR:Heavy Ferro-Fibrous
 TARGETING:with IndirecTrack
 </systemModels>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

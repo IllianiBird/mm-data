@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e969-7f2e-9f55-1a67286cb8eb
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Nuberu Anti Aircraft Tank
 <year>
 3083
 </year>
-
-<originalBuildYear>
-3083
-</originalBuildYear>
 
 <type>
 Clan Level 4
@@ -118,26 +118,13 @@ CLLBXAC5
 CLLBXAC5
 </Front Turret Equipment>
 
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 17:12:16
-<overview>
-<p>The Nuberu Anti-Aircraft Tank was one of the final joint projects between Clan Snow Raven and the Outworlds Alliance prior to the formation of the Raven Alliance. Entering production in 3083 at the United Outworlders Corporation facility on Mitchella, the Nuberu was designed to address the critical shortage of air defense assets plaguing the Alliance's ground forces after the Jihad. With pirate activity surging across the expanded Raven Alliance territories and the Aerospace Arm stretched too thin to provide adequate coverage, Snow Raven engineers partnered with their native Outworlder counterparts to create an improved anti-aircraft platform based on the proven Partisan concept. The collaboration produced a vehicle that costs less than two-thirds of a comparable Partisan Air Defense Tank.</p>
-</overview>
-
 <capabilities>
 <p>The Nuberu's most distinctive feature is its innovative twin-turret design, splitting four Clan-grade Type OVR-X LB 5-X autocannons between two independent weapon mounts. This arrangement ensures that if one turret is disabled, the vehicle retains half its firepower and can continue engaging targets. The TRTTS Mark V AirTracker targeting system provides very accurate fire against airborne targets, though it is somewhat inaccurate against ground-based threats and the targeting computer often has problems attempting to track every missile.</p><p>Nine and a half tons of Clan laser-reflective armor significantly increase the vehicle's resistance to strafing attacks from energy weapon-armed aerospace fighters, the most deadly threat in the typical operating environment. A Jones ElectroCell 180 fuel cell engine provides a modest 54 km/h top speed, prioritizing affordability and simplicity over the fusion powerplants of more expensive designs. Ammunition endurance is limited, with only two tons of cluster rounds for the four autocannons, but as a defensive vehicle operating close to friendly supply lines, this is not considered a significant liability. The fuel cell engine and Clan manufacturing techniques keep production costs well below fusion-powered equivalents, enabling the Raven Alliance to field them in large numbers.</p>
 </capabilities>
+
+<overview>
+<p>The Nuberu Anti-Aircraft Tank was one of the final joint projects between Clan Snow Raven and the Outworlds Alliance prior to the formation of the Raven Alliance. Entering production in 3083 at the United Outworlders Corporation facility on Mitchella, the Nuberu was designed to address the critical shortage of air defense assets plaguing the Alliance's ground forces after the Jihad. With pirate activity surging across the expanded Raven Alliance territories and the Aerospace Arm stretched too thin to provide adequate coverage, Snow Raven engineers partnered with their native Outworlder counterparts to create an improved anti-aircraft platform based on the proven Partisan concept. The collaboration produced a vehicle that costs less than two-thirds of a comparable Partisan Air Defense Tank.</p>
+</overview>
 
 <deployment>
 <p>Every Raven Alliance garrison fields at least two platoons of Nuberus, with many possessing a full company. The vehicle's affordable production cost has allowed rapid fielding across the Alliance's dispersed territories, freeing aerospace fighters and BattleMechs from static defensive assignments. Deployment concentrations are heaviest on worlds with significant industrial or military infrastructure.</p>
@@ -170,4 +157,16 @@ ARMOR:Compound RX-5 Laser-Reflective
 COMMUNICATIONS:BMR 6c
 TARGETING:TRTTS Mark V AirTracker
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

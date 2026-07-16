@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec59-7bc8-bc9d-3f569a5e87e2
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -31,10 +35,6 @@ J-27 Trailer
 <year>
 3136
 </year>
-
-<originalBuildYear>
-3136
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -98,35 +98,13 @@ ISMPod
 Hitch
 </Rear Equipment>
 
-<slotless_equipment>
-IS M-Pod Ammo
-IS M-Pod Ammo
-</slotless_equipment>
-
-<source>
-XTR:RISC
-</source>
-
-<published>
-XTR:RISC
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-<trailer>
-1
-</trailer>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The J-27 Trailer is a powered companion vehicle developed by the Republic Institute of Strategic Combat as a platform for their experimental viral jammer technology. Unlike the standard unpowered J-27 trailer, these ten-ton wheeled units mount their own fusion engines and heavy ferro-fibrous armor, allowing them to operate independently once positioned. The trailers were conceived as part of a broader RISC initiative to deploy electronic warfare capabilities using existing, inconspicuous military vehicles. Their small size and unremarkable appearance made them ideal for placement at chokepoints and strategic bottlenecks where they could disrupt enemy electronics without drawing immediate attention or suspicion from opposing forces.</p>
-</overview>
-
 <capabilities>
 <p>Each RISC trailer variant mounts a ten-rated fusion engine providing the power necessary for its electronic warfare payload. Heavy ferro-fibrous armor offers protection far beyond what the vehicle's appearance suggests, with sixteen points distributed across its hull. A trailer hitch allows the units to be towed into position by standard J-27 tractors or other vehicles before being activated independently. The fusion powerplant provides sustained energy output required by the jammer systems, which draw considerably more power than conventional electronic equipment.</p><p>The viral jammer technology itself is volatile, with a destructive failure rate essentially guaranteed from the moment of activation. Each deployment is effectively a one-time use that must be carefully timed for maximum effect. While other RISC technology has been known for general unreliability, the jammers represent a deliberately accepted trade of longevity for overwhelming electronic disruption capability. The cost of mass-producing the jammers has remained prohibitive, limiting deployment to high-value strategic operations.</p>
 </capabilities>
+
+<overview>
+<p>The J-27 Trailer is a powered companion vehicle developed by the Republic Institute of Strategic Combat as a platform for their experimental viral jammer technology. Unlike the standard unpowered J-27 trailer, these ten-ton wheeled units mount their own fusion engines and heavy ferro-fibrous armor, allowing them to operate independently once positioned. The trailers were conceived as part of a broader RISC initiative to deploy electronic warfare capabilities using existing, inconspicuous military vehicles. Their small size and unremarkable appearance made them ideal for placement at chokepoints and strategic bottlenecks where they could disrupt enemy electronics without drawing immediate attention or suspicion from opposing forces.</p>
+</overview>
 
 <deployment>
 <p>The Decoy configuration of the RISC trailer supports decoy viral jammer operations, broadcasting false electronic signatures designed to confuse and overwhelm enemy targeting and communications systems. It entered service around 3136 as part of the initial RISC viral jammer deployment program based at the Proving Ground Liberté complex on Terra.</p>
@@ -159,4 +137,20 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RISC
+</source>
+
+<published>
+XTR:RISC
+</published>
+
+<tonnage>
+10.0
+</tonnage>
+
+<trailer>
+1
+</trailer>
 

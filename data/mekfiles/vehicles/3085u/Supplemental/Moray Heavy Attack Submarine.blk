@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e795-73ec-9db1-4046418af4b7
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Moray Heavy Attack Submarine
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -118,22 +118,13 @@ LRT 10
 SRT 6
 </Turret Equipment>
 
-<source>
-TR:3085S
-</source>
-
-<tonnage>
-140.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>Sungdong-STX Shipbuilding, a Terra-based firm with centuries of experience constructing fast-hulled surface vessels, designed the Moray Heavy Attack Submarine in 2635 for the Star League Defense Force. Contracted to provide the SLDF's Royal CAAN regiments with a heavily armed undersea fire support platform, Sungdong-STX drew on its expertise in submersible cargo vessel construction to create a formidable 140-ton submarine. The Moray was designed to operate in partnership with the lighter Manta Fast Attack Submarine, providing the heavy firepower and durability that its companion lacked. The pairing gave CAAN regiments a flexible undersea combat team capable of responding to threats across multi-hundred-kilometer engagement zones. The Moray earned a reputation as one of the most formidable conventional submarines in the Inner Sphere, capable of engaging targets ranging from enemy submersibles to surface vessels.</p>
-</overview>
-
 <capabilities>
 <p>The Moray was built to absorb punishment and deliver devastating torpedo salvos. Its Electro-Motive 390 XL fusion engine provides a maximum flank speed of 54 kilometers per hour, considerably slower than the Manta but adequate for a vessel designed to hold position and fight rather than conduct hit-and-run attacks. The engine consumes nearly a quarter of the submarine's 140-ton displacement, a significant investment that provides extended mission duration and reliable power for the vessel's extensive weapons suite.</p><p>Eighteen tons of AquaTec ArmorSlab ferro-fibrous armor give the Moray exceptional survivability for a submarine of its class. CASE protection prevents ammunition detonations from destroying the vessel outright, a critical feature given the large torpedo magazines carried aboard. The hull provides comprehensive coverage across all aspects, allowing the Moray to endure sustained engagements that would quickly overwhelm lighter submarines.</p><p>The weapons fit is extensive and well-distributed. The bow mounts twin Sea Devastator twenty-tube long-range torpedo launchers alongside a Sea Harvester six-tube short-range torpedo launcher. A dorsal turret carries an additional ten-tube long-range torpedo launcher, a short-range torpedo launcher, and a pair of Averell Poseidon extended-range medium lasers. Stern-mounted launchers eliminate blind spots in the engagement envelope. Three tons of ammunition per long-range launcher type and four tons for the short-range systems provide reasonable endurance for extended patrols, though the Moray's ammunition dependency remains its primary operational constraint.</p>
 </capabilities>
+
+<overview>
+<p>Sungdong-STX Shipbuilding, a Terra-based firm with centuries of experience constructing fast-hulled surface vessels, designed the Moray Heavy Attack Submarine in 2635 for the Star League Defense Force. Contracted to provide the SLDF's Royal CAAN regiments with a heavily armed undersea fire support platform, Sungdong-STX drew on its expertise in submersible cargo vessel construction to create a formidable 140-ton submarine. The Moray was designed to operate in partnership with the lighter Manta Fast Attack Submarine, providing the heavy firepower and durability that its companion lacked. The pairing gave CAAN regiments a flexible undersea combat team capable of responding to threats across multi-hundred-kilometer engagement zones. The Moray earned a reputation as one of the most formidable conventional submarines in the Inner Sphere, capable of engaging targets ranging from enemy submersibles to surface vessels.</p>
+</overview>
 
 <deployment>
 <p>The standard Moray represents the Word of Blake's updated configuration introduced in 3072, incorporating extended-range medium lasers in place of the original standard models. This version remains in active production and service with the Republic of the Sphere. Republic forces deploy the Moray primarily in its traditional role as the heavy anchor of submarine task forces, providing fire support for lighter Manta escorts. The type also serves independently in defense of underwater installations and as a mobile torpedo platform for coastal interdiction operations.</p>
@@ -166,4 +157,12 @@ ARMOR:ArmorSlab Ferro-Fibrous
 COMMUNICATIONS:N14
 TARGETING:WDS45N
 </systemModels>
+
+<source>
+TR:3085S
+</source>
+
+<tonnage>
+140.0
+</tonnage>
 

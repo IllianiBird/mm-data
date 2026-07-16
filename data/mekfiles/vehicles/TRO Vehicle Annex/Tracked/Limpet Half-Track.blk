@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb0e-7b5f-afa0-b120634189cc
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Limpet Half-Track
 <year>
 2715
 </year>
-
-<originalBuildYear>
-2715
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -108,13 +108,6 @@ PintleTurret
 InfantryStandardSRM:SIZE:1.0
 </Turret Equipment>
 
-<slotless_equipment>
-Infantry Ammo
-Infantry Ammo
-Infantry Ammo
-Infantry Inferno Ammo
-</slotless_equipment>
-
 <barrating>
 8
 </barrating>
@@ -127,30 +120,13 @@ Infantry Inferno Ammo
 3
 </engine_tech_rating>
 
-<notes>
-Extra ammo:
-</notes>
-
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-4.0
-</tonnage>
-
-<fuel>
-0.018
-</fuel>
-
-# Fluff Date: 2026-03-08 20:16:39
-<overview>
-<p>The Limpet is a four-ton infantry half-track produced by Buda Imperial Vehicles for the Draconis Combine. Introduced in 2715, the design is a near-exact copy of the Taurian Concordat's Rock Rover, adapted to meet Combine procurement requirements. Buda Imperial Vehicles, an established military vehicle manufacturer for the Draconis Combine Mustered Soldiery, made minimal modifications to the proven Rock Rover platform. The Limpet fills the same infantry transport and fire support niche as its Taurian predecessor, providing mechanized infantry formations with a small, durable platform for urban and rough terrain operations. The vehicle has seen widespread service across Combine garrison forces, valued for its simplicity and ease of maintenance.</p>
-</overview>
-
 <capabilities>
 <p>The Limpet shares the Rock Rover's basic layout and performance characteristics, including its half-track drivetrain, electric fuel cell engine, and BAR 8 rated armor protection. The vehicle's small size and tracked rear section allow it to traverse difficult terrain while maintaining a low profile suitable for urban operations.</p><p>The primary difference between the Limpet and its Taurian counterpart lies in the turret armament. Where the Rock Rover mounts a support laser, the Limpet substitutes a short-range missile launcher. This change reflects Combine infantry doctrine's preference for missile-based fire support at close range, trading sustained laser fire for greater impact per volley. The two pintle-mounted auto-rifles and advanced fire control system are retained from the original design. The Limpet carries the same infantry compartment as the Rock Rover, accommodating a full squad of infantry with their equipment through a rear-mounted door. The fuel cell powerplant provides adequate range for garrison patrol and convoy escort duties without the logistical burden of more complex engine types.</p>
 </capabilities>
+
+<overview>
+<p>The Limpet is a four-ton infantry half-track produced by Buda Imperial Vehicles for the Draconis Combine. Introduced in 2715, the design is a near-exact copy of the Taurian Concordat's Rock Rover, adapted to meet Combine procurement requirements. Buda Imperial Vehicles, an established military vehicle manufacturer for the Draconis Combine Mustered Soldiery, made minimal modifications to the proven Rock Rover platform. The Limpet fills the same infantry transport and fire support niche as its Taurian predecessor, providing mechanized infantry formations with a small, durable platform for urban and rough terrain operations. The vehicle has seen widespread service across Combine garrison forces, valued for its simplicity and ease of maintenance.</p>
+</overview>
 
 <deployment>
 <p>The Limpet serves Draconis Combine mechanized infantry formations as a light transport and fire support platform. Its SRM armament provides close-range punch suited to the urban and garrison operations typical of its deployment profile. The vehicle is most commonly found in planetary militia and second-line units throughout the Combine's interior worlds.</p>
@@ -183,4 +159,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+Extra ammo:
+</notes>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+4.0
+</tonnage>
+
+<fuel>
+0.018
+</fuel>
 

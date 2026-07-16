@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12-nightly-2026-02-26 on 2026-02-28
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a9c3-7b88-86e6-0ccb63e1a952
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ D(Sqd6)
 <year>
 3137
 </year>
-
-<originalBuildYear>
-3137
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -97,38 +97,14 @@ BABasicManipulator:RA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-XTR:RotS 3
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-12
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Grenadier II is a heavy-class battlesuit produced by General Motors as an evolution of the original Grenadier design. Incorporating Clan-specification armor technology on an Inner Sphere chassis, the suit achieves comparable protection to its predecessor at a reduced weight of fifteen hundred kilograms. This lighter mass enables OmniMech transport, a capability the heavier Grenadier lacks. The suit features dual modular weapon mounts accommodating a wide variety of loadout configurations and a basic manipulator for environmental interaction. Mixed Inner Sphere and Clan technology gives the Grenadier II a competitive edge in firepower and protection, though the hybrid construction carries a maintenance burden that field technicians have found challenging to manage.</p>
-</overview>
 
 <capabilities>
 <p>Exclusive to Republic of the Sphere forces, Configuration D pairs a Firedrake support needler on the left arm mount with a tube artillery system and eight-round magazine in the body. The tube artillery gives individual troopers organic indirect fire capability, a rare asset at the battle armor scale. Troopers can deliver area bombardment without relying on external fire support assets, making the configuration self-sufficient in suppression and area denial roles. The Firedrake needler provides close-range anti-personnel defense. This configuration's experimental technology classification reflects its cutting-edge systems, and the maintenance challenges shared by all Grenadier II variants are compounded by the artillery system's complexity. The tube artillery's limited magazine and minimum range restrict its usefulness in close-quarters engagements.</p>
 </capabilities>
+
+<overview>
+<p>The Grenadier II is a heavy-class battlesuit produced by General Motors as an evolution of the original Grenadier design. Incorporating Clan-specification armor technology on an Inner Sphere chassis, the suit achieves comparable protection to its predecessor at a reduced weight of fifteen hundred kilograms. This lighter mass enables OmniMech transport, a capability the heavier Grenadier lacks. The suit features dual modular weapon mounts accommodating a wide variety of loadout configurations and a basic manipulator for environmental interaction. Mixed Inner Sphere and Clan technology gives the Grenadier II a competitive edge in firepower and protection, though the hybrid construction carries a maintenance burden that field technicians have found challenging to manage.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Configuration D formations represented the Republic's heaviest organic battle armor artillery capability. These reinforced squads were assembled for deliberate bombardment missions where sustained indirect fire was required. RAF commanders on Marlette reportedly employed oversized Configuration D teams to confuse Capellan intelligence about the source of artillery fire during border operations, as the self-supporting suits left no vehicle-scale signatures for enemy sensors to identify as conventional artillery positions.</p>
@@ -161,4 +137,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RotS 3
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+12
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

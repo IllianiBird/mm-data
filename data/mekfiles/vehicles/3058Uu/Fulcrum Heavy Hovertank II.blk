@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e3fb-7c77-b8cf-aed807c1de75
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ II
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -107,26 +107,13 @@ Medium Laser
 SRM 6
 </Turret Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 11:22:50
-<overview>
-<p>The Fulcrum Heavy Hovertank emerged from Cyclops Incorporated's Skye design bureau in 3055, developed to succeed the aging Drillson Heavy Hovertank. Cyclops prioritized ease of maintenance and technological accessibility, building a vehicle suited for deployment on worlds far from major supply hubs.</p><p>The initial production run impressed the Lyran Alliance command sufficiently to generate an order for 500 vehicles within four months, quickly exceeding Cyclops' production capacity and prompting licensed production at additional facilities. The Fulcrum earned a reputation as an exceptional reconnaissance and fast-strike platform, capable of outrunning threats it could not defeat and delivering meaningful firepower across a broad engagement range. Its combination of electronic warfare capability and long-range weapons made it a valued asset in combined-arms formations throughout the Inner Sphere and Periphery.</p>
-</overview>
-
 <capabilities>
 <p>The Fulcrum's performance centers on its Strand 265 XL fusion engine, which drives the tank to flank speeds exceeding 160 km/h. This speed comes at a cost: the hover propulsion system remains inherently fragile under concentrated fire, and the vehicle's armor protection is below what heavier designs carry at the same tonnage.</p><p>The weapons suite is mounted entirely in the turret. The Sunglow Type 2 Large Laser and Delta Dart LRM 10 Launcher provide effective engagement capability at range, while a Diverse Optics Type 18 Medium Laser offers supplementary close-in firepower. The LRM system carries only one ton of ammunition, limiting the tank's ability to sustain missile fire through extended engagements.</p><p>The O/P AIR 900 communications suite, fitted with a Guardian ECM system, enables the Fulcrum to screen friendly units from enemy targeting and disrupt adversary coordination. A built-in TAG designator allows the crew to mark targets for indirect fire from artillery and aerospace assets. Together these systems make the Fulcrum a capable force multiplier even when direct engagement would be unwise, supporting combined-arms operations well beyond what the vehicle's weapons alone would suggest.</p>
 </capabilities>
+
+<overview>
+<p>The Fulcrum Heavy Hovertank emerged from Cyclops Incorporated's Skye design bureau in 3055, developed to succeed the aging Drillson Heavy Hovertank. Cyclops prioritized ease of maintenance and technological accessibility, building a vehicle suited for deployment on worlds far from major supply hubs.</p><p>The initial production run impressed the Lyran Alliance command sufficiently to generate an order for 500 vehicles within four months, quickly exceeding Cyclops' production capacity and prompting licensed production at additional facilities. The Fulcrum earned a reputation as an exceptional reconnaissance and fast-strike platform, capable of outrunning threats it could not defeat and delivering meaningful firepower across a broad engagement range. Its combination of electronic warfare capability and long-range weapons made it a valued asset in combined-arms formations throughout the Inner Sphere and Periphery.</p>
+</overview>
 
 <deployment>
 <p>The Fulcrum II was introduced in 3067 to address demand for a variant better suited to urban and close-quarters combat. Replacing the large laser with additional medium lasers and a short-range missile rack trades long engagement reach for volume of fire at closer ranges. The variant served primarily in assault and exploitation roles within Lyran Alliance commands, complementing the standard model's reconnaissance focus. It was particularly effective when paired with standard Fulcrums, moving in to press engagements that the base model's firepower had opened.</p>
@@ -159,4 +146,16 @@ ARMOR:StarSlab/11.5 Type HVA
 COMMUNICATIONS:O/P AIR 900
 TARGETING:RCA Instatrac Mark XII
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

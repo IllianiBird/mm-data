@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a929-7d46-a364-32d7ab93205e
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ P17 'Hurricane'(Sqd6)
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Experimental
@@ -97,42 +97,14 @@ Clan BA Stealth (Basic):Body
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-XTR:Comstar
-</source>
-
-<published>
-XTR:Comstar
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-16 21:37:26
-<overview>
-<p>ComStar developed the Tornado power armor (light) suit in the late twenty-ninth century as a covert operations platform for its intelligence service and special forces units. Derived from Star League-era Nighthawk technology preserved on Terra, the Tornado combined lightweight stealth protection with an adaptive concealment system in a package light enough for extended clandestine deployments. The suit gained a reputation as one of the most effective infiltration tools in the Inner Sphere, serving ComStar and later the Word of Blake across decades of covert operations. Multiple variants expanded the design beyond intelligence work into direct combat and logistics support roles.</p>
-</overview>
 
 <capabilities>
 <p>The P17 Hurricane marks a major departure from the standard Tornado platform, incorporating Clan-manufactured basic stealth armor that matches the protection of Inner Sphere equivalents while drawing on superior Clan materials science. The most visible improvement is a substantially enhanced ground speed reaching nearly thirty kilometers per hour, triple the pace of other Tornado models, courtesy of upgraded motor systems. An anti-personnel Gauss rifle mounted in the right arm provides lethal precision at range, making the P17 far more dangerous in direct engagements than its stealth-focused predecessors. A small body-mounted cargo compartment carries ten kilograms of mission equipment. The suit's reliance on Clan components and non-standard parts makes field maintenance extremely difficult, and replacement materials remain scarce outside dedicated ComStar supply channels. Each suit still requires custom fitting to its operator.</p>
 </capabilities>
+
+<overview>
+<p>ComStar developed the Tornado power armor (light) suit in the late twenty-ninth century as a covert operations platform for its intelligence service and special forces units. Derived from Star League-era Nighthawk technology preserved on Terra, the Tornado combined lightweight stealth protection with an adaptive concealment system in a package light enough for extended clandestine deployments. The suit gained a reputation as one of the most effective infiltration tools in the Inner Sphere, serving ComStar and later the Word of Blake across decades of covert operations. Multiple variants expanded the design beyond intelligence work into direct combat and logistics support roles.</p>
+</overview>
 
 <deployment>
 <p>ComStar deployed the P17 Hurricane in its intended six-trooper Level I configuration as part of a dedicated hunter-killer Level II unit. The formation combined the P17's enhanced speed and ranged firepower with ComStar's established Level I tactical doctrine, creating a rapid-response team capable of tracking and eliminating high-value targets. Officially, only a handful of suits were produced, and the full strength of the P17 Level II remains classified.</p>
@@ -165,4 +137,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Comstar
+</source>
+
+<published>
+XTR:Comstar
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

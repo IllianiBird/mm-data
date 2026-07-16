@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea41-7c6d-876f-831c585570a4
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Karnov UR Transport
 <year>
 3089
 </year>
-
-<originalBuildYear>
-3089
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -108,33 +108,13 @@ ISGuardianECMSuite
 <Rotor Equipment>
 </Rotor Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG33
-</source>
-
-<published>
-RG33
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The Karnov UR Transport is a heavy-lift tilt-rotor VTOL whose origins remain one of the enduring mysteries of Inner Sphere military logistics. Although distributed by the New Earth Trading Company since at least the early Succession Wars, NETC has never possessed VTOL manufacturing facilities of its own, and no other firm has publicly claimed credit for the design's production. Despite this uncertainty, the Karnov has earned a reputation for reliability and ruggedness that few transport craft can match. The tilt-rotor configuration makes it one of the fastest VTOLs of its weight class, equally capable as a cargo carrier and a flying crane. Military forces, mercenary commands, and commercial operators across every Successor State employ the Karnov for supply, logistics, and battlefield recovery missions, making its distinctive silhouette synonymous with rear-area transport operations throughout the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Karnov's airframe is built around the DAV 190 ICE aircraft engine, a powerplant known for reliability and ruggedness. Drive shafts extend from the central wing spar down wing pylons to twin rotor assemblies capable of a full ninety-degree tilt, allowing horizontal speeds exceeding 180 kilometers per hour. The speed comes at a cost, as the large rotor blades must be locked vertical for landing. Many inexperienced pilots have wrecked both aircraft and crew by forgetting this critical step. Variable-geometry landing gear allows the Karnov to straddle loads up to 3.3 meters tall, with the internal cargo bay ramp extending fully for drive-on loading and unloading.</p><p>StarSlab armor forged specifically for the Karnov provides reasonable protection against infantry weapons and light shrapnel, though the oversized rotors remain vulnerable to any sustained fire. Many crashed Karnovs can be found on battlefields with fuselage and wing struts intact but rotors completely shot away. The base Karnov carries no weapons and no dedicated targeting system, relying entirely on speed and standoff distance for protection. A Johnston Q-Rotor communications system handles coordination with ground units, and the six-ton cargo bay accommodates a range of mission loads from bulk supplies to light vehicles.</p>
 </capabilities>
+
+<overview>
+<p>The Karnov UR Transport is a heavy-lift tilt-rotor VTOL whose origins remain one of the enduring mysteries of Inner Sphere military logistics. Although distributed by the New Earth Trading Company since at least the early Succession Wars, NETC has never possessed VTOL manufacturing facilities of its own, and no other firm has publicly claimed credit for the design's production. Despite this uncertainty, the Karnov has earned a reputation for reliability and ruggedness that few transport craft can match. The tilt-rotor configuration makes it one of the fastest VTOLs of its weight class, equally capable as a cargo carrier and a flying crane. Military forces, mercenary commands, and commercial operators across every Successor State employ the Karnov for supply, logistics, and battlefield recovery missions, making its distinctive silhouette synonymous with rear-area transport operations throughout the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Republic of the Sphere's advanced stealth transport variant, produced at the Terran NETC facility. Vehicular stealth armor with a Guardian ECM suite renders the aircraft extremely difficult to detect during insertion and extraction operations. The ten-ton cargo bay accommodates even Clan assault-class battle armor, making it ideal for moving Spheroid battle armor and special forces alike. Maintaining cruise speeds matching the original Karnov, the BA Stealth variant emphasizes survivability at the cost of weaponry. The Republic prioritized acquiring the Karnov's production plans and facilities specifically to develop this variant, viewing stealthy battle armor delivery as a critical capability for its combined-arms doctrine. The market potential for aftersales packages has proven considerable.</p>
@@ -167,4 +147,16 @@ ARMOR:Vehicular Stealth
 JUMP_JET:N/A
 COMMUNICATIONS:Q-Rotor
 </systemModels>
+
+<source>
+RG33
+</source>
+
+<published>
+RG33
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

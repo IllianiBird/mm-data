@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7e5-7697-977b-ffdbe1d2c20b
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ S (Sqd4)
 <year>
 3084
 </year>
-
-<originalBuildYear>
-3084
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -94,42 +94,14 @@ BABattleClawVibro:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-1
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Gladiator-S is a military-grade battle armor conversion of the original Gladiator exoskeleton, produced by StarCorps Industries at their Emris IV facility. Introduced in 3084, the 400-kilogram suit was developed to bridge the gap between armed exoskeletons and dedicated battle armor, offering a low-cost combat platform for forces unable to field heavier powered infantry. StarCorps designed the Gladiator-S for mercenary commands, corporate garrison units, and irregular forces operating in environments where full battle armor procurement was impractical. The suit's arena heritage gave it a rough-and-ready quality that appealed to operators who valued simplicity and affordability over raw combat power.</p>
-</overview>
 
 <capabilities>
 <p>The Gladiator-S is a full battle armor conversion of the original exoskeleton platform. Enhanced myomer and a redesigned power supply double the ground speed to forty kilometers per hour, allowing troopers to close with targets quickly. A vibro-claw on the left arm provides dedicated anti-armor melee capability, while anti-personnel weapon mounts on each arm allow the suit to engage infantry at range. Magnetic clamps carried over from the original 'Spider' design enable rapid BattleMech or vehicle transportation, and mechanical jump boosters provide short thirty-meter hops for clearing obstacles and rough terrain. The boosters are not effective for sustained mobility but offer tactical flexibility in close-quarters situations. Standard armor protection remains the suit's most significant limitation, offering substantially less coverage than dedicated military battle armor designs. The Gladiator-S fills a budget-conscious niche, trading raw survivability for speed, low cost, and a minimal training footprint.</p>
 </capabilities>
+
+<overview>
+<p>The Gladiator-S is a military-grade battle armor conversion of the original Gladiator exoskeleton, produced by StarCorps Industries at their Emris IV facility. Introduced in 3084, the 400-kilogram suit was developed to bridge the gap between armed exoskeletons and dedicated battle armor, offering a low-cost combat platform for forces unable to field heavier powered infantry. StarCorps designed the Gladiator-S for mercenary commands, corporate garrison units, and irregular forces operating in environments where full battle armor procurement was impractical. The suit's arena heritage gave it a rough-and-ready quality that appealed to operators who valued simplicity and affordability over raw combat power.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere mercenary commands and corporate garrison forces adopted the Gladiator-S in standard four-trooper squads. StarCorps marketed the suit to smaller outfits unable to afford dedicated battle armor, positioning it as a cost-effective alternative for garrison duty and low-intensity operations. Several corporate security firms operating in semi-hostile frontier environments purchased small batches for perimeter defense and facility protection.</p>
@@ -164,4 +136,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+1
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

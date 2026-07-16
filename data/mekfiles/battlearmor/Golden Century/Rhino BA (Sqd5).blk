@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7d0-7cc2-813c-1eba4be79223
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Rhino Battle Armor
 <year>
 2871
 </year>
-
-<originalBuildYear>
-2871
-</originalBuildYear>
 
 <type>
 Clan Level 4
@@ -90,38 +90,14 @@ BA-SRM2 Ammo:Body:Shots2#
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:GC
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-1
-</jumpingMP>
-
-<armor>
-14
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Rhino was one of the earliest battle armor designs developed by Clan Hell's Horses during the Golden Century. Conceived as a heavy infantry platform, the suit reflected the Horses' longstanding commitment to combined-arms doctrine and their conviction that properly equipped infantry could remain relevant on a battlefield dominated by BattleMechs. Drawing on early powered exoskeleton research, Horse scientists created a heavily armored suit intended for close-range engagement. Though the design never matched the success of the Elemental that would eventually replace it, the Rhino earned its place in battle armor history as a precursor to the more capable heavy designs that followed.</p>
-</overview>
 
 <capabilities>
 <p>The Rhino's armament and equipment bear a superficial resemblance to its descendant, the Gnome, but fall short in nearly every measurable category. The suit mounts a small pulse laser and an SRM 2 launcher, both with significantly shorter effective range than their modern equivalents. Ground speed is roughly half that of the Gnome, leaving troopers vulnerable to faster opponents who can dictate engagement distance.</p><p>The suit's one genuine strength is its armor protection, which rivals the Gnome's coverage and far exceeds what the contemporary Elemental carried. The SRM system, while straightforward to operate and reload, suffered from a critical flaw in its ammunition feed mechanism. Rounds tended to lock between the launch tube and storage rack, and jammed rounds could detonate inside the suit, causing catastrophic damage to both the armor and the pilot inside. Hell's Horses engineers never resolved this defect before the design was shelved.</p>
 </capabilities>
+
+<overview>
+<p>The Rhino was one of the earliest battle armor designs developed by Clan Hell's Horses during the Golden Century. Conceived as a heavy infantry platform, the suit reflected the Horses' longstanding commitment to combined-arms doctrine and their conviction that properly equipped infantry could remain relevant on a battlefield dominated by BattleMechs. Drawing on early powered exoskeleton research, Horse scientists created a heavily armored suit intended for close-range engagement. Though the design never matched the success of the Elemental that would eventually replace it, the Rhino earned its place in battle armor history as a precursor to the more capable heavy designs that followed.</p>
+</overview>
 
 <deployment>
 <p>Clan Hell's Horses fielded the Rhino exclusively in five-trooper Points, consistent with standard Clan organizational doctrine. Points of Rhino-equipped warriors served with select Horse formations during field evaluation on Niles throughout the late Golden Century. The suit never achieved widespread adoption within the Horse touman, and no other Clan is known to have acquired the design.</p>
@@ -156,4 +132,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:GC
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+1
+</jumpingMP>
+
+<armor>
+14
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

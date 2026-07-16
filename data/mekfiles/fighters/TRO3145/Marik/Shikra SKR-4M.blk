@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af9c-7795-b391-658574e2f9cc
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SKR-4M
 <year>
 3101
 </year>
-
-<originalBuildYear>
-3101
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -133,26 +133,13 @@ Clan Ultra AC/10 Ammo
 Clan Ultra AC/10 Ammo
 </Fuselage Equipment>
 
-<source>
-TR:3145:FWL,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>Andurien AeroTech introduced the Shikra in 3101 as a heavy aerospace fighter built to pair exceptional speed with substantial forward-facing ballistic firepower. Produced at their Westover facilities, the design occupies a distinctive role in the heavy fighter category, prioritizing offensive punch in the forward arc while maintaining a speed advantage over comparably armed competitors. The Shikra earned a reputation as a capable and durable platform, able to sustain engagements against capable opponents through armor resilience and superior maneuverability where lighter contemporaries would be forced to disengage.</p><p>The type proved particularly effective in formation, where massed Shikras could concentrate fire against targets well beyond individual fighter engagements. By the Dark Age era, the Shikra had become a valued asset in Free Worlds League Military aerospace forces, its qualities reinforced by a combat record across multiple campaigns in the region's troubled decades.</p>
-</overview>
-
 <capabilities>
 <p>For a 90-ton aerospace fighter, the Shikra delivers a thrust profile that consistently surprises opponents expecting sluggish performance from a craft of its mass. The Pitban 360 XL engine provides the acceleration advantage that defines the fighter's tactical identity, and the AA Heavy Raptor 3 airframe was progressively refined during early production to handle the stresses of its heavy armor load at full combat maneuver ratings. Seventeen and a half tons of Andurien Composition 5 Heavy Ferro-Aluminum provide protection well in excess of most contemporary fighters at this weight class, giving the Shikra the ability to absorb significant punishment before its combat effectiveness meaningfully degrades.</p><p>Forward firepower is the Shikra's defining characteristic. The nose-mounted Kali Yama Weapons Industries Grand Slam Gauss rifle delivers high-velocity kinetic strikes at standoff range, while the pair of Type 9 Ultra Class 10 Autocannons in the wings add sustained, high-volume ballistic fire capable of threatening targets well beyond individual fighters. In formation, massed Shikras can bring this weight of fire to bear against DropShip-class targets effectively. Rear coverage is deliberately minimal: a single Intek Medium Pulse Laser and two Wasat Dazzle Chaff Pods defend the aft quarters. This asymmetry is a known liability, and pilots who allow an opponent to reach their six are at significant disadvantage. The Shikra also carries design quirks for difficult maintenance and non-standard parts, compounding its logistical demands wherever dedicated supply infrastructure is unavailable.</p>
 </capabilities>
+
+<overview>
+<p>Andurien AeroTech introduced the Shikra in 3101 as a heavy aerospace fighter built to pair exceptional speed with substantial forward-facing ballistic firepower. Produced at their Westover facilities, the design occupies a distinctive role in the heavy fighter category, prioritizing offensive punch in the forward arc while maintaining a speed advantage over comparably armed competitors. The Shikra earned a reputation as a capable and durable platform, able to sustain engagements against capable opponents through armor resilience and superior maneuverability where lighter contemporaries would be forced to disengage.</p><p>The type proved particularly effective in formation, where massed Shikras could concentrate fire against targets well beyond individual fighter engagements. By the Dark Age era, the Shikra had become a valued asset in Free Worlds League Military aerospace forces, its qualities reinforced by a combat record across multiple campaigns in the region's troubled decades.</p>
+</overview>
 
 <deployment>
 <p>The SKR-4M served as the Shikra's primary production model, available to any buyer during Westover's period of political independence and later reserved for Free Worlds League Military units after the League's reformation. FWLM aerospace elements incorporated the type into heavy fighter roles where its endurance and forward firepower offset the added logistical complexity. The fighter's speed relative to its weight class made it viable both in offensive strike roles and as part of DropShip escort formations. Operators outside established FWLM supply networks found the maintenance burden significant, as the non-standard parts and mixed-technology components generated repair challenges that pushed independent users toward better-supported platforms over time.</p>
@@ -185,4 +172,16 @@ ARMOR:Andurien Composition 5 Heavy Ferro-Aluminum
 COMMUNICATIONS:Lassitor-6SQ
 TARGETING:Wasat Snipe Type 2
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

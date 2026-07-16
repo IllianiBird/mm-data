@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea35-7760-b7a8-8fb24d84a1b9
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Desert Scorpion Light Tank
 <year>
 3055
 </year>
-
-<originalBuildYear>
-3055
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -109,34 +109,13 @@ Large Laser
 Machine Gun
 </Turret Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-RG33
-</source>
-
-<published>
-RG33
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-03-05 13:44:18
-<overview>
-<p>The Scorpion Light Tank is a 25-ton tracked combat vehicle produced by the Quikscell Company and a network of licensed manufacturers beginning in 2807. Built as an inexpensive and easily maintained alternative to more capable armored designs, the Scorpion filled the growing garrison and security demands of Inner Sphere successor states following the devastation of the First Succession War. Its low production cost and minimal maintenance requirements made it attractive to planetary militias, mercenary commands, and even organized bandit forces that valued accessibility over peak combat performance. The design's near-ubiquitous presence across the Inner Sphere earned it the informal nickname "Budget Tank," a label that captures both its affordability and its limitations. Multiple manufacturers produce the Scorpion on worlds across the major successor states, sustaining a production base broad enough to survive even the worst periods of industrial disruption and territorial change.</p>
-</overview>
-
 <capabilities>
 <p>The Scorpion moves at a modest cruising speed limited by its internal combustion engine and in keeping with the cost-constrained design philosophy that defines the vehicle. Its primary armament is the Deleon 5 Autocannon, a weapon capable of inflicting meaningful damage at range but susceptible to tracking difficulties against targets closing to near contact. A secondary 20mm Gatling machine gun provides point defense against infantry and light vehicles. ProtecTech Light armor covers the hull and turret, offering minimal protection that leaves the vehicle vulnerable to moderate direct fire, particularly from above and to the rear.</p><p>The Scorpion's primary tactical limitation is its inability to engage targets effectively in isolation. Limited ground speed, thin armor, and an autocannon with documented close-range tracking problems mean that a single Scorpion stands as a modest threat to purpose-built combat vehicles. Quikscell Company's notorious quality control further reduces reliability, with many vehicles suffering persistent minor mechanical faults. Commanders address these weaknesses through mass deployment, compensating for individual inadequacy with weight of numbers. In that role the Scorpion performs adequately, and its widespread availability makes it a practical choice for defensive assignments where resupply is dependable.</p>
 </capabilities>
+
+<overview>
+<p>The Scorpion Light Tank is a 25-ton tracked combat vehicle produced by the Quikscell Company and a network of licensed manufacturers beginning in 2807. Built as an inexpensive and easily maintained alternative to more capable armored designs, the Scorpion filled the growing garrison and security demands of Inner Sphere successor states following the devastation of the First Succession War. Its low production cost and minimal maintenance requirements made it attractive to planetary militias, mercenary commands, and even organized bandit forces that valued accessibility over peak combat performance. The design's near-ubiquitous presence across the Inner Sphere earned it the informal nickname "Budget Tank," a label that captures both its affordability and its limitations. Multiple manufacturers produce the Scorpion on worlds across the major successor states, sustaining a production base broad enough to survive even the worst periods of industrial disruption and territorial change.</p>
+</overview>
 
 <deployment>
 <p>Developed on Stotzing as a conversion of existing Free Worlds League militia Scorpion hulls, the Desert Scorpion replaced the standard drivetrain with a fusion powerplant, substantially increasing ground speed and enabling independent sustained operations without the autocannon's ammunition logistics burden. Armed with a large laser and retaining the machine gun, the converted vehicles served FWL militia forces from the early Clan Invasion era through the ilClan period. All Stotzing militia Scorpions had been converted before the Clan Invasion began, making this version the standard garrison tank on that world rather than a supplement to existing stock.</p>
@@ -171,4 +150,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG33
+</source>
+
+<published>
+RG33
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

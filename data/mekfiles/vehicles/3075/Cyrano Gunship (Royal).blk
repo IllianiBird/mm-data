@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5da-7752-bf21-72871b4e9554
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Cyrano Gunship
 <year>
 2721
 </year>
-
-<originalBuildYear>
-2721
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -109,26 +109,13 @@ ISAntiMissileSystem
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Cyrano (Royal) is an enhanced Star League-era variant of the Cyrano Gunship manufactured by Paulina Weapons at their original Tigress headquarters. Developed to meet the higher performance standards required by elite SLDF formations and the Royal Brigades, the Royal variant incorporated upgraded Star League-grade systems throughout the airframe. First produced in 2721, it served alongside the standard Cyrano in SLDF inventories until the eventual loss of the Tigress production facility. Few examples survived the conflicts following the Star League's collapse, and the type has not been produced since the plant's destruction.</p>
-</overview>
-
 <capabilities>
 <p>The Cyrano (Royal) builds on the standard model's capable foundation with Star League-grade components suited to the exacting standards of SLDF elite formations. The base Fuersturm-C large laser armament is retained, giving the Royal the same primary fire capability as the standard Cyrano at ranges that complement the escort mission profile. Paulina DL ferro-fibrous armor carries forward, with enhanced manufacturing tolerances producing tighter protection suited to elite formations' expectations.</p><p>The Sky Tracer WL targeting system with Beagle Active Probe operates with refined sensor calibration and improved data processing, supporting the intelligence review requirements of staff-level fire information officers. Garret M250 communications equipment supports coordinated operations across mixed-formation taskforces. The DAV 220 fusion engine provides the same exceptional speed as the standard model, with Royal-grade manufacturing producing reduced mechanical variance and improved reliability across extended operational deployments. As with the base Cyrano, the Royal's primary tactical limitation is armor coverage that experienced crews considered thin for the demands of escort duty against modern weapons.</p>
 </capabilities>
+
+<overview>
+<p>The Cyrano (Royal) is an enhanced Star League-era variant of the Cyrano Gunship manufactured by Paulina Weapons at their original Tigress headquarters. Developed to meet the higher performance standards required by elite SLDF formations and the Royal Brigades, the Royal variant incorporated upgraded Star League-grade systems throughout the airframe. First produced in 2721, it served alongside the standard Cyrano in SLDF inventories until the eventual loss of the Tigress production facility. Few examples survived the conflicts following the Star League's collapse, and the type has not been produced since the plant's destruction.</p>
+</overview>
 
 <deployment>
 <p>The Cyrano (Royal) served exclusively within SLDF elite formations and Royal Brigades in escort and patrol roles requiring the highest available gunship capability. Its enhanced systems made it the preferred choice for staff-level air escort and intelligence-gathering missions where the Beagle Active Probe's performance was operationally critical. Outside the SLDF, the type saw limited distribution among a small number of high-capability Successor State forces that had received Star League surplus. As surviving examples diminished through Succession Wars attrition, the Royal was progressively replaced by the standard Cyrano or other escort types. No production has resumed following the loss of the Tigress facility.</p>
@@ -163,4 +150,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Garret M250
 TARGETING:Sky Tracer WL
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

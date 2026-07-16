@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e813-7306-bd3b-30e5dfae7622
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Savior Repair Vehicle
 <year>
 3059
 </year>
-
-<originalBuildYear>
-3059
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -123,30 +123,13 @@ Small Laser
 3
 </engine_tech_rating>
 
-<source>
-TR:3145:Merc,TR:3150
-</source>
-
-<published>
-RS:3150,RSFP:SLDF3
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-11 12:59:54
-<overview>
-<p>The Savior Repair Vehicle is a tracked support platform developed by General Motors in 3059, entering service to meet the intensive maintenance demands of large-scale combined arms operations. Created as a complement to the Mobile Field Base, the Savior provides frontline units with the ability to recover and repair disabled BattleMechs and vehicles without withdrawing to rear-area depots. General Motors produces the type at their Kathil and Salem facilities, giving Federated Suns commands reliable access to the vehicle across multiple regions. Though modest in combat capability, the Savior earns its place in virtually every regimental logistics train through its unmatched contribution to operational tempo. Few commands that have deployed with the Savior in the field are willing to go without it.</p>
-</overview>
-
 <capabilities>
 <p>The Savior is powered by a GM Medium Industrial Fusion engine, providing a cruising speed of 43 kph and a maximum of 64 kph, sufficient to keep pace with most maneuver formations during redeployment. A Durallex Modified Heavy armor package protects the crew and onboard repair equipment against light fire and fragmentation, though the vehicle is not designed to absorb sustained combat. A single Magna Mk I Small Laser serves as a defensive measure against infantry and light vehicles. The Savior carries no targeting computer, with the crew relying on direct visual aim for any engagement, a compromise that reflects the vehicle's non-combat purpose.</p><p>The vehicle's core capability lies in its onboard salvage and repair systems, which allow trained technicians to recover disabled BattleMechs and vehicles and return them to operational status in the field. Cargo compartments are CASE-lined to protect against secondary explosions during transport of ammunition and salvaged components. The Savior doubles as a capable personnel and ammunition carrier when repair work is light, adding further flexibility to any logistics formation. The Garret Supremesound communications suite ensures reliable coordination with field commanders and dispersed repair crews across a wide operational area.</p>
 </capabilities>
+
+<overview>
+<p>The Savior Repair Vehicle is a tracked support platform developed by General Motors in 3059, entering service to meet the intensive maintenance demands of large-scale combined arms operations. Created as a complement to the Mobile Field Base, the Savior provides frontline units with the ability to recover and repair disabled BattleMechs and vehicles without withdrawing to rear-area depots. General Motors produces the type at their Kathil and Salem facilities, giving Federated Suns commands reliable access to the vehicle across multiple regions. Though modest in combat capability, the Savior earns its place in virtually every regimental logistics train through its unmatched contribution to operational tempo. Few commands that have deployed with the Savior in the field are willing to go without it.</p>
+</overview>
 
 <deployment>
 <p>The Savior entered service in 3059 and spread rapidly through Federated Suns logistics organizations following Operation Bulldog. General Motors produces the vehicle at their Kathil and Salem facilities, ensuring consistent availability to FedSuns and allied commands. The vehicle is most commonly found in support platoons assigned at the regiment level and above, positioned just behind the forward line to move up as engagements conclude. Extended offensive operations and multi-world campaigns create the highest demand, as these scenarios generate sustained equipment attrition that depot repair cycles cannot address quickly enough. The vehicle's secondary roles as an infantry transport and ammunition carrier provide additional utility, and mercenary commands operating far from Federated Suns logistical networks find the Savior particularly valuable for sustained independent operations.</p>
@@ -177,4 +160,20 @@ ENGINE:Medium Industrial Fusion
 ARMOR:Modified Heavy
 COMMUNICATIONS:Supremesound
 </systemModels>
+
+<source>
+TR:3145:Merc,TR:3150
+</source>
+
+<published>
+RS:3150,RSFP:SLDF3
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

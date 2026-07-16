@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e29c-762f-9274-753bb6064e76
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Hi-Scout Drone
 <year>
 3000
 </year>
-
-<originalBuildYear>
-3000
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -119,30 +119,13 @@ Manipulator (Non-Mech/Non-Battle Armor)
 5
 </engine_tech_rating>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-2.5
-</tonnage>
-
-<fuel>
-0.033
-</fuel>
-
-# Fluff Date: 2026-03-08 15:48:35
-<overview>
-<p>The Hi-Scout drones are remote-controlled reconnaissance vehicles produced by ScolTek Associates on Inarcs as integral components of the Hi-Scout Drone Carrier system. Introduced in 3000 for the Lyran Commonwealth Armed Forces, the drones were designed to extend the carrier's sensor network across a wide area without risking manned vehicles in hostile territory. Produced in two complementary variants, the hover-based NapFind and tracked PathTrak, these small unmanned platforms work in concert with their parent vehicle to create overlapping sensor chains capable of covering far more ground than the carrier alone. Though lightly built and essentially defenseless, the drones proved remarkably effective during the late Third Succession War, when sophisticated detection equipment was scarce across the Inner Sphere. ScolTek's design philosophy emphasized sensor capability and speed over durability, producing platforms that were expendable by intent but operationally invaluable to the commanders who employed them.</p>
-</overview>
-
 <capabilities>
 <p>Both drone types share a common remote control architecture linked to the Hi-Scout carrier's StealthMat-Q communications system with MultiTrack coordination. This allows the carrier crew to manage all six drones simultaneously across separate sensor channels. The drones relay their findings in real time, building a composite picture of the operational area that far exceeds what any single vehicle could achieve. The system's primary limitation is its vulnerability to high levels of background radiation, which can disrupt the MultiTrack coordination link and leave drones unable to communicate with their parent vehicle.</p><p>The NapFind is a two-ton hover platform built for speed, capable of rapidly covering open terrain to establish initial contact with enemy forces. Its sensor package includes infrared, seismic, sound, and motion detection. The PathTrak is a heavier three-ton tracked platform with a more comprehensive sensor loadout, including the ability to intercept enemy radio transmissions, making it the primary intelligence-gathering element in the drone chain. Both variants carry minimal armor protection, sufficient only to shield their electronics from environmental hazards rather than hostile fire. Neither drone mounts weapons capable of engaging enemy combat units, and both rely entirely on speed, small size, and the disposable nature of unmanned platforms to survive on the battlefield.</p>
 </capabilities>
+
+<overview>
+<p>The Hi-Scout drones are remote-controlled reconnaissance vehicles produced by ScolTek Associates on Inarcs as integral components of the Hi-Scout Drone Carrier system. Introduced in 3000 for the Lyran Commonwealth Armed Forces, the drones were designed to extend the carrier's sensor network across a wide area without risking manned vehicles in hostile territory. Produced in two complementary variants, the hover-based NapFind and tracked PathTrak, these small unmanned platforms work in concert with their parent vehicle to create overlapping sensor chains capable of covering far more ground than the carrier alone. Though lightly built and essentially defenseless, the drones proved remarkably effective during the late Third Succession War, when sophisticated detection equipment was scarce across the Inner Sphere. ScolTek's design philosophy emphasized sensor capability and speed over durability, producing platforms that were expendable by intent but operationally invaluable to the commanders who employed them.</p>
+</overview>
 
 <deployment>
 <p>The NapFind is a two-ton hover drone designed for rapid area coverage. Employing a fuel cell engine and an advanced venturi-disk skirtless hover system, it achieves speeds approaching 250 kilometers per hour, allowing it to quickly sweep large areas and report contacts back to the carrier. The NapFind operates at ranges of thirty to fifty kilometers from its parent vehicle, using intermediary drones as relay stations when working at extended distances. Its sensor range of approximately ten kilometers is shorter than the PathTrak's, but the NapFind's speed allows it to cover proportionally more ground in the same time. Armed only with a pair of manipulators used primarily for demolitions work or hazmat handling, the NapFind has no combat capability and relies entirely on speed and its small profile to avoid engagement.</p>
@@ -175,4 +158,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+2.5
+</tonnage>
+
+<fuel>
+0.033
+</fuel>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a9ad-7563-ba0e-355825b7480f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Clan Interface Armor
 <year>
 3083
 </year>
-
-<originalBuildYear>
-3083
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Experimental
@@ -80,42 +80,14 @@ BABattleMechNIU
 
 <Trooper 1 Equipment>
 </Trooper 1 Equipment>
-<source>
-XTR:RotS 3
-</source>
-
-<published>
-XTR:RotS 3
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-1
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Clan Interface Armor is a Clan-developed adaptation of captured Word of Blake neural-interface technology. Originating with Clan Hell's Horses in the early 3080s, this experimental light power armor suit allows a single trooper to control both the armor and a compatible BattleMech through direct neural linkage. The design merges Clan neural implant technology with interface cockpit integration, producing a mixed-technology system that alarmed Republic intelligence analysts when confirmed. Multiple Clans gained access through Trials and trade networks.</p>
-</overview>
 
 <capabilities>
 <p>At 200 kilograms, the Clan Interface Armor weighs half as much as the Word of Blake original while retaining the core neural-interface functionality. The suit carries a Neural-Interface Unit that connects to the trooper's Enhanced Imaging implants, enabling direct control of both the armor and a modified BattleMech cockpit. This mixed Clan and Inner Sphere technology base reflects the design's dual heritage.</p><p>The lighter weight carries significant trade-offs. Standard armor protection totals only 50 kilograms, providing minimal ballistic defense even by light power armor standards. Modular mission equipment slots in both arms offer some tactical flexibility, supplemented by anti-personnel weapon mounts and armored gloves. Like its predecessor, the suit is restricted to ground movement with no jump capability. Non-standard construction and experimental classification reflect the challenges of integrating two distinct neural-interface philosophies into a single functional system.</p>
 </capabilities>
+
+<overview>
+<p>The Clan Interface Armor is a Clan-developed adaptation of captured Word of Blake neural-interface technology. Originating with Clan Hell's Horses in the early 3080s, this experimental light power armor suit allows a single trooper to control both the armor and a compatible BattleMech through direct neural linkage. The design merges Clan neural implant technology with interface cockpit integration, producing a mixed-technology system that alarmed Republic intelligence analysts when confirmed. Multiple Clans gained access through Trials and trade networks.</p>
+</overview>
 
 <deployment>
 <p>Operated as a single-trooper system, each Clan Interface Armor suit pairs with a BattleMech fitted with a modified cockpit. The best documented engagement involved a Clan Wolf warrior on Kalidasa who, after being ejected from a destroyed BattleMech, used the suit's own armament to kill several ground troops before escaping. This demonstrated that interface-equipped warriors retained combat effectiveness even outside their machines.</p>
@@ -148,4 +120,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RotS 3
+</source>
+
+<published>
+XTR:RotS 3
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+1
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

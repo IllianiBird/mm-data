@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea56-742c-a493-baef3f46c7b9
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -31,10 +35,6 @@ Giant Guardian
 <year>
 2732
 </year>
-
-<originalBuildYear>
-2732
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -99,19 +99,6 @@ PPC
 LRM 5
 </Turret Equipment>
 
-<source>
-Shrap21
-</source>
-
-<published>
-ShrapRS
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 18:51:33
 <overview>
 <p>The Giant Guardian is the heaviest element of Ulsop Robotics' Main Guardian Defense System, a commercial drone tank network developed in 2732 for planetary governments without access to dedicated Space Defense Systems. Weighing eighty tons on a wheeled chassis, the Giant Guardian serves as the long-range fire support anchor of the Guardian network, designed to engage threats at distance while lighter Guardian drones screen approaches and direct enemy forces into its weapons envelope. Its role in the system is to provide deterrent firepower capable of threatening even heavily armored targets, complementing the medium and light drone tiers that operate alongside it. As with all Guardian variants, it operates without a crew, coordinating its actions through the Ulsop Autonomous Tactical Analysis Computer and its associated control infrastructure. The Giant Guardian represents the pinnacle of Ulsop's drone tank design philosophy: maximum firepower delivered without risk to personnel.</p>
 </overview>
@@ -145,4 +132,16 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+Shrap21
+</source>
+
+<published>
+ShrapRS
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0ec-7a27-ad74-6a4fe3a3502f
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Delphyne
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -122,34 +122,13 @@ CLMicroPulseLaser
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-9.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Delphyne is a nine-ton second-generation ProtoMek developed jointly by Clan Blood Spirit and Clan Fire Mandrill, bearing the aesthetic hallmarks of a dragon in its aggressive visual profile. One of the heaviest standard ProtoMek designs in service, the Delphyne carries firepower sufficient to challenge some Inner Sphere Meks in single combat. The design benefited from lessons learned from the mistakes of the similarly-massed Minotaur, and the Delphyne has rewarded its creators with performance superior to that of its first-generation counterpart across nearly every measurable metric.</p>
-</overview>
-
 <capabilities>
 <p>The Delphyne's centerpiece is a mouth-mounted Medium Pulse Laser, a weapon system that provides reliable accuracy and solid damage output against targets across a broad range envelope. While not individually terrifying, a full Point of five Delphynes puts five Medium Pulse Lasers on target, easily sufficient to destroy lighter Meks and overwhelm most other ProtoMek designs. A seventy-five-rated fusion engine drives the nine-ton frame to nearly ninety kilometers per hour at flank speed, allowing the Delphyne to pace most Clan heavy Meks and outrun any assault design. Five jump jets provide one hundred fifty meters of leaping distance, giving the heavy design exceptional terrain mobility.</p><p>Over two tons of armor at forty-two points provide excellent protection by ProtoMek standards, sufficient to survive even a Gauss rifle hit to the torso without penetrating the internal structure. The all-energy weapons configuration eliminates ammunition dependency entirely, allowing the Delphyne to maintain continuous combat operations without resupply concerns. Four heat sinks manage the Medium Pulse Laser's thermal output effectively. The combination of speed, jump capability, armor protection, and reliable firepower makes the Delphyne one of the most well-rounded ProtoMek designs ever produced, capable of filling multiple tactical roles without significant compromise in any single area.</p>
 </capabilities>
+
+<overview>
+<p>The Delphyne is a nine-ton second-generation ProtoMek developed jointly by Clan Blood Spirit and Clan Fire Mandrill, bearing the aesthetic hallmarks of a dragon in its aggressive visual profile. One of the heaviest standard ProtoMek designs in service, the Delphyne carries firepower sufficient to challenge some Inner Sphere Meks in single combat. The design benefited from lessons learned from the mistakes of the similarly-massed Minotaur, and the Delphyne has rewarded its creators with performance superior to that of its first-generation counterpart across nearly every measurable metric.</p>
+</overview>
 
 <deployment>
 <p>The Delphyne 3 is not a purpose-built variant but rather a Coyote modification of captured base-model Delphynes. Coyote technicians replace the Medium Pulse Laser with an ER Medium Laser in the torso and add a right-arm Micro Pulse Laser. The ER Medium Laser provides longer effective range than the original pulse weapon, while the Micro Pulse Laser supplements close-range damage output. Armor matches the base model at forty-two points, and the jump jet configuration remains unchanged. These modified Delphynes frequently serve as command machines for Coyote Procyon Points, their superior firepower anchoring formations of lighter five-ton ProtoMeks that would otherwise lack heavy hitting capability.</p>
@@ -182,4 +161,16 @@ ENGINE:75
 ARMOR:5
 TARGETING:5
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+9.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a759-71af-98da-2af24eef9399
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Simian Battle Armor
 <year>
 3135
 </year>
-
-<originalBuildYear>
-3135
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -93,42 +93,14 @@ BASearchlight:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:RotS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Simian is a medium-class Inner Sphere battle armor designed for mass production and easy maintenance. Conceived under a Republic of the Sphere program to reduce the rising cost of powered infantry, the suit prioritizes affordability and field serviceability over technological sophistication. Rhodes Foundry of Devil's Rock brought the design into production in 3135, creating a general-purpose combat suit built entirely from standard Inner Sphere components. Jump-capable and equipped with magnetic claws for anti-vehicle operations, the Simian fills a skirmisher role, relying on speed and agility rather than heavy armor to protect its operators. A modular weapon mount allows field-level customization of the primary armament.</p>
-</overview>
 
 <capabilities>
 <p>Fitted with a Light Recoilless Rifle on its modular weapon mount, this configuration gives the Simian a ballistic option with better range than the standard energy loadout. The rifle provides reasonable hitting power against soft targets, though its ammunition dependency limits sustained operations. Magnetic claws on both arms remain available for close-quarters combat and anti-vehicle swarming attacks, with a searchlight completing the equipment fit.</p><p>The suit's 350 kilograms of standard armor offer moderate protection at one thousand kilograms total weight, keeping the design within the medium class. Ground speed and 90-meter jump capability exceed most comparable battle armor designs, allowing troopers to use terrain and mobility to offset the armor's limitations. The recoilless rifle configuration favors engagements at medium range, where operators can pick targets from cover before closing or withdrawing as the tactical situation demands.</p>
 </capabilities>
+
+<overview>
+<p>The Simian is a medium-class Inner Sphere battle armor designed for mass production and easy maintenance. Conceived under a Republic of the Sphere program to reduce the rising cost of powered infantry, the suit prioritizes affordability and field serviceability over technological sophistication. Rhodes Foundry of Devil's Rock brought the design into production in 3135, creating a general-purpose combat suit built entirely from standard Inner Sphere components. Jump-capable and equipped with magnetic claws for anti-vehicle operations, the Simian fills a skirmisher role, relying on speed and agility rather than heavy armor to protect its operators. A modular weapon mount allows field-level customization of the primary armament.</p>
+</overview>
 
 <deployment>
 <p>Clan forces organizing Simian troopers into five-member Points found the Light Recoilless Rifle configuration useful for supplementing heavier assets during garrison operations. The Point structure allowed for coordinated volley fire that compensated for the rifle's modest individual hitting power. Clan warriors assigned to these units often treated them as auxiliary screening forces rather than front-line combat elements.</p>
@@ -163,4 +135,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:RotS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

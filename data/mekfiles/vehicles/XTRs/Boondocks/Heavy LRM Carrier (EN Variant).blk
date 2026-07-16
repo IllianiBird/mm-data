@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ebbe-7798-82ed-9fe261b33d0e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Heavy LRM Carrier
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -109,26 +109,13 @@ Extended LRM 15
 Extended LRM 15
 </Turret Equipment>
 
-<source>
-XTR:Boondocks
-</source>
-
-<published>
-XTR:Boondocks
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 19:27:01
-<overview>
-<p>The Heavy LRM Carrier is an eighty-ton tracked combat vehicle developed by Majesty Metals and Manufacturing for the Magistracy of Canopus. Introduced in 3058 as a heavier counterpart to the standard LRM Carrier, the design sacrificed speed for increased firepower, armor protection, and a turret-mounted weapon configuration. Paired with the Taurian Concordat's Light SRM Carrier as part of a cross-Periphery sales campaign, the Heavy LRM Carrier represented the Canopian ambition to develop indigenous military hardware competitive with Inner Sphere designs.</p>
-</overview>
-
 <capabilities>
 <p>The EN Variant replaces the standard Delta Dart launchers with a mixed battery of two Enhanced LRM-15 and two Extended LRM-15 launchers, providing complementary engagement ranges. A 160-rated extralight fusion engine maintains the same thirty-two kilometer per hour top speed while freeing tonnage for hardened armor plating that provides exceptional resistance to ballistic weapons.</p><p>The hardened armor makes the EN Variant substantially more survivable than the original Heavy LRM Carrier, capable of withstanding heavy PPC strikes on any facing. The experimental nature of the enhanced and extended-range missiles results in reduced ammunition capacity compared to standard launchers, and the prototype status limits production volume.</p>
 </capabilities>
+
+<overview>
+<p>The Heavy LRM Carrier is an eighty-ton tracked combat vehicle developed by Majesty Metals and Manufacturing for the Magistracy of Canopus. Introduced in 3058 as a heavier counterpart to the standard LRM Carrier, the design sacrificed speed for increased firepower, armor protection, and a turret-mounted weapon configuration. Paired with the Taurian Concordat's Light SRM Carrier as part of a cross-Periphery sales campaign, the Heavy LRM Carrier represented the Canopian ambition to develop indigenous military hardware competitive with Inner Sphere designs.</p>
+</overview>
 
 <deployment>
 <p>The EN Variant was produced at Johnston Industries' Mobile Fabrication Facility A on Lackland beginning in 3073. Just under two lances of completed vehicles were shipped to the Pleiades worlds for extensive field testing during the Jihad. The experimental production facility's unpredictable output rate limited deployment numbers.</p>
@@ -157,4 +144,16 @@ TARGETING:Unknown
 ENGINE:160 XL Fusion
 ARMOR:Hardened
 </systemModels>
+
+<source>
+XTR:Boondocks
+</source>
+
+<published>
+XTR:Boondocks
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

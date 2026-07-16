@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a6bb-73fd-88a1-91c178f80bcc
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Grenadier Battle Armor
 <year>
 3123
 </year>
-
-<originalBuildYear>
-3123
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -92,42 +92,14 @@ IS BA Stealth (Standard):Body
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Grenadier is an assault-weight Inner Sphere battlesuit developed by the Hahm-Heinze Design Bureau for the Armed Forces of the Federated Suns. Designed to mount the heaviest weapon systems possible on a single suit frame, the Grenadier prioritized raw firepower over mobility or protection. The suit carries a fixed missile launcher, a modular weapon mount accommodating a range of battlefield roles, and an anti-personnel station for close-range defense. Standard stealth armor provides electronic signature reduction, though total protection is modest for the weight class. At two thousand kilograms, the Grenadier is too heavy for OmniMech transport, restricting deployment to ground-based insertion methods.</p>
-</overview>
 
 <capabilities>
 <p>Pairing a Magshot gauss rifle with a small variable speed pulse laser, this Hunter-Killer configuration delivers accurate, sustained firepower across a range of engagement distances. The variable speed pulse laser adjusts its pulse rate to optimize accuracy against targets at different speeds, making it effective against fast-moving vehicles and infantry alike. The Magshot provides precise kinetic strikes at medium range, while the Firedrake support needler covers close-range anti-personnel work. The combination of energy and ballistic weapons reduces ammunition dependency compared to purely projectile-based loadouts, giving troopers better endurance in extended operations. The configuration lacks missile armament entirely, trading the explosive punch of other Hunter-Killer variants for consistent accuracy and sustained damage output across multiple engagement types.</p>
 </capabilities>
+
+<overview>
+<p>The Grenadier is an assault-weight Inner Sphere battlesuit developed by the Hahm-Heinze Design Bureau for the Armed Forces of the Federated Suns. Designed to mount the heaviest weapon systems possible on a single suit frame, the Grenadier prioritized raw firepower over mobility or protection. The suit carries a fixed missile launcher, a modular weapon mount accommodating a range of battlefield roles, and an anti-personnel station for close-range defense. Standard stealth armor provides electronic signature reduction, though total protection is modest for the weight class. At two thousand kilograms, the Grenadier is too heavy for OmniMech transport, restricting deployment to ground-based insertion methods.</p>
+</overview>
 
 <deployment>
 <p>Reinforced six-trooper squads carrying the pulse laser and Magshot combination are uncommon, fielded primarily by AFFS garrison commands concerned with sustained defensive capability. The Kilbourne PDZ militia organized oversized squads of this configuration for perimeter defense operations, where the energy weapon's endurance advantage over purely ammunition-dependent loadouts allowed troopers to maintain continuous fire during prolonged sieges without the resupply requirements that would have strained the militia's limited logistics chain.</p>
@@ -160,4 +132,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<published>
+RS:3145-NTNU
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

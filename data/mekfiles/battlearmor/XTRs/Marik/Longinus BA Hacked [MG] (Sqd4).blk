@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a95b-7a05-9457-9a3bf29393f3
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Longinus Battle Armor
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -92,42 +92,14 @@ IS BA Advanced:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Marik
-</source>
-
-<published>
-XTR:Marik
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Longinus was the Free Worlds League's answer to the Clan Elemental battle armor, developed jointly with the Word of Blake beginning in 3054. Classified as a medium battle armor, the suit came closer to matching its Clan-tech inspiration than any other Inner Sphere design of the era. The FWL's alliance with the Blakists provided access to technologies that rival programs in other Great Houses lacked. First fielded in 3057, the Longinus earned a reputation as both capable and expensive, with production costs well above comparable Inner Sphere designs.</p>
-</overview>
 
 <capabilities>
 <p>The Machine Gun variant of the "Hacked" Longinus shares the same stripped-down chassis designed to carry the experimental C³i system. Armor is reduced to 240 kilograms, jump range drops to sixty meters, and the detachable SRM launcher is eliminated. A light machine gun occupies the right-arm modular mount, offering sustained anti-infantry fire but limited effectiveness against armored targets. The battle claw and anti-personnel weapon mount on the left arm remain standard. Like the David-armed variant, the MG configuration's primary value lies in the C³i network relay capability rather than direct combat power. Troopers can feed targeting data to heavier C³-equipped units from positions that BattleMechs and vehicles cannot reach. The reduced armor makes these suits considerably more fragile than a standard Longinus squad, and trial deployments confirmed that the trade-offs were too severe for continued development.</p>
 </capabilities>
+
+<overview>
+<p>The Longinus was the Free Worlds League's answer to the Clan Elemental battle armor, developed jointly with the Word of Blake beginning in 3054. Classified as a medium battle armor, the suit came closer to matching its Clan-tech inspiration than any other Inner Sphere design of the era. The FWL's alliance with the Blakists provided access to technologies that rival programs in other Great Houses lacked. First fielded in 3057, the Longinus earned a reputation as both capable and expensive, with production costs well above comparable Inner Sphere designs.</p>
+</overview>
 
 <deployment>
 <p>Machine gun-armed "Hacked" Longinus suits were tested alongside the David variant in Regulan four-trooper squads. The MG configuration offered suppressive fire capability for squads acting as forward sensor nodes, though the reduced armor left troopers dangerously exposed when operating within machine gun range. Trial deployments confirmed the design's limitations, and all test units were reportedly withdrawn from service.</p>
@@ -162,4 +134,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Marik
+</source>
+
+<published>
+XTR:Marik
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

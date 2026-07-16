@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9f9-7f0a-8803-748729bef334
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ C
 <year>
 3106
 </year>
-
-<originalBuildYear>
-3106
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -116,37 +116,13 @@ CLSRM6
 CLSRM6
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG30
-</source>
-
-<published>
-RG30,RSFP:Battlefield
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The SRM Carrier is a sixty-ton tracked combat vehicle built to deliver devastating short-range missile barrages at minimal cost. Developed by the Quikscell Company as a close-range counterpart to the LRM Carrier, the modern production model entered service around 2470, though its primitive ancestors date back to the Age of War in the 2440s. Manufactured by virtually every major military supplier across the Inner Sphere, the SRM Carrier provides cheap, expendable close-range fire support capable of crippling even assault-weight targets in a single volley. Its reputation as a disposable asset masks the genuine tactical threat posed by massed SRM carriers operating in coordinated ambush positions.</p>
-</overview>
-
 <capabilities>
 <p>The SRM Carrier C mounts its ten SRM-6 launchers in a partial-traverse turret, vastly expanding the vehicle's ability to engage targets from multiple angles without repositioning. An upgraded 240-rated internal combustion engine increases ground speed to approximately forty-three kilometers per hour, a marked improvement over the base variant's thirty-six.</p><p>Hardened armor provides robust protection particularly effective against the Elemental swarms common in Clan warfare. The launchers accept Clan-specification ammunition for increased per-missile damage. Like its LRM counterpart, the semi-modular turret allows quick weapon swaps and rapid field repairs, making the variant attractive to mercenary commands.</p>
 </capabilities>
+
+<overview>
+<p>The SRM Carrier is a sixty-ton tracked combat vehicle built to deliver devastating short-range missile barrages at minimal cost. Developed by the Quikscell Company as a close-range counterpart to the LRM Carrier, the modern production model entered service around 2470, though its primitive ancestors date back to the Age of War in the 2440s. Manufactured by virtually every major military supplier across the Inner Sphere, the SRM Carrier provides cheap, expendable close-range fire support capable of crippling even assault-weight targets in a single volley. Its reputation as a disposable asset masks the genuine tactical threat posed by massed SRM carriers operating in coordinated ambush positions.</p>
+</overview>
 
 <deployment>
 <p>Joint Equipment Systems developed the SRM Carrier C for the Rasalhague Dominion, with additional production at Quikscell plants on Kalidasa and Pandora. Other Clans rapidly trialed for or copied the hardened armor innovation, and mercenary commands have embraced the semi-modular turret design for its field maintenance advantages.</p>
@@ -175,4 +151,20 @@ TARGETING:Unknown
 ENGINE:240 ICE
 ARMOR:Heavy Ferro-Fibrous (Clan)
 </systemModels>
+
+<source>
+RG30
+</source>
+
+<published>
+RG30,RSFP:Battlefield
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

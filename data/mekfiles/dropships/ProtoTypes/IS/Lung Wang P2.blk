@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aaa5-799c-a5d8-a1e3fb15ec5c
+</UUID>
+
 <UnitType>
 Dropship
 </UnitType>
@@ -35,10 +39,6 @@ P2
 <year>
 3082
 </year>
-
-<originalBuildYear>
-3082
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -162,12 +162,45 @@ ISArtemisIV
 15
 </structural_integrity>
 
+<capabilities>
+<p>The P2 variant standardizes the Predator refit's sub-capital weapons for series production. The nose carries three sub-capital laser/3 systems, three Extended LRM-20 launchers, an ER PPC, two large pulse lasers, and a medium pulse laser. Each side mounts two LB 10-X autocannons, an ER large laser, two medium lasers, an ER PPC, and a medium pulse laser. The aft arc matches the original Lung Wang's configuration with an ER large laser, two medium lasers, an LRM-20 with Artemis IV, a large pulse laser, and an SRM-6 with Artemis IV. One hundred double heat sinks manage the thermal load. Transport capacity includes two aerospace fighters, two infantry bays, and roughly 59 tons of cargo. The design carries the quirks of atmospheric instability and a weak undercarriage but benefits from improved communications systems.</p>
+</capabilities>
 
+<overview>
+<p>The Lung Wang is a 2,600-ton Spheroid assault transport conceived as a raider capable of operating independently of support while engaging any non-Clan opponent on equal terms. Introduced in 3055, the design was commissioned to fulfill specifications demanding a fast, well-armed vessel that could carry a light raiding party of BattleMechs and aerospace fighters deep into hostile territory.</p><p>Built around a powerful new drive system that consumes almost a third of the vessel's mass, the Lung Wang delivers impressive speed for its tonnage class. Combined with formidable forward-facing firepower and adequate transport capacity, the design has proven itself an effective tool for aggressive raiding operations and has earned a reputation as one of the most capable assault transports produced during the post-Clan Invasion era.</p>
+</overview>
 
+<deployment>
+<p>The P2 became the Capellan Confederation's standard assault DropShip by 3090, replacing both the original Lung Wang and serving as the production evolution of the Predator refit concept. These vessels form the backbone of Capellan planetary assault capabilities in the post-Jihad era, deploying sub-capital weapons that give them credible anti-WarShip capability.</p>
+</deployment>
 
+<history>
+<p>The Lung Wang emerged from the Rashpur-Owens Incorporated yards at Capella in 3055, having been conceived during the early days of Chancellor Sun-Tzu Liao's reign. The prototype first maneuvered under its own power in March 3055, and by September extensive system tests had been completed. Rather than assign the vessel to routine patrol duty for its evaluation, Capellan leadership committed it to a live combat raid against a Federated Commonwealth target.</p><p>The raid occurred on November 19, 3055, near the planet Lee. A Capellan flotilla including the prototype engaged a Federated Commonwealth defense force in orbit. The Lung Wang faced an enemy assault craft in a pitched slugging match, and despite sustaining heavy damage, the new Capellan vessel emerged victorious. The engagement demonstrated that the Capellan Confederation could produce front-line assault vessels competitive with established designs, and production was stepped up to meet both domestic needs and export sales to allied states.</p><p>Following the Jihad, Rashpur-Owens refitted a decorated vessel with experimental systems including sub-capital weaponry, creating the Predator configuration. The lessons learned from this refit informed the development of the P2 variant, which became the Capellan Confederation's standard assault DropShip by 3090. The P2 standardized the sub-capital weapon systems while removing experimental equipment, providing a reliable production model for the post-Jihad era.</p>
+</history>
 
+<manufacturer>
+Rashpur-Owens Inc.
+</manufacturer>
 
+<primaryFactory>
+Capella
+</primaryFactory>
 
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<systemModels>
+CHASSIS:Unknown
+ENGINE:Xevec-19
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemModels>
 
 <use>
 Assault Ship
@@ -236,45 +269,4 @@ RS:Proto
 <escape_pod>
 4
 </escape_pod>
-
-# Fluff Date: 2026-02-28 15:44:34
-<overview>
-<p>The Lung Wang is a 2,600-ton Spheroid assault transport conceived as a raider capable of operating independently of support while engaging any non-Clan opponent on equal terms. Introduced in 3055, the design was commissioned to fulfill specifications demanding a fast, well-armed vessel that could carry a light raiding party of BattleMechs and aerospace fighters deep into hostile territory.</p><p>Built around a powerful new drive system that consumes almost a third of the vessel's mass, the Lung Wang delivers impressive speed for its tonnage class. Combined with formidable forward-facing firepower and adequate transport capacity, the design has proven itself an effective tool for aggressive raiding operations and has earned a reputation as one of the most capable assault transports produced during the post-Clan Invasion era.</p>
-</overview>
-
-<capabilities>
-<p>The P2 variant standardizes the Predator refit's sub-capital weapons for series production. The nose carries three sub-capital laser/3 systems, three Extended LRM-20 launchers, an ER PPC, two large pulse lasers, and a medium pulse laser. Each side mounts two LB 10-X autocannons, an ER large laser, two medium lasers, an ER PPC, and a medium pulse laser. The aft arc matches the original Lung Wang's configuration with an ER large laser, two medium lasers, an LRM-20 with Artemis IV, a large pulse laser, and an SRM-6 with Artemis IV. One hundred double heat sinks manage the thermal load. Transport capacity includes two aerospace fighters, two infantry bays, and roughly 59 tons of cargo. The design carries the quirks of atmospheric instability and a weak undercarriage but benefits from improved communications systems.</p>
-</capabilities>
-
-<deployment>
-<p>The P2 became the Capellan Confederation's standard assault DropShip by 3090, replacing both the original Lung Wang and serving as the production evolution of the Predator refit concept. These vessels form the backbone of Capellan planetary assault capabilities in the post-Jihad era, deploying sub-capital weapons that give them credible anti-WarShip capability.</p>
-</deployment>
-
-<history>
-<p>The Lung Wang emerged from the Rashpur-Owens Incorporated yards at Capella in 3055, having been conceived during the early days of Chancellor Sun-Tzu Liao's reign. The prototype first maneuvered under its own power in March 3055, and by September extensive system tests had been completed. Rather than assign the vessel to routine patrol duty for its evaluation, Capellan leadership committed it to a live combat raid against a Federated Commonwealth target.</p><p>The raid occurred on November 19, 3055, near the planet Lee. A Capellan flotilla including the prototype engaged a Federated Commonwealth defense force in orbit. The Lung Wang faced an enemy assault craft in a pitched slugging match, and despite sustaining heavy damage, the new Capellan vessel emerged victorious. The engagement demonstrated that the Capellan Confederation could produce front-line assault vessels competitive with established designs, and production was stepped up to meet both domestic needs and export sales to allied states.</p><p>Following the Jihad, Rashpur-Owens refitted a decorated vessel with experimental systems including sub-capital weaponry, creating the Predator configuration. The lessons learned from this refit informed the development of the P2 variant, which became the Capellan Confederation's standard assault DropShip by 3090. The P2 standardized the sub-capital weapon systems while removing experimental equipment, providing a reliable production model for the post-Jihad era.</p>
-</history>
-
-<manufacturer>
-Rashpur-Owens Inc.
-</manufacturer>
-
-<primaryFactory>
-Capella
-</primaryFactory>
-
-<systemManufacturers>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemManufacturers>
-
-<systemModels>
-CHASSIS:Unknown
-ENGINE:Xevec-19
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemModels>
 

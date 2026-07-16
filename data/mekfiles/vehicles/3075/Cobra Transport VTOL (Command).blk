@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5ca-7e2e-9d7b-c64937d4c82e
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Cobra Transport VTOL
 <year>
 2622
 </year>
-
-<originalBuildYear>
-2622
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -113,26 +113,13 @@ ISAntiMissileSystem
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 14:19:26
-<overview>
-<p>The Cobra Transport VTOL is a Star League-era military transport developed by Aldis Industries on Terra and introduced in 2582. Commissioned by the Star League Defense Force to update its logistics arm with modern equipment, the design drew direct inspiration from the Hegemony Armed Forces' earlier Cobra VTOL, translating the proven tilt-rotor concept into a contemporary production standard while retaining the original design's emphasis on cargo capacity and operational flexibility. A versatile thirty-ton VTOL, the Cobra Transport VTOL performed the full range of battlefield and rear-area logistics tasks expected of an SLDF transport, from direct-delivery resupply to specialized command and medical support. Though it entered service without fanfare, the design proved durable enough to outlast both its original operators and the state that commissioned it, remaining in production through successive eras under a series of owners on its homeworld of Terra.</p>
-</overview>
-
 <capabilities>
 <p>The Cobra Transport VTOL brings standard Inner Sphere technology to the transport mission, with a fusion engine providing reliable power for extended operations and improved performance relative to the original primitive Cobra design. The vehicle retains the spacious cargo hold and multi-role adaptability of its predecessor, with internal capacity sufficient for meaningful battlefield logistics work and configurable fittings that allow rapid reconfiguration between transport, command, and medical support roles without specialist facilities.</p><p>A suite of standard communications and targeting electronics supports crew situational awareness during contested operations, while the vehicle's overall configuration emphasizes crew survivability and system reliability over combat performance. Defensive armament provides credible protection against light infantry threats, though the Cobra Transport VTOL is not designed to sustain direct combat and relies primarily on speed, terrain, and escort for survival in contested environments. The design's practical strength lies in operational flexibility: the same basic airframe serves as a troop carrier, command node, or mobile surgical platform depending on variant configuration, making it a cost-effective investment for logistics formations requiring capability across multiple roles without maintaining separate vehicle fleets.</p>
 </capabilities>
+
+<overview>
+<p>The Cobra Transport VTOL is a Star League-era military transport developed by Aldis Industries on Terra and introduced in 2582. Commissioned by the Star League Defense Force to update its logistics arm with modern equipment, the design drew direct inspiration from the Hegemony Armed Forces' earlier Cobra VTOL, translating the proven tilt-rotor concept into a contemporary production standard while retaining the original design's emphasis on cargo capacity and operational flexibility. A versatile thirty-ton VTOL, the Cobra Transport VTOL performed the full range of battlefield and rear-area logistics tasks expected of an SLDF transport, from direct-delivery resupply to specialized command and medical support. Though it entered service without fanfare, the design proved durable enough to outlast both its original operators and the state that commissioned it, remaining in production through successive eras under a series of owners on its homeworld of Terra.</p>
+</overview>
 
 <deployment>
 <p>The Command configuration adapts the standard Cobra Transport VTOL with enhanced communications equipment and command staff accommodations, trading a portion of internal cargo space for improved command and control capability. Introduced in 2622, the Command variant serves as a mobile operations center for battalion and regimental-level commanders requiring airborne coordination during active engagements. The configuration includes additional communications consoles and a small planning space for staff officers to manage ongoing operations from overhead positions.</p>
@@ -167,4 +154,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

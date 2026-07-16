@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a4f9-7fc1-84a3-d2093a29a75b
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Angerona Scout Suit
 <year>
 3085
 </year>
-
-<originalBuildYear>
-3085
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -90,42 +90,14 @@ ISBARemoteSensorDispenser:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Angerona Scout Suit is a medium-class battle armor design produced by StarCorps Industries on Terra for the Republic of the Sphere's Armed Forces. Entering service in 3083, the suit was purpose-built as a stealthy ground scout, offering its operators the ability to remain concealed while on the move. The Angerona earned a strong reputation among frontline formations for its effectiveness in forward reconnaissance operations deep in hostile territory, and it quickly became one of the Republic's most requested battle armor platforms.</p>
-</overview>
 
 <capabilities>
 <p>The Recon configuration strips the Angerona down to a pure sensor platform. The Light Recoilless Rifle is removed entirely, replaced by Improved Sensors and a Remote Sensor Dispenser that allow troopers to seed an area with passive monitoring devices while remaining concealed. A Light Machine Gun fitted to the left arm's Anti-Personnel mount provides minimal self-defense capability.</p><p>Armored Gloves replace the standard suit's basic manipulators, giving troopers the flexibility to carry conventional infantry weapons and specialized mission equipment when the situation demands. The camouflage system and Improved Stealth Armor carry over from the base configuration, preserving the Angerona's signature ability to move undetected. The Recon variant sacrifices nearly all offensive firepower for expanded battlefield awareness, making it highly dependent on friendly forces for protection. Troopers operating in the Recon configuration typically work ahead of the main body, planting sensors along likely avenues of approach before withdrawing to safer positions.</p>
 </capabilities>
+
+<overview>
+<p>The Angerona Scout Suit is a medium-class battle armor design produced by StarCorps Industries on Terra for the Republic of the Sphere's Armed Forces. Entering service in 3083, the suit was purpose-built as a stealthy ground scout, offering its operators the ability to remain concealed while on the move. The Angerona earned a strong reputation among frontline formations for its effectiveness in forward reconnaissance operations deep in hostile territory, and it quickly became one of the Republic's most requested battle armor platforms.</p>
+</overview>
 
 <deployment>
 <p>Republic four-trooper squads equipped with the Recon configuration operated as dedicated sensor teams, typically attached to battalion or regimental intelligence sections. These squads deployed ahead of advancing forces to establish sensor networks along projected enemy movement corridors, feeding real-time data back to field headquarters.</p>
@@ -158,4 +130,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

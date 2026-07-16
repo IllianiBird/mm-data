@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e118-7dbf-865a-bf10c4b8de89
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Svartalfa
 <year>
 3083
 </year>
-
-<originalBuildYear>
-3083
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -123,30 +123,13 @@ CLLRM15
 CLLRM15
 </Main Gun Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:Proto
-</source>
-
-<tonnage>
-14.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Svartalfa is a fourteen-ton ultraheavy ProtoMek developed by Clan Hell's Horses, representing a radical leap in ProtoMek design philosophy. Initially mistaken for a light or ultralight LAM by intelligence analysts due to its flight capability, the Svartalfa is in fact an enormous ProtoMek equipped with a wing-in-ground effect gliding system that allows limited low-altitude flight at speeds exceeding sixty kilometers per hour. At half again the mass of any previously known ProtoMek, the Svartalfa mounts more armor than most twenty-ton BattleMeks and carries a weapons suite that can challenge medium Meks in direct combat. The design's existence was first revealed when Clan Wolf became an unwitting live-fire test subject, and the Wolves struggled to understand what they were facing: too small to be a Mek, but far too tough to be battle armor or any known ProtoMek.</p>
-</overview>
-
 <capabilities>
 <p>The Svartalfa's most distinctive feature is its wing-in-ground effect gliding system. While incapable of true flight or transformation like a Land-Air Mek, the Svartalfa uses deployable wings to glide just above the ground surface at cruising speeds of forty-three kilometers per hour, with a flank speed approaching sixty-five. On foot, the massive ProtoMek moves at a crawl barely exceeding ten kilometers per hour, making the gliding mode essential for tactical maneuvering. The wings fold compactly for ground operations and transport, and their robust construction allows them to absorb weapons fire without significantly degrading gliding performance.</p><p>The Svartalfa's weapons suite punches well above its weight class. Twin arm-mounted Medium Chemical Lasers deliver damage comparable to Inner Sphere medium lasers without requiring the heat dissipation systems that standard energy weapons demand, though their chemical fuel supply limits operational endurance to approximately thirty salvos total. A Streak SRM-6 launcher in the main gun mount provides devastating close-range firepower with ten guided salvos, while a torso-mounted machine gun with fifty rounds handles anti-infantry work. Sixty-four points of armor can survive a heavy Gauss rifle hit to the torso at point-blank range, making the Svartalfa extraordinarily resilient for any combat unit below twenty tons. The cockpit is fifty percent larger than standard ProtoMek designs, allowing pilots of Elemental phenotype to operate the machine, though it can be reconfigured for smaller pilots as well.</p>
 </capabilities>
+
+<overview>
+<p>The Svartalfa is a fourteen-ton ultraheavy ProtoMek developed by Clan Hell's Horses, representing a radical leap in ProtoMek design philosophy. Initially mistaken for a light or ultralight LAM by intelligence analysts due to its flight capability, the Svartalfa is in fact an enormous ProtoMek equipped with a wing-in-ground effect gliding system that allows limited low-altitude flight at speeds exceeding sixty kilometers per hour. At half again the mass of any previously known ProtoMek, the Svartalfa mounts more armor than most twenty-ton BattleMeks and carries a weapons suite that can challenge medium Meks in direct combat. The design's existence was first revealed when Clan Wolf became an unwitting live-fire test subject, and the Wolves struggled to understand what they were facing: too small to be a Mek, but far too tough to be battle armor or any known ProtoMek.</p>
+</overview>
 
 <deployment>
 <p>The Svartalfa 2 strips the Chemical Lasers, Streak launcher, and machine gun to mount dual LRM-15 launchers, one in the torso and one in the main gun position. Twenty salvos of ammunition provide exceptional fire endurance by missile-armed ProtoMek standards. This massive long-range firepower comes at a steep armor cost, dropping protection to thirty-seven points, less than many standard-weight ProtoMeks. The Svartalfa 2 is deployed as a dedicated indirect fire support platform, using its gliding capability to reposition between volleys and maintain distance from opponents. Ground speed remains limited to roughly ten kilometers per hour, making the gliding mode essential for survival when threatened at close range.</p>
@@ -179,4 +162,12 @@ ARMOR:Standard
 COMMUNICATIONS:4
 TARGETING:1
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<tonnage>
+14.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e79b-7c73-82a1-fd0cf68ccc4c
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Aesir Medium AA Vehicle
 <year>
 3097
 </year>
-
-<originalBuildYear>
-3097
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -114,26 +114,13 @@ CLLBXAC2
 CLLBXAC2
 </Turret Equipment>
 
-<source>
-TR:3145:C,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-# Fluff Date: 2026-03-01 12:28:32
-<overview>
-<p>Clan Wolf developed the Aesir medium anti-aircraft vehicle in the mid 3090s to address a growing need for dedicated air defense assets across their Inner Sphere occupation zone. Designed to bolster second-line garrison forces against airborne raiding threats, the Aesir serves as a slow but dependable mobile gun emplacement, typically deployed in full Stars to protect critical fixed installations. With the vehicle entering production at both Gienah Automotive and the W-7 Facilities on Weingarten, Clan Wolf ensured sufficient volume to distribute the platform across their garrison clusters. The design's straightforward construction and ammunition efficiency make it well suited to the defensive posture demanded of occupation zone units, where engagements are more likely to involve deterring fast-moving attackers than pursuing them.</p>
-</overview>
-
 <capabilities>
 <p>Too slow to participate in offensive operations or respond to rapidly developing threats, the Aesir instead excels as a static or semi-mobile air defense platform. A quartet of turret-mounted Type Sierra LB 2-X Autocannons provides long-range flak coverage capable of saturating a wide portion of airspace, with cluster munitions offering particular effectiveness against fast-moving aerospace targets. Two tons of ammunition supply adequate endurance for extended engagements without requiring frequent resupply.</p><p>Protection is substantial for a vehicle of its weight class, with nine and a half tons of Forging OTR20d ferro-fibrous armor supplemented by CASE to contain ammunition explosions and an Armored Motive System to protect the wheeled drive train from crippling mobility kills. The Omni 145 fusion engine provides only modest speed at fifty-four kilometers per hour, reinforcing the Aesir's role as a positional defender rather than a mobile combatant. The TRTTS Mark V AirTracker targeting and tracking system, though aging by current standards, remains effective at acquiring and tracking airborne contacts ranging from VTOLs to DropShips. A Build 1685 Tacticom communications suite rounds out the electronics package.</p>
 </capabilities>
+
+<overview>
+<p>Clan Wolf developed the Aesir medium anti-aircraft vehicle in the mid 3090s to address a growing need for dedicated air defense assets across their Inner Sphere occupation zone. Designed to bolster second-line garrison forces against airborne raiding threats, the Aesir serves as a slow but dependable mobile gun emplacement, typically deployed in full Stars to protect critical fixed installations. With the vehicle entering production at both Gienah Automotive and the W-7 Facilities on Weingarten, Clan Wolf ensured sufficient volume to distribute the platform across their garrison clusters. The design's straightforward construction and ammunition efficiency make it well suited to the defensive posture demanded of occupation zone units, where engagements are more likely to involve deterring fast-moving attackers than pursuing them.</p>
+</overview>
 
 <deployment>
 <p>The standard Aesir serves as the primary anti-aircraft platform in Clan Wolf and Wolf Empire garrison formations, where full Stars are typically assigned to defend installations, supply depots, and command centers against airborne raids. Its distribution expanded following the Exiled Wolves' acquisition of the production plans in 3101 and Clan Sea Fox's subsequent sale of vehicles to the Republic of the Sphere. The design's straightforward maintenance requirements and ammunition efficiency make it a preferred choice for second-line units that must sustain defensive operations with limited logistical support.</p>
@@ -166,4 +153,16 @@ ARMOR:OTR20d
 COMMUNICATIONS:Build 1685
 TARGETING:Mark V AirTracker
 </systemModels>
+
+<source>
+TR:3145:C,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+55.0
+</tonnage>
 

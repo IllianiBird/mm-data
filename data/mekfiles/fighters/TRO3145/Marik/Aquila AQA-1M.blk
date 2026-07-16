@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af99-7072-becb-972ad9418ddc
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ AQA-1M
 <year>
 3104
 </year>
-
-<originalBuildYear>
-3104
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -125,34 +125,13 @@ IS Light Gauss Ammo
 IS Light Gauss Ammo
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3145:FWL,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Aquila is a 55-ton medium aerospace fighter jointly developed by the Oriente Protectorate and the Rim Commonality in the early thirty-second century. Manufactured by Nimakachi Fusion Products Limited on Dalton, the fighter entered production in 3104 as the two League successor states sought a dedicated long-range sniper platform. The design brief called for speed, accuracy, and the ability to engage targets well beyond normal combat ranges. These qualities made the Aquila ideally suited for harassing unescorted craft, particularly DropShips and small craft that lacked fighter cover. The fighter quickly proved itself an effective combat platform and has proliferated for over forty years without requiring modification. Its combination of reach and agility has earned it a strong reputation among the aerospace wings of the former Free Worlds League states, where it continues to serve as a frontline fighter.</p>
-</overview>
-
 <capabilities>
 <p>The Aquila's Hermes 275 XL engine provides a thrust-to-weight ratio that allows 6.5 Gs of acceleration, making it one of the faster medium fighters in its class. This speed serves as the fighter's primary defense, allowing pilots to dictate engagement ranges and evade pursuers. Eleven tons of ArcShield IX AO ferro-aluminum armor provide reasonable protection for its weight class, though the fighter relies more on agility than raw durability.</p><p>The Aquila's signature armament consists of twin nose-mounted Oriente MagCoil Model E light Gauss rifles fed by three tons of shared ammunition. These weapons deliver precise strikes at extreme ranges, perfectly complementing the fighter's sniper role. A pair of wing-mounted Diverse Optics extended-range medium lasers provide supplemental firepower for closer engagements. Ten double heat sinks manage the thermal load efficiently.</p><p>The fighter excels in both space and atmospheric operations, where it can terrorize ground units or chase down slow-moving DropShips without fighter escorts. However, the Aquila lacks any rear-firing weaponry, a concern for some pilots, though its speed generally allows it to evade or outrun threats approaching from behind. The Nimakachi Model IC airframe, Lassitor-5A communications system, and Garret S6g targeting and tracking system round out a well-integrated electronics package.</p>
 </capabilities>
+
+<overview>
+<p>The Aquila is a 55-ton medium aerospace fighter jointly developed by the Oriente Protectorate and the Rim Commonality in the early thirty-second century. Manufactured by Nimakachi Fusion Products Limited on Dalton, the fighter entered production in 3104 as the two League successor states sought a dedicated long-range sniper platform. The design brief called for speed, accuracy, and the ability to engage targets well beyond normal combat ranges. These qualities made the Aquila ideally suited for harassing unescorted craft, particularly DropShips and small craft that lacked fighter cover. The fighter quickly proved itself an effective combat platform and has proliferated for over forty years without requiring modification. Its combination of reach and agility has earned it a strong reputation among the aerospace wings of the former Free Worlds League states, where it continues to serve as a frontline fighter.</p>
+</overview>
 
 <deployment>
 <p>The AQA-1M is the sole production variant of the Aquila and has remained unchanged since its introduction in 3104. The design's combination of speed and long-range precision proved so effective that no modifications have been deemed necessary in over four decades of service. Aquilas are found throughout the former Free Worlds League successor states, with the Oriente Protectorate and Rim Commonality receiving the bulk of early production from the Dalton facility. The fighter has seen extensive service along the Capellan border, where its ability to engage at extreme range provides a significant tactical advantage in the frequent skirmishes that characterize the region.</p>
@@ -185,4 +164,16 @@ ARMOR:IX AO Ferro-Aluminum
 COMMUNICATIONS:5A
 TARGETING:S6g
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+55.0
+</tonnage>
 

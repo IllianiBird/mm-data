@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a710-738a-8319-0ed0699302c4
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Ravager Assault Battle Armor
 <year>
 3101
 </year>
-
-<originalBuildYear>
-3101
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -88,42 +88,14 @@ IS BA Advanced:LA
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-18
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Ravager is an assault-class battle armor produced by Marian Arms Incorporated on Horatius in the Marian Hegemony. Introduced in 3084, the suit was designed using common Inner Sphere technology to fill both a domestic defense role and generate export revenue for the small Periphery nation. The Ravager gained rapid popularity among mercenary commands and smaller states, earning a reputation as a rugged and affordable heavy combat suit. While widely acknowledged as one of the least attractive battle armor designs in production, the combination of heavy protection and an accessible price point has ensured steady demand across the Inner Sphere and beyond.</p>
-</overview>
 
 <capabilities>
 <p>This configuration trades direct-fire punch for standoff engagement capability. The heavy recoilless rifle gives way to a lighter model, freeing mass for a three-tube long-range missile launcher fed by eight reloads. The rocket launchers are removed entirely. Additional armor plating brings protection to levels capable of withstanding simultaneous hits from both a particle cannon and a large laser, a significant improvement over the original design. The battle claw and ground speed remain unchanged from the base suit.</p><p>The missile launcher grants indirect fire capability that the standard configuration lacks, allowing troopers to engage targets from behind cover or contribute to massed volleys alongside conventional forces. The trade-off is reduced effectiveness at close range, where the light recoilless rifle cannot match the stopping power of its heavier predecessor.</p>
 </capabilities>
+
+<overview>
+<p>The Ravager is an assault-class battle armor produced by Marian Arms Incorporated on Horatius in the Marian Hegemony. Introduced in 3084, the suit was designed using common Inner Sphere technology to fill both a domestic defense role and generate export revenue for the small Periphery nation. The Ravager gained rapid popularity among mercenary commands and smaller states, earning a reputation as a rugged and affordable heavy combat suit. While widely acknowledged as one of the least attractive battle armor designs in production, the combination of heavy protection and an accessible price point has ensured steady demand across the Inner Sphere and beyond.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere commands deploy the missile-equipped variant in four-trooper squads optimized for fire support. These squads operate behind front-line formations, using indirect fire to soften targets before friendly forces close to engagement range. The configuration proved popular among mercenary units seeking affordable standoff capability without the logistical burden of heavier weapons platforms.</p>
@@ -156,4 +128,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<published>
+RS:3145-NTNU
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+18
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

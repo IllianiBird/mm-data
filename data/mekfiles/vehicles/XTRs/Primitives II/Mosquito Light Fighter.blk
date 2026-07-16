@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec2c-7ea6-a808-a0690482aba6
+</UUID>
+
 <UnitType>
 FixedWingSupport
 </UnitType>
@@ -35,10 +39,6 @@ Mosquito Light Fighter
 <year>
 2302
 </year>
-
-<originalBuildYear>
-2302
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -143,26 +143,13 @@ External Stores Hardpoint
 3
 </engine_tech_rating>
 
-<source>
-XTR:Primitives II
-</source>
-
-<published>
-XTR:Primitives II
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 11:02:26
-<overview>
-<p>The Mosquito Light Fighter is a primitive conventional fighter designed by AeroTech Industries of Andurien in 2302, at the dawn of the Age of War. Conceived as an affordable interceptor for the budget-conscious militaries of the era, the Mosquito filled an important niche as smaller powers throughout the Inner Sphere scrambled to equip their armed forces. The design earned a reputation for reliability and ease of maintenance, qualities that drove widespread adoption across multiple states and minor powers. Its commercial success established AeroTech Industries as one of the more prominent military aircraft producers of the twenty-third century, laying the groundwork for the company's evolution into an interstellar defense conglomerate.</p>
-</overview>
-
 <capabilities>
 <p>The Mosquito's designers prioritized simplicity and cost-effectiveness, employing proven engineering techniques throughout the airframe. The single notable exception is the fighter's fusion power plant, a deliberate choice that allowed the twenty-ton craft to carry significantly more weapons and ordnance than turbine-powered contemporaries of similar weight. Three tons of onboard fuel provide adequate operational range for patrol and interception missions.</p><p>The fighter's primary armament consists of a nose-mounted LRM-5 launcher capable of engaging targets at range, supplemented by a pair of wing-mounted machine guns for close-in work. Twenty-four missiles and two hundred rounds of machine gun ammunition provide adequate combat endurance. An Advanced Fire Control system maximizes accuracy across the weapons suite, while two External Stores Hardpoints offer additional flexibility for supplemental ordnance or fuel tanks depending on mission requirements. Protection is minimal, limited to a single ton of BAR 6 rated armor. The Mosquito carries a crew of three, including two non-rated enlisted personnel and a dedicated gunner.</p>
 </capabilities>
+
+<overview>
+<p>The Mosquito Light Fighter is a primitive conventional fighter designed by AeroTech Industries of Andurien in 2302, at the dawn of the Age of War. Conceived as an affordable interceptor for the budget-conscious militaries of the era, the Mosquito filled an important niche as smaller powers throughout the Inner Sphere scrambled to equip their armed forces. The design earned a reputation for reliability and ease of maintenance, qualities that drove widespread adoption across multiple states and minor powers. Its commercial success established AeroTech Industries as one of the more prominent military aircraft producers of the twenty-third century, laying the groundwork for the company's evolution into an interstellar defense conglomerate.</p>
+</overview>
 
 <deployment>
 <p>The Mosquito saw its widest service among the armies and militias of the Capellan Confederation and Free Worlds League during the Age of War, where the contested border between the two states ensured constant demand for affordable combat aircraft. Examples of the fighter also reached nearly a dozen additional minor powers throughout the Inner Sphere through licensed production arrangements. No variants of the original design are known to have been produced.</p>
@@ -195,4 +182,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Primitives II
+</source>
+
+<published>
+XTR:Primitives II
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

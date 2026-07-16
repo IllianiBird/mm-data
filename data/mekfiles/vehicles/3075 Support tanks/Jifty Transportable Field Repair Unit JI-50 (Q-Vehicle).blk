@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e671-7d35-b57b-ba79e8093ccc
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ JI-50 (Q-Vehicle)
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -122,30 +122,13 @@ Lift Hoist/Arresting Hoist
 3
 </engine_tech_rating>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The JI-50 Transportable Field Repair Unit, commonly known as the Jifty, is a Federated Suns support vehicle designed to bring repair and recovery capabilities directly to damaged units in the field. Manufactured by Johnston Industries on New Syrtis, the 60-ton tracked vehicle entered service in 3069 as an evolution of earlier field repair concepts pioneered by the Free Worlds League's Paramour MRV. The Jifty's combination of heavy cargo capacity, lift hoists, and fusion-powered mobility makes it a valuable force multiplier for military formations operating beyond the reach of fixed repair facilities. Its versatile chassis has spawned numerous field modifications adapted to the demands of frontline service during the Jihad.</p>
-</overview>
-
 <capabilities>
 <p>The Jifty's fusion engine drives the 60-ton tracked vehicle at a cruising speed of 32 kph with a flank speed of 48 kph. Its tracked motive system was selected to handle the rough terrain typically encountered when recovering damaged vehicles and BattleMechs. A pair of lift hoists mounted at the front can each handle loads of up to 60 tons, enabling the Jifty to manipulate and recover even assault-class BattleMechs. The vehicle carries 19.5 tons of cargo in an internal bay with a rear access door, providing ample space for spare parts, tools, and salvaged components.</p><p>Protection comes from 3.5 tons of industrial-grade BAR 6 armor, reflecting the vehicle's intended role behind the front lines rather than in direct combat. A pair of light machine guns provide minimal self-defense against infantry and unarmored threats, operated by two of the vehicle's four crew members. The Jifty is not designed for combat and relies on escorting forces for protection in contested areas. Its primary value lies in reducing the time and distance required to return damaged equipment to operational status, keeping combat formations at higher readiness than would otherwise be possible.</p>
 </capabilities>
+
+<overview>
+<p>The JI-50 Transportable Field Repair Unit, commonly known as the Jifty, is a Federated Suns support vehicle designed to bring repair and recovery capabilities directly to damaged units in the field. Manufactured by Johnston Industries on New Syrtis, the 60-ton tracked vehicle entered service in 3069 as an evolution of earlier field repair concepts pioneered by the Free Worlds League's Paramour MRV. The Jifty's combination of heavy cargo capacity, lift hoists, and fusion-powered mobility makes it a valuable force multiplier for military formations operating beyond the reach of fixed repair facilities. Its versatile chassis has spawned numerous field modifications adapted to the demands of frontline service during the Jihad.</p>
+</overview>
 
 <deployment>
 <p>The JI-50 (Q-Vehicle) is a custom modification rumored to have been designed for ambush operations. It exchanges all cargo capacity for eight SRM-4 launchers and ammunition, converting the innocuous-looking repair vehicle into a devastating close-range combatant. Rumors persist of a Taurian example on Merope configured as an ambush-buster, though such reports remain unconfirmed.</p>
@@ -178,4 +161,20 @@ ARMOR:BAR 6
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

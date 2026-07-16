@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e475-7031-8ec2-2882045f2b28
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Saladin Assault Hover Tank
 <year>
 3050
 </year>
-
-<originalBuildYear>
-3050
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -102,30 +102,13 @@ false
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3058U,TR:3039
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-10 16:18:34
-<overview>
-<p>The Saladin Assault Hover Tank represents the third entry in Scarborough, Ltd.'s family of medium hover combat vehicles. Introduced in 2942, the Saladin was designed to fill a role the Scimitar and Saracen could not deliver: a single overwhelming blow against armored targets, delivered by the same hover platform that gave the family its tactical relevance. Rather than distribute firepower across multiple systems or compromise for a turret assembly, Scarborough's designers concentrated the Saladin's entire offensive potential into one weapon, accepting significant trade-offs in protection and sustained firepower.</p><p>The design earned a mixed reception among Successor State commanders, who valued the punch but questioned the survivability. Despite sluggish early sales, aggressive marketing and battlefield results in the Azami territories helped establish the Saladin as a respected asset in combined-arms formations across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Saladin's defining feature is the Scarborough Original 20 Autocannon/20, one of the most powerful direct-fire weapons available to any vehicle in its size class. At nearly 130 kph, the Saladin ranks among the fastest armored vehicles in the Inner Sphere, capable of delivering a devastating attack and withdrawing before the enemy can concentrate return fire. Three tons of autocannon ammunition support its intended role of short, decisive engagements.</p><p>The design's weaknesses are substantial. Half the vehicle's total tonnage is consumed by the main gun and its ammunition, leaving minimal room for armor plating. The ProtecTech 4 protection is among the thinnest found on any front-line combat vehicle, and crews that absorb fire from anything heavier than light weapons rarely survive intact. The fixed autocannon mount requires the driver to orient the entire vehicle toward a target, eliminating the flexibility of a standard turret. No secondary armament exists to handle infantry or light vehicles that close to short range, a persistent operational gap. Scarborough prioritized firepower above all else, and commanders must plan Saladin employment with these limitations firmly in mind.</p>
 </capabilities>
+
+<overview>
+<p>The Saladin Assault Hover Tank represents the third entry in Scarborough, Ltd.'s family of medium hover combat vehicles. Introduced in 2942, the Saladin was designed to fill a role the Scimitar and Saracen could not deliver: a single overwhelming blow against armored targets, delivered by the same hover platform that gave the family its tactical relevance. Rather than distribute firepower across multiple systems or compromise for a turret assembly, Scarborough's designers concentrated the Saladin's entire offensive potential into one weapon, accepting significant trade-offs in protection and sustained firepower.</p><p>The design earned a mixed reception among Successor State commanders, who valued the punch but questioned the survivability. Despite sluggish early sales, aggressive marketing and battlefield results in the Azami territories helped establish the Saladin as a respected asset in combined-arms formations across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>Captured and converted Saladins appear in Clan logistical formations following the Clan Invasion, with the autocannon replaced by cargo equipment suited to rapid supply operations. This conversion exploits the Saladin's hover speed to move critical materials under fire, serving primarily in Clan rear-area logistics roles rather than front-line combat.</p>
@@ -158,4 +141,20 @@ ARMOR:4
 COMMUNICATIONS:Talky-2
 TARGETING:Assault-1
 </systemModels>
+
+<source>
+TR:3058U,TR:3039
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+35.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

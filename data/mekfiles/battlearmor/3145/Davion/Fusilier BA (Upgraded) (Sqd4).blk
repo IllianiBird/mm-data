@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a620-7fbb-bd38-dcee459e392e
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Fusilier Battle Armor
 <year>
 3135
 </year>
-
-<originalBuildYear>
-3135
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -97,42 +97,14 @@ IS BA Laser Reflective (Reflec/Glazed):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:FS,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-1
-</jumpingMP>
-
-<armor>
-15
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Fusilier is an assault-class battle armor suit manufactured by General Motors at their Salem facility for the Armed Forces of the Federated Suns. Introduced in the early 3120s, the design was intended to fill a frontline combat role alongside other heavy suits in AFFS battle armor battalions. Often described as the most unremarkable suit in AFFS service, the Fusilier earned a grudging respect for its consistent performance and solid construction in a role where dependability mattered more than distinction.</p>
-</overview>
 
 <capabilities>
 <p>The upgraded Fusilier trades the Magshot Gauss Rifle for a Man-Portable Plasma Rifle with twenty rounds of ammunition, giving the suit a significant increase in close-range thermal output at the cost of the Magshot's precision. The Jump Booster is downgraded to accommodate the heavier weapon system, reducing effective jump range from sixty meters to thirty. The body-mounted Light Machine Gun and left-arm Armored Glove carry over from the original design unchanged.</p><p>The most significant modification is the replacement of Basic Stealth armor with Reflective Armor. While reflective plating offers improved resistance against energy weapons, it proves considerably more fragile under physical impacts and ballistic threats. The trade-off sacrifices the original's sensor-masking capability and structural resilience for a specialized defense that only pays dividends against energy-heavy opponents, narrowing the suit's operational flexibility.</p>
 </capabilities>
+
+<overview>
+<p>The Fusilier is an assault-class battle armor suit manufactured by General Motors at their Salem facility for the Armed Forces of the Federated Suns. Introduced in the early 3120s, the design was intended to fill a frontline combat role alongside other heavy suits in AFFS battle armor battalions. Often described as the most unremarkable suit in AFFS service, the Fusilier earned a grudging respect for its consistent performance and solid construction in a role where dependability mattered more than distinction.</p>
+</overview>
 
 <deployment>
 <p>AFFS four-trooper squads received the upgraded Fusilier beginning in the mid-3130s. The revised armament gave squad-level engagements a thermal punch the original lacked, and teams operating against energy-weapon-heavy opponents appreciated the specialized armor protection. Squads deployed along the Capellan border found the reduced jump range a more significant limitation than the armor change, as rapid repositioning often proved critical during small-unit actions.</p>
@@ -167,4 +139,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:FS,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+1
+</jumpingMP>
+
+<armor>
+15
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

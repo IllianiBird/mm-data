@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af6c-7a60-abb5-668140f0c2bb
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ S-STR-OE Eminus
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -128,26 +128,13 @@ IS Light Gauss Ammo:OMNI
 ISCASE:OMNI
 </Fuselage Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Striga is the first and heaviest of the Word of Blake's Spectral Series OmniFighters, a trio of aerospace craft designed exclusively for the Manei Domini and their cyber-enhanced pilots. Named for vampiric, transformed spirits of ancient lore and commissioned by Precentor Apollyon, the Striga represents Precentor Vapula's initial foray into aerospace fighter design following his work on the Celestial OmniMechs. Drawing from engineering principles found in the Free Worlds League Military's Shiva, the Striga introduced the multi-directional vectoring thrust system and minimized cockpit that would define the entire Spectral line. Rolling off refurbished production lines at Master's Wings Aerospace on Gibson in late 3071, it served as the template for the lighter Rusalka and Shade that followed, establishing the collapsible wing design that became the Spectrals' hallmark.</p>
-</overview>
-
 <capabilities>
 <p>The Striga's defining characteristic is its Perdition 340-rated extralight engine driving a multi-positional thrust system capable of achieving nearly five gravities of acceleration in space, a performance level that rivals even Clan-made heavy fighters. This exceptional thrust is paired with eighteen tons of Divine Shield-D ferro-aluminum armor, providing near-record protection while still leaving more than half of the Striga's eighty-five ton frame available for pod-based weaponry. The collapsible wing structure, engineered primarily to improve vector thrust behavior in vacuum, produces a secondary effect of dramatically reducing the fighter's radar profile, allowing it to pass for a shuttle or escape pod at range. This combination of extreme thrust, heavy protection, and visual deception comes at a significant cost in accessibility: the unparalleled maneuverability imposes accelerative stresses that only the neurological and physical augmentations of Manei Domini warriors can reliably tolerate. The minimized cockpit further restricts the design to the Blakists' elite, making the Striga effectively unavailable to conventional pilots.</p>
 </capabilities>
+
+<overview>
+<p>The Striga is the first and heaviest of the Word of Blake's Spectral Series OmniFighters, a trio of aerospace craft designed exclusively for the Manei Domini and their cyber-enhanced pilots. Named for vampiric, transformed spirits of ancient lore and commissioned by Precentor Apollyon, the Striga represents Precentor Vapula's initial foray into aerospace fighter design following his work on the Celestial OmniMechs. Drawing from engineering principles found in the Free Worlds League Military's Shiva, the Striga introduced the multi-directional vectoring thrust system and minimized cockpit that would define the entire Spectral line. Rolling off refurbished production lines at Master's Wings Aerospace on Gibson in late 3071, it served as the template for the lighter Rusalka and Shade that followed, establishing the collapsible wing design that became the Spectrals' hallmark.</p>
+</overview>
 
 <deployment>
 <p>A long-range support configuration providing standoff fire within Shadow Division aerospace formations. The Eminus engages targets at distances where the Striga's collapsed wing profile makes positive identification difficult, combining the fighter's visual deception capability with ranged firepower to complicate enemy threat assessment.</p>
@@ -180,4 +167,16 @@ ARMOR:Divine Shield-D
 COMMUNICATIONS:Master's Voice Cel-Beta
 TARGETING:Master's Sight 2-Psi
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

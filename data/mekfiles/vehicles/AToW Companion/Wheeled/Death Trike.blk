@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8da-7f95-b3ef-20609635092b
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Death Trike
 <year>
 2469
 </year>
-
-<originalBuildYear>
-2469
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -104,11 +104,6 @@ InfantryStandardSRM:SIZE:1.0
 <Rear Equipment>
 </Rear Equipment>
 
-<slotless_equipment>
-Infantry Ammo
-Infantry Inferno Ammo
-</slotless_equipment>
-
 <barrating>
 2
 </barrating>
@@ -121,25 +116,6 @@ Infantry Inferno Ammo
 4
 </engine_tech_rating>
 
-
-
-<source>
-AToW Companion
-</source>
-
-<tonnage>
-0.56
-</tonnage>
-
-<fuel>
-0.03
-</fuel>
-
-<fuelType>
-ALCOHOL
-</fuelType>
-
-# Fluff Date: 2026-03-12 17:26:07
 <overview>
 <p>Death Trikes are handmade off-road vehicles designed only to propel weapon systems toward enemies at ludicrous speeds. Often the only advanced weapons available to pirates, the targeting system is the sole truly advanced component on these custom-kit vehicles. Considering their volatile superchargers, weapons, and complete lack of armor, Death Trikes are generally more dangerous to the pilot than anyone else.</p>
 </overview>
@@ -167,4 +143,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+AToW Companion
+</source>
+
+<tonnage>
+0.56
+</tonnage>
+
+<fuel>
+0.03
+</fuel>
+
+<fuelType>
+ALCOHOL
+</fuelType>
 

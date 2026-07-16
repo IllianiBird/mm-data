@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a836-7575-96ac-2b9b6fe1eb99
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ A [ER Laser](Sqd6)
 <year>
 3147
 </year>
-
-<originalBuildYear>
-3147
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -88,42 +88,13 @@ BABattleClaw:LA
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
 
-<source>
-RG31
-</source>
-
-<published>
-RG31
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Callisto is a medium Clan battle armor suit developed by the Rasalhague Dominion in the mid-thirty-second century. Built upon the foundation of the proven Elemental battlesuit, the Callisto retains a familiar profile that allows warriors to transition between designs with minimal retraining. Its modular weapon mounting system gives infantry commanders the flexibility to tailor each formation's loadout to the mission. Produced at facilities on Alshain and Stewart, the suit has spread across the Dominion, the Wolf Empire, and Clan Sea Fox merchant networks, earning a reputation as a practical complement to longer-established battle armor designs.</p>
-</overview>
-
 <capabilities>
 <p>The ER Micro Laser variant of Configuration A emphasizes sustained energy-based engagement. Mounting an ER Micro Laser in the modular weapon position and an ER Medium Laser in the squad support role, this loadout frees troopers from ammunition concerns entirely. The Battle Claw on the left arm remains standard, allowing anti-BattleMech attacks when the opportunity arises.</p><p>The Callisto's Elemental-derived frame lacks jump jets but offers superior ground speed, enabling rapid repositioning between engagements. Reduced armor compared to the Elemental is the primary compromise, leaving troopers more exposed during sustained firefights. The all-energy weapon fit makes this configuration well suited for extended patrols and garrison duty where resupply may be limited, though individual weapon damage output is modest compared to ballistic alternatives. Operators must manage heat buildup during rapid successive engagements.</p>
 </capabilities>
+
+<overview>
+<p>The Callisto is a medium Clan battle armor suit developed by the Rasalhague Dominion in the mid-thirty-second century. Built upon the foundation of the proven Elemental battlesuit, the Callisto retains a familiar profile that allows warriors to transition between designs with minimal retraining. Its modular weapon mounting system gives infantry commanders the flexibility to tailor each formation's loadout to the mission. Produced at facilities on Alshain and Stewart, the suit has spread across the Dominion, the Wolf Empire, and Clan Sea Fox merchant networks, earning a reputation as a practical complement to longer-established battle armor designs.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper formations using the ER Laser configuration benefit from concentrated energy weapon fire without the logistical burden of ammunition resupply. The formation size suits garrison and security commands that maintain Callistos for continuous readiness, as the energy-only weapons ensure the unit remains combat-capable regardless of supply conditions.</p>
@@ -156,4 +127,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG31
+</source>
+
+<published>
+RG31
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

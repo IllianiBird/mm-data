@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a6b3-70f8-bdcf-3830f5d3dfb3
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Grenadier Battle Armor
 <year>
 3123
 </year>
-
-<originalBuildYear>
-3123
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -86,42 +86,14 @@ IS BA Stealth (Standard):Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Grenadier is an assault-weight Inner Sphere battlesuit developed by the Hahm-Heinze Design Bureau for the Armed Forces of the Federated Suns. Designed to mount the heaviest weapon systems possible on a single suit frame, the Grenadier prioritized raw firepower over mobility or protection. The suit carries a fixed missile launcher, a modular weapon mount accommodating a range of battlefield roles, and an anti-personnel station for close-range defense. Standard stealth armor provides electronic signature reduction, though total protection is modest for the weight class. At two thousand kilograms, the Grenadier is too heavy for OmniMech transport, restricting deployment to ground-based insertion methods.</p>
-</overview>
 
 <capabilities>
 <p>This configuration integrates a battle armor C3 computer system with a heavy recoilless rifle and Firedrake support needler. The C3 network link allows troopers to share targeting data with other networked units, improving accuracy across the entire formation. The heavy recoilless rifle delivers greater kinetic energy than the standard light version, effective against medium armor at moderate range. The Firedrake needler handles anti-personnel duties at close quarters. As a networked fire support platform, the configuration's value scales with the size and coordination of the C3 network it operates within. In isolation, the suit loses the network's accuracy bonuses and functions as a competent but unremarkable ballistic combatant. The absence of a missile system reduces anti-armor punch compared to other Hunter-Killer variants.</p>
 </capabilities>
+
+<overview>
+<p>The Grenadier is an assault-weight Inner Sphere battlesuit developed by the Hahm-Heinze Design Bureau for the Armed Forces of the Federated Suns. Designed to mount the heaviest weapon systems possible on a single suit frame, the Grenadier prioritized raw firepower over mobility or protection. The suit carries a fixed missile launcher, a modular weapon mount accommodating a range of battlefield roles, and an anti-personnel station for close-range defense. Standard stealth armor provides electronic signature reduction, though total protection is modest for the weight class. At two thousand kilograms, the Grenadier is too heavy for OmniMech transport, restricting deployment to ground-based insertion methods.</p>
+</overview>
 
 <deployment>
 <p>The C3-networked Hunter-Killer configuration entered service with AFFS formations that had adopted battalion-level C3 networks during the Dark Age. Four-trooper squads link into the network as forward fire nodes, sharing targeting data that improves accuracy for all connected units. The Robinson Rangers integrated these squads into their combined arms doctrine, positioning them as flanking elements where the network link compensated for the squad's reduced individual firepower compared to missile-armed Hunter-Killer variants.</p>
@@ -154,4 +126,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a918-7ce3-9170-031e88397e46
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ X(Sqd6)
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 Clan Level 4
@@ -102,38 +102,14 @@ BABattleClaw:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Clans
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>Developed by Clan Hell's Horses at the Csesztreg Industriplex Gamma, the Elemental II is a ground-mobility focused evolution of the original Elemental suit. Entering production in 3084 after an extended experimental phase, the one-ton design prioritizes raw ground speed over vertical agility. The Elemental II was shaped by the Horses' combined-arms doctrine, which emphasizes rapid repositioning alongside vehicle and BattleMech formations. While the suit has earned a reputation for reliability and ease of maintenance, its departure from the jump-capable Elemental formula has limited its adoption outside Hell's Horses formations.</p>
-</overview>
 
 <capabilities>
 <p>The experimental predecessor to the production Elemental II, this prototype increased the standard suit's mass by fifty percent to 1,500 kilograms while accommodating its myomer booster system and maintaining equivalent armor protection. The weight penalty severely constrained the available weaponry: a micro pulse laser in a detachable weapon pack serves as the primary armament, backed by a light machine gun and an anti-personnel weapon mount. Both arms retain battle claws, though the suit's increased bulk and the requirement to jettison the main weapon before jumping or reaching top speed prevent effective anti-BattleMech attacks. The myomer boosters achieve ground speeds triple that of the standard Elemental, but the design's significant limitations earned it a poor reputation among Clan warriors. The inability to reliably engage BattleMechs at close quarters, combined with the awkward weapon jettison requirement, ultimately led the Horses' leadership to cancel the project in favor of a refined design approach.</p>
 </capabilities>
+
+<overview>
+<p>Developed by Clan Hell's Horses at the Csesztreg Industriplex Gamma, the Elemental II is a ground-mobility focused evolution of the original Elemental suit. Entering production in 3084 after an extended experimental phase, the one-ton design prioritizes raw ground speed over vertical agility. The Elemental II was shaped by the Horses' combined-arms doctrine, which emphasizes rapid repositioning alongside vehicle and BattleMech formations. While the suit has earned a reputation for reliability and ease of maintenance, its departure from the jump-capable Elemental formula has limited its adoption outside Hell's Horses formations.</p>
+</overview>
 
 <deployment>
 <p>No six-trooper formations of the Elemental II prototype have been documented. The experimental nature of the design and its extremely limited production run of only a handful of suits precluded distribution beyond the Horses' own testing programs. The organizational table exists for completeness, reflecting the theoretical possibility of non-Clan forces organizing salvaged prototypes into Level I formations.</p>
@@ -168,4 +144,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Clans
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

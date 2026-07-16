@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e89c-7747-9392-8166b3b92d26
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Kelswa Assault Tank
 <year>
 3105
 </year>
-
-<originalBuildYear>
-3105
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -111,26 +111,13 @@ Heavy Machine Gun
 Heavy Machine Gun
 </Turret Equipment>
 
-<source>
-TR:3145:LC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-95.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The Kelswa Assault Tank is a ninety-five ton tracked combat vehicle produced by Arcturan Arms for the Lyran Commonwealth's armed forces. Named after House Kelswa, one of the most prominent noble families in Lyran history, the tank entered production in 3105 at the company's factories on Arcturus and Buena. Designed as a frontline assault vehicle, the Kelswa was conceived to fill the Lyran military's persistent demand for heavy armor formations capable of anchoring defensive positions and supporting BattleMech operations.</p><p>The tank earned a reputation for reliability and devastating firepower that spread well beyond Lyran borders. Exports and battlefield salvage carried the Kelswa into service with military forces across the Inner Sphere, and even into the toumans of at least two Clans. Veteran NCOs and platoon commanders prize the tank for its hard-hitting weapons and ease of maintenance, qualities that make it a natural fit for shock and garrison formations alike.</p>
-</overview>
-
 <capabilities>
 <p>A Pitban 285 fusion engine propels the Kelswa to a maximum speed of 54 km/h, making it somewhat slow by modern standards. This modest mobility is an accepted trade-off, as the engine's reliability and the mass savings it provides allow for heavier armor and armament. Twelve tons of ArcShield heavy ferro-fibrous armor protect the hull, with roughly thirty percent concentrated in the frontal arc to absorb incoming fire during direct assaults. CASE protects the crew from catastrophic ammunition detonation.</p><p>The Kelswa's primary armament consists of twin turret-mounted Grizzard Model 200 Gauss rifles, giving the tank exceptional long-range striking power. Two Defiance Model XII extended range medium lasers provide ammunition-independent firepower from fixed front mounts, while a pair of Coventry Heavy Autogun machine guns in the turret handle infantry and light vehicle threats. Forty rounds of Gauss ammunition and a half-ton of machine gun rounds give the tank reasonable endurance in sustained engagements.</p><p>The Kelswa's limited weapon variety is its chief shortcoming. Without missiles or specialized munitions, the tank lacks the tactical flexibility of more diversely armed competitors. Crews must rely on their Gauss rifles for nearly every engagement profile, from long-range bombardment to close-quarters brawling.</p>
 </capabilities>
+
+<overview>
+<p>The Kelswa Assault Tank is a ninety-five ton tracked combat vehicle produced by Arcturan Arms for the Lyran Commonwealth's armed forces. Named after House Kelswa, one of the most prominent noble families in Lyran history, the tank entered production in 3105 at the company's factories on Arcturus and Buena. Designed as a frontline assault vehicle, the Kelswa was conceived to fill the Lyran military's persistent demand for heavy armor formations capable of anchoring defensive positions and supporting BattleMech operations.</p><p>The tank earned a reputation for reliability and devastating firepower that spread well beyond Lyran borders. Exports and battlefield salvage carried the Kelswa into service with military forces across the Inner Sphere, and even into the toumans of at least two Clans. Veteran NCOs and platoon commanders prize the tank for its hard-hitting weapons and ease of maintenance, qualities that make it a natural fit for shock and garrison formations alike.</p>
+</overview>
 
 <deployment>
 <p>The Kelswa sees service across the Inner Sphere in a wide variety of military organizations. Lyran Commonwealth garrison and shock units remain the largest operators, with the tank frequently assigned to veteran NCOs and platoon commanders who appreciate its straightforward combat role. The tank's popularity extends to at least two Clan toumans, where salvaged or purchased examples supplement conventional vehicle Stars.</p><p>Mercenary commands also favor the Kelswa for its low maintenance requirements and devastating alpha strike capability. All-armor formations find it particularly useful as a fire support anchor, where its twin Gauss rifles can suppress enemy positions while faster vehicles maneuver for advantage. The tank's slow speed limits its utility in mobile operations, but in defensive or positional warfare, few vehicles of comparable tonnage deliver as much raw firepower.</p>
@@ -163,4 +150,16 @@ ARMOR:ArcShield Heavy Ferro-Fibrous
 COMMUNICATIONS:A75
 TARGETING:Clear View 2A
 </systemModels>
+
+<source>
+TR:3145:LC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+95.0
+</tonnage>
 

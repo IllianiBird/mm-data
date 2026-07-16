@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b00a-73e4-a3f4-ea707f66bb96
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ CMT-3TV (Viktor)
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Experimental
@@ -121,26 +121,13 @@ Clan Streak LRM 20 Ammo
 Clan Streak LRM 20 Ammo
 </Fuselage Equipment>
 
-<source>
-XTR:Liao
-</source>
-
-<published>
-XTR:Liao
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Troika is a sixty-five-ton medium aerospace fighter developed through the industrial cooperation of the Trinity Alliance, the political and military pact linking the Taurian Concordat, the Magistracy of Canopus, and the Capellan Confederation. Brought into existence at the Detroit Consolidated AeroSpace facility on Detroit during the early 3060s, it is a genuine technological achievement for the Periphery states - a modern fighter incorporating the latest Inner Sphere advances in propulsion, protection, and weapons systems. The Trinity Alliance designed the Troika to serve as a capable all-aspect fighter for forces that had long relied on aging Succession Wars-era designs, and the result met that requirement. Though contractual obligations initially directed production toward the Concordat, the bulk of the fighter's service has been with the Magistracy of Canopus and later the Capellan Confederation, which ultimately absorbed responsibility for its ongoing development and production.</p>
-</overview>
-
 <capabilities>
 <p>The Troika's airframe uses a Magna 260 XL engine to achieve safe thrust 6 and maximum thrust 9, placing it near the upper end of the medium fighter performance bracket. Detroit Ferro-Aluminum Special armor provides solid protection across the hull, and cellular ammunition storage equipment shields the pilot from munitions detonation. The fighter's primary long-range punch comes from its nose-mounted Tomodzuru LRM-20, which accepts Thunder submunitions for area-denial and indirect fire roles. Each wing carries an extended-range PPC paired with an extended-range medium laser, providing heavy energy strike capability across multiple range bands.</p><p>Seventeen double heat sinks provide adequate but not generous thermal management. Pilots running the full energy suite simultaneously generate significant heat, and experienced crews throttle their weapons during sustained engagements rather than firing everything at once. The ferro-aluminum armor is lighter than conventional plating, freeing mass for the weapons payload while maintaining effective protection. Overall, the Troika balances energy and missile firepower well for its class, though its heat performance demands disciplined trigger management under sustained combat conditions.</p>
 </capabilities>
+
+<overview>
+<p>The Troika is a sixty-five-ton medium aerospace fighter developed through the industrial cooperation of the Trinity Alliance, the political and military pact linking the Taurian Concordat, the Magistracy of Canopus, and the Capellan Confederation. Brought into existence at the Detroit Consolidated AeroSpace facility on Detroit during the early 3060s, it is a genuine technological achievement for the Periphery states - a modern fighter incorporating the latest Inner Sphere advances in propulsion, protection, and weapons systems. The Trinity Alliance designed the Troika to serve as a capable all-aspect fighter for forces that had long relied on aging Succession Wars-era designs, and the result met that requirement. Though contractual obligations initially directed production toward the Concordat, the bulk of the fighter's service has been with the Magistracy of Canopus and later the Capellan Confederation, which ultimately absorbed responsibility for its ongoing development and production.</p>
+</overview>
 
 <deployment>
 <p>The CMT-3TV Viktor is a non-production personal custom refit assembled using salvaged Clan-specification weaponry recovered from the battlefields around Terra during the Jihad. Work began in 3074 on a standard Troika airframe, incorporating a Clan Streak LRM-20 in the nose, Clan ER PPCs in the wings in place of the standard Inner Sphere models, and Clan ER medium pulse lasers replacing the wing-mounted supplemental energy weapons. The resulting aircraft significantly outperforms standard Troika variants in sustained firepower using mixed Inner Sphere and Clan technology. Operating with a convoy defense squadron near Tikonov during the Jihad, it has seen repeated action against Stone's Protectorate aerospace forces. As the only known example of this configuration, the CMT-3TV is classified as a field refit with no factory affiliation.</p>
@@ -173,4 +160,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Liao
+</source>
+
+<published>
+XTR:Liao
+</published>
+
+<tonnage>
+65.0
+</tonnage>
 

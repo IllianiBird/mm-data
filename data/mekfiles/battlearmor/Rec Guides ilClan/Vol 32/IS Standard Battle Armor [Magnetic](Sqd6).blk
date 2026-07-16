@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a848-73ea-a7e7-7a12400d4788
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ IS Standard Battle Armor
 <year>
 3141
 </year>
-
-<originalBuildYear>
-3141
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -97,42 +97,14 @@ BA-Magnetic Clamp:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-RG32
-</source>
-
-<published>
-RG32
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>Developed by the New Avalon Institute of Science in the early 3050s, the Inner Sphere Standard was the first mass-produced battle armor fielded by the Great Houses. The medium-weight suit was reverse-engineered from captured Clan Elemental technology, giving Inner Sphere commanders their first viable counter to Clan powered infantry. Though inferior to its Clan counterpart in almost every measurable respect, the IS Standard proved reliable, affordable, and easy to manufacture across multiple production lines. Its widespread adoption reshaped Inner Sphere infantry doctrine, and the design served as the foundation for numerous successor suits developed by individual Great Houses and their defense contractors.</p>
-</overview>
 
 <capabilities>
 <p>The Magnetic modernization trades the IS Standard's traditional armor for lighter advanced plating, freeing mass for magnetic clamps and a jump booster system. Magnetic clamps allow the suit to ride on the exterior of friendly BattleMechs and vehicles without requiring OmniMech-style handholds, solving a persistent transport challenge for Inner Sphere battle armor formations. The jump booster extends leap distance to one hundred twenty meters per bound, a marked improvement in tactical mobility. A single machine gun provides anti-infantry firepower, while the left-arm battle claw enables swarming attacks. Inspired by a similar Longinus variant, the Magnetic sacrifices armor protection for mobility and transport flexibility. The thinner plating leaves troopers more exposed to concentrated fire than the standard model.</p>
 </capabilities>
+
+<overview>
+<p>Developed by the New Avalon Institute of Science in the early 3050s, the Inner Sphere Standard was the first mass-produced battle armor fielded by the Great Houses. The medium-weight suit was reverse-engineered from captured Clan Elemental technology, giving Inner Sphere commanders their first viable counter to Clan powered infantry. Though inferior to its Clan counterpart in almost every measurable respect, the IS Standard proved reliable, affordable, and easy to manufacture across multiple production lines. Its widespread adoption reshaped Inner Sphere infantry doctrine, and the design served as the foundation for numerous successor suits developed by individual Great Houses and their defense contractors.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations with the Magnetic variant served in commands following ComStar organizational doctrine. The magnetic clamp system allowed the larger formation to distribute across multiple transport vehicles, maintaining tactical cohesion while keeping pace with mechanized advances without dedicated OmniMech transport assets.</p>
@@ -167,4 +139,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG32
+</source>
+
+<published>
+RG32
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

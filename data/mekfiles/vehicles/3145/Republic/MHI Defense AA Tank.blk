@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e874-79b3-a8db-87897a31693b
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ MHI Defense AA Tank
 <year>
 3106
 </year>
-
-<originalBuildYear>
-3106
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -114,26 +114,13 @@ ISLBXAC10
 ISLBXAC10
 </Turret Equipment>
 
-<source>
-TR:3145:RotS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 14:43:03
-<overview>
-<p>The MHI Defense AA Tank entered service in 3106 as Michaelson Heavy Industries' purpose-built mobile anti-aircraft platform for the Republic Armed Forces. Designed to protect ground formations from airborne threats while providing supplemental fire support, the sixty-ton tracked vehicle represented Michaelson's ambitious expansion beyond the VTOL designs that had defined the company for decades. Produced at three facilities across the Inner Sphere, the Defense AA became a mainstay of Republic and Federated Suns armor formations. Its combination of versatile autocannon armament, respectable armor protection, and limited amphibious capability made it a flexible asset for combined-arms commanders operating across diverse terrain.</p>
-</overview>
-
 <capabilities>
 <p>The Defense AA Tank's primary armament consists of twin turret-mounted Armstrong Class-B LB 10-X Autocannons, a versatile pairing that gives the vehicle exceptional flexibility against both aerial and ground targets. Crews can load cluster munitions for devastating anti-aircraft barrages or solid slug rounds for engaging armored vehicles, with four tons of CASE-protected ammunition providing sustained endurance across extended operations. Three hull-mounted SperryBrowning Light Machine Guns offer close defense against infantry, backed by a half ton of CASE-protected machine gun ammunition.</p><p>A GM 240 XL fusion engine drives the tracked chassis to a maximum road speed of 64 kilometers per hour, keeping the tank competitive with the mechanized formations it supports. The extralight powerplant saves considerable weight but introduces vulnerability to side hits, a calculated trade-off for a vehicle expected to operate behind the forward line. Eight tons of StarSlab/7 Heavy Ferro-Fibrous armor provide solid durability for its weight class, though the protection falls short of what dedicated assault tanks carry. Limited amphibious equipment allows the Defense AA to ford shallow waterways, extending its operational reach across terrain that would stop purely land-bound vehicles. Mobile anti-air platforms are often the first targets enemy scouts designate during surprise attacks, and the ability to reposition across light water obstacles helps the Defense AA survive initial contact.</p>
 </capabilities>
+
+<overview>
+<p>The MHI Defense AA Tank entered service in 3106 as Michaelson Heavy Industries' purpose-built mobile anti-aircraft platform for the Republic Armed Forces. Designed to protect ground formations from airborne threats while providing supplemental fire support, the sixty-ton tracked vehicle represented Michaelson's ambitious expansion beyond the VTOL designs that had defined the company for decades. Produced at three facilities across the Inner Sphere, the Defense AA became a mainstay of Republic and Federated Suns armor formations. Its combination of versatile autocannon armament, respectable armor protection, and limited amphibious capability made it a flexible asset for combined-arms commanders operating across diverse terrain.</p>
+</overview>
 
 <deployment>
 <p>Defense AA Tanks are found across the Inner Sphere, serving in the armies of the Republic of the Sphere, the Federated Suns, and various other states whose worlds host Michaelson factories. The vehicle is a popular choice for irregular units the RAF deployed secretly beyond the Fortress for reconnaissance and harassment duties. Its versatile LB-X autocannons and amphibious capability make it attractive to formations operating on water-rich worlds where conventional anti-air assets struggle to maintain area coverage. Federated Suns commands have integrated the Defense AA into combined-arms air defense networks, pairing it with mobile sensor platforms and fighter screen elements. The large ammunition capacity allows crews to reserve a portion of their stowage for standard high-explosive shells in case ground units close to direct engagement range.</p>
@@ -166,4 +153,16 @@ ARMOR:StarSlab/7 Heavy Ferro-Fibrous
 COMMUNICATIONS:T12-S
 TARGETING:D2j
 </systemModels>
+
+<source>
+TR:3145:RotS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

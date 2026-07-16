@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a591-7903-92b8-0d576120a9da
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Golem Assault Armor
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -92,38 +92,14 @@ Clan BA Fire Resistant:RA
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3085
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-18
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Golem is an assault-class battle armor developed by Clan Ghost Bear, first fielded in 3067. Designed to be the definitive assault battlesuit, the two-ton suit was built to deliver heavy firepower while providing exceptional protection for its troopers. Thick, specialized armor plating and powerful short-range armament earned the design a fearsome reputation among both Clan and Inner Sphere forces. Though the Golem sacrifices speed for protection, it remains one of the most formidable assault battlesuits in active service, with multiple configurations fielded across several Clan factions.</p>
-</overview>
 
 <capabilities>
 <p>The Support configuration refocuses the Golem chassis for sustained urban combat. The Bearhunter autocannons and Advanced SRM 5 of the standard model are replaced with an Advanced SRM 6 launcher carrying six reloads, giving the suit far greater staying power in prolonged engagements. Dual anti-personnel weapon mounts provide flexible close-range options against infantry and soft targets in built-up areas.</p><p>This loadout sacrifices the standard Golem's anti-armor punch in exchange for sustained volume of fire and area suppression capability. The suit retains the fire-resistant armor and ground mobility profile of the base design, making it well-suited to the close-range, high-intensity fighting typical of urban operations. The lack of heavy direct-fire weapons means the Support variant depends on its missile systems for all serious offensive work, leaving it less effective against heavily armored targets at range.</p>
 </capabilities>
+
+<overview>
+<p>The Golem is an assault-class battle armor developed by Clan Ghost Bear, first fielded in 3067. Designed to be the definitive assault battlesuit, the two-ton suit was built to deliver heavy firepower while providing exceptional protection for its troopers. Thick, specialized armor plating and powerful short-range armament earned the design a fearsome reputation among both Clan and Inner Sphere forces. Though the Golem sacrifices speed for protection, it remains one of the most formidable assault battlesuits in active service, with multiple configurations fielded across several Clan factions.</p>
+</overview>
 
 <deployment>
 <p>Rasalhague Dominion garrison forces organized Support Golems into four-trooper squads tailored for urban pacification missions. These squads provided sustained missile fire in support of larger combined-arms formations clearing built-up areas, where the suit's ammunition depth allowed prolonged operations without resupply.</p>
@@ -156,4 +132,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+18
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

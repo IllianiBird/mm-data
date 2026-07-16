@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea10-784d-a363-533dc4007c35
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Skimmer
 <year>
 2577
 </year>
-
-<originalBuildYear>
-2577
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -96,26 +96,13 @@ Small Laser
 Flamer
 </Rear Equipment>
 
-<source>
-RG31
-</source>
-
-<published>
-RG31
-</published>
-
-<tonnage>
-5.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 14:27:05
-<overview>
-<p>The Skimmer is a lightweight open-topped hovercraft that predates the Savannah Master Hovercraft by several centuries, with examples documented as early as 2577. Never produced by a single manufacturer or to a single specification, the term describes a broad family of small civilian and paramilitary hover platforms that spread across the Inner Sphere during the Star League era and remained in widespread use long after its collapse. Small enough to traverse lightly wooded terrain and inexpensive to maintain with locally available parts, the Skimmer became a fixture of frontier worlds, mercenary light cavalry, and planetary militia forces throughout recorded history.</p><p>The design is perhaps best known as the platform S.L. Lewis adapted when developing the Savannah Master Hovercraft in the early 3000s. Lewis took a standard all-terrain Skimmer chassis, installed one of his recovered Edasich fusion engines, and added a medium laser, producing the combat vehicle that would become one of the most ubiquitous light vehicles in the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Skimmer has no fixed specification. Individual examples vary considerably in their power plants, armament, and armor protection depending on their origin, intended role, and the resources available to the operator. Most examples use conventional internal combustion or fuel cell engines rather than fusion power plants, making them easy to maintain in environments far from advanced technical support. Fusion-engined examples exist but are uncommon, and the scarcity of suitable powerplants was a recognized constraint on the platform's military potential during the early Succession Wars.</p><p>The open-topped hull is a consistent characteristic across most variants. It keeps weight and cost low, but leaves crew exposed to fire and environmental hazards. Hover mobility allows the Skimmer to cross water, marshland, and broken terrain that would stop wheeled or tracked vehicles, and the chassis is compact enough for lightly wooded areas where larger hover platforms cannot operate.</p><p>Armament is typically light, running to small lasers, machine guns, and anti-infantry weapons suited to the sentry and scouting missions most operators assign to the platform. The Skimmer is not a combat vehicle in the conventional sense. It does not trade fire with BattleMechs or armored vehicles and is not intended to. Its value lies in speed, accessibility, and the ability to put a mobile armed presence anywhere at minimal cost.</p>
 </capabilities>
+
+<overview>
+<p>The Skimmer is a lightweight open-topped hovercraft that predates the Savannah Master Hovercraft by several centuries, with examples documented as early as 2577. Never produced by a single manufacturer or to a single specification, the term describes a broad family of small civilian and paramilitary hover platforms that spread across the Inner Sphere during the Star League era and remained in widespread use long after its collapse. Small enough to traverse lightly wooded terrain and inexpensive to maintain with locally available parts, the Skimmer became a fixture of frontier worlds, mercenary light cavalry, and planetary militia forces throughout recorded history.</p><p>The design is perhaps best known as the platform S.L. Lewis adapted when developing the Savannah Master Hovercraft in the early 3000s. Lewis took a standard all-terrain Skimmer chassis, installed one of his recovered Edasich fusion engines, and added a medium laser, producing the combat vehicle that would become one of the most ubiquitous light vehicles in the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>Skimmers are found in nearly every military and many civilian organizations across the Inner Sphere, performing sentry, light patrol, and reconnaissance duties. Search-and-rescue crews favor the platform for its ability to cross varied terrain quickly with minimal logistical support. Planetary militias and mercenary light cavalry units field them as low-cost screening assets. Because no single manufacturer controls the design, availability is effectively universal, and the platform can be sourced, maintained, and repaired in almost any garrison environment. Armament and configuration vary widely by operator.</p>
@@ -148,4 +135,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG31
+</source>
+
+<published>
+RG31
+</published>
+
+<tonnage>
+5.0
+</tonnage>
 

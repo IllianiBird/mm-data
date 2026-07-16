@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e287-7901-b746-8d584be19efc
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Goblin Medium Tank
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -111,37 +111,13 @@ SRM 6
 SRM 6
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-07 14:37:40
-<overview>
-<p>The Goblin Medium Tank is one of the oldest combined-arms vehicles in the Inner Sphere, with origins predating the Star League. No single manufacturer has been identified as its original developer, but the design became a common fixture in mechanized infantry regiments of the Star League Defense Force for one defining reason: its integral infantry bay. Built to carry a small infantry team that could support the tank in close terrain, the Goblin occupied a niche that no other medium tank of its era filled.</p><p>Johnston Industries assumed Goblin production during the First Succession War, eventually consolidating the line on New Syrtis after the Fourth Succession War. That factory supplied Federated Suns regiments through the Succession Wars and beyond, keeping an aging but reliable design in continuous front-line service across two centuries of warfare.</p>
-</overview>
-
 <capabilities>
 <p>The Goblin's defining characteristic is its rear infantry bay, large enough to hold one squad or a single support weapons team. This arrangement allows the embarked infantry to add their firepower to the tank's weapons in close terrain, or to dismount and provide cover in environments where the tank cannot maneuver effectively. The BlazeFire Systems large laser provides solid range and sustained fire capability without the ammunition limitations of ballistic weapons, making the Goblin capable of contributing throughout extended engagements.</p><p>The Johnston MiniGun provides supplementary anti-infantry capability, though it has limited effect against battle armor. The tank's ICE powerplant is simpler to maintain than fusion systems and gives the Goblin a degree of operational independence valued by formations with limited technical support, but the powerplant is more vulnerable in combat than a shielded fusion engine would be.</p><p>The Goblin's weaknesses are well-documented. It is slow for a medium tank, limiting its ability to reposition or break contact. Its single laser cannot engage multiple targets effectively, and the lack of any missile armament restricts its threat profile at longer ranges. Commanders routinely pair Goblins with faster fire-support vehicles, typically light support tanks, to compensate for the vehicle's inability to engage at distance.</p>
 </capabilities>
+
+<overview>
+<p>The Goblin Medium Tank is one of the oldest combined-arms vehicles in the Inner Sphere, with origins predating the Star League. No single manufacturer has been identified as its original developer, but the design became a common fixture in mechanized infantry regiments of the Star League Defense Force for one defining reason: its integral infantry bay. Built to carry a small infantry team that could support the tank in close terrain, the Goblin occupied a niche that no other medium tank of its era filled.</p><p>Johnston Industries assumed Goblin production during the First Succession War, eventually consolidating the line on New Syrtis after the Fourth Succession War. That factory supplied Federated Suns regiments through the Succession Wars and beyond, keeping an aging but reliable design in continuous front-line service across two centuries of warfare.</p>
+</overview>
 
 <deployment>
 <p>Replacing the large laser with three SRM-6 racks dramatically increases close-range firepower at the expense of any engagement capability beyond short range. This variant operates best in urban environments and prepared defensive positions where engagements are inherently close-range. The sixty rounds of SRM ammunition provide adequate fire volume for urban engagements, though the vehicle is dependent on support to screen its approach through areas where opponents can engage at distance.</p>
@@ -174,4 +150,20 @@ ARMOR:9
 COMMUNICATIONS:XL
 TARGETING:Tracker with RangeCheck
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+45.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

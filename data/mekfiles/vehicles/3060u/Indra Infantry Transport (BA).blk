@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.00-nightly-2026-05-01 on 2026-05-02
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e51c-735a-a494-15e5ae8274ea
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Indra Infantry Transport
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -117,22 +117,6 @@ CLAPGaussRifle
 CLAPGaussRifle
 </Turret Equipment>
 
-<slotless_equipment>
-ISBPodAmmo
-</slotless_equipment>
-
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
 <capabilities>
 <p>The Indra's defining characteristic is its choice of primary armament. A fixed-forward Type 22 Extended Range PPC gives the vehicle hitting power well beyond what most infantry transports carry, but the weapon's mass demands nearly as much again in heat sinks, and sustained fire builds heat in the cargo compartment to dangerous levels. An attempt to install a dedicated cooling circuit around the infantry bay provided little practical relief.</p><p>Anti-personnel defense comes from four Series IX Machine Guns mounted in a micro-turret, providing 360-degree coverage against unarmored infantry. The turret weapons have demonstrated unexpected effectiveness against lightly armored vehicles as well, fouling tracks, disabling turret mechanisms, and damaging control surfaces at close range well beyond their nominal anti-armor rating.</p><p>Five tons of Compound K4 ferro-fibrous armor provide solid protection for the vehicle's size, with front and side coverage adequate against heavy direct-fire weapons. Rear and turret armor is lighter, capable of stopping small arms and most anti-vehicle weapons but not designed to absorb main battle fire from multiple angles. The Indra's tires incorporate a self-sealing HarJel polymer gel system, used on WarShips and Elemental battle suits, allowing punctured tires to repair and re-inflate against impacts up to 50mm caliber. Larger rounds defeat the system, but it provides meaningful protection in the small-arms environment most infantry transports operate in. The Fusion 155 power plant delivers a flanking speed of 86 kph, competitive with the mechanized formations it typically supports.</p>
 </capabilities>
@@ -177,8 +161,11 @@ TARGETING:Series VI KITT
 TR:3060
 </source>
 
+<published>
+RS:3060u
+</published>
+
 <tonnage>
 35.0
 </tonnage>
-
 

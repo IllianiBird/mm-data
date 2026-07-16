@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9d6-719b-8a02-67da557995ea
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Browning Mobile HQ
 <year>
 2635
 </year>
-
-<originalBuildYear>
-2635
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -108,29 +108,13 @@ ISAMS Ammo
 ISAntiMissileSystem
 </Turret Equipment>
 
-
-
-
-<source>
-RG29
-</source>
-
-<published>
-RG29
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 17:28:43
-<overview>
-<p>The Browning Mobile Headquarters was an alternative mobile command vehicle that served alongside the original Star League Defense Force Mobile HQ during the final centuries of the Star League era. Produced by Mitchell Vehicles on Terra, the Browning was designed as a lighter, more accessible command platform for regiment-level and smaller formations. Where the standard Mobile HQ provided theater-level coordination with its seven tons of communications equipment, the Browning carried a reduced but still capable four-ton suite better matched to the needs of combined-arms commanders in the field. Its smaller footprint and simpler construction made it a practical choice for officers who valued tactical flexibility over the comprehensive but fragile capabilities of larger command vehicles.</p>
-</overview>
-
 <capabilities>
 <p>The Browning retains four tons of communications equipment, enough to coordinate regiment-level operations and maintain satellite links without the full battle computer suite of the heavier Mobile HQ. A Guardian ECM Suite provides electronic warfare protection, jamming enemy targeting systems and shielding nearby friendly units from advanced munitions. A McArthur Anti-Missile System offers point defense against incoming missiles, with its ammunition bay protected by CASE to prevent a catastrophic kill if the magazine is breached.</p><p>Powered by an Omni 130 fusion engine, the Browning achieves a brisk top speed of 97 km/h, making it one of the fastest command vehicles in service. StarSlab/3 armor provides reasonable protection for a vehicle of its weight class, though commanders are well advised to keep the Browning behind the front lines. The vehicle carries no offensive weaponry, relying entirely on its speed and electronic defenses for survival. The Bowman CommSet with integrated Guardian ECM and Wayne SweepSight targeting system provide a comprehensive electronic picture of the battlefield for the command staff.</p>
 </capabilities>
+
+<overview>
+<p>The Browning Mobile Headquarters was an alternative mobile command vehicle that served alongside the original Star League Defense Force Mobile HQ during the final centuries of the Star League era. Produced by Mitchell Vehicles on Terra, the Browning was designed as a lighter, more accessible command platform for regiment-level and smaller formations. Where the standard Mobile HQ provided theater-level coordination with its seven tons of communications equipment, the Browning carried a reduced but still capable four-ton suite better matched to the needs of combined-arms commanders in the field. Its smaller footprint and simpler construction made it a practical choice for officers who valued tactical flexibility over the comprehensive but fragile capabilities of larger command vehicles.</p>
+</overview>
 
 <deployment>
 <p>The Browning Half-Track is a limited-production variant that replaces the standard wheeled suspension with a half-tracked drivetrain, offering improved mobility on rough terrain at the cost of top speed. Republic forces used this model on worlds where road infrastructure was poor or nonexistent, and the AFFS adopted several during the expansion of former Republic territories. Half-Tracks are rare enough that spotting one usually indicates a formation with Republic heritage or direct access to Mitchell Vehicles' production line.</p>
@@ -153,4 +137,16 @@ ARMOR:StarSlab/3
 COMMUNICATIONS:CommSet (Echo IX)
 TARGETING:SweepSight
 </systemModels>
+
+<source>
+RG29
+</source>
+
+<published>
+RG29
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

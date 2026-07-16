@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a558-71a3-b21d-878702bad219
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Clan Medium Battle Armor
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -88,41 +88,15 @@ BASearchlight:LA
 
 <slotless_equipment>
 BAJumpJet
-BA-SRM3 Ammo:Shots1#
-BA-SRM3 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3085
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Clan Medium Battle Armor is a Clan-technology medium-weight suit developed by Clan Nova Cat’s Scientist Caste after the Clan’s relocation to the Inner Sphere. Designed as an improvement over the standard Elemental, the suit incorporates enhanced jump mobility at the cost of reduced protection, filling a gap for a more agile powered infantry platform. Its distinctive samurai-influenced styling reflects the Clan’s growing cultural ties to its Draconis Combine hosts. The design’s adaptable chassis proved attractive to multiple Clans, each fielding specialized configurations suited to their own tactical doctrines and operational needs.</p>
-</overview>
 
 <capabilities>
 <p>The Rache upgrades the base design with improved armor protection, making it more durable in sustained engagements than other configurations. Its primary armament consists of an arm-mounted machine gun paired with twin one-shot SRM-3 launchers, giving each trooper a solid combination of sustained anti-infantry fire and single-use missile strikes. The machine gun proves effective against soft targets and light vehicles, while the SRM-3 salvos deliver concentrated damage against armored opponents.</p><p>This weapons package emphasizes staying power over the hit-and-run approach of other configurations. The Rache retains the base chassis’s jump booster system, HarJel self-sealing protection, and searchlight. Its heavier armor comes at the cost of some internal payload flexibility, but the trade-off gives frontline units a more survivable platform for prolonged combat operations.</p>
 </capabilities>
+
+<overview>
+<p>The Clan Medium Battle Armor is a Clan-technology medium-weight suit developed by Clan Nova Cat’s Scientist Caste after the Clan’s relocation to the Inner Sphere. Designed as an improvement over the standard Elemental, the suit incorporates enhanced jump mobility at the cost of reduced protection, filling a gap for a more agile powered infantry platform. Its distinctive samurai-influenced styling reflects the Clan’s growing cultural ties to its Draconis Combine hosts. The design’s adaptable chassis proved attractive to multiple Clans, each fielding specialized configurations suited to their own tactical doctrines and operational needs.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere forces aligned with or absorbed from Clan Wolf organized the Rache into four-trooper squads. The enhanced durability suited conventional infantry integration, where sustained firepower and staying power mattered more than the specialized roles of other configurations.</p>
@@ -157,4 +131,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

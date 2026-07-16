@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e923-76cd-ae93-0c3da0b8b790
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Weapon Carrier (Tracked)
 <year>
 2775
 </year>
-
-<originalBuildYear>
-2775
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -107,22 +107,13 @@ Autocannon/20
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-His:LoT2
-</source>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 19:27:01
-<overview>
-<p>The Weapon Carrier is a sixty-ton tracked combat vehicle designed by SLDF engineers during the Star League Civil War as a rapidly produced fire support platform. Based on earlier Age of War primitive weapons carriers, the design was manufactured by Drago, Ltd. of Skye as one of many companies mass-producing vehicles to replace losses during the Amaris Coup. Unlike the Quikscell carrier family built around internal combustion engines and minimal protection, the Weapon Carrier utilized a fusion powerplant and ferro-fibrous armor, providing substantially greater survivability at the cost of higher production complexity.</p>
-</overview>
-
 <capabilities>
 <p>The AC/20 variant replaces the LB-X autocannons with two Class 20 autocannons, transforming the Weapon Carrier into a devastating close-range ambush platform. A single LRM-5 launcher provides minimal long-range capability. Three tons of AC/20 ammunition limit sustained fire but the massive damage potential of twin Class 20 weapons can cripple most targets in a single salvo.</p><p>The same GM 180 fusion engine, Aldis Heavy Ferro-Fibrous armor, Initrode Widecom communications, and RCA Instatrac Mark VI targeting equip this variant. The heavy forward armor concentration suits the ambush role, though the thin rear armor makes retreat from failed ambush positions extremely dangerous.</p>
 </capabilities>
+
+<overview>
+<p>The Weapon Carrier is a sixty-ton tracked combat vehicle designed by SLDF engineers during the Star League Civil War as a rapidly produced fire support platform. Based on earlier Age of War primitive weapons carriers, the design was manufactured by Drago, Ltd. of Skye as one of many companies mass-producing vehicles to replace losses during the Amaris Coup. Unlike the Quikscell carrier family built around internal combustion engines and minimal protection, the Weapon Carrier utilized a fusion powerplant and ferro-fibrous armor, providing substantially greater survivability at the cost of higher production complexity.</p>
+</overview>
 
 <deployment>
 <p>The AC/20 variant earned a reputation as a feared ambush tank during the Star League Civil War, capable of destroying lighter targets outright with its twin Class 20 weapons. Surviving examples were highly prized during the Succession Wars for their devastating close-range firepower.</p>
@@ -153,4 +144,12 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Widecom
 TARGETING:Instatrac Mark VI
 </systemModels>
+
+<source>
+His:LoT2
+</source>
+
+<tonnage>
+60.0
+</tonnage>
 

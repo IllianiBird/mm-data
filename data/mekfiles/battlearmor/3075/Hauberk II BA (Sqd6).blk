@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a3f7-7f1b-a06d-1d97344eb675
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Hauberk II Battle Armor
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -93,38 +93,14 @@ IS BA Stealth (Improved):RA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Hauberk II is a close-combat adaptation of the Hauberk assault battle armor, developed for the Armed Forces of the Federated Suns during the Jihad. Produced by General Motors on Salem, the design replaced the base Hauberk's long-range armament with weapons better suited to urban fighting. Retaining the same heavy frame and defensive armor of its parent design, the Hauberk II gave AFFS infantry commanders a powerful option for the close-quarters engagements that defined the later stages of the conflict on New Avalon.</p>
-</overview>
 
 <capabilities>
 <p>The Hauberk II trades the base model's long-range missile capability for close-quarters lethality. Twin Magshot Gauss Rifles replace the LRM-5, providing accurate, hard-hitting ballistic fire at short to medium ranges. A small pulse laser replaces the standard small laser, improving accuracy against fast-moving targets in the chaotic conditions of urban combat. The suit retains the improved stealth armor of its parent design, allowing troopers to close to effective range without drawing concentrated fire.</p><p>At two thousand kilograms, the Hauberk II shares the base model's movement limitations: ten kilometers per hour ground speed, no jump capability, and too heavy to ride OmniMechs. A battle claw provides close-combat capability. The design fills the same defensive role as the standard Hauberk but excels in enclosed environments where long-range weapons offer little advantage.</p>
 </capabilities>
+
+<overview>
+<p>The Hauberk II is a close-combat adaptation of the Hauberk assault battle armor, developed for the Armed Forces of the Federated Suns during the Jihad. Produced by General Motors on Salem, the design replaced the base Hauberk's long-range armament with weapons better suited to urban fighting. Retaining the same heavy frame and defensive armor of its parent design, the Hauberk II gave AFFS infantry commanders a powerful option for the close-quarters engagements that defined the later stages of the conflict on New Avalon.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake forces battling on New Avalon would have been among the first to encounter the Hauberk II in combat, as the design was created specifically to counter Blakist battle armor in urban engagements. Captured examples reorganized into six-trooper Level I formations would have provided valuable insight into AFFS field modification capabilities.</p>
@@ -157,4 +133,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

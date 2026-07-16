@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-ddf9-769f-94fc-91166259a4e1
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Harvester
 model:HVR-99 AgroMech
 mul id:4264
@@ -28,6 +29,7 @@ published:RS:VA
 rules level:2
 role:Ambusher
 
+quirk:gas_hog
 
 mass:30
 engine:120 ICE Engine
@@ -35,8 +37,6 @@ structure:IS Industrial
 myomer:Standard
 cockpit:Industrial Cockpit
 gyro:Standard Gyro
-
-quirk:gas_hog
 
 heat sinks:0 Single
 walk mp:4
@@ -169,7 +169,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Harvester is a light IndustrialMech designed for large-scale agricultural operations across the Inner Sphere. Developed by Iroquois Machinery Limited on the Federated Suns world of Shawnee, the original HVR-99 entered full production in 3049 after engineers utilized Star League-era prototype schematics recovered from the Helm Memory Core. Capable of harvesting crops three times faster than conventional machinery, the design spread rapidly across food-producing worlds throughout the Federated Suns within a decade of its introduction.</p><p>The Harvester line was expanded significantly in the 3120s when Achernar IndustrialMechs and DiNapoli Industries licensed the design, producing the heavier forty-ton HVR-199 series to compete with newer AgroMechs such as the Demeter. The rugged Harvester chassis has since become one of the most widespread AgroMechs in the former Republic of the Sphere and the Federated Suns alike.</p>
 
 capabilities:<p>The original HVR-99 mounts a Junkers 120 internal combustion engine that propels the thirty-ton AgroMech to a respectable top speed of sixty-four kilometers per hour, though the powerplant is notoriously high-maintenance and prone to breakdown if not serviced every thirty work-hours. A fifteen-ton capacity lift hoist occupies the right arm, enabling the Harvester to handle heavy loads and transfer harvested material to trailing cargo trucks, while a combine mounted in place of the left hand actuator allows the machine to cut and gather crops efficiently. A small half-ton cargo bay in the center torso rounds out its carrying capacity.</p><p>Protected by LaborHeavy/1 industrial armor, the HVR-99 is better armored than many IndustrialMechs of similar tonnage, a feature originally intended to protect it from large fauna on frontier agricultural worlds. The heavier HVR-199 series expands on this foundation with ten additional tons of mass, a more fuel-efficient engine, and significantly heavier armor capable of withstanding hazardous operating conditions. This robust construction proved fortuitous when operators began stripping the outer armor layer from HVR-199 frames to free sufficient weight for mounting military-grade weapons, creating the various MOD configurations that proliferated across the Dark Age battlefield.</p>
@@ -181,6 +180,8 @@ history:<p>The Harvester owes its existence to the discovery of the Helm Memory 
 manufacturer:Iroquois Machinery Limited
 
 primaryfactory:Shawnee
+
+fluffdate:2026-02-21 18:07:19
 
 systemmanufacturer:CHASSIS:Iroquois Machinery
 systemmode:CHASSIS:Medium

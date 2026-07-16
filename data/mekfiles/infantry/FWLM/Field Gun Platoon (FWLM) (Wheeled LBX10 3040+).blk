@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bc6e-73aa-a203-a3f0fa6a624d
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Gun Platoon (FWLM)
 <year>
 3040
 </year>
-
-<originalBuildYear>
-3040
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -59,7 +59,9 @@ ISLBXAC10
 IS LB 10-X Cluster Ammo
 </Field Guns Equipment>
 
-
+<overview>
+<p>New technology and creative tactical thinking have long featured in FWLM infantry deployment, with varied unit types and specialized formations treated as the norm rather than the exception. Towing crew-served LB 10-X autocannon, these platoons deploy one of the most tactically flexible field guns available, switching between armor-piercing slugs and cluster munitions depending on the target.</p>
+</overview>
 
 <notes>
 Intro date based on common production date of LBX autocannon
@@ -80,9 +82,4 @@ InfantryAssaultRifle
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>New technology and creative tactical thinking have long featured in FWLM infantry deployment, with varied unit types and specialized formations treated as the norm rather than the exception. Towing crew-served LB 10-X autocannon, these platoons deploy one of the most tactically flexible field guns available, switching between armor-piercing slugs and cluster munitions depending on the target.</p>
-</overview>
 

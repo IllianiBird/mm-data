@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e91b-7a92-a053-5463c1a5d943
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Vali Artillery Vehicle
 <year>
 2600
 </year>
-
-<originalBuildYear>
-2600
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -106,36 +106,13 @@ ISArrowIV
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-<source>
-His:LoT2
-</source>
-
-<published>
-His:LoT2
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>The Vali Artillery Vehicle is a wheeled fire support platform developed by Veridian Dynamics during the Reunification War, designed to provide organic indirect fire capability at the regimental level within the Star League Defense Force. Adapted from the company's proven RR-4 recovery vehicle, the Vali integrated the Arrow IV missile system into an existing battlefield chassis, sharply shortening development time and allowing Veridian's engineers to focus entirely on weapons integration. Despite competing with more advanced designs, it proved to be the most popular offering in its class, and its ease of maintenance and spacious crew compartment earned it lasting favor among SLDF crews throughout the twenty-seventh century. Manufactured at Veridian Dynamics' facility on Ozawa, the Vali remained a familiar sight in SLDF artillery formations long after the Reunification War concluded.</p>
-</overview>
-
 <capabilities>
 <p>Veridian based the Vali on its widely successful RR-4 recovery vehicle. This approach allowed engineers to focus entirely on integrating the Arrow IV launcher, which was mounted in a simple superstructure that also housed the crew and their ammunition supply. The result was a vehicle that SLDF crews appreciated for its reliability, ease of maintenance compared to tracked vehicles, and spacious crew compartment.</p><p>Though the Vali's wheeled chassis meant it could not traverse every terrain that BattleMechs or heavy armor could manage, it possessed more than enough speed and mobility to keep pace with the line of advance. Four tons of Horden ferro-fibrous armor protect against small arms and counter-battery fire, though the Vali is not suited to direct engagement with combat vehicles or BattleMechs.</p><p>Five tons of ammunition allow the Vali to sustain continuous fire for more than four straight minutes. Reloading is accomplished via large doors in the rear of the vehicle. A crew without access to additional equipment can load by hand using the Vali's own reloading hoist, though a dedicated support vehicle on the same chassis can cut reloading times by a third by lifting out empty missile magazines and dropping fresh ones in. The primary limitation is that same ammunition capacity, which demands resupply discipline and coordination with logistics to sustain operations beyond the initial engagement window.</p>
 </capabilities>
+
+<overview>
+<p>The Vali Artillery Vehicle is a wheeled fire support platform developed by Veridian Dynamics during the Reunification War, designed to provide organic indirect fire capability at the regimental level within the Star League Defense Force. Adapted from the company's proven RR-4 recovery vehicle, the Vali integrated the Arrow IV missile system into an existing battlefield chassis, sharply shortening development time and allowing Veridian's engineers to focus entirely on weapons integration. Despite competing with more advanced designs, it proved to be the most popular offering in its class, and its ease of maintenance and spacious crew compartment earned it lasting favor among SLDF crews throughout the twenty-seventh century. Manufactured at Veridian Dynamics' facility on Ozawa, the Vali remained a familiar sight in SLDF artillery formations long after the Reunification War concluded.</p>
+</overview>
 
 <deployment>
 <p>The SLDF's goal at the turn of the twenty-seventh century was to provide every one of its regiments a battery of Valis that could trail the front lines to provide close fire support. This would free the longer-ranged guns of divisional artillery battalions to concentrate fire on critical targets rather than routine suppression missions. Though the SLDF never fully met this goal, every regular army BattleMech and armor regiment could claim an organic battery of at least two artillery pieces prior to the Coup.</p><p>In practice, Vali batteries operated closely with their parent regiments, positioning behind the forward line and engaging targets of opportunity identified by forward observers. The vehicle's wheeled mobility allowed it to relocate quickly after firing to avoid counter-battery response, a tactic that SLDF artillery doctrine formalized during the later Star League period. Crews became adept at rapid displacement, often moving two to three times per engagement before the enemy could plot their firing position.</p>
@@ -168,4 +145,20 @@ ARMOR:Ferro Plate
 COMMUNICATIONS:ArgentComm 5
 TARGETING:MAGNUS D
 </systemModels>
+
+<source>
+His:LoT2
+</source>
+
+<published>
+His:LoT2
+</published>
+
+<tonnage>
+40.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

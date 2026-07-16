@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eae4-7240-bf52-9ce4d3d2aec0
+</UUID>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Corx Mobile Tunnel Miner
 <year>
 2420
 </year>
-
-<originalBuildYear>
-2420
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -136,26 +136,13 @@ MiningDrill
 2
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-200.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Corx Mobile Tunnel Miner is among the most widely distributed industrial support vehicles in the Inner Sphere, produced by Terex-Schaeff on New Earth beginning in 2420. Designed to meet the growing excavation demands of interstellar colonization, the Corx belongs to the Mobile Tunnel Miner class, a category of heavy tracked vehicles that has served as a foundation of large-scale mining and construction since the early Terran Hegemony period. Capable of cutting nearly any tunnel profile required by engineers, the Corx quickly earned preference over earlier designs, building a reputation for versatility and speed that carried it into widespread service across inhabited space. Though its core architecture reflects its Terran Hegemony origins, the Corx remains a common sight in active mining operations centuries after its introduction, a reflection of the soundness of its original design principles and the enduring demand for capable underground excavation equipment.</p>
-</overview>
-
 <capabilities>
 <p>The Corx is a 200-ton tracked support vehicle driven by a fission power plant that provides reliable, long-duration energy suited to sustained underground operations. Ground mobility is deliberately limited, with a cruise speed under fifteen kilometers per hour and a flank speed roughly double that, as the Corx is designed for work in confined excavation sites rather than overland transit. The vehicle's primary mining system is the TS-Essex rock cutter platform, mounted in the forward position and capable of cutting at angles up to forty-five degrees from horizontal. A sixteen-speed cutter drive combined with a lightweight condensing system prevents overheating during continuous operation, and the overall system delivers tunnel production rates more than five times greater than those of the earlier MoleRat design. A secondary mining drill mounted in the turret supplements the forward cutter for precision excavation work.</p><p>Supporting equipment includes four searchlights for illumination in lightless environments, five chemical sprayers for dust control and atmospheric management, and an Environmental Sealing chassis modification that protects crew and systems from hazardous subsurface conditions. The Corx carries approximately twenty-six tons of liquid cargo capacity, typically used for chemical supplies or extracted samples. Self-defense armament consists of two small lasers in the turret, backed by commercial-grade armor rated at BAR 5 across all facings. A five-person crew of officer, enlisted specialists, and gunner operates the vehicle. By 3078, the Corx carries an Obsolete design designation, reflecting the age of its underlying technology architecture rather than any failure of capability in its intended role.</p>
 </capabilities>
+
+<overview>
+<p>The Corx Mobile Tunnel Miner is among the most widely distributed industrial support vehicles in the Inner Sphere, produced by Terex-Schaeff on New Earth beginning in 2420. Designed to meet the growing excavation demands of interstellar colonization, the Corx belongs to the Mobile Tunnel Miner class, a category of heavy tracked vehicles that has served as a foundation of large-scale mining and construction since the early Terran Hegemony period. Capable of cutting nearly any tunnel profile required by engineers, the Corx quickly earned preference over earlier designs, building a reputation for versatility and speed that carried it into widespread service across inhabited space. Though its core architecture reflects its Terran Hegemony origins, the Corx remains a common sight in active mining operations centuries after its introduction, a reflection of the soundness of its original design principles and the enduring demand for capable underground excavation equipment.</p>
+</overview>
 
 <deployment>
 <p>The Corx Mobile Tunnel Miner operates across virtually every region of inhabited space, found in the inventories of mining consortiums, planetary engineering corps, and military construction units wherever large-scale underground work is required. Its Terran Hegemony origins meant that early production served colonial development programs across Hegemony space, and as New Earth passed through successive political owners during the Succession Wars, Corx production served Lyran Commonwealth, Federated Commonwealth, Word of Blake, and Republic of the Sphere clients in turn. The dispersal of the Aggerri fleet at auction in 2982 further seeded the design into markets that had previously lacked direct access to Terex-Schaeff output.</p><p>Primary operators are industrial concerns and planetary governments with active mining programs, though military engineering units maintain the Corx for tunnel excavation and field fortification tasks. The vehicle's fission power plant and straightforward mechanical systems make it attractive in economies where complex maintenance infrastructure is unavailable. Despite its age, functioning Corx units remain in active service throughout the post-Jihad Inner Sphere, valued for the combination of raw excavation capability and long-term durability that has characterized the design since its introduction.</p>
@@ -190,4 +177,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+200.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

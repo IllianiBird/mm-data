@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e700-73d7-8ec5-076cb8733000
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Padilla Tube Artillery Tank
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -107,26 +107,13 @@ LRM 5
 LRM 5
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Padilla Tube Artillery Tank entered service in 3077 as a Word of Blake design, commissioned by Precentor Martial Cameron St. Jamais and built by Aldis Industries on Terra. Though it shares the Padilla name and general fire support role with Leopard Armor's Star League-era Padilla Heavy Artillery Tank, the Tube Artillery Tank is a substantially different vehicle: wheeled rather than tracked, twenty tons lighter, and armed with conventional tube artillery rather than the Arrow IV missile system. Designed to provide a more logistically supportable artillery platform than the Arrow IV-dependent Padilla Heavy, the Tube Artillery Tank draws on a far broader munitions supply chain and requires none of the specialized support equipment the older design demanded. When the Republic of the Sphere inherited Terra after the Jihad, it adopted the Aldis Industries design as its primary conventional artillery support platform, a role the vehicle continues to fill across Principes Guard and Standing Guard formations into the Dark Age.</p>
-</overview>
-
 <capabilities>
 <p>The Padilla Tube Artillery Tank's primary armament is a Sniper artillery piece, mounted to deliver accurate indirect fire against targets at significant range. Backed by two tons of ammunition, the Sniper allows the Padilla to engage targets well beyond the reach of most direct-fire weapons while the vehicle itself remains outside effective counter-battery range. For shorter-range fire support, the Padilla carries two LRM-5 launchers with two tons of shared ammunition, a bay large enough to accommodate mixed loadouts. Padilla crews have on occasion loaded Thunder LRMs to create quick minefields, using the indirect capability to delay pursuing forces while the vehicle withdraws from close contact. Two small pulse lasers deter conventional and battle-armored infantry that close to short range.</p><p>All production variants benefit from the wheeled chassis's superior road speed compared to the original tracked Padilla Heavy, allowing faster repositioning between firing positions. Seven and a half tons of Star Slab/3 armor protect a vehicle that is well-armored for its size, a necessary investment given the relatively low top speed that could otherwise make it an easy target for fast-moving units or airstrikes. The (LTC) variant replaces one LRM launcher and a ton of ammunition with a Long Tom Cannon and adds a Guardian ECM Suite for self-protection, trading close-range defensive firepower for substantially greater artillery range. The (Thumper) variant substitutes a Thumper artillery piece for the Sniper, replaces the small pulse lasers with medium pulse lasers, and adds four MML-3 launchers for flexible close-range capability, producing a loadout particularly better equipped for direct engagement than the base configuration. An Aldis TTS 7 targeting suite and COMSET 9c communications system complete the standard electronics fit.</p>
 </capabilities>
+
+<overview>
+<p>The Padilla Tube Artillery Tank entered service in 3077 as a Word of Blake design, commissioned by Precentor Martial Cameron St. Jamais and built by Aldis Industries on Terra. Though it shares the Padilla name and general fire support role with Leopard Armor's Star League-era Padilla Heavy Artillery Tank, the Tube Artillery Tank is a substantially different vehicle: wheeled rather than tracked, twenty tons lighter, and armed with conventional tube artillery rather than the Arrow IV missile system. Designed to provide a more logistically supportable artillery platform than the Arrow IV-dependent Padilla Heavy, the Tube Artillery Tank draws on a far broader munitions supply chain and requires none of the specialized support equipment the older design demanded. When the Republic of the Sphere inherited Terra after the Jihad, it adopted the Aldis Industries design as its primary conventional artillery support platform, a role the vehicle continues to fill across Principes Guard and Standing Guard formations into the Dark Age.</p>
+</overview>
 
 <deployment>
 <p>Republic of the Sphere primary tube artillery vehicle from 3077 forward, serving across Principes Guard and Standing Guard formations as the standard artillery support platform. The wheeled configuration is favored in garrison and second-line roles where road mobility is more operationally relevant than cross-country agility. Broader logistical support from standard Inner Sphere artillery munitions makes the base Tube variant the most commonly supplied and easiest to maintain across the Republic's diverse military districts.</p>
@@ -159,4 +146,16 @@ ARMOR:Star Slab/3
 COMMUNICATIONS:COMSET 9c
 TARGETING:Aldis TTS 7
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+55.0
+</tonnage>
 

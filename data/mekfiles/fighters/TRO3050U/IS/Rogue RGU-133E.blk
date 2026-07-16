@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-adc8-76b3-8f2f-34df83c4387c
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ RGU-133E
 <year>
 2631
 </year>
-
-<originalBuildYear>
-2631
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,26 +119,13 @@ IS Ammo LRM-15
 IS Ammo LRM-15
 </Fuselage Equipment>
 
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Rogue was commissioned by the Star League Defense Force as a specialized missile boat for zero-G patrol and fire support operations. Developed by the Iona Light Shipyards on Capella and entering SLDF service in 2631, the forty-ton light fighter carried a long-range missile payload paired with ferro-aluminum armor that gave it solid protection for its size. Its designers intended the craft to engage targets from a distance and provide sustained bombardment support across a range of operational environments, from deep-space patrol to ground attack.</p><p>A dependency on faster escorts to compensate for limited maneuverability defined how the Rogue was used throughout its career. Where other fighters were expected to hold their own in a close engagement, the Rogue was expected to find a target, engage it from range, and rely on its protection while faster allies covered the flanks.</p>
-</overview>
-
 <capabilities>
 <p>The Rogue's primary armament consists of two wing-mounted Holly-8 LRM-15 launchers capable of engaging targets at considerable range, well-suited to the fire support and zero-G bombardment role the craft was built for. The missile batteries allow the Rogue to threaten opponents before they can close to effective combat range, but the ammunition supply imposes a hard limit on sustained engagement: after eight full salvos the fighter is reduced to its backup weapons.</p><p>When the missiles run dry, a pair of Starflash-1A medium lasers provides the only remaining offensive capability. These are mounted in the nose and the rear of the craft, reflecting a practical tactical philosophy, the nose laser serves the standard attack run, while the rear-facing weapon is positioned to discourage pursuit when the Rogue turns for home. Ten single heat sinks provide adequate thermal management for normal operating conditions.</p><p>Five and a half tons of StarGlo ferro-aluminum armor makes the Rogue one of the better-protected light fighters of its generation, giving it genuine survivability against opponents who close the distance. Its five-ton fuel supply supports extended patrol endurance. Against these strengths, the fighter's limited thrust leaves it dependent on escorts when faced with enemy aircraft; a Rogue that cannot shoot first is usually one that cannot win.</p>
 </capabilities>
+
+<overview>
+<p>The Rogue was commissioned by the Star League Defense Force as a specialized missile boat for zero-G patrol and fire support operations. Developed by the Iona Light Shipyards on Capella and entering SLDF service in 2631, the forty-ton light fighter carried a long-range missile payload paired with ferro-aluminum armor that gave it solid protection for its size. Its designers intended the craft to engage targets from a distance and provide sustained bombardment support across a range of operational environments, from deep-space patrol to ground attack.</p><p>A dependency on faster escorts to compensate for limited maneuverability defined how the Rogue was used throughout its career. Where other fighters were expected to hold their own in a close engagement, the Rogue was expected to find a target, engage it from range, and rely on its protection while faster allies covered the flanks.</p>
+</overview>
 
 <deployment>
 <p>During the Star League era, the Rogue served primarily as a fire support and bombardment fighter escorted by faster craft that could screen it from interception. Its long-range missile batteries proved effective in zero-G combat and defensive operations, where limited maneuverability was a smaller liability than in a dogfight. The rear-mounted laser allowed pilots who had expended their ammunition to discourage pursuit while withdrawing. By the Clan Invasion period, surviving examples were found almost exclusively in ComStar and Word of Blake inventories, with a small number possibly stored in Clan Brian Caches.</p>
@@ -173,4 +160,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Rander 300
 TARGETING:SynCom Master
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

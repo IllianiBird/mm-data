@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e53f-79f1-838f-e9b1be6468a7
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Oro Heavy Tank
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -109,26 +109,13 @@ CLLargePulseLaser
 CLHAG30
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 21:44:37
-<overview>
-<p>The Oro Heavy Tank is a Clan combat vehicle designed specifically to oppose conventional vehicles and aircraft. Introduced in 2844 during the Golden Century, the Oro filled a critical niche in Clan combined-arms doctrine as a dedicated anti-armor and anti-air platform. Produced across numerous Clan homeworld facilities, the sixty-ton tracked tank earned a reputation as a feared presence on the battlefield. Its ability to engage both ground and airborne targets with equal lethality made it a prized asset for commanders seeking a decisive edge over enemy conventional forces. The Oro remains a common sight in Clan second-line and garrison formations, valued for its versatility and rugged reliability.</p>
-</overview>
-
 <capabilities>
 <p>Built around the rugged G6 fusion power plant, the Oro can reach speeds up to 65 kph despite carrying more than twenty-five tons of weapons and armor. The Compound 3092/3 ferro-fibrous armor provides considerable protection, though Inner Sphere commanders would consider it inadequate compared to tanks of similar tonnage such as the Manticore and Po. The Clans view the armor load as a pragmatic statement of the value, or lack thereof, assigned to vehicle crews.</p><p>The turret-mounted Kolibri Delta Series large pulse laser delivers accurate, high-volume fire at range, while a nose-mounted Series 2d extended-range medium laser provides a secondary defensive option. The Oro's most devastating weapon is its turret-mounted Type J LB-20X autocannon, capable of firing both standard slugs and cluster munitions. The cluster rounds prove particularly effective against vehicles and aircraft, shredding treads, tires, fans, and flight surfaces with ease.</p><p>The Oro shares its Build 2 JRD targeting and tracking system with the Hachiman fire support tank, though it lacks the Artemis missile control hookups. A tactical coordination system allows the gunner and commander to assume each other's role if one is incapacitated, though designers have questioned the value of this feature given the slim likelihood of surviving a penetrating hit to the crew compartment. Limited ammunition storage, with only five rounds of each type for the autocannon, forces crews to carefully manage their shots.</p>
 </capabilities>
+
+<overview>
+<p>The Oro Heavy Tank is a Clan combat vehicle designed specifically to oppose conventional vehicles and aircraft. Introduced in 2844 during the Golden Century, the Oro filled a critical niche in Clan combined-arms doctrine as a dedicated anti-armor and anti-air platform. Produced across numerous Clan homeworld facilities, the sixty-ton tracked tank earned a reputation as a feared presence on the battlefield. Its ability to engage both ground and airborne targets with equal lethality made it a prized asset for commanders seeking a decisive edge over enemy conventional forces. The Oro remains a common sight in Clan second-line and garrison formations, valued for its versatility and rugged reliability.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3073, the HAG variant replaces the LB-20X autocannon and extended-range medium laser with a single Type 0 Class 30 hyper-assault Gauss rifle and sixteen rounds of ammunition. Armor protection is doubled from the baseline model, significantly improving survivability. The Kolibri Delta large pulse laser is retained as a secondary weapon. Originally discovered in Snow Raven service near the Outworlds Alliance border, this variant may have been designed to train Raven pilots to counter the emerging hyper-assault Gauss threat, or it may reflect a broader shift in Raven design priorities. Alliance Defenders Limited on Alpheratz produces this variant under Raven Alliance authority.</p>
@@ -161,4 +148,16 @@ ARMOR:Compound 3092/3
 COMMUNICATIONS:Q2 Block 7
 TARGETING:Build 2 JRD TTS
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

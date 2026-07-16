@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e702-7d94-b279-9a125b80f23f
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Palmoni Assault Infantry Fighting Vehicle
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -122,27 +122,13 @@ Light Auto Cannon/5
 ISERMediumLaser
 </Turret Equipment>
 
-
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 21:44:37
-<overview>
-<p>The Palmoni Assault Infantry Fighting Vehicle was an 85-ton tracked combat vehicle designed by Aldis Industries on Terra for the Word of Blake's Protectorate Militia forces. Introduced in 3076, the Palmoni was conceived as a heavy infantry transport capable of delivering large formations of conventional infantry directly into contested zones under fire. Aldis Industries, long renowned for producing dependable if unimaginative armored vehicles, built the Palmoni to Word of Blake military specifications. The vehicle's generous eight-ton infantry bay and mixed weapons loadout gave Protectorate garrisons a single platform that could transport troops and provide meaningful fire support. Though overshadowed by its later Republic-era successor, the Palmoni served as the foundation for an entire family of assault transports.</p>
-</overview>
-
 <capabilities>
 <p>The Palmoni shares its basic hull and drivetrain with the later Trajan, built around a fusion engine that pushes the 85-ton vehicle to a modest flank speed of just over fifty kilometers per hour. Its primary armament consists of twin multi-missile launchers mounted in the turret, giving crews the flexibility to load long-range or short-range munitions depending on the tactical situation. A light autocannon and an extended-range medium laser round out the turret weapons, providing credible direct-fire support at medium range. Four light machine guns cover all facings, offering some deterrent against unarmored infantry attempting to close with the vehicle. A pair of anti-missile systems mounted forward help protect against incoming missile fire.</p><p>The Palmoni's distinguishing feature from its Republic successor is its Improved C3 computer, which allowed it to network with other Word of Blake units using the same system. Thirteen and a half tons of standard armor provide reasonable protection, though the vehicle's slow speed and middling armor coverage make it vulnerable in prolonged engagements against dedicated assault units. The design trades offensive punch for transport capacity, relying on its carried infantry to provide the decisive combat power once delivered to the objective.</p>
 </capabilities>
+
+<overview>
+<p>The Palmoni Assault Infantry Fighting Vehicle was an 85-ton tracked combat vehicle designed by Aldis Industries on Terra for the Word of Blake's Protectorate Militia forces. Introduced in 3076, the Palmoni was conceived as a heavy infantry transport capable of delivering large formations of conventional infantry directly into contested zones under fire. Aldis Industries, long renowned for producing dependable if unimaginative armored vehicles, built the Palmoni to Word of Blake military specifications. The vehicle's generous eight-ton infantry bay and mixed weapons loadout gave Protectorate garrisons a single platform that could transport troops and provide meaningful fire support. Though overshadowed by its later Republic-era successor, the Palmoni served as the foundation for an entire family of assault transports.</p>
+</overview>
 
 <deployment>
 <p>The Palmoni was deployed exclusively with Word of Blake Protectorate Militia units during the final years of the Jihad. Its Improved C3 computer integrated the vehicle into Blakist command networks, allowing militia formations to share targeting data across their defensive positions. The vehicle was found on nearly every planet liberated by the Coalition in late 3077 and 3078, proof of the scale of Aldis's production effort for the Word.</p>
@@ -175,4 +161,16 @@ ARMOR:Maxi II
 COMMUNICATIONS:3000
 TARGETING:Omicron X
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

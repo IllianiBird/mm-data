@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a68d-7314-8829-277a0c689d42
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Ogre Battle Armor
 <year>
 3091
 </year>
-
-<originalBuildYear>
-3091
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -101,38 +101,14 @@ IS BA Mimetic:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:FWL
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-14
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>Tvastar Enterprises' first entry into the battle armor market, the Ogre was designed to supplement slower vehicle platoons and fill gaps in Regulan planetary militias. Introduced in 3091, this heavy Inner Sphere suit was built on Regulus during a period of increasing reliance on non-BattleMech forces across the former Free Worlds League. The Ogre's unusually wide frame and paired melee weapons give it an intimidating battlefield presence that belies its intended support role. Though ill-suited to anti-infantry work, the suit earned a fearsome, if exaggerated, combat reputation through its effectiveness against armored vehicles.</p>
-</overview>
 
 <capabilities>
 <p>The Interdictor configuration replaces a portion of the standard Ogre's SRM ammunition with an ECM Suite and upgrades the suit's protection to Mimetic Armor. This electronic warfare package disrupts enemy targeting systems and communications, while the adaptive camouflage allows troopers to close on targets with reduced detection. The combination enables the Interdictor to maneuver into more favorable positions than its standard counterpart before engaging.</p><p>The trade-off for this stealth capability is a significantly reduced missile loadout, limiting the Interdictor's ability to sustain prolonged firefights. The suit retains its paired Heavy Battle Claws and ground-level mobility profile, making it best employed in ambush or screening roles where its electronic warfare suite can disrupt enemy coordination before close-range engagement.</p>
 </capabilities>
+
+<overview>
+<p>Tvastar Enterprises' first entry into the battle armor market, the Ogre was designed to supplement slower vehicle platoons and fill gaps in Regulan planetary militias. Introduced in 3091, this heavy Inner Sphere suit was built on Regulus during a period of increasing reliance on non-BattleMech forces across the former Free Worlds League. The Ogre's unusually wide frame and paired melee weapons give it an intimidating battlefield presence that belies its intended support role. Though ill-suited to anti-infantry work, the suit earned a fearsome, if exaggerated, combat reputation through its effectiveness against armored vehicles.</p>
+</overview>
 
 <deployment>
 <p>The six-trooper Interdictor formation extends the electronic warfare footprint of each tactical element, providing broader ECM coverage across a wider frontage. Like the standard configuration, this larger squad size saw limited fielding.</p>
@@ -165,4 +141,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:FWL
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+14
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

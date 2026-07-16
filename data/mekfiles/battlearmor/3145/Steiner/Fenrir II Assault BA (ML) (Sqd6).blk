@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a777-78af-a3c9-fbd48cdc603b
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Fenrir II Assault Battle Armor
 <year>
 3119
 </year>
-
-<originalBuildYear>
-3119
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -94,42 +94,14 @@ IS BA Advanced:Body
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3145:LC
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<turret>
-Modular:6
-</turret>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-17
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Fenrir II Assault Battle Armor was an assault-class quadruped battlesuit manufactured by TharHes Industries on Tharkad for the Lyran Commonwealth Armed Forces. Introduced in 3119 as a successor to the original Fenrir, the two-ton design prioritized protection over speed, mounting nearly three times the armor of its predecessor while preserving comparable firepower through Clan-manufactured weapons. Its deliberately intimidating appearance and heavy durability made it one of the most popular battlesuits in Lyran service, quickly displacing the older Fenrir across most frontline formations.</p>
-</overview>
 
 <capabilities>
 <p>The medium laser configuration mounts a single medium laser in the Fenrir II's modular turret, providing reliable anti-armor firepower backed by thirty rounds of ammunition. The two-ton quad chassis moves at roughly thirty-two kilometers per hour, slower than the original Fenrir but protected by 680 kilograms of advanced armor capable of absorbing hits that would destroy lighter suits. The turret's field of fire and the laser's consistent damage output make this a dependable general-purpose loadout. The quad design prevents anti-BattleMech swarming and OmniMech transport. The Fenrir II's deliberately menacing appearance has a documented psychological effect on opposing forces, causing hesitation and morale disruption in combat. The medium laser provides a balanced combination of range and hitting power, making it one of the most commonly fielded Fenrir II configurations across LCAF formations.</p>
 </capabilities>
+
+<overview>
+<p>The Fenrir II Assault Battle Armor was an assault-class quadruped battlesuit manufactured by TharHes Industries on Tharkad for the Lyran Commonwealth Armed Forces. Introduced in 3119 as a successor to the original Fenrir, the two-ton design prioritized protection over speed, mounting nearly three times the armor of its predecessor while preserving comparable firepower through Clan-manufactured weapons. Its deliberately intimidating appearance and heavy durability made it one of the most popular battlesuits in Lyran service, quickly displacing the older Fenrir across most frontline formations.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper formations of medium laser Fenrir IIs saw limited service among Republic of the Sphere remnant forces and other organizations that maintained the Level I structure inherited from ComStar military doctrine. The larger formation compensated for the suit's slower speed with greater collective firepower.</p>
@@ -162,4 +134,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:LC
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<turret>
+Modular:6
+</turret>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+17
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a93a-79a3-b8c5-57ca83ba346b
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Scout Suit
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -95,38 +95,14 @@ IS BA Stealth (Improved):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Gladiators
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-4
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Scout Suit is a light battle armor design created by Gray Death Legion technicians on Glengarry. Developed alongside the Gray Death Standard from NAIS-supplied Inner Sphere Standard prototypes, the Scout took a radical approach by sacrificing weapons and heavy armor in favor of enhanced sensors, communications, and mobility. First fielded in 3052, the suit earned a reputation as one of the most capable reconnaissance platforms available to Inner Sphere forces, filling a niche that heavier combat-oriented battle armor could not address.</p>
-</overview>
 
 <capabilities>
 <p>The Willow Wisps configuration is a custom rebuild by Foxx Infantry Systems, replacing the Light Active Probe with a Clan Micro Pulse Laser. This gives each trooper sustained energy weapon firepower without ammunition concerns, well suited to the prolonged engagements of gladiatorial combat. New composite joint systems expand the suit's range of motion beyond the original design specifications, and a Clan-manufactured Jump Booster extends jump capability to four full bursts.</p><p>The 240 kilograms of Improved Stealth armor carry forward, making the suits extremely difficult targets on the arena floor. Mixed technology integration classifies the Willow Wisps as experimental, and only a small number of these custom suits exist. The configuration sacrifices the Scout's intelligence-gathering mission entirely in favor of arena combat performance.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Scout Suit is a light battle armor design created by Gray Death Legion technicians on Glengarry. Developed alongside the Gray Death Standard from NAIS-supplied Inner Sphere Standard prototypes, the Scout took a radical approach by sacrificing weapons and heavy armor in favor of enhanced sensors, communications, and mobility. First fielded in 3052, the suit earned a reputation as one of the most capable reconnaissance platforms available to Inner Sphere forces, filling a niche that heavier combat-oriented battle armor could not address.</p>
+</overview>
 
 <deployment>
 <p>A five-trooper formation of Willow Wisps suits would expand the team's arena presence, though the custom nature of the Foxx Infantry Systems rebuild limited the configuration to a small number of suits. Any Clan Point fielding these experimental mixed-technology suits would benefit from the advanced protective systems and enhanced mobility that made the originals so difficult to target in the gladiatorial arenas of Hardcore.</p>
@@ -161,4 +137,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Gladiators
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+4
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

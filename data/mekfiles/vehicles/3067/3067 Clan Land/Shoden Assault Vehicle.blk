@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e571-7292-a37e-0001a1c551e4
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Shoden Assault Vehicle
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -120,26 +120,13 @@ CLATM9
 CLATM9
 </Turret Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 14:27:05
-<overview>
-<p>The Shoden Assault Vehicle emerged from Clan Nova Cat's effort to redefine its defensive posture following the Combine-Ghost Bear War of 3062 to 3063. Khan Santin West determined that the Nova Cats required a purpose-built combat vehicle capable of holding ground rather than seeking mobile engagements. Despite its classification as an assault vehicle, the Shoden was conceived as a defensive asset, intended to anchor lines and absorb enemy offensives. Produced at Barcella Beta on Irece, the design reflects Nova Cat adaptability and their growing accommodation of Draconis Combine sensibilities. The vehicle's name honors Shoden, the elephant god of wisdom from Japanese folklore, a deliberate cultural gesture acknowledging Nova Cat's partnership with the Combine. That naming choice proved apt: the Shoden brought hard-won tactical wisdom about combined-arms defense to every Provisional Galaxy that fielded it.</p>
-</overview>
-
 <capabilities>
 <p>The Shoden centers its combat power on three turret-mounted Type 9 Series 1 ATM 9 launchers. Nine tons of ammunition give crews broad tactical flexibility, enabling them to employ standard, extended-range, and high-explosive munitions as the engagement demands. At the ranges where this flexibility pays dividends, the Shoden is a formidable defensive platform, capable of engaging enemies well before they close to effective return-fire range. Four Series 2c Light Machine Guns provide close-in anti-infantry protection, with two mounted to cover the front and one protecting each side.</p><p>Eleven and a half tons of Compound Beta armor plate provides substantial protection appropriate for a vehicle expected to hold position under fire. A Fusion 260 powerplant delivers a top speed of 64 km/h. The wheeled chassis extracts greater efficiency from the engine than a comparable tracked design would, though this comes at the cost of terrain flexibility. The Shoden is poorly suited to broken ground, dense woodland, or water obstacles. These constraints accept operational limitations in exchange for better mechanical reliability and lower maintenance demands. The Shoden is designed to be in position before the enemy arrives, and to be very expensive to remove once there.</p>
 </capabilities>
+
+<overview>
+<p>The Shoden Assault Vehicle emerged from Clan Nova Cat's effort to redefine its defensive posture following the Combine-Ghost Bear War of 3062 to 3063. Khan Santin West determined that the Nova Cats required a purpose-built combat vehicle capable of holding ground rather than seeking mobile engagements. Despite its classification as an assault vehicle, the Shoden was conceived as a defensive asset, intended to anchor lines and absorb enemy offensives. Produced at Barcella Beta on Irece, the design reflects Nova Cat adaptability and their growing accommodation of Draconis Combine sensibilities. The vehicle's name honors Shoden, the elephant god of wisdom from Japanese folklore, a deliberate cultural gesture acknowledging Nova Cat's partnership with the Combine. That naming choice proved apt: the Shoden brought hard-won tactical wisdom about combined-arms defense to every Provisional Galaxy that fielded it.</p>
+</overview>
 
 <deployment>
 <p>The Shoden entered service with all Nova Cat Provisional Galaxies except Zeta, where cultural resistance to combat vehicle deployment prevented adoption. Tau Galaxy proved the most committed adopter, incorporating the design into the 100th Striker and 274th Battle Clusters as a central element of their defensive doctrine. The vehicle served Nova Cat forces throughout the Civil War era, providing direct-fire support and anti-infantry coverage that complemented the heavier BattleMech formations it accompanied.</p>
@@ -172,4 +159,16 @@ ARMOR:Compound Beta
 COMMUNICATIONS:1685/5 Tacticom
 TARGETING:Series XXVIII IWS
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

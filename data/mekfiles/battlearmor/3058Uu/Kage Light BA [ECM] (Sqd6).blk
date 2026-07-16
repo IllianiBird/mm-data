@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a2bc-73bb-bd53-730adafc5244
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kage Light Battle Armor
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -96,38 +96,14 @@ IS BA ECM:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kage ("shadow") light battle armor was one of the first Draconis Combine designs to enter production following the Truce of Tukayyid. Developed jointly by Internal Security Force scientists and Draconis Elite Strike Team advisers, the suit was built for reconnaissance, infiltration, and intelligence gathering in hostile environments. Produced by New Samarkand Metals and Luthien Armor Works, the Kage entered service in 3056 as a replacement for the older DEST Infiltration Suit, offering far greater protection and mobility. The design earned a strong reputation within DCMS special operations and line formations alike for its exceptional aerial agility and advanced stealth characteristics.</p>
-</overview>
 
 <capabilities>
 <p>The ECM-equipped Kage sacrifices its squad support weapon mount to carry a battle armor ECM suite, extending the suit's electronic warfare capability beyond passive stealth. The right forearm retains an anti-personnel weapon mount, typically loaded with a submachine gun, and both armored gloves remain free for climbing and manipulation. At 750 kilograms, the Kage carries 275 kilograms of basic stealth armor incorporating electronic and infrared suppression that defeats even active probe systems. The suit's partial wing assembly enables assisted jumps of 120 meters while retracting flush to minimize the trooper's radar signature when grounded.</p><p>The ECM suite actively disrupts enemy targeting and communications within its effective radius, making this configuration particularly valuable during penetration operations where the team must suppress sensor networks rather than simply avoid them. The trade-off is the loss of heavier squad-level firepower, leaving the team reliant on anti-personnel weapons for direct engagements.</p>
 </capabilities>
+
+<overview>
+<p>The Kage ("shadow") light battle armor was one of the first Draconis Combine designs to enter production following the Truce of Tukayyid. Developed jointly by Internal Security Force scientists and Draconis Elite Strike Team advisers, the suit was built for reconnaissance, infiltration, and intelligence gathering in hostile environments. Produced by New Samarkand Metals and Luthien Armor Works, the Kage entered service in 3056 as a replacement for the older DEST Infiltration Suit, offering far greater protection and mobility. The design earned a strong reputation within DCMS special operations and line formations alike for its exceptional aerial agility and advanced stealth characteristics.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake forces captured ECM-equipped Kage suits during the Jihad and organized them into six-trooper Level I formations. Blakist intelligence units found the combination of stealth armor and active jamming well suited to counter-infiltration operations on occupied Combine worlds.</p>
@@ -162,4 +138,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

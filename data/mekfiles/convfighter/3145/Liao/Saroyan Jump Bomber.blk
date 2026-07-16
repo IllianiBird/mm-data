@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa0f-7dcc-a146-250ae987817f
+</UUID>
+
 <UnitType>
 ConvFighter
 </UnitType>
@@ -35,10 +39,6 @@ Saroyan Jump Bomber
 <year>
 3096
 </year>
-
-<originalBuildYear>
-3096
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -115,10 +115,6 @@ ISTAG
 
 <Aft Equipment>
 IS Vehicular Stealth
-IS Vehicular Stealth
-IS Vehicular Stealth
-IS Vehicular Stealth
-IS Vehicular Stealth
 ISGuardianECMSuite
 </Aft Equipment>
 
@@ -128,34 +124,13 @@ ISGuardianECMSuite
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3145:CC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>Introduced just before the turn of the thirty-second century, the Saroyan Jump Bomber was intended as a cheap adjunct for Home Guard and private militia use across the Capellan Confederation. The decades-long rebuilding effort following the Jihad left many worlds without the capital to invest in true aerospace fighters, and the market for affordable atmospheric airpower was ripe for a new design. Saroyan Special Productions of Sian adapted several technologies that had matured in the latter part of the thirty-first century and offered the twenty-five-ton fusion-powered Jump Bomber for sale. Pilots, purchasers, and professional technicians have been complaining about it ever since.</p>
-</overview>
-
 <capabilities>
 <p>On paper, the Jump Bomber excels at its intended task, but in practice it consistently falls short of expectations. Its bomb capacity is adequate for a conventional fighter of its mass, and its Hellespont stealth armor--supported by an integrated Guardian ECM suite--makes it more difficult to track than its size would suggest. However, not even stealth systems can protect the lightly armored airframe from determined return fire. The inclusion of built-in TAG target acquisition gear encourages pilots to loiter over the battlefield designating targets when they should be escaping, a doctrinal flaw that has contributed to disproportionate losses in combat.</p><p>Ground commanders frequently misunderstand the stealth armor's limitations, mistaking tactical signature reduction for true invisibility. A Jump Bomber radiating white noise from its Guardian ECM is harder to hit, but it is far from undetectable. Against an enemy with experienced air defense crews, the aircraft's light armor makes it easy prey once targeted.</p>
 </capabilities>
+
+<overview>
+<p>Introduced just before the turn of the thirty-second century, the Saroyan Jump Bomber was intended as a cheap adjunct for Home Guard and private militia use across the Capellan Confederation. The decades-long rebuilding effort following the Jihad left many worlds without the capital to invest in true aerospace fighters, and the market for affordable atmospheric airpower was ripe for a new design. Saroyan Special Productions of Sian adapted several technologies that had matured in the latter part of the thirty-first century and offered the twenty-five-ton fusion-powered Jump Bomber for sale. Pilots, purchasers, and professional technicians have been complaining about it ever since.</p>
+</overview>
 
 <deployment>
 <p>The Jump Bomber saw its baptism of fire during the Victoria War, when forces of the Duchy of Andurien and the Oriente Protectorate invaded the Capellan Confederation. On Altorra in 3104, a wing of Saroyan Jump Bombers based in the fortified city of Tepali initially succeeded in halting Andurien Ranger advances with conventional bombing sorties, but a third sortie using TAG-designated laser-guided bombs ended in disaster when Andurien air defense units destroyed the designating squadron, rendering the follow-on bombers ineffective. Against combined-arms AFFS formations, Jump Bombers have consistently succumbed to ground fire.</p>
@@ -188,4 +163,16 @@ ARMOR:Aerolite Stealth
 COMMUNICATIONS:MaserCom 8 with Guardian ECM Suite
 TARGETING:Mark XI with TAG
 </systemModels>
+
+<source>
+TR:3145:CC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

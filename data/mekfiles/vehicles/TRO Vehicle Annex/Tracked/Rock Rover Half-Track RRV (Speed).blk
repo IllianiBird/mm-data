@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb1f-703a-830f-682569c85ac8
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ RRV (Speed)
 <year>
 2633
 </year>
-
-<originalBuildYear>
-2633
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -104,10 +104,6 @@ HHSearchlight
 Support Laser:SIZE:2.0
 </Turret Equipment>
 
-<slotless_equipment>
-Infantry Ammo
-</slotless_equipment>
-
 <barrating>
 8
 </barrating>
@@ -120,36 +116,13 @@ Infantry Ammo
 3
 </engine_tech_rating>
 
-
-
-
-
-
-
-<notes>
-Extra ammo:
-</notes>
-
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-4.0
-</tonnage>
-
-<fuel>
-0.018
-</fuel>
-
-# Fluff Date: 2026-03-08 20:16:39
-<overview>
-<p>The RRV Rock Rover is a light infantry transport half-track produced by Pinard Electric Motors for the Taurian Concordat. Introduced in 2619, the four-ton vehicle was designed to support mechanized conventional infantry formations with reliable on-road and off-road transportation and basic fire support. The Rock Rover is one of the smaller military vehicles in common service, built not for speed but for durability and versatility in its infantry carrier role. Its small size allows it to navigate urban environments and rough terrain that larger combat vehicles cannot easily access, making it a common sight in garrison and second-line formations across the Concordat. The design has also found buyers in civilian security markets across the Periphery and Inner Sphere, demonstrating broad utility beyond purely military applications.</p>
-</overview>
-
 <capabilities>
 <p>The Rock Rover's half-track drivetrain provides a useful balance of mobility across varied terrain. An electric fuel cell engine delivers modest power sufficient for convoy escort and infantry support operations. The tracked rear section handles difficult ground and open terrain well, while the vehicle's compact profile lets it enter areas that larger platforms cannot negotiate as easily. Cruising and flanking speeds are low, but adequate for keeping pace with dismounted infantry.</p><p>For a vehicle of its size, the Rock Rover carries respectable armament. A turret-mounted Magna Red Star support laser serves as the primary weapon, backed by thirty shots of stored power. Two side-mounted auto-rifles in pintle bubble mounts provide additional defensive firepower, each carrying 300 rounds. Advanced fire control gives the crew targeting capability on par with much larger military vehicles. Armor protection is noteworthy for the weight class, with BAR 8 rated plating covering the hull sufficient to resist most small arms fire. The rear cargo bay accommodates up to fourteen unarmored infantry with equipment, while over a ton of general cargo space provides logistical flexibility. Weapon slits along the hull allow embarked troops to fire from within the vehicle even while in motion.</p>
 </capabilities>
+
+<overview>
+<p>The RRV Rock Rover is a light infantry transport half-track produced by Pinard Electric Motors for the Taurian Concordat. Introduced in 2619, the four-ton vehicle was designed to support mechanized conventional infantry formations with reliable on-road and off-road transportation and basic fire support. The Rock Rover is one of the smaller military vehicles in common service, built not for speed but for durability and versatility in its infantry carrier role. Its small size allows it to navigate urban environments and rough terrain that larger combat vehicles cannot easily access, making it a common sight in garrison and second-line formations across the Concordat. The design has also found buyers in civilian security markets across the Periphery and Inner Sphere, demonstrating broad utility beyond purely military applications.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 2633, the Speed variant strips the Rock Rover of its weapons and general cargo capacity in exchange for improved ground speed. This demilitarized configuration serves primarily with security forces, where rapid response matters more than firepower. The trade-off limits combat utility but enhances the vehicle's value for patrol and rapid transport duties across civilian and paramilitary operations.</p>
@@ -182,4 +155,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+Extra ammo:
+</notes>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+4.0
+</tonnage>
+
+<fuel>
+0.018
+</fuel>
 

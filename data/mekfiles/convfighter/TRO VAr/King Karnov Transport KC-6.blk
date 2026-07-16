@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa2e-7139-b8f9-57d0acf145bc
+</UUID>
+
 <UnitType>
 FixedWingSupport
 </UnitType>
@@ -35,10 +39,6 @@ KC-6
 <year>
 3015
 </year>
-
-<originalBuildYear>
-3015
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -135,32 +135,13 @@ VSTOLChassisMod
 3
 </engine_tech_rating>
 
-
-
-
-
-
-
-<notes>
-Based on fluff
-</notes>
-
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-200.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>As a battlefield support vehicle, New Earth Trading Company's Karnov UR Transport is a craft whose origins lay shrouded in mystery. The New Earth-based company has long been known to completely lack VTOL manufacturing capabilities, yet no other firm has taken credit for the design. In 3001, Lyran-based Lockheed/CBM of Gibbs unveiled a heavy industrial air transport with design lines so similar to the lighter Karnov that corporate conspiracy theorists immediately declared the origin mystery solved. The mystery only deepened, however, as Lockheed/CBM insisted their KC-5 air transport was based on entirely different engineering. Though Lockheed/CBM maintained the KC series bore only a superficial resemblance to the Karnov VTOL, the aircraft was built for sustained long-distance air travel rather than the shorter hops of the VTOL, with engines and electronics wholly made in the Commonwealth.</p>
-</overview>
-
 <capabilities>
 <p>The KC-9 model, which debuted in 3053, is the pinnacle of its class, weighing in at the largest possible size for maximum cargo capacity. It sports a CBM-Festerling hydrogen fuel cell engine as its main power supply, replacing the Praht-450 internal combustion turbines used by the KC-5 and KC-6 models. A sophisticated onboard communications system, first introduced on the KC-6, is complemented by one high-capacity lift hoist and six tons of industrial-grade armor strong enough to withstand most heavy weapons. The aircraft features tilt-rotor wings for VSTOL landings in difficult terrains, allowing far swifter delivery than the shorter hops of the Karnov VTOL.</p><p>Though plans were floated to upgrade to Lockheed Skyshield armor, functionally similar to modern battlefield armor, the necessary structural modifications proved too costly to the craft's primary cargo mission, and the predicted KC-10 military model never saw production. Yet, even without dedicated military armor, the KC-9's six tons of industrial plating proved adequate for most threats encountered in rear-area logistics operations. The seventy-six-ton cargo capacity with full access to a military-grade lift hoist makes the King Karnov one of the most capable industrial air transports available in the Inner Sphere.</p>
 </capabilities>
+
+<overview>
+<p>As a battlefield support vehicle, New Earth Trading Company's Karnov UR Transport is a craft whose origins lay shrouded in mystery. The New Earth-based company has long been known to completely lack VTOL manufacturing capabilities, yet no other firm has taken credit for the design. In 3001, Lyran-based Lockheed/CBM of Gibbs unveiled a heavy industrial air transport with design lines so similar to the lighter Karnov that corporate conspiracy theorists immediately declared the origin mystery solved. The mystery only deepened, however, as Lockheed/CBM insisted their KC-5 air transport was based on entirely different engineering. Though Lockheed/CBM maintained the KC series bore only a superficial resemblance to the Karnov VTOL, the aircraft was built for sustained long-distance air travel rather than the shorter hops of the VTOL, with engines and electronics wholly made in the Commonwealth.</p>
+</overview>
 
 <deployment>
 <p>Despite the lack of a dedicated military variant, sales of the KC-9 to military and militia units rose steadily throughout the Commonwealth states in the decade after the Clan Invasion, as the allies struggled to race troops and supplies to the front lines. The King Karnov competes with similar industrial air transports across the Inner Sphere, including Cal-Boeing's SA-10 Swallow favored in the Federated Suns and the AAC-60 Walrus produced by Andurien AeroTek for Free Worlds League, Capellan, and corporate agencies.</p>
@@ -177,4 +158,16 @@ Lockheed/CBM Corp.
 <primaryFactory>
 Donegal
 </primaryFactory>
+
+<notes>
+Based on fluff
+</notes>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+200.0
+</tonnage>
 

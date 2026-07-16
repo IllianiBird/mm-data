@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8ad-79cc-96f2-0b0d37063475
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Fensalir Combat WiGE
 <year>
 3141
 </year>
-
-<originalBuildYear>
-3141
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -108,33 +108,13 @@ ISAntiMissileSystem
 ISAntiMissileSystem
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 11:22:50
-<overview>
-<p>The Fensalir Combat WiGE is an eighty-ton wing-in-ground-effect attack craft developed jointly by Johnston Industries and Nashan Diversified for the Lyran Commonwealth. Entering production at Nashan's plant on Furillo in 3084, the design combined heavy firepower with the inherent speed advantages of WiGE technology in a package heavier than any combat WiGE previously fielded. At the time of its introduction, it was the largest combat WiGE in production anywhere in the Inner Sphere, establishing Nashan Diversified as a credible competitor in the combat vehicle sector. The design attracted broad interest, with Clan Wolf-in-Exile producing its own variant at WC Site 4 on Arc-Royal shortly after the original entered Lyran service. The Fensalir's adaptable chassis has supported multiple upgrade programs across decades of continued operation, cementing its place as a mainstay of Commonwealth armored formations.</p>
-</overview>
-
 <capabilities>
 <p>At eighty tons, the Fensalir is powered by a Hermes 260 XL fusion engine that drives it to a flanking speed of eighty-six kilometers per hour. While modest compared to lighter WiGE designs, this speed is remarkable for a vehicle of its tonnage and allows the Fensalir to reposition rapidly across a battlefield. The primary weapon is a turret-mounted Defiance Hammerfist heavy Gauss rifle fed by three tons of ammunition, giving the vehicle a devastating long-range punch capable of threatening most heavy and assault-class targets. Two BlazeFire Longshot extended-range medium lasers provide secondary firepower at intermediate range, while a pair of Devastator Selectable 7-tube multi-missile launchers offer tactical flexibility through selectable long-range or short-range missile loadouts with two tons of ammunition.</p><p>Johnston Duraweave 8000 heavy ferro-fibrous armor wraps the hull in eleven and a half tons of protection, offering exceptional resistance for a combat vehicle of any motive type. A four-ton infantry transport bay allows the Fensalir to deliver troops directly to contested zones, adding a combined-arms dimension to its assault role. The vehicle's principal weakness is its reliance on the heavy Gauss rifle, a weapon that is fragile and vulnerable to critical damage. Ammunition dependency across all three weapon systems also limits sustained engagement capability without resupply.</p>
 </capabilities>
+
+<overview>
+<p>The Fensalir Combat WiGE is an eighty-ton wing-in-ground-effect attack craft developed jointly by Johnston Industries and Nashan Diversified for the Lyran Commonwealth. Entering production at Nashan's plant on Furillo in 3084, the design combined heavy firepower with the inherent speed advantages of WiGE technology in a package heavier than any combat WiGE previously fielded. At the time of its introduction, it was the largest combat WiGE in production anywhere in the Inner Sphere, establishing Nashan Diversified as a credible competitor in the combat vehicle sector. The design attracted broad interest, with Clan Wolf-in-Exile producing its own variant at WC Site 4 on Arc-Royal shortly after the original entered Lyran service. The Fensalir's adaptable chassis has supported multiple upgrade programs across decades of continued operation, cementing its place as a mainstay of Commonwealth armored formations.</p>
+</overview>
 
 <deployment>
 <p>The Stealth variant diverges from the 3132 and 3137 upgrade path, instead mounting vehicular stealth armor and an improved heavy Gauss rifle with enhanced targeting capability. The stealth armor reduces the Fensalir's electronic signature, complicating enemy targeting solutions and enabling ambush tactics better suited to defensive operations in the Dark Age's fractured political sphere. This variant lacks the armored motive system and jump jet improvements of the other upgrades, trading those protective measures for reduced detectability. Introduced in 3141 and produced at Nashan Diversified on Furillo.</p>
@@ -167,4 +147,16 @@ ARMOR:Vehicular Stealth Armor
 COMMUNICATIONS:Optichat
 TARGETING:T-800 Series 5
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

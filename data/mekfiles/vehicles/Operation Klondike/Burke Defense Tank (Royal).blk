@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e939-7c37-bdbe-e320ff663499
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Burke Defense Tank
 <year>
 2713
 </year>
-
-<originalBuildYear>
-2713
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -104,26 +104,13 @@ PPC
 PPC
 </Turret Equipment>
 
-<source>
-His:OK
-</source>
-
-<published>
-RS:OK
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 13:33:24
-<overview>
-<p>The Burke Defense Tank is a seventy-five-ton tracked heavy vehicle developed by Foretechno on Terra in 2575. Designed during the formation of the Star League Defense Force, the Burke addressed the SLDF's urgent need for a heavy fire support platform capable of killing a BattleMech at long range with a single combined salvo from its triple particle cannon battery. Sacrificing mobility for firepower, the Burke became the backbone of SLDF heavy tank regiments throughout the Reunification War and the subsequent garrison operations of the Star League era. Its formidable long-range striking power and durable ferro-fibrous protection made it a feared defender in fixed positions, and its reputation spread even to the Periphery, where enemy commanders learned to route around dug-in Burke formations rather than assault them directly. The design survived the Star League's fall in limited numbers, later serving the Com Guards, the Word of Blake, and Clan Hell's Horses.</p>
-</overview>
-
 <capabilities>
 <p>Powered by a GM 150 internal combustion engine, the Burke moves slowly for its class but compensates with outstanding firepower at long range. Three Chalker Model 25 particle projection cannons mounted in the turret form the vehicle's primary battery, capable of delivering a coordinated strike that disrupts enemy communications and targeting systems through electromagnetic interference. In extreme cases, this interference can overload a BattleMech's onboard computers. Complementing the main turret is a Holly LRM-10 missile rack that extends the Burke's reach and provides suppression against lighter targets and infantry formations.</p><p>Acbar 55 ferro-fibrous armor wraps the hull in protection substantially better than equivalent-mass standard plate, giving the Burke staying power suited to its static defense role. The 1 Division 300 communications system and Scope 30 RNDST targeting array provide reliable electronics appropriate to the vehicle's long-range engagement profile. The Burke's primary weakness is its inability to sustain a prolonged engagement against multiple opponents: against a single BattleMech at range it can hold its own, but poor maneuverability and relatively light armor for its tonnage leave it vulnerable when facing flanking forces or sustained close-range pressure.</p>
 </capabilities>
+
+<overview>
+<p>The Burke Defense Tank is a seventy-five-ton tracked heavy vehicle developed by Foretechno on Terra in 2575. Designed during the formation of the Star League Defense Force, the Burke addressed the SLDF's urgent need for a heavy fire support platform capable of killing a BattleMech at long range with a single combined salvo from its triple particle cannon battery. Sacrificing mobility for firepower, the Burke became the backbone of SLDF heavy tank regiments throughout the Reunification War and the subsequent garrison operations of the Star League era. Its formidable long-range striking power and durable ferro-fibrous protection made it a feared defender in fixed positions, and its reputation spread even to the Periphery, where enemy commanders learned to route around dug-in Burke formations rather than assault them directly. The design survived the Star League's fall in limited numbers, later serving the Com Guards, the Word of Blake, and Clan Hell's Horses.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 2713 in response to persistent field complaints about the standard Burke's limited mobility, the Royal variant incorporated a VOX extralight engine providing a fifty-percent improvement in cruising speed. The LRM rack was removed in favor of two Streak SRM-2 launchers, and the weight savings allowed armor protection to increase to eight and a half tons of ferro-fibrous plate. A fleet-wide upgrade program was ordered in the years before the Amaris Coup, but production and supply constraints meant that only about half the active Burke fleet received the improvements before the campaign began. Royal variants became highly sought after in post-Succession War arsenals, particularly in Com Guard formations, where their improved mobility made them more tactically flexible than standard Burkes while retaining the formidable firepower that defined the family.</p>
@@ -158,4 +145,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:1 Division 300
 TARGETING:Scope 30 RNDST
 </systemModels>
+
+<source>
+His:OK
+</source>
+
+<published>
+RS:OK
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

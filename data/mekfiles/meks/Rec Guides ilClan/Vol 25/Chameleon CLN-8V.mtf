@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-dae3-71f0-b1da-1063f2afc38c
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Chameleon
 model:CLN-8V
 mul id:9267
@@ -175,7 +176,6 @@ Jump Jet
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The Chameleon is one of the oldest and most widely produced BattleMechs in existence, first introduced by Defiance Industries in 2510 as a dedicated training platform for the Terran Hegemony. Designed from the outset to teach prospective MechWarriors the critical skills of maneuvering, heat management, and weapon discipline, the fifty-ton medium 'Mech carries a deliberately challenging weapons-to-heat-sink ratio and special electronics capable of falsifying its sensor signature. These signature-spoofing systems allow the Chameleon to mimic 'Mechs of varying type and mass in training exercises, lending the design its name.</p><p>The Chameleon's non-combat role and its production within the heavily fortified Hesperus II facilities ensured its survival through the devastation of the Succession Wars, where hundreds of other BattleMech lines were lost. Demand for the design has remained remarkably consistent across the centuries, and the introduction of dedicated combat variants has broadened the Chameleon's role well beyond the training cadre.</p>
 
 capabilities:<p>The Chameleon was deliberately designed to be a difficult 'Mech to pilot, forcing cadets to learn the critical balance between firepower, mobility, and thermal management. Its primary armament centers on a Cyclops Eye large laser, supported by a pair of Intek medium lasers, three Defiance B3S small lasers, and two ScatterGun Light machine guns. This diverse weapons suite exposes trainees to multiple engagement ranges, while only ten single heat sinks ensure that firing all weapons simultaneously risks immediate shutdown. Special software monitors the heat level and automatically restricts weapons and jump jets when ambient temperature climbs too high, though experienced pilots often find this limiter more frustrating than helpful.</p><p>Powered by a Vlar 300 fusion engine, the Chameleon achieves a top speed of just over ninety-seven kilometers per hour and mounts six McCloud Specials jump jets for a jumping distance of one hundred and eighty meters. Seven tons of SimplePlate Manufacturers Type M armor provide only mediocre protection, a deliberate design choice intended to reinforce the importance of using mobility to avoid incoming fire. The Chameleon also carries special electronics and external armor plates that allow it to alter its sensor profile and physical appearance, enabling it to simulate opponents of varying size and configuration during exercises.</p><p>When pressed into actual combat, skilled pilots have leveraged the Chameleon's agility and signature-masking capability to surprising effect, with enemy units often misidentifying the design and underestimating its threat. However, the thin armor and underwhelming firepower remain significant liabilities in sustained engagements, and the heat management software can leave a MechWarrior unable to utilize their full weapons suite at critical moments.</p>
@@ -187,6 +187,8 @@ history:<p>The Chameleon traces its lineage to the earliest days of BattleMech d
 manufacturer:J.B. BattleMechs Inc.
 
 primaryfactory:Storfors
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Enran
 systemmode:CHASSIS:TXS2A

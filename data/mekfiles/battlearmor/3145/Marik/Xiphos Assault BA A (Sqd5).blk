@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a692-7cbf-a40c-ea9944f54b3d
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ A(Sqd5)
 <year>
 3116
 </year>
-
-<originalBuildYear>
-3116
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -92,42 +92,14 @@ BABasicManipulator:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:FWL,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-15
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 20:20:42
-<overview>
-<p>The Xiphos, named for an ancient Greek double-edged sword, was developed by Irian Technologies for the Marik-Stewart Commonwealth. Entering service in 3116, the assault-class battle armor was designed to protect infantry against artillery bombardment, one of the most effective countermeasures against powered armor formations. Weighing two thousand kilograms, the Xiphos carries specialized protective plating and an advanced communications suite resistant to electronic countermeasures. Three standard weapon configurations offer flexibility ranging from ballistic firepower to thermal detection and area denial. The suit earned a strong reputation for durability and reliable performance across both defensive and offensive operations.</p>
-</overview>
 
 <capabilities>
 <p>The Xiphos mounts close to a full ton of reactive armor, providing assault-class protection with particular resistance to explosive munitions and indirect fire. A basic manipulator on the right arm allows limited object handling, while modular weapon mounts on both arms give the suit configuration flexibility. The left arm mount carries the greater weapon capacity. An improved communications system allows battlefield coordination even under active electronic countermeasures, a critical advantage for formations operating beyond BattleMech support range.</p><p>Configuration A pairs a light recoilless rifle with a Magshot gauss rifle, offering a balanced ballistic loadout effective against both infantry and light vehicles. The recoilless rifle provides dependable antipersonnel firepower, while the Magshot delivers accurate ranged fire with minimal ammunition weight. At two thousand kilograms, the Xiphos sacrifices speed for durability. Its twenty-two kilometer per hour ground speed limits tactical mobility, but the suit’s protection and firepower make it well-suited to defensive positions and deliberate assaults where staying power matters more than agility.</p>
 </capabilities>
+
+<overview>
+<p>The Xiphos, named for an ancient Greek double-edged sword, was developed by Irian Technologies for the Marik-Stewart Commonwealth. Entering service in 3116, the assault-class battle armor was designed to protect infantry against artillery bombardment, one of the most effective countermeasures against powered armor formations. Weighing two thousand kilograms, the Xiphos carries specialized protective plating and an advanced communications suite resistant to electronic countermeasures. Three standard weapon configurations offer flexibility ranging from ballistic firepower to thermal detection and area denial. The suit earned a strong reputation for durability and reliable performance across both defensive and offensive operations.</p>
+</overview>
 
 <deployment>
 <p>Following the capture of Washburn’s production facilities, Clan Wolf organized Xiphos suits into standard five-trooper Points. The A configuration’s straightforward ballistic armament appealed to Wolf warriors who valued reliable firepower, and Points equipped with this loadout saw action during the Wolf Empire’s continued expansion, including raids against the Republic Remnant on Alhena where Wolf warriors adopted Commonwealth ambush tactics with mixed results.</p>
@@ -160,4 +132,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+15
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

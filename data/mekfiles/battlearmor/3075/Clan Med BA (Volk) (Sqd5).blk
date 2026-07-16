@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a3a8-7fdc-83ad-908375ffe98f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Clan Medium Battle Armor
 <year>
 3071
 </year>
-
-<originalBuildYear>
-3071
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -90,44 +90,15 @@ CLBASRM3 (OS):Body
 
 <slotless_equipment>
 BAJumpJet
-BA-SRM3 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Clan Medium Battle Armor is a Clan-technology medium-weight suit developed by Clan Nova Cat’s Scientist Caste after the Clan’s relocation to the Inner Sphere. Designed as an improvement over the standard Elemental, the suit incorporates enhanced jump mobility at the cost of reduced protection, filling a gap for a more agile powered infantry platform. Its distinctive samurai-influenced styling reflects the Clan’s growing cultural ties to its Draconis Combine hosts. The design’s adaptable chassis proved attractive to multiple Clans, each fielding specialized configurations suited to their own tactical doctrines and operational needs.</p>
-</overview>
 
 <capabilities>
 <p>The Volk replaces the standard configuration’s flamer with an ER micro laser, trading raw close-range output for improved accuracy at longer engagement distances. The dual one-shot SRM-2 launchers give way to a single one-shot SRM-3, consolidating missile firepower into a single more powerful salvo. A heavy battle claw mounted in the left arm provides formidable melee capability, making the Volk particularly effective in anti-BattleMech swarming attacks.</p><p>This configuration was developed specifically for fast flanking units, where the combination of ranged energy fire and a powerful close-combat weapon complements aggressive maneuver tactics. The Volk retains the base chassis’s jump booster system, HarJel protection, and standard searchlight. Like all configurations, ground speed remains limited, and troopers rely on jump mobility and OmniMech transport to close with targets.</p>
 </capabilities>
+
+<overview>
+<p>The Clan Medium Battle Armor is a Clan-technology medium-weight suit developed by Clan Nova Cat’s Scientist Caste after the Clan’s relocation to the Inner Sphere. Designed as an improvement over the standard Elemental, the suit incorporates enhanced jump mobility at the cost of reduced protection, filling a gap for a more agile powered infantry platform. Its distinctive samurai-influenced styling reflects the Clan’s growing cultural ties to its Draconis Combine hosts. The design’s adaptable chassis proved attractive to multiple Clans, each fielding specialized configurations suited to their own tactical doctrines and operational needs.</p>
+</overview>
 
 <deployment>
 <p>Clan Wolf developed the Volk specifically for its faster flanking units, deploying it in standard five-trooper Points. The configuration found particular favor among Wolf solahma units, freeing dwindling stocks of standard Elemental armor for frontline troops. Though still regarded by some as inferior to the Elemental, Wolf Points employed the Volk’s mobility and melee capability to good effect in screening and harassment operations.</p>
@@ -162,4 +133,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

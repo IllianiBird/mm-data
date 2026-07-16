@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7c4-7a94-a864-c5113fafcaba
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Longinus C Battle Armor
 <year>
 3144
 </year>
-
-<originalBuildYear>
-3144
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -86,44 +86,15 @@ CLAdvancedSRM4OS:Body
 
 <slotless_equipment>
 BAJumpJet
-BA-Advanced SRM-4 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Longinus C is a Clan-technology adaptation of the original Free Worlds League Longinus battle armor, produced by the Wolf Empire beginning in 3144. Built at captured factories on former League worlds, the medium suit incorporates Clan weapon systems while retaining the general chassis layout of its Inner Sphere predecessor. Intended primarily for garrison formations, the Longinus C provides a locally produced battle armor option that does not compete with dedicated Clan designs for manufacturing priority.</p>
-</overview>
 
 <capabilities>
 <p>The Longinus C carries a Clan-made Advanced SRM-4 launcher, a marked improvement over the original suit's single-shot SRM-2. The MMR configuration mounts a medium recoilless rifle as the primary arm weapon, offering reliable kinetic firepower at moderate range. A battle claw on the opposite arm supports close combat and swarming operations. The Clan-grade missile system provides consistent firepower that Inner Sphere variants cannot match, but the suit makes trade-offs elsewhere. Jump capability is reduced compared to the original Longinus, and the absence of HarJel environmental sealing leaves troopers exposed in hostile atmospheres and vacuum conditions. These limitations restrict the Longinus C to garrison duties and conventional battlefield environments where sealed operations are not required, making it ill-suited for frontline Clan formations.</p>
 </capabilities>
+
+<overview>
+<p>The Longinus C is a Clan-technology adaptation of the original Free Worlds League Longinus battle armor, produced by the Wolf Empire beginning in 3144. Built at captured factories on former League worlds, the medium suit incorporates Clan weapon systems while retaining the general chassis layout of its Inner Sphere predecessor. Intended primarily for garrison formations, the Longinus C provides a locally produced battle armor option that does not compete with dedicated Clan designs for manufacturing priority.</p>
+</overview>
 
 <deployment>
 <p>Four-trooper squads of MMR-armed Longinus C suits served with former Free Worlds League garrison troops absorbed into the Wolf Empire's occupation forces. These soldiers retained Inner Sphere organizational doctrine even while operating Clan-manufactured equipment, and their familiarity with the Longinus chassis eased the transition to the upgraded variant. Wolf Empire commanders assigned these squads to planetary defense duties on conquered worlds.</p>
@@ -158,4 +129,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

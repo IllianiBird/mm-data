@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea69-7bcf-a185-c649f8b45549
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Minigun Cycle
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -106,17 +106,6 @@ InfantrySRMLight:SIZE:1.0
 <Rear Equipment>
 </Rear Equipment>
 
-<slotless_equipment>
-Infantry Ammo
-Infantry Inferno Ammo
-Infantry Ammo
-Infantry Inferno Ammo
-Infantry Ammo
-Infantry Inferno Ammo
-Infantry Ammo
-Infantry Inferno Ammo
-</slotless_equipment>
-
 <barrating>
 5
 </barrating>
@@ -129,38 +118,13 @@ Infantry Inferno Ammo
 3
 </engine_tech_rating>
 
-<source>
-TR:I
-</source>
-
-<published>
-TR:I
-</published>
-
-<tonnage>
-0.35
-</tonnage>
-
-<bv>
-30
-</bv>
-
-<fuel>
-0.005
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-09 14:43:03
-<overview>
-<p>The Minigun Cycle is not a designed weapon of war but a civilian motorcycle pressed into military service. Standard commercial sport tourers and full-dress tourers provide the base platform, with support weapons and fire control systems bolted on in place of cargo capacity and pillion passenger accommodation. The conversion process is deliberately simple, requiring no specialized facilities and only basic technical skills. Dating back to the Star League era, the Minigun Cycle has remained in continuous use across the Inner Sphere as a bronze-standard light combat asset, appearing in the inventories of irregular forces, Great Houses, and the Republic of the Sphere alike.</p>
-</overview>
-
 <capabilities>
 <p>The Minigun Cycle's primary armament is a support machine gun, backed by advanced fire control that provides meaningful accuracy improvements over unguided fire. A secondary configuration substitutes a short-range missile launcher for the machine gun, trading sustained output for improved alpha strike potential against harder targets. In either loadout, the vehicle's combat effectiveness relies heavily on its mobility. The cycle can reach nearly 120 kilometers per hour, allowing it to close, engage, and disengage before more heavily armed opponents can respond effectively.</p><p>Armor protection is the design's most significant liability. The civilian frame provides minimal structural protection, and even light weapons fire stands as a serious threat. The Minigun Cycle survives through speed and positioning, not resilience. Commanders who treat it as a frontline combatant rather than a harassment or screening element will find it a costly assumption. Its value lies in numbers, availability, and the disruption it creates when used correctly.</p>
 </capabilities>
+
+<overview>
+<p>The Minigun Cycle is not a designed weapon of war but a civilian motorcycle pressed into military service. Standard commercial sport tourers and full-dress tourers provide the base platform, with support weapons and fire control systems bolted on in place of cargo capacity and pillion passenger accommodation. The conversion process is deliberately simple, requiring no specialized facilities and only basic technical skills. Dating back to the Star League era, the Minigun Cycle has remained in continuous use across the Inner Sphere as a bronze-standard light combat asset, appearing in the inventories of irregular forces, Great Houses, and the Republic of the Sphere alike.</p>
+</overview>
 
 <deployment>
 <p>The SRM-armed Minigun Cycle replaces the machine gun with a short-range missile launcher, accepting lower sustained fire output for improved capability against armored targets. The configuration is valued in ambush roles and in dense terrain where the missile's reach and hitting power provide a meaningful edge over the machine gun variant. It is most common among irregular units operating where heavier opponents must occasionally be engaged.</p>
@@ -193,4 +157,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:I
+</source>
+
+<published>
+TR:I
+</published>
+
+<tonnage>
+0.35
+</tonnage>
+
+<bv>
+30
+</bv>
+
+<fuel>
+0.005
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a8c8-7be6-8a4b-39ada6246533
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Salrilla Exoskeleton
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -85,46 +85,14 @@ BASalvageArm:RA
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:VAr
-</source>
-
-<published>
-RS:VA
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The PEX-2F Salrilla is an industrial exoskeleton developed by StarCorps Industries as a purpose-built battlefield salvage platform. Derived from the company's successful Gorilla civilian exoskeleton, the Salrilla addresses the shortcomings that made its predecessor poorly suited to operating near active combat zones. StarCorps produces the suit at four factory worlds, maintaining the same broad distribution network that made the Gorilla ubiquitous. The Salrilla fills a critical logistics role for military commands across the Inner Sphere, providing dedicated recovery and engineering capability at a fraction of the cost of true battle armor.</p>
-</overview>
 
 <capabilities>
 <p>The Salvage Arm configuration equips the Salrilla with a salvage arm and basic manipulator through modular equipment adaptors mounted on both arms. These adaptors allow field technicians to swap tools as the mission requires, giving the suit flexibility that the fixed-mount Gorilla lacks. The body-mounted cutting torch and searchlight carry over from the base Gorilla design, providing essential tools for wreckage recovery and night operations.</p><p>At 400 kilograms, the Salrilla matches the Gorilla's weight class but triples its ground speed to approximately 30 kilometers per hour. Armor protection doubles to 100 kilograms of standard plating, enough to protect operators from small arms fire and shrapnel while working near active combat zones. The combination of speed and protection makes the Salvage Arm configuration the standard choice for military recovery teams working in contested areas.</p>
 </capabilities>
+
+<overview>
+<p>The PEX-2F Salrilla is an industrial exoskeleton developed by StarCorps Industries as a purpose-built battlefield salvage platform. Derived from the company's successful Gorilla civilian exoskeleton, the Salrilla addresses the shortcomings that made its predecessor poorly suited to operating near active combat zones. StarCorps produces the suit at four factory worlds, maintaining the same broad distribution network that made the Gorilla ubiquitous. The Salrilla fills a critical logistics role for military commands across the Inner Sphere, providing dedicated recovery and engineering capability at a fraction of the cost of true battle armor.</p>
+</overview>
 
 <deployment>
 <p>Clan logistics castes organized captured Salrillas into five-trooper Points for salvage operations following Trials and combat engagements. The efficient recovery of isorla demanded rapid and thorough battlefield policing. Salrilla Points proved effective at processing wreckage sites, allowing technician castes to focus on repair and refurbishment rather than heavy recovery work.</p>
@@ -157,4 +125,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<published>
+RS:VA
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

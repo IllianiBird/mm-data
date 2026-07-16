@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acd2-76fc-a33f-3b79cab012cf
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ LTN-G15b
 <year>
 2721
 </year>
-
-<originalBuildYear>
-2721
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -122,26 +122,13 @@ IS Gauss Ammo
 IS Gauss Ammo
 </Fuselage Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:OK
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Lightning is a fifty-ton medium aerospace fighter developed by Tengo Aerospace on Sarna, born from the Capellan Confederation's effort to field a domestic design capable of mounting the era's most powerful autocannon technology. The original model entered service in 2465, but rapid advances in military hardware during the following century rendered it obsolete. Tengo responded with a comprehensive redesign, and the resulting LTN-G15 entered CCAF evaluation in 2511. Though the Confederation ultimately chose a competing design as its primary procurement contract, the Lightning proved attractive enough to spread across manufacturers throughout the Inner Sphere and Periphery. The design is now found in virtually every major military, valued for its raw close-range firepower, reliable handling characteristics, and straightforward maintenance requirements.</p>
-</overview>
-
 <capabilities>
 <p>The Lightning's primary weapon is a nose-mounted Luxor Heavy 20 Autocannon, one of the heaviest weapons a fifty-ton frame can credibly carry into an aerospace engagement. When this weapon can be brought to bear, the Lightning becomes a serious threat to fighters, BattleMechs, and DropShips alike, capable of delivering crippling damage in a single firing pass. Four Diverse Optics II medium lasers distributed across the wings and rear arc supplement the autocannon for dueling and anti-pursuit defense, though their limited range reinforces the design's identity as a close-range combatant.</p><p>The GM 200 powerplant delivers adequate thrust for the weight class, and the Aerobus Vanluminum Advanced armor provides solid protection relative to the fighter's tonnage. The Hildco Aerospace Type 4 frame is well-regarded for its organized internal layout, making field maintenance practical even under operational conditions. Pilots praise the Lightning's predictable handling, while technicians value the ease of access to internal components. Thirteen single heat sinks manage thermal output adequately during normal combat operations but leave little margin during sustained engagements or repeated main gun use.</p>
 </capabilities>
+
+<overview>
+<p>The Lightning is a fifty-ton medium aerospace fighter developed by Tengo Aerospace on Sarna, born from the Capellan Confederation's effort to field a domestic design capable of mounting the era's most powerful autocannon technology. The original model entered service in 2465, but rapid advances in military hardware during the following century rendered it obsolete. Tengo responded with a comprehensive redesign, and the resulting LTN-G15 entered CCAF evaluation in 2511. Though the Confederation ultimately chose a competing design as its primary procurement contract, the Lightning proved attractive enough to spread across manufacturers throughout the Inner Sphere and Periphery. The design is now found in virtually every major military, valued for its raw close-range firepower, reliable handling characteristics, and straightforward maintenance requirements.</p>
+</overview>
 
 <deployment>
 <p>Produced briefly at several facilities during the Star League era for SLDF service, the LTN-G15b upgrades the standard airframe with an advanced powerplant, a Gauss rifle in place of the autocannon, and double heat sinks to handle the higher thermal demands. Production was cut short by the Amaris Coup before the Royal variant could establish a significant service record, and the advanced technology it required was largely lost during the Succession Wars. Surviving examples were highly sought by elite units throughout that era, circulating through top-tier formations until attrition reduced numbers to near zero. Tengo Aerospace later recovered the necessary technical data, and limited G15b production resumed at Sarna in the post-Jihad period, returning the Royal variant to limited Capellan service in the Dark Age.</p>
@@ -176,4 +163,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Type 22 Master
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:OK
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

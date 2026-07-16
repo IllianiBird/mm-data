@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e281-706b-8260-83f17911b2de
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Ferret Light Scout VTOL
 <year>
 2904
 </year>
-
-<originalBuildYear>
-2904
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -104,30 +104,13 @@ Machine Gun
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-5.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-07 11:22:50
-<overview>
-<p>The Ferret Light Scout VTOL is a reconnaissance rotary-wing aircraft introduced by Cal-Boeing of Dorwinion on Belladonna in 2901. Designed to serve the Federated Suns Armed Forces, the craft fills a specialized niche as a fast, low-cost scout capable of monitoring enemy movements and directing artillery without engaging hostile forces directly. Nearly devoid of armor, the Ferret survives by staying well outside weapons range, patrolling fronts of up to twenty kilometers and relaying intelligence to following units. Cal-Boeing's founding contract for six thousand units established the Ferret as a cornerstone of AFFS light reconnaissance doctrine, and the design later spread to House Marik, House Steiner, and various Periphery states. Its combination of speed, sensor capability, and infantry transport capacity made it one of the most widely deployed light VTOL reconnaissance designs in the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Ferret's primary defense against hostile fire is raw speed. Its Tyron 25 ICE engine drives the craft to a cruising speed of 162 km/h, with flank bursts reaching 248 km/h, keeping it beyond the effective range of most BattleMech-scale weapons during normal operations. Half a ton of ProtecTech Light armor offers minimal protection, sufficient against small-arms fire but negligible against military-grade weapons. A single hit from standard BattleMech weaponry is generally fatal to the craft, and crews train extensively to avoid that outcome.</p><p>For armament, the Ferret mounts a forward-facing MainFire MiniGun with half a ton of ammunition, useful only against light infantry and unsuited for any anti-vehicle role. More significant is the IsBM Lantirn targeting and tracking system, which interfaces with remote sensor packages and displays their feeds directly on the pilot's heads-up display. Combined with the craft's one-ton infantry compartment, this enables forward deployment of infantry squads alongside pre-positioned sensor networks. Many Ferret crews carry up to fifteen remote sensors in their cargo space and drop them through vertical chutes during low-altitude passes, establishing surveillance coverage across roads and approach routes. This capability, rather than direct fire, represents the Ferret's true contribution to combined-arms operations.</p>
 </capabilities>
+
+<overview>
+<p>The Ferret Light Scout VTOL is a reconnaissance rotary-wing aircraft introduced by Cal-Boeing of Dorwinion on Belladonna in 2901. Designed to serve the Federated Suns Armed Forces, the craft fills a specialized niche as a fast, low-cost scout capable of monitoring enemy movements and directing artillery without engaging hostile forces directly. Nearly devoid of armor, the Ferret survives by staying well outside weapons range, patrolling fronts of up to twenty kilometers and relaying intelligence to following units. Cal-Boeing's founding contract for six thousand units established the Ferret as a cornerstone of AFFS light reconnaissance doctrine, and the design later spread to House Marik, House Steiner, and various Periphery states. Its combination of speed, sensor capability, and infantry transport capacity made it one of the most widely deployed light VTOL reconnaissance designs in the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The standard Ferret serves across House Davion, House Marik, House Steiner, and numerous Periphery forces in the core reconnaissance and artillery-spotting role. Commanders pair it with artillery assets or fast-moving ground forces, using its speed to establish forward sensor coverage before the main advance arrives. Most crews pre-load the cargo bay with remote sensor packages, dropping them along roads and approach routes at low altitude. The one-ton infantry compartment allows rapid forward deployment of a single squad for observation posts or personnel recovery. The Ferret also sees use in counterinsurgency, rear-area security, and battlefield pilot recovery roles where speed and low cost make it preferable to committing more valuable assets.</p>
@@ -160,4 +143,20 @@ ARMOR:ProtecTech Light
 COMMUNICATIONS:Standard
 TARGETING:Lantirn
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+5.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

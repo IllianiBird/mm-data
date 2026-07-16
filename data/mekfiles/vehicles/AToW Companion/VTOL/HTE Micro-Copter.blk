@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8d6-7df9-8874-e3dab445ead1
+</UUID>
+
 <UnitType>
 SupportVTOL
 </UnitType>
@@ -35,10 +39,6 @@ HTE Micro-Copter
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -119,23 +119,6 @@ UltraLightChassisMod
 4
 </engine_tech_rating>
 
-<source>
-AToW Companion
-</source>
-
-<tonnage>
-0.04
-</tonnage>
-
-<fuel>
-0.004
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-12 17:26:07
 <overview>
 <p>The newest micro-copter from Hachiman Taro Enterprises is a marvel of high-quality construction. Unloaded and with an empty fuel tank, it weighs just shy of twenty kilograms, but is capable of carrying a grown person with heavy equipment. First used to equip HTE extraction teams during the Jihad, it is now available on the open market and becoming popular for recreational use as well.</p>
 </overview>
@@ -163,4 +146,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+AToW Companion
+</source>
+
+<tonnage>
+0.04
+</tonnage>
+
+<fuel>
+0.004
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

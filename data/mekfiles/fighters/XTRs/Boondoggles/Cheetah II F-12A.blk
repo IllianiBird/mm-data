@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-afd9-750b-9db5-ceb3b5653669
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ F-12A
 <year>
 3021
 </year>
-
-<originalBuildYear>
-3021
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,34 +119,13 @@ Aerodyne
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-XTR:Boondoggles
-</source>
-
-<published>
-XTR:Boondoggles
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Cheetah II was a short-lived attempt by Imstar Aerospace to create a faster version of their successful Cheetah light fighter. Developed in 3021 at Imstar's Amity facility under the direction of CEO Woodrow "Tiger" Gurnstoggle, the F-12A was intended to serve as an upgraded flagship light fighter for the Free Worlds League Military. Three competing design proposals were commissioned, and Gurnstoggle personally selected the variant emphasizing increased speed over firepower. The project ultimately proved to be a costly embarrassment that ended in scandal, with the design rejected by the FWLM and all production orders canceled after a very public review.</p>
-</overview>
-
 <capabilities>
 <p>The Cheetah II was built around a Spyratos 275-rated fusion engine, a significant increase over the standard Cheetah's GM 250-a powerplant. The larger engine boosted the fighter's thrust profile beyond the already impressive acceleration of the base design, and the prototypes demonstrated improved handling in atmosphere. However, the engine upgrade forced severe compromises throughout the rest of the airframe.</p><p>To accommodate the larger powerplant, a full ton of armor had to be removed, leaving the F-12A with only two tons of protection, roughly two-thirds of the already thin armor carried by the standard F-10. Both medium lasers were also deleted, reducing the armament to a single nose-mounted small laser. The resulting fighter was essentially an overpriced high-speed bomber that could carry the same external ordnance as a standard Cheetah while offering dramatically less protection and firepower. The design also suffered from maintenance difficulties that further undermined any potential for military adoption.</p>
 </capabilities>
+
+<overview>
+<p>The Cheetah II was a short-lived attempt by Imstar Aerospace to create a faster version of their successful Cheetah light fighter. Developed in 3021 at Imstar's Amity facility under the direction of CEO Woodrow "Tiger" Gurnstoggle, the F-12A was intended to serve as an upgraded flagship light fighter for the Free Worlds League Military. Three competing design proposals were commissioned, and Gurnstoggle personally selected the variant emphasizing increased speed over firepower. The project ultimately proved to be a costly embarrassment that ended in scandal, with the design rejected by the FWLM and all production orders canceled after a very public review.</p>
+</overview>
 
 <deployment>
 <p>The F-12A was a rejected prototype that never entered operational service with any military force. All production orders were canceled by the Free Worlds League Military following a highly public review that condemned the design's poor combat capability relative to its cost. No operational examples are known to have been fielded by any faction.</p>
@@ -179,4 +158,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Lassitor-3QS
 TARGETING:IMB SYS 3600
 </systemModels>
+
+<source>
+XTR:Boondoggles
+</source>
+
+<published>
+XTR:Boondoggles
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

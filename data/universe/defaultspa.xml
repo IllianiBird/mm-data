@@ -932,11 +932,9 @@ The following skills are affected: Acting, Appraisal, Art/Any, Computers, Crypto
     <ability>
         <lookupName>flaw_transit_disorientation_syndrome</lookupName>
         <displayName>Transit Disorientation Syndrome (ATOW)</displayName>
-        <desc><![CDATA[Is violently ill following a hyperspace jump.
+        <desc><![CDATA[Is violently ill following a hyperspace jump, increasing Fatigue (if Fatigue is enabled, default 1).
 
-They increase the Target Number of Piloting and Gunnery checks by 1 for 48 hours following the jump (Advanced Medical only).
-
-They also gain Fatigue based on the campaign options fatigue rate (default 1).]]></desc>
+Has no mechanical effect if Fatigue is disabled.]]></desc>
         <xpCost>-100</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>

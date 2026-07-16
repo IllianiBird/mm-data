@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-c200-70d0-847f-0d36a869d9f1
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Enforcer
 model:ENF-4R
 mul id:976
@@ -30,9 +31,9 @@ role:Skirmisher
 
 quirk:barrel_fists_la
 quirk:barrel_fists_ra
-weaponquirk:fast_reload:RA:3:Autocannon/10
 weaponquirk:imp_cooling:RA:3:Autocannon/10
 weaponquirk:ammo_feed_problems:RA:3:Autocannon/10
+weaponquirk:fast_reload:RA:3:Autocannon/10
 
 mass:50
 engine:200 Fusion Engine
@@ -173,7 +174,6 @@ Jump Jet
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Enforcer was introduced in 2777 by Achernar BattleMechs after the discovery of unbuilt Star League-era schematics on Achernar. Originally designed around an autocannon and dual medium laser configuration, Achernar engineers modified the blueprints to mount a single large laser alongside the autocannon, creating a versatile fifty-ton trooper 'Mech ideally suited to the Armed Forces of the Federated Suns. The design quickly became the iconic medium-weight workhorse of the AFFS, serving as both a mobile barrage platform and an effective city fighter. Production remained largely undisturbed throughout the Succession Wars, ensuring the Enforcer's continued prominence in Davion military doctrine for centuries.</p>
 
 capabilities:<p>The Enforcer's primary armament centers on a Federated Autocannon/10 mounted in the right arm, whose cooling jacket doubles as protective sleeving for close-quarters brawling. A ChisComp 43 large laser in the left arm provides complementary firepower at intermediate ranges, while a ChisComp 32 small laser in the left torso rounds out the weapons suite for close engagements. This combination gives the Enforcer respectable firepower at multiple engagement ranges, making it effective as both a fire support platform and a frontline combatant.</p><p>The Enforcer's nine tons of Starshield armor are concentrated heavily forward, providing excellent frontal protection for a design of its weight class. However, this distribution leaves the rear torso dangerously thin, less protected than some light 'Mechs. The design's other notable weakness is its limited ammunition supply, with only a single ton of autocannon rounds carried in a clip-based reloading system. McCloud Specials jump jets grant a 120-meter jump capability, which combined with a top speed of 64 km/h makes the Enforcer a mobile and tactically flexible design despite its middling ground speed.</p>
@@ -185,6 +185,8 @@ history:<p>The Enforcer's origins trace to Duke Davion's interest in autocannon-
 manufacturer:Achernar BattleMechs|Kallon Industries|Defiance Industries
 
 primaryfactory:New Avalon|Talon (Wernke)|Hesperus II
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Achernar BattleMechs
 systemmode:CHASSIS:Dorwinion Standard

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0f7-768d-ba3e-49d454113a4e
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Orc
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -120,34 +120,13 @@ CLMG
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-4.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Orc is a four-ton second-generation ProtoMek designed by Clan Hell's Horses as their first homegrown ProtoMek design. Unveiled in 3066 after the Horses confirmed the value of first-generation ProtoMeks assimilated from the fallen Smoke Jaguars, the Orc was built with the Horses' unique combined-arms battle philosophy firmly in mind. Mounting four single-tube SRM launchers spread across the arms and torso, the Orc was specifically designed for anti-vehicle and anti-infantry work, the tactical roles the Hell's Horses have championed for centuries. The design quickly became a fixture in the Clan's frontline formations as a special attachment to every Cluster.</p>
-</overview>
-
 <capabilities>
 <p>The Orc is built for speed and close-range saturation fire. A thirty-six-rated fusion engine drives the four-ton frame to a cruising speed of sixty-four kilometers per hour, allowing it to keep pace with most Clan medium Meks. The quartet of single-tube SRM launchers, distributed between both arms and the torso, provides excellent missile coverage against multiple target types. Each arm launcher carries five rounds while the torso pair shares a ten-round magazine, giving the Orc twenty total missile salvos before exhausting its ammunition supply.</p><p>Twenty points of armor provide solid protection for a four-ton design, roughly equivalent to the five-ton Centaur and sufficient to survive several light weapon hits before structural compromise. The SRM-heavy loadout makes the Orc particularly effective against vehicles and infantry, where the cluster munitions can exploit weak armor coverage and suppression effects. Against heavier targets, a Point of Orcs can concentrate fire to achieve meaningful damage, though individual machines lack the punch to threaten heavy armor alone. The design lacks jump jets, limiting its tactical flexibility in broken terrain but keeping manufacturing costs and maintenance requirements low, consistent with the Horses' doctrine of fielding large numbers of combined-arms assets.</p>
 </capabilities>
+
+<overview>
+<p>The Orc is a four-ton second-generation ProtoMek designed by Clan Hell's Horses as their first homegrown ProtoMek design. Unveiled in 3066 after the Horses confirmed the value of first-generation ProtoMeks assimilated from the fallen Smoke Jaguars, the Orc was built with the Horses' unique combined-arms battle philosophy firmly in mind. Mounting four single-tube SRM launchers spread across the arms and torso, the Orc was specifically designed for anti-vehicle and anti-infantry work, the tactical roles the Hell's Horses have championed for centuries. The design quickly became a fixture in the Clan's frontline formations as a special attachment to every Cluster.</p>
+</overview>
 
 <deployment>
 <p>The Orc 4 stands as a compromise between the long-range Orc 2 and the close-combat Orc 3. A three-tube SRM launcher in the torso provides meaningful close-range punch, while machine guns in each arm handle anti-infantry work with sustained fire capability from a shared twelve-round ammunition supply. This combination gives the Orc 4 the most versatile engagement profile of any variant, capable of engaging infantry with machine gun fire, light vehicles with SRM volleys, and providing suppressive fire at multiple range bands. Armor drops to sixteen points, matching the Orc 3. Ground speed remains at sixty-four kilometers per hour cruising.</p>
@@ -180,4 +159,16 @@ ARMOR:Standard
 COMMUNICATIONS:Series Augmented
 TARGETING:Series 2.1
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+4.0
+</tonnage>
 

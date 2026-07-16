@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d03c-72c6-90bb-55d1d82df56a
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Tundra Wolf
 model:4
 mul id:3318
@@ -174,7 +175,6 @@ Jump Jet
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Tundra Wolf is a 75-ton Clan heavy BattleMech introduced in 3076, notable as the first all-new Clan Wolf design developed and produced entirely in the Inner Sphere. Cut off from Homeworld industry and under constant pressure during the Word of Blake Jihad, Khan Vlad Ward authorized a crash program to expand manufacturing capabilities within the Wolf Clan Occupation Zone. Rather than pursuing a costly and complex OmniMech, Wolf engineers focused on a standard generalist BattleMech that could be readily manufactured and fill multiple roles within the Clan's depleted touman.</p><p>Stepping off the W-7 assembly lines on Tamar, the Tundra Wolf represented a pragmatic departure from traditional Clan design philosophy. Its inclusion of an ECM suite, specifically installed to counter Word of Blake electronic warfare capabilities, signaled a willingness to adapt that had been resisted for decades. The design quickly became a symbol of Clan Wolf's determination to maintain combat effectiveness despite being severed from Clan space.</p>
 
 capabilities:<p>Built on a Mark XX Heavy Endo Steel chassis powered by a 300-rated XL engine, the Tundra Wolf achieves a cruising speed of 43 kilometers per hour with a top speed of 65. MASC allows short bursts approaching 86 kilometers per hour, while BMP Series XV jump jets provide 120 meters of vertical mobility. Fourteen and a half tons of Beta Compound standard armor provide robust protection for a design of its weight class, though battleROM analysis suggests the shoulder and elbow joints are particularly vulnerable to concentrated fire.</p><p>The base configuration carries an impressive weapons array covering virtually all engagement ranges. A Type 9 Series ATM-9 and Type XX Long Bow LRM-20 deliver heavy missile fire at range, while a Series 7K ER large laser adds direct fire capability. Four Series 2b ER medium lasers provide effective medium-range output, and a Smartshot MkV Streak SRM-4 rounds out the close-range arsenal. Seventeen double heat sinks manage the thermal load adequately under most combat conditions. A Khan Series communications system with integrated ECM suite provides electronic warfare protection, a capability specifically designed to counter Blakist C3i networks.</p>
@@ -186,6 +186,8 @@ history:<p>The Tundra Wolf's origins lie in the desperate circumstances facing C
 manufacturer:W-8 Facilities
 
 primaryfactory:Tamar
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:W-7 Facilities
 systemmode:CHASSIS:TW-2 Heavy Endo Steel
