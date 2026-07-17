@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a263-77ed-b83a-c4306e20b7a2
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Scout Suit
 <year>
 3052
 </year>
-
-<originalBuildYear>
-3052
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -93,38 +93,14 @@ InfantryAssaultRifle:APM:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-4
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Scout Suit is a light battle armor design created by Gray Death Legion technicians on Glengarry. Developed alongside the Gray Death Standard from NAIS-supplied Inner Sphere Standard prototypes, the Scout took a radical approach by sacrificing weapons and heavy armor in favor of enhanced sensors, communications, and mobility. First fielded in 3052, the suit earned a reputation as one of the most capable reconnaissance platforms available to Inner Sphere forces, filling a niche that heavier combat-oriented battle armor could not address.</p>
-</overview>
 
 <capabilities>
 <p>The Gray Death Scout Suit carries no integral weapons, relying on the trooper's ability to wield conventional small arms through its Armored Gloves. This design choice freed mass for a Light Active Probe and long-range communication systems that give the suit exceptional battlefield awareness. A Jump Booster pushes the suit's maximum jump range to 120 meters, far exceeding most battle armor designs of its era. Improved Stealth armor provides solid protection while dramatically reducing the suit's sensor signature.</p><p>At 750 kilograms, the Scout is among the lightest operational battle armor designs. The gloves preserve enough manual dexterity for satchel charge placement and handling of infantry weapons, making even an unarmed Scout trooper dangerous to careless BattleMech pilots. The lack of integral weapons is the suit's most significant limitation, leaving troopers dependent on carried arms for any engagement beyond anti-BattleMech attacks.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Scout Suit is a light battle armor design created by Gray Death Legion technicians on Glengarry. Developed alongside the Gray Death Standard from NAIS-supplied Inner Sphere Standard prototypes, the Scout took a radical approach by sacrificing weapons and heavy armor in favor of enhanced sensors, communications, and mobility. First fielded in 3052, the suit earned a reputation as one of the most capable reconnaissance platforms available to Inner Sphere forces, filling a niche that heavier combat-oriented battle armor could not address.</p>
+</overview>
 
 <deployment>
 <p>ComStar and Word of Blake formations organized Gray Death Scout Suits into six-trooper Level I units. The additional troopers allowed Level I commanders to split their formation into paired fire teams while maintaining continuous sensor coverage. Com Guard units valued the Scout's intelligence-gathering capability for supporting their doctrine of information superiority on the battlefield. Word of Blake Militia formations that acquired the suits used them in a similar fashion during the Jihad.</p>
@@ -159,4 +135,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+4
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

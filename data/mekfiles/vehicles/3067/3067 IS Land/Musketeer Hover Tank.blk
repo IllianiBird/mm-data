@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e59d-7823-8ea1-f461bd8e8ded
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Musketeer Hover Tank
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -107,30 +107,13 @@ ISStreakSRM2
 ISStreakSRM2
 </Turret Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-09 16:42:39
-<overview>
-<p>The Musketeer Hover Tank was developed by Corean Enterprises of New Avalon and entered service with the Armed Forces of the Federated Suns in 3065. Designed as a dedicated rotary autocannon platform, it arrived during a period of intense interest in RAC-based weapons systems across the Federated Suns. Corean engineers prioritized speed, sustained firepower, and operational economy, producing a hover tank capable of delivering rapid, concentrated damage across a wide range of engagements. Its combination of high cross-terrain mobility, continuous autocannon output, and solid crew protection made it attractive for both offensive strike roles and screening operations. The Musketeer became one of the first production vehicles to fully exploit RAC technology at scale, establishing Corean Enterprises as a leading supplier for the AFFS ground forces and earning a reputation as a cost-effective frontline combat vehicle.</p>
-</overview>
-
 <capabilities>
 <p>The Musketeer is built around a single turret-mounted Mydron Tornado Rotary AC/5, fed by a substantial three-ton magazine that sustains fire well in excess of one minute at maximum rate. This endurance distinguishes the Musketeer from lighter autocannon designs and gives it exceptional battlefield persistence. For close-range engagements, a pair of Holly Mark II Streak SRM 2-Packs provide accurate secondary fire without wasting ammunition on missed shots. A forward-fixed TAG designator rounds out the weapon suite, allowing the crew to direct guided artillery support onto targets without closing to weapon range.</p><p>Propulsion comes from a GM 115-rated internal combustion engine, enabling a top speed approaching 120 kilometers per hour on flat terrain with a cruising range of nearly 1,500 kilometers on standard combustible fuels. Seven tons of StarGuard CIV ferro-fibrous armor provide protection sufficient to withstand a hit from the heaviest standard autocannon. An integrated CASE system shields the crew from catastrophic detonation of ammunition or fuel, addressing the particular vulnerability of ICE-powered vehicles to internal fires.</p><p>The Musketeer's primary limitation is its dependence on the single RAC main gun. A jam or mechanical failure at a critical moment leaves the vehicle with only the Streak launchers for close-in defense. The hover chassis, while fast on open ground, loses much of its mobility advantage in heavily wooded terrain, dense rubble, or steep gradients, restricting the design's effectiveness in urban and forested environments.</p>
 </capabilities>
+
+<overview>
+<p>The Musketeer Hover Tank was developed by Corean Enterprises of New Avalon and entered service with the Armed Forces of the Federated Suns in 3065. Designed as a dedicated rotary autocannon platform, it arrived during a period of intense interest in RAC-based weapons systems across the Federated Suns. Corean engineers prioritized speed, sustained firepower, and operational economy, producing a hover tank capable of delivering rapid, concentrated damage across a wide range of engagements. Its combination of high cross-terrain mobility, continuous autocannon output, and solid crew protection made it attractive for both offensive strike roles and screening operations. The Musketeer became one of the first production vehicles to fully exploit RAC technology at scale, establishing Corean Enterprises as a leading supplier for the AFFS ground forces and earning a reputation as a cost-effective frontline combat vehicle.</p>
+</overview>
 
 <deployment>
 <p>The standard Musketeer deploys throughout the AFFS in combined-arms battalions and independent screening formations. Its hover chassis provides the cross-terrain flexibility to keep pace with faster strike elements while the RAC/5 delivers sustained fire capable of stripping armor from enemy vehicles and suppressing BattleMechs. AFFS militia units along the Draconis Combine and Capellan borders received early priority deliveries, and the design saw active combat during the FedCom Civil War within its first years of service. It is most effective in open or semi-open terrain where the hover chassis can exploit its speed advantage.</p>
@@ -163,4 +146,20 @@ ARMOR:StarGuard CIV
 COMMUNICATIONS:Transband-J9
 TARGETING:B-Tech with TAG
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e10b-782a-94aa-ac77c41acf7c
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Cecerops
 <year>
 3146
 </year>
-
-<originalBuildYear>
-3146
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -118,34 +118,13 @@ CLAPGaussRifle
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-3.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Cecerops is a three-ton second-generation ProtoMek designed by Clan Blood Spirit using resources acquired through collaboration with the Snow Ravens. The first ProtoMek fully designed outside the original Smoke Jaguar program, the Cecerops bears a striking resemblance to the sphinx-raptor found on several Clan worlds, with a snakelike body profile and a forward-thrusting head cowl aerodynamically engineered to reduce drag. Among Blood Spirit ProtoMek forces, piloting a Cecerops is considered an extremely high honor, reflecting both the design's demanding performance envelope and its role as a symbol of the beleaguered Clan's determination to maintain military relevance despite dwindling BattleMek resources.</p>
-</overview>
-
 <capabilities>
 <p>Speed is the Cecerops' defining characteristic. A forty-five-rated fusion engine drives the three-ton frame to a cruising speed of ninety-seven kilometers per hour with a flank speed approaching one hundred fifty, allowing it to keep pace with most light BattleMeks and hovercraft. Even at rest, the design appears to be in motion; every line of the chassis is optimized for velocity. A single ER Micro Laser provides ammunition-independent firepower, allowing Cecerops Stars to operate for extended periods without resupply, a critical advantage for the resource-strapped Blood Spirits.</p><p>When operating in packs, the overwhelming and constant barrage of laser fire from a Cecerops Star can intimidate medium Mek pilots and bring down light Meks with proper tactics. Most Cecerops pilots are highly experienced by the time they earn assignment to the design, and the chaotic swirl of a pack hunting in concert deliberately mimics the sphinx-raptor's predatory behavior. Fourteen points of armor provide reasonable protection for the weight class, though sustained fire from heavier weapons will quickly overwhelm the design's defenses. The Cecerops excels in harassment and pursuit roles where its extraordinary speed can be leveraged without exposing it to concentrated return fire.</p>
 </capabilities>
+
+<overview>
+<p>The Cecerops is a three-ton second-generation ProtoMek designed by Clan Blood Spirit using resources acquired through collaboration with the Snow Ravens. The first ProtoMek fully designed outside the original Smoke Jaguar program, the Cecerops bears a striking resemblance to the sphinx-raptor found on several Clan worlds, with a snakelike body profile and a forward-thrusting head cowl aerodynamically engineered to reduce drag. Among Blood Spirit ProtoMek forces, piloting a Cecerops is considered an extremely high honor, reflecting both the design's demanding performance envelope and its role as a symbol of the beleaguered Clan's determination to maintain military relevance despite dwindling BattleMek resources.</p>
+</overview>
 
 <deployment>
 <p>The Cecerops 5 is a radical departure from the speed-focused design philosophy of the original. Equipped with a Magnetic Clamp System for OmniMek transport and an AP Gauss Rifle with twelve rounds of ammunition, this variant sacrifices the Cecerops' legendary speed entirely, cruising at just forty-three kilometers per hour. Armor returns to fourteen points, matching the base model. The Magnetic Clamp allows the Cecerops 5 to ride into battle attached to an OmniMek, deploying at close range to use the AP Gauss Rifle against infantry and battle armor formations. This configuration reflects a fundamentally different tactical doctrine, transforming the Cecerops from an independent high-speed interceptor into a transported fire support asset.</p>
@@ -178,4 +157,16 @@ ARMOR:Prosis
 COMMUNICATIONS:Howler
 TARGETING:7
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+3.0
+</tonnage>
 

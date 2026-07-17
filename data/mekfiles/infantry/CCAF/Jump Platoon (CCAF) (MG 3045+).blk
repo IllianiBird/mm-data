@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b893-7d90-8c20-885a65647648
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Jump Platoon (CCAF)
 <year>
 3045
 </year>
-
-<originalBuildYear>
-3045
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -56,6 +56,9 @@ Capellan Confederation Armor Kit (3050)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. Jump-capable infantry give CCAF commanders a vertical mobility option for urban combat and rough terrain operations. The added cost of jump equipment limits their numbers compared to foot formations, but their ability to bypass obstacles and reach elevated positions makes them valuable in the defensive fighting the Confederation often faces. Support sections within the platoon carry portable machine guns that provide sustained automatic fire, giving the formation a significant volume-of-fire advantage in defensive positions at the cost of additional weight and ammunition bulk.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date of CCAF advanced armor kit
@@ -80,9 +83,4 @@ InfantryAssaultRifle
 <Secondary>
 Machine Gun (Portable)
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. Jump-capable infantry give CCAF commanders a vertical mobility option for urban combat and rough terrain operations. The added cost of jump equipment limits their numbers compared to foot formations, but their ability to bypass obstacles and reach elevated positions makes them valuable in the defensive fighting the Confederation often faces. Support sections within the platoon carry portable machine guns that provide sustained automatic fire, giving the formation a significant volume-of-fire advantage in defensive positions at the cost of additional weight and ammunition bulk.</p>
-</overview>
 

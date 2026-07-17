@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa3f-7968-b83e-553831afd7d1
+</UUID>
+
 <UnitType>
 ConvFighter
 </UnitType>
@@ -35,10 +39,6 @@ Drake Medium Strike Fighter
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -112,8 +112,6 @@ ISModularArmor
 
 <Aft Equipment>
 IS Vehicular Stealth
-IS Vehicular Stealth
-IS Vehicular Stealth
 ISGuardianECMSuite
 ISModularArmor
 </Aft Equipment>
@@ -126,34 +124,13 @@ IS Ammo MML-3 LRM
 IS Ammo MML-3 SRM
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-XTR:Boondocks
-</source>
-
-<published>
-XTR:Boondocks
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Drake Medium Strike Fighter is a 35-ton experimental conventional fighter refit developed by Basantapur Fine Metals at their aerospace testing range on Colorado. First assembled in 3073, the design emerged from BFM's prototype program and served as the testbed for technologies later incorporated into the production Drake Medium Stealth Fighter. Built on the same basic airframe as Imstar Aerospace's popular Defender, the Drake is heavier than its progenitor, sacrificing some maneuverability for exceptional armor protection far beyond what conventional aircraft typically carry. The experimental design layers multiple advanced armor systems on all facings, giving the fighter a distinctive thick, scaled appearance. Though never intended for mass production in its prototype configuration, the Drake Medium Strike Fighter proved the viability of advanced protection technologies on conventional airframes and established BFM's credentials as a defense innovator.</p>
-</overview>
-
 <capabilities>
 <p>The Drake Medium Strike Fighter carries two distinct armor systems that define its combat role. One and a half tons of vehicular stealth armor work in concert with a Guardian ECM suite to confound enemy targeting systems, making the fighter exceptionally difficult to lock onto. Layered over this is experimental modular armor reinforcing all facings, providing protection levels that approach those of a true aerospace fighter. This modular armor gives the Drake its characteristic heavy, scaled profile but adds significant mass, reducing speed and agility until the panels are ejected in combat.</p><p>The fighter's offensive suite is modest by comparison, centered on a pair of nose-mounted MML-3 launchers fed by two tons of ammunition, offering flexibility between short and long-range missile loads. A single Exostar ER Small Laser serves as a backup weapon. Powered by a 210-rated fusion engine, an unusual powerplant choice for a conventional fighter, the Drake achieves adequate thrust despite its increased weight. The design prioritizes survivability over raw firepower, making it a poor dogfighter compared to the standard Defender but remarkably difficult to bring down. Pilots who exploit the stealth systems to control engagement distance can offset the Drake's limited offensive output.</p>
 </capabilities>
+
+<overview>
+<p>The Drake Medium Strike Fighter is a 35-ton experimental conventional fighter refit developed by Basantapur Fine Metals at their aerospace testing range on Colorado. First assembled in 3073, the design emerged from BFM's prototype program and served as the testbed for technologies later incorporated into the production Drake Medium Stealth Fighter. Built on the same basic airframe as Imstar Aerospace's popular Defender, the Drake is heavier than its progenitor, sacrificing some maneuverability for exceptional armor protection far beyond what conventional aircraft typically carry. The experimental design layers multiple advanced armor systems on all facings, giving the fighter a distinctive thick, scaled appearance. Though never intended for mass production in its prototype configuration, the Drake Medium Strike Fighter proved the viability of advanced protection technologies on conventional airframes and established BFM's credentials as a defense innovator.</p>
+</overview>
 
 <deployment>
 <p>As an experimental prototype, the Drake Medium Strike Fighter saw only limited deployment from BFM's aerospace testing range on Colorado. The handful of airframes produced served primarily as technology demonstrators, proving the viability of advanced armor systems on conventional fighter platforms. Public demonstrations generated enough interest to justify continued development, though the prototype configuration was never adopted for mass production. Individual airframes remained in BFM's inventory for continued testing and evaluation throughout the Jihad and into the early Republic era.</p>
@@ -186,4 +163,16 @@ ARMOR:Vehicular Stealth / Modular Armor
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Boondocks
+</source>
+
+<published>
+XTR:Boondocks
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

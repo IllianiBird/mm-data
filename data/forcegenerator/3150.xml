@@ -221,7 +221,7 @@
             <upgradeMargin>13</upgradeMargin>
             <salvage pct='5'>FWL:1,FR:1,DA:10</salvage>
         </faction>
-        <faction key='MalCon'>
+        <faction key='MALC'>
             <omniMargin>16</omniMargin>
             <techMargin>16</techMargin>
             <upgradeMargin>13</upgradeMargin>
@@ -1983,7 +1983,7 @@
                 <availability>General:8</availability>
             </model>
         </chassis>
-        <chassis name='Arondight Pocket Warship' unitType='Dropship'>
+        <chassis name='Arondight Pocket WarShip' unitType='Dropship'>
             <availability>LA:4,ROS:4,MERC:3,FS:5</availability>
             <model name=''>
                 <roles>pocket_warship</roles>
@@ -1995,7 +1995,7 @@
             </model>
             <model name='(SCC)'>
                 <roles>pocket_warship</roles>
-                <availability>IS:4</availability>
+                <availability>LA:4,ROS:4,MERC:4,FS:4</availability>
             </model>
         </chassis>
         <chassis name='Arrow IV Assault Vehicle' unitType='Tank'>

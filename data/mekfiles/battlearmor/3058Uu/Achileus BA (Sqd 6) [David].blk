@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a199-72b4-af72-56b830cb4a3f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Achileus Light Battle Armor
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -98,42 +98,14 @@ IS BA Stealth (Improved):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Achileus is a light battle armor suit developed jointly by the Free Worlds League and the Word of Blake. Designed as a mass-produced alternative to custom-manufacture stealth suits, the Achileus combined offensive armament with electronic stealth capability in a package suitable for large-scale deployment. Entering service in 3057, the suit filled a critical gap in both the FWLM and Word of Blake Militia force structures, providing infantry formations with a jump-capable scout platform that could evade electronic detection. Production was handled by facilities on Irian and Gibson within the Free Worlds League.</p>
-</overview>
 
 <capabilities>
 <p>This configuration replaces the standard modular weapon mount with a David light Gauss rifle, giving the Achileus a significant ranged punch. The light Gauss rifle fires magnetically accelerated projectiles at velocities sufficient to threaten light vehicles and other battle armor, marking a substantial upgrade in lethality over the suit's original weapon options. The left-arm anti-personnel weapon mount and basic manipulators on both arms remain standard. Jump jets provide 90-meter mobility, and 360 kilograms of improved stealth armor maintains the suit's sensor-evasion capability. The David configuration pushed the Achileus beyond pure scouting into a light striker role, though ammunition constraints require careful shot discipline during extended patrols.</p>
 </capabilities>
+
+<overview>
+<p>The Achileus is a light battle armor suit developed jointly by the Free Worlds League and the Word of Blake. Designed as a mass-produced alternative to custom-manufacture stealth suits, the Achileus combined offensive armament with electronic stealth capability in a package suitable for large-scale deployment. Entering service in 3057, the suit filled a critical gap in both the FWLM and Word of Blake Militia force structures, providing infantry formations with a jump-capable scout platform that could evade electronic detection. Production was handled by facilities on Irian and Gibson within the Free Worlds League.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake Level I formations fielding six David-armed troopers possessed significant ranged striking power. The light Gauss rifle's lethality, multiplied across a six-trooper formation, allowed Blakist commanders to employ these units in ambush roles against enemy reconnaissance forces and light armor, leveraging the suit's stealth to achieve tactical surprise before engaging.</p>
@@ -168,4 +140,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

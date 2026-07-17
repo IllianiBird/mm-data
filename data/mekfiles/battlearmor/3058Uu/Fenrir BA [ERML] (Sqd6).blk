@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a221-7376-98c9-a898fddf1d5e
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Fenrir Battle Armor
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -85,42 +85,14 @@ ISBAERMediumLaser:TU
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<turret>
-Modular:3
-</turret>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Fenrir was an assault-class battle armor produced by TharHes Industries on Tharkad for the Lyran Alliance Armed Forces. Entering production in 3060, the two-ton quadruped suit drew on lessons learned from the unsuccessful Sloth program, repurposing the quad chassis concept into a dedicated fire support platform. Equipped with a dorsal turret capable of mounting a variety of weapon packages, the Fenrir earned a reputation as one of the most flexible battlesuits in Lyran service, though its deliberately light armor made it reliant on firepower rather than protection to survive on the battlefield.</p>
-</overview>
 
 <capabilities>
 <p>The extended-range medium laser configuration arms the Fenrir with a single ER medium laser in the dorsal turret, providing engagement capability at distances that most battle armor cannot match. The longer effective range allows Fenrir operators to engage targets while remaining outside the reach of shorter-ranged opponents, a significant tactical advantage for a suit with only 250 kilograms of standard armor. The two-ton quad chassis achieves speeds over forty kilometers per hour, and the 300-degree turret arc permits firing on targets across a wide front. The quad frame prevents anti-BattleMech attacks and OmniMech transport. The ER medium laser generates considerable heat in the confined cockpit, limiting sustained fire rates, but its ability to reach out and damage armored targets at range makes it a valuable addition to mixed Fenrir formations that include shorter-ranged loadouts.</p>
 </capabilities>
+
+<overview>
+<p>The Fenrir was an assault-class battle armor produced by TharHes Industries on Tharkad for the Lyran Alliance Armed Forces. Entering production in 3060, the two-ton quadruped suit drew on lessons learned from the unsuccessful Sloth program, repurposing the quad chassis concept into a dedicated fire support platform. Equipped with a dorsal turret capable of mounting a variety of weapon packages, the Fenrir earned a reputation as one of the most flexible battlesuits in Lyran service, though its deliberately light armor made it reliant on firepower rather than protection to survive on the battlefield.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake forces organized ER medium laser Fenrirs into Level I units during Jihad operations on Lyran worlds. The six-trooper formation's combined long-range fire provided effective harassment and overwatch capability in support of heavier Blakist formations.</p>
@@ -153,4 +125,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<turret>
+Modular:3
+</turret>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

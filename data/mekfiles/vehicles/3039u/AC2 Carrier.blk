@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e242-7bc1-a349-43383dea7e36
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ AC/2 Carrier
 <year>
 2520
 </year>
-
-<originalBuildYear>
-2520
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -103,30 +103,13 @@ Autocannon/2
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The AC/2 Carrier is a sixty-ton tracked combat vehicle designed to provide long-range ballistic fire support at minimal cost. Part of the broader family of weapons carrier vehicles that originated during the Age of War, the AC/2 Carrier dates back to approximately 2520 in its primitive form, with the modernized version entering service alongside its missile carrier cousins. Built by Quikscell and numerous other manufacturers across the Inner Sphere, the vehicle fills a niche as cheap, expendable suppressive fire support, using volume of autocannon fire to compensate for the relatively modest damage output of individual Class 2 weapons.</p>
-</overview>
-
 <capabilities>
 <p>The AC/2 Carrier mounts five forward-firing Class 2 autocannons as its sole armament, a configuration that emphasizes sustained long-range harassment over decisive striking power. One hundred and eighty rounds of ammunition provide substantial endurance for extended fire missions, allowing the vehicle to maintain suppressive fire far longer than its missile carrier cousins. An InterComBust 180 internal combustion engine propels the vehicle to a maximum speed of fifty-four kilometers per hour.</p><p>Three tons of Simple Armor Plate Standard provide minimal protection, making the AC/2 Carrier as vulnerable as any other member of the weapons carrier family. A Communicator system and FireScan with IndirecTrack handle targeting and coordination. The AC/2 Carrier's primary tactical advantage lies in its extreme range and ammunition endurance, allowing it to engage from standoff distances where return fire is less accurate.</p>
 </capabilities>
+
+<overview>
+<p>The AC/2 Carrier is a sixty-ton tracked combat vehicle designed to provide long-range ballistic fire support at minimal cost. Part of the broader family of weapons carrier vehicles that originated during the Age of War, the AC/2 Carrier dates back to approximately 2520 in its primitive form, with the modernized version entering service alongside its missile carrier cousins. Built by Quikscell and numerous other manufacturers across the Inner Sphere, the vehicle fills a niche as cheap, expendable suppressive fire support, using volume of autocannon fire to compensate for the relatively modest damage output of individual Class 2 weapons.</p>
+</overview>
 
 <deployment>
 <p>The AC/2 Carrier serves in most major militaries across the Inner Sphere, typically deployed in fire support lances providing long-range suppressive fire. Its extreme engagement range and ammunition endurance make it particularly effective in defensive positions where sustained harassment of approaching forces is more valuable than decisive firepower. The vehicle has been frequently confused with the Pike support vehicle in after-action reports due to their comparable size and armament.</p>
@@ -156,4 +139,20 @@ ENGINE:180 ICE
 ARMOR:Standard
 TARGETING:with IndirecTrack
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

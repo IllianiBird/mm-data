@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e995-7256-8621-31730f4fb6b0
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Condor Heavy Hover Tank
 <year>
 3040
 </year>
-
-<originalBuildYear>
-3040
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -106,33 +106,13 @@ Medium Laser
 Medium Laser
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG26
-</source>
-
-<published>
-RG26
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>Introduced a few years before the founding of the original Star League, the Condor Heavy Hover Tank is among the most recognized and widely distributed combat vehicles in the Inner Sphere. Red Devil Industries designed the Condor as a cavalry platform capable of rapid reaction to a shifting battle, and the tank's remarkable top speed gave it a place in armored formations across multiple Successor States. The Lyran Commonwealth was its primary patron and largest customer, though export licenses enabled sales to the Federated Suns and Capellan Confederation throughout the Succession Wars era. Its persistent critics pointed to a high price tag, much of which reflected Lyran export tariffs, as evidence that only the wealthiest formations could afford proper quantities. Following the loss of Red Devil's primary production facilities, the design passed to new hands and underwent a thorough modernization that preserved the Condor name while transforming virtually every major system.</p>
-</overview>
-
 <capabilities>
 <p>The Jones 165 internal combustion engine drives the Condor's fifty-ton hull to a flank speed approaching 130 kilometers per hour, placing it among the fastest vehicles in its weight class and competitive with light BattleMechs in open terrain. Six tons of StarSlab armor concentrate protection along the frontal arc and turret, giving the vehicle considerable resilience during high-speed strafing passes. The sides and rear are particularly thin, a vulnerability that demands disciplined maneuvering and prevents the Condor from trading fire at standstill against well-equipped opponents.</p><p>The turret carries a GM Whirlwind autocannon paired with two Defiance B3M medium lasers, a combination suited to medium-range engagement on the move. A hull-mounted SureFire MiniGun provides anti-infantry coverage against infantry closing in. The combustion engine eliminates heat concerns entirely, but ammunition consumption in sustained actions can become a limiting factor. Faction modification programs across the Successor States reflect the vehicle's widely distributed presence, with units stripping or replacing weapons to suit local logistics. The Federated Suns commonly favors additional autocannon firepower, while Capellan forces often prefer an all-laser configuration that eliminates ammunition dependency entirely.</p>
 </capabilities>
+
+<overview>
+<p>Introduced a few years before the founding of the original Star League, the Condor Heavy Hover Tank is among the most recognized and widely distributed combat vehicles in the Inner Sphere. Red Devil Industries designed the Condor as a cavalry platform capable of rapid reaction to a shifting battle, and the tank's remarkable top speed gave it a place in armored formations across multiple Successor States. The Lyran Commonwealth was its primary patron and largest customer, though export licenses enabled sales to the Federated Suns and Capellan Confederation throughout the Succession Wars era. Its persistent critics pointed to a high price tag, much of which reflected Lyran export tariffs, as evidence that only the wealthiest formations could afford proper quantities. Following the loss of Red Devil's primary production facilities, the design passed to new hands and underwent a thorough modernization that preserved the Condor name while transforming virtually every major system.</p>
+</overview>
 
 <deployment>
 <p>Red Devil's early thirty-first century experiment with a fusion-powered Condor produced a modest run before the Clan Invasion disrupted Pandora. The fusion engine enabled an AC/10 with ample ammunition and an additional medium laser, trading the standard ICE configuration for greater firepower at the cost of a higher manufacturing price. Surviving examples became increasingly rare after the fall of Pandora, and the variant is now encountered primarily in older reserve formations and on the salvage market.</p>
@@ -167,4 +147,16 @@ JUMP_JET:Unknown
 COMMUNICATIONS:KR-A P/Comm
 TARGETING:Mars 1
 </systemModels>
+
+<source>
+RG26
+</source>
+
+<published>
+RG26
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5e7-79d9-a4ec-45bcab49d379
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Danai Support Vehicle
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -106,26 +106,13 @@ ISERMediumLaser
 ISERMediumLaser
 </Turret Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Danai Support Vehicle is a forty-five-ton wheeled artillery platform produced by Detroit Consolidated Vehicle Works on Detroit, entering service in 3073 through a joint initiative between the Magistracy of Canopus and the Capellan Confederation under the terms of the Trinity Alliance. Named for Danai Centrella, the fallen heir to the Canopian throne, the design was commissioned to provide the Magistracy Armed Forces with a mobile indirect fire support platform capable of operating across the combined-arms formations that the alliance required. Although the construction of Capellan-funded factories on a Magistracy world generated political friction within Canopian circles, the vehicle that emerged proved capable enough to win acceptance in both Canopian and Capellan formations. Its balance of speed, durability, and long-range fire support has made the Danai a reliable fixture in combined-arms units, and commanders on both sides of the alliance have come to depend on its steady performance.</p>
-</overview>
-
 <capabilities>
 <p>The Danai's primary weapon is a Bithinian Ballistics Thumper artillery piece mounted in a fixed forward position on the hull rather than a rotating turret. This arrangement restricts the direct engagement arc but reduces mechanical complexity and frees mass for propulsion, protection, and secondary armament. Two Firmir Improved Extended-Range Medium Lasers occupy the turret, providing a credible self-defense reach against vehicles and infantry that close with the artillery platform, extending coverage well beyond what standard medium lasers would allow. A GM 205 fusion engine delivers a flank speed of 86 kilometers per hour, permitting rapid displacement between fire positions and timely withdrawal ahead of opposing counter-battery responses.</p><p>Six and a half tons of Maximillian 43 armor provides adequate protection for a vehicle not intended for direct combat. The Magestrix Alpha communications system and Magestrix Gamma targeting suite are standard Magistracy vehicle electronics, simplifying field maintenance and supply across the MAF's mixed vehicle inventory. The Danai's most significant tactical constraint is its fixed gun mount, which requires the entire vehicle to reorient for targets outside the forward arc, but its speed and self-defense weapons give it survivability that many comparable artillery platforms cannot match.</p>
 </capabilities>
+
+<overview>
+<p>The Danai Support Vehicle is a forty-five-ton wheeled artillery platform produced by Detroit Consolidated Vehicle Works on Detroit, entering service in 3073 through a joint initiative between the Magistracy of Canopus and the Capellan Confederation under the terms of the Trinity Alliance. Named for Danai Centrella, the fallen heir to the Canopian throne, the design was commissioned to provide the Magistracy Armed Forces with a mobile indirect fire support platform capable of operating across the combined-arms formations that the alliance required. Although the construction of Capellan-funded factories on a Magistracy world generated political friction within Canopian circles, the vehicle that emerged proved capable enough to win acceptance in both Canopian and Capellan formations. Its balance of speed, durability, and long-range fire support has made the Danai a reliable fixture in combined-arms units, and commanders on both sides of the alliance have come to depend on its steady performance.</p>
+</overview>
 
 <deployment>
 <p>The Danai entered continuous production in 3073 and has spread to nearly every Canopian combat unit and many Capellan formations. The MAF employs it primarily in indirect fire support roles, pairing the vehicle with faster screening elements that provide close protection while the artillery platform engages targets beyond direct-fire range. Mercenary units under Canopian and Capellan contract have consistently sought access to the type. While early MAF policy restricted sales to state-sponsored units, subsequent policy changes opened the market to mercenary purchasers. The factory security force at Detroit has historically maintained two full companies of Danais as its primary defensive asset, a practice that proved its worth during the Word of Blake raid on the facility.</p>
@@ -160,4 +147,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Magestrix Alpha
 TARGETING:Magestrix Gamma
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

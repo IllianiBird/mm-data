@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a4da-7217-bc7f-86cb4bae4c02
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Trinity Medium Battle Armor
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -81,42 +81,14 @@ BABattleClaw:RA
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-8
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Trinity is a family of three medium battle armor suits commissioned by the Capellan Confederation Armed Forces and funded jointly by the Trinity Alliance. Introduced in the mid-3060s, the program aimed to make powered infantry available beyond the elite formations that fielded the Fa Shih. The Capellan variant, designated the Ying Long, incorporates advanced camouflage technology derived from an outside source. The Taurian Asterion and Canopian Theseus share a more conventional protection scheme, differing primarily in cosmetic styling. All three designs emphasize ground mobility, close-quarters capability against heavier units, and a flexible modular weapon mount that allows field commanders to tailor loadouts to mission requirements.</p>
-</overview>
 
 <capabilities>
 <p>The Theseus carries a medium recoilless rifle identical to the Taurian Asterion's standard loadout, sharing the same ballistic performance, ammunition capacity, and maintenance profile. Standard armor plating provides protection against a large laser hit, using conventional materials suited to the Magistracy's industrial base. Twin battle claws enable anti-BattleMech operations and OmniMech transport capability. Ground speed reaches approximately 30 kilometers per hour with no jump capability.</p><p>The Theseus is functionally interchangeable with the Asterion at the individual suit level, differing only in cosmetic styling that reflects Canopian cultural aesthetics. This shared combat performance across two separate national production lines gives Trinity Alliance commanders the logistical advantage of parts commonality when operating in mixed formations.</p>
 </capabilities>
+
+<overview>
+<p>The Trinity is a family of three medium battle armor suits commissioned by the Capellan Confederation Armed Forces and funded jointly by the Trinity Alliance. Introduced in the mid-3060s, the program aimed to make powered infantry available beyond the elite formations that fielded the Fa Shih. The Capellan variant, designated the Ying Long, incorporates advanced camouflage technology derived from an outside source. The Taurian Asterion and Canopian Theseus share a more conventional protection scheme, differing primarily in cosmetic styling. All three designs emphasize ground mobility, close-quarters capability against heavier units, and a flexible modular weapon mount that allows field commanders to tailor loadouts to mission requirements.</p>
+</overview>
 
 <deployment>
 <p>The Magistracy of Canopus adopted the Theseus as its primary battle armor platform, organizing troopers into four-soldier squads within the MAF's conventional infantry structure. The Canopians named their variant after the legendary founder of Athens who slew the Minotaur, a deliberate political provocation directed at their Taurian allies. Canopian squads served across the Magistracy's territories, with particular concentrations along the Marian Hegemony border and in colonial defense garrisons.</p>
@@ -149,4 +121,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+8
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

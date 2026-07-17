@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea57-7e28-ba08-83d8498ddb55
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -31,10 +35,6 @@ Main Guardian
 <year>
 2732
 </year>
-
-<originalBuildYear>
-2732
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -104,19 +104,6 @@ Autocannon/5
 SRM 6
 </Turret Equipment>
 
-<source>
-Shrap21
-</source>
-
-<published>
-ShrapRS
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 18:51:33
 <overview>
 <p>The Main Guardian is the backbone combat unit of Ulsop Robotics' Main Guardian Defense System, a commercial drone tank network introduced in 2732. At sixty tons on a wheeled platform, it balances firepower across multiple engagement ranges, carrying weapons suited for both close-in defense and medium-range engagements. Within the Guardian network, the Main Guardian provides the sustained offensive punch that the lighter Swift Guardian scouts enable and the heavier Giant Guardian supports from range. Designed for worlds that lacked the resources or infrastructure for a full Space Defense System, the Main Guardian was intended as the centerpiece of an affordable, scalable city and installation defense solution. Operating through centralized computer control, it requires no crew and can be produced and fielded in quantity. Its versatility made it the most numerous element in Ulsop's production planning and, ultimately, the drone type most frequently encountered by forces engaging the Guardian network.</p>
 </overview>
@@ -150,4 +137,16 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+Shrap21
+</source>
+
+<published>
+ShrapRS
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

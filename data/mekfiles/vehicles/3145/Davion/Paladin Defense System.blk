@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7b7-7ee2-a6fb-e656ac70fad8
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Paladin Defense System
 <year>
 3109
 </year>
-
-<originalBuildYear>
-3109
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -119,26 +119,13 @@ ISLongTom
 ISLongTom
 </Turret Equipment>
 
-<source>
-TR:3145:FS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-130.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 21:44:37
-<overview>
-<p>The Paladin Defense System is a super-heavy tracked combat vehicle built from Capellan Confederation designs captured by the Federated Suns during the Victoria War of 3105. Kallon Weapon Industries put the vehicle into production in 3109, establishing it as a dedicated long-range artillery platform for the Armed Forces of the Federated Suns. At 130 tons, the Paladin is one of the heaviest conventional combat vehicles fielded by any Inner Sphere power. It was designed to deliver sustained indirect fire support from well behind the front lines, coordinating with forward spotters to blanket distant targets with artillery fire. The design found its primary role with planetary militias and dedicated artillery battalions rather than fast-moving frontline regimental combat teams, where its massive bulk and slow speed would have been a liability.</p>
-</overview>
-
 <capabilities>
 <p>The Paladin's primary armament consists of twin turret-mounted Kallon Weapon Industries Vicar Long Tom artillery pieces, giving it devastating indirect firepower at extreme range. The vehicle carries sixty rounds of ammunition in a hull-mounted bay protected by CASE, though this supply is widely considered insufficient for sustained operations. Most Paladin batteries compensate by towing dedicated ammunition trailers using the vehicle's integrated trailer hitch. One ton of dedicated communication equipment allows crews to maintain constant contact with forward spotters and coordinate fire missions across extended distances.</p><p>The Nissan 260 XL fusion engine propels the 130-ton vehicle to a modest 32 kilometers per hour, making it one of the slowest combat vehicles in active service. This limitation is accepted as a necessary trade-off for the sheer weight of fire the Paladin brings to the battlefield. Protection comes from eleven and a half tons of Durallex Special Heavy ferro-fibrous armor with CASE, providing adequate defense for a vehicle intended to operate well behind friendly lines. For self-defense, the Paladin mounts a pair of Diverse Optics extended range medium lasers and two Mydron miniguns in forward-facing positions. These weapons offer limited protection against infantry and light vehicles that close to contact range, but the Paladin remains heavily dependent on screening forces for close-in defense.</p>
 </capabilities>
+
+<overview>
+<p>The Paladin Defense System is a super-heavy tracked combat vehicle built from Capellan Confederation designs captured by the Federated Suns during the Victoria War of 3105. Kallon Weapon Industries put the vehicle into production in 3109, establishing it as a dedicated long-range artillery platform for the Armed Forces of the Federated Suns. At 130 tons, the Paladin is one of the heaviest conventional combat vehicles fielded by any Inner Sphere power. It was designed to deliver sustained indirect fire support from well behind the front lines, coordinating with forward spotters to blanket distant targets with artillery fire. The design found its primary role with planetary militias and dedicated artillery battalions rather than fast-moving frontline regimental combat teams, where its massive bulk and slow speed would have been a liability.</p>
+</overview>
 
 <deployment>
 <p>The majority of Federated Suns Paladins serve with planetary militias and dedicated artillery battalions. The vehicle is too slow and cumbersome for the fast-moving frontline light combat teams that form the core of Davion offensive doctrine. Once produced exclusively for the Federated Suns at Kallon facilities on Kirklin and Victoria, the design's proliferation accelerated during the Capellan and Draconis Combine invasions of the mid-3140s. Captured vehicles entered service with both aggressor states, giving the Confederation ironic access to its own stolen design for the first time since the Victoria War. Republic of the Sphere forces also fielded the Paladin in limited numbers before the fall of Fortress Republic.</p>
@@ -171,4 +158,16 @@ ARMOR:Special Heavy Ferro-Fibrous
 COMMUNICATIONS:JoLex Systems
 TARGETING:Omicron XII
 </systemModels>
+
+<source>
+TR:3145:FS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+130.0
+</tonnage>
 

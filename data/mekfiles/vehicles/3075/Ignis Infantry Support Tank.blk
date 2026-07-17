@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e601-7875-a62b-bc7ab7313a78
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Ignis Infantry Support Tank
 <year>
 2512
 </year>
-
-<originalBuildYear>
-2512
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -116,30 +116,13 @@ Flamer (Vehicle)
 Machine Gun
 </Turret Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>When Rim Worlds Republic populations grew increasingly restless under state control, the government sought a vehicle capable of eliminating urban insurgents who had proven impossible to uproot through conventional means. United Mechanics, LLC. answered that requirement with the Ignis, a 30-ton tracked design built on a modified infantry transport chassis and first produced in 2512 on Apollo. The vehicle was engineered to crash through building walls with its reinforced front, after which its side-mounted flamer units would incinerate whatever remained inside. A turret machine gun covered anyone attempting to flee. Crew-carried infantry could be deployed through the breached structure to finish the work. Originally called the Ram, the vehicle was informally renamed by its crews after a Vedic god of fire and sacrifice, and United Mechanics, LLC. officially adopted the new designation within a year of the vehicle entering service.</p>
-</overview>
-
 <capabilities>
 <p>The Ignis relies on four Intar burner units mounted in pairs along its flanks as its primary weapons. The Intar units are notable for their ability to combust almost any available propellant, a characteristic that crews have exploited in frequently devastating ways. Many operators have switched to low-heat fuel mixtures that sustain flame longer, extending the effect against targets inside breached structures. A Halta machine gun in the vehicle's turret provides reliable if unspectacular coverage against personnel attempting to escape the initial assault. The vehicle also mounts an air horn or air-raid siren used to announce an imminent collision with a target building, and some crews have fitted oversized sirens capable of producing sounds in excess of 160 decibels as an additional psychological measure.</p><p>The Ignis has serious mechanical limitations that constrain its operational utility. The RWA 120 ICE power plant is prone to failure and typically requires full replacement every two to three years under normal operational tempo. Suspension components degrade rapidly, often requiring attention after less than a year of regular service, and persistent electrical faults sideline the vehicle at inopportune moments. The design also cannot engage targets at medium range, making it entirely dependent on supporting units any time it faces opposition capable of standing off at distance.</p>
 </capabilities>
+
+<overview>
+<p>When Rim Worlds Republic populations grew increasingly restless under state control, the government sought a vehicle capable of eliminating urban insurgents who had proven impossible to uproot through conventional means. United Mechanics, LLC. answered that requirement with the Ignis, a 30-ton tracked design built on a modified infantry transport chassis and first produced in 2512 on Apollo. The vehicle was engineered to crash through building walls with its reinforced front, after which its side-mounted flamer units would incinerate whatever remained inside. A turret machine gun covered anyone attempting to flee. Crew-carried infantry could be deployed through the breached structure to finish the work. Originally called the Ram, the vehicle was informally renamed by its crews after a Vedic god of fire and sacrifice, and United Mechanics, LLC. officially adopted the new designation within a year of the vehicle entering service.</p>
+</overview>
 
 <deployment>
 <p>During the original RWR service period, the Ignis was restricted to elements of the state security apparatus and did not serve with regular military formations. When Stefan Amaris reintroduced the vehicle in 2751, he distributed it through the Amaris Dragoon regiments, ensuring each unit held at least one company of Ignis vehicles and most received in excess of a full battalion. The vehicle's persistent mechanical problems required unusual logistical arrangements. Units typically maintained vehicle pools numbering twice the available crews, ensuring that enough operational vehicles remained available at any given time regardless of how many were down for maintenance or repair.</p>
@@ -172,4 +155,20 @@ ARMOR:Crystal-Plate 9
 COMMUNICATIONS:Special-II
 TARGETING:ATR
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+30.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

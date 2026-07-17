@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e73a-75c8-b029-d6f0ddc8dd4b
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Winston Combat Vehicle
 <year>
 3086
 </year>
-
-<originalBuildYear>
-3086
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -113,26 +113,13 @@ Light Auto Cannon/5
 Light Auto Cannon/5
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>The Winston Combat Vehicle emerged in 3085 as a product of Pandora 'Mech Works, a Terra-based manufacturer struggling to find its footing in the post-Jihad economy. Known previously for the Puma assault tank, Pandora found that the Puma's close association with the Word of Blake had rendered it nearly unsaleable, forcing the company to develop an entirely new design or face closure. The resulting vehicle offered better protection and comparable firepower to tanks several tons heavier, without any of that political baggage. A procurement controversy over the vehicle's original name led to its renaming in honor of the famous soldier and statesman Winston Churchill. The tank entered field trials in November 3085 and impressed Republic Armed Forces evaluators, with full production and deployment to Republic front-line armor formations expected to begin in 3086.</p>
-</overview>
-
 <capabilities>
 <p>The Winston mounts its primary weapons in a central turret, pairing two Donal Technologies Light PPCs with a pair of Holly LRM 15 racks for sustained long-range engagements. Critics have questioned whether the light PPCs provide adequate penetrating power for a 70-ton main battle tank, but the designers prioritized redundancy over raw punch. The widely spaced LRM racks serve as mutual backups, ensuring the Winston can continue fighting even if one system is disabled. A fore-mounted Buzzsaw Anti-Missile System provides active defense against incoming guided munitions, while a Holly Streak SRM 6 adds reliable close-range firepower.</p><p>The key to the Winston's performance is its Pitban Light 210 fusion engine, which frees up substantial internal space compared to a conventional powerplant. This allows the vehicle to carry fourteen and a half tons of AmberStar Weave heavy ferro-fibrous armor, making it one of the best-protected vehicles in its weight class. A vehicular CASE installation shields the crew from ammunition explosions. The trade-off is modest ground speed and somewhat reduced offensive punch at close range compared to heavier conventional tanks. In practice, the Winston's layered defenses and redundant weapons systems allow it to absorb and return fire well beyond what its tonnage would suggest, compensating for its limited closing ability.</p>
 </capabilities>
+
+<overview>
+<p>The Winston Combat Vehicle emerged in 3085 as a product of Pandora 'Mech Works, a Terra-based manufacturer struggling to find its footing in the post-Jihad economy. Known previously for the Puma assault tank, Pandora found that the Puma's close association with the Word of Blake had rendered it nearly unsaleable, forcing the company to develop an entirely new design or face closure. The resulting vehicle offered better protection and comparable firepower to tanks several tons heavier, without any of that political baggage. A procurement controversy over the vehicle's original name led to its renaming in honor of the famous soldier and statesman Winston Churchill. The tank entered field trials in November 3085 and impressed Republic Armed Forces evaluators, with full production and deployment to Republic front-line armor formations expected to begin in 3086.</p>
+</overview>
 
 <deployment>
 <p>The LAC variant replaces the Winston's Light PPCs with shorter-ranged light autocannons, trading long-range precision for devastating close-quarters accuracy when loaded with precision-grade ammunition. The twin LRM 15 racks are replaced by dual seven-tube multi-missile launchers, reducing long-range missile capacity but increasing the volume of fire at closer ranges. Designed specifically for urban combat operations, the LAC variant excels at defending key intersections and chokepoints where shorter engagement ranges are less of a liability. The variant performed particularly well in urban trials against a Phoenix Hawk PXH-6D, where its combined short-range firepower proved overwhelming at point-blank range, forcing the BattleMech to break off before it could press its speed advantage.</p>
@@ -165,4 +152,16 @@ ARMOR:Weave Heavy Ferro
 COMMUNICATIONS:400E
 TARGETING:EE-4
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

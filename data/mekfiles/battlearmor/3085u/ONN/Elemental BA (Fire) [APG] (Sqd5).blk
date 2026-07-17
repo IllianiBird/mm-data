@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a563-7496-a28d-fded82319033
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Elemental Battle Armor
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -92,44 +92,15 @@ Clan BA Fire Resistant:Body
 
 <slotless_equipment>
 BAJumpJet
-BA-SRM2 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The gold standard of Clan armored infantry, the Elemental battle armor was developed by Clan Wolf and first deployed in 2868. Adapted from pressurized diving suits built by Clan Goliath Scorpion, the Elemental was the first purpose-built battle armor to see widespread military use. Designed for the Clans' genetically bred Elemental warriors, the one-ton medium suit combines heavy protection, jump mobility, and modular weaponry into a general-purpose package that has remained in frontline service for over two centuries. Produced across dozens of Clan facilities, the suit's adaptable design has spawned numerous specialized configurations while the base platform continues to anchor Clan infantry doctrine.</p>
-</overview>
 
 <capabilities>
 <p>The Fire configuration replaces the standard suit's anti-personnel weapon mount and missile ammunition with fire-resistant armor plating, hardening each trooper against incendiary weapons and extreme heat environments. A one-shot short-range missile launcher provides a single engagement opportunity against armored targets before the trooper must rely on the primary weapon mount alone. Available armament options include anti-personnel gauss rifles, flamers, and micro pulse lasers. The fire-resistant armor allows troopers to operate in conditions that would overwhelm standard suits, including close proximity to burning structures and industrial hazards. The configuration retains the battle claw and full jump capability of the base design. The primary weakness is reduced anti-armor sustainability: with only a single missile volley rather than the standard two, each trooper must make every shot count against hardened targets.</p>
 </capabilities>
+
+<overview>
+<p>The gold standard of Clan armored infantry, the Elemental battle armor was developed by Clan Wolf and first deployed in 2868. Adapted from pressurized diving suits built by Clan Goliath Scorpion, the Elemental was the first purpose-built battle armor to see widespread military use. Designed for the Clans' genetically bred Elemental warriors, the one-ton medium suit combines heavy protection, jump mobility, and modular weaponry into a general-purpose package that has remained in frontline service for over two centuries. Produced across dozens of Clan facilities, the suit's adaptable design has spawned numerous specialized configurations while the base platform continues to anchor Clan infantry doctrine.</p>
+</overview>
 
 <deployment>
 <p>Clan Jade Falcon developed the Fire configuration in 3069, and Falcon Points were the first to deploy it in significant numbers. Five-trooper Points carrying the anti-personnel gauss rifle alongside fire-resistant armor proved effective in combined-arms assaults where Falcon aerospace assets had set the battlefield ablaze. The gauss weapon's range allowed Points to engage targets while advancing through burning terrain that hostile infantry could not occupy.</p>
@@ -164,4 +135,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

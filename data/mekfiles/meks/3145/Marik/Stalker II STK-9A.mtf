@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d3a3-7495-a7eb-8867266d9ad4
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Stalker II
 model:STK-9A
 mul id:6515
@@ -180,13 +181,20 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Stalker II is a complete top-to-bottom redesign of the venerable Stalker, conceived by Irian BattleMechs Unlimited engineers on Shiro III in the aftermath of Gray Monday in 3132. Reviewing the Stalker's centuries of service records, the design team focused on distilling the qualities that had made the original so successful (durability, sustained firepower, and the ability to absorb punishing amounts of damage) and building those traits into a modern assault platform.</p><p>First deployed by the armed forces of the Duchy of Andurien in 3137, the Stalker II quickly saw combat during the Duchy of Oriente's invasion of Andurien. Following that conflict, Irian began selling the design to Andurien allies to generate revenue for the Duchy, leading to its deployment with Capellan Confederation and Marik-Stewart Commonwealth forces. The Stalker II earned its reputation during the Commonwealth's final days, fighting against Lyran and Clan Wolf forces across multiple theaters.</p>
+
 capabilities:<p>The Stalker II's defining characteristic is its extraordinary durability. Twenty-seven tons of Riese-675 Hardened Armor make it one of the most heavily protected assault 'Mechs in production, capable of absorbing damage that would cripple most contemporary designs. CASE II protection safeguards the interior against catastrophic ammunition detonation. The cockpit has been relocated to the torso for additional protection, necessitating the installation of a compact gyro to make room. This combination of hardened armor, CASE II, and a protected cockpit gives the Stalker II exceptional survivability under sustained fire.</p><p>The price of this protection is speed. The Strand 255 engine (the same model that powered its ancestor for centuries) cannot overcome the weight of the new heavy armor, limiting the Stalker II to just 43 kph. Eight Magna Mk. II medium lasers linked to a modern targeting computer provide accurate and devastating firepower at intermediate ranges, while two Irian Weapon Works ELRM-10 launchers with four tons of ammunition extend the engagement envelope far beyond what the original Stalker could achieve. The laser-heavy armament largely eliminates ammunition dependency for close-range fighting, though pilots must still manage heat from the ten double heat sinks carefully when firing the full battery.</p>
+
 deployment:<p>The sole production variant of the Stalker II, this variant was introduced in 3137 and features an Irian Chassis Class 38 Endo Steel frame supporting twenty-seven tons of Riese-675 Hardened Armor with CASE II protection. The Strand 255 engine is retained from the original Stalker lineage but the increased weight of the hardened armor reduces maximum speed to 43 kph. A torso-mounted cockpit and compact gyro provide enhanced pilot protection. The primary armament consists of eight medium lasers linked to a Wasat Aggressor targeting system with an advanced targeting computer, supplemented by two ELRM-10 launchers with four tons of ammunition for extended-range fire support. The design was spread throughout Andurien units and subsequently sold to allies including the Capellan Confederation and Marik-Stewart Commonwealth.</p>
+
 history:<p>Development of the Stalker II began shortly after Gray Monday in 3132, when the collapse of the HPG network prompted Irian engineers to review which designs would be most needed in a new era of open warfare. Extensive analysis of the original Stalker's service records revealed that the most feared variants throughout history were those equipped with Star League-era fire control systems and those that had been stripped down to emphasize pure survivability. The engineering team synthesized these findings into a design philosophy that prioritized durability and targeting accuracy above all else.</p><p>Introduced in 3137, the Stalker II was initially deployed exclusively by Duchy of Andurien forces. It first saw action during the Duchy of Oriente's invasion of Andurien, where its hardened armor proved its worth under concentrated fire. Financial pressures on the Duchy prompted Irian to begin export sales, and the Stalker II soon appeared in Capellan Confederation and Marik-Stewart Commonwealth formations.</p><p>The design achieved particular renown during the Marik-Stewart Commonwealth's final days. On Rexburg, two Stalker IIs of the Thirteenth Atrean Dragoons fought a desperate rearguard action against Clan Wolf forces, each engaging an entire Nova of light BattleMechs and combat vehicles. The hardened cockpit armor of one Stalker II was never breached despite absorbing fire from five separate attacks in the final barrage, though the MechWarrior ultimately succumbed to neurohelmet feedback from the sustained punishment. The battle demonstrated that even Clan forces had to respect the Stalker II's remarkable ability to absorb damage.</p><p>Consumer feedback following the Stalker II's introduction highlighted several issues with the redesigned platform, prompting Irian to simultaneously develop the STK-9F Clan-tech retrofit of the classic Stalker as an alternative for customers who preferred the proven original chassis. Both designs remain in production at Shiro III, offering commanders a choice between the Stalker II's extreme durability and the classic Stalker's more versatile weapons loadout.</p>
+
 manufacturer:Irian BattleMechs Unlimited
+
 primaryfactory:Shiro III
+
+fluffdate:2026-02-21 18:07:19
+
 systemmanufacturer:CHASSIS:Irian
 systemmode:CHASSIS:Chassis Class 38 Endo Steel
 systemmanufacturer:ENGINE:Strand

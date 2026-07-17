@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aca7-755b-9803-a6d04752b124
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Pella
 <year>
 2954
 </year>
-
-<originalBuildYear>
-2954
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -119,26 +119,13 @@ Clan LB 5-X Cluster Ammo
 CLCASE
 </Fuselage Equipment>
 
-<source>
-TR:GC
-</source>
-
-<published>
-TR:GC
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Pella is a light aerospace fighter developed by Clan Cloud Cobra during the mid-thirtieth century, named for the ancient birthplace of Alexander the Great. Designed to address a persistent threat in Homer's uninhabited lowland wastelands, the Pella was conceived as a dedicated patrol platform for locating and engaging Dark Caste elements operating beyond the reach of ground forces. Its combination of long-range sensors and standoff weapons gave Cloud Cobra aerospace commanders a self-contained tool for both reconnaissance and direct action against bandit camps and fleeing raiders.</p><p>The Pella never entered sustained production and remains one of the more tragic footnotes in Cloud Cobra aerospace history. A catastrophic incident at the fighter's public debut in 2954 tied the design to scandal at the highest levels of Clan leadership, and the project was cancelled before the aircraft could prove its operational worth. The Pella's brief existence stands as a reminder of how quickly inter-Clan rivalry can destroy a promising design program.</p>
-</overview>
-
 <capabilities>
 <p>The Pella is built around a 280 XL Fusion engine mounted in the Type 403-21J airframe, providing strong thrust for a forty-ton platform while keeping structural mass to a minimum. Forging II Ferro-Aluminum armor protects the fuselage, offering competitive survivability for the weight class without significantly burdening the power plant. The centerpiece of the design's mission package is an integrated Beagle active probe, allowing pilots to sweep wide areas for concealed machinery and hidden 'Mechs without closing to visual range, a capability specifically tailored to the patrol conditions on Homer.</p><p>In combat, the Pella's primary weapons are two Series XIV Extended-Range Large Lasers, positioned to engage targets well beyond the effective range of most opponents in its weight class. This standoff capability directly supports the design's bandit-hunting mission, allowing pilots to engage flushed Dark Caste raiders from a distance that limits return fire options. A single Type OVR-X LB 5-X Autocannon provides supplementary burst-fire capability for shorter-range engagements, and the combined loadout performs adequately in air superiority roles against similarly-massed craft.</p><p>The design carries notable trade-offs. The emphasis on extended-range weapons creates heat management demands on prolonged patrols, and the lack of close-in defensive armament leaves the Pella exposed if a target closes to knife-fight range. The CCC T-55 communications system and CCC D5.2J targeting and tracking system reflect Cloud Cobra's in-house electronics production, providing reliable coverage suited to Homer's operating environment.</p>
 </capabilities>
+
+<overview>
+<p>The Pella is a light aerospace fighter developed by Clan Cloud Cobra during the mid-thirtieth century, named for the ancient birthplace of Alexander the Great. Designed to address a persistent threat in Homer's uninhabited lowland wastelands, the Pella was conceived as a dedicated patrol platform for locating and engaging Dark Caste elements operating beyond the reach of ground forces. Its combination of long-range sensors and standoff weapons gave Cloud Cobra aerospace commanders a self-contained tool for both reconnaissance and direct action against bandit camps and fleeing raiders.</p><p>The Pella never entered sustained production and remains one of the more tragic footnotes in Cloud Cobra aerospace history. A catastrophic incident at the fighter's public debut in 2954 tied the design to scandal at the highest levels of Clan leadership, and the project was cancelled before the aircraft could prove its operational worth. The Pella's brief existence stands as a reminder of how quickly inter-Clan rivalry can destroy a promising design program.</p>
+</overview>
 
 <deployment>
 <p>The Pella was produced only in limited prototype numbers, with no confirmed operational service outside the three airframes employed during the 2954 Kardaan Airfield demonstration. A small production run was subsequently completed by Clan Coyote after their acquisition of the project data, but these aircraft were captured in the 2957 Trial of Possession and ordered dismantled by Khan McCloud. No surviving examples are known to exist, and the Pella was never distributed to any other Clan or integrated into standard aerospace wing tables of organization. The Complex H-3 production facility on Homer, the sole manufacturing site for the design, was converted to OmniFighter production following the end of the program.</p>
@@ -171,4 +158,16 @@ ARMOR:Forging II Ferro-Aluminum
 COMMUNICATIONS:CCC T-55
 TARGETING:CCC D5.2J
 </systemModels>
+
+<source>
+TR:GC
+</source>
+
+<published>
+TR:GC
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

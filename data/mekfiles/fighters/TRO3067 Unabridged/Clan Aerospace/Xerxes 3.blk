@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aed4-7737-9659-9d840e7cd406
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Xerxes
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -127,26 +127,13 @@ Hyper-Assault Gauss Rifle/40 Ammo
 Hyper-Assault Gauss Rifle/40 Ammo
 </Fuselage Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Xerxes is an 85-ton heavy aerospace fighter developed by Clan Smoke Jaguar and first produced in 2827 at Kirin Orbital Works SJ-3 on the Kerensky Cluster world of Kirin. Built to embody the Jaguars' direct and aggressive approach to combat, the design prioritizes destructive firepower and durable protection rather than speed or tactical flexibility. Its armament centers on a pair of wing-mounted heavy autocannons backed by nose-mounted extended range lasers, making the Xerxes effective in both air superiority engagements and ground attack roles. This combination of capability quickly established it as a valued asset across the toumans of virtually every Clan. Though second-line designs often struggle to find purpose after the introduction of OmniFighter technology, the Xerxes has remained in active service, continuing to fill escort and close support roles well into the modern era.</p>
-</overview>
-
 <capabilities>
 <p>The Xerxes is built around a pair of Aero-Model 4 Ultra Autocannon/20s, one mounted in each wing. Capable of firing in rapid-fire mode, these weapons can strip armor from an opposing fighter or ground vehicle in a single pass. Four tons of reloads provide enough ammunition for a typical Clan sortie, though pilots who expend ammunition carelessly may find themselves reliant solely on backup weapons before the engagement ends. Two Series S6a Extended Range Large Lasers mounted in the nose supplement the autocannons at range and provide reliable firepower during strafing runs. The fighter carries nine tons of Compound XAS ferro-aluminum armor, which gives it exceptional endurance for its weight class and allows it to absorb multiple hits during sustained engagements. Its 340-rated Standard fusion engine delivers a respectable acceleration of 3 Gs.</p><p>The primary tactical limitation of the design is thermal management. The twelve double heat sinks cannot handle simultaneous fire from all weapons, and pilots who attempt to do so risk an early combat shutdown and complete loss of control. Experienced pilots learn to stagger their weapons fire, keeping heat levels manageable and using the autocannons sparingly to conserve ammunition. The Xerxes is not agile by Clan fighter standards, but its raw stopping power and durable construction make it effective across a broad range of tactical situations.</p>
 </capabilities>
+
+<overview>
+<p>The Xerxes is an 85-ton heavy aerospace fighter developed by Clan Smoke Jaguar and first produced in 2827 at Kirin Orbital Works SJ-3 on the Kerensky Cluster world of Kirin. Built to embody the Jaguars' direct and aggressive approach to combat, the design prioritizes destructive firepower and durable protection rather than speed or tactical flexibility. Its armament centers on a pair of wing-mounted heavy autocannons backed by nose-mounted extended range lasers, making the Xerxes effective in both air superiority engagements and ground attack roles. This combination of capability quickly established it as a valued asset across the toumans of virtually every Clan. Though second-line designs often struggle to find purpose after the introduction of OmniFighter technology, the Xerxes has remained in active service, continuing to fill escort and close support roles well into the modern era.</p>
+</overview>
 
 <deployment>
 <p>The Xerxes 3 takes the airframe's firepower philosophy to its logical extreme, stripping the design down to a pair of HAG/40 hyper-assault Gauss rifles and shedding supplementary weapons and heat sinks to accommodate them. The resulting configuration delivers concentrated volleys at extended range while eliminating the heat management demands that constrain the base model in sustained engagements. Produced at Kirin Orbital Works SJ-3, the Xerxes 3 is assigned where ammunition resupply can be reliably maintained, and represents the most technologically demanding variant in the Xerxes family.</p>
@@ -179,4 +166,16 @@ ARMOR:Compound XAS Ferro-Aluminum
 COMMUNICATIONS:KOW-Comm Type 9
 TARGETING:ASG Mark VII
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

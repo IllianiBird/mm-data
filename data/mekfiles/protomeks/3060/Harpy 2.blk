@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0b0-7511-83b8-415c2e5d402f
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Harpy
 <year>
 3063
 </year>
-
-<originalBuildYear>
-3063
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -119,34 +119,13 @@ CLERMicroLaser
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-2.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Harpy is a two-ton first-generation ProtoMek developed by Clan Smoke Jaguar as part of the original ProtoMek program on Huntress. The lightest design to emerge from the program, the Harpy blurs the line between battle armor and true combat walker, standing barely taller than an Elemental in powered armor. Despite its diminutive stature, the Harpy mounts a ballistic weapon and three jump jets that grant it remarkable tactical agility for its weight class. Intended primarily for anti-infantry operations and close-range ambush tactics, the Harpy relies on its small profile and jumping ability rather than armor protection or raw firepower to survive on the battlefield.</p>
-</overview>
-
 <capabilities>
 <p>The Harpy is defined by its jump capability. Three jump jets give the tiny machine ninety meters of leaping distance, allowing it to exploit terrain features that would block larger units and execute flanking maneuvers that heavier ProtoMeks cannot replicate. A single machine gun provides adequate firepower against infantry and battle armor formations, though it struggles to threaten anything with significant armor protection. The ten-rated fusion engine drives the two-ton frame at a modest thirty-two kilometers per hour cruising speed, making the Harpy one of the slower designs when earthbound.</p><p>The Harpy carries eleven points of armor, sufficient to absorb a medium laser hit to the torso but offering little margin against sustained fire. In standard battlefield exercises against Elemental battle armor, the Harpy generally fared poorly in direct engagements, as Elementals carry comparable firepower with better anti-Mek capability. The Harpy finds its niche in roles where its larger size offers a psychological advantage over conventional infantry and where its jump jets allow it to control engagement range. Commanders who attempt to use Harpy Points as frontline assault units quickly discover the design limitations, while those who employ them as mobile skirmishers and ambush elements find them surprisingly effective.</p>
 </capabilities>
+
+<overview>
+<p>The Harpy is a two-ton first-generation ProtoMek developed by Clan Smoke Jaguar as part of the original ProtoMek program on Huntress. The lightest design to emerge from the program, the Harpy blurs the line between battle armor and true combat walker, standing barely taller than an Elemental in powered armor. Despite its diminutive stature, the Harpy mounts a ballistic weapon and three jump jets that grant it remarkable tactical agility for its weight class. Intended primarily for anti-infantry operations and close-range ambush tactics, the Harpy relies on its small profile and jumping ability rather than armor protection or raw firepower to survive on the battlefield.</p>
+</overview>
 
 <deployment>
 <p>The Harpy 2 replaces the machine gun with an ER Micro Laser, eliminating ammunition dependency entirely at the cost of reduced anti-infantry effectiveness. The energy weapon allows extended patrols without resupply concerns, making this variant popular for garrison duty on remote Homeworld enclaves where logistics chains are unreliable. Armor protection is reduced to eight points to accommodate the weapon swap, leaving the Harpy 2 even more fragile than its predecessor. The jump jet configuration remains unchanged at three jets providing ninety meters of leaping distance. This variant was developed by Clan Wolf and saw limited production at Csesztreg before the facility changed hands during the Wars of Reaving.</p>
@@ -176,4 +155,16 @@ TARGETING:Unknown
 <systemModels>
 ENGINE:10 Fusion
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+2.0
+</tonnage>
 

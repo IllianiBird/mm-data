@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a911-7e85-bf0d-57911e6a3138
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ AIX-210(Sqd5)
 <year>
 3124
 </year>
-
-<originalBuildYear>
-3124
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -88,38 +88,14 @@ IS BA Stealth (Standard):LA
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TtS:Kandersteg
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The AIX-210 Hantu is an armored infantry exoskeleton derived from the CEX-205 Groundhog. Produced by the Kandersteg Foundry Alpha on the Lyran Commonwealth world of Kandersteg, the Hantu was introduced in 3124 as a purpose-built enhancement for conventional infantry formations. The Kandersteg Militia licensed the Groundhog's base design from Blue Shot Weapons and adapted it with stealth armor sourced from Clan Wolf-in-Exile, creating a low-profile exoskeleton intended to improve the survivability of regular foot soldiers rather than replace dedicated battle armor troopers. Formally designated the "Ghost" for its stealth characteristics, most operators instead call the suit the "Jenglot" in wry acknowledgment of how the exoskeleton measures against true battlefield threats.</p>
-</overview>
 
 <capabilities>
 <p>The AIX-210 mounts armored gloves on both hands and basic myomer augmentation that allows operators to carry conventional infantry weapons and equipment with reduced fatigue. Stealth armor provides a lower sensor signature than standard armor plating, improving the suit's survivability against detection-dependent weapons systems. The suit lacks jump jets, integrated weapons, and specialized equipment such as HarJel, keeping the design simple and the training requirements low. Ground speed and overall handling mirror the Groundhog's performance profile.</p><p>The Hantu's primary limitation is that it remains an exoskeleton, not true battle armor. Protection is sufficient against small arms and fragmentation but inadequate against anti-armor weapons or direct BattleMech engagement. The design deliberately avoids the complexity that would require battle armor-level training, trading combat power for accessibility and rapid fielding. Two hundred kilograms of unused capacity in the baseline model allows field customization, though the standard AIX-210 configuration leaves this weight unallocated.</p>
 </capabilities>
+
+<overview>
+<p>The AIX-210 Hantu is an armored infantry exoskeleton derived from the CEX-205 Groundhog. Produced by the Kandersteg Foundry Alpha on the Lyran Commonwealth world of Kandersteg, the Hantu was introduced in 3124 as a purpose-built enhancement for conventional infantry formations. The Kandersteg Militia licensed the Groundhog's base design from Blue Shot Weapons and adapted it with stealth armor sourced from Clan Wolf-in-Exile, creating a low-profile exoskeleton intended to improve the survivability of regular foot soldiers rather than replace dedicated battle armor troopers. Formally designated the "Ghost" for its stealth characteristics, most operators instead call the suit the "Jenglot" in wry acknowledgment of how the exoskeleton measures against true battlefield threats.</p>
+</overview>
 
 <deployment>
 <p>Clan formations that acquired the Hantu organized operators into five-trooper Points following standard Clan military structure. The suit's use of stealth armor manufactured for Clan Wolf-in-Exile gave it a natural connection to Clan supply chains, though the Hantu's deliberately simplified design and lack of advanced battle armor systems limited its appeal among warrior caste personnel. Garrison and labor caste troops found the suit's accessible interface better matched to their training level.</p>
@@ -152,4 +128,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TtS:Kandersteg
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

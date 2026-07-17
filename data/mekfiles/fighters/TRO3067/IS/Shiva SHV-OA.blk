@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aeb0-74b7-8f00-263c19cb08e7
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SHV-OA
 <year>
 3060
 </year>
-
-<originalBuildYear>
-3060
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -130,26 +130,13 @@ IS Gauss Ammo:OMNI
 IS Gauss Ammo:OMNI
 </Fuselage Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Shiva is the Free Worlds League's first domestic OmniFighter, introduced in 3060 and named for the multiarmed Hindu god of destruction. Developed in close cooperation with the Word of Blake, the design reflects the League's ambition to field a cutting-edge, flexible combat aircraft capable of competing with Clan aerospace designs. Built at Andurien Aerospace's facility on Lopez, the Shiva was intended to serve as the League's principal carrier-borne combat aircraft, providing commanders with a platform that could be reconfigured for virtually any mission profile. The design's capacity to carry a massive, mission-tailored weapons payload across its modular pod system earned it immediate attention across the League's aerospace wings, and it has seen service with units ranging from the Knights of the Inner Sphere to the Word of Blake Militia.</p>
-</overview>
-
 <capabilities>
 <p>The Shiva mounts a 255 XL engine on an SHV X1 Standard frame, a deliberate engineering trade of speed for payload capacity. The result is a fighter marginally slower than comparably massed contemporaries but capable of fielding more than fifty tons of configurable pod space, a figure unmatched among Inner Sphere heavy fighters at the time of its introduction. The ten tons of Andurien Composition 3 ferro-aluminum armor protecting the airframe have been a persistent point of criticism, widely considered inadequate for a craft of the Shiva's mass and price point. The eighteen double heat sinks mounted on the base chassis have, by contrast, attracted consistent praise for keeping the design manageable even in energy-weapon-intensive configurations.</p><p>The fixed avionics include a Lassitor-5A communications suite and Wasat Aggressor Type 6F targeting system with OmniLink integration, allowing the chassis to accept any pod-compatible weapon or equipment system. The Primary configuration reflects the Shiva's flexibility, pairing an LB 20-X autocannon, SRM-6, and ER small laser in the nose with large pulse lasers in each wing for a devastating close-quarters punch. The A configuration shifts focus to standoff combat with Gauss rifles and ER large lasers backed by an Artemis-enhanced LRM rack. The B configuration maximizes sustained missile output through twin Artemis-equipped LRM-20 launchers backed by substantial CASE-protected ammunition reserves. The C configuration prioritizes energy weapons and accuracy, using ER PPCs and light Gauss rifles to minimize logistical exposure. The D configuration introduces electronic warfare capability through a Guardian ECM suite alongside a Gauss-heavy weapons package.</p>
 </capabilities>
+
+<overview>
+<p>The Shiva is the Free Worlds League's first domestic OmniFighter, introduced in 3060 and named for the multiarmed Hindu god of destruction. Developed in close cooperation with the Word of Blake, the design reflects the League's ambition to field a cutting-edge, flexible combat aircraft capable of competing with Clan aerospace designs. Built at Andurien Aerospace's facility on Lopez, the Shiva was intended to serve as the League's principal carrier-borne combat aircraft, providing commanders with a platform that could be reconfigured for virtually any mission profile. The design's capacity to carry a massive, mission-tailored weapons payload across its modular pod system earned it immediate attention across the League's aerospace wings, and it has seen service with units ranging from the Knights of the Inner Sphere to the Word of Blake Militia.</p>
+</overview>
 
 <deployment>
 <p>The A configuration reconfigures the Shiva for sustained long-range engagement, pairing Gauss rifles and ER large lasers in each wing with an Artemis IV-enhanced LRM-10 and ER small laser in the nose. This loadout is frequently fielded alongside shorter-ranged configurations to provide standoff suppression while other craft move into closer engagement ranges. The A configuration is well suited to anti-DropShip and fleet escort duties where maintaining range advantage is critical.</p>
@@ -182,4 +169,16 @@ ARMOR:Andurien Composition 3 Ferro-Aluminum
 COMMUNICATIONS:Lassitor-5A
 TARGETING:Wasat Aggressor Type 6F with OmniLink
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

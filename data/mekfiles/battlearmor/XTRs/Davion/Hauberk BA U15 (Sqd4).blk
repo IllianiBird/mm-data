@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a92a-733c-bf2b-c90ee7b063f1
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ U15(Sqd4)
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -94,42 +94,14 @@ IS BA Mimetic:LA
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-XTR:Davion
-</source>
-
-<published>
-XTR:Davion
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Hauberk is an Inner Sphere assault battle armor developed by the Armed Forces of the Federated Suns during the Jihad. Built by General Motors on Salem, the two-thousand-kilogram suit was derived from Clan Goliath Scorpion's Undine chassis, repurposed from its original aquatic role into a ground-based heavy infantry platform. The Hauberk's thick armor and powerful armament made it one of the most heavily equipped battle armor designs fielded by the Federated Suns, filling a defensive assault role that had previously been dominated by Clan designs.</p>
-</overview>
 
 <capabilities>
 <p>The U15 hybrid configuration packs an eclectic mix of Clan-manufactured weapons onto a modified Hauberk frame using three detachable weapon mounts. A Clan ER small laser occupies the left arm mount, a Clan micro pulse laser sits in the right arm, and a Clan SRM-2 with four reloads is carried on the body alongside a shoulder-mounted Magshot Gauss Rifle. A Clan ECM suite disrupts enemy targeting systems, complementing the suit's mimetic armor salvaged from destroyed Purifier adaptive suits.</p><p>This experimental configuration carries more weapon diversity than any standard Hauberk variant, giving troopers options across multiple engagement ranges. The reliance on Clan-manufactured components presents significant logistical challenges, as replacement parts require either salvage or trade with Clan merchants. Movement remains unchanged at ten kilometers per hour with no jump capability, and without manipulators the U15 cannot grapple opponents or ride BattleMechs. Only a handful of these suits were assembled from battlefield salvage, making them exceedingly rare.</p>
 </capabilities>
+
+<overview>
+<p>The Hauberk is an Inner Sphere assault battle armor developed by the Armed Forces of the Federated Suns during the Jihad. Built by General Motors on Salem, the two-thousand-kilogram suit was derived from Clan Goliath Scorpion's Undine chassis, repurposed from its original aquatic role into a ground-based heavy infantry platform. The Hauberk's thick armor and powerful armament made it one of the most heavily equipped battle armor designs fielded by the Federated Suns, filling a defensive assault role that had previously been dominated by Clan designs.</p>
+</overview>
 
 <deployment>
 <p>The U15's origins as a hand-built experimental design limited its deployment to a handful of four-trooper squads on New Avalon. These suits operated under close supervision from Stevens Barracks, where Tech Sergeant Balke's small production run supplied a local battle armor unit for urban training and security operations.</p>
@@ -162,4 +134,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Davion
+</source>
+
+<published>
+XTR:Davion
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

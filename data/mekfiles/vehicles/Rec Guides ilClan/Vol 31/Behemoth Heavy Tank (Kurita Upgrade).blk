@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9fd-7a32-babb-df82c9932a7e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Behemoth Heavy Tank
 <year>
 3140
 </year>
-
-<originalBuildYear>
-3140
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -114,33 +114,13 @@ CLStreakSRM6
 CLStreakSRM6
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG31
-</source>
-
-<published>
-RG31,RSFP:Battlefield
-</published>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 15:52:16
-<overview>
-<p>The Behemoth Heavy Tank has been a fixture of Inner Sphere armored doctrine since its introduction in 2952, when Aldis Industries and General Motors delivered the first production vehicles to the Federated Suns Armed Forces. Conceived during a period when the role of conventional armor on a 'Mech-dominated battlefield was genuinely in doubt, the Behemoth resolved the question with characteristic bluntness: it carries enough guns to threaten anything that moves and enough armor to absorb punishment in return. Military planners who considered a tracked vehicle too slow and unmaneuverable to matter were repeatedly shown otherwise when Behemoths held prepared positions against BattleMech-equipped opponents. The design has since spread to every major Successor State military, and its presence in armored formations across the Inner Sphere remains as common today as it was during the height of the Succession Wars.</p>
-</overview>
-
 <capabilities>
 <p>The centerpiece of the Behemoth's armament is a pair of turret-mounted SarLon MaxiCannon Autocannon/10s, weapons heavy enough to threaten assault-class BattleMechs in sustained engagement. Four LongFire Light LRM 5 launchers extend the vehicle's effective range and provide area suppression, while paired Harvester SRM 6 and SRM 2 racks deliver concentrated close-range firepower against anything that survives the initial salvos. Four MainFire Minigun machine guns discourage infantry assaults and strip away light vehicles attempting to use the tank's low speed against it.</p><p>Protection comes from thirteen tons of ArcShield Maxi II armor distributed across the hull, providing resilience that consistently surprises opponents expecting conventional vehicles to fold under 'Mech-scale fire. The original internal combustion engine keeps the design simple and maintainable across the full spectrum of Inner Sphere logistical conditions, though it limits the Behemoth to a top speed of 32 kph. This mobility shortfall is the design's most persistent tactical weakness, making the Behemoth heavily dependent on terrain selection and fire position to avoid encirclement. Commanders who respect this constraint typically deploy the vehicle in hull-down positions or urban environments where its firepower concentration can be maximized and faster opponents denied maneuvering room.</p><p>The Cirxese BallistaCheck targeting system, paired with the Cirxese RokeCheck suite, provides reliable fire control across the vehicle's diverse weapon mix, though the platform is not designed for rapid target transitions. The Olmstead 30 communications system is straightforward and compatible with standard Inner Sphere command infrastructure.</p>
 </capabilities>
+
+<overview>
+<p>The Behemoth Heavy Tank has been a fixture of Inner Sphere armored doctrine since its introduction in 2952, when Aldis Industries and General Motors delivered the first production vehicles to the Federated Suns Armed Forces. Conceived during a period when the role of conventional armor on a 'Mech-dominated battlefield was genuinely in doubt, the Behemoth resolved the question with characteristic bluntness: it carries enough guns to threaten anything that moves and enough armor to absorb punishment in return. Military planners who considered a tracked vehicle too slow and unmaneuverable to matter were repeatedly shown otherwise when Behemoths held prepared positions against BattleMech-equipped opponents. The design has since spread to every major Successor State military, and its presence in armored formations across the Inner Sphere remains as common today as it was during the height of the Succession Wars.</p>
+</overview>
 
 <deployment>
 <p>New Samarkand Metals' most advanced Behemoth configuration mounts Clan-grade Streak launchers and Ultra-class autocannons alongside a targeting computer, placing it firmly in the company of dedicated tank destroyers. Fielded exclusively by DCMS elite armored formations from the mid-Dark Age onward, the Kurita Upgrade variant has seen action in the border skirmishes and major campaigns that have defined the Dark Age period.</p>
@@ -175,4 +155,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Olmstead 30
 TARGETING:Cirxese BallistaCheck with Cirxese RockeCheck
 </systemModels>
+
+<source>
+RG31
+</source>
+
+<published>
+RG31,RSFP:Battlefield
+</published>
+
+<tonnage>
+100.0
+</tonnage>
 

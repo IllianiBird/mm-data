@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e2b4-782b-8de0-39abc2836074
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Karnov UR Gunship
 <year>
 3039
 </year>
-
-<originalBuildYear>
-3039
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -114,37 +114,13 @@ Machine Gun
 <Rotor Equipment>
 </Rotor Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The Karnov UR Gunship is a common field conversion of the ubiquitous Karnov UR Transport, sacrificing the aircraft's cargo bay to mount machine gun emplacements. The modification gained popularity during the War of 3039, when demand for armed aerial support outpaced the availability of purpose-built combat VTOLs. Field technicians across the Inner Sphere independently developed similar configurations, mounting pairs of machine guns in each former cargo bay with supporting ammunition stores. The Gunship conversion trades the Karnov's utility as a transport for a modest but useful anti-infantry and anti-soft-target capability, filling a gap in units that lack dedicated attack helicopter assets. The modification requires no exotic parts or specialized tooling, making it accessible to militia forces, mercenary commands, and garrison units operating far from major supply depots.</p>
-</overview>
-
 <capabilities>
 <p>The Gunship conversion retains the base Karnov's DAV 190 ICE engine, tilt-rotor assembly, and StarSlab armor, inheriting all the structural characteristics and limitations of the transport variant. The primary modification replaces the six-ton cargo hold with four machine gun installations, two in each former bay position, supported by two tons of ammunition. The machine guns provide effective suppressive fire against infantry, unarmored vehicles, and exposed personnel, though they lack the punch to threaten even lightly armored combat vehicles.</p><p>Without the weight of cargo, the Gunship maintains the Karnov's full speed performance, making it an effective strafing platform against soft targets. The Johnston Q-Rotor communications system carries over unchanged, though many Gunship crews supplement it with additional radio equipment scavenged from ground vehicles. The Gunship retains the Karnov's primary vulnerability: its oversized rotors remain exposed to ground fire, and a single well-placed hit can bring the aircraft down regardless of its armament. Crews compensate with aggressive low-altitude tactics and the aircraft's high speed, relying on brief, violent strafing runs rather than sustained loiter over hostile positions.</p>
 </capabilities>
+
+<overview>
+<p>The Karnov UR Gunship is a common field conversion of the ubiquitous Karnov UR Transport, sacrificing the aircraft's cargo bay to mount machine gun emplacements. The modification gained popularity during the War of 3039, when demand for armed aerial support outpaced the availability of purpose-built combat VTOLs. Field technicians across the Inner Sphere independently developed similar configurations, mounting pairs of machine guns in each former cargo bay with supporting ammunition stores. The Gunship conversion trades the Karnov's utility as a transport for a modest but useful anti-infantry and anti-soft-target capability, filling a gap in units that lack dedicated attack helicopter assets. The modification requires no exotic parts or specialized tooling, making it accessible to militia forces, mercenary commands, and garrison units operating far from major supply depots.</p>
+</overview>
 
 <deployment>
 <p>The standard Gunship conversion, mounting four machine guns with two tons of ammunition in the former cargo bays. As a field refit requiring no specialized parts, the Gunship can be produced by any competent maintenance team with access to a Karnov transport and basic machine gun mounts. The variant serves primarily with militia forces, garrison commands, and mercenary units across the Inner Sphere, providing low-cost aerial fire support for ground operations.</p>
@@ -177,4 +153,20 @@ ARMOR:StarSlab/1.5
 JUMP_JET:N/A
 COMMUNICATIONS:Q-Rotor
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+30.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

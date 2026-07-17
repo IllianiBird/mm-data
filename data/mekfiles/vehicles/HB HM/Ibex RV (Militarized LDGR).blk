@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e913-7389-a648-0624c05f2f44
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Ibex RV
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -104,11 +104,6 @@ PintleTurret
 <Rear Equipment>
 </Rear Equipment>
 
-<slotless_equipment>
-Infantry Ammo
-Infantry Ammo
-</slotless_equipment>
-
 <barrating>
 7
 </barrating>
@@ -121,34 +116,13 @@ Infantry Ammo
 3
 </engine_tech_rating>
 
-<source>
-HB:HM
-</source>
-
-<published>
-HB:HM
-</published>
-
-<tonnage>
-2.0
-</tonnage>
-
-<fuel>
-0.011
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The Ibex RV is a two-ton wheeled utility vehicle introduced in 3049 by Earthwerks-FWL, Incorporated, designed to serve farmers and rural settlers across the Free Worlds League's more rugged worlds. Rugged, reliable, and capable off-road, the design quickly gained broader appeal far beyond its original agricultural market, becoming a fixture in urban centers where its oversized form and commanding presence made it a peculiar status symbol among the social elite. Law enforcement agencies and Free Worlds League Militia units also recognized its practical utility, adopting the platform for light patrol and security duties. A militarized variant followed almost immediately, adding heavier armor and light weaponry without fundamentally altering the vehicle's core character as a tough, go-anywhere utility truck.</p>
-</overview>
-
 <capabilities>
 <p>The Ibex RV is built around a wheeled off-road chassis and powered by an internal combustion engine with a 500-kilometer range on its eleven-kilogram fuel tank. Civilian versions carry BAR 4 armor, sufficient for industrial hazards but not designed to stop weapons fire. The vehicle accommodates eight occupants including the driver, accessed through two side doors per side and a rear entry, making it well-suited for transporting small work teams across rough terrain. Its 601-kilogram cargo bay handles tools, equipment, and supplies for extended fieldwork.</p><p>The militarized version upgrades armor protection to BAR 7, adding meaningful resistance against light weapons fire. The initial military variant mounts twin King David man-pack Gauss rifles in a pintle arrangement, while the later Gauss variant places side-mounted King David light Gauss rifles for improved standoff capability. Neither variant is intended for frontline combat, but both provide security personnel and militia forces with a credible deterrent against unarmored threats and light opposition. The reduction in cargo capacity on the militarized version to 388 kilograms is a meaningful trade-off for operators who rely on the platform for logistics as well as security.</p>
 </capabilities>
+
+<overview>
+<p>The Ibex RV is a two-ton wheeled utility vehicle introduced in 3049 by Earthwerks-FWL, Incorporated, designed to serve farmers and rural settlers across the Free Worlds League's more rugged worlds. Rugged, reliable, and capable off-road, the design quickly gained broader appeal far beyond its original agricultural market, becoming a fixture in urban centers where its oversized form and commanding presence made it a peculiar status symbol among the social elite. Law enforcement agencies and Free Worlds League Militia units also recognized its practical utility, adopting the platform for light patrol and security duties. A militarized variant followed almost immediately, adding heavier armor and light weaponry without fundamentally altering the vehicle's core character as a tough, go-anywhere utility truck.</p>
+</overview>
 
 <deployment>
 <p>The later Gauss variant serves in similar roles to its predecessor but is preferred by units operating in areas where longer engagement distances are expected. Its side-mounted King David light Gauss rifles provide improved accuracy over the earlier pintle-mounted configuration, making it marginally more effective against light armor. It sees use in both militia patrol units and private security forces across the League's member states.</p>
@@ -181,4 +155,24 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+HB:HM
+</source>
+
+<published>
+HB:HM
+</published>
+
+<tonnage>
+2.0
+</tonnage>
+
+<fuel>
+0.011
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

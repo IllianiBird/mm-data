@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e744-7ce3-9bd7-53e836368a02
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Zephyros Infantry Support Vehicle
 <year>
 3086
 </year>
-
-<originalBuildYear>
-3086
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -113,26 +113,13 @@ CLERMediumLaser
 CLERMediumLaser
 </Front Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>Cut off from their Homeworld production networks in the aftermath of the Word of Blake Jihad, Clan Hell's Horses faced a growing shortfall in infantry support vehicles. The designs that had long served the Clan's conventional forces could no longer be manufactured or restocked in the Inner Sphere. Rather than accept the continued decline of their vehicle arm, the Horses directed Swedenborg Heavy Industries on Kirchbach to develop an entirely new domestic platform. The result, introduced in 3084, was the Zephyros Infantry Support Vehicle. Taking its name from the Greek god of the West Wind, who in the form of a horse was said to draw the chariot of Zeus, the design embodied the Horses' philosophy: rapid response, battlefield endurance, and a focused mission over the distraction of multi-role versatility.</p>
-</overview>
-
 <capabilities>
 <p>The Zephyros pairs a Fusion 180 powerplant with a dune-buggy style wheeled chassis and oversized wheels, reaching a cruising speed of 86 kilometers per hour and a top speed of 129. The rugged wheel arrangement gives the vehicle greater ground clearance than hover designs, improving durability in broken terrain. The trade-off is reduced all-terrain flexibility compared to tracked alternatives and less raw speed than hover platforms.</p><p>Survivability is a core design priority. Over a fifth of the vehicle's mass is dedicated to ferro-fibrous composite armor, and an integrated ECM suite helps defeat missile guidance systems and counter advanced targeting technology. Together, these features allow the crew to absorb fire from most light and medium threats and disengage before heavier units can close the range.</p><p>Primary armament is a pair of Series 2b extended-range medium lasers in the main turret, capable of engaging both Clan and Inner Sphere light armor at range. Series HL-II light machine guns provide the means to suppress or eliminate conventional infantry, the design's primary target category. The Zephyros is not intended as a standalone combatant. Its role is to protect friendly infantry on a contested battlefield, and commanders who push it into engagements against heavier armor will find its firepower wanting quickly.</p>
 </capabilities>
+
+<overview>
+<p>Cut off from their Homeworld production networks in the aftermath of the Word of Blake Jihad, Clan Hell's Horses faced a growing shortfall in infantry support vehicles. The designs that had long served the Clan's conventional forces could no longer be manufactured or restocked in the Inner Sphere. Rather than accept the continued decline of their vehicle arm, the Horses directed Swedenborg Heavy Industries on Kirchbach to develop an entirely new domestic platform. The result, introduced in 3084, was the Zephyros Infantry Support Vehicle. Taking its name from the Greek god of the West Wind, who in the form of a horse was said to draw the chariot of Zeus, the design embodied the Horses' philosophy: rapid response, battlefield endurance, and a focused mission over the distraction of multi-role versatility.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3086, the Dual Turret variant addressed the most common field complaint about the base model: the limited engagement arc of its light machine guns when the main turret was tracking an armored target. Moving the machine guns to a free-floating pintle mount at the rear of the vehicle allows the gunner to engage infantry independently of the laser turret, significantly improving simultaneous engagement capability. The cost is modest, a downgrade of the forward lasers to standard medium range and a reduction of half a ton of ammunition to accommodate the second turret mechanism. The variant was fielded selectively alongside base models in clusters where anti-infantry suppression was prioritized over longer-range engagements.</p>
@@ -165,4 +152,16 @@ ARMOR:Magnum Ferro-Fibrous Composite
 COMMUNICATIONS:Build 1685 Tacticom with ECM
 TARGETING:Series VI Integrated TTS
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

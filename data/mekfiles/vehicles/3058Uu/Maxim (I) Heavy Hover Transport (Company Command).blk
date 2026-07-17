@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e433-73cf-baed-87ee021eaf9c
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Maxim (I) Heavy Hover Transport
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -106,33 +106,13 @@ ISERMediumLaser
 ISTAG
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Maxim (I) Heavy Hover Transport represents Scarborough Manufacturers' answer to the growing demand for dedicated battle armor carriers in the Draconis Combine military. Introduced in 3060, the design sacrifices much of the original Maxim's heavy weaponry in favor of a significantly expanded infantry bay capable of carrying a full squad of battle armor troopers alongside conventional infantry.</p><p>The designation "Maxim (I)" distinguishes this infantry-focused variant from the combat-oriented models produced at the same Scarborough facility on Al Na'ir. While less heavily armed than its predecessor, the Maxim (I) fills a critical logistical role in combined-arms formations where rapid battle armor deployment takes priority over organic fire support.</p>
-</overview>
-
 <capabilities>
 <p>The Maxim (I) trades the original's extensive missile battery for a more focused weapons suite designed around supporting its embarked troops. A turret-mounted Streak SRM-6 provides accurate close-range firepower, backed by a pair of extended-range medium lasers that offer ammunition-independent engagement capability. A TAG unit retained in the turret allows the crew to designate targets for nearby Arrow IV batteries and semi-guided LRM munitions, giving the transport indirect fire coordination ability that most APCs lack.</p><p>The expanded twelve-ton infantry bay is the heart of the redesign. The interior accommodates a full platoon of battle armor with room to spare, or can carry a substantially larger force of conventional infantry. ProtecTech 6 ferro-fibrous armor replaces the original ArcShield plating, providing improved protection at reduced weight. The same PowerTech 165 Highlift engine maintains the familiar 129 kilometer per hour top speed. The primary weakness remains the hover skirt, and the reduced weapons load means the Maxim (I) is heavily dependent on its embarked troops and supporting units for protection once the infantry has deployed.</p>
 </capabilities>
+
+<overview>
+<p>The Maxim (I) Heavy Hover Transport represents Scarborough Manufacturers' answer to the growing demand for dedicated battle armor carriers in the Draconis Combine military. Introduced in 3060, the design sacrifices much of the original Maxim's heavy weaponry in favor of a significantly expanded infantry bay capable of carrying a full squad of battle armor troopers alongside conventional infantry.</p><p>The designation "Maxim (I)" distinguishes this infantry-focused variant from the combat-oriented models produced at the same Scarborough facility on Al Na'ir. While less heavily armed than its predecessor, the Maxim (I) fills a critical logistical role in combined-arms formations where rapid battle armor deployment takes priority over organic fire support.</p>
+</overview>
 
 <deployment>
 <p>The Company Command variant formalizes field modifications that emerged during the late Civil War era. Twin C3 master computers and a Guardian ECM suite transform the Maxim (I) into a mobile command platform for combined-arms formations. The armor and weaponry remain identical to the standard infantry variant, preserving the vehicle's ability to transport battle armor troops while simultaneously providing electronic warfare support and C3 network coordination for an entire company-level formation.</p>
@@ -165,4 +145,16 @@ ARMOR:ProtecTech 6
 COMMUNICATIONS:Talky 2
 TARGETING:Tracky 1
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

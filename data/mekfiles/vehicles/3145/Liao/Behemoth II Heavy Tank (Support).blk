@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7e5-7a26-a0f2-1e3639b5a39e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Behemoth II Heavy Tank
 <year>
 3102
 </year>
-
-<originalBuildYear>
-3102
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -115,33 +115,13 @@ ISERLargeLaser
 ISGaussRifle
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3145:CC,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 15:52:16
-<overview>
-<p>The Behemoth II Heavy Tank represents Aldis Industries' answer to the original Behemoth's most persistent tactical liability. Where the standard design sacrificed speed entirely for firepower and armor, the Behemoth II installs a Vlar 300 XL fusion engine that more than doubles the vehicle's ground speed while preserving its formidable armament and advanced ferro-fibrous protection. Developed in the late Republic era, the Behemoth II earned a reputation early in its service life as the best tank no one wanted, as commanders balked at its price point and the logistical demands of its XL powerplant. That skepticism largely evaporated following a series of high-profile engagements during the Capellan Crusades, where Behemoth IIs demonstrated an almost legendary resistance to destruction even under sustained BattleMech assault.</p>
-</overview>
-
 <capabilities>
 <p>The Behemoth II's primary armament is a single Poland Main Model C Gauss rifle providing precise long-range firepower comparable to purpose-built tank destroyers. Eight Sian/Ceres Serval Thunderbolt 5 missile launchers complement this with independently controlled fire arcs: each gunnery station can be reconfigured on the fly to address different target sets, tracks up to ten contacts simultaneously, and maintains threat assessment for two per station. The four Death Blossom 10-Pack rocket launcher banks handle close-range engagements.</p><p>The Vlar 300 XL fusion engine pushes the Behemoth II to over 54 kph at maximum speed, a dramatic improvement over the original design that allows the vehicle to contest ground previously conceded to faster opponents. ArcShield Max III Advanced Ferro-Fibrous armor provides protection that has proven resilient even under sustained BattleMech-scale fire in documented engagements. The Omicron VIII targeting system delivers a seventeen percent improvement in acquisition speed and calculates long-range fire solutions thirty-one percent faster than comparable competitor systems, giving crews a meaningful edge at extended engagement ranges.</p><p>The XL engine that grants the Behemoth II its speed advantage is also its most significant vulnerability. Side-torso penetration that would be survivable in a standard design risks catastrophic engine failure in the Behemoth II, and this susceptibility to massed flank fire has influenced how commanders choose to deploy the vehicle.</p>
 </capabilities>
+
+<overview>
+<p>The Behemoth II Heavy Tank represents Aldis Industries' answer to the original Behemoth's most persistent tactical liability. Where the standard design sacrificed speed entirely for firepower and armor, the Behemoth II installs a Vlar 300 XL fusion engine that more than doubles the vehicle's ground speed while preserving its formidable armament and advanced ferro-fibrous protection. Developed in the late Republic era, the Behemoth II earned a reputation early in its service life as the best tank no one wanted, as commanders balked at its price point and the logistical demands of its XL powerplant. That skepticism largely evaporated following a series of high-profile engagements during the Capellan Crusades, where Behemoth IIs demonstrated an almost legendary resistance to destruction even under sustained BattleMech assault.</p>
+</overview>
 
 <deployment>
 <p>The Support variant exchanges the Gauss rifle for an ER large laser and mixes in LRM and Streak SRM fire control, shifting the Behemoth II into a more flexible fire support role at the expense of maximum single-target penetration. It serves alongside standard Behemoth IIs in mixed platoons, providing sustained-fire capability and extended-range engagement options that complement the primary variant's precision Gauss battery.</p>
@@ -176,4 +156,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Olmstead 44
 TARGETING:Omicron VIII
 </systemModels>
+
+<source>
+TR:3145:CC,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+100.0
+</tonnage>
 

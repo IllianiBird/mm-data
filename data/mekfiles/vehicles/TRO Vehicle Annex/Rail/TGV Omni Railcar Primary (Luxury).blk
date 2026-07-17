@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-28
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ead9-788f-9051-cd4db6b63371
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -36,10 +40,6 @@ Primary (Luxury)
 3062
 </year>
 
-<originalBuildYear>
-3062
-</originalBuildYear>
-
 <type>
 IS Level 2
 </type>
@@ -53,10 +53,10 @@ Rail
 </motion_type>
 
 <transporters>
-BattleArmorHandles - troopers:-1
 1stclassquarters:90.0:0:-1::-1:0:omni
 2ndclassquarters:7.0:0:-1::-1:0:omni
-cargobay:4.5:0:1::-1:0
+cargobay:4.5:0:3::-1:0
+BattleArmorHandles - troopers:-1
 </transporters>
 
 <cruiseMP>
@@ -124,30 +124,13 @@ SV Chassis Mod [Tractor]
 5
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-120.0
-</tonnage>
-
-<baseChassisFireConWeight>
-0.0
-</baseChassisFireConWeight>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-02-28 11:09:21
-<overview>
-<p>The TGV Omni Railcar is a one-hundred-twenty-ton modular trailer designed by Alstom Rail Corporation in partnership with Blackwell Corporation during the early 3060s. Created as the interchangeable payload component of the Adelante rail system, the TGV uses omni-technology to allow rapid reconfiguration between five standard pod layouts covering passenger transport, cargo hauling, and military support roles. Swapping configurations requires only a concrete service channel equipped with overhead magnetic cranes, a process completed in minutes rather than the hours demanded by traditional railcar maintenance. This flexibility made the TGV platform commercially attractive to both civilian transport operators and military logistics commands, with universal availability ensuring broad distribution across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>As a trailer unit, the TGV Omni Railcar carries no engine of its own and relies entirely on one or more Adelante tractors for motive power. Its fifteen-and-a-half-ton chassis supports one hundred and one and a half tons of reconfigurable pod space distributed across seventeen equipment slots, providing exceptional payload flexibility for its weight class. BAR 9 armor offers better ballistic protection than the tractor itself, a design choice reflecting the trailer's role as the system's primary payload carrier where passengers, cargo, or military assets require shielding from hostile fire.</p><p>The omni-pod system represents the core innovation of the entire Adelante platform. Overhead magnetic cranes at equipped depots can lift entire configuration modules out of the trailer's open-topped chassis channel and replace them within minutes, even while passengers remain aboard adjacent cars in the same train consist. This allows operators to adjust train composition on short notice, switching between luxury passenger service and bulk cargo hauling without taking vehicles out of the operational rotation. The design carries the Difficult to Maintain quirk, however, reflecting the complexity of its omni-pod interfaces and the specialized depot equipment required for configuration changes. Facilities lacking the proper magnetic crane infrastructure cannot perform field swaps, limiting operational flexibility away from established rail corridors.</p>
 </capabilities>
+
+<overview>
+<p>The TGV Omni Railcar is a one-hundred-twenty-ton modular trailer designed by Alstom Rail Corporation in partnership with Blackwell Corporation during the early 3060s. Created as the interchangeable payload component of the Adelante rail system, the TGV uses omni-technology to allow rapid reconfiguration between five standard pod layouts covering passenger transport, cargo hauling, and military support roles. Swapping configurations requires only a concrete service channel equipped with overhead magnetic cranes, a process completed in minutes rather than the hours demanded by traditional railcar maintenance. This flexibility made the TGV platform commercially attractive to both civilian transport operators and military logistics commands, with universal availability ensuring broad distribution across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Primary configuration outfits the TGV as a luxury passenger railcar, featuring nine first-class quarters and one second-class quarter alongside four and a half tons of cargo space for passenger luggage and onboard amenities. This layout serves premium commercial routes where passenger comfort commands higher ticket prices, offering accommodations comparable to first-class DropShip cabins at a fraction of the transit cost.</p>
@@ -182,4 +165,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+120.0
+</tonnage>
+
+<baseChassisFireConWeight>
+0.0
+</baseChassisFireConWeight>
+
+<fuel>
+0.0
+</fuel>
 

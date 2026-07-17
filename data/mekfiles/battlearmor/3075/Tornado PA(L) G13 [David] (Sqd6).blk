@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a4af-72cd-91bf-79a7fbd0802f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ G13 [David Light Gauss](Sqd6)
 <year>
 3066
 </year>
-
-<originalBuildYear>
-3066
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -91,42 +91,14 @@ IS BA Stealth (Basic):LA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-16 21:37:26
-<overview>
-<p>ComStar developed the Tornado power armor (light) suit in the late twenty-ninth century as a covert operations platform for its intelligence service and special forces units. Derived from Star League-era Nighthawk technology preserved on Terra, the Tornado combined lightweight stealth protection with an adaptive concealment system in a package light enough for extended clandestine deployments. The suit gained a reputation as one of the most effective infiltration tools in the Inner Sphere, serving ComStar and later the Word of Blake across decades of covert operations. Multiple variants expanded the design beyond intelligence work into direct combat and logistics support roles.</p>
-</overview>
 
 <capabilities>
 <p>The G13 trades the original Tornado's camouflage system for a modular weapon mount in the right arm, reflecting a shift from covert infiltration to direct combat support. Basic stealth armor provides protection comparable to the earlier models, though the loss of active camouflage makes the suit more dependent on conventional concealment. The David light Gauss rifle configuration offers precision engagement capability at extended range, allowing operators to deliver accurate fire from positions that heavier battle armor cannot reach. The weapon's minimal heat generation suits the Tornado's lightweight frame, which lacks the cooling infrastructure of larger suits. A single armored glove on the left hand retains the capacity for anti-BattleMech attacks and OmniMech transport, though the dedicated weapon mount eliminates the right-hand manipulator. The suit remains limited to foot infantry speeds with no jump capability.</p>
 </capabilities>
+
+<overview>
+<p>ComStar developed the Tornado power armor (light) suit in the late twenty-ninth century as a covert operations platform for its intelligence service and special forces units. Derived from Star League-era Nighthawk technology preserved on Terra, the Tornado combined lightweight stealth protection with an adaptive concealment system in a package light enough for extended clandestine deployments. The suit gained a reputation as one of the most effective infiltration tools in the Inner Sphere, serving ComStar and later the Word of Blake across decades of covert operations. Multiple variants expanded the design beyond intelligence work into direct combat and logistics support roles.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake Level I formations armed with David light Gauss rifles served as dedicated marksman teams within larger Tornado detachments. The six-trooper structure allowed Blakist commanders to assign paired shooter-spotter teams across three positions, maximizing the weapon's precision engagement capability during facility defense and convoy escort operations.</p>
@@ -159,4 +131,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

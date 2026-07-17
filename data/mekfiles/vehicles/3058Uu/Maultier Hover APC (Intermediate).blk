@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e42e-7be7-b4b6-48100915dff1
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Maultier Hover APC
 <year>
 3043
 </year>
-
-<originalBuildYear>
-3043
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -100,30 +100,13 @@ SRM 2
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<tonnage>
-15.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Maultier is a 15-ton hover APC originally designed for the Star League Defense Force as a fast infantry transport. Capable of deploying a full platoon at high speed, it was valued for its ability to insert troops quickly and withdraw before enemy forces could respond. The design was considered lost after the fall of the Star League until Taurian scientists rediscovered it in 3019, and Taurus Territorial Industries on Sterope successfully replicated the vehicle for the Taurian Defense Force. The Maultier has since become a mainstay infantry transport across the Periphery, with production expanding to include Marian Arms on Alphard. Its combination of speed, simplicity, and reliable troop-carrying capacity has made it a valued asset for commanders who prioritize rapid infantry deployment over heavy firepower.</p>
-</overview>
-
 <capabilities>
 <p>The Magna 50 internal combustion engine propels the Maultier to a top speed of 151 km/h, making it one of the fastest APCs available. This speed is the vehicle's greatest tactical asset, allowing crews to deliver infantry to objectives and withdraw before hostile forces can effectively engage. Star League-era hover technology enables the driver to lower the rear skirt at full speed, with the vehicle only needing to decelerate when troops are actually disembarking. This feature dramatically reduces the time the Maultier spends stationary and vulnerable during deployment operations.</p><p>Defensive armament is limited to a single Pinard Reaper Streak SRM-2 rack with one ton of ammunition. The Streak system's lock-on requirement prevents wasted shots, maximizing the limited ammunition supply, but the vehicle is clearly not designed for sustained combat. Durallex Light Ferro-Fibrous armor provides reasonable protection for a vehicle of this weight class, though any sustained engagement with dedicated combat vehicles will quickly overwhelm the Maultier's thin plating. The Neil 6000-x communications system and TracTex Alpha-1 targeting system round out the electronics suite, both proving simple enough for Periphery technicians to maintain and reproduce.</p>
 </capabilities>
+
+<overview>
+<p>The Maultier is a 15-ton hover APC originally designed for the Star League Defense Force as a fast infantry transport. Capable of deploying a full platoon at high speed, it was valued for its ability to insert troops quickly and withdraw before enemy forces could respond. The design was considered lost after the fall of the Star League until Taurian scientists rediscovered it in 3019, and Taurus Territorial Industries on Sterope successfully replicated the vehicle for the Taurian Defense Force. The Maultier has since become a mainstay infantry transport across the Periphery, with production expanding to include Marian Arms on Alphard. Its combination of speed, simplicity, and reliable troop-carrying capacity has made it a valued asset for commanders who prioritize rapid infantry deployment over heavy firepower.</p>
+</overview>
 
 <deployment>
 <p>The Intermediate variant represents the midpoint in the Concordat's efforts to restore the Maultier to full Star League specifications. Introduced in 3043 after Taurus Territorial Industries mastered ferro-fibrous armor production, it upgrades the Basic's standard armor to Durallex Light Ferro-Fibrous while retaining the conventional SRM-2 launcher. This configuration served as the TDF's primary Maultier model for roughly a decade until the Streak system became available in 3054.</p>
@@ -156,4 +139,20 @@ ARMOR:Light Ferro-Fibrous
 COMMUNICATIONS:6000-x
 TARGETING:Alpha-1
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<tonnage>
+15.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

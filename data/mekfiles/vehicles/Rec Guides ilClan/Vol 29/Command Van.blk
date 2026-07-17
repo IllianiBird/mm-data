@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9dc-7f40-9d03-1b1b025e0c13
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Command Van
 <year>
 2577
 </year>
-
-<originalBuildYear>
-2577
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -102,29 +102,13 @@ Machine Gun
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-<source>
-RG29
-</source>
-
-<published>
-RG29
-</published>
-
-<tonnage>
-15.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 17:28:43
-<overview>
-<p>The Command Van is the most basic and widespread mobile command platform in the Inner Sphere. Technically, the designation can refer to any enclosed all-terrain vehicle outfitted for military or civilian command purposes, but the standard model is a six-wheeled armored transport equipped with communications gear, medical equipment, and computer tracking systems. Produced by numerous manufacturers across every Successor State, the Command Van has served militaries and civilian organizations alike since the late Star League era. Its simplicity and low cost ensure that virtually any formation requiring a command vehicle can obtain one, even if it lacks the sophisticated coordination capabilities of purpose-built mobile headquarters.</p>
-</overview>
-
 <capabilities>
 <p>The standard Command Van mounts an LRM-5 launcher in a roof turret and a forward-facing machine gun, providing minimal self-defense capability. Four tons of armor offer modest protection, with slightly heavier coverage forward. The vehicle's true value lies in its internal systems. A communications suite provides surface-to-surface and surface-to-orbit transmissions, while onboard computers track friendly and hostile force movements. Medical equipment enables battlefield first aid for wounded personnel brought to the command post.</p><p>The van's fusion engine allows it to keep pace with most formations, though it is not designed for front-line operations. Its light armament and thin armor make it vulnerable if caught in direct combat, and commanders typically position their Command Vans well behind the battle line. The vehicle's simplicity is both its greatest strength and limitation, easily maintained and repaired almost anywhere, but lacking the advanced holographic displays, battle computers, and heavy ECM suites found on dedicated mobile headquarters platforms.</p>
 </capabilities>
+
+<overview>
+<p>The Command Van is the most basic and widespread mobile command platform in the Inner Sphere. Technically, the designation can refer to any enclosed all-terrain vehicle outfitted for military or civilian command purposes, but the standard model is a six-wheeled armored transport equipped with communications gear, medical equipment, and computer tracking systems. Produced by numerous manufacturers across every Successor State, the Command Van has served militaries and civilian organizations alike since the late Star League era. Its simplicity and low cost ensure that virtually any formation requiring a command vehicle can obtain one, even if it lacks the sophisticated coordination capabilities of purpose-built mobile headquarters.</p>
+</overview>
 
 <deployment>
 <p>The standard fusion-powered Command Van is the most common command vehicle in the Inner Sphere, found in service with every major military and most planetary militias. Its ubiquity means that any combined-arms formation, no matter how modest, can obtain at least a basic level of battlefield coordination. Variants differ primarily in the quality of their internal electronics, which ranges from cutting-edge Star League salvage to barely functional jury-rigged systems.</p>
@@ -147,4 +131,16 @@ ARMOR:Standard
 COMMUNICATIONS:Standard Comms
 TARGETING:Standard
 </systemModels>
+
+<source>
+RG29
+</source>
+
+<published>
+RG29
+</published>
+
+<tonnage>
+15.0
+</tonnage>
 

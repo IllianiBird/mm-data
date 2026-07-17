@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e59f-7f52-bf09-82964ed8d7a6
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Stygian Strike Tank
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -104,26 +104,13 @@ ISERMediumLaser
 LRM 15
 </Turret Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Stygian Strike Tank is a Free Worlds League hover combat vehicle developed by Brooks Incorporated of Irian and introduced in 3062. The design emerged from a Captain-General directive encouraging League manufacturers to bring advanced weapons technology to planetary militia and conventional armor formations at reduced cost. Brooks Incorporated responded by refining their proven Harasser fast missile boat into a more capable platform, fielding the result as the Harasser II before field testing gave the design its permanent name. The Second Free Worlds Legionnaires conducted those trials, and Force Commander Corrine Marik's personal endorsement secured FWLM-wide adoption. Renamed in honor of the Legionnaire unit that validated it, the Stygian combines exceptional hover speed with a potent long-range missile system, positioning it as a flexible reconnaissance and fire support asset for formations across the League.</p>
-</overview>
-
 <capabilities>
 <p>The Stygian's exceptional speed is its primary defensive asset. A Magna 185 Fusion plant drives the hover platform to a flank speed few ground vehicles can match, enabling crews to select engagement range, reposition under fire, and withdraw before opponents can bring heavier weapons to bear. This mobility carries a cost in protection, as the Maximillian 43 armor covering the hull provides only modest resistance against direct fire. The Stygian is not designed to absorb punishment and suffers disproportionately when forced into close terrain or stripped of its mobility.</p><p>The vehicle's offensive focus centers on a turret-mounted Magna Longbow-15 LRM launcher backed by three segregated, full-ton ammunition bins. Gunner-controlled load selection allows the crew to switch between standard fragmentation, anti-infantry, and other specialized munitions without manual handling, extending the platform's tactical flexibility well beyond that of a conventional missile boat. Two forward-fixed Diverse Optics Extended Range medium lasers complement the Longbow at intermediate range, though the fixed mounting limits their effectiveness to threats directly ahead. The Maxell 600b communications suite and Maxell TA70 targeting system provide solid crew support for long-range engagements. Together, the Stygian's speed, missile volume, and munitions flexibility make it a demanding adversary for opponents who cannot force it into unfavorable terrain.</p>
 </capabilities>
+
+<overview>
+<p>The Stygian Strike Tank is a Free Worlds League hover combat vehicle developed by Brooks Incorporated of Irian and introduced in 3062. The design emerged from a Captain-General directive encouraging League manufacturers to bring advanced weapons technology to planetary militia and conventional armor formations at reduced cost. Brooks Incorporated responded by refining their proven Harasser fast missile boat into a more capable platform, fielding the result as the Harasser II before field testing gave the design its permanent name. The Second Free Worlds Legionnaires conducted those trials, and Force Commander Corrine Marik's personal endorsement secured FWLM-wide adoption. Renamed in honor of the Legionnaire unit that validated it, the Stygian combines exceptional hover speed with a potent long-range missile system, positioning it as a flexible reconnaissance and fire support asset for formations across the League.</p>
+</overview>
 
 <deployment>
 <p>The standard Stygian entered service with the Second Free Worlds Legionnaires in 3062 and spread progressively to other FWLM armor regiments and planetary militia formations. Primarily employed in the reconnaissance and light fire support roles, crews rely on the vehicle's high speed to avoid situations where its modest armor becomes a critical liability. The design operates most effectively when paired with heavier armored vehicles capable of anchoring a defensive line while the Stygian screens flanks and delivers missile fire from standoff range.</p>
@@ -156,4 +143,16 @@ ARMOR:43
 COMMUNICATIONS:600b
 TARGETING:TA70
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

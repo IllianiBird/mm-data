@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e84f-773b-b110-a06205949723
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Prowler Multi-Terrain Vehicle
 <year>
 3140
 </year>
-
-<originalBuildYear>
-3140
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -108,26 +108,13 @@ TSEMP Cannon
 ISMML7
 </Turret Equipment>
 
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Prowler Multi-Terrain Vehicle is found in virtually every corner of the Inner Sphere, yet rarely deployed in front-line combat roles. Designed in 2611 by Terra's Vitesse Vehicles, a company better known for luxury automobiles than military hardware, the Prowler was built on a combat chassis and optimized for all-terrain cargo transport. Its fusion-powered amphibious drive and spacious cargo bay made it highly attractive for both military and commercial operators, and Vitesse liberally licensed production rights to manufacturers across the Inner Sphere and Periphery, eventually withdrawing from direct manufacturing entirely.</p><p>This widespread proliferation ensured the Prowler's survival through centuries of conflict. Despite its martial origins, the design earned its lasting reputation not on the battlefield, but as a workhorse transport for explorers, scouts, and second-line forces operating in terrain too hostile for conventional vehicles.</p>
-</overview>
-
 <capabilities>
 <p>The Prowler's defining capability is its fusion-powered amphibious duplex drive, allowing it to traverse nearly any terrain type without modification. Star League-era and Terran-built examples are heavily automated, permitting a single driver to control the entire vehicle and its weapons systems, a feature that substantially reduces crew requirements compared to most combat vehicles of comparable size.</p><p>This automation comes at a cost in direct combat capability. The vehicle's armament consists of a long-range missile system, twin medium pulse lasers, and a two-tube short-range missile rack, adequate to deter opportunistic attackers but insufficient for sustained front-line engagement. Seven tons of standard armor provides reasonable protection against light fire, though concentrated assault will overwhelm its defenses quickly. Its slow ground speed prevents effective use in reconnaissance roles, leaving it outpaced by nearly all dedicated scout vehicles.</p><p>The Prowler's true value lies in its Beagle Active Probe, cargo bay, and amphibious capability, making it an ideal platform for exploration, survey operations, and logistical support in terrain inaccessible to conventional vehicles. These strengths define its four centuries of continuous service across human space.</p>
 </capabilities>
+
+<overview>
+<p>The Prowler Multi-Terrain Vehicle is found in virtually every corner of the Inner Sphere, yet rarely deployed in front-line combat roles. Designed in 2611 by Terra's Vitesse Vehicles, a company better known for luxury automobiles than military hardware, the Prowler was built on a combat chassis and optimized for all-terrain cargo transport. Its fusion-powered amphibious drive and spacious cargo bay made it highly attractive for both military and commercial operators, and Vitesse liberally licensed production rights to manufacturers across the Inner Sphere and Periphery, eventually withdrawing from direct manufacturing entirely.</p><p>This widespread proliferation ensured the Prowler's survival through centuries of conflict. Despite its martial origins, the design earned its lasting reputation not on the battlefield, but as a workhorse transport for explorers, scouts, and second-line forces operating in terrain too hostile for conventional vehicles.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3140 by Millennium Industries, this upgrade addresses reliability issues identified during extended Republic service. Updated electronics and revised systems reduce crew fatigue during long-duration survey and patrol missions, while the core amphibious drive and automation suite are retained with refinements. Production is concentrated at the Terra facility, with distribution primarily to Republic and ilClan-era forces requiring a capable all-terrain platform. The 3140 Upgrade represents the current baseline for new Prowler procurement by forces with access to Millennium Industries' production output.</p>
@@ -160,4 +147,16 @@ ARMOR:J-Seal Standard
 COMMUNICATIONS:Wonder-Talk VI
 TARGETING:J-Peep Farsight with Active Probe
 </systemModels>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<tonnage>
+55.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-cf45-7c96-beb3-deaf0df1fe10
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Ymir
 model:BWP-2B
 mul id:3620
@@ -175,7 +176,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Ymir holds a unique place in BattleMech history as the Lyran Commonwealth's first homegrown design. Developed by Coventry Defense Conglomerate during the early days of the Age of War, the ninety-ton assault 'Mech was an ambitious attempt to surpass the Terran Hegemony's Mackie using domestically sourced engineering and materials. Taking the Mackie's basic frame as a starting point, CDC's engineers shaved ten tons of mass from the design and refined the chassis into a sleeker, more stable platform with a distinctive angled body structure intended to improve weapons distribution and overall handling. The Ymir was envisioned as a versatile combatant capable of engaging targets across a wide range of distances, a notable departure from the Mackie's more straightforward approach to firepower. While the design struggled in its earliest forms, the Ymir's development represented a critical step in establishing the Commonwealth as an independent producer of BattleMech technology.</p>
 
 capabilities:<p>The production BWP-2B Ymir mounts a Coventry Motors 360 fusion engine, pushing the ninety-ton chassis to a top speed of sixty-four kilometers per hour. Ten and a half tons of CDC Combat Alloy 4X armor provides solid protection for an assault 'Mech of its era, distributed across CDC's distinctive BPX-1 frame.</p><p>The Ymir's weapons loadout emphasizes flexibility across engagement ranges. An Arcturan Arms Longarm Series autocannon/5 and a pair of CDC Single-Five LRM 5 launchers provide sustained long-range fire, while an Accufire Optics large laser adds punch at medium distances. For close-quarters work, four Coventry B4 SRM-2 launchers and an Accufire Optics Mini small laser exploit gaps in enemy armor. Sixteen single heat sinks manage the thermal load reasonably well, allowing most of the arsenal to fire simultaneously without significant heat buildup.</p><p>The design's primary weaknesses stem from its era of origin. Its top speed is modest even by assault 'Mech standards, and the complete absence of jump jets limits tactical options on broken terrain. The weapons load, while diverse, relies on smaller launchers rather than concentrated firepower, spreading damage across an opponent's armor rather than punching through it decisively.</p>
@@ -187,6 +187,8 @@ history:<p>The Ymir's origins trace back to Operation PROMETHEUS, the Lyran Comm
 manufacturer:Coventry Defense Conglomerate
 
 primaryfactory:Coventry
+
+fluffdate:2026-02-21 18:07:19
 
 systemmanufacturer:CHASSIS:CDC
 systemmode:CHASSIS:BPX-1

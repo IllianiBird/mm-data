@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e50a-70b2-af38-6d073b3589f8
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Heavy Tracked APC
 <year>
 2470
 </year>
-
-<originalBuildYear>
-2470
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -103,30 +103,13 @@ Machine Gun
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The SRM variant of the Heavy Tracked APC adds a front-mounted SRM-4 launcher to the standard machine gun pair while reducing infantry carrying capacity from six tons to three tons -- enough for one platoon of standard infantry. The SRM-4 provides meaningful anti-armor capability at close range, allowing the vehicle to engage light combat vehicles and threaten BattleMech rear armor while fulfilling its transport mission. Two machine guns and one ton of SRM ammunition complement the launcher.</p><p>Fifty-six points of standard armor and the tracked drive system's all-terrain capability make this the most tactically versatile Heavy APC variant, able to deliver infantry and provide close fire support across any terrain type. The slower maximum speed of approximately eighty-six kilometers per hour is offset by the tracked chassis's ability to approach through terrain that faster hover and wheeled vehicles must avoid.</p>
 </capabilities>
+
+<overview>
+<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The tracked SRM variant fills a combined transport and escort role, delivering infantry while providing close-range fire support against armored threats encountered during approach. The tracked chassis's ability to follow dismounted infantry across rough terrain makes it valuable as a persistent fire support element that can remain with its delivered troops.</p>
@@ -157,4 +140,20 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

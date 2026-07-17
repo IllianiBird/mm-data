@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad2d-74eb-8bc7-063514789e7c
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ F-100b
 <year>
 2835
 </year>
-
-<originalBuildYear>
-2835
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -123,26 +123,13 @@ IS Ammo AC/5
 IS Ammo AC/5
 </Fuselage Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>Born of necessity during the First Succession War, the F-100 Riever was Captain-General Thaddeus Marik's answer to the Free Worlds League's dwindling aerospace capabilities. Unlike the sophisticated Star League-era designs it would fight alongside, the Riever was conceived from the outset as something the League's battered industrial base could actually build and maintain. Andurien AeroTech, a division of Free Worlds Defense Industries, delivered a design that traded elegance for durability, prioritizing heavy armor and ease of repair over raw performance. The result was a craft that technicians came to appreciate even as pilots learned to respect its limitations. The Riever became the backbone of Free Worlds League aerospace operations against enemy fighter formations and DropShips, a role it filled credibly for over two centuries despite never being mistaken for a sophisticated machine.</p>
-</overview>
-
 <capabilities>
 <p>The Riever's primary offensive weapon is an Imperator Zeta-a Class 20 Autocannon, an aerospace-modified cannon capable of catastrophic damage at close range. The weapon's critical limitation is its ten-round ammunition supply, which makes every burst a calculated commitment. Four Beta-6 SRM launchers provide supporting firepower, effective against fighters of all weight classes and useful for saturating DropShip point defenses at close range. A Gamma-10 LRM launcher completes the armament, providing limited long-range harassment that forces opponents to close distance before they are ready to engage.</p><p>The Riese 710 armor is the Riever's most celebrated feature, giving the fighter resilience to absorb punishment that would destroy lighter craft. The Pitban 300a engine provides adequate thrust but does not make the Riever quick or agile, and the fighter's atmospheric handling is notoriously poor. Early production models suffered catastrophic wing loading failures under combat stress, a problem corrected by relocating the heavy autocannon from the wing mounting to a more stable position in the fuselage center, which reduced both structural stress and wing loading to tolerable levels. The design's generous heat sink count provides reasonable thermal management despite the weapons load, and the Lassitor-3QZ communications suite paired with the IMB SYS 3740 targeting system gives pilots reliable battlefield awareness without elaborate electronic frills.</p>
 </capabilities>
+
+<overview>
+<p>Born of necessity during the First Succession War, the F-100 Riever was Captain-General Thaddeus Marik's answer to the Free Worlds League's dwindling aerospace capabilities. Unlike the sophisticated Star League-era designs it would fight alongside, the Riever was conceived from the outset as something the League's battered industrial base could actually build and maintain. Andurien AeroTech, a division of Free Worlds Defense Industries, delivered a design that traded elegance for durability, prioritizing heavy armor and ease of repair over raw performance. The result was a craft that technicians came to appreciate even as pilots learned to respect its limitations. The Riever became the backbone of Free Worlds League aerospace operations against enemy fighter formations and DropShips, a role it filled credibly for over two centuries despite never being mistaken for a sophisticated machine.</p>
+</overview>
 
 <deployment>
 <p>Produced exclusively at Kurita Combine Munitions Corporation's facility on Altair under a Draconis Combine contract, the F-100b served in Combine aerospace forces from the Late Succession Wars through the FedCom Civil War. Despite its unpopularity among pilots, the Combine maintained the type in roles where its autocannon armament suited specific anti-DropShip and interdiction missions better than the missile-heavy standard Riever configuration. The Altair facility fell under Word of Blake control during the Jihad following the occupation of that world, ending Combine production runs. Post-Jihad, the planet passed into Republic of the Sphere administration, and surviving F-100b assets in Combine inventories came from existing stockpiles and battlefield salvage.</p>
@@ -175,4 +162,16 @@ ARMOR:Unknown
 COMMUNICATIONS:3QZ
 TARGETING:SYS 3740
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+100.0
+</tonnage>
 

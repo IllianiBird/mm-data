@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7ce-705e-abde-a46f8f4d5ca0
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Rhino Battle Armor
 <year>
 2871
 </year>
-
-<originalBuildYear>
-2871
-</originalBuildYear>
 
 <type>
 Clan Level 4
@@ -87,38 +87,14 @@ BA-SRM2 Ammo:Body:Shots2#
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:GC
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-1
-</jumpingMP>
-
-<armor>
-14
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Rhino was one of the earliest battle armor designs developed by Clan Hell's Horses during the Golden Century. Conceived as a heavy infantry platform, the suit reflected the Horses' longstanding commitment to combined-arms doctrine and their conviction that properly equipped infantry could remain relevant on a battlefield dominated by BattleMechs. Drawing on early powered exoskeleton research, Horse scientists created a heavily armored suit intended for close-range engagement. Though the design never matched the success of the Elemental that would eventually replace it, the Rhino earned its place in battle armor history as a precursor to the more capable heavy designs that followed.</p>
-</overview>
 
 <capabilities>
 <p>The Rhino's armament and equipment bear a superficial resemblance to its descendant, the Gnome, but fall short in nearly every measurable category. The suit mounts a small pulse laser and an SRM 2 launcher, both with significantly shorter effective range than their modern equivalents. Ground speed is roughly half that of the Gnome, leaving troopers vulnerable to faster opponents who can dictate engagement distance.</p><p>The suit's one genuine strength is its armor protection, which rivals the Gnome's coverage and far exceeds what the contemporary Elemental carried. The SRM system, while straightforward to operate and reload, suffered from a critical flaw in its ammunition feed mechanism. Rounds tended to lock between the launch tube and storage rack, and jammed rounds could detonate inside the suit, causing catastrophic damage to both the armor and the pilot inside. Hell's Horses engineers never resolved this defect before the design was shelved.</p>
 </capabilities>
+
+<overview>
+<p>The Rhino was one of the earliest battle armor designs developed by Clan Hell's Horses during the Golden Century. Conceived as a heavy infantry platform, the suit reflected the Horses' longstanding commitment to combined-arms doctrine and their conviction that properly equipped infantry could remain relevant on a battlefield dominated by BattleMechs. Drawing on early powered exoskeleton research, Horse scientists created a heavily armored suit intended for close-range engagement. Though the design never matched the success of the Elemental that would eventually replace it, the Rhino earned its place in battle armor history as a precursor to the more capable heavy designs that followed.</p>
+</overview>
 
 <deployment>
 <p>The Rhino predates Inner Sphere battle armor technology by nearly two centuries. No confirmed instances of Inner Sphere forces fielding the design in four-trooper squads exist in the historical record, and the configuration remains a theoretical organizational option.</p>
@@ -153,4 +129,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:GC
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+1
+</jumpingMP>
+
+<armor>
+14
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

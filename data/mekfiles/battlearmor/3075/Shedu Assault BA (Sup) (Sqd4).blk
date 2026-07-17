@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a482-7d01-b6ec-47749ba71b37
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Shedu Assault Battle Armor
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -88,46 +88,13 @@ IS BA Advanced:Body
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
 
-<slotless_equipment>
-BA-SRM3 Ammo:Shots1#
-BA-SRM3 Ammo:Shots1#
-</slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-15
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
-
 <capabilities>
 <p>The support Shedu trades sustained firepower for concentrated short-range burst damage. Two one-shot SRM-3 launchers deliver a combined six-missile volley capable of crippling light units or finishing damaged heavier targets. A pair of small lasers provides continuous energy-based firepower after the missiles are expended. The quadrupedal chassis, 600 kilograms of advanced armor, and ground speed are identical to the standard configuration. This loadout is designed for engagements where the Shedu can close to short range quickly, deliver its missile payload, and then sustain pressure with laser fire. The combination of expendable and energy weapons reduces the suit's dependence on ammunition resupply, making it suitable for extended operations behind enemy lines where logistics are uncertain.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>Four-trooper squads of support-configured Shedu suits offered a concentrated short-range missile capability that some allied evaluation units found appealing. The combination of expendable SRM launchers and sustained laser fire provided a practical engagement profile, though the quad chassis training requirements remained a barrier to widespread adoption.</p>
@@ -160,4 +127,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+15
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

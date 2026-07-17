@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af04-7c5b-aab3-4165d9fe58de
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ EGL-R11
 <year>
 3071
 </year>
-
-<originalBuildYear>
-3071
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,34 +119,13 @@ Medium Laser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Eagle is the first heavy aerospace fighter developed by the Free Worlds League, with origins stretching back to a primitive prototype first flown in 2324. ImStar Aerospace of Atreus produced the definitive EGL-R6 model beginning in 2501, establishing the Eagle as a rugged and dependable fighter intended for extended operations far from established supply lines. At seventy-five tons, the Eagle fills the role of an all-laser interceptor and interdiction platform, relying entirely on energy weapons to eliminate the logistical burden of ammunition resupply. Its straightforward design philosophy and use of widely available components earned the Eagle a reputation as one of the yardsticks against which modern heavy aerospace fighters are measured. Multiple manufacturers across the Inner Sphere have produced the design over its centuries-long service history, ensuring that it remains one of the most widely encountered heavy fighters in operation.</p>
-</overview>
-
 <capabilities>
 <p>The Eagle is built on an ImStar Alpha airframe powered by a Vlar 300-rated fusion engine, giving the seventy-five-ton fighter respectable thrust performance for its weight class. Fourteen tons of StarSlab/2 armor provide generous protection, allowing the Eagle to absorb considerable weapons fire before being forced to disengage. A Datacom 26 communications system and Dynatec 990 targeting and tracking system handle sensor and coordination duties.</p><p>The fighter's armament consists entirely of Magna-brand lasers. Three Magna Mk III large lasers serve as the primary weapons, with one mounted in the nose and one in each wing, providing solid ranged firepower across all forward engagement arcs. Four Magna Mk II medium lasers supplement the main battery, three mounted forward for close-range engagements and one facing aft to discourage pursuit. Twenty-five single heat sinks manage the thermal load, allowing the pilot to fire most of the weapons suite in volley with manageable heat buildup. The all-laser loadout eliminates any dependence on ammunition, granting the Eagle exceptional endurance during extended patrols or prolonged engagements. While its acceleration cannot match dedicated Star League heavy fighters, the Eagle compares favorably to most Great House designs of equivalent tonnage.</p>
 </capabilities>
+
+<overview>
+<p>The Eagle is the first heavy aerospace fighter developed by the Free Worlds League, with origins stretching back to a primitive prototype first flown in 2324. ImStar Aerospace of Atreus produced the definitive EGL-R6 model beginning in 2501, establishing the Eagle as a rugged and dependable fighter intended for extended operations far from established supply lines. At seventy-five tons, the Eagle fills the role of an all-laser interceptor and interdiction platform, relying entirely on energy weapons to eliminate the logistical burden of ammunition resupply. Its straightforward design philosophy and use of widely available components earned the Eagle a reputation as one of the yardsticks against which modern heavy aerospace fighters are measured. Multiple manufacturers across the Inner Sphere have produced the design over its centuries-long service history, ensuring that it remains one of the most widely encountered heavy fighters in operation.</p>
+</overview>
 
 <deployment>
 <p>The R11 originated as a mercenary field refit during the Jihad before Lockheed/CBM adopted it for formal production on Gibbs. The upgrade drops the aft medium laser and ten single heat sinks, replacing the remaining sinks with double-strength models. The wing-mounted large lasers give way to large pulse lasers, while the nose large laser is replaced with an extended-range PPC, significantly extending the fighter's effective engagement range. The R11 represents the most modern production Eagle variant currently in service.</p>
@@ -181,4 +160,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Datacom 26
 TARGETING:Dynatec 990
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

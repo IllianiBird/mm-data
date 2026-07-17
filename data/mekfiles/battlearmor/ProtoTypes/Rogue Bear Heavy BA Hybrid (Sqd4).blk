@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7f5-7224-a4f0-ebb954c35353
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Rogue Bear Heavy Battle Armor
 <year>
 3082
 </year>
-
-<originalBuildYear>
-3082
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis)
@@ -100,38 +100,14 @@ Clan BA Stealth (Basic):RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:Proto
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Rogue Bear is a Clan Ghost Bear heavy battlesuit produced at BA Facility Gamma on Mannedorf. First fielded in 3073 during the closing years of the Jihad, the design fills a rapid-response role within garrison and second-line formations, offering jump capability and fixed armament suited to patrol and security operations. Weighing 1,500 kilograms, the Rogue Bear earned a reputation for reliability and low maintenance requirements, qualities that proved valuable during a period of significant logistical strain across the Ghost Bear Dominion. Several derivative designs have since been developed from the Rogue Bear chassis.</p>
-</overview>
 
 <capabilities>
 <p>The Hybrid is a stealth-focused variant refined from the experimental HR prototype. Engineers replaced the HR's partial wing system with a jump booster providing equivalent ninety-meter range but greater reliability. Battle claws gave way to basic manipulators, freeing enough weight to double the suit's secondary armament to two machine guns and two anti-personnel weapon mounts. The Hybrid retains basic stealth armor and a camouflage system, granting reduced detection signatures at the cost of lighter protection compared to the standard Rogue Bear.</p><p>This creates a suit caught between roles: its weapons encourage close-range engagement while its stealth systems reward standoff distance. The blending of Inner Sphere and Clan technologies introduces maintenance complexity despite the suit's Easy to Maintain design, as non-standard parts can be difficult to source. Formations already operating Kobold suits have adopted the Hybrid most readily, benefiting from parts commonality with the Rogue Bear chassis.</p>
 </capabilities>
+
+<overview>
+<p>The Rogue Bear is a Clan Ghost Bear heavy battlesuit produced at BA Facility Gamma on Mannedorf. First fielded in 3073 during the closing years of the Jihad, the design fills a rapid-response role within garrison and second-line formations, offering jump capability and fixed armament suited to patrol and security operations. Weighing 1,500 kilograms, the Rogue Bear earned a reputation for reliability and low maintenance requirements, qualities that proved valuable during a period of significant logistical strain across the Ghost Bear Dominion. Several derivative designs have since been developed from the Rogue Bear chassis.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere-organized squads of Hybrid-equipped troopers specialized in reconnaissance and counter-insurgency operations within the Ghost Bear Dominion. Four-trooper stealth teams could infiltrate hostile areas with reduced detection signatures, gathering intelligence on pirate bands and political dissidents before withdrawing or calling in heavier elements to engage.</p>
@@ -166,4 +142,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

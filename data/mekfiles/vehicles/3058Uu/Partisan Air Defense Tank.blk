@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e450-703b-abef-05b6f1d98f4e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Partisan Air Defense Tank
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -111,33 +111,13 @@ Autocannon/2
 Autocannon/2
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 17:12:16
-<overview>
-<p>Introduced in 3058, the Partisan Air Defense Tank represents Kallon Industries' comprehensive response to the technological gap exposed by the Clan Invasion. Designed to engage and destroy Clan OmniFighters and advanced Inner Sphere aerospace assets, the Air Defense Tank replaced the aging combustion engine, armor, and weapons of the original Partisan Heavy Tank with modern equivalents. Production was centered at Kallon's Nanking facility, leveraging the plant's established Partisan manufacturing infrastructure to accelerate delivery. The design quickly earned recognition as one of the most capable dedicated anti-aircraft vehicles in the Inner Sphere, with its integrated C3 networking and advanced fire control making it a linchpin of combined-arms air defense formations.</p>
-</overview>
-
 <capabilities>
 <p>The Air Defense Tank abandons the original Partisan's internal combustion engine in favor of a GM Super 240 fusion powerplant, maintaining the same 54 km/h top speed while enabling the use of energy-dependent equipment and eliminating fuel logistics concerns. Kallon Unity Weave ferro-fibrous armor provides substantially greater protection than the original's standard plating, allowing the vehicle to survive engagements that would have destroyed its predecessor.</p><p>The primary armament consists of twin Imperator Code Red LB 10-X autocannons offering both cluster and solid-slug engagement modes, backed by a pair of Imperator Smoothie light autocannons for sustained harassing fire at range. A C3 slave unit allows the Air Defense Tank to share targeting data across its lance, dramatically improving accuracy when networked with spotters or other C3-equipped units. The Kallon Secure Net communications system and Kallon Sure-Shot targeting system replaced the older JoLex and AntiAir Flak electronics, providing improved electronic warfare resistance and faster target acquisition. The fusion engine's weight savings and the ferro-fibrous armor's efficiency allowed Kallon to nearly double the vehicle's effective protection without sacrificing mobility or firepower.</p>
 </capabilities>
+
+<overview>
+<p>Introduced in 3058, the Partisan Air Defense Tank represents Kallon Industries' comprehensive response to the technological gap exposed by the Clan Invasion. Designed to engage and destroy Clan OmniFighters and advanced Inner Sphere aerospace assets, the Air Defense Tank replaced the aging combustion engine, armor, and weapons of the original Partisan Heavy Tank with modern equivalents. Production was centered at Kallon's Nanking facility, leveraging the plant's established Partisan manufacturing infrastructure to accelerate delivery. The design quickly earned recognition as one of the most capable dedicated anti-aircraft vehicles in the Inner Sphere, with its integrated C3 networking and advanced fire control making it a linchpin of combined-arms air defense formations.</p>
+</overview>
 
 <deployment>
 <p>Deployed across the former Federated Commonwealth and its successor states, standard Air Defense Tanks anchor combined-arms anti-aircraft formations. Their effectiveness increases dramatically when deployed in networked groups, making them a priority asset for garrison commands defending critical installations.</p>
@@ -170,4 +150,16 @@ ARMOR:Unity Weave Ferro-Fibrous
 COMMUNICATIONS:Secure Net with C3
 TARGETING:Sure-Shot
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

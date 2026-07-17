@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a9a7-7e4d-865d-efb817897da9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Tortoise II
 <year>
 3134
 </year>
-
-<originalBuildYear>
-3134
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -100,42 +100,14 @@ ISDetachableWeaponPack:Body
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-XTR:RotS 2
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<turret>
-Modular:5
-</turret>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Tortoise II is a mixed-technology assault battle armor developed by StarCorps Industries for the Republic of the Sphere. Introduced in 3134, the quad-chassis design blends Inner Sphere and Clan components into an unorthodox weapons platform built around a hybrid wheel-and-leg motive system. The suit carries its armament in a distinctive split configuration, with a modular turret mount and a detachable weapon pack that can be jettisoned to improve mobility. Earning the nickname "Wheelbarrow" during its troubled prototype phase, the Tortoise II emerged as a durable if unconventional addition to the Republic's experimental battle armor program.</p>
-</overview>
 
 <capabilities>
 <p>The Tortoise II's advanced SRM configuration pairs an ER medium pulse laser in the suit's detachable weapon pack with an advanced SRM 3 launcher mounted in the modular turret. The Clan-manufactured advanced missile system provides accurate short-range firepower with eight rounds of ammunition, complementing the pulse laser's consistent damage output. At two tons, the quad-legged suit moves at a walking pace under normal conditions, though removing the detachable weapon pack doubles its ground speed at the cost of its primary energy weapon. The Tortoise II carries 350 kilograms of Clan improved stealth armor, granting both substantial protection and reduced targeting signatures. The suit lacks jump capability and manipulators, reflecting its design philosophy as a mobile weapons platform rather than a versatile infantry tool. Its considerable armament gives the Tortoise II firepower comparable to some light BattleMechs, offset by its sluggish pace and the complexity of its hybrid motive system.</p>
 </capabilities>
+
+<overview>
+<p>The Tortoise II is a mixed-technology assault battle armor developed by StarCorps Industries for the Republic of the Sphere. Introduced in 3134, the quad-chassis design blends Inner Sphere and Clan components into an unorthodox weapons platform built around a hybrid wheel-and-leg motive system. The suit carries its armament in a distinctive split configuration, with a modular turret mount and a detachable weapon pack that can be jettisoned to improve mobility. Earning the nickname "Wheelbarrow" during its troubled prototype phase, the Tortoise II emerged as a durable if unconventional addition to the Republic's experimental battle armor program.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations of the aSRM variant were proposed for Republic units retaining ComStar-derived organizational structures. The larger formation size offered sustained engagement capability, with more troopers available to maintain fire while others repositioned or shed detachable weapon packs for increased mobility.</p>
@@ -168,4 +140,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RotS 2
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<turret>
+Modular:5
+</turret>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

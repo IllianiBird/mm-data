@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e234-7c77-8b8e-34a165a78ca7
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Heavy Transport B1
 <year>
 2370
 </year>
-
-<originalBuildYear>
-2370
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -100,30 +100,13 @@ SRM 2
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3025,MW1e
-</source>
-
-<published>
-RS:V5-V
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-08 13:58:26
-<overview>
-<p>The Heavy Transport B1 is the militarized variant of a broad family of wheeled freight vehicles that have supported both civilian and military logistics networks since their introduction in 2370. Ranging from cargo vans to full tractor-trailer configurations, heavy transports fill the unglamorous but essential role of moving supplies, ammunition, and equipment wherever dedicated military transport assets are unavailable or impractical. The B1 designation marks the armed version of this family, fitted with minimal self-defense weaponry while retaining the design's core cargo capacity. Its combination of reasonable on-road speed and low acquisition cost has made it a common sight across the Inner Sphere, valued more for reliability than for any tactical distinction.</p>
-</overview>
-
 <capabilities>
 <p>The Heavy Transport B1 prioritizes cargo capacity and road mobility over fighting ability. Powered by a five-ton internal combustion engine, the vehicle reaches a top on-road speed approaching 85 km/h, allowing it to keep pace with most mechanized supply columns. The vehicle's primary payload is a seven-ton cargo bay, sufficient for ammunition loads, equipment crates, or general military supplies. Three tons of armor provide modest protection against small arms fire and light infantry weapons, enough to discourage opportunistic ambushes but wholly insufficient against any serious military engagement.</p><p>The standard armament is a single SRM-2 with one ton of reloads. Depending on the variant, this weapon is either forward-mounted and fired by the driver or atop the vehicle on a turret operated by a dedicated gunner. The B1 is not designed to fight its way out of trouble. Its greatest strengths are its low acquisition cost, ease of maintenance, and the wide availability of replacement parts across virtually every inhabited world in the Inner Sphere. These qualities come at the price of near-zero survivability once a vehicle enters a contested engagement.</p>
 </capabilities>
+
+<overview>
+<p>The Heavy Transport B1 is the militarized variant of a broad family of wheeled freight vehicles that have supported both civilian and military logistics networks since their introduction in 2370. Ranging from cargo vans to full tractor-trailer configurations, heavy transports fill the unglamorous but essential role of moving supplies, ammunition, and equipment wherever dedicated military transport assets are unavailable or impractical. The B1 designation marks the armed version of this family, fitted with minimal self-defense weaponry while retaining the design's core cargo capacity. Its combination of reasonable on-road speed and low acquisition cost has made it a common sight across the Inner Sphere, valued more for reliability than for any tactical distinction.</p>
+</overview>
 
 <deployment>
 <p>The standard B1 serves in rear-area logistics and supply roles across virtually every faction in the Inner Sphere. Its SRM-2 provides token defense against infantry ambushes and light vehicle threats encountered along contested supply routes. Commanders typically deploy these vehicles in small convoys with some form of armed escort when operating near active front lines, relying on numbers and speed rather than firepower to ensure cargo reaches its destination.</p>
@@ -156,4 +139,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3025,MW1e
+</source>
+
+<published>
+RS:V5-V
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

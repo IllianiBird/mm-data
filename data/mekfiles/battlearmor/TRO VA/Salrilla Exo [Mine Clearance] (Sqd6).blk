@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a8c2-75e0-a0ad-5d5fbd19d088
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Salrilla Exoskeleton
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -88,42 +88,14 @@ BABasicManipulatorMineClearance:RA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:VAr
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The PEX-2F Salrilla is an industrial exoskeleton developed by StarCorps Industries as a purpose-built battlefield salvage platform. Derived from the company's successful Gorilla civilian exoskeleton, the Salrilla addresses the shortcomings that made its predecessor poorly suited to operating near active combat zones. StarCorps produces the suit at four factory worlds, maintaining the same broad distribution network that made the Gorilla ubiquitous. The Salrilla fills a critical logistics role for military commands across the Inner Sphere, providing dedicated recovery and engineering capability at a fraction of the cost of true battle armor.</p>
-</overview>
 
 <capabilities>
 <p>The Mine Clearance configuration replaces the salvage arm with a second set of basic manipulators optimized for detecting and neutralizing buried ordnance. Both arms mount modular equipment adaptors fitted with mine clearance tools, giving the operator two-handed dexterity for the delicate work of disarming explosive devices. The body-mounted cutting torch and searchlight remain standard equipment.</p><p>The Salrilla's 100 kilograms of standard armor provides meaningful protection against accidental detonations, and the suit's 30-kilometer-per-hour top speed allows rapid repositioning across a minefield. The mine clearance variant retains enough manual dexterity to engage in anti-BattleMech attacks if cornered, though this is far from its intended role. Engineers operating this configuration typically work ahead of advancing formations, clearing lanes through mined terrain to allow heavier units to pass safely.</p>
 </capabilities>
+
+<overview>
+<p>The PEX-2F Salrilla is an industrial exoskeleton developed by StarCorps Industries as a purpose-built battlefield salvage platform. Derived from the company's successful Gorilla civilian exoskeleton, the Salrilla addresses the shortcomings that made its predecessor poorly suited to operating near active combat zones. StarCorps produces the suit at four factory worlds, maintaining the same broad distribution network that made the Gorilla ubiquitous. The Salrilla fills a critical logistics role for military commands across the Inner Sphere, providing dedicated recovery and engineering capability at a fraction of the cost of true battle armor.</p>
+</overview>
 
 <deployment>
 <p>ComStar and Word of Blake combat engineers organized mine clearance Salrillas into six-trooper Level I sections for systematic demining operations. The larger formation size allowed these sections to clear broader frontages more rapidly, an advantage during offensive operations where breaching minefields under fire demanded speed. Word of Blake engineers made extensive use of this configuration during planetary assaults throughout the Jihad.</p>
@@ -156,4 +128,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

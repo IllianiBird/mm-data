@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e253-7afd-ad1a-d19a5170e3b1
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Armored Personnel Carrier
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -103,30 +103,13 @@ Machine Gun
 Machine Gun
 </Turret Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
-</overview>
-
 <capabilities>
 <p>The machine gun variant of the wheeled APC removes the infantry compartment to mount four turret-mounted machine guns -- the heaviest machine gun battery of any standard APC variant -- with a full ton of ammunition. With no troop-carrying capacity, this conversion serves as a dedicated anti-infantry and riot-control platform, its four machine guns delivering devastating anti-personnel firepower from the turret's full traverse arc.</p><p>Forty-eight points of standard armor make the wheeled MG variant the most heavily protected of all standard APC configurations, allowing it to operate confidently against infantry armed with small arms and light anti-vehicle weapons. The wheeled drive system suits the urban and industrial environments where anti-infantry operations most commonly occur, and many planetary security forces use this variant as their primary patrol vehicle.</p>
 </capabilities>
+
+<overview>
+<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
+</overview>
 
 <deployment>
 <p>The wheeled MG variant is a common sight among planetary security forces and law enforcement organizations, where its combination of heavy armor and maximum machine gun firepower serves the riot-control and urban patrol role. Many worlds use this variant as their primary internal security vehicle, and its distinctive four-gun turret silhouette is recognized across the Inner Sphere.</p>
@@ -157,4 +140,20 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+10.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

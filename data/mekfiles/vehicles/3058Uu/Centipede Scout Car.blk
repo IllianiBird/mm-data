@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e3f4-77b0-8a4a-4544c9831d8f
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Centipede Scout Car
 <year>
 3054
 </year>
-
-<originalBuildYear>
-3054
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -98,30 +98,13 @@ BeagleActiveProbe
 Flamer (Vehicle)
 </Rear Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Centipede Scout Car is a twenty-ton hover reconnaissance vehicle developed by Gienah Combat Vehicles in the early 3050s to address a critical gap in the Lyran Alliance Armed Forces' light reconnaissance inventory. Designed as a replacement for the aging Skulker Wheeled Scout Tank following the loss of that design's primary production source, the Centipede represented a significant advance in light recon vehicle design, trading a wheeled platform's durability for dramatic improvements in speed, firepower, and sensor capability. Gienah Combat Vehicles partnered with Red Devil Industries of Pandora to expand production capacity, and the Centipede quickly became the standard scout vehicle across LAAF front-line formations and planetary militia units alike. Its combination of high speed, advanced detection equipment, and respectable armament for its weight class established the design as one of the Inner Sphere's most capable purpose-built reconnaissance vehicles of its era.</p>
-</overview>
-
 <capabilities>
 <p>The Centipede Scout Car's defining strength is its exceptional speed. Powered by a VOX Type 75 internal combustion engine, the vehicle reaches a flank speed of 129 kilometers per hour, allowing it to outpace most comparable scout designs in its weight class. This speed serves as the Centipede's primary defensive asset, enabling rapid repositioning and withdrawal under fire that few adversaries can match.</p><p>Its nose-mounted Beagle Active Probe is the vehicle's most valuable battlefield asset. The system detects concealed units at ranges exceeding those of many BattleMech-mounted sensor suites and provides targeting guidance to the Defiance B3M medium laser, enhancing acquisition accuracy against moving targets to a standard matching the most advanced fire control systems available. A Zippo vehicular flamer mounted at the rear supplements the primary armament, functioning as an effective anti-infantry tool and giving crews the means to cover withdrawal by igniting terrain.</p><p>The ProtecTech 6 armor suite provides modest but adequate protection for a light reconnaissance design, requiring crews to rely on speed and sensor advantage rather than direct engagement to survive on the modern battlefield. The Scuti Dualcom communications system and Scuti Dualtar targeting system give the Centipede reliable battlefield networking capability, making it an effective intelligence node in combined-arms formations that depend on accurate and timely reconnaissance data.</p>
 </capabilities>
+
+<overview>
+<p>The Centipede Scout Car is a twenty-ton hover reconnaissance vehicle developed by Gienah Combat Vehicles in the early 3050s to address a critical gap in the Lyran Alliance Armed Forces' light reconnaissance inventory. Designed as a replacement for the aging Skulker Wheeled Scout Tank following the loss of that design's primary production source, the Centipede represented a significant advance in light recon vehicle design, trading a wheeled platform's durability for dramatic improvements in speed, firepower, and sensor capability. Gienah Combat Vehicles partnered with Red Devil Industries of Pandora to expand production capacity, and the Centipede quickly became the standard scout vehicle across LAAF front-line formations and planetary militia units alike. Its combination of high speed, advanced detection equipment, and respectable armament for its weight class established the design as one of the Inner Sphere's most capable purpose-built reconnaissance vehicles of its era.</p>
+</overview>
 
 <deployment>
 <p>The Centipede serves as the standard reconnaissance vehicle of the Lyran Alliance Armed Forces, deployed across nearly every LAAF front-line combined-arms formation and most planetary militia units. Its primary roles are advance scouting, screening operations, and flank security, with the integrated sensor suite giving reconnaissance lances a notable intelligence advantage over forces lacking comparable detection equipment. Distribution spans the breadth of Lyran space, though the design has grown scarcer since the loss of both primary manufacturing facilities during the Jade Falcon Incursion and Jihad.</p>
@@ -156,4 +139,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:Scuti Dualcom
 TARGETING:Scuti Dualtar with Beagle Active Probe
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

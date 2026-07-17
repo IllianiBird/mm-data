@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea0b-788c-a59f-fd68b1b4a7df
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ MASH Truck
 <year>
 3148
 </year>
-
-<originalBuildYear>
-3148
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -99,33 +99,13 @@ ISAntiMissileSystem
 ISAntiMissileSystem
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG31
-</source>
-
-<published>
-RG31,RSFP:Battlefield
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>Mobile Army Surgical Hospitals have served as the backbone of battlefield medicine since their earliest predecessors on ancient Terra. The modern MASH truck concept emerged during the Age of War, when purpose-built mobile surgical platforms dramatically improved wounded soldiers' survival rates by as much as three hundred percent. Multiple manufacturers across the Inner Sphere produce MASH trucks in various configurations, making them one of the most ubiquitous support vehicles in military service. The representative model documented here is the twenty-ton Talon Vehicles "Mercy" pattern from the Federated Suns, first introduced in 2671. Carrying five fully equipped operating theaters on a wheeled chassis, the Mercy set a standard that many subsequent designs sought to match. MASH trucks occupy a unique position on the battlefield, broadly respected as non-combatants by all parties due to their tradition of treating wounded regardless of allegiance.</p>
-</overview>
-
 <capabilities>
 <p>The Talon Vehicles MASH truck carries seven and a half tons of advanced medical equipment distributed across five folding operating theaters. When deployed, each theater extends from the main vehicle to create a temporary surgical structure equipped with an automated surgery table. Multiple robotic arms prep patients and assist the surgeon during operations. Each table can convert into an airtight cryo-tube, filling with clear oxygenated liquid to stabilize critical patients while allowing continued surgery through attached sleeves. An onboard medical computer suggests treatment plans, provides real-time monitoring including X-ray capability, and stores post-operative data for satellite uplink to field hospitals and DropShips.</p><p>A VOX 80 fusion engine provides unlimited operational range and reliable power for sensitive medical systems. Four tons of StarSlab/Sheet armor offers reasonable protection against stray fire, though MASH trucks are rarely targeted deliberately. When packed for transit, the truck carries essential supplies, six patients, and one active theater, with limited surgery possible at speed. Redeployment takes less than four hours. Two ChisComp 32 small lasers serve only to deter theft. Many doctors have these weapons removed entirely, viewing armed medical vehicles as a violation of their Hippocratic oath.</p>
 </capabilities>
+
+<overview>
+<p>Mobile Army Surgical Hospitals have served as the backbone of battlefield medicine since their earliest predecessors on ancient Terra. The modern MASH truck concept emerged during the Age of War, when purpose-built mobile surgical platforms dramatically improved wounded soldiers' survival rates by as much as three hundred percent. Multiple manufacturers across the Inner Sphere produce MASH trucks in various configurations, making them one of the most ubiquitous support vehicles in military service. The representative model documented here is the twenty-ton Talon Vehicles "Mercy" pattern from the Federated Suns, first introduced in 2671. Carrying five fully equipped operating theaters on a wheeled chassis, the Mercy set a standard that many subsequent designs sought to match. MASH trucks occupy a unique position on the battlefield, broadly respected as non-combatants by all parties due to their tradition of treating wounded regardless of allegiance.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3148 by Majesty Metals and Manufacturing on Luxen, the AMS variant stands as a significant departure from traditional MASH truck design philosophy. Produced at a new facility near the Canoplan Medical Sciences Research and Training Complex, the vehicle features operating suites from Precision Instruments, a spin-off company run by former CMSR&TC researchers. These suites reputedly equal or surpass Clan medical technology in capability. A lightweight fuel cell engine replaces the traditional fusion plant, while dual anti-missile systems provide active protection for the vehicle's precious cargo and crew. The Magistracy of Canopus has positioned this variant as a premium medical platform, leveraging the region's renowned expertise in advanced medical science.</p>
@@ -158,4 +138,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG31
+</source>
+
+<published>
+RG31,RSFP:Battlefield
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

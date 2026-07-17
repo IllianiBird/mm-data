@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a454-7280-b72e-6b2ad90ab44a
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Rottweiler Battle Armor
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -87,38 +87,14 @@ IS BA Stealth (Basic):Body
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Rottweiler is a medium quad battle armor suit developed by TharHes Industries for the Lyran Alliance Armed Forces. Fielded in 3065, the design built on lessons learned from the earlier Fenrir program, prioritizing speed and sensor capability over raw firepower. Its low profile and advanced electronics package earned it a respected place among Lyran reconnaissance formations, where its ability to operate well ahead of heavier units proved consistently valuable across multiple theaters of operation.</p>
-</overview>
 
 <capabilities>
 <p>The Close Combat configuration replaces the standard weapon loadout with a flamer and a machine gun while retaining the full sensor suite and mission equipment package. This combination transforms the Rottweiler into a close-quarters infantry killer, particularly effective in the tight confines of urban terrain where its 54 kph speed allows rapid repositioning through streets and alleyways.</p><p>The flamer provides area denial and building-clearing capability, while the machine gun delivers sustained anti-personnel fire. Against armored opponents the configuration remains limited, relying on speed and stealth to avoid engagements it cannot win. The retention of the integrated sensor package distinguishes this variant from a simple brawler, allowing Close Combat squads to still feed targeting data to friendly forces between engagements.</p>
 </capabilities>
+
+<overview>
+<p>The Rottweiler is a medium quad battle armor suit developed by TharHes Industries for the Lyran Alliance Armed Forces. Fielded in 3065, the design built on lessons learned from the earlier Fenrir program, prioritizing speed and sensor capability over raw firepower. Its low profile and advanced electronics package earned it a respected place among Lyran reconnaissance formations, where its ability to operate well ahead of heavier units proved consistently valuable across multiple theaters of operation.</p>
+</overview>
 
 <deployment>
 <p>Clan warriors who acquired Close Combat Rottweilers organized them into five-trooper Points consistent with standard Clan formation doctrine. The configuration's urban warfare strengths aligned with the needs of garrison Clusters tasked with holding captured cities, though few Clan commanders considered the assignment prestigious. Points assigned to urban pacification duties found the Close Combat variant effective at suppressing resistance in built-up areas.</p>
@@ -151,4 +127,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

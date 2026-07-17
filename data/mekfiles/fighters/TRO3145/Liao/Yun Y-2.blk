@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af97-74ce-941f-bfcf01d31d62
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Y-2
 <year>
 3107
 </year>
-
-<originalBuildYear>
-3107
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -128,26 +128,13 @@ IS Streak SRM 6 Ammo
 IS Streak SRM 6 Ammo
 </Fuselage Equipment>
 
-<source>
-TR:3145:CC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>Introduced in 3107, the Yùn is a light stealth aerospace fighter developed by Mujika Aerospace Technologies at their St. Ives facility for exclusive use by the Capellan Confederation Armed Forces. The fighter fills a unique niche in Capellan aerospace doctrine, acting as both a covert battle armor insertion platform and a close air support asset once its passengers have been delivered. Taking its inspiration from Detroit Consolidated Aerospace's Troika, the Yùn advances that design's delivery concept by wrapping the entire craft in sophisticated stealth technology, ensuring the first sign of a Yùn attack is infantry materializing from the shadows rather than the aircraft itself. Rare and seldom encountered in the field, the Yùn has earned a reputation among Confederation adversaries as a fighter more often heard about than seen.</p>
-</overview>
-
 <capabilities>
 <p>The Yùn's primary function as a battle armor transport shapes every aspect of its construction. A four-ton infantry compartment occupies a central section of the fuselage, designed to carry a full squad of battle armor from high altitude directly to the target zone. Eight and a half tons of Hellespont Aerolite stealth armor coat the airframe, and the communications package incorporates a Guardian ECM suite, working together to suppress the fighter's signatures during approach. The Endicott Type 32 Maser communications system ensures the pilot can maintain coordination with deployed ground forces without broadcasting a detectable signal.</p><p>Self-defense weapons are grouped in the nose: a Ceres Arms Extended Range Medium Laser provides reach for engaging hardened positions at standoff range, while a pair of Sian/Ceres Stalking Cougar Streak SRM-6 launchers handle clustered infantry, light armor, and any interceptors that manage to track the fighter down. Twelve double heat sinks handle the thermal load comfortably. The Mujika Aerospace Type 16 frame and its well-articulated vernier thrusters give the craft exceptional atmospheric maneuverability, reflected in the Easy to Pilot design quirk that pilots consistently praise. The fighter's modest Rawlings 120 engine yields limited acceleration in orbit, but its atmospheric performance more than compensates. External ordnance hardpoints extend ground support flexibility beyond the fixed weapons loadout.</p>
 </capabilities>
+
+<overview>
+<p>Introduced in 3107, the Yùn is a light stealth aerospace fighter developed by Mujika Aerospace Technologies at their St. Ives facility for exclusive use by the Capellan Confederation Armed Forces. The fighter fills a unique niche in Capellan aerospace doctrine, acting as both a covert battle armor insertion platform and a close air support asset once its passengers have been delivered. Taking its inspiration from Detroit Consolidated Aerospace's Troika, the Yùn advances that design's delivery concept by wrapping the entire craft in sophisticated stealth technology, ensuring the first sign of a Yùn attack is infantry materializing from the shadows rather than the aircraft itself. Rare and seldom encountered in the field, the Yùn has earned a reputation among Confederation adversaries as a fighter more often heard about than seen.</p>
+</overview>
 
 <deployment>
 <p>The Y-2 Yùn serves exclusively within the Capellan Confederation Armed Forces, concentrated in units with well-developed battle armor elements that can exploit the fighter's delivery capability. Phyr's Hussars are among the formations that have employed the Yùn most actively, conducting both conventional combat raids and the deep-penetration urban operations the design was optimized to support. Typical mission profiles involve low-altitude ingress at the edge of detection thresholds, often at night or in poor weather, with troops deployed onto targets well behind enemy lines before conventional ground forces engage.</p><p>The fighter's limited weapons payload means sustained air combat is avoided whenever possible, with pilots relying on the stealth suite to disengage rather than fight through threats. Assignments to Yùn squadrons attract pilots with patience for precision infiltration work over those seeking conventional dogfighting roles.</p>
@@ -182,4 +169,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Endicott Type 32 Maser
 TARGETING:Dwyerson Mark XI
 </systemModels>
+
+<source>
+TR:3145:CC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

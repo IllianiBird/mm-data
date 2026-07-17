@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e248-7264-aed8-297ff2b27117
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Armored Personnel Carrier
 <year>
 2620
 </year>
-
-<originalBuildYear>
-2620
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -103,30 +103,13 @@ RemoteSensorDispenser
 <Turret Equipment>
 </Turret Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
-</overview>
-
 <capabilities>
 <p>The sensor variant of the hover APC replaces the turret-mounted machine guns with a remote sensor dispenser while retaining one ton of infantry carrying capacity for a single squad. Designed for reconnaissance and border patrol duties, this configuration allows the vehicle to deploy a network of remote sensors across a wide area while using its exceptional speed to cover vast stretches of terrain. The sensor package transforms the basic transport into a capable intelligence-gathering platform.</p><p>Originally developed for the Taurian Concordat and Marian Hegemony for monitoring their extensive Periphery borders, the sensor hover APC proved equally useful to Inner Sphere militaries for forward screening and area denial operations. The vehicle's twenty-four points of standard armor and speed of over one hundred sixty kilometers per hour allow it to perform its reconnaissance mission with reasonable survivability, though the lack of offensive weapons means it must rely entirely on speed to avoid engagement.</p>
 </capabilities>
+
+<overview>
+<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
+</overview>
 
 <deployment>
 <p>The sensor hover APC sees its heaviest use with the Taurian Concordat and Marian Hegemony, where both nations deploy it extensively for border patrol and surveillance along their vast Periphery frontiers. Inner Sphere militaries have adopted the design for forward screening and area denial operations, using the vehicle's speed to rapidly deploy sensor networks across wide areas before withdrawing to safe positions.</p>
@@ -157,4 +140,20 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+10.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

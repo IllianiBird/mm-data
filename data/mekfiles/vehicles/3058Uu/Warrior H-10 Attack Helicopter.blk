@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4a5-72c2-9237-00017d9dd355
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ H-10
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -109,33 +109,13 @@ Machine Gun
 <Rotor Equipment>
 </Rotor Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>Developed by Lockheed/CBM Corporation on Furillo and introduced in 2957, the Warrior Attack Helicopter grew from a limited Lyran design into one of the most widely distributed light attack VTOLs in the Inner Sphere. Fast and capable at harassment and reconnaissance, the Warrior established itself across every Successor State and several Periphery realms over the course of the Succession Wars, finding a home in mercenary commands, state militaries, and air cavalry units that valued its reliability and ease of maintenance. Lockheed/CBM continued developing the platform across multiple generations, producing fusion-powered and specialized variants that extended the design's service life well into the Republic era and beyond.</p>
-</overview>
-
 <capabilities>
 <p>The Warrior's primary weapon in its base configuration is a centerline-mounted SarLon Autocannon/2, a system with a range profile that allows the helicopter to engage targets while staying well out of the reach of most return fire. The cannon lacks the raw stopping power to destroy hardened targets quickly, but its reach means that even BattleMechs cannot afford to ignore the sustained harassment. Supporting the autocannon is a TharHes four-tube SRM-4, which provides a short-range punch during close strafing runs that the AC/2 alone cannot deliver.</p><p>The N&D Handsfree targeting and tracking system sets the Warrior apart from most contemporary helicopters. Rather than requiring a pilot to manipulate a complex control panel, the Handsfree uses a helmet-integrated targeting display that mates reticle-mounted crosshairs to the pilot's line of sight. The system enables natural, intuitive target acquisition at combat speeds, though it remains considerably simpler than a BattleMech neurohelmet.</p><p>Unlike most helicopters, the Warrior uses dual counter-rotating rotors on a single mast, eliminating the need for an anti-torque tail rotor. The tail incorporates a ducted fan instead, providing additional thrust and contributing to the Warrior's impressive top speed. Despite these advantages, the design carries the inherent fragility common to all VTOL craft. The helicopter performs best when exploiting its speed to stay out of concentrated fire. Once cornered or slowed, it becomes acutely vulnerable to damage that a heavier ground vehicle would absorb without difficulty.</p>
 </capabilities>
+
+<overview>
+<p>Developed by Lockheed/CBM Corporation on Furillo and introduced in 2957, the Warrior Attack Helicopter grew from a limited Lyran design into one of the most widely distributed light attack VTOLs in the Inner Sphere. Fast and capable at harassment and reconnaissance, the Warrior established itself across every Successor State and several Periphery realms over the course of the Succession Wars, finding a home in mercenary commands, state militaries, and air cavalry units that valued its reliability and ease of maintenance. Lockheed/CBM continued developing the platform across multiple generations, producing fusion-powered and specialized variants that extended the design's service life well into the Republic era and beyond.</p>
+</overview>
 
 <deployment>
 <p>The H-10 was a radical departure from the Warrior's attack heritage, replacing most offensive systems with a five-ton infantry bay designed to carry a complete battle armor point. Intended as a high-speed airmobile transport, the H-10 gives infantry commanders the ability to deploy battle armor rapidly across terrain that ground vehicles cannot navigate efficiently. Its pair of machine guns provides minimal self-defense capability. The design has been adopted primarily by Lyran Commonwealth forces and a smaller number of mercenary commands willing to invest in dedicated airmobile infantry tactics.</p>
@@ -168,4 +148,16 @@ ARMOR:Unity Weave
 COMMUNICATIONS:2010
 TARGETING:Handsfree
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

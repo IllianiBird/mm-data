@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a728-7da8-9271-bdfa283b8af2
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Thunderbird Battle Armor
 <year>
 3089
 </year>
-
-<originalBuildYear>
-3089
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -99,42 +99,14 @@ Clan BA Laser Reflective (Reflec/Glazed):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Thunderbird is a heavy battle armor design developed by Clan Nova Cat to address the Clan's chronic shortage of frontline powered infantry. Produced at the Barcella Battle Armor Facility on Irece, the suit entered service in 3086 as the Nova Cats' first independently manufactured heavy armor. Designed as a practical replacement for the Elemental, the Thunderbird prioritized reliable production over technological ambition. The suit earned a reputation as a capable infantry support platform, combining respectable protection with a flexible modular weapon mount that accepted multiple armament configurations.</p>
-</overview>
 
 <capabilities>
 <p>The upgraded Thunderbird replaces standard armor with reflective plating, providing superior resistance to energy weapons at the cost of the left-arm vibro-claw. This trade-off eliminates the suit's ability to ride on friendly OmniMechs but substantially improves survivability against laser-equipped opponents. The right-arm modular mount carries an extended-range small laser, offering ammunition-independent firepower at respectable engagement distances. A jump booster supplements ground mobility. The reflective armor configuration proved immediately successful in field trials, as enemy energy weapons lost much of their effectiveness against the upgraded plating. The heavier armor package maintains the suit's 1,500-kilogram weight ceiling while shifting protection priorities toward energy resistance.</p>
 </capabilities>
+
+<overview>
+<p>The Thunderbird is a heavy battle armor design developed by Clan Nova Cat to address the Clan's chronic shortage of frontline powered infantry. Produced at the Barcella Battle Armor Facility on Irece, the suit entered service in 3086 as the Nova Cats' first independently manufactured heavy armor. Designed as a practical replacement for the Elemental, the Thunderbird prioritized reliable production over technological ambition. The suit earned a reputation as a capable infantry support platform, combining respectable protection with a flexible modular weapon mount that accepted multiple armament configurations.</p>
+</overview>
 
 <deployment>
 <p>Level I formations deploying the upgraded ER Laser Thunderbird found strong synergy between reflective armor and energy weapons, as the suit's protection complemented its own armament type. Six-trooper teams could sustain energy-weapon exchanges with opposing forces while taking reduced damage.</p>
@@ -169,4 +141,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<published>
+RS:3145-NTNU
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a991-7a16-aaa3-5183275afd46
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Surat (Gray Death) Solahma Suit
 <year>
 3090
 </year>
-
-<originalBuildYear>
-3090
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -94,38 +94,14 @@ InfantryAssaultRifle:APM
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-XTR:RotS 1
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Surat (Gray Death) Solahma Suit is a medium battle armor field conversion widely used by Clan solahma infantry formations. Created by stripping captured or requisitioned Gray Death Standard Suits and refitting them with Clan-manufactured equipment, the Surat fills a gap between unarmored garrison troops and frontline Elemental armor. First documented around 3090, the conversion spread through multiple Clan garrison commands as a practical and cost-effective way to arm expendable formations with powered infantry capability.</p>
-</overview>
 
 <capabilities>
 <p>The Surat conversion replaces the Gray Death Standard's original armor with lighter Clan-manufactured plating, freeing mass for a Clan-specification Heavy Small Laser mounted in the right arm. A Battle Claw on the left arm and an Anti-Personnel Weapon Mount are retained from the base suit. The energy weapon delivers punishing damage at close range, compensating for the reduced armor protection with raw offensive output. At 1,000 kilograms, the Surat matches the Standard's weight class while carrying substantially heavier armament.</p><p>The suit lacks jump capability entirely, relying on ground movement alone. The field-conversion origin shows in the design's rough edges: components are often ill-fitting scrounged parts adapted to frames built for different equipment. These compromises make the suit easier to maintain with basic tools but give it a well-earned reputation for poor workmanship. The Surat can be adapted to troopers of any physique, from hulking Elementals to recruited Inner Sphere garrison infantry, and costs significantly less to maintain than purpose-built Clan battle armor.</p>
 </capabilities>
+
+<overview>
+<p>The Surat (Gray Death) Solahma Suit is a medium battle armor field conversion widely used by Clan solahma infantry formations. Created by stripping captured or requisitioned Gray Death Standard Suits and refitting them with Clan-manufactured equipment, the Surat fills a gap between unarmored garrison troops and frontline Elemental armor. First documented around 3090, the conversion spread through multiple Clan garrison commands as a practical and cost-effective way to arm expendable formations with powered infantry capability.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper formations of Surat-equipped solahma appeared in garrison commands that adopted ComStar-influenced organizational structures following the absorption of former Republic worlds. The larger formation size compensated for the suits' poor workmanship by providing redundancy when individual suits suffered mechanical failures during extended operations. These formations saw use primarily in rear-area security and anti-partisan operations on contested garrison worlds.</p>
@@ -158,4 +134,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RotS 1
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

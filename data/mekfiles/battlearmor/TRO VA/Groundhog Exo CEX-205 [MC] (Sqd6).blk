@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a879-73bb-9d6b-18361954ab60
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ CEX-205 [Mine Clearance](Sqd6)
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -91,42 +91,14 @@ BABasicManipulatorMineClearance:RA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:VAr
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
-</overview>
 
 <capabilities>
 <p>The Mine Clearance configuration equips the Groundhog with specialized detection and disposal gear designed for clearing minefields and unexploded ordnance. The modular adaptors mount mine clearance equipment on both arms, allowing operators to locate, identify, and neutralize explosive devices while protected by the suit's one hundred kilograms of standard armor. At four hundred kilograms and thirty kilometers per hour ground speed, the Groundhog provides mine clearance teams with protection well beyond what conventional disposal equipment offers, though the armor remains insufficient against anything heavier than small arms fire.</p><p>The suit lacks jump capability, requiring operators to traverse mined areas on foot. The searchlight aids in visual identification of surface-laid devices, while the mission equipment storage bay can carry additional detection instruments or disposal charges. Mine clearance is inherently slow and deliberate work, and the Groundhog's modest speed is rarely a limitation. The configuration sacrifices all combat capability, leaving operators unable to conduct anti-BattleMech attacks or carry infantry weapons.</p>
 </capabilities>
+
+<overview>
+<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
+</overview>
 
 <deployment>
 <p>ComStar and Word of Blake Level I formations fielded Mine Clearance Groundhogs for route clearance and security operations. The Word of Blake made extensive use of mines and booby traps during the Jihad, and their own mine clearance formations proved essential for maintaining supply routes through contested territory. Six-trooper Level Is provided thorough area coverage during systematic clearance operations.</p>
@@ -159,4 +131,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

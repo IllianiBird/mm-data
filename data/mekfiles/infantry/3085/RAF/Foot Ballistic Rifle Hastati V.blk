@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b66c-7280-b1b2-9416ead4c4b4
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ Hastati V
 1141
 </mul id:>
 
-<source>
-TR:3085S
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -67,6 +59,18 @@ Flak, Standard
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>The soldiers of V Hastati, 513th Infantry Regiment carry on the traditions of the 375th Avalon Rifle Regiment, bringing Federated Suns military professionalism to Republic service. Built around a core of New Avalon veterans, the 513th is a model standard infantry force within the Republic Armed Forces. The entire regiment can pack and move out in three hours, carrying everything needed for a three-week field campaign. Capable with all manner of weapons, the regiment excels in the application of massed rifle fire and precision sharpshooting alike. The 513th's dedication to professionalism and service to the civilian population has made it the standard other RAF infantry formations aspire to match.</p>
+</overview>
+
+<source>
+TR:3085S
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
 <squad_size>
 7
 </squad_size>
@@ -78,9 +82,4 @@ Flak, Standard
 <Primary>
 InfantryAssaultRifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The soldiers of V Hastati, 513th Infantry Regiment carry on the traditions of the 375th Avalon Rifle Regiment, bringing Federated Suns military professionalism to Republic service. Built around a core of New Avalon veterans, the 513th is a model standard infantry force within the Republic Armed Forces. The entire regiment can pack and move out in three hours, carrying everything needed for a three-week field campaign. Capable with all manner of weapons, the regiment excels in the application of massed rifle fire and precision sharpshooting alike. The 513th's dedication to professionalism and service to the civilian population has made it the standard other RAF infantry formations aspire to match.</p>
-</overview>
 

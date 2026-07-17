@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec80-7a7d-9f8b-0ba909153120
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Kestrel VTOL
 <year>
 3030
 </year>
-
-<originalBuildYear>
-3030
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -109,30 +109,13 @@ RemoteSensorDispenser
 ISMastMount
 </Rotor Equipment>
 
-<source>
-XTR:SW
-</source>
-
-<published>
-XTR:SW
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The Kestrel VTOL is a light special operations transport built by the Blackwell Corporation on Outreach for Wolf's Dragoons' Seventh Kommando. Commissioned in 3007 as the third combat vehicle in Blackwell's catalog, the design reflects the Dragoons' unusual access to advanced manufacturing expertise unavailable to most Inner Sphere firms. At a glance the Kestrel appears to be an ordinary combat helicopter, but its true purpose becomes clear only when understood in context: it is not a fighting vehicle but a precision delivery platform, sized for small teams operating far behind enemy lines.</p><p>Despite modest armor and minimal armament, the Kestrel became the benchmark for special operations VTOLs in the Inner Sphere. Its reputation rests not on firepower but on subtlety, survivability through stealth, and the near-silent operation of its distinctive five-blade rotor system, which allows it to move through combat zones largely undetected.</p>
-</overview>
-
 <capabilities>
 <p>The Kestrel weighs 25 tons and is powered by a 160-rated internal combustion engine, achieving a cruising speed of 129 kilometers per hour and a flank speed of 194 kilometers per hour. The airframe is almost entirely free of sharp edges, with surfaces curved and flared to reduce radar return. The five-blade main rotor produces only a high-pitched whisper rather than the distinctive chop of conventional helicopters, greatly reducing acoustic detection range.</p><p>Navigational capabilities far exceed what one would expect for a vehicle of its class. The Kestrel carries thermal imaging, laser terrain-avoidance systems, and a tru-sync uplink to navigational satellite networks. These systems support nap-of-earth flight in all weather conditions, allowing the craft to thread beneath most aircraft-detection grids with reliable precision. The Dalban StarLink Classic communications system and Garret E2b tracking suite round out a capable electronics package for a unit this size.</p><p>The vehicle's most significant weakness is its armament. The two Blackwell B75 machine guns function primarily as crew-defense weapons rather than tools of meaningful combat power. Its ProTech 4 armor is barely adequate, with the heaviest facing able to absorb just a single large laser hit before giving way. The troop compartment presents an additional trade-off: too small for a full platoon but too large for a single squad, limiting flexible use in insertion missions. In the wrong hands the Kestrel is little more than a target. In the right ones, it is exceptional.</p>
 </capabilities>
+
+<overview>
+<p>The Kestrel VTOL is a light special operations transport built by the Blackwell Corporation on Outreach for Wolf's Dragoons' Seventh Kommando. Commissioned in 3007 as the third combat vehicle in Blackwell's catalog, the design reflects the Dragoons' unusual access to advanced manufacturing expertise unavailable to most Inner Sphere firms. At a glance the Kestrel appears to be an ordinary combat helicopter, but its true purpose becomes clear only when understood in context: it is not a fighting vehicle but a precision delivery platform, sized for small teams operating far behind enemy lines.</p><p>Despite modest armor and minimal armament, the Kestrel became the benchmark for special operations VTOLs in the Inner Sphere. Its reputation rests not on firepower but on subtlety, survivability through stealth, and the near-silent operation of its distinctive five-blade rotor system, which allows it to move through combat zones largely undetected.</p>
+</overview>
 
 <deployment>
 <p>Possibly the rarest VTOL variant in the Inner Sphere, the Kestrel Scout was developed by Blackwell for the Seventh Kommando and Special Recon Group around 3030. The troop compartment was removed entirely to accommodate a VTOL mast mount carrying a sophisticated camera system, a remote sensor dispenser, and additional communications equipment. A VTOL jet booster provided burst speeds approaching 260 kilometers per hour. Only a handful were ever built, and production ceased when the Dragoons' reorganization folded the Special Recon Group into the New Home Guards. The variant's limited armor and armament rendered it useless in any role other than pure reconnaissance.</p>
@@ -165,4 +148,20 @@ ARMOR:ProTech 4
 COMMUNICATIONS:StarLink Classic
 TARGETING:E2b
 </systemModels>
+
+<source>
+XTR:SW
+</source>
+
+<published>
+XTR:SW
+</published>
+
+<tonnage>
+25.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

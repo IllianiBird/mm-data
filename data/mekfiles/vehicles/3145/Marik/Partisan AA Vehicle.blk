@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7fd-71ea-bf3d-0e9f29f2a93e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Partisan AA Vehicle
 <year>
 3110
 </year>
-
-<originalBuildYear>
-3110
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -107,26 +107,13 @@ ISLBXAC5
 ISLBXAC5
 </Turret Equipment>
 
-<source>
-TR:3145:FWL,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 17:12:16
-<overview>
-<p>The Partisan AA Vehicle debuted in 3110 as Kallon Weapon Industries' attempt to create a lighter, faster, and more affordable successor to the original Partisan Heavy Tank. Produced at the Loyalty facility in the Free Worlds League, the fifty-ton wheeled vehicle was designed for quartermasters seeking effective anti-aircraft capability without the expense and logistical burden of an eighty-ton tracked platform. The vehicle's development was driven partly by Kallon's troubled post-Jihad marketing efforts, which had damaged the company's reputation among experienced tank crews. Despite aspirations of affordability, the finished product was neither cheap nor easily replaced. Kallon compensated by offering bulk discounts, securing large-scale sales to the Magistracy of Canopus, the Free Worlds League, and the Duchy of Andurien.</p>
-</overview>
-
 <capabilities>
 <p>The Partisan AA Vehicle trades the original Partisan's tracked mobility and heavy tonnage for wheeled speed and operational flexibility. A Nissan 230 fusion engine propels the fifty-ton vehicle to a maximum of 86 km/h, significantly faster than its eighty-ton ancestor. Dedicated anti-aircraft targeting systems linked into a turret-mounted weapon system allow the vehicle to rapidly acquire and engage airborne targets while moving at high speeds.</p><p>The main armament consists of twin Defiance Shredder LB 5-X autocannons, providing both cluster and slug engagement modes against aircraft and ground targets. Three tons of ammunition sustains moderate combat engagements, though extended operations require resupply. Kallon Unity Weave ferro-fibrous armor protects the hull with five and a half tons of advanced plating, offering reasonable survivability for a medium-weight vehicle but leaving it vulnerable to concentrated fire. The wheeled chassis sacrifices all-terrain capability compared to the tracked original, limiting effectiveness on rough or broken ground. This trade-off is considered acceptable for a platform intended to operate along road networks and prepared positions, where its speed advantage allows rapid redeployment between threatened sectors.</p>
 </capabilities>
+
+<overview>
+<p>The Partisan AA Vehicle debuted in 3110 as Kallon Weapon Industries' attempt to create a lighter, faster, and more affordable successor to the original Partisan Heavy Tank. Produced at the Loyalty facility in the Free Worlds League, the fifty-ton wheeled vehicle was designed for quartermasters seeking effective anti-aircraft capability without the expense and logistical burden of an eighty-ton tracked platform. The vehicle's development was driven partly by Kallon's troubled post-Jihad marketing efforts, which had damaged the company's reputation among experienced tank crews. Despite aspirations of affordability, the finished product was neither cheap nor easily replaced. Kallon compensated by offering bulk discounts, securing large-scale sales to the Magistracy of Canopus, the Free Worlds League, and the Duchy of Andurien.</p>
+</overview>
 
 <deployment>
 <p>Mass produced and sold at a discount in bulk, the standard Partisan AA Vehicle has seen widespread use since its introduction. The largest purchaser has been the Magistracy of Canopus, followed closely by the FWLM and the Duchy of Andurien. The expansion of Canopian aerospace forces has forced the FWLM to strengthen its defensive anti-aircraft forces in both frontline and militia formations.</p>
@@ -159,4 +146,16 @@ ARMOR:Unity Weave Ferro-Fibrous
 COMMUNICATIONS:Systems
 TARGETING:AntiAir Flak Systems-1
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

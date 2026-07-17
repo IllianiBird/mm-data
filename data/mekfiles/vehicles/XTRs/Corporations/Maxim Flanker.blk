@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ebd0-7d5d-b967-89609fb4de53
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Maxim Flanker
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -111,33 +111,13 @@ Machine Gun(ST)
 Machine Gun
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-XTR:Corps
-</source>
-
-<published>
-XTR:Corps
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Maxim Flanker is an experimental prototype developed at Cyclops Incorporated's facility on Skye in 3074. Designed by technician Buford Leopold, the Flanker attempted to reimagine the Maxim's role during troop deployment by mounting sponson turrets and adopting a deliberately asymmetric armor layout. The concept never progressed beyond the prototype stage, and only a single vehicle was constructed.</p><p>Intended to present a heavily armored broadside to the enemy while deploying infantry from the protected opposite side, the Flanker represented an unconventional and ultimately unsuccessful approach to hover transport tactics. The design attracted brief attention within Cyclops for its creative ambition, though its fundamental tactical assumptions proved flawed under testing conditions.</p>
-</overview>
-
 <capabilities>
 <p>The Flanker replaces the standard Maxim's turret with a pair of sponson turrets mounted on either side of the hull, each carrying a mix of missile and ballistic weapons. The right sponson mounts an LRM-15 and an SRM-4, while the left sponson carries an SRM-2 and three machine guns. A rear-mounted machine gun provides minimal protection against pursuing infantry. A fusion engine replaces the standard ICE powerplant, increasing the flank speed to 129 kilometers per hour while freeing internal volume.</p><p>The deliberate asymmetry of the armor layout places nearly all protection on the left side, with the right side carrying minimal plating. This was intended to allow the vehicle to orbit an enemy position while presenting its armored flank, then deploy infantry from the protected side. In practice, the lack of a top-mounted turret eliminated hull-down engagement options, and the unbalanced armor distribution was not properly compensated for in the vehicle's guidance system. The hover skirt proved particularly vulnerable to flanking fire, and the overall concept failed to account for the basic reality that hovercraft are especially susceptible to side hits that damage their mobility.</p>
 </capabilities>
+
+<overview>
+<p>The Maxim Flanker is an experimental prototype developed at Cyclops Incorporated's facility on Skye in 3074. Designed by technician Buford Leopold, the Flanker attempted to reimagine the Maxim's role during troop deployment by mounting sponson turrets and adopting a deliberately asymmetric armor layout. The concept never progressed beyond the prototype stage, and only a single vehicle was constructed.</p><p>Intended to present a heavily armored broadside to the enemy while deploying infantry from the protected opposite side, the Flanker represented an unconventional and ultimately unsuccessful approach to hover transport tactics. The design attracted brief attention within Cyclops for its creative ambition, though its fundamental tactical assumptions proved flawed under testing conditions.</p>
+</overview>
 
 <deployment>
 <p>The sole Maxim Flanker prototype was constructed at Cyclops Incorporated's Skye facility in 3074 and never progressed beyond initial testing. The prototype's poor performance during live-fire exercises led Cyclops to cancel the project. No production variants were authorized, and the design exists only as an experimental curiosity in the company's archives.</p>
@@ -170,4 +150,16 @@ ARMOR:Unknown
 COMMUNICATIONS:I/O
 TARGETING:TargetTrack
 </systemModels>
+
+<source>
+XTR:Corps
+</source>
+
+<published>
+XTR:Corps
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

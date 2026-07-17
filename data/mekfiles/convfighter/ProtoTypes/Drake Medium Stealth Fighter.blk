@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa1f-7f15-979d-28483013d2ce
+</UUID>
+
 <UnitType>
 ConvFighter
 </UnitType>
@@ -35,10 +39,6 @@ Drake Medium Stealth Fighter
 <year>
 3087
 </year>
-
-<originalBuildYear>
-3087
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -115,9 +115,6 @@ ISMML3
 
 <Aft Equipment>
 IS Vehicular Stealth
-IS Vehicular Stealth
-IS Vehicular Stealth
-IS Vehicular Stealth
 ISGuardianECMSuite
 </Aft Equipment>
 
@@ -130,34 +127,13 @@ IS Ammo MML-3 LRM
 IS Ammo MML-3 SRM
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Drake Medium Stealth Fighter represents the production evolution of Basantapur Fine Metals' experimental Strike variant that debuted at the Matarn air show on Colorado. Where the prototype relied on imported modular armor to achieve its remarkable protection, the production Drake was designed from the outset around BFM's in-house stealth armor manufacturing capability, licensed from Krupp Armament Works for local production. By dropping the expensive modular armor panels and refining the weapons suite, BFM produced a thirty-five-ton conventional fighter that could be manufactured economically at scale while retaining the signature-masking capabilities that had made the prototype so exceptionally difficult to engage in combat trials.</p>
-</overview>
-
 <capabilities>
 <p>The production Drake is renowned as an accomplished dogfighter comparable to the heavier and slower Meteor. Its vehicular stealth armor confounds targeting systems, allowing the Drake to close with minimal risk before unleashing its weapons. A brace of Krupp MML-3 launchers provides the same ammunition flexibility as the prototype, allowing pilots to toggle between SRM loads for close engagements and LRM ammunition for standoff harassment. The ER small laser of the Strike variant was replaced with a SarLon Light AC/5 MiniCannon, giving the production model a more reliable sustained-fire option with better range.</p><p>The IMB targeting and tracking system automatically selects optimal ammunition for the MML launchers based on target range, though pilots retain manual override via a joystick-mounted toggle. The combination of stealth armor, ECM support, and flexible weapons makes the Drake superior to competing designs at its weight class, though its light armor beneath the stealth coating means that once an opponent achieves lock, the fighter remains vulnerable to concentrated fire.</p>
 </capabilities>
+
+<overview>
+<p>The Drake Medium Stealth Fighter represents the production evolution of Basantapur Fine Metals' experimental Strike variant that debuted at the Matarn air show on Colorado. Where the prototype relied on imported modular armor to achieve its remarkable protection, the production Drake was designed from the outset around BFM's in-house stealth armor manufacturing capability, licensed from Krupp Armament Works for local production. By dropping the expensive modular armor panels and refining the weapons suite, BFM produced a thirty-five-ton conventional fighter that could be manufactured economically at scale while retaining the signature-masking capabilities that had made the prototype so exceptionally difficult to engage in combat trials.</p>
+</overview>
 
 <deployment>
 <p>Initial sales went to Federated Suns corporations and private security forces, but high-profile success stories drew AFFS attention. After six months of negotiations, acceptable contract terms were reached in 3087. The Drake is now found with planetary militia units throughout the Federated Suns and with line regiments in the Capellan and Crucis Marches. A handful were deployed to the Draconis March, mostly along the Crucis March border, where the fighters have not been well received. BFM has expressed interest in selling the design to the Filtvelt Coalition, Taurian Concordat, and Magistracy of Canopus, but no contracts have been finalized.</p>
@@ -190,4 +166,16 @@ ARMOR:Vehicular Stealth
 COMMUNICATIONS:Multi-Track Standard with Guardian ECM
 TARGETING:SYS 7000
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

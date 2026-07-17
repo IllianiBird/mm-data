@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad40-7e01-9bb2-fc3bb838f18e
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SL-26
 <year>
 2620
 </year>
-
-<originalBuildYear>
-2620
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -123,26 +123,13 @@ Small Laser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Samurai is a medium aerospace fighter commissioned by the Terran Hegemony during the Age of War to address a critical gap in its ground support capabilities. Designed and built by Fairchild Dornier on Mizar, the craft was developed to threaten enemy ground forces directly, trading some air-superiority capability for concentrated strafing power against surface targets. The design served through the Star League era, accompanying SLDF units on numerous campaigns and earning a reputation as a reliable, if specialized, ground attack platform. Its emphasis on anti-ground firepower came at a cost in peer air combat, where more versatile or dedicated fighters could exploit its limited engagement range. Despite this trade-off, the Samurai remained valued wherever ground commanders needed dependable close air support, and the type persisted in service across multiple successor states long after its original manufacturer ceased full production.</p>
-</overview>
-
 <capabilities>
 <p>For its mass, the Samurai carries substantial protection and achieves speeds sufficient to engage similarly sized opponents on its own terms or withdraw from heavier threats. Its weapon arrangement dedicates the bulk of firepower to anti-ground strafing while retaining meaningful self-defense against other fighters. Against surface targets, the forward battery delivers punishment that most light ground defenses cannot absorb, and the addition of the remaining weapons on a closer pass amplifies that firepower by nearly forty percent. Against other aerospace fighters, the design performs best at close range, where the full complement can be brought to bear, and less well at longer distances where its weapons lose effectiveness. The Samurai compensates for this limitation through speed, using velocity to close with peer opponents or disengage from superior ones. A rearward-facing laser battery protects the tail from sniping, a practical concession to the hazards of extended close engagements. The design carries no expendable ammunition in its base configuration, and its fuel capacity exceeds that of most contemporaries, allowing the Samurai to sustain ground support operations far longer without returning to base for resupply.</p>
 </capabilities>
+
+<overview>
+<p>The Samurai is a medium aerospace fighter commissioned by the Terran Hegemony during the Age of War to address a critical gap in its ground support capabilities. Designed and built by Fairchild Dornier on Mizar, the craft was developed to threaten enemy ground forces directly, trading some air-superiority capability for concentrated strafing power against surface targets. The design served through the Star League era, accompanying SLDF units on numerous campaigns and earning a reputation as a reliable, if specialized, ground attack platform. Its emphasis on anti-ground firepower came at a cost in peer air combat, where more versatile or dedicated fighters could exploit its limited engagement range. Despite this trade-off, the Samurai remained valued wherever ground commanders needed dependable close air support, and the type persisted in service across multiple successor states long after its original manufacturer ceased full production.</p>
+</overview>
 
 <deployment>
 <p>The SL-26 was produced in limited numbers for SLDF units during the Star League era and was not widely distributed outside that force. Its advanced technologies placed it beyond the production capabilities of most member-state facilities, and the type did not spread significantly into successor-state inventories before the Second Succession War eliminated the last surviving examples. No SL-26 is known to have survived that conflict.</p>
@@ -177,4 +164,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:FD 205
 TARGETING:Scope 115F
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

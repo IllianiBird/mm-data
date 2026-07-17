@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad60-7f4b-9f84-58df7f0b106a
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SL-15A
 <year>
 2872
 </year>
-
-<originalBuildYear>
-2872
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -125,26 +125,13 @@ IS Ammo SRM-6
 IS Ammo SRM-6
 </Fuselage Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Slayer is a heavy aerospace fighter produced by Wakazashi Enterprises for the Draconis Combine, entering service in 2657 during the twilight years of the Star League. Built around a deceptively compact delta-wing airframe, the design earned a reputation that outlasted the civilization that created it, with generations of enemy pilots underestimating its mass and paying for the mistake.</p><p>The Slayer was conceived as a true multi-role heavy fighter, equally capable of prosecuting dogfights, strafing ground targets, and hunting DropShips through the vacuum of deep space. Its designers prioritized endurance above all other considerations, fitting the airframe with a double-capacity fuel tank that allows the craft to loiter over contested areas long after lighter fighters have been forced to withdraw. This practical durability, combined with an adaptable airframe that has hosted countless field modifications over the centuries, established the Slayer as one of the most recognizable and enduring warbirds in the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Slayer's combat effectiveness derives from a balanced weapons package rather than a single dominant arm. A Zeus 56 Mark IV autocannon in the nose provides heavy striking power at range, while five Diverse Optics Type 20 medium lasers cover the nose, wing, and rear arcs. A sixth medium laser faces aft, mounted on the distinctive raised circular plate at the tail - a vestige of a rotating turret experiment Wakazashi abandoned after the assembly proved unreliable in deep space conditions. All weapons can be sustained in continuous fire without overtaxing the fighter's heat sinks, enabling the kind of prolonged engagement that lighter craft cannot match.</p><p>The Shinobi 320 fusion plant drives the airframe at a moderate thrust rating, making the Slayer less a quick dogfighter and more a heavy-hitting striker and escort. Naketsu AeroWeave Standard protection covers the hull, providing strong resistance to battle damage. The Wakazashi V frame was designed from the outset for structural versatility, accepting a wide range of weapon configurations without modification, a quality that invited years of field tinkering with uneven results. The fighter's double-capacity fuel load is integral to the frame and cannot be altered without compromising structural integrity, a constraint that has shaped Slayer tactics for six centuries. Sony MSF-21 communications and Radcom T11 fire control complete the standard avionics suite.</p>
 </capabilities>
+
+<overview>
+<p>The Slayer is a heavy aerospace fighter produced by Wakazashi Enterprises for the Draconis Combine, entering service in 2657 during the twilight years of the Star League. Built around a deceptively compact delta-wing airframe, the design earned a reputation that outlasted the civilization that created it, with generations of enemy pilots underestimating its mass and paying for the mistake.</p><p>The Slayer was conceived as a true multi-role heavy fighter, equally capable of prosecuting dogfights, strafing ground targets, and hunting DropShips through the vacuum of deep space. Its designers prioritized endurance above all other considerations, fitting the airframe with a double-capacity fuel tank that allows the craft to loiter over contested areas long after lighter fighters have been forced to withdraw. This practical durability, combined with an adaptable airframe that has hosted countless field modifications over the centuries, established the Slayer as one of the most recognizable and enduring warbirds in the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The 15A emerged from Wakazashi's Third Succession War modification program as an attempt to adapt the Slayer for an era of ammunition scarcity, replacing the nose autocannon with an LRM-SRM combination. The configuration found a cool reception among DCA pilots accustomed to the original's ballistic punch, and demand remained persistently low. Production ran at Dover through the Late Succession Wars period, primarily supplying units whose supply chains could not reliably source the original ammunition types rather than units that actively requested the variant.</p>
@@ -177,4 +164,16 @@ ARMOR:Naketsu AeroWeave Standard
 COMMUNICATIONS:Sony MSF-21
 TARGETING:Radcom T11
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

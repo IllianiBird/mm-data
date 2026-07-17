@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aee7-77e1-9fe7-e8a7c73dfaa0
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ HSCL-1-OD
 <year>
 3068
 </year>
-
-<originalBuildYear>
-3068
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -137,34 +137,13 @@ ISERMediumLaser:OMNI
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Huscarl is a seventy-five-ton Inner Sphere OmniFighter developed jointly by ComStar and the Free Rasalhague Republic. Commissioned as one of Precentor Martial Anastasius Focht's final initiatives before retirement, the design was intended to provide the Com Guards and the KungsArmé with a domestically produced heavy aerospace platform capable of challenging Clan OmniFighters. Janesek Industries on Orestes was selected as the manufacturer, building on an existing ComStar-FRR partnership that had previously produced the Beowulf BattleMech. The Huscarl entered production in 3064, making it the first Inner Sphere OmniFighter fielded by either organization. Its generous pod capacity allows for an exceptional variety of weapon configurations on a robust heavy airframe, earning the design a reputation as a bruising, versatile platform equally suited to conventional dogfighting and anti-capital ship strike operations.</p>
-</overview>
-
 <capabilities>
 <p>The Huscarl is built around a Janesek 225 XL fusion engine mounted in a TukTech H airframe, producing a safe thrust of five and a maximum thrust of eight. While not particularly fast for a heavy fighter, the compact powerplant occupies only a small fraction of the airframe's total mass, freeing a generous forty-three tons of pod space for weapons and equipment. This capacity rivals or exceeds many assault-weight designs, making the Huscarl one of the most heavily armed OmniFighters in Inner Sphere service. Some pilots have likened the aircraft to a flying whale, though few complain about the massive ordnance loads it can carry into battle. Fifteen tons of Orestes Cold Forge armor provides solid protection across all arcs, with particularly heavy plating on the nose and wings. The base chassis carries only fourteen double heat sinks, a deliberately modest thermal management suite that designers offset by favoring ammunition-dependent weapon loadouts across most configurations.</p><p>In its Prime configuration, the Huscarl mounts an LRM-10 in the nose flanked by an ER large laser and LB 10-X autocannon in each wing. Four tons of autocannon ammunition allow pilots to select between standard and cluster munitions for tactical flexibility against different target types. This configuration lacks aft-facing weaponry, however, leaving the fighter vulnerable during pursuit engagements and requiring wingman coordination to protect its rear arc.</p>
 </capabilities>
+
+<overview>
+<p>The Huscarl is a seventy-five-ton Inner Sphere OmniFighter developed jointly by ComStar and the Free Rasalhague Republic. Commissioned as one of Precentor Martial Anastasius Focht's final initiatives before retirement, the design was intended to provide the Com Guards and the KungsArmé with a domestically produced heavy aerospace platform capable of challenging Clan OmniFighters. Janesek Industries on Orestes was selected as the manufacturer, building on an existing ComStar-FRR partnership that had previously produced the Beowulf BattleMech. The Huscarl entered production in 3064, making it the first Inner Sphere OmniFighter fielded by either organization. Its generous pod capacity allows for an exceptional variety of weapon configurations on a robust heavy airframe, earning the design a reputation as a bruising, versatile platform equally suited to conventional dogfighting and anti-capital ship strike operations.</p>
+</overview>
 
 <deployment>
 <p>Alternate Configuration D abandons ballistic and missile weapons entirely in favor of an all-energy loadout linked to a targeting computer. The nose mounts a large pulse laser and three medium pulse lasers, while each wing carries three medium pulse lasers and two small pulse lasers. An ER medium laser covers the aft arc, making this the only standard configuration with rear-facing protection. Nineteen double heat sinks manage the considerable thermal output, giving pilots much more freedom to fire continuously. The complete independence from ammunition provides virtually unlimited endurance, making it well suited for extended patrol and garrison operations where rearming opportunities are limited.</p>
@@ -197,4 +176,16 @@ ARMOR:Unknown
 COMMUNICATIONS:J-Talk 73
 TARGETING:Knorr Block 3
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

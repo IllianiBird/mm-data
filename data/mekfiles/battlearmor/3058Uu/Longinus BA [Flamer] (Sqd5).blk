@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a2eb-791c-bbcd-06fe3a146218
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Longinus Battle Armor
 <year>
 3057
 </year>
-
-<originalBuildYear>
-3057
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -94,44 +94,15 @@ BABattleClaw:LA
 
 <slotless_equipment>
 BAJumpJet
-BA-SRM2 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Longinus was the Free Worlds League's answer to the Clan Elemental battle armor, developed jointly with the Word of Blake beginning in 3054. Classified as a medium battle armor, the suit came closer to matching its Clan-tech inspiration than any other Inner Sphere design of the era. The FWL's alliance with the Blakists provided access to technologies that rival programs in other Great Houses lacked. First fielded in 3057, the Longinus earned a reputation as both capable and expensive, with production costs well above comparable Inner Sphere designs.</p>
-</overview>
 
 <capabilities>
 <p>The Longinus carries a detachable one-shot SRM-2 launcher on a specialized dorsal mounting, providing an opening salvo capability before close engagement. Internal safety mechanisms prevent the suit's jump jets from engaging until the launcher is expended and jettisoned, after which troopers can leap up to ninety meters. The Flamer configuration mounts a small flamer in the right-arm modular weapon system, well-suited for clearing infantry positions and flushing defenders from enclosed spaces. A battle claw on the left arm enables anti-BattleMech swarming attacks, supplemented by an anti-personnel weapon mount for engaging unarmored infantry. The suit's advanced armor composite provides protection roughly equivalent to Clan battle armor plating, with enough coverage to absorb a direct large laser hit. This protection comes at significant manufacturing cost, as the specialized composites require dedicated production processes.</p>
 </capabilities>
+
+<overview>
+<p>The Longinus was the Free Worlds League's answer to the Clan Elemental battle armor, developed jointly with the Word of Blake beginning in 3054. Classified as a medium battle armor, the suit came closer to matching its Clan-tech inspiration than any other Inner Sphere design of the era. The FWL's alliance with the Blakists provided access to technologies that rival programs in other Great Houses lacked. First fielded in 3057, the Longinus earned a reputation as both capable and expensive, with production costs well above comparable Inner Sphere designs.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Points of flamer-equipped Longinus suits saw limited service with Clan-affiliated forces that acquired the design through battlefield salvage or trade. Wolf's Dragoons organized captured suits into standard Clan Points, employing them in garrison actions where their close-range firepower proved effective at area denial and perimeter clearing.</p>
@@ -166,4 +137,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

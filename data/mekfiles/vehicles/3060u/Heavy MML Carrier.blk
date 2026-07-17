@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e504-767b-a36d-a22f38b11956
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Heavy MML Carrier
 <year>
 3075
 </year>
-
-<originalBuildYear>
-3075
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -116,37 +116,13 @@ ISMML9
 ISMML9
 </Turret Equipment>
 
-<slotless_equipment>
-ISBPodAmmo
-ISBPodAmmo
-ISBPodAmmo
-ISBPodAmmo
-</slotless_equipment>
-
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 19:27:01
-<overview>
-<p>The Heavy MML Carrier is an eighty-ton tracked combat vehicle developed by Majesty Metals and Manufacturing as a Jihad-era evolution of the Heavy LRM Carrier. Replacing the four dedicated LRM launchers with six versatile MML-9 launchers, the design trades raw long-range firepower for tactical flexibility, capable of engaging targets at both long and short range without changing ammunition types. The vehicle retains the Heavy LRM Carrier's turret configuration and basic chassis.</p>
-</overview>
-
 <capabilities>
 <p>The Heavy LRM Carrier mounts four turret-mounted Delta Dart LRM-20 launchers, enabling eighty-missile salvos from any facing. An InterComBust 160 internal combustion engine provides a maximum speed of thirty-two kilometers per hour, a significant reduction from the standard carrier's fifty-four but acceptable for a dedicated fire support platform. A Communicator system and FireScan with IndirecTrack targeting handle coordination.</p><p>The turret configuration allows the ponderous vehicle to track targets on multiple fronts, especially effective against targets approaching or passing close to the carrier. Additional armor plating on the front improves survivability compared to the standard LRM Carrier, while doubled ammunition capacity allows sustained barrages far longer than its lighter predecessor.</p>
 </capabilities>
+
+<overview>
+<p>The Heavy MML Carrier is an eighty-ton tracked combat vehicle developed by Majesty Metals and Manufacturing as a Jihad-era evolution of the Heavy LRM Carrier. Replacing the four dedicated LRM launchers with six versatile MML-9 launchers, the design trades raw long-range firepower for tactical flexibility, capable of engaging targets at both long and short range without changing ammunition types. The vehicle retains the Heavy LRM Carrier's turret configuration and basic chassis.</p>
+</overview>
 
 <deployment>
 <p>The Heavy LRM Carrier entered service with the Magistracy Armed Forces in 3058, produced at Dunianshire and Canopus IV by Majesty Metals and Manufacturing. A joint advertising campaign with the Light SRM Carrier drove sales across the Periphery, and nearly every Periphery militia acquired the design. Hadrian Mechanized Industries on Pompey secured production rights after obtaining plans in 3079.</p>
@@ -176,4 +152,20 @@ ENGINE:160 ICE
 ARMOR:Standard
 TARGETING:with IndirecTrack
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+80.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

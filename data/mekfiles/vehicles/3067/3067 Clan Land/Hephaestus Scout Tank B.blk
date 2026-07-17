@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e566-7450-80cf-81bf1c93097e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ B
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -117,30 +117,13 @@ CLERMediumLaser:OMNI
 CLStreakSRM6:OMNI
 </Turret Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-<baseChassisTurretWeight>
-0.5
-</baseChassisTurretWeight>
-
-# Fluff Date: 2026-03-08 13:58:26
-<overview>
-<p>The Hephaestus Scout Tank is a Clan Hell's Horses OmniVehicle designed to serve as a fast reconnaissance and combined-arms support platform. When the effort to develop a jump-capable version proved impractical, the Horses redirected the program toward electronic warfare and infantry transport, producing a design well-suited to their combined-arms doctrine. Khan Malavai Fletcher commissioned the vehicle in 3062, only to shelve the project the following year under cost pressures. His successor, Khan James Cobb, revived and refocused the program in 3064, and production at Niles Industriplex Beta followed within the year. The Hephaestus filled a recognized gap in the Horses' vehicle pool, providing a light OmniVehicle capable of reconnaissance, electronic warfare, and ground-based infantry delivery in a single chassis.</p>
-</overview>
-
 <capabilities>
 <p>The Hephaestus chassis provides a 30-ton hover platform with a fusion engine delivering high speed for a light vehicle. Five tons of Compound VM22 ferro-fibrous armor offers moderate protection. A fixed Active Probe gives every configuration the ability to detect hidden units without consuming pod space, a significant advantage for a dedicated scout. A four-ton infantry bay accommodates a full Point of unarmored infantry, enabling the Horses' combined-arms doctrine at the individual vehicle level.</p><p>The OmniVehicle architecture provides six tons of pod space and a half-ton turret, accommodating a range of weapon and equipment configurations suited to different tactical roles. The primary configuration pairs the fixed Active Probe with TAG and ECM Suite pod mounts, making it an electronic warfare and artillery-spotting platform. Two medium pulse lasers provide a self-defense capability rather than a primary combat punch. The tradeoffs are intentional: the Hephaestus is a scout and support vehicle, not a front-line combatant. Its armor is thinner than many comparable designs, and the six-ton pod limit constrains weapons weight substantially. Commanders who deploy it in a direct-fire role rather than an indirect-support role tend to lose it quickly.</p>
 </capabilities>
+
+<overview>
+<p>The Hephaestus Scout Tank is a Clan Hell's Horses OmniVehicle designed to serve as a fast reconnaissance and combined-arms support platform. When the effort to develop a jump-capable version proved impractical, the Horses redirected the program toward electronic warfare and infantry transport, producing a design well-suited to their combined-arms doctrine. Khan Malavai Fletcher commissioned the vehicle in 3062, only to shelve the project the following year under cost pressures. His successor, Khan James Cobb, revived and refocused the program in 3064, and production at Niles Industriplex Beta followed within the year. The Hephaestus filled a recognized gap in the Horses' vehicle pool, providing a light OmniVehicle capable of reconnaissance, electronic warfare, and ground-based infantry delivery in a single chassis.</p>
+</overview>
 
 <deployment>
 <p>Configuration B is the Hephaestus's most conventional combatant configuration, pairing ER Medium Lasers with a Streak SRM-6 for close-range engagements. The Streak system's lock-on requirement ensures ammunition is never wasted on clear misses. This configuration is used for flank security and close breakthrough screening, often paired with BattleMech elements that need a fast light vehicle to handle opposing scouts and skirmishers.</p>
@@ -173,4 +156,20 @@ ARMOR:Compound VM22 Ferro-Fibrous
 COMMUNICATIONS:Build 1700/5 Tacticom
 TARGETING:Series XL FWS with TRTTS Mk III Active Probe
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+30.0
+</tonnage>
+
+<baseChassisTurretWeight>
+0.5
+</baseChassisTurretWeight>
 

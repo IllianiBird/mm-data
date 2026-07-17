@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d7b5-7bd3-a944-fcf9c4ebd0b3
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Assassin
 model:ASN-30 (Alice)
 mul id:3738
@@ -23,7 +24,6 @@ mul id:3738
 Config:Biped
 techbase:Inner Sphere
 era:3066
-source:
 published:RS:UM
 rules level:2
 role:Striker
@@ -173,7 +173,6 @@ IS Ferro-Fibrous
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The Assassin was introduced in 2676 as the product of corporate ambition rather than military necessity. Maltex Corporation successfully lobbied the Star League to purchase the design as a replacement for the lighter Wasp and Stinger reconnaissance 'Mechs, achieving this through over-hyped performance statistics, fudged budget approximations, and political maneuvering. Despite this inauspicious origin, the forty-ton Assassin proved itself a capable light 'Mech hunter with impressive speed and jumping capability, and its modular design and ease of maintenance allowed it to persist through centuries of warfare long after Maltex's own fortunes had faded. Hellespont 'Mech Works revived the chassis in the late Jihad era, ensuring the Assassin remains a common sight in Capellan and Periphery forces.</p>
 
 capabilities:<p>The Assassin combines respectable mobility with adequate firepower for its intended role as a reconnaissance platform and light 'Mech hunter. Its VOX 280 fusion engine propels the forty-ton chassis to speeds of 118 kilometers per hour, while seven Lox Lift Series 1 jump jets provide an impressive 210-meter jumping distance that allows pilots to exploit terrain advantages against heavier opponents.</p><p>The weapons suite centers on a Holly-5 LRM-5 launcher for long-range harassment, supplemented by a Holly-2 SRM-2 rack and arm-mounted Martell medium laser for close engagements. This combination provides flexibility across engagement ranges, though the design's limited ammunition capacity of just seventy-four total rounds restricts extended operations without resupply. The SRM launcher's ammunition feed system is also prone to jamming in high-heat situations, a persistent concern that has led many operators to adopt conservative firing disciplines during sustained engagements.</p><p>The Assassin's most significant weakness lies in its cockpit design. Maltex's cost-cutting measures produced one of the most cramped cockpits in the Inner Sphere, limiting pilot endurance to half that of comparable designs and causing many veterans to develop chronic back problems. Despite numerous redesign attempts over four centuries, this fundamental flaw has never been adequately addressed in standard production models.</p>
@@ -185,6 +184,8 @@ history:<p>The Assassin's troubled history began when Maltex Corporation secured
 manufacturer:Field Refit
 
 primaryfactory:Various
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Unknown
 systemmanufacturer:ENGINE:VOX

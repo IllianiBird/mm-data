@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a88a-7ab0-a5dd-fda080b8466e
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Krise PA(L)
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -92,42 +92,14 @@ ISImprovedSensors:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:VAr
-</source>
-
-<published>
-RS:VA
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-1
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Krise is an Inner Sphere light exoskeleton designed for civilian emergency response operations. Produced by Gortex Multi-E on Kittery, the suit entered service in the late thirty-first century as a purpose-built rescue platform intended primarily for Federated Suns emergency response teams. Carrying no weapons, the Krise was equipped with a comprehensive array of search and rescue tools. Its straightforward controls allowed operators with minimal powered armor training to employ it effectively in the field.</p>
-</overview>
 
 <capabilities>
 <p>The Krise weighs four hundred kilograms and carries a comprehensive set of emergency response tools. A cutting torch mounted on the right arm handles structural breaching and debris removal, while a salvage arm on the left limb manages heavier extraction tasks. Improved sensors detect life signs through dense material, and a searchlight assists operations in low-visibility conditions. Extended life support allows the operator to work in contaminated or oxygen-deprived environments for prolonged periods.</p><p>Jump jets provide a ninety-meter jump range alongside a thirty-kilometer-per-hour ground speed, giving the suit solid mobility for reaching disaster sites. Standard armor offers adequate protection for emergency work but cannot withstand sustained heat exposure the way Clan fire-resistant plating can. Brief contact with intense flames risks permanent damage to internal systems. The Krise carries no weapons, and its design emphasis on ease of use makes it accessible to emergency personnel who lack formal powered armor training.</p>
 </capabilities>
+
+<overview>
+<p>The Krise is an Inner Sphere light exoskeleton designed for civilian emergency response operations. Produced by Gortex Multi-E on Kittery, the suit entered service in the late thirty-first century as a purpose-built rescue platform intended primarily for Federated Suns emergency response teams. Carrying no weapons, the Krise was equipped with a comprehensive array of search and rescue tools. Its straightforward controls allowed operators with minimal powered armor training to employ it effectively in the field.</p>
+</overview>
 
 <deployment>
 <p>Federated Suns emergency response teams organized Krise operators into four-member squads, the standard Inner Sphere infantry formation size. These squads deployed across the Suns in civilian disaster relief roles, responding to building collapses, industrial accidents, and natural catastrophes. The suit's ease of operation allowed rapid training of emergency personnel who lacked formal powered armor experience.</p>
@@ -162,4 +134,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<published>
+RS:VA
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+1
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

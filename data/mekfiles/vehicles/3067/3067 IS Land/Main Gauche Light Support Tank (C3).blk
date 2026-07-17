@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e582-7622-af81-39217482f4dd
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Main Gauche Light Support Tank
 <year>
 3066
 </year>
-
-<originalBuildYear>
-3066
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -98,26 +98,13 @@ ISERSmallLaser
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 20:16:39
-<overview>
-<p>Brooks Incorporated designed the Main Gauche as a fire support companion to their popular Galleon light tank, intended to address the Free Worlds League Military's need for an affordable vehicle with genuine long-range striking power. Development proved protracted, with the design not entering trials until 3062, but the League General Armaments Office recognized the tank's potential and authorized a limited production run for field evaluation. After two years of testing and refinement with frontline units, the LGAO certified the Main Gauche for full-scale production in 3064. Though modest in speed and protection compared to heavier designs, the tank earned a reputation as an effective standoff platform capable of contributing meaningful firepower from positions well behind the main line of engagement.</p>
-</overview>
-
 <capabilities>
 <p>The Main Gauche mounts an Imperator Type-II Light Gauss Rifle as its primary armament, an Atreus-produced weapon capable of delivering accurate fire out to 750 meters. The rifle gives the tank genuine long-range punch disproportionate to its thirty-ton weight class, though its ammunition supply is limited to a single ton. A pair of Voelkers 200 machine guns provide token close-in defense against infantry and soft targets, but offer no credible deterrent against armored opponents.</p><p>The GM 120 fusion power plant drives the tracked chassis to a top speed of 65 kilometers per hour, a figure that critics have consistently called inadequate for a vehicle operating in the fire support role. The small engine does, however, leave room for the oversized main gun. Five tons of Jolassa 320 crystal steel armor provides reasonable protection for the tank's weight class, though the absence of a turret forces crews to orient the entire hull to engage targets. This fixed-forward configuration, combined with thin side and rear plating, makes the Main Gauche vulnerable to flanking attacks and forces it to rely on companion vehicles for close protection.</p>
 </capabilities>
+
+<overview>
+<p>Brooks Incorporated designed the Main Gauche as a fire support companion to their popular Galleon light tank, intended to address the Free Worlds League Military's need for an affordable vehicle with genuine long-range striking power. Development proved protracted, with the design not entering trials until 3062, but the League General Armaments Office recognized the tank's potential and authorized a limited production run for field evaluation. After two years of testing and refinement with frontline units, the LGAO certified the Main Gauche for full-scale production in 3064. Though modest in speed and protection compared to heavier designs, the tank earned a reputation as an effective standoff platform capable of contributing meaningful firepower from positions well behind the main line of engagement.</p>
+</overview>
 
 <deployment>
 <p>The C3 variant removes the twin machine guns in favor of a C3 slave computer and an extended-range small laser. This configuration allows the Main Gauche to leverage targeting data from friendly units operating closer to the enemy, significantly improving the light Gauss rifle's accuracy at extreme range. The trade-off in close defense capability is considered acceptable, as the variant's entire tactical purpose centers on remaining at maximum standoff distance while networked units provide forward spotting.</p>
@@ -150,4 +137,16 @@ ARMOR:320
 COMMUNICATIONS:T21-C
 TARGETING:B-Tech
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-c8b4-7020-b728-5783561d1e02
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Salamander
 model:PPR-6T
 mul id:2785
@@ -171,13 +172,20 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Salamander was introduced in 3055 by Defiance Industries as an eighty-ton assault-class fire support BattleMech. Designed to fulfill a role similar to the venerable Awesome, the Salamander is purpose-built for long-range bombardment and siege operations. The design drew considerable controversy at its debut, with critics deriding it as a missile-based imitation of the Awesome, accusations that some attributed to corporate rivalries between Defiance Industries and its competitors within the Lyran Alliance. Despite these persistent rumors, Defiance's public relations department has consistently defended the creative integrity of its design teams.</p><p>The Salamander devotes over half its tonnage to weapons and supporting systems, with heavy armor protection ensuring the design remains salvageable even after sustaining significant damage. Production at Hesperus II proved initially slow, but the Salamander has since become a mainstay in LAAF command, assault, and support formations.</p>
+
 capabilities:<p>The Salamander's primary armament consists of three Doombud LRM-20 racks, each supplied with a dedicated ton of ammunition plus additional reserves distributed across the torso bays, enabling approximately three minutes of sustained fire at maximum rate. This heavy missile payload allows the design to deliver one and a half times the long-range firepower of an Archer, making it a formidable siege platform. Two Defiance B3M medium lasers provide modest close-range defense, though the design is clearly intended to operate at standoff distances where its missile barrage can be brought to bear without interference.</p><p>Fifteen and a half tons of Glasgow Limited armor provides exceptional protection for an assault-class fire support 'Mech, while CASE equipment in the ammunition bays ensures that a catastrophic detonation will not destroy the machine outright. The Pitban 320 XL engine delivers a top speed of sixty-five kilometers per hour, matching the Awesome's mobility profile. This reliance on an extralight engine does introduce vulnerability, as damage to either side torso risks catastrophic engine failure.</p><p>The Salamander lacks jump capability in its base configuration, limiting its ability to negotiate rough terrain. The design's reputation for being difficult to maintain means that field technicians require additional time and resources for routine servicing, a factor that has somewhat constrained its adoption outside well-supplied Lyran formations.</p>
+
 deployment:<p>Entering production in 3060, this variant takes a different approach to improving the Salamander's close-range lethality. One LRM-20 rack is removed to mount a pair of medium pulse lasers and a large pulse laser, providing formidable short-range energy firepower. The combination of sustained LRM bombardment at range with accurate pulse weapons at close quarters makes this variant particularly effective in mixed-range engagements where maintaining standoff distance is not always possible.</p>
+
 history:<p>Production of the Salamander began at Defiance Industries' facilities on Hesperus II in 3055, initially at a modest rate of only nine units in its first year. The unusual engineering of the left arm assembly slowed early manufacturing runs, but output increased steadily as production processes were refined. Originally intended to provide heavy fire support along the Clan front, the Salamander was deployed to command, assault, and support sections of several LAAF units stationed throughout the Lyran Alliance.</p><p>The FedCom Civil War proved to be the Salamander's first major trial by fire. Many of these machines, originally positioned to face Clan aggressors, found themselves turned against fellow Inner Sphere forces as the Lyran Alliance and Federated Suns tore themselves apart. Pilots turned the Salamander's devastating long-range firepower against MechWarriors they might have called countrymen only a decade before.</p><p>During the fighting on Melissia against the Jade Falcons in August of 3064, Salamanders proved poorly suited to the broken terrain, wasting much of their long-range capability in environments that favored close-quarters engagement. This experience directly spurred the development of the PPR-7S variant, which addressed the design's mobility limitations through the addition of jump jets and a light fusion engine.</p><p>The Jihad era saw Hesperus II's industrial output disrupted as the world endured conflict and contested control. Production of the Salamander was interrupted during this period, with the factory showing provisional Lyran ownership under difficult circumstances. Output eventually stabilized under restored Lyran authority in the post-Jihad Republic era.</p><p>In the Dark Age, the Salamander continued to serve in Lyran formations. Refit programs beginning around 3111 produced the PPR-7T variant to support emerging Boosted C3 network doctrines, extending the design's relevance into a new era of combined-arms warfare. The Salamander's association with the Lyran military has remained strong throughout its service life, with the vast majority of these 'Mechs operating in LAAF and successor formations.</p>
+
 manufacturer:Defiance Industries
+
 primaryfactory:Hesperus II
+
+fluffdate:2026-02-21 18:07:19
+
 systemmanufacturer:CHASSIS:Unknown
 systemmode:CHASSIS:Chariot Type IV
 systemmanufacturer:ENGINE:Pitban

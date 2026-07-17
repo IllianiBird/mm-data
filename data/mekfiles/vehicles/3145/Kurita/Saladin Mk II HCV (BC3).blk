@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7d6-77cb-9698-61c7ab2cc3c2
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Saladin Mk II HCV
 <year>
 3138
 </year>
-
-<originalBuildYear>
-3138
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -98,31 +98,13 @@ RL10
 <Rear Equipment>
 </Rear Equipment>
 
-<slotless_equipment>
-IS Ammo RL-10
-IS Ammo RL-10
-</slotless_equipment>
-
-<source>
-TR:3145:DC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 16:18:34
-<overview>
-<p>The Saladin Mk II Heavy Combat Vehicle emerged from the Draconis Combine's campaign to reclaim worlds of the Dieron Military District in the early thirty-second century. Recognizing that the original Saladin's light armor and internal combustion powerplant were no longer competitive against modern opposition, Scarborough Manufacturers undertook a comprehensive redesign rather than another incremental field modification. The Mk II replaced the internal combustion engine with a fusion powerplant and fitted substantially heavier armor while retaining the hover platform's speed and low profile.</p><p>Production was established at both the traditional Al Na'ir facility and a new line on Algedi, reflecting the DCMS's commitment to fielding the redesigned platform in meaningful numbers. The Saladin Mk II restored the design's front-line relevance and gave Combine armored forces a fast-strike asset capable of surviving long enough to deliver its punch against contemporary opposition.</p>
-</overview>
-
 <capabilities>
 <p>The Saladin Mk II mounts a Magna Flarestar Snub-Nose Particle Projection Cannon as its primary weapon, shifting from the autocannon focus of the original to an energy direct-fire system that eliminates the ammunition dependency that constrained the older design. A Guided Technologies 2nd Generation Streak SRM 4 launcher provides a reliable close-range secondary option, with its Streak guidance system conserving ammunition by refusing to fire without a confirmed lock.</p><p>The Omni 175 Fusion powerplant improves both reliability and endurance compared to the original ICE unit, removing fuel logistics as a tactical constraint. ProtecTech 19 Heavy Ferro-Fibrous armor provides substantially better protection than the original design, though the Mk II remains a 35-ton platform and cannot absorb punishment from heavy weapons indefinitely. At 108 kph cruise speed, the Mk II is slightly slower than its predecessor, a trade-off accepted to accommodate the heavier armor and fusion powerplant. The upgraded Scarborough Talky 2 and Tracky 2 electronics suite improves communications integration and targeting performance over the earlier Talky-2 and Assault-1 systems.</p>
 </capabilities>
+
+<overview>
+<p>The Saladin Mk II Heavy Combat Vehicle emerged from the Draconis Combine's campaign to reclaim worlds of the Dieron Military District in the early thirty-second century. Recognizing that the original Saladin's light armor and internal combustion powerplant were no longer competitive against modern opposition, Scarborough Manufacturers undertook a comprehensive redesign rather than another incremental field modification. The Mk II replaced the internal combustion engine with a fusion powerplant and fitted substantially heavier armor while retaining the hover platform's speed and low profile.</p><p>Production was established at both the traditional Al Na'ir facility and a new line on Algedi, reflecting the DCMS's commitment to fielding the redesigned platform in meaningful numbers. The Saladin Mk II restored the design's front-line relevance and gave Combine armored forces a fast-strike asset capable of surviving long enough to deliver its punch against contemporary opposition.</p>
+</overview>
 
 <deployment>
 <p>The BC3 variant integrates a boosted C³ computer system, linking the vehicle into networked lance formations and allowing the crew to share targeting data across BC3-equipped units. Produced at both Al Na'ir and Algedi, this configuration is assigned to advanced reconnaissance and fire-direction lances operating the Combine's C³ doctrine at tactical level.</p>
@@ -155,4 +137,16 @@ ARMOR:19
 COMMUNICATIONS:Talky 2
 TARGETING:Tracky 2
 </systemModels>
+
+<source>
+TR:3145:DC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

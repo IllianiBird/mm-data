@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a427-7f1b-9b36-93713ac809f7
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Nephilim Assault Battle Armor
 <year>
 3071
 </year>
-
-<originalBuildYear>
-3071
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -97,42 +97,14 @@ IS BA Mimetic:LA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-16
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
 
 <capabilities>
 <p>Dubbed the "Seeker," this configuration transforms the Nephilim into a dedicated hunter-killer platform. A machine gun in the right modular mount provides anti-infantry capability, while an SRM-3 launcher with two reloads delivers sustained anti-armor fire over multiple engagements. Improved sensors and a searchlight mounted in a drum over the left shoulder enhance target detection and tracking in all conditions. The 850 kilograms of mimetic armor and enhanced ground speed are retained. The combination of enhanced sensors and sensor-defeating armor creates a trooper who can detect enemies while remaining difficult to detect in return. The Seeker is optimized for tracking and eliminating specific high-value targets rather than general combat, making it a preferred configuration for the Domini's more surgically minded operatives.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>Seeker Nephilim troopers deployed in six-trooper Level I formations as dedicated hunter-killer teams. Their improved sensors and mimetic armor created operators who could detect enemies while remaining nearly invisible, an advantage the Manei Domini exploited ruthlessly. These Level Is were typically assigned high-value targets: enemy command vehicles, scout lances, and forward observation posts that needed to be eliminated quickly and quietly.</p>
@@ -165,4 +137,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+16
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

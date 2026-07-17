@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e41e-705b-87c8-1216a0c5297b
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ LRM Carrier
 <year>
 3055
 </year>
-
-<originalBuildYear>
-3055
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -107,37 +107,13 @@ ISArtemisIV
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I,RSFP:Battlefield
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The LRM Carrier is a sixty-ton tracked combat vehicle designed to deliver massed long-range missile fire at minimal cost. Developed by the Quikscell Company as a modernized successor to primitive Age of War designs dating back to the 2440s, the current production model entered service around 2470 and has remained in continuous use ever since. Manufactured by nearly every major military supplier across the Inner Sphere, the LRM Carrier fills the role of cheap, expendable indirect fire support in armies that cannot afford dedicated artillery assets. Its reputation as a disposable weapons platform belies its effectiveness when properly employed in massed formations, where concentrated volleys of missiles can devastate even heavily armored targets.</p>
-</overview>
-
 <capabilities>
 <p>The 3055 upgrade significantly enhanced the LRM Carrier's combat effectiveness at the cost of mobility. The InterComBust 180 engine was replaced with a smaller 120-rated model, reducing top speed to just thirty-two kilometers per hour. This freed sufficient tonnage for Lexington Ltd. High Grade ferro-fibrous armor, nearly doubling the vehicle's protection, and Artemis IV fire control systems linked to each of the three FarFire LRM-20 launchers. The improved tracking dramatically increased missile accuracy against maneuvering targets.</p><p>A C3 slave unit enables networked targeting data from friendly units, compensating for the carrier's reduced ability to reposition. Ammunition capacity increased to twelve tons, providing extended fire endurance. The slower speed was considered acceptable for a vehicle designed to remain in a fixed firing position, and the combination of improved accuracy and survivability made the upgrade popular across multiple militaries.</p>
 </capabilities>
+
+<overview>
+<p>The LRM Carrier is a sixty-ton tracked combat vehicle designed to deliver massed long-range missile fire at minimal cost. Developed by the Quikscell Company as a modernized successor to primitive Age of War designs dating back to the 2440s, the current production model entered service around 2470 and has remained in continuous use ever since. Manufactured by nearly every major military supplier across the Inner Sphere, the LRM Carrier fills the role of cheap, expendable indirect fire support in armies that cannot afford dedicated artillery assets. Its reputation as a disposable weapons platform belies its effectiveness when properly employed in massed formations, where concentrated volleys of missiles can devastate even heavily armored targets.</p>
+</overview>
 
 <deployment>
 <p>The upgraded LRM Carrier entered service with Federated Commonwealth regimental combat teams beginning in 3055. When the Free Worlds League conquered Oliver during Operation Guerrero, sales opened to the rest of the Inner Sphere, and the upgraded carriers spread to most major vehicle regiments including Periphery forces. Oliver and Richvale served as the primary production sites for the upgrade package.</p>
@@ -168,4 +144,20 @@ ARMOR:High Grade
 COMMUNICATIONS:with C3 Link
 TARGETING:with IndirecTrack and Artemis FCS
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I,RSFP:Battlefield
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

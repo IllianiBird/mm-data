@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb96-7662-a5ed-bfd1a33b7fac
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Fulmar Patrol Craft
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -119,30 +119,13 @@ ISVehicularMineDispenser
 4
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-70.0
-</tonnage>
-
-<fuel>
-7.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Fulmar Patrol Craft is a seventy-ton military derivative of the Cormorant, introduced by Michaelson Aircraft in 3056 to meet growing demand for dedicated maritime patrol and convoy escort capability in the Federated Suns. Outwardly similar to its commercial parent, the Fulmar incorporates advanced composite materials that simultaneously improve armor protection and increase top speed, making it noticeably faster and more durable than the cargo craft it was designed to protect. Where the Cormorant prioritizes cargo volume and economy, the Fulmar trades payload space for military systems suited to anti-piracy operations, coastal patrol, and the paramilitary transport of infantry forces. Its introduction coincided with an escalating piracy crisis on Ulysses that would ultimately define the design's early operational reputation.</p>
-</overview>
-
 <capabilities>
 <p>The Fulmar's advanced composite construction yields armor rated at BAR 8, a significant improvement over the Cormorant's commercial-grade protection, while reducing hull weight enough to accommodate a more powerful drive configuration that raises cruise and flank speeds substantially. This combination of better protection and higher speed makes the Fulmar considerably more capable as an escort and patrol platform than any modified Cormorant hull could achieve.</p><p>Armament centers on a pair of light machine guns in wing-mounted positions, supplemented by an Advanced Fire Control system that improves accuracy against the small, fast targets typical of piracy operations. Four mine dispensers mounted to the rear provide area-denial capability useful for blocking coastal approaches and discouraging pursuit by surface vessels. The reduced cargo bay retains sufficient capacity to transport a full company of marines with their equipment, giving the Fulmar practical utility as a paramilitary transport in addition to its patrol role.</p><p>The ICE powerplant keeps operating costs manageable for sustained patrol duty. The Fulmar's primary limitation is firepower: the light machine guns and mine dispensers are effective against unarmored or lightly armored smuggler craft but provide limited capability against opponents with meaningful armor protection. The design performs best as a deterrent and pursuit platform against civilian-grade threats rather than a combat vessel expected to engage organized military opposition directly.</p>
 </capabilities>
+
+<overview>
+<p>The Fulmar Patrol Craft is a seventy-ton military derivative of the Cormorant, introduced by Michaelson Aircraft in 3056 to meet growing demand for dedicated maritime patrol and convoy escort capability in the Federated Suns. Outwardly similar to its commercial parent, the Fulmar incorporates advanced composite materials that simultaneously improve armor protection and increase top speed, making it noticeably faster and more durable than the cargo craft it was designed to protect. Where the Cormorant prioritizes cargo volume and economy, the Fulmar trades payload space for military systems suited to anti-piracy operations, coastal patrol, and the paramilitary transport of infantry forces. Its introduction coincided with an escalating piracy crisis on Ulysses that would ultimately define the design's early operational reputation.</p>
+</overview>
 
 <deployment>
 <p>The initial Fulmar configuration entered service with the Ulysses Navy in 3056, replacing improvised armed Cormorants in convoy escort duties along the planet's major shipping lanes. The standard machine gun armament proved adequate against lightly armed pirate craft in most engagements, though crews identified limited accuracy against fast-moving targets as a meaningful constraint. The Original configuration remained in production only until the updated variant superseded it, and most units were subsequently upgraded or replaced rather than retained in their initial form. Small numbers served in patrol roles on other ocean-dominated worlds in the Federated Suns during the transition period.</p>
@@ -177,4 +160,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+70.0
+</tonnage>
+
+<fuel>
+7.0
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

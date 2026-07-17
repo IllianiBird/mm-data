@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad54-7411-8749-cb05532c1a62
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SL-17R
 <year>
 3042
 </year>
-
-<originalBuildYear>
-3042
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -121,26 +121,13 @@ IS Ammo LRM-20
 IS Ammo SRM-4
 </Fuselage Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RSFP:Wave 2
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The SL-17 Shilone is Wakazashi Enterprises' signature medium aerospace fighter, designed to meet the Draconis Combine's urgent need for a capable and resilient interceptor at the dawn of the Succession Wars. Built at Chatham, the Shilone quickly earned a reputation as a genuine overperformer in its weight class, fielding heavy firepower and substantial armor coverage more typical of fighters in heavier tonnage brackets. Nicknamed "The Boomerang" by its pilots for its remarkable habit of returning from even heavily contested engagements, it became a mainstay of the Draconis Combine Aerospace Force, eventually spreading through licensing agreements to the Outworlds Alliance and the Taurian Concordat. Pilots from every nation who have had occasion to fly the Shilone typically come away with a high regard for its combat reliability and well-balanced design.</p>
-</overview>
-
 <capabilities>
 <p>The Shilone carries a weapons loadout weighted toward long-range engagement. Its nose-mounted Shigunga LRM rack allows pilots to pound targets before closing to visual range, while a Diverse Optics large laser provides a heat-efficient complement to the missile barrage. Two wing-mounted medium lasers extend the fighter's effectiveness once inside effective missile range, and a rear-facing NCK short-range missile launcher discourages pursuit. The combination yields a fighter capable of effective engagement across nearly every range band, though the Shilone performs best when pilots leverage its long-range punch to wear down enemies before transitioning to close-quarters fire.</p><p>Mass tactics are common among Shilone squadrons, with entire flights coordinating concentrated missile salvos onto a single target before breaking into individual engagements. Against other aerospace fighters this approach is moderately effective, but against DropShips or orbital installations the concentrated fire can be devastating. The Shilone carries heavier armor than most fighters of comparable mass, lending it staying power that lighter designs lack. Its pilot entry hatch is unconventionally located on the belly rather than the canopy, a quirk that has not affected operational effectiveness but frequently surprises new crew. Twenty single heat sinks handle the energy load adequately, though sustained simultaneous use of the full weapon suite generates heat levels that demand pilot discipline.</p>
 </capabilities>
+
+<overview>
+<p>The SL-17 Shilone is Wakazashi Enterprises' signature medium aerospace fighter, designed to meet the Draconis Combine's urgent need for a capable and resilient interceptor at the dawn of the Succession Wars. Built at Chatham, the Shilone quickly earned a reputation as a genuine overperformer in its weight class, fielding heavy firepower and substantial armor coverage more typical of fighters in heavier tonnage brackets. Nicknamed "The Boomerang" by its pilots for its remarkable habit of returning from even heavily contested engagements, it became a mainstay of the Draconis Combine Aerospace Force, eventually spreading through licensing agreements to the Outworlds Alliance and the Taurian Concordat. Pilots from every nation who have had occasion to fly the Shilone typically come away with a high regard for its combat reliability and well-balanced design.</p>
+</overview>
 
 <deployment>
 <p>The SL-17R represents the standard upgrade path for Shilone operators, replacing the original heat dissipation system with double-strength units that substantially improve sustained fire tolerance. Chatham began producing this variant during the Clan Invasion era, and the Ramora facility added its own SL-17R line during the Jihad. The variant has largely supplanted the base SL-17 in frontline Combine service and represents the most commonly encountered Shilone configuration in the post-Invasion period. Taurian Concordat forces have not adopted the SL-17R and continue to rely on the base model supplied through Pinard.</p>
@@ -173,4 +160,16 @@ ARMOR:Naketsu AeroWeave Standard
 COMMUNICATIONS:Duoteck 100
 TARGETING:RCA Instatrac Mark XI
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RSFP:Wave 2
+</published>
+
+<tonnage>
+65.0
+</tonnage>
 

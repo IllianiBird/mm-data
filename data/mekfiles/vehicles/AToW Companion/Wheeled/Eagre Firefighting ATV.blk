@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8dd-766f-9b54-3ee51394b3f1
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Eagre Firefighting ATV
 <year>
 2469
 </year>
-
-<originalBuildYear>
-2469
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -115,20 +115,6 @@ Tank Sprayer
 3
 </engine_tech_rating>
 
-
-<source>
-AToW Companion
-</source>
-
-<tonnage>
-0.84
-</tonnage>
-
-<fuel>
-0.032
-</fuel>
-
-# Fluff Date: 2026-03-12 17:26:07
 <overview>
 <p>The Eagre is truly an all-purpose vehicle. Nominally developed as a fire engine employed by specialized infantry in the Avalon Hussars, it is also a very sturdy, general-use all-terrain vehicle. Battery-powered, it eschews volatile fuels, and is generously armored to address its potential combat support duties, making it a true boon to the support elements of FedSuns RCTs.</p>
 </overview>
@@ -156,4 +142,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+AToW Companion
+</source>
+
+<tonnage>
+0.84
+</tonnage>
+
+<fuel>
+0.032
+</fuel>
 

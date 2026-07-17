@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec03-74ca-8b9f-8ead0deb5751
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Danai Support Vehicle
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -108,26 +108,13 @@ ISMagshotGR
 ISMagshotGR
 </Turret Equipment>
 
-<source>
-XTR:Periphery
-</source>
-
-<published>
-XTR:Periphery
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Danai Arrow is an experimental prototype refit developed by Detroit Consolidated Vehicle Works beginning in 3075 under the direction of R&D manager Sagira Tabatabai. The project began as a salvage effort following the Word of Blake raid on Detroit, which left a large number of factory-fresh Danais heavily damaged before they could enter service. What started as a program to recover functional vehicles from the wreckage evolved into a systematic prototype design effort. Substituting an Arrow IV artillery system for the Danai's standard Thumper and replacing the turret lasers with Magshot Gauss rifles, the Arrow configuration trades operational support range for the more flexible deployment options enabled by the Arrow IV's specialized munitions. A subsequent upgrade phase added vehicular stealth armor, introducing integration complications that have so far prevented the design from advancing beyond experimental status.</p>
-</overview>
-
 <capabilities>
 <p>The Arrow replaces the standard Danai's Bithinian Ballistics Thumper with an Arrow IV artillery launcher mounted in the forward hull position, reducing operational support range in exchange for access to the broader munitions library available for the Arrow IV system, including homing rounds compatible with ground-based target designators. Four Magshot Gauss rifles in the turret replace the Firmir extended-range lasers, providing reliable kinetic fire against conventional and armored infantry targets. A Guardian ECM suite, added during the second prototype phase, occupies body space and required installation of a smaller DAV 160-rated fusion engine to manage the vehicle's weight and internal volume requirements, reducing flank speed by more than twenty kilometers per hour compared to the standard Danai.</p><p>Seven tons of vehicular stealth armor, adapted from Hellespont Stealth plate originally developed for BattleMech applications, provides a half-ton more protection than the standard Danai configuration while reducing the vehicle's electromagnetic signature. The integration of this armor and the Guardian with the inherited Magestrix Gamma targeting system has proved problematic: the targeting suite lacks hardening against the Guardian's ECM field, generating faulty fire control data, intermittently failing to relay launch commands to the Arrow IV, and occasionally shutting down entirely. DCVW has restricted the Arrow's deployment to dire circumstances only until a solution is found.</p>
 </capabilities>
+
+<overview>
+<p>The Danai Arrow is an experimental prototype refit developed by Detroit Consolidated Vehicle Works beginning in 3075 under the direction of R&D manager Sagira Tabatabai. The project began as a salvage effort following the Word of Blake raid on Detroit, which left a large number of factory-fresh Danais heavily damaged before they could enter service. What started as a program to recover functional vehicles from the wreckage evolved into a systematic prototype design effort. Substituting an Arrow IV artillery system for the Danai's standard Thumper and replacing the turret lasers with Magshot Gauss rifles, the Arrow configuration trades operational support range for the more flexible deployment options enabled by the Arrow IV's specialized munitions. A subsequent upgrade phase added vehicular stealth armor, introducing integration complications that have so far prevented the design from advancing beyond experimental status.</p>
+</overview>
 
 <deployment>
 <p>No Danai Arrows have entered general service. Only four prototypes were constructed during the initial Arrow IV phase, and three surviving units were subsequently converted to the stealth armor configuration. These three vehicles remain at Detroit Consolidated Vehicle Works under restricted evaluation status, authorized for combat deployment only in extreme circumstances due to the unresolved targeting system incompatibility with the Guardian ECM suite. Interested parties may contact DCVW account managers regarding program investment, with a minimum threshold of five million C-Bills. Whether the Arrow progresses to limited production depends entirely on whether funding and a technical solution arrive before the prototypes are scrapped.</p>
@@ -162,4 +149,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Magestrix Alpha
 TARGETING:Magestrix Gamma
 </systemModels>
+
+<source>
+XTR:Periphery
+</source>
+
+<published>
+XTR:Periphery
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

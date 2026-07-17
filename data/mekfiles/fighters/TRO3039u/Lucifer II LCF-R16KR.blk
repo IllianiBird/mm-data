@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad24-7138-9bc7-7d0191d14afd
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ LCF-R16KR
 <year>
 3051
 </year>
-
-<originalBuildYear>
-3051
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -125,33 +125,13 @@ IS Ammo SRM-6
 IS Ammo SRM-6
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Lucifer II emerged from the Draconis Combine's acquisition of damaged and salvaged Lucifer airframes during the mid-Succession Wars. Wakazashi Enterprises on Chatham undertook reverse-engineering from a combination of incomplete R15 and R20 examples and fragmentary technical documentation, producing a design distinct enough in construction methodology to earn independent cataloging despite sharing its ancestor's general configuration and anti-DropShip mission orientation. The Lucifer II diverges substantially from the Lyran original in powerplant selection and close-range weapons fit, reflecting the different material stocks available to Combine manufacturers and the Draconis Combine Aerospace Forces' tactical preferences. Introduced as the LCF-R16K, the design established an independent production lineage at Chatham that outlasted the original Lyran production base, ultimately becoming the longest-surviving continuous Lucifer-designation manufacturing line after the Jihad's destruction of the Donegal facility.</p>
-</overview>
-
 <capabilities>
 <p>The Lucifer II's most significant departure from its Lyran ancestor is its powerplant. The Manatwist 260 engine provides improved thrust over the original's WAS 195 installation, delivering a more responsive fighter at the cost of reduced overall protection and the elimination of the LRM rack. An SRM-6 in the nose compensates in part for the lost long-range capability, shifting the engagement profile toward shorter distances where the laser battery operates at maximum effectiveness. The overall result is a fighter more aggressive in tactical posture than the conservative Lyran original, better suited to the Combine doctrine of pressing advantage in close combat.</p><p>The LCF-R16KR is a generation-step upgrade. Ferro-aluminum armor restores much of the protection sacrificed in the original conversion, while a 260-rated XL engine provides equivalent thrust without the mass penalty of the conventional installation. ER large lasers, medium pulse lasers throughout the secondary battery, and a second SRM-6 give the R16KR substantially greater damage potential across its engagement envelope. Both variants retain the sensitivity of the original Lockheed/CBM communications and targeting electronics, a persistent shortcoming that Wakazashi's engineers were unable to fully resolve despite other improvements to the platform.</p>
 </capabilities>
+
+<overview>
+<p>The Lucifer II emerged from the Draconis Combine's acquisition of damaged and salvaged Lucifer airframes during the mid-Succession Wars. Wakazashi Enterprises on Chatham undertook reverse-engineering from a combination of incomplete R15 and R20 examples and fragmentary technical documentation, producing a design distinct enough in construction methodology to earn independent cataloging despite sharing its ancestor's general configuration and anti-DropShip mission orientation. The Lucifer II diverges substantially from the Lyran original in powerplant selection and close-range weapons fit, reflecting the different material stocks available to Combine manufacturers and the Draconis Combine Aerospace Forces' tactical preferences. Introduced as the LCF-R16K, the design established an independent production lineage at Chatham that outlasted the original Lyran production base, ultimately becoming the longest-surviving continuous Lucifer-designation manufacturing line after the Jihad's destruction of the Donegal facility.</p>
+</overview>
 
 <deployment>
 <p>Distributed to frontline DCMS aerospace regiments from the Clan Invasion era onward, eventually becoming the standard Lucifer-designation fighter in Combine service as older R16K airframes aged out of frontline use. Continued production at Chatham through the Jihad and Dark Age meant the R16KR remained available in adequate numbers throughout the Republic period, making it among the more readily available upgraded medium fighters in DCMS inventory well into the ilClan era.</p>
@@ -186,4 +166,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+65.0
+</tonnage>
 

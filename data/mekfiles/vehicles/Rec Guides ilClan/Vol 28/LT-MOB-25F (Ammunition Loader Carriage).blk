@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9ba-7d70-9dfb-e3ae92a6bc1b
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ LT-MOB-25F (Ammunition Loader Carriage)
 <year>
 2695
 </year>
-
-<originalBuildYear>
-2695
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -100,41 +100,13 @@ Lift Hoist/Arresting Hoist
 Hitch
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG28
-</source>
-
-<published>
-RG28
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-<hasNoControlSystems>
-1
-</hasNoControlSystems>
-
-<trailer>
-1
-</trailer>
-
-# Fluff Date: 2026-03-09 16:42:39
-<overview>
-<p>The Mobile Long Tom stands among the most feared indirect-fire weapons in the Inner Sphere, a rolling siege battery capable of reducing fortifications and destroying armored formations from distances that place its crews entirely beyond the reach of retaliation. Built by Rebel Industrial Technologies, Inc. of Mars and introduced in 2602, the design was conceived for the Star League Defense Force as a mobile decisive fire-support option capable of breaking any fixed defense without exposing assault troops to unnecessary risk.</p><p>Taking the form of a convoy of up to six tracked vehicles centered on an Armstrong Industries Long Tom Rifle Mobile Chassis System, the Mobile Long Tom converts a weapon of immense destructive power into a self-sufficient mobile battery that can relocate after firing to deny counterbattery response. When the Star League collapsed and these systems passed to Successor States forces, their fearsome reputation only grew during the brutal wars that followed. Few weapons have so consistently shaped the calculus of defensive warfare across three centuries of Inner Sphere conflict.</p>
-</overview>
-
 <capabilities>
 <p>The Mobile Long Tom achieves its destructive power through extreme range and raw hitting power rather than any pretension toward survivability. The convoy's centerpiece is the Armstrong Industries Long Tom Rifle Mobile Chassis System, an artillery piece with a reach measured in kilometers that is equally suited to destroying fixed fortifications, disrupting massed formations, and systematically demolishing urban terrain. Four SperryBrowning machine guns provide minimal close-range defense against infantry but offer no meaningful protection against combat vehicles or BattleMechs. The crew depends entirely on supporting arms for anti-aircraft and anti-armor coverage.</p><p>Power comes at a significant cost in mobility. The Robel 110 ICE engine provides road movement capability but precludes cross-country travel when the full convoy is assembled, and the ICE power plant demands constant refueling. Three ammunition carriages carry approximately seventy-five rounds in total, enough for just over four minutes of continuous fire before the battery must reposition to await resupply. StarSlab/1 armor protects the crew from small arms and artillery fragments but cannot withstand dedicated anti-vehicle fire. A single pass by a hostile aerospace fighter or an unsupported flanking BattleMech can destroy the entire system. The Mobile Long Tom's survivability depends entirely on concealment, distance, and the vigilance of its escorts.</p>
 </capabilities>
+
+<overview>
+<p>The Mobile Long Tom stands among the most feared indirect-fire weapons in the Inner Sphere, a rolling siege battery capable of reducing fortifications and destroying armored formations from distances that place its crews entirely beyond the reach of retaliation. Built by Rebel Industrial Technologies, Inc. of Mars and introduced in 2602, the design was conceived for the Star League Defense Force as a mobile decisive fire-support option capable of breaking any fixed defense without exposing assault troops to unnecessary risk.</p><p>Taking the form of a convoy of up to six tracked vehicles centered on an Armstrong Industries Long Tom Rifle Mobile Chassis System, the Mobile Long Tom converts a weapon of immense destructive power into a self-sufficient mobile battery that can relocate after firing to deny counterbattery response. When the Star League collapsed and these systems passed to Successor States forces, their fearsome reputation only grew during the brutal wars that followed. Few weapons have so consistently shaped the calculus of defensive warfare across three centuries of Inner Sphere conflict.</p>
+</overview>
 
 <deployment>
 <p>A specialized variant of the LT-MOB-25F ammunition carriage incorporating mechanical loading assistance to improve rate of fire and reduce crew fatigue during sustained bombardment missions. The loader carriage allows the gun carriage to maintain a higher tempo of fire for longer periods than manual loading alone permits. Artillery commanders deploying the LT-MOB-25F frequently prioritize including at least one loader carriage when planning for engagements requiring sustained suppression of fortified positions or massed formations.</p>
@@ -167,4 +139,24 @@ ARMOR:StarSlab/1 Ferro-Fibrous
 COMMUNICATIONS:ROMTECH 100
 TARGETING:O/P 10-40 LTR
 </systemModels>
+
+<source>
+RG28
+</source>
+
+<published>
+RG28
+</published>
+
+<tonnage>
+10.0
+</tonnage>
+
+<hasNoControlSystems>
+1
+</hasNoControlSystems>
+
+<trailer>
+1
+</trailer>
 

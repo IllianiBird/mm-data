@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb9f-7b84-a031-8f75c5f879ea
+</UUID>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Ryu Heavy Transport
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -132,26 +132,13 @@ Autocannon/5
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-240.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-08 20:16:39
-<overview>
-<p>The Ryu Heavy Transport is an armed variant of the Koi, developed by Wakazashi Enterprises in response to demand from planetary militia commands seeking a heavy WiGE with meaningful self-defense capability. Introduced in 3064, the Ryu retains the Koi's amphibious chassis and fusion powerplant while adding a weapons turret and lateral machine gun mounts to protect the vehicle during the vulnerable loading and unloading phases of transport operations.</p><p>The Ryu fills a recognized gap between unarmed civilian transports and purpose-built assault WiGEs, serving forces that need both significant payload and the ability to engage light ground threats without relying entirely on escorts. Cargo capacity is reduced to one hundred eight tons to compensate for the added crew stations, armament, and ammunition storage.</p>
-</overview>
-
 <capabilities>
 <p>The Ryu mounts an AC/5 in a dorsal turret as its primary weapon, supported by four machine guns covering the forward arc and both flanks. This battery is not designed for sustained combat against armored opponents, but provides deterrent firepower sufficient to suppress light infantry and engage lightly armored vehicles at close range. A basic fire control system supports the gunners against stationary or slow-moving targets.</p><p>The amphibious chassis modification from the Koi carries forward intact, allowing bay doors to open while afloat without flooding. Cargo capacity is reduced but the Ryu remains one of the highest-payload armed WiGEs available to planetary militia forces. Its combination of lift capacity and defensive armament is its primary selling point.</p><p>The Ryu's limitations mirror those of the Koi, with additional concerns. The armament is inadequate against aerospace fighters or well-armed aircraft, the vehicle's profile makes it a priority target, and the added crew requirement stretches manpower budgets. The machine guns provide only marginal close-in defense against infantry boarding actions. Commanders relying on Ryu transports must still plan for dedicated air cover during transit and landing operations, or accept the risk that comes with a slow, visible target.</p>
 </capabilities>
+
+<overview>
+<p>The Ryu Heavy Transport is an armed variant of the Koi, developed by Wakazashi Enterprises in response to demand from planetary militia commands seeking a heavy WiGE with meaningful self-defense capability. Introduced in 3064, the Ryu retains the Koi's amphibious chassis and fusion powerplant while adding a weapons turret and lateral machine gun mounts to protect the vehicle during the vulnerable loading and unloading phases of transport operations.</p><p>The Ryu fills a recognized gap between unarmed civilian transports and purpose-built assault WiGEs, serving forces that need both significant payload and the ability to engage light ground threats without relying entirely on escorts. Cargo capacity is reduced to one hundred eight tons to compensate for the added crew stations, armament, and ammunition storage.</p>
+</overview>
 
 <deployment>
 <p>The Ryu Heavy Transport serves primarily with Draconis Combine planetary militia and garrison forces on worlds where DropShip transport is unavailable or prohibitively expensive. Its combination of cargo capacity and light armament suits it to moving troops and equipment through territory where hostile light forces may be present. Export units serve militia and paramilitary forces across the Inner Sphere in similar roles. The Ryu is frequently deployed alongside Koi transports, providing escort coverage and suppressive fire for unarmed cargo lifts.</p>
@@ -184,4 +171,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+240.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

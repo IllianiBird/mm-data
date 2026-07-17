@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e45f-7b0a-8e78-7886c859b7b7
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Pilum Heavy Tank
 <year>
 3057
 </year>
-
-<originalBuildYear>
-3057
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -110,26 +110,13 @@ ISStreakSRM2
 ISStreakSRM2
 </Turret Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Pilum Heavy Tank is a product of Valiant Vehicles, the joint subsidiary of Wunderland Enterprises and Valiant Systems based on Johnsondale. Designed in the mid-3050s as a dedicated fire support platform for the Armed Forces of the Federated Commonwealth, the Pilum scales the missile-centric philosophy of the company's successful Striker light tank up to the heavy weight class. Valiant Vehicles emphasized long-range firepower and battlefield agility over raw armor mass, a trade-off that generated controversy at introduction but found broad acceptance in combined-arms formations. First fielded in 3057, the vehicle quickly established itself among AFFC heavy armor units that valued sustained missile output and the ability to reposition quickly under fire.</p>
-</overview>
-
 <capabilities>
 <p>The Pilum's primary armament is a pair of Valiant Arbalest LRM-15 racks, mounted in the turret and integrated with an Artemis IV fire control system. The Artemis link tightens missile groupings at long range, improving hit probability against both armored vehicles and BattleMechs. Three tons of LRM ammunition supports extended engagements. For close-in defense, two Valiant Javelin Streak SRM-2 launchers are housed in the turret alongside the LRM racks, sharing a single ton of ammunition. Two Valiant Ruby Dart medium pulse lasers occupy fixed forward mounts for direct engagement of light infantry and unarmored vehicles.</p><p>The vehicle rides on a wheeled chassis powered by an InterFus 260 fusion engine, giving it a flank speed of 64 kph, genuinely competitive for a 70-ton design. Valiant Scutum ferro-fibrous armor provides better mass efficiency than standard plate, but the ten tons allocated leave the Pilum noticeably thin-skinned for its weight class. Opponents who can force a close engagement or concentrate fire on the hull will find the Pilum more vulnerable than its size suggests. The vehicle performs best in open terrain where its speed and long-range output can be exploited, and it suffers in confined urban or forested environments where its wheeled suspension limits cross-country movement.</p>
 </capabilities>
+
+<overview>
+<p>The Pilum Heavy Tank is a product of Valiant Vehicles, the joint subsidiary of Wunderland Enterprises and Valiant Systems based on Johnsondale. Designed in the mid-3050s as a dedicated fire support platform for the Armed Forces of the Federated Commonwealth, the Pilum scales the missile-centric philosophy of the company's successful Striker light tank up to the heavy weight class. Valiant Vehicles emphasized long-range firepower and battlefield agility over raw armor mass, a trade-off that generated controversy at introduction but found broad acceptance in combined-arms formations. First fielded in 3057, the vehicle quickly established itself among AFFC heavy armor units that valued sustained missile output and the ability to reposition quickly under fire.</p>
+</overview>
 
 <deployment>
 <p>The standard Pilum fills a fire support role in combined-arms lances and companies across the Federated Suns. Its LRM-15/Artemis IV suite is most effective in open terrain at ranges exceeding 270 meters, and it is typically held at distance under escort from faster screening elements. The vehicle's flank speed allows it to reposition between fire positions quickly, a capability that experienced commanders exploit to maintain unpredictability. Urban assignments are less suitable, as the wheeled chassis limits maneuvering in rubble and the thin armor becomes a serious liability at short range. The standard configuration is found throughout the AFFS from the Clan Invasion era onward, with particular concentration in heavy armor regiments and combined-arms battalions.</p>
@@ -162,4 +149,16 @@ ARMOR:Valiant Scutum Ferro-Fibrous
 COMMUNICATIONS:Wunderland XXV-2
 TARGETING:Wunderland XXV-2 with Artemis FCS
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

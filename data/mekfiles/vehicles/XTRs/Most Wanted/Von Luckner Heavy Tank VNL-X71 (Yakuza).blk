@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec01-7770-8ef4-116ddc090f19
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ VNL-X71 (Yakuza)
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -112,33 +112,13 @@ ISMediumPulseLaser
 ISArtemisIV
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-XTR:Most Wanted
-</source>
-
-<published>
-XTR:Most Wanted
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>HartfordCo Industries of Bryant first introduced the Von Luckner Heavy Tank in 2612, following the conclusion of the Reunification War, as the armored equivalent of a BattleMech without legs. Named in honor of Count Felix von Luckner, a celebrated Terran naval raider of the twentieth century, the design represented an ambitious commitment to fusion power at a time when most military vehicles relied on conventional propulsion. This decision gave the tank virtually unlimited operational range, freeing it from the fuel logistics that constrained conventional armored formations.</p><p>Combining the raw firepower of a heavy BattleMech with the durability of a dedicated armored platform, the Von Luckner was built for close-range engagements and sustained defensive operations across both the Terran Hegemony's core worlds and the newly annexed Periphery territories. Despite the loss of its original factories and five centuries of conflict, the design has proven remarkably resilient, with new variants continuing to emerge well into the ilClan era.</p>
-</overview>
-
 <capabilities>
 <p>The heart of the Von Luckner is its VOX 225 fusion engine, which provides virtually unlimited operational range and frees the tank from the fuel dependencies that limit conventional armored vehicles. The primary weapon is an Armstrong Autocannon/20 mounted in a full-rotation turret, capable of stripping more than a ton of armor from a BattleMech in a single salvo. Twin Holly SRM-6 launchers and a Dannel SRM-4 complement the main gun for devastating close-range fire, while a hull-mounted Holly LRM-10 at the tank's rear provides long-range and indirect fire support. That rear placement was a deliberate design choice, intended to suppress pursuing forces while the Von Luckner covers friendly withdrawals.</p><p>Anti-infantry capability comes from a Ramsey Machine Gun mounted on the turret's front face and a Firestorm Flamer in the vehicle's forward section. The Ramsey has a well-documented tendency to jam under sustained fire, making the Firestorm a reliable fallback in close engagements. StarSlab/4 armor provides protection approaching that of heavy BattleMechs.</p><p>The Von Luckner's critical weakness is its heavy ammunition dependency. Expending its autocannon shells and missile loads reduces the tank to its flamer and machine gun alone. Internal ammunition storage is also vulnerable to catastrophic secondary detonation following a hull breach, making the design particularly dangerous to its own crew in a losing engagement. Command crews must balance the vehicle's overwhelming offensive output against these logistical and survivability concerns.</p>
 </capabilities>
+
+<overview>
+<p>HartfordCo Industries of Bryant first introduced the Von Luckner Heavy Tank in 2612, following the conclusion of the Reunification War, as the armored equivalent of a BattleMech without legs. Named in honor of Count Felix von Luckner, a celebrated Terran naval raider of the twentieth century, the design represented an ambitious commitment to fusion power at a time when most military vehicles relied on conventional propulsion. This decision gave the tank virtually unlimited operational range, freeing it from the fuel logistics that constrained conventional armored formations.</p><p>Combining the raw firepower of a heavy BattleMech with the durability of a dedicated armored platform, the Von Luckner was built for close-range engagements and sustained defensive operations across both the Terran Hegemony's core worlds and the newly annexed Periphery territories. Despite the loss of its original factories and five centuries of conflict, the design has proven remarkably resilient, with new variants continuing to emerge well into the ilClan era.</p>
+</overview>
 
 <deployment>
 <p>This experimental refit, adapted from captured or clandestinely obtained VNL-K70 hulls, first appeared in Republic space around 3076 in the hands of yakuza syndicates operating across Prefectures I through III. An LB 20-X Autocannon, Medium Pulse Laser, and SRM-4 with Artemis IV FCS fill the turret, while approximately thirty tons of hardened armor make the vehicle exceptionally difficult to destroy. A modified communications system reportedly defeats most electronic countermeasures. The variant was observed deployed against Blakist forces during the Jihad as well as against Republic security services. Whether produced at a hidden facility or supplied covertly by the Draconis Combine remains unconfirmed, and the VNL-X71 carries Design Quirks reflecting its Improved Communications and unconventional maintenance requirements.</p>
@@ -171,4 +151,16 @@ ARMOR:(Hardened)
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Most Wanted
+</source>
+
+<published>
+XTR:Most Wanted
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

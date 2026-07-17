@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4fb-77f7-af9a-08d97ea37802
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Heavy Hover APC
 <year>
 2470
 </year>
-
-<originalBuildYear>
-2470
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -106,30 +106,13 @@ Machine Gun
 Machine Gun
 </Rear Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The machine gun variant of the Heavy Hover APC replaces half the infantry carrying capacity with additional machine guns positioned to provide all-around anti-infantry coverage. Carrying three tons of infantry -- one platoon -- the vehicle mounts two front-facing machine guns, one on each flank, and two rear-facing machine guns, ensuring no approach is undefended. A full ton and a half of ammunition sustains the six-gun battery through extended engagements.</p><p>This configuration excels as an escort vehicle in convoy operations, where its all-around machine gun coverage can suppress ambush forces from any direction while still delivering a platoon of infantry to reinforce threatened positions. The same fifty-six points of armor and approximately one hundred thirty kilometers per hour maximum speed as the base model ensure the MG variant can keep pace with the formation it protects.</p>
 </capabilities>
+
+<overview>
+<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The MG variant serves primarily as a convoy escort and perimeter security vehicle, where its all-around machine gun coverage protects slower vehicles and deployed infantry positions. The hover chassis's speed allows it to rapidly respond to threats along the length of a convoy column, making it particularly valuable in hostile territory where ambushes are expected.</p>
@@ -160,4 +143,20 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

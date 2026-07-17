@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7b9-7f3e-a5f7-743dcae315d4
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Sniper Artillery
 <year>
 3094
 </year>
-
-<originalBuildYear>
-3094
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -119,26 +119,13 @@ Machine Gun
 Machine Gun
 </Turret Equipment>
 
-<source>
-TR:3145:FS,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Sniper Artillery is a tracked heavy combat vehicle developed by Quikscell Company to provide armies with a self-contained, mobile platform for Sniper-class artillery support. Introduced in 3094, the design was commissioned to address the Federated Suns' growing need for reliable indirect-fire assets that could keep pace with combined-arms formations. Quikscell built the vehicle around a proven artillery piece housed in an 80-ton tracked hull, prioritizing durability and ease of maintenance over speed.</p><p>The design proved commercially successful, and Quikscell expanded production to multiple facilities across the Inner Sphere, bringing the vehicle into Capellan Confederation, Lyran Commonwealth, and Free Worlds League service as well. The Sniper Artillery has since become a staple of second-line and garrison formations wherever affordable, reliable artillery is in demand.</p>
-</overview>
-
 <capabilities>
 <p>The Sniper Artillery's principal weapon is an Armstrong Industries Sniper artillery piece, capable of delivering high-explosive ordnance onto targets well beyond visual range when paired with a forward spotter. This single weapon forms the core of the vehicle's offensive value and is the primary reason for its widespread adoption across multiple factions. For close-in defense, the crew has access to a pair of Diverse Optics Extended Range Small Lasers and two Sperry Browning Machine Guns, providing adequate deterrence against infantry and light vehicles that might otherwise approach unchallenged.</p><p>Power comes from a GM 240 Fusion engine, giving the tracked hull a cruising speed of 32 kilometers per hour and a maximum of 54 kilometers per hour. This pace is adequate for repositioning between fire missions but leaves the vehicle vulnerable to faster units, making dedicated escort a practical necessity. Durallex Standard armor with integral CASE provides reasonable protection and contains any potential ammunition detonation, a critical consideration for a vehicle often operating near friendly troop concentrations.</p><p>The Kallon Secure Net communications suite and FireScan with IndirectTrack targeting system are well-regarded in second-line service, enabling reliable coordination with forward observers for indirect fire missions. The vehicle's capable communications equipment also makes it effective as an impromptu mobile command post when direct artillery fire is not required, a secondary role that field commanders have come to appreciate.</p>
 </capabilities>
+
+<overview>
+<p>The Sniper Artillery is a tracked heavy combat vehicle developed by Quikscell Company to provide armies with a self-contained, mobile platform for Sniper-class artillery support. Introduced in 3094, the design was commissioned to address the Federated Suns' growing need for reliable indirect-fire assets that could keep pace with combined-arms formations. Quikscell built the vehicle around a proven artillery piece housed in an 80-ton tracked hull, prioritizing durability and ease of maintenance over speed.</p><p>The design proved commercially successful, and Quikscell expanded production to multiple facilities across the Inner Sphere, bringing the vehicle into Capellan Confederation, Lyran Commonwealth, and Free Worlds League service as well. The Sniper Artillery has since become a staple of second-line and garrison formations wherever affordable, reliable artillery is in demand.</p>
+</overview>
 
 <deployment>
 <p>The Sniper Artillery serves primarily in platoon or company-sized artillery formations, where its indirect-fire capability supports combined-arms operations. In the Federated Suns, the vehicle is a consistent presence in second-line battalion artillery companies, deployed as a cost-effective alternative to heavier fire support assets. Small independent defense forces and mercenary units have also adopted the type widely, drawn by its affordability and the widespread availability of Sniper ammunition. When artillery fire is not required, commanders have found the vehicle's communications suite useful for establishing temporary command posts, giving battery commanders an additional role beyond simple fire support. The design operates best when provided with dedicated light vehicle or infantry escorts, as its tracked mobility and modest speed leave it poorly suited to disengaging from determined pursuit.</p>
@@ -171,4 +158,16 @@ ARMOR:Standard
 COMMUNICATIONS:Secure Net
 TARGETING:with IndirectTrack
 </systemModels>
+
+<source>
+TR:3145:FS,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

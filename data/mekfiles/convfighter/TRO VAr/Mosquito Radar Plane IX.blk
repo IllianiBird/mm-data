@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa34-728d-9341-cd59cf117529
+</UUID>
+
 <UnitType>
 FixedWingSupport
 </UnitType>
@@ -35,10 +39,6 @@ IX
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -138,28 +138,13 @@ Communications Equipment:SIZE:2.0
 4
 </engine_tech_rating>
 
-
-
-
-
-
-
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>Airborne radar has been a mainstay in ground military units since the birth of atmospheric flight in the twentieth century. With the exploration and colonization boom in subsequent centuries, new uses for military-oriented technologies became evident. High-altitude spy planes became topographical tools for new worlds, and radar planes helped colonial scientists ascertain planetary details such as magnetic field strength, fault lines, tidal patterns, and local fauna migratory patterns. Essentially, old mothballed military equipment got a second wind as research platforms for the Age of Colonization. The Mosquito series of radar aircraft, first developed by DMI, Ltd. and later perfected by the Malrite Company, became one of the most successful and enduring examples of this trend, serving continuously from the mid-twenty-fifth century to the present day.</p>
-</overview>
-
 <capabilities>
 <p>The versatility of the Mosquito was the key to its success. Using a SISO (Slide In/Slide Out) module system similar to that found in the Cortez exploration vehicle, the Mosquito could be reconfigured to fit whatever research protocols were called for by the client. Malrite made sure that at least four configuration modules were included in each sale, utilizing the large stock of electronics that the Mallus brothers had purchased from DMI. When Nathan Mallus invented a way to safely mount a compact fission engine, replacing the massive gas turbines and the troubled VTOL lift system, the freed-up space in the wings allowed for even more electronic gear and even weapon hardpoints for light military duty. Because of the advancement of electronic systems in recent decades, the old SISO modules have been replaced with newer, miniaturized components, freeing up even more space within the airframe for passengers, additional electronics, cargo storage, or weapons.</p>
 </capabilities>
+
+<overview>
+<p>Airborne radar has been a mainstay in ground military units since the birth of atmospheric flight in the twentieth century. With the exploration and colonization boom in subsequent centuries, new uses for military-oriented technologies became evident. High-altitude spy planes became topographical tools for new worlds, and radar planes helped colonial scientists ascertain planetary details such as magnetic field strength, fault lines, tidal patterns, and local fauna migratory patterns. Essentially, old mothballed military equipment got a second wind as research platforms for the Age of Colonization. The Mosquito series of radar aircraft, first developed by DMI, Ltd. and later perfected by the Malrite Company, became one of the most successful and enduring examples of this trend, serving continuously from the mid-twenty-fifth century to the present day.</p>
+</overview>
 
 <deployment>
 <p>Mosquito planes can still be found in active service on most civilized systems. Common uses around the Inner Sphere see Mosquitos serving as firefighting planes, refueling platforms, storm chasers, and even as part of planetary defense forces. The biggest reflection of the Mosquito's success can be found in one of the SLDF embassy's reports on the Clan society, where several Mosquitos were observed in use over Strana Mechty and Huntress.</p>
@@ -176,4 +161,12 @@ Malrite Company
 <primaryFactory>
 Caph
 </primaryFactory>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+75.0
+</tonnage>
 

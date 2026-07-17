@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ae5b-7e1f-ab28-2ac9e6fe0469
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ E
 <year>
 3075
 </year>
-
-<originalBuildYear>
-3075
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -135,26 +135,13 @@ Clan Heavy Machine Gun Ammo - Full:OMNI
 CLCASE
 </Fuselage Equipment>
 
-<source>
-TR:3055U
-</source>
-
-<published>
-RS:3055Uu
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>Developed by Clan Burrock in 3012, the Turk is a fifty-ton medium OmniFighter designed to serve as an attack ship rather than a dogfighter. Manufactured at Complex 19 on Albion, the design reflects Burrock's prioritization of payload and endurance over raw speed and agility, producing a craft better suited to strikes against capital vessels and ground targets than to aerial combat against opposing fighters. The Turk's combination of substantial pod space and solid protection earned it wide adoption across most Clans, though Clan Wolf, Clan Jade Falcon, and Clan Steel Viper particularly declined to field it in significant numbers. Command staffs across the adopting Clans have consistently designated the Turk to attack roles, leveraging its payload capacity to deliver concentrated firepower against high-value targets that faster but lighter designs cannot engage as effectively.</p>
-</overview>
-
 <capabilities>
 <p>The Turk's fixed chassis mounts a 250-rated XL fusion engine, providing modest thrust that limits the design's maneuverability relative to contemporary medium OmniFighters. This trade-off purchases considerable structural benefits: nine and a half tons of Pattern 14 ferro-aluminum armor deliver above-average protection for the weight class, while twelve fixed double heat sinks and five tons of fuel ensure extended operational endurance that faster designs cannot match. The resulting 24 tons of available pod space represent one of the highest payload fractions in the medium OmniFighter category, giving commanders exceptional flexibility in tailoring the Turk to specific mission profiles.</p><p>The design's primary weakness is its susceptibility to maneuvering opponents. Skilled enemy pilots can exploit the Turk's limited agility by maintaining position on one side of the craft, threatening to exhaust a single weapon bay's ammunition supply before the Turk can bring its other hardpoints to bear. Configuration planners have responded to this vulnerability in various ways, including rear-arc energy weapons that provide defense regardless of enemy positioning. In all configurations, the Turk rewards pilots who force engagements at ranges where its firepower density offsets its agility disadvantage, making it best employed in attack runs against capital ships, DropShips, and ground installations rather than in fighter-versus-fighter dogfights.</p>
 </capabilities>
+
+<overview>
+<p>Developed by Clan Burrock in 3012, the Turk is a fifty-ton medium OmniFighter designed to serve as an attack ship rather than a dogfighter. Manufactured at Complex 19 on Albion, the design reflects Burrock's prioritization of payload and endurance over raw speed and agility, producing a craft better suited to strikes against capital vessels and ground targets than to aerial combat against opposing fighters. The Turk's combination of substantial pod space and solid protection earned it wide adoption across most Clans, though Clan Wolf, Clan Jade Falcon, and Clan Steel Viper particularly declined to field it in significant numbers. Command staffs across the adopting Clans have consistently designated the Turk to attack roles, leveraging its payload capacity to deliver concentrated firepower against high-value targets that faster but lighter designs cannot engage as effectively.</p>
+</overview>
 
 <deployment>
 <p>The E configuration is apparently intended to augment WarShip anti-aerospace defense, mounting a machine gun array in each wing. Each array carries three heavy machine guns capable of engaging incoming missiles and light fighters at close range. A nose-mounted Gauss rifle provides long-range striking power against harder targets, while a plasma cannon complements it in the nose for use against conventional aerospace opponents. An ECM suite disrupts enemy targeting and guidance systems, increasing the E's survivability in high-threat environments. An extended-range small laser covers the aft arc. The configuration's specialization toward escort and point-defense missions limits its utility in offensive strike roles but makes it well-suited to screening capital vessels against fighter and missile threats.</p>
@@ -187,4 +174,16 @@ ARMOR:Pattern 14 Ferro-aluminum
 COMMUNICATIONS:HunterCom 2
 TARGETING:Mark 9 TTS
 </systemModels>
+
+<source>
+TR:3055U
+</source>
+
+<published>
+RS:3055Uu
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

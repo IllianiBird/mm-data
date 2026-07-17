@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ebe2-7d45-b348-f7f79619e0b7
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Burke II Superheavy Tank
 <year>
 2776
 </year>
-
-<originalBuildYear>
-2776
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -128,26 +128,13 @@ Autocannon/20
 Autocannon/20
 </Turret Equipment>
 
-<source>
-XTR:Gunslingers
-</source>
-
-<published>
-XTR:Gunslingers
-</published>
-
-<tonnage>
-140.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 13:33:24
-<overview>
-<p>The Burke II Superheavy Tank is a one-hundred-forty-ton experimental tracked vehicle designed by Leopard Armor on Terra during the Amaris Civil War. Amaris forces occupying Terra, impressed by the standard Burke's defensive capabilities, directed Leopard Armor to design and prototype a vehicle even more formidable than the original. The result outmassed even the Behemoth, the largest standard tank then in production. Only two prototypes were ever completed, both pressed directly into combat against SLDF forces during the recapture of Terra. The destruction of both prototypes and the production facilities in the same engagement ended any prospect of further development, leaving the Burke II as a single-incident footnote in Amaris Civil War history rather than a production design with lasting legacy.</p>
-</overview>
-
 <capabilities>
 <p>The Burke II mounts four class-20 autocannons in its main turret, delivering firepower that doubles even the most heavily armed standard combat vehicles and is capable of reducing most BattleMech chassis to wreckage through sheer volume of fire. A pair of front-mounted LRM-5 launchers provides supplemental long-range engagement capability, though in practice the autocannons' overwhelming close-range firepower made the missiles secondary to the crew's tactical priorities. The prototypes' crews reportedly fired the launchers infrequently, preferring to hold position and wait for opponents to close into autocannon range.</p><p>A 280-rated fusion engine moves the superheavy hull at modest speed for a vehicle of its class. Ferro-fibrous armor distributed across the massive frame, with the heaviest concentration in the frontal arc and turret, provides substantial protection. The Burke II's fundamental tactical limitation mirrors its greatest strength: the four autocannons demand that opponents close to effective range, but the vehicle lacks the mobility to force that engagement against a determined enemy who chooses to maintain distance. The design carried notable quirks including Distracting capability, Prototype status, and Trailer Hitch and Rumble Seat fittings.</p>
 </capabilities>
+
+<overview>
+<p>The Burke II Superheavy Tank is a one-hundred-forty-ton experimental tracked vehicle designed by Leopard Armor on Terra during the Amaris Civil War. Amaris forces occupying Terra, impressed by the standard Burke's defensive capabilities, directed Leopard Armor to design and prototype a vehicle even more formidable than the original. The result outmassed even the Behemoth, the largest standard tank then in production. Only two prototypes were ever completed, both pressed directly into combat against SLDF forces during the recapture of Terra. The destruction of both prototypes and the production facilities in the same engagement ended any prospect of further development, leaving the Burke II as a single-incident footnote in Amaris Civil War history rather than a production design with lasting legacy.</p>
+</overview>
 
 <deployment>
 <p>The Burke II existed only as two experimental prototypes and never entered organized deployment. Both vehicles were committed to a single defensive engagement near Munich during the SLDF's recapture of Terra, using terrain masking from airport infrastructure to offset their size and limited mobility. The engagement demonstrated the concept's viability as an ambush platform but ended with the destruction of both prototypes and the production facilities, foreclosing any further development or tactical evaluation. No deployment doctrine was developed for the type, and it left no successors.</p>
@@ -182,4 +169,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Gunslingers
+</source>
+
+<published>
+XTR:Gunslingers
+</published>
+
+<tonnage>
+140.0
+</tonnage>
 

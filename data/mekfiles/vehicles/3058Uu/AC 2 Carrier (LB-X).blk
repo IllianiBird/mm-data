@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e39c-73f9-aa8f-a42b16cb2929
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ AC/2 Carrier
 <year>
 3063
 </year>
-
-<originalBuildYear>
-3063
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -104,26 +104,13 @@ ISLBXAC2
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3058U,TR:3039
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The AC/2 Carrier is a sixty-ton tracked combat vehicle designed to provide long-range ballistic fire support at minimal cost. Part of the broader family of weapons carrier vehicles that originated during the Age of War, the AC/2 Carrier dates back to approximately 2520 in its primitive form, with the modernized version entering service alongside its missile carrier cousins. Built by Quikscell and numerous other manufacturers across the Inner Sphere, the vehicle fills a niche as cheap, expendable suppressive fire support, using volume of autocannon fire to compensate for the relatively modest damage output of individual Class 2 weapons.</p>
-</overview>
-
 <capabilities>
 <p>The LB-X variant stands as a substantial redesign of the AC/2 Carrier concept. A fusion engine replaced the original internal combustion powerplant, maintaining the same fifty-four kilometers per hour top speed while providing unlimited operational range. The five standard autocannons were replaced with LB-X Class 2 weapons capable of firing both solid slugs and cluster ammunition, adding an anti-aircraft capability to the vehicle's traditional fire support role.</p><p>Armor protection doubled to eighty-eight points of standard plating, distributed evenly across all facing arcs. A C3 slave computer enables networked targeting with friendly units, dramatically improving accuracy when operating as part of an integrated company. The combination of upgraded firepower, improved protection, and networked electronics makes the LB-X variant a considerably more capable platform than its predecessor.</p>
 </capabilities>
+
+<overview>
+<p>The AC/2 Carrier is a sixty-ton tracked combat vehicle designed to provide long-range ballistic fire support at minimal cost. Part of the broader family of weapons carrier vehicles that originated during the Age of War, the AC/2 Carrier dates back to approximately 2520 in its primitive form, with the modernized version entering service alongside its missile carrier cousins. Built by Quikscell and numerous other manufacturers across the Inner Sphere, the vehicle fills a niche as cheap, expendable suppressive fire support, using volume of autocannon fire to compensate for the relatively modest damage output of individual Class 2 weapons.</p>
+</overview>
 
 <deployment>
 <p>The LB-X variant entered service in 3063, just prior to the FedCom Civil War. Quikscell produced it at five of its six carrier plants, with Hadrian Mechanized Industries and Aldis Industries also tooling up for the upgraded model. The cluster ammunition capability proved particularly valuable in the anti-aircraft role, supplementing dedicated air defense assets.</p>
@@ -154,4 +141,16 @@ ARMOR:Standard
 COMMUNICATIONS:with C3 Link
 TARGETING:with IndirecTrack
 </systemModels>
+
+<source>
+TR:3058U,TR:3039
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

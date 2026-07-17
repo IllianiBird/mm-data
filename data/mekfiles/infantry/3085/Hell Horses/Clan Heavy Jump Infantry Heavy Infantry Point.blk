@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b64a-77ec-9413-5476b7e2f53c
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ Heavy Infantry Point
 609
 </mul id:>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 3015
 </year>
-
-<originalBuildYear>
-3015
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -67,6 +59,18 @@ Clan Armor Kit (All)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Elementals who lose their battle armor face a more honorable future in conventional infantry service than most solahma warriors, because their existing training transfers directly to the heaviest infantry roles available. The Heavy Infantry Points of the Ninety-first Mechanized Assault, Epsilon Galaxy, field warriors fitted with jump packs and body armor who carry Mauser IIC assault systems alongside Bearhunter autocannons. This combination gives them firepower comparable to light combat vehicles without restricting their mobility, allowing them to operate alongside Elementals and BattleMechs in combined-arms engagements. The Bearhunter autocannon is the key to this capability, boosting the Point's anti-personnel and light vehicle firepower well beyond what laser-armed infantry can achieve. This style of heavy jump infantry is popular across Clan Hell's Horses and is limited only by the number of dispossessed Elementals available to fill the ranks.</p>
+</overview>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
 <squad_size>
 5
 </squad_size>
@@ -86,9 +90,4 @@ Laser Rifle (Mauser IIC IAS)
 <Secondary>
 Autocannon (Bearhunter Superheavy)
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Elementals who lose their battle armor face a more honorable future in conventional infantry service than most solahma warriors, because their existing training transfers directly to the heaviest infantry roles available. The Heavy Infantry Points of the Ninety-first Mechanized Assault, Epsilon Galaxy, field warriors fitted with jump packs and body armor who carry Mauser IIC assault systems alongside Bearhunter autocannons. This combination gives them firepower comparable to light combat vehicles without restricting their mobility, allowing them to operate alongside Elementals and BattleMechs in combined-arms engagements. The Bearhunter autocannon is the key to this capability, boosting the Point's anti-personnel and light vehicle firepower well beyond what laser-armed infantry can achieve. This style of heavy jump infantry is popular across Clan Hell's Horses and is limited only by the number of dispossessed Elementals available to fill the ranks.</p>
-</overview>
 

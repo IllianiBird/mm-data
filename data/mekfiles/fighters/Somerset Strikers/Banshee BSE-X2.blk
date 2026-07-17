@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad01-7421-b0d5-a7f2640c2d24
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ BSE-X2
 <year>
 3050
 </year>
-
-<originalBuildYear>
-3050
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -115,34 +115,13 @@ Medium Laser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-1SS,XTR:Boondoggles
-</source>
-
-<published>
-XTR:Boondoggles
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Banshee is a medium aerospace fighter designed by Wangker Aerospace for the Armed Forces of the Federated Commonwealth. Introduced in 3046, the BSE-X2 was conceived as an experimental platform intended to dramatically increase the operational flight time of aerospace fighters. The design employed an unconventional dual-engine configuration, pairing a standard fusion powerplant for space operations with a separate turbine engine for atmospheric combat. While this approach demonstrated remarkable potential for extended endurance and surprisingly responsive handling, the combined mass of the two powerplants severely compromised the fighter's acceleration, limiting it to a mere four gravities of thrust. Thin armor protection further compounded the design's shortcomings, leaving the fifty-ton fighter with coverage comparable to craft half its weight. Despite these issues, the Banshee's innovative cockpit systems and dual-motive concept represented a bold if ultimately unsuccessful experiment in aerospace fighter design.</p>
-</overview>
-
 <capabilities>
 <p>The Banshee's most distinctive feature is its dual-motive propulsion system. A WAS 150 fusion engine handles space operations while a Wangker 250 Turbine provides power for atmospheric flight. This arrangement gives the fighter exceptional atmospheric endurance compared to purely fusion-driven designs, but the combined weight of both powerplants consumes the majority of the airframe's fifty-ton mass budget, leaving little room for weaponry or protection.</p><p>Offensively, the BSE-X2 carries only a pair of Maxell medium lasers, giving it less firepower than even the much lighter Cheetah. Ten single heat sinks manage the modest thermal output of this limited arsenal with ease. Defensively, the fighter's armor coverage is woefully thin, offering protection more consistent with a twenty-five-ton light fighter than a medium-class design.</p><p>The cockpit incorporates an innovative computer-directed seat system designed to respond to G-forces during combat maneuvering. As the fighter executes various maneuvers, the computer adjusts the seat position to alleviate pilot stress, squeezing out additional performance from the airframe's limited thrust envelope. The cockpit can also pivot ninety degrees, allowing the Banshee to land virtually anywhere without requiring fixed support infrastructure. The Ranker 200 communications system and Ranker TA 950 targeting and tracking system complete the avionics suite, housed within the Wangker III airframe.</p>
 </capabilities>
+
+<overview>
+<p>The Banshee is a medium aerospace fighter designed by Wangker Aerospace for the Armed Forces of the Federated Commonwealth. Introduced in 3046, the BSE-X2 was conceived as an experimental platform intended to dramatically increase the operational flight time of aerospace fighters. The design employed an unconventional dual-engine configuration, pairing a standard fusion powerplant for space operations with a separate turbine engine for atmospheric combat. While this approach demonstrated remarkable potential for extended endurance and surprisingly responsive handling, the combined mass of the two powerplants severely compromised the fighter's acceleration, limiting it to a mere four gravities of thrust. Thin armor protection further compounded the design's shortcomings, leaving the fifty-ton fighter with coverage comparable to craft half its weight. Despite these issues, the Banshee's innovative cockpit systems and dual-motive concept represented a bold if ultimately unsuccessful experiment in aerospace fighter design.</p>
+</overview>
 
 <deployment>
 <p>The BSE-X2 existed solely as a small number of prototypes and never entered series production. Originally assigned to peripheral garrisons for extended evaluation trials, the existing prototypes saw unexpected combat service during the Clan Invasion era. The design was particularly associated with the 1st Somerset Strikers, an elite unit that operated along the Clan frontier during the early stages of the invasion.</p>
@@ -175,4 +154,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Ranker 200
 TARGETING:Ranker TA 950
 </systemModels>
+
+<source>
+1SS,XTR:Boondoggles
+</source>
+
+<published>
+XTR:Boondoggles
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

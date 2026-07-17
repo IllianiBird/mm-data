@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a986-7589-83d4-e600a0b3939c
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Purifier Battle Armor Terra
 <year>
 3075
 </year>
-
-<originalBuildYear>
-3075
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -92,38 +92,14 @@ CLBASmallPulseLaser:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Phantoms
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Purifier Terra is an experimental hybrid refit of the standard Purifier Adaptive, developed by TerraSec special operations forces on Terra. First appearing around 3075, the design trades the original suit's stealth systems for substantially increased protection using advanced materials sourced through uncertain channels. Produced in limited quantities under secretive circumstances, the Purifier Terra was difficult to maintain and earned a poor reputation among field technicians. Despite these drawbacks, the suit offered a considerably more durable alternative to the standard Purifier for operators who prioritized survivability over concealment.</p>
-</overview>
 
 <capabilities>
 <p>The SPL configuration mounts a Clan-quality small pulse laser in the Purifier Terra's modular weapon mount, trading raw damage for improved accuracy in close-quarters engagements. The pulse laser's rapid burst-fire pattern makes it particularly effective against fast-moving targets and in the chaotic conditions of urban combat. Like all Purifier Terra configurations, the suit benefits from substantially heavier armor than the mimetic-equipped standard Purifier, allowing troopers to close to effective pulse laser range with greater confidence. The SPL loadout does not require ammunition, freeing the trooper from resupply concerns during extended operations. Jump jets and a battle claw provide standard mobility and anti-BattleMech capability. The configuration is well-suited to aggressive close-range tactics where accuracy under fire matters more than standoff distance.</p>
 </capabilities>
+
+<overview>
+<p>The Purifier Terra is an experimental hybrid refit of the standard Purifier Adaptive, developed by TerraSec special operations forces on Terra. First appearing around 3075, the design trades the original suit's stealth systems for substantially increased protection using advanced materials sourced through uncertain channels. Produced in limited quantities under secretive circumstances, the Purifier Terra was difficult to maintain and earned a poor reputation among field technicians. Despite these drawbacks, the suit offered a considerably more durable alternative to the standard Purifier for operators who prioritized survivability over concealment.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Clan Points equipped with the SPL Purifier Terra configuration were exceptionally rare. The small pulse laser's Clan manufacture would have been familiar to Clan technicians, but the Purifier Terra's mixed-technology nature and poor maintenance reputation limited any deliberate Clan adoption of the design.</p>
@@ -158,4 +134,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Phantoms
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

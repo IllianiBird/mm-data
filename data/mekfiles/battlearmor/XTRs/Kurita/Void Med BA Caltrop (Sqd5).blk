@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a94c-74c6-8dce-ac173be9d32e
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Caltrop(Sqd5)
 <year>
 3078
 </year>
-
-<originalBuildYear>
-3078
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -98,38 +98,14 @@ ISBAMineDispenser:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Kurita
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-1
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 20:20:42
-<overview>
-<p>The Void is a medium battle armor design produced by Ishikawajima-Harima Battle Armor Industries for the Draconis Combine Mustered Soldiery. Entering service in 3067, the suit was purpose-built as a scout and light assault platform capable of accommodating operators of varying physical sizes, including the larger frames of Clan Elemental warriors. Built on a heavily modified Kage chassis, the Void carries improved stealth armor that masks its signature from both visual detection and electronic sensors, granting it considerable infiltration capability. Jump boosters provide mobility comparable to lighter designs despite the Void's one-thousand-kilogram mass. The suit earned gradual acceptance within the DCMS after an initially lukewarm reception, becoming a valued component of Combine powered infantry doctrine.</p>
-</overview>
 
 <capabilities>
 <p>The Caltrop is an experimental prototype developed in secret at Ishikawajima-Harima, incorporating a mix of Inner Sphere and Clan technology gleaned from captured Blakist documents and Nova Cat exchanges. A Clan-specification ER small laser replaces the support PPC, offering doubled damage potential at shorter range with improved accuracy. A torso-mounted mine dispenser provides area denial capability, giving the variant its namesake. Heavy battle claws on both arms make the Caltrop lethal in close combat, compensating for its single ranged weapon. Mechanical jump boosters replace the standard jump system, reducing jump distance but adding ground speed through more efficient leg articulation. Clan improved stealth armor increases protection by roughly forty percent over the original while maintaining the Void's signature-dampening properties. As a prototype incorporating multiple experimental systems, the Caltrop had not undergone full field testing at the time of its discovery, and concerns about reliability and the unauthorized nature of its development cast doubt on its near-term production prospects.</p>
 </capabilities>
+
+<overview>
+<p>The Void is a medium battle armor design produced by Ishikawajima-Harima Battle Armor Industries for the Draconis Combine Mustered Soldiery. Entering service in 3067, the suit was purpose-built as a scout and light assault platform capable of accommodating operators of varying physical sizes, including the larger frames of Clan Elemental warriors. Built on a heavily modified Kage chassis, the Void carries improved stealth armor that masks its signature from both visual detection and electronic sensors, granting it considerable infiltration capability. Jump boosters provide mobility comparable to lighter designs despite the Void's one-thousand-kilogram mass. The suit earned gradual acceptance within the DCMS after an initially lukewarm reception, becoming a valued component of Combine powered infantry doctrine.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Clan Points were theorized as potential operators for the Caltrop given its incorporation of Clan technology, but the variant's experimental status and the secrecy surrounding its development prevented any meaningful deployment in Clan formations during the initial evaluation period.</p>
@@ -164,4 +140,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Kurita
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+1
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

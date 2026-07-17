@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.51.00 on 2026-05-03
+uuid:019f583e-dfff-71d1-bdd9-d34d299d4b35
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Swordsman
 model:SWD-2
 mul id:7182
@@ -32,8 +33,8 @@ quirk:bad_rep_is
 quirk:obsolete:2482
 quirk:searchlight
 quirk:poor_work
-weaponquirk:accurate:LT:0:Autocannon/5
 weaponquirk:ammo_feed_problems:LT:0:Autocannon/5
+weaponquirk:accurate:LT:0:Autocannon/5
 
 mass:40
 engine:160 Fusion Engine
@@ -61,8 +62,8 @@ Weapons:6
 Medium Laser, Left Arm
 Medium Laser, Right Arm
 AC/5, Left Torso
-LRM 5, Right Torso
 SRM 4, Right Torso
+LRM 5, Right Torso
 Small Laser, Head
 
 Left Arm:
@@ -196,4 +197,3 @@ systemmanufacturer:ENGINE:Unknown
 systemmanufacturer:ARMOR:Unknown
 systemmanufacturer:COMMUNICATIONS:Unknown
 systemmanufacturer:TARGETING:Unknown
-

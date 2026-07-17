@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d7b6-7c16-91bb-04bc11d48d05
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Bandersnatch
 model:BNDR-01A (Horus)
 mul id:3780
@@ -23,7 +24,6 @@ mul id:3780
 Config:Biped
 techbase:Inner Sphere
 era:3061
-source:
 published:RS:UM
 rules level:2
 role:Brawler
@@ -172,7 +172,6 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:24:59
 overview:<p>The Bandersnatch is a 75-ton heavy BattleMech first produced in 3052 by Bander BattleMechs, a small manufacturer on Terra Firma founded by Felifious Bander, a former chief technician of the Twelfth Star Guard. Conceived as an affordable and effective platform for mercenary commands left equipment-poor in the wake of the Clan Invasion, the Bandersnatch was the first original design offered by Bander's company after years of performing upgrades and refits on older BattleMechs using recovered technology.</p><p>Deliberately modeled on the popular Marauder to ensure a large supply of compatible replacement parts, the Bandersnatch offers a versatile heavy weapons platform at a fraction of the cost of frontline assault designs. The design has earned a solid reputation among mercenary commands and independent worlds for its reliability, affordability, and ease of maintenance.</p>
 
 capabilities:<p>The Bandersnatch's weapons array is built around the armament configurations most frequently requested by Bander's mercenary clientele. A pair of Armstrong Class-B ClusterGuns LB 10-X autocannons serve as the primary striking weapons, capable of firing both solid slugs for concentrated damage and cluster munitions effective against lighter targets and conventional aircraft. Three Holly LRM-5 racks provide sustained long-range fire support, while six Magna Mk II medium lasers (four forward-firing and two rear-mounted) ensure comprehensive close-range coverage. CASE-protected ammunition bins in both torsos mitigate the risk posed by the considerable stores of autocannon and missile reloads.</p><p>Powered by a Vlar 300 XL engine, the Bandersnatch achieves a respectable cruising speed of 43 kilometers per hour, adequate for its intended fire support role though insufficient for rapid repositioning. Eleven tons of Valiant Chainmail armor provide solid protection without maximizing the chassis's potential capacity, a deliberate cost-saving measure that still leaves the design well-protected for its weight class. Double heat sinks allow the heavy weapons loadout to fire without significant thermal buildup, though sustained alpha strikes still demand careful heat management. Early production models exhibited a design flaw where the rear-firing lasers melted their heat jackets, requiring the weapons to be raised and ongoing field monitoring of the affected components.</p>
@@ -184,6 +183,8 @@ history:<p>The Bandersnatch emerged from the chaos and desperation that followed
 manufacturer:Field Refit
 
 primaryfactory:Various
+
+fluffdate:2026-02-21 18:24:59
 
 systemmanufacturer:CHASSIS:Unknown
 systemmode:CHASSIS:Unknown (Endo Steel)

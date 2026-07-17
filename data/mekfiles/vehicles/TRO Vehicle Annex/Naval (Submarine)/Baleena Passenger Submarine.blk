@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eaa8-7004-b1f7-cfbb94817579
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Baleena Passenger Submarine
 <year>
 2545
 </year>
-
-<originalBuildYear>
-2545
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -123,26 +123,13 @@ Cargo Container (10 tons)
 2
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-200.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-02 15:52:16
-<overview>
-<p>The Baleena-class passenger submarine is a civilian transport designed and produced by Bluefin Technologies, a corporation founded to serve the transportation needs of Inner Sphere underwater communities. First introduced around 2545, the 200-ton vessel was conceived to provide affordable, versatile passage between subsurface settlements and surface ports on worlds where underwater habitation has long been a practical, if uncommon, way of life. Capable of operating as a cargo ferry, a passenger vessel, or a hybrid of both depending on how the interior is fitted, the Baleena found a commercial niche in systems where underwater infrastructure demands regular supply rotations and personnel movement. Bluefin's public offering on the Donegal Exchange in 2540 drew extraordinary investor interest, and the subsequent launch of the Baleena confirmed the company's position as the leading name in civilian submersible design. Despite the upheavals that followed the Star League's collapse, civilian examples have continued operating across the Inner Sphere wherever underwater communities have survived the centuries of war.</p>
-</overview>
-
 <capabilities>
 <p>The Baleena is a 200-ton medium naval vessel, powered by a fusion plant that provides cruise and flank speeds suited to inter-harbor transit across continental shelf distances. Its submersible chassis modification allows full underwater operation across a wide range of oceanic environments, including deep-pressure approaches to underwater installations of the kind common on developed aquatic worlds. Armor protection is rated at BAR 2, sufficient to deflect incidental underwater hazards but not intended for hostile environments; the design is entirely unarmed, reflecting its wholly civilian purpose.</p><p>The forward vehicle bay accommodates up to 50 tons of light vehicles or equipment, accessible through a single front door. Amidships, four standard cargo containers totaling 40 tons are loaded and unloaded through right and left side doors. Three additional tons of standard cargo space at the rear rounds out the Baleena's logistical flexibility. Twenty integrated passenger seats allow simultaneous transport of both cargo and personnel in standard commercial configurations.</p><p>Efficient airlock systems allow cargo transfers to be conducted while submerged, enabling delivery runs to deeper-running cargo submarines or direct supply of underwater facilities without surfacing. Top-loading cargo door geometry also permits quick turnaround at seaside DropPorts equipped with standard cargo handling equipment. Operational support fittings include two steering quarters, three maritime lifeboats, and a pair of forward-mounted searchlights for low-visibility underwater navigation. The fusion plant requires no fuel reserves and no heat sink capacity, keeping the design straightforward to maintain and eliminating the resupply dependencies that complicate conventional combustion submarines.</p>
 </capabilities>
+
+<overview>
+<p>The Baleena-class passenger submarine is a civilian transport designed and produced by Bluefin Technologies, a corporation founded to serve the transportation needs of Inner Sphere underwater communities. First introduced around 2545, the 200-ton vessel was conceived to provide affordable, versatile passage between subsurface settlements and surface ports on worlds where underwater habitation has long been a practical, if uncommon, way of life. Capable of operating as a cargo ferry, a passenger vessel, or a hybrid of both depending on how the interior is fitted, the Baleena found a commercial niche in systems where underwater infrastructure demands regular supply rotations and personnel movement. Bluefin's public offering on the Donegal Exchange in 2540 drew extraordinary investor interest, and the subsequent launch of the Baleena confirmed the company's position as the leading name in civilian submersible design. Despite the upheavals that followed the Star League's collapse, civilian examples have continued operating across the Inner Sphere wherever underwater communities have survived the centuries of war.</p>
+</overview>
 
 <deployment>
 <p>The base Baleena is found wherever Inner Sphere worlds maintain underwater communities, with historically strong concentrations in the Lyran Commonwealth and Free Worlds League, where corporate and government investment in subsurface habitation has been most sustained. Several Baleenas operating on Tharkad have been outfitted to retain a smaller personal submersible or luxury surface schooner in the vehicle bay, supplementing the primary vessel's capabilities as an upscale transport for planetary officials and executives. Corporate buyers across both states have repurposed examples as mobile luxury vessels, offering circumnavigation cruises to wealthy clients on worlds with suitable ocean coverage.</p><p>On Terra, worlds like the Pacific Ocean's Fiji region (home to the underwater metropolis celebrated in the centuries-old mystery serial 'Dead Awakened') represent the kind of established urban underwater market the Baleena was built to serve. Remote worlds with subsurface industrial operations, including deep-sea mining and aquaculture, represent additional deployment contexts where the Baleena's cargo flexibility and civilian classification make it a practical choice. Its unarmed, commercially registered status generally allows passage through contested systems without interference, and persistent rumors suggest that various intelligence and government agencies have quietly maintained civilian-flagged examples for unacknowledged transport purposes.</p>
@@ -172,4 +159,16 @@ TARGETING:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+200.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-afc1-71c0-82b8-2c7fd840a432
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SMG-OB
 <year>
 3109
 </year>
-
-<originalBuildYear>
-3109
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -132,26 +132,13 @@ ISImprovedHeavyGauss Ammo:OMNI
 ISImprovedHeavyGauss Ammo:OMNI
 </Fuselage Equipment>
 
-<source>
-TR:3145:RotS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Simurgh is a heavy OmniFighter developed for the Republic of the Sphere's Armed Forces, entering service in 3109. Built by Boeing Interstellar on Terra, the design draws loosely on the technical legacy of the Word of Blake's Spectral Series OmniFighters, repurposing that heritage for a fundamentally different mission. Where its antecedents were built for the elite Manei Domini, the Simurgh was engineered for standard Republic pilots operating in coordinated squadron formations.</p><p>The fighter was conceived as a fleet support and assault platform, intended to operate alongside attack DropShips and pocket WarShips rather than as a standalone interceptor. Its exceptional weapon payload comes at the cost of individual agility and rear-facing coverage, making the Simurgh most effective when flying with escort. This emphasis on formation fighting shaped its role as the preferred heavy fighter of the RAF's naval aerospace wings throughout the Dark Age.</p>
-</overview>
-
 <capabilities>
 <p>The Simurgh is built on a Boeing Firebird SM1-F airframe driven by a Strand-Martin 340-rated XL engine, producing a safe thrust of 6 Gs with a maximum of 9. While modest acceleration for its mass, the XL powerplant frees 47 tons of pod space, one of the largest weapon payloads available in any Inner Sphere heavy OmniFighter. The fuselage carries 16.5 tons of Boeing Mirage Reflective armor, which provides strong protection against energy-based weapons and gives the Simurgh a meaningful durability advantage over opponents equipped primarily with lasers and particle cannons.</p><p>All three configurations concentrate weapons entirely in the nose with no rear-facing armament, a deliberate trade demanding close fighter escort. The Prime loads a heavy Gauss rifle paired with two RAC/5 autocannons for a devastating ballistic barrage at medium range. The A configuration shifts to close-quarters work with two Apollo FCS-guided MRM-40 launchers and a single RAC/5, supported by four additional double heat sinks to manage the increased thermal load. The B configuration focuses on maximum reach, carrying only a pair of improved heavy Gauss rifles but capable of threatening DropShips when a full squadron volleys together.</p><p>The Lassitor FibroLink communications suite and Flaming Sight 3-Psi targeting system provide reliable fleet coordination avionics. The Easy to Pilot quirk lowers the skill threshold for new pilots, though the Non-Standard Parts and Difficult to Maintain quirks create a persistent logistical burden on maintenance crews during extended operations.</p>
 </capabilities>
+
+<overview>
+<p>The Simurgh is a heavy OmniFighter developed for the Republic of the Sphere's Armed Forces, entering service in 3109. Built by Boeing Interstellar on Terra, the design draws loosely on the technical legacy of the Word of Blake's Spectral Series OmniFighters, repurposing that heritage for a fundamentally different mission. Where its antecedents were built for the elite Manei Domini, the Simurgh was engineered for standard Republic pilots operating in coordinated squadron formations.</p><p>The fighter was conceived as a fleet support and assault platform, intended to operate alongside attack DropShips and pocket WarShips rather than as a standalone interceptor. Its exceptional weapon payload comes at the cost of individual agility and rear-facing coverage, making the Simurgh most effective when flying with escort. This emphasis on formation fighting shaped its role as the preferred heavy fighter of the RAF's naval aerospace wings throughout the Dark Age.</p>
+</overview>
 
 <deployment>
 <p>Configuration B is the longest-reaching Simurgh variant, carrying only a pair of improved heavy Gauss rifles but providing standoff range that can engage BattleMechs at extreme distances and threaten DropShips when a full squadron coordinates fire. The B is most frequently assigned to fleet defense and jump point interdiction roles where long-range deterrence is the primary mission. Its focus on a single weapon type simplifies ammunition resupply during extended deployments. The B configuration also serves with the Republic Remnant's limited aero-space forces, where its range allows small numbers of fighters to project credible defensive coverage over a wider area.</p>
@@ -186,4 +173,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:FibroLink
 TARGETING:3-Psi
 </systemModels>
+
+<source>
+TR:3145:RotS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

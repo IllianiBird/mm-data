@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a803-7706-a854-34db7714077f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Void Medium Battle Armor
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -112,38 +112,14 @@ ISBAMineDispenser:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:Proto
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-1
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 20:20:42
-<overview>
-<p>The Void is a medium battle armor design produced by Ishikawajima-Harima Battle Armor Industries for the Draconis Combine Mustered Soldiery. Entering service in 3067, the suit was purpose-built as a scout and light assault platform capable of accommodating operators of varying physical sizes, including the larger frames of Clan Elemental warriors. Built on a heavily modified Kage chassis, the Void carries improved stealth armor that masks its signature from both visual detection and electronic sensors, granting it considerable infiltration capability. Jump boosters provide mobility comparable to lighter designs despite the Void's one-thousand-kilogram mass. The suit earned gradual acceptance within the DCMS after an initially lukewarm reception, becoming a valued component of Combine powered infantry doctrine.</p>
-</overview>
 
 <capabilities>
 <p>The Minelayer is a production evolution of the experimental Caltrop, redesigned with Inner Sphere components after Clan-specification prototypes proved impractical for mass production. Physically smaller than the standard Void, the Minelayer drops Elemental accommodation in favor of a compact frame optimized for its specialized role. Twin torso-mounted mine dispensers carry four minefields each, with munitions tailor-selected at the trooper's base. A medium recoilless rifle provides direct-fire capability against BattleMechs and vehicles that push through the minefields, while a left-arm anti-personnel weapon mount handles sentries and soft targets. Heavy battle claws on both arms allow powerful swarm attacks, and the Minelayer has earned a reputation for capturing MechWarriors and their damaged machines after they stumble through kill zones.</p><p>Mechanical jump boosters replace the standard Void's jump jets following an early prototype incident where igniting jets detonated freshly laid mines, killing the trooper. The booster allows operators to deploy mines and bounce clear without thermal risk, though jump distance is reduced. Basic stealth armor substitutes for the original improved stealth plating, reducing cost and production complexity.</p>
 </capabilities>
+
+<overview>
+<p>The Void is a medium battle armor design produced by Ishikawajima-Harima Battle Armor Industries for the Draconis Combine Mustered Soldiery. Entering service in 3067, the suit was purpose-built as a scout and light assault platform capable of accommodating operators of varying physical sizes, including the larger frames of Clan Elemental warriors. Built on a heavily modified Kage chassis, the Void carries improved stealth armor that masks its signature from both visual detection and electronic sensors, granting it considerable infiltration capability. Jump boosters provide mobility comparable to lighter designs despite the Void's one-thousand-kilogram mass. The suit earned gradual acceptance within the DCMS after an initially lukewarm reception, becoming a valued component of Combine powered infantry doctrine.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations using the Minelayer configuration could establish significantly wider minefields than smaller squad sizes, leveraging the additional troopers to cover broader frontages. Few units outside the Combine operated the variant, and the Level I organizational option remained largely theoretical given the Minelayer's near-exclusive DCMS availability.</p>
@@ -178,4 +154,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+1
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

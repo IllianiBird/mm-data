@@ -86,7 +86,6 @@
         <allowedTerrainTypes>Mountain</allowedTerrainTypes>
         <allowedTerrainTypes>HotHillsDry</allowedTerrainTypes>
         <allowedTerrainTypes>HotHillsWet</allowedTerrainTypes>
-        <allowedTerrainTypes>Mountain</allowedTerrainTypes>
         <allowedTerrainTypes>Sea</allowedTerrainTypes>
         <allowedTerrainTypes>HotSea</allowedTerrainTypes>
         <allowedTerrainTypes>Urban</allowedTerrainTypes>
@@ -108,8 +107,8 @@
         <allowedTerrainTypes>HotUrban</allowedTerrainTypes>
         <allowedTerrainTypes>HotHillsDry</allowedTerrainTypes>
         <allowedTerrainTypes>HotHillsWet</allowedTerrainTypes>
-        <allowedTerrainTypes>HotMountainDry</allowedTerrainTypes>
-        <allowedTerrainTypes>HotMountainWet</allowedTerrainTypes>
+        <allowedTerrainTypes>HotMountainsDry</allowedTerrainTypes>
+        <allowedTerrainTypes>HotMountainsWet</allowedTerrainTypes>
     </biomes>
     <biomes>
         <biomeCategory>Terran</biomeCategory>
@@ -122,8 +121,8 @@
         <allowedTerrainTypes>HotSea</allowedTerrainTypes>
         <allowedTerrainTypes>HotHillsDry</allowedTerrainTypes>
         <allowedTerrainTypes>HotHillsWet</allowedTerrainTypes>
-        <allowedTerrainTypes>HotMountainDry</allowedTerrainTypes>
-        <allowedTerrainTypes>HotMountainWet</allowedTerrainTypes>
+        <allowedTerrainTypes>HotMountainsDry</allowedTerrainTypes>
+        <allowedTerrainTypes>HotMountainsWet</allowedTerrainTypes>
     </biomes>
     <!-- Generic facility biomes for defaults -->
     <biomes>
@@ -157,6 +156,8 @@
             <value>
                 <mapTypes>ArcticDesert</mapTypes>
                 <mapTypes>ArcticDesert-Rough</mapTypes>
+                <mapTypes>SnowDunes</mapTypes>
+                <mapTypes>SnowCoast</mapTypes>
             </value>
         </entry>
         <entry>
@@ -164,6 +165,9 @@
             <value>
                 <mapTypes>Dust-bowl</mapTypes>
                 <mapTypes>Light-craters</mapTypes>
+                <mapTypes>Sandy-valley</mapTypes>
+                <mapTypes>Rocky-valley</mapTypes>
+                <mapTypes>Rubble-river</mapTypes>
             </value>
         </entry>
         <entry>
@@ -216,16 +220,16 @@
                 <mapTypes>Mountain-TouristTown-snow</mapTypes>
                 <mapTypes>Mountain-town-snow</mapTypes>
                 <mapTypes>Heavy-craters-snow</mapTypes>
+                <mapTypes>ColdMountain-Lone</mapTypes>
             </value>
         </entry>
         <entry>
             <key>ColdSea</key>
             <value>
-                <mapTypes>ColdSeaCoastalFort</mapTypes>
-                <mapTypes>ColdSeaCoastalRoads</mapTypes>
                 <mapTypes>ColdSeaDeltas</mapTypes>
                 <mapTypes>ColdSeaFjords</mapTypes>
                 <mapTypes>ColdSeaFjordsSteep</mapTypes>
+                <mapTypes>OpenOceanCold</mapTypes>
             </value>
         </entry>
         <entry>
@@ -235,6 +239,20 @@
                 <mapTypes>CityCold</mapTypes>
                 <mapTypes>TownCold</mapTypes>
                 <mapTypes>RuralHomesteadsCold</mapTypes>
+                <mapTypes>ColdSeaCoastalRoads</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <!-- Synthetic terrain type used only by convoy scenario templates: every board here has ROADPROB 100, so a convoy always spawns with a road to travel. -->
+            <key>Convoy</key>
+            <value>
+                <mapTypes>Convoy</mapTypes>
+                <mapTypes>RuralHomesteadsCold</mapTypes>
+                <mapTypes>RuralHomesteadsHotDesert</mapTypes>
+                <mapTypes>RuralHomesteadsHotJungle</mapTypes>
+                <mapTypes>BaseCold</mapTypes>
+                <mapTypes>BaseHotDesert</mapTypes>
+                <mapTypes>BaseHotJungle</mapTypes>
             </value>
         </entry>
         <entry>
@@ -243,6 +261,23 @@
                 <mapTypes>Desert</mapTypes>
                 <mapTypes>TownHotDesert</mapTypes>
                 <mapTypes>RuralHomesteadsHotDesert</mapTypes>
+                <mapTypes>Sandy-river</mapTypes>
+                <mapTypes>Sandy-valley</mapTypes>
+            </value>
+        </entry>
+        <entry>
+            <!-- Synthetic terrain type used only by grounded-DropShip scenario templates: every board here is flat and open (no peaks, cliffs, or deep water), so a DropShip always has landable ground. -->
+            <key>DropZone</key>
+            <value>
+                <mapTypes>Savannah</mapTypes>
+                <mapTypes>Dust-bowl</mapTypes>
+                <mapTypes>Sandy-hills</mapTypes>
+                <mapTypes>ArcticDesert</mapTypes>
+                <mapTypes>ArcticDesert-Rough</mapTypes>
+                <mapTypes>TundraRoad</mapTypes>
+                <mapTypes>TundraRoadSnow</mapTypes>
+                <mapTypes>TundraRiverGrass</mapTypes>
+                <mapTypes>TundraRiverSnow</mapTypes>
             </value>
         </entry>
         <entry>
@@ -264,12 +299,15 @@
             <value>
                 <mapTypes>BaseCold</mapTypes>
                 <mapTypes>IceOutpost</mapTypes>
+                <mapTypes>IceHills</mapTypes>
+                <mapTypes>SnowOutpost</mapTypes>
             </value>
         </entry>
         <entry>
             <key>FrozenSea</key>
             <value>
                 <mapTypes>FrozenSea</mapTypes>
+                <mapTypes>OpenOceanFrozen</mapTypes>
             </value>
         </entry>
         <entry>
@@ -280,12 +318,17 @@
                 <mapTypes>IceOutpost</mapTypes>
                 <mapTypes>IceJagged</mapTypes>
                 <mapTypes>IceHills</mapTypes>
+                <mapTypes>RockyIcefield</mapTypes>
+                <mapTypes>SnowDunes</mapTypes>
             </value>
         </entry>
         <entry>
             <key>HotHillsDry</key>
             <value>
                 <mapTypes>HillsHotDesert</mapTypes>
+                <mapTypes>Sandy-hills</mapTypes>
+                <mapTypes>Sandy-valley</mapTypes>
+                <mapTypes>Rocky-valley</mapTypes>
             </value>
         </entry>
         <entry>
@@ -300,6 +343,7 @@
                 <mapTypes>Hills-RiverRoad</mapTypes>
                 <mapTypes>Light-craters</mapTypes>
                 <mapTypes>Wooded-hills</mapTypes>
+                <mapTypes>Town-hills</mapTypes>
             </value>
         </entry>
         <entry>
@@ -316,30 +360,33 @@
             <value>
                 <mapTypes>ForestHot</mapTypes>
                 <mapTypes>RuralHomesteadsHotJungle</mapTypes>
-            </value>
-        </entry>
-        <entry>
-            <key>HotHillsDry</key>
-            <value>
-                <mapTypes>HillsHotDesert</mapTypes>
+                <mapTypes>Jungle</mapTypes>
+                <mapTypes>HillsHotJungle</mapTypes>
             </value>
         </entry>
         <entry>
             <key>HotHillsWet</key>
             <value>
                 <mapTypes>HillsHotJungle</mapTypes>
+                <mapTypes>ForestHot</mapTypes>
+                <mapTypes>RuralHomesteadsHotJungle</mapTypes>
             </value>
         </entry>
         <entry>
             <key>HotMountainsDry</key>
             <value>
                 <mapTypes>MountainHotDesert</mapTypes>
+                <mapTypes>Rocky-valley</mapTypes>
+                <mapTypes>Cliffs</mapTypes>
+                <mapTypes>Mountain-medium</mapTypes>
             </value>
         </entry>
         <entry>
             <key>HotMountainsWet</key>
             <value>
                 <mapTypes>MountainHotJungle</mapTypes>
+                <mapTypes>Mountain-river</mapTypes>
+                <mapTypes>HillsHotJungle</mapTypes>
             </value>
         </entry>
         <entry>
@@ -347,6 +394,7 @@
             <value>
                 <mapTypes>SeaHotDesert</mapTypes>
                 <mapTypes>SeaHotJungle</mapTypes>
+                <mapTypes>OpenOceanTropical</mapTypes>
             </value>
         </entry>
         <entry>
@@ -381,6 +429,8 @@
                 <mapTypes>Mountain-TouristTown</mapTypes>
                 <mapTypes>Mountain-town</mapTypes>
                 <mapTypes>Heavy-craters</mapTypes>
+                <mapTypes>Town-mountain</mapTypes>
+                <mapTypes>Rocky-valley</mapTypes>
             </value>
         </entry>
         <entry>
@@ -400,18 +450,18 @@
             <key>Savannah</key>
             <value>
                 <mapTypes>Savannah</mapTypes>
+                <mapTypes>Some-trees</mapTypes>
+                <mapTypes>Dust-bowl</mapTypes>
+                <mapTypes>Sandy-hills</mapTypes>
+                <mapTypes>Town-farming</mapTypes>
             </value>
         </entry>
         <entry>
             <key>Sea</key>
             <value>
-                <mapTypes>Sea-CoastalFort</mapTypes>
-                <mapTypes>Sea-CoastalRoads</mapTypes>
                 <mapTypes>Sea-Deltas</mapTypes>
                 <mapTypes>Sea-Fjord</mapTypes>
-                <mapTypes>Sea-MangroveCliffs</mapTypes>
-                <mapTypes>Sea-SaltwaterMarsh</mapTypes>
-                <mapTypes>Seaport</mapTypes>
+                <mapTypes>OpenOcean</mapTypes>
             </value>
         </entry>
         <entry>
@@ -421,15 +471,16 @@
                 <mapTypes>SnowRiver</mapTypes>
                 <mapTypes>SnowOutpost</mapTypes>
                 <mapTypes>SnowCoast</mapTypes>
-                <mapTypes>SnowHill</mapTypes>
+                <mapTypes>SnowDunes</mapTypes>
             </value>
         </entry>
         <entry>
             <key>Steppe</key>
             <value>
-                <mapTypes>SteppeGrass</mapTypes>
-                <mapTypes>SteppeSnow</mapTypes>
-                <mapTypes>SteppeOutpost</mapTypes>
+                <mapTypes>Some-trees</mapTypes>
+                <mapTypes>Dust-bowl</mapTypes>
+                <mapTypes>TundraRiverGrass</mapTypes>
+                <mapTypes>PlainsOutpost</mapTypes>
                 <mapTypes>Town-farming</mapTypes>
             </value>
         </entry>
@@ -443,6 +494,12 @@
                 <mapTypes>Swamp</mapTypes>
                 <mapTypes>Wooded-swamp</mapTypes>
                 <mapTypes>River-wetlands</mapTypes>
+                <mapTypes>Lake-marsh - Jazz</mapTypes>
+                <mapTypes>Muddy-swamp - Jazz</mapTypes>
+                <mapTypes>River-wetlands - Jazz</mapTypes>
+                <mapTypes>Swamp - Jazz</mapTypes>
+                <mapTypes>Sea-MangroveCliffs</mapTypes>
+                <mapTypes>Sea-SaltwaterMarsh</mapTypes>
             </value>
         </entry>
         <entry>
@@ -468,6 +525,7 @@
                 <mapTypes>PlainsOutpost</mapTypes>
                 <mapTypes>PlainsTown</mapTypes>
                 <mapTypes>Town-wooded</mapTypes>
+                <mapTypes>Sea-CoastalFort</mapTypes>
             </value>
         </entry>
         <entry>
@@ -480,6 +538,8 @@
                 <mapTypes>Town-generic</mapTypes>
                 <mapTypes>Town-ruin</mapTypes>
                 <mapTypes>Seaport</mapTypes>
+                <mapTypes>Town-mining</mapTypes>
+                <mapTypes>Sea-CoastalRoads</mapTypes>
             </value>
         </entry>
     </biomeMapTypes>
@@ -593,11 +653,11 @@
             <value>data/images/stratcon/Stratcon_Mountains.png</value>
         </entry>
         <entry>
-            <key>HotMountainWet</key>
+            <key>HotMountainsWet</key>
             <value>data/images/stratcon/Stratcon_Mountains.png</value>
         </entry>
         <entry>
-            <key>HotMountainDry</key>
+            <key>HotMountainsDry</key>
             <value>data/images/stratcon/Stratcon_Hot_Mountain.png</value>
         </entry>
         <entry>

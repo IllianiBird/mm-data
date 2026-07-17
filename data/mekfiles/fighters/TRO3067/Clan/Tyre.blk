@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ae80-7a24-b328-5f78ac1f86b0
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Tyre
 <year>
 2907
 </year>
-
-<originalBuildYear>
-2907
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -130,26 +130,13 @@ Clan Ultra AC/10 Ammo
 CLCASE
 </Fuselage Equipment>
 
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Tyre is a medium-weight aerospace fighter developed by Clan Steel Viper in 2907, conceived as a homegrown successor to the Corsair class fighter that had nearly vanished among the Clans' ancestors during the long journey from the Inner Sphere. After years of iterative development and numerous proposed enhancements, Viper designers settled on a design that deliberately traded maximum speed for resilience and concentrated firepower, producing a craft ideally suited to the DropShip escort role the Clan urgently needed to fill. Economical to operate and straightforward to maintain by Clan standards, the Tyre found a ready home not only in Steel Viper aerospace forces but across much of the Clan homeworld complex. While newer OmniFighters eventually displaced it from front-line duty among wealthier Clans, the Tyre remained a fixture of second-line forces throughout the Clan universe, valued for dependability and sustained combat effectiveness against both aerospace and ground targets.</p>
-</overview>
-
 <capabilities>
 <p>Built around economy and durability rather than raw performance, the Tyre mounts a standard fusion powerplant that limits it to a top acceleration of four Gs, average by the standards of heavier craft but deliberately matched to the pace of the DropShips it was designed to escort. The design philosophy treats this modest speed as a feature, keeping the fighter close to its assigned convoy rather than being lured away by enemy interceptors seeking to draw off the screen.</p><p>Seven and a half tons of Formula TSF Standard armor protects the airframe, with additional mass concentrated in the nose and forward fuselage to survive frontal engagement. The primary armament pairs a Type 9-A Ultra autocannon with seven Series AP7 medium pulse lasers, a combination that emphasizes concentrated close-range firepower over standoff reach. All weapons may be fired simultaneously without overtaxing the heat sinks, making the Tyre an exceptionally reliable strafing platform against surface targets and an unforgiving opponent at close quarters.</p><p>The trade-off is a significant lack of reach, and opposing fighters who maintain their distance hold a clear tactical advantage. Heat dissipation is matched tightly to the weapons load with little surplus, leaving pilots minimal margin during extended engagements. Both weaknesses are well-understood among Clan aerospace pilots, and the Tyre's tactical reputation reflects a design that punishes the enemy hardest when it can close the range.</p>
 </capabilities>
+
+<overview>
+<p>The Tyre is a medium-weight aerospace fighter developed by Clan Steel Viper in 2907, conceived as a homegrown successor to the Corsair class fighter that had nearly vanished among the Clans' ancestors during the long journey from the Inner Sphere. After years of iterative development and numerous proposed enhancements, Viper designers settled on a design that deliberately traded maximum speed for resilience and concentrated firepower, producing a craft ideally suited to the DropShip escort role the Clan urgently needed to fill. Economical to operate and straightforward to maintain by Clan standards, the Tyre found a ready home not only in Steel Viper aerospace forces but across much of the Clan homeworld complex. While newer OmniFighters eventually displaced it from front-line duty among wealthier Clans, the Tyre remained a fixture of second-line forces throughout the Clan universe, valued for dependability and sustained combat effectiveness against both aerospace and ground targets.</p>
+</overview>
 
 <deployment>
 <p>The base Tyre served as the standard aerospace escort in Steel Viper DropShip formations and spread to all Clans through Trials and trade during the homeworld period. Produced at multiple Clan facilities, it became the most common aerospace fighter type in second-line formations across the Clan homeworlds by the late Golden Century. Clans historically underserved in OmniFighters, including the Blood Spirits and Cloud Cobras, routinely employed Tyres in front-line roles to compensate for gaps in their premier combat assets.</p>
@@ -184,4 +171,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Masters 400
 TARGETING:DST Model 316/4
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+55.0
+</tonnage>
 

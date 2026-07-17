@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e126-7127-8ad3-19a5758e03a2
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Hobgoblin Ultraheavy ProtoMech
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Clan Level 4
@@ -123,39 +123,13 @@ CLAPGaussRifle
 Fusillade
 </Main Gun Equipment>
 
-<slotless_equipment>
-Clan Ammo iATM-3 (1)
-Clan Ammo iATM-3 (1)
-</slotless_equipment>
-
-
-
-
-
-
-
-
-
-<source>
-WoR,WoRS
-</source>
-
-<published>
-WoR,WoRS
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Hobgoblin is a ten-ton ultraheavy ProtoMek designed during the Wars of Reaving as a transported assault platform. Equipped with a Magnetic Clamp System that allows it to ride into battle attached to an OmniMek, the Hobgoblin combines the rapid deployment capability of battle armor with the superior firepower and protection of a ProtoMek chassis. At ten tons, it occupies the lower end of the ultraheavy ProtoMek weight bracket but packs substantial anti-personnel firepower through its combination of Fusillade rapid-fire weapons and AP Gauss Rifles, making it a devastating close-range combatant once deployed from its transport.</p>
-</overview>
-
 <capabilities>
 <p>The base Hobgoblin's weapons suite is built around the Fusillade rapid-fire weapon system mounted in the main gun position, supplemented by an AP Gauss Rifle in the right arm with forty rounds of ammunition. The Fusillade provides suppressive fire capability against infantry and light vehicles, while the AP Gauss Rifle delivers precise anti-personnel firepower at range. The Magnetic Clamp System in the torso allows the Hobgoblin to attach to and ride an OmniMek into the combat zone, compensating for the design's modest forty-three kilometers per hour cruising speed.</p><p>Fifty-five points of armor make the Hobgoblin exceptionally durable for its tonnage, approaching the protection levels of some light BattleMeks. Without jump jets, the design is dependent on its transport Mek for rapid deployment and relies on ground speed for tactical maneuvering after detachment. The Hobgoblin is designed for a specific tactical doctrine: ride into the engagement zone on an OmniMek, detach at close range, and use its substantial anti-personnel firepower to clear infantry and battle armor formations while the transport Mek handles heavier targets. This transported assault role gives the Hobgoblin strategic mobility far exceeding what its ground speed alone would allow.</p>
 </capabilities>
+
+<overview>
+<p>The Hobgoblin is a ten-ton ultraheavy ProtoMek designed during the Wars of Reaving as a transported assault platform. Equipped with a Magnetic Clamp System that allows it to ride into battle attached to an OmniMek, the Hobgoblin combines the rapid deployment capability of battle armor with the superior firepower and protection of a ProtoMek chassis. At ten tons, it occupies the lower end of the ultraheavy ProtoMek weight bracket but packs substantial anti-personnel firepower through its combination of Fusillade rapid-fire weapons and AP Gauss Rifles, making it a devastating close-range combatant once deployed from its transport.</p>
+</overview>
 
 <deployment>
 <p>The base Hobgoblin mounts a Fusillade rapid-fire weapon system in the main gun position and an AP Gauss Rifle in the right arm with forty rounds of ammunition. A Magnetic Clamp System in the torso allows the design to ride OmniMeks into combat. Fifty-five points of armor provide exceptional protection for a ten-ton design. Cruising speed is forty-three kilometers per hour on the ground. Without jump jets, the Hobgoblin relies on its transport Mek for strategic mobility and its clamp system for rapid deployment to the engagement zone. The combination of transported delivery and heavy anti-personnel firepower makes the Hobgoblin highly effective in the close-range infantry-clearing role it was designed to fill.</p>
@@ -186,4 +160,16 @@ CHASSIS:Ultraheavy
 ENGINE:45
 ARMOR:Standard
 </systemModels>
+
+<source>
+WoR,WoRS
+</source>
+
+<published>
+WoR,WoRS
+</published>
+
+<tonnage>
+10.0
+</tonnage>
 

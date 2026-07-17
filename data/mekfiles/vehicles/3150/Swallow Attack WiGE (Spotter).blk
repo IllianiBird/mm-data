@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8c6-7ff7-986c-0c4d60a4891e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Swallow Attack WiGE
 <year>
 3135
 </year>
-
-<originalBuildYear>
-3135
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -112,26 +112,13 @@ ISLBXAC5
 ISTAG
 </Turret Equipment>
 
-<source>
-TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Swallow Attack WiGE is a medium Wing-in-Ground-Effect combat vehicle produced by Nashan Diversified at their Furillo manufacturing complex. Drawing on the design heritage of Nashan's earlier Sturmvogel maritime patrol WiGE, the Swallow was developed to fill a fast-strike and close-support role for Lyran armed forces, combining the terrain flexibility of a WiGE with a respectable offensive punch. The design entered service in 3092 in an initial export configuration, then received a significant weapons overhaul by 3095 to better align with Lyran tactical preferences.</p><p>Known by its Germanic nickname Schwalbe within Lyran space, the vehicle found broad export success across most of the Inner Sphere, serving with mercenary units and second-line formations wherever speed and amphibious capability were valued. Its critics dismissed it as little more than a faster Hetzer, but operators familiar with WiGE tactics found its blend of speed and firepower well-suited to fast-attack operations across a wide variety of terrain.</p>
-</overview>
-
 <capabilities>
 <p>The Swallow's performance centers on its 200-rated extralight fusion engine, which drives the craft to a maximum speed of 118 km/h. That speed is the vehicle's primary defensive asset, allowing crews to execute rapid attack runs and withdraw before heavier opponents can respond effectively. A flotation hull allows the Swallow to land on and operate from open water, extending its tactical reach to coastal, riverine, and island-chain environments that shut out conventional tracked or wheeled designs.</p><p>The main weapon is a heavy autocannon capable of firing both standard slugs and cluster munitions, offering flexibility against armored vehicles, infantry, and light aircraft. A pair of extended-range medium lasers provide reliable secondary firepower at moderate distances without any ammunition dependency. Together the weapons give the crew options across most engagement ranges the vehicle is likely to encounter.</p><p>Seven and a half tons of heavy ferro-fibrous armor protects the Swallow adequately for its weight class, though the coverage is concentrated at the front and falls off sharply toward the flanks and rear. The extralight engine is a significant liability under penetrating fire to the sides or rear. Against aerospace threats or naval gunfire the Swallow has no dedicated countermeasures, making fighter cover and coordinated mutual support essential in any environment where air or sea threats are present.</p>
 </capabilities>
+
+<overview>
+<p>The Swallow Attack WiGE is a medium Wing-in-Ground-Effect combat vehicle produced by Nashan Diversified at their Furillo manufacturing complex. Drawing on the design heritage of Nashan's earlier Sturmvogel maritime patrol WiGE, the Swallow was developed to fill a fast-strike and close-support role for Lyran armed forces, combining the terrain flexibility of a WiGE with a respectable offensive punch. The design entered service in 3092 in an initial export configuration, then received a significant weapons overhaul by 3095 to better align with Lyran tactical preferences.</p><p>Known by its Germanic nickname Schwalbe within Lyran space, the vehicle found broad export success across most of the Inner Sphere, serving with mercenary units and second-line formations wherever speed and amphibious capability were valued. Its critics dismissed it as little more than a faster Hetzer, but operators familiar with WiGE tactics found its blend of speed and firepower well-suited to fast-attack operations across a wide variety of terrain.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3135, the Spotter variant was developed to meet demand for mobile forward observers capable of operating across the same difficult terrain as the rest of the Swallow family. Carrying additional sensors and fire coordination equipment, the Spotter advances ahead of heavier formations to identify and designate targets for artillery and fire support assets, then withdraws at WiGE speed before opposing forces can bring direct fire to bear.</p><p>The variant proved well-suited to worlds with broken coastal and island terrain, where its amphibious capability allowed it to reach observation positions inaccessible to wheeled or tracked alternatives. Lyran militia formations and combined-arms units operating in the early Dark Age found the Spotter effective at coordinating indirect fire against opponents attempting to exploit water obstacles as defensive barriers.</p>
@@ -164,4 +151,16 @@ ARMOR:ArcShield Heavy
 COMMUNICATIONS:Optichat
 TARGETING:T-800 Series 7
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

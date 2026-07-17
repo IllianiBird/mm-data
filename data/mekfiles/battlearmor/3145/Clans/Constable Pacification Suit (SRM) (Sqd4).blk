@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a607-7b82-bb92-e89adc08230f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Constable Pacification Suit
 <year>
 3092
 </year>
-
-<originalBuildYear>
-3092
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -95,42 +95,14 @@ BASearchlight:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:C,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Constable Pacification Suit is a light Clan-tech battle armor designed for law enforcement and counter-terrorism operations. Commissioned by the Ghost Bear Watch and produced at BA Facility Gamma on Mannedorf, the suit entered service in 3092 to address internal security threats beyond the reach of conventional police. Based on a lighter adaptation of the Rogue Bear battlesuit, the Constable offers enhanced mobility, jump capability, and a modular equipment system that allows rapid reconfiguration for different operational requirements. The suit has since spread beyond the Ghost Bear Dominion to police forces and paramilitary organizations across multiple Clan occupation zones and into the Draconis Combine.</p>
-</overview>
 
 <capabilities>
 <p>The Constable's design emphasizes mobility and operational flexibility over raw combat power, inheriting the Rogue Bear's jump-capable frame in a lighter 750-kilogram package. Standard armor provides adequate protection against small arms and fragmentation, while dual heavy grenade launchers offer scalable force through nonlethal and lethal munition options. Cutting torches round out the fixed equipment, allowing operators to breach sealed doors and structural barriers.</p><p>The SRM configuration mounts a single-tube short-range missile launcher in the modular weapon slot, giving operators anti-materiel capability that the suit's other configurations lack. The missile launcher can breach reinforced barriers, disable light vehicles, and engage hardened positions that grenade launchers cannot effectively threaten. However, the single-tube launcher carries limited ammunition, and the suit's light armor means operators must close to effective range against targets that can return fire, accepting considerable risk.</p>
 </capabilities>
+
+<overview>
+<p>The Constable Pacification Suit is a light Clan-tech battle armor designed for law enforcement and counter-terrorism operations. Commissioned by the Ghost Bear Watch and produced at BA Facility Gamma on Mannedorf, the suit entered service in 3092 to address internal security threats beyond the reach of conventional police. Based on a lighter adaptation of the Rogue Bear battlesuit, the Constable offers enhanced mobility, jump capability, and a modular equipment system that allows rapid reconfiguration for different operational requirements. The suit has since spread beyond the Ghost Bear Dominion to police forces and paramilitary organizations across multiple Clan occupation zones and into the Draconis Combine.</p>
+</overview>
 
 <deployment>
 <p>Draconis Combine agencies organized SRM-equipped Constables into four-trooper squads for operations involving hardened targets. ISF teams used the missile launcher's breaching capability to open fortified positions, with squad members alternating between SRM fire for barrier destruction and grenade launchers for nonlethal crowd management once entry was achieved.</p>
@@ -165,4 +137,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:C,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

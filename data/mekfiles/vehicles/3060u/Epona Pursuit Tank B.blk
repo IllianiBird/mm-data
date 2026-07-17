@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4d9-75ec-8603-fb2bbb918f7b
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ B
 <year>
 2884
 </year>
-
-<originalBuildYear>
-2884
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -117,30 +117,13 @@ CLStreakSRM4:OMNI
 CLUltraAC10:OMNI
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<baseChassisTurretWeight>
-1.0
-</baseChassisTurretWeight>
-
-# Fluff Date: 2026-03-05 17:18:25
-<overview>
-<p>The Epona is a fifty-ton Clan OmniVehicle designed and exclusively produced by Clan Hell's Horses. Introduced in 2884 at Niles Industriplex Alpha, the Epona was the first combat vehicle in Clan history to incorporate OmniPod technology, a reflection of the Horses' deep respect for conventional forces in an era dominated by BattleMech supremacy. Purpose-built as a fast pursuit and reconnaissance platform, the Epona operates in the most prestigious front-line Galaxies of the Horses' touman, a distinction typically reserved for OmniMechs in other Clans. The design's versatility and proven combat record have served the Hell's Horses for well over a century, yet other Clans have largely refused to adopt the concept. According to the Horses, it is only Clan bias toward BattleMechs and the hubris of rival warriors that prevents wider use of the Epona and OmniVehicles in general.</p>
-</overview>
-
 <capabilities>
 <p>The Epona is constructed on the heaviest hovercraft chassis available, giving it a stable fifty-ton platform that maximizes both pod capacity and structural integrity. A Fusion 215 engine propels the vehicle to a flanking speed of 150 kilometers per hour, making it one of the fastest medium-weight combat vehicles in any Clan touman. This speed comes at a cost, as the chassis devotes only five tons to Compound VM20 ferro-fibrous armor, leaving the Epona lightly protected for its weight class. Seventeen tons of pod space are distributed across the hull, with a maximum of ten tons mountable in the turret.</p><p>The Epona's OmniPod technology allows rapid reconfiguration between missions, but this modularity introduces crew complexity. The roles of driver, gunner, and commander shift depending on the weapons loadout, requiring each crew station to be programmable for all possible tasks. New crews must train extensively before deploying, as the transitions between configurations demand proficiency across multiple combat roles. In its Prime configuration, the vehicle mounts four medium pulse lasers and a Streak SRM-4 in the turret, providing accurate close-quarters firepower capable of threatening even BattleMechs.</p>
 </capabilities>
+
+<overview>
+<p>The Epona is a fifty-ton Clan OmniVehicle designed and exclusively produced by Clan Hell's Horses. Introduced in 2884 at Niles Industriplex Alpha, the Epona was the first combat vehicle in Clan history to incorporate OmniPod technology, a reflection of the Horses' deep respect for conventional forces in an era dominated by BattleMech supremacy. Purpose-built as a fast pursuit and reconnaissance platform, the Epona operates in the most prestigious front-line Galaxies of the Horses' touman, a distinction typically reserved for OmniMechs in other Clans. The design's versatility and proven combat record have served the Hell's Horses for well over a century, yet other Clans have largely refused to adopt the concept. According to the Horses, it is only Clan bias toward BattleMechs and the hubris of rival warriors that prevents wider use of the Epona and OmniVehicles in general.</p>
+</overview>
 
 <deployment>
 <p>The B configuration favors open terrain engagements with a turret-mounted Ultra Autocannon/10 as its primary weapon. The high rate of fire available from the ultra-class weapon gives significant burst damage potential against targets caught in the open. Two front-mounted Streak SRM-4 launchers supplement the autocannon, exploiting any breaches in enemy armor created by the main gun. This configuration trades the versatility of the Prime for concentrated kinetic firepower at medium range.</p>
@@ -173,4 +156,20 @@ ARMOR:Compound VM20 Ferro-Fibrous
 COMMUNICATIONS:Build 1700/5 Tacticom
 TARGETING:Series XL FWS
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<baseChassisTurretWeight>
+1.0
+</baseChassisTurretWeight>
 

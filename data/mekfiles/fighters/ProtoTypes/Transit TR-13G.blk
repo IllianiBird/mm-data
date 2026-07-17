@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acec-7d8e-a18c-78a4c4614682
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ TR-13G
 <year>
 3081
 </year>
-
-<originalBuildYear>
-3081
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -126,32 +126,13 @@ ISLongTomCannonAmmo
 ISLongTomCannonAmmo
 </Fuselage Equipment>
 
-
-
-
-
-
-
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Transit is one of the most recognizable medium aerospace fighters in the Capellan Confederation, having served as the de facto standard attack craft for House Liao air lances since its introduction in the early 2930s. Produced by Mujika Aerospace Technologies on Capella, the Transit emerged from a competitive evaluation in which the Capellan Confederation Armed Forces selected it for reliability and cost-effectiveness over competing designs of the era. Built around a heavy nose-mounted autocannon and a quartet of supporting medium lasers, the Transit prioritizes destructive close-range punch over speed or agility.</p><p>The Transit is not a dogfighter by design. It excels in the roles the CCAF demands of it: hunting BattleMechs from low altitude and threatening DropShips in contested airspace. Its distinctive silhouette is well known throughout the Successor States, and the fighter's reputation for tenacity has made it a fixture of both garrison and front-line Capellan aerospace forces alike.</p>
-</overview>
-
 <capabilities>
 <p>The Transit's offensive power centers on the Tomodzuru Type 20 Autocannon mounted in the nose, a weapon capable of crippling BattleMechs and devastating lightly armored targets with a single burst. Two tons of ammunition give the Transit a sustained engagement capability rarely matched by laser-armed medium fighters. Four Kajuka Type 2 "Bright Blossom" medium lasers, positioned two in the nose and one in each wing, provide reliable backup once the autocannon supply is exhausted and add meaningful secondary firepower during extended engagements.</p><p>The Mujika Aerospace Type 18 airframe is powered by a Rawlings 200 fusion engine, providing safe thrust of 6 Gs and a maximum of 9 Gs. This thrust profile is adequate for its assigned ground-support and DropShip-attack roles, but leaves the Transit at a disadvantage against more agile opposition in extended dogfights. The Mujika AeroFiber armor protection is generous for its weight class, giving the design excellent survivability in the close-attack missions it was built to perform. Capellan pilots typically rely on closing speed and initial punch rather than sustained maneuvering, making each pass count before withdrawing to rearm. The large wing surface and broad control surfaces make the Transit one of the more forgiving medium fighters in Successor State service, and it has maintained an impressive safety record given the demanding low-altitude attack runs that define its typical combat profile.</p>
 </capabilities>
+
+<overview>
+<p>The Transit is one of the most recognizable medium aerospace fighters in the Capellan Confederation, having served as the de facto standard attack craft for House Liao air lances since its introduction in the early 2930s. Produced by Mujika Aerospace Technologies on Capella, the Transit emerged from a competitive evaluation in which the Capellan Confederation Armed Forces selected it for reliability and cost-effectiveness over competing designs of the era. Built around a heavy nose-mounted autocannon and a quartet of supporting medium lasers, the Transit prioritizes destructive close-range punch over speed or agility.</p><p>The Transit is not a dogfighter by design. It excels in the roles the CCAF demands of it: hunting BattleMechs from low altitude and threatening DropShips in contested airspace. Its distinctive silhouette is well known throughout the Successor States, and the fighter's reputation for tenacity has made it a fixture of both garrison and front-line Capellan aerospace forces alike.</p>
+</overview>
 
 <deployment>
 <p>The TR-13G is a production-ready variant derived from the Transit Glare, developed when Ceres Metals Industries could not secure a reliable supply of improved heavy Gauss rifles for the experimental prototype. The solution was to replace the scarce main weapon with a Long Tom Cannon carrying three tons of ammunition, preserving the Glare's extended range advantage against DropShips and heavy targets while using a more obtainable system. The TR-13G retains the Glare's laser-reflective armor, extended-range medium lasers, and double-strength heat sinks, offering consistent performance across the Transit's typical combat profile. The variant carries notable design quirks, including demanding handling characteristics in atmosphere, reflecting the challenges of mounting such a large ballistic weapon in a medium fighter. Deployed with CCAF units from the early Dark Age period onward, the TR-13G serves as Ceres Metals' long-range solution to the evolved aerospace threats facing the Confederation.</p>
@@ -186,4 +167,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Type 28 Maser
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

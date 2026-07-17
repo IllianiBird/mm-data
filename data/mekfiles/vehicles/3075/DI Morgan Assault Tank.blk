@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5df-7e6a-bd68-3813bf6b6e67
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ DI Morgan Assault Tank
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -104,29 +104,13 @@ ISERPPC
 ISERPPC
 </Turret Equipment>
 
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-03-05 13:44:18
-<overview>
-<p>The DI Morgan Assault Tank is a 100-ton tracked assault vehicle developed by Defiance Industries and Defiance Motors during the Word of Blake Jihad, entering service in 3073. Conceived as a replacement for the aging Schrek PPC Carrier, the design prioritizes overwhelming long-range firepower, giving Lyran Alliance armored formations a capable heavy platform to fill the void left by years of devastating losses. Named in honor of Morgan Hasek-Davion at the insistence of the design's program manager, the tank carries the memory of one of the few Federated Suns figures held in genuine high regard within the Lyran Alliance. Despite its considerable unit cost, the DI Morgan has earned a receptive audience among experienced armored crews who see the arrival of a purpose-built assault tank as evidence that the Lyran war effort is beginning to stabilize.</p>
-</overview>
-
 <capabilities>
 <p>The DI Morgan mounts three Defiance 1001 extended-range particle projection cannons in the turret, delivering formidable firepower at long range across all arcs. A GM 300 XL fusion engine provides a cruising speed of 32 kilometers per hour and a flank speed of 54 kilometers per hour, adequate for a vehicle of its mass. Two Coventry Light Autogun machine guns supplement the primary battery for close-range defense against infantry threats.</p><p>The ER PPCs impose a severe thermal burden, and more than a third of the tank's total weight is devoted to managing heat under sustained fire. This thermal management requirement forced Defiance's engineers to accept comparatively light armor protection for a vehicle of this size. The hull compensates through the use of Durallex Super Ferro-Fibrous composites, extracting better protection per ton than standard plating. The Neil 6000V communications suite and Angst Clear View 2AV targeting system provide reliable battlefield coordination and fire control, with the targeting system enabling effective engagement at the extended ranges where the ER PPCs perform best. The combination of precision electronics and heavy energy weapons makes the DI Morgan a formidable but demanding platform to crew and maintain effectively.</p>
 </capabilities>
+
+<overview>
+<p>The DI Morgan Assault Tank is a 100-ton tracked assault vehicle developed by Defiance Industries and Defiance Motors during the Word of Blake Jihad, entering service in 3073. Conceived as a replacement for the aging Schrek PPC Carrier, the design prioritizes overwhelming long-range firepower, giving Lyran Alliance armored formations a capable heavy platform to fill the void left by years of devastating losses. Named in honor of Morgan Hasek-Davion at the insistence of the design's program manager, the tank carries the memory of one of the few Federated Suns figures held in genuine high regard within the Lyran Alliance. Despite its considerable unit cost, the DI Morgan has earned a receptive audience among experienced armored crews who see the arrival of a purpose-built assault tank as evidence that the Lyran war effort is beginning to stabilize.</p>
+</overview>
 
 <deployment>
 <p>The standard DI Morgan serves as a front-line heavy assault vehicle within Lyran Alliance armored formations, replacing Alacorns, Schreks, and Sturmfeurs lost during years of Blakist warfare. Defiance Industries prioritized rapid production following the liberation of Hesperus II, leveraging its intact conventional vehicle lines to maximize output. Armored crews have responded enthusiastically to the new type, viewing the deployment of a purpose-built assault tank as a signal that the Lyran war effort is stabilizing. The tank's high unit cost remains a limiting factor for smaller commands and planetary militias, prompting Defiance to offer low-interest financing arrangements to broaden access. Recipients have reportedly been reluctant to commit their financed vehicles to high-risk engagements, preferring to protect assets they are still paying for against the possibility of destruction.</p>
@@ -161,4 +145,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:6000V
 TARGETING:Clear View 2AV
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+100.0
+</tonnage>
 

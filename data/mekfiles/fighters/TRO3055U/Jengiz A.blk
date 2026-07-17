@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ae10-7204-ab73-522560d92412
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ A
 <year>
 3032
 </year>
-
-<originalBuildYear>
-3032
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -128,26 +128,13 @@ CLERSmallLaser:OMNI
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-TR:3055U
-</source>
-
-<published>
-RS:3055Uu
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Jengiz is one of the heaviest and most capable OmniFighters in Clan service, developed in 3032 by Clan Ghost Bear as a dedicated near-space combat platform. Where most fighters balance firepower against maneuverability, the Jengiz inverts this philosophy, sacrificing atmospheric agility for an extraordinary combination of armor and weapons capacity. The design attracted immediate and widespread interest across all Clans, but only Clan Wolf succeeded in the Trials of Possession required to secure the design through legitimate means. All other Clans that field the Jengiz have done so through battlefield capture, earning it a gradual but steady presence across Clan aerospace inventories far beyond its original Ghost Bear origins.</p>
-</overview>
-
 <capabilities>
 <p>The Jengiz earns its fearsome reputation through a combination of base chassis features that persist across all configurations. Thirteen and a half tons of Bruin Heavy ferro-aluminum armor provide protection comparable to many assault BattleMechs, and twenty double heat sinks on the base chassis deliver exceptional thermal dissipation capacity before a single weapon pod is loaded. With forty-three and a half tons of available pod space, the Jengiz can mount weapons suites competitive with designs considerably heavier than its eighty-ton airframe. A permanently integrated ECM suite degrades enemy fire-control computers in both atmospheric and space combat, complicating targeting solutions for any opponent attempting to coordinate fire against it.</p><p>Poor atmospheric maneuverability is the design's primary limitation, restricting its combat effectiveness in high-density atmospheric engagements where agility determines survival. In near-space and orbital environments, however, the Jengiz excels, where the ability to absorb punishment and deliver sustained firepower outweighs the value of raw speed. The primary configuration demonstrates this philosophy with a mixed loadout of a cluster-capable autocannon, ER PPC, large and medium pulse lasers, and short-range missile launchers, capable of engaging targets across all combat ranges while the ECM suite complicates enemy targeting solutions. Subsequent configurations leverage the design's enormous pod capacity to deliver specialized armament packages ranging from long-range Gauss and missile combinations to close-range ballistic and Streak missile loadouts that can strip the armor from even the most heavily protected targets.</p>
 </capabilities>
+
+<overview>
+<p>The Jengiz is one of the heaviest and most capable OmniFighters in Clan service, developed in 3032 by Clan Ghost Bear as a dedicated near-space combat platform. Where most fighters balance firepower against maneuverability, the Jengiz inverts this philosophy, sacrificing atmospheric agility for an extraordinary combination of armor and weapons capacity. The design attracted immediate and widespread interest across all Clans, but only Clan Wolf succeeded in the Trials of Possession required to secure the design through legitimate means. All other Clans that field the Jengiz have done so through battlefield capture, earning it a gradual but steady presence across Clan aerospace inventories far beyond its original Ghost Bear origins.</p>
+</overview>
 
 <deployment>
 <p>The A configuration transforms the Jengiz into a dedicated ground-attack and strafing platform. Twin ER PPCs in the nose and large pulse lasers under each wing create a pure energy loadout optimized for repeated attack runs, while seven additional double heat sinks manage the considerable thermal output. A single aft-mounted small laser provides minimal defensive coverage against pursuit. Ghost Bear aerospace Stars deploy the A configuration against surface targets, large DropShips, and fortified positions where sustained energy fire is more valuable than ammunition logistics.</p>
@@ -180,4 +167,16 @@ ARMOR:Bruin Heavy Ferro-Aluminum
 COMMUNICATIONS:Vox 91
 TARGETING:Hunter 62B
 </systemModels>
+
+<source>
+TR:3055U
+</source>
+
+<published>
+RS:3055Uu
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

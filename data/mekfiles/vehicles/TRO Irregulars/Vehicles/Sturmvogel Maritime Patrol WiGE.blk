@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea80-7b1e-928e-5ed05d07c074
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Sturmvogel Maritime Patrol WiGE
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -122,30 +122,13 @@ RemoteSensorDispenser
 4
 </engine_tech_rating>
 
-<source>
-TR:I
-</source>
-
-<published>
-TR:I
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Sturmvogel Maritime Patrol WiGE is Nashan Diversified's answer to the coastal patrol and maritime security needs of the Lyran Alliance following its secession from the Federated Commonwealth. Originally conceived as a military gunship, the design was refocused toward coast guard and militia applications when Nashan recognized broader commercial potential in a fast, versatile patrol craft. Built on Furillo and introduced in 3063, the Sturmvogel, whose name translates roughly as Storm Bird, quickly earned a reputation for flexibility and endurance, serving in conditions ranging from tropical island chains to subarctic coastlines. Its well-publicized performance during the Word of Blake siege of Tharkad cemented its standing as a valuable light patrol asset, expanding its market to coast guards and planetary militias well beyond Lyran territory.</p>
-</overview>
-
 <capabilities>
 <p>The Sturmvogel's primary asset is speed. Its fusion power plant drives the craft to a maximum speed exceeding 120 kilometers per hour with an unlimited operational range, making it well suited to extended patrol missions far from support facilities. The main armament is a single rotary autocannon paired with a battery of four mine dispensers, a combination that lets crews engage pursuing vessels directly or lay area-denial fields to channel enemies into kill zones. An onboard remote sensor dispenser supports search and rescue operations, helping detect missing vessels and hidden contacts across wide stretches of coastline and open water.</p><p>A cargo bay can carry rescue equipment on patrol missions or be converted for a boarding party when interdiction operations require it. The craft's modular architecture makes swapping weapons and equipment straightforward, allowing rapid reconfiguration for different mission profiles.</p><p>The Sturmvogel's most significant weakness is its light armor. Crews compensate by exploiting the WiGE's mobility over terrain that would stop conventional vehicles, avoiding direct engagement whenever possible. The design was never intended for front-line combat, and commanders who use it in that role pay a steep price.</p>
 </capabilities>
+
+<overview>
+<p>The Sturmvogel Maritime Patrol WiGE is Nashan Diversified's answer to the coastal patrol and maritime security needs of the Lyran Alliance following its secession from the Federated Commonwealth. Originally conceived as a military gunship, the design was refocused toward coast guard and militia applications when Nashan recognized broader commercial potential in a fast, versatile patrol craft. Built on Furillo and introduced in 3063, the Sturmvogel, whose name translates roughly as Storm Bird, quickly earned a reputation for flexibility and endurance, serving in conditions ranging from tropical island chains to subarctic coastlines. Its well-publicized performance during the Word of Blake siege of Tharkad cemented its standing as a valuable light patrol asset, expanding its market to coast guards and planetary militias well beyond Lyran territory.</p>
+</overview>
 
 <deployment>
 <p>The standard Sturmvogel is deployed as a coastal patrol and fast interception craft, most commonly with coast guard units and planetary militias. Crews use the mine dispensers to pre-deploy barrier fields in predictable pirate lanes, or release mines directly in a pursuer's path when being chased. The remote sensor dispenser gives the craft a strong search and rescue capability, and the cargo bay is ordinarily stocked with rescue equipment rather than weapon stores. The craft operates equally well over open ocean, coastal wetlands, and frozen tundra, making it effective wherever conventional watercraft cannot follow.</p>
@@ -178,4 +161,20 @@ ARMOR:ArcShield Heavy Indi
 COMMUNICATIONS:Optichat
 TARGETING:T-800 Series 4
 </systemModels>
+
+<source>
+TR:I
+</source>
+
+<published>
+TR:I
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

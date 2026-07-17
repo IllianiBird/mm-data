@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bf4b-7759-9cf7-7603869402aa
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Foot Squad (Anti-'Mech)
 <year>
 1900
 </year>
-
-<originalBuildYear>
-1900
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -52,6 +52,10 @@ AntiMekGear
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Anti-BattleMech foot squads are squad-strength formations trained in close-assault tactics against armored combat vehicles. Smaller than a full anti-BattleMech platoon, these squads rely on stealth, ambush positioning, and terrain advantage to close with targets that outmass them by orders of magnitude. Their reduced numbers make each engagement a high-risk commitment, but in restrictive terrain where a single BattleMech can be isolated, even a squad of trained anti-BattleMech infantry poses a credible threat to leg actuators, sensor arrays, and exposed weapon housings.</p>
+</overview>
+
 <source>
 TW
 </source>
@@ -67,9 +71,4 @@ TW
 <Primary>
 InfantryAssaultRifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Anti-BattleMech foot squads are squad-strength formations trained in close-assault tactics against armored combat vehicles. Smaller than a full anti-BattleMech platoon, these squads rely on stealth, ambush positioning, and terrain advantage to close with targets that outmass them by orders of magnitude. Their reduced numbers make each engagement a high-risk commitment, but in restrictive terrain where a single BattleMech can be isolated, even a squad of trained anti-BattleMech infantry poses a credible threat to leg actuators, sensor arrays, and exposed weapon housings.</p>
-</overview>
 

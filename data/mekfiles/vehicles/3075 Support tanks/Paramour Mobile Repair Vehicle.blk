@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e67e-781a-8912-e1f77ce45fac
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Paramour Mobile Repair Vehicle
 <year>
 2557
 </year>
-
-<originalBuildYear>
-2557
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -116,30 +116,13 @@ Lift Hoist/Arresting Hoist
 3
 </engine_tech_rating>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-09 21:44:37
-<overview>
-<p>The Paramour Mobile Repair Vehicle was introduced in 2557 by Gilbert, Sachs, and Belafonte, a Tiber-based conglomerate in the Free Worlds League. Designed during the period when the League prepared to join the Star League, the Paramour represented a deliberate strategic choice to invest in logistics rather than direct combat capability. GSB, Inc. applied its expertise in luxury rough-terrain vehicles to create a mobile repair platform that would keep FWLM units operating at peak readiness in the field. The result was a vehicle that combined comfort, reliability, and genuine utility in a sixty-ton tracked chassis. The FWLM was so impressed with the design that it purchased every Paramour produced. Though the vehicle's polished appearance sometimes drew mockery from combat formations, the Paramour earned lasting respect through the competence and professionalism of its crews.</p>
-</overview>
-
 <capabilities>
 <p>The Paramour is built on a sixty-ton tracked chassis powered by a fusion engine capable of reaching speeds up to 65 km/h. This mobility allows it to keep pace with armored formations while carrying the tools and parts needed for field repairs. The vehicle's primary asset is its spacious cargo area, which holds fifteen tons of spare parts and equipment for a wide variety of maintenance tasks. A pair of lift hoists enables the Paramour to handle loads up to sixty tons each, sufficient to lift and reposition damaged BattleMechs or heavy combat vehicles on the battlefield.</p><p>The crew compartment accommodates three personnel, with quarters comfortable enough to serve as a mobile field headquarters for quartermasters. A five-ton infantry bay provides space for additional technicians or a security detail. For self-defense, the vehicle mounts a single GM MiniGun machine gun in the front, providing a visible deterrent without adding excessive weight. BAR 6 armor offers adequate protection against small arms fire and shrapnel, while the armored chassis and controls modification provides additional resilience. The Paramour was never intended to see direct combat, and its light armament reflects that design philosophy.</p>
 </capabilities>
+
+<overview>
+<p>The Paramour Mobile Repair Vehicle was introduced in 2557 by Gilbert, Sachs, and Belafonte, a Tiber-based conglomerate in the Free Worlds League. Designed during the period when the League prepared to join the Star League, the Paramour represented a deliberate strategic choice to invest in logistics rather than direct combat capability. GSB, Inc. applied its expertise in luxury rough-terrain vehicles to create a mobile repair platform that would keep FWLM units operating at peak readiness in the field. The result was a vehicle that combined comfort, reliability, and genuine utility in a sixty-ton tracked chassis. The FWLM was so impressed with the design that it purchased every Paramour produced. Though the vehicle's polished appearance sometimes drew mockery from combat formations, the Paramour earned lasting respect through the competence and professionalism of its crews.</p>
+</overview>
 
 <deployment>
 <p>The base Paramour was deployed exclusively with Free Worlds League Military formations from its introduction in 2557 through the Star League era and into the Succession Wars. As a dedicated logistics platform, it served in support echelons behind the front lines, maintaining and repairing BattleMechs and vehicles damaged in combat. The vehicle's combination of cargo capacity and lifting power made it particularly valuable to independent FWLM regiments operating far from fixed repair facilities.</p>
@@ -172,4 +155,20 @@ ARMOR:BAR 6 Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

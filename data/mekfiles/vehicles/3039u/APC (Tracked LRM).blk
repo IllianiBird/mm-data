@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e24b-7cc7-b5b2-ae17cc3f171e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Armored Personnel Carrier
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -96,30 +96,13 @@ LRM 5
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
-</overview>
-
 <capabilities>
 <p>The LRM variant of the tracked APC eliminates the infantry compartment, turret, and machine gun to mount a forward-firing LRM-5 launcher with one ton of ammunition. This conversion completely removes the vehicle's troop-carrying capability, repurposing the robust tracked chassis as a light missile platform. Forty points of standard armor distributed evenly across all facings provide solid protection for a vehicle of its weight class.</p><p>Operating at the same maximum speed of approximately ninety-seven kilometers per hour, the tracked LRM variant offers better survivability than the hover LRM conversion thanks to its heavier armor. Garrison forces and militia commands favor this variant for providing indirect fire support from hull-down positions, where the tracked chassis can negotiate rough terrain to reach firing positions inaccessible to wheeled vehicles.</p>
 </capabilities>
+
+<overview>
+<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
+</overview>
 
 <deployment>
 <p>The tracked LRM conversion serves garrison and militia forces across the Inner Sphere, providing cheap indirect fire support from positions accessible only to tracked vehicles. The variant sees particularly heavy use in mountainous and forested regions where its ability to reach hull-down firing positions in rough terrain gives it a significant tactical advantage over wheeled or hover LRM platforms.</p>
@@ -150,4 +133,20 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+10.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

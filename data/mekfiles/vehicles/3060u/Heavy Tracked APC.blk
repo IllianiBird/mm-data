@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e50c-7d3f-b557-c6eb15e5063a
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Heavy Tracked APC
 <year>
 2470
 </year>
-
-<originalBuildYear>
-2470
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -101,30 +101,13 @@ Machine Gun
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Heavy Tracked APC carries six tons of infantry -- sufficient for two full platoons of standard foot infantry or one platoon of motorized or jump troops -- on a robust tracked chassis that can negotiate virtually any terrain. An internal combustion engine propels the twenty-ton vehicle to a maximum speed of approximately eighty-six kilometers per hour, making it the slowest of the three Heavy APC configurations but the most reliable in rough terrain. Two front-mounted machine guns provide anti-infantry defense.</p><p>Fifty-six points of standard armor provide the same level of protection as the hover and wheeled heavy variants, concentrated on the front and flanks with reduced rear coverage around the assault ramp. The tracked drive system's all-terrain capability makes this variant the preferred transport for operations in rough, forested, or mountainous terrain where hover vehicles cannot operate and wheeled vehicles struggle. The lack of a turret restricts machine gun fire to the forward arc.</p>
 </capabilities>
+
+<overview>
+<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Heavy Tracked APC is the preferred heavy transport for formations operating in rough terrain, where its tracked drive system provides reliable mobility that hover and wheeled vehicles cannot match. The Draconis Combine and Free Worlds League field particularly large numbers, favoring the tracked variant's all-terrain capability for operations across their varied and often undeveloped frontier worlds.</p>
@@ -155,4 +138,20 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e83c-764e-bcdf-de334c7016c0
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Huitzilopochtli Assault Tank 'Huey'
 <year>
 3147
 </year>
-
-<originalBuildYear>
-3147
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -119,30 +119,13 @@ CLMediumPulseLaser
 CLERSmallLaser
 </Turret Equipment>
 
-<source>
-TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-08 16:13:24
-<overview>
-<p>The Huitzilopochtli is a Clan assault-weight tracked combat vehicle designed as a mobile artillery platform. Descended from the Star League Defense Force's Padilla heavy artillery tank, the design was authorized by ilKhan Nicholas Kerensky after the Pentagon Civil War destroyed most of the artillery vehicles the Clans' forebears had brought on the Exodus. First produced in 2845, the vehicle quickly earned the nickname "Huey" among crews. The Clans' well-documented disdain for both artillery and combat vehicles ensured the Huitzilopochtli received minimal investment during its development, resulting in a slow, lightly armored platform powered by a conventional engine. Despite these shortcomings, the Huey fills a necessary role that few other Clan designs address, providing indirect fire support at ranges exceeding three kilometers.</p>
-</overview>
-
 <capabilities>
 <p>Twin Arrow IV launchers dominate the forward hull, each capable of striking targets more than three kilometers away. Four tons of ammunition allow crews to load a mix of TAG-homing missiles for precision strikes and area-effect rounds for saturation bombardment, along with field artillery scatterable mine submunitions. The vehicle's internal combustion engine limits it to a flanking speed of just 32 km/h, making it too slow to reposition under its own power in most tactical situations. DropShip transport is the standard method of moving Hueys to their operational areas.</p><p>Secondary armament centers on a turret-mounted ultra autocannon for medium-range defense, paired with two medium pulse lasers offering accurate fire against both armored and unarmored targets. An extended-range small laser supplements the turret weapons at close range. Side-mounted machine guns provide anti-infantry coverage along the vehicle's flanks. A broad-band ECM suite offers the Huey's most meaningful layer of protection, jamming enemy sensors and targeting systems to degrade incoming fire. Standard armor provides only modest physical protection at five and a half tons, a deliberate cost-saving measure reflecting the expectation that the vehicle would operate far behind the front lines.</p>
 </capabilities>
+
+<overview>
+<p>The Huitzilopochtli is a Clan assault-weight tracked combat vehicle designed as a mobile artillery platform. Descended from the Star League Defense Force's Padilla heavy artillery tank, the design was authorized by ilKhan Nicholas Kerensky after the Pentagon Civil War destroyed most of the artillery vehicles the Clans' forebears had brought on the Exodus. First produced in 2845, the vehicle quickly earned the nickname "Huey" among crews. The Clans' well-documented disdain for both artillery and combat vehicles ensured the Huitzilopochtli received minimal investment during its development, resulting in a slow, lightly armored platform powered by a conventional engine. Despite these shortcomings, the Huey fills a necessary role that few other Clan designs address, providing indirect fire support at ranges exceeding three kilometers.</p>
+</overview>
 
 <deployment>
 <p>The Streak variant follows the same Jade Falcon refit program as the LRM configuration, produced at Trellshire Heavy Industries on Sudeten. Like its sibling, it receives hardened armor to bolster the Huey's notoriously thin shell. Rather than Artemis-enhanced LRMs, this version upgrades its missile systems with Streak technology, ensuring that missiles only fire when a solid lock is achieved. This ammunition-efficient approach suits the Huitzilopochtli's logistical challenges, as the vehicle's slow speed already complicates resupply in the field.</p>
@@ -175,4 +158,20 @@ ARMOR:Hardened
 COMMUNICATIONS:TJ6 "Bell" Integrated
 TARGETING:Series VI TTS
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+85.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

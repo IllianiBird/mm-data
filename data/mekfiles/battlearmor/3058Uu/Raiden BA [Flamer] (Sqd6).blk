@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a318-788f-8d18-f35b1a70b375
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Raiden Battle Armor
 <year>
 3055
 </year>
-
-<originalBuildYear>
-3055
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -90,38 +90,14 @@ BABattleClaw:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Raiden is a medium-weight battle armor developed by the Draconis Combine as an improvement on the Inner Sphere Standard design. Produced by Luthien Armor Works and New Samarkand Metals, the suit entered full production in 3055 after an intensive development program that began with captured Clan technology. Jump-capable and heavily armored for its weight class, the Raiden carries a modular weapon mount that accepts a range of infantry-scale weapons, along with a battle claw for anti-BattleMech operations and OmniMech transport. The suit became the preferred powered armor of the DCMS, earning a fearsome reputation across decades of service with the Dragon's infantry forces.</p>
-</overview>
 
 <capabilities>
 <p>The flamer configuration mounts a battle armor-scale flamer in the suit's right-arm modular weapon mount. This loadout excels at clearing fortified positions and engaging conventional infantry, where the flamer's area-effect coverage compensates for its limited range. The left arm carries a battle claw that allows troopers to make anti-BattleMech attacks and ride OmniMechs into combat. Three jump jets provide ninety meters of jump capability, giving troopers the mobility to exploit vertical terrain and close rapidly with entrenched defenders. The suit's 450 kilograms of standard armor, achieved through an advanced polymer bonding process, can absorb a direct hit from a large pulse laser while keeping the trooper combat-effective. At one thousand kilograms total mass, the Raiden sits at the upper limit for mechanized battle armor operations, trading the lighter profile of scout suits for substantially greater protection and striking power.</p>
 </capabilities>
+
+<overview>
+<p>The Raiden is a medium-weight battle armor developed by the Draconis Combine as an improvement on the Inner Sphere Standard design. Produced by Luthien Armor Works and New Samarkand Metals, the suit entered full production in 3055 after an intensive development program that began with captured Clan technology. Jump-capable and heavily armored for its weight class, the Raiden carries a modular weapon mount that accepts a range of infantry-scale weapons, along with a battle claw for anti-BattleMech operations and OmniMech transport. The suit became the preferred powered armor of the DCMS, earning a fearsome reputation across decades of service with the Dragon's infantry forces.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake Militia forces organized Raiden suits seized during the Jihad into six-trooper Level I formations. The flamer variant proved useful during the Blakist occupation of Combine worlds, where Level I teams conducted clearance operations against resistance cells sheltering in urban and industrial complexes.</p>
@@ -156,4 +132,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a18a-74c3-89d5-40f2ef961201
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Achileus Light Battle Armor
 <year>
 3057
 </year>
-
-<originalBuildYear>
-3057
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -92,42 +92,14 @@ IS BA Stealth (Improved):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Achileus is a light battle armor suit developed jointly by the Free Worlds League and the Word of Blake. Designed as a mass-produced alternative to custom-manufacture stealth suits, the Achileus combined offensive armament with electronic stealth capability in a package suitable for large-scale deployment. Entering service in 3057, the suit filled a critical gap in both the FWLM and Word of Blake Militia force structures, providing infantry formations with a jump-capable scout platform that could evade electronic detection. Production was handled by facilities on Irian and Gibson within the Free Worlds League.</p>
-</overview>
 
 <capabilities>
 <p>This configuration equips the Achileus with a machine gun on its right-arm modular weapon mount, providing high-volume anti-infantry firepower. The machine gun's rapid rate of fire makes it particularly effective against unarmored personnel and light vehicles, though its reliance on ammunition limits sustained operations compared to energy-armed variants. The left arm carries a secondary anti-personnel weapon mount, and both arms retain their basic manipulators for object handling and infiltration tasks. Jump jets allow 90-meter leaps for rapid repositioning, while 360 kilograms of improved stealth armor provides sensor shielding and light ballistic protection. The machine gun configuration saw wide adoption among security detachments, where suppressive firepower against conventional infantry was valued over anti-armor capability.</p>
 </capabilities>
+
+<overview>
+<p>The Achileus is a light battle armor suit developed jointly by the Free Worlds League and the Word of Blake. Designed as a mass-produced alternative to custom-manufacture stealth suits, the Achileus combined offensive armament with electronic stealth capability in a package suitable for large-scale deployment. Entering service in 3057, the suit filled a critical gap in both the FWLM and Word of Blake Militia force structures, providing infantry formations with a jump-capable scout platform that could evade electronic detection. Production was handled by facilities on Irian and Gibson within the Free Worlds League.</p>
+</overview>
 
 <deployment>
 <p>Machine gun-armed four-trooper squads were among the most common Achileus formations in FWLM service. Assigned to general anti-infantry roles within line regiments, these squads provided suppressive fire support during conventional infantry engagements. The configuration's high volume of fire made it effective in the anti-personnel role, though squads required regular ammunition resupply during sustained operations.</p>
@@ -162,4 +134,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

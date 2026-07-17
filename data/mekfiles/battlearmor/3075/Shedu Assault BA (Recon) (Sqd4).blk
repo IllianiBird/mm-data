@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a47a-71d5-8015-cc8eacfe48d0
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Shedu Assault Battle Armor
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -87,42 +87,14 @@ IS BA Advanced:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-15
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
 
 <capabilities>
 <p>The recon Shedu is perhaps the most unusual of the type's configurations, replacing direct firepower with electronic warfare and indirect fire capability. An electronic camouflage system and light ECM suite render the suit nearly invisible to sensors, while improved sensors allow the trooper to detect enemy forces at extended range. A light mortar provides indirect fire support, enabling the squad to engage enemies from concealment without revealing their position. The 600 kilograms of advanced armor and quad chassis mobility are retained. This configuration turns the Shedu into a battlefield predator that hunts through stealth and patience rather than brute force, locating enemy formations and either eliminating soft targets with mortar fire or calling in heavier assets to deal with armored opposition.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>The recon Shedu's electronic warfare suite and mortar made it highly attractive to allied intelligence services. Four-trooper squads equipped with camouflage, ECM, and improved sensors provided capabilities that most Inner Sphere battle armor designs could not match. The indirect fire mortar added a dimension rarely seen in battle armor, making this one of the most studied Demon configurations after the war.</p>
@@ -155,4 +127,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+15
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

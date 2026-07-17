@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec7b-76ce-9f5c-21873cf9de0c
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Rommel Tank
 <year>
 3077
 </year>
-
-<originalBuildYear>
-3077
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -112,33 +112,13 @@ ISLongTomCannon
 Thunderbolt 5
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-XTR:Steiner
-</source>
-
-<published>
-XTR:Steiner
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 12:09:09
-<overview>
-<p>The Rommel is the companion vehicle to the Patton, developed simultaneously by Defiance Industries as part of the same Lyran program to create modern combat vehicles without relying on degraded Star League designs. Where the Patton was conceived as a main battle tank, the Rommel was designed as a support platform and city-fighting specialist, with a particularly low profile suited to urban operations and confined terrain. The two vehicles share a chassis, powerplant, and many components, simplifying logistics for units operating a mix of both types. The Rommel's evolution over its long service life carried it from general-purpose support tank to increasingly specialized roles, with later variants transforming it into a dedicated artillery vehicle capable of reshaping the battlefield from standoff range.</p>
-</overview>
-
 <capabilities>
 <p>The Rommel's most distinctive physical characteristic is its extremely low silhouette, which sets it apart from most vehicles of comparable mass. This profile allows crews to exploit urban terrain, hull-down positions, and narrow city streets that would be impassable for taller vehicles. Its turret carries a Defiance 'Mech Hunter Autocannon, a weapon redesigned from the original stock autocannon to fit the low-profile turret, along with a Coventry Five-Tube Missile System and a small laser for close-range defense. Early production models allowed missile exhaust into the crew compartment, a manufacturing defect corrected in later runs.</p><p>The vehicle shares the Magna 260 fusion engine with the Patton, giving it the same logistical advantages and operational range. Its armor, roughly eleven tons of Durallex Heavy, is slightly lighter than the Patton's, reflecting the Rommel's secondary role as a support vehicle rather than a primary line combatant. The Rommel is not well suited to direct assault without fire support, and close-range infantry remain a persistent threat given the limited anti-personnel armament.</p><p>Later variants diverge sharply from the standard configuration. The Gauss-armed model trades the autocannon for a longer-ranged ballistic weapon with improved anti-armor lethality. The Howitzer configuration transforms the Rommel into a dedicated indirect-fire platform, accepting a reduction in speed for the ability to project Long Tom artillery fire across the battlefield. The Sealed variant replaces the main gun with a heavy energy weapon and torpedo capability, optimizing the chassis for amphibious and hazardous-environment operations.</p>
 </capabilities>
+
+<overview>
+<p>The Rommel is the companion vehicle to the Patton, developed simultaneously by Defiance Industries as part of the same Lyran program to create modern combat vehicles without relying on degraded Star League designs. Where the Patton was conceived as a main battle tank, the Rommel was designed as a support platform and city-fighting specialist, with a particularly low profile suited to urban operations and confined terrain. The two vehicles share a chassis, powerplant, and many components, simplifying logistics for units operating a mix of both types. The Rommel's evolution over its long service life carried it from general-purpose support tank to increasingly specialized roles, with later variants transforming it into a dedicated artillery vehicle capable of reshaping the battlefield from standoff range.</p>
+</overview>
 
 <deployment>
 <p>The Rommel Howitzer Prototype was developed at the Defiance Manufacturing Annex at Kwangjong-ni beginning in 3077 as part of a vehicular modernization study. Six prototypes were produced and assigned to the factory defense reserve at Kwangjong-ni while production and logistical concerns were resolved. The Prototype uses an extralight engine, which proved too costly for series production and was replaced with a heavier standard engine in the production model. It saw no significant combat deployment outside the factory reserve role.</p>
@@ -155,4 +135,16 @@ Defiance Manufacturing Annex
 <primaryFactory>
 Kwangjong-ni
 </primaryFactory>
+
+<source>
+XTR:Steiner
+</source>
+
+<published>
+XTR:Steiner
+</published>
+
+<tonnage>
+65.0
+</tonnage>
 

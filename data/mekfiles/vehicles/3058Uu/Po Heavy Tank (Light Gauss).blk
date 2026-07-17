@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e466-75d3-aa81-3905aa65deb8
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Po Heavy Tank
 <year>
 3059
 </year>
-
-<originalBuildYear>
-3059
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -107,30 +107,13 @@ ISLightGaussRifle
 Machine Gun
 </Turret Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Po Heavy Tank is the Capellan Confederation's defining budget combat vehicle, introduced in 3031 to rapidly rebuild the Confederation's depleted military following the Fourth Succession War. Designed by Ivan Maladev at the direction of Chancellor Romano Liao, the Po prioritizes simplicity, low cost, and ease of field maintenance over advanced technology. Named by Liao for a mischievous and vengeful spirit of Chinese tradition, the tank quickly became the standard combat vehicle on Capellan worlds without significant 'Mech forces. Its combination of serviceable firepower, decent protection, and a low price made it an attractive export to the Magistracy of Canopus, the Free Worlds League, and mercenary formations throughout the Inner Sphere. Over the following decades Ceres Metals Industries expanded production to additional facilities and the basic hull spawned several upgrade variants as technology became more available across the Confederation.</p>
-</overview>
-
 <capabilities>
 <p>The Po's main offensive weapon is the turret-mounted Ceres Arms Model T Class 10 Autocannon, a well-proven system with an excellent combat record against light and medium 'Mechs. The autocannon is supplied with enough ammunition to sustain several minutes of heavy combat. Two Maxi Mini Machine Guns supplement the main gun, providing close-in defense against infantry, with one mounted alongside the autocannon in the turret and another in a ball joint on the hull front.</p><p>Powered by the Ceres 240 internal combustion engine, the Po reaches a maximum flank speed of 65 km/h. The ICE powerplant is the tank's most important practical advantage: it is cheap to produce, straightforward to service in the field, and replacement parts are available across most Inner Sphere worlds. The CeresCom Model 37-P communications suite and Ceres/Maladev 3 targeting system are competent electronics that favor reliability over advanced capability. Ten and a half tons of Starshield Type V armor provide respectable protection for the weight class.</p><p>The design's weaknesses are the other face of its strengths. The ICE engine carries fire risk from fuel and produces a significant exhaust signature. The autocannon, while effective, cannot match the range of Gauss-armed competitors or the ammunition flexibility of LB-X systems. Against well-armored heavy vehicles the Po frequently requires lance-level coordination to achieve kills, making it a poor choice for independent operations against capable opponents.</p>
 </capabilities>
+
+<overview>
+<p>The Po Heavy Tank is the Capellan Confederation's defining budget combat vehicle, introduced in 3031 to rapidly rebuild the Confederation's depleted military following the Fourth Succession War. Designed by Ivan Maladev at the direction of Chancellor Romano Liao, the Po prioritizes simplicity, low cost, and ease of field maintenance over advanced technology. Named by Liao for a mischievous and vengeful spirit of Chinese tradition, the tank quickly became the standard combat vehicle on Capellan worlds without significant 'Mech forces. Its combination of serviceable firepower, decent protection, and a low price made it an attractive export to the Magistracy of Canopus, the Free Worlds League, and mercenary formations throughout the Inner Sphere. Over the following decades Ceres Metals Industries expanded production to additional facilities and the basic hull spawned several upgrade variants as technology became more available across the Confederation.</p>
+</overview>
 
 <deployment>
 <p>The Light Gauss variant originated as an FWLM testbed in the late 3050s, with the Free Worlds League experimenting with extended-range alternatives for their purchased Po fleets. Despite improved range over the standard autocannon, the reduction in raw firepower made the variant unpopular with tank crews and Ceres discontinued production in 3064. The design experienced a second life in the Dark Age, when Majesty Metals and Manufacturing began producing it at Dunianshire and Luxen for Magistracy customers who valued the longer engagement range in a frontier defensive role.</p>
@@ -163,4 +146,20 @@ ARMOR:Type V
 COMMUNICATIONS:Model 37-P
 TARGETING:Maladev 3
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

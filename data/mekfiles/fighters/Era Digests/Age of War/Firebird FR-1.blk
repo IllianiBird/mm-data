@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ac6a-7942-bf59-838973ba5b90
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ FR-1
 <year>
 2390
 </year>
-
-<originalBuildYear>
-2390
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -124,34 +124,13 @@ IS Ammo LRM-10
 IS Ammo LRM-10
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-ED:AoW
-</source>
-
-<published>
-ED:AoW
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Firebird is a forty-five-ton light aerospace fighter designed by Mujika Aerospace Technologies on Capella during the Age of War. Commissioned by the Capellan Confederation Armed Forces, the craft was intended to serve as a representative transitional design during the rapid evolution of aerospace technology in the early twenty-fifth century. Bridging the gap between archaic atmospheric craft and the more capable modern fighters that would soon follow, the Firebird was built to fill a niche that was already shrinking by the time production began. Underpowered and lightly armored by the standards of even its own era, the fighter earned a reputation as a craft whose designers had been overtaken by progress before their work was complete.</p>
-</overview>
-
 <capabilities>
 <p>Built around a Rawlings 165-F primitive fusion engine, the Firebird suffers from sluggish atmospheric performance and poor maneuverability. Its deep fuel reserves allow it to build respectable velocity in space, but this advantage rarely translates into a meaningful combat edge. The Mujika AeroPlate armor is thin throughout, though the nose section carries enough protection to absorb at least one or two hits from period weapons. The rear quarters, however, are dangerously exposed, and the fighter lacks any aft-mounted weapons to discourage pursuit.</p><p>Recognizing these limitations, the designers focused the armament on long-range engagement. A pair of wing-mounted Zeus LRM 10 launchers and a nose-mounted Imperator-D autocannon give the Firebird a potent ranged punch, allowing it to strike from well beyond most opponents' effective reach. Standard tactics called for pilots to make one or two slashing attack runs before hitting afterburners and disengaging, either returning to base or repositioning for another pass. The Endicott Type 20 communications system and Dwyerson Mark IX targeting system are adequate for the era but offer no particular advantage. The total reliance on frontal firepower and the inability to defend against rear attackers remain the design's most critical shortcomings.</p>
 </capabilities>
+
+<overview>
+<p>The Firebird is a forty-five-ton light aerospace fighter designed by Mujika Aerospace Technologies on Capella during the Age of War. Commissioned by the Capellan Confederation Armed Forces, the craft was intended to serve as a representative transitional design during the rapid evolution of aerospace technology in the early twenty-fifth century. Bridging the gap between archaic atmospheric craft and the more capable modern fighters that would soon follow, the Firebird was built to fill a niche that was already shrinking by the time production began. Underpowered and lightly armored by the standards of even its own era, the fighter earned a reputation as a craft whose designers had been overtaken by progress before their work was complete.</p>
+</overview>
 
 <deployment>
 <p>The FR-1 is the sole production model of the Firebird, with no known variants developed during its brief operational lifespan. Produced exclusively at the Mujika Aerospace Technologies plant on Capella, the fighter served in limited numbers with Capellan Confederation garrison and patrol formations. Its role was primarily defensive, providing long-range fire support in engagements where its lack of maneuverability and rear protection could be partially mitigated by operating alongside more agile conventional fighters.</p>
@@ -184,4 +163,16 @@ ARMOR:AeroPlate
 COMMUNICATIONS:Type 20
 TARGETING:Mark IX
 </systemModels>
+
+<source>
+ED:AoW
+</source>
+
+<published>
+ED:AoW
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b87d-77a2-b83a-b99437b3b6d3
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Foot Platoon (CCAF)
 <year>
 3055
 </year>
-
-<originalBuildYear>
-3055
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -57,7 +57,9 @@ Sneak Suit (Camo/IR/ECM)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. CCAF foot platoons anchor the Confederation's garrison network, holding worlds that BattleMech forces cannot permanently occupy. Slow and vulnerable in open terrain, they depend on prepared positions and local knowledge to offset their lack of mobility. These demolition teams carry Striker carbines for personal defense while specializing in explosive ordnance disposal and structural demolition operations behind enemy lines.</p>
+</overview>
 
 <notes>
 Intro date based on prototype availability for Striker Carbine
@@ -90,9 +92,4 @@ true
 <specialization>
 514
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. CCAF foot platoons anchor the Confederation's garrison network, holding worlds that BattleMech forces cannot permanently occupy. Slow and vulnerable in open terrain, they depend on prepared positions and local knowledge to offset their lack of mobility. These demolition teams carry Striker carbines for personal defense while specializing in explosive ordnance disposal and structural demolition operations behind enemy lines.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e926-7b44-a1e5-e5cc74833e5e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Weapon Carrier (Tracked)
 <year>
 2775
 </year>
-
-<originalBuildYear>
-2775
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -109,22 +109,13 @@ LRM 5
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-His:LoT2
-</source>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 19:27:01
-<overview>
-<p>The Weapon Carrier is a sixty-ton tracked combat vehicle designed by SLDF engineers during the Star League Civil War as a rapidly produced fire support platform. Based on earlier Age of War primitive weapons carriers, the design was manufactured by Drago, Ltd. of Skye as one of many companies mass-producing vehicles to replace losses during the Amaris Coup. Unlike the Quikscell carrier family built around internal combustion engines and minimal protection, the Weapon Carrier utilized a fusion powerplant and ferro-fibrous armor, providing substantially greater survivability at the cost of higher production complexity.</p>
-</overview>
-
 <capabilities>
 <p>The Ultra/5 variant mounts three Ultra AC/5 autocannons, providing sustained medium-range fire support with the option to double the rate of fire at the risk of weapon jams. A single LRM-5 launcher supplements the autocannon battery. Four tons of Ultra AC/5 ammunition provide adequate endurance for extended engagements.</p><p>The same GM 180 fusion engine, Aldis Heavy Ferro-Fibrous armor, Initrode Widecom communications, and RCA Instatrac Mark VI targeting equip this variant. The Ultra/5 was considered the least successful of the three configurations, lacking both the devastating alpha strike of the AC/20 variant and the versatile ammunition options of the LB-X model.</p>
 </capabilities>
+
+<overview>
+<p>The Weapon Carrier is a sixty-ton tracked combat vehicle designed by SLDF engineers during the Star League Civil War as a rapidly produced fire support platform. Based on earlier Age of War primitive weapons carriers, the design was manufactured by Drago, Ltd. of Skye as one of many companies mass-producing vehicles to replace losses during the Amaris Coup. Unlike the Quikscell carrier family built around internal combustion engines and minimal protection, the Weapon Carrier utilized a fusion powerplant and ferro-fibrous armor, providing substantially greater survivability at the cost of higher production complexity.</p>
+</overview>
 
 <deployment>
 <p>The Ultra/5 variant saw the least widespread adoption of the three configurations, as commanders generally preferred the concentrated firepower of the AC/20 or the versatility of the LB-X model. Few examples survived the technology losses of the Succession Wars.</p>
@@ -155,4 +146,12 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Widecom
 TARGETING:Instatrac Mark VI
 </systemModels>
+
+<source>
+His:LoT2
+</source>
+
+<tonnage>
+60.0
+</tonnage>
 

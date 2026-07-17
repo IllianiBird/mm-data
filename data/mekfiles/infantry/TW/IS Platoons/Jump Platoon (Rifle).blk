@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-c00b-77bf-bc06-7e9557800908
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -35,10 +39,6 @@ Jump Platoon
 <year>
 2100
 </year>
-
-<originalBuildYear>
-2100
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -60,6 +60,10 @@ AntiMekGear
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Jump infantry platoons equip their troops with personal jump packs that allow short powered hops across broken terrain, over walls, and onto rooftops. This vertical mobility gives jump platoons access to positions that foot and motorized infantry cannot reach, making them particularly effective in urban combat, mountainous terrain, and defensive operations where elevation matters. The trade-off is cost and logistics: jump packs require fuel, maintenance, and trained operators, limiting the number of jump platoons a garrison command can field compared to standard foot formations.</p>
+</overview>
+
 <source>
 TW
 </source>
@@ -75,9 +79,4 @@ TW
 <Primary>
 InfantryAssaultRifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Jump infantry platoons equip their troops with personal jump packs that allow short powered hops across broken terrain, over walls, and onto rooftops. This vertical mobility gives jump platoons access to positions that foot and motorized infantry cannot reach, making them particularly effective in urban combat, mountainous terrain, and defensive operations where elevation matters. The trade-off is cost and logistics: jump packs require fuel, maintenance, and trained operators, limiting the number of jump platoons a garrison command can field compared to standard foot formations.</p>
-</overview>
 

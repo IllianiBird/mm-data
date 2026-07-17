@@ -26,7 +26,8 @@ capital: Gienah
 yearsActive:
   - start: 3143
 tags:
-  - MINOR
+  - PLAYABLE
+  - MAJOR
   - CLAN
   - BATCHALL
 color:
@@ -45,3 +46,12 @@ ratingLevels:
 fallBackFactions:
   - CW
   - CWIE
+factionLeaders:
+  - title: "Khan"
+    firstName: "Alaric"
+    surname: "Ward"
+    gender: "MALE"
+    # Founder and Khan of the Wolf Empire from 3143 (later ilKhan after the 3151 ilClan Trial).
+    startYear: 3143
+usesMercenaries:
+  2500: false

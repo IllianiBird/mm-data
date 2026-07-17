@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a21a-7953-881e-95b74adcd96a
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Fa Shih Battle Armor
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -96,38 +96,14 @@ ISBAMineDispenser:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Fa Shih, or "Master of Methods," was the Capellan Confederation's first indigenous battle armor design. Developed by Ceres Metals with assistance from the Word of Blake, the medium suit entered service in 3062 as an adaptation of the Inner Sphere Standard. Distinguished by its mine-laying capability and ability to ride conventional vehicles into battle, the Fa Shih filled a defensive and area-denial role that complemented the Confederation's long tradition of mine warfare. The design earned a strong reputation among Capellan armed forces and continued serving long after more advanced suits became available.</p>
-</overview>
 
 <capabilities>
 <p>Weighing one thousand kilograms, the Fa Shih carries a mine dispenser on its back capable of scattering grenade-sized mines across several hundred square meters of terrain when deployed mid-jump. Two dispensing canisters allow troopers to either expand a single minefield or seed a second area entirely. The suit's manipulators incorporate mine clearance equipment, giving it the ability to both lay and remove minefields. Magnetic clamps at the knees and underarms allow the Fa Shih to ride standard BattleMechs and vehicles into battle, a critical feature given the Confederation's limited OmniMech inventory. Jump jets provide leaps of up to ninety meters, and three hundred fifty kilograms of standard armor offer above-average protection for a medium suit, enough to absorb a hit from a Clan extended-range medium laser. The TAG configuration mounts a light target acquisition gear system in the right arm's modular weapon mount, allowing troopers to designate targets for Arrow IV artillery and semi-guided long-range missile strikes. An anti-personnel weapon mount on the left arm retains some self-defense capability.</p>
 </capabilities>
+
+<overview>
+<p>The Fa Shih, or "Master of Methods," was the Capellan Confederation's first indigenous battle armor design. Developed by Ceres Metals with assistance from the Word of Blake, the medium suit entered service in 3062 as an adaptation of the Inner Sphere Standard. Distinguished by its mine-laying capability and ability to ride conventional vehicles into battle, the Fa Shih filled a defensive and area-denial role that complemented the Confederation's long tradition of mine warfare. The design earned a strong reputation among Capellan armed forces and continued serving long after more advanced suits became available.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Points carrying TAG equipment represented a niche application of the Fa Shih within Clan force structures. The target designation capability held limited appeal for Clan warriors who favored direct engagement, though some garrison commanders recognized the value of coordinated indirect fire for defensive operations.</p>
@@ -162,4 +138,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

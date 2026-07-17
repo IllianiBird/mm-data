@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acd7-7a63-aa18-a2b5ab0b4f7c
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ STU-K5b2
 <year>
 2709
 </year>
-
-<originalBuildYear>
-2709
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -124,33 +124,13 @@ IS Ammo AC/20
 IS Ammo AC/20
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-<notes>
-This variant is unique to the MUL as it has the ER PPCs. But I've adjusted the dates to make things work.
-</notes>
-
-<source>
-His:OK
-</source>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Stuka entered service with the Terran Hegemony in 2530, developed by Lycomb IntraTechnologies as a heavy aerospace fighter purpose-built for sustained combat operations. Where lighter designs trade armor for speed, the Stuka was engineered to endure, a ground attack platform capable of absorbing punishment as readily as it delivers it. When the newly formed Star League Defense Force demanded expanded production to support the Reunification War, the type proved its worth quickly, and the SLDF's investment in the design established a production legacy that would outlast the Star League itself. Federated Suns forces have long maintained a monopoly on its manufacture, a strategic advantage that shaped aerospace doctrine across the Inner Sphere for centuries. The fighter's silhouette became synonymous with Davion air supremacy, and its reputation for durability secured its place as one of the Inner Sphere's most recognizable and enduring heavy fighters.</p>
-</overview>
-
 <capabilities>
 <p>The Stuka is built around resilience and sustained firepower. At one hundred tons, it sits at the upper limit of heavy aerospace fighter classification, its Lycomb 11 frame designed to carry that mass in structural load capacity. A GM 300ATF power plant drives the craft to respectable speeds for its weight class, while the Monitor 200 guidance system (integrated with the O/P 9000AT communications suite and O/P 2500TGFD targeting system) provides atmospheric maneuverability that belies the fighter's bulk.</p><p>The STU-K5's weapons loadout spans multiple ranges. The nose mounts a Simpson LRM-20 rack and Holly SRM-4 with a Martell medium laser, while each wing carries two Exostar large lasers providing the primary striking power at range. Two rear-facing Martell medium lasers deter pursuit. Fifteen tons of AeroScale Plus armor give the Stuka the durability to weather engagements that would destroy lighter designs, and thirty single heat sinks manage the wing laser heat load with reserve capacity for extended operations.</p><p>The trade-off is offensive punch relative to weight. A well-armed medium fighter can often outgun the Stuka at comparable ranges, and pilots are expected to compensate through superior durability and endurance rather than raw firepower. The design's strengths lie in its ability to absorb damage, remain on station, and sustain weapons output long after lighter opponents are forced to disengage.</p>
 </capabilities>
+
+<overview>
+<p>The Stuka entered service with the Terran Hegemony in 2530, developed by Lycomb IntraTechnologies as a heavy aerospace fighter purpose-built for sustained combat operations. Where lighter designs trade armor for speed, the Stuka was engineered to endure, a ground attack platform capable of absorbing punishment as readily as it delivers it. When the newly formed Star League Defense Force demanded expanded production to support the Reunification War, the type proved its worth quickly, and the SLDF's investment in the design established a production legacy that would outlast the Star League itself. Federated Suns forces have long maintained a monopoly on its manufacture, a strategic advantage that shaped aerospace doctrine across the Inner Sphere for centuries. The fighter's silhouette became synonymous with Davion air supremacy, and its reputation for durability secured its place as one of the Inner Sphere's most recognizable and enduring heavy fighters.</p>
+</overview>
 
 <deployment>
 <p>The STU-K5b2 is a Federated Commonwealth development that uses the K5b as its foundation, further increasing missile payload with additional LRM-20 launchers on each wing. The nose rack is replaced by paired SRM-6 launchers, substantially increasing short-range saturation fire. An XL engine installation and heat sink upgrade improve endurance and heat management relative to the base K5b. Deployed within elite Federated Commonwealth and later Federated Suns formations, the K5b2 serves as a high-firepower assault variant for operations requiring maximum missile output. Its source in His:OK places it firmly in the post-Clan Invasion period of recovery and rearmament.</p>
@@ -185,4 +165,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+This variant is unique to the MUL as it has the ER PPCs. But I've adjusted the dates to make things work.
+</notes>
+
+<source>
+His:OK
+</source>
+
+<tonnage>
+100.0
+</tonnage>
 

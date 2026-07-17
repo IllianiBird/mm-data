@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e836-7725-8d19-29c285c774ec
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Harasser Missile Platform
 <year>
 3087
 </year>
-
-<originalBuildYear>
-3087
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -102,33 +102,13 @@ ISMML5
 ISMML5
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 16:36:16
-<overview>
-<p>The Harasser Missile Platform is a fast hover combat vehicle designed by Brooks Incorporated for the Free Worlds League, introduced in 2811. Commissioned to serve alongside the Galleon light tank, the Harasser shares numerous electronic components with its tracked companion, keeping manufacturing costs low and logistics manageable. House Marik's military planners envisioned the two vehicles working in tandem, with the heavier Galleon fixing enemy forces in place while the Harasser exploited flanks and vulnerable gaps. Armed with a pair of SRM-6 racks, the Harasser carries more short-range missile firepower than any other vehicle in its weight class, earning the informal nickname 'poor man's artillery' among the militia forces that depend on it. The design proved simple enough to attract extensive field modification, spawning a diverse family of variants that have kept it relevant across centuries of interstellar conflict.</p>
-</overview>
-
 <capabilities>
 <p>The Harasser's primary asset is its speed. Its GM 120 Classic II internal combustion engine propels the hover chassis to a flank speed of 162 km/h, allowing the vehicle to outpace most BattleMechs and many lighter combat vehicles. The SureShot Mk VI SRM-6 racks mounted in the turret deliver impressive short-range firepower, concentrated enough to strip armor from a BattleMech, destroy light vehicles, or decimate an infantry formation in a single massed volley. A single platoon of Harassers can unload enough missiles to cripple a BattleMech, immobilize a tank company, or scatter an infantry formation caught in the open.</p><p>The vehicle's major weakness is its armor protection. Only one and a half tons of StarSlab/2 armor wrap the hull, thin enough that a single medium laser hit can penetrate to vital systems or reach the large ammunition bay. Harasser crews compensate by keeping in constant motion, relying on speed and evasion rather than durability to survive engagements. This philosophy makes the Harasser effective when supported by other units but extremely vulnerable if isolated or caught stationary.</p><p>The large ammunition bays add tactical flexibility, allowing platoon commanders to customize missile loads to specific mission profiles. Brooks Incorporated also developed a backup fire control system that enabled the vehicle commander to independently re-aim and fire the turret weapons, but a string of accidents during trials forced a recall. Only a few hundred vehicles outside Free Worlds League borders still retain this feature.</p>
 </capabilities>
+
+<overview>
+<p>The Harasser Missile Platform is a fast hover combat vehicle designed by Brooks Incorporated for the Free Worlds League, introduced in 2811. Commissioned to serve alongside the Galleon light tank, the Harasser shares numerous electronic components with its tracked companion, keeping manufacturing costs low and logistics manageable. House Marik's military planners envisioned the two vehicles working in tandem, with the heavier Galleon fixing enemy forces in place while the Harasser exploited flanks and vulnerable gaps. Armed with a pair of SRM-6 racks, the Harasser carries more short-range missile firepower than any other vehicle in its weight class, earning the informal nickname 'poor man's artillery' among the militia forces that depend on it. The design proved simple enough to attract extensive field modification, spawning a diverse family of variants that have kept it relevant across centuries of interstellar conflict.</p>
+</overview>
 
 <deployment>
 <p>The MML variant extends the Harasser's engagement envelope by swapping the SRM-6 racks for a pair of MML-5 launchers and upgrading the engine to a fuel cell for improved speed. This configuration can engage targets at short, medium, and long ranges, a substantial improvement over the base model's limitation to close combat. The two-ton ammunition supply supports extended operations across multiple engagement types. The MML variant entered production at Andurien and Irian beginning in 3087 and saw widespread adoption among Duchy of Andurien forces seeking to address the standard Harasser's vulnerability to standoff attack.</p>
@@ -161,4 +141,16 @@ ARMOR:Unknown
 COMMUNICATIONS:500
 TARGETING:TA 55
 </systemModels>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea59-7b79-a275-0bc66b6711ad
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -31,10 +35,6 @@ Tank
 <year>
 2732
 </year>
-
-<originalBuildYear>
-2732
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -93,19 +93,6 @@ Small Laser
 Small Laser
 </Turret Equipment>
 
-<source>
-Shrap21
-</source>
-
-<published>
-ShrapRS
-</published>
-
-<tonnage>
-5.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 18:51:33
 <overview>
 <p>The Swift Guardian is the lightest and fastest element of Ulsop Robotics' Main Guardian Defense System, introduced in 2732 as the reconnaissance and screening component of the Guardian drone network. Built on a hover chassis at just five tons, the Swift Guardian uses its exceptional speed to extend the network's sensor coverage, harass approaching forces, and channel threats toward the heavier Main Guardian and Giant Guardian units waiting in prepared positions. Though lightly armed and armored, its role is not to engage threats head-on but to complicate enemy movement and targeting while the system's central computer coordinates a response. As an autonomous unit, it requires no crew and is produced to operate in large numbers. Its small size and high mobility made Swift Guardians difficult to suppress and effective at screening the approaches to defended installations, a quality that proved lethal to unprepared forces encountering the Muphrid facility centuries after Ulsop Robotics' fall.</p>
 </overview>
@@ -139,4 +126,16 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+Shrap21
+</source>
+
+<published>
+ShrapRS
+</published>
+
+<tonnage>
+5.0
+</tonnage>
 

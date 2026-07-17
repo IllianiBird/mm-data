@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b664-71a3-b66a-c1d9a4fd72a2
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ Raventhir's Infantry Guard
 1142
 </mul id:>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -67,6 +59,18 @@ Magistracy of Canopus Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Raventhir's Infantry Guard is the foot infantry component of Raventhir's Iron Hand, the personal guard regiment of the Magestrix of Canopus. Organized as a full platoon of twenty-eight handpicked soldiers in four seven-trooper squads, the Infantry Guard carries auto-rifles supplemented by portable machine guns for sustained fire support. These soldiers are selected for absolute loyalty and willingness to die in defense of the Magestrix and Canopian VIPs. The Iron Hand traces its lineage to the original Magestrix Guard, reformed in 2786 when Magestrix Janina Centrella declared Magistracy independence, and renamed for John Raventhir III after he broke the Marik siege of Thurrock at the end of the First Succession War. During the Jihad, the Infantry Guard was protecting the Magestrix and senior officials when Word of Blake forces from the 34th Division inserted infantry into the complex. The Iron Hand's infantry fought the Blakists but were overwhelmed, and their charges were captured. The regiment was destroyed in the fighting at Crimson. After the Jihad, Magestrix Naomi Centrella ordered the Iron Hand rebuilt under Major Jeremy Raventhir, using top-ranking cadets from the Emma Centrella Martial Academy and elite veterans drawn from across the MAF.</p>
+</overview>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
 <squad_size>
 7
 </squad_size>
@@ -86,9 +90,4 @@ InfantryAssaultRifle
 <Secondary>
 Machine Gun (Support)
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Raventhir's Infantry Guard is the foot infantry component of Raventhir's Iron Hand, the personal guard regiment of the Magestrix of Canopus. Organized as a full platoon of twenty-eight handpicked soldiers in four seven-trooper squads, the Infantry Guard carries auto-rifles supplemented by portable machine guns for sustained fire support. These soldiers are selected for absolute loyalty and willingness to die in defense of the Magestrix and Canopian VIPs. The Iron Hand traces its lineage to the original Magestrix Guard, reformed in 2786 when Magestrix Janina Centrella declared Magistracy independence, and renamed for John Raventhir III after he broke the Marik siege of Thurrock at the end of the First Succession War. During the Jihad, the Infantry Guard was protecting the Magestrix and senior officials when Word of Blake forces from the 34th Division inserted infantry into the complex. The Iron Hand's infantry fought the Blakists but were overwhelmed, and their charges were captured. The regiment was destroyed in the fighting at Crimson. After the Jihad, Magestrix Naomi Centrella ordered the Iron Hand rebuilt under Major Jeremy Raventhir, using top-ranking cadets from the Emma Centrella Martial Academy and elite veterans drawn from across the MAF.</p>
-</overview>
 

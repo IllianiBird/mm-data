@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7f2-73d0-96a2-12fe9e9948a7
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Commando(Sqd5)
 <year>
 3088
 </year>
-
-<originalBuildYear>
-3088
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -100,41 +100,13 @@ IS BA Mimetic:Body
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
 
-<slotless_equipment>
-BA-SRM2 Ammo:Shots1#
-</slotless_equipment>
-<source>
-TR:Proto
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Hauberk is an Inner Sphere assault battle armor developed by the Armed Forces of the Federated Suns during the Jihad. Built by General Motors on Salem, the two-thousand-kilogram suit was derived from Clan Goliath Scorpion's Undine chassis, repurposed from its original aquatic role into a ground-based heavy infantry platform. The Hauberk's thick armor and powerful armament made it one of the most heavily equipped battle armor designs fielded by the Federated Suns, filling a defensive assault role that had previously been dominated by Clan designs.</p>
-</overview>
-
 <capabilities>
 <p>The Commando configuration replaces the Hauberk's standard armament with an urban-fighting loadout built around detachable weapon mounts. Each arm carries a standard extended-range small laser, while a Magshot Gauss Rifle sits over the right shoulder. A twin-tube short-range missile launcher provides a single salvo for close encounters. Mimetic armor allows the Commando to blend into its surroundings, fading from sight between engagements.</p><p>Designed for reliability and ease of supply, the Commando uses exclusively Inner Sphere manufactured weapons. The trade-off is reduced long-range capability compared to the base Hauberk, but the mix of energy and ballistic weapons gives troopers consistent firepower in the tight confines of urban terrain. Ground speed remains ten kilometers per hour, though the suit can double that by ejecting its detachable weapon packs. Without battle claws, the Commando cannot ride BattleMechs or OmniVehicles, requiring troop transports to reach operational areas. Once in position, the suit excels at ambush tactics, striking from concealment before disappearing again.</p>
 </capabilities>
+
+<overview>
+<p>The Hauberk is an Inner Sphere assault battle armor developed by the Armed Forces of the Federated Suns during the Jihad. Built by General Motors on Salem, the two-thousand-kilogram suit was derived from Clan Goliath Scorpion's Undine chassis, repurposed from its original aquatic role into a ground-based heavy infantry platform. The Hauberk's thick armor and powerful armament made it one of the most heavily equipped battle armor designs fielded by the Federated Suns, filling a defensive assault role that had previously been dominated by Clan designs.</p>
+</overview>
 
 <deployment>
 <p>The Commando's reliance on standard Inner Sphere weaponry and mimetic armor made it an unlikely candidate for Clan acquisition. Any examples organized into five-trooper Points would represent captured or salvaged suits rather than deliberate procurement, given the Clans' general preference for their own battle armor technology.</p>
@@ -167,4 +139,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

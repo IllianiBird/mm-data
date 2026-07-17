@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e61a-78f6-9254-9faf4ab6813f
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Mk IX
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -114,26 +114,13 @@ ISStreakSRM4
 ISLightGaussRifle
 </Turret Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 14:43:03
-<overview>
-<p>Named for the Hebrew word meaning "chariot," the Merkava was Leopard Armor's signature heavy tank and the primary armored vehicle of the Terran Alliance and its successor state, the Terran Hegemony. The original design entered service with the Alliance in 2294, and a succession of upgraded marks followed over the next two centuries. Each iteration built upon the tank's reputation for rugged construction and ease of field maintenance. The Merkava became a symbol of Hegemony military power during the Age of War, serving on dozens of fronts across known space. Its lineage influenced subsequent heavy tank designs for centuries, with vehicles such as the Manticore and Von Luckner drawing upon battlefield lessons learned by Merkava crews.</p>
-</overview>
-
 <capabilities>
 <p>The Merkava is a turret-based heavy tank designed around a balanced mix of direct fire and missile support. In its definitive Mk. VIII configuration, the tank mounts a Class 5 Armstrong autocannon as its primary weapon, supplemented by a Harpoon-15 long-range missile launcher for indirect fire support. A Harpoon-4 short-range missile launcher provides close-range punch, while a pair of M-3 machine guns handle anti-infantry duties, one mounted in the turret and the other on the hull front. The Vlar 300 fusion engine gives the 75-ton tank a respectable top speed of 64 kph, a significant improvement over the 54 kph achieved by earlier ICE and primitive fusion variants.</p><p>Ten tons of PanzerSlab armor provide solid protection across all facings, with near-even distribution between hull and turret. The Merkava's chief weakness was its inability to evolve alongside increasingly powerful weapons technology. Even the fusion-powered marks carried armament considered outdated by the late Star League era. Earlier variants suffered additional drawbacks, including the fuel dependency of internal combustion engines and the substandard protection of primitive armor that proved especially vulnerable to energy weapons.</p>
 </capabilities>
+
+<overview>
+<p>Named for the Hebrew word meaning "chariot," the Merkava was Leopard Armor's signature heavy tank and the primary armored vehicle of the Terran Alliance and its successor state, the Terran Hegemony. The original design entered service with the Alliance in 2294, and a succession of upgraded marks followed over the next two centuries. Each iteration built upon the tank's reputation for rugged construction and ease of field maintenance. The Merkava became a symbol of Hegemony military power during the Age of War, serving on dozens of fronts across known space. Its lineage influenced subsequent heavy tank designs for centuries, with vehicles such as the Manticore and Von Luckner drawing upon battlefield lessons learned by Merkava crews.</p>
+</overview>
 
 <deployment>
 <p>The Mk. IX is the modern revival of the Merkava line, produced by Earthwerks Incorporated at a new facility on Tiber in the Principality of Regulus. Introduced in 3073, it replaces the autocannon with a light Gauss rifle and upgrades the short-range missile system with Streak technology. A light fusion engine maintains the same speed as the Mk. VIII while freeing tonnage for the heavier primary weapon. The Mk. IX was deployed primarily to the Regulan Hussars, who received the tank in large numbers during the latter half of the Jihad.</p>
@@ -166,4 +153,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

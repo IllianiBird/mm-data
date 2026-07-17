@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a65d-729e-b36c-12e29899b589
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Shen Long Battle Armor
 <year>
 3092
 </year>
-
-<originalBuildYear>
-3092
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -92,42 +92,14 @@ IS BA ECM:TU
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3145:CC
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<turret>
-Modular:4
-</turret>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Shen Long is a heavy battle armor suit produced by Hellespont Industrials for the Capellan Confederation Armed Forces and the Magistracy of Canopus. Introduced in 3092, the design employs a quad chassis that provides exceptional ground speed for its weight class, paired with advanced camouflage systems that allow troopers to approach targets undetected. A reconfigurable weapon platform enables rapid loadout changes between missions, giving field commanders flexibility to tailor formations for specific tactical situations. The suit earned its name, meaning "Divine Dragon" in Chinese, for the aggressive ambush doctrine that defines its primary employment.</p>
-</overview>
 
 <capabilities>
 <p>Built on a quad chassis weighing 1,500 kilograms, the Shen Long achieves a ground speed of 43 kilometers per hour, placing it among the fastest heavy battlesuits fielded by Inner Sphere forces. Its mimetic armor coating, at 550 kilograms, provides both physical protection and active camouflage that bends light and sensor returns around the suit's profile. The modular turret mount accepts up to 400 kilograms of weapons or equipment.</p><p>The Interdictor configuration trades direct firepower for electronic warfare capability, mounting two flamers alongside a full ECM suite. The flamers serve as effective short-range deterrents against infantry and light vehicles, while the ECM package disrupts enemy targeting systems and communications within a significant radius. This makes the Interdictor invaluable during ambush operations, where it can mask allied forces from sensor detection. The configuration's limited offensive reach and reliance on close-range weapons restrict its effectiveness in open terrain.</p>
 </capabilities>
+
+<overview>
+<p>The Shen Long is a heavy battle armor suit produced by Hellespont Industrials for the Capellan Confederation Armed Forces and the Magistracy of Canopus. Introduced in 3092, the design employs a quad chassis that provides exceptional ground speed for its weight class, paired with advanced camouflage systems that allow troopers to approach targets undetected. A reconfigurable weapon platform enables rapid loadout changes between missions, giving field commanders flexibility to tailor formations for specific tactical situations. The suit earned its name, meaning "Divine Dragon" in Chinese, for the aggressive ambush doctrine that defines its primary employment.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Interdictor formations maximize electronic warfare coverage for garrison and defensive operations. The larger squad size provides redundant ECM capability, ensuring that sensor disruption continues even if individual troopers are knocked out of action during prolonged engagements.</p>
@@ -160,4 +132,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:CC
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<turret>
+Modular:4
+</turret>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

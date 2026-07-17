@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.00-nightly-2026-05-01 on 2026-05-02
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e628-7212-b458-08d1e9ca295b
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ SM3
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -121,19 +121,6 @@ CLLightMG
 <p>The SM1's primary offensive weapon is a nose-fixed Type 10 Ultra Autocannon/20, one of the most powerful autocannons available. The fixed mounting sacrifices turret flexibility for structural simplicity, requiring the crew to orient the entire vehicle toward its target. Six tons of ammunition support sustained engagements, and the UAC/20's double-fire capability allows the SM1 to deliver devastating bursts at close range. A small turret mounts four Series 2C Light Machine Guns for anti-infantry coverage the main gun cannot address.</p><p>The vehicle's real tactical asset is its 165-rated fusion powerplant, which drives the hover chassis to 129 km/h. This speed lets SM1 crews exploit flanks, disengage from unfavorable engagements, and keep pace with other fast combined-arms elements. Seven and a half tons of Advanced Compound Beta armor provides meaningful protection for a vehicle of its size. The dual cockpit design is fully redundant, and each module can eject independently, giving crews a survival option rarely seen in conventional combat vehicles. The primary limitation beyond the fixed main gun is the Light Machine Gun turret's limited effectiveness in close urban terrain, where the hover chassis also loses some of its speed advantage on confined ground.</p>
 </capabilities>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
 <overview>
 <p>The SM Tank Destroyer emerged from Clan Nova Cat's efforts to adapt to Inner Sphere combined-arms warfare after the Clan's integration into the Draconis Combine in 3060. Finding their advanced manufacturing capacity insufficient for traditional BattleMech-focused operations, the Nova Cats partnered with Luthien Armor Works to develop a fast, affordable strike vehicle to supplement their diminished touman. The resulting SM1 is a fifty-ton hovertank defined by its unusual paired ferro-glass bubble cockpits, which earned the vehicle the nickname "Suicide Machine" among early crews who found the exposed design unsettling. Despite this initial reluctance, the SM1's speed and firepower quickly proved their worth in Nova Cat formations during the Jihad. Subsequent variants refined the base design, and production eventually shifted entirely to Combine control following the destruction of the Irece facility. The SM Tank Destroyer family has since spread to both the Draconis Combine military and the broader mercenary market, cementing its place as one of the more successful combined-arms designs of the post-Jihad era.</p>
 </overview>
@@ -174,8 +161,11 @@ TARGETING:Able-Seven Sensor Suite
 TR:3075
 </source>
 
+<published>
+RS:3075u-CE
+</published>
+
 <tonnage>
 50.0
 </tonnage>
-
 

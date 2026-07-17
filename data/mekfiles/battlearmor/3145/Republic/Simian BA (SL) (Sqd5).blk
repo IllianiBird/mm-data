@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a75e-7063-bc38-92cce4b6bacd
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Simian Battle Armor
 <year>
 3135
 </year>
-
-<originalBuildYear>
-3135
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -93,42 +93,14 @@ BASearchlight:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:RotS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Simian is a medium-class Inner Sphere battle armor designed for mass production and easy maintenance. Conceived under a Republic of the Sphere program to reduce the rising cost of powered infantry, the suit prioritizes affordability and field serviceability over technological sophistication. Rhodes Foundry of Devil's Rock brought the design into production in 3135, creating a general-purpose combat suit built entirely from standard Inner Sphere components. Jump-capable and equipped with magnetic claws for anti-vehicle operations, the Simian fills a skirmisher role, relying on speed and agility rather than heavy armor to protect its operators. A modular weapon mount allows field-level customization of the primary armament.</p>
-</overview>
 
 <capabilities>
 <p>The Simian mounts a Small Laser on a modular weapon mount positioned on the right shoulder, providing a reliable energy weapon that requires no ammunition. Magnetic claws on both arms serve as effective melee weapons against infantry and allow troopers to latch onto enemy vehicles and BattleMechs for swarming attacks. A searchlight rounds out the equipment package.</p><p>At one thousand kilograms, the suit falls within the medium weight class and carries 350 kilograms of standard armor. This protection is adequate against small arms and light weapons but insufficient to withstand sustained fire from heavier systems. The Simian compensates with above-average ground speed and a 90-meter jump capability that allows troopers to reposition quickly between engagements. The laser configuration works best at close range, where operators can exploit the suit's agility to close distance and engage with both the laser and magnetic claws in rapid succession.</p>
 </capabilities>
+
+<overview>
+<p>The Simian is a medium-class Inner Sphere battle armor designed for mass production and easy maintenance. Conceived under a Republic of the Sphere program to reduce the rising cost of powered infantry, the suit prioritizes affordability and field serviceability over technological sophistication. Rhodes Foundry of Devil's Rock brought the design into production in 3135, creating a general-purpose combat suit built entirely from standard Inner Sphere components. Jump-capable and equipped with magnetic claws for anti-vehicle operations, the Simian fills a skirmisher role, relying on speed and agility rather than heavy armor to protect its operators. A modular weapon mount allows field-level customization of the primary armament.</p>
+</overview>
 
 <deployment>
 <p>Following the establishment of the ilClan, Simian suits entered Clan service organized into five-trooper Points consistent with standard Clan formation doctrine. The suit's simplicity and reliance on common components made it accessible even to Clans unfamiliar with Inner Sphere manufacturing processes. Points equipped with the laser configuration provided scouts and garrison forces with a low-maintenance patrol option.</p>
@@ -163,4 +135,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:RotS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

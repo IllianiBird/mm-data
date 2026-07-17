@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ae07-7a36-9120-70a866b7cd0c
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ B
 <year>
 3019
 </year>
-
-<originalBuildYear>
-3019
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -128,34 +128,13 @@ Clan Gauss Ammo:OMNI
 Clan Gauss Ammo:OMNI
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3055U
-</source>
-
-<published>
-RS:3055Uu
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Jagatai is a seventy-ton Clan heavy OmniFighter designed and produced by Wolf Armorworks on the Clan world of Eden. Prototyped in 3016 and entering full-scale production three years later, the design was commissioned to fill Clan Wolf's need for a versatile air-superiority platform capable of sustained frontline operations. The Jagatai has since spread throughout most Clan toumans, earning a strong reputation as a dependable and well-protected heavy fighter suited to a wide range of aerospace combat roles. The Ghost Bears represent the primary exception to this widespread adoption, as they have traditionally preferred the heavier Jengiz in the air-superiority role.</p>
-</overview>
-
 <capabilities>
 <p>Built around an Eden Compact 90 frame, the Jagatai mounts a 280-rated XL fusion engine that provides a safe thrust of six and maximum thrust of nine. While this yields only average maneuverability for its weight class, the design compensates through superior protection and endurance. Eleven tons of Eden Composition IV ferro-aluminum armor provides more coverage than comparable fighters such as the aging Visigoth or the newer Sabutai, and its four-ton fuel capacity allows the Jagatai to linger on station longer than either rival. With 39 tons of available pod space, the design can mount firepower rivaling many assault-weight fighters while retaining the tactical flexibility inherent to OmniFighter technology.</p><p>Heat management represents the Jagatai's most notable weakness. With only fifteen double heat sinks fixed to the base chassis, energy-heavy configurations must either exercise fire discipline or dedicate precious pod tonnage to additional cooling. The K55 communications system and Wolf's Eye 7 targeting and tracking system round out the fixed electronics package. In its Prime configuration, the fighter mounts an LRM-20 with two tons of ammunition in the nose, supported by wing-mounted ER PPCs and large pulse lasers, with a rear-firing large pulse laser discouraging pursuit.</p>
 </capabilities>
+
+<overview>
+<p>The Jagatai is a seventy-ton Clan heavy OmniFighter designed and produced by Wolf Armorworks on the Clan world of Eden. Prototyped in 3016 and entering full-scale production three years later, the design was commissioned to fill Clan Wolf's need for a versatile air-superiority platform capable of sustained frontline operations. The Jagatai has since spread throughout most Clan toumans, earning a strong reputation as a dependable and well-protected heavy fighter suited to a wide range of aerospace combat roles. The Ghost Bears represent the primary exception to this widespread adoption, as they have traditionally preferred the heavier Jengiz in the air-superiority role.</p>
+</overview>
 
 <deployment>
 <p>Designed for standoff engagements, the B configuration mounts twin Gauss rifles in the nose with four tons of shared ammunition, supplemented by wing-mounted ER large lasers. An ER medium laser and medium pulse laser provide modest rear arc coverage. The ballistic-heavy loadout generates virtually no waste heat, allowing sustained fire without the thermal concerns that plague the primary configuration, a notable advantage given the base chassis's limited cooling capacity. The B avoids the overabundant heat sinks carried by its energy-focused sibling configurations.</p>
@@ -188,4 +167,16 @@ ARMOR:Composition IV Ferro-aluminum
 COMMUNICATIONS:K55
 TARGETING:Wolf's Eye 7
 </systemModels>
+
+<source>
+TR:3055U
+</source>
+
+<published>
+RS:3055Uu
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

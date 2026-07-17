@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acf0-795e-a019-c4a59b767e8b
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ WKT-1S
 <year>
 3086
 </year>
-
-<originalBuildYear>
-3086
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -123,26 +123,13 @@ IS Ammo MML-5 SRM
 IS Ammo MML-5 LRM
 </Fuselage Equipment>
 
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The <em>Wildkatze</em> is a 45-ton light aerospace fighter produced by Bowie Industries for the Lyran Commonwealth Armed Forces, based on the manufacturer's existing platform experience. The name translates as "Wildcat," reflecting the design philosophy of building a capable successor to aging Lyran light fighter designs. Development was commissioned following the Jihad's severe impact on Commonwealth aerospace manufacturing, and the <em>Wildkatze</em> completed its development chain to enter frontline service in 3088. Designed to perform in both space and atmospheric combat environments, the fighter fills a critical gap in LCAF aerospace squadrons that had grown dependent on imports and older designs. Bowie Industries delivered a platform that balances firepower, maneuverability, and protection in a workable package for Commonwealth forces operating along contested borders and in fleet escort roles.</p>
-</overview>
-
 <capabilities>
 <p>The <em>Wildkatze</em> achieves a maximum thrust of six Gs using a PlasmaStar 270 Light fusion engine mounted on a Bowie 70 chassis, a design the manufacturer adapted from its experience with heavier platforms such as the <em>Chippewa</em>. This thrust rating places it in a unique position among Inner Sphere light fighters, outperforming designs with lighter engines while remaining considerably less powerful than medium fighter-grade powerplants. The light engine reduces onboard fuel capacity, but the fighter compensates by carrying external fuel tanks when sustained operations demand it.</p><p>Primary armament is a Defiance B33B Binary Laser, selected for its ability to deliver high damage output against both aerospace opponents and ground targets. The concentrated beam can penetrate the armor of even heavy fighters or threaten DropShip hull sections with a sustained attack. Two Helga Series 5-tube Multi-Missile Launchers supplement the binary laser, providing flexible ranged firepower with manageable heat output and the ability to engage at varied distances. A Defiance Model XII Extended-Range Medium Laser covers the aft arc, protecting the <em>Wildkatze</em> from smaller pursuing craft. All forward weapons can be fired simultaneously without heat concern; pilots relying on both forward and rear weapons simultaneously will find heat rising rapidly.</p><p>Nine tons of Bowie Glinting Blade Reflective armor protect the airframe. Designers selected reflective armor over the more common ferro-aluminum after assessing that laser-equipped opponents dominate contemporary fighter engagements, making the reduced total protection worthwhile against the most prevalent threat. Ten double heat sinks complete the thermal management suite.</p>
 </capabilities>
+
+<overview>
+<p>The <em>Wildkatze</em> is a 45-ton light aerospace fighter produced by Bowie Industries for the Lyran Commonwealth Armed Forces, based on the manufacturer's existing platform experience. The name translates as "Wildcat," reflecting the design philosophy of building a capable successor to aging Lyran light fighter designs. Development was commissioned following the Jihad's severe impact on Commonwealth aerospace manufacturing, and the <em>Wildkatze</em> completed its development chain to enter frontline service in 3088. Designed to perform in both space and atmospheric combat environments, the fighter fills a critical gap in LCAF aerospace squadrons that had grown dependent on imports and older designs. Bowie Industries delivered a platform that balances firepower, maneuverability, and protection in a workable package for Commonwealth forces operating along contested borders and in fleet escort roles.</p>
+</overview>
 
 <deployment>
 <p>The WKT-1S serves as the primary Lyran light aerospace fighter in the post-Jihad era, assigned across LCAF aerospace wings with an emphasis on units deployed along active borders and likely to see frontline combat. The fighter is well-suited to both space superiority and atmospheric engagements, and its reflective armor provides a distinct advantage in engagements dominated by energy weapons. The WKT-1S handles space patrol, escort, and strike support duties with comparable effectiveness, making it a flexible asset for commanders managing diverse operational requirements.</p>
@@ -177,4 +164,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:250
 TARGETING:TA8
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

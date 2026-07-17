@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d3af-704e-8207-b79a38078556
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Hound
 model:HD-2F
 mul id:6563
@@ -171,7 +172,6 @@ Heat Sink
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Hound is a seventy-ton heavy BattleMech introduced in 3098 by Coalition Armory Inc. on the Periphery world of Filtvelt. Designed to fill a fire support role comparable to the venerable Warhammer, the Hound was built around a philosophy of simplicity and reliability, using proven components that were widely available and easy to maintain. Representing a landmark achievement for the Filtvelt Coalition, the Hound marked a significant step forward in the Coalition's domestic military production capability.</p><p>The straightforward design of the Hound endeared it not only to its pilots but to logistics personnel across the Coalition and beyond. Its dependability and ease of repair made it attractive to mercenary commands and small nations operating on tight budgets, and production has continued steadily at Coalition Armory for nearly half a century.</p>
 
 capabilities:<p>The Hound mounts a diverse arsenal centered on a Mydron Excel LB 10-X autocannon carried in a shoulder mount reminiscent of the Shadow Hawk. Fed by two tons of ammunition, the autocannon can deliver solid slugs to crack armor or switch to cluster munitions to maximize the chance of damaging exposed internal systems. A pair of Johnston Lite light particle projection cannons in the right arm provide long-range fire support, matching the reach of a standard PPC at half the damage output. This combination ensures the Hound can engage effectively at extended ranges even after exhausting its autocannon ammunition.</p><p>At closer ranges, a Holly SRM-4 launcher backed by a ton of reloads and a ChisComp 39 medium laser give the Hound additional punch against opponents that close the distance. The design benefits significantly from its use of a standard GM 280 fusion engine, which provides a respectable top speed of sixty-four kilometers per hour while granting the Hound exceptional survivability. Unlike XL engine-equipped designs, the loss of a side torso will not cripple the Hound, allowing damaged machines to continue fighting or withdraw under their own power. Fifteen single heat sinks manage the modest thermal load of its mixed weapon systems. The tradeoff for this reliability is a lack of jump capability and a conservative top speed for its weight class, limiting tactical flexibility in broken terrain.</p>
@@ -183,6 +183,8 @@ history:<p>The Hound emerged from a critical inflection point in the Filtvelt Co
 manufacturer:Coalition Armory Inc.
 
 primaryfactory:Filtvelt
+
+fluffdate:2026-02-21 18:07:19
 
 systemmanufacturer:CHASSIS:Unknown
 systemmode:CHASSIS:Crucis-H

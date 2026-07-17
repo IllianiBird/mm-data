@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e92c-7ea8-8f09-e39bc182cda4
+</UUID>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Wayland Mobile Base
 <year>
 2541
 </year>
-
-<originalBuildYear>
-2541
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -129,26 +129,13 @@ Medium Laser
 3
 </engine_tech_rating>
 
-<source>
-His:RW
-</source>
-
-<tonnage>
-150.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>The Wayland Mobile Base was conceived to bring the functional capabilities of a rear-area maintenance depot directly to the battlefield. Developed by Bergan Industries of New Earth for the Hegemony Armed Forces, the Wayland entered production in 2541 as the first military-specification maintenance support vehicle in Inner Sphere service. The Hegemony recognized that operational tempo, not firepower alone, determined the outcomes of extended campaigns. By placing repair gantries and field workshop equipment on a massive tracked hull, Bergan's engineers gave HAF commanders the ability to sustain continuous operations far from fixed installations. The design earned a reputation as a force multiplier valued by logisticians and frontline commanders alike, remaining in production for over 170 years before its formal retirement in 2715.</p>
-</overview>
-
 <capabilities>
 <p>The Wayland combines formidable mass with practical battlefield utility. Mounted on a heavy tracked hull and driven by an LTV Industrial fusion plant, the vehicle achieves modest speeds appropriate for a logistics asset. The crew is protected by Bergan Commercial Plate armor across the full hull, sufficient to turn away small-arms fire and minor shrapnel while falling short of true combat-vehicle protection. A quartet of Martell medium lasers, mounted in a turret and guided by an advanced fire control system, deters light infantry and scout elements that might probe the rear echelon, though the vehicle is not designed to absorb direct fire from organized opponents.</p><p>The Wayland's principal contribution is its 20 tons of mobile field base equipment, including gantry arms, lifting hoists, and a comprehensive repair toolkit capable of servicing BattleMechs and vehicles without access to a fixed facility. The integral hoist allows technicians to lift and seat all but the heaviest components without external crane support. A rear access door simplifies parts delivery and crew movement.</p><p>Two significant limitations keep the Wayland dependent on supporting assets. Its standard cargo capacity of only 11 tons is insufficient to carry the volume of replacement components needed for sustained operations, requiring accompanying transport vehicles to carry the necessary materials. The vehicle's modest road speed also limits its ability to reposition quickly when the front lines shift unexpectedly.</p>
 </capabilities>
+
+<overview>
+<p>The Wayland Mobile Base was conceived to bring the functional capabilities of a rear-area maintenance depot directly to the battlefield. Developed by Bergan Industries of New Earth for the Hegemony Armed Forces, the Wayland entered production in 2541 as the first military-specification maintenance support vehicle in Inner Sphere service. The Hegemony recognized that operational tempo, not firepower alone, determined the outcomes of extended campaigns. By placing repair gantries and field workshop equipment on a massive tracked hull, Bergan's engineers gave HAF commanders the ability to sustain continuous operations far from fixed installations. The design earned a reputation as a force multiplier valued by logisticians and frontline commanders alike, remaining in production for over 170 years before its formal retirement in 2715.</p>
+</overview>
 
 <deployment>
 <p>The Wayland Mobile Base was not typically assigned at regiment or battalion level. Instead, it was pooled at brigade or division echelon and allocated to whichever formation required urgent field repairs. Its dependence on accompanying transport vehicles for spare parts meant that Wayland detachments almost always operated as part of a larger logistics package. Commanders kept them close enough to the front lines to service damaged units quickly but far enough back to avoid direct engagement with organized enemy forces. The advance fire control system and medium lasers could handle light infiltrators, but the vehicle was never intended to hold ground against a determined assault.</p>
@@ -181,4 +168,16 @@ ARMOR:Commercial Plate
 COMMUNICATIONS:Type 3
 TARGETING:OP/911
 </systemModels>
+
+<source>
+His:RW
+</source>
+
+<tonnage>
+150.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b626-7d63-a1e0-2070caabf2ca
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ Com Guards Warship Fleet Marine
 2985
 </mul id:>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 2900
 </year>
-
-<originalBuildYear>
-2900
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -66,6 +58,18 @@ Environment Suit, Marine
 
 <Field Guns Equipment>
 </Field Guns Equipment>
+
+<overview>
+<p>Com Guard fleet marines are trained for shipboard security, boarding actions, and combat in both zero-gravity and pressurized hull environments. When ComStar revealed its hidden WarShip fleet in the 3050s, the Inner Sphere learned that the Order had maintained a corps of fleet marines for decades, crewing vessels that most powers believed extinct. These marines are armed with Sunbeam laser pistols for close-quarters shipboard work and Blazer rifles for engagements where greater firepower is needed. Several ship-to-ship battles during the Jihad devolved into boarding actions, and Com Guard marines proved adept at repelling enemy assault teams and conducting offensive hull breaches. The Republic Armed Forces' own WarShip-based marine units drew significantly from Com Guard marine doctrine, which remains the benchmark for Inner Sphere naval infantry training.</p>
+</overview>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
 
 <squad_size>
 6
@@ -90,9 +94,4 @@ Laser Rifle (Blazer)
 <spacesuit>
 true
 </spacesuit>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Com Guard fleet marines are trained for shipboard security, boarding actions, and combat in both zero-gravity and pressurized hull environments. When ComStar revealed its hidden WarShip fleet in the 3050s, the Inner Sphere learned that the Order had maintained a corps of fleet marines for decades, crewing vessels that most powers believed extinct. These marines are armed with Sunbeam laser pistols for close-quarters shipboard work and Blazer rifles for engagements where greater firepower is needed. Several ship-to-ship battles during the Jihad devolved into boarding actions, and Com Guard marines proved adept at repelling enemy assault teams and conducting offensive hull breaches. The Republic Armed Forces' own WarShip-based marine units drew significantly from Com Guard marine doctrine, which remains the benchmark for Inner Sphere naval infantry training.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea1c-7dcf-8384-42e46730c2c9
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Drillson Heavy Hover Tank
 <year>
 3053
 </year>
-
-<originalBuildYear>
-3053
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -105,33 +105,13 @@ ISStreakSRM2
 ISStreakSRM2
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG32
-</source>
-
-<published>
-RG32,RSFP:Battlefield
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-05 15:19:28
-<overview>
-<p>The Drillson Heavy Hover Tank entered service in 3025 as Cyclops Incorporated's first foray into combat vehicle design, debuting on New Earth to immediate demand from Lyran Commonwealth commanders. Built to complement conventional infantry and armor formations, it paired above-average hover speed with firepower sufficient to threaten light vehicles and infantry concentrations. The Evil Eye targeting suite, adapted from BattleMech-grade sensor technology, distinguished it from most contemporary hover designs and gave crews a situational awareness edge that commanders quickly learned to exploit. Its ArcShield armor could absorb punishment that would disable lighter hovercraft, making it unusually durable for its propulsion type. The design spread rapidly through Lyran forces and later into the Federated Commonwealth, eventually finding operators across much of the Inner Sphere and, in modified forms, among the Clans as well.</p>
-</overview>
-
 <capabilities>
 <p>The Drillson's most significant advantage is its Evil Eye targeting and tracking system, a 360-degree panoramic sight derived from BattleMech sensor suites. Its heads-up display reduces crew reaction time in fast-moving engagements and provides situational awareness most vehicles of comparable cost cannot match. The primary weapon is the Cyclops Eye large laser, which fires from a turret slit rather than a traditional focusing barrel, giving the hull its low-profile silhouette and making the weapon difficult to damage in a glancing hit.</p><p>Two Hovertec SRM 2 packs provide close-range punch against light vehicles and infantry while a Light Crossbow LRM 10 extends the engagement envelope. A pair of Kicker machine guns addresses point defense against infantry and light aircraft. The ArcShield Heavy armor is thick for a hover platform, absorbing hits that would cripple lighter designs. The MaxLift 215 fusion engine drives the fifty-ton vehicle to a flank speed exceeding 150 kilometers per hour, placing it among the faster designs in its weight class. The trade-off is modest sustained damage output, as the Light Crossbow LRM 10 and twin SRM 2 packs lack the weight of fire available from heavier dedicated fire support vehicles. Crews learn quickly to use speed and the Evil Eye to maintain range control rather than slugging it out at close quarters.</p>
 </capabilities>
+
+<overview>
+<p>The Drillson Heavy Hover Tank entered service in 3025 as Cyclops Incorporated's first foray into combat vehicle design, debuting on New Earth to immediate demand from Lyran Commonwealth commanders. Built to complement conventional infantry and armor formations, it paired above-average hover speed with firepower sufficient to threaten light vehicles and infantry concentrations. The Evil Eye targeting suite, adapted from BattleMech-grade sensor technology, distinguished it from most contemporary hover designs and gave crews a situational awareness edge that commanders quickly learned to exploit. Its ArcShield armor could absorb punishment that would disable lighter hovercraft, making it unusually durable for its propulsion type. The design spread rapidly through Lyran forces and later into the Federated Commonwealth, eventually finding operators across much of the Inner Sphere and, in modified forms, among the Clans as well.</p>
+</overview>
 
 <deployment>
 <p>The Streak refit replaced the SRM packs with Streak-guided launchers, dramatically improving short-range hit probability and reducing ammunition waste in sustained engagements. Introduced in 3053, it proved popular with units that could afford guided munitions and remained in continuous production at Skye through multiple ownership transitions, including the Jade Falcon occupation. It is particularly common in Lyran Alliance and later Lyran Commonwealth Armed Forces formations.</p>
@@ -166,4 +146,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Cyclops 1
 TARGETING:Evil Eye
 </systemModels>
+
+<source>
+RG32
+</source>
+
+<published>
+RG32,RSFP:Battlefield
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

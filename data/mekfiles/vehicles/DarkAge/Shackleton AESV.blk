@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8e0-7156-b045-bfaa36119249
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Shackleton AESV
 <year>
 3093
 </year>
-
-<originalBuildYear>
-3093
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -121,30 +121,13 @@ BeagleActiveProbe
 5
 </engine_tech_rating>
 
-<source>
-IE:ISP3
-</source>
-
-<published>
-IE:ISP3
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Shackleton All-Environment Survey Vehicle is Donovan-Miter's most capable product, conceived as a dedicated extreme-environment complement to the Magellan line. Where the Magellan excels in sustained survey operations supported by established base camps, the Shackleton is engineered to operate independently in any environment, from dense jungle to hard vacuum. Developed through the early 3090s with substantial investment from Interstellar Expeditions and material support from the Republic of the Sphere, the design packs extraordinary capability into a 50-ton wheeled platform by leveraging near-Clan-level metallurgy and electronics. Production began in 3093, with output designated exclusively for Interstellar Expeditions and the Republic Armed Forces, which began evaluating the Shackleton for dedicated scouting roles alongside its primary exploration mission.</p>
-</overview>
-
 <capabilities>
 <p>The Shackleton AESV is a 50-ton wheeled support vehicle engineered for extreme-environment operations at the limits of what Inner Sphere technology can sustain. A fusion engine provides considerably better performance than the Magellan, while vehicular jump jets give the vehicle genuine three-dimensional mobility, allowing it to traverse terrain that would stop any conventional wheeled platform. The armored motive system provides resilience against the damage that hostile operating environments inflict. A forward-mounted lift hoist replaces the manipulators found on the Magellan for more capable material handling, while a forward mining drill allows the Shackleton to breach obstacles or extract samples without additional support equipment.</p><p>A Beagle Active Probe enhances crew situational awareness in environments where standard sensors are insufficient, and a dedicated communications package maintains reliable contact even in electromagnetically hostile conditions. The vehicle is fully armored, environmentally sealed, and equipped with an off-road chassis modification that extends cross-country mobility well beyond standard wheeled vehicle performance. The BAR 10 armor standard gives the Shackleton substantially more protection than any variant of the Magellan line. Advanced fire control manages the forward machine gun. The five-person crew, including a dedicated officer, reflects the operational complexity of the vehicle's intended mission profile.</p>
 </capabilities>
+
+<overview>
+<p>The Shackleton All-Environment Survey Vehicle is Donovan-Miter's most capable product, conceived as a dedicated extreme-environment complement to the Magellan line. Where the Magellan excels in sustained survey operations supported by established base camps, the Shackleton is engineered to operate independently in any environment, from dense jungle to hard vacuum. Developed through the early 3090s with substantial investment from Interstellar Expeditions and material support from the Republic of the Sphere, the design packs extraordinary capability into a 50-ton wheeled platform by leveraging near-Clan-level metallurgy and electronics. Production began in 3093, with output designated exclusively for Interstellar Expeditions and the Republic Armed Forces, which began evaluating the Shackleton for dedicated scouting roles alongside its primary exploration mission.</p>
+</overview>
 
 <deployment>
 <p>The Shackleton AESV operates exclusively with Interstellar Expeditions survey teams and Republic Armed Forces scout units. For IE, the Shackleton typically accompanies Magellan-equipped survey parties as the forward element for short sorties into environments unsuitable for the larger vehicle. The RAF evaluates the design for reconnaissance roles, drawn by its combination of jump mobility and advanced sensor capability. High crew requirements, demanding psychological screening standards, and persistent maintenance challenges associated with the vehicular jump system limit wider adoption beyond these two primary operators.</p>
@@ -179,4 +162,20 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Advanced Fire Control
 </systemModels>
+
+<source>
+IE:ISP3
+</source>
+
+<published>
+IE:ISP3
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

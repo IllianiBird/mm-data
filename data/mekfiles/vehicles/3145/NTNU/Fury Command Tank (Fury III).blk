@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e832-7f34-afc4-c23ccb99447c
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Fury Command Tank
 <year>
 3114
 </year>
-
-<originalBuildYear>
-3114
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -110,29 +110,13 @@ ISGaussRifle
 CLRotaryAC5
 </Turret Equipment>
 
-
-
-
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 11:22:50
-<overview>
-<p>The Fury Command Tank originated in 2637 as a purpose-built command and control vehicle for Star League Defense Force armor and infantry regiments. Produced by Jolassa Armored Vehicles on Tybalt under Terran Hegemony patronage, it was designed to serve as a mobile tactical hub rather than a frontline combatant, though its weaponry gave it the ability to contribute meaningfully to any engagement it supported. The design's defining characteristic was an advanced battlefield computer that processed and distributed tactical data at speeds previously unseen in field operations, functioning as a primitive networked fire-control system decades before such technology became common across the Inner Sphere. This capability made the Fury a coveted command asset, and it was produced in both a restricted high-capability version for SLDF Royal units and a more widely distributed variant that omitted the classified computer. Solidly built for its role, the Fury balanced reasonable protection and speed with long-range armament well suited to a command vehicle operating from the second echelon.</p>
-</overview>
-
 <capabilities>
 <p>The Fury's primary weapon is a turret-mounted Gauss rifle, offering exceptional range and hitting power for a vehicle of its size and role. The original M-9 variant was replaced in the modern revival by the Poland Main Model C, providing equivalent firepower with improved parts availability across the Federated Suns supply chain. Two tons of ammunition give the crew reasonable endurance for extended operations. The weapon's minimum effective range is a meaningful drawback: the Fury is poorly suited to close-quarters engagements, and crews must rely on supporting infantry or armor to guard against threats that close inside the rifle's dead zone. The vehicle is not intended to absorb punishment like a dedicated assault tank, and commanders who misuse it as a line vehicle accept disproportionate risk.</p><p>Fifteen tons of PyroTec ArmorSlab Standard plate provide solid protection appropriate to a command vehicle, and the Pitban 320 fusion engine delivers a road speed that keeps the Fury competitive with the mechanized formations it typically accompanies. The design's true strength lies in its command and control suite. The original Nirasaki-400X command computer gave SLDF commanders a battlefield information advantage measured in seconds per targeting solution, functioning as a primitive distributed fire control network. The Terran Hegemony's decision to restrict this system to Royal units prompted Jolassa to develop the stripped Fury II, which traded the computer for an additional forward-facing medium laser and modestly heavier side armor. Both versions retained the core vehicle platform and were tactically interchangeable in mixed formations, though unit commanders quickly learned to keep the two variants segregated to avoid coordination confusion under fire.</p>
 </capabilities>
+
+<overview>
+<p>The Fury Command Tank originated in 2637 as a purpose-built command and control vehicle for Star League Defense Force armor and infantry regiments. Produced by Jolassa Armored Vehicles on Tybalt under Terran Hegemony patronage, it was designed to serve as a mobile tactical hub rather than a frontline combatant, though its weaponry gave it the ability to contribute meaningfully to any engagement it supported. The design's defining characteristic was an advanced battlefield computer that processed and distributed tactical data at speeds previously unseen in field operations, functioning as a primitive networked fire-control system decades before such technology became common across the Inner Sphere. This capability made the Fury a coveted command asset, and it was produced in both a restricted high-capability version for SLDF Royal units and a more widely distributed variant that omitted the classified computer. Solidly built for its role, the Fury balanced reasonable protection and speed with long-range armament well suited to a command vehicle operating from the second echelon.</p>
+</overview>
 
 <deployment>
 <p>The Fury III represents JKAW's Dark Age evolution of the design, incorporating an XL fusion engine and a Clan-built rotary autocannon alongside the retained Gauss rifle. Two ER medium lasers extend fire coverage across the front arc while C3 boosted slave equipment allows coordination with widely dispersed units. A Beagle active probe adds battlefield awareness suited to the fragmented engagements common in the Dark Age. The infantry bay has been removed to free tonnage for the expanded weapons and electronics suite.</p>
@@ -165,4 +149,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:HIV-13
 TARGETING:Quadrant XD
 </systemModels>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a530-7f2e-bc42-559a0f198fc2
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Ravager Assault Battle Armor
 <year>
 3084
 </year>
-
-<originalBuildYear>
-3084
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -86,46 +86,13 @@ BABattleClaw:LA
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
 
-<slotless_equipment>
-BARL1 Ammo:Shots1#
-BARL1 Ammo:Shots1#
-</slotless_equipment>
-<source>
-TR:3085,TR:3085S
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-18
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Ravager is an assault-class battle armor produced by Marian Arms Incorporated on Horatius in the Marian Hegemony. Introduced in 3084, the suit was designed using common Inner Sphere technology to fill both a domestic defense role and generate export revenue for the small Periphery nation. The Ravager gained rapid popularity among mercenary commands and smaller states, earning a reputation as a rugged and affordable heavy combat suit. While widely acknowledged as one of the least attractive battle armor designs in production, the combination of heavy protection and an accessible price point has ensured steady demand across the Inner Sphere and beyond.</p>
-</overview>
-
 <capabilities>
 <p>The Ravager is a two-ton assault suit built with common Inner Sphere technology and modified BattleMech armor plating. Its primary weapon is a multi-barrel heavy recoilless rifle mounted on the right arm, featuring redundant barrels that allow continued operation even after sustaining damage. Two single-tube rocket launchers on the main body provide supplemental firepower, while a battle claw on the left arm handles close-quarters work. Protection is the suit's defining characteristic, with nearly a full metric ton of standard armor giving operators confidence against all but the heaviest autocannon fire. Ground speed reaches a respectable twenty kilometers per hour, quick for a suit of this weight class.</p><p>The Ravager lacks jump capability entirely, limiting its tactical mobility in rough terrain. Many observers consider the overall firepower modest for an assault-class design, and the suit has earned a reputation as one of the least visually appealing battle armor in service. Operators have taken to calling it "the Waddle," though most are willing to trade aesthetics for the survivability it offers.</p>
 </capabilities>
+
+<overview>
+<p>The Ravager is an assault-class battle armor produced by Marian Arms Incorporated on Horatius in the Marian Hegemony. Introduced in 3084, the suit was designed using common Inner Sphere technology to fill both a domestic defense role and generate export revenue for the small Periphery nation. The Ravager gained rapid popularity among mercenary commands and smaller states, earning a reputation as a rugged and affordable heavy combat suit. While widely acknowledged as one of the least attractive battle armor designs in production, the combination of heavy protection and an accessible price point has ensured steady demand across the Inner Sphere and beyond.</p>
+</overview>
 
 <deployment>
 <p>Clan-affiliated forces that acquired the Ravager through commercial channels field it in traditional five-trooper Points. The Rasalhague Dominion and other Clan successor states adopted the suit where domestic production could not meet garrison demand. Points of Ravagers typically supplement second-line formations, with the suit's durability compensating for doctrinal preferences toward faster Clan designs.</p>
@@ -158,4 +125,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085,TR:3085S
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+18
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb36-7f04-b382-7da6a3064956
+</UUID>
+
 <UnitType>
 SupportVTOL
 </UnitType>
@@ -35,10 +39,6 @@ Blackstone Baronet Passenger VTOL
 <year>
 3071
 </year>
-
-<originalBuildYear>
-3071
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -115,26 +115,13 @@ standardseats:200.0:0:-1::-1:0
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuel>
-3.0
-</fuel>
-
-# Fluff Date: 2026-03-02 15:52:16
-<overview>
-<p>The Blackstone Baronet Passenger VTOL is a fifty-ton large civilian air transport developed by Blackstone BattleMechs of Inarcs as the direct follow-on to the company's smaller Pegasus design. Recognizing the strong commercial demand demonstrated by the Pegasus's rapid sales success in 3066 and 3067, Blackstone immediately pursued a larger variant for operators requiring higher passenger capacity. The Baronet doubles the Pegasus's seating to two hundred travelers, trading some fuel range for the additional interior volume. Like its predecessor, it was designed exclusively for the civilian market, carrying no weapons and offering no protective armor, reflecting the company's judgment that the passenger transit role rewards weight efficiency and comfort over survivability.</p>
-</overview>
-
 <capabilities>
 <p>The Baronet shares the Pegasus's electric fuel cell powerplant configuration but mounts it in a fifty-ton airframe that prioritizes passenger capacity over range. Cruising speed and maximum speed match the Pegasus precisely, but the fuel range is reduced to approximately fourteen hundred kilometers, roughly two-thirds that of the smaller design. This trade-off reflects a deliberate emphasis on high-density short-range transit service rather than long-distance routing.</p><p>The interior accommodates two hundred passengers across fifteen tons of seating, with three remaining tons of cargo space for luggage. A crew of three operates the vehicle. Dual entry doors on both the right and left sides allow efficient boarding and deplaning at busy transit stops. As with the Pegasus, the Baronet carries no weapons and offers only the minimal structural integrity of a BAR 2 chassis, providing no meaningful protection against hostile action. The design's critics have noted that even an accidental weapons discharge could down the aircraft, and Blackstone continued to emphasize capacity and newness in its marketing rather than making any claim to durability.</p>
 </capabilities>
+
+<overview>
+<p>The Blackstone Baronet Passenger VTOL is a fifty-ton large civilian air transport developed by Blackstone BattleMechs of Inarcs as the direct follow-on to the company's smaller Pegasus design. Recognizing the strong commercial demand demonstrated by the Pegasus's rapid sales success in 3066 and 3067, Blackstone immediately pursued a larger variant for operators requiring higher passenger capacity. The Baronet doubles the Pegasus's seating to two hundred travelers, trading some fuel range for the additional interior volume. Like its predecessor, it was designed exclusively for the civilian market, carrying no weapons and offering no protective armor, reflecting the company's judgment that the passenger transit role rewards weight efficiency and comfort over survivability.</p>
+</overview>
 
 <deployment>
 <p>The Baronet entered commercial service in 3071 following an extended testing and pre-production phase, targeting high-volume transit routes where the Pegasus's hundred-passenger capacity is insufficient. Its primary market is urban and regional transit across the Lyran Alliance inner worlds, particularly on routes connecting larger population centers where passenger volumes justify the larger airframe. The Lyran Alliance Armed Forces acquired two early prototypes for rear-area troop transport evaluation, though the vehicle's total absence of armor limits it to non-contested secure environments. Commercial operators across Lyran space represent the principal customer base, with the Baronet's dual-door boarding configuration and two-hundred-seat interior making it well-suited for high-volume hubs and busy inter-city transit corridors.</p>
@@ -169,4 +156,16 @@ JUMP_JET:N/A (VTOL rotor)
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuel>
+3.0
+</fuel>
 

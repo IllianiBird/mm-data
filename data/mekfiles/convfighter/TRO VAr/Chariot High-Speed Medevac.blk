@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa26-7a02-8f76-1110d2212634
+</UUID>
+
 <UnitType>
 FixedWingSupport
 </UnitType>
@@ -35,10 +39,6 @@ Chariot High-Speed Medevac
 <year>
 3031
 </year>
-
-<originalBuildYear>
-3031
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -131,32 +131,13 @@ MASH Equipment:SIZE:1.0
 2
 </engine_tech_rating>
 
-
-
-
-
-
-
-<notes>
-Based on Fluff.
-</notes>
-
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>In 3031, Ceres Metals Industries released the Chariot High-Speed Medevac, a Capellan-produced derivative of the Wangker AeroSpace C-790 Protector. A number of Protectors had been captured by Capellan forces during the Fourth Succession War, and Ceres wasted little time in reverse-engineering the aircraft for domestic production. The Chariot was intended to fill the Confederation's desperate need for high-speed medical evacuation aircraft, a capability that had been sorely lacking during the devastating Fourth War. Rather than produce a direct copy, however, Ceres made deliberate modifications that reflected the Confederation's own military medical doctrine and the harsh realities of its limited trained personnel.</p>
-</overview>
-
 <capabilities>
 <p>The Chariot retains the Protector's proven airframe and high-speed performance, including its Mach 3 burst capability and STOL operations through vectored-thrust wing-mounted engines. Where the Chariot differs significantly is in its medical configuration. Rather than replicating the Protector's ten individual paramedic stations, Ceres Metals replaced the paramedic bays with a single-theater MASH module. While the Chariot carries a ton less armor protection than the Protector, this trade-off provides a substantially higher level of care for its patients. The MASH module allows onboard surgical capability, meaning that critically wounded soldiers can receive definitive treatment during transit rather than merely stabilization.</p><p>The reduced armor is a calculated risk. Ceres engineers reasoned that a medevac aircraft operating in the rear areas of an engagement zone faces less direct fire than front-line combat craft, and that the weight savings were better spent on medical equipment that would save more lives than an additional ton of plating.</p>
 </capabilities>
+
+<overview>
+<p>In 3031, Ceres Metals Industries released the Chariot High-Speed Medevac, a Capellan-produced derivative of the Wangker AeroSpace C-790 Protector. A number of Protectors had been captured by Capellan forces during the Fourth Succession War, and Ceres wasted little time in reverse-engineering the aircraft for domestic production. The Chariot was intended to fill the Confederation's desperate need for high-speed medical evacuation aircraft, a capability that had been sorely lacking during the devastating Fourth War. Rather than produce a direct copy, however, Ceres made deliberate modifications that reflected the Confederation's own military medical doctrine and the harsh realities of its limited trained personnel.</p>
+</overview>
 
 <deployment>
 <p>The Chariot serves primarily with CCAF medical units and Capellan planetary garrisons, where it provides rapid casualty evacuation from forward engagement zones. The aircraft has also found buyers among Capellan-allied mercenary commands and the Confederation's Trinity alliance partners. The Chariot's MASH module makes it particularly valuable in theaters where ground-based hospitals are distant or unavailable, allowing surgical teams to operate while the aircraft is in flight.</p>
@@ -173,4 +154,16 @@ Ceres Metals Industries
 <primaryFactory>
 Unknown
 </primaryFactory>
+
+<notes>
+Based on Fluff.
+</notes>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+90.0
+</tonnage>
 

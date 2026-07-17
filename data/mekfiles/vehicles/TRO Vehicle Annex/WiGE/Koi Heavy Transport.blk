@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb9b-7ae6-84c7-e2da71753968
+</UUID>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Koi Heavy Transport
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,26 +119,13 @@ AmphibiousChassis
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-240.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-08 20:16:39
-<overview>
-<p>The Koi Heavy Transport is a large wing-in-ground-effect cargo vehicle designed and manufactured by Wakazashi Enterprises for the Draconis Combine's domestic transport market. Introduced in 3056, the Koi was created to address a recognized gap in planetary logistics on Combine worlds where DropShip transport is economically impractical for routine cargo movement. Wakazashi positioned the design for the civilian sector, emphasizing cargo capacity and long-range overwater transit over military utility.</p><p>The Koi's enormous two-hundred-forty-ton frame carries over one hundred twenty tons of reconfigurable cargo, and its fusion powerplant provides operational range limited only by crew endurance. Coordinator Theodore Kurita's economic modernization reforms drove demand for precisely this kind of high-capacity domestic transport, and the Koi quickly became a fixture of commercial logistics across the Draconis Combine and neighboring states.</p>
-</overview>
-
 <capabilities>
 <p>The Koi's most significant asset is its cargo flexibility. The main bay accommodates standard freight containers, infantry formations, wheeled and tracked vehicles, or even a single BattleMech, with quick-release flotation tanks and powerful pumps enabling rapid reconfiguration between load types. This versatility makes the Koi useful for planetary militia and light garrison commands that lack dedicated combat transport assets.</p><p>Wing-in-ground-effect movement gives the Koi effectively unlimited overwater range. Its amphibious chassis modification allows bay doors to be opened while the vehicle is afloat without risk of flooding, enabling loading and unloading from open coastlines or shallow anchorages with no port infrastructure required. Cruise speed over water is modest, though flank speed is adequate for emergency maneuver away from a threat.</p><p>The Koi's limitations are considerable for any military context. It carries no weapons, relying entirely on escorts for protection. All WiGE vehicles are inherently vulnerable to conventional aircraft and aerospace fighters, and the Koi's enormous radar profile makes evasion impossible. Its large size means combat damage while carrying a full load risks catastrophic loss of both cargo and vehicle. The design is also exposed to ground fire if forced to transit near hostile positions at low altitude.</p>
 </capabilities>
+
+<overview>
+<p>The Koi Heavy Transport is a large wing-in-ground-effect cargo vehicle designed and manufactured by Wakazashi Enterprises for the Draconis Combine's domestic transport market. Introduced in 3056, the Koi was created to address a recognized gap in planetary logistics on Combine worlds where DropShip transport is economically impractical for routine cargo movement. Wakazashi positioned the design for the civilian sector, emphasizing cargo capacity and long-range overwater transit over military utility.</p><p>The Koi's enormous two-hundred-forty-ton frame carries over one hundred twenty tons of reconfigurable cargo, and its fusion powerplant provides operational range limited only by crew endurance. Coordinator Theodore Kurita's economic modernization reforms drove demand for precisely this kind of high-capacity domestic transport, and the Koi quickly became a fixture of commercial logistics across the Draconis Combine and neighboring states.</p>
+</overview>
 
 <deployment>
 <p>The Koi Heavy Transport serves primarily as a commercial cargo vehicle throughout the Draconis Combine, operated by trading houses, planetary governments, and militia logistics commands. Export units are found across the Inner Sphere wherever cost-effective long-range overwater cargo movement is needed. The design is unarmed and unsuited for frontline service, but its enormous payload makes it an indispensable asset in rear-area logistics and disaster relief operations. On Tabayama, the Hunters International collective operates a large fleet for hunting and agricultural transport across the world's extensive croplands.</p>
@@ -171,4 +158,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+240.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

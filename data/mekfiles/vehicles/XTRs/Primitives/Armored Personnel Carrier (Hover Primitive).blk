@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec1d-7022-b8e3-21b683ba510f
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Armored Personnel Carrier
 <year>
 2390
 </year>
-
-<originalBuildYear>
-2390
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -117,34 +117,13 @@ Machine Gun
 3
 </engine_tech_rating>
 
-<source>
-XTR:Primitives I
-</source>
-
-<published>
-XTR:Primitives I
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-<fuel>
-0.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
-</overview>
-
 <capabilities>
 <p>The primitive hover APC represents the earliest incarnation of the hovercraft personnel carrier concept, dating to approximately 2390. Using civilian-grade drive train components and a petrochemical-powered internal combustion engine, this ten-ton vehicle carries one ton of infantry -- a single squad -- at a maximum speed of approximately one hundred nineteen kilometers per hour. A single turret-mounted machine gun provides minimal self-defense capability.</p><p>Constructed with barrier armor rating five protection -- only fourteen points of armor coverage total -- the primitive hover APC offers significantly less survivability than its modern Star League-era successor. The vehicle's dependence on petrochemical fuel and civilian-grade components makes it unsuitable for sustained front-line operations, but its extreme simplicity and low production cost keep it in service with militia, paramilitary, and private security forces across the Periphery and the most impoverished Inner Sphere worlds centuries after more capable designs have superseded it.</p>
 </capabilities>
+
+<overview>
+<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
+</overview>
 
 <deployment>
 <p>The primitive hover APC remains in service exclusively with militia, paramilitary, and private security forces on the least developed worlds of the Inner Sphere and Periphery. No front-line military has fielded the design in centuries, but its extremely low cost and simple construction keep it in production on worlds where even standard APC technology is difficult to manufacture. Some Periphery bandits and pirates use captured or improvised primitive hover APCs for raiding operations.</p>
@@ -175,4 +154,24 @@ ARMOR:BAR
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Primitives I
+</source>
+
+<published>
+XTR:Primitives I
+</published>
+
+<tonnage>
+10.0
+</tonnage>
+
+<fuel>
+0.5
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

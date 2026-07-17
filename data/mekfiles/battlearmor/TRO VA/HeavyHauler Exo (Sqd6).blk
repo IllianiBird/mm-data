@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a889-7560-8e9c-16d0b90d6ef1
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ HeavyHauler Exoskeleton
 <year>
 3052
 </year>
-
-<originalBuildYear>
-3052
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -92,42 +92,14 @@ BASearchlight:Body
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:VAr
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-0
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The HeavyHauler is an industrial exoskeleton designed by General Motors for heavy cargo handling. Introduced in 3052 from GM's Kathil manufacturing complex, the 400-kilogram humanoid suit was purpose-built to give its operator exceptional lifting power in commercial and military logistics environments. Though not the first loader exoskeleton to reach the market, the HeavyHauler quickly became one of the most widely adopted, earning a reputation as a reliable workhorse across spaceports, warehouses, and DropShip loading bays throughout the Inner Sphere. GM's extensive manufacturing and distribution network ensured broad availability, making the design a natural choice for cartage companies and large-scale industrial operations.</p>
-</overview>
 
 <capabilities>
 <p>The HeavyHauler is built around a single design principle: raw lifting power. Its paired cargo lifter manipulators can hoist a full two and a half metric tons and maneuver loads into precise positions, making it one of the most capable loader exoskeletons available. A cutting torch allows operators to open sealed containers and cut through packing materials, while an integrated searchlight supports work in poorly lit cargo holds and nighttime loading operations.</p><p>These advantages come at a cost. The suit moves at a slow walking pace, limiting its utility in time-sensitive logistics environments. More significantly, the HeavyHauler provides no armor protection beyond its basic structural frame, leaving operators exposed to workplace hazards. GM deliberately accepted these trade-offs to maximize the suit's carrying capacity within the 400-kilogram weight limit, producing a design that excels at sustained heavy lifting but demands careful operational planning to keep its operators safe.</p>
 </capabilities>
+
+<overview>
+<p>The HeavyHauler is an industrial exoskeleton designed by General Motors for heavy cargo handling. Introduced in 3052 from GM's Kathil manufacturing complex, the 400-kilogram humanoid suit was purpose-built to give its operator exceptional lifting power in commercial and military logistics environments. Though not the first loader exoskeleton to reach the market, the HeavyHauler quickly became one of the most widely adopted, earning a reputation as a reliable workhorse across spaceports, warehouses, and DropShip loading bays throughout the Inner Sphere. GM's extensive manufacturing and distribution network ensured broad availability, making the design a natural choice for cartage companies and large-scale industrial operations.</p>
+</overview>
 
 <deployment>
 <p>ComStar and Word of Blake logistics commands organized HeavyHauler operators into six-trooper Level I formations, consistent with their broader military organizational structure. These larger work teams proved well suited to the high-volume cargo throughput demanded by HPG compound supply operations and major garrison resupply efforts, where the additional two operators per team reduced shift rotation frequency.</p>
@@ -160,4 +132,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+0
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a374-7ec5-a8f1-72d4a61f2260
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Aerie PA(L)
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -94,42 +94,14 @@ BAExtendedLifeSupport:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-1
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Aerie is a lightweight power armor suit developed by Clan Snow Raven in collaboration with Outworlds Alliance scientists in the late 3060s. Designed for space-borne operations, the suit fills a role that earlier Raven battle armor designs had left unaddressed: purpose-built combat capability in zero-gravity and shipboard environments. Classified as PA(L), the Aerie prioritizes agility and freedom of movement over heavy protection, making it well-suited for boarding actions, marine security, and close-quarters fighting aboard spacecraft. A dedicated salvage configuration extends the platform's utility beyond direct combat roles.</p>
-</overview>
 
 <capabilities>
 <p>The Aerie masses just under 400 kilograms, making it one of the lightest combat-rated suits in production. Its 35 kilograms of advanced armor composites offer protection against the hazards of vacuum and small-arms fire, though the coverage is minimal compared to heavier battle armor designs. The suit's exoskeleton enhances the wearer's strength for melee combat and load-shifting tasks without restricting freedom of movement, making it well-suited for close-quarters fighting aboard spacecraft and during boarding actions.</p><p>The Aerie carries no integral weapons. Instead, armored gloves allow troopers to wield standard infantry weapons. Laser rifles are preferred in null-gravity environments to avoid recoil complications, though ballistic and missile weapons see use when conditions allow. An extended life support module permits prolonged operations in vacuum or hostile atmospheres. Jump jets provide up to ninety meters of leap capability, useful both planetside and for maneuvering between vessels. The suit can engage in anti-BattleMech attacks and travel mechanized aboard OmniMechs, giving it tactical flexibility well beyond its weight class.</p>
 </capabilities>
+
+<overview>
+<p>The Aerie is a lightweight power armor suit developed by Clan Snow Raven in collaboration with Outworlds Alliance scientists in the late 3060s. Designed for space-borne operations, the suit fills a role that earlier Raven battle armor designs had left unaddressed: purpose-built combat capability in zero-gravity and shipboard environments. Classified as PA(L), the Aerie prioritizes agility and freedom of movement over heavy protection, making it well-suited for boarding actions, marine security, and close-quarters fighting aboard spacecraft. A dedicated salvage configuration extends the platform's utility beyond direct combat roles.</p>
+</overview>
 
 <deployment>
 <p>Clan Snow Raven deployed the Aerie in standard five-trooper Points, initially with Alpha Galaxy's naval assets. Points typically operated as boarding teams or shipboard security detachments, screening DropShip and WarShip docking bays during fleet actions. As the Raven Alliance consolidated, Aerie Points became a common sight aboard dedicated military vessels patrolling the Deep Periphery and Outworlds Alliance border regions.</p>
@@ -164,4 +136,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+1
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

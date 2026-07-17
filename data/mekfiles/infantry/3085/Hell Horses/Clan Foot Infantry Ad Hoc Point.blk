@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b649-777e-9618-1f4db4572956
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ Ad Hoc Point
 601
 </mul id:>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 2825
 </year>
-
-<originalBuildYear>
-2825
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -67,6 +59,18 @@ Clan Armor Kit (All)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Most Clusters in Clan Hell's Horses deploy a number of ad hoc Points that lack the specialization of dedicated formations. The Forty-second BattleMech Cluster, Theta Galaxy, is typical: its ad hoc foot Points are armed with modern Gauss sub machineguns and automatic grenade launchers, making them quite capable in a firefight despite their lack of formal role assignment. Made up of tested-down warriors drawn from all branches who failed to qualify for more prestigious postings, these solahma troops are not expected to live long. They are motivated less by honor than by the chance to see combat one last time. Combat reports from the Clan Wolf Occupation Zone suggest that Wolf commanders preferred to use Elementals for headhunting missions specifically targeting the conventional support units that formations like the Forty-second's infantry routinely protect.</p>
+</overview>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
 <squad_size>
 5
 </squad_size>
@@ -86,9 +90,4 @@ Gauss Submachine Gun
 <Secondary>
 InfantryAutoGL
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Most Clusters in Clan Hell's Horses deploy a number of ad hoc Points that lack the specialization of dedicated formations. The Forty-second BattleMech Cluster, Theta Galaxy, is typical: its ad hoc foot Points are armed with modern Gauss sub machineguns and automatic grenade launchers, making them quite capable in a firefight despite their lack of formal role assignment. Made up of tested-down warriors drawn from all branches who failed to qualify for more prestigious postings, these solahma troops are not expected to live long. They are motivated less by honor than by the chance to see combat one last time. Combat reports from the Clan Wolf Occupation Zone suggest that Wolf commanders preferred to use Elementals for headhunting missions specifically targeting the conventional support units that formations like the Forty-second's infantry routinely protect.</p>
-</overview>
 

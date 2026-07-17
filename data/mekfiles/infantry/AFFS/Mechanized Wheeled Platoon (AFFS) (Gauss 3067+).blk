@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b728-7f37-a0d1-6f2c0195ad9c
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Mechanized Wheeled Platoon (AFFS)
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Fed Suns Infantry Kit (3067+)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>Federated Suns infantry benefit from one of the strongest industrial bases in the Inner Sphere, with AFFS quartermasters able to supply platoons with standardized equipment and ammunition from a logistics network that few rival states can match. Mechanized wheeled platoons ride wheeled transports that offer good speed on roads and developed terrain, making them well-suited to garrison duty on worlds with established infrastructure where rapid response matters more than cross-country capability. Carrying infantry-scale gauss rifles that use magnetic acceleration to propel projectiles at extreme velocities, these platoons field the longest-ranged and hardest-hitting personal ballistic weapon available to conventional soldiers.</p>
+</overview>
 
 <notes>
 Intro date based on production date of AFFS 3067+ advanced infantry kit
@@ -84,9 +86,4 @@ Gauss Cannon (Grand Mauler)
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Federated Suns infantry benefit from one of the strongest industrial bases in the Inner Sphere, with AFFS quartermasters able to supply platoons with standardized equipment and ammunition from a logistics network that few rival states can match. Mechanized wheeled platoons ride wheeled transports that offer good speed on roads and developed terrain, making them well-suited to garrison duty on worlds with established infrastructure where rapid response matters more than cross-country capability. Carrying infantry-scale gauss rifles that use magnetic acceleration to propel projectiles at extreme velocities, these platoons field the longest-ranged and hardest-hitting personal ballistic weapon available to conventional soldiers.</p>
-</overview>
 

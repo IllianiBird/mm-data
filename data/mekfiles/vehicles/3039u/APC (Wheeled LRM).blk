@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e251-75af-b168-057d2095e607
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Armored Personnel Carrier
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -96,30 +96,13 @@ LRM 5
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
-</overview>
-
 <capabilities>
 <p>The LRM variant of the wheeled APC eliminates the infantry compartment, turret, and machine guns to mount a forward-firing LRM-5 launcher with one ton of ammunition. This conversion completely removes the vehicle's troop-carrying capability, creating a light missile platform with forty points of standard armor -- better protected than the hover LRM variant though matching the tracked conversion.</p><p>The wheeled LRM variant operates at approximately ninety-seven kilometers per hour on improved surfaces, where it can rapidly reposition between firing positions using established road networks. Garrison commands stationed in developed areas particularly favor this conversion, as the wheeled chassis provides adequate mobility for defensive operations while the armor improves crew survivability against counterbattery fire.</p>
 </capabilities>
+
+<overview>
+<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
+</overview>
 
 <deployment>
 <p>The wheeled LRM conversion serves garrison forces defending urban areas and industrial complexes, where road networks support rapid repositioning between firing positions. The variant's heavier armor compared to the hover LRM variant improves crew survivability in defensive operations where counterbattery fire is expected.</p>
@@ -150,4 +133,20 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+10.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

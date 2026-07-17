@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a410-722b-a7eb-5210f91e1d5d
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kobold Battle Armor
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -97,42 +97,14 @@ CLBALightTAG:SSWM:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kobold is a light battle armor suit jointly developed by the Free Rasalhague Republic, ComStar, and the second Star League. Entering production in 3069 at Grumium Creations on Grumium, the design was born from the Republic’s desire for a stealth-capable scout suit after failed efforts to procure existing designs from other powers. A humanoid suit with jump capability and low-observable armor, the Kobold filled a gap in Republic and ComStar inventories for a light reconnaissance platform that could hold its own in direct combat while operating alongside heavier battle armor types.</p>
-</overview>
 
 <capabilities>
 <p>Pairing small lasers with a light TAG designator, this configuration balances self-defense capability with forward observation duties. The small lasers on each trooper’s modular mount give the squad credible engagement ability against light targets and battle armor, while the TAG unit allows the squad leader to designate targets for artillery and guided munitions. The combination makes this loadout effective for independent screening missions where the team may need to defend itself while performing its primary spotting role. Basic stealth armor rated against a medium laser hit and the suit’s low electromagnetic signature aid concealment during target acquisition. The Kobold’s ninety-meter jump range provides the mobility needed to reach advantageous observation positions, and armored gloves support both anti-BattleMech swarming attacks and mounted transport on OmniMechs.</p>
 </capabilities>
+
+<overview>
+<p>The Kobold is a light battle armor suit jointly developed by the Free Rasalhague Republic, ComStar, and the second Star League. Entering production in 3069 at Grumium Creations on Grumium, the design was born from the Republic’s desire for a stealth-capable scout suit after failed efforts to procure existing designs from other powers. A humanoid suit with jump capability and low-observable armor, the Kobold filled a gap in Republic and ComStar inventories for a light reconnaissance platform that could hold its own in direct combat while operating alongside heavier battle armor types.</p>
+</overview>
 
 <deployment>
 <p>ComStar’s Com Guards valued this configuration for its dual capability as both a combat and observation platform. Six-trooper Level Is equipped with small lasers and TAG were attached to combined-arms Level IIs, where they could contribute direct fire while maintaining their primary mission of designating targets for artillery and guided munitions.</p>
@@ -167,4 +139,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a629-743e-a090-c5cde8b31da0
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Sea Fox Amphibious Armor
 <year>
 3116
 </year>
-
-<originalBuildYear>
-3116
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Experimental
@@ -100,44 +100,15 @@ IS BA Stealth (Basic):Body
 
 <slotless_equipment>
 BAUMU
-BA-SRM1 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3145:FS,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>General Motors of Salem developed the Sea Fox Amphibious Armor for the Armed Forces of the Federated Suns as a specialized amphibious defense platform. Entering service in 3116, the light battle armor fills a narrow but important role within AFFS defensive doctrine. Built with mixed Inner Sphere and Clan technology, the Sea Fox excels in waterway-adjacent urban environments and coastal defense operations. While ill-suited for general deployment, the suit has earned a strong reputation among the specialized units that field it.</p>
-</overview>
 
 <capabilities>
 <p>The Sea Fox is an ambush fighter and infiltrator, purpose-built for operations in and around bodies of water. Its Clan-manufactured Underwater Maneuvering Unit allows the suit to move through shallow water at the same speed as overland travel, giving troopers a significant tactical advantage in riverine and littoral terrain. A Cutting Torch serves as the primary close-combat tool, supplemented by a single-shot SRM launcher and a Light Machine Gun with fifty rounds of ammunition. Armored Gloves on each arm allow troopers to engage in melee and perform swarming attacks against BattleMech legs in shallow water. A Mechanical Jump Booster provides thirty meters of jump capability, aiding rapid repositioning.</p><p>Basic Stealth armor grants limited protection while reducing the suit's sensor signature. At 750 kilograms, the Sea Fox carries only light armament and armor, making it poorly suited for stand-up engagements outside its intended operational environment.</p>
 </capabilities>
+
+<overview>
+<p>General Motors of Salem developed the Sea Fox Amphibious Armor for the Armed Forces of the Federated Suns as a specialized amphibious defense platform. Entering service in 3116, the light battle armor fills a narrow but important role within AFFS defensive doctrine. Built with mixed Inner Sphere and Clan technology, the Sea Fox excels in waterway-adjacent urban environments and coastal defense operations. While ill-suited for general deployment, the suit has earned a strong reputation among the specialized units that field it.</p>
+</overview>
 
 <deployment>
 <p>AFFS commanders organized Sea Fox troopers into four-trooper squads, integrating them with light combat teams and march militia formations along vulnerable border regions. The 302nd Amphibious Platoon, known as the Red Tridents, earned particular distinction during the defense of McGehee in 3144. Attached to the Fourth Robinson Strikers, the Red Tridents used confiscated hydrofoils to extract captured battalion staff from Sixteenth Galedon Regulars forces, navigating the Davis River under fire to complete the rescue.</p>
@@ -172,4 +143,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:FS,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

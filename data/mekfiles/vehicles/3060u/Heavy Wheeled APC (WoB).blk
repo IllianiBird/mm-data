@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e513-7efe-9f56-8ef7b0c2c4c9
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Heavy Wheeled APC
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -100,26 +100,13 @@ ISSmallVSPLaser
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Word of Blake variant of the Heavy Wheeled APC stands as a radical upgrade to the standard design, replacing the internal combustion engine with an extralight fusion engine that boosts maximum speed to approximately one hundred nineteen kilometers per hour while retaining the full six tons of infantry carrying capacity for two platoons. Two front-mounted Small Variable-Speed Pulse Lasers replace the standard machine guns, providing energy-based anti-infantry and anti-light-vehicle weapons that never run out of ammunition.</p><p>Heavy ferro-fibrous armor provides seventy-nine points of protection -- the heaviest armor of any APC variant in the entire family -- making the WoB variant exceptionally survivable for a transport vehicle. The fusion engine eliminates the petrochemical fuel dependency of the standard design, granting unlimited operational range. Introduced in 3072, this variant was produced in limited numbers for Word of Blake Militia formations during the Jihad, and its advanced technology makes it both significantly more capable and substantially more expensive than the standard Heavy Wheeled APC.</p>
 </capabilities>
+
+<overview>
+<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Word of Blake variant was produced exclusively for Word of Blake Militia formations during the Jihad, manufactured in limited numbers beginning in 3072. Following the destruction of the Word of Blake, surviving examples were captured by Coalition forces and dispersed across the successor states. The advanced technology incorporated in the design makes maintenance challenging without access to the original production facilities, and the variant has not been reproduced by any post-Jihad manufacturer.</p>
@@ -150,4 +137,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

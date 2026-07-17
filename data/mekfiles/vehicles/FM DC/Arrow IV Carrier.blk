@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8eb-7ad0-bf3b-74766495e21c
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Arrow IV Carrier
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -105,41 +105,13 @@ ISArrowIV
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<notes>
-Inspired by Dak
-</notes>
-
-<source>
-FM:DC
-</source>
-
-<published>
-RSFP:Battlefield
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 19:27:01
-<overview>
-<p>The Arrow IV Carrier is a sixty-ton tracked combat vehicle mounting two Arrow IV artillery systems on the standard weapons carrier chassis. Produced by the Quikscell Company for the Draconis Combine beginning in 3058, the design provides cheap artillery fire support using the proven carrier platform. The Arrow IV system's homing capability gives the vehicle precision strike potential far exceeding conventional missile carriers.</p>
-</overview>
-
 <capabilities>
 <p>The Arrow IV Carrier mounts two forward-firing Arrow IV artillery launchers, providing both conventional area-effect bombardment and precision homing strikes when paired with TAG designators. An InterComBust 180 internal combustion engine maintains the standard fifty-four kilometer per hour top speed. Simple Armor Plate Standard provides the same minimal forty-eight point armor protection as other base-model carriers.</p><p>A Communicator system and FireScan with IndirecTrack targeting handle coordination and fire direction. The Arrow IV system's indirect fire capability allows the carrier to operate from defilade positions well behind the front line, reducing exposure to the direct combat that proves fatal to thinly armored carrier platforms.</p>
 </capabilities>
+
+<overview>
+<p>The Arrow IV Carrier is a sixty-ton tracked combat vehicle mounting two Arrow IV artillery systems on the standard weapons carrier chassis. Produced by the Quikscell Company for the Draconis Combine beginning in 3058, the design provides cheap artillery fire support using the proven carrier platform. The Arrow IV system's homing capability gives the vehicle precision strike potential far exceeding conventional missile carriers.</p>
+</overview>
 
 <deployment>
 <p>The Arrow IV Carrier was produced by Quikscell for the Draconis Combine beginning in 3058, with production at Ares, Kalidasa, Layover, and Oliver. The DCMS integrated the design into combined-arms formations requiring organic artillery support at the company level.</p>
@@ -169,4 +141,24 @@ ENGINE:180 ICE
 ARMOR:Standard
 TARGETING:with IndirecTrack
 </systemModels>
+
+<notes>
+Inspired by Dak
+</notes>
+
+<source>
+FM:DC
+</source>
+
+<published>
+RSFP:Battlefield
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

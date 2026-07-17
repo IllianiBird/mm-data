@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a908-7174-8e3d-244ef2d01691
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Tunnel Rat IV Mining Exoskeleton
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -90,38 +90,14 @@ CLBAHeavyGrenadeLauncher:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:VAr
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Tunnel Rat IV is an armed derivative of the Tunnel Rat III, developed by General Motors during the Jihad. While retaining its predecessor's mining-grade chassis, the Tunnel Rat IV mounted light weaponry alongside its manipulators, filling a niche for mine site security and perimeter defense during a period of widespread instability. Multiple configurations offered different combinations of manipulators and light armament. Despite this added capability, the Tunnel Rat IV remained a civilian-grade exoskeleton at its core, lacking the protection and firepower of true battle armor.</p>
-</overview>
 
 <capabilities>
 <p>The Battle Claw with Grenade Launcher configuration replaces one armored glove with a battle claw, adding a rudimentary close-combat capability to the exoskeleton's defensive options. The grenade launcher provides ranged firepower, while the battle claw can engage threats at contact distance or serve as a heavy-duty manipulator for rough material handling. Jump jets push the suit's mobility to sixty meters per leap, and the standard Tunnel Rat III armor and life support systems provide baseline protection. The combination of claw and launcher makes this the most tactically flexible of the Tunnel Rat IV variants, though it sacrifices the fine manipulative ability of the armored glove configurations.</p>
 </capabilities>
+
+<overview>
+<p>The Tunnel Rat IV is an armed derivative of the Tunnel Rat III, developed by General Motors during the Jihad. While retaining its predecessor's mining-grade chassis, the Tunnel Rat IV mounted light weaponry alongside its manipulators, filling a niche for mine site security and perimeter defense during a period of widespread instability. Multiple configurations offered different combinations of manipulators and light armament. Despite this added capability, the Tunnel Rat IV remained a civilian-grade exoskeleton at its core, lacking the protection and firepower of true battle armor.</p>
+</overview>
 
 <deployment>
 <p>Mining concerns operating in the most dangerous frontier regions adopted the Battle Claw with Grenade Launcher configuration for crews expected to face direct physical threats. The battle claw provided both a heavy-duty material handling tool and a close-combat option, backed by the grenade launcher for ranged deterrence.</p>
@@ -156,4 +132,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

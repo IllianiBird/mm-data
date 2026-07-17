@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e824-7247-b16d-bfc39d7784e1
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Balac Strike VTOL
 <year>
 3090
 </year>
-
-<originalBuildYear>
-3090
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -113,26 +113,13 @@ CLHeavyMG
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 14:19:26
-<overview>
-<p>The Balac Strike VTOL is a post-Jihad design developed by Clan Diamond Shark in 3079 to capture the vehicle acquisition market anticipated in the conflict's aftermath. Expecting Inner Sphere and Clan forces to prioritize ground vehicle rebuilding over BattleMech procurement, the Sharks identified a gap in the VTOL fire support market and developed the Balac as a purpose-built platform from a clean design foundation independent of any existing Clan VTOL program. Despite incorporating Clan-grade technology, the Balac remains among the more cost-effective means of delivering extended-range anti-vehicle firepower to the field. The Sharks marketed it broadly to both Clan and Inner Sphere buyers, and the design's solid performance and manageable maintenance profile made it a commercial success before demilitarization trends across the Inner Sphere moderated demand.</p>
-</overview>
-
 <capabilities>
 <p>Configured for anti-vehicle fire support, the Balac centers its armament on a pair of Type 6 ATM-6 launchers capable of switching between standard, extended-range, and high-explosive ammunition to match tactical conditions. The launchers allow engagement well beyond the effective reach of most VTOL-mounted weapon systems, while a generous internal ammunition supply supports sustained operations without resupply. A Mk.3 ER medium laser serves as a secondary weapon for close-range threats and engagements that exhaust the ATM magazines.</p><p>The Consolidated 135 XL power plant provides a cruising speed of 119 kilometers per hour and a flank speed of 184, making the Balac exceptionally quick for its mass class. Forging AM15 ferro-fibrous armor provides adequate protection against glancing strikes from vehicle-grade weapons, though it is insufficient to absorb repeated direct hits from heavy systems. Most Balac crews exploit the craft's speed advantage by engaging from hover at range, firing over friendly-cleared terrain, or orbiting enemy formations at flank speed to present a difficult targeting solution while cycling through their ammunition load. One noted vulnerability is the risk of close-range surprise from advancing vehicles or BattleMechs on terrain not yet vetted by friendly forces.</p><p>The Neil 9000 Comm System and RCA Econotrac targeting suite support coordinated anti-vehicle operations across the ATM envelope, with the electronics package optimized for the Balac's vehicle-hunting design role.</p>
 </capabilities>
+
+<overview>
+<p>The Balac Strike VTOL is a post-Jihad design developed by Clan Diamond Shark in 3079 to capture the vehicle acquisition market anticipated in the conflict's aftermath. Expecting Inner Sphere and Clan forces to prioritize ground vehicle rebuilding over BattleMech procurement, the Sharks identified a gap in the VTOL fire support market and developed the Balac as a purpose-built platform from a clean design foundation independent of any existing Clan VTOL program. Despite incorporating Clan-grade technology, the Balac remains among the more cost-effective means of delivering extended-range anti-vehicle firepower to the field. The Sharks marketed it broadly to both Clan and Inner Sphere buyers, and the design's solid performance and manageable maintenance profile made it a commercial success before demilitarization trends across the Inner Sphere moderated demand.</p>
+</overview>
 
 <deployment>
 <p>The Hybrid configuration, introduced in 3090, blends Clan and Inner Sphere components to reduce production costs and expand the Balac's manufacturing accessibility beyond Diamond Shark-aligned facilities. Developed in part to serve markets where access to pure Clan-specification components was inconsistent, the configuration adjusts both armament and propulsion systems to reflect its mixed technology base. Field performance is broadly comparable to the base configuration in the anti-vehicle role, though Hybrid Balacs require coordination with maintenance personnel experienced in mixed-tech servicing. The design sees service primarily in regions where supply chain diversity is a practical operational advantage.</p>
@@ -167,4 +154,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aef9-70eb-a580-f695bceeb231
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ CNT-2D
 <year>
 2837
 </year>
-
-<originalBuildYear>
-2837
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -118,34 +118,13 @@ Medium Laser
 IS Ammo SRM-6
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Centurion is the first domestically produced aerospace fighter developed by the Federated Suns, debuting from Jalastar Aerospace on Panpour in 2473. Inspired by the Terran Hegemony's advances in fighter technology, Federated Suns planners prioritized speed and survivability over raw firepower when designing this thirty-ton light fighter. Intended to outmaneuver anything it could not outgun, the Centurion proved equally capable in space and atmospheric operations, earning immediate favor with the Armed Forces of the Federated Suns. Though long overshadowed by more modern designs, the fighter's simple construction and rugged frame ensured centuries of continuous service. Licensed production eventually expanded to the Lyran Commonwealth and the Deep Periphery, giving the Centurion a geographic reach that few light fighters of its vintage can match.</p>
-</overview>
-
 <capabilities>
 <p>The Centurion's design philosophy emphasizes endurance and simplicity over sophisticated electronics or heavy ordnance. Three Maxell medium lasers provide its entire offensive capability, with one mounted in the nose and one under each wing. This all-energy armament eliminates ammunition dependency, allowing the fighter to remain on station for extended patrols and strafing runs without concern for supply lines. Seven and a half tons of Rander Special armor, rated to BattleMech-grade specifications, give the Centurion impressive survivability for its weight class.</p><p>A Pitban 240 fusion engine drives the Lockheed/CBM 120 airframe, providing adequate thrust for both interception and ground-support duties. The Lockheed/CBM Comset86b communications system and Rander TA2 targeting and tracking system offer reliable if unremarkable performance, consistent with the design's role as a workhorse rather than a technological showcase. Ten single heat sinks manage the thermal load from the laser array. While the Centurion lacks the advanced electronics and redundant systems found on later designs, its straightforward engineering makes it easy to maintain and repair under field conditions.</p>
 </capabilities>
+
+<overview>
+<p>The Centurion is the first domestically produced aerospace fighter developed by the Federated Suns, debuting from Jalastar Aerospace on Panpour in 2473. Inspired by the Terran Hegemony's advances in fighter technology, Federated Suns planners prioritized speed and survivability over raw firepower when designing this thirty-ton light fighter. Intended to outmaneuver anything it could not outgun, the Centurion proved equally capable in space and atmospheric operations, earning immediate favor with the Armed Forces of the Federated Suns. Though long overshadowed by more modern designs, the fighter's simple construction and rugged frame ensured centuries of continuous service. Licensed production eventually expanded to the Lyran Commonwealth and the Deep Periphery, giving the Centurion a geographic reach that few light fighters of its vintage can match.</p>
+</overview>
 
 <deployment>
 <p>The CNT-2D is a short-range interceptor prototype that saw only limited production. This variant adds a six-tube short-range missile rack at the cost of reduced armor coverage and diminished fuel reserves. Intended to give the Centurion a more aggressive close-combat punch, the 2D trades the baseline model's operational endurance for burst damage potential. The small production run limited the variant's overall impact on the fighter's service record.</p>
@@ -178,4 +157,16 @@ ARMOR:Special
 COMMUNICATIONS:Comset86b
 TARGETING:TA2
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

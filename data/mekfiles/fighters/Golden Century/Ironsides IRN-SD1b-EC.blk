@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ac8e-737d-95dd-30323e5eea0b
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ IRN-SD1b-EC
 <year>
 2825
 </year>
-
-<originalBuildYear>
-2825
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Experimental
@@ -124,34 +124,13 @@ Clan Streak SRM 4 Ammo
 Clan Streak SRM 4 Ammo
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:GC
-</source>
-
-<published>
-TR:GC
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Ironsides is a sixty-five-ton medium aerospace fighter designed by Brooks Incorporated in 2613 for the Star League Defense Force. In an unprecedented marketing strategy, Brooks offered five hundred prototypes to any military command willing to field-test the design, resulting in examples being deployed by the SLDF, every Inner Sphere power, and even the Rim Worlds Republic. This extensive testing program produced a production model with remarkably few defects, earning the fighter a strong reputation for its devastating first-strike capability. Armed with a heavy combination of missiles, particle projectors, and lasers, the Ironsides packed firepower well above its weight class, though limited ammunition stores and poor heat management constrained it to quick-strike engagements rather than prolonged dogfights. The design saw widespread service throughout the Star League era, and its combination of raw hitting power and acceptable maneuverability made it a valued asset in fighter wings across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Ironsides mounts a GM 260 fusion engine on a Lockheed FairFax airframe, achieving a safe thrust of six and maximum thrust of nine. The engine employs an unusual alignment system that shifts its position relative to gravitational and velocity influences, producing a more compact powerplant with the same output as larger contemporary designs. Protection comes from 11.5 tons of SearWeave standard armor, modest for a sixty-five-ton fighter but a necessary concession for its heavy armament.</p><p>Five Colbalt-6 SRM-6 launchers spread across the nose and wings deliver devastating close-range missile salvos. Two Exeter Technologies 1 PPCs in the nose provide ranged firepower, their high-density chamber coils producing narrower beams that avoid disrupting missile flight paths. Two Allied Technologies Model 2 medium lasers round out the armament, though these weapons have proven problematic throughout the fighter's service life. Sustained fire can rupture the power-chain housing, causing a backflash explosion that ripples into the wing roots and can tear the wings from the fuselage during high-stress maneuvers. Three separate recall campaigns failed to eliminate the problem.</p><p>With only ten double heat sinks and a single ton of SRM ammunition providing roughly three full salvos, the Ironsides is best suited to devastating alpha strikes rather than extended engagements. An OP/1/2/3.66 Mk IIa communications system and Ryder Track IV targeting and tracking system complete the electronics suite.</p>
 </capabilities>
+
+<overview>
+<p>The Ironsides is a sixty-five-ton medium aerospace fighter designed by Brooks Incorporated in 2613 for the Star League Defense Force. In an unprecedented marketing strategy, Brooks offered five hundred prototypes to any military command willing to field-test the design, resulting in examples being deployed by the SLDF, every Inner Sphere power, and even the Rim Worlds Republic. This extensive testing program produced a production model with remarkably few defects, earning the fighter a strong reputation for its devastating first-strike capability. Armed with a heavy combination of missiles, particle projectors, and lasers, the Ironsides packed firepower well above its weight class, though limited ammunition stores and poor heat management constrained it to quick-strike engagements rather than prolonged dogfights. The design saw widespread service throughout the Star League era, and its combination of raw hitting power and acceptable maneuverability made it a valued asset in fighter wings across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>This Early Clan refit emerged from cooperation between Clan Star Adder and Clan Steel Viper following the Klondike campaign. Star Adder scientists developed prototype Streak missile systems, and the resulting modification replaced the Royal model's standard missile launchers with new Streak 4 systems, significantly improving ammunition efficiency and combat endurance. The EC designation identifies it as an Early Clan-era modification rather than a new-production design.</p>
@@ -186,4 +165,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:OP/1/2/3.66 Mk IIa
 TARGETING:Track IV
 </systemModels>
+
+<source>
+TR:GC
+</source>
+
+<published>
+TR:GC
+</published>
+
+<tonnage>
+65.0
+</tonnage>
 

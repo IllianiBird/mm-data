@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bc3b-7e7f-b0e6-590c79d2ea7a
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Motorized Platoon (DCMS)
 <year>
 2315
 </year>
-
-<originalBuildYear>
-2315
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -58,7 +58,9 @@ Ballistic Plate, Standard
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>Conventional infantry within the DCMS serve as the foundation of planetary defense, providing the manpower essential to territorial control while freeing BattleMech and armored assets for offensive operations. Motorized infantry travel on light unarmored vehicles that allow them to cover ground faster than the foot platoons that make up the bulk of DCMS garrison forces. District regulars rely on motorized platoons for security patrols across large garrison zones, forward observation, and the rapid response that foot troops cannot provide when trouble arises between widely separated posts. Armed with standard assault rifles, the cheapest and most widely manufactured personal weapon in the Inner Sphere. Effective range is limited, but any world with basic industry can produce and stockpile them in quantity, and resupply is rarely a concern even on remote garrison posts. These sappers specialize in demolition, obstacle construction, and field fortification. Whether preparing defensive positions before the enemy arrives or breaching obstacles during an advance, they shape the ground that everyone else fights on.</p>
+</overview>
 
 <notes>
 Intro date based on introduction date of ballistic plate armor. Ballistic plate armor chosen for damage divisor and ATOW stats and general description.
@@ -83,9 +85,4 @@ true
 <specialization>
 10
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Conventional infantry within the DCMS serve as the foundation of planetary defense, providing the manpower essential to territorial control while freeing BattleMech and armored assets for offensive operations. Motorized infantry travel on light unarmored vehicles that allow them to cover ground faster than the foot platoons that make up the bulk of DCMS garrison forces. District regulars rely on motorized platoons for security patrols across large garrison zones, forward observation, and the rapid response that foot troops cannot provide when trouble arises between widely separated posts. Armed with standard assault rifles, the cheapest and most widely manufactured personal weapon in the Inner Sphere. Effective range is limited, but any world with basic industry can produce and stockpile them in quantity, and resupply is rarely a concern even on remote garrison posts. These sappers specialize in demolition, obstacle construction, and field fortification. Whether preparing defensive positions before the enemy arrives or breaching obstacles during an advance, they shape the ground that everyone else fights on.</p>
-</overview>
 

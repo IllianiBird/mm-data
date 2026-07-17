@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12-nightly-2026-02-26 on 2026-02-27
+uuid:019f583e-d6de-7a88-941a-a204d7e6a174
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Thunderbolt IIC
 model:2
 mul id:5240
@@ -181,7 +182,6 @@ Clan Ferro-Fibrous
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The Thunderbolt IIC is a seventy-ton second-line heavy BattleMech developed in 3085 for Clan Jade Falcon. Following the Jihad, the Falcons found that their Inner Sphere manufacturing holdings were producing surplus components for their Hellbringer and Summoner OmniMech lines faster than those designs consumed them. Rather than curtail production, Falcon leadership directed Olivetti Weaponry on Sudeten to develop an entirely new ’Mech to absorb the excess. Engineers reworked the venerable Thunderbolt chassis that had been built on Sudeten for centuries, reinforcing it to seventy tons and integrating Clan-grade weaponry and systems.</p><p>Fitted with then-experimental advanced technology, the Thunderbolt IIC required its MechWarriors to maintain detailed performance logs for ongoing evaluation. Despite this administrative burden and its assignment to second-line formations, the design offered formidable firepower that belied its garrison role.</p>
 
 capabilities:<p>The Thunderbolt IIC’s engineers took the standard TDR chassis and reinforced it to support seventy tons of equipment, producing a design that observers have likened to a hybrid offspring of the original Thunderbolt and the Summoner. The communications and targeting systems are shared with the Summoner, the ejection seat derives from the Hellbringer, and the life support system originates from the Turkina. The Redline 350 XL engine, the same powerplant that propels the Summoner, drives the chassis to eighty-six kilometers per hour, making it one of the faster heavy ’Mechs in any Clan touman.</p><p>The primary armament consists of two Series XVI-a Improved Heavy Large Lasers, one mounted in each arm. These weapons deliver tremendous damage at medium to short ranges, though firing both simultaneously will quickly overtax the seventeen double heat sinks. A Type XV-S Streak LRM-15 launcher provides efficient long-range firepower, its ammunition protected by advanced CASE II. Three Series 7Ja extended-range medium lasers serve as secondary weapons, allowing the MechWarrior to scatter damage while the chassis cools. The 13.5 tons of Forging Omni H24 armor provide solid protection, though the design’s reliance on an XL engine means that torso damage poses a critical vulnerability.</p>
@@ -193,6 +193,8 @@ history:<p>The Thunderbolt IIC emerged from Clan Jade Falcon’s struggle to ada
 manufacturer:Olivetti Weaponry
 
 primaryfactory:Sudeten
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Olivetti
 systemmode:CHASSIS:TDR-II

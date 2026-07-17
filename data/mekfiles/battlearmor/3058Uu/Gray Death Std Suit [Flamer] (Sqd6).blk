@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a267-767d-948e-732a28a27050
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Standard Suit
 <year>
 3052
 </year>
-
-<originalBuildYear>
-3052
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -89,38 +89,14 @@ BABattleClaw:LA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Standard Suit is a medium battle armor design created by Gray Death Legion technicians alongside the Scout Suit. Derived from NAIS-supplied Inner Sphere Standard prototypes, the Standard retained the original design's combat focus while incorporating improvements suggested by the Legion's experienced infantry troops. Fielded in 3052, the suit offered a flexible combination of solid protection, modular firepower through interchangeable weapon mounts, and proven reliability that made it a mainstay of Lyran battle armor formations for decades after the Legion's dissolution.</p>
-</overview>
 
 <capabilities>
 <p>The Flamer configuration mounts a standard Flamer in the Gray Death Standard's modular weapon mount, optimized for anti-infantry work and area denial. The left arm retains its Battle Claw for anti-BattleMech attacks and OmniMech transport, while an Anti-Personnel Weapon Mount on the same arm handles light targets. Improved Sensors mimic the function of portable radar, detecting hidden opponents and enhancing the trooper's situational awareness.</p><p>Standard armor provides 450 kilograms of protection, enough to absorb significant weapons fire while keeping the trooper operational. Ground speed reaches 32.4 km/h over open terrain, adequate for keeping pace with advancing infantry formations. The Flamer's limited range and ammunition independence make it best suited for close-quarters engagements and urban fighting where suppressing infantry in confined spaces is more valuable than ranged precision.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Standard Suit is a medium battle armor design created by Gray Death Legion technicians alongside the Scout Suit. Derived from NAIS-supplied Inner Sphere Standard prototypes, the Standard retained the original design's combat focus while incorporating improvements suggested by the Legion's experienced infantry troops. Fielded in 3052, the suit offered a flexible combination of solid protection, modular firepower through interchangeable weapon mounts, and proven reliability that made it a mainstay of Lyran battle armor formations for decades after the Legion's dissolution.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations with incendiary loadouts served Com Guard and Word of Blake commands in area denial and counter-insurgency operations. The additional troopers allowed Level I commanders to establish overlapping zones of control in confined spaces. Word of Blake Militia units deployed these formations during the occupation of contested worlds, where suppressing civilian resistance demanded persistent presence in urban centers.</p>
@@ -155,4 +131,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-c2b3-7e05-8043-6227737b0085
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Sentinel
 model:STN-3K
 mul id:2857
@@ -170,7 +171,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Sentinel is a forty-ton medium BattleMech designed by Defiance Industries as a dedicated infantry support and installation defense platform. Introduced in 2651 under an exclusive contract for the Lyran Commonwealth, the design became embroiled in Star League politics almost immediately when a League Council amendment the following year allowed the Star League Defense Force to purchase a significantly more advanced variant. Houses Steiner, Marik, and Davion, along with the SLDF itself, all acquired variants of the Sentinel for use as low-cost garrison and infantry support units.</p><p>The Sentinel suffered badly during the Succession Wars as technological decline stripped away its most capable systems, and production was discontinued entirely in 3014. The design was unexpectedly revived through ComStar stockpiles and the recovery of lostech, ensuring that the Sentinel remained an active, if unglamorous, presence on battlefields well into the thirty-second century.</p>
 
 capabilities:<p>Sitting at the light end of the medium weight class, the Sentinel mounts a Pitban 240 fusion engine that propels the chassis to a respectable top speed of just under one hundred kilometers per hour. Five and a half tons of Valiant Lamellor standard armor provides adequate protection against infantry weapons and light vehicle fire, well suited to the design's intended infantry support role. The chassis carries no jump jets, relying instead on its speed for tactical repositioning.</p><p>The Star League era STN-3L variant, which serves as the design's baseline, pairs a Kawabata Weapons Industries Ultra Autocannon/5 with a Defiance Streak SRM-2 launcher and a small laser. The ultra autocannon's ability to fire at double the normal rate makes the Sentinel surprisingly dangerous at range for its tonnage, while the Streak launcher ensures efficient missile expenditure. However, a chronic ammunition feed problem plaguing the SRM system, caused by a repositioned ammo feed mechanism after the swap from the A-1 to B-1A small laser, has proven one of the design's most persistent weaknesses. MechWarriors discovered they could clear a jam by thumping the chest with the right fist, but opponents quickly learned to concentrate fire on any Sentinel performing this maneuver.</p><p>The StarLink/Benicia Model AS829G communications system and Targa-7, Vid-Com-17 targeting and tracking system are especially capable for a design of this size, making the Sentinel well suited for long-range patrols and mobile observation duties where maintaining contact with supporting artillery and command elements is critical.</p>
@@ -182,6 +182,8 @@ history:<p>The Sentinel's origins lie in a 2651 contract between the Lyran Commo
 manufacturer:Defiance Industries
 
 primaryfactory:Hesperus II
+
+fluffdate:2026-02-21 18:07:19
 
 systemmanufacturer:CHASSIS:Defiance Industries
 systemmode:CHASSIS:Defiant V

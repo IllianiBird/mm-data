@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-cc00-7dde-bd30-35fa4e40a633
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Hauptmann
 model:HA1-OA
 mul id:1421
@@ -175,7 +176,6 @@ Jump Jet (OMNIPOD)
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-13 17:59:30
 overview:<p>The Hauptmann is the Lyran Alliance's first domestically designed and manufactured OmniMech, introduced in 3060 by Coventry Metal Works. Drawing inspiration from captured Clan Dire Wolf OmniMechs and leveraging experience gained through licensed production of the Draconis Combine-designed Firestarter OmniMech, Coventry's engineers created a ninety-five-ton assault platform intended to serve as a frontline command machine for Lyran Alliance Armed Forces officers. Archon Katrina Steiner named the design to honor the hauptmanns (company-grade commanders who represent the highest-ranking officers to consistently see combat) reinforcing loyalty within the newly restructured LAAF.</p><p>Despite having ample room for an extralight engine, the Hauptmann deliberately employs a standard fusion powerplant, a design choice that reduced manufacturing costs while dramatically improving battlefield survivability. With forty-three tons of available pod space and a robust chassis, the Hauptmann provides field commanders with a flexible and durable platform capable of adapting to virtually any tactical scenario.</p>
 
 capabilities:<p>The Hauptmann's Coventry HAI III chassis mounts a Pitban 285 standard fusion engine, providing a top speed of fifty-four kilometers per hour. While this makes the design one of the slower assault OmniMechs in the Inner Sphere, the standard engine ensures the 'Mech cannot be destroyed by a side torso hit, a critical survivability advantage over designs relying on extralight powerplants. Eighteen and a half tons of Glasgow Limited armor provide excellent protection for a design of its weight class, while CASE fixed in the right torso mitigates the risk of catastrophic ammunition explosions. Eleven fixed double heat sinks provide a solid thermal baseline for all configurations.</p><p>The Prime configuration exemplifies the Hauptmann's versatility. Paired ER large lasers deliver effective long-range fire, while an LB 20-X autocannon provides devastating close-range firepower capable of exploiting armor breaches with cluster munitions. Medium pulse lasers, an ER small laser, and Streak SRM-2 launchers complete the close-range arsenal. A Guardian ECM suite disrupts enemy targeting and communications, enhancing the survivability of the Hauptmann and nearby friendly units. Six additional double heat sinks allow the Prime to manage its weapons load with reasonable efficiency, though sustained engagement with the full arsenal still generates problematic heat levels.</p>
@@ -187,6 +187,8 @@ history:<p>The Hauptmann emerged in 3060 as the culmination of the Lyran Allianc
 manufacturer:Coventry Metal Works
 
 primaryfactory:Coventry
+
+fluffdate:2026-02-13 17:59:30
 
 systemmanufacturer:CHASSIS:Coventry
 systemmode:CHASSIS:HAI III

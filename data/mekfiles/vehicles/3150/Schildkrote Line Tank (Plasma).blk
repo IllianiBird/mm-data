@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8bf-7156-86bc-1c97e04f0df7
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Schildkröte Line Tank
 <year>
 3138
 </year>
-
-<originalBuildYear>
-3138
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -110,26 +110,13 @@ ISArtemisIV
 ISTAG
 </Turret Equipment>
 
-<source>
-TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 12:59:54
-<overview>
-<p>The Schildkröte Line Tank takes its name from the German word for “turtle,” a fitting description of a vehicle designed around protection rather than speed. Blue Shot Weapons on Loxley developed the tank for the Lyran Commonwealth Armed Forces, delivering the first production models in 3122. A fifty-ton medium tracked vehicle, the Schildkröte was built to absorb punishment and hold a position, prioritizing armor and defensive capability over maneuverability. It carries a balanced weapons suite suited to engaging armored targets and lighter threats at range, backed by an active defense system against incoming missiles. The tank’s heavy protection gave it a survivability edge in extended engagements, a quality that would come to define its service record across the Commonwealth and beyond.</p>
-</overview>
-
 <capabilities>
 <p>The Schildkröte devotes significant tonnage to its Armored Motive System, a specialized installation that slows the vehicle considerably but renders its tracks and drive components far more resistant to crippling hits. This allows the tank to keep fighting after taking fire that would immobilize a faster vehicle, making it a reliable defensive anchor in sustained engagements. Ten tons of Heavy Ferro-Fibrous armor reinforced with a CASE installation gives the crew meaningful protection against ammunition explosions.</p><p>The standard armament centers on a long-range LB 10-X Autocannon capable of firing both solid and cluster rounds, paired with a Light Particle Cannon for medium-range precision fire. A SureFire 444 Anti-Missile System rounds out the loadout, providing active defense against incoming missiles. Together the weapons suit extended fire support roles and engagements against mixed enemy forces. The Schildkröte’s top speed of 54 km/h limits its ability to reposition when the tactical situation demands it, and commanders who rely on it to hold a prepared position will fare far better than those who expect it to maneuver aggressively under fire.</p>
 </capabilities>
+
+<overview>
+<p>The Schildkröte Line Tank takes its name from the German word for “turtle,” a fitting description of a vehicle designed around protection rather than speed. Blue Shot Weapons on Loxley developed the tank for the Lyran Commonwealth Armed Forces, delivering the first production models in 3122. A fifty-ton medium tracked vehicle, the Schildkröte was built to absorb punishment and hold a position, prioritizing armor and defensive capability over maneuverability. It carries a balanced weapons suite suited to engaging armored targets and lighter threats at range, backed by an active defense system against incoming missiles. The tank’s heavy protection gave it a survivability edge in extended engagements, a quality that would come to define its service record across the Commonwealth and beyond.</p>
+</overview>
 
 <deployment>
 <p>The Plasma variant, introduced in 3138, replaces the LB 10-X Autocannon with a Plasma Rifle, adding a potent capability against both armored vehicles and infantry formations. The Plasma Rifle generates significant heat in targeted vehicles, degrading their combat efficiency even when it fails to cause outright destruction, and forcing BattleMech opponents into difficult heat management decisions during sustained exchanges. The variant imposes an additional heat burden on the Schildkröte’s own crew, requiring careful weapons management in extended engagements. Like all versions of the tank, its slow ground speed demands early positioning to ensure the Plasma Rifle’s engagement range can be effectively exploited.</p>
@@ -162,4 +149,16 @@ ARMOR:StarSlab/7
 COMMUNICATIONS:BattleCom
 TARGETING:Evil Eye Block IX
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

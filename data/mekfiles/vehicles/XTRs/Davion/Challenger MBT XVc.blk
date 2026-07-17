@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ebd9-7caa-8582-547e107eabd8
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ XVc
 <year>
 3075
 </year>
-
-<originalBuildYear>
-3075
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -115,26 +115,13 @@ ISGaussRifle
 ISSBGR
 </Turret Equipment>
 
-<source>
-XTR:Davion
-</source>
-
-<published>
-XTR:Davion
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Challenger MBT is a ninety-ton main battle tank developed jointly by Kallon Industries and General Motors in response to the Federated Suns' urgent need for heavy tracked combat vehicles capable of engaging Clan BattleMechs during the invasion years of the 3050s. Rather than compete for lucrative armored vehicle contracts, the two manufacturers pooled their resources to produce an entirely new assault vehicle that could go head-to-head with most frontline OmniMechs. Entering service with the Armed Forces of the Federated Suns in 3057, the Challenger was simultaneously produced at plants on Salem, Kathil, and Kirklin, allowing rapid distribution across AFFS armored formations throughout the Crucis Reach and beyond. Its combination of a heavy Gauss rifle, layered secondary weapons, and substantial armor protection established the Challenger as the primary main battle tank of the Federated Suns, a role it has maintained through successive variants spanning the Clan Invasion, the FedCom Civil War, the Jihad, and the post-Jihad eras.</p>
-</overview>
-
 <capabilities>
 <p>The Challenger XVc is an experimental hybrid refit developed under the supervision of Major Jymm Sortek at General Motors' test facilities on Salem beginning in 3075, authorized for a limited production run of eight vehicles to evaluate advanced technologies on the proven Challenger chassis. An experimental XXL fusion engine replaces the standard XL powerplant, providing equal power output in a significantly smaller package but at substantially higher cost and with greater maintenance demands. This engine choice, the primary reason the AFFS ultimately declined mass production, made the Mk. XVc far too expensive for regular procurement.</p><p>The XVc's most distinctive weapon is a Silver Bullet Gauss Rifle jointly manufactured by Federated-Barrett and Johnston Industries, replacing the original LB 10-X autocannon with a weapon that fires cluster rounds capable of engaging multiple targets simultaneously. A Thunderbolt 15 launcher provides powerful mid-range punch, though evaluation later found this to be the design's least essential weapon due to its limited firing arc and arming delay. Four MagShot Gauss rifles mounted in side sponson turrets replace all other secondary weapons, providing comprehensive coverage against infantry and lightly armored vehicles across all arcs. Heavy ferro-fibrous armor provides overall protection slightly above standard ferro-fibrous levels, offering a marginal improvement in defense at reduced weight compared to the experimental maximum protection originally envisioned.</p>
 </capabilities>
+
+<overview>
+<p>The Challenger MBT is a ninety-ton main battle tank developed jointly by Kallon Industries and General Motors in response to the Federated Suns' urgent need for heavy tracked combat vehicles capable of engaging Clan BattleMechs during the invasion years of the 3050s. Rather than compete for lucrative armored vehicle contracts, the two manufacturers pooled their resources to produce an entirely new assault vehicle that could go head-to-head with most frontline OmniMechs. Entering service with the Armed Forces of the Federated Suns in 3057, the Challenger was simultaneously produced at plants on Salem, Kathil, and Kirklin, allowing rapid distribution across AFFS armored formations throughout the Crucis Reach and beyond. Its combination of a heavy Gauss rifle, layered secondary weapons, and substantial armor protection established the Challenger as the primary main battle tank of the Federated Suns, a role it has maintained through successive variants spanning the Clan Invasion, the FedCom Civil War, the Jihad, and the post-Jihad eras.</p>
+</overview>
 
 <deployment>
 <p>The Challenger XVc exists as a proof-of-concept demonstrator rather than an operational weapon system, with only eight vehicles refit at General Motors' Salem test facilities under Major Sortek's direction beginning in 3075. Upon completion of the refit program, Major Sortek commanded the 3798th Provisional Test Battalion with a staff of 483, authorized to operate the eight vehicles through a shortened demonstration and evaluation phase on behalf of the AFFS procurement authority. The assessment concluded that the XXL engine made the Mk. XVc prohibitively expensive for regular production, and the Thunderbolt launcher was identified as the least essential weapon in the design. The XVc's primary legacy was informing the development of the production Mk. XV by identifying which advanced technologies were viable for mass adoption and which required further maturation before inclusion in a mainstream procurement design.</p>
@@ -167,4 +154,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Wunderland XXXV-2 Series
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Davion
+</source>
+
+<published>
+XTR:Davion
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

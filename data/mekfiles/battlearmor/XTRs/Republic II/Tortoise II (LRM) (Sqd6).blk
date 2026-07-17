@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a99e-711b-b358-27549c2d11ec
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Tortoise II
 <year>
 3134
 </year>
-
-<originalBuildYear>
-3134
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -100,42 +100,14 @@ BACL Ammo LRM-4:TU:Shots3#
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-XTR:RotS 2
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<turret>
-Modular:5
-</turret>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Tortoise II is a mixed-technology assault battle armor developed by StarCorps Industries for the Republic of the Sphere. Introduced in 3134, the quad-chassis design blends Inner Sphere and Clan components into an unorthodox weapons platform built around a hybrid wheel-and-leg motive system. The suit carries its armament in a distinctive split configuration, with a modular turret mount and a detachable weapon pack that can be jettisoned to improve mobility. Earning the nickname "Wheelbarrow" during its troubled prototype phase, the Tortoise II emerged as a durable if unconventional addition to the Republic's experimental battle armor program.</p>
-</overview>
 
 <capabilities>
 <p>The LRM configuration equips the Tortoise II's modular turret with a Clan-manufactured LRM 4 launcher carrying seven rounds of ammunition, paired with the standard ER medium pulse laser in the detachable weapon pack. This loadout gives the suit indirect fire capability unique among Tortoise II configurations, allowing troopers to engage targets beyond direct line of sight when supported by spotters. The two-ton quad chassis limits ground speed to a walking pace under full load, though jettisoning the detachable pack doubles mobility at the cost of the pulse laser. Protected by 350 kilograms of Clan improved stealth armor, the LRM variant is well-suited to providing sustained fire support from covered positions. The stealth signature helps compensate for the suit's lack of speed, making it difficult for enemies to locate and engage before the trooper can deliver multiple salvos of long-range missiles.</p>
 </capabilities>
+
+<overview>
+<p>The Tortoise II is a mixed-technology assault battle armor developed by StarCorps Industries for the Republic of the Sphere. Introduced in 3134, the quad-chassis design blends Inner Sphere and Clan components into an unorthodox weapons platform built around a hybrid wheel-and-leg motive system. The suit carries its armament in a distinctive split configuration, with a modular turret mount and a detachable weapon pack that can be jettisoned to improve mobility. Earning the nickname "Wheelbarrow" during its troubled prototype phase, the Tortoise II emerged as a durable if unconventional addition to the Republic's experimental battle armor program.</p>
+</overview>
 
 <deployment>
 <p>Level I formations of six LRM-armed troopers offered the deepest ammunition reserves and most sustained indirect fire capability of any Tortoise II deployment pattern. ComStar-tradition Republic units valued this configuration for defensive operations where sustained bombardment outweighed the need for rapid maneuver.</p>
@@ -168,4 +140,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RotS 2
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<turret>
+Modular:5
+</turret>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

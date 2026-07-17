@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-affa-74c4-9404-2aecc2933f5e
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ HCT-213BC (Herman)
 <year>
 2774
 </year>
-
-<originalBuildYear>
-2774
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -123,34 +123,13 @@ ISSpaceMineDispenser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-XTR:Gunslingers
-</source>
-
-<published>
-XTR:Gunslingers
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Hellcat II is a fifty-ton medium aerospace fighter commissioned by Mitchell Vehicles in 2710 as a heavy aerospace scout for the Star League Defense Force. Despite sharing a name and manufacturer with the older Hellcat, the Hellcat II is an entirely different design, ten tons lighter and built around a flying-wing airframe intended to minimize its emissions footprint. The craft's inclusion of a Beagle Active Probe made it one of the most capable reconnaissance fighters in the SLDF inventory, though its late introduction meant it saw only limited deployment before the fall of the Star League. In the centuries since, surviving examples have served with Clan second-line formations, ComStar's Com Guards, and various Successor State forces.</p>
-</overview>
-
 <capabilities>
 <p>Built on a Wakazashi IX airframe with a Rawlings 250 fusion engine, the Hellcat II achieves roughly twenty-two percent greater acceleration than its heavier predecessor despite mounting a similarly sized powerplant. The original prototypes carried fifteen tons of standard armor, earning the craft the nickname "flying tank" from test pilots, but three tons were removed to improve handling. Designers compensated by switching to SRT ferro-aluminum armor, which provides superior protection per ton while improving heat dissipation characteristics.</p><p>The Hellcat II's primary armament consists of two wing-mounted Diverse Optics large lasers and a single rear-facing Starflash medium laser. Though modest compared to dedicated combat fighters, this all-energy loadout supports extended patrol missions without ammunition concerns. The design's most distinctive feature is its nose-mounted Beagle Active Probe, integrated directly into the Telecron M75 targeting system. This arrangement allows the large lasers to benefit from the probe's enhanced detection capability, providing accuracy rivaling some DropShip-grade sensor suites. Fifteen single heat sinks manage the thermal output adequately, and the Telecron L50 communications system matches the electronics package found on the original Hellcat.</p>
 </capabilities>
+
+<overview>
+<p>The Hellcat II is a fifty-ton medium aerospace fighter commissioned by Mitchell Vehicles in 2710 as a heavy aerospace scout for the Star League Defense Force. Despite sharing a name and manufacturer with the older Hellcat, the Hellcat II is an entirely different design, ten tons lighter and built around a flying-wing airframe intended to minimize its emissions footprint. The craft's inclusion of a Beagle Active Probe made it one of the most capable reconnaissance fighters in the SLDF inventory, though its late introduction meant it saw only limited deployment before the fall of the Star League. In the centuries since, surviving examples have served with Clan second-line formations, ComStar's Com Guards, and various Successor State forces.</p>
+</overview>
 
 <deployment>
 <p>The HCT-213BC is a custom Hellcat II variant developed by Major Herman Boyle, a Rim Worlds Republic officer who modified squadron fighters for a fast minelaying role during the defense of Graham IV in 2774. All standard weaponry was stripped and replaced with a pair of nose-mounted medium lasers, while the engine was swapped for an extra-light model. Seven and a half tons of armor was removed to accommodate two tail-mounted mine dispensers and a cockpit command console for tracking deployed minefields. Eleven tons of fuel gave the variant exceptional endurance for extended mining operations. Boyle's squadron inflicted significant losses on SLDF forces before being destroyed, with Boyle himself captured and killed by an ironic mine strike on the flagship holding him.</p>
@@ -183,4 +162,16 @@ ARMOR:Ferro-Aluminum
 COMMUNICATIONS:L50 (with Command Console)
 TARGETING:M75
 </systemModels>
+
+<source>
+XTR:Gunslingers
+</source>
+
+<published>
+XTR:Gunslingers
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

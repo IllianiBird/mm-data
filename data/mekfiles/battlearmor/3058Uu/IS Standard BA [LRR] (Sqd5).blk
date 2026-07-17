@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a284-7de6-b4b5-5e4c7f867266
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ IS Standard Battle Armor
 <year>
 3061
 </year>
-
-<originalBuildYear>
-3061
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -87,42 +87,14 @@ BABattleClaw:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>Developed by the New Avalon Institute of Science in the early 3050s, the Inner Sphere Standard was the first mass-produced battle armor fielded by the Great Houses. The medium-weight suit was reverse-engineered from captured Clan Elemental technology, giving Inner Sphere commanders their first viable counter to Clan powered infantry. Though inferior to its Clan counterpart in almost every measurable respect, the IS Standard proved reliable, affordable, and easy to manufacture across multiple production lines. Its widespread adoption reshaped Inner Sphere infantry doctrine, and the design served as the foundation for numerous successor suits developed by individual Great Houses and their defense contractors.</p>
-</overview>
 
 <capabilities>
 <p>Fielded beginning in 3061 during the Capellan-St. Ives War, the light recoilless rifle configuration offers a balanced anti-personnel and light anti-armor capability. The right-arm modular mount carries a single light recoilless rifle with enough penetration to damage light vehicles while remaining effective against infantry. The left-arm battle claw enables swarming attacks and mechanized transport. Standard armor and ninety-meter jump capability are unchanged. The recoilless rifle provides better range and harder-hitting rounds than the machine gun loadout, making it effective against a wider variety of targets. Ammunition is limited, however, and the weapon lacks the sustained fire capability of the machine gun or the unlimited endurance of the small laser.</p>
 </capabilities>
+
+<overview>
+<p>Developed by the New Avalon Institute of Science in the early 3050s, the Inner Sphere Standard was the first mass-produced battle armor fielded by the Great Houses. The medium-weight suit was reverse-engineered from captured Clan Elemental technology, giving Inner Sphere commanders their first viable counter to Clan powered infantry. Though inferior to its Clan counterpart in almost every measurable respect, the IS Standard proved reliable, affordable, and easy to manufacture across multiple production lines. Its widespread adoption reshaped Inner Sphere infantry doctrine, and the design served as the foundation for numerous successor suits developed by individual Great Houses and their defense contractors.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Points armed with light recoilless rifles served in formations adopting Clan organizational patterns. The LRR's balanced capability profile made it well-suited for Points operating independently or in screening roles ahead of heavier formations, where engagement targets could range from infantry to light vehicles without warning.</p>
@@ -157,4 +129,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a971-7b35-944f-6323671a2f84
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Ailette Rescue PA(L)
 <year>
 3080
 </year>
-
-<originalBuildYear>
-3080
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -94,42 +94,14 @@ InfantryAssaultRifle:APM:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Periphery
-</source>
-
-<published>
-XTR:Periphery
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-1
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Ailette is an engineering exoskeleton developed by Federated-Boeing Interstellar for zero-gravity construction and maintenance work. Introduced in 3056, the suit was designed to improve the performance and safety of orbital laborers working in the hazardous conditions of open space. Taurus Territorial Industries later produced a licensed version from its facilities in the Taurian Concordat, and subsequently developed a rescue variant upgraded to light power armor specifications. The Ailette family has earned a reputation for reliability and ease of use among both civilian and military operators.</p>
-</overview>
 
 <capabilities>
 <p>The Rescue variant upgrades the Ailette from an industrial exoskeleton to a light power armor classification. Ground speed doubles to 20 km/h, and a mechanical jump booster provides limited mobility in environments where conventional propulsion would cause unacceptable damage. The jump booster uses high-strength myomer and specialized components to generate thrust without reaction mass, though the system cannot be steered once engaged, demanding careful trajectory planning from operators.</p><p>Improved sensors in the right arm enhance the ability to locate casualties within debris fields or damaged spacecraft. The left arm mounts a salvage arm for clearing wreckage and extracting personnel during rescue operations. Space operations adaptation gear and extended life support carry over from the engineering model, as does the 50 kilograms of standard armor. The Rescue retains the easy-to-pilot characteristics that made the original Ailette accessible to non-military operators, though its experimental jump booster marks it as a prototype system requiring additional training.</p>
 </capabilities>
+
+<overview>
+<p>The Ailette is an engineering exoskeleton developed by Federated-Boeing Interstellar for zero-gravity construction and maintenance work. Introduced in 3056, the suit was designed to improve the performance and safety of orbital laborers working in the hazardous conditions of open space. Taurus Territorial Industries later produced a licensed version from its facilities in the Taurian Concordat, and subsequently developed a rescue variant upgraded to light power armor specifications. The Ailette family has earned a reputation for reliability and ease of use among both civilian and military operators.</p>
+</overview>
 
 <deployment>
 <p>Taurian search and rescue teams deploy the Ailette Rescue in four-trooper squads, the standard Inner Sphere formation for powered infantry operations. Each squad typically operates from a dedicated SAR DropShip or station, responding to accidents and emergencies across Taurian space.</p>
@@ -164,4 +136,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Periphery
+</source>
+
+<published>
+XTR:Periphery
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+1
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

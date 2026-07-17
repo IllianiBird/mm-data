@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a9d9-7554-bc1d-24dbcc83ef80
+</UUID>
+
 <UnitType>
 FixedWingSupport
 </UnitType>
@@ -35,10 +39,6 @@ Boomerang Spotter Plane
 <year>
 2888
 </year>
-
-<originalBuildYear>
-2888
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -134,34 +134,13 @@ STOLChassisMod
 3
 </engine_tech_rating>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:Aero2
-</published>
-
-<tonnage>
-4.999
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>Named for its distinctive V-shape, the Boomerang is representative of the spy planes used by the armed forces of the five Successor States. Designed by Cal-Boeing of Dorwinion on Filtvelt, the Boomerang was introduced in 2888 as the Federated Suns' standard reconnaissance plane and the first aircraft designed expressly for aerial reconnaissance in the Succession States era. Until then, civilian planes and their pilots were pressed into military service with mixed results. The Boomerang serves as a mobile spotter for artillery units and as a forward observer for advancing BattleMek formations, filling a critical intelligence-gathering role that no ground asset can match.</p>
-</overview>
-
 <capabilities>
 <p>The Boomerang's most obvious feature is its long wingspan. The tapering wings make it fuel-efficient and an excellent glide platform. Two forewings perched on thin spars of foamed aluminum promote control and stability, making the craft almost impervious to stalls. Two vertical stabilizers sit to either side of the cockpit; when in use, the entire stabilizer pivots rather than just the trailing edge, making the Boomerang extremely maneuverable.</p><p>The engine, a standard electric turbofan mounted below the cockpit floor, is highly efficient and quiet. Using over three thousand kilograms of fuel stored in the wings, the Boomerang achieves a range of almost five thousand kilometers, or more if the pilot glides. An unusual heat-bleeding system channels waste heat through slits on the upper wing edge, with the variable-pitched propeller dispersing it further, making the plane difficult to trace via infrared. The propeller can be feathered for virtually silent glide mode, and maximum ceiling with engine running is almost eighteen thousand meters.</p><p>The Boomerang carries over five hundred kilograms of reconnaissance gear, usually a pair of cameras with infrared and low-light capabilities that can work independently, locking on separate targets and relaying information to trailing radar planes or DropShips. The craft's major weakness is its complete lack of armament and armor, and pilots typically fly at three hundred meters or higher to stay out of danger.</p>
 </capabilities>
+
+<overview>
+<p>Named for its distinctive V-shape, the Boomerang is representative of the spy planes used by the armed forces of the five Successor States. Designed by Cal-Boeing of Dorwinion on Filtvelt, the Boomerang was introduced in 2888 as the Federated Suns' standard reconnaissance plane and the first aircraft designed expressly for aerial reconnaissance in the Succession States era. Until then, civilian planes and their pilots were pressed into military service with mixed results. The Boomerang serves as a mobile spotter for artillery units and as a forward observer for advancing BattleMek formations, filling a critical intelligence-gathering role that no ground asset can match.</p>
+</overview>
 
 <deployment>
 <p>The Boomerang has performed long and well in service to the Federated Suns. Built with lightweight, low-maintenance materials, the plane has an excellent repair history. Most active duty regiments and planetary militias have at least one Boomerang in operational condition. Heavy-action units such as the Davion Brigade of Guards typically deploy up to fifteen Boomerangs during operational engagements. The Boomerang and most of its House counterparts can be easily disassembled and stowed in the holds of even the smallest DropShip. The only common complaint from technicians is the delicacy of the camera sensors, as heavily ionized or irradiated atmospheres tend to corrode them faster and degrade performance.</p>
@@ -188,4 +167,16 @@ COMMUNICATIONS:Achernar
 ENGINE:AeroProp Turbine
 COMMUNICATIONS:Air Whistler
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:Aero2
+</published>
+
+<tonnage>
+4.999
+</tonnage>
 

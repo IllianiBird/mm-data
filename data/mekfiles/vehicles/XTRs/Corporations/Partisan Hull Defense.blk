@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ebd1-7719-9704-2ce249702d41
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Partisan Hull Defense
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -107,32 +107,13 @@ ISLargeXPulseLaser
 ISC3BoostedSystemSlaveUnit
 </Turret Equipment>
 
-
-
-
-
-
-
-<source>
-XTR:Corps
-</source>
-
-<published>
-XTR:Corps
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 17:12:16
-<overview>
-<p>The Partisan Hull Defense is an experimental prototype developed by Kallon Industries at its Nanking facility in 3072, designed to operate on the exterior hull of a WarShip as a mobile anti-fighter turret. Conceived during the Jihad when WarShip engagements intensified and existing point defense systems proved inadequate against determined fighter attacks, the design represents an unconventional application of the Partisan platform to the vacuum combat environment. Only a small number of prototypes were constructed, and the concept remained experimental rather than entering mass production.</p>
-</overview>
-
 <capabilities>
 <p>The Hull Defense variant departs radically from the standard Partisan's design philosophy. Environmentally sealed to operate in vacuum, the vehicle can drive across a WarShip's hull to replace destroyed turrets or reinforce threatened sectors, functioning as a mobile weapon emplacement. A Blue Shield Particle Field Dampener and Compound RX-5 laser-reflective armor provide exceptional defense against the energy weapons typical of aerospace fighter armaments, significantly reducing damage from laser and PPC strikes. This specialized protection comes at a cost, as the reflective armor remains vulnerable to ballistic weapons. A single Gauss slug can penetrate the vehicle in all locations except the turret and front glacis.</p><p>The offensive armament consists of two Large X-Pulse Lasers, chosen for their effectiveness against fast-moving aerospace targets without requiring ammunition supply in vacuum operations. A Boosted C3 Slave allows coordination with other hull defense units and the host WarShip's fire control network. The engine was reduced to a GM 160 fusion plant, significantly cutting the vehicle's ground speed. This trade-off is acceptable for a platform that primarily operates at walking pace across a ship's hull rather than traversing planetary terrain.</p>
 </capabilities>
+
+<overview>
+<p>The Partisan Hull Defense is an experimental prototype developed by Kallon Industries at its Nanking facility in 3072, designed to operate on the exterior hull of a WarShip as a mobile anti-fighter turret. Conceived during the Jihad when WarShip engagements intensified and existing point defense systems proved inadequate against determined fighter attacks, the design represents an unconventional application of the Partisan platform to the vacuum combat environment. Only a small number of prototypes were constructed, and the concept remained experimental rather than entering mass production.</p>
+</overview>
 
 <deployment>
 <p>The Partisan Hull Defense exists only as a small number of experimental prototypes produced at Nanking before the Word of Blake occupation disrupted further development. No mass production or widespread deployment has occurred. The concept of mobile hull-mounted anti-fighter vehicles remains an intriguing but unproven tactical innovation.</p>
@@ -165,4 +146,16 @@ ARMOR:Compound RX-5 Laser-Reflective
 COMMUNICATIONS:Secure Net with C3
 TARGETING:Sure-Shot
 </systemModels>
+
+<source>
+XTR:Corps
+</source>
+
+<published>
+XTR:Corps
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e801-7ac0-8102-0a58be0a2bf5
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ R10 Mechanized ICV
 <year>
 3097
 </year>
-
-<originalBuildYear>
-3097
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -108,26 +108,13 @@ Flamer (Vehicle)
 <Turret Equipment>
 </Turret Equipment>
 
-<source>
-TR:3145:FWL,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 14:55:21
-<overview>
-<p>The R10 Mechanized Infantry Combat Vehicle is a 45-ton wheeled OmniVehicle produced by the Exeter Organization on Keystone and introduced in 3097. Developed initially for the Army of the Marik-Stewart Commonwealth, the R10 was designed to address a persistent gap in combined-arms operations: the inability of conventional armored personnel carriers to provide meaningful fire support after delivering their troops. Exeter built the platform from the ground up as both a capable transport and an independent fire element, making the hardware accessible to professional regiments and smaller planetary militias alike. The result quickly earned a reputation as an "APC with teeth" among the infantry formations it supports, and demand spread well beyond the Commonwealth's borders as the design proliferated across the former Free Worlds League region and into neighboring states.</p>
-</overview>
-
 <capabilities>
 <p>The R10's modular OmniVehicle architecture allows the platform to fill a wide range of battlefield support roles beyond conventional troop transport. In its most common configuration, the large infantry bay accommodates more infantry platoons or battle armor squads than many heavier dedicated carriers, giving commanders unusual flexibility in how they deploy ground forces. The GM 205 XL fusion engine drives the wheeled chassis to a maximum road speed of 86 kph, keeping the R10 competitive with the mechanized formations it typically supports.</p><p>Ferro-fibrous armor provides solid protection for a vehicle of this class, and all configurations incorporate CASE to protect both crew and embarked troops against catastrophic ammunition detonations. Turret-mounted weaponry allows the vehicle to deliver suppressive fire and direct support to infantry after they have dismounted, fulfilling a role most carriers in this weight class cannot match. The principal trade-off is the wheeled drive system, which limits cross-country performance and reduces utility in terrain where tracked vehicles would be preferred. Commanders who require all-terrain mobility typically pair R10 formations with tracked fire support assets to compensate.</p>
 </capabilities>
+
+<overview>
+<p>The R10 Mechanized Infantry Combat Vehicle is a 45-ton wheeled OmniVehicle produced by the Exeter Organization on Keystone and introduced in 3097. Developed initially for the Army of the Marik-Stewart Commonwealth, the R10 was designed to address a persistent gap in combined-arms operations: the inability of conventional armored personnel carriers to provide meaningful fire support after delivering their troops. Exeter built the platform from the ground up as both a capable transport and an independent fire element, making the hardware accessible to professional regiments and smaller planetary militias alike. The result quickly earned a reputation as an "APC with teeth" among the infantry formations it supports, and demand spread well beyond the Commonwealth's borders as the design proliferated across the former Free Worlds League region and into neighboring states.</p>
+</overview>
 
 <deployment>
 <p>The (Coolant Truck) is a non-OmniVehicle variant that replaces the standard turret assembly with more than twenty tons of liquid storage. On water-scarce worlds, the variant commonly serves as a potable water transport, keeping troops supplied during extended operations far from conventional resupply. The Coolant Truck shares the R10's drivetrain and hull, simplifying maintenance for units that operate a mixed fleet alongside standard R10 configurations. It is deployed primarily in rear-area logistics roles and sees use across garrison commands that depend on the R10 chassis for multiple support functions.</p>
@@ -160,4 +147,16 @@ ARMOR:FWL Special
 COMMUNICATIONS:Longscan
 TARGETING:Multi-Lock
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

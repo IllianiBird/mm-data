@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a271-7177-a540-b4e16aa7d7aa
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Standard Suit
 <year>
 3052
 </year>
-
-<originalBuildYear>
-3052
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -89,38 +89,14 @@ BABattleClaw:LA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Standard Suit is a medium battle armor design created by Gray Death Legion technicians alongside the Scout Suit. Derived from NAIS-supplied Inner Sphere Standard prototypes, the Standard retained the original design's combat focus while incorporating improvements suggested by the Legion's experienced infantry troops. Fielded in 3052, the suit offered a flexible combination of solid protection, modular firepower through interchangeable weapon mounts, and proven reliability that made it a mainstay of Lyran battle armor formations for decades after the Legion's dissolution.</p>
-</overview>
 
 <capabilities>
 <p>The Laser configuration equips the Standard Suit with a Small Laser, providing reliable direct-fire capability without ammunition dependency. The Battle Claw, Anti-Personnel Weapon Mount, and Improved Sensors all carry forward from the base platform. This loadout offers the best sustained firepower of the Standard's weapon options, as the energy weapon can fire indefinitely without resupply concerns.</p><p>The Small Laser's effective range and damage output make it useful against both infantry and light armored targets. Against BattleMechs, the laser supplements the Battle Claw's swarming attacks with focused energy damage to exposed components. The 450 kilograms of standard armor and 32.4 km/h top speed remain consistent across all Standard configurations, giving commanders predictable performance regardless of weapon selection.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Standard Suit is a medium battle armor design created by Gray Death Legion technicians alongside the Scout Suit. Derived from NAIS-supplied Inner Sphere Standard prototypes, the Standard retained the original design's combat focus while incorporating improvements suggested by the Legion's experienced infantry troops. Fielded in 3052, the suit offered a flexible combination of solid protection, modular firepower through interchangeable weapon mounts, and proven reliability that made it a mainstay of Lyran battle armor formations for decades after the Legion's dissolution.</p>
+</overview>
 
 <deployment>
 <p>Com Guard Level I formations favored the energy weapon configuration for its sustained engagement capability. Six troopers maintaining continuous fire without ammunition concerns gave Level I commanders reliable suppressive capability during protracted defensive actions. ComStar's emphasis on holding ground until reinforcement arrived made the configuration's endurance more valuable than the heavier hitting power of alternative loadouts.</p>
@@ -155,4 +131,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

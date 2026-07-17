@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a229-7efa-af2a-f5e1fc8f9f44
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Fenrir Battle Armor
 <year>
 3060
 </year>
-
-<originalBuildYear>
-3060
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -79,46 +79,14 @@ ISBAMediumPulseLaser:TU
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-quad
-</chassis>
-
-<turret>
-Modular:3
-</turret>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Fenrir was an assault-class battle armor produced by TharHes Industries on Tharkad for the Lyran Alliance Armed Forces. Entering production in 3060, the two-ton quadruped suit drew on lessons learned from the unsuccessful Sloth program, repurposing the quad chassis concept into a dedicated fire support platform. Equipped with a dorsal turret capable of mounting a variety of weapon packages, the Fenrir earned a reputation as one of the most flexible battlesuits in Lyran service, though its deliberately light armor made it reliant on firepower rather than protection to survive on the battlefield.</p>
-</overview>
 
 <capabilities>
 <p>The medium pulse laser configuration arms the Fenrir with a single medium pulse laser in the dorsal turret, giving the suit genuine anti-vehicle and anti-BattleMech capability within the turret's 300-degree firing arc. The heavier weapon generates significantly more damage per shot than the lighter anti-infantry options, allowing a coordinated group of Fenrir suits to threaten armored targets. The two-ton quad chassis propels the suit at speeds over forty kilometers per hour, while 250 kilograms of standard armor provides only minimal protection. This light armor coverage is the design's most significant weakness, particularly dangerous when engaging heavier opponents who can return fire effectively. The quad frame prevents anti-BattleMech swarming and OmniMech transport. The medium pulse laser's accuracy partially compensates for the turret platform's inherent vibration at speed.</p>
 </capabilities>
+
+<overview>
+<p>The Fenrir was an assault-class battle armor produced by TharHes Industries on Tharkad for the Lyran Alliance Armed Forces. Entering production in 3060, the two-ton quadruped suit drew on lessons learned from the unsuccessful Sloth program, repurposing the quad chassis concept into a dedicated fire support platform. Equipped with a dorsal turret capable of mounting a variety of weapon packages, the Fenrir earned a reputation as one of the most flexible battlesuits in Lyran service, though its deliberately light armor made it reliant on firepower rather than protection to survive on the battlefield.</p>
+</overview>
 
 <deployment>
 <p>Medium pulse laser Fenrir squads served as dedicated anti-vehicle elements within LAAF infantry companies. Four-trooper squads coordinated their fire to threaten light combat vehicles and hover tanks, and a full squad concentrating fire could damage even medium-weight BattleMechs during the FedCom Civil War.</p>
@@ -151,4 +119,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+quad
+</chassis>
+
+<turret>
+Modular:3
+</turret>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

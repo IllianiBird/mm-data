@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7d1-7791-afbf-c04b77d06f22
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ NK-1C
 <year>
 3097
 </year>
-
-<originalBuildYear>
-3097
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -114,26 +114,13 @@ ISGaussRifle
 ISAntiMissileSystem
 </Turret Equipment>
 
-<source>
-TR:3145:DC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 16:42:39
-<overview>
-<p>The Narukami Heavy Tank is a 90-ton tracked combat vehicle built by New Samarkand Metals on New Samarkand and introduced to Draconis Combine Mustered Soldiery service in 3097. Named for the Shinto deity of thunder, the design reflects the Combine's long tradition of invoking mythological imagery for its military hardware. New Samarkand Metals developed the Narukami in response to DCMS requirements for a heavy armored platform capable of engaging threats at extended ranges, filling a role that lighter and more common designs could not adequately perform. The tank proved successful enough to generate a dedicated C3-equipped variant in 3108, extending its service life and operational flexibility. Both variants have become fixtures in DCMS armored formations, particularly among the New Samarkand Regulars and the Legions of Vega.</p>
-</overview>
-
 <capabilities>
 <p>The Narukami's primary armament consists of a Grizzard Model 200 Gauss Rifle paired with two Lord's Light Particle Projection Cannons, a combination designed to engage targets well beyond the effective range of most opposing armor. Two Chosatsugai no Kunai Anti-Missile Systems provide reliable point defense, protecting the crew and ammunition stores from incoming missile fire. The New Samarkand Teppeki Hardened armor, installed with integral CASE to contain potential ammunition explosions, provides substantial protection against weapons fire, with the hardened construction offering additional resistance that standard armor cannot match. A GM 270 XL fusion engine gives the 90-ton vehicle adequate ground speed for defensive operations and siege work, though the design's critics have noted it leaves the Narukami slower than many opponents would prefer.</p><p>The design carries notable trade-offs. The XL engine reduces the vehicle's mass but increases vulnerability to internal destruction if the engine bays are penetrated. The Gauss rifle's reliance on discrete ammunition rounds creates logistical demands that must be planned for in extended campaigns. The PPC pair generates heat that, while manageable for a combat vehicle, stresses cooling systems during sustained engagements. These factors combine to make the Narukami a capable but demanding platform that rewards careful crew training and robust supply chain management.</p>
 </capabilities>
+
+<overview>
+<p>The Narukami Heavy Tank is a 90-ton tracked combat vehicle built by New Samarkand Metals on New Samarkand and introduced to Draconis Combine Mustered Soldiery service in 3097. Named for the Shinto deity of thunder, the design reflects the Combine's long tradition of invoking mythological imagery for its military hardware. New Samarkand Metals developed the Narukami in response to DCMS requirements for a heavy armored platform capable of engaging threats at extended ranges, filling a role that lighter and more common designs could not adequately perform. The tank proved successful enough to generate a dedicated C3-equipped variant in 3108, extending its service life and operational flexibility. Both variants have become fixtures in DCMS armored formations, particularly among the New Samarkand Regulars and the Legions of Vega.</p>
+</overview>
 
 <deployment>
 <p>The NK-1C serves as a standard fire support unit across frontline and second-line DCMS armor regiments. Attrition over decades of conflict has concentrated surviving examples in the New Samarkand Regulars and the Legions of Vega, where proximity to the manufacturing facilities facilitates resupply and maintenance. The variant is deployed most effectively in defensive lines and contested corridor operations, where its long-range weapons suite can be used to full advantage. Field commanders favor the NK-1C for siege operations and prepared defensive positions, where its modest ground speed is a lesser concern.</p>
@@ -166,4 +153,16 @@ ARMOR:Teppeki Hardened with CASE
 COMMUNICATIONS:3000
 TARGETING:IX
 </systemModels>
+
+<source>
+TR:3145:DC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

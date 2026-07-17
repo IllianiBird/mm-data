@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b64e-78ba-97a2-1c79f132d16b
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ DEST Heavy Response Platoon
 1437
 </mul id:>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 2840
 </year>
-
-<originalBuildYear>
-2840
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -66,6 +58,18 @@ DEST Infiltration Suit
 
 <Field Guns Equipment>
 </Field Guns Equipment>
+
+<overview>
+<p>The Draconis Elite Strike Teams are the Draconis Combine's chief special forces organization, an elite corps of commandos trained in every branch of the military who follow the tenets of the ancient ninja. Operating under the authority of the Internal Security Force, DEST operatives are equally capable behind the controls of a BattleMech, tank, or JumpShip, though they frequently deploy as infantry for the Combine's most sensitive missions. The heavy response platoon fills a specific role within DEST's force structure, deploying when a mission demands direct firepower rather than infiltration. Armed with Blazer rifles and semi-portable particle projection cannons, these jump-capable troopers deliver firepower that exceeds most conventional infantry formations. Their ebony DEST infiltration suits provide the best combination of ballistic protection and sensor capability available to non-battle armor soldiers in the Combine, though the introduction of Kage battle armor has largely replaced these suits for general field operations.</p>
+</overview>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
 
 <squad_size>
 7
@@ -90,9 +94,4 @@ Particle Cannon (Semi-Portable)
 <dest>
 true
 </dest>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Draconis Elite Strike Teams are the Draconis Combine's chief special forces organization, an elite corps of commandos trained in every branch of the military who follow the tenets of the ancient ninja. Operating under the authority of the Internal Security Force, DEST operatives are equally capable behind the controls of a BattleMech, tank, or JumpShip, though they frequently deploy as infantry for the Combine's most sensitive missions. The heavy response platoon fills a specific role within DEST's force structure, deploying when a mission demands direct firepower rather than infiltration. Armed with Blazer rifles and semi-portable particle projection cannons, these jump-capable troopers deliver firepower that exceeds most conventional infantry formations. Their ebony DEST infiltration suits provide the best combination of ballistic protection and sensor capability available to non-battle armor soldiers in the Combine, though the introduction of Kage battle armor has largely replaced these suits for general field operations.</p>
-</overview>
 

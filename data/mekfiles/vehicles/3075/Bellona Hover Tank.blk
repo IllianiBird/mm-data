@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -14,9 +14,13 @@
 # Microsoft's "Game Content Usage Rules"
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
-#Saved from version 0.51.00-nightly-2026-05-01 on 2026-05-02
-<UnitType>
 
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5c8-7aaf-ac1c-caeba3cf158a
+</UUID>
+
+<UnitType>
 Tank
 </UnitType>
 
@@ -35,10 +39,6 @@ Bellona Hover Tank
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -118,18 +118,6 @@ CLFlamer
 CLUltraAC10
 </Turret Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
 <capabilities>
 <p>The Bellona's primary offensive weapon is a Type 9 Ultra Autocannon/10 mounted in an armored turret, giving the crew the ability to engage targets across a broad range band whether advancing or withdrawing. The turret mount is central to the vehicle's tactical design, allowing the autocannon's reach to be applied regardless of the Bellona's direction of travel, a critical attribute for a vehicle whose doctrine emphasizes continuous forward pressure. Four Series HL-II Light Machine Guns and two Type 14b Flamers round out the weapons suite, providing meaningful anti-infantry and anti-Elemental capability. The flamers proved particularly useful in close engagements where Elementals would otherwise overwhelm a lighter vehicle, and they have become a signature component of the Bellona's tactical identity in Hell's Horses formations.</p><p>Eight tons of Forging HTT05 armor protect the hull and motive system, representing the maximum the designers could mount while preserving the vehicle's speed. Coverage prioritizes the forward hull, reflecting the design's preference for head-on engagement, though the turret is not neglected. A Fusion Type 170 powerplant provides a cruising speed of ninety-seven kilometers per hour and a flank speed exceeding one hundred fifty, making the Bellona one of the fastest armed vehicles deployed by Hell's Horses. Series XII ComSys communications and Build IX TTS targeting systems are standard equipment. The design's primary limitation is the Light Machine Guns, which are most effective against unarmored infantry and offer little penetrating power against the armored opposition Hell's Horses most commonly faces on Clan front lines.</p>
 </capabilities>
@@ -176,8 +164,11 @@ TARGETING:Build IX TTS
 TR:3075
 </source>
 
+<published>
+RS:3075u-CE
+</published>
+
 <tonnage>
 45.0
 </tonnage>
-
 

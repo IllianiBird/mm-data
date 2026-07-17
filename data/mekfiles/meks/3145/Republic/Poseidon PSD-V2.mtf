@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d563-7d94-8353-2a6304d775fa
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Poseidon
 model:PSD-V2
 mul id:6684
@@ -199,7 +200,6 @@ ISAntiPersonnelPod
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Poseidon is a 125-ton superheavy tripod BattleMech developed in secret by the Republic of the Sphere as part of the classified Rhodes Project. Produced exclusively at Rhodes Foundry on Devil's Rock, the PSD-V2 entered limited production around 3136 as the Republic's first viable superheavy design. Rather than following the conventional bipedal or quadrupedal configurations that had frustrated previous superheavy efforts, the Poseidon adopted a revolutionary tripod layout that distributes its enormous mass across three legs, earning the informal designation "Colossal" from observers awed by its sheer scale. The design served as the foundation for the subsequent Ares superheavy OmniMech program.</p>
 
 capabilities:<p>Built around a Rhodes-P Endo Steel frame and powered by a PlasmaStar 375 XL engine, the Poseidon propels its massive bulk to a respectable 54 km/h. The tripod configuration distributes the immense tonnage more efficiently than biped or quadruped alternatives, providing superior stability and the ability to change direction without sacrificing speed. Twenty-four tons of Maximillian 320 armor with CASE II protection in both side torsos gives the design exceptional survivability, though the extra-light engine remains a critical vulnerability if torso armor is breached. The three-man cockpit, splitting responsibilities between a dedicated pilot, gunner, and technician, allows the Poseidon to function as a command platform capable of engaging multiple targets simultaneously, though it demands a larger trained crew complement than any other BattleMech in the Republic's arsenal.</p><p>The Poseidon's armament covers all engagement ranges with a mixed-technology loadout. A pair of Clan-specification Hyperion Titan Bolt extended-range PPCs anchors the long-range arsenal, supplemented by twin LongFire Light LRM-5 launchers. At intermediate distances, a Skobel Drotnik MRM-20 launcher guided by an Apollo fire control system delivers devastating cluster fire, while a Brontios Tight-Stream TSEMP cannon can disable enemy electronics entirely. Close-range defense falls to paired Hyperion Lance ER medium lasers, three Hyperion Ray ER small lasers, and three Harvester 2K SRM-2 launchers, with six Titan's Tread A-Pods providing anti-infantry coverage across all three legs. While the breadth of weaponry provides flexibility, the sheer number of disparate systems creates a significant logistical burden, and the relatively modest long-range punch for a 125-ton machine means the Poseidon relies more on sustained presence than devastating alpha strikes.</p>
@@ -211,6 +211,8 @@ history:<p>The origins of the Poseidon trace back to humanity's long and largely
 manufacturer:Rhodes Foundry
 
 primaryfactory:Devil's Rock
+
+fluffdate:2026-02-21 18:07:19
 
 systemmanufacturer:CHASSIS:Rhodes Foundry
 systemmode:CHASSIS:Rhodes-P Endo Steel

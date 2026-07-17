@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e579-7661-a7be-72d66859a0a8
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Prime
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,37 +119,13 @@ ISMediumPulseLaser:OMNI
 ISStreakSRM4:OMNI
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-<baseChassisTurretWeight>
-3.5
-</baseChassisTurretWeight>
-
-# Fluff Date: 2026-03-01 12:28:32
-<overview>
-<p>The Ajax Assault Tank is a ninety-ton tracked OmniVehicle developed by General Motors as a successor to its popular Challenger X main battle tank. Introduced in 3065 during the turbulent FedCom Civil War era, the Ajax was designed to capitalize on the growing demand for flexible conventional military vehicles within the Armed Forces of the Federated Commonwealth. Drawing on the proven success of Star Corps' Manteuffel Attack Tank, GM's engineers chose the OmniVehicle concept to give commanders the ability to rapidly reconfigure their heaviest armor assets for shifting battlefield requirements. Produced at GM facilities on Kathil and Salem as well as the joint GM/Blackwell Industries plant on New Valencia, the Ajax quickly earned a reputation as one of the most formidable assault tanks in the Inner Sphere. Its combination of heavy protection, substantial pod space, and network-capable electronics made it a cornerstone of Federated Suns armored formations for decades.</p>
-</overview>
-
 <capabilities>
 <p>The Ajax rides on a GM 270 XL fusion engine, providing a top speed of 54 km/h. While this makes the tank relatively slow for its weight class, the space savings from the extralight powerplant allow it to carry an impressive nineteen tons of ArcShield Maxi II armor, giving it protection rivaling many assault BattleMechs. The chassis provides forty-two tons of pod space, with a maximum of thirty-five tons mountable in the turret.</p><p>In its Prime configuration, the Ajax pairs a Gauss rifle with an Ultra Autocannon/10, both turret-mounted, supported by twin medium pulse lasers and a Streak SRM-4 launcher. A C3 slave unit ties the tank into battlefield networks, significantly improving fire accuracy when operating alongside equipped lancemates. The turret mounting of all primary weapons gives the crew full 360-degree engagement capability regardless of the hull's facing.</p><p>The Ajax's primary weakness is its limited speed, which leaves it vulnerable to flanking by faster units. The reliance on an XL engine also means that critical engine hits can prove catastrophic, a tradeoff accepted in exchange for the vehicle's exceptional armor and firepower capacity.</p>
 </capabilities>
+
+<overview>
+<p>The Ajax Assault Tank is a ninety-ton tracked OmniVehicle developed by General Motors as a successor to its popular Challenger X main battle tank. Introduced in 3065 during the turbulent FedCom Civil War era, the Ajax was designed to capitalize on the growing demand for flexible conventional military vehicles within the Armed Forces of the Federated Commonwealth. Drawing on the proven success of Star Corps' Manteuffel Attack Tank, GM's engineers chose the OmniVehicle concept to give commanders the ability to rapidly reconfigure their heaviest armor assets for shifting battlefield requirements. Produced at GM facilities on Kathil and Salem as well as the joint GM/Blackwell Industries plant on New Valencia, the Ajax quickly earned a reputation as one of the most formidable assault tanks in the Inner Sphere. Its combination of heavy protection, substantial pod space, and network-capable electronics made it a cornerstone of Federated Suns armored formations for decades.</p>
+</overview>
 
 <deployment>
 <p>The Prime configuration represents the Ajax's baseline combat loadout, combining direct-fire ballistic weapons with close-range backup systems. Its mix of a Gauss rifle and Ultra Autocannon gives crews flexibility against both heavily armored and lighter targets, while C3 slave integration makes it particularly effective in coordinated lance operations. This configuration sees the widest deployment across Federated Suns armored units.</p>
@@ -182,4 +158,20 @@ ARMOR:Maxi II
 COMMUNICATIONS:6000
 TARGETING:(39-42071)
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+90.0
+</tonnage>
+
+<baseChassisTurretWeight>
+3.5
+</baseChassisTurretWeight>
 

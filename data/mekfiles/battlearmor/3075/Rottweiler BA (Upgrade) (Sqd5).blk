@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a45e-7da3-badd-4cf8c2d0a8ce
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Rottweiler Battle Armor
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -87,38 +87,14 @@ Mission Equipment Storage:Body:SIZE:5.0
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Rottweiler is a medium quad battle armor suit developed by TharHes Industries for the Lyran Alliance Armed Forces. Fielded in 3065, the design built on lessons learned from the earlier Fenrir program, prioritizing speed and sensor capability over raw firepower. Its low profile and advanced electronics package earned it a respected place among Lyran reconnaissance formations, where its ability to operate well ahead of heavier units proved consistently valuable across multiple theaters of operation.</p>
-</overview>
 
 <capabilities>
 <p>The Upgrade configuration trades the Rottweiler's integrated sensor suite for a remote sensor dispenser, sacrificing real-time situational awareness in favor of broader area coverage. A King David light gauss rifle replaces both standard weapons, giving the suit meaningful standoff range for the first time. Mission equipment is retained.</p><p>Remote sensors scattered across a defensive perimeter allow Upgrade-equipped units to monitor a wider area than any single sensor suite could cover, feeding movement data back to command elements. The gauss rifle provides enough reach to engage targets detected by the sensor network before they close to effective range. The configuration sacrifices the stealth armor's full benefit in close engagements, as the pilot must break cover to fire, but its defensive screening capability proved highly effective in static and semi-static operations.</p>
 </capabilities>
+
+<overview>
+<p>The Rottweiler is a medium quad battle armor suit developed by TharHes Industries for the Lyran Alliance Armed Forces. Fielded in 3065, the design built on lessons learned from the earlier Fenrir program, prioritizing speed and sensor capability over raw firepower. Its low profile and advanced electronics package earned it a respected place among Lyran reconnaissance formations, where its ability to operate well ahead of heavier units proved consistently valuable across multiple theaters of operation.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Points of Upgrade Rottweilers found occasional use among Clan garrison forces that valued the remote sensor network capability for perimeter defense. The configuration's emphasis on detection and standoff engagement complemented Clan defensive doctrines that prioritized early identification of threats. Points equipped with the Upgrade variant typically anchored sensor webs around key facilities or supply depots.</p>
@@ -151,4 +127,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

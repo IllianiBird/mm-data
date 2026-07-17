@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-ddd7-75ec-bd85-731b81cc6a33
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Carbine
 model:CON-9M ConstructionMech MOD
 mul id:7164
@@ -168,7 +169,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Carbine ConstructionMech first walked off Bluth Corporation's Little Rock production line on Terra in 2691 after enduring over a decade of corporate and judicial patent battles. Designed for urban construction, road building, debris removal, and general industrial work, the thirty-ton IndustrialMech quickly became a ubiquitous presence on construction sites across the Inner Sphere. Bluth Corporation produced the original CON-1 at a rate of dozens per week, exporting units through ComStar-approved channels for centuries.</p><p>The updated CON-7 model debuted in 3028, timed to coincide with the wedding of Hanse Davion and Melissa Steiner to attract the attention of the Great Houses, though the Fourth Succession War dampened initial sales. The Carbine's significance extends beyond its civilian roots, the Word of Blake's mass conversion of Carbines into militarized MODs during the Jihad represented the first systematic weaponization of IndustrialMechs, establishing precedents for the widespread MOD conversions that would follow during the Dark Age.</p>
 
 capabilities:<p>The Carbine's distinctive hunchbacked profile belies a deliberately engineered design philosophy emphasizing stability over aesthetics. The raised torso and low-slung arms provide optimal positioning for the SteelTek cargo lift hoist and Lonca backhoe, the design's primary working tools. This configuration gives the Carbine a lower center of gravity that braces the 'Mech during intensive digging and heavy lifting operations, though the trade-off is a complete inability to twist the torso, the Carbine must rotate its entire body to change facing.</p><p>Powered by a Renault 120-rated internal combustion engine, the CON-7 achieves a top speed of 64.8 kilometers per hour for a working machine, though the engine's poor fuel efficiency limits operational range and typically requires dedicated transport for deployment to distant work sites. Three tons of Caterpillar IndusWeave industrial armor provide adequate protection against construction hazards (falling debris, equipment collisions, and structural collapses) but offer minimal resistance against military weaponry.</p><p>The Carbine lacks any form of targeting or fire control system in its base configuration, relying entirely on its industrial tools for emergency self-defense. Despite these limitations, the fifteen-ton rated lift hoist and reinforced backhoe can serve as formidable melee weapons in desperate situations.</p>
@@ -180,6 +180,8 @@ history:<p>The Carbine's production history is inextricably tied to Bluth Corpor
 manufacturer:Field Refit
 
 primaryfactory:Various
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Bluth
 systemmode:CHASSIS:Industrial Magnum-9

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b7c8-76cf-89d3-8d4f9480162c
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Artillery Platoon (CCAF)
 <year>
 3055
 </year>
-
-<originalBuildYear>
-3055
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -57,7 +57,9 @@ ISArrowIV
 ISArrowIVAmmo
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Capellan Confederation has always relied on its infantry to compensate for the CCAF's chronic shortage of heavier assets. Conventional foot soldiers, drawn from the citizens' militia system that defines Capellan military service, form the backbone of garrison forces across the Confederation's commonalities. Field artillery platoons give CCAF ground commanders organic indirect fire support without requiring dedicated artillery vehicles. Operating crew-served tube or missile artillery pieces from mechanized transports, these platoons can displace and redeploy faster than vehicle-mounted artillery at the cost of lower rates of fire and less ammunition. Operating an Arrow IV missile artillery system, these platoons provide precision-guided indirect fire capable of engaging targets at extreme range, with the added capability of homing munitions when paired with TAG-equipped spotters.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date of CCAF advanced armor kit, which is only one year later than Arrow IV re-introduction
@@ -82,9 +84,4 @@ Submachine Gun
 <Secondary>
 Rifle (Striker Carbine)
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Capellan Confederation has always relied on its infantry to compensate for the CCAF's chronic shortage of heavier assets. Conventional foot soldiers, drawn from the citizens' militia system that defines Capellan military service, form the backbone of garrison forces across the Confederation's commonalities. Field artillery platoons give CCAF ground commanders organic indirect fire support without requiring dedicated artillery vehicles. Operating crew-served tube or missile artillery pieces from mechanized transports, these platoons can displace and redeploy faster than vehicle-mounted artillery at the cost of lower rates of fire and less ammunition. Operating an Arrow IV missile artillery system, these platoons provide precision-guided indirect fire capable of engaging targets at extreme range, with the added capability of homing munitions when paired with TAG-equipped spotters.</p>
-</overview>
 

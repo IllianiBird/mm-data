@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7b3-7836-ba4f-8a74673ee633
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Kruger Combat Car
 <year>
 3091
 </year>
-
-<originalBuildYear>
-3091
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -105,26 +105,13 @@ ISERMediumLaser
 ISERMediumLaser
 </Turret Equipment>
 
-<source>
-TR:3145:FS,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 20:16:39
-<overview>
-<p>The Kruger Combat Car is a ten-ton wheeled scout vehicle with origins stretching back to the Star League era. First produced by the Avalon Arms Company of New Avalon in 2620, the Kruger served as a fast reconnaissance and patrol asset in Federated Suns militia forces throughout the Star League period and into the First Succession War. The design was abandoned when the collapse of high-technology manufacturing made fusion engine production untenable across much of the Inner Sphere, and surviving vehicles passed into museums and private collections over the following decades. Nearly three centuries later, Avalon Arms revived the design in 3091, updating it with modern weaponry and armor while preserving the fundamental qualities that made the original effective. The reintroduced Kruger found ready buyers among militia and planetary defense commands seeking a low-cost, high-speed scout capable of operating effectively in urban environments.</p>
-</overview>
-
 <capabilities>
 <p>The Kruger's primary strength lies in its combination of speed and firepower for its weight class. A DAV 50 fusion engine propels the vehicle to a cruising speed of 75 kilometers per hour, with a maximum road speed approaching 120 kilometers per hour on improved surfaces. Two Bright-Bloom Extended Range Medium Lasers provide a reach beyond what many light vehicles can match, enabling the Kruger to engage targets at distance before withdrawing. The Broadstar Micro-Pulse communications suite is well-regarded in reconnaissance roles, supporting the vehicle's primary mission of gathering and relaying battlefield information, and the Broadstar Pintel-Star targeting system complements it with reliable acquisition performance.</p><p>The design carries significant trade-offs. ProtecTech Heavy Ferro-Fibrous armor provides reasonable protection for the vehicle's weight class, but the Kruger is a reconnaissance asset, not a line combatant. Its light protection makes sustained engagement against heavier vehicles or concentrated fire dangerous, reinforcing the doctrine that Kruger crews should report contact rather than fight for information. The wheeled drive train performs exceptionally on improved roads and hard terrain, giving the vehicle its impressive top speed, but limits cross-country capability in forests, soft ground, and water obstacles that tracked or hover designs handle more easily.</p>
 </capabilities>
+
+<overview>
+<p>The Kruger Combat Car is a ten-ton wheeled scout vehicle with origins stretching back to the Star League era. First produced by the Avalon Arms Company of New Avalon in 2620, the Kruger served as a fast reconnaissance and patrol asset in Federated Suns militia forces throughout the Star League period and into the First Succession War. The design was abandoned when the collapse of high-technology manufacturing made fusion engine production untenable across much of the Inner Sphere, and surviving vehicles passed into museums and private collections over the following decades. Nearly three centuries later, Avalon Arms revived the design in 3091, updating it with modern weaponry and armor while preserving the fundamental qualities that made the original effective. The reintroduced Kruger found ready buyers among militia and planetary defense commands seeking a low-cost, high-speed scout capable of operating effectively in urban environments.</p>
+</overview>
 
 <deployment>
 <p>The modern Kruger is distributed primarily among Federated Suns planetary militia and March Militia commands across the spinward half of the Inner Sphere, with smaller numbers in nearby Periphery border states seeking affordable light reconnaissance assets. The design functions best in urban and open terrain, where its road speed and communications range can be fully exploited. Scout platoon commanders assign Krugers to advance reconnaissance, flank screening, and messenger duties when electronic communications are compromised by jamming or terrain. Most Krugers operate in pairs or small sections rather than independently, relying on mutual support when contact with heavier forces becomes unavoidable. Since the transition of the New Avalon facility to Draconis Combine administration, Krugers have begun appearing in DC garrison formations alongside units inherited from the Federated Suns.</p>
@@ -157,4 +144,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Micro-Pulse
 TARGETING:Pintel-Star
 </systemModels>
+
+<source>
+TR:3145:FS,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+10.0
+</tonnage>
 

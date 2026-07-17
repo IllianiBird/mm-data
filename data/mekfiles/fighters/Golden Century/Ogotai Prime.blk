@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aca4-7a48-a548-8f98daf1d936
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Prime
 <year>
 2874
 </year>
-
-<originalBuildYear>
-2874
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -127,26 +127,13 @@ Clan Ammo LRM-10:OMNI
 CLCASE
 </Fuselage Equipment>
 
-<source>
-TR:GC
-</source>
-
-<published>
-TR:GC
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>Named for Genghis Khan's third son, the Ogotai was Clan Sea Fox's earliest serious commitment to OmniFighter design, entering service in 2874 from DS Aero Assembly Site Alpha on Babylon. Conceived as both an air superiority platform and a close-air support asset, the design offered pilots the tactical flexibility of a fully reconfigurable weapon bay at a time when OmniFighter technology was still being refined across Clan society. Though the Ogotai never fulfilled its original combined-role ambitions, it established a reliable identity as an escort craft for larger vessels and an effective interceptor in the orbital and space environments where it genuinely excelled. Production continued into the early 2990s, when advancing OmniFighter technology prompted the Sea Foxes to retire the line in favor of more capable airframes. The Ogotai's core design philosophies survived its retirement, carried forward in the Clan Wolf-produced Jagatai, introduced in 3016 and named for Genghis Khan's second son.</p>
-</overview>
-
 <capabilities>
 <p>The Ogotai is built around the Skypelt 4X airframe and a Fusion 270 XL engine, a combination that delivers competitive speed for a 45-ton fighter while freeing 16.5 tons for pod-mounted armament. The Formula Z5D Standard armor provides 176 points of protection, offering solid survivability for the design's weight class. Twelve permanently installed heat sinks establish the baseline for thermal management, with additional sinks commonly fitted in pod space depending on configuration. The S1G Gamma Series Communications system and Dexter 1 Sensor Suite provide reliable, if standard, electronics performance across the design's operational life.</p><p>The Ogotai's tactical strength was its flexibility within the zellbrigen bidding tradition. Standard configurations carried sufficient weapons that experienced pilots could bid away significant armament and still deliver decisive engagements, reflecting well on the efficiency of the design's pod space allocation. A skilled pilot could concentrate the available loadout into a single coordinated strike at the optimal engagement moment, a capability the design's configuration range supported across diverse mission profiles.</p><p>The Ogotai's persistent vulnerability was its Atmospheric Flight Instability, an inherent flaw in early OmniFighter engineering that caused serious handling degradation during atmospheric and low-altitude operations. This limitation made close-air support unreliable as operational demands increased, and Clans retaining the design in quantity generally reassigned their Ogotai Stars to orbital patrol and space interdiction duty, where the airframe's speed and armament flexibility translated into genuine effectiveness.</p>
 </capabilities>
+
+<overview>
+<p>Named for Genghis Khan's third son, the Ogotai was Clan Sea Fox's earliest serious commitment to OmniFighter design, entering service in 2874 from DS Aero Assembly Site Alpha on Babylon. Conceived as both an air superiority platform and a close-air support asset, the design offered pilots the tactical flexibility of a fully reconfigurable weapon bay at a time when OmniFighter technology was still being refined across Clan society. Though the Ogotai never fulfilled its original combined-role ambitions, it established a reliable identity as an escort craft for larger vessels and an effective interceptor in the orbital and space environments where it genuinely excelled. Production continued into the early 2990s, when advancing OmniFighter technology prompted the Sea Foxes to retire the line in favor of more capable airframes. The Ogotai's core design philosophies survived its retirement, carried forward in the Clan Wolf-produced Jagatai, introduced in 3016 and named for Genghis Khan's second son.</p>
+</overview>
 
 <deployment>
 <p>The Prime configuration provides a balanced ranged engagement package. An LRM-10 in the nose delivers indirect fire capability with one ton of reloads, and an ER large laser on each wing provides heavy direct fire at extended range. An ER medium laser covers the rear arc for defensive use against pursuing fighters. Four additional heat sinks, bringing the total to sixteen, allow sustained fire across the weapon mix. This well-rounded loadout proved well-suited to space interdiction and fleet escort duties, where the combination of reach and direct firepower let pilots engage threats before they closed to decisive range. The Prime remains the most commonly encountered configuration in historical records of Ogotai operations.</p>
@@ -179,4 +166,16 @@ ARMOR:Formula Z5D Standard
 COMMUNICATIONS:S1G Gamma Series Communications
 TARGETING:Dexter 1 Sensor Suite
 </systemModels>
+
+<source>
+TR:GC
+</source>
+
+<published>
+TR:GC
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

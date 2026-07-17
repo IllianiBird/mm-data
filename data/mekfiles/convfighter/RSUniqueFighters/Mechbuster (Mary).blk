@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa24-7a16-b3d1-fd65e5148d2f
+</UUID>
+
 <UnitType>
 ConvFighter
 </UnitType>
@@ -35,10 +39,6 @@ Mechbuster
 <year>
 3071
 </year>
-
-<originalBuildYear>
-3071
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -116,26 +116,13 @@ IS Light Gauss Ammo
 IS Light Gauss Ammo
 </Fuselage Equipment>
 
-<source>
-
-</source>
-
-<published>
-RS:UF
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 18:03:47
-<overview>
-<p>A hastily designed conventional fighter produced as a stopgap for dwindling aerospace fighters, the Mekbuster was manufactured by Gorton, Kingsley and Thorpe Enterprises on Rasalhague and performed admirably despite its short initial production run. Thousands were churned out until Wakazashi was able to re-tool their lines for more effective aerospace designs right before the outbreak of the Fourth Succession War. With the formation of the Free Rasalhague Republic and the destruction inflicted during the Ronin Wars, the Draconis Combine gifted the design and all rights to the fledgling state, allowing it to produce a cheap and effective fighter to defend its systems from any possible Lyran aggression, and production restarted.</p>
-</overview>
-
 <capabilities>
 <p>What ultimately led to the end of the original production run were the natural limitations of any turbine-powered conventional fighter. Thin armor plus limited fuel and ammunition forced Mekbusters to return to airstrips frequently for rearming and refueling. Even with other support craft to protect it and supply aerial refueling, the Mekbuster only has enough ammunition for under a minute of continuous firing before running dry. Without VSTOL capability, it also requires a dedicated airstrip to land and take off, precluding any ability to wage a guerrilla campaign. If the enemy captures the airstrip, Mekbusters must be abandoned if no other base of operations can be procured quickly.</p><p>As a strike craft and interceptor, however, the Mekbuster proved excellent. Its sole weapon, a Zeus 75 Class-20 Autocannon, provides the potential to destroy several BattleMeks before it needs to retire from the field. A squadron of Mekbusters can turn the tide in a ground battle in the time it takes to run their autocannons dry. The design also incorporates an advanced bomb targeting system which allows external ordnance to be targeted with ease.</p>
 </capabilities>
+
+<overview>
+<p>A hastily designed conventional fighter produced as a stopgap for dwindling aerospace fighters, the Mekbuster was manufactured by Gorton, Kingsley and Thorpe Enterprises on Rasalhague and performed admirably despite its short initial production run. Thousands were churned out until Wakazashi was able to re-tool their lines for more effective aerospace designs right before the outbreak of the Fourth Succession War. With the formation of the Free Rasalhague Republic and the destruction inflicted during the Ronin Wars, the Draconis Combine gifted the design and all rights to the fledgling state, allowing it to produce a cheap and effective fighter to defend its systems from any possible Lyran aggression, and production restarted.</p>
+</overview>
 
 <deployment>
 <p>The Mary is a straightforward field refit of the standard Mekbuster built around a simple weapon swap. The devastating but short-ranged Zeus 75 Class-20 Autocannon has been replaced by a Light Gauss Rifle fed by two tons of ammunition, trading raw close-range firepower for significantly greater reach and more shots per sortie. The fuel tank has also been expanded to carry three tons of fuel, extending the fighter's operational endurance and addressing one of the base design's most persistent limitations. Together these modifications transform the Mekbuster from a close-range striker into a more sustainable standoff platform capable of longer patrols and extended engagements at range.</p>
@@ -167,4 +154,12 @@ ENGINE:250 Turbine
 ARMOR:Standard
 COMMUNICATIONS:5
 </systemModels>
+
+<published>
+RS:UF
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

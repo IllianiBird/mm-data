@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e954-7c64-afee-85c4d3b58643
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Enyo Strike Tank
 <year>
 3083
 </year>
-
-<originalBuildYear>
-3083
-</originalBuildYear>
 
 <type>
 Clan Level 4
@@ -115,26 +115,13 @@ CLERMediumPulseLaser
 CLERMediumPulseLaser
 </Turret Equipment>
 
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-# Fluff Date: 2026-03-05 17:18:25
-<overview>
-<p>The Enyo Strike Tank is a fifty-five ton tracked combat vehicle designed by Clan Hell's Horses to exploit the advantages of lightweight engine technology in a production battle tank. Commissioned by Khan Malavai Fletcher as a fast, hard-hitting cavalry support platform capable of keeping pace with medium BattleMechs, the Enyo filled a gap in the Horses' touman for a purpose-built strike tank in the medium weight class. Lighter and faster than the Clan's existing armor assets, the design was intended specifically for use in Cavalry and Strike Cluster formations where speed and maneuverability were prized over raw firepower. Entering production in 3063, the Enyo quickly proved its value and has since been manufactured at multiple facilities, spawning several production variants that reflect the Horses' continued commitment to vehicle-centric combined-arms warfare.</p>
-</overview>
-
 <capabilities>
 <p>Powered by a Type 330 extralight fusion engine, the Enyo can reach a top speed of ninety-seven kilometers per hour, fast enough to keep pace with most Clan medium BattleMechs. The extralight engine's compact profile frees significant internal volume for weapons and ammunition while keeping the vehicle at a manageable weight. Seven and a half tons of Compound VM20 ferro-fibrous armor provide solid protection for the tank's weight class, supplemented by CASE in the ammunition bays to mitigate the risk of catastrophic ammunition explosions.</p><p>The primary armament is a Series 44h large pulse laser mounted in the turret, offering excellent accuracy and unlimited ammunition. Three Type VI-Bravo Streak SRM-6 launchers provide devastating short-range firepower, with each launcher fed by its own dedicated ammunition bin for respectable endurance. One launcher is turret-mounted alongside the laser, while the other two face forward. A pair of Series IX machine guns, one on each flank, offer protection against unarmored infantry. The Enyo's main limitation is its reliance on speed over heavy armor thickness, as prolonged engagements against heavier opponents can quickly overwhelm its protective envelope.</p>
 </capabilities>
+
+<overview>
+<p>The Enyo Strike Tank is a fifty-five ton tracked combat vehicle designed by Clan Hell's Horses to exploit the advantages of lightweight engine technology in a production battle tank. Commissioned by Khan Malavai Fletcher as a fast, hard-hitting cavalry support platform capable of keeping pace with medium BattleMechs, the Enyo filled a gap in the Horses' touman for a purpose-built strike tank in the medium weight class. Lighter and faster than the Clan's existing armor assets, the design was intended specifically for use in Cavalry and Strike Cluster formations where speed and maneuverability were prized over raw firepower. Entering production in 3063, the Enyo quickly proved its value and has since been manufactured at multiple facilities, spawning several production variants that reflect the Horses' continued commitment to vehicle-centric combined-arms warfare.</p>
+</overview>
 
 <deployment>
 <p>Despite the Enyo-XR's shortcomings, the Horses remained committed to fielding an updated Enyo as the official replacement for many of their older Homeworld-built vehicles. Produced at the upgraded Swedenborg Heavy Industries plants on Kirchbach beginning in 3083, the ER Pulse variant trades the base model's extralight engine for a standard 275-rated fusion plant, resulting in a slower but more economical design. The turret mounts a pair of extended-range medium pulse lasers in place of the original large pulse laser, while two standard SRM-6 launchers provide forward firepower with flexible ammunition options. Nearly twelve tons of hardened armor compensate for the reduced speed, making the ER Pulse considerably tougher than its predecessors at the cost of tactical mobility. These tanks have been shipped across the Clan's occupation zone to fill gaps in medium and heavy vehicle formations, forming a key part of the Horses' defensive strategy to stabilize their hard-won Inner Sphere territories.</p>
@@ -167,4 +154,16 @@ ARMOR:Forging H-Delta Hardened
 COMMUNICATIONS:Build 1750/4 Tacticom
 TARGETING:Series XLII TLS
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+55.0
+</tonnage>
 

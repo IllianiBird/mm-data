@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a6ca-7cb9-a615-a9b2e68a8b23
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Infiltrator Mk. II Battle Armor
 <year>
 3092
 </year>
-
-<originalBuildYear>
-3092
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -98,42 +98,14 @@ IS BA Stealth (Standard):LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Infiltrator Mk. II was developed by the New Avalon Institute of Science as a replacement for the original Infiltrator battle armor. Produced by Albion Advanced Technologies and Products on New Avalon, the medium-weight stealth suit entered service in 3060 after a lengthy development program. Nicknamed the "Puma" by its operators, the Mk. II addressed the shortcomings of its predecessor while preserving the core mission of deep reconnaissance and covert operations. The suit earned a strong reputation among Federated Commonwealth special forces and intelligence agencies as a capable platform for both stealth scouting and direct action missions that the original Infiltrator could not perform.</p>
-</overview>
 
 <capabilities>
 <p>The Marine configuration adapts the Infiltrator Mk. II for space and boarding operations. Space operations adaptations allow the suit to function in vacuum environments, while magnetic clamps anchor the operator to ship hulls during extravehicular action. A cutting torch enables breaching sealed bulkheads and hatches. The standard Magshot is replaced with a Clan-manufactured micro pulse laser better suited to the tight confines of shipboard combat, where engagement ranges are measured in meters rather than hundreds of meters. The parafoil and anti-personnel weapon mount are removed to accommodate the specialized boarding equipment. The suit retains its stealth armor and ECM suite, making it difficult to detect during approach to a target vessel.</p>
 </capabilities>
+
+<overview>
+<p>The Infiltrator Mk. II was developed by the New Avalon Institute of Science as a replacement for the original Infiltrator battle armor. Produced by Albion Advanced Technologies and Products on New Avalon, the medium-weight stealth suit entered service in 3060 after a lengthy development program. Nicknamed the "Puma" by its operators, the Mk. II addressed the shortcomings of its predecessor while preserving the core mission of deep reconnaissance and covert operations. The suit earned a strong reputation among Federated Commonwealth special forces and intelligence agencies as a capable platform for both stealth scouting and direct action missions that the original Infiltrator could not perform.</p>
+</overview>
 
 <deployment>
 <p>ComStar and successor organizations fielded Marine-configured Infiltrators in six-trooper Level I formations for WarShip and space station security duties. The larger formation size provided enough troopers to simultaneously breach multiple compartments during boarding actions and maintain security across broader sections of a vessel.</p>
@@ -168,4 +140,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<published>
+RS:3145-NTNU
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

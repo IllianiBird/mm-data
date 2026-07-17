@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a904-75d3-b32f-eff36bac18d9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Tunnel Rat IV Mining Exoskeleton
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -90,38 +90,14 @@ CLBALightMG:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:VAr
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Tunnel Rat IV is an armed derivative of the Tunnel Rat III, developed by General Motors during the Jihad. While retaining its predecessor's mining-grade chassis, the Tunnel Rat IV mounted light weaponry alongside its manipulators, filling a niche for mine site security and perimeter defense during a period of widespread instability. Multiple configurations offered different combinations of manipulators and light armament. Despite this added capability, the Tunnel Rat IV remained a civilian-grade exoskeleton at its core, lacking the protection and firepower of true battle armor.</p>
-</overview>
 
 <capabilities>
 <p>The Light Machine Gun variant of the Armored Glove configuration provides sustained automatic fire for perimeter defense. Armored gloves on both arms preserve the operator's ability to perform manual tasks when the weapon is not in use. The Tunnel Rat III chassis underneath provides two points of standard armor, extended life support, and jump jets with a sixty-meter range. The light machine gun's ammunition demands add a logistics burden absent from the launcher-equipped variant, but the weapon's sustained fire capability makes it better suited for extended security operations at isolated mining sites where resupply may be infrequent.</p>
 </capabilities>
+
+<overview>
+<p>The Tunnel Rat IV is an armed derivative of the Tunnel Rat III, developed by General Motors during the Jihad. While retaining its predecessor's mining-grade chassis, the Tunnel Rat IV mounted light weaponry alongside its manipulators, filling a niche for mine site security and perimeter defense during a period of widespread instability. Multiple configurations offered different combinations of manipulators and light armament. Despite this added capability, the Tunnel Rat IV remained a civilian-grade exoskeleton at its core, lacking the protection and firepower of true battle armor.</p>
+</overview>
 
 <deployment>
 <p>The Light Machine Gun variant saw use at mining sites requiring sustained perimeter defense. Operators maintained the manual dexterity of the armored glove configuration while carrying a weapon capable of suppressing threats over longer engagements than the grenade launcher variant allowed.</p>
@@ -156,4 +132,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

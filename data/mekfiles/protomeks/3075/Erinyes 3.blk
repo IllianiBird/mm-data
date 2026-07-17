@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0f0-7f99-b55e-31c636053c60
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Erinyes
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -117,34 +117,13 @@ CLLightMG
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-2.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Erinyes is a two-ton second-generation ProtoMek designed by Clan Jade Falcon after obtaining Smoke Jaguar scientific records following the Jaguar Annihilation. Conceived as a proof-of-concept effort to validate the Falcons' ability to independently produce ProtoMek technology, the Erinyes was a deliberately conservative design that hewed closely to the parameters established by the first-generation Harpy. Khan Marthe Pryde terminated the program in 3064 after lackluster performance in test raids against the Lyran Alliance, but the design resurfaced nearly a decade later under mysterious circumstances during devastating attacks on Falcon worlds by unknown forces wielding upgraded Erinyes variants.</p>
-</overview>
-
 <capabilities>
 <p>Built along similar lines to the Smoke Jaguar Harpy, the Erinyes is barely more than a slightly upgraded battlesuit in practical terms. The base configuration mounts a single SRM-1 launcher in the torso with five rounds of ammunition and four jump jets providing one hundred twenty meters of leaping distance. This gives the Erinyes better terrain mobility than most two-ton designs, though the single missile tube provides woefully inadequate firepower for anything beyond guard duty and riot control. Ten points of armor offer minimal protection against battlefield weapons.</p><p>The Erinyes' primary tactical value lies in its jump capability and small profile rather than raw combat power. Operating in Stars or larger formations, Erinyes pilots can use their jump jets to stage ambushes from heavy terrain, concentrating their fire on single targets before fading back into cover along paths too restrictive for pursuing BattleMeks. This hit-and-fade approach proved remarkably effective during the Hellion Incursion, where Falcon Erinyes Points used heavy woodlands and canyon terrain to savage overextended Hellion patrols. However, the design's limited ammunition supply and fragile armor make prolonged engagements untenable.</p>
 </capabilities>
+
+<overview>
+<p>The Erinyes is a two-ton second-generation ProtoMek designed by Clan Jade Falcon after obtaining Smoke Jaguar scientific records following the Jaguar Annihilation. Conceived as a proof-of-concept effort to validate the Falcons' ability to independently produce ProtoMek technology, the Erinyes was a deliberately conservative design that hewed closely to the parameters established by the first-generation Harpy. Khan Marthe Pryde terminated the program in 3064 after lackluster performance in test raids against the Lyran Alliance, but the design resurfaced nearly a decade later under mysterious circumstances during devastating attacks on Falcon worlds by unknown forces wielding upgraded Erinyes variants.</p>
+</overview>
 
 <deployment>
 <p>Detected during the mysterious attacks that struck multiple Falcon worlds from within between 3072 and 3074, the Erinyes 3 shares the larger engine of the Erinyes 2 but mounts a light machine gun in the torso and increases armor to twelve points, the heaviest of any Erinyes variant. Falcon Watch reports intercepted by Loki identified this configuration among the unknown forces that burned several Clan economic centers in both the Falcon and Horse Occupation Zones. The additional armor and leg protection kept the Erinyes 3 functional during the destructive city fighting on Sudeten, Blackjack, and Somerset. The identity of the forces fielding this variant and the location of its manufacture remain unknown.</p>
@@ -176,4 +155,16 @@ ENGINE:15 Fusion
 ARMOR:Standard
 TARGETING:402 TTS
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+2.0
+</tonnage>
 

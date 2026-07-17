@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a673-72e7-b453-1b8e432ccb8f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Leonidas Battle Armor
 <year>
 3096
 </year>
-
-<originalBuildYear>
-3096
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -93,38 +93,14 @@ BAISAngelECMSuite:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:FWL
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Leonidas is a medium Inner Sphere battle armor suit produced by Etna Foundries on Oriente for the Duchy of Oriente's armed forces. Introduced in 3096, the design filled a gap in the Duchy's reconnaissance and infiltration capabilities caused by dwindling stocks of the Achileus stealth suit. The Leonidas prioritizes concealment and electronic warfare over raw speed or firepower, making it well suited for ambush operations, artillery spotting, and counterinsurgency patrol. A modular weapon mount allows rapid reconfiguration across multiple mission roles, from direct engagement to battlefield surveillance. The suit earned a strong reputation for tactical flexibility among operators across multiple factions.</p>
-</overview>
 
 <capabilities>
 <p>The David configuration mounts a "David" Light Gauss Rifle in its modular weapon slot, providing accurate ranged firepower with fifteen rounds of ammunition. Combined with Standard Stealth armor and an Angel ECM Suite, this loadout excels at engaging targets from concealed positions where the suit's lack of jump capability is less of a liability. The Heavy Battle Claw on the left arm provides close-quarters capability against vehicles and structures, while the anti-personnel weapon mount handles unarmored threats.</p><p>At one thousand kilograms the Leonidas is classified as medium battle armor, offering reasonable protection without the bulk of heavier designs. Ground speed tops out at roughly thirty-two kilometers per hour, adequate for positional warfare but insufficient for rapid maneuver. The stealth and electronic warfare systems compensate for this mobility limitation, allowing troopers to choose engagements on favorable terms.</p>
 </capabilities>
+
+<overview>
+<p>The Leonidas is a medium Inner Sphere battle armor suit produced by Etna Foundries on Oriente for the Duchy of Oriente's armed forces. Introduced in 3096, the design filled a gap in the Duchy's reconnaissance and infiltration capabilities caused by dwindling stocks of the Achileus stealth suit. The Leonidas prioritizes concealment and electronic warfare over raw speed or firepower, making it well suited for ambush operations, artillery spotting, and counterinsurgency patrol. A modular weapon mount allows rapid reconfiguration across multiple mission roles, from direct engagement to battlefield surveillance. The suit earned a strong reputation for tactical flexibility among operators across multiple factions.</p>
+</overview>
 
 <deployment>
 <p>Organizations employing six-trooper Level I formations fielded the David configuration in dedicated fire support sections. The additional troopers over a standard Inner Sphere squad provided greater sustained firepower, extending the unit's ability to maintain suppressive fire during prolonged engagements. Republic-aligned and former ComStar-influenced military structures occasionally adopted this formation size for their battle armor contingents.</p>
@@ -157,4 +133,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:FWL
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

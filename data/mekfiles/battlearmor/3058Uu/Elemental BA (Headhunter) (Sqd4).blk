@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a1ba-74dc-a540-131c1e9bdd24
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Elemental Battle Armor
 <year>
 3050
 </year>
-
-<originalBuildYear>
-3050
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -89,42 +89,14 @@ BABattleClaw:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The gold standard of Clan armored infantry, the Elemental battle armor was developed by Clan Wolf and first deployed in 2868. Adapted from pressurized diving suits built by Clan Goliath Scorpion, the Elemental was the first purpose-built battle armor to see widespread military use. Designed for the Clans' genetically bred Elemental warriors, the one-ton medium suit combines heavy protection, jump mobility, and modular weaponry into a general-purpose package that has remained in frontline service for over two centuries. Produced across dozens of Clan facilities, the suit's adaptable design has spawned numerous specialized configurations while the base platform continues to anchor Clan infantry doctrine.</p>
-</overview>
 
 <capabilities>
 <p>The Headhunter configuration strips the suit's missile pack entirely, freeing mass and volume for enhanced reconnaissance equipment. Additional power packs, heat and improved sensors, and a remote sensor dispenser give the trooper extended battlefield awareness far beyond the standard suit's capabilities. Extra fuel tanks for the jump jets extend operational range, allowing deep penetration behind enemy lines. The configuration retains the battle claw and mounts a fixed machine gun alongside the standard anti-personnel weapon mount, providing adequate close-range firepower for ambush and harassment operations. Without the missile pack, the Headhunter lacks the punch needed for direct anti-BattleMech engagements, instead relying on enhanced sensors to locate and designate high-value targets for heavier assets. This specialization made the Headhunter poorly suited to the general-purpose role the standard Elemental excels at, confining it to reconnaissance and strike missions.</p>
 </capabilities>
+
+<overview>
+<p>The gold standard of Clan armored infantry, the Elemental battle armor was developed by Clan Wolf and first deployed in 2868. Adapted from pressurized diving suits built by Clan Goliath Scorpion, the Elemental was the first purpose-built battle armor to see widespread military use. Designed for the Clans' genetically bred Elemental warriors, the one-ton medium suit combines heavy protection, jump mobility, and modular weaponry into a general-purpose package that has remained in frontline service for over two centuries. Produced across dozens of Clan facilities, the suit's adaptable design has spawned numerous specialized configurations while the base platform continues to anchor Clan infantry doctrine.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere military intelligence units that acquired the Headhunter configuration organized them into four-trooper squads for deep reconnaissance behind enemy lines. The enhanced sensor package and extended jump range proved valuable for scouting missions in contested territory, where squads operated independently for days at a time, reporting enemy dispositions and marking high-value targets for follow-on strikes.</p>
@@ -159,4 +131,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

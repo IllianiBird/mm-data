@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a76b-71aa-9b92-c5a88fabe04f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Fenrir II Assault Battle Armor
 <year>
 3119
 </year>
-
-<originalBuildYear>
-3119
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -91,46 +91,14 @@ IS BA Advanced:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3145:LC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<chassis>
-quad
-</chassis>
-
-<turret>
-Modular:6
-</turret>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-17
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Fenrir II Assault Battle Armor was an assault-class quadruped battlesuit manufactured by TharHes Industries on Tharkad for the Lyran Commonwealth Armed Forces. Introduced in 3119 as a successor to the original Fenrir, the two-ton design prioritized protection over speed, mounting nearly three times the armor of its predecessor while preserving comparable firepower through Clan-manufactured weapons. Its deliberately intimidating appearance and heavy durability made it one of the most popular battlesuits in Lyran service, quickly displacing the older Fenrir across most frontline formations.</p>
-</overview>
 
 <capabilities>
 <p>The anti-infantry configuration loads the Fenrir II's turret with a pair of Clan-specification Bearhunter superheavy autocannons, each carrying twenty rounds, supplemented by two machine guns with fifty rounds apiece. This combination produces an extraordinary volume of fire against infantry, battle armor, and lightly armored vehicles. The Bearhunter autocannons are specifically designed to defeat armored infantry, while the machine guns sweep unprotected personnel. The two-ton quad chassis moves at roughly thirty-two kilometers per hour, and 680 kilograms of advanced armor gives the suit the protection to wade into close-quarters engagements where these short-ranged weapons are most effective. The quad frame prevents anti-BattleMech attacks and OmniMech transport. The Fenrir II's deliberately menacing appearance amplifies the psychological shock of its heavy anti-personnel armament. The generous ammunition supply across all four weapons supports sustained suppressive fire during urban clearance or defensive operations.</p>
 </capabilities>
+
+<overview>
+<p>The Fenrir II Assault Battle Armor was an assault-class quadruped battlesuit manufactured by TharHes Industries on Tharkad for the Lyran Commonwealth Armed Forces. Introduced in 3119 as a successor to the original Fenrir, the two-ton design prioritized protection over speed, mounting nearly three times the armor of its predecessor while preserving comparable firepower through Clan-manufactured weapons. Its deliberately intimidating appearance and heavy durability made it one of the most popular battlesuits in Lyran service, quickly displacing the older Fenrir across most frontline formations.</p>
+</overview>
 
 <deployment>
 <p>The anti-infantry configuration equipped LCAF squads tasked with urban clearance and counter-insurgency operations. Four-trooper squads used the Bearhunter autocannons and machine guns to sweep buildings and suppress hostile infantry, relying on the Fenrir II's heavy armor to absorb small arms fire during close-quarters fighting in contested settlements.</p>
@@ -163,4 +131,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:LC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<chassis>
+quad
+</chassis>
+
+<turret>
+Modular:6
+</turret>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+17
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

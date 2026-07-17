@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e924-796d-87e6-65e3b75ee32c
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Weapon Carrier (Tracked)
 <year>
 2775
 </year>
-
-<originalBuildYear>
-2775
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -111,26 +111,13 @@ LRM 5
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-His:LoT2
-</source>
-
-<published>
-His:LoT2
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 19:27:01
-<overview>
-<p>The Weapon Carrier is a sixty-ton tracked combat vehicle designed by SLDF engineers during the Star League Civil War as a rapidly produced fire support platform. Based on earlier Age of War primitive weapons carriers, the design was manufactured by Drago, Ltd. of Skye as one of many companies mass-producing vehicles to replace losses during the Amaris Coup. Unlike the Quikscell carrier family built around internal combustion engines and minimal protection, the Weapon Carrier utilized a fusion powerplant and ferro-fibrous armor, providing substantially greater survivability at the cost of higher production complexity.</p>
-</overview>
-
 <capabilities>
 <p>The LB-10X variant mounts two Defiance Ravager LB 10-X autocannons as its primary armament, supplemented by three LRM-5 launchers for additional ranged firepower. A GM 180 fusion engine provides a top speed of fifty-four kilometers per hour with unlimited operational range. The LB-X autocannons can fire both solid slugs for concentrated damage and cluster rounds for anti-aircraft or anti-infantry work.</p><p>Aldis Heavy Ferro-Fibrous armor provides one hundred sixteen points of protection, concentrated heavily on the front and flanks with a thin rear plate. An Initrode Widecom communications system and RCA Instatrac Mark VI targeting system provide battlefield coordination capabilities superior to the basic Communicator and FireScan systems found on Quikscell carriers. Despite its advantages, difficult maintenance requirements and poor wartime workmanship limited the design's long-term viability.</p>
 </capabilities>
+
+<overview>
+<p>The Weapon Carrier is a sixty-ton tracked combat vehicle designed by SLDF engineers during the Star League Civil War as a rapidly produced fire support platform. Based on earlier Age of War primitive weapons carriers, the design was manufactured by Drago, Ltd. of Skye as one of many companies mass-producing vehicles to replace losses during the Amaris Coup. Unlike the Quikscell carrier family built around internal combustion engines and minimal protection, the Weapon Carrier utilized a fusion powerplant and ferro-fibrous armor, providing substantially greater survivability at the cost of higher production complexity.</p>
+</overview>
 
 <deployment>
 <p>The LB-10X variant served as the primary production model, deployed with SLDF forces during the liberation of Terra and subsequent Succession Wars campaigns. Drago, Ltd. on Skye produced all three variants. Production ceased in the early First Succession War as ferro-fibrous armor and advanced autocannon technology became unavailable.</p>
@@ -161,4 +148,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Widecom
 TARGETING:Instatrac Mark VI
 </systemModels>
+
+<source>
+His:LoT2
+</source>
+
+<published>
+His:LoT2
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

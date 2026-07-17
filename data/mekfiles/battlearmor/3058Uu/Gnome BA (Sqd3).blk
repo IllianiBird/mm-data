@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a246-71cc-ba71-104390301867
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gnome Battle Armor
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -83,42 +83,14 @@ BAHeavyBattleClaw:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-14
-</armor>
-
-<Trooper Count>
-3
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Gnome was developed by Clan Hell's Horses as the first Clan-manufactured heavy battle armor design. Introduced in 3056, the suit was created in response to growing Inner Sphere battle armor capabilities that threatened Clan supremacy in armored infantry warfare. Classified as a heavy-weight assault platform, the Gnome combined substantial armor protection with jump capability and fixed weaponry, offering a heavier alternative to the ubiquitous Elemental without sacrificing all mobility. Named after the earth spirit of classical mythology in keeping with the Clan tradition for second-generation battlesuits, the Gnome quickly established itself as a cornerstone of Hell's Horses infantry doctrine and saw adoption by multiple Clans.</p>
-</overview>
 
 <capabilities>
 <p>The Gnome carries a fixed armament of a Clan ER small laser in the right arm and an Advanced SRM 2 launcher that mimics the accuracy of a Streak system. The left arm terminates in a heavy battle claw capable of gripping OmniMech handholds for transport, though the claw lacks sufficient dexterity for anti-BattleMech swarming or leg attacks. Jump jets provide limited aerial mobility, allowing leaps of approximately sixty meters.</p><p>At 1,500 kilograms, the Gnome sits firmly in the heavy weight class. Its 350 kilograms of armor cannot survive a direct Clan ER PPC hit the way the Kanazuchi can, but it will absorb two shots from a Clan ER medium laser and keep the trooper inside functional. The trade-off between protection and firepower defines the suit's tactical identity: heavy enough to absorb punishment that would destroy lighter designs, fast enough to avoid the crippling lack of mobility that hampered earlier heavy suits.</p>
 </capabilities>
+
+<overview>
+<p>The Gnome was developed by Clan Hell's Horses as the first Clan-manufactured heavy battle armor design. Introduced in 3056, the suit was created in response to growing Inner Sphere battle armor capabilities that threatened Clan supremacy in armored infantry warfare. Classified as a heavy-weight assault platform, the Gnome combined substantial armor protection with jump capability and fixed weaponry, offering a heavier alternative to the ubiquitous Elemental without sacrificing all mobility. Named after the earth spirit of classical mythology in keeping with the Clan tradition for second-generation battlesuits, the Gnome quickly established itself as a cornerstone of Hell's Horses infantry doctrine and saw adoption by multiple Clans.</p>
+</overview>
 
 <deployment>
 <p>The three-trooper formation is associated with the Society, whose clandestine operations employed smaller tactical teams suited to covert and unconventional action. Society cells acquired Gnome suits through their embedded positions within Clan scientific and military establishments, fielding them in non-standard formations outside normal Clan doctrine.</p>
@@ -153,4 +125,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+14
+</armor>
+
+<Trooper Count>
+3
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

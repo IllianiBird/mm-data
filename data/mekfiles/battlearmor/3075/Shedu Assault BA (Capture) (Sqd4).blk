@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a470-760d-b5af-27e4b20fdbe9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Shedu Assault Battle Armor
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -101,56 +101,13 @@ ISDetachableWeaponPack:Body
 ISBATaser:DWP
 </Trooper 4 Equipment>
 
-<slotless_equipment>
-Taser Ammo:Shots1#
-Taser Ammo:Shots1#
-Taser Ammo:Shots1#
-Taser Ammo:Shots1#
-Taser Ammo:Shots1#
-Taser Ammo:Shots1#
-Taser Ammo:Shots1#
-Taser Ammo:Shots1#
-</slotless_equipment>
-<notes>
-The TRO: 3075 entry lists a 3-slot configurable turret with a weight of 40 kg. The correct weight of 80 kg would exceed the maximum 2000 kg.
-</notes>
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-15
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
-
 <capabilities>
 <p>The capture team Shedu carries a pair of battle armor tasers in a detachable weapon pack, giving each suit the potential to force two BattleMechs to shut down through electromagnetic overload. The risk of debilitating feedback from the tasers is considerable, though a fully crewed squad can attempt to disable up to ten enemy units in rapid succession. A Magshot Gauss rifle in the turret mount provides precision ballistic fire for sustained combat after the tasers are expended or jettisoned. The 600 kilograms of advanced armor and quad chassis are retained. The detachable pack's weight penalty slows the suit until dropped. This is one of the most aggressive capture configurations in the Demon series, trading stealth and subtlety for the raw ability to shut down multiple enemy machines and seize them intact.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>The capture team Shedu's dual tasers represented the most aggressive disabling capability in the Demon series. Four-trooper squads could potentially shut down eight BattleMechs in a single engagement, though the feedback risk made each taser discharge a gamble for the operator. Allied forces studied the taser integration closely for potential adaptation to other battle armor platforms.</p>
@@ -183,4 +140,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+The TRO: 3075 entry lists a 3-slot configurable turret with a weight of 40 kg. The correct weight of 80 kg would exceed the maximum 2000 kg.
+</notes>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+15
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

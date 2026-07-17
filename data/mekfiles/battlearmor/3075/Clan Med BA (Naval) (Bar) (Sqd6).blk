@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a39e-71fa-b58f-854a4a9432c0
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Clan Medium Battle Armor
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -94,38 +94,14 @@ BAExtendedLifeSupport:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Clan Medium Battle Armor is a Clan-technology medium-weight suit developed by Clan Nova Cat’s Scientist Caste after the Clan’s relocation to the Inner Sphere. Designed as an improvement over the standard Elemental, the suit incorporates enhanced jump mobility at the cost of reduced protection, filling a gap for a more agile powered infantry platform. Its distinctive samurai-influenced styling reflects the Clan’s growing cultural ties to its Draconis Combine hosts. The design’s adaptable chassis proved attractive to multiple Clans, each fielding specialized configurations suited to their own tactical doctrines and operational needs.</p>
-</overview>
 
 <capabilities>
 <p>The Bär is purpose-built for WarShip boarding actions and space operations. It replaces the standard missile pack entirely with extended life support systems, allowing troopers to operate for prolonged periods in vacuum or hostile atmospheric conditions. The heavy flamer gives way to a micro pulse laser, better suited to the confined corridors and compartments of naval vessels where area-effect weapons pose risks to ship systems and friendly forces.</p><p>A vibro battle claw in the left hand serves as the suit’s primary close-combat weapon, capable of breaching bulkheads and forcing open exterior hatches. The Bär sacrifices the ranged punch of its ground-based counterparts for sustained operational endurance in zero-gravity environments. It retains the base chassis’s HarJel protection and searchlight, both valuable during extended shipboard operations where hull integrity and visibility are constant concerns.</p>
 </capabilities>
+
+<overview>
+<p>The Clan Medium Battle Armor is a Clan-technology medium-weight suit developed by Clan Nova Cat’s Scientist Caste after the Clan’s relocation to the Inner Sphere. Designed as an improvement over the standard Elemental, the suit incorporates enhanced jump mobility at the cost of reduced protection, filling a gap for a more agile powered infantry platform. Its distinctive samurai-influenced styling reflects the Clan’s growing cultural ties to its Draconis Combine hosts. The design’s adaptable chassis proved attractive to multiple Clans, each fielding specialized configurations suited to their own tactical doctrines and operational needs.</p>
+</overview>
 
 <deployment>
 <p>ComStar and Word of Blake naval formations organized the Bär into six-trooper Level I units for WarShip and space station security details. The larger formation size provided additional coverage for the expansive corridors and compartments of capital vessels, and the suit’s design for sustained space operations allowed Level I teams to maintain boarding defense without frequent rotation.</p>
@@ -160,4 +136,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

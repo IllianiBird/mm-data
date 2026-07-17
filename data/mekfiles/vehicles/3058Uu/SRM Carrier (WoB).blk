@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e473-72bc-a1f2-48467ca19d05
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ SRM Carrier
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -113,33 +113,13 @@ ISStreakSRM4
 ISTAG
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The SRM Carrier is a sixty-ton tracked combat vehicle built to deliver devastating short-range missile barrages at minimal cost. Developed by the Quikscell Company as a close-range counterpart to the LRM Carrier, the modern production model entered service around 2470, though its primitive ancestors date back to the Age of War in the 2440s. Manufactured by virtually every major military supplier across the Inner Sphere, the SRM Carrier provides cheap, expendable close-range fire support capable of crippling even assault-weight targets in a single volley. Its reputation as a disposable asset masks the genuine tactical threat posed by massed SRM carriers operating in coordinated ambush positions.</p>
-</overview>
-
 <capabilities>
 <p>The Word of Blake variant serves as a near-complete redesign. An extralight fusion engine replaced the internal combustion powerplant, boosting speed while freeing tonnage for substantially increased ferro-fibrous armor. The original Holly launchers were replaced with turret-mounted Streak SRM-4 systems, sacrificing raw missile volume for dramatically improved hit probability.</p><p>A C3i computer provides networked targeting without the vulnerabilities of standard C3, while Targeting Acquisition Gear designates targets for artillery and semi-guided munitions. A Guardian ECM suite rounds out the electronics package. The combination of Streak launchers, advanced electronics, and improved mobility transforms the SRM Carrier from a disposable ambush platform into a more sophisticated fire support vehicle.</p>
 </capabilities>
+
+<overview>
+<p>The SRM Carrier is a sixty-ton tracked combat vehicle built to deliver devastating short-range missile barrages at minimal cost. Developed by the Quikscell Company as a close-range counterpart to the LRM Carrier, the modern production model entered service around 2470, though its primitive ancestors date back to the Age of War in the 2440s. Manufactured by virtually every major military supplier across the Inner Sphere, the SRM Carrier provides cheap, expendable close-range fire support capable of crippling even assault-weight targets in a single volley. Its reputation as a disposable asset masks the genuine tactical threat posed by massed SRM carriers operating in coordinated ambush positions.</p>
+</overview>
 
 <deployment>
 <p>The Word of Blake variant was produced by Aldis Industries on Terra during the Jihad era, with the extralight fusion engine suggesting dedicated factory production rather than field refit. Production ceased following the liberation of Terra. The Streak SRM variant saw action throughout the Blakist campaigns in the Word of Blake Protectorate.</p>
@@ -170,4 +150,16 @@ ARMOR:Ferro-Fibrous
 COMMUNICATIONS:with C3i
 TARGETING:with TAG
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

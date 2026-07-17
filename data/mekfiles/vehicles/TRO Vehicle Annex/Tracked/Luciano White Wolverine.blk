@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb12-74db-b53b-5eef739e6955
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Luciano White Wolverine
 <year>
 2554
 </year>
-
-<originalBuildYear>
-2554
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -112,30 +112,13 @@ Searchlight
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-8.0
-</tonnage>
-
-<fuel>
-0.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-08 20:16:39
-<overview>
-<p>The Luciano White Wolverine is a lightweight arctic crawler designed and manufactured by the Luciano brothers on the frozen Draconis Combine world of Rubigen. First produced in 2554, the vehicle was purpose-built for operation in extreme cold, navigating ice sheets, hard-packed snow, and the treacherous glacier fields that dominate much of Rubigen's surface. What began as a small garage project by two enterprising siblings grew into a regional manufacturing success, with the White Wolverine earning a reputation as the definitive cold-weather utility vehicle. Rugged, affordable, and well suited to frontier conditions, the design found a steady market among colonists and civilian operators on ice-bound worlds across the region.</p>
-</overview>
-
 <capabilities>
 <p>Weighing just eight tons, the White Wolverine is built on a tracked chassis with a snowmobile modification that allows it to traverse deep snow, ice, and uneven frozen terrain with relative ease. A conventional internal combustion engine provides a cruising speed of roughly 43 kilometers per hour and a top speed approaching 65 kilometers per hour, with a petrochemical fuel capacity sufficient for over 1,400 kilometers of range. This gives the vehicle excellent endurance for long-distance travel across Rubigen's vast glacial expanses.</p><p>The White Wolverine carries no weapons and relies on commercial-grade armor rated at BAR 6, offering only modest protection against small arms and environmental hazards. A front-mounted searchlight provides visibility during the long periods of darkness common on Rubigen and similar worlds. The vehicle accommodates a crew of two and carries half a ton of cargo, making it suitable for scouting, light transport, and sightseeing operations rather than any combat role. Its lightweight construction is both a strength and a limitation. While it handles well on ice and remains stable in high winds, the minimal armor and complete lack of armament leave it vulnerable in any hostile encounter.</p>
 </capabilities>
+
+<overview>
+<p>The Luciano White Wolverine is a lightweight arctic crawler designed and manufactured by the Luciano brothers on the frozen Draconis Combine world of Rubigen. First produced in 2554, the vehicle was purpose-built for operation in extreme cold, navigating ice sheets, hard-packed snow, and the treacherous glacier fields that dominate much of Rubigen's surface. What began as a small garage project by two enterprising siblings grew into a regional manufacturing success, with the White Wolverine earning a reputation as the definitive cold-weather utility vehicle. Rugged, affordable, and well suited to frontier conditions, the design found a steady market among colonists and civilian operators on ice-bound worlds across the region.</p>
+</overview>
 
 <deployment>
 <p>The base White Wolverine is the sole production variant and has remained largely unchanged since its introduction. It is most commonly found on Rubigen itself, where it serves as the primary civilian transport for glacier crossings, supply runs to remote settlements, and recreational tours of the planet's ice fields. Small numbers have been exported to other cold-climate worlds in the former Rasalhague Military District and beyond, though its niche design limits demand to worlds with comparable terrain. The vehicle sees use by civilian operators, local planetary militias for non-combat logistics, and commercial touring companies.</p>
@@ -168,4 +151,20 @@ ARMOR:Commercial
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+8.0
+</tonnage>
+
+<fuel>
+0.5
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

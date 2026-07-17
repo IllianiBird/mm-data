@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e2d7-70f1-93c3-c37ff66a12ba
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Neptune Submarine
 <year>
 2971
 </year>
-
-<originalBuildYear>
-2971
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -103,26 +103,13 @@ LRT 20
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3039
-</source>
-
-<tonnage>
-100.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-09 16:42:39
-<overview>
-<p>The Neptune Submarine emerged from a late Second Succession War strategic reassessment within the Federated Suns. As commanders grew frustrated with the vulnerability of surface and orbital command infrastructure to aerospace strikes and DropShip assault, House Davion experimented with relocating critical control nodes to the ocean floor. Submerged command posts could direct land engagements from positions largely impervious to conventional bombardment, provided they could be adequately protected. Galtor Naval Yards, a commercial shipbuilder operating in the Draconis March, answered this requirement with the Neptune class in 2950. Designed around the principle of quiet, sustained underwater patrol and facility defense, the Neptune combined robust torpedo armament with a reliable naval propulsion system. Though cramped and logistically demanding, it established submarine warfare as a legitimate tool in planetary defense doctrine throughout the Federated Suns and, eventually, beyond.</p>
-</overview>
-
 <capabilities>
 <p>The Neptune displaces one hundred tons and is driven by a Doorman 270 Naval HyPerOx propulsion system capable of pushing the vessel to a maximum speed of 54 kilometers per hour whether submerged or running on the surface. The engine can operate in open-cycle diesel mode on the surface or switch to hydrogen peroxide combustion for deep-water operation, providing tactical flexibility across varying depth requirements. A conventional double-hull construction separates the pressure hull from the outer hull, providing structural redundancy and a rated dive depth exceeding one kilometer. Six crew members occupy the interior, and their working conditions are particularly cramped given the volume consumed by machinery and ammunition storage.</p><p>The primary offensive system is the Sea Devastator 20-rack torpedo battery, a marinized version of long-range missile technology with excellent range and firepower against surface and subsurface targets. Two Sea Harvester six-rack torpedo launchers provide close-range punch, ensuring the Neptune can engage across the tactical envelope. A Sutel XII large laser serves as a secondary weapon for surface engagements and situations where torpedo expenditure must be conserved. The Neptune's chief tactical weakness is limited torpedo reloads, which constrains its ability to sustain prolonged combat operations without resupply support.</p>
 </capabilities>
+
+<overview>
+<p>The Neptune Submarine emerged from a late Second Succession War strategic reassessment within the Federated Suns. As commanders grew frustrated with the vulnerability of surface and orbital command infrastructure to aerospace strikes and DropShip assault, House Davion experimented with relocating critical control nodes to the ocean floor. Submerged command posts could direct land engagements from positions largely impervious to conventional bombardment, provided they could be adequately protected. Galtor Naval Yards, a commercial shipbuilder operating in the Draconis March, answered this requirement with the Neptune class in 2950. Designed around the principle of quiet, sustained underwater patrol and facility defense, the Neptune combined robust torpedo armament with a reliable naval propulsion system. Though cramped and logistically demanding, it established submarine warfare as a legitimate tool in planetary defense doctrine throughout the Federated Suns and, eventually, beyond.</p>
+</overview>
 
 <deployment>
 <p>The LRT configuration replaces the Sutel XII large laser with an additional Sea Devastator 20-rack torpedo installation and expanded ammunition capacity. Where the standard Neptune relies on the laser as a secondary weapon, the LRT variant doubles down on long-range torpedo saturation. Commands deploying Neptunes as convoy escorts or operating against well-defended deep targets favored this arrangement, as the added torpedo capacity allowed more sustained engagements before the submarine required resupply. The LRT variant is common in areas where torpedo logistics were reliable enough to support its greater consumption rate, particularly along heavily defended frontier worlds.</p>
@@ -155,4 +142,16 @@ ARMOR:SeaSlab/14.5
 COMMUNICATIONS:Shur
 TARGETING:Sonar Sync Tracker
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<tonnage>
+100.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

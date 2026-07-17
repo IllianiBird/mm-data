@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb89-7bd0-b58b-e50ada6fec4c
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ TLF-LL6500
 <year>
 2400
 </year>
-
-<originalBuildYear>
-2400
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -118,30 +118,13 @@ Tank Sprayer
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-44.0
-</tonnage>
-
-<fuel>
-1.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 12:59:54
-<overview>
-<p>The Saurer-Bucher Fire Engine is a heavy wheeled support vehicle in civilian use across the Inner Sphere, originally introduced in 2400 during the Age of War. Built to the specifications common to fire apparatus throughout human space, it carries ladders, hoses, and nearly ten tons of water or fire retardant, making it well-suited to operations where centralized water infrastructure is unavailable or compromised. The vehicle's large liquid storage capacity is its primary advantage over lighter civilian designs, and it sees deployment on frontier worlds and heavily settled urban planets alike. Unarmed and lightly armored, it relies entirely on the protections afforded to civilian emergency responders rather than any hardened construction. The TLF-LL6500 has proven durable enough to remain in continuous use across multiple centuries, evidence of the enduring need for basic fire suppression capability regardless of the political climate.</p>
-</overview>
-
 <capabilities>
 <p>At 44 tons, the TLF-LL6500 is a medium-class wheeled support vehicle propelled by an internal combustion engine to a cruise speed of 64 km/h, with a top speed approaching 97 km/h. It carries no weapons and mounts only minimal barrier armor rated at BAR 4, sufficient to protect the chassis and crew from incidental debris and minor hazards rather than hostile fire. The vehicle's firefighting capability centers on its twin sprayers and liquid cargo capacity of over eight tons, which can carry water or fire-retardant chemical compounds as mission requirements dictate. Two extendable 100-meter ladders provide access to elevated structures. A pair of mounted searchlights allows operations in darkness or heavy smoke.</p><p>Eight passenger seats accommodate a full crew of firefighters and specialist personnel. Four tons of standard cargo space carries supplemental equipment including additional hose lines, protective gear, and tools. The combination of liquid storage, ladder reach, and crew capacity makes this vehicle a flexible responder to structural fires, brush fires, and industrial incidents alike. Its petrochemical fuel supply provides a range of 500 km before refueling is required, supporting extended operations in remote areas. The vehicle's primary limitation is its complete absence of weapons and its light barrier protection, making it entirely unsuitable for any role near active combat.</p>
 </capabilities>
+
+<overview>
+<p>The Saurer-Bucher Fire Engine is a heavy wheeled support vehicle in civilian use across the Inner Sphere, originally introduced in 2400 during the Age of War. Built to the specifications common to fire apparatus throughout human space, it carries ladders, hoses, and nearly ten tons of water or fire retardant, making it well-suited to operations where centralized water infrastructure is unavailable or compromised. The vehicle's large liquid storage capacity is its primary advantage over lighter civilian designs, and it sees deployment on frontier worlds and heavily settled urban planets alike. Unarmed and lightly armored, it relies entirely on the protections afforded to civilian emergency responders rather than any hardened construction. The TLF-LL6500 has proven durable enough to remain in continuous use across multiple centuries, evidence of the enduring need for basic fire suppression capability regardless of the political climate.</p>
+</overview>
 
 <deployment>
 <p>The TLF-LL6500 is deployed wherever civilian fire suppression capability is required, from frontier colonial settlements to heavily industrialized urban centers. Municipal emergency services, corporate industrial facilities, military base support functions, and planetary garrison logistics all employ this vehicle type. Its large liquid cargo capacity makes it particularly valuable on worlds with poor water infrastructure, where it must carry its own supply rather than draw from a hydrant network. It is not an armored or military-grade vehicle and is not intended for deployment in active combat zones.</p>
@@ -174,4 +157,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+44.0
+</tonnage>
+
+<fuel>
+1.0
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

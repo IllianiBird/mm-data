@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bcf2-722d-adf9-8366599c8047
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Clan Field Gunners
 <year>
 3104
 </year>
-
-<originalBuildYear>
-3104
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -55,6 +55,9 @@ CLRotaryAC5
 CLRotaryAC5 Ammo
 </Field Guns Equipment>
 
+<overview>
+<p>Clan field gun Points crew rotary autocannons manufactured to Clan precision standards for extreme sustained fire rates. The Clan rotary mechanism achieves more consistent cycling and marginally reduced jamming compared to Inner Sphere versions, though the fundamental ammunition consumption and heat generation remain formidable. These Points provide suppressive firepower that can pin entire formations, and Clan logistics systems keep them supplied more reliably than most Inner Sphere field gun units can expect.</p>
+</overview>
 
 <squad_size>
 5
@@ -67,9 +70,4 @@ CLRotaryAC5 Ammo
 <Primary>
 InfantryAssaultRifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Clan field gun Points crew rotary autocannons manufactured to Clan precision standards for extreme sustained fire rates. The Clan rotary mechanism achieves more consistent cycling and marginally reduced jamming compared to Inner Sphere versions, though the fundamental ammunition consumption and heat generation remain formidable. These Points provide suppressive firepower that can pin entire formations, and Clan logistics systems keep them supplied more reliably than most Inner Sphere field gun units can expect.</p>
-</overview>
 

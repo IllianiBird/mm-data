@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e3ab-7860-8517-def2b8e15f55
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ D
 <year>
 2875
 </year>
-
-<originalBuildYear>
-2875
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -114,30 +114,13 @@ CLCASE:OMNI
 CLStreakSRM6:OMNI
 </Turret Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-<baseChassisTurretWeight>
-0.5
-</baseChassisTurretWeight>
-
-# Fluff Date: 2026-03-02 12:09:09
-<overview>
-<p>The Badger (C) is the Clan-built ancestor of the Inner Sphere Badger Tracked Transport, a tracked OmniVehicle developed as an infantry carrier and fire support platform that predates Inner Sphere adoption of modular vehicle technology by decades. The design served Clan Wolf's touman as a standard tracked infantry carrier, accompanying Wolf's Dragoons when that unit undertook their covert mission into the Inner Sphere in 2984. When Blackwell Industries produced the Inner Sphere derivative under Dragoon contract in 3007, the original Clan design continued alongside it in limited production.</p><p>The Badger (C) incorporates CASE protection and Clan-specification weaponry unavailable to the Inner Sphere derivative, reflecting the full Clan technology investment in the design. The vehicle has continued in production across Clan facilities into the modern era, outlasting the Outreach facilities that produced both versions and finding a second manufacturing home in Clan space under Clan Wolf and later Clan Hell's Horses.</p>
-</overview>
-
 <capabilities>
 <p>The Badger (C) shares the thirty-ton tracked chassis of its Inner Sphere derivative but takes full advantage of Clan technology to extract superior combat performance from the same basic frame. A standard fusion engine provides comparable mobility to the Inner Sphere version, with tracked locomotion offering reliable performance across most planetary environments at the cost of the speed advantage enjoyed by hovertanks operating over suitable terrain.</p><p>The fixed five-ton infantry bay accommodates Clan Elemental battle armor as effectively as conventional infantry, giving the design continued utility as Clan forces transitioned to battle armor-equipped front-line units. Unlike the Inner Sphere derivative, CASE is standard across all Clan configurations, protecting the vehicle against catastrophic ammunition explosions that could destroy a comparably armed Inner Sphere counterpart. Five tons of pod space accept the full range of Clan weapons systems, including extended-range lasers, Streak missile launchers, ATM systems, and other advanced armaments unavailable to Inner Sphere operators. This combination of standard CASE, Clan weapons access, and the same reliable chassis as the Inner Sphere variant gives the Badger (C) meaningfully greater combat utility per ton while preserving the core infantry transport mission.</p>
 </capabilities>
+
+<overview>
+<p>The Badger (C) is the Clan-built ancestor of the Inner Sphere Badger Tracked Transport, a tracked OmniVehicle developed as an infantry carrier and fire support platform that predates Inner Sphere adoption of modular vehicle technology by decades. The design served Clan Wolf's touman as a standard tracked infantry carrier, accompanying Wolf's Dragoons when that unit undertook their covert mission into the Inner Sphere in 2984. When Blackwell Industries produced the Inner Sphere derivative under Dragoon contract in 3007, the original Clan design continued alongside it in limited production.</p><p>The Badger (C) incorporates CASE protection and Clan-specification weaponry unavailable to the Inner Sphere derivative, reflecting the full Clan technology investment in the design. The vehicle has continued in production across Clan facilities into the modern era, outlasting the Outreach facilities that produced both versions and finding a second manufacturing home in Clan space under Clan Wolf and later Clan Hell's Horses.</p>
+</overview>
 
 <deployment>
 <p>The D configuration commits entirely to close-range missile firepower by mounting a single Streak SRM-6 launcher. The Streak system's tracking capability makes every salvo reliable, and the SRM-6's heavier warhead complement gives the configuration meaningful capability against light vehicles as well as infantry targets. Clan commanders who need a mobile close-support platform that does not waste ammunition on evasive targets value the D for sustained operations where ammunition efficiency matters more than raw volume of fire.</p>
@@ -172,4 +155,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+30.0
+</tonnage>
+
+<baseChassisTurretWeight>
+0.5
+</baseChassisTurretWeight>
 

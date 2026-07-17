@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-afa2-75e9-9bcd-b2ec7e1a0ea5
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ C
 <year>
 3139
 </year>
-
-<originalBuildYear>
-3139
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -123,26 +123,13 @@ Clan Ammo ATM-9 ER
 Clan Ammo ATM-9 HE
 </Fuselage Equipment>
 
-<source>
-TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Lucifer III emerged from the Jihad as the Lyran aerospace community's answer to the loss of Lockheed/CBM's Donegal production facility. With the original LCF airframe no longer manufacturable, the Shipil Corporation on Skye undertook the design of a replacement drawing on the experimental LCF-X30 as its technological foundation. The resulting LCR-3 shares a design philosophy with its ancestors but is built on a wholly new Shipil 300 airframe with an extralight engine and substantially updated weapons technology. Developed under the joint endorsement of the Lyran High Command and, after Skye's integration into the Republic of the Sphere in 3081, the Republic's military leadership, the Lucifer III represents both a technical departure from and a direct spiritual continuation of the Lucifer lineage, carrying the design's association with anti-DropShip operations and Lyran aerospace doctrine into the Dark Age.</p>
-</overview>
-
 <capabilities>
 <p>The LCR-3 is built around extended-range firepower. Paired Coventry Comet ELRM-10 launchers in each wing deliver ordnance at distances comparable to Clan heavy weapons, a range advantage no earlier Lucifer could approach. The nose-mounted Defiance DialScope Model A Bombast Laser provides the close-engagement punch that defines the design's anti-DropShip mission; it was selected over the originally planned binary laser cannon after recurring heat management issues with that weapon proved irresolvable during development. The substitution freed additional volume for extended-range missile ammunition while keeping thermal load within manageable bounds. A Defiance X5M medium X-Pulse laser covers the aft arc against pursuit. O/P AIR 900 communications and O/P 3000 targeting systems replace the original Lockheed/CBM electronics entirely, addressing the sensitivity and accuracy problems that dogged the LCF series throughout its production life.</p><p>The Shipil Super Ferro-Aluminum armor provides strong protection for the weight class, and the Edasich Motors 195 XL engine delivers thrust performance comparable to the original Lucifer while shedding sufficient mass to accommodate the new weapons fit and armor package. Design quirks inherited from the development process acknowledge the lineage: emergency ejection remains difficult, but the Lucifer III has been made substantially easier to fly than the LCF series ever was, a meaningful improvement for pilots transitioning from the earlier design.</p>
 </capabilities>
+
+<overview>
+<p>The Lucifer III emerged from the Jihad as the Lyran aerospace community's answer to the loss of Lockheed/CBM's Donegal production facility. With the original LCF airframe no longer manufacturable, the Shipil Corporation on Skye undertook the design of a replacement drawing on the experimental LCF-X30 as its technological foundation. The resulting LCR-3 shares a design philosophy with its ancestors but is built on a wholly new Shipil 300 airframe with an extralight engine and substantially updated weapons technology. Developed under the joint endorsement of the Lyran High Command and, after Skye's integration into the Republic of the Sphere in 3081, the Republic's military leadership, the Lucifer III represents both a technical departure from and a direct spiritual continuation of the Lucifer lineage, carrying the design's association with anti-DropShip operations and Lyran aerospace doctrine into the Dark Age.</p>
+</overview>
 
 <deployment>
 <p>Produced at the captured Shipil facility on Skye following Clan Jade Falcon's occupation and conversion of the production line. Issued to Jade Falcon aerospace elements within the occupation zone. The C variant serves as a Clan second-line fighter with substantially more powerful and modern weapons than its LCR-3 predecessor, reflecting Jade Falcon's preference for heavier firepower.</p>
@@ -177,4 +164,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+65.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-afe9-7029-ad63-7a28e13d0c04
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ ZRO-CX-3
 <year>
 3073
 </year>
-
-<originalBuildYear>
-3073
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -123,33 +123,13 @@ Enhanced LRM 5
 ISEnhancedLRM5 Ammo
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-<source>
-XTR:Comstar
-</source>
-
-<published>
-XTR:Comstar
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>When the Star League Defense Force issued requirements for a new light aerospace fighter in the early 28th century, most manufacturers declined to bid. The challenge called for heavy firepower effective at multiple combat ranges, protection exceeding comparable light designs, and competitive speed - criteria that seemed mutually exclusive at that mass. Blow/Hookson Technologies of New Earth accepted the contract, and in under twenty months produced a flying prototype that met every specification. The Zero entered service in 2703 as one of the finest light fighters of the Star League era, earning a reputation for reliability and combat effectiveness that endured for generations. Its distinctive forward-mounted wing configuration (designed to shield the pilot and engine cooling systems from ground fire) became one of the most recognizable silhouettes in aerospace history.</p>
-</overview>
-
 <capabilities>
 <p>The Zero's armament pairs a Holly LRM-10 for standoff engagement with two Blow/Hookson Technologies laser systems: the Blow Mark III large laser and the Blow Mark II medium laser. The Mark III features an adjustable focus beam operable in flight, ranging from a wide-angle burst that disrupts enemy targeting electronics to a precisely focused armor-penetrating strike. The Mark II and comparable lasers can only be adjusted by ground crew and are typically set for maximum coherence. Ten single heat sinks manage the weapons' combined thermal load adequately, though pilots running all three systems simultaneously must remain disciplined about heat buildup.</p><p>The Bangkock 140 fusion engine provides strong acceleration for the type's thirty-five-ton mass. The wing assembly mounts ahead of the cockpit alongside the engine cooling systems, providing meaningful shielding against ground fire during assault runs. The wings can fold rearward to save hangar space, and in atmosphere allow for an acceleration burst in a dive or a controlled atmospheric skip when deployed at the interface. Ten tons of SlabPanzer V standard armor protects the airframe.</p><p>The Zero's principal weakness is its dispersed fuel system: five separate tanks connect through a network of fuel lines, and battle damage to any connection can drain the fighter's reserves rapidly. Pilots must remain alert to this vulnerability throughout sustained engagements.</p>
 </capabilities>
+
+<overview>
+<p>When the Star League Defense Force issued requirements for a new light aerospace fighter in the early 28th century, most manufacturers declined to bid. The challenge called for heavy firepower effective at multiple combat ranges, protection exceeding comparable light designs, and competitive speed - criteria that seemed mutually exclusive at that mass. Blow/Hookson Technologies of New Earth accepted the contract, and in under twenty months produced a flying prototype that met every specification. The Zero entered service in 2703 as one of the finest light fighters of the Star League era, earning a reputation for reliability and combat effectiveness that endured for generations. Its distinctive forward-mounted wing configuration (designed to shield the pilot and engine cooling systems from ground fire) became one of the most recognizable silhouettes in aerospace history.</p>
+</overview>
 
 <deployment>
 <p>A prototype developed during the Jihad at an undisclosed ComStar facility, the ZRO-CX-3 was tested several times with positive results before the program was terminated following the death of the supervising engineer. The variant never entered production, and its operational record consists entirely of prototype evaluations conducted by ComStar. Whether any examples survived the Jihad or passed into wider service is not confirmed in available sources.</p>
@@ -184,4 +164,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Model 11
 TARGETING:PS/1/12
 </systemModels>
+
+<source>
+XTR:Comstar
+</source>
+
+<published>
+XTR:Comstar
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

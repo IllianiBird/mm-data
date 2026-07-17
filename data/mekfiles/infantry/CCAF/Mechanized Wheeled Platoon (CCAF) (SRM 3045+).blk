@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b8fa-7cae-b0d9-2bf11839b3d2
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Mechanized Wheeled Platoon (CCAF)
 <year>
 3045
 </year>
-
-<originalBuildYear>
-3045
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,6 +55,9 @@ Capellan Confederation Armor Kit (3050)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>The Capellan Confederation has always relied on its infantry to compensate for the CCAF's chronic shortage of heavier assets. Conventional foot soldiers, drawn from the citizens' militia system that defines Capellan military service, form the backbone of garrison forces across the Confederation's commonalities. Mechanized wheeled platoons balance speed and infantry presence, using armored wheeled transports to move troops quickly along the Confederation's road networks. They sacrifice the cross-country capability of tracked vehicles for faster transit between defensive positions. Heavy weapons sections carry man-portable short-range missile launchers that give the platoon an anti-armor punch well beyond what personal weapons can deliver, though the launchers are heavy and ammunition is limited.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date of CCAF advanced armor kit
@@ -79,9 +82,4 @@ InfantryAssaultRifle
 <Secondary>
 InfantryHeavySRM
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Capellan Confederation has always relied on its infantry to compensate for the CCAF's chronic shortage of heavier assets. Conventional foot soldiers, drawn from the citizens' militia system that defines Capellan military service, form the backbone of garrison forces across the Confederation's commonalities. Mechanized wheeled platoons balance speed and infantry presence, using armored wheeled transports to move troops quickly along the Confederation's road networks. They sacrifice the cross-country capability of tracked vehicles for faster transit between defensive positions. Heavy weapons sections carry man-portable short-range missile launchers that give the platoon an anti-armor punch well beyond what personal weapons can deliver, though the launchers are heavy and ammunition is limited.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a1b3-7795-ae79-eb63231aeff4
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Cavalier Battle Armor
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -90,42 +90,14 @@ BABattleClaw:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<notes>
-In German products the unit's proper name was translated to Chevalier, regardless to the resulting mix-up with the Chevalier light tank, whose proper name used unaltered in German products.
-</notes>
-
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Cavalier is a medium Inner Sphere battle armor suit developed by Federated Commonwealth engineers during the post-Clan Invasion technological expansion. Produced by Albion Advanced Technologies and Products on New Avalon and General Motors on Talcott, the one-thousand-kilogram design entered service in 3058 as a direct replacement for the Inner Sphere Standard battlesuit. Jump-capable and equipped with a modular weapon mount paired with a battle claw, the Cavalier earned a strong reputation among Davion armored infantry formations and became one of the most widely fielded battle armor designs in the Inner Sphere.</p>
-</overview>
 
 <capabilities>
 <p>The machine gun variant mounts a standard battle armor machine gun in the right-arm modular weapon mount alongside the left-arm battle claw. The Cavalier's one-thousand-kilogram frame and 450 kilograms of standard armor provide solid protection, with the design's distinctive armor redistribution favoring leg coverage at the cost of upper body plating. Jump jets deliver the standard ninety-meter leap capability. The machine gun offers high sustained firepower against infantry and light vehicles, with a rate of fire that makes it effective for suppression during urban operations and defensive positions. The configuration's reliance on ammunition limits endurance compared to energy-armed variants, and the machine gun struggles against armored targets, restricting its effectiveness to anti-personnel and light anti-vehicle roles.</p>
 </capabilities>
+
+<overview>
+<p>The Cavalier is a medium Inner Sphere battle armor suit developed by Federated Commonwealth engineers during the post-Clan Invasion technological expansion. Produced by Albion Advanced Technologies and Products on New Avalon and General Motors on Talcott, the one-thousand-kilogram design entered service in 3058 as a direct replacement for the Inner Sphere Standard battlesuit. Jump-capable and equipped with a modular weapon mount paired with a battle claw, the Cavalier earned a strong reputation among Davion armored infantry formations and became one of the most widely fielded battle armor designs in the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake Militia formations organized machine gun-armed Cavaliers into six-trooper Level I units for facility security and population control operations. The machine gun's suppressive capability and the larger Level I formation size provided overwhelming firepower against conventional resistance, a combination the Blakists employed extensively on occupied worlds during the Jihad.</p>
@@ -160,4 +132,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+In German products the unit's proper name was translated to Chevalier, regardless to the resulting mix-up with the Chevalier light tank, whose proper name used unaltered in German products.
+</notes>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

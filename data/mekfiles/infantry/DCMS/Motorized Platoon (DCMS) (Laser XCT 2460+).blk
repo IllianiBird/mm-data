@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bc30-7fe1-9125-4d4995be8d99
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Motorized Platoon (DCMS)
 <year>
 2460
 </year>
-
-<originalBuildYear>
-2460
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Environment Suit, Hostile
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>Conventional infantry within the DCMS serve as the foundation of planetary defense, providing the manpower essential to territorial control while freeing BattleMech and armored assets for offensive operations. Motorized infantry travel on light unarmored vehicles that allow them to cover ground faster than the foot platoons that make up the bulk of DCMS garrison forces. District regulars rely on motorized platoons for security patrols across large garrison zones, forward observation, and the rapid response that foot troops cannot provide when trouble arises between widely separated posts. Equipped with laser rifles that outrange and outpenetrate ballistic weapons at every engagement distance. The cost is significant: laser rifles are expensive to procure, and each soldier must carry additional power packs that add weight and logistical burden. Where the budget allows, they are worth every C-bill. These Xenoplanetary Condition Troops carry specialized survival gear for hostile environments that would kill standard infantry: extreme temperatures, toxic atmospheres, crushing gravity. Where other troops cannot operate, XCT platoons fight as though conditions were normal.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date of Magna laser rifle. Magna laser rifle is standard DCMS laser weapon.
@@ -92,9 +94,4 @@ true
 <specialization>
 2048
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Conventional infantry within the DCMS serve as the foundation of planetary defense, providing the manpower essential to territorial control while freeing BattleMech and armored assets for offensive operations. Motorized infantry travel on light unarmored vehicles that allow them to cover ground faster than the foot platoons that make up the bulk of DCMS garrison forces. District regulars rely on motorized platoons for security patrols across large garrison zones, forward observation, and the rapid response that foot troops cannot provide when trouble arises between widely separated posts. Equipped with laser rifles that outrange and outpenetrate ballistic weapons at every engagement distance. The cost is significant: laser rifles are expensive to procure, and each soldier must carry additional power packs that add weight and logistical burden. Where the budget allows, they are worth every C-bill. These Xenoplanetary Condition Troops carry specialized survival gear for hostile environments that would kill standard infantry: extreme temperatures, toxic atmospheres, crushing gravity. Where other troops cannot operate, XCT platoons fight as though conditions were normal.</p>
-</overview>
 

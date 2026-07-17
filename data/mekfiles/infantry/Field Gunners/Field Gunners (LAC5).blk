@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bd04-7311-b12c-21267937c85a
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Gunners
 <year>
 3068
 </year>
-
-<originalBuildYear>
-3068
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -61,6 +61,9 @@ Light Auto Cannon/5
 IS Ammo LAC/5
 </Field Guns Equipment>
 
+<overview>
+<p>Field gun platoons crew light-caliber autocannons towed on wheeled carriages, providing long-range direct fire against armored targets. The lighter autocannon variants trade raw stopping power for accuracy and sustained engagement capability, allowing the crew to engage at distances that keep them well clear of close combat. These platoons supplement armored formations by adding volume of fire without the cost of a dedicated combat vehicle, though their towed configuration limits repositioning speed once emplaced.</p>
+</overview>
 
 <squad_size>
 7
@@ -73,9 +76,4 @@ IS Ammo LAC/5
 <Primary>
 InfantryAssaultRifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Field gun platoons crew light-caliber autocannons towed on wheeled carriages, providing long-range direct fire against armored targets. The lighter autocannon variants trade raw stopping power for accuracy and sustained engagement capability, allowing the crew to engage at distances that keep them well clear of close combat. These platoons supplement armored formations by adding volume of fire without the cost of a dedicated combat vehicle, though their towed configuration limits repositioning speed once emplaced.</p>
-</overview>
 

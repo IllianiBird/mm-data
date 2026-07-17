@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9b3-7bfd-bc96-26a81db8a726
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Prime
 <year>
 3103
 </year>
-
-<originalBuildYear>
-3103
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -107,38 +107,13 @@ BattleArmorHandles - troopers:-1
 Large Laser:OMNI
 </Turret Equipment>
 
-
-
-
-
-<source>
-RG27
-</source>
-
-<published>
-RG27
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<baseChassisTurretWeight>
-0.5
-</baseChassisTurretWeight>
-
-<baseChassisTurret2Weight>
-0.0
-</baseChassisTurret2Weight>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>Pesht Motors had long dominated the civilian transport and automotive sector across the Draconis Combine, but the chaos of the Jihad created an opening for the company to push into the military market. When aging Galleon Light Tanks struggled to adequately serve planetary militias, Pesht proposed a replacement built around a simple pitch: equal firepower at roughly half the cost, on a fully modular Omni chassis. The Combine's leadership saw another advantage. A 20-ton vehicle with minimal armament would draw little attention from the Republic of the Sphere's Military Materiel Redemption Program, which was aggressively pressing Combine worlds to surrender excess military hardware. Introduced in 3103, the Kamisori entered service as a low-cost OmniVehicle optimized for scouting, infantry support, and Battle Armor transport, quickly gaining a foothold in the Combine's planetary militia forces.</p>
-</overview>
-
 <capabilities>
 <p>At 20 tons, the Kamisori is a nimble tracked vehicle capable of reaching 97 kph, placing it in the same speed bracket as faster medium BattleMechs. Its hull carries 5.5 tons of New Samarkand Royal Heavy Ferro-Fibrous armor, providing meaningful protection relative to its weight class. The GM 120 Fusion engine delivers reliable performance without the maintenance complications of more exotic powerplants, and the vehicle's tracked mobility allows it to operate across terrain that would slow wheeled or hover designs.</p><p>The vehicle's defining feature is its 5-ton OmniPod capacity housed in a modular turret, allowing a single chassis to fill multiple tactical roles without dedicated factory retooling. The standard Neil 500 communications suite and Matabushi Stalker targeting system carry across all configurations, providing consistent baseline situational awareness and coordination capability.</p><p>The design's limitations are equally apparent. Five tons of pod space severely constrains armament options, and most configurations field only a single weapon system. The Kamisori lacks the sustained firepower to engage hardened targets independently. Its value lies in flexibility and economy, not raw combat power, and commanders who push it beyond its support and screening role court unnecessary losses.</p>
 </capabilities>
+
+<overview>
+<p>Pesht Motors had long dominated the civilian transport and automotive sector across the Draconis Combine, but the chaos of the Jihad created an opening for the company to push into the military market. When aging Galleon Light Tanks struggled to adequately serve planetary militias, Pesht proposed a replacement built around a simple pitch: equal firepower at roughly half the cost, on a fully modular Omni chassis. The Combine's leadership saw another advantage. A 20-ton vehicle with minimal armament would draw little attention from the Republic of the Sphere's Military Materiel Redemption Program, which was aggressively pressing Combine worlds to surrender excess military hardware. Introduced in 3103, the Kamisori entered service as a low-cost OmniVehicle optimized for scouting, infantry support, and Battle Armor transport, quickly gaining a foothold in the Combine's planetary militia forces.</p>
+</overview>
 
 <deployment>
 <p>The Prime Configuration loads the Kamisori's five-ton bay with a single Large Laser, giving planetary militia units a reliable direct-fire weapon that requires no ammunition supply chain. The straightforward loadout suits patrol and screening duties, where a single powerful shot at moderate range deters light raider vehicles and infantry without demanding the tactical sophistication of more specialized configurations. Militia formations often employ Prime Kamisoris as the backbone of a mixed lance, pairing them with more specialized configurations to cover sensor or anti-infantry gaps.</p>
@@ -171,4 +146,24 @@ ARMOR:New Samarkand Royal Heavy Ferro-Fibrous
 COMMUNICATIONS:500
 TARGETING:Stalker
 </systemModels>
+
+<source>
+RG27
+</source>
+
+<published>
+RG27
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<baseChassisTurretWeight>
+0.5
+</baseChassisTurretWeight>
+
+<baseChassisTurret2Weight>
+0.0
+</baseChassisTurret2Weight>
 

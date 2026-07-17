@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-adaf-7b48-a15f-df74245c6217
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ HMR-HF
 <year>
 3068
 </year>
-
-<originalBuildYear>
-3068
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -118,34 +118,13 @@ IS LB 10-X Cluster Ammo
 IS LB 10-X Cluster Ammo
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Hammerhead is among the longest-serving aerospace fighter designs in human history, with roots stretching back to the earliest days of interstellar conflict. Commissioned by Boeing Interstellar on Terra, the original prototype first flew in 2402 and entered production five years later for the Terran Hegemony. Designed as a heavy ground-based defensive fighter, the Hammerhead was intended for planetary defense and jump point patrol duties. The craft's distinctive wide-nosed profile and devastating forward-mounted weaponry earned it a fearsome reputation, particularly among DropShip captains who learned to dread engaging squadrons of these heavy fighters. At seventy-five tons, the Hammerhead combines impressive firepower with surprising acceleration for its mass, a combination that has kept the design relevant across centuries of service through periodic upgrades and modernization efforts.</p>
-</overview>
-
 <capabilities>
 <p>The definitive HMR-HD model mounts a single Imperator Zeta-20 autocannon in its nose, a weapon capable of crippling lighter fighters in a single pass and posing a serious threat to DropShips and other large spacecraft. The fighter carries three tons of ammunition for this weapon, providing limited but devastating firepower. The absence of secondary armament is considered both the Hammerhead's greatest weakness and an unexpected tactical advantage, as pilots are compelled to withdraw once their ammunition is expended rather than lingering in a fight with insufficient weaponry. For this reason, Hammerheads are typically paired with energy weapon-equipped fighters that can sustain prolonged engagements.</p><p>A Pitban C375 fusion engine provides startling acceleration for such a heavy airframe, allowing the Hammerhead to close rapidly with targets and exploit the short effective range of its main weapon. Boeing C-tran ferro-aluminum armor gives the fighter excellent protection, enabling it to absorb defensive fire during attack runs. The Lassitor FibroLink communications system and BANDAR 9 targeting and tracking system provide reliable electronics performance. Ten single heat sinks comfortably manage the fighter's modest thermal output, a benefit of its ammunition-dependent loadout. Five tons of fuel provide acceptable endurance for extended patrol and escort missions.</p>
 </capabilities>
+
+<overview>
+<p>The Hammerhead is among the longest-serving aerospace fighter designs in human history, with roots stretching back to the earliest days of interstellar conflict. Commissioned by Boeing Interstellar on Terra, the original prototype first flew in 2402 and entered production five years later for the Terran Hegemony. Designed as a heavy ground-based defensive fighter, the Hammerhead was intended for planetary defense and jump point patrol duties. The craft's distinctive wide-nosed profile and devastating forward-mounted weaponry earned it a fearsome reputation, particularly among DropShip captains who learned to dread engaging squadrons of these heavy fighters. At seventy-five tons, the Hammerhead combines impressive firepower with surprising acceleration for its mass, a combination that has kept the design relevant across centuries of service through periodic upgrades and modernization efforts.</p>
+</overview>
 
 <deployment>
 <p>The HMR-HF emerged from the Word of Blake's reactivation of the Boeing plant on Terra. This variant replaces the standard autocannon with an Imperator Code Red LB 10-X autocannon carrying two tons of ammunition, complemented by a pair of Diverse Optics ER medium lasers mounted in the wings. The combination of cluster-capable munitions and laser strafing capability makes the HF a devastating ground support platform. Double heat sinks shared with the E variant help manage the increased thermal load. Blakist commanders fielded large blocks of HMR-HFs, and the variant earned a feared reputation on the battlefields of the former Chaos March.</p>
@@ -178,4 +157,16 @@ ARMOR:C-tran Ferro-Aluminum
 COMMUNICATIONS:FibroLink
 TARGETING:9
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

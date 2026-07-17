@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a837-7bfc-ad2b-a5d889edd74e
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ A [HMG](Sqd4)
 <year>
 3147
 </year>
-
-<originalBuildYear>
-3147
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -82,42 +82,13 @@ BABattleClaw:LA
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
 
-<source>
-RG31
-</source>
-
-<published>
-RG31
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Callisto is a medium Clan battle armor suit developed by the Rasalhague Dominion in the mid-thirty-second century. Built upon the foundation of the proven Elemental battlesuit, the Callisto retains a familiar profile that allows warriors to transition between designs with minimal retraining. Its modular weapon mounting system gives infantry commanders the flexibility to tailor each formation's loadout to the mission. Produced at facilities on Alshain and Stewart, the suit has spread across the Dominion, the Wolf Empire, and Clan Sea Fox merchant networks, earning a reputation as a practical complement to longer-established battle armor designs.</p>
-</overview>
-
 <capabilities>
 <p>Configuration A with the Heavy Machine Gun mount delivers high-volume ballistic fire at close range. The Heavy Machine Gun in the modular weapon position tears through light armor and infantry formations with sustained automatic fire, while the ER Medium Laser in the squad support mount provides accurate engagement at greater distances. The left arm Battle Claw rounds out the suit's close-combat capability.</p><p>Built on the Elemental chassis, the Callisto sacrifices jump capability for faster ground movement. The suit carries lighter armor than the Elemental, a trade-off that favors aggressive, mobile tactics over static defense. The Heavy Machine Gun configuration performs well in urban clearance and defensive perimeter security, where its high rate of fire can suppress advancing infantry. Ammunition consumption is the primary drawback, as the weapon's cyclic rate can quickly deplete magazines during intensive engagements.</p>
 </capabilities>
+
+<overview>
+<p>The Callisto is a medium Clan battle armor suit developed by the Rasalhague Dominion in the mid-thirty-second century. Built upon the foundation of the proven Elemental battlesuit, the Callisto retains a familiar profile that allows warriors to transition between designs with minimal retraining. Its modular weapon mounting system gives infantry commanders the flexibility to tailor each formation's loadout to the mission. Produced at facilities on Alshain and Stewart, the suit has spread across the Dominion, the Wolf Empire, and Clan Sea Fox merchant networks, earning a reputation as a practical complement to longer-established battle armor designs.</p>
+</overview>
 
 <deployment>
 <p>Four-trooper squads armed with the Heavy Machine Gun configuration see regular use in urban clearance operations among Inner Sphere forces. The squad size allows movement through buildings and corridors without crowding, while the weapon's high rate of fire clears rooms and suppresses defenders at close range.</p>
@@ -150,4 +121,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG31
+</source>
+
+<published>
+RG31
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

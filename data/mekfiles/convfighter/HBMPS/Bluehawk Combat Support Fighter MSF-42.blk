@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa1a-754b-a2b8-8a54539eca04
+</UUID>
+
 <UnitType>
 ConvFighter
 </UnitType>
@@ -35,10 +39,6 @@ MSF-42
 <year>
 3019
 </year>
-
-<originalBuildYear>
-3019
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -121,34 +121,13 @@ IS Ammo LRM-10
 IS Ammo LRM-10
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-HB:MPS
-</source>
-
-<published>
-HB:MPS
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The MSF-42 Bluehawk is one half of a peculiar Periphery mystery. Produced by Magistracy Metals for the Magistracy of Canopus, the thirty-ton Bluehawk entered service in 3019 as a fusion-powered atmospheric fire support fighter designed to supplement the Magistracy's limited aerospace assets. What makes the design remarkable is its virtual twin--the ASF-23 Protector, produced by United Outworlders Corporation in the Outworlds Alliance using an entirely different manufacturing philosophy. Despite originating from two different companies in two different realms, both craft are virtually indistinguishable in performance, their differences apparently only skin deep. Even the introduction dates yield no clue, as both entered service in the same year.</p>
-</overview>
-
 <capabilities>
 <p>The Bluehawk was designed for atmospheric fire support rather than speed, devoting the bulk of its thirty-ton mass to weapons rather than engine performance. Wing-mounted LRM-10 launchers enable the fighter to saturate battlefield targets with long-range missile fire, providing suppressive support for advancing ground forces or pinning down defensive positions. A nose-mounted trio of machine guns offers devastating anti-infantry capability during close strafing passes, capable of shredding conventional infantry formations in seconds.</p><p>The fusion powerplant eliminates fuel concerns for sustained operations, though the missile launchers still require ammunition resupply between sorties. External bomb hardpoints allow Bluehawk pilots to deliver ordnance against hardened targets and armored formations, freeing up more expensive aerospace fighters for air superiority and DropShip interception duties. The fighter's modest speed and light armor make it vulnerable to dedicated interceptors, but its low acquisition and maintenance costs make combat losses more acceptable to Periphery military budgets that cannot afford heavier alternatives.</p>
 </capabilities>
+
+<overview>
+<p>The MSF-42 Bluehawk is one half of a peculiar Periphery mystery. Produced by Magistracy Metals for the Magistracy of Canopus, the thirty-ton Bluehawk entered service in 3019 as a fusion-powered atmospheric fire support fighter designed to supplement the Magistracy's limited aerospace assets. What makes the design remarkable is its virtual twin--the ASF-23 Protector, produced by United Outworlders Corporation in the Outworlds Alliance using an entirely different manufacturing philosophy. Despite originating from two different companies in two different realms, both craft are virtually indistinguishable in performance, their differences apparently only skin deep. Even the introduction dates yield no clue, as both entered service in the same year.</p>
+</overview>
 
 <deployment>
 <p>Since its debut, the Bluehawk has appeared in the planetary air forces of the Magistracy of Canopus, Outworlds Alliance, and Taurian Concordat, as well as in some fringe regions of the Federated Suns and Draconis Combine. In several cases--particularly within Concordat and Alliance service--squadrons composed of both Bluehawks and their Protector counterparts have been deployed in tandem, exploiting their distinctly different visual profiles to confound enemy identification efforts during combat.</p>
@@ -181,4 +160,16 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+HB:MPS
+</source>
+
+<published>
+HB:MPS
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a2d8-7853-abd5-003e96e75a41
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kanazuchi Assault Battle Armor
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -94,42 +94,13 @@ InfantryAssaultRifle:APM:Body
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
 
-<slotless_equipment>
-BA-SRM2 Ammo:Shots1#
-BA-SRM2 Ammo:Shots1#
-</slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-15
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kanazuchi is an assault-class battle armor design produced by Luthien Armor Works for the Draconis Combine Mustered Soldiery. One of the heaviest and most heavily armored suits developed by any Inner Sphere power, its name translates from Japanese as "hammer." Introduced in 3058 after a prolonged and difficult development cycle, the Kanazuchi was designed to provide the Combine with a ground-based armored infantry platform optimized for urban defense operations. The suit's exceptional protection and interchangeable manipulator system earned it a reputation as one of the most survivable designs in service, though its lack of mobility and inability to perform anti-BattleMech attacks limited its tactical flexibility compared to lighter alternatives.</p>
-</overview>
-
 <capabilities>
 <p>The standard Kanazuchi configuration mounts a medium laser in the right arm as its primary weapon, powered by twin military power packs carried in the suit's dorsal section. Two shoulder-mounted SRM-2 racks provide a single four-missile volley against hardened targets, though their firing arc is limited to a forward ninety-degree cone. Two anti-personnel weapon mounts offer flexible secondary armament, with troopers selecting from arm or torso positions depending on mission requirements. A heavy battle claw in the left arm provides close-quarters capability against light vehicles and structures.</p><p>The suit carries 750 kilograms of armor, among the heaviest protection fielded on any battle armor design. This protection comes at a cost: the Kanazuchi cannot perform swarming attacks, cannot ride OmniMech handholds, lacks jump capability entirely, and manages only 10.8 kilometers per hour on foot. These restrictions confine the suit to a ground-based urban defense role where its firepower and survivability matter more than speed.</p>
 </capabilities>
+
+<overview>
+<p>The Kanazuchi is an assault-class battle armor design produced by Luthien Armor Works for the Draconis Combine Mustered Soldiery. One of the heaviest and most heavily armored suits developed by any Inner Sphere power, its name translates from Japanese as "hammer." Introduced in 3058 after a prolonged and difficult development cycle, the Kanazuchi was designed to provide the Combine with a ground-based armored infantry platform optimized for urban defense operations. The suit's exceptional protection and interchangeable manipulator system earned it a reputation as one of the most survivable designs in service, though its lack of mobility and inability to perform anti-BattleMech attacks limited its tactical flexibility compared to lighter alternatives.</p>
+</overview>
 
 <deployment>
 <p>ComStar and Word of Blake formations that acquired Kanazuchi suits organized them into six-trooper Level I detachments. The Word of Blake gained access to examples during their intelligence operations and later through direct seizure of Combine military assets during the Jihad. The larger formation size partially compensated for the suit's slow speed, allowing Level I commanders to establish overlapping fields of fire across defensive perimeters in occupied urban zones.</p>
@@ -162,4 +133,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+15
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

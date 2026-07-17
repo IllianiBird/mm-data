@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e53c-7bb6-b11e-c9cd1eb42595
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Odin Scout Tank
 <year>
 2844
 </year>
-
-<originalBuildYear>
-2844
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -109,26 +109,13 @@ CLMediumPulseLaser
 CLStreakSRM2
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 17:12:16
-<overview>
-<p>The Odin Scout Tank is a lightweight Clan reconnaissance vehicle introduced in 2844. Weighing only twenty tons, the wheeled tank was designed from the outset as a dedicated intelligence-gathering platform rather than a combat vehicle. Its sophisticated sensor suite and impressive top speed made it one of the premier scouting assets available to any Clan's touman. Production spread across nearly every Clan's homeworld industrial base, evidence of the design's universal appeal and straightforward manufacturing requirements.</p><p>Despite the Clans' well-documented disdain for conventional vehicles, the Odin carved out a lasting niche by excelling in a role that most warriors considered beneath them. Few other vehicles achieved such widespread adoption among so many different Clans, and the design's longevity across centuries of service speaks to its fundamental soundness as a reconnaissance platform.</p>
-</overview>
-
 <capabilities>
 <p>The Odin's primary asset is its advanced active probe, capable of detecting hidden units at ranges up to one hundred fifty meters. Fully integrated with the vehicle's communications and targeting systems, the probe uses magnetic resonance, infrared, and electromagnetic intercepts to build a detailed tactical picture of the surrounding terrain. This makes the Odin invaluable for surveying cluttered terrain and identifying concealed enemy positions.</p><p>Powered by a lightweight fusion engine, the Odin can reach speeds of up to 130 km/h on paved surfaces, though the need to protect the vehicle's suspension typically limits off-road speeds to around 90 km/h. Ferro-fibrous armor provides minimal protection, sufficient to resist small-arms fire and incidental damage from collisions during high-speed movement, but wholly inadequate against serious military threats. The vehicle relies on speed and stealth rather than durability to survive.</p><p>Turret-mounted pulse lasers provide limited defensive capability, trading range for improved accuracy against fast-moving targets. A Streak missile launcher eliminates wasted ammunition, while a nose-mounted small laser allows the driver to engage threats in the forward arc. These weapons are controlled by the gunner, who also operates the sensor suite, placing heavy demands on crew coordination.</p>
 </capabilities>
+
+<overview>
+<p>The Odin Scout Tank is a lightweight Clan reconnaissance vehicle introduced in 2844. Weighing only twenty tons, the wheeled tank was designed from the outset as a dedicated intelligence-gathering platform rather than a combat vehicle. Its sophisticated sensor suite and impressive top speed made it one of the premier scouting assets available to any Clan's touman. Production spread across nearly every Clan's homeworld industrial base, evidence of the design's universal appeal and straightforward manufacturing requirements.</p><p>Despite the Clans' well-documented disdain for conventional vehicles, the Odin carved out a lasting niche by excelling in a role that most warriors considered beneath them. Few other vehicles achieved such widespread adoption among so many different Clans, and the design's longevity across centuries of service speaks to its fundamental soundness as a reconnaissance platform.</p>
+</overview>
 
 <deployment>
 <p>The base Odin serves as the standard reconnaissance variant across Clan military forces. Produced at numerous facilities throughout the Kerensky Cluster and later at Inner Sphere factories, it remains one of the most widely distributed scout vehicles in any Clan touman. Contrary to Clan tradition, the two-person crew often trains together and serves as a team throughout their military career, a strategy required by the high level of coordination needed to effectively operate the vehicle's complex sensor systems while maneuvering at high speed.</p>
@@ -161,4 +148,16 @@ ARMOR:Compound 2110 Ferro-Fibrous
 COMMUNICATIONS:Consolidated BMR 6
 TARGETING:TRTTS Mark II
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

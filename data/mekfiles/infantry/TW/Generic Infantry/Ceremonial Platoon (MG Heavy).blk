@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bfcf-7981-bba2-ba8ec71cb0c3
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,10 +36,6 @@ Ceremonial Platoon
 2350
 </year>
 
-<originalBuildYear>
-2350
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -51,6 +51,9 @@ Ballistic Plate, Standard
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Ceremonial machine gun platoons combine honor guard duties with heavier firepower than typical ceremonial formations. Armed with assault rifles and support machine guns, these platoons can defend government facilities, parade grounds, and VIP compounds against genuine threats while maintaining the formal appearance expected of guard units. The support weapons give them sustained suppressive fire capability that purely ceremonial formations lack.</p>
+</overview>
 
 <source>
 TR:3085
@@ -83,9 +86,4 @@ Machine Gun (Support)
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Ceremonial machine gun platoons combine honor guard duties with heavier firepower than typical ceremonial formations. Armed with assault rifles and support machine guns, these platoons can defend government facilities, parade grounds, and VIP compounds against genuine threats while maintaining the formal appearance expected of guard units. The support weapons give them sustained suppressive fire capability that purely ceremonial formations lack.</p>
-</overview>
 

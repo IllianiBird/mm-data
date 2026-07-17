@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a652-7ce2-acf4-4abc13e27a4c
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Amazon Battle Armor
 <year>
 3101
 </year>
-
-<originalBuildYear>
-3101
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -96,38 +96,14 @@ IS BA Advanced:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:CC
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Amazon is a medium battle armor suit developed by Foxx Infantry Systems for the Magistracy of Canopus. Introduced in 3101, the design builds on a proven lineage of Inner Sphere battle armor platforms, emphasizing improved protection and mobility over technological novelty. Tougher and better armed than many of its contemporaries, the Amazon has earned a reputation as one of the strongest middleweight contenders fielded by any Inner Sphere power. Its adoption by the Capellan Confederation through the Trinity Alliance partnership further broadened the suit's operational reach, establishing it as a common sight on battlefields across the Capellan March and the near Periphery.</p>
-</overview>
 
 <capabilities>
 <p>This configuration replaces the ballistic option with a support particle projector cannon on the right arm's modular weapon mount. The energy weapon eliminates ammunition dependency entirely, giving troopers sustained firepower during extended operations without the logistical burden of resupply. The left arm retains the standard battle claw for anti-BattleMech attacks and OmniMech transport capability.</p><p>The support PPC generates considerably more heat than the recoilless rifle alternative, and its effective range profile differs, favoring engagements at closer distances where the particle bolt's damage potential is maximized. Troopers must manage their rate of fire more carefully to avoid overheating the suit. The same advanced armor and 90-meter jump capability found in the ballistic configuration apply here, giving identical survivability and mobility regardless of weapon selection. For commanders anticipating prolonged engagements where resupply may be uncertain, the energy weapon configuration offers a self-sufficient alternative at the cost of sustained volume of fire.</p>
 </capabilities>
+
+<overview>
+<p>The Amazon is a medium battle armor suit developed by Foxx Infantry Systems for the Magistracy of Canopus. Introduced in 3101, the design builds on a proven lineage of Inner Sphere battle armor platforms, emphasizing improved protection and mobility over technological novelty. Tougher and better armed than many of its contemporaries, the Amazon has earned a reputation as one of the strongest middleweight contenders fielded by any Inner Sphere power. Its adoption by the Capellan Confederation through the Trinity Alliance partnership further broadened the suit's operational reach, establishing it as a common sight on battlefields across the Capellan March and the near Periphery.</p>
+</overview>
 
 <deployment>
 <p>Clan-organized formations fielding the Amazon in five-trooper Points occasionally select the energy weapon configuration for extended patrol and raiding operations. The support PPC's independence from ammunition supply chains suits the self-sufficient operational tempo expected of Clan garrison clusters, though the weapon's heat management demands additional training for troopers.</p>
@@ -162,4 +138,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:CC
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

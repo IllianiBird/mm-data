@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e99d-7708-9162-7c3cf743c1db
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Maxim Heavy Hover Transport
 <year>
 3101
 </year>
-
-<originalBuildYear>
-3101
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -112,38 +112,13 @@ ISMGA
 ISStreakSRM6
 </Turret Equipment>
 
-<slotless_equipment>
-IS Ammo SRM-2
-IS Ammo SRM-2
-</slotless_equipment>
-
-
-
-
-
-
-
-
-<source>
-RG26
-</source>
-
-<published>
-RG26,RS:MERCS
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>Designed and produced by Maxim Transport Industries beginning in 2689, the Maxim Heavy Hover Transport was the brainchild of a retired infantry general on Al Na'ir who envisioned a single vehicle capable of delivering an entire infantry platoon to the battlefield. Before the Maxim, commanders relied on lances of three or four smaller APCs to deploy a single platoon, a logistically cumbersome arrangement that limited tactical flexibility.</p><p>The Maxim proved an immediate success across the Inner Sphere, earning a reputation as the gold standard for military hover transports. Popular with commanders for its combination of speed, firepower, and carrying capacity, the Maxim is equally respected by the infantry who ride in its spacious and comfortable bay. Though Maxim Transport Industries itself is long gone, the design endures through multiple successor manufacturers, a reflection of the soundness of the original concept.</p>
-</overview>
-
 <capabilities>
 <p>The Maxim mounts an impressive weapons array for a transport vehicle. A turret-mounted SureShot Mk VI SRM-6 serves as the primary close-range weapon, supplemented by side-mounted SureShot II SRM-2 launchers. Three LongFire V LRM-5 racks provide sustained long-range fire support, with two forward-facing and one rear-mounted to cover withdrawals. A trio of heavy machine guns in the turret rounds out the armament, giving the Maxim effective anti-infantry capability during troop deployment.</p><p>Powered by a PowerTech 165 Highlift internal combustion engine, the Maxim reaches a top speed of 129 kilometers per hour. Five and a half tons of ArcShield V armor provide adequate protection for its weight class, though the hover skirt remains a persistent vulnerability to concentrated fire. The six-ton infantry bay accommodates a full platoon with padded seating and enough space for troops to check weapons and move comfortably. This combination of firepower and carrying capacity makes the Maxim far more capable than a simple transport, though commanders must weigh its combat value against the risk of losing an entire platoon in a single vehicle.</p>
 </capabilities>
+
+<overview>
+<p>Designed and produced by Maxim Transport Industries beginning in 2689, the Maxim Heavy Hover Transport was the brainchild of a retired infantry general on Al Na'ir who envisioned a single vehicle capable of delivering an entire infantry platoon to the battlefield. Before the Maxim, commanders relied on lances of three or four smaller APCs to deploy a single platoon, a logistically cumbersome arrangement that limited tactical flexibility.</p><p>The Maxim proved an immediate success across the Inner Sphere, earning a reputation as the gold standard for military hover transports. Popular with commanders for its combination of speed, firepower, and carrying capacity, the Maxim is equally respected by the infantry who ride in its spacious and comfortable bay. Though Maxim Transport Industries itself is long gone, the design endures through multiple successor manufacturers, a reflection of the soundness of the original concept.</p>
+</overview>
 
 <deployment>
 <p>The Escort variant is a standardized combat refit that eliminates the infantry bay entirely in favor of an improved weapons array. A fuel cell engine frees sufficient mass to upgrade the turret-mounted SRM-6 to a Streak version, while the machine guns are reorganized into a turret-mounted array. A pair of MML-5 launchers replace the standard LRM racks, with a single rear-mounted launcher for withdrawal coverage. Improved one-shot SRM-2 packs on each side provide emergency close-range firepower. The Escort serves as a dedicated combat escort for transport variants, providing organic fire support without risking embarked infantry.</p>
@@ -176,4 +151,16 @@ ARMOR:ArcShield V
 COMMUNICATIONS:I/O
 TARGETING:TargetTrack
 </systemModels>
+
+<source>
+RG26
+</source>
+
+<published>
+RG26,RS:MERCS
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

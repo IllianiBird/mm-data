@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec6e-7bb0-8a34-4b08f83b9763
+</UUID>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Barouche Military Transport
 <year>
 3078
 </year>
-
-<originalBuildYear>
-3078
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -127,30 +127,13 @@ Light Machine Gun
 4
 </engine_tech_rating>
 
-<source>
-XTR:RetroTech
-</source>
-
-<published>
-XTR:RetroTech
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-02-28 14:24:05
-<overview>
-<p>The Barouche Military Transport is an 80-ton hover support vehicle produced by Peloran Motors of Marlette beginning in 3078. Occupying an unusual niche between unarmored civilian cargo carriers and dedicated military combat vehicles, the design qualifies under Federated Suns regulations as an armed support vehicle rather than a frontline military unit. Named after an ancient style of French carriage, the Barouche blends civilian manufacturing techniques with a modest defensive armament to produce a vehicle capable of protecting vital supply convoys without the prohibitive procurement costs of true military armor.</p><p>The result is a practical compromise for garrison commanders and logistics officers who need something more resilient than an unarmored flatbed but cannot justify the expense of dedicated combat transport assets. The design attracted buyers well beyond the Federated Suns, earning a solid reputation as a reliable and cost-effective solution to the persistent challenge of keeping frontline forces supplied through active combat zones.</p>
-</overview>
-
 <capabilities>
 <p>The Barouche is built around its 24.5-ton rear-access cargo bay, which represents the vehicle's central purpose and primary operational contribution. The design's mobility is provided by a fusion engine delivering a flank speed of approximately 118 km/h, giving the vehicle a meaningful speed advantage over conventional wheeled transports and allowing it to outpace many threats it might encounter during supply runs. This speed is its most reliable defensive asset.</p><p>Protection comes in the form of four tons of commercial BAR 8 armor. Coverage is reasonable against small arms and incidental fire, particularly in the reinforced turret, but the commercial-grade protection means the Barouche cannot absorb the kind of punishment a dedicated combat vehicle would shrug off. Against opponents with serious anti-armor weapons, the crew is expected to rely on speed rather than armor.</p><p>The offensive suite is concentrated in a single turret mounting an LRM-5 launcher and a pair of light machine guns, tied into an Advanced Fire Control system for military-grade accuracy despite the vehicle's non-military classification. The LRM rack provides standoff deterrence against opportunistic attackers, while the machine guns handle unarmored infantry at close range. The fusion powerplant eliminates fuel logistics constraints but makes the Barouche significantly more expensive than comparable ICE-powered designs, and this cost premium is the vehicle's most frequently cited disadvantage. Very small or poorly funded units often cannot absorb it.</p>
 </capabilities>
+
+<overview>
+<p>The Barouche Military Transport is an 80-ton hover support vehicle produced by Peloran Motors of Marlette beginning in 3078. Occupying an unusual niche between unarmored civilian cargo carriers and dedicated military combat vehicles, the design qualifies under Federated Suns regulations as an armed support vehicle rather than a frontline military unit. Named after an ancient style of French carriage, the Barouche blends civilian manufacturing techniques with a modest defensive armament to produce a vehicle capable of protecting vital supply convoys without the prohibitive procurement costs of true military armor.</p><p>The result is a practical compromise for garrison commanders and logistics officers who need something more resilient than an unarmored flatbed but cannot justify the expense of dedicated combat transport assets. The design attracted buyers well beyond the Federated Suns, earning a solid reputation as a reliable and cost-effective solution to the persistent challenge of keeping frontline forces supplied through active combat zones.</p>
+</overview>
 
 <deployment>
 <p>The Barouche fills a rear-area logistics and cargo transport role in garrison and support formations across multiple factions. Its combination of speed and defensive armament makes it best suited for supply convoy operations, depot resupply runs, and camp-to-front transport assignments in low-to-medium-threat environments. The turret armament functions primarily as a deterrent against raiders and opportunistic light infantry rather than enabling direct engagement with military opponents. Larger commands that can absorb the vehicle's procurement cost find it a reliable and durable solution for sustained logistics operations in contested territory. Smaller units frequently balk at the price and opt for cheaper ICE-powered alternatives, accepting the logistical tradeoffs that come with them.</p>
@@ -185,4 +168,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RetroTech
+</source>
+
+<published>
+XTR:RetroTech
+</published>
+
+<tonnage>
+80.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

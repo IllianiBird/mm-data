@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e37a-766f-afae-4be2b89aeb0e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ PAT-008
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -124,32 +124,13 @@ ISAntiMissileSystem
 ISERPPC
 </Turret Equipment>
 
-<slotless_equipment>
-ISBPodAmmo
-ISBPodAmmo
-ISBPodAmmo
-</slotless_equipment>
-
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-95.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 14:55:21
-<overview>
-<p>The Puma Assault Tank was developed during the twenty-seventh century at the direction of the Star League Defense Force's Regular Armored Command. The SLDF sought to challenge the growing perception that conventional armor had been made obsolete by the rise of the BattleMech as the dominant weapon of war. Commissioned from Pandora 'Mech Works, whose engineers had extensive BattleMech experience but no prior combat vehicle production history, the Puma was built around the philosophy that a well-armed tracked vehicle could hold its own on the modern battlefield. Its overall configuration draws from Age of War-era tank designs, reflecting the Regular Armored Command's conviction that the fundamental concept of heavily armed armor remained sound. The Puma eventually became one of the most enduring armored vehicles to emerge from the Star League, serving in combat across multiple centuries and under several different masters.</p>
-</overview>
-
 <capabilities>
 <p>The Puma's offensive capability centers on a Donal PPC mounted in the turret, providing direct-fire punch at ranges few vehicles can match. A Holly LRM-20 on each flank gives the tank the ability to hammer targets at extreme range, with twelve total reloads divided between the two launchers. A pair of Krieger medium lasers and a forward-mounted Holly SRM-4 handle shorter-range threats, while a Krieger small laser and a Skylight Model 5 flamer at the rear offer minimal protection against infantry and flanking vehicles.</p><p>Eleven and a half tons of AmberStar Weave Standard armor provides workable protection for a vehicle of its class, though the tank's steep armor angles create shot deflection problems that engineers never fully resolved. The Pitban 285 fusion engine delivers a cruising speed adequate for a support vehicle, but the Puma lacks jump capability and performs poorly in close terrain where its long-range weapons lose effectiveness. The large number of subcontractors involved in production also makes spare parts difficult to source in the field. In open terrain, however, coordinated Puma lances produce overlapping fire zones that can suppress almost any opposition, making the tank a formidable contributor to armored assaults and static defense lines alike.</p>
 </capabilities>
+
+<overview>
+<p>The Puma Assault Tank was developed during the twenty-seventh century at the direction of the Star League Defense Force's Regular Armored Command. The SLDF sought to challenge the growing perception that conventional armor had been made obsolete by the rise of the BattleMech as the dominant weapon of war. Commissioned from Pandora 'Mech Works, whose engineers had extensive BattleMech experience but no prior combat vehicle production history, the Puma was built around the philosophy that a well-armed tracked vehicle could hold its own on the modern battlefield. Its overall configuration draws from Age of War-era tank designs, reflecting the Regular Armored Command's conviction that the fundamental concept of heavily armed armor remained sound. The Puma eventually became one of the most enduring armored vehicles to emerge from the Star League, serving in combat across multiple centuries and under several different masters.</p>
+</overview>
 
 <deployment>
 <p>The PAT-008 is a rare command variant produced in 3069 for senior Word of Blake Protectorate officers who required both survivability and direct combat capability in the field. An extended-range particle cannon linked to a dedicated targeting computer provides highly accurate long-range fire, backed by three Artemis-guided multi-missile launchers for sustained saturation fire. Six anti-missile systems and three B-Pods ring the hull to counter missiles and battle armor threats, while a Guardian ECM suite denies electronic support to nearby enemies. Heavy ferro-fibrous armor matches the protection level of the PAT-007. Produced in limited numbers and deployed exclusively to high-value command elements, the PAT-008 was rarely found in standard line formations. Post-Jihad, the design continued in production at Pandora 'Mech Works under Republic of the Sphere oversight, serving as a capable command vehicle for forces inheriting the Blakist industrial base on Terra.</p>
@@ -182,4 +163,16 @@ ARMOR:Unknown
 COMMUNICATIONS:400E
 TARGETING:EE-4
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+95.0
+</tonnage>
 

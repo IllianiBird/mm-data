@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8df-7489-87be-783213e374a7
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Tracked Quad
 <year>
 2469
 </year>
-
-<originalBuildYear>
-2469
-</originalBuildYear>
 
 <type>
 IS Level 5
@@ -116,24 +116,6 @@ HHSearchlight
 1
 </engine_tech_rating>
 
-
-<source>
-AToW Companion
-</source>
-
-<tonnage>
-2.263
-</tonnage>
-
-<fuel>
-0.049
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-12 17:26:07
 <overview>
 <p>Small, open, tracked cargo vehicles have been a mainstay of everyday military logistics since the invention of the combustion engine. They are capable of carrying respectable cargo, pulling small trailers, assisting with salvage operations, providing support on airstrips, and are truly irreplaceable in their versatility. The Tracked Quad represents this humble but essential class of utility vehicle.</p>
 </overview>
@@ -161,4 +143,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+AToW Companion
+</source>
+
+<tonnage>
+2.263
+</tonnage>
+
+<fuel>
+0.049
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

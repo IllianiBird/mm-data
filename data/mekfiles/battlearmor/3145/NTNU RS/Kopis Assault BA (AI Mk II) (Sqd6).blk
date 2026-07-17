@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a6e7-7c98-8d19-9580db808ebe
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kopis Assault Battle Armor
 <year>
 3090
 </year>
-
-<originalBuildYear>
-3090
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -96,42 +96,14 @@ IS BA Advanced:RA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kopis is an assault-class battle armor suit developed by StarCorps Industries for the Free Worlds League. Entering service in 3077 during the final years of the Jihad, the suit was designed as a heavy urban combatant capable of sustained engagements without the ammunition constraints common to missile-armed assault suits. Built at StarCorps' Emris IV facility, the Kopis earned the nickname "The Dark Alley" for its lethality in confined urban terrain, where its heavy armament and thick armor protection more than compensated for limited ground speed. The design became a mainstay of Free Worlds League and Oriente Province battle armor formations.</p>
-</overview>
 
 <capabilities>
 <p>Introduced as a replacement for the original Anti-Infantry configuration, the Mk II takes a fundamentally different approach to the anti-personnel mission. Two heavy grenade launchers and two heavy recoilless rifles replace the energy weapons of earlier models, giving troopers a ballistic-heavy loadout capable of suppressing infantry positions at range. Improved sensors enhance target acquisition, allowing troopers to identify threats at greater distances. The twin heavy battle claws are retained for melee engagements.</p><p>This configuration trades the energy weapon endurance of the standard Kopis for greater burst damage potential, though ammunition constraints limit sustained engagements. The heavier ballistic armament makes the Mk II more effective against light vehicles and hardened positions than the laser-armed standard model, while the improved sensors partially offset the Kopis's slow ground speed by giving troopers earlier warning of approaching threats.</p>
 </capabilities>
+
+<overview>
+<p>The Kopis is an assault-class battle armor suit developed by StarCorps Industries for the Free Worlds League. Entering service in 3077 during the final years of the Jihad, the suit was designed as a heavy urban combatant capable of sustained engagements without the ammunition constraints common to missile-armed assault suits. Built at StarCorps' Emris IV facility, the Kopis earned the nickname "The Dark Alley" for its lethality in confined urban terrain, where its heavy armament and thick armor protection more than compensated for limited ground speed. The design became a mainstay of Free Worlds League and Oriente Province battle armor formations.</p>
+</overview>
 
 <deployment>
 <p>Republic Armed Forces units organized Mk II Kopis suits into six-trooper Level I formations, continuing the ComStar-derived organizational model. The improved sensors on the Mk II enhanced the effectiveness of these larger formations by giving more troopers access to better battlefield awareness, allowing Level I commanders to coordinate suppressive fire across wider engagement zones.</p>
@@ -164,4 +136,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<published>
+RS:3145-NTNU
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

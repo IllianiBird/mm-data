@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b65a-7a6e-a45c-059f7647a184
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,21 +36,9 @@ Eagle Corps Eyrie Defense Force
 3608
 </mul id:>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
 <year>
 2600
 </year>
-
-<originalBuildYear>
-2600
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -66,6 +58,18 @@ Spacesuit, Combat
 
 <Field Guns Equipment>
 </Field Guns Equipment>
+
+<overview>
+<p>The Eyrie Defense Force guards the most sensitive intelligence facility in Free Worlds League space: the Eagle Corps headquarters, a hidden bunker beneath a dead volcano on Wendigo, the airless moon of Atreus. The Eagle Corps served as SAFE's special-forces branch, and its protectors are drawn from highly skilled, xenoplanetary-trained soldiers who spend most of their time sealed inside space suits. Operating in standard platoons of twenty-eight, the EDF carries gyroslug rifles paired with ER support lasers, giving each platoon a 360-meter engagement envelope and enough concentrated firepower to give pause to even BattleMech pilots. This firepower comes at a cost. The weight of their armament prohibits anti-BattleMech operations entirely, and the troops must devote significant effort to redeployment between positions rather than engaging on the move. After the dissolution of the Free Worlds League, the Marik-Stewart Commonwealth retained the Eyrie and its defenders, though SAFE itself splintered into competing factions across the successor states.</p>
+</overview>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
 
 <squad_size>
 7
@@ -94,9 +98,4 @@ true
 <spacesuit>
 true
 </spacesuit>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Eyrie Defense Force guards the most sensitive intelligence facility in Free Worlds League space: the Eagle Corps headquarters, a hidden bunker beneath a dead volcano on Wendigo, the airless moon of Atreus. The Eagle Corps served as SAFE's special-forces branch, and its protectors are drawn from highly skilled, xenoplanetary-trained soldiers who spend most of their time sealed inside space suits. Operating in standard platoons of twenty-eight, the EDF carries gyroslug rifles paired with ER support lasers, giving each platoon a 360-meter engagement envelope and enough concentrated firepower to give pause to even BattleMech pilots. This firepower comes at a cost. The weight of their armament prohibits anti-BattleMech operations entirely, and the troops must devote significant effort to redeployment between positions rather than engaging on the move. After the dissolution of the Free Worlds League, the Marik-Stewart Commonwealth retained the Eyrie and its defenders, though SAFE itself splintered into competing factions across the successor states.</p>
-</overview>
 

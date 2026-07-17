@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e98d-7092-b323-c5e59f24516b
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Demolisher Heavy Tank
 <year>
 3053
 </year>
-
-<originalBuildYear>
-3053
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -106,33 +106,13 @@ Medium Laser
 Medium Laser
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG25
-</source>
-
-<published>
-RG25,RSFP:Battlefield
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Demolisher has been Aldis Industries' flagship product since its introduction in 2803. Designed during the First Succession War to provide 'Mech-equivalent firepower to worlds that could not afford or sustain BattleMech forces, the Demolisher earned its brutal nickname (the 'Mech Slayer) through centuries of battlefield service. Built around twin massive autocannons, the tank offers straightforward lethality that has proven resilient to the march of technology, remaining a respected presence on battlefields across the Inner Sphere long after many more sophisticated designs faded from service. Aldis Industries has maintained production at their Betelgeuse and Terra facilities across multiple political eras, and licensed production through New Samarkand Metals and General Motors has extended the Demolisher's reach into the Draconis Combine and the Federated Suns. Few vehicles have survived four centuries of active production with such minimal philosophical change, a sign of the soundness of the original design and the enduring appeal of concentrated autocannon firepower.</p>
-</overview>
-
 <capabilities>
 <p>The Demolisher is built around a single tactical purpose: delivering the maximum possible autocannon damage at short range. Its twin 185mm ChemJet Gun Autocannon/20s can strip armor from assault 'Mechs and destroy lighter vehicles in a single salvo. The weapons use a popular propellant chemistry that combines two compounds to fire massive shells, and the current Mk. II production model addresses an early thermal management problem by channeling superheated exhaust gases out through the barrels. Crews of the original Mk. I variant were required to wear special coolant suits during sustained fire, a discomfort the modern design eliminates. The tanks carry a healthy supply of ammunition, though sustaining a long engagement remains a concern when both cannons fire at maximum rate.</p><p>The Demolisher's greatest tactical limitation is its lack of secondary weapons. A commander who exhausts the autocannon supply or faces enemy infantry has no fallback. This has led some crews to strip armor and install small defensive weapons as an informal field modification. The vehicle's tracked suspension provides stability for accurate fire but limits cross-country mobility. It remains most effective in urban environments and prepared defensive positions where its limited speed matters least and its firepower counts most.</p>
 </capabilities>
+
+<overview>
+<p>The Demolisher has been Aldis Industries' flagship product since its introduction in 2803. Designed during the First Succession War to provide 'Mech-equivalent firepower to worlds that could not afford or sustain BattleMech forces, the Demolisher earned its brutal nickname (the 'Mech Slayer) through centuries of battlefield service. Built around twin massive autocannons, the tank offers straightforward lethality that has proven resilient to the march of technology, remaining a respected presence on battlefields across the Inner Sphere long after many more sophisticated designs faded from service. Aldis Industries has maintained production at their Betelgeuse and Terra facilities across multiple political eras, and licensed production through New Samarkand Metals and General Motors has extended the Demolisher's reach into the Draconis Combine and the Federated Suns. Few vehicles have survived four centuries of active production with such minimal philosophical change, a sign of the soundness of the original design and the enduring appeal of concentrated autocannon firepower.</p>
+</overview>
 
 <deployment>
 <p>Appearing in 3053, this variant addresses two Demolisher limitations simultaneously. Replacing the autocannons with twin Gauss rifles dramatically extends effective engagement range and eliminates the heat complications of the propellant-driven originals. A pair of medium lasers provides close-range backup when Gauss ammunition runs short. The Gauss variant is most effective in open terrain where the original's short range was a meaningful handicap.</p>
@@ -165,4 +145,16 @@ ARMOR:Durandal 160 Standard
 COMMUNICATIONS:Omicron 5000
 TARGETING:Omicron VII
 </systemModels>
+
+<source>
+RG25
+</source>
+
+<published>
+RG25,RSFP:Battlefield
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

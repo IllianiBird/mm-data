@@ -20,7 +20,7 @@ name: Fidelis
 # Pinned explicitly so Faction2.getRankSystem() does not iterate fallBackFactions; CLAN tag
 # factions all use the shared CLAN rank table.
 rankSystem: CLAN
-sucsCodes: []  # no SUCS equivalent
+sucsCodes: [ ]  # no SUCS equivalent
 capital: Wayside
 capitalChanges:
   3078: New Earth
@@ -62,3 +62,5 @@ factionLeaders:
     gender: "MALE"
     startYear: 3151
     endYear: 3156
+usesMercenaries:
+  2500: false

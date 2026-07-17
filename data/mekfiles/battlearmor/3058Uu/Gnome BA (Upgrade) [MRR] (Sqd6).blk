@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a257-7865-937f-87f871b68a60
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gnome Battle Armor
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -92,40 +92,15 @@ BAHeavyBattleClaw:LA
 
 <slotless_equipment>
 BAJumpJet
-BACL Ammo LRM-2:Shots1#
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-14
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Gnome was developed by Clan Hell's Horses as the first Clan-manufactured heavy battle armor design. Introduced in 3056, the suit was created in response to growing Inner Sphere battle armor capabilities that threatened Clan supremacy in armored infantry warfare. Classified as a heavy-weight assault platform, the Gnome combined substantial armor protection with jump capability and fixed weaponry, offering a heavier alternative to the ubiquitous Elemental without sacrificing all mobility. Named after the earth spirit of classical mythology in keeping with the Clan tradition for second-generation battlesuits, the Gnome quickly established itself as a cornerstone of Hell's Horses infantry doctrine and saw adoption by multiple Clans.</p>
-</overview>
 
 <capabilities>
 <p>The MRR configuration mounts a medium recoilless rifle as its primary ranged weapon, retaining the heavy battle claw and Advanced SRM 2 launcher. A one-shot LRM 2 provides a single long-range volley to supplement the rifle's moderate engagement range. The detachable missile pack from the Upgrade chassis is carried over.</p><p>The recoilless rifle offers a balance between the Bearhunter autocannon's raw close-range power and the base model's ER small laser range. The one-shot LRM capability gives troopers a limited ability to engage targets at distances normally beyond a Gnome's reach, though the single-use nature means this option is best reserved for opening salvos or priority targets. The overall package creates a more flexible combatant than either the Bearhunter or Pulse Laser configurations, though it lacks the sustained firepower of either specialist variant.</p>
 </capabilities>
+
+<overview>
+<p>The Gnome was developed by Clan Hell's Horses as the first Clan-manufactured heavy battle armor design. Introduced in 3056, the suit was created in response to growing Inner Sphere battle armor capabilities that threatened Clan supremacy in armored infantry warfare. Classified as a heavy-weight assault platform, the Gnome combined substantial armor protection with jump capability and fixed weaponry, offering a heavier alternative to the ubiquitous Elemental without sacrificing all mobility. Named after the earth spirit of classical mythology in keeping with the Clan tradition for second-generation battlesuits, the Gnome quickly established itself as a cornerstone of Hell's Horses infantry doctrine and saw adoption by multiple Clans.</p>
+</overview>
 
 <deployment>
 <p>ComStar and Word of Blake Level I units operating the MRR variant used the six-trooper formation to maximize the impact of their opening LRM volleys. Six simultaneous long-range missiles provided a meaningful first salvo before the unit closed to recoilless rifle range.</p>
@@ -160,4 +135,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+14
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

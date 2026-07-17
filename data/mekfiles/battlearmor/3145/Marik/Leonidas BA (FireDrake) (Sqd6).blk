@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a678-7237-9e52-d48eb056dd40
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Leonidas Battle Armor
 <year>
 3096
 </year>
-
-<originalBuildYear>
-3096
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -93,38 +93,14 @@ BAISAngelECMSuite:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:FWL
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Leonidas is a medium Inner Sphere battle armor suit produced by Etna Foundries on Oriente for the Duchy of Oriente's armed forces. Introduced in 3096, the design filled a gap in the Duchy's reconnaissance and infiltration capabilities caused by dwindling stocks of the Achileus stealth suit. The Leonidas prioritizes concealment and electronic warfare over raw speed or firepower, making it well suited for ambush operations, artillery spotting, and counterinsurgency patrol. A modular weapon mount allows rapid reconfiguration across multiple mission roles, from direct engagement to battlefield surveillance. The suit earned a strong reputation for tactical flexibility among operators across multiple factions.</p>
-</overview>
 
 <capabilities>
 <p>The Firedrake configuration equips a Firedrake Support Needler with thirty rounds of ammunition in the modular weapon slot. The needler fires clusters of flechettes effective against infantry and lightly armored targets, providing suppressive capability in counterinsurgency and urban patrol scenarios. Standard Stealth armor and the Angel ECM Suite enable troopers to approach engagement zones undetected, while the Heavy Battle Claw on the left arm allows for close-quarters work against structures and light vehicles.</p><p>Ground movement is limited to approximately thirty-two kilometers per hour with no jump capability, restricting the suit to terrain where stealth and cover can offset its modest speed. The needler's ammunition supply is more limited than some alternative loadouts, requiring troopers to exercise fire discipline during extended operations. The anti-personnel weapon mount adds secondary firepower against unarmored threats at close range.</p>
 </capabilities>
+
+<overview>
+<p>The Leonidas is a medium Inner Sphere battle armor suit produced by Etna Foundries on Oriente for the Duchy of Oriente's armed forces. Introduced in 3096, the design filled a gap in the Duchy's reconnaissance and infiltration capabilities caused by dwindling stocks of the Achileus stealth suit. The Leonidas prioritizes concealment and electronic warfare over raw speed or firepower, making it well suited for ambush operations, artillery spotting, and counterinsurgency patrol. A modular weapon mount allows rapid reconfiguration across multiple mission roles, from direct engagement to battlefield surveillance. The suit earned a strong reputation for tactical flexibility among operators across multiple factions.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations using the Firedrake configuration served in security and policing roles within organizations structured around ComStar military doctrine. The larger formation size provided greater coverage during sweep operations, with troopers able to establish blocking positions across wider frontages. The suppressive capability of the needler made these Level I units effective in crowd control and low-intensity conflict scenarios.</p>
@@ -157,4 +133,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:FWL
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

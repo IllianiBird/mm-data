@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0a2-77eb-9c83-fcae4d4e35af
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Centaur
 <year>
 3063
 </year>
-
-<originalBuildYear>
-3063
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -122,34 +122,13 @@ CLSRM2
 CLHeavySmallLaser
 </Main Gun Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-5.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Centaur is a five-ton first-generation ProtoMech developed by Clan Smoke Jaguar scientists at the Abysmal Manufacturing Complex on Huntress as part of the original ProtoMech program initiated in the late 3050s. Designed as a versatile light fire support platform capable of engaging targets across multiple range bands, the Centaur proved itself one of the most adaptable designs to emerge from the Jaguar program. Its combination of missile and energy armament in a compact, fast-moving frame set it apart from more specialized contemporaries such as the Harpy or Minotaur. By the mid-3060s, the Centaur was in active production for at least five different Clans, proof of the soundness of its underlying design and its value as a flexible screening element in Clan combined-arms formations.</p>
-</overview>
-
 <capabilities>
 <p>The Centaur’s defining characteristic is the breadth of its engagement envelope. Its base configuration mounts an LRM-3 launcher for long-range harassment, an SRM-2 rack for close-range punch, and an ER Micro Laser in the main gun mount for point defense, giving a Point of Centaurs the ability to threaten targets from beyond five hundred meters down to knife-fighting range. The forty-five-rated fusion engine drives the five-ton frame to a respectable cruising speed of sixty-five kilometers per hour with a flank speed approaching one hundred, allowing it to keep pace with medium BattleMechs and outrun most heavy designs.</p><p>These advantages come at a cost. The Centaur carries only eight LRM salvos and ten SRM reloads in its base configuration, giving a pilot roughly two minutes of sustained missile fire before being reduced to the ER Micro Laser alone. Armor protection is modest at best, with twenty points distributed across the frame; a single large laser hit to the center torso will breach the internal structure. Without jump jets, the Centaur is also vulnerable to being cornered in broken terrain. Commanders typically deploy Centaur Points in fast-moving screening roles where their speed and multi-range firepower can be leveraged without exposing them to the sustained fire that would quickly overwhelm their limited protection.</p>
 </capabilities>
+
+<overview>
+<p>The Centaur is a five-ton first-generation ProtoMech developed by Clan Smoke Jaguar scientists at the Abysmal Manufacturing Complex on Huntress as part of the original ProtoMech program initiated in the late 3050s. Designed as a versatile light fire support platform capable of engaging targets across multiple range bands, the Centaur proved itself one of the most adaptable designs to emerge from the Jaguar program. Its combination of missile and energy armament in a compact, fast-moving frame set it apart from more specialized contemporaries such as the Harpy or Minotaur. By the mid-3060s, the Centaur was in active production for at least five different Clans, proof of the soundness of its underlying design and its value as a flexible screening element in Clan combined-arms formations.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3063, this variant replaces the LRM-3 with a Heavy Small Laser while retaining the SRM-2 launcher, trading long-range capability for a devastating close-range energy weapon that requires no ammunition. The Heavy Small Laser generates significant heat for a ProtoMech-scale weapon but delivers damage equivalent to a standard medium laser at short range, making a Point of this variant extremely dangerous in close quarters. Armor protection is marginally improved over the base model with twenty-one points of coverage. Production was established at the Csesztreg Industriplex Epsilon under Clan Wolf and at Kindraa Payne-Beyl-Grant’s facility on Shadow, the latter representing one of the few ProtoMech production lines operated by Clan Fire Mandrill before their destruction during the Wars of Reaving.</p>
@@ -178,4 +157,16 @@ TARGETING:Unknown
 <systemModels>
 ENGINE:45 Fusion
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+5.0
+</tonnage>
 

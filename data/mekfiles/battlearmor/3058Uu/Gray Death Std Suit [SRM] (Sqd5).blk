@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a27a-75fd-a35b-d04ba2b28fb9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Standard Suit
 <year>
 3052
 </year>
-
-<originalBuildYear>
-3052
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -87,42 +87,14 @@ BABattleClaw:LA
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Standard Suit is a medium battle armor design created by Gray Death Legion technicians alongside the Scout Suit. Derived from NAIS-supplied Inner Sphere Standard prototypes, the Standard retained the original design's combat focus while incorporating improvements suggested by the Legion's experienced infantry troops. Fielded in 3052, the suit offered a flexible combination of solid protection, modular firepower through interchangeable weapon mounts, and proven reliability that made it a mainstay of Lyran battle armor formations for decades after the Legion's dissolution.</p>
-</overview>
 
 <capabilities>
 <p>The SRM configuration mounts a single-tube SRM Launcher with a four-missile magazine, giving the Standard Suit its heaviest anti-armor punch. The missile's warhead can threaten light vehicles and damage BattleMech components at ranges beyond the Battle Claw's reach. The Anti-Personnel Weapon Mount, Improved Sensors, and 450 kilograms of standard armor remain standard across the platform.</p><p>Limited ammunition is the configuration's defining constraint. Four missiles must be carefully allocated across an engagement, and resupply in the field is impractical for battle armor. Once expended, the trooper falls back on the Battle Claw and anti-personnel weapon for offensive capability. Commanders typically reserve SRM-equipped troopers for specific hardened targets rather than general infantry support.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Standard Suit is a medium battle armor design created by Gray Death Legion technicians alongside the Scout Suit. Derived from NAIS-supplied Inner Sphere Standard prototypes, the Standard retained the original design's combat focus while incorporating improvements suggested by the Legion's experienced infantry troops. Fielded in 3052, the suit offered a flexible combination of solid protection, modular firepower through interchangeable weapon mounts, and proven reliability that made it a mainstay of Lyran battle armor formations for decades after the Legion's dissolution.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper Clan Points carrying the missile configuration brought respectable anti-armor capability to second-line formations that lacked dedicated heavy battle armor. The concentrated salvo from a full Point could threaten light OmniMechs and armored vehicles that lighter weapons could not meaningfully damage. Clan commanders treated these Points as a supplementary fire support element, committing them against specific hardened targets rather than general infantry engagements.</p>
@@ -157,4 +129,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

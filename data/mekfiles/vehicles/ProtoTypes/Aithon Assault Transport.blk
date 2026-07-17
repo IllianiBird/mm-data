@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e94c-7446-a472-0d2fc0e6373b
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Aithon Assault Transport
 <year>
 3084
 </year>
-
-<originalBuildYear>
-3084
-</originalBuildYear>
 
 <type>
 Clan Level 4
@@ -117,26 +117,13 @@ CLMediumPulseLaser
 CLMediumPulseLaser
 </Turret Equipment>
 
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-03-01 12:28:32
-<overview>
-<p>The Aithon Assault Transport is a hundred-ton tracked assault vehicle developed by Swedenborg Heavy Industries on Kirchbach for Clan Hell's Horses, entering service in 3084. Conceived as a dedicated heavy infantry transport with significant direct-fire capability, the Aithon was designed to replace several aging vehicle platforms that the Horses could no longer source from the Clan Homeworlds. Its combination of heavy protection, substantial troop-carrying capacity, and devastating artillery firepower has made it a valued asset within the Clan's combined-arms formations. The vehicle fills a critical niche in the Hell's Horses' combat doctrine, where conventional vehicles and infantry operate alongside BattleMechs and Elementals as integral components of assault operations rather than mere support elements.</p>
-</overview>
-
 <capabilities>
 <p>The Aithon's 300-rated extralight fusion engine delivers a modest top speed of fifty-four kilometers per hour, sacrificing raw speed for the weight savings needed to mount heavy weapons and thick armor on the hundred-ton chassis. The engine's nearly unlimited operating range ensures the transport can sustain extended offensive operations without concern for fuel logistics. A ten-ton infantry bay can accommodate a full Point of standard Elementals, two Points of lighter battle armor, or an equivalent mass of conventional troops and equipment.</p><p>Protection is among the Aithon's greatest strengths. Twelve and a half tons of Composite Alpha-V1 ferro-lamellor armor effectively negates the damage potential of lighter weapons and cluster munitions while reducing the impact of heavier strikes by up to twenty percent. An armored motive system adds further resilience, shielding the tracked propulsion from disabling hits that would otherwise leave the vehicle immobilized.</p><p>The forward-mounted Model LT-Max Long Tom artillery cannon serves as the Aithon's primary weapon, carrying three tons of CASE-protected ammunition for sustained bombardment of bunkers, fortifications, and prepared positions. Four turret-mounted Series 14a medium pulse lasers provide accurate close-in defense, covering the vehicle during the vulnerable process of loading and unloading its infantry complement.</p>
 </capabilities>
+
+<overview>
+<p>The Aithon Assault Transport is a hundred-ton tracked assault vehicle developed by Swedenborg Heavy Industries on Kirchbach for Clan Hell's Horses, entering service in 3084. Conceived as a dedicated heavy infantry transport with significant direct-fire capability, the Aithon was designed to replace several aging vehicle platforms that the Horses could no longer source from the Clan Homeworlds. Its combination of heavy protection, substantial troop-carrying capacity, and devastating artillery firepower has made it a valued asset within the Clan's combined-arms formations. The vehicle fills a critical niche in the Hell's Horses' combat doctrine, where conventional vehicles and infantry operate alongside BattleMechs and Elementals as integral components of assault operations rather than mere support elements.</p>
+</overview>
 
 <deployment>
 <p>Given its limited ground speed and assault transport role, the Aithon is not a front-line combat vehicle in the traditional sense. Field commanders instead deploy it wherever the Hell's Horses are determined to assault a position or break through entrenched resistance. The presence of an Aithon in a Horses formation does not necessarily indicate an imminent infantry assault, however. Some Periphery operations have seen these vehicles repurposed as salvage transports or prisoner wagons, their heavy armor and firepower first employed to overwhelm the opposition before their cargo bays are put to alternative use.</p><p>To date, all Aithons manufactured at Swedenborg Heavy Industries have been distributed among the Hell's Horses' various assault Clusters, where their limited mobility is offset by the near-constant presence of supporting BattleMechs and vehicles.</p>
@@ -169,4 +156,16 @@ ARMOR:Composite Alpha-V1 Ferro-Lamellor
 COMMUNICATIONS:Build 1685 Tacticom
 TARGETING:Series VI Integrated TTS
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+100.0
+</tonnage>
 

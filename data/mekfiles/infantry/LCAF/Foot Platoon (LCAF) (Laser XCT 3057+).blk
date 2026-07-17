@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bda5-760b-8fb0-3ae9c36bb542
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Foot Platoon (LCAF)
 <year>
 3057
 </year>
-
-<originalBuildYear>
-3057
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Environment Suit, Hostile
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>The LCAF fields conventional infantry that benefit from the Commonwealth's deep industrial base, equipping even garrison formations with reliable, well-maintained weapons and transport. Foot infantry platoons form the backbone of the LCAF's garrison forces, deploying on foot to hold positions, patrol perimeters, and secure urban areas where vehicles cannot easily operate. Equipped with Maxell PL-10 laser rifles and semi-portable support lasers, these platoons field an all-energy weapons loadout that eliminates ammunition dependency at the cost of increased power pack requirements. These Xenoplanetary Condition Troops carry specialized survival gear that allows them to fight in extreme temperatures, toxic atmospheres, or unusual gravity conditions where standard infantry cannot operate.</p>
+</overview>
 
 <notes>
 Intro date based on Maxell PL-10 laser rifle prototype date and LAAF faction date. Maxell PL-10 is standard laser rifle for LAAF/LCAF.
@@ -92,9 +94,4 @@ true
 <specialization>
 2048
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The LCAF fields conventional infantry that benefit from the Commonwealth's deep industrial base, equipping even garrison formations with reliable, well-maintained weapons and transport. Foot infantry platoons form the backbone of the LCAF's garrison forces, deploying on foot to hold positions, patrol perimeters, and secure urban areas where vehicles cannot easily operate. Equipped with Maxell PL-10 laser rifles and semi-portable support lasers, these platoons field an all-energy weapons loadout that eliminates ammunition dependency at the cost of increased power pack requirements. These Xenoplanetary Condition Troops carry specialized survival gear that allows them to fight in extreme temperatures, toxic atmospheres, or unusual gravity conditions where standard infantry cannot operate.</p>
-</overview>
 

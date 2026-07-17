@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e538-763c-8806-2e79b9828239
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Type 2
 <year>
 3075
 </year>
-
-<originalBuildYear>
-3075
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -108,26 +108,13 @@ ISVehicularMineDispenser
 ISPlasmaRifle
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 16:42:39
-<overview>
-<p>The Myrmidon Medium Tank entered production in 3060 as a New Earth Trading Company initiative to meet rising demand for affordable tracked firepower in an increasingly unstable Inner Sphere. Taking its name from legendary Greek warriors, the tank was designed from the outset as an accessible alternative to heavier, costlier BattleMech units. Drawing on the proven Manticore platform as a conceptual baseline but built around a more economical power plant, the Myrmidon delivers long-range firepower competitive with lighter BattleMechs at a fraction of the acquisition cost.</p><p>NETC marketed the design primarily to smaller state militias and independent commands unable to maintain full BattleMech forces, making the Myrmidon a fixture of Chaos March and periphery battlefields from the Civil War era into the thirty-second century.</p>
-</overview>
-
 <capabilities>
 <p>The Myrmidon is a 40-ton tracked medium tank built around a Nissan 200 fusion engine, yielding a road speed of 86 km/h and a cross-country pace of 54 km/h. That performance falls short of hover alternatives and lighter wheeled designs, but the tracked suspension delivers reliable mobility across a wide range of terrain conditions. The Myrmidon carries no jump capability.</p><p>Firepower centers on a single turret-mounted Parti-Kill Heavy Cannon, a particle projection cannon providing long-range striking power equivalent to the primary armament of many medium BattleMechs. A SureShot Mk VI SRM-6 rounds out the turret, adding close-range punch against infantry and lightly armored targets. The combined loadout allows engagement at multiple ranges, though the SRM system carries limited ammunition for sustained operations.</p><p>Protection comes from an ArcShield Maxi II standard armor suite. Coverage is adequate for a medium design but leaves the Myrmidon vulnerable to concentrated fire from heavier opponents. The fusion engine eliminates the catastrophic ammunition explosion risk present in combustion-powered vehicles, a selling point for smaller militaries with limited maintenance facilities. The reduced crew requirement compared to older medium tanks eases manpower demands, though it limits situational awareness during sustained combat.</p>
 </capabilities>
+
+<overview>
+<p>The Myrmidon Medium Tank entered production in 3060 as a New Earth Trading Company initiative to meet rising demand for affordable tracked firepower in an increasingly unstable Inner Sphere. Taking its name from legendary Greek warriors, the tank was designed from the outset as an accessible alternative to heavier, costlier BattleMech units. Drawing on the proven Manticore platform as a conceptual baseline but built around a more economical power plant, the Myrmidon delivers long-range firepower competitive with lighter BattleMechs at a fraction of the acquisition cost.</p><p>NETC marketed the design primarily to smaller state militias and independent commands unable to maintain full BattleMech forces, making the Myrmidon a fixture of Chaos March and periphery battlefields from the Civil War era into the thirty-second century.</p>
+</overview>
 
 <deployment>
 <p>The Type 2 is a Capellan Confederation field modification emerging from the Jihad. It replaces the particle projection cannon with a plasma rifle backed by three tons of ammunition, trades the SRM-6 for mine launchers on each sponson and the turret face, and substitutes a light fusion engine to accommodate the additional system weight. The result is a vehicle optimized for area denial and anti-infantry operations rather than direct-fire engagement. Distribution has been limited to Capellan state forces, and the configuration has not been formally adopted by any other faction.</p>
@@ -160,4 +147,16 @@ ARMOR:ArcShield Maxi II
 COMMUNICATIONS:O/P R Janxiir
 TARGETING:TargiTrack 717
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+40.0
+</tonnage>
 

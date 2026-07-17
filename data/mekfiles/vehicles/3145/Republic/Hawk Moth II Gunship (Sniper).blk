@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e861-7d6d-b743-b3a25027c917
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Hawk Moth II Gunship
 <year>
 3113
 </year>
-
-<originalBuildYear>
-3113
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -109,26 +109,13 @@ IS Ammo HVAC/2
 Hyper Velocity Auto Cannon/2
 </Turret Equipment>
 
-<source>
-TR:3145:RotS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 13:58:26
-<overview>
-<p>The Hawk Moth II Gunship entered service in 3112 as a joint venture between Michaelson Heavy Industries and Victory Conditions Industries, replacing the long-running original Hawk Moth in Michaelson's product line. Despite sharing a name, the two designs share little beyond speed. Where the original excelled as a long-range sniper, the Hawk Moth II is designed for close and intermediate engagement, acting as a harassment and interdiction platform within combined arms formations. Produced at facilities on Ruchbah, Terra, and Mizar, the design sold broadly to the Republic of the Sphere, Lyran Commonwealth, and mercenary markets throughout the Dark Age.</p>
-</overview>
-
 <capabilities>
 <p>The Hawk Moth II's defining characteristic is speed. A Michaelson 135 XL fusion engine drives the craft to over 183 km/h, making it one of the fastest combat VTOLs of the Dark Age era. This speed is paired with four tons of StarSlab/7 heavy ferro-fibrous armor, a significant improvement over the original Hawk Moth's minimal protection. The combination allows the Hawk Moth II to close with targets, absorb limited return fire, and disengage before threats can be fully brought to bear.</p><p>Armament consists of two Diverse Optics ER medium lasers in a chin turret and two Harpoon SRM-6 launchers in a forward-facing arrangement, with ten heat sinks managing the energy weapon load. The lasers provide reach beyond the SRM envelope, while the missiles deliver burst damage at close range. This gives crews flexibility across multiple engagement distances, though overall firepower remains modest for the design's size.</p><p>The Hawk Moth II's limitation follows directly from its design intent. It cannot replicate the extreme standoff range of its predecessor, and commanders who attempt to use it as a long-range sniper will find its armament underwhelming. Success demands aggressive use of its speed, short engagement windows, and disciplined withdrawal before opponents can concentrate fire.</p>
 </capabilities>
+
+<overview>
+<p>The Hawk Moth II Gunship entered service in 3112 as a joint venture between Michaelson Heavy Industries and Victory Conditions Industries, replacing the long-running original Hawk Moth in Michaelson's product line. Despite sharing a name, the two designs share little beyond speed. Where the original excelled as a long-range sniper, the Hawk Moth II is designed for close and intermediate engagement, acting as a harassment and interdiction platform within combined arms formations. Produced at facilities on Ruchbah, Terra, and Mizar, the design sold broadly to the Republic of the Sphere, Lyran Commonwealth, and mercenary markets throughout the Dark Age.</p>
+</overview>
 
 <deployment>
 <p>This variant replaces the standard armament with a single Class 2 Hyper-Velocity Autocannon carrying 30 rounds, paired with a VTOL jet booster capable of briefly pushing the craft to over 220 km/h for rapid repositioning or disengagement. Despite its theoretical utility, the variant is broadly considered unpopular among pilots. The HV autocannon's high visual signature undermines the vehicle's ability to approach undetected, and the light damage output makes the trade-off difficult to justify outside dedicated overwatch roles.</p>
@@ -161,4 +148,16 @@ ARMOR:StarSlab/7 Heavy Ferro-Fibrous
 COMMUNICATIONS:Supremesound
 TARGETING:D2j
 </systemModels>
+
+<source>
+TR:3145:RotS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

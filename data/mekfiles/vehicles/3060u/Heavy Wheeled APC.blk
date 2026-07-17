@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e516-76d8-817b-3c573286da75
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Heavy Wheeled APC
 <year>
 2470
 </year>
-
-<originalBuildYear>
-2470
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -101,30 +101,13 @@ Machine Gun
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Heavy Wheeled APC carries six tons of infantry -- sufficient for two full platoons of standard foot infantry or one platoon of motorized or jump troops -- on a twenty-ton wheeled chassis optimized for operations on improved surfaces. An internal combustion engine provides a maximum speed of approximately ninety-seven kilometers per hour, making this the fastest of the three Heavy APC configurations on roads and paved surfaces. Two front-mounted machine guns provide anti-infantry defense.</p><p>Fifty-six points of standard armor provide the same protection as the hover and tracked heavy variants, with the same front-heavy distribution and reduced rear coverage around the assault ramp. The wheeled drive system excels in urban and garrison environments where established road networks enable rapid transit between positions, though it struggles in rough terrain compared to the tracked variant. The lack of a turret restricts machine gun fire to the forward arc.</p>
 </capabilities>
+
+<overview>
+<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Heavy Wheeled APC serves primarily in garrison and urban defense formations, where established road networks support its wheeled drive system and the environment suits its forward-oriented weapons layout. The Lyran Commonwealth fields large numbers for operations along its extensive road networks, while planetary defense forces across the Inner Sphere favor the design for garrison duties in developed areas.</p>
@@ -155,4 +138,20 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

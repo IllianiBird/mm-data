@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a4d8-75d6-bd06-2c51a58bae22
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Trinity Medium Battle Armor
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -91,43 +91,13 @@ BABattleClaw:RA
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
 
-<slotless_equipment>
-BARL1 Ammo:Shots1#
-BARL1 Ammo:Shots1#
-BARL1 Ammo:Shots1#
-</slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-8
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Trinity is a family of three medium battle armor suits commissioned by the Capellan Confederation Armed Forces and funded jointly by the Trinity Alliance. Introduced in the mid-3060s, the program aimed to make powered infantry available beyond the elite formations that fielded the Fa Shih. The Capellan variant, designated the Ying Long, incorporates advanced camouflage technology derived from an outside source. The Taurian Asterion and Canopian Theseus share a more conventional protection scheme, differing primarily in cosmetic styling. All three designs emphasize ground mobility, close-quarters capability against heavier units, and a flexible modular weapon mount that allows field commanders to tailor loadouts to mission requirements.</p>
-</overview>
-
 <capabilities>
 <p>The Theseus rocket launcher variant pairs a light recoilless rifle with a single three-tube rocket launcher, creating a combined-arms loadout that balances sustained and burst fire capabilities. The light recoilless rifle provides a steady baseline of ballistic damage, while the rocket launcher delivers a one-shot salvo useful for opening engagements or finishing weakened targets. Standard armor protection and battle claws match the base Theseus configuration. Ground speed remains at approximately 30 kilometers per hour with no jump capability.</p><p>The added rocket launcher gives individual troopers a punch above their weight class during initial contact, but the single-use nature of the tubes leaves the suit reliant on its rifle once the rockets are expended. This configuration favors ambush tactics and defensive positions where the opening volley can be maximized.</p>
 </capabilities>
+
+<overview>
+<p>The Trinity is a family of three medium battle armor suits commissioned by the Capellan Confederation Armed Forces and funded jointly by the Trinity Alliance. Introduced in the mid-3060s, the program aimed to make powered infantry available beyond the elite formations that fielded the Fa Shih. The Capellan variant, designated the Ying Long, incorporates advanced camouflage technology derived from an outside source. The Taurian Asterion and Canopian Theseus share a more conventional protection scheme, differing primarily in cosmetic styling. All three designs emphasize ground mobility, close-quarters capability against heavier units, and a flexible modular weapon mount that allows field commanders to tailor loadouts to mission requirements.</p>
+</overview>
 
 <deployment>
 <p>Word of Blake formations deployed six-trooper Level I sections of the rocket Theseus during Jihad-era operations, leveraging the variant's opening-salvo firepower in coordinated infantry assaults. The larger section size allowed Blakist commanders to concentrate rocket fire from multiple troopers simultaneously, amplifying the variant's burst damage potential against hardened targets before transitioning to rifle fire for sustained combat.</p>
@@ -160,4 +130,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+8
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

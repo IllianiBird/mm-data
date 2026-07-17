@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a4c3-7d11-b368-ce8375d559ca
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ G14(Sqd4)
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -85,42 +85,14 @@ Mission Equipment Storage:Body:SIZE:210.0
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-16 21:37:26
-<overview>
-<p>ComStar developed the Tornado power armor (light) suit in the late twenty-ninth century as a covert operations platform for its intelligence service and special forces units. Derived from Star League-era Nighthawk technology preserved on Terra, the Tornado combined lightweight stealth protection with an adaptive concealment system in a package light enough for extended clandestine deployments. The suit gained a reputation as one of the most effective infiltration tools in the Inner Sphere, serving ComStar and later the Word of Blake across decades of covert operations. Multiple variants expanded the design beyond intelligence work into direct combat and logistics support roles.</p>
-</overview>
 
 <capabilities>
 <p>The G14 replaces both the camouflage system and weapon mount found on other Tornado variants with a 210-kilogram armored cargo bay designed for mission-specific equipment. Basic stealth armor provides the same ballistic and fragmentation protection as the G13 line, though the suit carries no integral or modular weapons. Two armored gloves allow operators to use standard infantry weapons and perform anti-BattleMech swarming attacks. The cargo capacity enables the G14 to carry ammunition, medical supplies, demolition charges, communications equipment, or other mission-critical materiel that would otherwise require separate logistics support. This makes the suit effective as a forward supply element, operating alongside armed G12 and G13 teams to extend their operational endurance. Ground mobility matches the foot-infantry pace common to all standard Tornado models.</p>
 </capabilities>
+
+<overview>
+<p>ComStar developed the Tornado power armor (light) suit in the late twenty-ninth century as a covert operations platform for its intelligence service and special forces units. Derived from Star League-era Nighthawk technology preserved on Terra, the Tornado combined lightweight stealth protection with an adaptive concealment system in a package light enough for extended clandestine deployments. The suit gained a reputation as one of the most effective infiltration tools in the Inner Sphere, serving ComStar and later the Word of Blake across decades of covert operations. Multiple variants expanded the design beyond intelligence work into direct combat and logistics support roles.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere four-trooper G14 squads served as forward logistics elements, carrying ammunition, medical supplies, and mission equipment alongside armed Tornado teams. The four-trooper squad offered sufficient cargo capacity to sustain a mixed Tornado formation through extended operations without conventional supply vehicles.</p>
@@ -153,4 +125,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

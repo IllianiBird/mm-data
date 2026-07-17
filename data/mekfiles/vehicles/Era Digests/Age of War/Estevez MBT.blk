@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8e5-7b3c-add5-107849771830
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Estevez MBT
 <year>
 2310
 </year>
-
-<originalBuildYear>
-2310
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -118,11 +118,6 @@ Machine Gun
 Machine Gun
 </Turret Equipment>
 
-<slotless_equipment>
-IS Ammo VGL
-IS Ammo VGL
-</slotless_equipment>
-
 <structural_tech_rating>
 2
 </structural_tech_rating>
@@ -131,34 +126,13 @@ IS Ammo VGL
 2
 </engine_tech_rating>
 
-<source>
-ED:AoW
-</source>
-
-<published>
-ED:AoW
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-<fuel>
-2.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-05 17:18:25
-<overview>
-<p>The Estevez was an eighty-ton tracked main battle tank produced by Novais Motors on New Avalon, named for a popular local militia officer. Introduced in 2310, it was one of the earliest effective armored fighting vehicles developed outside the Terran Hegemony. The design predated the formal founding of the Federated Suns by several years, serving the disparate political entities on New Avalon that would eventually coalesce into the young nation. Its combination of thick armor, substantial firepower, and imposing physical presence made the Estevez the dominant main battle tank in the region throughout the twenty-fourth century. The vehicle's sheer size and power earned it a fearsome reputation among its contemporaries, as lighter armed opponents often chose to retreat rather than engage the massive tank head-on.</p>
-</overview>
-
 <capabilities>
 <p>Powered by the NM/750 Combat Diesel engine, the Estevez could reach a maximum speed of fifty-four kilometers per hour, competitive with many lighter tanks of its era despite the vehicle's eighty-ton mass. The tank's primary armament consisted of a turret-mounted Avalon Slugger Heavy Rifle, a large-caliber weapon that delivered punishing hits against contemporary targets. Seven tons of stored ammunition gave the Estevez exceptional battlefield endurance, though this massive magazine also represented a significant vulnerability, as a single penetrating hit risked detonating the entire stockpile. Two coaxial PC-50 machine guns and a pair of vehicular grenade launchers provided secondary defense against infantry threats.</p><p>Ten and a half tons of Nova-IV Hyper-Composite with Diamond Flex armor gave the Estevez robust protection for its time, rated at BAR 8 across all facings. The Valiant Echo Mk. II communications system and Thermoscan Optics fire control system were adequate for the early twenty-fourth century but grew increasingly outmatched as military technology advanced. The vehicle required a crew of nine, including two officers, two enlisted crew, and five gunners, a substantial manpower requirement that complicated logistics. The design's fuel-thirsty diesel engine further strained supply lines, limiting operational range relative to more efficient contemporaries.</p>
 </capabilities>
+
+<overview>
+<p>The Estevez was an eighty-ton tracked main battle tank produced by Novais Motors on New Avalon, named for a popular local militia officer. Introduced in 2310, it was one of the earliest effective armored fighting vehicles developed outside the Terran Hegemony. The design predated the formal founding of the Federated Suns by several years, serving the disparate political entities on New Avalon that would eventually coalesce into the young nation. Its combination of thick armor, substantial firepower, and imposing physical presence made the Estevez the dominant main battle tank in the region throughout the twenty-fourth century. The vehicle's sheer size and power earned it a fearsome reputation among its contemporaries, as lighter armed opponents often chose to retreat rather than engage the massive tank head-on.</p>
+</overview>
 
 <deployment>
 <p>The standard Estevez served as the primary main battle tank of the Federated Suns throughout the twenty-fourth century. Typically deployed along border regions and in garrison postings, the base model was optimized for direct engagement of enemy armored vehicles and fixed fortifications. Its deep ammunition reserves suited it to sustained operations far from established supply lines, and the vehicle's imposing profile alone was often sufficient to deter lightly armed opponents from pressing an engagement.</p>
@@ -193,4 +167,24 @@ JUMP_JET:N/A
 COMMUNICATIONS:Echo Mk. II
 TARGETING:Optics FCS
 </systemModels>
+
+<source>
+ED:AoW
+</source>
+
+<published>
+ED:AoW
+</published>
+
+<tonnage>
+80.0
+</tonnage>
+
+<fuel>
+2.5
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

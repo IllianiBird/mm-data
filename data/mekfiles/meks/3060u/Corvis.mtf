@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-cbbb-7ede-9b8c-577ded5c5c4f
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Corvis
 model:
 mul id:700
@@ -171,7 +172,6 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Corvis is a 40-ton medium BattleMech introduced in the mid-twenty-ninth century by Clan Hell's Horses at the Niles Industriplex Alpha facility. The design drew on the Star League Mercury BattleMech's semi-modular weapon port concept, applying early modular technology to create a chassis that could swap primary armament systems in the field. Though frequently dismissed as underpowered for its weight class and slow compared to other Clan mediums, the Corvis's modular weapons and jump capability have made it a practical support platform for the combined-arms operations that define Hell's Horses military doctrine. Only the Horses continue to manufacture the design at Niles, where it fills garrison and second-line roles alongside conventional vehicles and infantry formations.</p>
 
 capabilities:<p>Built on a Model MH-24 endo steel chassis with seven tons of Compound H17 ferro-fibrous armor, the Corvis uses a 160-rated fusion engine that limits its top speed to just 65 km/h, making it one of the slowest medium BattleMechs in any Clan arsenal. Four Model KT jump jet boosters compensate for this lack of speed, providing a 120-meter jump range that proves valuable in restrictive terrain such as urban environments and dense forests where raw speed matters less than vertical mobility.</p><p>The Corvis's semi-modular weapon ports allow field technicians to swap primary armament systems without the full pod reconfiguration capability of a true OmniMech. While this modularity is limited compared to later designs, it provides more flexibility than a standard BattleMech and allows garrison commanders to tailor loadouts to expected threats. The primary limitation remains the chassis's modest tonnage budget, which constrains both armor protection and weapons payload relative to more modern Clan medium designs.</p>
@@ -183,6 +183,8 @@ history:<p>The Corvis was developed by Clan Hell's Horses in the mid-twenty-nint
 manufacturer:Niles Industriplex Alpha
 
 primaryfactory:Niles
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Niles Industriplex Alpha
 systemmode:CHASSIS:Model MH-24 Endo Steel

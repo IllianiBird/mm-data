@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e747-73f7-8bf1-757940ea2e24
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Zephyros Infantry Support Vehicle
 <year>
 3084
 </year>
-
-<originalBuildYear>
-3084
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -109,26 +109,13 @@ CLLightMG
 CLLightMG
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>Cut off from their Homeworld production networks in the aftermath of the Word of Blake Jihad, Clan Hell's Horses faced a growing shortfall in infantry support vehicles. The designs that had long served the Clan's conventional forces could no longer be manufactured or restocked in the Inner Sphere. Rather than accept the continued decline of their vehicle arm, the Horses directed Swedenborg Heavy Industries on Kirchbach to develop an entirely new domestic platform. The result, introduced in 3084, was the Zephyros Infantry Support Vehicle. Taking its name from the Greek god of the West Wind, who in the form of a horse was said to draw the chariot of Zeus, the design embodied the Horses' philosophy: rapid response, battlefield endurance, and a focused mission over the distraction of multi-role versatility.</p>
-</overview>
-
 <capabilities>
 <p>The Zephyros pairs a Fusion 180 powerplant with a dune-buggy style wheeled chassis and oversized wheels, reaching a cruising speed of 86 kilometers per hour and a top speed of 129. The rugged wheel arrangement gives the vehicle greater ground clearance than hover designs, improving durability in broken terrain. The trade-off is reduced all-terrain flexibility compared to tracked alternatives and less raw speed than hover platforms.</p><p>Survivability is a core design priority. Over a fifth of the vehicle's mass is dedicated to ferro-fibrous composite armor, and an integrated ECM suite helps defeat missile guidance systems and counter advanced targeting technology. Together, these features allow the crew to absorb fire from most light and medium threats and disengage before heavier units can close the range.</p><p>Primary armament is a pair of Series 2b extended-range medium lasers in the main turret, capable of engaging both Clan and Inner Sphere light armor at range. Series HL-II light machine guns provide the means to suppress or eliminate conventional infantry, the design's primary target category. The Zephyros is not intended as a standalone combatant. Its role is to protect friendly infantry on a contested battlefield, and commanders who push it into engagements against heavier armor will find its firepower wanting quickly.</p>
 </capabilities>
+
+<overview>
+<p>Cut off from their Homeworld production networks in the aftermath of the Word of Blake Jihad, Clan Hell's Horses faced a growing shortfall in infantry support vehicles. The designs that had long served the Clan's conventional forces could no longer be manufactured or restocked in the Inner Sphere. Rather than accept the continued decline of their vehicle arm, the Horses directed Swedenborg Heavy Industries on Kirchbach to develop an entirely new domestic platform. The result, introduced in 3084, was the Zephyros Infantry Support Vehicle. Taking its name from the Greek god of the West Wind, who in the form of a horse was said to draw the chariot of Zeus, the design embodied the Horses' philosophy: rapid response, battlefield endurance, and a focused mission over the distraction of multi-role versatility.</p>
+</overview>
 
 <deployment>
 <p>Rolling off production lines at the Swedenborg Heavy Industries complex on Kirchbach, the Zephyros entered widespread service across the Horses Touman from 3084. Its straightforward construction and modest resource demands allowed Swedenborg to build up delivery rates quickly. The vehicle proved especially popular with Iota Galaxy, whose commanders embraced the concept of pairing Zephyros units with Anhur assault transports, creating integrated support packages capable of delivering Elementals into contested ground and sustaining them without heavier assets. Front-line infantry commanders across multiple clusters expressed strong interest in the design, drawn to its combination of speed, armor, and dedicated anti-infantry armament.</p>
@@ -161,4 +148,16 @@ ARMOR:Magnum Ferro-Fibrous Composite
 COMMUNICATIONS:Build 1685 Tacticom with ECM
 TARGETING:Series VI Integrated TTS
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

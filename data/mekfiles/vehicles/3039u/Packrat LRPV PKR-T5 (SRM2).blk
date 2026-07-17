@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e2e3-7ffd-b16f-f2ad10b28ac6
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ PKR-T5 (SRM2)
 <year>
 2824
 </year>
-
-<originalBuildYear>
-2824
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -102,26 +102,13 @@ SRM 2
 Flamer
 </Rear Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 21:44:37
-<overview>
-<p>The Packrat Long Range Patrol Vehicle entered service in 2650 as a purpose-built deep reconnaissance and raiding platform produced by Robertson Technologies. Designed to operate independently behind enemy lines for extended periods, the twenty-ton wheeled vehicle combined fusion power, generous armor protection, and a potent communications suite in a package small enough to avoid detection. Robertson Technologies originally held the production contract, but the design eventually passed to Bowie Industries and Gienah Combat Vehicles, both operating in the Lyran Commonwealth. The Packrat's combination of speed, self-sufficiency, and robust communications made it a favorite of march militias and garrison commands across the Inner Sphere, where its ability to sustain independent operations complemented the limited logistics of frontier forces.</p>
-</overview>
-
 <capabilities>
 <p>The Doorman 120 fusion engine gives the Packrat a top speed of 118 km/h, providing exceptional mobility for a vehicle of its class. Eight solid rubber tires, each with independent suspension and drive systems, deliver reliable traction across varied terrain without risk of deflation. The fusion powerplant eliminates any dependence on external fuel supplies, a critical advantage for missions lasting weeks or months behind enemy lines.</p><p>The Packrat's primary armament is a Harvester 20K SRM-6 rack mounted in the front hull, supported by two tons of ammunition. An HS Flamer covers the rear, serving dual roles as an anti-infantry weapon and a concealment device capable of generating smoke screens to break contact. Four tons of StarSlab/1 armor provide respectable protection for a twenty-ton vehicle, allowing the crew to survive limited engagements that would destroy lighter scouts.</p><p>The vehicle's most significant feature is its O/P COMTES communications system, among the most powerful ever fitted to a vehicle of this size. The system provides exceptional transmission range and limited electronic countermeasures capability. A one-ton infantry bay accommodates up to ten passengers, typically intelligence specialists or infiltrators, with fold-down cots providing sleeping arrangements for extended deployments.</p>
 </capabilities>
+
+<overview>
+<p>The Packrat Long Range Patrol Vehicle entered service in 2650 as a purpose-built deep reconnaissance and raiding platform produced by Robertson Technologies. Designed to operate independently behind enemy lines for extended periods, the twenty-ton wheeled vehicle combined fusion power, generous armor protection, and a potent communications suite in a package small enough to avoid detection. Robertson Technologies originally held the production contract, but the design eventually passed to Bowie Industries and Gienah Combat Vehicles, both operating in the Lyran Commonwealth. The Packrat's combination of speed, self-sufficiency, and robust communications made it a favorite of march militias and garrison commands across the Inner Sphere, where its ability to sustain independent operations complemented the limited logistics of frontier forces.</p>
+</overview>
 
 <deployment>
 <p>Introduced in the Capellan Confederation in 2824, this variant expands the infantry bay to three tons, allowing the vehicle to carry an entire infantry platoon. The original Harvester 20K SRM-6 launcher was replaced with a lighter Hovertec twin-tube SRM-2 to make room for the expanded troop compartment, though it retained two tons of ammunition. The modification prioritizes the Packrat's transport role over its combat punch, reflecting Capellan doctrine that valued infantry insertion capability in a fast, fusion-powered platform.</p>
@@ -154,4 +141,16 @@ ARMOR:StarSlab/1
 COMMUNICATIONS:COMTES
 TARGETING:2000JSA
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

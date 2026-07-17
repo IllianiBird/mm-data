@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a421-7f9b-80c8-90f5da5db097
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Nephilim Assault Battle Armor
 <year>
 3075
 </year>
-
-<originalBuildYear>
-3075
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -103,45 +103,13 @@ CLBACompactNarc:Body
 BA-Compact Narc Ammo:Body:Shots2#
 </Trooper 5 Equipment>
 
-<slotless_equipment>
-BARL2 Ammo:Shots1#
-</slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-16
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
-
 <capabilities>
 <p>The Narc variant carries a two-shot light Narc launcher in a detachable mount and a support PPC in a detachable weapon pack, supplemented by a twin-tube rocket launcher. The detachable systems impose mobility penalties until dropped. The Narc beacon allows the trooper to tag enemy units for guided munitions from allied forces, combining the spotter role with direct firepower from the support PPC. A Magshot Gauss rifle in a modular turret mount adds precision ballistic capability. The 850 kilograms of mimetic armor is retained. This configuration bridges the gap between the dedicated C3-equipped spotting role and direct combat, providing the squad with both target designation capability and enough personal firepower to defend itself if the engagement turns unfavorable.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>Clan forces had limited use for Narc beacon technology, which depended on guided munitions that most Clan formations did not employ in quantity. Any salvaged Narc Nephilim suits organized into five-trooper Points would have been of more interest for the support PPC and Magshot Gauss components than the targeting system itself.</p>
@@ -174,4 +142,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+16
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

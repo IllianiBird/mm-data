@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bfda-7472-bc48-d7a4e89704f3
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,10 +36,6 @@ Foot Platoon
 2500
 </year>
 
-<originalBuildYear>
-2500
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -51,6 +51,9 @@ Clothing, Fatigues/Civilian/Non-Armored
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Light rifle platoons arm their troops with Zeus heavy rifles and light SRM launchers, combining heavier personal weapons with disposable anti-armor capability. The Zeus rifles deliver greater stopping power than standard assault rifles at the cost of additional weight and recoil, while the light SRM launchers give the platoon a limited anti-vehicle option without the bulk of full-sized missile systems.</p>
+</overview>
 
 <source>
 TR:3085
@@ -75,9 +78,4 @@ Rifle (Zeus Heavy)
 <Secondary>
 InfantrySRMLight
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Light rifle platoons arm their troops with Zeus heavy rifles and light SRM launchers, combining heavier personal weapons with disposable anti-armor capability. The Zeus rifles deliver greater stopping power than standard assault rifles at the cost of additional weight and recoil, while the light SRM launchers give the platoon a limited anti-vehicle option without the bulk of full-sized missile systems.</p>
-</overview>
 

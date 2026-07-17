@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a5ac-791a-bef2-31beccc9de70
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -28,17 +32,9 @@ Nighthawk PA(L)
 Mk. XXX (Bounty Hunter)(Non-Functional)
 </Model>
 
-<mul id:>
--1
-</mul id:>
-
 <year>
 2957
 </year>
-
-<originalBuildYear>
-2957
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -72,38 +68,14 @@ Laser Rifle (Mauser 960):APM:RA
 
 <Trooper 1 Equipment>
 </Trooper 1 Equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-1
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 16:39:49
-<overview>
-<p>The Nighthawk Mk. XXI PA(L) is the progenitor of modern battle armor, developed by the Terran Hegemony from commercial exoskeleton technology through one of the most challenging military engineering programs of the Star League era. Commissioned in 2720, the Nighthawk was designed as a light power armor suit for reconnaissance and covert operations. The suit entered service exclusively with the SLDF Special Forces Command, where it equipped elite special operations teams whose very existence remained classified. Classified as Power Armor (Light), the Nighthawk provided its operators with capabilities far beyond conventional infantry while maintaining the stealth profile necessary for behind-the-lines work, establishing the conceptual foundation for every battle armor design that followed.</p>
-</overview>
 
 <capabilities>
 <p>This configuration represents the Bounty Hunter's Mk. XXX Nighthawk during the LosTech era, when the technological expertise required to maintain its advanced systems had been lost. The suit's stealth armor plating still provided meaningful protection against small arms and light infantry weapons, but the jump jets and electronic warfare systems were inoperative. In this degraded state, the Nighthawk functioned as little more than heavy personal protection, allowing the wearer to shrug off gunfire that would kill an unprotected individual while concealing their identity behind the sealed helmet and visor.</p><p>The armored gloves remained functional, enabling the use of heavy pistols and infantry weapons. Despite diminished capability, the suit's imposing presence and obvious Star League provenance contributed to the mystique surrounding the Bounty Hunter persona, making the non-functional armor as much a tool of psychological intimidation as physical protection.</p>
 </capabilities>
+
+<overview>
+<p>The Nighthawk Mk. XXI PA(L) is the progenitor of modern battle armor, developed by the Terran Hegemony from commercial exoskeleton technology through one of the most challenging military engineering programs of the Star League era. Commissioned in 2720, the Nighthawk was designed as a light power armor suit for reconnaissance and covert operations. The suit entered service exclusively with the SLDF Special Forces Command, where it equipped elite special operations teams whose very existence remained classified. Classified as Power Armor (Light), the Nighthawk provided its operators with capabilities far beyond conventional infantry while maintaining the stealth profile necessary for behind-the-lines work, establishing the conceptual foundation for every battle armor design that followed.</p>
+</overview>
 
 <deployment>
 <p>This entry represents the Bounty Hunter's Mk. XXX Nighthawk during the Third Succession War era, when the suit's stealth systems and jump pack had ceased functioning due to technological degradation. First appearing with the second bearer of the Bounty Hunter identity around 2957, the non-functional suit still served as effective personal armor and an iconic element of the Bounty Hunter's fearsome reputation, concealing the wearer's identity while providing meaningful ballistic protection.</p>
@@ -138,4 +110,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+1
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

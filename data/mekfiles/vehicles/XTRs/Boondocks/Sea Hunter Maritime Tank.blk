@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ebc4-7d85-9556-c3cc083f77b2
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Sea Hunter Maritime Tank
 <year>
 3068
 </year>
-
-<originalBuildYear>
-3068
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -105,33 +105,13 @@ LRT 10
 ISCombatVehicleEscapePod
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-XTR:Boondocks
-</source>
-
-<published>
-XTR:Boondocks
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 12:59:54
-<overview>
-<p>The Sea Hunter Maritime Tank is a 35-ton fully amphibious tracked combat vehicle developed by Andrea County Armor Yards on Herzberg. Beginning as a prototype project in 3068, the Sea Hunter was designed around a modified Hunter Light Support Tank chassis adapted for littoral and riverine operations. Andrea County Armor Yards, a minor local refit and repair facility, demonstrated that even small operations could produce innovative designs given sufficient engineering talent and a sound base platform. The Sea Hunter filled a niche that few Inner Sphere manufacturers had seriously attempted, providing amphibious assault support and coastal patrol capability in an affordable light vehicle package. While the prototype attracted enough interest for Defiance Industries to eventually purchase the production rights, the original Sea Hunter saw only limited production from its small facility on Herzberg.</p>
-</overview>
-
 <capabilities>
 <p>The Sea Hunter is built on a modified 3054-era Hunter chassis with extensive amphibious modifications. Extra sealing around hatches, recessed multi-directional water jets, and an enlarged hull provide full amphibious capability. The hull is roughly a meter and a half longer and nearly two meters wider than the standard Hunter, improving buoyancy and reducing the risk of capsizing. A 140-rated XL fusion engine drives the vehicle at speeds comparable to the upgraded Hunter on land, with water jets providing propulsion afloat. The vehicle is not rated for operations in swells over one meter, limiting its open-ocean utility.</p><p>The primary armament consists of a front-mounted Enhanced LRM-10 launcher for engaging ground, air, and sea targets at range. A separate ten-tube torpedo launcher provides anti-submarine and anti-surface capability, while twin rear-mounted mine dispensers allow the Sea Hunter to deny waterways and shoreline approaches. Four tons of heavy ferro-fibrous armor provide solid protection for the weight class. An experimental Combat Vehicle Escape Pod gives the crew a survival option if the vehicle is disabled in deep water. The pod is self-contained with a flotation device and limited directional controls.</p>
 </capabilities>
+
+<overview>
+<p>The Sea Hunter Maritime Tank is a 35-ton fully amphibious tracked combat vehicle developed by Andrea County Armor Yards on Herzberg. Beginning as a prototype project in 3068, the Sea Hunter was designed around a modified Hunter Light Support Tank chassis adapted for littoral and riverine operations. Andrea County Armor Yards, a minor local refit and repair facility, demonstrated that even small operations could produce innovative designs given sufficient engineering talent and a sound base platform. The Sea Hunter filled a niche that few Inner Sphere manufacturers had seriously attempted, providing amphibious assault support and coastal patrol capability in an affordable light vehicle package. While the prototype attracted enough interest for Defiance Industries to eventually purchase the production rights, the original Sea Hunter saw only limited production from its small facility on Herzberg.</p>
+</overview>
 
 <deployment>
 <p>The Sea Hunter saw extremely limited deployment, with only a small number of prototypes and early production units leaving Andrea County Armor Yards. Most served in and around Herzberg's extensive river systems and coastal waters, where the design's amphibious capabilities could be properly evaluated under realistic conditions. The vehicle's experimental status and small production run meant spare parts and technical support were difficult to obtain outside of Herzberg itself. Following Defiance Industries' acquisition of the production rights, the few surviving Sea Hunters were gradually phased out in favor of the factory-produced Hunter Amphibious Tank.</p>
@@ -164,4 +144,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Mini-Talk
 TARGETING:AGART
 </systemModels>
+
+<source>
+XTR:Boondocks
+</source>
+
+<published>
+XTR:Boondocks
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

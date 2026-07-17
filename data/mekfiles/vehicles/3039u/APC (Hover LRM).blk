@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e243-7aad-b8d9-5d9a23801dec
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Armored Personnel Carrier
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -96,30 +96,13 @@ LRM 5
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
-</overview>
-
 <capabilities>
 <p>The LRM variant of the hover APC replaces the infantry compartment and turret-mounted machine guns with a forward-firing LRM-5 launcher and one ton of missile ammunition. This conversion entirely eliminates the vehicle's troop-carrying capability, transforming it from a transport into a light fire support platform capable of engaging targets at long range. Twenty-four points of standard armor distributed evenly across all facings provide slightly better protection than the base model's turret-concentrated layout.</p><p>Operating at the same maximum speed of over one hundred sixty kilometers per hour, the LRM hover variant retains the platform's characteristic mobility advantage. Militia and garrison commands frequently employ this conversion to provide indirect fire support where dedicated missile carriers are unavailable, using the hover APC's speed to reposition between salvos and avoid counterbattery fire.</p>
 </capabilities>
+
+<overview>
+<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
+</overview>
 
 <deployment>
 <p>The LRM conversion sees widespread use among militia and garrison forces that lack dedicated fire support vehicles. The hover chassis's speed allows LRM-equipped APCs to operate as highly mobile skirmishers, firing missile salvos at long range before relocating to avoid return fire. Many commands field mixed formations of standard and LRM hover APCs, with the missile variants providing overwatch as the transports deliver infantry.</p>
@@ -150,4 +133,20 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+10.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d8fa-76ca-b24d-95f34fb08931
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Rawhide
 model:RWD-R1
 mul id:8189
@@ -170,7 +171,6 @@ IS Reflective
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The Rawhide is a 55-ton medium BattleMech introduced in 3137 by Kaiser Systems on Herzberg. Born from the ashes of a failed Scourge heavy BattleMech prototype, the design repurposes salvaged components alongside widely available equipment to produce an affordable and versatile striker. Kaiser deliberately eschewed cutting-edge technology in favor of ease of construction and cost reduction, a philosophy that has made the Rawhide enormously popular with budget-conscious operators, particularly mercenary commands. Despite early derision from Solaris VII commentators, who dismissed it as a lesser imitation of the venerable Griffin, the Rawhide has proven itself a capable and reliable platform across multiple theaters of the Lyran Commonwealth.</p>
 
 capabilities:<p>The Rawhide is built around a Hermes 275 XL engine, providing a top speed of 86 kph, while five Dynamo jump jets grant a jump capacity of 150 meters. This mobility profile allows it to function effectively as a heavy scout or skirmisher, capable of repositioning quickly across broken terrain. The Kaiser Simplex I chassis carries eleven and a half tons of Bowie Glinting Blade reflective armor protected by CASE, a defensive package that proves particularly punishing against energy-heavy opponents, deflecting and diffusing laser fire that would cripple more conventionally armored designs.</p><p>The primary armament is a Magna Firestar ER PPC mounted in the right arm, complemented by a Diverse Optics Type 25PX medium X-pulse laser. Both weapons benefit from an actuator enhancement system fitted to the entire right arm, granting the Rawhide an unusual degree of accuracy for its weight class. A Helga Series 9-tube multi-missile launcher occupies the left torso, fed by two tons of ammunition that allow pilots to switch between long and short-range missile loads as the tactical situation demands.</p><p>The reliance on an XL engine represents the design's most significant vulnerability, as a critical hit to either side torso will destroy the engine. However, the reflective armor and jump capability mitigate this risk by allowing pilots to control engagement range and limit exposure to concentrated fire.</p>
@@ -182,6 +182,8 @@ history:<p>The Rawhide takes its name from a Scourge test pilot who died valiant
 manufacturer:Kaiser Systems
 
 primaryfactory:Herzberg
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Kaiser
 systemmode:CHASSIS:Simplex I

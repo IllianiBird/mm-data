@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a87d-798d-946c-880cf62fe409
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ CEX-205 [Salvage Arm](Sqd5)
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -88,46 +88,14 @@ BASalvageArm:RA
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:VAr
-</source>
-
-<published>
-RS:VA
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
-</overview>
 
 <capabilities>
 <p>The Salvage Arm configuration mounts paired salvage manipulators on the Groundhog's modular adaptors, providing light but dexterous grasping tools designed for battlefield recovery and repair work. The salvage arms feature clamp-style manipulators and integrated cutting tools well suited to stripping components, handling ammunition, and conducting field repairs on damaged equipment. At four hundred kilograms with one hundred kilograms of standard armor, the Groundhog offers salvage crews meaningful protection in post-battle environments where unexploded ordnance and unstable wreckage present constant hazards.</p><p>Ground speed of thirty kilometers per hour allows operators to reach salvage objectives in reasonable time, though the lack of jump capability limits access to elevated or obstructed wreckage sites. The integral searchlight proves especially valuable during nighttime recovery operations, and the mission equipment bay provides internal storage for recovered components or tools. As with most non-combat configurations, the Salvage Arm loadout cannot conduct anti-BattleMech attacks or employ infantry weapons, requiring escort in unsecured areas.</p>
 </capabilities>
+
+<overview>
+<p>The CEX-205 Groundhog is a combat engineering exoskeleton produced by Blue Shot Weapons on Solaris VII. Introduced in 3062, the Groundhog was designed as a field-ready engineering platform capable of supporting military and mercenary operations through a modular manipulator system that allows rapid reconfiguration for different tasks. The suit's interchangeable tool mounts accept a wide range of equipment, from armored gloves suitable for light combat duties to specialized industrial tools for heavy labor, mine clearance, and salvage work. An integrated searchlight and onboard mission equipment storage further extend the Groundhog's operational utility. Heavily armored for an exoskeleton, the Groundhog earned a reputation as one of the first truly battlefield-ready engineering exoskeletons available on the open market.</p>
+</overview>
 
 <deployment>
 <p>Clan Points of Salvage Arm Groundhogs supported isorla recovery operations, cataloguing and stripping captured enemy equipment for Clan use. Five-trooper Points could process battlefield wreckage efficiently, a task typically assigned to lower-caste technicians operating under warrior caste supervision. The exoskeleton's protection allowed salvage Points to begin recovery operations while engagement areas were still being secured.</p>
@@ -160,4 +128,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<published>
+RS:VA
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

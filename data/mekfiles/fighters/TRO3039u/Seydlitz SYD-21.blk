@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad44-7682-8be0-f567d811453e
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SYD-21
 <year>
 2504
 </year>
-
-<originalBuildYear>
-2504
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -114,26 +114,13 @@ Large Laser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Seydlitz is a light aerospace fighter developed by the Shipil Company of Skye under a Terran Hegemony procurement contract for a small, fast planetary defense interceptor. Shipil submitted their design in 2504 and began mass production the same year, reflecting the company's long-standing reputation for delivering combat-ready aerospace systems on schedule. The design philosophy was straightforward: reach the enemy before they could bring their weapons to bear, destroy them with a concentrated strike, and disengage before return fire could tell. Though primarily associated with the Lyran Commonwealth and its successors, the Seydlitz eventually reached the Periphery through licensing agreements with the Outworlds Alliance and Taurian Concordat, and later appeared in Clan Jade Falcon service following their occupation of Skye. More than six centuries after its introduction, the basic design remains in production in some form, evidence of the enduring utility of a fighter built around exceptional speed and an unambiguous offensive purpose.</p>
-</overview>
-
 <capabilities>
 <p>The Seydlitz owes its performance to the Shipil 180 standard fusion engine, which consumes a full third of the airframe's total mass. This commitment to propulsion delivers a safe acceleration rate of five and a half gravities and a maximum of eight and a half gravities, placing the Seydlitz among the fastest interceptors of its era. The fighter mounts a single nose-mounted RAMTech 1200 large laser as its sole armament, a deliberate choice that concentrates the design's limited tonnage on a weapon capable of crippling targets, including the drive systems of small DropShips, with a single well-placed shot. The original Maztel laser fitted during development generated excessive heat and was replaced with the RAMTech model by 2507 for general production use.</p><p>The Seydlitz's weaknesses are inseparable from its strengths. Only two tons of Shipil Standard armor protect the airframe, meaning virtually any weapon system capable of landing a shot can disable the fighter on the first volley. Fuel capacity is similarly constrained, with three internal tons giving the craft a short operational radius that keeps it tethered to friendly DropShips or ground bases. Two external hardpoints allow up to two additional tons of fuel to extend range, though pilots typically jettison them before entering combat to preserve the fighter's maneuverability. Ten single heat sinks provide adequate thermal management for the single laser but offer no margin for sustained fire. The O/P AIR500 communications system and O/P 3000 targeting and tracking system, manufactured by Doering Electronics on New Kyoto for the Skye-built production lines following the Clan Invasion, round out the avionics suite.</p>
 </capabilities>
+
+<overview>
+<p>The Seydlitz is a light aerospace fighter developed by the Shipil Company of Skye under a Terran Hegemony procurement contract for a small, fast planetary defense interceptor. Shipil submitted their design in 2504 and began mass production the same year, reflecting the company's long-standing reputation for delivering combat-ready aerospace systems on schedule. The design philosophy was straightforward: reach the enemy before they could bring their weapons to bear, destroy them with a concentrated strike, and disengage before return fire could tell. Though primarily associated with the Lyran Commonwealth and its successors, the Seydlitz eventually reached the Periphery through licensing agreements with the Outworlds Alliance and Taurian Concordat, and later appeared in Clan Jade Falcon service following their occupation of Skye. More than six centuries after its introduction, the basic design remains in production in some form, evidence of the enduring utility of a fighter built around exceptional speed and an unambiguous offensive purpose.</p>
+</overview>
 
 <deployment>
 <p>The original production Seydlitz entered service in 2504 as the standard Lyran Commonwealth light interceptor, deployed primarily on small border worlds and in DropShip escort squadrons where speed and energy weapons made maintenance manageable for garrison commands. The fighter's limitations in armor and fuel were well understood, and Lyran doctrine developed around coordinated squadron strikes rather than individual engagements. Paired with heavier fighters such as the Chippewa or supported by ground-based assets, the SYD-21 proved highly effective as a screening and harassment platform throughout the Succession Wars. The model continued in front-line service well into the thirty-first century and remained in production at Taurus Territorial Industries on Sterope and the United Outworlders Corporation on Ramora in addition to the primary Shipil line on Skye.</p>
@@ -168,4 +155,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:O/P AIR500
 TARGETING:O/P 3000
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

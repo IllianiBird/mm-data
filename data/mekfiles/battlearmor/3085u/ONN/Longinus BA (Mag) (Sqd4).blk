@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a5a5-7f56-adae-17198b613b8d
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Longinus Battle Armor
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -93,42 +93,14 @@ IS BA Advanced:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Longinus was the Free Worlds League's answer to the Clan Elemental battle armor, developed jointly with the Word of Blake beginning in 3054. Classified as a medium battle armor, the suit came closer to matching its Clan-tech inspiration than any other Inner Sphere design of the era. The FWL's alliance with the Blakists provided access to technologies that rival programs in other Great Houses lacked. First fielded in 3057, the Longinus earned a reputation as both capable and expensive, with production costs well above comparable Inner Sphere designs.</p>
-</overview>
 
 <capabilities>
 <p>The Magnetic variant replaces the Longinus's signature detachable SRM-2 launcher and modular weapon mount with magnetic clamps, a standard machine gun, and a heavy machine gun. The magnetic clamps allow troopers to ride on the exterior of conventional BattleMechs and vehicles, extending operational range without requiring OmniMech transport bays. With no launcher to jettison, the suit's jump jets are available immediately, giving troopers full ninety-meter leaps from the start of an engagement. The paired machine guns deliver considerable anti-infantry firepower at short range, though the loss of the SRM capability and modular flexibility limits effectiveness against armored targets. The left arm retains its battle claw for swarming attacks and the anti-personnel weapon mount. Advanced armor protection remains unchanged from the standard Longinus, maintaining the same Clan-equivalent composite that can absorb a large laser hit.</p>
 </capabilities>
+
+<overview>
+<p>The Longinus was the Free Worlds League's answer to the Clan Elemental battle armor, developed jointly with the Word of Blake beginning in 3054. Classified as a medium battle armor, the suit came closer to matching its Clan-tech inspiration than any other Inner Sphere design of the era. The FWL's alliance with the Blakists provided access to technologies that rival programs in other Great Houses lacked. First fielded in 3057, the Longinus earned a reputation as both capable and expensive, with production costs well above comparable Inner Sphere designs.</p>
+</overview>
 
 <deployment>
 <p>The Magnetic variant entered FWLM service during the Jihad, giving four-trooper squads the ability to ride conventional BattleMechs into combat rather than requiring OmniMech transport bays. This dramatically expanded the Longinus's tactical reach, allowing squads to deploy alongside any BattleMech lance regardless of configuration. FWLM garrison forces operating older equipment benefited most from the magnetic clamp system, as their lack of OmniMechs had previously limited battle armor integration.</p>
@@ -163,4 +135,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

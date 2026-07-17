@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e91d-7183-a3e3-b35e2a9fbcff
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Vector Combat Support VTOL
 <year>
 2730
 </year>
-
-<originalBuildYear>
-2730
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -102,28 +102,13 @@ SRM 4
 <Rotor Equipment>
 </Rotor Equipment>
 
-
-
-
-
-
-
-<source>
-His:LoT2
-</source>
-
-<tonnage>
-22.0
-</tonnage>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>The Vector Combat Support VTOL was General Motors' winning entry in a long-running Star League Defense Force procurement program to replace aging frontline VTOLs with a single, unified platform. Introduced in the early 2730s, the Vector was engineered to fill three distinct tactical roles, infantry transport, forward reconnaissance, and electronic warfare, using a common airframe and a shared logistics chain. Its fusion powerplant and reliance on energy weapons eliminated fuel and ammunition dependencies that had hampered earlier VTOL designs during extended operations. The Vector quickly became the SLDF's standard airborne combat transport, and General Motors produced tens of thousands of the craft on Outreach and at other Hegemony production facilities during the height of Star League manufacturing output. Few survived the production losses and combat attrition of the Amaris Civil War and the long decline that followed.</p>
-</overview>
-
 <capabilities>
 <p>All Vector configurations shared the same high-performance airframe, powered by an LTV 125 fusion engine that delivered a cruising speed of 129 kph and a top speed approaching 194 kph. That speed, combined with the VTOL's tight handling characteristics, allowed crews to dash into target zones and exit before ground fire could track them effectively. Three and a half tons of Mitchell Argon ferro-fibrous armor were arranged to provide the most protection from the front, giving the craft a reasonable chance of absorbing a direct hit and still completing its mission. Weapons were mounted in a forward nose fairing and on the craft's short stub wings, keeping the weapons load clear of rotor interference.</p><p>The primary transport configuration carried a full platoon of infantry in the central bay alongside a Starflash Plus small pulse laser linked to the crew's helmet-mounted sighting system, enabling rapid suppressive fire against infantry at close range. Two wing-mounted Sorenstein medium lasers extended the craft's engagement envelope for strafing runs. The IrComm ICM-3200b communications suite and Garret D6a II targeting system were common to all variants. The central bay was reconfigured in specialist versions to house electronics or additional weapons rather than troops.</p><p>The Vector's primary limitation was its light construction. Speed was its main defense, and any sustained engagement or hit from crew-served weapons risked disabling the craft before it could disengage. It was not designed to fight through opposition, only to move faster than it.</p>
 </capabilities>
+
+<overview>
+<p>The Vector Combat Support VTOL was General Motors' winning entry in a long-running Star League Defense Force procurement program to replace aging frontline VTOLs with a single, unified platform. Introduced in the early 2730s, the Vector was engineered to fill three distinct tactical roles, infantry transport, forward reconnaissance, and electronic warfare, using a common airframe and a shared logistics chain. Its fusion powerplant and reliance on energy weapons eliminated fuel and ammunition dependencies that had hampered earlier VTOL designs during extended operations. The Vector quickly became the SLDF's standard airborne combat transport, and General Motors produced tens of thousands of the craft on Outreach and at other Hegemony production facilities during the height of Star League manufacturing output. Few survived the production losses and combat attrition of the Amaris Civil War and the long decline that followed.</p>
+</overview>
 
 <deployment>
 <p>The Attack configuration replaced the infantry transport capacity with a dedicated close air support weapons fit. A single nose-mounted medium laser and a pair of wing-mounted SRM 4 launchers replaced the troop bay payload, giving crews the ability to engage light armor and massed infantry from a standoff distance. Attack Vectors were present in every SLDF divisional air wing and operated in mixed formations alongside transport and scout variants to provide on-call fire support to ground elements.</p>
@@ -156,4 +141,12 @@ ARMOR:Argon Ferro-Fibrous
 COMMUNICATIONS:ICM-3200b
 TARGETING:D6a II
 </systemModels>
+
+<source>
+His:LoT2
+</source>
+
+<tonnage>
+22.0
+</tonnage>
 

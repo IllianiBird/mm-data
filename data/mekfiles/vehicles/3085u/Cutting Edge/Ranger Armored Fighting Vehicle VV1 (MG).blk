@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e71a-7be8-960a-3e093425ed1c
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ VV1 (MG)
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -113,26 +113,13 @@ Machine Gun
 Machine Gun
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 14:55:21
-<overview>
-<p>The Ranger Armored Fighting Vehicle is a wheeled combat vehicle produced by Valiant Systems of Johnsondale, entering service with the Armed Forces of the Federated Suns in 3076. Built on an expanded derivative of the company's Striker chassis, the Ranger trades some of that design's economy for heavier armament and substantially greater armor protection. The result is a vehicle purpose-built for close-range urban combat and infantry support, occupying a niche that the lighter Striker cannot fill. The Ranger's limited engagement range and persistent naming confusion with the Fox Armored Car have kept sales modest, but its low acquisition and maintenance costs have earned it a loyal following among mercenary commands and planetary defense forces that value affordability over battlefield versatility.</p>
-</overview>
-
 <capabilities>
 <p>The Ranger is built on a widened three-axle derivative of the Striker hull, the added axle necessary to handle the vehicle's 45-ton combat weight. The GM 250 fusion engine drives it to a flank speed of ninety-seven kilometers per hour, allowing it to keep pace with lancemates and reposition rapidly within urban terrain.</p><p>Ten tons of Valiant Buckler standard armor provides approximately thirty percent more protection than comparable vehicles in its class. That margin is significant given the design's close-range combat doctrine, which regularly places crews within direct engagement distance of their targets.</p><p>The primary armament centers on two Johnston SlavTrack arrays, each combining a Johnston Minigun with a Johnston Light Minigun. The linked configuration delivers mixed machine gun fire out to 120 meters, effective against both conventional and battle-armored infantry. Two Exostar ER Small Lasers supplement the arrays for modest ranged capability and serve as backup when ammunition runs low.</p><p>The Ranger carries notable limitations. Its sub-120-meter effective range forces crews to close under fire before the main armament becomes useful, placing heavy demands on the driver and commander. The SlavTrack arrays are maintenance-intensive, and the absence of anti-armor capability limits the vehicle to a specialist role rather than general-purpose employment.</p>
 </capabilities>
+
+<overview>
+<p>The Ranger Armored Fighting Vehicle is a wheeled combat vehicle produced by Valiant Systems of Johnsondale, entering service with the Armed Forces of the Federated Suns in 3076. Built on an expanded derivative of the company's Striker chassis, the Ranger trades some of that design's economy for heavier armament and substantially greater armor protection. The result is a vehicle purpose-built for close-range urban combat and infantry support, occupying a niche that the lighter Striker cannot fill. The Ranger's limited engagement range and persistent naming confusion with the Fox Armored Car have kept sales modest, but its low acquisition and maintenance costs have earned it a loyal following among mercenary commands and planetary defense forces that value affordability over battlefield versatility.</p>
+</overview>
 
 <deployment>
 <p>This field modification emerged from technician feedback regarding the dual SlavTrack arrays' maintenance burden. Removing the arrays and replacing them with four standard Johnston Miniguns and four Johnston Light Machine Guns reduces the vehicle's upkeep demands considerably, at the cost of the arrays' linked-fire capability. Valiant Systems later formalized the conversion through their parts distribution network, supplying modification kits to units already operating the VV1. The variant remains officially designated VV1 to simplify logistics tracking, and is most common in units operating at extended distances from established depot support where the arrays' specialized maintenance requirements cannot be met reliably.</p>
@@ -165,4 +152,16 @@ ARMOR:Valiant Buckler
 COMMUNICATIONS:XXI-3 series
 TARGETING:CommPhase Unit
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

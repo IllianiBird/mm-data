@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a3a0-763c-a600-844554719d4c
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Clan Medium Battle Armor
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -88,45 +88,15 @@ BABasicManipulator:RA
 
 <slotless_equipment>
 BAJumpJet
-BA-SRM2 Ammo:Shots1#
-BA-SRM2 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Clan Medium Battle Armor is a Clan-technology medium-weight suit developed by Clan Nova Cat’s Scientist Caste after the Clan’s relocation to the Inner Sphere. Designed as an improvement over the standard Elemental, the suit incorporates enhanced jump mobility at the cost of reduced protection, filling a gap for a more agile powered infantry platform. Its distinctive samurai-influenced styling reflects the Clan’s growing cultural ties to its Draconis Combine hosts. The design’s adaptable chassis proved attractive to multiple Clans, each fielding specialized configurations suited to their own tactical doctrines and operational needs.</p>
-</overview>
 
 <capabilities>
 <p>The Rabid mounts a fixed heavy flamer in its right arm and carries a pair of one-shot SRM-2 launchers on the shoulders, providing close-range firepower suited to aggressive assault operations. A built-in searchlight aids operations in low-visibility conditions. The suit uses basic manipulators that allow troopers to ride OmniMechs and execute anti-BattleMech swarming attacks. HarJel self-sealing technology provides protection against hull breaches.</p><p>At one thousand kilograms, the suit sacrifices some armor protection compared to the standard Elemental in exchange for its jump booster system, which propels troopers up to one hundred twenty meters per bound. Ground speed remains slow at twelve kilometers per hour, making the suit reliant on its jump capability and OmniMech transport to maintain tactical mobility. The absence of an anti-personnel weapon mount limits its effectiveness against unarmored infantry.</p>
 </capabilities>
+
+<overview>
+<p>The Clan Medium Battle Armor is a Clan-technology medium-weight suit developed by Clan Nova Cat’s Scientist Caste after the Clan’s relocation to the Inner Sphere. Designed as an improvement over the standard Elemental, the suit incorporates enhanced jump mobility at the cost of reduced protection, filling a gap for a more agile powered infantry platform. Its distinctive samurai-influenced styling reflects the Clan’s growing cultural ties to its Draconis Combine hosts. The design’s adaptable chassis proved attractive to multiple Clans, each fielding specialized configurations suited to their own tactical doctrines and operational needs.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere organizations that acquired the suit through Diamond Shark trade networks or Nova Cat cooperation deployed it in standard four-trooper squads. Draconis Combine infantry units working alongside Nova Cat forces were among the earliest Inner Sphere adopters, integrating the suits into their existing squad-level organizational structure alongside conventional infantry and BattleMech formations.</p>
@@ -161,4 +131,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

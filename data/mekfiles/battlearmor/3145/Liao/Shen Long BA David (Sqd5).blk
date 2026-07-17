@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a657-7c3f-9bd7-0e3507d72bab
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Shen Long Battle Armor
 <year>
 3092
 </year>
-
-<originalBuildYear>
-3092
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -92,42 +92,14 @@ BADavidLightGaussRifle:TU
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:3145:CC
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<turret>
-Modular:4
-</turret>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Shen Long is a heavy battle armor suit produced by Hellespont Industrials for the Capellan Confederation Armed Forces and the Magistracy of Canopus. Introduced in 3092, the design employs a quad chassis that provides exceptional ground speed for its weight class, paired with advanced camouflage systems that allow troopers to approach targets undetected. A reconfigurable weapon platform enables rapid loadout changes between missions, giving field commanders flexibility to tailor formations for specific tactical situations. The suit earned its name, meaning "Divine Dragon" in Chinese, for the aggressive ambush doctrine that defines its primary employment.</p>
-</overview>
 
 <capabilities>
 <p>The Shen Long weighs 1,500 kilograms and uses a quad chassis that gives it a ground speed of 43 kilometers per hour, making it one of the fastest heavy battlesuits in Inner Sphere service. Its 550 kilograms of mimetic armor provides excellent protection while allowing the suit to blend with surrounding terrain, a critical advantage for ambush tactics. The suit lacks manipulators, trading manual dexterity for the speed and stability of its four-legged design.</p><p>The David Light Gauss configuration mounts four David Light Gauss Rifles in the modular turret, each fed by fifteen rounds of ammunition. This loadout excels at harassing targets from range, allowing troopers to engage BattleMechs and vehicles while concealment keeps them hidden. The lightweight rifles impose minimal heat burden, permitting sustained fire. However, the configuration is entirely ammunition-dependent, leaving troopers vulnerable once magazines run dry.</p>
 </capabilities>
+
+<overview>
+<p>The Shen Long is a heavy battle armor suit produced by Hellespont Industrials for the Capellan Confederation Armed Forces and the Magistracy of Canopus. Introduced in 3092, the design employs a quad chassis that provides exceptional ground speed for its weight class, paired with advanced camouflage systems that allow troopers to approach targets undetected. A reconfigurable weapon platform enables rapid loadout changes between missions, giving field commanders flexibility to tailor formations for specific tactical situations. The suit earned its name, meaning "Divine Dragon" in Chinese, for the aggressive ambush doctrine that defines its primary employment.</p>
+</overview>
 
 <deployment>
 <p>Five-trooper formations of the David Light Gauss configuration see occasional use with Magistracy of Canopus forces and allied formations that have adopted larger organizational structures. The additional trooper increases the volume of ranged fire per formation, though it demands greater logistical support to keep all five suits supplied with ammunition during extended operations.</p>
@@ -160,4 +132,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:CC
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<turret>
+Modular:4
+</turret>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

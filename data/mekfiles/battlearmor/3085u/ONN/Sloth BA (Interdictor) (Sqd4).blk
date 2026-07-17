@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a5bc-78b5-8edc-20d43d29ad13
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Sloth Battle Armor
 <year>
 3075
 </year>
-
-<originalBuildYear>
-3075
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -81,42 +81,14 @@ IS BA ECM:Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Sloth was one of the first battle armor designs developed natively by the Inner Sphere. A team at the New Avalon Institute of Science, drawing on captured Clan technology, produced a heavy quadruped suit intended to serve as a mobile weapons platform capable of engaging enemy battle armor directly. Unlike the humanoid designs that would follow, the Sloth adopted a four-legged configuration more commonly associated with combat vehicles than powered infantry. Introduced in 3050 alongside its lighter companion, the Infiltrator, the Sloth earned a mixed reputation among field commanders. Its firepower and protection drew praise, but the unconventional design and its inherent limitations left many formations seeking alternatives as newer suits entered production.</p>
-</overview>
 
 <capabilities>
 <p>The Interdictor variant trades the standard model's pop-up mine and small lasers for an ECM suite and a pair of extended-range small lasers. The electronic countermeasures package disrupts enemy targeting and communications networks, giving the Interdictor a battlefield support role that the original design never possessed. The upgraded lasers provide improved reach while maintaining comparable damage output.</p><p>The Interdictor retains the base chassis characteristics: quadruped movement, 250 kilograms of standard armor, and no manipulators. The same trade-offs that defined the original Sloth apply here, with the suit unable to perform swarming attacks or ride OmniMech handholds. The ECM capability proved particularly effective against Word of Blake forces during the Jihad, where disrupting command and control systems added tactical value that extended the aging design's operational relevance.</p>
 </capabilities>
+
+<overview>
+<p>The Sloth was one of the first battle armor designs developed natively by the Inner Sphere. A team at the New Avalon Institute of Science, drawing on captured Clan technology, produced a heavy quadruped suit intended to serve as a mobile weapons platform capable of engaging enemy battle armor directly. Unlike the humanoid designs that would follow, the Sloth adopted a four-legged configuration more commonly associated with combat vehicles than powered infantry. Introduced in 3050 alongside its lighter companion, the Infiltrator, the Sloth earned a mixed reputation among field commanders. Its firepower and protection drew praise, but the unconventional design and its inherent limitations left many formations seeking alternatives as newer suits entered production.</p>
+</overview>
 
 <deployment>
 <p>The Interdictor's ECM capability made four-trooper squads particularly valuable in AFFS and LCAF combined-arms operations during the Jihad. Squad leaders used the electronic warfare suite to screen advancing BattleMech formations from enemy targeting systems, adding a force-multiplication role that standard Sloth squads could not fill. Limited production meant these squads remained uncommon even within frontline commands.</p>
@@ -149,4 +121,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

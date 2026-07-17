@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ebe4-75d3-958c-e8f8f01ea378
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Cyrano Gunship
 <year>
 2754
 </year>
-
-<originalBuildYear>
-2754
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -119,26 +119,13 @@ Medium Laser
 Medium Laser
 </Turret Equipment>
 
-<source>
-XTR:Gunslingers
-</source>
-
-<published>
-XTR:Gunslingers
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The Cyrano Fury is an experimental special operations variant of the standard Cyrano Gunship, rebuilt by Paulina Weapons technicians at Tigress for exclusive use by the SLDF's elite Fury Teams. Beginning in 2754, the project converted standard Cyrano airframes into dedicated insertion craft, replacing the large laser with a chin-turret medium laser battery and adding Guardian ECM, an anti-missile system, and a four-ton infantry bay capable of deploying Fury Team operatives or Nighthawk power armor squads. Only six prototypes were constructed before the Amaris Civil War ended further development. All six were lost on Terra during liberation operations, and the design never entered commercial production or saw service outside the original Fury Team special operations context.</p>
-</overview>
-
 <capabilities>
 <p>The Cyrano Fury replaces the standard model's nose-mounted Fuersturm-C large laser with three medium lasers mounted in a VTOL chin turret, allowing effective fire against targets to the sides or rear while maintaining forward flight. The shorter-ranged weapon array trades individual punch for higher aggregate damage output at close range, with the turret mount providing tactical flexibility unavailable in the fixed-forward standard armament. An anti-missile system in the nose improves survivability against guided munitions, a critical capability for a vehicle designed to penetrate defended airspace on insertion missions.</p><p>A Guardian ECM suite provides electronic cover when stealth is available as an alternative to direct approach. A rear-mounted machine gun covers the ramp during troop deployment, providing suppressive fire while Fury Teams or Nighthawk-equipped troopers exit the aircraft. The four-ton infantry bay deploys standard platoon-size forces or up to four Nighthawk power armor troopers, all trained to exit in under six seconds. A 160-rated fusion engine powers the lighter airframe, maintaining speed comparable to the standard Cyrano. Ferro-fibrous armor covers the hull. The Fury incorporated notable design quirks: Easy to Pilot, Rumble Seat, and Obsolete/2787 designations.</p>
 </capabilities>
+
+<overview>
+<p>The Cyrano Fury is an experimental special operations variant of the standard Cyrano Gunship, rebuilt by Paulina Weapons technicians at Tigress for exclusive use by the SLDF's elite Fury Teams. Beginning in 2754, the project converted standard Cyrano airframes into dedicated insertion craft, replacing the large laser with a chin-turret medium laser battery and adding Guardian ECM, an anti-missile system, and a four-ton infantry bay capable of deploying Fury Team operatives or Nighthawk power armor squads. Only six prototypes were constructed before the Amaris Civil War ended further development. All six were lost on Terra during liberation operations, and the design never entered commercial production or saw service outside the original Fury Team special operations context.</p>
+</overview>
 
 <deployment>
 <p>The Cyrano Fury existed only as six experimental prototypes and saw operational use solely within SLDF Fury Team special operations elements between 2754 and 2777. Deployment doctrine centered on rapid insertion of elite infantry teams or Nighthawk power armor squads, with the Fury providing ECM cover, suppressive fire, and extraction support. The rear machine gun and six-second dismount procedure reflected doctrine developed specifically for Fury Team operations. The design was never deployed in conventional formations, was never sold commercially, and left no successors in the line inventory. All six prototypes were destroyed in combat and the type is considered extinct.</p>
@@ -173,4 +160,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Garret M250
 TARGETING:Sky Tracer WL
 </systemModels>
+
+<source>
+XTR:Gunslingers
+</source>
+
+<published>
+XTR:Gunslingers
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

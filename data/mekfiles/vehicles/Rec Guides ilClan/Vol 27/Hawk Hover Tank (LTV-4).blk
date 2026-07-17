@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9ad-7a07-88bf-974e04857305
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Hawk Hover Tank
 <year>
 2470
 </year>
-
-<originalBuildYear>
-2470
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -105,34 +105,13 @@ PPC
 SRM 4
 </Turret Equipment>
 
-<notes>
-Experimental until 2470. Originally known as the LTV-4 Hover Tank in XTR: Primitives Vol 2.
-</notes>
-
-<source>
-RG27,XTR:Primitives II
-</source>
-
-<published>
-RG27
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Hawk Hover Tank represents the modern commercial revival of an ancient light combat vehicle originally fielded by the Terran Hegemony in 2464 under the designation LTV-4. General Mechanics of Mars developed the original design as a fast, affordable platform licensed broadly to Star League member states across the Inner Sphere. After the Succession Wars erased most of that production network, Quikscell Company reintroduced the design in the early thirty-first century under the Hawk designation. Quikscell markets the Hawk as a companion to the faster Falcon, offering buyers a slower but harder-hitting variant optimized for long-range direct fire rather than the close-range tactics favored by its sibling. The vehicle appeals to militia commanders and peripheral governments seeking affordable long-range fire support without the cost of fusion-powered combat vehicles.</p>
-</overview>
-
 <capabilities>
 <p>The Hawk's primary armament is a particle cannon that provides reliable long-range direct fire well suited to engaging lightly armored vehicles and suppressing infantry at standoff range. A single short-range missile rack supplements this main weapon with close-quarters capability when engagements close to shorter distances, though the limited ammunition supply encourages conservative fire discipline during extended engagements. Hover propulsion enables the Hawk to cross water obstacles, swamps, and broken terrain that would stop tracked or wheeled vehicles, allowing it to reposition across ground that heavier pursuers cannot follow. This combination of long-range firepower and terrain-crossing mobility suits the Hawk to screening, harassment, and fire support missions rather than direct assault roles where sustained exposure to return fire would be fatal.</p><p>ProtecTech Light armor provides baseline crew protection against small arms and glancing fire but cannot absorb concentrated weapons fire from combat vehicles or BattleMechs. Basix 200 communications and OptiSight-12 targeting equipment handle fire control and coordination adequately for the vehicle's intended mission profile. The ICE powerplant keeps fuel and maintenance requirements within reach of backwater logistics infrastructure, a practical advantage for the peripheral militias forming the Hawk's primary market, though it constrains operational range when the vehicle operates far from established resupply points.</p>
 </capabilities>
+
+<overview>
+<p>The Hawk Hover Tank represents the modern commercial revival of an ancient light combat vehicle originally fielded by the Terran Hegemony in 2464 under the designation LTV-4. General Mechanics of Mars developed the original design as a fast, affordable platform licensed broadly to Star League member states across the Inner Sphere. After the Succession Wars erased most of that production network, Quikscell Company reintroduced the design in the early thirty-first century under the Hawk designation. Quikscell markets the Hawk as a companion to the faster Falcon, offering buyers a slower but harder-hitting variant optimized for long-range direct fire rather than the close-range tactics favored by its sibling. The vehicle appeals to militia commanders and peripheral governments seeking affordable long-range fire support without the cost of fusion-powered combat vehicles.</p>
+</overview>
 
 <deployment>
 <p>The Hawk appears in militia and mercenary inventories throughout the Inner Sphere, typically fielded in screening, long-range harassment, and fire support roles. Its particle cannon allows engagement at distances beyond the reach of most light vehicle adversaries, while hover mobility enables positioning on flanks and across terrain that challenges wheeled and tracked pursuit. Commanders pair the Hawk with Falcons when available, using its range to suppress enemy formations while faster vehicles maneuver for close-range attacks. Peripheral militias favor it as the most affordable long-range fire option available through Quikscell's distribution network.</p>
@@ -165,4 +144,24 @@ ARMOR:Light
 COMMUNICATIONS:200
 TARGETING:12
 </systemModels>
+
+<notes>
+Experimental until 2470. Originally known as the LTV-4 Hover Tank in XTR: Primitives Vol 2.
+</notes>
+
+<source>
+RG27,XTR:Primitives II
+</source>
+
+<published>
+RG27
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

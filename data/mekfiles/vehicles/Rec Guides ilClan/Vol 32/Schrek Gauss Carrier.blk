@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea2a-739e-a27b-013ae599410d
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Schrek Gauss Carrier
 <year>
 3119
 </year>
-
-<originalBuildYear>
-3119
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -111,26 +111,13 @@ ISLightGaussRifle
 ISLightGaussRifle
 </Turret Equipment>
 
-<source>
-RG32
-</source>
-
-<published>
-RG32,RSFP:Battlefield
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 12:59:54
-<overview>
-<p>The Schrek Gauss Carrier stands as a fundamental reimagining of the Schrek chassis for Capellan operational priorities in the Dark Age. Developed in cooperation between the Capellan Confederation Armed Forces and Grumman Amalgamated at its Shiro III facility in the Duchy of Andurien, the design emerged from the lessons of the Victoria War, which demonstrated the importance of stealth and precision in anti-armor operations against sophisticated opposing forces.</p><p>Rather than the direct-fire intimidation of its ancestor, the Gauss Carrier emphasizes covert engagement, using stealth armor and electronic countermeasures to approach undetected before delivering precise long-range rifle fire. Produced primarily for CCAF and Duchy of Andurien forces, the design has seen deployment along the Capellan/Davion border and in contested Andurien frontier zones.</p>
-</overview>
-
 <capabilities>
 <p>The Gauss Carrier's three Light Gauss Rifles deliver consistent, accurate fire at ranges comparable to the original Schrek's PPCs, without the electromagnetic signature that makes PPC-armed vehicles conspicuous to enemy sensors. The combination of stealth armor and an integrated ECM suite allows the vehicle to approach engagement positions with substantially lower detection risk than comparable heavy armor. A Light engine reduces mass requirements, enabling the armor and sensor suite that define the variant's tactical role. Four tons of ammunition provide a reasonable sustained engagement capacity.</p><p>Tactical limitations are significant, however. Light Gauss Rifles lack the raw damage output of the Schrek's original PPC armament, and the ammunition supply is a finite engagement capacity that limits extended operations. The stealth armor's signature suppression requires active energy, and the Light engine restricts top speed. The design demands careful tactical placement, relying on concealment and first-strike precision rather than the sustained fire suppression that characterized earlier Schrek variants.</p>
 </capabilities>
+
+<overview>
+<p>The Schrek Gauss Carrier stands as a fundamental reimagining of the Schrek chassis for Capellan operational priorities in the Dark Age. Developed in cooperation between the Capellan Confederation Armed Forces and Grumman Amalgamated at its Shiro III facility in the Duchy of Andurien, the design emerged from the lessons of the Victoria War, which demonstrated the importance of stealth and precision in anti-armor operations against sophisticated opposing forces.</p><p>Rather than the direct-fire intimidation of its ancestor, the Gauss Carrier emphasizes covert engagement, using stealth armor and electronic countermeasures to approach undetected before delivering precise long-range rifle fire. Produced primarily for CCAF and Duchy of Andurien forces, the design has seen deployment along the Capellan/Davion border and in contested Andurien frontier zones.</p>
+</overview>
 
 <deployment>
 <p>Produced by Grumman Amalgamated on Shiro III in the Duchy of Andurien and by Aldis Industries on Betelgeuse for the Capellan Confederation, the Gauss Carrier serves primarily with CCAF and Duchy of Andurien armor formations in the Dark Age and ilClan eras. Its stealth capability and precision armament suit it to reconnaissance-in-force and screening roles alongside heavier Capellan assets, particularly in contested border regions where unexpected engagement ranges can disrupt an opponent's tactical planning.</p>
@@ -163,4 +150,16 @@ ARMOR:Stealth
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+RG32
+</source>
+
+<published>
+RG32,RSFP:Battlefield
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

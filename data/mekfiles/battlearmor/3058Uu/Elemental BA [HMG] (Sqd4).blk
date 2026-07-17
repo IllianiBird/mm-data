@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a1d8-73f3-b5db-2300d1f0d660
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Elemental Battle Armor
 <year>
 3059
 </year>
-
-<originalBuildYear>
-3059
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -88,42 +88,14 @@ BABattleClaw:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The gold standard of Clan armored infantry, the Elemental battle armor was developed by Clan Wolf and first deployed in 2868. Adapted from pressurized diving suits built by Clan Goliath Scorpion, the Elemental was the first purpose-built battle armor to see widespread military use. Designed for the Clans' genetically bred Elemental warriors, the one-ton medium suit combines heavy protection, jump mobility, and modular weaponry into a general-purpose package that has remained in frontline service for over two centuries. Produced across dozens of Clan facilities, the suit's adaptable design has spawned numerous specialized configurations while the base platform continues to anchor Clan infantry doctrine.</p>
-</overview>
 
 <capabilities>
 <p>The Elemental suit carries 250 kilograms of armor, sufficient to withstand multiple hits from BattleMech-scale weapons. Each trooper carries a detachable short-range missile pack holding four missiles across two volleys, which can be jettisoned after use to improve mobility. The suit's modular weapon mount accommodates a range of armament options including energy weapons, flamers, and ballistic weapons, while a secondary anti-personnel mount handles lighter threats. A battle claw on one arm generates enough force to tear through BattleMech armor plating or grip an OmniMech's transport handholds. Integral jump jets propel the suit up to ninety meters per leap, compensating for a modest ground speed of just under eleven kilometers per hour. The suit's heads-up display condenses a full 360-degree sensor picture into a 160-degree view, with mode switching controlled by eye tracking and voice commands. The design's primary weakness lies in its slow overland speed between jumps, leaving troopers exposed during repositioning across open terrain.</p>
 </capabilities>
+
+<overview>
+<p>The gold standard of Clan armored infantry, the Elemental battle armor was developed by Clan Wolf and first deployed in 2868. Adapted from pressurized diving suits built by Clan Goliath Scorpion, the Elemental was the first purpose-built battle armor to see widespread military use. Designed for the Clans' genetically bred Elemental warriors, the one-ton medium suit combines heavy protection, jump mobility, and modular weaponry into a general-purpose package that has remained in frontline service for over two centuries. Produced across dozens of Clan facilities, the suit's adaptable design has spawned numerous specialized configurations while the base platform continues to anchor Clan infantry doctrine.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere squads armed with the heavy machine gun configuration leveraged the weapon's stopping power in counter-insurgency operations. Four troopers carrying the heavier weapon could dominate engagements against militia forces and pirates with greater authority than standard machine gun-equipped formations, making the configuration popular among garrison commands.</p>
@@ -158,4 +130,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

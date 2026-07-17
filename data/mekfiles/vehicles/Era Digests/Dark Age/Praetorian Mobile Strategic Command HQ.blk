@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8e9-78ee-8a08-fcd478a79fab
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Praetorian Mobile Strategic Command HQ
 <year>
 3091
 </year>
-
-<originalBuildYear>
-3091
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -108,26 +108,13 @@ ISAntiPersonnelPod
 ISERMediumLaser
 </Turret Equipment>
 
-<source>
-ED:DA
-</source>
-
-<published>
-ED:DA
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 17:28:43
-<overview>
-<p>The Praetorian Mobile Strategic Command HQ is a heavy tracked command vehicle developed during the early years of the Republic of the Sphere. Designed to serve as the nexus of a regiment's communication network, the Praetorian coordinates large combined-arms formations by working in tandem with smaller Tribune mobile headquarters vehicles. Each Republic battalion fielded a lance of one Praetorian and three Tribunes, creating a layered command structure that blankets a battlefield with sensor coverage and communications relay points. Produced jointly by Cyclops Incorporated on Skye and Michaelson Heavy Industries on Ruchbah and Terra, the Praetorian became one of the most recognizable Republic vehicles during its first decade of service.</p>
-</overview>
-
 <capabilities>
 <p>The Praetorian's core asset is its ten tons of communications equipment, the heaviest suite fitted to any Republic vehicle and double the capacity of the Tribune. This system enables satellite connectivity, remote sensor relay integration, and multi-band communication channels that give coordinated forces a significant initiative advantage. A Cyclops I/3 Extended communications system and Evil Eye Block V targeting tracking suite provide the electronic backbone of the command network.</p><p>An armored motive system protects the tracked drivetrain from battle damage, improving survivability in contested areas. Durallex Special heavy ferro-fibrous armor provides thick protection befitting the vehicle's strategic importance. The modular mount system does not require the specialized tooling of a full Omni design but still allows units to tailor their vehicles with minimal effort, at roughly half the time required by comparable vehicles. A Magna Mk VI extended-range medium laser and four Garret Tread A-Pods provide defensive capability. The Pitban 210 fusion engine limits top speed to 64 km/h, encouraging commanders to remain at a safe distance from the heaviest fighting.</p>
 </capabilities>
+
+<overview>
+<p>The Praetorian Mobile Strategic Command HQ is a heavy tracked command vehicle developed during the early years of the Republic of the Sphere. Designed to serve as the nexus of a regiment's communication network, the Praetorian coordinates large combined-arms formations by working in tandem with smaller Tribune mobile headquarters vehicles. Each Republic battalion fielded a lance of one Praetorian and three Tribunes, creating a layered command structure that blankets a battlefield with sensor coverage and communications relay points. Produced jointly by Cyclops Incorporated on Skye and Michaelson Heavy Industries on Ruchbah and Terra, the Praetorian became one of the most recognizable Republic vehicles during its first decade of service.</p>
+</overview>
 
 <deployment>
 <p>The Praetorian serves as the strategic command node in Republic combined-arms regiments, paired with three Tribunes per battalion. Following the Republic's collapse, production continued at Cyclops Incorporated on Skye and Michaelson Heavy Industries on Ruchbah, with vehicles spreading to numerous Inner Sphere factions. The vehicle's modular design has spawned a surprising number of field variants as different operators customize their Praetorians for local conditions and doctrinal preferences.</p>
@@ -150,4 +137,16 @@ ARMOR:Special Heavy Ferro-Fibrous
 COMMUNICATIONS:I/3 Extended
 TARGETING:Block V
 </systemModels>
+
+<source>
+ED:DA
+</source>
+
+<published>
+ED:DA
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

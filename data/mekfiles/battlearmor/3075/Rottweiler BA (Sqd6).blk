@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a45b-77a4-aa79-978d67e8328a
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Rottweiler Battle Armor
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -90,38 +90,14 @@ IS BA Stealth (Basic):Body
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Rottweiler is a medium quad battle armor suit developed by TharHes Industries for the Lyran Alliance Armed Forces. Fielded in 3065, the design built on lessons learned from the earlier Fenrir program, prioritizing speed and sensor capability over raw firepower. Its low profile and advanced electronics package earned it a respected place among Lyran reconnaissance formations, where its ability to operate well ahead of heavier units proved consistently valuable across multiple theaters of operation.</p>
-</overview>
 
 <capabilities>
 <p>The Rottweiler's quad chassis propels the one-ton suit to speeds of 54 kph, making it one of the fastest battle armor designs in service. Rather than the turret mount used by the Fenrir, the engineering team opted for a fixed dorsal weapon position carrying a standard support laser and a Firedrake incendiary needler for anti-personnel work. This arrangement allows the pilot to lie flat inside the chassis, reducing fatigue on extended scouting missions.</p><p>Standard stealth armor defeats most targeting systems while providing protection comparable to heavier suits despite the Rottweiler's lighter mass. An advanced sensor suite gives the suit exceptional situational awareness, and a frontal hatch mimicking the design's canine namesake can carry up to five kilograms of mission equipment. The trade-off for this sensor and speed package is limited offensive punch against armored targets.</p>
 </capabilities>
+
+<overview>
+<p>The Rottweiler is a medium quad battle armor suit developed by TharHes Industries for the Lyran Alliance Armed Forces. Fielded in 3065, the design built on lessons learned from the earlier Fenrir program, prioritizing speed and sensor capability over raw firepower. Its low profile and advanced electronics package earned it a respected place among Lyran reconnaissance formations, where its ability to operate well ahead of heavier units proved consistently valuable across multiple theaters of operation.</p>
+</overview>
 
 <deployment>
 <p>ComStar's Com Guards fielded small numbers of Rottweilers in six-trooper Level I formations during the Jihad and its aftermath. The additional two troopers per formation gave Com Guard reconnaissance elements broader sensor coverage across wider frontages. Level I Rottweiler formations proved useful in monitoring cease-fire zones and providing early warning along disputed borders during the Republic era.</p>
@@ -154,4 +130,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

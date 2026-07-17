@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9c3-77a3-8bd5-1e40f5265625
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ SturmFeur Heavy Tank
 <year>
 3150
 </year>
-
-<originalBuildYear>
-3150
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -114,33 +114,13 @@ CLERMediumLaser
 CLArtemisIV
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG28
-</source>
-
-<published>
-RG28,RSFP:Battlefield
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>Commissioned by the Lyran Commonwealth Armed Forces in 3018, the SturmFeur was the largest combat vehicle dedicated to missile fire support in the Inner Sphere at the time of its introduction. Built by Trellshire Heavy Industries on Sudeten, the tank embodied the Lyran military philosophy of heavy armor and overwhelming firepower over speed and maneuverability. Its name, a misspelling of the German word for "assault fire," became synonymous with long-range missile bombardment across the Commonwealth's military academies. Despite its deliberate pace, the SturmFeur earned a reputation as a dependable workhorse, capable of absorbing punishment that would cripple lighter support vehicles while delivering sustained indirect fire from behind the front lines.</p>
-</overview>
-
 <capabilities>
 <p>The SturmFeur carries a pair of LRM-20 launchers as its primary armament, providing devastating indirect and direct fire support. Targeting technology limitations during the Third Succession War era forced designers to split the launchers between a turret mount and a fixed forward position, preventing accidental friendly fire during high-angle bombardment. The turret launcher provides full traversal capability while the hull-mounted rack fires forward over the turret in a high arc. A pair of machine guns on the turret offer close-range anti-infantry defense but are ineffective against armored targets.</p><p>The 85-ton tank's InterComBust 255 ICE powerplant delivers a modest top speed of 54 km/h, typical of Lyran heavy vehicles that prioritize durability over mobility. Generous ProtecTech 6 armor plating allows the SturmFeur to absorb considerable punishment before withdrawal becomes necessary. The Angst 2100-b communications suite paired with the SturmFeur Highlight targeting system and BlindFire radar enables effective indirect fire coordination, a critical capability for a vehicle that operates best beyond visual range. The tank's principal weakness remains its complete reliance on ammunition, leaving it vulnerable once its magazines run dry, and its machine guns provide almost no deterrent against anything heavier than unarmored infantry.</p>
 </capabilities>
+
+<overview>
+<p>Commissioned by the Lyran Commonwealth Armed Forces in 3018, the SturmFeur was the largest combat vehicle dedicated to missile fire support in the Inner Sphere at the time of its introduction. Built by Trellshire Heavy Industries on Sudeten, the tank embodied the Lyran military philosophy of heavy armor and overwhelming firepower over speed and maneuverability. Its name, a misspelling of the German word for "assault fire," became synonymous with long-range missile bombardment across the Commonwealth's military academies. Despite its deliberate pace, the SturmFeur earned a reputation as a dependable workhorse, capable of absorbing punishment that would cripple lighter support vehicles while delivering sustained indirect fire from behind the front lines.</p>
+</overview>
 
 <deployment>
 <p>The Assault variant entered full production at Defiance Industries on Hesperus II after Archon Trillian Steiner approved its manufacture following successful field tests. Combining a light fusion engine with an improved heavy Gauss rifle and Clan-grade missile launchers, it represents the most heavily armed SturmFeur configuration ever produced. Its mixed weapons loadout allows engagement across multiple range brackets, making it a versatile addition to modern Lyran heavy armor formations.</p>
@@ -173,4 +153,16 @@ ARMOR:Special Heavy Ferro-Fibrous
 COMMUNICATIONS:2100-b
 TARGETING:SturmFeur Highlight with BlindFire Radar
 </systemModels>
+
+<source>
+RG28
+</source>
+
+<published>
+RG28,RSFP:Battlefield
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

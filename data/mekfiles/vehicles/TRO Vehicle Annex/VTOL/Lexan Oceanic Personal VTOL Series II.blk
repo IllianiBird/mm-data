@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb42-7c1d-a49d-982cbe3e7171
+</UUID>
+
 <UnitType>
 SupportVTOL
 </UnitType>
@@ -36,10 +40,6 @@ Series II
 2621
 </year>
 
-<originalBuildYear>
-2621
-</originalBuildYear>
-
 <type>
 IS Level 2
 </type>
@@ -49,8 +49,8 @@ None
 </role>
 
 <quirks>
-imp_com
 vtol_rotor_dual
+imp_com
 </quirks>
 
 <motion_type>
@@ -122,26 +122,13 @@ ISGuardianECMSuite
 4
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-15.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-08 20:16:39
-<overview>
-<p>Lexan Oceanic is a luxury transport manufacturer with roots in the mid-twenty-first century, when the firm designed and decorated high-end properties for the wealthy elite of the Inner Sphere. Under the direction of Corrine Yeardly, the company partnered with Boeing United in 2311 to enter the personal VTOL market. The renamed United Airframe company established production facilities on New Earth and Keid, producing custom aircraft that quickly became status symbols among interstellar corporate executives and nobility.</p><p>The original Series II personal VTOL established Lexan's reputation for exclusive, fusion-powered luxury aircraft during the Star League era. The larger Series VI luxury VTOL followed centuries later in 3053, expanding the product line to serve an even more demanding clientele. Both designs cater to the ultra-wealthy, offering unlimited range and bespoke interiors unmatched by any competitor.</p>
-</overview>
-
 <capabilities>
 <p>The Series II is a medium VTOL weighing fifteen tons, powered by a compact fusion engine that gives it unlimited operational range and impressive speed. One ton of BAR 10 commercial armor provides protection comparable to standard military-grade plating, while a defensive ECM suite makes electronic detection difficult. The aircraft's six-passenger cabin is custom-fitted for each buyer, with exotic materials and appointments unique to every airframe. Foldable wings allow the Series II to be stored in a DropShip cargo bay for convenient interstellar transport.</p><p>The Series VI triples the Series II's mass at sixty tons, trading top speed for interior space and amphibious capability. Its fusion engine maintains unlimited range, while the armored and amphibious chassis allows water landings. The VI features first-class quarters, 2.5 tons of BAR 10 armor, and a 1.5-ton cargo capacity. Neither design carries armament of any kind, relying instead on speed, ECM protection, and low observability rather than firepower. The lack of weapons is a deliberate design choice, as any military hardpoints would undermine the craft's civilian certification and insurance classification.</p>
 </capabilities>
+
+<overview>
+<p>Lexan Oceanic is a luxury transport manufacturer with roots in the mid-twenty-first century, when the firm designed and decorated high-end properties for the wealthy elite of the Inner Sphere. Under the direction of Corrine Yeardly, the company partnered with Boeing United in 2311 to enter the personal VTOL market. The renamed United Airframe company established production facilities on New Earth and Keid, producing custom aircraft that quickly became status symbols among interstellar corporate executives and nobility.</p><p>The original Series II personal VTOL established Lexan's reputation for exclusive, fusion-powered luxury aircraft during the Star League era. The larger Series VI luxury VTOL followed centuries later in 3053, expanding the product line to serve an even more demanding clientele. Both designs cater to the ultra-wealthy, offering unlimited range and bespoke interiors unmatched by any competitor.</p>
+</overview>
 
 <deployment>
 <p>The Series II remains in production at United Airframe's New Earth facility, serving its original niche among corporate executives and the ultra-rich. Despite centuries of production interruptions, demand for the custom-built personal VTOL has never wavered among those who can afford it. The aircraft's compact size and foldable wings make it a practical transport option for executives who travel between worlds, allowing the VTOL to accompany its owner aboard DropShips and JumpShips.</p>
@@ -174,4 +161,16 @@ ARMOR:BAR 10 Commercial
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+15.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

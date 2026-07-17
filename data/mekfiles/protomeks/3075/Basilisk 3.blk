@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0dd-7707-8327-6814475f2ca5
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Basilisk
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -121,34 +121,13 @@ CLERMediumLaser
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-7.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Basilisk is a seven-ton second-generation ProtoMek produced by Clan Cloud Cobra to provide reliable heavy fire support for armored infantry and BattleMek formations. With firepower to match some light BattleMeks and nearly two full tons of armor protection, the Basilisk stands as a significant step up in combat capability from the lighter ProtoMek designs. Unusual for a Clan war machine, the Basilisk's trademark is sturdiness and reliability rather than speed or innovation, reflecting the Cloud Cobras' pragmatic approach to integrating ProtoMek technology into their ground forces.</p>
-</overview>
-
 <capabilities>
 <p>The Basilisk's primary armament is a full-size Mek-scale ER Medium Laser, one of the most powerful energy weapons mounted on any ProtoMek. This weapon allows the Basilisk to inflict considerable damage at ranges normally associated with light BattleMek engagements. An LRM-3 launcher in the main gun mount provides supplementary fire support with two salvos of ammunition, typically used to soften targets at long range before closing to laser range. Five heat sinks manage the substantial thermal output from the ER Medium Laser.</p><p>Thirty-eight points of armor make the Basilisk one of the most heavily protected ProtoMeks in service, capable of absorbing multiple medium weapon hits before structural compromise. The trade-off is speed: a forty-five-rated engine provides only forty-three kilometers per hour cruising speed, making the Basilisk slower than an Elemental in powered armor. Without jump jets, the design relies on its heavy armor to survive the approach to engagement range. Most Basilisk operations proceed at a slow, steady pace that contrasts sharply with standard Clan battle doctrine, but the design's exceptional protection allows this conservative approach to succeed where faster but more fragile designs would be destroyed.</p>
 </capabilities>
+
+<overview>
+<p>The Basilisk is a seven-ton second-generation ProtoMek produced by Clan Cloud Cobra to provide reliable heavy fire support for armored infantry and BattleMek formations. With firepower to match some light BattleMeks and nearly two full tons of armor protection, the Basilisk stands as a significant step up in combat capability from the lighter ProtoMek designs. Unusual for a Clan war machine, the Basilisk's trademark is sturdiness and reliability rather than speed or innovation, reflecting the Cloud Cobras' pragmatic approach to integrating ProtoMek technology into their ground forces.</p>
+</overview>
 
 <deployment>
 <p>The Basilisk 3 retains the powerful ER Medium Laser of the base model but replaces the LRM-3 and its ammunition with five extended jump jets providing one hundred fifty meters of leaping distance. These advanced jump jets allow the Basilisk 3 to cover more ground per leap than standard jump jets, significantly enhancing terrain mobility. Armor drops to thirty-one points to accommodate the extended jump jet system. This configuration allows the Basilisk 3 to bring the ER Medium Laser to bear from unexpected angles, using its enhanced jumping ability to flank targets that would otherwise exploit the design's slow ground speed. The variant represents the most recent evolution of the Basilisk line, appearing just before the HPG blackout ended regular communications with the Homeworlds.</p>
@@ -180,4 +159,16 @@ CHASSIS:Standard
 ENGINE:45
 ARMOR:Standard
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+7.0
+</tonnage>
 

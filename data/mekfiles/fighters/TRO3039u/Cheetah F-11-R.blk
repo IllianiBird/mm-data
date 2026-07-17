@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad05-74bb-bee0-c857e55f6201
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ F-11-R
 <year>
 2802
 </year>
-
-<originalBuildYear>
-2802
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -114,34 +114,13 @@ Small Laser
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>Designed by Imstar Aerospace for the Star League Defense Force and first entering production in 2630, the Cheetah is a light aerospace fighter built for speed above all else. Weighing just twenty-five tons, it was conceived as a fast reconnaissance and light strike platform capable of outrunning virtually any opponent. After the fall of the Star League, the Free Worlds League adopted the Cheetah as their standard light fighter, retooling several factories to continue production. The design has since earned a reputation as a reliable workhorse of FWLM aero formations, prized for its blistering acceleration and versatility despite its fragile armor protection.</p>
-</overview>
-
 <capabilities>
 <p>The Cheetah's defining characteristic is its extraordinary acceleration. A GM 250-a fusion engine drives the fighter to a maximum thrust of nine gravities with a safe thrust rating of six, making it among the fastest aerospace fighters in existence. This speed is essential, as the baseline F-10 carries only three tons of standard armor, meaning a single well-placed hit from a heavy weapon can prove catastrophic. Four tons of fuel provide adequate operational range for patrol and escort missions.</p><p>The F-10's armament consists of a nose-mounted Starflash I small laser and a Starflash II medium laser in each wing, giving the Cheetah respectable firepower for a fighter of its size. The all-laser loadout eliminates ammunition dependency, allowing extended engagements without logistical concerns. Pilots have long debunked two persistent myths about the design: the GM 250-a does not consume more fuel than comparable engines, and the fighter handles atmosphere just as well as vacuum, though its extreme acceleration profiles remain physically punishing regardless of operating environment.</p>
 </capabilities>
+
+<overview>
+<p>Designed by Imstar Aerospace for the Star League Defense Force and first entering production in 2630, the Cheetah is a light aerospace fighter built for speed above all else. Weighing just twenty-five tons, it was conceived as a fast reconnaissance and light strike platform capable of outrunning virtually any opponent. After the fall of the Star League, the Free Worlds League adopted the Cheetah as their standard light fighter, retooling several factories to continue production. The design has since earned a reputation as a reliable workhorse of FWLM aero formations, prized for its blistering acceleration and versatility despite its fragile armor protection.</p>
+</overview>
 
 <deployment>
 <p>The F-11-R is a dedicated reconnaissance variant dating to 2802, stripping the medium lasers in favor of two additional tons of fuel. With only a single small laser for self-defense, this variant is not intended for direct combat and relies entirely on its blistering speed and extended range to complete deep observation missions and return safely to base.</p>
@@ -174,4 +153,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Lassitor-3QS
 TARGETING:IMB SYS 3600
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

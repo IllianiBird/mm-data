@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb81-779a-91c5-b60821553625
+</UUID>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Prairie Schooner Land Train
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -121,30 +121,13 @@ ISOffRoadChassis
 4
 </engine_tech_rating>
 
-<source>
-TR:VAr,TP:Irian
-</source>
-
-<published>
-TR:VAr,TP:Irian
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Prairie Schooner Land Train is a large wheeled support vehicle produced by Johnston Industries on New Syrtis, introduced in 3058. Johnston engineers drew on manufacturing data recovered from the Helm Memory Core to develop the design, including the techniques needed to build its fusion powerplant. Conceived for developing worlds lacking reliable rail or air networks, the ninety-ton tractor connects with up to three modular trailer units to form a complete land train capable of moving bulk cargo across hundreds of kilometers of undeveloped terrain. It quickly established itself as a commercial workhorse across the Capellan March, linking remote agricultural and mining communities to regional distribution centers. While not a military design, the Prairie Schooner's carrying capacity and cross-country mobility have occasionally drawn it into logistics support roles during wartime.</p>
-</overview>
-
 <capabilities>
 <p>The Prairie Schooner tractor is built on a heavy wheeled large vehicle chassis with tractor and off-road modifications, enabling reliable mobility across the rough terrain typical of frontier worlds. Its fusion powerplant provides an effectively unlimited operational range, which is its most significant advantage over petrochemical competitors. The trade-off is cost: at roughly half a million C-bills for a complete land train, the Prairie Schooner is well outside the budget of smaller operators who can manage with less capable alternatives.</p><p>The tractor carries 17 tons of cargo in its main bay, accessible through a single rear door, and the bay serves as a warm hold by default for general freight. Its self-righting technology allows the vehicle to recover from rollovers in all but the most severe accidents, a feature that adds operational confidence on uneven ground. Operator quarters accommodate a second crew member for extended journeys without resupply stops.</p><p>Six and a half tons of light composite armor provide protection against environmental hazards and minor threats common on undeveloped worlds, though the tractor carries no weapons from the factory. Customers on worlds with significant predator populations frequently add remotely operated light weapon blisters, typically armed with small arms or light support weapons. The Prairie Schooner is not designed to withstand military-grade weapons fire, and operators are advised to withdraw well before combat reaches their position.</p>
 </capabilities>
+
+<overview>
+<p>The Prairie Schooner Land Train is a large wheeled support vehicle produced by Johnston Industries on New Syrtis, introduced in 3058. Johnston engineers drew on manufacturing data recovered from the Helm Memory Core to develop the design, including the techniques needed to build its fusion powerplant. Conceived for developing worlds lacking reliable rail or air networks, the ninety-ton tractor connects with up to three modular trailer units to form a complete land train capable of moving bulk cargo across hundreds of kilometers of undeveloped terrain. It quickly established itself as a commercial workhorse across the Capellan March, linking remote agricultural and mining communities to regional distribution centers. While not a military design, the Prairie Schooner's carrying capacity and cross-country mobility have occasionally drawn it into logistics support roles during wartime.</p>
+</overview>
 
 <deployment>
 <p>Prairie Schooner Land Train tractors operate across frontier and underdeveloped worlds throughout the Inner Sphere, with the heaviest concentrations in the Capellan March and adjacent regions. Civilian operations focus on bulk cargo transport between isolated settlements and regional hubs, with common payloads including grain, ore, manufactured goods, and construction materials.</p><p>Military logistics units in multiple factions have conscripted or contracted Prairie Schooners for rear-echelon supply work, particularly in operational areas where road infrastructure is limited and refueling is impractical. Operators on hostile worlds routinely add light weapon systems to their tractors for defense against wildlife and low-level bandit threats.</p>
@@ -177,4 +160,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr,TP:Irian
+</source>
+
+<published>
+TR:VAr,TP:Irian
+</published>
+
+<tonnage>
+90.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

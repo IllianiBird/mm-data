@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e47f-73c3-aa63-81fedb26487a
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Sprint Scout Helicopter
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -102,26 +102,13 @@ troopspace:2.5
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The Sprint Scout Helicopter is a 10-ton VTOL reconnaissance platform first produced by Michaelson Heavy Industries of Ruchbah in 3052. Designed to answer the immediate demands of the Clan invasion, the Sprint was built to track fast-moving Clan formations and relay artillery targeting data to support batteries. Its combination of a Beagle Active Probe, Target Acquisition Gear, and extreme speed made it effective from the outset, and within a few years of its introduction, the design had spread far beyond its original Federated Commonwealth customer base. Inner Sphere militaries across multiple Great Houses adopted it as a standard reconnaissance asset. The Sprint carries only one ton of ferro-fibrous protection, a deliberate trade-off that keeps the airframe light enough to achieve the speed its survival depends on.</p>
-</overview>
-
 <capabilities>
 <p>The Sprint's capabilities center entirely on its electronics suite. The Beagle Active Probe allows it to detect concealed enemy units at extended range, while the Target Acquisition Gear provides precise targeting coordinates to waiting artillery batteries. The Johnston Wide Band communications system transmits that data reliably across the battlefield. Together these systems make the Sprint one of the most effective unarmed reconnaissance and fire support coordination platforms in Inner Sphere service.</p><p>Power comes from a Galas Lightpower 80 fusion engine, which drives the Sprint to a cruising speed of 140 kph and a flank speed of 216 kph. Speed is not a luxury but a necessity, because the craft carries only one ton of StarSlab/1 ferro-fibrous armor. That protection is sufficient against small arms fire but offers no meaningful resistance to heavier weapons. Any pilot who allows the Sprint to loiter within range of direct fire weapons is accepting severe attrition risk.</p><p>The Sprint carries no armament. This was a deliberate design choice, and it represents the platform's defining trade-off. The mass saved by omitting weapons goes directly into the electronics suite and engine. Commanders who deploy Sprints must plan accordingly, as these helicopters cannot defend themselves and rely entirely on speed and terrain management to survive contact with enemy forces.</p>
 </capabilities>
+
+<overview>
+<p>The Sprint Scout Helicopter is a 10-ton VTOL reconnaissance platform first produced by Michaelson Heavy Industries of Ruchbah in 3052. Designed to answer the immediate demands of the Clan invasion, the Sprint was built to track fast-moving Clan formations and relay artillery targeting data to support batteries. Its combination of a Beagle Active Probe, Target Acquisition Gear, and extreme speed made it effective from the outset, and within a few years of its introduction, the design had spread far beyond its original Federated Commonwealth customer base. Inner Sphere militaries across multiple Great Houses adopted it as a standard reconnaissance asset. The Sprint carries only one ton of ferro-fibrous protection, a deliberate trade-off that keeps the airframe light enough to achieve the speed its survival depends on.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3056, the Troop Transport variant removes the entire reconnaissance electronics suite to accommodate a 2.5-ton infantry bay. This version sacrifices all of the qualities that made the standard Sprint effective and turns it into a pure emergency rapid deployment transport. Its extreme speed gives infantry units an insertion capability against time-sensitive objectives, though the light airframe offers minimal protection to passengers during a contested approach. Best suited for clandestine insertions or extractions rather than direct assault roles.</p>
@@ -154,4 +141,16 @@ ARMOR:StarSlab/1
 COMMUNICATIONS:Wide Band
 TARGETING:OptiSight-12
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+10.0
+</tonnage>
 

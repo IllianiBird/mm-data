@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e705-76d9-a747-9c94549ca1f5
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Pandion Combat WiGE
 <year>
 3078
 </year>
-
-<originalBuildYear>
-3078
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -103,22 +103,13 @@ ISTAG
 ISC3SlaveUnit
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 21:44:37
-<overview>
-<p>The Pandion Combat WiGE is a light ground-effect combat vehicle developed by General Motors for the Armed Forces of the Federated Suns. Introduced in 3078, the design emerged during the Jihad era as GM sought to maintain revenue while its heavier production lines were being rebuilt. Marketed as a cross between a fast transport and an armed hovercraft, the Pandion fills a scouting and skirmishing role at a fraction of the cost of comparable light vehicles.</p><p>The design takes advantage of well-proven WiGE technology and simple construction techniques, allowing GM to produce the Pandion at high volume with minimal specialized tooling. Conservative estimates suggest the company can manufacture three Pandions for every heavier combat vehicle that rolls off its assembly lines.</p>
-</overview>
-
 <capabilities>
 <p>The Pandion relies on a GM 120 extralight fusion engine to achieve a maximum speed of 162 kilometers per hour, making it one of the faster light combat vehicles in Federated Suns service. A pair of Bright Bloom extended-range medium lasers mounted in the turret serve as the primary armament, supplemented by a Hovertec Streak short-range missile rack that ensures efficient ammunition use. A GM Trackmaster VIII targeting and tracking system ties all three weapons together for precise fire allocation, and its integrated Beagle active probe allows the Pandion to detect hidden or shut-down units during reconnaissance patrols.</p><p>The choice of the Garret Supremesound communications suite has drawn some scrutiny. While perfectly serviceable, the system is an older model that lacks certain modern amenities. Four tons of ferro-fibrous armor are distributed to allow the Pandion to withstand a direct particle cannon strike on any facing without a breach, a respectable level of protection for a vehicle of its weight class. The WiGE's reliance on ground-effect flight limits its operational flexibility over rough or heavily obstructed terrain, a notable trade-off for its speed and low production cost.</p>
 </capabilities>
+
+<overview>
+<p>The Pandion Combat WiGE is a light ground-effect combat vehicle developed by General Motors for the Armed Forces of the Federated Suns. Introduced in 3078, the design emerged during the Jihad era as GM sought to maintain revenue while its heavier production lines were being rebuilt. Marketed as a cross between a fast transport and an armed hovercraft, the Pandion fills a scouting and skirmishing role at a fraction of the cost of comparable light vehicles.</p><p>The design takes advantage of well-proven WiGE technology and simple construction techniques, allowing GM to produce the Pandion at high volume with minimal specialized tooling. Conservative estimates suggest the company can manufacture three Pandions for every heavier combat vehicle that rolls off its assembly lines.</p>
+</overview>
 
 <deployment>
 <p>The C3 variant strips both extended-range medium lasers to install a TAG designator in place of the starboard weapon and a C3 slave computer where the port laser was mounted. Fake barrel housings fill the empty turret positions, rendering the vehicle externally identical to both the standard and infantry models. This cosmetic subterfuge allows C3 Pandions to operate as forward spotters without drawing disproportionate fire from enemy units.</p>
@@ -151,4 +142,12 @@ ARMOR:StarSlab/4 Ferro-Fibrous
 COMMUNICATIONS:Supremesound
 TARGETING:Trackmaster VIII with Beagle Active Probe
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<tonnage>
+20.0
+</tonnage>
 

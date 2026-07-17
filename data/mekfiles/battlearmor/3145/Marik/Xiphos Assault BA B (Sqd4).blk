@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a696-7394-b229-06e85904cb9f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ B(Sqd4)
 <year>
 3116
 </year>
-
-<originalBuildYear>
-3116
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -88,44 +88,15 @@ BABasicManipulator:RA
 
 <slotless_equipment>
 BAJumpJet
-BA-SRM1 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3145:FWL,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-15
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 20:20:42
-<overview>
-<p>The Xiphos, named for an ancient Greek double-edged sword, was developed by Irian Technologies for the Marik-Stewart Commonwealth. Entering service in 3116, the assault-class battle armor was designed to protect infantry against artillery bombardment, one of the most effective countermeasures against powered armor formations. Weighing two thousand kilograms, the Xiphos carries specialized protective plating and an advanced communications suite resistant to electronic countermeasures. Three standard weapon configurations offer flexibility ranging from ballistic firepower to thermal detection and area denial. The suit earned a strong reputation for durability and reliable performance across both defensive and offensive operations.</p>
-</overview>
 
 <capabilities>
 <p>The Xiphos mounts close to a full ton of reactive armor, providing assault-class protection with particular resistance to explosive munitions and indirect fire. A basic manipulator on the right arm allows limited object handling, while modular weapon mounts on both arms give the suit configuration flexibility. An improved communications system allows battlefield coordination even under active electronic countermeasures.</p><p>Configuration B replaces the ballistic weapons with a plasma rifle and a one-shot short-range missile launcher. The plasma rifle generates extreme heat on impact, forcing BattleMech pilots to manage rising thermal loads while dealing significant damage to conventional infantry and light armor. The single SRM round provides an opening salvo, allowing troopers to soften targets before closing to plasma range. This loadout makes the B configuration particularly dangerous to units that rely on heat management for combat effectiveness. The plasma rifle’s twenty-round ammunition supply provides enough endurance for sustained engagements, and the combination of heat-inducing weapons with the suit’s heavy armor makes this configuration effective in close-quarters combat.</p>
 </capabilities>
+
+<overview>
+<p>The Xiphos, named for an ancient Greek double-edged sword, was developed by Irian Technologies for the Marik-Stewart Commonwealth. Entering service in 3116, the assault-class battle armor was designed to protect infantry against artillery bombardment, one of the most effective countermeasures against powered armor formations. Weighing two thousand kilograms, the Xiphos carries specialized protective plating and an advanced communications suite resistant to electronic countermeasures. Three standard weapon configurations offer flexibility ranging from ballistic firepower to thermal detection and area denial. The suit earned a strong reputation for durability and reliable performance across both defensive and offensive operations.</p>
+</overview>
 
 <deployment>
 <p>Commonwealth four-trooper squads equipped with the B configuration specialized in anti-vehicle and anti-BattleMech operations. These squads were often held in reserve during defensive engagements, deploying forward once enemy armor committed to the assault. The plasma rifle’s heat-inducing effects proved effective at disrupting vehicle crews and forcing BattleMech pilots into difficult thermal management during close-quarters fighting.</p>
@@ -158,4 +129,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+15
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

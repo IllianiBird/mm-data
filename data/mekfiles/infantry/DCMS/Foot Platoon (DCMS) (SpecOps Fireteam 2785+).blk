@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bbe9-7a74-806c-9ee76685a40e
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Foot Platoon (DCMS)
 <year>
 2785
 </year>
-
-<originalBuildYear>
-2785
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -56,7 +56,9 @@ DEST Infiltration Suit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Combine's martial traditions extend beyond the BattleMech cockpit, and the Dictum Honorium demands that all citizens contribute their talents to the defense of House Kurita. Infantry soldiers of the DCMS embody that expectation on garrison worlds across the realm. Foot infantry are the cheapest troops the DCMS can field, and the Combine fields them in enormous numbers. Every military district maintains garrison formations whose sole purpose is holding ground that BattleMech regiments cannot occupy permanently. Slow and vulnerable in open terrain, these soldiers prove their worth through discipline and endurance, standing post on worlds across the Combine because the Dragon demands nothing less. Armed with standard assault rifles, the cheapest and most widely manufactured personal weapon in the Inner Sphere. Effective range is limited, but any world with basic industry can produce and stockpile them in quantity, and resupply is rarely a concern even on remote garrison posts. These special operations fireteams are trained for reconnaissance, sabotage, and direct action behind enemy lines. Small, quiet, and lethal, they accomplish objectives through stealth and precision that larger formations cannot approach without detection.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date for DEST stealth suit. Slightly oversized squads selected for minimum anti-Mek capability.
@@ -89,9 +91,4 @@ true
 <specialization>
 512
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Combine's martial traditions extend beyond the BattleMech cockpit, and the Dictum Honorium demands that all citizens contribute their talents to the defense of House Kurita. Infantry soldiers of the DCMS embody that expectation on garrison worlds across the realm. Foot infantry are the cheapest troops the DCMS can field, and the Combine fields them in enormous numbers. Every military district maintains garrison formations whose sole purpose is holding ground that BattleMech regiments cannot occupy permanently. Slow and vulnerable in open terrain, these soldiers prove their worth through discipline and endurance, standing post on worlds across the Combine because the Dragon demands nothing less. Armed with standard assault rifles, the cheapest and most widely manufactured personal weapon in the Inner Sphere. Effective range is limited, but any world with basic industry can produce and stockpile them in quantity, and resupply is rarely a concern even on remote garrison posts. These special operations fireteams are trained for reconnaissance, sabotage, and direct action behind enemy lines. Small, quiet, and lethal, they accomplish objectives through stealth and precision that larger formations cannot approach without detection.</p>
-</overview>
 

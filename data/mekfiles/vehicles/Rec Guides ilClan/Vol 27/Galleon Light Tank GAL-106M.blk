@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9a6-7443-bcee-2509449c6aa8
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ GAL-106M
 <year>
 3140
 </year>
-
-<originalBuildYear>
-3140
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -114,33 +114,13 @@ Machine Gun(ST)
 ISERMediumLaser
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG27
-</source>
-
-<published>
-RG27,RS:MERCS
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 11:22:50
-<overview>
-<p>The Galleon Light Tank entered service with the Free Worlds League in 2692, designed by Brooks Incorporated as an economical solution for providing infantry and BattleMech formations with mobile combat support. Produced at multiple plants across the League and on Capellan worlds under license, the Galleon quickly established itself as one of the more affordable light tanks of the Star League era. Its tracked configuration prioritized reliability over terrain flexibility, and its combination of speed and modest firepower made it useful across a wide range of support roles. After the Exodus, the tank spread broadly across the Inner Sphere, with large numbers falling into the hands of the Draconis Combine and the Free Worlds League. It remained in continuous production in various forms through the ilClan era, proof of the sound engineering of the original Brooks platform and its adaptability to radically different operational requirements.</p>
-</overview>
-
 <capabilities>
 <p>The GAL-100 uses a GTEM 180 ICE engine to achieve a top speed of approximately 97 kilometers per hour, fast enough to outpace most BattleMechs of comparable weight class. Its armament consists of a single Jackson Model 17 medium laser mounted in the turret and two Model 12 small lasers in side-facing positions. These weapons are produced by Jackson Armaments, a wholly owned subsidiary of Brooks Incorporated, and provide reasonable anti-infantry and light anti-armor capability. The tank carries three and a half tons of StarSlab ferro-fibrous armor, adequate against small arms and light weapons but vulnerable to sustained fire from heavier designs.</p><p>The Galleon's principal trade-off is its limited protection. Against most BattleMechs the vehicle relies on speed and maneuvering rather than durability, and it suffers badly when forced into sustained engagements against heavier tanks. The ICE power plant requires integrated power amplifiers to drive the laser armament. The GAL-102 addressed many of these shortcomings by replacing the ICE with a fusion engine, adding ferro-fibrous armor protection, upgrading to pulse and medium laser armament, and fitting a Beagle Active Probe, substantially improving the design's sustained combat capability and reconnaissance value.</p>
 </capabilities>
+
+<overview>
+<p>The Galleon Light Tank entered service with the Free Worlds League in 2692, designed by Brooks Incorporated as an economical solution for providing infantry and BattleMech formations with mobile combat support. Produced at multiple plants across the League and on Capellan worlds under license, the Galleon quickly established itself as one of the more affordable light tanks of the Star League era. Its tracked configuration prioritized reliability over terrain flexibility, and its combination of speed and modest firepower made it useful across a wide range of support roles. After the Exodus, the tank spread broadly across the Inner Sphere, with large numbers falling into the hands of the Draconis Combine and the Free Worlds League. It remained in continuous production in various forms through the ilClan era, proof of the sound engineering of the original Brooks platform and its adaptability to radically different operational requirements.</p>
+</overview>
 
 <deployment>
 <p>Introduced in 3140, the GAL-106M adapts the GAL-106 chassis for infantry transport duty while retaining its hardened armor protection and high speed. The weapons suite is simplified to an ER medium laser in the turret and machine guns in the sponsons, with a four-ton infantry bay added for a single squad of battle armor troops. CASE protects the ammunition bays. The Maxwell Planetary Defense Consortium produces this variant exclusively, targeting smaller planetary defense forces that need an armored personnel carrier with better survivability than standard transport designs at a price point below dedicated battle armor carriers.</p>
@@ -173,4 +153,16 @@ ARMOR:675 Hardened
 COMMUNICATIONS:500
 TARGETING:TA50
 </systemModels>
+
+<source>
+RG27
+</source>
+
+<published>
+RG27,RS:MERCS
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

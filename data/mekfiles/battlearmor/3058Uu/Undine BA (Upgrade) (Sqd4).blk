@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a35d-74d0-b4d7-ac6b9fe480fb
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Undine Battle Armor
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -86,38 +86,14 @@ BABattleClaw:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-8
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Undine battle armor is a medium-weight underwater combat suit developed by Clan Goliath Scorpion. A direct descendant of the Water Elemental mining suit that spawned all Clan battle armor, the Undine was the first purpose-built military adaptation of the original exoskeleton's aquatic design. Entering service in 3059, the suit gave its operators unmatched combat capability in underwater and amphibious environments. Armed with a dual-purpose weapon system effective both above and below the waterline, the Undine filled a niche that no other Clan battle armor addressed. Its specialized nature limited broader adoption, but for those who mastered underwater warfare, the Undine had no equal.</p>
-</overview>
 
 <capabilities>
 <p>The Upgrade variant trades the Undine's underwater specialization for land combat effectiveness. Jump jets replace the underwater maneuvering units, giving the suit a ninety-meter jump range matching the standard Elemental. This modification allows the Upgrade to operate alongside Elemental Points in conventional ground operations, filling a fire support role that complements the heavier suit's assault capabilities.</p><p>The ER Micro Laser is retained, but the amphibious LRM-5 is replaced with an LRM-3 launcher carrying either four reloads of standard missiles or two reloads of torpedo-capable ammunition. A thirty-kilogram armored cargo bay replaces the searchlight, providing field utility. Armor protection remains unchanged from the base model at two hundred kilograms. The Upgrade sacrifices everything that made the original Undine dominant in underwater combat, but gains meaningful flexibility as a light fire support platform. Its ability to keep pace with standard Elemental formations and deliver indirect missile fire makes it a practical complement to established Clan battle armor doctrine.</p>
 </capabilities>
+
+<overview>
+<p>The Undine battle armor is a medium-weight underwater combat suit developed by Clan Goliath Scorpion. A direct descendant of the Water Elemental mining suit that spawned all Clan battle armor, the Undine was the first purpose-built military adaptation of the original exoskeleton's aquatic design. Entering service in 3059, the suit gave its operators unmatched combat capability in underwater and amphibious environments. Armed with a dual-purpose weapon system effective both above and below the waterline, the Undine filled a niche that no other Clan battle armor addressed. Its specialized nature limited broader adoption, but for those who mastered underwater warfare, the Undine had no equal.</p>
+</overview>
 
 <deployment>
 <p>The Upgrade variant's land mobility opened the Undine to broader Inner Sphere adoption. Four-trooper squads employed the suit as a light fire support element, pairing it with heavier battle armor in combined-arms formations. The jump-capable Upgrade proved far more attractive to Inner Sphere militaries than the aquatic-only base model, offering genuine tactical flexibility on conventional battlefields.</p>
@@ -152,4 +128,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+8
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

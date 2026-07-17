@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e79e-727b-b043-1a34a0ad924d
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Anat APC
 <year>
 3092
 </year>
-
-<originalBuildYear>
-3092
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -109,26 +109,13 @@ CLMicroPulseLaser
 CLMicroPulseLaser
 </Turret Equipment>
 
-<source>
-TR:3145:C,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-03-01 12:28:32
-<overview>
-<p>The Anat is a twenty-five ton wheeled armored personnel carrier designed by Clan Hell's Horses and first produced in 3092 at Swedenborg Heavy Industries on Kirchbach. Named for an ancient Semitic war goddess, the vehicle was conceived to serve the Horses' combined-arms doctrine by delivering infantry rapidly across varied terrain. The Anat fills a tactical niche between heavier tracked transports and faster but more terrain-limited hovercraft, offering a balance of speed and cross-country capability that has proven appealing well beyond its originating Clan. Extensive trade through Clan Sea Fox merchant networks and direct exchanges with Clan Wolf-in-Exile has spread the Anat throughout the Inner Sphere, making it one of the most widely distributed Clan-origin vehicles of the Dark Age period.</p>
-</overview>
-
 <capabilities>
 <p>Powered by a Fuel Cell 180 engine, the Anat achieves a maximum speed of 129 kilometers per hour, making it one of the faster armored transports in service. Its wheeled chassis provides superior cross-country performance compared to hovercraft when operating in broken or wooded terrain, while limited amphibious equipment allows the vehicle to ford rivers and shallow waterways without difficulty. These qualities make the Anat well suited for keeping attached infantry at the forefront of rapidly advancing formations.</p><p>Protection comes from three and a half tons of "Magnum" Ferro-Fibrous Composite armor, sufficient to shrug off small arms fire and light weapons but inadequate against sustained 'Mech-scale engagement. Offensive armament consists of only two turret-mounted Raid Micro Pulse Lasers, effective against unarmored infantry and soft targets but posing little threat to vehicles or BattleMechs. The five-ton infantry bay can accommodate a standard infantry platoon. These limitations mean the Anat requires escort from heavier combat assets when operating near active battlefields, a trade-off the Horses accept in exchange for its speed and versatility.</p>
 </capabilities>
+
+<overview>
+<p>The Anat is a twenty-five ton wheeled armored personnel carrier designed by Clan Hell's Horses and first produced in 3092 at Swedenborg Heavy Industries on Kirchbach. Named for an ancient Semitic war goddess, the vehicle was conceived to serve the Horses' combined-arms doctrine by delivering infantry rapidly across varied terrain. The Anat fills a tactical niche between heavier tracked transports and faster but more terrain-limited hovercraft, offering a balance of speed and cross-country capability that has proven appealing well beyond its originating Clan. Extensive trade through Clan Sea Fox merchant networks and direct exchanges with Clan Wolf-in-Exile has spread the Anat throughout the Inner Sphere, making it one of the most widely distributed Clan-origin vehicles of the Dark Age period.</p>
+</overview>
 
 <deployment>
 <p>Anats are found in nearly every garrison and second-line Cluster of Clan Hell's Horses, and regularly deploy with frontline Clusters that embraced the original pre-Malvina Mongol doctrine. They are also widely distributed around the Inner Sphere, with Clan Sea Fox acting as middlemen for Republic and mercenary purchasers. The Horses conduct their own direct trade with the Wolves-in-Exile, who have also procured Anats for their Lyran hosts. The Capellan occupation of much of the rimward Republic has brought large numbers of these APCs into Capellan hands as well.</p>
@@ -163,4 +150,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Build 1685 Tacticom
 TARGETING:Series VI Integrated TTS
 </systemModels>
+
+<source>
+TR:3145:C,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

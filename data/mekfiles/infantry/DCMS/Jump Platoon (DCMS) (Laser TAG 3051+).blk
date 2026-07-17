@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bbf6-78d2-b732-6f43ace74fdb
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Jump Platoon (DCMS)
 <year>
 3051
 </year>
-
-<originalBuildYear>
-3051
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Draconis Combine Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Draconis Combine Mustered Soldiery assigns conventional infantry to garrison roles across its military districts, with district regulars often fielding extra platoons to secure worlds that BattleMech forces cannot permanently garrison. Jump infantry carry jump packs that make them the most mobile troops in the DCMS inventory for urban and broken terrain fighting. The ability to bypass obstacles and seize elevated positions gives these platoons a tactical value that district commanders prize, particularly on heavily built-up garrison worlds where conventional movement is restricted. Equipped with laser rifles that outrange and outpenetrate ballistic weapons at every engagement distance. The cost is significant: laser rifles are expensive to procure, and each soldier must carry additional power packs that add weight and logistical burden. Where the budget allows, they are worth every C-bill. These TAG specialists carry laser designators that paint targets for guided munitions delivered by artillery, aerospace assets, or missile units. Their personal weapons are secondary. The real firepower they command arrives from kilometers away.</p>
+</overview>
 
 <notes>
 Intro date based on re-introduction date of man-portable TAG weapon
@@ -76,9 +78,4 @@ Laser Rifle (Magna)
 <specialization>
 1024
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Draconis Combine Mustered Soldiery assigns conventional infantry to garrison roles across its military districts, with district regulars often fielding extra platoons to secure worlds that BattleMech forces cannot permanently garrison. Jump infantry carry jump packs that make them the most mobile troops in the DCMS inventory for urban and broken terrain fighting. The ability to bypass obstacles and seize elevated positions gives these platoons a tactical value that district commanders prize, particularly on heavily built-up garrison worlds where conventional movement is restricted. Equipped with laser rifles that outrange and outpenetrate ballistic weapons at every engagement distance. The cost is significant: laser rifles are expensive to procure, and each soldier must carry additional power packs that add weight and logistical burden. Where the budget allows, they are worth every C-bill. These TAG specialists carry laser designators that paint targets for guided munitions delivered by artillery, aerospace assets, or missile units. Their personal weapons are secondary. The real firepower they command arrives from kilometers away.</p>
-</overview>
 

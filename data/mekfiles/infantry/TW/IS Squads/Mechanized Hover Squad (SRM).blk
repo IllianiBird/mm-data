@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-c047-71ea-b8b6-279c80cd3fcf
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,10 +36,6 @@ Mechanized Hover Squad
 2370
 </year>
 
-<originalBuildYear>
-2370
-</originalBuildYear>
-
 <type>
 IS Level 2
 </type>
@@ -50,6 +50,10 @@ Generic Infantry Kit
 
 <Field Guns Equipment>
 </Field Guns Equipment>
+
+<overview>
+<p>Mechanized hover squads transport a squad-strength infantry element in hovercraft for high-speed operations across open terrain and water. These small, fast formations excel at coastal surveillance, riverine patrol, and rapid flanking actions where their amphibious capability and speed compensate for limited troop numbers. The hovercraft provides some protection during transit but struggles in dense terrain, and the squad lacks the sustained combat power of a full platoon.</p>
+</overview>
 
 <source>
 TW
@@ -74,9 +78,4 @@ InfantryAssaultRifle
 <Secondary>
 InfantryHeavySRM
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Mechanized hover squads transport a squad-strength infantry element in hovercraft for high-speed operations across open terrain and water. These small, fast formations excel at coastal surveillance, riverine patrol, and rapid flanking actions where their amphibious capability and speed compensate for limited troop numbers. The hovercraft provides some protection during transit but struggles in dense terrain, and the squad lacks the sustained combat power of a full platoon.</p>
-</overview>
 

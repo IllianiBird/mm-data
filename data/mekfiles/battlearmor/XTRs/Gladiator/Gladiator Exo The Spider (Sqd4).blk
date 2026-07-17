@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a933-7eea-a904-feb7ea53cb15
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gladiator Exoskeleton
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -91,42 +91,14 @@ BAMechanicalJumpBooster:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Gladiators
-</source>
-
-<published>
-XTR:Gladiators
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Gladiator is a combat exoskeleton produced by Solaris Arms for the Class One fighting circuit on Solaris VII. Introduced in 3056, the 200-kilogram suit was designed to give pit fighters a sturdy, affordable platform capable of mounting a wide range of melee weaponry and handheld infantry arms. Its rugged construction and ease of maintenance made it well-suited to the brutal demands of arena competition, where fighters operated on tight budgets and equipment took constant punishment. The Gladiator earned a reputation as the workhorse of the Class One circuit, with its distinctive armored profile becoming a familiar sight in the lower tiers of Solaris competition.</p>
-</overview>
 
 <capabilities>
 <p>Abasi Oteke's personal exoskeleton pushes the Gladiator platform to its limits. At 400 kilograms, 'The Spider' is twice the mass of the standard model, with that additional weight devoted to specialized combat systems. A battle vibro-claw on the right arm delivers significant melee damage, while the left arm retains an armored glove for grappling and weapon handling. Magnetic clamps fitted to the suit's elbows and knees allow the pilot to adhere to metal surfaces, a feature that initially puzzled opponents until its purpose became clear. Prototype mechanical jump boosters, downscaled from BattleMech-grade systems by Solaris Arms, provide short vertical leaps that combine with the magnetic clamps to turn overhead structures into ambush positions. Standard armor protection keeps the suit's defensive profile modest. The configuration's weakness is its extreme specialization. 'The Spider' was built for one pilot's fighting style in one specific arena environment, and its effectiveness diminishes outside that context.</p>
 </capabilities>
+
+<overview>
+<p>The Gladiator is a combat exoskeleton produced by Solaris Arms for the Class One fighting circuit on Solaris VII. Introduced in 3056, the 200-kilogram suit was designed to give pit fighters a sturdy, affordable platform capable of mounting a wide range of melee weaponry and handheld infantry arms. Its rugged construction and ease of maintenance made it well-suited to the brutal demands of arena competition, where fighters operated on tight budgets and equipment took constant punishment. The Gladiator earned a reputation as the workhorse of the Class One circuit, with its distinctive armored profile becoming a familiar sight in the lower tiers of Solaris competition.</p>
+</overview>
 
 <deployment>
 <p>As a one-of-a-kind custom exoskeleton, 'The Spider' was never fielded in organized squad formations. The four-trooper configuration exists as a theoretical deployment option, reflecting how Inner Sphere forces might organize multiple copies of the design if they were ever produced. Oteke's original suit operated as a solo arena combatant in the Class One pits of Solaris VII.</p>
@@ -161,4 +133,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Gladiators
+</source>
+
+<published>
+XTR:Gladiators
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

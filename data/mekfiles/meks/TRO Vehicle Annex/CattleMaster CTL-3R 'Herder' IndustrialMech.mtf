@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-ddda-729d-9d74-f26396209641
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:CattleMaster
 model:CTL-3R 'Herder' IndustrialMech
 mul id:3905
@@ -28,6 +29,7 @@ published:RS:VA
 rules level:2
 role:None
 
+quirk:easy_pilot
 
 mass:25
 engine:100 ICE Engine
@@ -35,8 +37,6 @@ structure:IS Industrial
 myomer:Standard
 cockpit:Industrial Cockpit
 gyro:Standard Gyro
-
-quirk:easy_pilot
 
 heat sinks:0 Single
 walk mp:4
@@ -169,7 +169,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The CattleMaster is a twenty-five-ton IndustrialMech designed for livestock management on frontier agricultural worlds. The concept for rancher 'Mechs dates back to the twenty-fourth century, when colonists discovered that many garden worlds harbored large and sometimes dangerous native species alongside imported Terran livestock. Introduced in 3024 by Rastaban Agricultural on the Lyran Commonwealth world of Duran, the CattleMaster gave small ranching operations the ability to manage herds across vast planetary prairies.</p><p>Rugged enough for the harsh conditions of frontier ranching while remaining affordable for family-owned operations, the design proved an immediate success. The CattleMaster's popularity spread rapidly across Lyran agricultural worlds, becoming a fixture on planets like Cerillos, Galisteo, and Sierra, and making Rastaban Agricultural one of the most prolific IndustrialMech manufacturers in the Inner Sphere despite the company having no prior involvement in 'Mech production of any kind.</p>
 
 capabilities:<p>The CattleMaster's design philosophy prioritizes durability and operational independence over sophistication. The Rastaban Agro chassis is built to withstand the rigors of open-range work, including impacts from charging livestock and exposure to harsh weather conditions. Its Jones 100 internal combustion engine is a deliberate cost-saving choice, allowing operators to fuel the machine with locally refined petroleum products rather than depending on expensive fusion technology. The ability to use even the most unrefined fuels (including rendered animal byproducts) makes the CattleMaster remarkably self-sufficient in remote areas.</p><p>The cockpit layout borrows from the Chameleon training 'Mech, providing operators with familiar controls, though without military-grade electronics or an ejection seat. This design earns the CattleMaster its reputation as easy to pilot, making it accessible to ranchers with minimal training. Industrial armor plating protects the chassis from damage at the hands of an inexperienced operator or from a charging bull, while the 'Mech's ground speed of approximately sixty-five kilometers per hour keeps pace with most herd animals.</p><p>The base Herder configuration carries a retractable blade in the right arm for utility work and a powerful searchlight for operations in low-light conditions. A three-ton cargo bay in the left torso allows operators to carry supplies for extended periods away from their homesteads. The design particularly lacks any targeting systems, reflecting its purely civilian purpose.</p>
@@ -181,6 +180,8 @@ history:<p>The CattleMaster's origins trace to the twenty-fourth century, when t
 manufacturer:Rastaban Agricultural Products
 
 primaryfactory:Duran
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Rastaban
 systemmode:CHASSIS:Agro

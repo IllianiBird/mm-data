@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e429-7c84-967f-0b85f400a1d4
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Manticore Heavy Tank
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -107,33 +107,13 @@ SRM 6
 ISArtemisIV
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Manticore is one of the most widely produced and respected heavy tanks in the Inner Sphere, originally designed by TechniCorp as an infantry support vehicle capable of engaging BattleMechs on favorable terms. Introduced during the Reunification War in 2575, the sixty-ton tracked vehicle was built to fill the gap between lighter screening vehicles and the massive assault tanks that dominated battlefield formations. Its combination of long-range fire support, close-range punch, and respectable armor protection made it an attractive option for military planners across the Star League. After TechniCorp's destruction during the Amaris Coup, the design's production licenses spread to manufacturers across the Inner Sphere and beyond. The Manticore remains in frontline service with nearly every major military power, a remarkable achievement for a design approaching five centuries of continuous production.</p>
-</overview>
-
 <capabilities>
 <p>The Manticore's primary weapon is the Parti-Kill Heavy Cannon particle projection cannon, which uses magnetic collection bottles to charge plasma that loses cohesion and disintegrates targets at ranges approaching 540 meters. A FarFire LRM-10 rack mounted on independent swivel mounts above the turret provides supplementary long-range fire with a full 120-degree arc independent of the main turret. At closer ranges, the SureShot Mk VI SRM-6 launcher and hull-mounted OMI HighBurn medium laser round out the weapon array, giving the Manticore credible firepower at every engagement distance.</p><p>The Pitban 240 fusion engine gives the tank a respectable cruise speed of 43 km/h and a top speed of 65 km/h, a significant advantage over vehicles reliant on internal combustion engines during the Succession Wars when fuel supplies were unreliable. Eleven tons of ArcShield Maxi II armor provide solid protection for a vehicle of its tonnage. The Manticore's chief weakness is that it lacks the concentrated firepower of heavier vehicles such as the Behemoth and Demolisher, making it a poor choice for head-on engagements with assault-class opponents. Manticore crews are trained to avoid such confrontations, leveraging their mobility and range to control engagements on their own terms.</p>
 </capabilities>
+
+<overview>
+<p>The Manticore is one of the most widely produced and respected heavy tanks in the Inner Sphere, originally designed by TechniCorp as an infantry support vehicle capable of engaging BattleMechs on favorable terms. Introduced during the Reunification War in 2575, the sixty-ton tracked vehicle was built to fill the gap between lighter screening vehicles and the massive assault tanks that dominated battlefield formations. Its combination of long-range fire support, close-range punch, and respectable armor protection made it an attractive option for military planners across the Star League. After TechniCorp's destruction during the Amaris Coup, the design's production licenses spread to manufacturers across the Inner Sphere and beyond. The Manticore remains in frontline service with nearly every major military power, a remarkable achievement for a design approaching five centuries of continuous production.</p>
+</overview>
 
 <deployment>
 <p>Jalastar Aerospace's experimental rotary autocannon variant trades the original missile-heavy loadout for concentrated direct-fire capability. The RAC/5 paired with a targeting computer and two ER medium lasers provides devastating sustained firepower, though ammunition dependency limits its operational endurance in prolonged engagements. The design has found favor among Federated Suns heavy armor commands.</p>
@@ -166,4 +146,16 @@ ARMOR:Super Ferro-Fibrous
 COMMUNICATIONS:Muse 54-58K
 TARGETING:Targitrack with Artemis
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

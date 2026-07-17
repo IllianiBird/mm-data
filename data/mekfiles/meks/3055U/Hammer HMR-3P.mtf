@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-c7d4-73bc-aa9f-97ba6879a264
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Hammer
 model:HMR-3P 'Pein-Hammer'
 mul id:1367
@@ -174,7 +175,6 @@ IS Endo Steel
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Hammer is a thirty-ton light BattleMech introduced in 3053 by Free Worlds Defense Industries, designed for the Free Worlds League Military as a dedicated fire support platform intended to counter the Federated Commonwealth's Valkyrie. Built at the Gibson Federated BattleMechs facility on Gibson, the Hammer addressed a gap in the FWLM's lighter formations by providing accurate long-range missile fire at the lower end of the weight spectrum. The design emerged during a period of shifting Free Worlds League priorities, as military planners anticipated a return to inter-state conflict following the initial Clan invasion.</p><p>Often paired with the heavier Anvil in a complementary tactical doctrine, the Hammer's combination of precision missile launchers and respectable armor for its tonnage made it an effective addition to light and medium 'Mech formations. Production remained centered exclusively on Gibson, and adoption across the broader FWLM was modest despite the design's proven combat effectiveness.</p>
 
 capabilities:<p>The Hammer's primary armament consists of twin Coventry Five-Tube LRM-5 launchers, each linked to an Artemis IV fire control system that significantly improves missile accuracy at ranges up to 630 meters. Each launcher carries a full ton of ammunition, providing sufficient endurance for extended engagements. Three Martell medium lasers serve as close defense weapons, giving the 'Mech reasonable capability when enemies breach missile range. The Dynatec 1122 targeting and tracking system complements the Artemis-enhanced launchers, reinforcing the Hammer's aptitude for long-range precision fire.</p><p>Built on a Duralyte 299 endo steel chassis, the Hammer achieves a top speed of 86 kph from its GM 150 fusion engine, matching the Valkyrie it was designed to oppose. The weight savings afforded by the endo steel frame allowed engineers to mount six tons of Jolassa-325 armor, providing solid protection for a thirty-ton design. Engineers specifically rejected jump jet proposals after testing revealed excessive stress on the BattleMech's frame, opting instead to allocate the saved tonnage toward additional armor coverage and improved missile placement on the 'Mech's torso.</p><p>The Datacom 50 communications system, widely proven across Inner Sphere designs, supports coordinated lance-level fire missions. While the Hammer performs well at range, its lack of jump capability and modest close-range firepower leave it vulnerable when caught by faster or more agile opponents in restrictive terrain.</p>
@@ -186,6 +186,8 @@ history:<p>The Hammer emerged from Free Worlds League military planning during t
 manufacturer:Gibson Federated BattleMechs (A Division of Free Worlds Defense Industries)
 
 primaryfactory:Gibson
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Duralyte
 systemmode:CHASSIS:299 Endo Steel

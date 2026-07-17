@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bfd1-7298-89f7-cdcb703507eb
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,10 +36,6 @@ Foot Platoon
 3057
 </year>
 
-<originalBuildYear>
-3057
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -51,6 +51,9 @@ Ballistic Plate, Standard
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Heavy LRM foot platoons supplement standard assault rifles with man-portable Corean FarShot long-range missile launchers distributed across the formation in greater numbers than a standard support weapon allocation. The additional LRM launchers extend the platoon's engagement range well beyond personal weapon distance, providing organic indirect fire capability against vehicles and fortified positions. The extra missile weight limits infantry mobility and increases ammunition demands.</p>
+</overview>
 
 <source>
 TR:3085
@@ -83,9 +86,4 @@ InfantryLRM
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Heavy LRM foot platoons supplement standard assault rifles with man-portable Corean FarShot long-range missile launchers distributed across the formation in greater numbers than a standard support weapon allocation. The additional LRM launchers extend the platoon's engagement range well beyond personal weapon distance, providing organic indirect fire capability against vehicles and fortified positions. The extra missile weight limits infantry mobility and increases ammunition demands.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af9e-716b-8574-8514b16675d7
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Cheetah IIC
 <year>
 3149
 </year>
-
-<originalBuildYear>
-3149
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -121,34 +121,13 @@ Clan Reflective
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Cheetah IIC is a Clan-technology rebuild of the classic Cheetah aerospace fighter, produced at the former Imstar Aerospace facility on Amity under Wolf Empire control. First appearing around 3149, the design draws inspiration from the Thrush Nanook custom variant and serves as a dramatic reimagining of the venerable light fighter platform. While it shares the Cheetah's twenty-five-ton weight class and general fast-strike mission profile, the IIC is effectively a new design built with advanced Clan and experimental technologies that bear little resemblance to the original Inner Sphere fighter beyond the basic airframe dimensions and the manufacturing infrastructure used to produce it.</p>
-</overview>
-
 <capabilities>
 <p>The Cheetah IIC is built around a Clan XXL engine, an extremely powerful but volatile powerplant that frees substantial tonnage for weapons and equipment at the cost of increased vulnerability to critical damage. A small cockpit further reduces overhead, though the cramped conditions make extended operations uncomfortable for pilots. Laser reflective armor protects the hull, providing excellent defense against the energy weapons that dominate aerospace combat.</p><p>The fighter's primary armament consists of four improved heavy lasers, giving it devastating close-range firepower that far exceeds any previous Cheetah variant. While improved heavy lasers generate significant heat per shot, the Clan-specification heat management systems help offset this burden. A light active probe rounds out the electronics suite, providing enhanced sensor detection capabilities that complement the fighter's high speed. The combination of extreme engine performance, concentrated laser armament, and specialized armor makes the Cheetah IIC a potent dogfighter, though the XXL engine's fragility remains a significant operational concern.</p>
 </capabilities>
+
+<overview>
+<p>The Cheetah IIC is a Clan-technology rebuild of the classic Cheetah aerospace fighter, produced at the former Imstar Aerospace facility on Amity under Wolf Empire control. First appearing around 3149, the design draws inspiration from the Thrush Nanook custom variant and serves as a dramatic reimagining of the venerable light fighter platform. While it shares the Cheetah's twenty-five-ton weight class and general fast-strike mission profile, the IIC is effectively a new design built with advanced Clan and experimental technologies that bear little resemblance to the original Inner Sphere fighter beyond the basic airframe dimensions and the manufacturing infrastructure used to produce it.</p>
+</overview>
 
 <deployment>
 <p>Produced in limited numbers at the former Imstar Aerospace facility on Amity under Wolf Empire control, the Cheetah IIC has been fielded primarily by Clan Wolf forces operating in the ilClan era. Its advanced Clan technology base and specialized armor make it a niche but formidable addition to Wolf aerospace formations.</p>
@@ -181,4 +160,16 @@ ARMOR:Laser Reflective
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

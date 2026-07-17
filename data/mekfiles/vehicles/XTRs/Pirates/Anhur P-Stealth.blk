@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec16-7fdc-bb4f-2503ddbfe431
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Anhur
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Experimental
@@ -111,26 +111,13 @@ CLLRM15
 <Rotor Equipment>
 </Rotor Equipment>
 
-<source>
-XTR:Pirates
-</source>
-
-<published>
-XTR:Pirates
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 14:19:26
-<overview>
-<p>The Anhur Transport is a Clan logistics vehicle developed around 2840 from the Star League Defense Force's Cobra Transport VTOL, examples of which traveled with the SLDF during the Exodus into the Deep Periphery. Intended to address the practical limitations of using DropShips for planetside supply runs, the Anhur fills the role of surface-level logistics transport, moving materiel from landing zones to forward units across terrain that larger craft cannot efficiently service. Produced across multiple Clan homeworld facilities rather than a single dedicated manufacturer, the design serves in the toumans of virtually every Clan as the standard means of bridging the gap between orbital delivery and the forward edge of the battle area.</p>
-</overview>
-
 <capabilities>
 <p>The Anhur's fusion powerplant drives it to flanking speeds that make it one of the faster cargo VTOLs in service, and its tilt-rotor design enables takeoff and landing on unprepared surfaces without the need for prepared runways. The seven-ton cargo bay accommodates bulk supplies or a full infantry squad, with internal tie-down points supporting a wide variety of load configurations. A crew of pilot, copilot, and loadmaster specializes in low-altitude, terrain-following flight profiles that keep the vehicle below typical threat acquisition systems.</p><p>For self-defense, the Anhur carries a forward-facing extended-range medium laser alongside a medium pulse laser in the chin mount, providing both range and rapid-fire capability against light opponents and infantry. A second medium pulse laser covers the rear arc, deterring pursuit after cargo deliveries. Three tons of ferro-fibrous armor gives the design more protection than most VTOLs carry, though the Anhur's primary defensive strategy remains speed and terrain masking rather than absorbing punishment. This armament can suppress light threats and clear contested landing zones, but the design is not intended to engage BattleMechs or heavy armor.</p>
 </capabilities>
+
+<overview>
+<p>The Anhur Transport is a Clan logistics vehicle developed around 2840 from the Star League Defense Force's Cobra Transport VTOL, examples of which traveled with the SLDF during the Exodus into the Deep Periphery. Intended to address the practical limitations of using DropShips for planetside supply runs, the Anhur fills the role of surface-level logistics transport, moving materiel from landing zones to forward units across terrain that larger craft cannot efficiently service. Produced across multiple Clan homeworld facilities rather than a single dedicated manufacturer, the design serves in the toumans of virtually every Clan as the standard means of bridging the gap between orbital delivery and the forward edge of the battle area.</p>
+</overview>
 
 <deployment>
 <p>This unique conversion was operated by a Dark Caste raider band in the Clan Homeworlds region, documented during raids on Ghost Bear installations on Constance in 3074. Its long-range missiles and Inner Sphere stealth systems allow the craft to stand off at range while remaining difficult to detect, making it well suited to harassment operations against supply convoys and garrison stations. Ghost Bear forces found their standard detection systems frustrated by its stealth suite, though ground-based hovertank patrols ultimately forced the band's withdrawal from the Constance system.</p>
@@ -165,4 +152,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Khan-series (Type 2)
 TARGETING:Mark 11 IHADS
 </systemModels>
+
+<source>
+XTR:Pirates
+</source>
+
+<published>
+XTR:Pirates
+</published>
+
+<tonnage>
+30.0
+</tonnage>
 

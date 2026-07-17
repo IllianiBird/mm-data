@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e62d-7e0d-b7c0-d4b20a8f842e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Saxon APC
 <year>
 3071
 </year>
-
-<originalBuildYear>
-3071
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -107,26 +107,13 @@ troopspace:5.0
 ISERMediumLaser
 </Turret Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 12:59:54
-<overview>
-<p>The Saxon APC is a fast hover transport developed by Cyclops Incorporated in response to the Lyran Alliance Armed Forces' growing concerns about armored personnel carrier vulnerabilities in the early 3070s. Fielded for the first time with the Second and Third Skye Guards in early 3070, the Saxon prioritizes speed, passenger capacity, and armor protection over offensive armament. Its fusion power plant frees it from the supply line constraints that plague conventional vehicles, and its spacious fighting compartment can accommodate a full infantry platoon or a battle armor squad. Initial performance impressed the LAAF sufficiently that demand quickly outpaced Cyclops Incorporated's production capacity, prompting Defiance Industries on Hesperus II and Quikscell Company on Richvale to acquire manufacturing licenses.</p>
-</overview>
-
 <capabilities>
 <p>The Saxon achieves exceptional mobility for its class, reaching a cruising speed of 108 kilometers per hour and a flank speed of 162 kilometers per hour through its GM 175 fusion engine. This performance comes at a steep cost in firepower, as the vehicle carries only a single Kicker-2 machine gun. The Saxon is highly dependent on its passengers for offensive capability in contested engagements, and commanders who mistake it for a combat vehicle do so at their peril.</p><p>The roomy fighting compartment accommodates a foot infantry platoon or a battle armor squad, and well-trained troops can disembark or embark through the large rear hatch in seconds. Extended deployments are supported by provisions for additional stores. The ArcShield Heavy II armor is substantial enough to allow the crew to hold position under fire, an important quality when passenger skill levels are uncertain. The three-man crew of driver, gunner, and cargo master faces considerable risk when paired with poorly trained passengers, as the limited armament provides little self-defense if infantry support fails.</p>
 </capabilities>
+
+<overview>
+<p>The Saxon APC is a fast hover transport developed by Cyclops Incorporated in response to the Lyran Alliance Armed Forces' growing concerns about armored personnel carrier vulnerabilities in the early 3070s. Fielded for the first time with the Second and Third Skye Guards in early 3070, the Saxon prioritizes speed, passenger capacity, and armor protection over offensive armament. Its fusion power plant frees it from the supply line constraints that plague conventional vehicles, and its spacious fighting compartment can accommodate a full infantry platoon or a battle armor squad. Initial performance impressed the LAAF sufficiently that demand quickly outpaced Cyclops Incorporated's production capacity, prompting Defiance Industries on Hesperus II and Quikscell Company on Richvale to acquire manufacturing licenses.</p>
+</overview>
 
 <deployment>
 <p>The (Laser) variant is a field modification first appearing in 3071, replacing the standard Kicker-2 machine gun with an extended-range medium laser. The conversion eliminates the ammunition resupply burden and extends the vehicle's effective engagement range against light vehicles and infantry. It is common among experienced crews conducting extended operations where supply chain support is uncertain, and is distributed broadly across Lyran Alliance and Allied Coalition formations.</p>
@@ -159,4 +146,16 @@ ARMOR:ArcShield Heavy II
 COMMUNICATIONS:KR-A P/Com
 TARGETING:Mars 1
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

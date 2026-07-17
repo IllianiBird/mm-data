@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-da1b-7f5f-9616-1cc90c9cc405
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Longbow
 model:LGB-0H
 mul id:8330
@@ -28,9 +29,9 @@ published:RG20,RGv1
 rules level:2
 role:Sniper
 
-quirk:anti_air
 quirk:no_arms
 quirk:searchlight
+quirk:anti_air
 quirk:ubiquitous_is
 
 mass:85
@@ -197,7 +198,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Longbow is one of the longest-serving fire support BattleMechs in the Inner Sphere, with a production history spanning more than six centuries. First designed in 2480 by Lockenburg-Holly Industries on Emris IV for the Free Worlds League Military, the eighty-five-ton assault 'Mech drew heavy inspiration from the Terran Hegemony's Archer, scaling the proven fire support concept up by fifteen tons and relocating its missile launchers to the arms for wider firing arcs. The Longbow's success secured Lockenburg-Holly's future, and the company's subsequent merger into StarCorps Industries made the design available to militaries across the Inner Sphere.</p><p>Despite never being a popular assignment among MechWarriors due to its vulnerability relative to its tonnage, the Longbow has remained in continuous production through centuries of conflict. StarCorps has produced no fewer than three visually distinct generations of the design (the original Star League model, the Clan Invasion-era 7Q, and the 3061 "Phoenix" redesign) each reflecting the evolving technology and combat doctrine of its era.</p>
 
 capabilities:<p>The Longbow's design philosophy has remained remarkably consistent across its many iterations: deliver overwhelming long-range missile fire while remaining safely behind the front lines. The LGB-7Q model, representative of the post-Star League standard, mounts a pair of Holly LRM-20 launchers in its iconic barrel-shaped arms complemented by two torso-mounted Delta Dart LRM-5 launchers, enabling a devastating barrage of up to fifty missiles per salvo at ranges exceeding six hundred meters. Twenty-two single heat sinks allow the 'Mech to sustain this rate of fire indefinitely, a critical consideration for extended bombardment operations. Two Ceres Arms medium lasers provide a token close-range defense, though the Longbow is poorly equipped for direct engagement.</p><p>The 7Q's Strand 255 engine limits top speed to fifty-four kilometers per hour, sacrificing the mobility of the older 0W model for fourteen and a half tons of StarSlab armor, a significant improvement in survivability. The AntiAir Flak Systems-1 targeting system gives the Longbow an exceptional ability to engage fast-moving aerospace targets, a niche capability that has kept the design relevant in combined-arms operations well beyond what its raw specifications might suggest. The lack of CASE in the standard model remains the design's most criticized vulnerability, as an ammunition explosion can destroy the 'Mech outright despite its otherwise robust construction.</p>
@@ -209,6 +209,8 @@ history:<p>The Longbow traces its origins to the early BattleMech age, when the 
 manufacturer:Field Refit
 
 primaryfactory:Various
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:StarCorps Industries
 systemmode:CHASSIS:StarCorp 100

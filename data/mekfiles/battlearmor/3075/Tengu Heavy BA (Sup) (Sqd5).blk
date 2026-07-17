@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a49a-7acc-9563-e0cae32ba8ad
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Tengu Heavy Battle Armor
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -93,45 +93,13 @@ IS BA Advanced:RA
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
 
-<slotless_equipment>
-BA-SRM3 Ammo:Shots1#
-</slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-13
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
-
 <capabilities>
 <p>The support configuration replaces the plasma rifle with a lighter recoilless rifle in the modular mount, using the weight savings to add a one-shot SRM-3 in a detachable missile pack. The launcher prevents the suit from jumping until it is jettisoned, temporarily limiting the Tengu to ground movement only. The anti-personnel mount can carry weapons up to 25 kilograms. Basic manipulators on both arms are retained. The full 520 kilograms of advanced armor provides the same protection as the standard configuration. This loadout trades sustained firepower for an opening missile volley that adds significant anti-armor punch, making it effective for hit-and-run engagements where the trooper fires the SRM, drops the empty launcher, and uses jump jets to reposition for follow-up attacks with the recoilless rifle.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>No documented instances exist of Clan forces fielding support-configured Tengu suits in five-trooper Points. The detachable missile pack concept, while tactically sound, duplicated capabilities already present in existing Clan battle armor designs that Clan warriors were more familiar with and preferred.</p>
@@ -166,4 +134,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+13
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

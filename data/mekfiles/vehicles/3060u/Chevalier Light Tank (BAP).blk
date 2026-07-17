@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4c4-7c0d-af24-4e0b7cff14b6
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Chevalier Light Tank
 <year>
 2958
 </year>
-
-<originalBuildYear>
-2958
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -105,26 +105,13 @@ Machine Gun
 ISERLargeLaser
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 14:19:26
-<overview>
-<p>The Chevalier Light Tank is a thirty-five-ton wheeled combat vehicle designed during the Star League era for reconnaissance and spotting duties. Built by Millennium Industries, it entered service in 2690 as a scout that could operate at range and stay in the field without frequent resupply. Among wheeled designs of its weight class it earned a reputation for durability and endurance, trading the raw firepower of heavier vehicles for reliability and a respectable turn of speed.</p><p>The Chevalier was built for crews who needed to find the enemy and survive long enough to report, rather than to win stand-up fights. That focus made it a steady, unglamorous workhorse, valued more for what it could see and outlast than for what it could destroy. Its standing as a dependable light scout endured well beyond the Star League that created it.</p>
-</overview>
-
 <capabilities>
 <p>The Chevalier's primary armament is a turret-mounted Blankenburg Extended Range Large Laser, which allows the vehicle to engage targets at considerable distance while going for extended periods without needing ammunition resupply. Complementing this are two forward-firing Zone-Tone Streak-2 short-range missile launchers, providing accurate close-range punch to three hundred meters. The six and a half tons of Chobham Max-Tec armor provide remarkable protection for a vehicle of the Chevalier's class, giving it better survivability than many comparable light designs. Power comes from an RT 190 fusion plant that constitutes a full third of the vehicle's mass, enabling a top speed of ninety-seven kilometers per hour. This speed falls considerably short of contemporary hovercraft of comparable weight, but remains competitive for wheeled platforms and well-suited to the tank's reconnaissance role.</p><p>The Chevalier's main tactical limitation lies in its cramped crew compartment. The turret and hull configuration leaves barely enough space for the vehicle's three-man crew, let alone provisions and supplies for extended field operations. This constraint limits practical endurance despite the fusion plant's theoretical independence from resupply, making the Chevalier more dependent on logistical support than its designers originally envisioned.</p>
 </capabilities>
+
+<overview>
+<p>The Chevalier Light Tank is a thirty-five-ton wheeled combat vehicle designed during the Star League era for reconnaissance and spotting duties. Built by Millennium Industries, it entered service in 2690 as a scout that could operate at range and stay in the field without frequent resupply. Among wheeled designs of its weight class it earned a reputation for durability and endurance, trading the raw firepower of heavier vehicles for reliability and a respectable turn of speed.</p><p>The Chevalier was built for crews who needed to find the enemy and survive long enough to report, rather than to win stand-up fights. That focus made it a steady, unglamorous workhorse, valued more for what it could see and outlast than for what it could destroy. Its standing as a dependable light scout endured well beyond the Star League that created it.</p>
+</overview>
 
 <deployment>
 <p>The BAP configuration strips away part of the Chevalier's armor to make room for a Beagle Active Probe and a light Machine Gun, trading protection for greater sensor reach. The result is a dedicated scout rather than a combat vehicle, built to detect and identify before being detected itself. The Explorer Corps adopted the variant widely, employing it as a planetary rover in support of garrison forces on distant and newly contacted worlds. In that role the probe's detection capability proved far more valuable than any additional weapons payload, and the Machine Gun offered just enough defensive bite to discourage light infantry and unarmored threats.</p>
@@ -157,4 +144,16 @@ ARMOR:Chobham Max-Tec
 COMMUNICATIONS:Dec-10 Whisperer
 TARGETING:Blankenburg Trooper
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

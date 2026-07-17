@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e85a-780e-b126-c3d2f77986aa
+</UUID>
+
 <UnitType>
 FixedWingSupport
 </UnitType>
@@ -35,10 +39,6 @@ F
 <year>
 3095
 </year>
-
-<originalBuildYear>
-3095
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis) Advanced
@@ -165,30 +165,13 @@ Advanced Fire Control
 4
 </engine_tech_rating>
 
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<tonnage>
-200.0
-</tonnage>
-
-<baseChassisFireConWeight>
-5.5
-</baseChassisFireConWeight>
-
-# Fluff Date: 2026-02-28 11:02:26
-<overview>
-<p>The Zugvogel is a two-hundred-ton Omni support aircraft developed by Lockheed/CBM on Gibbs for the Lyran Commonwealth. Conceived during the post-Jihad reconstruction era to replace a bewildering array of modified King Karnov transports, the Zugvogel leverages OmniPod technology to fill nearly any support role from a single airframe. Where the LCAF Quartermaster Corps once required extensive factory retooling to produce specialized King Karnov variants, the Zugvogel can be reconfigured in the field through modular pod swaps. Its enormous pod capacity of over seventy tons allows it to mount weapons, sensors, medical facilities, or cargo space in virtually any combination, following the same consolidation philosophy that led to the Morgenstern OmniFighter.</p>
-</overview>
-
 <capabilities>
 <p>Powered by an Edasich commercial-grade fusion engine, the Zugvogel is approximately twenty-five percent faster than the King Karnov it was designed to replace, with a cruising speed sufficient to keep pace with most ground offensives. Eleven and a half tons of military-grade armor rated at BAR 10 provides respectable protection for a support aircraft, while CASE reinforcement protects the crew and airframe against catastrophic ammunition detonation in armed configurations. An advanced fire control system enhances weapons accuracy across all configurations that carry offensive armament.</p><p>The aircraft's defining characteristic is its seventy-one and a half tons of available pod space. Five factory-produced OmniPod kits cover the most common mission profiles. The Prime configuration serves as a heavily armed combat transport, pairing forward-mounted missile launchers and light autocannons with a rear-facing light Gauss rifle and over twenty-three tons of cargo space. The A configuration transforms the aircraft into a flying command post packed with sensor suites and a C3 master computer capable of coordinating an entire planetary campaign. The B and C configurations fill medical and repair roles respectively, mounting a ten-theater MASH unit and mobile field repair bases. The D configuration, nicknamed the Raubvogel, serves as an aerial gunship mounting twin Gauss rifles and a heavy PPC capable of threatening heavy aerospace fighters.</p>
 </capabilities>
+
+<overview>
+<p>The Zugvogel is a two-hundred-ton Omni support aircraft developed by Lockheed/CBM on Gibbs for the Lyran Commonwealth. Conceived during the post-Jihad reconstruction era to replace a bewildering array of modified King Karnov transports, the Zugvogel leverages OmniPod technology to fill nearly any support role from a single airframe. Where the LCAF Quartermaster Corps once required extensive factory retooling to produce specialized King Karnov variants, the Zugvogel can be reconfigured in the field through modular pod swaps. Its enormous pod capacity of over seventy tons allows it to mount weapons, sensors, medical facilities, or cargo space in virtually any combination, following the same consolidation philosophy that led to the Morgenstern OmniFighter.</p>
+</overview>
 
 <deployment>
 <p>Introduced during the Dark Age, the F configuration is a significant escalation in offensive capability through the incorporation of Clan-manufactured weapons. Five Clan-built LRM-15 launchers and two Thunderbolt-20 missile systems deliver massive indirect fire support, while three medium chemical lasers provide rear-arc defense. An advanced fire control system coordinates the entire weapons suite, making the F one of the most heavily armed support aircraft configurations in active service.</p>
@@ -223,4 +206,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown (Unspecified per TRO)
 TARGETING:Unknown (Advanced Fire Control)
 </systemModels>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<tonnage>
+200.0
+</tonnage>
+
+<baseChassisFireConWeight>
+5.5
+</baseChassisFireConWeight>
 

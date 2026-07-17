@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b90f-7064-95ee-b754ea80399f
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Motorized Platoon (CCAF)
 <year>
 2400
 </year>
-
-<originalBuildYear>
-2400
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Environment Suit, Hostile
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Capellan Confederation has always relied on its infantry to compensate for the CCAF's chronic shortage of heavier assets. Conventional foot soldiers, drawn from the citizens' militia system that defines Capellan military service, form the backbone of garrison forces across the Confederation's commonalities. Motorized platoons provide the CCAF with faster-moving infantry that can reposition between garrison posts or screen advancing forces along road networks. Their motorcycle and light vehicle transports sacrifice protection for speed, making them best suited to patrol and rapid-response roles. Equipped with laser rifles that offer superior range and armor penetration compared to ballistic weapons, these platoons field one of the most effective personal arms available to conventional infantry, though the weapons are significantly more expensive and require soldiers to carry additional power packs. Designated as extra-company troops, these platoons are trained and equipped for extended independent operations beyond the main body, conducting deep patrols, ambushes, and stay-behind missions.</p>
+</overview>
 
 <notes>
 Intro date based on production date for Semi-portable Support Laser
@@ -92,9 +94,4 @@ true
 <specialization>
 2048
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Capellan Confederation has always relied on its infantry to compensate for the CCAF's chronic shortage of heavier assets. Conventional foot soldiers, drawn from the citizens' militia system that defines Capellan military service, form the backbone of garrison forces across the Confederation's commonalities. Motorized platoons provide the CCAF with faster-moving infantry that can reposition between garrison posts or screen advancing forces along road networks. Their motorcycle and light vehicle transports sacrifice protection for speed, making them best suited to patrol and rapid-response roles. Equipped with laser rifles that offer superior range and armor penetration compared to ballistic weapons, these platoons field one of the most effective personal arms available to conventional infantry, though the weapons are significantly more expensive and require soldiers to carry additional power packs. Designated as extra-company troops, these platoons are trained and equipped for extended independent operations beyond the main body, conducting deep patrols, ambushes, and stay-behind missions.</p>
-</overview>
 

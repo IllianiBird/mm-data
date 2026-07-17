@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a28d-7944-9105-67b874f32da1
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ IS Standard Battle Armor
 <year>
 3052
 </year>
-
-<originalBuildYear>
-3052
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -84,42 +84,14 @@ BABattleClaw:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C,RSFP:MERCS
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>Developed by the New Avalon Institute of Science in the early 3050s, the Inner Sphere Standard was the first mass-produced battle armor fielded by the Great Houses. The medium-weight suit was reverse-engineered from captured Clan Elemental technology, giving Inner Sphere commanders their first viable counter to Clan powered infantry. Though inferior to its Clan counterpart in almost every measurable respect, the IS Standard proved reliable, affordable, and easy to manufacture across multiple production lines. Its widespread adoption reshaped Inner Sphere infantry doctrine, and the design served as the foundation for numerous successor suits developed by individual Great Houses and their defense contractors.</p>
-</overview>
 
 <capabilities>
 <p>The machine gun configuration makes the IS Standard a devastating anti-personnel platform. The right-arm modular mount carries a single machine gun delivering sustained automatic fire against conventional infantry and unarmored targets. The left-arm battle claw provides anti-BattleMech capability and OmniMech transport handholds. Standard armor and ninety-meter jump jets give the suit adequate survivability and tactical mobility across most terrain types. The machine gun's high rate of fire makes this configuration lethal against soft targets in open terrain, but its rounds are wholly ineffective against armored vehicles and BattleMech-grade plating. Ammunition dependence also limits the duration of sustained engagements compared to energy weapon loadouts.</p>
 </capabilities>
+
+<overview>
+<p>Developed by the New Avalon Institute of Science in the early 3050s, the Inner Sphere Standard was the first mass-produced battle armor fielded by the Great Houses. The medium-weight suit was reverse-engineered from captured Clan Elemental technology, giving Inner Sphere commanders their first viable counter to Clan powered infantry. Though inferior to its Clan counterpart in almost every measurable respect, the IS Standard proved reliable, affordable, and easy to manufacture across multiple production lines. Its widespread adoption reshaped Inner Sphere infantry doctrine, and the design served as the foundation for numerous successor suits developed by individual Great Houses and their defense contractors.</p>
+</overview>
 
 <deployment>
 <p>Machine gun-equipped squads served as dedicated anti-infantry screening elements within Great House commands. Four-trooper squads were attached to frontline BattleMech lances to suppress enemy conventional infantry attempting to close on friendly assets. The machine gun's lethality against unarmored targets made these squads effective deterrents during combined-arms operations.</p>
@@ -154,4 +126,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C,RSFP:MERCS
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

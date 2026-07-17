@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec3f-7a7c-9852-18a6a3ce05a4
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Chi-Ha Infantry Combat Vehicle
 <year>
 2352
 </year>
-
-<originalBuildYear>
-2352
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -124,34 +124,13 @@ Machine Gun
 4
 </engine_tech_rating>
 
-<source>
-XTR:Primitives IV
-</source>
-
-<published>
-XTR:Primitives IV
-</published>
-
-<tonnage>
-22.0
-</tonnage>
-
-<fuel>
-1.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Chi-Ha Infantry Combat Vehicle is a primitive tracked troop transport produced by Daisho MilWorks of New Samarkand for the Draconis Combine. First entering military service in 2284, the Chi-Ha served as the primary infantry carrier for the early Combine military and was essential to the state's territorial expansion during the Age of War. Though eventually superseded by more advanced designs in front-line roles, the vehicle's simplicity and low cost kept it in Combine service through the Star League era, with limited production resuming during the Succession Wars to address persistent shortages of infantry transport capacity.</p>
-</overview>
-
 <capabilities>
 <p>The Chi-Ha is a 22-ton tracked vehicle powered by an internal combustion engine that drives it to a maximum speed of 64 kilometers per hour across most terrain, with a range exceeding 1,000 kilometers. This combination of reasonable mobility and extended endurance suited the vehicle's original role as a military carrier across the Combine's varied worlds. Two tons of BAR 6 armor protect the crew and passengers against light arms fire, adequate for secondary support tasks but not intended for sustained engagement against armored opposition.</p><p>Three machine guns, two in a turret and one in the forward hull, share a single ton of ammunition. This arrangement provides overlapping coverage for suppressing infantry and light targets and for protecting the vehicle during troop embarkation and debarkation. The 3-ton infantry compartment accommodates a full platoon, who exit through two rear doors. The Low Profile design quirk reduces the vehicle's silhouette against incoming fire, a meaningful advantage in the urban and fortified environments where the Chi-Ha often operates.</p><p>The Original version from 2284 uses slightly reduced speed of 54 km/h and BAR 5 armor with a basic fire control system. The Standard version introduced in 2352 incorporates improved armor, advanced fire control, and the better speed rating, reflecting incremental improvements accumulated over nearly seven decades of service experience.</p>
 </capabilities>
+
+<overview>
+<p>The Chi-Ha Infantry Combat Vehicle is a primitive tracked troop transport produced by Daisho MilWorks of New Samarkand for the Draconis Combine. First entering military service in 2284, the Chi-Ha served as the primary infantry carrier for the early Combine military and was essential to the state's territorial expansion during the Age of War. Though eventually superseded by more advanced designs in front-line roles, the vehicle's simplicity and low cost kept it in Combine service through the Star League era, with limited production resuming during the Succession Wars to address persistent shortages of infantry transport capacity.</p>
+</overview>
 
 <deployment>
 <p>The Standard Chi-Ha, entering service in 2352, replaced the Original in active DCMS use and carried the design's service life through the Star League era and into the Succession Wars. Assigned primarily to second-line and garrison forces, the vehicle provided reliable infantry transport in situations where more capable combat vehicles could not be spared. During the Succession Wars, Daisho MilWorks conducted occasional production runs to supply replacement vehicles to units that had lost transport capacity to combat and attrition, keeping the design in Combine service far longer than its original intended lifespan.</p>
@@ -186,4 +165,24 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Primitives IV
+</source>
+
+<published>
+XTR:Primitives IV
+</published>
+
+<tonnage>
+22.0
+</tonnage>
+
+<fuel>
+1.0
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

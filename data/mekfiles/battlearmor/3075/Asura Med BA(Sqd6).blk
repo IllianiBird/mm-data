@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a397-78d9-a3e5-9fa7ca0a8106
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Asura Medium Battle Armor
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -95,44 +95,15 @@ ISBARL4:Body
 
 <slotless_equipment>
 BAJumpJet
-BARL4 Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
 
 <capabilities>
 <p>The standard Asura carries a medium recoilless rifle in the right arm as its primary weapon, providing greater effective range than the equivalent armament on most comparable battlesuits. A four-tube rocket launcher supplements this with a single powerful volley of anti-armor fire. A battle claw on the left arm allows the suit to ride OmniMechs and engage in swarming attacks. The suit's 280 kilograms of advanced armor can absorb a hit from a Clan ER medium laser, placing its protection slightly below the Clan Elemental benchmark. Jump jets provide ninety-meter leaps, matching the Elemental's mobility. The Asura's combination of ranged firepower and jump capability makes it an effective line combatant, though its relatively thin armor for a medium-weight design demands that troopers press their range advantage rather than close to melee prematurely.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>Standard Asura troopers deployed in six-trooper Level I formations as the Demon series' primary line combatants. Manei Domini Level Is of Asura-equipped troopers engaged enemy battle armor and light combat vehicles at range, exploiting the medium recoilless rifle's reach advantage to damage or destroy targets before closing for rocket-assisted finishing strikes. The suit saw service across multiple theaters, including engagements on New Avalon and garrison duty on Terra during the Blakist occupation.</p>
@@ -167,4 +138,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

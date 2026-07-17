@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aef3-7a00-875f-5e527c841e7b
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ CMT-6T
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -130,32 +130,13 @@ ISAMS Ammo
 ISCASE
 </Fuselage Equipment>
 
-<slotless_equipment>
-IS Ammo RL-10
-IS Ammo RL-10
-IS Ammo RL-10
-</slotless_equipment>
-
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Troika is a sixty-five-ton medium aerospace fighter developed through the industrial cooperation of the Trinity Alliance, the political and military pact linking the Taurian Concordat, the Magistracy of Canopus, and the Capellan Confederation. Brought into existence at the Detroit Consolidated AeroSpace facility on Detroit during the early 3060s, it serves as a genuine technological achievement for the Periphery states; a modern fighter incorporating the latest Inner Sphere advances in propulsion, protection, and weapons systems. The Trinity Alliance designed the Troika to serve as a capable all-aspect fighter for forces that had long relied on aging Succession Wars-era designs, and the result met that requirement. Though contractual obligations initially directed production toward the Concordat, the bulk of the fighter's service has been with the Magistracy of Canopus and later the Capellan Confederation, which ultimately absorbed responsibility for its ongoing development and production.</p>
-</overview>
-
 <capabilities>
 <p>The Troika's airframe uses a Magna 260 XL engine to achieve safe thrust 6 and maximum thrust 9, placing it near the upper end of the medium fighter performance bracket. Detroit Ferro-Aluminum Special armor provides solid protection across the hull, and cellular ammunition storage equipment shields the pilot from munitions detonation. The fighter's primary long-range punch comes from its nose-mounted Tomodzuru LRM-20, which accepts Thunder submunitions for area-denial and indirect fire roles. Each wing carries an extended-range PPC paired with an extended-range medium laser, providing heavy energy strike capability across multiple range bands.</p><p>Seventeen double heat sinks provide adequate but not generous thermal management. Pilots running the full energy suite simultaneously generate significant heat, and experienced crews throttle their weapons during sustained engagements rather than firing everything at once. The ferro-aluminum armor is lighter than conventional plating, freeing mass for the weapons payload while maintaining effective protection. Overall, the Troika balances energy and missile firepower well for its class, though its heat performance demands disciplined trigger management under sustained combat conditions.</p>
 </capabilities>
+
+<overview>
+<p>The Troika is a sixty-five-ton medium aerospace fighter developed through the industrial cooperation of the Trinity Alliance, the political and military pact linking the Taurian Concordat, the Magistracy of Canopus, and the Capellan Confederation. Brought into existence at the Detroit Consolidated AeroSpace facility on Detroit during the early 3060s, it serves as a genuine technological achievement for the Periphery states; a modern fighter incorporating the latest Inner Sphere advances in propulsion, protection, and weapons systems. The Trinity Alliance designed the Troika to serve as a capable all-aspect fighter for forces that had long relied on aging Succession Wars-era designs, and the result met that requirement. Though contractual obligations initially directed production toward the Concordat, the bulk of the fighter's service has been with the Magistracy of Canopus and later the Capellan Confederation, which ultimately absorbed responsibility for its ongoing development and production.</p>
+</overview>
 
 <deployment>
 <p>The CMT-6T entered production during the Jihad period under Magistracy of Canopus management of the Detroit facility, then continued under Capellan Confederation oversight through the Dark Age and into the ilClan era. The variant represents an updated Troika with equipment suited to post-Civil War operational requirements. It serves in Capellan Confederation aerospace forces as a frontline medium fighter and has been identified by Federated Suns aerospace analysts as a primary CCAF type encountered in the Capellan March theater during the Dark Age. The Detroit facility continued producing the CMT-6T alongside the CMT-7T through the ilClan period, making it one of the longest-running production variants in the Troika family.</p>
@@ -188,4 +169,16 @@ ARMOR:Unknown
 COMMUNICATIONS:MaserCom Variable 3s
 TARGETING:Upgrade Multitask Version 3
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+65.0
+</tonnage>
 

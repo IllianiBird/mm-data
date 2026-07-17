@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e774-79fb-854d-300f5f01af8e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Plainsman Medium Hovertank
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -106,26 +106,13 @@ SRM 6
 SRM 6
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<tonnage>
-35.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Plainsman Medium Hover Tank emerged from a Pinard Protectorates Limited contract tied to Wolf's Dragoons' rearmament initiative of 3030, designed from first principles to maximize operational reliability in the demanding logistics environment of Periphery-adjacent operations. The design philosophy emphasized proven components and ease of field maintenance over technological sophistication, producing a vehicle that Concordat crews could keep operational far from established supply lines. Fast enough to serve as a screening asset and punchy enough to threaten heavier opponents at close range, the Plainsman became a fixture of Taurian Concordat armor formations within a decade of its introduction. Its reputation for durability and consistent performance made it a common sight in second-echelon forces across the Inner Sphere, with Pinard Protectorates Limited continuing to produce variants to meet a demand that has never fully subsided.</p>
-</overview>
-
 <capabilities>
 <p>The Plainsman's armament centers on a pair of Harvester 20K SRM 6 launchers mounted in a split-turret arrangement, supplemented by a forward-facing Harvester 2K SRM 2 launcher. This configuration gives the vehicle substantial close-range firepower for its weight class, capable of saturating a single target with a full missile salvo in one pass. Early prototype testing explored a fully independent split-turret concept, allowing each SRM 6 rack to rotate and elevate separately, but evaluators found that divided fire negated the design's punch, and the combined-battery approach was retained for production. The split arrangement does add mechanical complexity, however, and is a known maintenance burden for field crews.</p><p>A 140-rated internal combustion engine delivers a cruising speed of 97 kph and a flank speed of 151 kph, placing the Plainsman among the faster vehicles in its weight class. StarSlab/3 standard armor provides modest protection that experienced crews consider adequate for a fire-support platform operating from the second echelon, though it offers little margin against dedicated anti-armor fire. The Olmstead 30 communications system and Maxwell TA55 targeting suite are reliable mid-tier electronics that match the design's overall emphasis on durability over cutting-edge performance. The Plainsman's central limitation is its exclusively short-ranged armament: any engagement beyond 270 meters leaves it without a meaningful offensive option, and crews must rely on speed and terrain masking when operating against opponents with reach advantages.</p>
 </capabilities>
+
+<overview>
+<p>The Plainsman Medium Hover Tank emerged from a Pinard Protectorates Limited contract tied to Wolf's Dragoons' rearmament initiative of 3030, designed from first principles to maximize operational reliability in the demanding logistics environment of Periphery-adjacent operations. The design philosophy emphasized proven components and ease of field maintenance over technological sophistication, producing a vehicle that Concordat crews could keep operational far from established supply lines. Fast enough to serve as a screening asset and punchy enough to threaten heavier opponents at close range, the Plainsman became a fixture of Taurian Concordat armor formations within a decade of its introduction. Its reputation for durability and consistent performance made it a common sight in second-echelon forces across the Inner Sphere, with Pinard Protectorates Limited continuing to produce variants to meet a demand that has never fully subsided.</p>
+</overview>
 
 <deployment>
 <p>The Sealed variant was developed for operations in heavy seas and flooded terrain, filling a gap in Taurian amphibious doctrine. Its fuel cell engine and sealed flotation hull allow it to navigate through, not merely over, open water, and the forward torpedo launcher provides an offensive capability in littoral and inland waterway environments. It serves primarily with Taurian formations assigned to coastal defense and amphibious assault roles.</p>
@@ -158,4 +145,16 @@ ARMOR:StarSlab/3
 COMMUNICATIONS:30
 TARGETING:TA55
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<tonnage>
+35.0
+</tonnage>
 

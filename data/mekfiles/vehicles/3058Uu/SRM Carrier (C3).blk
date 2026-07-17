@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e472-7e59-afa4-f893fd9e6b18
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ SRM Carrier
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -108,37 +108,13 @@ SRM 6
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I,RSFP:Battlefield
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The SRM Carrier is a sixty-ton tracked combat vehicle built to deliver devastating short-range missile barrages at minimal cost. Developed by the Quikscell Company as a close-range counterpart to the LRM Carrier, the modern production model entered service around 2470, though its primitive ancestors date back to the Age of War in the 2440s. Manufactured by virtually every major military supplier across the Inner Sphere, the SRM Carrier provides cheap, expendable close-range fire support capable of crippling even assault-weight targets in a single volley. Its reputation as a disposable asset masks the genuine tactical threat posed by massed SRM carriers operating in coordinated ambush positions.</p>
-</overview>
-
 <capabilities>
 <p>The C3 variant addressed the unpopularity of the Narc-equipped upgrade by replacing the beacon with a C3 slave unit and Guardian ECM Suite. Nine Holly SRM-6 launchers provide substantial close-range firepower, while the C3 slave enables networked targeting data from friendly units equipped with C3 master computers. The Guardian ECM suite disrupts enemy electronics and provides protection against missile guidance systems.</p><p>Lexington Ltd. High Grade ferro-fibrous armor provides significantly improved protection over the standard model, with eighty points of armor coverage compared to the base variant's forty-eight. The InterComBust 180 engine maintains standard mobility. This combination of electronic warfare capability, networked targeting, and improved survivability made the C3 variant considerably more popular than its Narc-equipped predecessor.</p>
 </capabilities>
+
+<overview>
+<p>The SRM Carrier is a sixty-ton tracked combat vehicle built to deliver devastating short-range missile barrages at minimal cost. Developed by the Quikscell Company as a close-range counterpart to the LRM Carrier, the modern production model entered service around 2470, though its primitive ancestors date back to the Age of War in the 2440s. Manufactured by virtually every major military supplier across the Inner Sphere, the SRM Carrier provides cheap, expendable close-range fire support capable of crippling even assault-weight targets in a single volley. Its reputation as a disposable asset masks the genuine tactical threat posed by massed SRM carriers operating in coordinated ambush positions.</p>
+</overview>
 
 <deployment>
 <p>The C3 variant proved more popular than the Narc-equipped upgrade, with Quikscell producing it at Oliver and Richvale for distribution across the Federated Suns and Lyran Alliance. The combination of networked targeting and electronic warfare capability made it particularly effective in combined-arms formations.</p>
@@ -169,4 +145,20 @@ ARMOR:High Grade
 COMMUNICATIONS:with C3 Link
 TARGETING:with IndirecTrack
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I,RSFP:Battlefield
+</published>
+
+<tonnage>
+60.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

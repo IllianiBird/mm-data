@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0be-7f2f-9851-e2802772cce3
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Minotaur
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -121,34 +121,13 @@ EIInterface
 CLLBXAC2
 </Main Gun Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-9.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Minotaur is a nine-ton first-generation ProtoMek developed by Clan Smoke Jaguar as the heaviest and most powerful design in the original ProtoMek program on Huntress. Built to serve as the assault element of ProtoMek formations, the Minotaur sacrifices speed for devastating firepower and thick armor protection, mounting two ER Medium Lasers that deliver as much damage as many light BattleMeks. Combined with thirty-six points of armor sufficient to withstand a heavy autocannon hit, the Minotaur represented the upper limit of what first-generation ProtoMek technology could achieve. Its intended role as a defensive strongpoint leverages its impressive combat power while minimizing the impact of its slow ground speed.</p>
-</overview>
-
 <capabilities>
 <p>The Minotaur twin ER Medium Lasers give it the most potent energy weapon suite of any first-generation ProtoMek, delivering a combined damage output that can threaten medium-weight BattleMeks at respectable range. As energy-only armament, the weapons have no ammunition dependency, allowing the Minotaur to fight indefinitely without resupply. Three jump jets provide ninety meters of jumping distance, partially compensating for the design slow thirty-two-kilometer-per-hour cruising speed. Thirty-six points of armor make the Minotaur the most heavily protected first-generation ProtoMek, capable of surviving hits that would destroy lighter designs outright.</p><p>The Minotaur primary weakness is its glacial ground speed. At thirty-two kilometers per hour, it is easily outpaced by virtually every combat unit on the battlefield, including most assault-class BattleMeks. The jump jets help somewhat, but ninety meters of leaping distance is barely adequate for clearing terrain obstacles. An entire Point of Minotaurs working together can concentrate enough firepower to rapidly destroy light and medium targets, but getting into effective range against mobile opponents requires careful positioning and terrain exploitation. The design is at its best in defensive operations where it can select strong positions and force enemies to come to it, leveraging its firepower and armor from prepared fighting positions.</p>
 </capabilities>
+
+<overview>
+<p>The Minotaur is a nine-ton first-generation ProtoMek developed by Clan Smoke Jaguar as the heaviest and most powerful design in the original ProtoMek program on Huntress. Built to serve as the assault element of ProtoMek formations, the Minotaur sacrifices speed for devastating firepower and thick armor protection, mounting two ER Medium Lasers that deliver as much damage as many light BattleMeks. Combined with thirty-six points of armor sufficient to withstand a heavy autocannon hit, the Minotaur represented the upper limit of what first-generation ProtoMek technology could achieve. Its intended role as a defensive strongpoint leverages its impressive combat power while minimizing the impact of its slow ground speed.</p>
+</overview>
 
 <deployment>
 <p>The Minotaur 2 replaces the dual ER Medium Lasers with an LB-X AC/2 autocannon, fundamentally changing the design combat profile from close-range energy fighter to long-range ballistic support. The LB-X can fire both standard and cluster ammunition, the latter spreading damage across a target to find weak armor points. Twenty-four points of armor represent a significant reduction from the base model, and the jump jets are removed entirely. The design retains the base model slow cruising speed. This variant is typically deployed in rear-area fire support positions where its range advantage compensates for its reduced survivability.</p>
@@ -177,4 +156,16 @@ TARGETING:Unknown
 <systemModels>
 ENGINE:45 Fusion
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+9.0
+</tonnage>
 

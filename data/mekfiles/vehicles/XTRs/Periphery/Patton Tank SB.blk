@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec0d-78bb-8d74-3d2a82055d97
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Patton Tank
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -114,33 +114,13 @@ ISERMediumLaser
 ISERMediumLaser
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-XTR:Periphery
-</source>
-
-<published>
-XTR:Periphery
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 12:09:09
-<overview>
-<p>The Patton is one of the most capable main battle tanks in the Inner Sphere, the product of an ambitious Lyran program in the late Succession Wars to develop an entirely new combat vehicle without relying on degraded Star League designs. Defiance Industries and General Motors collaborated to produce a vehicle that could advance beyond the aging armor of the era, built around a fusion powerplant that required entirely new manufacturing infrastructure to supply. The result was a go-anywhere, do-anything heavy tank that quickly became a cornerstone of both Lyran Commonwealth and Federated Suns armored doctrine. The Patton's combination of firepower, protection, and tactical mobility established it as a premier main battle tank for decades after its introduction in 3027, earning wide adoption across the Inner Sphere and beyond.</p>
-</overview>
-
 <capabilities>
 <p>The Patton stands out among heavy tanks for its combination of direct-fire punch, missile support, and close-in capability in a single chassis. Its primary autocannon delivers reliable anti-armor performance across a range of engagement distances, while the Coventry Five-Tube Missile System provides standoff firepower against dispersed infantry or lightly armored targets. A hotshot flamer and small laser round out the armament, giving Patton crews options for dealing with infantry at close range without expending autocannon ammunition.</p><p>The vehicle carries over fourteen tons of Durallex Heavy armor protection, the heaviest of the Rommel and Patton pair, reflecting the Patton's intended role as a front-line combat unit. Its CASE-protected crew compartment improves crew survivability against internal ammunition explosions, and the tank's low silhouette allows it to navigate urban and confined terrain with reasonable ease.</p><p>The Magna 260 fusion engine gives the Patton a combat radius that conventional ICE-powered vehicles cannot match, though it also contributed significantly to the cost and industrial complexity of the program. The Patton is especially less effective against hardened fixed positions, a role better suited to specialized Rommel variants.</p>
 </capabilities>
+
+<overview>
+<p>The Patton is one of the most capable main battle tanks in the Inner Sphere, the product of an ambitious Lyran program in the late Succession Wars to develop an entirely new combat vehicle without relying on degraded Star League designs. Defiance Industries and General Motors collaborated to produce a vehicle that could advance beyond the aging armor of the era, built around a fusion powerplant that required entirely new manufacturing infrastructure to supply. The result was a go-anywhere, do-anything heavy tank that quickly became a cornerstone of both Lyran Commonwealth and Federated Suns armored doctrine. The Patton's combination of firepower, protection, and tactical mobility established it as a premier main battle tank for decades after its introduction in 3027, earning wide adoption across the Inner Sphere and beyond.</p>
+</overview>
 
 <deployment>
 <p>The Patton-SB is a one-of-a-kind experimental prototype developed by Taurus Territorial Industries' Advanced Projects team beginning in 3079, designed specifically for vacuum and low-gravity combat. It incorporates environmental sealing, a supercharger enabling speed bursts in reduced-gravity conditions, and a Silver Bullet Gauss rifle for precision engagement. As a single prototype it has never entered mass production; TTI faces sourcing challenges for its unusual weapon systems. The design remains a proof-of-concept for potential hostile-environment vehicle programs within the Taurian military establishment.</p>
@@ -157,4 +137,16 @@ Defiance Industries|General Motors|Alliance Defenders Limited|Benson and Bjorn
 <primaryFactory>
 Hesperus II|Salem, Hesperus II|Alpheratz|Spittal
 </primaryFactory>
+
+<source>
+XTR:Periphery
+</source>
+
+<published>
+XTR:Periphery
+</published>
+
+<tonnage>
+65.0
+</tonnage>
 

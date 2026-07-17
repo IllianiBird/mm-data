@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af2c-7c4a-bb85-c73318badcb5
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ TRB-D50
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -124,32 +124,13 @@ IS Ammo AC/10
 IS Ammo AC/10
 </Fuselage Equipment>
 
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The TRB-D36 Thunderbird has stood at the center of Inner Sphere heavy aerospace combat since 2480, when the Lockheed Corporation of Gibbs and CBM Aerospace of Donegal pooled their resources to build a capable assault fighter for the Lyran Commonwealth Armed Forces. Designed from the outset for air-to-ground attack and DropShip escort, the craft's unconventional silhouette earned it unflattering comparisons early in its career, but its durability and straightforward reliability proved far more valuable than aesthetics. The design spread steadily across the Star League as other manufacturers successfully replicated it, ensuring that Thunderbirds entered service with every major power and dozens of minor ones. By the mid-thirty-first century, it remains one of the most recognized heavy fighters in the Inner Sphere, a ubiquitous if increasingly dated presence in aerospace wings from the Lyran Alliance to the Taurian Concordat.</p>
-</overview>
-
 <capabilities>
 <p>The Thunderbird's weapons suite prioritizes energy endurance over raw burst damage, centering on three RAMTech 1200 large lasers and five Maxwell medium lasers distributed across the nose and both wings. Two aft-mounted Maxwell medium lasers deter pursuit effectively in extended engagements. Each wing also mounts a FarFire Maxi-Rack LRM-20 launcher, adding useful standoff reach against DropShips and larger targets, supplemented by four tons of missile reloads for reasonable combat endurance. The Vlar 300 fusion plant delivers adequate thrust for a craft of its size without making the Thunderbird a competitive interceptor. Twenty-five single heat sinks cool the design under normal firing cadence, though sustained all-weapons volleys risk thermal buildup that limits aggressive combat tactics. The L/CBM AeroSteel armor provides solid protection for a hundred-ton airframe, though concentrated capital-scale fire remains a serious threat.</p><p>The design's core strength is its reliability: the weapons mix functions well across dogfighting, strafing, and escort duties without demanding specialized maintenance cycles or rare components. This adaptability, more than any single performance metric, explains why the Thunderbird has remained in frontline service for centuries despite the availability of technically superior alternatives.</p>
 </capabilities>
+
+<overview>
+<p>The TRB-D36 Thunderbird has stood at the center of Inner Sphere heavy aerospace combat since 2480, when the Lockheed Corporation of Gibbs and CBM Aerospace of Donegal pooled their resources to build a capable assault fighter for the Lyran Commonwealth Armed Forces. Designed from the outset for air-to-ground attack and DropShip escort, the craft's unconventional silhouette earned it unflattering comparisons early in its career, but its durability and straightforward reliability proved far more valuable than aesthetics. The design spread steadily across the Star League as other manufacturers successfully replicated it, ensuring that Thunderbirds entered service with every major power and dozens of minor ones. By the mid-thirty-first century, it remains one of the most recognized heavy fighters in the Inner Sphere, a ubiquitous if increasingly dated presence in aerospace wings from the Lyran Alliance to the Taurian Concordat.</p>
+</overview>
 
 <deployment>
 <p>Developed by Pinard Protectorates Limited on Perdition in 3065, the D50 represents the Taurian Concordat's independent evolution of the Thunderbird concept. By replacing the wing missile launchers with additional medium lasers and substituting an autocannon for the nose medium laser, Pinard created a variant less dependent on missile resupply, a practical priority for Periphery operators distant from reliable ammunition sources. Ferro-aluminum armor and additional heat sinks improve both survivability and sustained fire capability relative to the base model. The D50 served primarily with the Taurian Concordat Armed Forces until Jihad-era fighting disrupted the Perdition production line and forced Concordat forces to rely on existing stocks. Operational examples remain in Concordat service, though attrition has reduced their numbers without a clear path to replacement production.</p>
@@ -182,4 +163,16 @@ ARMOR:Ferro-Aluminum
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+100.0
+</tonnage>
 

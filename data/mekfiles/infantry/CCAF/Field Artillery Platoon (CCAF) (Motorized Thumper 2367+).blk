@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b7cf-7bb7-83d9-372c90cc7c26
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Artillery Platoon (CCAF)
 <year>
 2367
 </year>
-
-<originalBuildYear>
-2367
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -57,7 +57,9 @@ ISThumper
 ISThumperAmmo
 </Field Guns Equipment>
 
-
+<overview>
+<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. Field artillery platoons give CCAF ground commanders organic indirect fire support without requiring dedicated artillery vehicles. Operating crew-served tube or missile artillery pieces from mechanized transports, these platoons can displace and redeploy faster than vehicle-mounted artillery at the cost of lower rates of fire and less ammunition. Operating a Thumper artillery piece, these platoons provide light indirect fire support, effective for suppression and area denial against infantry and light vehicles.</p>
+</overview>
 
 <notes>
 Intro date based on start date of Capellan Confederation faction
@@ -82,9 +84,4 @@ Submachine Gun
 <Secondary>
 InfantryAssaultRifle
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Capellan infantry serve where BattleMechs and armor cannot be spared, which in the resource-constrained CCAF means nearly everywhere. The Xin Sheng movement revitalized the infantry arm alongside every other facet of the Capellan Confederation Armed Forces, giving foot soldiers better equipment and renewed purpose. Field artillery platoons give CCAF ground commanders organic indirect fire support without requiring dedicated artillery vehicles. Operating crew-served tube or missile artillery pieces from mechanized transports, these platoons can displace and redeploy faster than vehicle-mounted artillery at the cost of lower rates of fire and less ammunition. Operating a Thumper artillery piece, these platoons provide light indirect fire support, effective for suppression and area denial against infantry and light vehicles.</p>
-</overview>
 

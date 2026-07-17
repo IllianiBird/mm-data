@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec20-7319-9741-d48a52da23d2
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Armored Personnel Carrier
 <year>
 2390
 </year>
-
-<originalBuildYear>
-2390
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,34 +119,13 @@ Machine Gun
 3
 </engine_tech_rating>
 
-<source>
-XTR:Primitives I
-</source>
-
-<published>
-XTR:Primitives I
-</published>
-
-<tonnage>
-10.0
-</tonnage>
-
-<fuel>
-0.5
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
-</overview>
-
 <capabilities>
 <p>The primitive wheeled APC dates to approximately 2390, representing the simplest and most economical of the early personnel carrier designs. Using civilian drive train components including an off-road chassis modification and a petrochemical-powered internal combustion engine, this ten-ton vehicle carries one ton of infantry -- a single squad -- at a maximum speed of approximately sixty-five kilometers per hour. Two turret-mounted machine guns provide basic self-defense.</p><p>Constructed with barrier armor rating six protection -- twenty-four points of armor coverage -- the primitive wheeled APC matches the tracked primitive's protection while offering better mobility on improved surfaces. The off-road chassis modification provides modest cross-country capability, though the vehicle remains dependent on road networks for effective operations. Non-combat adaptations of this chassis appeared across the Inner Sphere, including the Steiner Prime Mover cargo variant and various Davion ambulance conversions, demonstrating the platform's versatility beyond its military transport role.</p>
 </capabilities>
+
+<overview>
+<p>The Armored Personnel Carrier is a ubiquitous ten-ton combat transport found in virtually every military force across the Inner Sphere and Periphery. Produced in three standard configurations -- hover, tracked, and wheeled -- these vehicles serve as the primary means of delivering infantry squads to and from the combat zone. The basic designs date back to the Star League era around 2500, with primitive predecessors operating as early as 2390, and production has continued without interruption for centuries. Their simplicity, low cost, and ease of manufacture ensure that every House military, mercenary command, and planetary militia fields them in quantity, making them among the most commonly encountered military vehicles in the galaxy.</p>
+</overview>
 
 <deployment>
 <p>The primitive wheeled APC remains in use with militia, private security, and paramilitary forces across the Periphery and Inner Sphere. Non-combat adaptations based on this chassis proliferated widely, including the Steiner Prime Mover cargo variant, Kurita tracked cargo conversions, and various Davion ambulance configurations, ensuring that production lines for the basic chassis remained active long after the military version was superseded.</p>
@@ -177,4 +156,24 @@ ARMOR:BAR
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Primitives I
+</source>
+
+<published>
+XTR:Primitives I
+</published>
+
+<tonnage>
+10.0
+</tonnage>
+
+<fuel>
+0.5
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

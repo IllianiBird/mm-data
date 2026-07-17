@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a66b-7fd7-aafa-cbd87881454c
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Shen Long Battle Armor
 <year>
 3092
 </year>
-
-<originalBuildYear>
-3092
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -94,45 +94,13 @@ BAMineLauncher:TU
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
 
-<slotless_equipment>
-BA-Mine Launcher Ammo:Shots6#
-</slotless_equipment>
-<source>
-TR:3145:CC
-</source>
-
-<chassis>
-quad
-</chassis>
-
-<turret>
-Modular:4
-</turret>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Shen Long is a heavy battle armor suit produced by Hellespont Industrials for the Capellan Confederation Armed Forces and the Magistracy of Canopus. Introduced in 3092, the design employs a quad chassis that provides exceptional ground speed for its weight class, paired with advanced camouflage systems that allow troopers to approach targets undetected. A reconfigurable weapon platform enables rapid loadout changes between missions, giving field commanders flexibility to tailor formations for specific tactical situations. The suit earned its name, meaning "Divine Dragon" in Chinese, for the aggressive ambush doctrine that defines its primary employment.</p>
-</overview>
-
 <capabilities>
 <p>The Shen Long mounts 1,500 kilograms on a quad chassis capable of 43 kilometers per hour, ranking among the fastest heavy battlesuits in the Inner Sphere. Its 550 kilograms of mimetic armor distorts sensor signatures and visual profiles, making the suit difficult to detect and target. The modular turret mount provides 400 kilograms of weapon and equipment capacity, while the quad design trades manipulators for speed and stability.</p><p>The Pop-Up Mine configuration equips two heavy grenade launchers in the turret, each with twenty rounds, and a body-mounted pop-up mine dispenser. This loadout is purpose-built for area denial and defensive operations. The grenade launchers provide flexible close-range firepower, while the mine dispenser allows troopers to seed terrain with concealed explosives during withdrawal or in preparation for ambushes. The configuration sacrifices direct anti-armor capability for battlefield control, making it dependent on allied units to engage hardened targets.</p>
 </capabilities>
+
+<overview>
+<p>The Shen Long is a heavy battle armor suit produced by Hellespont Industrials for the Capellan Confederation Armed Forces and the Magistracy of Canopus. Introduced in 3092, the design employs a quad chassis that provides exceptional ground speed for its weight class, paired with advanced camouflage systems that allow troopers to approach targets undetected. A reconfigurable weapon platform enables rapid loadout changes between missions, giving field commanders flexibility to tailor formations for specific tactical situations. The suit earned its name, meaning "Divine Dragon" in Chinese, for the aggressive ambush doctrine that defines its primary employment.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Pop-Up Mine formations provide garrison units with substantial area denial capability. The larger squad size allows commanders to seed defensive perimeters rapidly, creating dense obstacle belts around fixed positions while grenade launchers provide immediate close-range firepower against probing attacks.</p>
@@ -165,4 +133,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:CC
+</source>
+
+<chassis>
+quad
+</chassis>
+
+<turret>
+Modular:4
+</turret>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

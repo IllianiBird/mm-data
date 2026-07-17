@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e6d5-74a3-af8d-5c49cc1c898d
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Fox Armored Car
 <year>
 3084
 </year>
-
-<originalBuildYear>
-3084
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -101,26 +101,13 @@ ISSmallPulseLaser
 ISSmallPulseLaser
 </Turret Equipment>
 
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-CE
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 11:22:50
-<overview>
-<p>The Fox Armored Car is a light hover combat vehicle developed by Valiant Systems for the Armed Forces of the Federated Suns. Originally conceived as a cost-effective replacement for the aging Savannah Master, the Fox underwent extensive scope expansion during development as the Department of the Quartermaster added successive requirements, delaying the program significantly. By the time a prototype was ready, the original procurement need had passed and the program was shelved. The Jihad created new demand for light combat vehicles, and Valiant Systems revived and completed the Fox, bringing it to production in 3084. Manufactured at facilities on both Achernar and Johnsondale, the Fox serves as an independent, fast harassment and reconnaissance platform for Federated Suns and Republic of the Sphere forces.</p>
-</overview>
-
 <capabilities>
 <p>The Fox achieves its performance through an extralight fusion engine, giving it hover speeds that outpace most comparable light vehicles on the battlefield. The weapons load relies entirely on energy weapons, providing complete independence from resupply logistics in the field. An extended-range medium laser provides reach and sufficient threat value to make opposing units cautious, while a pair of small pulse lasers contribute close-range anti-infantry capability and improve accuracy against fast-moving targets.</p><p>Protection is adequate for a vehicle of its weight class, with composite armor covering the hull. The hover chassis, however, is inherently fragile and susceptible to mobility kills well before the vehicle would otherwise be destroyed. Commanders must account for this vulnerability when assigning the Fox to contested areas, as an immobilized vehicle represents both a mission loss and a salvage liability.</p><p>The Fox performs best in harassment and reaction-force roles rather than direct engagement. Its medium laser creates enough concern to influence enemy behavior, and its speed gives a capable commander the ability to control when and how engagements occur. Misused as a front-line combatant, the Fox underperforms badly. In its intended role, it is an efficient platform that exceeds its logistics cost.</p>
 </capabilities>
+
+<overview>
+<p>The Fox Armored Car is a light hover combat vehicle developed by Valiant Systems for the Armed Forces of the Federated Suns. Originally conceived as a cost-effective replacement for the aging Savannah Master, the Fox underwent extensive scope expansion during development as the Department of the Quartermaster added successive requirements, delaying the program significantly. By the time a prototype was ready, the original procurement need had passed and the program was shelved. The Jihad created new demand for light combat vehicles, and Valiant Systems revived and completed the Fox, bringing it to production in 3084. Manufactured at facilities on both Achernar and Johnsondale, the Fox serves as an independent, fast harassment and reconnaissance platform for Federated Suns and Republic of the Sphere forces.</p>
+</overview>
 
 <deployment>
 <p>The standard Fox distributes across Federated Suns and Republic of the Sphere formations in light armor lances and fast reconnaissance elements. Roughly forty percent of early production went to the RAF, with the remainder allocated to Federated forces, a ratio that shifted as Dark Age-era distribution priorities evolved. The all-energy weapons load suits the Fox for extended patrol assignments without logistical support, making it a common choice for garrison and patrol duties in areas where supply lines are thin or contested.</p>
@@ -153,4 +140,16 @@ ARMOR:StarSlab/2
 COMMUNICATIONS:5.3
 TARGETING:TacTOM IV
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-CE
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

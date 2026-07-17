@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e843-705a-be84-38e102e8f932
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ M1J
 <year>
 3128
 </year>
-
-<originalBuildYear>
-3128
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -116,26 +116,13 @@ Machine Gun
 Machine Gun
 </Turret Equipment>
 
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<tonnage>
-95.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Marksman Main Battle Tank emerged from a competitive procurement process launched by the Republic of the Sphere Armed Forces in the early thirty-second century. Pandora 'Mech Works of Terra entered the bidding not in response to an explicit contract solicitation, but by submitting an assault tank design that was already undergoing internal development and trials. The RAF had previously selected the Kinnol as its light main battle tank, passing over Pandora's lighter Winston Combat Vehicle. Rather than withdraw from the market, Pandora moved quickly and placed its heavier M-series design before the RAF's Quartermaster office before a formal open bid had even been announced. The RAF designated the winning design the Marksman, a name coincidentally shared by an earlier Star League artillery vehicle. Pandora subsequently released a cost-reduced variant for the broader market, extending the chassis beyond its original Protectorate role.</p>
-</overview>
-
 <capabilities>
 <p>The Marksman M1A rides on a ninety-five-ton tracked chassis powered by an Edasich Motors 285 Light Fusion engine, reaching a top speed of fifty-four kilometers per hour. The light engine's reduced weight footprint frees up mass for combat systems, though it carries a substantial cost premium over conventional powerplants. Protection is provided by fifteen and a half tons of AmberStar Weave heavy ferro-fibrous armor backed by a chassis-mounted CASE system, offering strong protection against conventional fire while containing ammunition cook-off risks.</p><p>The primary weapon is an M-7 Gauss Rifle, capable of delivering precision strikes at long range with minimal heat buildup. Two Holly Multi-Missile Launcher nines extend the tank's engagement envelope across ranges, providing flexibility against armored and unarmored targets alike. Four Krieger C1 Series medium lasers, adapted from the Cyclops Eye design used on the Drillson Hover Tank, supply reliable close-range backup firepower. Four MainFire Miniguns round out the weapon suite for anti-infantry and light vehicle work.</p><p>The Marksman M1A's principal weaknesses are cost and ground speed. The combination of a light fusion engine, heavy ferro-fibrous armor, and a high-tier weapons package makes this vehicle expensive to procure and maintain. At fifty-four kilometers per hour, the Marksman is slower than many lighter competitors, reducing its ability to reposition under fire or exploit breakthroughs in fluid engagements.</p>
 </capabilities>
+
+<overview>
+<p>The Marksman Main Battle Tank emerged from a competitive procurement process launched by the Republic of the Sphere Armed Forces in the early thirty-second century. Pandora 'Mech Works of Terra entered the bidding not in response to an explicit contract solicitation, but by submitting an assault tank design that was already undergoing internal development and trials. The RAF had previously selected the Kinnol as its light main battle tank, passing over Pandora's lighter Winston Combat Vehicle. Rather than withdraw from the market, Pandora moved quickly and placed its heavier M-series design before the RAF's Quartermaster office before a formal open bid had even been announced. The RAF designated the winning design the Marksman, a name coincidentally shared by an earlier Star League artillery vehicle. Pandora subsequently released a cost-reduced variant for the broader market, extending the chassis beyond its original Protectorate role.</p>
+</overview>
 
 <deployment>
 <p>The M1J is a third-party refit produced by Jake's Discount Equipment Warehouse for operators seeking greater area-fire capability from the Marksman chassis. The engine swap reduces the tank's performance ceiling in exchange for tonnage redirected to larger MRM banks, shifting the vehicle toward indirect and mid-range fire support rather than the precision long-range role of the base Marksman. JDEW's independent distribution network gives the M1J a presence across markets outside the main Protectorate supply chain, including peripheral and independent buyer communities.</p>
@@ -168,4 +155,16 @@ ARMOR:Protec 12
 COMMUNICATIONS:400E
 TARGETING:EE-4
 </systemModels>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<tonnage>
+95.0
+</tonnage>
 

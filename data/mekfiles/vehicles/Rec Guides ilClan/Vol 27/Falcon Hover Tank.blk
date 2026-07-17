@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9a0-7c5f-a833-c28d7f84e8e5
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Falcon Hover Tank
 <year>
 3023
 </year>
-
-<originalBuildYear>
-3023
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -110,33 +110,13 @@ SRM 6
 Medium Laser
 </Turret Equipment>
 
-
-
-
-<source>
-RG27
-</source>
-
-<published>
-RG27
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Falcon Hover Tank entered service in 3023 as Quikscell Company's flagship light combat vehicle, representing a thorough modernization of the ancient LTV-4 platform with contemporary systems and significantly improved performance. Built at Richvale and distributed as partially assembled kits through Quikscell's sales network, the Falcon offered planetary militias and budget-constrained mercenary formations access to a capable high-speed striker at prices the major manufacturers could not match. Where the companion Hawk emphasizes long-range direct fire, the Falcon prioritizes speed and close-range striking power, optimized for aggressive hit-and-run raids against armored targets. A century of continuous production and combat service across the Inner Sphere has established the Falcon as one of the most widely distributed light combat hovercraft in human space.</p>
-</overview>
-
 <capabilities>
 <p>The Falcon's WorkHorse 215 PowerChain ICE delivers exceptional top speed that allows it to outpace most BattleMechs and many combat vehicles, creating opportunities to engage from flanking positions before heavier adversaries can respond. Twin Holly SRM-6 launchers concentrate significant short-range firepower against armored targets during rapid strike passes, with rounds capable of targeting exposed hover skirts, drive systems, and rear armor on opposing vehicles. A Defiance B3M medium laser maintains offensive capability after the launchers exhaust their ammunition, allowing the Falcon to remain a threat through extended engagements. ProtecTech Light armor keeps the vehicle's weight down but limits direct combat survivability, pushing operators toward speed and positioning as their primary defensive tools.</p><p>Basix 200 communications and OptiSight-12 targeting equipment provide effective fire control for the Falcon's aggressive engagement style. A small integral cargo bay enables courier assignments and extended patrol operations when the vehicle is not deployed in combat. The ICE powerplant's fuel requirements constrain operational range in environments lacking forward supply support, a limitation operators must factor into extended mission planning far from established logistics.</p>
 </capabilities>
+
+<overview>
+<p>The Falcon Hover Tank entered service in 3023 as Quikscell Company's flagship light combat vehicle, representing a thorough modernization of the ancient LTV-4 platform with contemporary systems and significantly improved performance. Built at Richvale and distributed as partially assembled kits through Quikscell's sales network, the Falcon offered planetary militias and budget-constrained mercenary formations access to a capable high-speed striker at prices the major manufacturers could not match. Where the companion Hawk emphasizes long-range direct fire, the Falcon prioritizes speed and close-range striking power, optimized for aggressive hit-and-run raids against armored targets. A century of continuous production and combat service across the Inner Sphere has established the Falcon as one of the most widely distributed light combat hovercraft in human space.</p>
+</overview>
 
 <deployment>
 <p>The Falcon primarily serves in rapid-strike, intercept, and anti-armor roles across Inner Sphere militia and mercenary formations. Commanders deploy it in pairs or small groups to concentrate missile fire against armored targets while individual vehicles rotate away to reload. Its hover speed enables approach across terrain that would stop tracked pursuit, allowing favorable positioning for flank and rear attacks against slower opponents. Scouting and anti-bandit operations represent its most common peacetime duties, with planetary defense forces relying on its speed to engage raiders before they can withdraw.</p>
@@ -169,4 +149,20 @@ ARMOR:Light
 COMMUNICATIONS:200
 TARGETING:12
 </systemModels>
+
+<source>
+RG27
+</source>
+
+<published>
+RG27
+</published>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

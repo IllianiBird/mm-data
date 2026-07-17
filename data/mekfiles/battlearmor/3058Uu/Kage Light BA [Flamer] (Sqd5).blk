@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a2c0-7908-bc2b-ec3a22605e2f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kage Light Battle Armor
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -93,38 +93,14 @@ IS BA Stealth (Basic):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kage ("shadow") light battle armor was one of the first Draconis Combine designs to enter production following the Truce of Tukayyid. Developed jointly by Internal Security Force scientists and Draconis Elite Strike Team advisers, the suit was built for reconnaissance, infiltration, and intelligence gathering in hostile environments. Produced by New Samarkand Metals and Luthien Armor Works, the Kage entered service in 3056 as a replacement for the older DEST Infiltration Suit, offering far greater protection and mobility. The design earned a strong reputation within DCMS special operations and line formations alike for its exceptional aerial agility and advanced stealth characteristics.</p>
-</overview>
 
 <capabilities>
 <p>The flamer configuration designates one trooper as the support element, carrying a flamer assembled from components distributed across the team via the squad support weapon mount. Remaining troopers retain anti-personnel weapon mounts on the right forearm, typically fitted with submachine guns, while all operators keep both armored gloves free for other tasks. The Kage's 750-kilogram frame carries 275 kilograms of basic stealth armor with electronic and infrared suppression capable of defeating active probes, and its partial wing assembly provides 120-meter assisted jumps with a retractable profile to preserve the suit's low radar signature.</p><p>The flamer delivers effective close-range firepower against conventional infantry and unarmored targets, making this loadout well suited for clearing defensive positions and denying terrain during infiltration operations. Its limited range forces dangerously close engagements, but the Kage's stealth and mobility typically allow troopers to close the distance before being detected.</p>
 </capabilities>
+
+<overview>
+<p>The Kage ("shadow") light battle armor was one of the first Draconis Combine designs to enter production following the Truce of Tukayyid. Developed jointly by Internal Security Force scientists and Draconis Elite Strike Team advisers, the suit was built for reconnaissance, infiltration, and intelligence gathering in hostile environments. Produced by New Samarkand Metals and Luthien Armor Works, the Kage entered service in 3056 as a replacement for the older DEST Infiltration Suit, offering far greater protection and mobility. The design earned a strong reputation within DCMS special operations and line formations alike for its exceptional aerial agility and advanced stealth characteristics.</p>
+</overview>
 
 <deployment>
 <p>Clan Nova Cat Points operating flamer-equipped Kage suits deployed them in urban pacification roles following the alliance with the Combine. Five-trooper teams used the flamer to clear structures and deny cover to conventional infantry during security operations on jointly administered worlds.</p>
@@ -159,4 +135,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

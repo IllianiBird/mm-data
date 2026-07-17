@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a687-7859-b3ac-23e9ff37fa7a
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Ogre Battle Armor
 <year>
 3091
 </year>
-
-<originalBuildYear>
-3091
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -92,38 +92,14 @@ BA-SRM2 Ammo:Body:Shots1#
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:FWL
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-14
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>Tvastar Enterprises' first entry into the battle armor market, the Ogre was designed to supplement slower vehicle platoons and fill gaps in Regulan planetary militias. Introduced in 3091, this heavy Inner Sphere suit was built on Regulus during a period of increasing reliance on non-BattleMech forces across the former Free Worlds League. The Ogre's unusually wide frame and paired melee weapons give it an intimidating battlefield presence that belies its intended support role. Though ill-suited to anti-infantry work, the suit earned a fearsome, if exaggerated, combat reputation through its effectiveness against armored vehicles.</p>
-</overview>
 
 <capabilities>
 <p>The Ogre carries paired Heavy Battle Claws as its primary melee weapons, capable of inflicting serious damage to vehicle armor at close range. An SRM-2 launcher with thirteen volleys of ammunition provides the suit's ranged striking power, giving operators enough firepower for sustained engagements. Nearly a full ton of standard armor provides considerable protection, allowing the Ogre to absorb fire from all but the heaviest vehicle-mounted weapons.</p><p>At 1,500 kilograms, the Ogre is classified as a heavy battle armor suit. Its ground speed of 22 kilometers per hour and complete lack of jump capability limit tactical mobility, making the suit dependent on transport or supporting units to close with targets. Despite its imposing size, the suit lacks anti-personnel weapons, leaving it poorly matched against conventional infantry.</p>
 </capabilities>
+
+<overview>
+<p>Tvastar Enterprises' first entry into the battle armor market, the Ogre was designed to supplement slower vehicle platoons and fill gaps in Regulan planetary militias. Introduced in 3091, this heavy Inner Sphere suit was built on Regulus during a period of increasing reliance on non-BattleMech forces across the former Free Worlds League. The Ogre's unusually wide frame and paired melee weapons give it an intimidating battlefield presence that belies its intended support role. Though ill-suited to anti-infantry work, the suit earned a fearsome, if exaggerated, combat reputation through its effectiveness against armored vehicles.</p>
+</overview>
 
 <deployment>
 <p>Ogre suits acquired by the Rasalhague Dominion through Sea Fox merchants were organized into standard five-trooper Clan Points. Star Captain Idris DelVillar of the 283rd Battle Cluster employed his Ogre Points alongside Dasher OmniMechs, using the suit's bulk to exploit weak points in enemy formations. Initial Clan resistance to the Inner Sphere design was overcome after the Ogre proved itself in a Trial of Grievance.</p>
@@ -156,4 +132,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:FWL
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+14
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

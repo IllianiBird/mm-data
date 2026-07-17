@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8d2-7000-a8c2-9e2a44f5ae51
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Harpoon ParaSub
 <year>
 2545
 </year>
-
-<originalBuildYear>
-2545
-</originalBuildYear>
 
 <type>
 IS Level 5
@@ -106,12 +106,6 @@ Support Laser (Heavy):SIZE:1.0
 <Rear Equipment>
 </Rear Equipment>
 
-<slotless_equipment>
-Infantry Ammo
-Infantry Inferno Ammo
-Infantry Ammo
-</slotless_equipment>
-
 <barrating>
 2
 </barrating>
@@ -124,20 +118,6 @@ Infantry Ammo
 3
 </engine_tech_rating>
 
-
-<source>
-AToW Companion
-</source>
-
-<tonnage>
-4.0
-</tonnage>
-
-<fuel>
-0.5
-</fuel>
-
-# Fluff Date: 2026-03-12 17:26:07
 <overview>
 <p>The Harpoon ParaSub was initially commissioned on the water-rich Capellan world of Principia by the mercenary command Kraken Unleashed. It is an unpressurized submersible which moves five troopers and supplies them with weapon support. Since its debut it has become available for sale on the open market, enabling the creation of submersible mechanized infantry for any interested buyer.</p>
 </overview>
@@ -165,4 +145,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+AToW Companion
+</source>
+
+<tonnage>
+4.0
+</tonnage>
+
+<fuel>
+0.5
+</fuel>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e86a-7393-87da-7dd2456bb80d
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ JES III Missile Carrier
 <year>
 3135
 </year>
-
-<originalBuildYear>
-3135
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -113,26 +113,13 @@ LRM 15
 LRM 15
 </Turret Equipment>
 
-<source>
-TR:3145:RotS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-08 18:30:06
-<overview>
-<p>The JES III Missile Carrier was Joint Equipment Systems' attempt to find a middle ground between its two predecessor designs. Introduced in 3133 just before the HPG Blackout, the sixty-ton wheeled carrier was designed with reliability and ease of maintenance as primary goals, learning from the lessons of both the underpowered JES I and the ponderous JES II. Originally built at the Zebebelgenubi facility for the Republic of the Sphere armed forces, production quickly expanded to the Alula Australis and Panpour plants as demand surged in the chaotic post-Blackout environment. The JES III became one of the most popular missile carriers of the Dark Age, proving itself a reliable and rugged support vehicle across multiple factions.</p>
-</overview>
-
 <capabilities>
 <p>The JES III mounts four turret-mounted FarFire LRM-15 launchers as its primary armament, giving it a combined barrage of sixty missiles per salvo. The turret mount serves as a significant tactical advantage over the fixed-forward launchers of earlier JES designs, allowing the crew to engage targets across a full arc without repositioning the vehicle. Two GM MiniGun machine guns provide point defense against infantry, though the JES III lacks any meaningful secondary weapons beyond these. A six-ton ammunition bay provides reasonable endurance for sustained bombardment missions.</p><p>A GM 160 XL fusion engine gives the wheeled carrier a top speed of 54 km/h, modest but adequate for a fire support platform that typically operates from the second echelon. Starshield III armor provides protection appropriate to the vehicle's support role, though crews are expected to avoid direct engagement with frontline combatants. The Communicator communications system and FireScan with IndirecTrack targeting system are the same proven electronics suite used across the entire JES carrier line, simplifying logistics and crew training. Whatever lessons Joint Equipment Systems learned building their earlier carriers paid dividends with the JES III, which earned design quirks for both ease of maintenance and improved long-range targeting accuracy.</p>
 </capabilities>
+
+<overview>
+<p>The JES III Missile Carrier was Joint Equipment Systems' attempt to find a middle ground between its two predecessor designs. Introduced in 3133 just before the HPG Blackout, the sixty-ton wheeled carrier was designed with reliability and ease of maintenance as primary goals, learning from the lessons of both the underpowered JES I and the ponderous JES II. Originally built at the Zebebelgenubi facility for the Republic of the Sphere armed forces, production quickly expanded to the Alula Australis and Panpour plants as demand surged in the chaotic post-Blackout environment. The JES III became one of the most popular missile carriers of the Dark Age, proving itself a reliable and rugged support vehicle across multiple factions.</p>
+</overview>
 
 <deployment>
 <p>The Speed variant, introduced in 3135, removes the machine guns and their ammunition to accommodate a larger engine, boosting the JES III's top speed to 64 km/h. While modest by combat vehicle standards, the improved mobility allows the carrier to reposition more quickly between fire missions and keep pace with faster formation elements. The loss of anti-infantry capability was considered an acceptable trade by most operators. All three JES facilities produced this variant.</p>
@@ -165,4 +152,16 @@ ARMOR:III
 COMMUNICATIONS:Communicator
 TARGETING:FireScan with IndirecTrack
 </systemModels>
+
+<source>
+TR:3145:RotS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

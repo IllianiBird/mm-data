@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b628-7962-882c-82baa91869e8
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -36,10 +40,6 @@ Com Guards Battlefield Data Miners
 3064
 </year>
 
-<originalBuildYear>
-3064
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -55,9 +55,9 @@ ComStar Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
-
-
+<overview>
+<p>ComStar's battlefield data miners are a specialized signals intelligence formation deployed from mechanized hover carriers. These sensor-equipped platoons use networks of remote sensors to capture enemy transmissions and submit them for processing by Com Guard intelligence staff. While the data miners rarely crack enemy encryption in real time, their ability to measure and triangulate signal sources provides Com Guard commanders with targeting data on opposing formations. Armed with Federated-Barrett M42B assault rifles for self-defense, the platoon's primary value lies in its electronic surveillance capability rather than its direct combat power. The combination of hover mobility and sensor equipment allows data miner units to reposition quickly as the battle develops, maintaining coverage of enemy communications even as front lines shift.</p>
+</overview>
 
 <source>
 TR:3085
@@ -82,9 +82,4 @@ InfantryFederatedBarrettM42B
 <specialization>
 16
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>ComStar's battlefield data miners are a specialized signals intelligence formation deployed from mechanized hover carriers. These sensor-equipped platoons use networks of remote sensors to capture enemy transmissions and submit them for processing by Com Guard intelligence staff. While the data miners rarely crack enemy encryption in real time, their ability to measure and triangulate signal sources provides Com Guard commanders with targeting data on opposing formations. Armed with Federated-Barrett M42B assault rifles for self-defense, the platoon's primary value lies in its electronic surveillance capability rather than its direct combat power. The combination of hover mobility and sensor equipment allows data miner units to reposition quickly as the battle develops, maintaining coverage of enemy communications even as front lines shift.</p>
-</overview>
 

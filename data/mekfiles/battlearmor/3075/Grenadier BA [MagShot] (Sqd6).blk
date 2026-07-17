@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a3e5-7d44-a2c0-9bb4256c3a7f
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Grenadier Battle Armor
 <year>
 3065
 </year>
-
-<originalBuildYear>
-3065
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -95,38 +95,14 @@ IS BA Stealth (Standard):Body
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3075
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-4
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Grenadier is an assault-weight Inner Sphere battlesuit developed by the Hahm-Heinze Design Bureau for the Armed Forces of the Federated Suns. Designed to mount the heaviest weapon systems possible on a single suit frame, the Grenadier prioritized raw firepower over mobility or protection. The suit carries a fixed missile launcher, a modular weapon mount accommodating a range of battlefield roles, and an anti-personnel station for close-range defense. Standard stealth armor provides electronic signature reduction, though total protection is modest for the weight class. At two thousand kilograms, the Grenadier is too heavy for OmniMech transport, restricting deployment to ground-based insertion methods.</p>
-</overview>
 
 <capabilities>
 <p>The MagShot configuration equips the left arm modular mount with a Magshot gauss rifle, a compact magnetic accelerator weapon. The gauss rifle's range profile closely matches the fixed missile launcher, allowing troopers to engage targets effectively at medium range with both weapon systems simultaneously. This harmonized range envelope makes the configuration particularly efficient in open terrain where troopers can maintain standoff distance. The anti-personnel mount handles close-in threats. While the Magshot delivers precise, hard-hitting rounds, its ammunition is limited and the weapon's bulk within the modular mount leaves no room for alternative equipment. The configuration trades tactical flexibility for focused ranged lethality, best suited to troopers operating in fire support roles rather than close assault.</p>
 </capabilities>
+
+<overview>
+<p>The Grenadier is an assault-weight Inner Sphere battlesuit developed by the Hahm-Heinze Design Bureau for the Armed Forces of the Federated Suns. Designed to mount the heaviest weapon systems possible on a single suit frame, the Grenadier prioritized raw firepower over mobility or protection. The suit carries a fixed missile launcher, a modular weapon mount accommodating a range of battlefield roles, and an anti-personnel station for close-range defense. Standard stealth armor provides electronic signature reduction, though total protection is modest for the weight class. At two thousand kilograms, the Grenadier is too heavy for OmniMech transport, restricting deployment to ground-based insertion methods.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper MagShot formations are uncommon and generally limited to AFFS commands with dedicated logistical support for gauss ammunition resupply. The Addicks PDZ militia organized reinforced MagShot squads during the Dark Age, when the threat of Combine incursions demanded maximum ranged firepower from available assets. The oversized squads proved effective in prepared defensive positions along the border, though their ammunition consumption during prolonged engagements strained supply lines that were already stretched thin.</p>
@@ -159,4 +135,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+4
+</weightclass>
 

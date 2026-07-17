@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e9f8-729b-9d23-22c24c6e4f69
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Pike Support Vehicle
 <year>
 3064
 </year>
-
-<originalBuildYear>
-3064
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -106,33 +106,13 @@ ISRotaryAC2
 ISRotaryAC2
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-RG30
-</source>
-
-<published>
-RG30
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Pike Support Vehicle emerged from the Magistracy of Canopus in 2987 as the product of a deliberate industrial policy. Magestrix Kyalla Centrella directed Canopus Industries Alpha to develop an inexpensive tracked fire support vehicle that could be exported to Inner Sphere markets in quantity, with the goal of profiting from the endless wars consuming Great House armies while offering Periphery industry a foothold in Sphere military contracting. The design was built around cost and reliability rather than cutting-edge technology, making it affordable to acquire, easy to maintain, and straightforward to crew without extensive technical support. Though the vehicle's commercial impact fell short of its intended scale due to JumpShip fleet limitations constraining export volume, it found a steady and loyal customer in ComStar, whose HPG garrison forces adopted the type widely. The Pike's durability and simplicity have kept it relevant across multiple centuries and in service with factions ranging from the Magistracy Armed Forces to Clan Sea Fox.</p>
-</overview>
-
 <capabilities>
 <p>The Pike centers its combat capability on a traversing turret mounting three ZeusBolt Class-2 Autocannons, fed from a single 225-round magazine. The autocannons offer consistent long-range suppression, though their individual hitting power is modest. Volume of fire compensates: three simultaneous streams wear down targets that lighter vehicles cannot long absorb. A pair of Marklin Mini Missile SRM 2 Packs with 25 reloads each provides close-range defense, discouraging infantry from approaching and giving the crew a short-range option if enemy armor closes.</p><p>The Jones 180 ICE with EmissionKill system propels the Pike to 54 km/h, adequate for a fire support vehicle operating from the second line. The EmissionKill package attempts to reduce the vehicle's infrared signature, with mixed results in practice. The ICE choice is deliberate: substantially cheaper and simpler to maintain than a fusion engine, and entirely adequate for ballistic weapons that place no electrical generation demands on the powerplant. The trade-off is that energy weapons cannot be powered without expensive amplifier equipment, constraining the design's upgrade potential. Nine tons of StarSlab/9 armor provide reasonable protection for a vehicle of its role and cost. The Pike is not built to absorb sustained direct fire and performs best when kept at range. ComStar's standard tactical grouping pairs a base-six formation of Pikes with a Demolisher Heavy Tank, which provides close protection at distances the autocannons cannot effectively engage.</p>
 </capabilities>
+
+<overview>
+<p>The Pike Support Vehicle emerged from the Magistracy of Canopus in 2987 as the product of a deliberate industrial policy. Magestrix Kyalla Centrella directed Canopus Industries Alpha to develop an inexpensive tracked fire support vehicle that could be exported to Inner Sphere markets in quantity, with the goal of profiting from the endless wars consuming Great House armies while offering Periphery industry a foothold in Sphere military contracting. The design was built around cost and reliability rather than cutting-edge technology, making it affordable to acquire, easy to maintain, and straightforward to crew without extensive technical support. Though the vehicle's commercial impact fell short of its intended scale due to JumpShip fleet limitations constraining export volume, it found a steady and loyal customer in ComStar, whose HPG garrison forces adopted the type widely. The Pike's durability and simplicity have kept it relevant across multiple centuries and in service with factions ranging from the Magistracy Armed Forces to Clan Sea Fox.</p>
+</overview>
 
 <deployment>
 <p>Originally a Federated Suns field refit developed around 3062, the Assault Pike replaces the original ICE with a fusion engine and trades the ZeusBolt autocannons for three Rotary Autocannon/2s with four tons of ammunition. A small laser mounted on the front provides anti-infantry deterrence, and ferro-fibrous armor increases protection. The variant shifts the Pike from passive fire support to active offensive use, with the rotary autocannons capable of sustained high rates of fire against light and medium vehicles. Majesty Metals and Manufacturing formalized production at Dunianshire during the early Dark Age, making this the only Pike variant to transition from field refit to dedicated factory production outside of Canopus.</p>
@@ -165,4 +145,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Magestrix Alpha
 TARGETING:Magestrix Gamma
 </systemModels>
+
+<source>
+RG30
+</source>
+
+<published>
+RG30
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e5d3-7461-b237-c4ce92a0f1d2
+</UUID>
+
 <UnitType>
 VTOL
 </UnitType>
@@ -35,10 +39,6 @@ Crow Scout Helicopter
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -102,33 +102,13 @@ ISTAG
 <Rotor Equipment>
 </Rotor Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-15.0
-</tonnage>
-
-# Fluff Date: 2026-03-04 21:00:04
-<overview>
-<p>The aircraft designated Dragonfly was the first Crow Scout Helicopter assigned to the Genyosha, entering DCMS service in 3070 with one of the Draconis Combine's most prestigious combat regiments. As the initial Genyosha example, Dragonfly brought the Crow's electronic warfare and reconnaissance capabilities to a formation with an established history of operating the Combine's most advanced equipment. The aircraft operates in the standard reconnaissance configuration with full target designation, electronic suppression, and active probe capability. Its operational record within the Genyosha established an early positive precedent for the Crow's performance in elite Combine service.</p>
-</overview>
-
 <capabilities>
 <p>Dragonfly operates in the standard production Crow Scout Helicopter configuration, with no modifications from the production baseline. Speed, armor, and airframe construction are identical to other production aircraft. The Skyhunter IV targeting system with its Forward-1 TAG designator provides the aircraft's primary combat contribution through target designation for guided munitions, supported by the Wunderland Beagle Active Probe for target identification and tracking. The Scuti Dualcom communications system with its Apple-Churchill Guardian ECM suite provides electronic suppression capability. The Exostar extended-range small lasers provide backup direct engagement capability, though DCMS operational assessments consistently classify the Crow as a designation and reconnaissance platform rather than a primary combatant.</p>
 </capabilities>
+
+<overview>
+<p>The aircraft designated Dragonfly was the first Crow Scout Helicopter assigned to the Genyosha, entering DCMS service in 3070 with one of the Draconis Combine's most prestigious combat regiments. As the initial Genyosha example, Dragonfly brought the Crow's electronic warfare and reconnaissance capabilities to a formation with an established history of operating the Combine's most advanced equipment. The aircraft operates in the standard reconnaissance configuration with full target designation, electronic suppression, and active probe capability. Its operational record within the Genyosha established an early positive precedent for the Crow's performance in elite Combine service.</p>
+</overview>
 
 <deployment>
 <p>Dragonfly serves with the Genyosha in a forward reconnaissance and target designation role, operating in coordination with the regiment's BattleMech forces to provide electronic support and guided munitions designation. Its operational record within the Genyosha has contributed to broader DCMS confidence in the Crow as a high-value reconnaissance asset for elite formations.</p>
@@ -163,4 +143,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Dualcom w/ Apple-Churchill Guardian ECM
 TARGETING:Skyhunter IV w/ Forward-1 TAG and Wunderland Beagle Active Probe
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+15.0
+</tonnage>
 

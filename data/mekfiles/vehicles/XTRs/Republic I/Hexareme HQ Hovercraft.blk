@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec62-7350-a95d-29fd46706bbc
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Hexareme HQ Hovercraft
 <year>
 3115
 </year>
-
-<originalBuildYear>
-3115
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -127,26 +127,13 @@ ISSNPPC
 ISLBXAC2
 </Turret Equipment>
 
-<source>
-XTR:RotS 1,TR:3150
-</source>
-
-<published>
-XTR:RotS 1,TR:3150
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-03-02 17:28:43
-<overview>
-<p>The Hexareme HQ Hovercraft is a super-heavy combat vehicle produced by Michaelson Heavy Industries on Ruchbah for the Republic of the Sphere. Originally conceived as a hovering main battle tank, the design was repurposed during development when its large flotation hull proved unsuited to direct ground combat but excelled in maritime operations. The Hexareme owes its existence to the success of the Trireme Infantry Transport, which rescued Michaelson Heavy Industries from insolvency and returned the company to the forefront of Republic vehicle manufacturing. Entering service in 3115, the Hexareme became the most advanced mobile headquarters platform built on a hovercraft chassis, capable of operating effectively on both land and water.</p>
-</overview>
-
 <capabilities>
 <p>Powered by a 305-rated extralight fusion engine, the Hexareme achieves respectable speeds on both land and water, though its 90-ton mass makes it sluggish compared to lighter hovercraft. Heavy ferro-fibrous armor provides substantial protection across all facets. Three tons of communications equipment represents the minimum required for a functional mobile headquarters, providing satellite connectivity and a modest initiative advantage when linked to orbital assets.</p><p>Early proving ground tests demonstrated that the Hexareme was too heavy and unwieldy for traditional infantry fighting vehicle operations on land. Captain Dafydd Smythe, a former blue water navy officer on Michaelson's test team who had started his career on Chara III, suggested redirecting the vehicle toward naval engagements where its unlimited range and good electronic suite served well. Clan warrior volunteers have since deployed Undine battle armor directly into underwater combat from Hexareme platforms, combining the hovercraft's amphibious capability with infantry assault tactics. Sponson-mounted weapons provide defensive firepower, while the vehicle's primary value lies in command coordination rather than direct engagement.</p>
 </capabilities>
+
+<overview>
+<p>The Hexareme HQ Hovercraft is a super-heavy combat vehicle produced by Michaelson Heavy Industries on Ruchbah for the Republic of the Sphere. Originally conceived as a hovering main battle tank, the design was repurposed during development when its large flotation hull proved unsuited to direct ground combat but excelled in maritime operations. The Hexareme owes its existence to the success of the Trireme Infantry Transport, which rescued Michaelson Heavy Industries from insolvency and returned the company to the forefront of Republic vehicle manufacturing. Entering service in 3115, the Hexareme became the most advanced mobile headquarters platform built on a hovercraft chassis, capable of operating effectively on both land and water.</p>
+</overview>
 
 <deployment>
 <p>The Hexareme serves primarily in cavalry commands and SpecOps Command formations, with notable operators including the Leander IIs of Athenry and the Wyrms of Terra. Clan Sea Fox battle armor teams have paired with Hexareme platforms for ship-to-shore assault operations. As the Republic contracted, surviving vehicles were distributed among successor factions and in at least one case fell into pirate hands. The vehicle's niche role and limited production numbers ensure it remains uncommon on most battlefields.</p>
@@ -169,4 +156,16 @@ ARMOR:Heavy Ferro-Fibrous
 COMMUNICATIONS:Standard Comms
 TARGETING:Standard
 </systemModels>
+
+<source>
+XTR:RotS 1,TR:3150
+</source>
+
+<published>
+XTR:RotS 1,TR:3150
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

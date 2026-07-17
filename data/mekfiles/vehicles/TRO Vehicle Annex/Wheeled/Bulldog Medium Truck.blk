@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb69-796c-849e-36897a7a2290
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Bulldog Medium Truck
 <year>
 3020
 </year>
-
-<originalBuildYear>
-3020
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,30 +119,13 @@ HHSearchlight
 1
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-3.0
-</tonnage>
-
-<fuel>
-0.045
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-03 13:33:24
-<overview>
-<p>The Bulldog Medium Truck is a civilian logistics vehicle produced by Pinard Protectorates Limited from their facility on Perdition, entering service around 3020 as the workhorse cargo hauler of the Taurian Concordat. Built with simplicity and durability in mind, the Bulldog has become the preferred truck of countless local delivery companies, household moving firms, and large-item delivery services throughout Concordat space. Its straightforward construction demands little specialized knowledge to keep running, an important consideration for operators far from major supply chains. Despite its Periphery origins, the Bulldog's reputation for low-maintenance reliability has drawn interest from buyers across the Inner Sphere, making it one of the most recognizable civilian cargo vehicles in Taurian territory and beyond.</p>
-</overview>
-
 <capabilities>
 <p>The Bulldog is powered by an internal combustion engine paired with a small wheeled chassis, providing a cruising speed adequate for road transport across most terrain with a flank speed of roughly thirty kilometers per hour. A fuel capacity supporting a range of approximately one thousand kilometers per load makes it well-suited to long hauls between Concordat settlements. The truck carries a standard cargo bay with a capacity of 1,617 kilograms, sufficient to haul meaningful quantities of supplies, equipment, or consumer goods in a single run. The cab accommodates a driver and three passengers, serving double duty as personnel transport when needed.</p><p>The Bulldog carries no weapons or combat systems and mounts only a token amount of basic armor protection, making its identity as a logistics platform unambiguous. Four handheld searchlights mounted at the front extend operational hours into night conditions. The vehicle's Easy to Maintain design characteristic ensures that even facilities with limited technical expertise can sustain a fleet with minimal downtime, a deliberate engineering priority that reflects PPL's understanding of its Periphery customer base.</p>
 </capabilities>
+
+<overview>
+<p>The Bulldog Medium Truck is a civilian logistics vehicle produced by Pinard Protectorates Limited from their facility on Perdition, entering service around 3020 as the workhorse cargo hauler of the Taurian Concordat. Built with simplicity and durability in mind, the Bulldog has become the preferred truck of countless local delivery companies, household moving firms, and large-item delivery services throughout Concordat space. Its straightforward construction demands little specialized knowledge to keep running, an important consideration for operators far from major supply chains. Despite its Periphery origins, the Bulldog's reputation for low-maintenance reliability has drawn interest from buyers across the Inner Sphere, making it one of the most recognizable civilian cargo vehicles in Taurian territory and beyond.</p>
+</overview>
 
 <deployment>
 <p>The Bulldog serves as the standard civilian and commercial cargo vehicle across the Taurian Concordat, distributed from PPL's Perdition plant and regional satellite facilities throughout Concordat space. The design fills logistics roles at every level of Concordat society, from small community supply runs to battalion-level resupply convoys, and is routinely found in the fleet inventories of commercial haulers, food distributors, moving companies, and large-item delivery services. Its range and cargo capacity make it particularly useful for resupply missions across the Concordat's widely scattered worlds, where dedicated military transports are often unavailable or economically impractical for routine logistics.</p>
@@ -177,4 +160,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:Unknown
 TARGETING:N/A
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+3.0
+</tonnage>
+
+<fuel>
+0.045
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

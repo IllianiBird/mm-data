@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e36e-767e-8735-337f297aa4ec
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Marksman Artillery Vehicle
 <year>
 3068
 </year>
-
-<originalBuildYear>
-3068
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -108,26 +108,13 @@ Heavy Machine Gun
 Heavy Machine Gun
 </Turret Equipment>
 
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-65.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Marksman Artillery Vehicle is a 65-ton tracked self-propelled artillery platform developed by Grumman Industries in 2702 as a companion design to the Thor Artillery Vehicle. Intended to provide heavy indirect fire support at the battalion and regimental level, the Marksman drew on Grumman's experience with tracked chassis to deliver a more stable, better-protected artillery platform than the wheeled Thor at the cost of some strategic mobility. The design paired its primary Sniper artillery piece with a direct-fire laser, a combination that earned mixed reviews from commanders who received it. Despite persistent criticism of its thermal management and its role ambiguity, Grumman produced the vehicle in substantial numbers during the Succession Wars, distributing it widely across Lyran Commonwealth artillery formations. The merger that created GrummanCRI later brought the design back to active development, and a modernized variant entered Lyran Alliance service during the Jihad era.</p>
-</overview>
-
 <capabilities>
 <p>The Marksman's primary weapon is a hull-mounted Sniper artillery piece, providing the vehicle with indirect fire capability at extended ranges. A turret-mounted large laser supplements the artillery, giving the crew a direct-fire option intended for point defense when enemy units close to engagement range. The dual-system configuration reflects an unusual design philosophy for an artillery platform, and it introduced significant engineering complications. The GRD series of tactical computers that manage both weapons lack adequate thermal dissipation, forcing crews to reduce processor speeds during sustained fire missions. This limitation restricts the number of valid targeting solutions the system can generate and prevents the crew from exploiting both weapons simultaneously at full effectiveness.</p><p>The Marksman's ferro-fibrous armor provides reasonable protection for an artillery vehicle operating from defilade positions, but the design was never intended for direct combat, and crews who allow enemy forces to close freely accept serious risk. The tracked suspension delivers better cross-country stability than the wheeled Thor, reducing dispersion during fire missions, though the vehicle's modest road speed limits how quickly it can displace between positions. The large laser's point defense role is undermined by the same cooling problems that affect the targeting computer, and experienced Marksman crews treat the vehicle primarily as an indirect fire platform, using the laser only as a last resort in self-defense.</p>
 </capabilities>
+
+<overview>
+<p>The Marksman Artillery Vehicle is a 65-ton tracked self-propelled artillery platform developed by Grumman Industries in 2702 as a companion design to the Thor Artillery Vehicle. Intended to provide heavy indirect fire support at the battalion and regimental level, the Marksman drew on Grumman's experience with tracked chassis to deliver a more stable, better-protected artillery platform than the wheeled Thor at the cost of some strategic mobility. The design paired its primary Sniper artillery piece with a direct-fire laser, a combination that earned mixed reviews from commanders who received it. Despite persistent criticism of its thermal management and its role ambiguity, Grumman produced the vehicle in substantial numbers during the Succession Wars, distributing it widely across Lyran Commonwealth artillery formations. The merger that created GrummanCRI later brought the design back to active development, and a modernized variant entered Lyran Alliance service during the Jihad era.</p>
+</overview>
 
 <deployment>
 <p>The (Light PPC) variant entered service with Lyran Alliance forces in 3068, initially deployed to formations operating against Clan Jade Falcon in the Melissia Theater. The redesigned vehicle proved more adaptable than its predecessor, capable of contributing direct fire with its PPC turret when mission requirements demanded it, while retaining the indirect fire capability that defined the original design. GrummanCRI continued producing the variant at Melissia through the Jihad and into the Dark Age, with the facility's ownership eventually transferring to Clan Jade Falcon during the late Dark Age and subsequently to the Vesper Marches in the ilClan era. Whether production continued under subsequent owners remains uncertain.</p>
@@ -160,4 +147,16 @@ ARMOR:CRT (Light FF)
 COMMUNICATIONS:GRD 300
 TARGETING:GRD059
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+65.0
+</tonnage>
 

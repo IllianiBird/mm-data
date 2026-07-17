@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b02f-725f-afa4-f34984b1353c
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ NL-43
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -134,34 +134,13 @@ IS Vehicular Stealth
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-XTR:Phantoms
-</source>
-
-<published>
-XTR:Phantoms
-</published>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The NL-43 Battle Taxi is a one-hundred-ton experimental aerospace fighter developed by Andurien AeroTech on Lopez for the Duchy of Andurien. Introduced in 3074, the craft is described as only a spiritual successor to the larger NL-42 small craft, representing a fundamentally different approach to the battle taxi concept. Where the NL-42 was designed for ship-to-ship boarding operations in space, the NL-43 was built as a stealthy atmospheric troop transport capable of delivering infantry directly to planetary surfaces. The shift from small craft to aerospace fighter format reflected both industrial limitations at the Lopez facility and new tactical requirements emerging from the Jihad.</p>
-</overview>
-
 <capabilities>
 <p>The NL-43 employs a four-hundred-rated extra-light engine driving it to a safe thrust of six gravities, with a peak acceleration of nine gravities. Stub lifting wings and substantial atmospheric thrust give the craft extended flight performance in atmosphere, enabling planetary infantry deployments that the space-focused NL-42 could never achieve. The aerodyne configuration sacrifices the older design's VTOL capability but gains the ability to carry external ordnance.</p><p>Stealth armor is the NL-43's most distinctive feature, allowing the craft to approach targets with a significantly reduced sensor signature. A Guardian ECM suite mounted in the aft section supplements the stealth systems. Armament is modest by fighter standards, consisting of six medium X-pulse lasers distributed across the wings and aft arc, weapons suited more for strafing landing zones and suppressing defenders than for sustained dogfighting. The infantry compartment accommodates sixteen battle armored troopers or nearly six platoons of conventional foot infantry, with an additional two tons of cargo space for munitions and supplies to support deployed forces. The primary drawback is protection. Despite impressive total armor mass, actual coverage is a fraction of the NL-42's, with the stealth coating expected to compensate for the thinner plating.</p>
 </capabilities>
+
+<overview>
+<p>The NL-43 Battle Taxi is a one-hundred-ton experimental aerospace fighter developed by Andurien AeroTech on Lopez for the Duchy of Andurien. Introduced in 3074, the craft is described as only a spiritual successor to the larger NL-42 small craft, representing a fundamentally different approach to the battle taxi concept. Where the NL-42 was designed for ship-to-ship boarding operations in space, the NL-43 was built as a stealthy atmospheric troop transport capable of delivering infantry directly to planetary surfaces. The shift from small craft to aerospace fighter format reflected both industrial limitations at the Lopez facility and new tactical requirements emerging from the Jihad.</p>
+</overview>
 
 <deployment>
 <p>The NL-43 exists solely as an experimental prototype configuration. Its combination of stealth armor, X-pulse laser technology, and Guardian ECM represents cutting-edge Duchy of Andurien engineering adapted from technologies that were still maturing during the Jihad period. Production at the Lopez facility was extremely limited, with the craft's massive XL engine proving particularly troublesome to manufacture reliably.</p>
@@ -194,4 +173,16 @@ ARMOR:Stealth
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Phantoms
+</source>
+
+<published>
+XTR:Phantoms
+</published>
+
+<tonnage>
+100.0
+</tonnage>
 

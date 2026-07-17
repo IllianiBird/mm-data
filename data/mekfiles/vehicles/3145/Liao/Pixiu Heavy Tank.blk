@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7ec-792c-872e-72504c54b461
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Pixiu Heavy Tank
 <year>
 3093
 </year>
-
-<originalBuildYear>
-3093
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -111,26 +111,13 @@ Thunderbolt 5
 ISGaussRifle
 </Turret Equipment>
 
-<source>
-TR:3145:CC,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-70.0
-</tonnage>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>Named for a wealth-hoarding beast of Asian legend, the Pixiu Heavy Tank entered service with the Capellan Confederation Armed Forces in 3093, first seeing action during the Victoria War of the early thirty-second century. Aldis Industries developed the design at their Betelgeuse facilities as a mobile fire support platform intended to operate alongside Po II formations, but the tank rapidly demonstrated capabilities that extended well beyond that original mandate. Combining long-range firepower with stealth armor and exceptional mobility for its weight class, the Pixiu established a formidable reputation across Capellan front lines. The design's effectiveness became so widely recognized that Republic of the Sphere and Federated Suns commanders came to regard even suspected Pixiu positions as serious threats, frequently diverting artillery assets to suppress them rather than risk a direct engagement.</p>
-</overview>
-
 <capabilities>
 <p>The Pixiu is a seventy-ton tracked vehicle built around the combination of extreme range, stealth, and speed. Its primary offensive system is the Inokuma Gauss Rifle, a powerful long-range weapon capable of engaging targets at distances that most comparable vehicles cannot match. The Sian/Ceres Serval Thunderbolt 5 missile launcher provides flexible fire support and allows the crew to engage multiple threat types without repositioning. A Ceres Fire Flower conventional flamer rounds out the armament, offering close-defense utility and the ability to start concealing fires when the crew needs to disengage.</p><p>The Pixiu's most distinctive characteristic is its Ceres Heavy Stealth armor, paired with the integrated Guardian ECM Suite carried by the Olmstead 44 communications system. Together, these systems significantly degrade enemy targeting solutions at range, compounding the already-substantial challenge of engaging a fast-moving vehicle. The Magna 350 XL fusion plant grants a top speed of 86 kph, exceptional for a vehicle of its mass.</p><p>The primary trade-off is ammunition endurance. Both the Gauss rifle and the Thunderbolt launcher carry limited rounds, and extended engagements can exhaust stores quickly. The flamer provides a last-resort option when ammunition runs low, but cannot substitute for the main battery against armored opponents. Crews must manage their shots carefully and disengage before stocks run critical.</p>
 </capabilities>
+
+<overview>
+<p>Named for a wealth-hoarding beast of Asian legend, the Pixiu Heavy Tank entered service with the Capellan Confederation Armed Forces in 3093, first seeing action during the Victoria War of the early thirty-second century. Aldis Industries developed the design at their Betelgeuse facilities as a mobile fire support platform intended to operate alongside Po II formations, but the tank rapidly demonstrated capabilities that extended well beyond that original mandate. Combining long-range firepower with stealth armor and exceptional mobility for its weight class, the Pixiu established a formidable reputation across Capellan front lines. The design's effectiveness became so widely recognized that Republic of the Sphere and Federated Suns commanders came to regard even suspected Pixiu positions as serious threats, frequently diverting artillery assets to suppress them rather than risk a direct engagement.</p>
+</overview>
 
 <deployment>
 <p>Production of the Pixiu is allocated primarily to the Capellan Confederation Armed Forces, with smaller numbers released to the Magistracy of Canopus Armed Forces. The standard employment doctrine pairs one platoon of Pixius with two platoons of shorter-ranged vehicles, typically the Po II, forming a heavy armored company that can control engagement range while the supporting elements maneuver. This formation allows the Pixiu to engage at distances where its stealth armor provides maximum benefit, drawing enemy fire while complementary vehicles press forward.</p><p>Only the most prestigious and combat-proven CCAF formations receive Pixius in large numbers. Junior and garrison commands typically operate one or two machines attached to anchor a company's long-range fires, rather than fielding them as an independent element.</p>
@@ -163,4 +150,16 @@ ARMOR:Heavy Stealth
 COMMUNICATIONS:44
 TARGETING:VIII
 </systemModels>
+
+<source>
+TR:3145:CC,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+70.0
+</tonnage>
 

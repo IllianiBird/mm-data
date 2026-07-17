@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec68-7175-806b-fe28fc8cb55d
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Zephyr Hovertank
 <year>
 3096
 </year>
-
-<originalBuildYear>
-3096
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -112,34 +112,13 @@ BloodhoundActiveProbe:OMNI
 ER Flamer:OMNI
 </Turret Equipment>
 
-<slotless_equipment>
-IS Ammo SRM-2
-</slotless_equipment>
-
-<source>
-XTR:RotS 1
-</source>
-
-<published>
-XTR:RotS 1
-</published>
-
-<tonnage>
-40.0
-</tonnage>
-
-<baseChassisTurretWeight>
-0.5
-</baseChassisTurretWeight>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>Designed in 2620 by Grumman Industries for the Terran Hegemony, the Zephyr hovertank was originally conceived as a medium-duty, fast-response infantry support platform. The Star League Defense Force saw greater potential in the design, pressing it into service as a dedicated escort for the Chaparral Arrow IV artillery tank and insisting that Grumman incorporate a Guardian ECM suite into all production units. This change transformed a capable support vehicle into a battlefield force-multiplier, enabling combined-arms formations to exploit ECM coverage in ways that far exceeded the vehicle's modest firepower.</p><p>Grumman's Terra facility served as the primary production site, with New Earth hosting a secondary plant during the Star League era. The Zephyr's combination of above-average armor, exceptional speed, and electronic warfare support earned it a reputation as one of the most successful combat vehicles in Inner Sphere history, a legacy that endured through centuries of conflict and multiple major redesigns.</p>
-</overview>
-
 <capabilities>
 <p>The Zephyr's tactical value derives primarily from its Guardian ECM suite and the speed to deploy it effectively. The GM 185 fusion engine provides a cruising speed of 97 kilometers per hour and a flank speed exceeding 150 kilometers per hour, allowing the vehicle to reposition rapidly and maintain the ECM umbrella where it is most needed. Seven tons of Grumman CRT ferro-fibrous armor give the Zephyr above-average protection for its weight, sufficient to absorb glancing fire and permit high-speed disengagement when engagements turn unfavorable.</p><p>Armament is deliberately secondary to the support mission. Three medium lasers and the Alloran target acquisition gear occupy the turret, providing reliable fire support without generating significant heat. A nose-mounted SRM-6 with two tons of reloads adds short-range punch, and a rear-facing small laser discourages pursuit. Clan Invasion-era production models use Bowie Electronics lasers, a Thor SRM-6, and a Bundesweyth TAG, performing identically to their Star League predecessors with different component branding.</p><p>The Zephyr's limitations stem from its support focus. It carries no jump jets, relying on hover speed to evade threats. Against dedicated anti-vehicle platforms or sustained fire, its armor and weapons cannot sustain extended engagements. Crews train to establish the ECM umbrella, contribute fire support from medium range, and withdraw before the vehicle absorbs critical damage.</p>
 </capabilities>
+
+<overview>
+<p>Designed in 2620 by Grumman Industries for the Terran Hegemony, the Zephyr hovertank was originally conceived as a medium-duty, fast-response infantry support platform. The Star League Defense Force saw greater potential in the design, pressing it into service as a dedicated escort for the Chaparral Arrow IV artillery tank and insisting that Grumman incorporate a Guardian ECM suite into all production units. This change transformed a capable support vehicle into a battlefield force-multiplier, enabling combined-arms formations to exploit ECM coverage in ways that far exceeded the vehicle's modest firepower.</p><p>Grumman's Terra facility served as the primary production site, with New Earth hosting a secondary plant during the Star League era. The Zephyr's combination of above-average armor, exceptional speed, and electronic warfare support earned it a reputation as one of the most successful combat vehicles in Inner Sphere history, a legacy that endured through centuries of conflict and multiple major redesigns.</p>
+</overview>
 
 <deployment>
 <p>The B configuration prioritizes reconnaissance and electronic intelligence over direct firepower, mounting a Bloodhound active probe and ER flamer in the turret alongside a body-mounted C3 slave unit. The combination allows the drone to feed detailed sensor data back to the controlling network while the ER flamer discourages infantry from approaching for close inspection.</p><p>This configuration is least suited to direct combat and most effective in security patrol, perimeter defense, and scouting roles. Its deployment in the Fifth Principes Guards reflected Republic doctrine of using unmanned units for the most dangerous reconnaissance tasks, preserving trained crews for decisions requiring human judgment.</p>
@@ -172,4 +151,20 @@ ARMOR:CRT Ferro-Fibrous
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RotS 1
+</source>
+
+<published>
+XTR:RotS 1
+</published>
+
+<tonnage>
+40.0
+</tonnage>
+
+<baseChassisTurretWeight>
+0.5
+</baseChassisTurretWeight>
 

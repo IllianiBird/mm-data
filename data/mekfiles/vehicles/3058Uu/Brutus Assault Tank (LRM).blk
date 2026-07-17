@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e3e4-7a0f-aac0-42b89bd0ddbf
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Brutus Assault Tank
 <year>
 3001
 </year>
-
-<originalBuildYear>
-3001
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -111,26 +111,13 @@ LRM 20
 LRM 20
 </Turret Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 13:33:24
-<overview>
-<p>Built in the late 2990s at Kressly WarWorks' Epsilon Eridani facility, the Brutus Assault Tank was designed to give the Capellan Confederation's second-line forces an affordable heavy fire support platform capable of engaging targets at every range. Drawing on established industrial suppliers, Kressly built a practical if unspectacular vehicle that proved more capable in sustained combat than its early garrison assignments suggested. The Fourth Succession War expanded the Brutus's reach far beyond its Capellan origins, and subsequent political changes on Epsilon Eridani brought the design to Federated Commonwealth formations, Chaos March militias, and eventually the Word of Blake Protectorate. By the mid-thirty-first century, the Brutus had become one of the most broadly distributed heavy combat vehicles in the Inner Sphere, evidence of both its durability and the longevity of the Kressly production line.</p>
-</overview>
-
 <capabilities>
 <p>The Brutus carries a balanced weapon suite optimized for flexibility across multiple engagement ranges. Its primary energy weapons deliver direct-fire damage without ammunition dependency, while a long-range missile rack with a generous three-ton ammunition reserve provides sustained fire support capability at extended distances. A pair of short-range missile launchers rounds out the armament for close engagements where opponents press through the long-range envelope. Together, the combination ensures the tank retains offensive options regardless of range, making it difficult for opponents to disengage safely.</p><p>Powered by a standard fusion engine, the Brutus achieves modest ground speeds that favor defensive positions and hull-down tactics over open-ground maneuver. Its tracked configuration handles most terrain types without difficulty but limits cross-country speed compared to wheeled or hover designs. The most significant tactical liability is the armor system, which provides considerably less protection than Inner Sphere standards for a vehicle of this mass. Crews compensate through positional discipline, engaging from cover and relying on the missile rack's range to keep more dangerous opponents at a disadvantage.</p>
 </capabilities>
+
+<overview>
+<p>Built in the late 2990s at Kressly WarWorks' Epsilon Eridani facility, the Brutus Assault Tank was designed to give the Capellan Confederation's second-line forces an affordable heavy fire support platform capable of engaging targets at every range. Drawing on established industrial suppliers, Kressly built a practical if unspectacular vehicle that proved more capable in sustained combat than its early garrison assignments suggested. The Fourth Succession War expanded the Brutus's reach far beyond its Capellan origins, and subsequent political changes on Epsilon Eridani brought the design to Federated Commonwealth formations, Chaos March militias, and eventually the Word of Blake Protectorate. By the mid-thirty-first century, the Brutus had become one of the most broadly distributed heavy combat vehicles in the Inner Sphere, evidence of both its durability and the longevity of the Kressly production line.</p>
+</overview>
 
 <deployment>
 <p>The LRM variant replaces the standard energy weapons with a second long-range missile rack and expands ammunition capacity, increasing sustained missile output at the cost of independent energy firepower. Armor protection is modestly improved. The variant appeals to commanders who prioritize missile saturation in open terrain engagements and typically operates alongside lighter screening units that handle short-range threats. It is found primarily in Federated Commonwealth and successor Federated Suns units that favor missile-heavy combined-arms formations.</p>
@@ -163,4 +150,16 @@ ARMOR:Stoneskin 40X
 COMMUNICATIONS:Clear Channel 3
 TARGETING:Mark XII
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

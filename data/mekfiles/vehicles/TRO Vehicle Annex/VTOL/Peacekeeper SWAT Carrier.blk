@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb45-7948-a8bc-23d7e8efdfbc
+</UUID>
+
 <UnitType>
 SupportVTOL
 </UnitType>
@@ -35,10 +39,6 @@ Peacekeeper SWAT Carrier
 <year>
 3021
 </year>
-
-<originalBuildYear>
-3021
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -124,26 +124,13 @@ Searchlight
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-50.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Peacekeeper SWAT Carrier is a large VTOL produced by Yan Manufacturing on New Samarkand, introduced in 3021 as a purpose-built law enforcement and special operations transport. Developed from the same New Samarkand facility responsible for the SOAR, the Peacekeeper reflects a deliberate shift toward mission-specific paramilitary design. The vehicle is optimized to deliver a squad of specialists quickly and quietly into sensitive environments, with enough firepower to deter or suppress resistance. Due to security considerations, Yan Manufacturing restricts sales of the Peacekeeper exclusively to customers within the Draconis Combine.</p>
-</overview>
-
 <capabilities>
 <p>The Peacekeeper is powered by a fusion engine, providing considerably more endurance and sustained power than its lighter stablemate the SOAR. The vehicle is armed with two forward-mounted Rorynex machine guns and a Shigunga SRM 6 rack, giving it meaningful suppressive fire capability against lightly armed targets. BAR 10 armor provides genuine protection against small arms and fragmentation, though the Peacekeeper is not built to absorb heavy weapons fire.</p><p>Advanced Fire Control improves targeting accuracy beyond standard light-vehicle optics. Crew complement is four, including an officer, three enlisted crew, and a dedicated gunner. The infantry compartment accommodates a jump-equipped platoon, and the rear door allows rapid ground deployment. Cargo capacity includes two tons of standard storage in addition to the four-ton infantry compartment.</p><p>The fusion engine's active vibration control in the rotor assembly keeps the airframe quiet for a vehicle of its mass, preserving useful operational discretion. The design's primary limitation is its dependence on hover height and rotor exposure, making it vulnerable to massed small arms or dedicated anti-aircraft systems. Its weapons load, while effective for police or light paramilitary work, is insufficient against armored opposition.</p>
 </capabilities>
+
+<overview>
+<p>The Peacekeeper SWAT Carrier is a large VTOL produced by Yan Manufacturing on New Samarkand, introduced in 3021 as a purpose-built law enforcement and special operations transport. Developed from the same New Samarkand facility responsible for the SOAR, the Peacekeeper reflects a deliberate shift toward mission-specific paramilitary design. The vehicle is optimized to deliver a squad of specialists quickly and quietly into sensitive environments, with enough firepower to deter or suppress resistance. Due to security considerations, Yan Manufacturing restricts sales of the Peacekeeper exclusively to customers within the Draconis Combine.</p>
+</overview>
 
 <deployment>
 <p>The Peacekeeper serves exclusively within the Draconis Combine, restricted by Yan Manufacturing export controls imposed as a condition of the LAW acquisition. Civil law enforcement agencies deploy it primarily in a SWAT insertion role, loading non-lethal or less-lethal ordnance for riot control and hostage situations. ISF DEST teams operate the Peacekeeper fully armed, using it for high-value target extraction and infiltration air support. Precise inventory figures are not publicly available, but the Peacekeeper is considered a standard asset across most Combine special operations and urban garrison commands.</p>
@@ -176,4 +163,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+50.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

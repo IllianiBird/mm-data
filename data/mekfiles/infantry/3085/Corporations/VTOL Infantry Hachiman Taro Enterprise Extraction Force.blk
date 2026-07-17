@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b633-7a49-a3a4-b18a89545a01
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -36,10 +40,6 @@ Hachiman Taro Enterprise Extraction Force
 3045
 </year>
 
-<originalBuildYear>
-3045
-</originalBuildYear>
-
 <type>
 IS Level 4
 </type>
@@ -58,6 +58,10 @@ Myomer, Vest
 
 <Field Guns Equipment>
 </Field Guns Equipment>
+
+<overview>
+<p>Hachiman Taro Enterprises, the Draconis Combine electronics conglomerate founded by Chandrasekhar Kurita, fields its Extraction Force as a specialized rapid-response security unit. Each trooper is equipped with a cutting-edge one-man VTOL microcopter, granting the platoon an extraordinary degree of insertion and extraction capability. The HTE Extraction Force specializes in recovering kidnapped corporate assets and personnel from hostile situations, often completing operations before alarms are raised. Armed only with auto-rifles, the sixteen-trooper platoon carries no secondary weapons due to the bulk of their individual flight systems. This trade-off limits their sustained combat power, but the unit's value lies in speed and stealth rather than firepower. The explosive growth of HTE under Chandrasekhar's stewardship brought powerful enemies, making a dedicated extraction capability essential to protecting the company's leadership and key personnel.</p>
+</overview>
 
 <source>
 TR:3085
@@ -78,9 +82,4 @@ RS:3085u-CE
 <Primary>
 InfantryAssaultRifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Hachiman Taro Enterprises, the Draconis Combine electronics conglomerate founded by Chandrasekhar Kurita, fields its Extraction Force as a specialized rapid-response security unit. Each trooper is equipped with a cutting-edge one-man VTOL microcopter, granting the platoon an extraordinary degree of insertion and extraction capability. The HTE Extraction Force specializes in recovering kidnapped corporate assets and personnel from hostile situations, often completing operations before alarms are raised. Armed only with auto-rifles, the sixteen-trooper platoon carries no secondary weapons due to the bulk of their individual flight systems. This trade-off limits their sustained combat power, but the unit's value lies in speed and stealth rather than firepower. The explosive growth of HTE under Chandrasekhar's stewardship brought powerful enemies, making a dedicated extraction capability essential to protecting the company's leadership and key personnel.</p>
-</overview>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a859-7d85-a49d-e65a45f4c9ca
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gladiator Exoskeleton
 <year>
 3056
 </year>
-
-<originalBuildYear>
-3056
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -86,46 +86,14 @@ BAIndustrialDrill:RA
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:VAr
-</source>
-
-<published>
-RS:VA
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<exoskeleton>
-true
-</exoskeleton>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-2
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Gladiator is a combat exoskeleton produced by Solaris Arms for the Class One fighting circuit on Solaris VII. Introduced in 3056, the 200-kilogram suit was designed to give pit fighters a sturdy, affordable platform capable of mounting a wide range of melee weaponry and handheld infantry arms. Its rugged construction and ease of maintenance made it well-suited to the brutal demands of arena competition, where fighters operated on tight budgets and equipment took constant punishment. The Gladiator earned a reputation as the workhorse of the Class One circuit, with its distinctive armored profile becoming a familiar sight in the lower tiers of Solaris competition.</p>
-</overview>
 
 <capabilities>
 <p>This configuration replaces the Gladiator's standard armored gloves with purpose-built melee implements. A battle claw on one arm provides reliable cutting and grappling capability against armored opponents, while an industrial drill on the opposite arm delivers concentrated penetration power at close range. The combination gives the pilot two distinct attack options without sacrificing the ability to grip arena structures or grapple opposing exoskeletons. Armor protection and ground speed remain identical to the base configuration, with one hundred kilograms of standard plating and a top speed of ten kilometers per hour. The trade-off for the integrated weaponry is the loss of versatility. Where the armored glove configuration can pick up and employ any available weapon, the battle claw and drill combination locks the pilot into a fixed melee loadout. Against opponents who can maintain distance, this configuration has few answers.</p>
 </capabilities>
+
+<overview>
+<p>The Gladiator is a combat exoskeleton produced by Solaris Arms for the Class One fighting circuit on Solaris VII. Introduced in 3056, the 200-kilogram suit was designed to give pit fighters a sturdy, affordable platform capable of mounting a wide range of melee weaponry and handheld infantry arms. Its rugged construction and ease of maintenance made it well-suited to the brutal demands of arena competition, where fighters operated on tight budgets and equipment took constant punishment. The Gladiator earned a reputation as the workhorse of the Class One circuit, with its distinctive armored profile becoming a familiar sight in the lower tiers of Solaris competition.</p>
+</overview>
 
 <deployment>
 <p>The battle claw and industrial drill configuration saw limited deployment beyond the Solaris VII arena circuit, where four-trooper teams of similarly armed pit fighters occasionally competed in squad-based exhibition matches. Outside the arenas, a handful of mercenary units adopted this configuration for boarding actions and tunnel fighting, where the drill's penetrating power proved useful against sealed hatches and barricades.</p>
@@ -158,4 +126,36 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<published>
+RS:VA
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<exoskeleton>
+true
+</exoskeleton>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+2
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

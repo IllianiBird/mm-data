@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a276-7613-a3c0-dff2def3ec20
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Standard Suit
 <year>
 3052
 </year>
-
-<originalBuildYear>
-3052
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -89,38 +89,14 @@ BABattleClaw:LA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Standard Suit is a medium battle armor design created by Gray Death Legion technicians alongside the Scout Suit. Derived from NAIS-supplied Inner Sphere Standard prototypes, the Standard retained the original design's combat focus while incorporating improvements suggested by the Legion's experienced infantry troops. Fielded in 3052, the suit offered a flexible combination of solid protection, modular firepower through interchangeable weapon mounts, and proven reliability that made it a mainstay of Lyran battle armor formations for decades after the Legion's dissolution.</p>
-</overview>
 
 <capabilities>
 <p>The Machine Gun configuration emphasizes anti-infantry volume of fire. The weapon's high rate of fire makes it devastating against conventional troops and effective at suppressing soft targets in prepared positions. The Battle Claw, Anti-Personnel Weapon Mount, and Improved Sensors are retained, as are the 450 kilograms of standard armor and 32.4 km/h ground speed.</p><p>Ammunition dependency is the Machine Gun's primary limitation, requiring troopers to manage their expenditure across an engagement. The weapon is less effective against hardened targets than the Small Laser or SRM options, making this configuration best suited for operations where the primary threat is conventional infantry rather than armored opponents.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Standard Suit is a medium battle armor design created by Gray Death Legion technicians alongside the Scout Suit. Derived from NAIS-supplied Inner Sphere Standard prototypes, the Standard retained the original design's combat focus while incorporating improvements suggested by the Legion's experienced infantry troops. Fielded in 3052, the suit offered a flexible combination of solid protection, modular firepower through interchangeable weapon mounts, and proven reliability that made it a mainstay of Lyran battle armor formations for decades after the Legion's dissolution.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations with high-volume ballistic weapons provided effective anti-infantry screening for Com Guard and Word of Blake commands. The additional troopers delivered concentrated firepower that could shred conventional infantry formations caught in the open. Word of Blake Militia units deployed these formations extensively during planetary occupation operations where suppressing armed civilian resistance was a daily requirement.</p>
@@ -155,4 +131,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

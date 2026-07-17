@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e500-70f8-ae87-48e58811e2a5
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Heavy Hover APC
 <year>
 2470
 </year>
-
-<originalBuildYear>
-2470
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -101,30 +101,13 @@ Machine Gun
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Heavy Hover APC carries six tons of infantry -- sufficient for two full platoons of standard foot infantry or one platoon of motorized or jump troops -- making it the largest hover-mobile personnel carrier in common service. An internal combustion engine propels the twenty-ton vehicle to a maximum speed of approximately one hundred thirty kilometers per hour, fast enough for rapid insertions though especially slower than the ten-ton standard hover APC. Two front-mounted machine guns provide anti-infantry defense during approach and withdrawal.</p><p>Fifty-six points of standard armor provide substantially better protection than the standard APC, though the design concentrates armor heavily on the front and flanks at the expense of the rear, which houses the assault ramp for troop deployment. The lack of a turret limits the machine guns to a forward-only firing arc, leaving the vehicle vulnerable to flanking attacks. This trade-off reflects the design philosophy of a vehicle that approaches the enemy head-on, deploys its infantry, and withdraws before lateral threats can develop.</p>
 </capabilities>
+
+<overview>
+<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Heavy Hover APC serves with mobile forces across the Inner Sphere, particularly those formations requiring rapid deployment of infantry in strength. The Federated Commonwealth's Regimental Combat Teams fielded large numbers, using the hover variant's speed to rapidly insert two-platoon infantry formations in support of BattleMech advances. Post-Jihad successor states maintain the design in similar roles, valuing its ability to deliver meaningful infantry strength at hover speeds.</p>
@@ -155,4 +138,20 @@ ARMOR:Standard
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

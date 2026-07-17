@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-adf6-71b7-8457-1b5fcd4aa872
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ C
 <year>
 2930
 </year>
-
-<originalBuildYear>
-2930
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -119,34 +119,13 @@ CLERLargeLaser:OMNI
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3055U
-</source>
-
-<published>
-RS:3055Uu
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Bashkir is the lightest and fastest OmniFighter in service with the Clans. Developed by Clan Snow Raven and entering production in 2930 at the Crest Foundries on Lum, the twenty-ton fighter was designed to fill a need for a fast, agile reconnaissance and strike platform capable of rapid response across wide operational areas. Though small numbers appear with all Clans, the Bashkir's combination of speed and flexibility has ensured its continued relevance across centuries of Clan warfare. Its close kin, the Vandal, shares a similar design philosophy, and the two fighters are often deployed together in complementary roles within Clan naval stars.</p>
-</overview>
-
 <capabilities>
 <p>Built on a Mk 7 frame, the Bashkir mounts a 220-rated XL engine that provides exceptional speed for its weight class, making it one of the most agile fighters in any Clan touman. Lum Steelforge 9 ferro-aluminum armor provides reasonable protection for a light fighter, though the combination of advanced materials and the XL engine makes the design fragile when subjected to concentrated fire. These weight-saving technologies free up four and a half tons of pod space, a respectable payload for a craft of this size.</p><p>The Bashkir carries only three tons of fuel, which severely restricts its endurance in low atmosphere where drag burns through reserves quickly. Encounters are therefore more common at high altitude or in space, where the fighter can coast between maneuvers. Despite this limitation, the Bashkir's super-maneuverability allows its pilots to execute high-G turns and evasive patterns that larger fighters cannot match. Eleven double heat sinks mounted on the base chassis provide adequate cooling for most configurations, though energy-heavy loadouts can push the system to its limits. A Raveneye 6 communications system and Hawk Pattern 7 targeting and tracking system round out the avionics suite.</p>
 </capabilities>
+
+<overview>
+<p>The Bashkir is the lightest and fastest OmniFighter in service with the Clans. Developed by Clan Snow Raven and entering production in 2930 at the Crest Foundries on Lum, the twenty-ton fighter was designed to fill a need for a fast, agile reconnaissance and strike platform capable of rapid response across wide operational areas. Though small numbers appear with all Clans, the Bashkir's combination of speed and flexibility has ensured its continued relevance across centuries of Clan warfare. Its close kin, the Vandal, shares a similar design philosophy, and the two fighters are often deployed together in complementary roles within Clan naval stars.</p>
+</overview>
 
 <deployment>
 <p>The C configuration serves as the primary ground attack variant, mounting an ER large laser and ER small laser in the nose. This all-energy loadout gives the fighter excellent strafing capability and allows it to engage both airborne and ground targets without concern for ammunition supply. The nose-only placement restricts the firing arc but simplifies target tracking for the pilot. As one of the two purely energy-based configurations, the C variant is popular for extended operations where resupply is uncertain, though both lasers place considerable strain on the cooling system.</p>
@@ -179,4 +158,16 @@ ARMOR:Lum Steelforge 9 Ferro-aluminum
 COMMUNICATIONS:Raveneye 6
 TARGETING:Hawk Pattern 7
 </systemModels>
+
+<source>
+TR:3055U
+</source>
+
+<published>
+RS:3055Uu
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

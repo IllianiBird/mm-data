@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a925-74a3-8d69-cc0163d0eabd
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ X-C3(Sqd6)
 <year>
 3076
 </year>
-
-<originalBuildYear>
-3076
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -102,48 +102,13 @@ IS BA Stealth (Basic):Body
 BAJumpJet
 </slotless_equipment>
 
-
-
-
-
-
-
-<source>
-XTR:Comstar
-</source>
-
-<published>
-XTR:Comstar
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-4
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kobold is a light battle armor suit jointly developed by the Free Rasalhague Republic, ComStar, and the second Star League. Entering production in 3069 at Grumium Creations on Grumium, the design was born from the Republic’s desire for a stealth-capable scout suit after failed efforts to procure existing designs from other powers. A humanoid suit with jump capability and low-observable armor, the Kobold filled a gap in Republic and ComStar inventories for a light reconnaissance platform that could hold its own in direct combat while operating alongside heavier battle armor types.</p>
-</overview>
-
 <capabilities>
 <p>The X-C3 is an experimental modification developed by ComStar as a test platform for the Battle Armor C3i networking system. Integrating the captured Blakist C3i technology required significant trade-offs: engineers removed twenty percent of the base suit’s armor and replaced both weapon mounts with a single anti-personnel weapon mount, leaving the X-C3 unable to engage anything heavier than conventional infantry on its own. The suit’s value lies entirely in its networking capability. Connected through the C3i system, a team of X-C3 troopers shares targeting data in real time, improving the accuracy of all linked friendly units in the formation. ComStar’s engineers had to develop a scratch-built operating system to interface the Blakist hardware with the Kobold’s communications suite, a process that proved more difficult than anticipated. Testing confirmed the system’s effectiveness in urban and close-quarters terrain, where short engagement ranges maximized the C3i network’s benefits.</p>
 </capabilities>
+
+<overview>
+<p>The Kobold is a light battle armor suit jointly developed by the Free Rasalhague Republic, ComStar, and the second Star League. Entering production in 3069 at Grumium Creations on Grumium, the design was born from the Republic’s desire for a stealth-capable scout suit after failed efforts to procure existing designs from other powers. A humanoid suit with jump capability and low-observable armor, the Kobold filled a gap in Republic and ComStar inventories for a light reconnaissance platform that could hold its own in direct combat while operating alongside heavier battle armor types.</p>
+</overview>
 
 <deployment>
 <p>ComStar served as the primary operator and developer of the X-C3 variant, fielding six-trooper Level Is as the core test formation. Testing with augmented units proved effective in urban environments and close-quarters terrain, where the C3i network’s shared targeting data gave even these lightly armed troopers a force-multiplying effect that exceeded initial projections.</p>
@@ -178,4 +143,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Comstar
+</source>
+
+<published>
+XTR:Comstar
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+4
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb9c-75b7-8d26-ea4f6b8e6c81
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Quicksilver Personal Sports Craft
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -112,30 +112,13 @@ AmphibiousChassis
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-4.5
-</tonnage>
-
-<fuel>
-0.36
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-04 14:19:26
-<overview>
-<p>The Quicksilver Personal Sports Craft is Lockheed/CBM Corporation's purpose-built Wing-in-Ground-Effect racing vehicle, introduced around 3058 in direct competition with Skye Pleasure Craft's Coanda on the Inner Sphere racing circuit. Designed from the outset to outperform its rival on the Skye Water Racing Championship circuit, the Quicksilver represented Lockheed/CBM's bid for the commercial prestige and sponsorship revenue that championship success carried. Larger and faster than the Coanda, it takes an aggressive design approach that prioritizes peak speed over endurance, making it a high-performance craft that demands precise handling and race team coordination to convert its mechanical advantage into victories.</p>
-</overview>
-
 <capabilities>
 <p>The Quicksilver masses 4,500 kilograms, noticeably heavier than the Coanda, and is powered by an internal combustion engine tuned for higher top-end performance. Its flank speed exceeds the Coanda's, providing the raw pace advantage Lockheed/CBM intended. The defining trade-off is fuel capacity, which is insufficient to complete the roughly two-thousand-kilometer championship course without at least one refueling stop. This creates a strategic vulnerability where pit crew performance is as decisive as the craft's mechanical advantage. The Quicksilver carries BAR 4-rated armor in slightly less quantity than the Coanda. An amphibious chassis modification is standard, permitting operation across water and marginal coastal terrain. No weapons are fitted, and the craft accommodates a single crew member with no passenger provision.</p>
 </capabilities>
+
+<overview>
+<p>The Quicksilver Personal Sports Craft is Lockheed/CBM Corporation's purpose-built Wing-in-Ground-Effect racing vehicle, introduced around 3058 in direct competition with Skye Pleasure Craft's Coanda on the Inner Sphere racing circuit. Designed from the outset to outperform its rival on the Skye Water Racing Championship circuit, the Quicksilver represented Lockheed/CBM's bid for the commercial prestige and sponsorship revenue that championship success carried. Larger and faster than the Coanda, it takes an aggressive design approach that prioritizes peak speed over endurance, making it a high-performance craft that demands precise handling and race team coordination to convert its mechanical advantage into victories.</p>
+</overview>
 
 <deployment>
 <p>The Quicksilver is manufactured by Lockheed/CBM Corporation at a facility whose planetary location is not publicly confirmed, and is marketed to competitive racing teams and private buyers across the Inner Sphere. Lockheed/CBM's promotional partnership with former holovid personality Ricardo Hunt extended the design's commercial visibility well beyond the Skye championship circuit itself. Like the Coanda, the Quicksilver has no meaningful military application and operates exclusively in the civilian recreational and competition market. Its higher price point relative to the Coanda reflects the greater mass of the design and Lockheed/CBM's positioning of the Quicksilver as a premium performance offering.</p>
@@ -166,4 +149,20 @@ ARMOR:Unknown
 COMMUNICATIONS:N/A
 TARGETING:N/A
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+4.5
+</tonnage>
+
+<fuel>
+0.36
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

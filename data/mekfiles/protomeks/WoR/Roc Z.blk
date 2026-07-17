@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e12b-7897-9265-597c38b7c23b
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Z
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 Clan Level 4
@@ -127,34 +127,13 @@ ProtoMagneticClamp
 CLMediumChemicalLaser
 </Main Gun Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-WoR,TR:3060,WoRS
-</source>
-
-<published>
-WoR,TR:3060,WoRS
-</published>
-
-<tonnage>
-7.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Roc is a seven-ton first-generation ProtoMek developed by Clan Smoke Jaguar as the backbone of the original ProtoMek program on Huntress. Widely regarded as the most successful design to emerge from the program, the Roc combines mobility, armor, and firepower more effectively than any of its siblings, making it suitable for a wide variety of attack and defense missions. Built around an ER Medium Laser and five jump jets, the Roc delivers BattleMek-grade firepower from a platform capable of traversing nearly any terrain. Its balance of capabilities made it the most commonly fielded ProtoMek in the Homeworld Clans by the mid-3060s, forming the core of most mixed ProtoMek formations.</p>
-</overview>
-
 <capabilities>
 <p>The Roc primary weapon is its ER Medium Laser, a weapon that would be respectable on a light BattleMek and is devastating on a seven-ton ProtoMek. The extended-range variant allows engagement at distances where most ProtoMek opponents cannot effectively return fire, giving the Roc a significant tactical advantage in open terrain. Five jump jets provide one hundred and fifty meters of jumping distance, allowing the Roc to exploit terrain features, clear obstacles, and execute flanking maneuvers that ground-bound opponents cannot counter. The sixty-rated fusion engine delivers fifty-four kilometers per hour cruising speed, adequate for keeping pace with medium-weight formations.</p><p>The Roc armor protection of thirty-one points is among the best for first-generation ProtoMeks of its weight class, sufficient to absorb multiple medium weapon hits before structural compromise. As an energy-only design, the base Roc has no ammunition dependency, allowing indefinite combat endurance limited only by pilot fatigue and heat buildup. The Roc only significant limitation is the single-weapon loadout, which means a weapon hit or targeting system malfunction reduces the design to a very expensive paperweight. Despite this vulnerability, the Roc ratio of mobility to firepower and its all-around competence have made it the measuring stick against which other ProtoMek designs are judged.</p>
 </capabilities>
+
+<overview>
+<p>The Roc is a seven-ton first-generation ProtoMek developed by Clan Smoke Jaguar as the backbone of the original ProtoMek program on Huntress. Widely regarded as the most successful design to emerge from the program, the Roc combines mobility, armor, and firepower more effectively than any of its siblings, making it suitable for a wide variety of attack and defense missions. Built around an ER Medium Laser and five jump jets, the Roc delivers BattleMek-grade firepower from a platform capable of traversing nearly any terrain. Its balance of capabilities made it the most commonly fielded ProtoMek in the Homeworld Clans by the mid-3060s, forming the core of most mixed ProtoMek formations.</p>
+</overview>
 
 <deployment>
 <p>The Roc Z was produced by the Society during the Wars of Reaving at the Abysmal Manufacturing Complex, then under Clan Goliath Scorpion control. This variant mounts a Magnetic Clamp System that allows the Roc Z to attach to the exterior of an OmniMek for rapid transport, reflecting the Society asymmetric warfare doctrine of rapid deployment and dispersal. Armed with a Medium Chemical Laser and retaining five jump jets, the Roc Z can be delivered directly to the battlefield by a carrier Mek and immediately begin independent operations. Thirty-two points of armor provide adequate protection. Following the Society destruction, surviving Roc Z production data was seized by the Clans that occupied the Abysmal complex.</p>
@@ -184,4 +163,16 @@ TARGETING:Unknown
 <systemModels>
 ENGINE:60 Fusion
 </systemModels>
+
+<source>
+WoR,TR:3060,WoRS
+</source>
+
+<published>
+WoR,TR:3060,WoRS
+</published>
+
+<tonnage>
+7.0
+</tonnage>
 

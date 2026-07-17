@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4ff-7b56-a767-95a5008c8e2e
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Heavy Hover APC
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -98,30 +98,13 @@ Light Auto Cannon/5
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-02-28 20:23:25
-<overview>
-<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Scout Tank variant of the Heavy Hover APC entirely removes the infantry compartment and converts the chassis into a dedicated reconnaissance vehicle. A front-mounted Light Autocannon/5 with two tons of ammunition provides the primary armament, offering accurate fire against light vehicles and soft targets at medium range. The complete elimination of troop-carrying capacity reflects this variant's purely combat-oriented role.</p><p>Ferro-fibrous armor provides sixty-two points of protection -- more than any other Heavy Hover APC variant -- while CASE protects the crew from ammunition explosions. The combination of enhanced armor, a medium-range weapon, and the hover chassis's approximately one hundred thirty kilometer per hour speed creates an effective light reconnaissance platform. Originally developed during the Jihad era, the Scout Tank demonstrates how the Heavy APC chassis can be adapted well beyond its original transport mission.</p>
 </capabilities>
+
+<overview>
+<p>The Heavy APC is a twenty-ton combat transport designed to address the fundamental limitation of the standard Armored Personnel Carrier -- its ability to carry only a single infantry squad. By doubling the chassis weight, the Heavy APC provides six tons of infantry carrying capacity, sufficient for two full platoons of standard infantry or one platoon of motorized or jump troops. Produced in the same three motive configurations as its lighter counterpart, the Heavy APC offers substantially improved armor protection alongside its increased transport capacity, making it the largest dedicated personnel carrier in common service across the Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>The Scout Tank variant serves exclusively in reconnaissance formations, having entirely abandoned the transport role in favor of dedicated scouting capability. Introduced during the Jihad era, this conversion found adoption with forces requiring a light, fast reconnaissance platform that could be produced using the well-established Heavy Hover APC manufacturing base rather than purpose-built scout vehicle production lines.</p>
@@ -152,4 +135,20 @@ ARMOR:Ferro-Fibrous
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+20.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

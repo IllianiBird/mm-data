@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e907-7d40-b85a-70a5c8b4fc5f
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Hector Road Train Trailer Module
 <year>
 2500
 </year>
-
-<originalBuildYear>
-2500
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -112,26 +112,13 @@ SV Chassis Mod [Trailer]
 3
 </engine_tech_rating>
 
-<source>
-HB:HM
-</source>
-
-<tonnage>
-80.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-08 13:58:26
-<overview>
-<p>The Hector Road Train Trailer Module is an 80-ton wheeled cargo and passenger transport unit designed to be towed by the Hector Road Train Tractor or compatible prime movers. Introduced in 2500 as the cargo-carrying component of the integrated Hector Road Train system, the trailer module is defined by its configurable interior. Five distinct internal arrangements allow the same structural chassis to serve as a dry bulk carrier, liquid tanker, refrigerated goods transport, livestock hauler, or passenger module. Up to two trailer modules may be coupled to a single tractor, with performance reductions applied as load increases. The system's flexibility made the trailer module a practical commercial investment, allowing operators to serve varied cargo requirements with a common hull. Trailer modules spread throughout the Free Worlds League and beyond alongside the Hector Tractor.</p>
-</overview>
-
 <capabilities>
 <p>The Trailer Module carries no independent propulsion, relying entirely on the tractor for movement. Its structural mass of 80 tons includes 12 tons allocated to chassis and control systems and 1 ton of BAR 3 armor, with the remaining capacity dedicated to the selected cargo or passenger configuration. The chassis uses a tractor/trailer control arrangement that couples mechanically to the prime mover. BAR 3 armor provides 34 armor factor points in a civilian protection standard appropriate to road transport operations, offering basic coverage against minor hazards. The unit has no weapons and no independent movement capability.</p><p>The five configurations cover the primary commercial cargo categories. The standard cargo version carries 67 tons of dry bulk goods, accessed through four side doors. The liquid cargo version holds 60.5 tons of fluid freight in a sealed tank, with four access points for pumping equipment. The refrigerated cargo version carries 58 tons of temperature-sensitive goods using active cooling systems, also with four doors. The livestock version accommodates 55.5 tons of live animals in appropriate transport housing with four access doors. The passenger module installs three field kitchens, eleven infantry compartments for up to 308 passengers, and five tons of standard cargo space, with three access doors on the left, right, and rear. All configurations use the same basic structural chassis, simplifying cross-fleet maintenance and allowing mixed configuration convoys.</p>
 </capabilities>
+
+<overview>
+<p>The Hector Road Train Trailer Module is an 80-ton wheeled cargo and passenger transport unit designed to be towed by the Hector Road Train Tractor or compatible prime movers. Introduced in 2500 as the cargo-carrying component of the integrated Hector Road Train system, the trailer module is defined by its configurable interior. Five distinct internal arrangements allow the same structural chassis to serve as a dry bulk carrier, liquid tanker, refrigerated goods transport, livestock hauler, or passenger module. Up to two trailer modules may be coupled to a single tractor, with performance reductions applied as load increases. The system's flexibility made the trailer module a practical commercial investment, allowing operators to serve varied cargo requirements with a common hull. Trailer modules spread throughout the Free Worlds League and beyond alongside the Hector Tractor.</p>
+</overview>
 
 <deployment>
 <p>The liquid cargo configuration carries 60.5 tons of fluid freight in a sealed tank system, suited to fuels, agricultural chemicals, bulk water, and liquid food products. Four access doors facilitate connection to pumping equipment at loading and destination points. The configuration is deployed on Free Worlds League worlds with significant fuel, chemical, or liquid agricultural freight needs, commonly operating in industrial corridors and around DropPort fuel distribution networks.</p>
@@ -162,4 +149,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+HB:HM
+</source>
+
+<tonnage>
+80.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

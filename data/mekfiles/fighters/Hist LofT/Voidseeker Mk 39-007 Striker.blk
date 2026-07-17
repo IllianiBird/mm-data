@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-acbb-78d3-ac40-2437125227cf
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Mk 39-007 Striker
 <year>
 2763
 </year>
-
-<originalBuildYear>
-2763
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -123,36 +123,13 @@ IS Ammo LRM-15 Artemis-capable
 ImprovedShieldedAeroSRCS
 </Fuselage Equipment>
 
-
-
-
-
-
-
-<notes>
-Added 1 point to aft armor. Reduced fuel by .5 tons.
-</notes>
-
-<source>
-His:LoT2,His:LoT1
-</source>
-
-<published>
-His:LoT2,His:LoT1
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Mark 39 VoidSeeker is an automated drone aerospace fighter developed by Ulsop Robotics on Terra for the Star League Defense Force's Space Defense System network. Introduced in 2763, the VoidSeeker was built on the airframe of the then-experimental F-90 Stingray medium fighter, adapted to carry the sophisticated battle computers and hardened electronic warfare systems required for autonomous combat operations. The drone series represented the culmination of nearly two decades of development effort following the flawed Mk. 30 BlackWasp, and was the final component the Terran Hegemony's SDS network needed to achieve full capability. Thousands of VoidSeekers were produced in the few years before Stefan Amaris executed his coup, and despite the short production window, examples of these drones continued turning up as late as the Clan Invasion era.</p>
-</overview>
-
 <capabilities>
 <p>The VoidSeeker family shares a common base airframe derived from the Stingray, powered by a GM 300 series experimental light engine that marks the design's Royal status as one of the few fighters to mount extra-light class powerplants during the Star League era. A six-ton fuel tank allows the drones to sustain burns longer than most contemporary manned fighters. Ferro-aluminum armor and double heat sinks maximize the weight available for weapons systems. A critical breakthrough in ECCM miniaturization allowed the SDS drone control systems to be packaged within the fighter-sized hull, and the shielded drone controllers generate an ECM jamming field comparable to a Guardian ECM suite without requiring the additional weight of a dedicated system.</p><p>The VoidSeeker's most notable feature is its sophisticated battle computer, capable of coordinating attacks with other VoidSeeker and Caspar drone units through a decentralized computer network. This allows the drones to collectively make tactical decisions, preventing overcommitment against single targets and making it impossible to neutralize the defense network by destroying any single command node. The drones can also be slaved to a human controller when desired. Built-in failsafes have proven impossible to crack, with every post-war attempt to reverse-engineer a VoidSeeker's control systems resulting in nothing more than a molten pile of computer chips.</p>
 </capabilities>
+
+<overview>
+<p>The Mark 39 VoidSeeker is an automated drone aerospace fighter developed by Ulsop Robotics on Terra for the Star League Defense Force's Space Defense System network. Introduced in 2763, the VoidSeeker was built on the airframe of the then-experimental F-90 Stingray medium fighter, adapted to carry the sophisticated battle computers and hardened electronic warfare systems required for autonomous combat operations. The drone series represented the culmination of nearly two decades of development effort following the flawed Mk. 30 BlackWasp, and was the final component the Terran Hegemony's SDS network needed to achieve full capability. Thousands of VoidSeekers were produced in the few years before Stefan Amaris executed his coup, and despite the short production window, examples of these drones continued turning up as late as the Clan Invasion era.</p>
+</overview>
 
 <deployment>
 <p>The Mk. 39-007 Striker packs an additional fifteen tons onto the base VoidSeeker airframe, bringing it to seventy-five tons with reinforced wings and fuselage structure as well as heavier armor. The common GM 300 light engine reduces the Striker's maximum thrust compared to the Interceptor, but it remains competitive with other heavy fighters of the era. Three extended-range large lasers provide triple the ranged firepower of the 004, and a nose-mounted Artemis IV-enhanced LRM launcher with twenty-four reloads gives a squadron of 007s the punch to threaten even heavy DropShips. The Striker was deployed alongside the Interceptor as the heavy complement in SDS fighter drone formations, oriented toward engaging larger targets that the lighter 004 could not effectively threaten.</p>
@@ -185,4 +162,20 @@ ARMOR:Ferro-Aluminum
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+Added 1 point to aft armor. Reduced fuel by .5 tons.
+</notes>
+
+<source>
+His:LoT2,His:LoT1
+</source>
+
+<published>
+His:LoT2,His:LoT1
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

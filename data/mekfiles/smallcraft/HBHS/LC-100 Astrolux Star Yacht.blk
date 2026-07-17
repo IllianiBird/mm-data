@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e13c-747a-93b4-41a0253367ca
+</UUID>
+
 <UnitType>
 SmallCraft
 </UnitType>
@@ -35,10 +39,6 @@ LC-100
 <year>
 2953
 </year>
-
-<originalBuildYear>
-2953
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -117,6 +117,42 @@ cargobay:6.0:1:4::-1:0
 8
 </structural_integrity>
 
+<capabilities>
+<p>The LC-100 carries fuel sufficient for more than a week of travel at 1G and food stores for a month of sustained space travel. Luxury quarters accommodate seven passengers, and a five-ton cargo bay handles personal freight. The Astrolux can land in the small craft bay of any DropShip or JumpShip as easily as at a planetary port, making it suitable for complex multi-leg voyages.</p>
+</capabilities>
+
+<overview>
+<p>The Lockheed/CBM LC-100 Astrolux StarYacht is the most popular long-range civilian spacecraft designed for private ownership in the Inner Sphere. Produced at Lockheed/CBM's Donegal facilities, it has been the defining craft of its category since its introduction in 2953.</p>
+</overview>
+
+<history>
+<p>Introduced in 2953, the Astrolux's combination of range, comfort, and versatility prompted numerous knock-off designs and legal disputes over the following century. Despite that competition, the LC-100 remains one of Lockheed/CBM's most successful civilian products.</p>
+</history>
+
+<manufacturer>
+Lockheed/CBM Corp.
+</manufacturer>
+
+<primaryFactory>
+Donegal
+</primaryFactory>
+
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<systemModels>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemModels>
+
 <source>
 HB:HS
 </source>
@@ -164,41 +200,4 @@ HB:HS
 <escape_pod>
 0
 </escape_pod>
-
-# Fluff Date: 2026-03-12 21:26:06
-<overview>
-<p>The Lockheed/CBM LC-100 Astrolux StarYacht is the most popular long-range civilian spacecraft designed for private ownership in the Inner Sphere. Produced at Lockheed/CBM's Donegal facilities, it has been the defining craft of its category since its introduction in 2953.</p>
-</overview>
-
-<capabilities>
-<p>The LC-100 carries fuel sufficient for more than a week of travel at 1G and food stores for a month of sustained space travel. Luxury quarters accommodate seven passengers, and a five-ton cargo bay handles personal freight. The Astrolux can land in the small craft bay of any DropShip or JumpShip as easily as at a planetary port, making it suitable for complex multi-leg voyages.</p>
-</capabilities>
-
-<history>
-<p>Introduced in 2953, the Astrolux's combination of range, comfort, and versatility prompted numerous knock-off designs and legal disputes over the following century. Despite that competition, the LC-100 remains one of Lockheed/CBM's most successful civilian products.</p>
-</history>
-
-<manufacturer>
-Lockheed/CBM Corp.
-</manufacturer>
-
-<primaryFactory>
-Donegal
-</primaryFactory>
-
-<systemManufacturers>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemManufacturers>
-
-<systemModels>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemModels>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bfe1-7db9-9c6c-d448e0a0ef19
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,10 +36,6 @@ Foot Stealth Squad
 2800
 </year>
 
-<originalBuildYear>
-2800
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -51,6 +51,9 @@ Sneak Suit (Camo/IR/ECM)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Stealth sniper squads combine airborne insertion capability, sneak suit concealment, and precision marksman training in a compact special operations element. Armed with sniper rifles and magnum auto-pistols for close defense, these squads deploy covertly behind enemy lines to eliminate high-value targets from concealed positions, relying on stealth technology to avoid detection before and after engagement.</p>
+</overview>
 
 <source>
 TR:3085
@@ -91,9 +94,4 @@ true
 <specialization>
 512
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Stealth sniper squads combine airborne insertion capability, sneak suit concealment, and precision marksman training in a compact special operations element. Armed with sniper rifles and magnum auto-pistols for close defense, these squads deploy covertly behind enemy lines to eliminate high-value targets from concealed positions, relying on stealth technology to avoid detection before and after engagement.</p>
-</overview>
 

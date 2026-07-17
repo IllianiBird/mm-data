@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a765-7a75-a43a-2a95f12783b8
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Taranis Battle Armor
 <year>
 3123
 </year>
-
-<originalBuildYear>
-3123
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -106,38 +106,14 @@ IS BA Mimetic:Body
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:3145:RotS
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Taranis is a heavy Inner Sphere battlesuit developed by Krupp Armament Works for the Republic of the Sphere's Armed Forces. Introduced in 3123, the design was purpose-built for close assault and defensive operations within the Republic's combined arms formations. Named after the Celtic god of thunder, the Taranis brought considerable toughness and firepower to the Republic's front-line infantry, filling a need for a heavyweight platform capable of keeping pace with OmniMech-equipped lances. Though its limited ground speed demanded creative tactical deployment, the suit quickly earned a place in the Republic's premier combat formations.</p>
-</overview>
 
 <capabilities>
 <p>The Taranis is a 1,500-kilogram heavy battlesuit optimized for sustained close combat at the expense of speed. Its ground movement is limited to a walking pace, and the suit lacks any jump capability, relying instead on mechanized transport via OmniMech handholds to reach the fighting. Five hundred kilograms of mimetic armor provide both strong physical protection and a reduced visual signature, allowing troopers to set ambushes or approach defensive positions with less risk of detection.</p><p>The suit's primary armament consists of a heavy recoilless rifle and a medium laser, both mounted in detachable weapon packs. This configuration gives each trooper effective firepower against BattleMechs, vehicles, and infantry alike. When ammunition runs dry or the tactical situation demands greater mobility, troopers can jettison the weapon packs entirely. The design was built with future expansion in mind, and the modular weapon mounts leave room for alternative loadouts as new equipment becomes available.</p>
 </capabilities>
+
+<overview>
+<p>The Taranis is a heavy Inner Sphere battlesuit developed by Krupp Armament Works for the Republic of the Sphere's Armed Forces. Introduced in 3123, the design was purpose-built for close assault and defensive operations within the Republic's combined arms formations. Named after the Celtic god of thunder, the Taranis brought considerable toughness and firepower to the Republic's front-line infantry, filling a need for a heavyweight platform capable of keeping pace with OmniMech-equipped lances. Though its limited ground speed demanded creative tactical deployment, the suit quickly earned a place in the Republic's premier combat formations.</p>
+</overview>
 
 <deployment>
 <p>Republic units drawing on ComStar's military traditions organized Taranis troopers into six-trooper Level I formations. This larger grouping provided additional firepower density per tactical element, well suited to the suit's intended role in direct assaults and defensive holdouts. Formations using the Level I structure were most common among Republic commands with strong ties to the former Com Guards, where the organizational framework persisted even as the Republic forged its own military identity.</p>
@@ -170,4 +146,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:RotS
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

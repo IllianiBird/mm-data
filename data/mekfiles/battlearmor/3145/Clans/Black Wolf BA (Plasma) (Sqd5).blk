@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a5e4-79c4-8507-b94a5a2a2ca9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Black Wolf Battle Armor
 <year>
 3138
 </year>
-
-<originalBuildYear>
-3138
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Advanced
@@ -98,46 +98,14 @@ Clan BA Reactive (Blazer):Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<notes>
-The Black Wolf was originally conceived by WizKids' MechWarrior Dark Age Collectable Miniatures game as a part of its Battleforce expansion set. The figure for the Black Wolf battle armor would only be used with a mercenary faction. The battle armor would later adopted by Catalyst Game Labs and redefined in the tabletop game once the company advanced the franchise's timeline to 3145.
-</notes>
-
-<source>
-TR:3145:C,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-1
-</jumpingMP>
-
-<armor>
-11
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Black Wolf is a heavy class battle armor developed jointly by the scientist castes of Clan Wolf and Clan Wolf-in-Exile. Entering production in 3138, the suit was designed for close-in assault and support roles, configurable across multiple weapon loadouts to match mission requirements. Built on a Clan technology base, the design prioritizes heavy armor protection and durability over speed, giving it the staying power expected of a front-line Clan combat platform. Despite the complications that arose from its dual-origin development, the Black Wolf earned a reputation as a flexible and capable suit in the hands of both Clans.</p>
-</overview>
 
 <capabilities>
 <p>At 1,500 kilograms, the Black Wolf is built for close-range aggression rather than speed. Its ten kilometer-per-hour ground pace is among the slowest for heavy battle armor, but jump jets providing thirty-meter leaps ensure troopers can still maneuver effectively across broken terrain. A right-arm Heavy Battle Claw enables OmniMech-assisted deployment and punishing melee strikes. The suit carries 385 kilograms of reactive armor, highly effective against explosive threats and missile barrages, with reduced effectiveness against direct energy weapon fire.</p><p>The Plasma configuration equips a man-portable plasma rifle on the left arm modular weapon point. The plasma rifle generates extreme thermal output on impact, making it effective against vehicles and BattleMechs by forcing heat buildup on targets while simultaneously inflicting damage. This dual threat of kinetic and thermal disruption gives the configuration a unique anti-armor role. Ammunition constraints and the weapon bulk limit engagement duration, but its ability to degrade enemy heat management proves valuable against heavier opponents.</p>
 </capabilities>
+
+<overview>
+<p>The Black Wolf is a heavy class battle armor developed jointly by the scientist castes of Clan Wolf and Clan Wolf-in-Exile. Entering production in 3138, the suit was designed for close-in assault and support roles, configurable across multiple weapon loadouts to match mission requirements. Built on a Clan technology base, the design prioritizes heavy armor protection and durability over speed, giving it the staying power expected of a front-line Clan combat platform. Despite the complications that arose from its dual-origin development, the Black Wolf earned a reputation as a flexible and capable suit in the hands of both Clans.</p>
+</overview>
 
 <deployment>
 <p>Clan Wolf Points armed with plasma rifles played a decisive role during the counterattack at Knockbridge, where their weapons overheated multiple Jade Falcon BattleMechs and forced the surviving enemy units to disengage. The five-trooper formation concentrated plasma fire on individual targets, building thermal loads faster than enemy heat sinks could compensate. This tactic proved especially effective when coordinated with LBX-armed Points that exploited the heat-impaired enemy machines.</p>
@@ -172,4 +140,36 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<notes>
+The Black Wolf was originally conceived by WizKids' MechWarrior Dark Age Collectable Miniatures game as a part of its Battleforce expansion set. The figure for the Black Wolf battle armor would only be used with a mercenary faction. The battle armor would later adopted by Catalyst Game Labs and redefined in the tabletop game once the company advanced the franchise's timeline to 3145.
+</notes>
+
+<source>
+TR:3145:C,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+1
+</jumpingMP>
+
+<armor>
+11
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

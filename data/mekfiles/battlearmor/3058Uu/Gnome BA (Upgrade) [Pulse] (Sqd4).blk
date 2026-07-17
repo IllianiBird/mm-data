@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a258-7820-9405-a9709cbce373
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gnome Battle Armor
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -87,38 +87,14 @@ BAHeavyBattleClaw:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-2
-</jumpingMP>
-
-<armor>
-14
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Gnome was developed by Clan Hell's Horses as the first Clan-manufactured heavy battle armor design. Introduced in 3056, the suit was created in response to growing Inner Sphere battle armor capabilities that threatened Clan supremacy in armored infantry warfare. Classified as a heavy-weight assault platform, the Gnome combined substantial armor protection with jump capability and fixed weaponry, offering a heavier alternative to the ubiquitous Elemental without sacrificing all mobility. Named after the earth spirit of classical mythology in keeping with the Clan tradition for second-generation battlesuits, the Gnome quickly established itself as a cornerstone of Hell's Horses infantry doctrine and saw adoption by multiple Clans.</p>
-</overview>
 
 <capabilities>
 <p>The Pulse Laser configuration follows the same structural modifications as the Bearhunter Upgrade, mounting a pair of modular weapon mounts in place of the original ER small laser. Rather than autocannons, this variant equips micro pulse lasers in both mounts, providing improved accuracy against fast-moving targets at short range. The detachable Advanced SRM 2 launcher and heavy battle claw are retained from the Upgrade chassis.</p><p>The micro pulse lasers offer a different tactical profile than the Bearhunter autocannons. Their rapid-fire capability makes them effective against other battle armor and conventional infantry, while the pulse technology helps compensate for the inherent difficulties of engaging targets from a moving battlesuit. The trade-off is reduced per-shot damage compared to the autocannons, making this configuration better suited to anti-infantry and suppression roles than direct assaults against heavily armored opponents.</p>
 </capabilities>
+
+<overview>
+<p>The Gnome was developed by Clan Hell's Horses as the first Clan-manufactured heavy battle armor design. Introduced in 3056, the suit was created in response to growing Inner Sphere battle armor capabilities that threatened Clan supremacy in armored infantry warfare. Classified as a heavy-weight assault platform, the Gnome combined substantial armor protection with jump capability and fixed weaponry, offering a heavier alternative to the ubiquitous Elemental without sacrificing all mobility. Named after the earth spirit of classical mythology in keeping with the Clan tradition for second-generation battlesuits, the Gnome quickly established itself as a cornerstone of Hell's Horses infantry doctrine and saw adoption by multiple Clans.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere squads equipped with the Pulse Laser configuration found the variant well-suited to anti-infantry security operations. The micro pulse lasers' accuracy against fast-moving targets made four-trooper squads effective in perimeter defense and convoy escort roles.</p>
@@ -153,4 +129,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+2
+</jumpingMP>
+
+<armor>
+14
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

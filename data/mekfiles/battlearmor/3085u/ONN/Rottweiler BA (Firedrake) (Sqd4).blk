@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a5b8-7bae-9764-4daec5d7c91c
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Rottweiler Battle Armor
 <year>
 3072
 </year>
-
-<originalBuildYear>
-3072
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -85,42 +85,14 @@ IS BA Stealth (Basic):Body
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:3085
-</source>
-
-<published>
-RS:3085u-ONN
-</published>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Rottweiler is a medium quad battle armor suit developed by TharHes Industries for the Lyran Alliance Armed Forces. Fielded in 3065, the design built on lessons learned from the earlier Fenrir program, prioritizing speed and sensor capability over raw firepower. Its low profile and advanced electronics package earned it a respected place among Lyran reconnaissance formations, where its ability to operate well ahead of heavier units proved consistently valuable across multiple theaters of operation.</p>
-</overview>
 
 <capabilities>
 <p>The Firedrake configuration carries four Firedrake incendiary needlers and heavier armor plating than the standard model. This loadout makes the suit devastatingly effective against conventional infantry formations, capable of shredding unarmored platoons in seconds. The additional armor allows Firedrake-equipped troopers to close with infantry positions that would threaten lighter configurations.</p><p>The concentrated needler armament poses a credible threat even to BattleMechs through sheer volume of fire against exposed joints and sensors, though this remains a secondary capability. Against other battle armor or vehicles the configuration is poorly suited, as needler weapons lack the penetration to defeat proper armor plating. The Firedrake excels in its intended role of infantry suppression and area clearance.</p>
 </capabilities>
+
+<overview>
+<p>The Rottweiler is a medium quad battle armor suit developed by TharHes Industries for the Lyran Alliance Armed Forces. Fielded in 3065, the design built on lessons learned from the earlier Fenrir program, prioritizing speed and sensor capability over raw firepower. Its low profile and advanced electronics package earned it a respected place among Lyran reconnaissance formations, where its ability to operate well ahead of heavier units proved consistently valuable across multiple theaters of operation.</p>
+</overview>
 
 <deployment>
 <p>Lyran commanders organized Firedrake Rottweilers into four-trooper squads for dedicated anti-infantry sweeps. These squads operated ahead of advancing BattleMech formations to clear conventional infantry positions that might otherwise slow an advance. The heavier armor allowed Firedrake squads to press attacks against dug-in infantry that would force lighter configurations to withdraw, and LAAF garrison commands valued them for riot suppression and civil unrest response.</p>
@@ -153,4 +125,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3085
+</source>
+
+<published>
+RS:3085u-ONN
+</published>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

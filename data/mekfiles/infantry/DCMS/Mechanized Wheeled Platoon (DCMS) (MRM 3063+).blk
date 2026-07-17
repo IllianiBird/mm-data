@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bc27-7958-b26c-07870daac152
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Mechanized Wheeled Platoon (DCMS)
 <year>
 3063
 </year>
-
-<originalBuildYear>
-3063
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -55,7 +55,9 @@ Draconis Combine Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
-
+<overview>
+<p>The Draconis Combine Mustered Soldiery assigns conventional infantry to garrison roles across its military districts, with district regulars often fielding extra platoons to secure worlds that BattleMech forces cannot permanently garrison. Wheeled mechanized infantry ride armored personnel carriers that offer speed on roads and enough protection to survive initial contact. The DCMS assigns these platoons where garrison duty demands both rapid response and the ability to dismount under fire, a combination that foot and motorized troops cannot reliably deliver. Support elements carry disposable medium-range missile launchers that split the difference between the close-range punch of SRM systems and the reach of LRM launchers. The volume of fire compensates for the lack of guidance systems.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date of infantry MRM launcher
@@ -80,9 +82,4 @@ InfantryAssaultRifle
 <Secondary>
 InfantryOneShotMRM
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Draconis Combine Mustered Soldiery assigns conventional infantry to garrison roles across its military districts, with district regulars often fielding extra platoons to secure worlds that BattleMech forces cannot permanently garrison. Wheeled mechanized infantry ride armored personnel carriers that offer speed on roads and enough protection to survive initial contact. The DCMS assigns these platoons where garrison duty demands both rapid response and the ability to dismount under fire, a combination that foot and motorized troops cannot reliably deliver. Support elements carry disposable medium-range missile launchers that split the difference between the close-range punch of SRM systems and the reach of LRM launchers. The volume of fire compensates for the lack of guidance systems.</p>
-</overview>
 

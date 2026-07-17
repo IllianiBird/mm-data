@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e447-7e9f-96a6-4da1fbf987c1
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Padilla Heavy Artillery Tank
 <year>
 2620
 </year>
-
-<originalBuildYear>
-2620
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -107,26 +107,13 @@ ISTAG
 <Rear Equipment>
 </Rear Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 21:44:47
-<overview>
-<p>The Padilla Heavy Artillery Tank entered Star League Defense Force service in 2620 as a deliberate complement to the lighter Chaparral Missile Artillery Tank. Where the Chaparral prioritized speed and terrain exploitation, the Padilla offered a heavier, better-protected platform capable of sustaining fire operations under more demanding tactical conditions. Designed and produced by Leopard Armor of Terra, the seventy-five-ton tracked vehicle carried a single Arrow IV launcher as its primary armament, backed by pulse lasers and an anti-missile system for self-defense. The Padilla's combination of exceptional speed for its weight and robust armor made it one of the most survivable artillery vehicles of the Star League era, and the design proved so effective that few variants were ever deemed necessary. The near-total destruction of Padilla stocks during the Succession Wars left the type among the rarest surviving SLDF vehicles in the modern Inner Sphere.</p>
-</overview>
-
 <capabilities>
 <p>The Padilla's combat effectiveness centers on its Katyusha Arrow IV missile launcher, mounted in a sleek forward box configuration that allows it to operate in close terrain without raising a conspicuous launcher profile. The Arrow IV system provides unmatched flexibility in munitions selection, from conventional high-explosive warheads to homing rounds requiring target designation by TAG-equipped allied units, to specialized payloads. Two Martell medium pulse lasers provide short-range defensive firepower with accuracy advantages over conventional laser designs, while a Burrow anti-missile system offers protection against incoming missile attacks. Early service revealed the Burrow susceptible to electronic jamming, prompting the SLDF quartermaster corps to initiate a McArthur anti-missile replacement program, though most Padillas assigned to front-line combat units never received the upgrade before the Amaris war ended production entirely.</p><p>The Ragusson 375 XL Fusion engine provides a cruising speed of fifty-four kilometers per hour and a flank speed of eighty-six, remarkable performance for a seventy-five-ton tracked vehicle. For a long time, speed was the Padilla's most effective defense: only the fastest recon BattleMechs or purpose-built pursuit vehicles could close to effective engagement range against a Padilla choosing to withdraw. The targeting system includes an integrated TAG designator, allowing the Padilla to self-designate targets for its own homing Arrow IV rounds when no dedicated TAG support is available. StarSlab armor provides reasonable protection for the vehicle's weight class, sufficient to withstand the light direct fire likely to reach a properly deployed artillery vehicle.</p><p>The elaborate security protocols that developed around the Padilla's operation ultimately became a tactical liability. Commanders deemed individual vehicles too valuable to risk in aggressive firing positions, and the Padilla became a symbol of prestige, making each one a high-priority target for opposing commanders who recognized the psychological impact of its destruction.</p>
 </capabilities>
+
+<overview>
+<p>The Padilla Heavy Artillery Tank entered Star League Defense Force service in 2620 as a deliberate complement to the lighter Chaparral Missile Artillery Tank. Where the Chaparral prioritized speed and terrain exploitation, the Padilla offered a heavier, better-protected platform capable of sustaining fire operations under more demanding tactical conditions. Designed and produced by Leopard Armor of Terra, the seventy-five-ton tracked vehicle carried a single Arrow IV launcher as its primary armament, backed by pulse lasers and an anti-missile system for self-defense. The Padilla's combination of exceptional speed for its weight and robust armor made it one of the most survivable artillery vehicles of the Star League era, and the design proved so effective that few variants were ever deemed necessary. The near-total destruction of Padilla stocks during the Succession Wars left the type among the rarest surviving SLDF vehicles in the modern Inner Sphere.</p>
+</overview>
 
 <deployment>
 <p>Assigned throughout the SLDF to combined-arms artillery formations alongside Chaparral Missile Artillery Tanks and TAG-equipped BattleMechs. Almost entirely destroyed during Operation Liberation and the subsequent Succession Wars, with survivors eventually passing through Com Guard possession into Republic service following the Jihad. New production resumed at the mothballed Leopard Armor facility on Terra under Word of Blake auspices in 3058 and continued under Republican ownership post-Jihad. Found primarily in Republican garrison and second-line formations in the Dark Age, with occasional pre-war examples appearing in mercenary inventories at prices far exceeding their practical value.</p>
@@ -159,4 +146,16 @@ ARMOR:StarSlab/1
 COMMUNICATIONS:19
 TARGETING:Scope 30 RDNST with TAG
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 

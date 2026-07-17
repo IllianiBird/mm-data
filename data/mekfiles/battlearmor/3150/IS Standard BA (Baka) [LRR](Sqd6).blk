@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7af-7804-9943-df02d25cc732
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ IS Standard Battle Armor
 <year>
 3086
 </year>
-
-<originalBuildYear>
-3086
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -89,49 +89,13 @@ ISBASRM2OS:Body
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
 
-<slotless_equipment>
-BA-SRM2 Ammo:Shots1#
-BA-SRM2 Ammo:Shots1#
-</slotless_equipment>
-
-
-
-
-
-
-
-<source>
-TR:DA
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>Developed by the New Avalon Institute of Science in the early 3050s, the Inner Sphere Standard was the first mass-produced battle armor fielded by the Great Houses. The medium-weight suit was reverse-engineered from captured Clan Elemental technology, giving Inner Sphere commanders their first viable counter to Clan powered infantry. Though inferior to its Clan counterpart in almost every measurable respect, the IS Standard proved reliable, affordable, and easy to manufacture across multiple production lines. Its widespread adoption reshaped Inner Sphere infantry doctrine, and the design served as the foundation for numerous successor suits developed by individual Great Houses and their defense contractors.</p>
-</overview>
-
 <capabilities>
 <p>The Baka refit strips the IS Standard's jump jets entirely, replacing them with a pair of fixed SRM-2 launchers that dramatically increase the suit's missile firepower. The right-arm modular mount carries a light recoilless rifle, giving the Baka a combined-arms loadout of ballistic and missile weapons. The left-arm battle claw is retained for swarming attacks. Standard armor protection remains at factory specification. The dual SRM launchers make the Baka a genuine threat to armored targets, but the loss of jump capability severely restricts tactical mobility. Troopers must rely on ground movement and mechanized transport to reach engagement positions, making this loadout best suited to defensive operations and prepared ambush positions.</p>
 </capabilities>
+
+<overview>
+<p>Developed by the New Avalon Institute of Science in the early 3050s, the Inner Sphere Standard was the first mass-produced battle armor fielded by the Great Houses. The medium-weight suit was reverse-engineered from captured Clan Elemental technology, giving Inner Sphere commanders their first viable counter to Clan powered infantry. Though inferior to its Clan counterpart in almost every measurable respect, the IS Standard proved reliable, affordable, and easy to manufacture across multiple production lines. Its widespread adoption reshaped Inner Sphere infantry doctrine, and the design served as the foundation for numerous successor suits developed by individual Great Houses and their defense contractors.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper Level I formations carrying the Baka refit served in commands following ComStar organizational doctrine. The larger formation concentrated significant missile and ballistic firepower in a single tactical element, though the absence of jump jets demanded careful pre-positioning and reliance on vehicle transport during offensive operations.</p>
@@ -164,4 +128,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:DA
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

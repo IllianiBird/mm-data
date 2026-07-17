@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e39f-782c-9f84-454520290287
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Mk IV
 <year>
 2588
 </year>
-
-<originalBuildYear>
-2588
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -109,26 +109,13 @@ Autocannon/20
 Autocannon/20
 </Turret Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<tonnage>
-95.0
-</tonnage>
-
-# Fluff Date: 2026-03-01 12:28:32
-<overview>
-<p>The Alacorn is a ninety-five-ton tracked assault tank developed by the New Earth Trading Company for the Star League Defense Force. Entering service in 2590 as the culmination of nearly three decades of iterative design work that began under Corben Motors, the Alacorn was built to deliver overwhelming long-range firepower from a single vehicle platform. Its combination of heavy armor and a turret-mounted battery of three gauss rifles gave it striking power that rivaled many assault-class BattleMechs. The SLDF deployed the Alacorn widely throughout the Periphery, where it earned a reputation as one of the most effective and dependable heavy tanks in service. The design remains popular with mercenary commands and minor powers seeking BattleMech-equivalent firepower at a fraction of the cost.</p>
-</overview>
-
 <capabilities>
 <p>The Alacorn's primary armament consists of three turret-mounted Norse-Storm Model-7D Gauss Rifles, each capable of delivering punishing kinetic impacts at extreme range. Five tons of gauss ammunition provide sufficient endurance for sustained engagements, allowing crews to maintain a steady rate of fire throughout prolonged operations. This concentration of firepower makes the Alacorn one of the most dangerous vehicles on the battlefield at range, capable of crippling even heavy BattleMechs with a well-placed salvo.</p><p>A Pitban 285 XL fusion engine propels the tank to a top speed of fifty-four kilometers per hour, sufficient to keep pace with most assault-weight formations. Thirteen tons of StarGuard Type VH armor provide solid protection for a vehicle of its class, with the front hull receiving the heaviest plating. However, the use of an extralight engine serves as a significant vulnerability, as penetrating hits to the side hull can result in catastrophic engine failure. The tracked suspension system also demands constant attention from crews, as the immense weight of the vehicle places considerable stress on the tracks and road wheels. Alacorn crews are well known for their thorough and frequent track maintenance routines.</p>
 </capabilities>
+
+<overview>
+<p>The Alacorn is a ninety-five-ton tracked assault tank developed by the New Earth Trading Company for the Star League Defense Force. Entering service in 2590 as the culmination of nearly three decades of iterative design work that began under Corben Motors, the Alacorn was built to deliver overwhelming long-range firepower from a single vehicle platform. Its combination of heavy armor and a turret-mounted battery of three gauss rifles gave it striking power that rivaled many assault-class BattleMechs. The SLDF deployed the Alacorn widely throughout the Periphery, where it earned a reputation as one of the most effective and dependable heavy tanks in service. The design remains popular with mercenary commands and minor powers seeking BattleMech-equivalent firepower at a fraction of the cost.</p>
+</overview>
 
 <deployment>
 <p>The Mk IV paired the Mk III's extralight engine with the Mk II's devastating triple Class 20 autocannon payload, creating a close-range assault vehicle of fearsome power. Produced in small numbers alongside the Mk III, it saw limited service with SLDF units that valued raw stopping power over sustained engagement range. Like the Mk III, it was eventually overshadowed by the gauss-armed Mk VI.</p>
@@ -163,4 +150,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Recon Model 21-RS
 TARGETING:Scanlok 347
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<tonnage>
+95.0
+</tonnage>
 

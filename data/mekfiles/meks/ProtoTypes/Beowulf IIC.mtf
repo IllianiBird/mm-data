@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d760-701c-a3e7-13ee2a8b05c2
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Beowulf IIC
 model:
 mul id:3818
@@ -175,7 +176,6 @@ CLDoubleHeatSink
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The Beowulf IIC is a forty-five-ton medium Clan BattleMech introduced in the 3080s by Odin Manufacturing on Orestes as a clean-sheet Clan-technology rebuild of the original ComStar-designed Beowulf. Developed to fill the Ghost Bear Dominion's need for a fast medium scout to supplement the slower Ursus, the Beowulf IIC pushed the proven fifteen-year-old platform to new capability levels using Clan-grade weapons and equipment. Though the design's inflated cost generated significant controversy within the Dominion's merchant caste, the Beowulf IIC became one of the few Rasalhagian-manufactured Clan BattleMechs to see widespread deployment within the Dominion's touman, serving in both frontline and second-line formations.</p>
 
 capabilities:<p>At its core, the Beowulf IIC is remarkably similar to its ComStar-designed progenitor, sharing virtually identical ground performance. The same 270-rated XL engine and MASC system provide matching speed, while Odin Type II jump jets deliver the same one-hundred-and-eighty-meter jump capability. The primary advantage of the Clan rebuild lies in the improved survivability of the Clan-rated XL engine, which can sustain side torso damage that would cripple the Inner Sphere original. Clan ferro-fibrous armor saves a modest half-ton over the Inner Sphere version.</p><p>The weapons loadout trades the Inner Sphere pulse and extended-range lasers for Clan equivalents, a Series PPS-XX extended-range large pulse laser and two Series PPS-XIX extended-range medium pulse lasers deliver more damage at nearly identical range brackets, though the 'Mech runs hotter as a result. The most controversial design choice was replacing the Beagle active probe and TAG with a Watchdog CEWS and light TAG. While technically offering the same detection and ECM capabilities at less weight, the significantly reduced sensor range forces the Beowulf IIC dangerously close to hostile units to fulfill its scouting role. Ironically, the retention of the original Dash-2 communications system and Blade 12 targeting computer (the very components that had caused incompatibility issues in earlier Clan-tech refits) continues to produce electronics glitches in the purpose-built IIC design.</p>
@@ -187,6 +187,8 @@ history:<p>The Beowulf IIC was born from the political and commercial upheaval f
 manufacturer:Odin Manufacturing
 
 primaryfactory:Orestes
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Unknown
 systemmode:CHASSIS:Beowulf 3C

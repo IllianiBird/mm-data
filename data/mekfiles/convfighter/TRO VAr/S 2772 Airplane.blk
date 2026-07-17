@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa36-7df8-9d49-a89597ca935b
+</UUID>
+
 <UnitType>
 FixedWingSupport
 </UnitType>
@@ -35,10 +39,6 @@ S 2772 Airplane
 <year>
 2463
 </year>
-
-<originalBuildYear>
-2463
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -135,28 +135,13 @@ troopspace:1.5
 2
 </engine_tech_rating>
 
-
-
-
-
-
-
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-130.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>Once quite a fad among nobility, tycoons, and the nouveau riche, real luxury planes like the double-decked S 2772 outfitted by New Avalon-based SphereBAC have become few and far between. Expensive and difficult to maintain, and quickly outmoded both in fashion and technology, only the wealthiest with nothing else to care about treat themselves to such a pleasure. SphereBAC nonetheless carved out a niche serving the most exclusive clientele in the Inner Sphere, with their New Avalon workshops producing some of the most opulent aircraft ever to take flight. The S 2772 represents the pinnacle of atmospheric luxury -- a double-decked flying estate that caters to those for whom cost is no object and ostentation is a way of life.</p>
-</overview>
-
 <capabilities>
 <p>The S 2772 features a double-decked design that provides extraordinary interior volume for its class. Those on the lookout for a flying estate will find a whole customer market at their feet -- Branthhide sofas can be ordered from stock, five-star kitchens cater to every taste, small recreational parks, hot-spring bathing caverns, and carousels for children can all be incorporated, all at nearly supersonic speeds with or without an automatic landing system. Only the buyer's budget is the limit.</p><p>The aircraft cruises at high subsonic speeds, offering a smooth and quiet ride that allows passengers to enjoy these amenities in comfort during extended continental transit. The double-deck configuration separates service areas from living spaces, giving the aircraft the feel of a proper residence rather than a vehicle. SphereBAC's craftsmen handle every commission individually, and each S 2772 is effectively a unique creation, with no two interiors alike. The sheer mass of the aircraft -- among the heaviest civilian planes in regular production -- is both its greatest strength and its most significant limitation, as suitable runways are not always available at a buyer's preferred destination.</p>
 </capabilities>
+
+<overview>
+<p>Once quite a fad among nobility, tycoons, and the nouveau riche, real luxury planes like the double-decked S 2772 outfitted by New Avalon-based SphereBAC have become few and far between. Expensive and difficult to maintain, and quickly outmoded both in fashion and technology, only the wealthiest with nothing else to care about treat themselves to such a pleasure. SphereBAC nonetheless carved out a niche serving the most exclusive clientele in the Inner Sphere, with their New Avalon workshops producing some of the most opulent aircraft ever to take flight. The S 2772 represents the pinnacle of atmospheric luxury -- a double-decked flying estate that caters to those for whom cost is no object and ostentation is a way of life.</p>
+</overview>
 
 <deployment>
 <p>The wealthiest category of buyers includes most of the Great Houses, especially the Davion Royal Household fleet of more than one hundred planes, with two aircraft kept ready for use on every major world in the Federated Suns. However, even this source of income for manufacturers tapered down as heads of state became more interested in security than opulence. Most successful businesses -- the other major customer segment -- tend to settle near spaceport hubs, making planetary travel a matter of short distances better served by VTOLs.</p>
@@ -173,4 +158,12 @@ SphereBAC
 <primaryFactory>
 New Avalon
 </primaryFactory>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+130.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a208-7597-9719-69722411ef22
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Fa Shih Battle Armor
 <year>
 3062
 </year>
-
-<originalBuildYear>
-3062
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -92,42 +92,14 @@ ISBAMineDispenser:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Fa Shih, or "Master of Methods," was the Capellan Confederation's first indigenous battle armor design. Developed by Ceres Metals with assistance from the Word of Blake, the medium suit entered service in 3062 as an adaptation of the Inner Sphere Standard. Distinguished by its mine-laying capability and ability to ride conventional vehicles into battle, the Fa Shih filled a defensive and area-denial role that complemented the Confederation's long tradition of mine warfare. The design earned a strong reputation among Capellan armed forces and continued serving long after more advanced suits became available.</p>
-</overview>
 
 <capabilities>
 <p>Weighing one thousand kilograms, the Fa Shih carries a mine dispenser on its back capable of scattering grenade-sized mines across several hundred square meters of terrain when deployed mid-jump. Two dispensing canisters allow troopers to either expand a single minefield or seed a second area entirely. The suit's manipulators incorporate mine clearance equipment, giving it the ability to both lay and remove minefields. Magnetic clamps at the knees and underarms allow the Fa Shih to ride standard BattleMechs and vehicles into battle, a critical feature given the Confederation's limited OmniMech inventory. Jump jets provide leaps of up to ninety meters, and three hundred fifty kilograms of standard armor offer above-average protection for a medium suit, enough to absorb a hit from a Clan extended-range medium laser. The light recoilless rifle configuration provides a ranged ballistic option in the right arm's modular weapon mount, giving troopers the ability to engage targets at greater standoff distances than energy or flame-based loadouts. An anti-personnel weapon mount on the left arm rounds out the suit's armament for close engagements.</p>
 </capabilities>
+
+<overview>
+<p>The Fa Shih, or "Master of Methods," was the Capellan Confederation's first indigenous battle armor design. Developed by Ceres Metals with assistance from the Word of Blake, the medium suit entered service in 3062 as an adaptation of the Inner Sphere Standard. Distinguished by its mine-laying capability and ability to ride conventional vehicles into battle, the Fa Shih filled a defensive and area-denial role that complemented the Confederation's long tradition of mine warfare. The design earned a strong reputation among Capellan armed forces and continued serving long after more advanced suits became available.</p>
+</overview>
 
 <deployment>
 <p>Light recoilless rifle squads offered Capellan commanders a ranged ballistic option within standard four-trooper formations. These squads often deployed at greater standoff distances than their flamer or laser counterparts, providing covering fire while mine-laying squads prepared defensive positions ahead of advancing enemy forces.</p>
@@ -162,4 +134,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

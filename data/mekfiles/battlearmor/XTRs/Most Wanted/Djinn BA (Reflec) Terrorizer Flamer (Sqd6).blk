@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a964-7226-bb6c-f5878768a5b9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Djinn Battle Armor
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -98,42 +98,14 @@ CLBAFlamer:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Most Wanted
-</source>
-
-<published>
-XTR:Most Wanted
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
 
 <capabilities>
 <p>The "Terrorizer" is a post-war modification of the Djinn chassis built around experimental reflective armor. This flamer-equipped variant mounts a single flamer in the right arm, paired with battle claws on both arms for close-quarters work. The partial wing and TAG systems of the original Djinn have been stripped out entirely, replaced by 330 kilograms of reflective plating that can deflect a direct PPC hit. Jump capability is retained at ninety meters through conventional jump jets. The reflective armor makes these suits exceptionally resilient against energy weapons, though ballistic and missile fire remains effective. The flamer's short range and anti-personnel focus suggest this variant was configured specifically for terrorizing civilian populations and clearing enclosed spaces.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>The Blakist terror cell that deployed Terrorizer suits after the fall of Terra organized its troopers into Level I-sized formations of up to six operators, consistent with Word of Blake military doctrine. These six-trooper teams conducted combat drops from modified small craft, striking spaceports and population centers before local forces could mount an effective response. The flamer variant proved particularly devastating in the enclosed spaces of spaceport facilities.</p>
@@ -168,4 +140,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Most Wanted
+</source>
+
+<published>
+XTR:Most Wanted
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

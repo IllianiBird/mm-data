@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d73d-76b7-a63e-0669061aeeb2
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Harvester Ant
 model:KIC-3M-B AgroMech (LRM)
 mul id:7153
@@ -167,7 +168,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-28 17:47:08
 overview:<p>The Harvester Ant is a twenty-ton quad IndustrialMech introduced in 2650 by Kong Interstellar Corporation on Connaught. Designed during the golden years of the Star League, the KIC-3 was purpose-built to serve the needs of colonists settling frontier worlds across the Inner Sphere. New terraforming techniques and inexpensive water purification systems had opened vast tracts of previously unsuitable land for development, and affordable agricultural machinery was in high demand. Kong identified this growing market and delivered a simple, robust crop harvester that could be operated safely by even the most inexperienced pilots. The Harvester Ant became one of the most successful IndustrialMech designs of the Star League era, and its combination of reliability, ease of maintenance, and fuel flexibility ensured its survival long after the factories that built it fell silent during the Succession Wars.</p>
 
 capabilities:<p>The Harvester Ant employs a quad chassis layout that provides exceptional stability on uneven terrain, a critical feature for agricultural work on partially terraformed colony worlds. Twin Thresher combine units mounted ahead of the forelegs allow the IndustrialMech to cut a ten-meter-wide swath through crops, while a two-ton internal cargo bay stores harvested material for transport. For higher-yield crops such as wheat, the cargo bay fills quickly and requires supplementary vehicles for unloading, but lighter crops like the Midkiff-native kiffnut can be gathered continuously without pause.</p><p>The Leenex 60 internal combustion engine is central to the design philosophy. Capable of burning refined petrochemicals, alcohol, or even plant-extracted oils, it allows the Harvester Ant to operate on worlds where fusion fuel infrastructure has not yet been established. This flexibility comes at the cost of speed and power (the ICE propels the machine to a maximum of only fifty-four kilometers per hour) but colonists valued accessibility over performance. Two tons of StarSlab commercial-grade armor provide minimal protection against the elements and incidental impacts, though this plating is wholly inadequate for any combat situation. The Bassix 100 communications system handles basic coordination with other agricultural equipment, and the design intentionally omits any targeting or tracking systems, reinforcing its purely civilian role.</p>
@@ -179,6 +179,8 @@ history:<p>The Harvester Ant emerged during the Star League's great colonization
 manufacturer:Field Refit
 
 primaryfactory:Various
+
+fluffdate:2026-02-28 17:47:08
 
 systemmanufacturer:CHASSIS:Kong
 systemmode:CHASSIS:Industrial

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a968-74ac-8de3-d142c3300cf4
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Djinn Battle Armor
 <year>
 3079
 </year>
-
-<originalBuildYear>
-3079
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -95,38 +95,14 @@ CLBAMG:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-XTR:Most Wanted
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-6
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
-</overview>
 
 <capabilities>
 <p>This Terrorizer variant replaces the flamer with a machine gun in the right arm, providing a marginally longer effective range and better sustained fire capability. Battle claws on both arms retain the suit's ability to conduct swarming attacks. Like all Terrorizer configurations, it mounts 330 kilograms of reflective armor in place of the standard Djinn's lighter advanced plating, dramatically improving survivability against energy-based weapons at the cost of the partial wing and TAG systems. Jump capability is maintained at ninety meters. The machine gun is effective against both unarmored infantry and lightly armored targets, making this the most general-purpose of the three Terrorizer loadouts. Intelligence reports suggest the original prototypes carried small lasers, with the machine gun option emerging as a field modification.</p>
 </capabilities>
+
+<overview>
+<p>The Demon series of battle armor emerged from Gibson Federated BattleMechs during the Jihad as the companion line to the Word of Blake's Celestial OmniMechs. Conceived by Precentor Vapula, the Manei Domini's engineering chief, the six Demon designs draw their names from the malevolent figures of various world mythologies. Each suit was crafted to fill a specific combat role while projecting an element of psychological terror against the Word's enemies. Fielded almost exclusively by the cybernetically enhanced Manei Domini elite, the Demons share the same unsettling visual aesthetic as their larger Celestial counterparts and were rarely encountered outside the Shadow Divisions.</p>
+</overview>
 
 <deployment>
 <p>No reports document Clan forces operating machine gun-equipped Terrorizer suits in five-trooper Point formations. The insurgent cells responsible for post-war Terrorizer attacks operated exclusively in former Word of Blake territory far from Clan-controlled space, making Clan acquisition of these experimental suits extremely unlikely.</p>
@@ -161,4 +137,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:Most Wanted
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

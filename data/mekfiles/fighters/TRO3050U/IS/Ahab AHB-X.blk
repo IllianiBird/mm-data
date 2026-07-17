@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ada1-7928-855b-0012279d515c
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ AHB-X
 <year>
 2697
 </year>
-
-<originalBuildYear>
-2697
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -129,34 +129,13 @@ IS Ammo LRM-20
 IS Ammo SRM-6
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3050,TR:3050U
-</source>
-
-<published>
-RS:3050Uu-C
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Ahab is a ninety-ton heavy aerospace fighter originally developed by Harvard Company, Inc. during the height of the Star League era. Debuting as a prototype in 2697, the design was conceived as a dedicated missile platform capable of overwhelming heavily armored targets through sheer volume of fire. A full squadron of Ahabs could engage light and medium-class DropShips in a single pass, establishing the fighter as one of the most destructive aerospace platforms ever fielded. The definitive production model entered service in 2703, and though hampered by notoriously sluggish acceleration, the Ahab's devastating firepower and heavy armor made it a prized asset for SLDF task forces and Great House militaries throughout the Star League period.</p>
-</overview>
-
 <capabilities>
 <p>The Ahab's primary striking power comes from its twin Delta Dart LRM-20 launchers, each supplied with three tons of ammunition, providing extended-range fire support capable of saturating a target area across multiple passes. At closer ranges, two Federated-6 SRM-6 launchers with two tons of shared ammunition deliver concentrated follow-up strikes. An Apple Churchill Guiding Light NARC missile beacon, added in the 2703 production revision, dramatically improves missile accuracy by painting targets for coordinated squadron fire. A single Thunderbolt 2C large laser serves primarily as a backup weapon when ammunition stores are depleted, while two rear-mounted Ceres Arms medium lasers provide modest deterrence against pursuers.</p><p>The PlasmaStar 270 fusion engine provides adequate thrust for the Ahab's ninety-ton mass but produces a noticeably low acceleration rate. Pilots have compared the fighter's handling to a "floundering moose in molasses," noting the critical seconds required to reach operational speed. This sluggishness represents the design's most significant tactical weakness, making the Ahab vulnerable during approach runs in contested airspace. Fifteen and a half tons of Force Plus armor provide substantial protection across most arcs, though lighter coverage in the rear is a concern for pilots performing precision strikes in heavily defended territory. The Wakazashi Heavy Unlimited frame carries the entire weapons suite on a robust airframe designed to absorb punishment at the expense of agility.</p>
 </capabilities>
+
+<overview>
+<p>The Ahab is a ninety-ton heavy aerospace fighter originally developed by Harvard Company, Inc. during the height of the Star League era. Debuting as a prototype in 2697, the design was conceived as a dedicated missile platform capable of overwhelming heavily armored targets through sheer volume of fire. A full squadron of Ahabs could engage light and medium-class DropShips in a single pass, establishing the fighter as one of the most destructive aerospace platforms ever fielded. The definitive production model entered service in 2703, and though hampered by notoriously sluggish acceleration, the Ahab's devastating firepower and heavy armor made it a prized asset for SLDF task forces and Great House militaries throughout the Star League period.</p>
+</overview>
 
 <deployment>
 <p>The original Ahab prototype, the AHB-X predates the definitive AHB-443 by six years. This version mounts three medium lasers in the nose and additional heat sinks in place of the NARC missile beacon added in the later production model. Though some records indicated the AHB-X had not been seen in active service for nearly two centuries, many surviving Ahabs were actually downgraded to this configuration during the Succession Wars as NARC technology became increasingly difficult to maintain. A small number of operators continued fielding this variant through the opening of the Jihad.</p>
@@ -189,4 +168,16 @@ ARMOR:Unknown
 COMMUNICATIONS:LVR
 TARGETING:7
 </systemModels>
+
+<source>
+TR:3050,TR:3050U
+</source>
+
+<published>
+RS:3050Uu-C
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

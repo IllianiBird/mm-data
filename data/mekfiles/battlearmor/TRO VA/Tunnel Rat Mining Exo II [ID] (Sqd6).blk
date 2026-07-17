@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a8f2-77f4-bf6d-2f866764dff5
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Tunnel Rat II Mining Exoskeleton
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -88,38 +88,14 @@ BAIndustrialDrill:RA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-TR:VAr
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-1
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-0
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Tunnel Rat mining exoskeleton is a civilian-grade suit designed by General Motors for underground mining operations. Introduced in 3055 as part of GM's renewed push into the mining equipment market, the Tunnel Rat gave individual miners a pressurized, armored frame capable of withstanding the hazards of subterranean work. Modular plug-in ports in both arms allowed operators to swap between specialized tools as job requirements changed. The suit earned a reputation for rugged dependability in confined, hazardous environments. The Tunnel Rat II incorporated a more dependable power source and improved electronics, though it remained otherwise identical to the original in both capability and configuration.</p>
-</overview>
 
 <capabilities>
 <p>The Industrial Drill configuration mounts a heavy-duty mining drill on one arm and a basic manipulator on the other, giving operators the primary cutting tool needed for tunnel face work and vein extraction. The drill can bore through most commercial-grade rock, while the manipulator handles loose material and tool management. At four hundred kilograms, the suit carries a single point of standard armor and a body-mounted searchlight. Like the Armored Glove variant, this configuration operates at walking pace with no jump capability. Communications gear and a basic life support package support extended shifts underground, though the suit offers only minimal protection against cave-ins.</p>
 </capabilities>
+
+<overview>
+<p>The Tunnel Rat mining exoskeleton is a civilian-grade suit designed by General Motors for underground mining operations. Introduced in 3055 as part of GM's renewed push into the mining equipment market, the Tunnel Rat gave individual miners a pressurized, armored frame capable of withstanding the hazards of subterranean work. Modular plug-in ports in both arms allowed operators to swap between specialized tools as job requirements changed. The suit earned a reputation for rugged dependability in confined, hazardous environments. The Tunnel Rat II incorporated a more dependable power source and improved electronics, though it remained otherwise identical to the original in both capability and configuration.</p>
+</overview>
 
 <deployment>
 <p>The Industrial Drill configuration saw the heaviest day-to-day use in commercial mining operations. Operators wearing this configuration worked tunnel faces and extraction points, boring through rock with the mounted drill while using the off-hand manipulator to clear debris and manage tools.</p>
@@ -152,4 +128,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+1
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+0
+</weightclass>
 

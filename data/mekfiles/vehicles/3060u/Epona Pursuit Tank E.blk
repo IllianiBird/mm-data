@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.51.00-nightly-2026-05-01 on 2026-05-02
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e4df-74e1-9b9a-bde3711c7391
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ E
 <year>
 3070
 </year>
-
-<originalBuildYear>
-3070
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -122,18 +122,6 @@ CLAPGaussRifle:OMNI
 CLAPGaussRifle:OMNI
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
 <slotless_equipment>
 CLCASE
 CLCASE
@@ -183,6 +171,10 @@ TARGETING:Series XL FWS
 TR:3060
 </source>
 
+<published>
+RS:3060u
+</published>
+
 <tonnage>
 50.0
 </tonnage>
@@ -190,5 +182,4 @@ TR:3060
 <baseChassisTurretWeight>
 1.0
 </baseChassisTurretWeight>
-
 

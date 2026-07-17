@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a346-7e3d-951b-60bbb2c1b4a0
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Sylph Battle Armor
 <year>
 3060
 </year>
-
-<originalBuildYear>
-3060
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -84,40 +84,15 @@ BABattleClaw:LA
 
 <slotless_equipment>
 BAVTOL
-BA-Micro Bomb Ammo:Shots1#
 </slotless_equipment>
-<source>
-TR:3058U
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-5
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Sylph is a light Clan battle armor suit developed by Clan Cloud Cobra as the first fully airborne infantry design in known space. Fielded in 3060, the suit was conceived to extend the Cloud Cobras' aerospace dominance into the battle armor domain, giving their touman an infantry capability no other Clan possessed. The Sylph's VTOL-capable propulsion system allows sustained flight at speeds exceeding fifty kilometers per hour, though this mobility comes at the cost of reduced armor protection and a limited weapon payload. The design earned its operators a level of respect typically reserved for fighter pilots within Clan Cloud Cobra's warrior caste.</p>
-</overview>
 
 <capabilities>
 <p>The Sylph mounts a fixed micro pulse laser in the right arm and a battle claw in the left, providing both ranged firepower and the ability to engage in anti-BattleMech swarming attacks or ride OmniMechs into combat. A single-use cluster bomb rack attached to the jump pack supplements this armament with a burst of area-effect ordnance. The suit's defining feature is its advanced VTOL propulsion system, adapted from standard battle armor jump jets. Computer-controlled directional exhaust ports regulate hovering and provide exceptional agility in flight, though pilots must manage a complex pedal and leg harness system to maintain stability. Any lapse in concentration risks an unrecoverable death spiral. The price of flight is significant: the Sylph carries roughly half the armor protection of an Elemental suit and a comparatively light weapons package, making it vulnerable in direct engagements against heavier battle armor.</p>
 </capabilities>
+
+<overview>
+<p>The Sylph is a light Clan battle armor suit developed by Clan Cloud Cobra as the first fully airborne infantry design in known space. Fielded in 3060, the suit was conceived to extend the Cloud Cobras' aerospace dominance into the battle armor domain, giving their touman an infantry capability no other Clan possessed. The Sylph's VTOL-capable propulsion system allows sustained flight at speeds exceeding fifty kilometers per hour, though this mobility comes at the cost of reduced armor protection and a limited weapon payload. The design earned its operators a level of respect typically reserved for fighter pilots within Clan Cloud Cobra's warrior caste.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere militaries that obtained captured or traded Sylph suits organized their troopers into standard four-member squads. The rarity of the design outside Clan space limited these deployments to small-scale evaluation units, often attached to specialized reconnaissance formations testing Clan battle armor integration with conventional infantry doctrine.</p>
@@ -150,4 +125,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+5
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

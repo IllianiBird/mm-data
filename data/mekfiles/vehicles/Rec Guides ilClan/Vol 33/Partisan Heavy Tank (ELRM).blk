@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ea43-7c29-bb29-e795dca7f328
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Partisan Heavy Tank
 <year>
 3106
 </year>
-
-<originalBuildYear>
-3106
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,29 +119,13 @@ Extended LRM 10
 Extended LRM 10
 </Turret Equipment>
 
-
-
-
-<source>
-RG33
-</source>
-
-<published>
-RG33
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 17:12:16
-<overview>
-<p>The Partisan Heavy Tank entered service in 2791, one of the earliest dedicated anti-aircraft combat vehicles in the Inner Sphere. Designed by Kallon Industries to fill a critical gap in ground-based air defense, the Partisan was conceived as an affordable alternative to expensive BattleMech-mounted anti-aircraft systems. Kallon, already famous for its anti-aircraft oriented BattleMech designs, brought that expertise to a tracked vehicle platform accessible to militia and garrison commands across the Successor States. Production was established at multiple Kallon facilities in the Federated Suns and the Free Worlds League, ensuring broad availability during the darkest years of the Succession Wars. Though slow, lightly armored, and limited in endurance, the Partisan earned widespread respect for its reliable and effective anti-aircraft fire. Few vehicles in the Inner Sphere have proven as enduring or as universally deployed in the air defense role.</p>
-</overview>
-
 <capabilities>
 <p>The Partisan's defining asset is its AntiAir Flak Systems-1 targeting and tracking system, capable of simultaneously tracking up to two hundred airborne targets and computing optimal engagement solutions. This system can be linked across multiple Partisans in a unit, creating a networked air defense web far more effective than any single vehicle. The targeting controls are removable, allowing crews to operate from a safer position up to twenty meters away from the vehicle.</p><p>The main armament consists of four turret-mounted Flak Autocannon/5s loaded with airbursting ammunition optimized for destroying aircraft, though they remain effective in direct fire roles against ground targets. Twin machine guns provide defense against infantry. A GM SuperLoad 240 internal combustion engine propels the eighty-ton vehicle at a modest 54 km/h, while only six tons of StarSlab/7 standard armor leave it vulnerable to concentrated fire. Ammunition endurance is a persistent concern, with the quad autocannons capable of exhausting their supply in minutes of sustained combat. These limitations are manageable because the Partisan typically operates from rearward positions, screening supply depots, command posts, and artillery batteries rather than engaging on the front lines.</p>
 </capabilities>
+
+<overview>
+<p>The Partisan Heavy Tank entered service in 2791, one of the earliest dedicated anti-aircraft combat vehicles in the Inner Sphere. Designed by Kallon Industries to fill a critical gap in ground-based air defense, the Partisan was conceived as an affordable alternative to expensive BattleMech-mounted anti-aircraft systems. Kallon, already famous for its anti-aircraft oriented BattleMech designs, brought that expertise to a tracked vehicle platform accessible to militia and garrison commands across the Successor States. Production was established at multiple Kallon facilities in the Federated Suns and the Free Worlds League, ensuring broad availability during the darkest years of the Succession Wars. Though slow, lightly armored, and limited in endurance, the Partisan earned widespread respect for its reliable and effective anti-aircraft fire. Few vehicles in the Inner Sphere have proven as enduring or as universally deployed in the air defense role.</p>
+</overview>
 
 <deployment>
 <p>The extended-range LRM variant addresses the enduring demand for long-range indirect fire from the Partisan platform. Four ELRM-10 launchers provide standoff capability well beyond that of any previous Partisan variant, making it a valued asset for commands defending large installations or open terrain.</p>
@@ -174,4 +158,16 @@ ARMOR:Valiant Plate Heavy Ferro-Fibrous
 COMMUNICATIONS:Secure Net with C3
 TARGETING:Sure-Shot
 </systemModels>
+
+<source>
+RG33
+</source>
+
+<published>
+RG33
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

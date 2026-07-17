@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a74f-73b0-a9f0-f84988cd02b0
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Simian Battle Armor
 <year>
 3135
 </year>
-
-<originalBuildYear>
-3135
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -93,42 +93,14 @@ BASearchlight:Body
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:RotS,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-7
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Simian is a medium-class Inner Sphere battle armor designed for mass production and easy maintenance. Conceived under a Republic of the Sphere program to reduce the rising cost of powered infantry, the suit prioritizes affordability and field serviceability over technological sophistication. Rhodes Foundry of Devil's Rock brought the design into production in 3135, creating a general-purpose combat suit built entirely from standard Inner Sphere components. Jump-capable and equipped with magnetic claws for anti-vehicle operations, the Simian fills a skirmisher role, relying on speed and agility rather than heavy armor to protect its operators. A modular weapon mount allows field-level customization of the primary armament.</p>
-</overview>
 
 <capabilities>
 <p>This configuration replaces the standard weapon with a Flamer on the modular mount, trading ranged precision for area-denial and anti-infantry capability. The flamer proves devastating in confined spaces and against unarmored targets, making this loadout well suited to urban clearance and building-to-building fighting. Magnetic claws on both arms provide melee capability and allow troopers to conduct swarming attacks against larger targets. A searchlight is also fitted.</p><p>Weighing one thousand kilograms with 350 kilograms of standard armor, the suit maintains the medium weight classification shared across all Simian configurations. The armor provides adequate protection against small arms fire but cannot absorb hits from dedicated anti-armor weapons. Above-average ground speed and a 90-meter jump range give troopers the mobility to close rapidly with targets, which complements the flamer's short effective range. This variant sees frequent use in close-assault roles where the combination of fire, speed, and magnetic claws overwhelms defenders.</p>
 </capabilities>
+
+<overview>
+<p>The Simian is a medium-class Inner Sphere battle armor designed for mass production and easy maintenance. Conceived under a Republic of the Sphere program to reduce the rising cost of powered infantry, the suit prioritizes affordability and field serviceability over technological sophistication. Rhodes Foundry of Devil's Rock brought the design into production in 3135, creating a general-purpose combat suit built entirely from standard Inner Sphere components. Jump-capable and equipped with magnetic claws for anti-vehicle operations, the Simian fills a skirmisher role, relying on speed and agility rather than heavy armor to protect its operators. A modular weapon mount allows field-level customization of the primary armament.</p>
+</overview>
 
 <deployment>
 <p>Clan Points outfitted with the flamer variant employed them in antipersonnel and area-denial roles during garrison duty and second-line operations. The five-trooper formation provided sufficient coverage to control chokepoints and deny terrain to enemy infantry. Clan commanders valued the flamer Point for pacification duties where collateral damage was considered an acceptable cost.</p>
@@ -163,4 +135,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:RotS,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+7
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

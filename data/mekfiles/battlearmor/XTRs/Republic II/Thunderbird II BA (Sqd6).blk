@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a995-7707-b436-9bf8149da720
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Thunderbird II Battle Armor
 <year>
 3133
 </year>
-
-<originalBuildYear>
-3133
-</originalBuildYear>
 
 <type>
 Mixed (Clan Chassis) Advanced
@@ -98,38 +98,14 @@ ISDetachableWeaponPack:RA
 
 <Trooper 6 Equipment>
 </Trooper 6 Equipment>
-<source>
-XTR:RotS 2
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Thunderbird II is a mixed-technology heavy battle armor produced at Wayne Station on Shitara for the Republic Armed Forces. Developed beginning in 3133 through collaboration between Clan Nova Cat expatriate scientists and local industrial partners, the suit evolved from the original Thunderbird design to meet Republic doctrinal requirements. The Thunderbird II integrates an Inner Sphere C3 battle computer with Clan-derived construction techniques, creating a networked fire support platform optimized for coordinated engagements.</p>
-</overview>
 
 <capabilities>
 <p>The Thunderbird II replaces the original's modular weapon mount with fixed detachable weapon packs in each arm. The right arm carries a battle armor LB-X autocannon with ten rounds, while the left mounts an AP Gauss rifle with twenty rounds of ammunition. Both weapons attach via detachable packs, allowing field replacement of damaged or depleted armament. Reflective armor provides 300 kilograms of protection with strong energy weapon resistance. The defining feature is an integrated Inner Sphere battle armor C3 system, enabling networked targeting data sharing across the formation. Integration of the C3 system required substantial redesign to accommodate the technology within the suit's Clan-derived electronics. Basic manipulators replace the vibro-claw, and the suit lacks jump capability, relying solely on ground movement. The dual-weapon, networked configuration makes the Thunderbird II a potent fire support platform at the cost of mobility.</p>
 </capabilities>
+
+<overview>
+<p>The Thunderbird II is a mixed-technology heavy battle armor produced at Wayne Station on Shitara for the Republic Armed Forces. Developed beginning in 3133 through collaboration between Clan Nova Cat expatriate scientists and local industrial partners, the suit evolved from the original Thunderbird design to meet Republic doctrinal requirements. The Thunderbird II integrates an Inner Sphere C3 battle computer with Clan-derived construction techniques, creating a networked fire support platform optimized for coordinated engagements.</p>
+</overview>
 
 <deployment>
 <p>Republic Armed Forces Level I formations equipped with the Thunderbird II exploited the C3 system's full networking potential across six-trooper teams. The larger formation size maximized the number of sensors feeding the C3 network, making Level I deployments particularly effective in coordinated fire missions.</p>
@@ -162,4 +138,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+XTR:RotS 2
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

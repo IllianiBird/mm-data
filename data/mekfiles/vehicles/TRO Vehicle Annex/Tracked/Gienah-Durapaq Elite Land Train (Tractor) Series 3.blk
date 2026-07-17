@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eaf1-7d35-86c5-5791aa3d7f1b
+</UUID>
+
 <UnitType>
 LargeSupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Gienah-Durapaq Elite Land Train
 <year>
 2899
 </year>
-
-<originalBuildYear>
-2899
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -128,26 +128,13 @@ Lift Hoist/Arresting Hoist
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-200.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-07 11:22:50
-<overview>
-<p>The Gienah-DuraPaq Elite Series 3 is a heavy tracked land train tractor produced through a joint venture between Lyran Commonwealth-based Gienah Automotive and Free Worlds League foodstuffs manufacturer DuraPaq Solutions. First produced in 2899, the Elite Series 3 was designed to address a fundamental logistical challenge on colony worlds and undeveloped planets: the need to move large quantities of cargo across vast distances where roads, railways, and waterways do not exist. Capable of hauling a convoy of tracked trailer modules, the tractor became one of the most commercially successful civilian ground transport platforms in the Inner Sphere, achieving market dominance that competitors from House Davion and House Kurita have found difficult to challenge. Its reputation for sustained reliability in harsh operating conditions cemented the design's position for over a century after its introduction.</p>
-</overview>
-
 <capabilities>
 <p>The Elite Series 3 tractor is built around a tractor chassis modification enabling it to pull multiple trailer modules across difficult terrain. The 200-ton vehicle is powered by a fusion engine, providing effectively unlimited operational range compared to conventional fuel-burning alternatives. Cruise speed is modest at 30 km/h, with a maximum of 50 km/h. These figures reflect a design philosophy that prioritizes sustained long-haul capacity and durability over transit speed. The trade-off is significant: the Elite Series 3 is not a rapid-response transport, and any mission requiring time-sensitive delivery across hostile terrain will quickly expose its limitations.</p><p>The tractor's crew complement of three enlisted personnel operates and maintains the vehicle. Crew quarters for four and a four-person medical bay are built into the cab, supporting the extended overland journeys these vehicles routinely undertake. A three-ton integrated lift hoist handles loading and securing cargo into the trailer modules. Six tons of BAR 6 commercial armor provides basic protection against wilderness hazards and minor criminal threats. The tractor carries no weapons, a deliberate choice that keeps the design focused on cargo capacity but leaves it dependent on escorts in any environment where organized threats are likely.</p>
 </capabilities>
+
+<overview>
+<p>The Gienah-DuraPaq Elite Series 3 is a heavy tracked land train tractor produced through a joint venture between Lyran Commonwealth-based Gienah Automotive and Free Worlds League foodstuffs manufacturer DuraPaq Solutions. First produced in 2899, the Elite Series 3 was designed to address a fundamental logistical challenge on colony worlds and undeveloped planets: the need to move large quantities of cargo across vast distances where roads, railways, and waterways do not exist. Capable of hauling a convoy of tracked trailer modules, the tractor became one of the most commercially successful civilian ground transport platforms in the Inner Sphere, achieving market dominance that competitors from House Davion and House Kurita have found difficult to challenge. Its reputation for sustained reliability in harsh operating conditions cemented the design's position for over a century after its introduction.</p>
+</overview>
 
 <deployment>
 <p>The Elite Series 3 tractor operates across a wide range of civilian freight routes, primarily on colony worlds and underdeveloped planets where conventional transportation infrastructure is absent or impractical. Configured with crew quarters and a medical bay as standard, it serves long-haul overland missions spanning hundreds of kilometers between frontier settlements. The design is marketed and sold across both Lyran and League space, and is found in smaller numbers throughout the wider Inner Sphere. Dozens of derivative configurations exist across multiple worlds and regional manufacturers, though the Gienah-DuraPaq lines on Gienah remain the recognized standard for quality and reliability.</p>
@@ -180,4 +167,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+200.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb8b-70e8-877b-15354dc10ae1
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Simca Ambulance
 <year>
 2607
 </year>
-
-<originalBuildYear>
-2607
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -115,30 +115,13 @@ Paramedic Equipment
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-2.5
-</tonnage>
-
-<fuel>
-0.042
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-11 12:59:54
-<overview>
-<p>The Simca ambulance is a lightweight wheeled support vehicle introduced during the early Star League period, designed to provide rapid pre-hospital emergency medical care and patient transport for communities throughout the Inner Sphere. The vehicle's design philosophy emphasizes speed and patient capacity over protection, reflecting the expectation that ambulances operate in relatively secure environments. At 2.5 tons, it is one of the smaller wheeled support vehicles in common use, optimized for maneuvering through the streets and corridors of inhabited areas. The Simca has been a fixture of Inner Sphere civilian infrastructure since its introduction in 2607, and vehicles of its type are encountered on virtually every inhabited world regardless of faction or political status.</p>
-</overview>
-
 <capabilities>
 <p>The Simca is a small-class wheeled vehicle propelled by an internal combustion engine to a cruise speed of 75 km/h, achieving a top speed of approximately 118 km/h. It mounts no weapons and carries only minimal barrier armor rated at BAR 2, providing negligible protection against anything beyond environmental hazards. Its medical capability is carried in four sets of paramedic equipment providing life support, diagnostic, and stabilization capability for patients in transit. Six passenger seats allow the vehicle to carry a driver alongside two paramedics and up to five patients, though the practical patient capacity in a trauma scenario is typically limited by the need for stretcher space.</p><p>A siren and strobe lighting package is standard, allowing the vehicle to signal priority transit in populated areas. Cargo capacity of 136 kg accommodates supplemental medical supplies, specialized tools, and consumables. Rear bay doors facilitate rapid loading and unloading of patients. A petrochemical fuel supply provides 845 km of operating range, sufficient to cover regional response areas on most inhabited worlds. The vehicle's key limitation is its near-total lack of protection, making it entirely dependent on operating in environments where emergency vehicles are recognized and respected.</p>
 </capabilities>
+
+<overview>
+<p>The Simca ambulance is a lightweight wheeled support vehicle introduced during the early Star League period, designed to provide rapid pre-hospital emergency medical care and patient transport for communities throughout the Inner Sphere. The vehicle's design philosophy emphasizes speed and patient capacity over protection, reflecting the expectation that ambulances operate in relatively secure environments. At 2.5 tons, it is one of the smaller wheeled support vehicles in common use, optimized for maneuvering through the streets and corridors of inhabited areas. The Simca has been a fixture of Inner Sphere civilian infrastructure since its introduction in 2607, and vehicles of its type are encountered on virtually every inhabited world regardless of faction or political status.</p>
+</overview>
 
 <deployment>
 <p>The Simca ambulance is deployed universally in civilian emergency medical services across the Inner Sphere. It serves in urban emergency response networks, rural community medical programs, industrial facility first-response teams, and military garrison medical support roles where full field hospital equipment is not required. Its compact size and high top speed make it well-suited to initial response and patient transport in densely populated areas. The Simca is not equipped for frontline medical operations and is not expected to function in active combat environments. Military organizations typically employ this vehicle type in rear-area support and base medical functions rather than in forward combat zones.</p>
@@ -171,4 +154,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+2.5
+</tonnage>
+
+<fuel>
+0.042
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

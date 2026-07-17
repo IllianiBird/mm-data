@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7f1-70b7-b42f-c2251834d8a9
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Sheriff Infantry Support Tank
 <year>
 3098
 </year>
-
-<originalBuildYear>
-3098
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -113,33 +113,13 @@ Light Auto Cannon/5
 Light Auto Cannon/5
 </Turret Equipment>
 
-<slotless_equipment>
-ISBPodAmmo
-ISBPodAmmo
-ISBPodAmmo
-ISBPodAmmo
-</slotless_equipment>
-
-<source>
-TR:3145:CC,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 14:27:05
-<overview>
-<p>The Sheriff Infantry Support Tank entered service with the Magistracy of Canopus in 3098, produced by Majesty Metals and Manufacturing at their Dunianshire plant. Designed to provide armored mobile cover for infantry advancing into contested chokepoints, the Sheriff quickly found a broader role across the Capellan Confederation and its allies. Its combination of heavy protective plating, competitive road speed, and an integrated B-Pod countermeasure suite made it attractive not only to frontline combined-arms formations but to planetary militias, constabulary forces, and private security outfits. By the mid-thirty-second century, the Sheriff had become a fixture along the Periphery-border frontier zone and across the inner territories of the Confederation, valued for its reliability and the consistent deterrent effect its armored presence provides against dismounted opponents.</p>
-</overview>
-
 <capabilities>
 <p>The Sheriff's offensive output comes from a pair of Pontiac Ultralight Light Class 5 Autocannons, positioned to provide overlapping fields of fire across the vehicle's front arc. Experienced crews alternate the ammunition feeds between standard and armor-piercing rounds, adapting to targets as the engagement shifts. The autocannons offer consistent cycling rates and ammunition flexibility without complicating the vehicle's logistics footprint, a deliberate choice for a design meant to operate alongside light infantry formations far from depot support.</p><p>Four Niu Tou B-Pods provide the Sheriff's most distinctive defensive feature. Infantry that attempt to swarm the vehicle or disable it at close range encounter these countermeasures with predictably unpleasant results. The reputation alone keeps most dismounted opponents at a cautious distance. The StarSlab/7 Heavy Ferro-Fibrous armor, backed by CASE to contain any ammunition cook-off, gives the Sheriff substantially more protection than its medium weight classification would suggest. The Magna 95 Fuel Cell plant delivers a maximum speed of 86 kilometers per hour, allowing the vehicle to accompany most motorized infantry formations and stay ahead of dismounted threats even on poor roads.</p><p>The Sheriff's primary limitation is its modest anti-armor reach. The paired autocannons struggle against heavier vehicles at extended range, and the design carries no weapons capable of reliably threatening a BattleMech at standoff distance. Commanders who deploy the Sheriff without dedicated anti-armor support accept real risk whenever enemy armor or 'Mechs enter the engagement. The fuel cell powerplant, while reliable and logistically simple, limits the vehicle's ability to power energy-intensive upgrades should future variants attempt to address this shortcoming.</p>
 </capabilities>
+
+<overview>
+<p>The Sheriff Infantry Support Tank entered service with the Magistracy of Canopus in 3098, produced by Majesty Metals and Manufacturing at their Dunianshire plant. Designed to provide armored mobile cover for infantry advancing into contested chokepoints, the Sheriff quickly found a broader role across the Capellan Confederation and its allies. Its combination of heavy protective plating, competitive road speed, and an integrated B-Pod countermeasure suite made it attractive not only to frontline combined-arms formations but to planetary militias, constabulary forces, and private security outfits. By the mid-thirty-second century, the Sheriff had become a fixture along the Periphery-border frontier zone and across the inner territories of the Confederation, valued for its reliability and the consistent deterrent effect its armored presence provides against dismounted opponents.</p>
+</overview>
 
 <deployment>
 <p>The Sheriff serves in its standard configuration throughout Magistracy of Canopus and Capellan Confederation ground forces, operating most commonly as infantry escort and security vehicle at the company and battalion level. Militia formations on Confederation border worlds maintain small numbers of Sheriffs for anti-piracy patrols and convoy protection. The design has spread to private security forces, constabulary units, and minor Periphery states within trade range of Dunianshire. It is rarely deployed as a primary armored asset against other vehicles or BattleMechs, but finds consistent employment wherever infantry require mobile armored cover and rapid response capability against dismounted threats.</p>
@@ -172,4 +152,16 @@ ARMOR:StarSlab/7 Heavy Ferro-Fibrous
 COMMUNICATIONS:65
 TARGETING:911
 </systemModels>
+
+<source>
+TR:3145:CC,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb84-7391-9229-28fc3cc437ef
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Prairie Schooner Module
 <year>
 3058
 </year>
-
-<originalBuildYear>
-3058
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -113,30 +113,13 @@ ISOffRoadChassis
 4
 </engine_tech_rating>
 
-<source>
-TR:VAr,TP:Irian
-</source>
-
-<published>
-TR:VAr,TP:Irian
-</published>
-
-<tonnage>
-30.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-10 13:20:13
-<overview>
-<p>The Prairie Schooner Module is the standardized trailer component of the Johnston Industries Prairie Schooner Land Train system, designed to be towed by the Prairie Schooner tractor. Introduced alongside the tractor in 3058, each thirty-ton module connects to the tractor or to other modules in train sequences of up to three units. Modules are available in multiple configurations, including standard cargo, refrigerated, liquid container, passenger transport, and livestock variants. The Module's passive, interchangeable design is the foundation of the land train system's commercial versatility, multiplying hauling capacity without proportionally increasing operating costs beyond the investment in the tractor itself.</p>
-</overview>
-
 <capabilities>
 <p>The Prairie Schooner Module uses a trailer chassis with off-road suspension and wide-profile tires that match the tractor's cross-country capability. The module has no independent propulsion, relying entirely on the tractor for movement. This simplicity makes it inexpensive to maintain and straightforward to repair in the field with basic tooling.</p><p>Each standard module carries 22.5 tons of cargo in a main bay with two side access doors, one on the left and one on the right. This slightly larger capacity compared to the tractor's own bay, combined with the ability to chain three modules together, allows a fully loaded Prairie Schooner train to move well over 80 tons of goods in a single run. The standard configuration is a warm hold suited to general dry freight, though operators routinely specify refrigerated, liquid, passenger, or livestock configurations at the time of purchase.</p><p>Two and a half tons of light composite armor protect the module against the minor hazards of frontier operations. As with the tractor, the module carries no weapons from the factory. Customers on hostile worlds occasionally add turret blisters with light anti-infantry or area suppression weapons. The module's main operational limitation is its complete dependence on the tractor, as a disconnected module has no ability to reposition and becomes a fixed, vulnerable point.</p>
 </capabilities>
+
+<overview>
+<p>The Prairie Schooner Module is the standardized trailer component of the Johnston Industries Prairie Schooner Land Train system, designed to be towed by the Prairie Schooner tractor. Introduced alongside the tractor in 3058, each thirty-ton module connects to the tractor or to other modules in train sequences of up to three units. Modules are available in multiple configurations, including standard cargo, refrigerated, liquid container, passenger transport, and livestock variants. The Module's passive, interchangeable design is the foundation of the land train system's commercial versatility, multiplying hauling capacity without proportionally increasing operating costs beyond the investment in the tractor itself.</p>
+</overview>
 
 <deployment>
 <p>Prairie Schooner Modules operate wherever the tractor is found, predominantly on frontier and underdeveloped worlds throughout the Capellan March and beyond. Standard cargo modules are the most common configuration in day-to-day use. Refrigerated and liquid variants are especially prevalent on agricultural worlds where perishable goods supply chains are critical to local economies.</p><p>Passenger modules serve colony transit and evacuation roles across isolated communities. In military logistics applications, modules carry ammunition, medical supplies, and general freight in rear-area support columns. On particularly hostile worlds, operators mount light weapons on module chassis for wildlife deterrence.</p>
@@ -167,4 +150,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr,TP:Irian
+</source>
+
+<published>
+TR:VAr,TP:Irian
+</published>
+
+<tonnage>
+30.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e52f-7dcc-97a9-ae5dd10782de
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Mars Assault Vehicle
 <year>
 3075
 </year>
-
-<originalBuildYear>
-3075
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -122,26 +122,13 @@ CLAPGaussRifle
 CLAPGaussRifle
 </Turret Equipment>
 
-<source>
-TR:3060
-</source>
-
-<published>
-RS:3060u
-</published>
-
-<tonnage>
-100.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Mars Assault Vehicle is one of the most formidable combat vehicles the Clans field. Developed in the 2840s as part of ilKhan Jerome Winson's pro-vehicle initiative, it entered service in 2871 and quickly became a fixture in Clan garrison clusters across the Homeworlds. Named for the Roman god of war, the Mars is a hundred-ton tracked assault vehicle designed to fill the same battlefield role as the heaviest BattleMechs without the extensive training demands of a MechWarrior crew. Clan Hell's Horses, whose enthusiasm for conventional forces is well documented, maintained the most consistent production record and pioneered several variant configurations. The vehicle's combination of heavy armor, a potent ECM suite, and a large-bore weapons array has kept it relevant across multiple eras of Clan warfare.</p>
-</overview>
-
 <capabilities>
 <p>The Mars mounts eleven and a half tons of Compound Zeta ferro-fibrous armor, enough to absorb punishment from all but the heaviest weapons. An ECM Suite degrades enemy electronics within range, complicating targeting solutions for opposing units and partially compensating for the vehicle's limited mobility. These defensive advantages come at a price. A Fusion 200 power plant limits the Mars to a top speed of 32 km/h, making it dependent on terrain and friendly screening forces to avoid being outflanked by faster opponents.</p><p>The weapons array is designed for long-range engagement. A CRG Gauss Rifle and Series 7N Extended Range Large Laser occupy the turret, providing accurate fire at distances where most opponents cannot effectively retaliate. A Type KOV LB-10X Autocannon adds versatility, particularly against aircraft and lightly armored vehicles using cluster munitions. Three Type XV Crossbow LRM-15 launchers, each slaved to an Artemis IV fire control system, deliver sustained indirect fire with improved hit probability. Two Pattern J6c Streak SRM-6 launchers protect the flanks against close-range threats, ensuring that opponents cannot simply maneuver around the main weapons to exploit weaknesses. A pair of Series IX machine guns handles unarmored infantry. The weapons array consumes more than half the vehicle's mass, leaving crew survivability dependent on armor and ECM rather than the ability to disengage.</p>
 </capabilities>
+
+<overview>
+<p>The Mars Assault Vehicle is one of the most formidable combat vehicles the Clans field. Developed in the 2840s as part of ilKhan Jerome Winson's pro-vehicle initiative, it entered service in 2871 and quickly became a fixture in Clan garrison clusters across the Homeworlds. Named for the Roman god of war, the Mars is a hundred-ton tracked assault vehicle designed to fill the same battlefield role as the heaviest BattleMechs without the extensive training demands of a MechWarrior crew. Clan Hell's Horses, whose enthusiasm for conventional forces is well documented, maintained the most consistent production record and pioneered several variant configurations. The vehicle's combination of heavy armor, a potent ECM suite, and a large-bore weapons array has kept it relevant across multiple eras of Clan warfare.</p>
+</overview>
 
 <deployment>
 <p>The HAG variant entered service during the Jihad as the Rasalhague Dominion sought to stiffen its defenses following the Ice Hellion raids. Produced exclusively at Orestes by Odin Manufacturing, it combines the XL engine's speed improvement with the heaviest armor of any Mars configuration and a Class 30 Hyper-Assault Gauss Rifle capable of inflicting devastating structural damage at range. The Ghost Bears did not share the design freely. Trial or salvage remained the primary means of acquisition outside the Dominion. The HAG remained a Rasalhague Dominion frontline asset through the Dark Age and into the ilClan era, valued for its combination of firepower and survivability.</p>
@@ -174,4 +161,16 @@ ARMOR:Compound Zeta Ferro-Fibrous
 COMMUNICATIONS:Q2 Block 9
 TARGETING:Series XXXII Multitrack IWS
 </systemModels>
+
+<source>
+TR:3060
+</source>
+
+<published>
+RS:3060u
+</published>
+
+<tonnage>
+100.0
+</tonnage>
 

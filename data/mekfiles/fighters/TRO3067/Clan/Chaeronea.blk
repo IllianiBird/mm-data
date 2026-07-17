@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ae79-7107-950b-953dc83e6744
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ Chaeronea
 <year>
 2849
 </year>
-
-<originalBuildYear>
-2849
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -118,34 +118,13 @@ CLERPPC
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3067
-</source>
-
-<published>
-RS:3067u
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Chaeronea is a twenty-five ton Clan light aerospace fighter originally developed by Clan Mongoose as a lighter and faster companion to Clan Snow Raven's Issus. Introduced in 2849 under the original designation Striking Mongoose, the fighter was conceived to complement the Mongoose preference for aerospace-oriented warfare with a craft better suited to their aggressive combat doctrine. Despite its diminutive size, the Chaeronea delivers firepower more commonly associated with medium aerospace fighters. Its combination of speed and striking power has made it a mainstay among Clan toumans, particularly those of resource-conscious Clans that value its simple construction and exclusive reliance on energy weapons.</p>
-</overview>
-
 <capabilities>
 <p>The Chaeronea is built on a Pattern IIA Standard airframe powered by a 225-rated fusion engine, making it one of the fastest light aerospace fighters in Clan service. Three tons of fuel provide good operational endurance for extended patrols and deep reconnaissance missions. The craft's primary armament is a single nose-mounted Series 1B ER PPC, a weapon selection that gives the twenty-five ton fighter striking power rivaling craft nearly twice its size. This potent main gun allows the Chaeronea to engage targets at extreme range before closing for additional passes or breaking off contact entirely.</p><p>Ten double heat sinks manage the considerable thermal load efficiently, allowing near-continuous fire without significant heat buildup. The design's principal weakness is its armor protection, with only three tons of Standard Comp A plating providing minimal coverage. A single well-placed hit from a comparable weapon can cripple the fighter, forcing pilots to rely on speed and range rather than durability. The exclusive use of energy weapons eliminates ammunition dependency entirely, a significant logistical advantage for Clans operating far from established supply lines.</p>
 </capabilities>
+
+<overview>
+<p>The Chaeronea is a twenty-five ton Clan light aerospace fighter originally developed by Clan Mongoose as a lighter and faster companion to Clan Snow Raven's Issus. Introduced in 2849 under the original designation Striking Mongoose, the fighter was conceived to complement the Mongoose preference for aerospace-oriented warfare with a craft better suited to their aggressive combat doctrine. Despite its diminutive size, the Chaeronea delivers firepower more commonly associated with medium aerospace fighters. Its combination of speed and striking power has made it a mainstay among Clan toumans, particularly those of resource-conscious Clans that value its simple construction and exclusive reliance on energy weapons.</p>
+</overview>
 
 <deployment>
 <p>The base Chaeronea serves as a standard interceptor and reconnaissance platform across Clan toumans. Its single ER PPC provides excellent first-strike capability, allowing pilots to deliver punishing fire at extreme range before using superior speed to disengage. The design sees heaviest deployment among resource-poor Clans that value its energy-only weapons and simple maintenance requirements.</p>
@@ -178,4 +157,16 @@ ARMOR:Standard Comp A
 COMMUNICATIONS:Comm IV
 TARGETING:T&T Type 3X
 </systemModels>
+
+<source>
+TR:3067
+</source>
+
+<published>
+RS:3067u
+</published>
+
+<tonnage>
+25.0
+</tonnage>
 

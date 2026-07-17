@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a71f-7fbd-b541-be03e35fd255
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Sloth Battle Armor
 <year>
 3093
 </year>
-
-<originalBuildYear>
-3093
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -89,42 +89,14 @@ ISBAKingDavidLightGaussRifle:Body
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-
-</source>
-
-<published>
-RS:3145-NTNU
-</published>
-
-<chassis>
-quad
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-3
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Sloth was one of the first battle armor designs developed natively by the Inner Sphere. A team at the New Avalon Institute of Science, drawing on captured Clan technology, produced a heavy quadruped suit intended to serve as a mobile weapons platform capable of engaging enemy battle armor directly. Unlike the humanoid designs that would follow, the Sloth adopted a four-legged configuration more commonly associated with combat vehicles than powered infantry. Introduced in 3050 alongside its lighter companion, the Infiltrator, the Sloth earned a mixed reputation among field commanders. Its firepower and protection drew praise, but the unconventional design and its inherent limitations left many formations seeking alternatives as newer suits entered production.</p>
-</overview>
 
 <capabilities>
 <p>The Huntsman refit strips the Sloth to its chassis and rebuilds it as a dedicated battle armor hunter. Two King David light gauss rifles replace all previous armament, providing accurate kinetic fire against armored infantry targets at range. Improved stealth armor replaces the original standard plating, reducing the suit's sensor signature while maintaining protective capability. A mechanical jump booster grants limited vertical mobility, a capability the base Sloth never possessed.</p><p>These upgrades transform the platform from a static weapons emplacement into a mobile ambush predator well-suited to stalking hostile battle armor in broken terrain and urban environments. The quad chassis retains its signature low profile, complementing the stealth systems. The Huntsman still lacks manipulators, but its role as a ranged hunter rather than a close-combat brawler makes this less of a liability.</p>
 </capabilities>
+
+<overview>
+<p>The Sloth was one of the first battle armor designs developed natively by the Inner Sphere. A team at the New Avalon Institute of Science, drawing on captured Clan technology, produced a heavy quadruped suit intended to serve as a mobile weapons platform capable of engaging enemy battle armor directly. Unlike the humanoid designs that would follow, the Sloth adopted a four-legged configuration more commonly associated with combat vehicles than powered infantry. Introduced in 3050 alongside its lighter companion, the Infiltrator, the Sloth earned a mixed reputation among field commanders. Its firepower and protection drew praise, but the unconventional design and its inherent limitations left many formations seeking alternatives as newer suits entered production.</p>
+</overview>
 
 <deployment>
 <p>The Huntsman's Dark Age introduction and limited production made five-trooper Point configurations exceptionally rare. Any Clan formations fielding Huntsman Sloths would draw from salvage or trade, and the suit's specialized anti-battle armor role offered limited appeal to Clan warriors accustomed to more capable Elemental-derived designs. Such Points would represent garrison or second-line expedients rather than deliberate acquisition.</p>
@@ -159,4 +131,28 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<published>
+RS:3145-NTNU
+</published>
+
+<chassis>
+quad
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+3
+</weightclass>
 

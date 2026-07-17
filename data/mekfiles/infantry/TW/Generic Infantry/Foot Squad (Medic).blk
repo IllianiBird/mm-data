@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bfde-77a2-83a8-1bf856ca74fb
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,10 +36,6 @@ Foot Squad
 2500
 </year>
 
-<originalBuildYear>
-2500
-</originalBuildYear>
-
 <type>
 IS Level 3
 </type>
@@ -51,6 +51,9 @@ Generic Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>Medic squads are small infantry elements carrying standard rifles alongside enhanced medical equipment and triage supplies. These squads provide battlefield casualty care and evacuation support to larger formations, treating wounded soldiers under fire and stabilizing casualties for transport to rear-area medical facilities. Their combat capability is limited by the need to carry medical gear in place of heavier weapons.</p>
+</overview>
 
 <source>
 TR:3085
@@ -71,9 +74,4 @@ Rifle (Federated Long)
 <specialization>
 256
 </specialization>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Medic squads are small infantry elements carrying standard rifles alongside enhanced medical equipment and triage supplies. These squads provide battlefield casualty care and evacuation support to larger formations, treating wounded soldiers under fire and stabilizing casualties for transport to rear-area medical facilities. Their combat capability is limited by the need to carry medical gear in place of heavier weapons.</p>
-</overview>
 

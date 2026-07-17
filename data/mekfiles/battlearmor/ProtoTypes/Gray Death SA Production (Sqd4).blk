@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7eb-743f-bfbc-be8a7a9b309a
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Strike Suit
 <year>
 3080
 </year>
-
-<originalBuildYear>
-3080
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -87,42 +87,14 @@ BABasicManipulator:RA
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Strike Suit is a medium battle armor design developed by Gray Death Technologies in the early 3070s. Created to give the Lyran Commonwealth a dedicated fire support battle armor platform, the Strike combined missile armament with target designation capability in a well-armored package that could soften enemy positions before heavier forces closed the distance. The production model entered service in 3080 after a protracted development process that began with a Clan-technology prototype.</p>
-</overview>
 
 <capabilities>
 <p>The production Gray Death Strike Suit mounts a detachable SRM-3 launcher with two reloads as its primary armament, paired with a Light TAG system for designating targets for friendly artillery and semi-guided munitions. Basic Manipulators replace the prototype's Battle Claws, and an Anti-Personnel Weapon Mount handles infantry-scale threats. The launcher can be jettisoned after expenditure, slightly improving the suit's ground speed and allowing the trooper to continue contributing as a forward observer through the TAG system.</p><p>At 1,000 kilograms with 450 kilograms of standard armor, the Strike Suit is a well-protected medium platform. It lacks jump capability entirely, relying on a powerful ground movement system that reaches 32 km/h over open terrain. The absence of jump jets limits the suit's tactical flexibility in rough terrain but simplifies maintenance and reduces the training burden on new troopers. The Strike operates best in a fire support role, softening targets with missiles before heavier forces close the distance.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Strike Suit is a medium battle armor design developed by Gray Death Technologies in the early 3070s. Created to give the Lyran Commonwealth a dedicated fire support battle armor platform, the Strike combined missile armament with target designation capability in a well-armored package that could soften enemy positions before heavier forces closed the distance. The production model entered service in 3080 after a protracted development process that began with a Clan-technology prototype.</p>
+</overview>
 
 <deployment>
 <p>Defiance Industries sold the production Strike Suit exclusively to the Lyran Commonwealth, and LCAF commanders organized them into four-trooper fire support squads. These squads advanced behind scout and assault elements, delivering missile volleys against hardened targets identified by forward observers. After expending their ordnance, troopers shifted to a designation role, guiding friendly artillery and guided munitions onto enemy positions. LCAF units operating along the former Free Worlds League border employed Strike squads extensively in raiding operations.</p>
@@ -155,4 +127,32 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

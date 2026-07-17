@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-e09e-7369-933e-6e29685e0d38
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Super-Griffin
 model:GRF-2N-X
 mul id:5771
@@ -170,7 +171,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-26 19:50:04
 overview:<p>The GRF-2N-X Super Griffin represents the pinnacle (and the limits) of early Succession Wars experimental engineering. Developed in 3020 as part of a New Avalon Institute of Science initiative at the Friden Aerospace Park on Hoff, the Super Griffin was a custom sixty-ton chassis deliberately designed to resemble the lighter production Griffin in order to confuse battlefield observers. The project was paired with a companion Super Wasp effort, and together they represented the Federated Suns' first fully redesigned BattleMechs in four decades. The Super Griffin served as a testbed for two revolutionary prototype technologies: experimental double heat sinks using volatile liquid-metal coolants, and prototype improved jump jets offering unprecedented mobility. Only a single prototype was constructed before its destruction in combat in 3022, making the Super Griffin one of the rarest and most significant experimental designs of the early Succession Wars period</p>
 
 capabilities:<p>The Super Griffin's designers packed ambitious experimental technology into a deceptively familiar package. The chassis mounted a standard PPC in the right arm and an LRM-10 launcher with two tons of ammunition in the right torso, retaining the classic Griffin weapons profile, while adding a medium laser on the left arm and a small laser in the center torso for close-range defense that the standard Griffin lacked. Ten tons of Starshield A armor provided meaningful protection for a design of its weight class.</p> <p>The experimental systems defined the Super Griffin's tactical profile. Prototype improved jump jets granted extraordinary mobility, allowing leaps far beyond what conventional jump-capable 'Mechs could achieve. The experimental freezer double heat sinks used volatile liquid-metal coolants to achieve double the heat dissipation of standard models, though their dangerous composition gave them a notoriously short operational lifespan. The engine was downgraded to a 240-rated Pitban to accommodate these prototype systems, reducing ground speed to sixty-four kilometers per hour, a significant trade-off that made the design reliant on its jump capability for tactical positioning. The prototype jump jets generated extreme heat and were prone to violent explosions when damaged, a critical vulnerability that would ultimately prove fatal for the sole prototype in its first and only combat engagement.</p>
@@ -182,6 +182,8 @@ history:<p>The Super Griffin project began in 3020 at the Friden Aerospace Park 
 manufacturer:NAIS / Friden Aerospace Park
 
 primaryfactory:Hoff
+
+fluffdate:2026-02-26 19:50:04
 
 systemmanufacturer:CHASSIS:Unknown
 systemmanufacturer:ENGINE:Pitban

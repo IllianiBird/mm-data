@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bce9-7fe6-be00-c62b477fd9f1
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Clan Field Artillery
 <year>
 2807
 </year>
-
-<originalBuildYear>
-2807
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -53,6 +53,9 @@ ISThumper
 ISThumperAmmo
 </Field Guns Equipment>
 
+<overview>
+<p>Clan field artillery Points operate indirect-fire weapons for area bombardment and terrain denial at extreme range. Clan crews benefit from superior targeting systems and ammunition quality, achieving tighter shot groupings than most Inner Sphere artillery formations. Within the Touman, artillery assignments carry low prestige but high tactical value, as a well-positioned Point can shape engagements across an entire garrison sector. Forward observers coordinating with Clan communications networks can deliver responsive fire that compensates for the artillery Point fixed emplacement limitations.</p>
+</overview>
 
 <squad_size>
 5
@@ -65,9 +68,4 @@ ISThumperAmmo
 <Primary>
 InfantryAssaultRifle
 </Primary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>Clan field artillery Points operate indirect-fire weapons for area bombardment and terrain denial at extreme range. Clan crews benefit from superior targeting systems and ammunition quality, achieving tighter shot groupings than most Inner Sphere artillery formations. Within the Touman, artillery assignments carry low prestige but high tactical value, as a well-positioned Point can shape engagements across an entire garrison sector. Forward observers coordinating with Clan communications networks can deliver responsive fire that compensates for the artillery Point fixed emplacement limitations.</p>
-</overview>
 

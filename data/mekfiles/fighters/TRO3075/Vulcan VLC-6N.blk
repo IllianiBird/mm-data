@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-af38-7422-a691-d422935ddcd0
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ VLC-6N
 <year>
 2767
 </year>
-
-<originalBuildYear>
-2767
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -124,26 +124,13 @@ IS Gauss Ammo
 IS Gauss Ammo
 </Fuselage Equipment>
 
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-AW
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Vulcan stands as the most celebrated warplane ever fielded by the Rim Worlds Republic. Unable to match the Great Houses in fielding large numbers of BattleMechs, the Republic's leadership made a strategic choice early in the twenty-sixth century: concentrate industrial resources on conventional armor and aerospace power instead. Roe Weapon Systems answered that directive with an 80-ton heavy fighter built around devastating wing-mounted firepower and remarkable atmospheric agility. Introduced in primitive form in 2525 and upgraded to full production standard in 2650, the Vulcan became the centerpiece of Republican aerospace power for more than two centuries.</p><p>Production was centered at Roe Weapon Systems' main facility on Apollo, with additional manufacturing spread across other Republic worlds. The design survived the nation that built it, passing into mercenary service, Periphery fleets, and independent operators who recognized a capable and durable heavy fighter when they saw one.</p>
-</overview>
-
 <capabilities>
 <p>The Vulcan's large delta wing gives the craft handling characteristics more typical of a medium fighter than its 80-ton frame would suggest. In atmospheric combat, this translates to the ability to out-maneuver opponents that expected a heavy fighter to be sluggish, a quality that more than once caught Inner Sphere pilots by surprise. The Olympus 240 power plant drives the Type 698 airframe at competitive thrust ratings while leaving enough internal volume for a substantial weapons load.</p><p>The Vulcan's primary offensive power rests with a pair of Republic Mk. VII Autocannon/10s mounted in the wings. These weapons can punch through the armor of most contemporary designs, and even modern fighters have proven vulnerable to a sustained burst from both guns. A Firefly Type III large laser fitted to the nose in the 2650 upgrade provides reliable supplemental firepower independent of ammunition supply. A Blue Steel SRM-6 launcher and a pair of Firefly Type II medium lasers, one of which covers the aft arc, round out the armament suite.</p><p>The design's most significant tactical liability is its limited ammunition capacity. With only one ton of ammunition per autocannon, pilots who spend freely in early engagement risk exhausting their primary weapons before a fight concludes. Effective Vulcan pilots learn to manage their fire carefully, leaning on the laser armament in extended engagements. Republic UltraWeave armor provides solid protection throughout the airframe, and the design's structural integrity allows it to absorb considerable punishment.</p>
 </capabilities>
+
+<overview>
+<p>The Vulcan stands as the most celebrated warplane ever fielded by the Rim Worlds Republic. Unable to match the Great Houses in fielding large numbers of BattleMechs, the Republic's leadership made a strategic choice early in the twenty-sixth century: concentrate industrial resources on conventional armor and aerospace power instead. Roe Weapon Systems answered that directive with an 80-ton heavy fighter built around devastating wing-mounted firepower and remarkable atmospheric agility. Introduced in primitive form in 2525 and upgraded to full production standard in 2650, the Vulcan became the centerpiece of Republican aerospace power for more than two centuries.</p><p>Production was centered at Roe Weapon Systems' main facility on Apollo, with additional manufacturing spread across other Republic worlds. The design survived the nation that built it, passing into mercenary service, Periphery fleets, and independent operators who recognized a capable and durable heavy fighter when they saw one.</p>
+</overview>
 
 <deployment>
 <p>The VLC-6N arose as a field upgrade developed by RWR forces in the Terran Hegemony following the Republic's collapse in 2767, replacing the wing-mounted autocannons with Gauss rifles and expanded ammunition capacity. The conversion addressed the original design's primary vulnerability in extended engagements by trading heavy kinetic firepower for greater magazine endurance. These converted fighters dispersed widely through mercenary networks after the Succession Wars began, and surviving examples eventually accumulated in enough numbers to warrant organized refit efforts. A revival of the configuration during the Jihad era brought the VLC-6N back to limited active service among independent and mercenary operators who found the modification as relevant in the thirty-first century as it had been in the twenty-eighth.</p>
@@ -178,4 +165,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Tangerine 7a
 TARGETING:XH558 Archer
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-AW
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

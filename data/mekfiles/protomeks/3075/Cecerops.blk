@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0e5-77b2-8870-649d420798da
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Cecerops
 <year>
 3067
 </year>
-
-<originalBuildYear>
-3067
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -116,34 +116,13 @@ CLERMicroLaser
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-3.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Cecerops is a three-ton second-generation ProtoMek designed by Clan Blood Spirit using resources acquired through collaboration with the Snow Ravens. The first ProtoMek fully designed outside the original Smoke Jaguar program, the Cecerops bears a striking resemblance to the sphinx-raptor found on several Clan worlds, with a snakelike body profile and a forward-thrusting head cowl aerodynamically engineered to reduce drag. Among Blood Spirit ProtoMek forces, piloting a Cecerops is considered an extremely high honor, reflecting both the design's demanding performance envelope and its role as a symbol of the beleaguered Clan's determination to maintain military relevance despite dwindling BattleMek resources.</p>
-</overview>
-
 <capabilities>
 <p>Speed is the Cecerops' defining characteristic. A forty-five-rated fusion engine drives the three-ton frame to a cruising speed of ninety-seven kilometers per hour with a flank speed approaching one hundred fifty, allowing it to keep pace with most light BattleMeks and hovercraft. Even at rest, the design appears to be in motion; every line of the chassis is optimized for velocity. A single ER Micro Laser provides ammunition-independent firepower, allowing Cecerops Stars to operate for extended periods without resupply, a critical advantage for the resource-strapped Blood Spirits.</p><p>When operating in packs, the overwhelming and constant barrage of laser fire from a Cecerops Star can intimidate medium Mek pilots and bring down light Meks with proper tactics. Most Cecerops pilots are highly experienced by the time they earn assignment to the design, and the chaotic swirl of a pack hunting in concert deliberately mimics the sphinx-raptor's predatory behavior. Fourteen points of armor provide reasonable protection for the weight class, though sustained fire from heavier weapons will quickly overwhelm the design's defenses. The Cecerops excels in harassment and pursuit roles where its extraordinary speed can be leveraged without exposing it to concentrated return fire.</p>
 </capabilities>
+
+<overview>
+<p>The Cecerops is a three-ton second-generation ProtoMek designed by Clan Blood Spirit using resources acquired through collaboration with the Snow Ravens. The first ProtoMek fully designed outside the original Smoke Jaguar program, the Cecerops bears a striking resemblance to the sphinx-raptor found on several Clan worlds, with a snakelike body profile and a forward-thrusting head cowl aerodynamically engineered to reduce drag. Among Blood Spirit ProtoMek forces, piloting a Cecerops is considered an extremely high honor, reflecting both the design's demanding performance envelope and its role as a symbol of the beleaguered Clan's determination to maintain military relevance despite dwindling BattleMek resources.</p>
+</overview>
 
 <deployment>
 <p>The base Cecerops mounts a single ER Micro Laser in the torso, providing ammunition-independent firepower that allows extended operations without resupply. The forty-five-rated engine dominates the three-ton chassis, producing a cruising speed of ninety-seven kilometers per hour that makes the Cecerops one of the fastest ground combat units in any Clan arsenal. Fourteen points of armor provide adequate protection for the weight class. Without jump jets, the design relies entirely on its extraordinary ground speed to navigate terrain and evade threats. Produced at the Blood Spirit Reserve Industriplex-2 on York, the Cecerops is found predominantly among Blood Spirit forces, with limited numbers shipped to the Snow Ravens before 3071.</p>
@@ -176,4 +155,16 @@ ARMOR:Prosis
 COMMUNICATIONS:Howler
 TARGETING:7
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+3.0
+</tonnage>
 

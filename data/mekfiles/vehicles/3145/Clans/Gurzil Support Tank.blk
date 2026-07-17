@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e79f-7a03-a6b3-a2074bf4f4e1
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Gurzil Support Tank
 <year>
 3126
 </year>
-
-<originalBuildYear>
-3126
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -117,33 +117,13 @@ CLMediumPulseLaser
 CLMediumPulseLaser
 </Turret Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:3145:C,TR:3150
-</source>
-
-<published>
-RS:3150
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-# Fluff Date: 2026-03-07 16:36:16
-<overview>
-<p>The Gurzil represents the Jade Falcons' attempt to field a dual-role fire support platform capable of engaging both armored targets and infantry simultaneously. Designed and produced by Trellshire Heavy Industries on Sudeten, the vehicle entered service in 3126 as the Clan's answer to Inner Sphere support platforms like the JES II, combining long-range missile fire with area-denial bombardment in a single tracked chassis.</p><p>Reception within Jade Falcon toumans has been mixed. Commanders who commit to the Gurzil's intended role, positioning it in prepared fire lanes and coordinating it with forward observers, praise its performance. Many others find its dual mandate dilutes its effectiveness in both roles. Single-role fire support alternatives draw more consistent enthusiasm from cluster commanders, and the Gurzil occupies a utilitarian, if polarizing, position within the Jade Falcon force structure.</p>
-</overview>
-
 <capabilities>
 <p>The Gurzil's principal advantage is its Sea Fox-manufactured Series VI target and tracking system, which offers three preconfigured firing solutions calibrated for short, medium, and long engagement ranges. When a solution is active, the system triples telemetry sampling for all targets within that range bracket, substantially improving accuracy. The corresponding weakness is significant. The sampling rate for targets outside the selected bracket drops sharply, requiring commanders to anticipate engagement distances before contact rather than adapting in real time.</p><p>Primary armament consists of two Type XV Culverin Streak LRM-15 launchers, providing consistent indirect missile suppression and direct fire support. Two Series 14a Medium Pulse Lasers give the vehicle a credible direct-fire option against battle armor and lighter vehicles. Two Type VIII 'Mech Mortar 8s occupy forward hull mounts, delivering area denial and anti-infantry bombardment with access to a range of specialty ammunition types. The five-ton mortar magazine allows twenty salvos, providing meaningful endurance for sustained operations.</p><p>Eighty tons of mass on a tracked chassis gives the Gurzil the durability expected of a fire support vehicle. Twelve and a half tons of Composite Alpha-V1 ferro-lamellor armor provides reasonable protection for a platform expected to operate at the edge of direct-fire range, though a top speed of 64 kph limits its ability to reposition quickly when a position is compromised.</p>
 </capabilities>
+
+<overview>
+<p>The Gurzil represents the Jade Falcons' attempt to field a dual-role fire support platform capable of engaging both armored targets and infantry simultaneously. Designed and produced by Trellshire Heavy Industries on Sudeten, the vehicle entered service in 3126 as the Clan's answer to Inner Sphere support platforms like the JES II, combining long-range missile fire with area-denial bombardment in a single tracked chassis.</p><p>Reception within Jade Falcon toumans has been mixed. Commanders who commit to the Gurzil's intended role, positioning it in prepared fire lanes and coordinating it with forward observers, praise its performance. Many others find its dual mandate dilutes its effectiveness in both roles. Single-role fire support alternatives draw more consistent enthusiasm from cluster commanders, and the Gurzil occupies a utilitarian, if polarizing, position within the Jade Falcon force structure.</p>
+</overview>
 
 <deployment>
 <p>The Gurzil serves primarily in Jade Falcon second-line clusters, assigned in Points of two to five vehicles to supplement combined arms Stars or Trinaries. Commanders who use it effectively deploy it in prepared positions with clear fields of fire and pre-established engagement ranges, allowing the Series VI's firing solutions to function as intended. Defensive operations and terrain-channeled engagements suit the design particularly well.</p><p>Performance against highly mobile opponents or dispersed enemy formations remains a persistent operational criticism. In such environments the inability to adapt quickly between range brackets degrades effectiveness considerably. The Gurzil performs most reliably when paired with Elemental spotters or forward-deployed reconnaissance assets capable of calling targets into the vehicle's established range bracket. As of the ilClan period, it continues to serve in garrison and front-line formations across the Jade Falcon occupation zone.</p>
@@ -176,4 +156,16 @@ ARMOR:Composite Alpha-V1
 COMMUNICATIONS:TJ6 "Bell" Integrated
 TARGETING:Series VI TTS
 </systemModels>
+
+<source>
+TR:3145:C,TR:3150
+</source>
+
+<published>
+RS:3150
+</published>
+
+<tonnage>
+80.0
+</tonnage>
 

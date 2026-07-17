@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ae49-7a48-8450-bff42e232025
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ X
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 Clan Level 4
@@ -142,31 +142,13 @@ Coolant Pod:OMNI
 CLCASE
 </Fuselage Equipment>
 
-
-
-
-
-
-<source>
-TR:3055U
-</source>
-
-<published>
-RS:3055Uu
-</published>
-
-<tonnage>
-90.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>When Clan Jade Falcon commanders demanded a super-heavy OmniFighter capable of standing against Clan Ghost Bear's formidable Kirghiz, they turned to Complex VI on Ironhold to deliver an answer. The result, first fielded in 2968, was the Scytha: a 90-ton heavy OmniFighter that traded heavy armor for speed and exceptional weapons payload. By accepting lighter protection than most designs of comparable tonnage, the Scytha offered pilots a weapons variety few aircraft could match. Despite its origins as a Jade Falcon prestige asset, small numbers eventually spread beyond the Falcons, earning a fearsome reputation across Clan aerospace command structures and among the Inner Sphere states that faced the invaders in repeated engagements.</p>
-</overview>
-
 <capabilities>
 <p>The Scytha mounts a 360-rated extralight engine and only fourteen tons of Ironhold Series III ferro-aluminum armor, well below what most designers would consider adequate for a ninety-ton fighter. This deliberate trade-off frees an exceptional 42.5 tons of pod space, giving the Scytha a loadout flexibility few aircraft of any weight class can match. Four tons of fuel and twenty double heat sinks round out the fixed equipment, providing reasonable endurance if not outstanding heat management in energy-intensive configurations.</p><p>The Prime configuration arms the nose with a heavy ultra-class autocannon and large lasers, with paired energy weapons covering the aft arc. The A configuration is a missile boat that sustains fire across multiple ranges using paired long-range launchers and a Narc missile beacon. The B configuration replaces all weapons with five large pulse lasers slaved to an advanced targeting computer, excelling at strafing and space superiority, with an anti-missile system and rear medium pulse lasers rounding out the load. The C configuration favors long-range engagements, pairing Gauss rifles and extended-range particle cannons on each wing. The D configuration blends a Gauss rifle with advanced heavy lasers and extended-range lasers for sustained mixed engagement. The E configuration adds electronic warfare equipment and active probing systems alongside hyper-assault Gauss rifles for Jihad-era operations. The F configuration pairs improved heavy large lasers and a large autocannon with a comprehensive countermeasures suite and targeting computer. The experimental X configuration pushes five improved heavy large lasers to the operational limit, relying on an extensive array of coolant pods to manage the heat burden.</p>
 </capabilities>
+
+<overview>
+<p>When Clan Jade Falcon commanders demanded a super-heavy OmniFighter capable of standing against Clan Ghost Bear's formidable Kirghiz, they turned to Complex VI on Ironhold to deliver an answer. The result, first fielded in 2968, was the Scytha: a 90-ton heavy OmniFighter that traded heavy armor for speed and exceptional weapons payload. By accepting lighter protection than most designs of comparable tonnage, the Scytha offered pilots a weapons variety few aircraft could match. Despite its origins as a Jade Falcon prestige asset, small numbers eventually spread beyond the Falcons, earning a fearsome reputation across Clan aerospace command structures and among the Inner Sphere states that faced the invaders in repeated engagements.</p>
+</overview>
 
 <deployment>
 <p>The X configuration is an experimental loadout built around five improved heavy large lasers. An extensive heat management system and coolant pods make sustained volleys possible, but the configuration functions as a research platform as much as a combat variant. Confirmed sightings are very limited and deployments are typically restricted to controlled evaluation environments or exceptional combat circumstances.</p>
@@ -201,4 +183,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:System VII
 TARGETING:TTS Model 3
 </systemModels>
+
+<source>
+TR:3055U
+</source>
+
+<published>
+RS:3055Uu
+</published>
+
+<tonnage>
+90.0
+</tonnage>
 

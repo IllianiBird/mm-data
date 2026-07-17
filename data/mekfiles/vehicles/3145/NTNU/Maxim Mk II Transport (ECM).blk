@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e844-7e86-9bd4-297880ce4880
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Maxim Mk II Transport
 <year>
 3087
 </year>
-
-<originalBuildYear>
-3087
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -106,29 +106,13 @@ IS Streak SRM 2 Ammo
 ISStreakSRM2
 </Turret Equipment>
 
-
-
-
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-03-09 12:33:56
-<overview>
-<p>The Maxim Mk II Transport is a joint venture between Cyclops Incorporated and Scarborough Manufacturers, developed in the aftermath of the Jihad for the newly formed Republic of the Sphere's Armed Forces. Introduced in 3083, the Mk II was designed from the ground up as a dedicated battle armor carrier, prioritizing troop capacity and survivability over the heavy weaponry that defined its predecessor.</p><p>The design philosophy behind the Mk II is a deliberate departure from the original Maxim's role as a heavily armed combat transport. By minimizing the weapons suite, the Mk II encourages crews to withdraw from dangerous situations rather than engage, extending the vehicle's operational lifespan and reducing replacement costs for the cash-strapped Republic military.</p>
-</overview>
-
 <capabilities>
 <p>The Mk II's spacious sixteen-ton infantry bay is its defining feature, capable of carrying a full platoon of battle armor or an entire company of conventional infantry. Adjustable handholds and equipment hooks line the walls, while storage bins offer space for ammunition, power packs, and other combat essentials. Multifunction fold-down stations accommodate both standard power armor and quad suits, with a quick release system for rapid egress.</p><p>A pair of Helga Series three-tube Multi-Missile Launchers provide the sole offensive armament, mounted in the turret. Though light by Maxim standards, the MML-3s offer tactical flexibility through their ability to fire standard LRM or SRM loads as well as specialty munitions like Thunder LRM mines. Two tons of ammunition stored in a CASE-protected bin ensure the crew and passengers survive any catastrophic detonation. Five and a half tons of ArcShield Heavy ferro-fibrous armor provide above-average protection for the weight class. The PowerTech 165 Highlifter fusion engine maintains the traditional Maxim top speed of 129 kilometers per hour while eliminating the logistical burden of fuel resupply. The primary drawback is the near total reliance on embarked troops for close defense once the infantry has deployed.</p>
 </capabilities>
+
+<overview>
+<p>The Maxim Mk II Transport is a joint venture between Cyclops Incorporated and Scarborough Manufacturers, developed in the aftermath of the Jihad for the newly formed Republic of the Sphere's Armed Forces. Introduced in 3083, the Mk II was designed from the ground up as a dedicated battle armor carrier, prioritizing troop capacity and survivability over the heavy weaponry that defined its predecessor.</p><p>The design philosophy behind the Mk II is a deliberate departure from the original Maxim's role as a heavily armed combat transport. By minimizing the weapons suite, the Mk II encourages crews to withdraw from dangerous situations rather than engage, extending the vehicle's operational lifespan and reducing replacement costs for the cash-strapped Republic military.</p>
+</overview>
 
 <deployment>
 <p>A field refit variant of the Mk II, the ECM configuration downgrades the turret weaponry to a single Streak SRM-2 while installing a Guardian ECM suite. The full sixteen-ton infantry bay is retained, making this variant an effective electronic warfare platform that can still fulfill its primary transport role. The ECM variant is particularly valued in formations operating against opponents with sophisticated targeting networks or semi-guided munitions.</p>
@@ -161,4 +145,16 @@ ARMOR:ArcShield Heavy Ferro-Fibrous
 COMMUNICATIONS:Surelink
 TARGETING:Tracky 3
 </systemModels>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.51.01 on 2026-06-06
+uuid:019f583e-dd20-7c5d-a88c-7c41d30dd490
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Dragon
 model:DRG-5ALAG
 
@@ -53,13 +54,13 @@ RTR armor:8
 RTC armor:12
 
 Weapons:7
-Gauss Rifle, Right Arm
-Medium Laser, Right Torso
-Flamer, Head
-SRM 4, Center Torso
-Medium Laser, Left Torso
 Medium Laser, Left Arm
+Gauss Rifle, Right Arm
 Medium Laser, Left Torso
+Medium Laser, Left Torso
+Medium Laser, Right Torso
+SRM 4, Center Torso
+Flamer, Head
 
 Left Arm:
 Shoulder
@@ -173,15 +174,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-
-
-
-
-
-
-fluffdate:2026-02-21 18:07:19
-
-# Fluff Date: 2026-06-10 16:40:45
 overview:<p>The Dragon was introduced in 2754 during the twilight years of the Star League, designed by Luthien Armor Works as an advanced close assault 'Mech intended to replace the aging Shadow Hawk in SLDF service. Though the design ultimately lost the procurement competition to an upgraded Shadow Hawk variant in what many consider a predetermined contest, the rejection proved fortuitous for the Draconis Combine. LAW pushed the Dragon into full production for the DCMS, where it would become the standard heavy BattleMech for centuries.</p><p>Built around a reliable Vlar 300 fusion engine that propels its sixty tons at 86 kilometers per hour, the Dragon was engineered for sustained independent operations. Its distinctive squat profile and reinforced rear armor reflect its intended role of breaking through enemy formations. Multiple production lines across Luthien and Dieron ensured the Dragon's ubiquity within DCMS forces throughout the Succession Wars.</p>
 
 capabilities:<p>The Dragon fulfills its close assault role through a combination of respectable firepower, surprising speed, and exceptional durability for extended engagements. Its primary armament centers on an Imperator-A Autocannon/5 mounted in the right arm and a Telos DecaCluster LRM-10 launcher integrated into its protruding chest assembly. This combination provides effective standoff capability as the 'Mech closes with its targets. Two Victory 23R medium lasers round out the weapons suite, with one forward-mounted and another rear-facing to discourage pursuit.</p><p>The design philosophy prioritizes sustained combat operations over peak damage output. Forty rounds of autocannon ammunition and a generous missile magazine allow the Dragon to operate independently for extended periods. Ten standard heat sinks prove adequate given the modest thermal demands of its weapons loadout. The ten tons of Starshield armor provide solid protection, particularly around the torso and rear sections. However, the Dragon's most notable characteristic may be its effectiveness in close combat, where MechWarriors frequently employ its reinforced fists and devastating kicks to finish wounded opponents.</p>
@@ -193,6 +185,8 @@ history:<p>The Dragon's combat debut came shortly after its introduction, and th
 manufacturer:Luthien Armor Works
 
 primaryfactory:Dieron
+
+fluffdate:2026-06-10 16:40:45
 
 systemmanufacturer:CHASSIS:Alshain
 systemmode:CHASSIS:Type 56-60H

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e7f7-7f96-b2c1-f669de4f1cb4
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -36,10 +40,6 @@ Bulwark Assault Vehicle
 3068
 </year>
 
-<originalBuildYear>
-3068
-</originalBuildYear>
-
 <type>
 IS Level 2
 </type>
@@ -49,8 +49,8 @@ Sniper
 </role>
 
 <weaponQuirks>
-accurate:FR:0:ISHeavyGaussRifle
 exposed_linkage:FR:0:ISHeavyGaussRifle
+accurate:FR:0:ISHeavyGaussRifle
 </weaponQuirks>
 
 <motion_type>
@@ -111,26 +111,13 @@ ISHeavyGaussRifle
 ISGaussRifle
 </Turret Equipment>
 
-<source>
-TR:3145:FWL,TR:3145
-</source>
-
-<published>
-RS:3145
-</published>
-
-<tonnage>
-85.0
-</tonnage>
-
-# Fluff Date: 2026-03-03 13:33:24
-<overview>
-<p>The Bulwark Assault Vehicle is an eighty-five-ton tracked combat vehicle designed and manufactured by Brooks Incorporated on Kendall for the Free Worlds League. Conceived in 3068 to fill a gap in heavy armor doctrine, the Bulwark pairs devastating long-range direct-fire weapons with exceptional protection to engage and destroy enemy heavy armor formations at distances that keep the vehicle relatively safe from return fire. Production difficulties delayed delivery until 3087, and the design went on to serve with League armor commands and mercenary units across the Inner Sphere. An updated production variant entered service in 3114, incorporating improved weapons and significantly enhanced armor protection, cementing the Bulwark's place as one of the most capable assault vehicles available to Free Worlds League commanders.</p>
-</overview>
-
 <capabilities>
 <p>The Bulwark's primary armament is an Imperator Titan's Wrath Improved Heavy Gauss Rifle, a weapon capable of striking targets at extreme ranges with penetrating power sufficient to threaten even the most heavily armored opponents. A Fusigon Strongtooth Heavy Particle Projection Cannon provides complementary firepower without the ammunition constraints of ballistic weapons, allowing the crew to sustain fire long after Gauss rifle reserves are depleted. Together, these weapons allow the Bulwark to engage targets across nearly every tactical range band from behind prepared positions or in direct support of advancing armor.</p><p>The Durallex Special Heavy Ferro-Fibrous armor provides protection exceeding what most vehicles of comparable weight carry, allowing the Bulwark to absorb multiple direct hits from heavy weapons and remain combat effective. A Strand 340 XL fusion engine provides adequate mobility for a vehicle of its class at a cruising speed of forty-three kilometers per hour, though the Bulwark is not designed for rapid repositioning. Its Maxell 700 communications suite and Maxell TA92 targeting system are solid, dependable equipment well suited to the vehicle's fire support role. The Bulwark's primary tactical weaknesses are its limited ground speed, which makes it dependent on favorable terrain or well-prepared positions, and the logistical demands of keeping its heavy Gauss rifle ammunition supplied in sustained operations.</p>
 </capabilities>
+
+<overview>
+<p>The Bulwark Assault Vehicle is an eighty-five-ton tracked combat vehicle designed and manufactured by Brooks Incorporated on Kendall for the Free Worlds League. Conceived in 3068 to fill a gap in heavy armor doctrine, the Bulwark pairs devastating long-range direct-fire weapons with exceptional protection to engage and destroy enemy heavy armor formations at distances that keep the vehicle relatively safe from return fire. Production difficulties delayed delivery until 3087, and the design went on to serve with League armor commands and mercenary units across the Inner Sphere. An updated production variant entered service in 3114, incorporating improved weapons and significantly enhanced armor protection, cementing the Bulwark's place as one of the most capable assault vehicles available to Free Worlds League commanders.</p>
+</overview>
 
 <deployment>
 <p>The Original Bulwark, manufactured between 3087 and 3114, armed its crew with a first-generation heavy Gauss rifle in the main mount and a turret-mounted Gauss rifle as a secondary weapon, in place of the heavy particle cannon armament found on later production. It lacked the heavy ferro-fibrous armor of subsequent variants, relying on standard protection adequate for a vehicle of its class but inferior to what the 3114 update would provide. These vehicles served primarily in Free Worlds League defensive formations and were progressively withdrawn or cannibalized as the improved production run entered service. It is not unusual to encounter both Bulwark variants in the same unit, as the two are produced by the same company and share the same factory origin.</p>
@@ -165,4 +152,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:700
 TARGETING:TA92
 </systemModels>
+
+<source>
+TR:3145:FWL,TR:3145
+</source>
+
+<published>
+RS:3145
+</published>
+
+<tonnage>
+85.0
+</tonnage>
 

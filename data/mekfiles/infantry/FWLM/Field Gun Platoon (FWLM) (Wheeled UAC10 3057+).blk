@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bc75-72a0-8dc4-5ac63f7570e0
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -31,10 +35,6 @@ Field Gun Platoon (FWLM)
 <year>
 3057
 </year>
-
-<originalBuildYear>
-3057
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -57,7 +57,9 @@ ISUltraAC10
 IS Ultra AC/10 Ammo
 </Field Guns Equipment>
 
-
+<overview>
+<p>New technology and creative tactical thinking have long featured in FWLM infantry deployment, with varied unit types and specialized formations treated as the norm rather than the exception. Towing crew-served Ultra autocannon/10, these platoons bring heavy rapid-fire capability to the field gun role, doubling their rate of fire when the tactical situation demands it at the cost of increased mechanical stress on the weapon.</p>
+</overview>
 
 <notes>
 Intro date based on production date of ultra-class autocannon
@@ -78,9 +80,4 @@ InfantryAssaultRifle
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>New technology and creative tactical thinking have long featured in FWLM infantry deployment, with varied unit types and specialized formations treated as the norm rather than the exception. Towing crew-served Ultra autocannon/10, these platoons bring heavy rapid-fire capability to the field gun role, doubling their rate of fire when the tactical situation demands it at the cost of increased mechanical stress on the weapon.</p>
-</overview>
 

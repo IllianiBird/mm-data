@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e976-7f04-9032-5a2b39a58940
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Skulker Wheeled Scout Tank Mk II
 <year>
 3082
 </year>
-
-<originalBuildYear>
-3082
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -106,33 +106,13 @@ Medium Laser
 <Rear Equipment>
 </Rear Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-20.0
-</tonnage>
-
-# Fluff Date: 2026-03-11 14:27:05
-<overview>
-<p>The Skulker Mk II emerged from a deliberate effort by Joint Equipment Systems to rebuild its commercial standing after years of damage inflicted by the JES I Tactical Missile Carrier. The company's Panpour facility, operating in Federated Suns territory, became the center of a development program that began with the unsuccessful X-5 prototype series and culminated in a production vehicle entering service in 3082. The Mk II retained the original Skulker's mass, crew capacity, and general reconnaissance role, replacing the internal combustion powerplant with a fuel cell engine and substantially upgrading the electronics suite. Angel ECM and a Bloodhound Active Probe gave the design a level of sensor performance and electronic protection that the original could not approach, making the Mk II more capable in contested electronic environments at the cost of some of the fuel flexibility that had made the original Skulker attractive for extended field operations.</p>
-</overview>
-
 <capabilities>
 <p>The Mk II matches its predecessor's speed, cruising at 75 kph and reaching 118 kph at flank. The GM Electric 120 fuel cell replaces the original's internal combustion engine, trading some fuel sourcing flexibility for a cleaner power signature and reduced maintenance complexity. The Intek Hellborer medium laser provides reliable direct-fire capability comparable to the original Skulker's weapon, with the same no-ammunition-dependency advantage for extended operations.</p><p>The electronic suite represents the Mk II's substantial departure from the base design. The Angel ECM system degrades enemy sensor capability and makes the vehicle significantly harder to detect and target. The Bloodhound Active Probe allows detection of concealed and camouflaged targets at ranges beyond standard probe capability, giving the Mk II a meaningful advantage in the reconnaissance contest. Both systems integrate with the Communique Equipment communications platform and the Targeting System 2.3 retained from the original design, maintaining the unified sensor and navigation architecture JES established with the first Skulker.</p><p>The vehicle retains the four-person crew and roomy interior of the base design, preserving the endurance advantage. The shift to a fuel cell narrows fuel sourcing options compared to the original's combustion engine, a practical limitation on extended independent operations. Wheeled mobility limitations inherited from the base chassis apply equally to the Mk II.</p>
 </capabilities>
+
+<overview>
+<p>The Skulker Mk II emerged from a deliberate effort by Joint Equipment Systems to rebuild its commercial standing after years of damage inflicted by the JES I Tactical Missile Carrier. The company's Panpour facility, operating in Federated Suns territory, became the center of a development program that began with the unsuccessful X-5 prototype series and culminated in a production vehicle entering service in 3082. The Mk II retained the original Skulker's mass, crew capacity, and general reconnaissance role, replacing the internal combustion powerplant with a fuel cell engine and substantially upgrading the electronics suite. Angel ECM and a Bloodhound Active Probe gave the design a level of sensor performance and electronic protection that the original could not approach, making the Mk II more capable in contested electronic environments at the cost of some of the fuel flexibility that had made the original Skulker attractive for extended field operations.</p>
+</overview>
 
 <deployment>
 <p>The Skulker Mk II is distributed primarily through AFFS agencies and mercenary commands operating in the Federated Suns, reaching customers through long-term contracts negotiated with JES's Panpour facility. Deployment within AFFS scout elements is described as prolific, suggesting genuine institutional adoption. The Angel ECM and Bloodhound Active Probe combination makes the Mk II the preferred option for reconnaissance in contested electronic environments. Mercenary contracts are creating supply pathways outside the Federated Suns, with distribution to independent commands and other nations expanding as the design establishes its reputation.</p>
@@ -165,4 +145,16 @@ ARMOR:Light
 COMMUNICATIONS:Communique Equipment
 TARGETING:Targeting System 2.3
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+20.0
+</tonnage>
 

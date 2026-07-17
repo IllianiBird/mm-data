@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,8 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-generator:MegaMek Suite 0.50.12 on 2026-02-26
+uuid:019f583e-d395-7293-a311-52ae48421abb
+generator:MegaMek Suite 0.51.01 on 2026-07-12
 chassis:Gambit
 model:GBT-1G
 mul id:6500
@@ -171,7 +172,6 @@ Foot Actuator
 -Empty-
 -Empty-
 
-# Fluff Date: 2026-02-21 18:07:19
 overview:<p>The Gambit is a twenty-five-ton light BattleMech introduced in 3136 by Adam Tech Industries, a startup manufacturer based on Abadan in Free Worlds League space. The second original design from Adam Tech following the Havoc, the Gambit was purpose-built for long-range combat and quickly distinguished itself in the crowded Dark Age BattleMech market. Built around widely available components, the chassis earned a reputation for straightforward maintenance that made it particularly appealing to mercenary commands and independent operators. Produced exclusively at Adam Tech's Abadan facility, the Gambit established itself as a reliable and popular choice among light BattleMech buyers across the Inner Sphere.</p>
 
 capabilities:<p>The Gambit's primary armament consists of a pair of Fusigon Shorttooth light particle projection cannons mounted in each arm, providing consistent long-range firepower without ammunition dependency. A Holly 3-Tube multi-missile launcher in the right torso supplements the energy weapons with flexible missile capability, though the single ton of ammunition limits sustained use. CASE protection around the missile storage mitigates the risk of catastrophic ammunition explosion.</p><p>Mounted on an X-G266 endo steel frame, the Gambit achieves respectable performance from its Omni 175 light fusion engine, reaching a top speed of 118 kilometers per hour. The light engine provides survivability advantages over extralight designs, as the loss of a single side torso will not disable the 'Mech. An XL gyro frees additional tonnage for equipment, though at the cost of reduced gyro durability. Five tons of Kallon Royalstar armor provide adequate protection for a twenty-five-ton design, though concentrated fire from heavier units will overwhelm the plating quickly.</p><p>The Garret T20-C communications system paired with the Dynatec 1122 targeting and tracking system gives the Gambit reliable battlefield electronics. MechWarriors particularly value the Dynatec's fully customizable heads-up display, and the cockpit ingress port is armored to withstand battle armor-scale weapons for a full ten seconds. The hyper-extending actuators in both arms allow the pilot to rotate the light PPCs to engage targets in the rear arc, a significant tactical advantage for a design expected to operate independently at range.</p>
@@ -183,6 +183,8 @@ history:<p>The Gambit emerged from Adam Tech Industries, a startup manufacturer 
 manufacturer:Adam Tech Industries
 
 primaryfactory:Abadan
+
+fluffdate:2026-02-21 18:07:19
 
 systemmanufacturer:CHASSIS:Adam Tech Industries
 systemmode:CHASSIS:X-G266 Endo Steel

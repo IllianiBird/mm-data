@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a26a-71a1-a247-8f64389a34b8
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Gray Death Standard Suit
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -86,42 +86,14 @@ BABattleClaw:LA
 
 <Trooper 5 Equipment>
 </Trooper 5 Equipment>
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-C
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-9
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Gray Death Standard Suit is a medium battle armor design created by Gray Death Legion technicians alongside the Scout Suit. Derived from NAIS-supplied Inner Sphere Standard prototypes, the Standard retained the original design's combat focus while incorporating improvements suggested by the Legion's experienced infantry troops. Fielded in 3052, the suit offered a flexible combination of solid protection, modular firepower through interchangeable weapon mounts, and proven reliability that made it a mainstay of Lyran battle armor formations for decades after the Legion's dissolution.</p>
-</overview>
 
 <capabilities>
 <p>The Light Recoilless Rifle configuration became available in 3069, expanding the Standard Suit's modular weapon options. The LRR provides effective anti-armor capability at longer range than the SRM launcher, with a ballistic profile that experienced infantry troopers find intuitive. The weapon bridges the gap between the Small Laser's sustained fire and the SRM's heavy warhead.</p><p>The Battle Claw, Anti-Personnel Weapon Mount, Improved Sensors, and 450 kilograms of standard armor carry forward. The LRR's ammunition supply requires management, but its versatility against both armored and soft targets makes this configuration popular among units that face mixed opposition. The later introduction date means fewer LRR-equipped Standards are in service compared to the original four weapon options.</p>
 </capabilities>
+
+<overview>
+<p>The Gray Death Standard Suit is a medium battle armor design created by Gray Death Legion technicians alongside the Scout Suit. Derived from NAIS-supplied Inner Sphere Standard prototypes, the Standard retained the original design's combat focus while incorporating improvements suggested by the Legion's experienced infantry troops. Fielded in 3052, the suit offered a flexible combination of solid protection, modular firepower through interchangeable weapon mounts, and proven reliability that made it a mainstay of Lyran battle armor formations for decades after the Legion's dissolution.</p>
+</overview>
 
 <deployment>
 <p>Clan Points equipped with the ballistic rifle configuration gained a versatile ranged engagement option that appealed to commanders who needed flexibility over specialization. Five troopers with effective anti-armor reach could engage a wider range of targets than Points carrying weapons optimized for a single role. The configuration's later introduction date meant fewer captured suits reached Clan hands compared to the original four loadouts.</p>
@@ -156,4 +128,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-C
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+9
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

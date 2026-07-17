@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-b068-7bb5-8387-e99cfa09d69a
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SF-1X
 <year>
 3028
 </year>
-
-<originalBuildYear>
-3028
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -134,26 +134,13 @@ Small Laser
 IS Ultra AC/5 Ammo
 </Fuselage Equipment>
 
-<source>
-XTR:SW
-</source>
-
-<published>
-XTR:SW
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Starfire is a medium aerospace fighter developed by the New Avalon Institute of Science and the Banzai Weapons Design Company in the years following the discovery of the Helm Memory Core. Commissioned in 3028 as an airborne testbed for recovered Star League technology, the design emerged alongside several other NAIS research programs aimed at understanding and fielding advanced lostech equipment under operationally realistic conditions. Rather than building a conventional combat aircraft, the NAIS chose an aerospace platform to allow rapid evaluation of new weapons and armor systems. Though produced in only small numbers, the Starfire gave the Federated Suns a meaningful head start in translating Memory Core data into deployable hardware. A limited production run in the mid-3040s placed the fighter in service with NAIS training units, where it filled a secondary combat role even as its experimental origins set it apart from the generation of technology it helped develop.</p>
-</overview>
-
 <capabilities>
 <p>The Starfire's fifty-five-ton airframe draws its flying-wing configuration from Star League-era design specifications, giving the craft a distinctive silhouette among contemporary Inner Sphere aerospace fighters. A CoreTek 275 fusion plant drives the craft to a safe thrust of seven and a maximum thrust of eleven, performance adequate for a research platform that was never intended to serve as a front-line interceptor. Seven tons of NAIS Special-X ferro-fibrous armor distribute coverage across the nose, wings, and aft section, providing reasonable protection relative to the fighter's mass, though the limited availability of advanced materials in the early 3030s constrained overall coverage.</p><p>The fighter's primary offensive weapon is a nose-mounted prototype Ultra Autocannon/5, an early example of the burst-fire technology recovered from the Helm Memory Core. Two pairs of Martell medium lasers fill the wing hardpoints, offering reliable energy firepower across medium ranges independent of ammunition supply, while an ExoStar small laser covers the aft arc. Twenty single heat sinks manage the thermal load adequately during normal operations. The Starfire's most significant tactical limitation is its ammunition supply for the autocannon, with only a single ton of reloads aboard, a constraint considered acceptable for a testbed not expected to sustain prolonged combat. A semi-modular weapon port concept was pursued during development to simplify equipment swaps between test configurations, but engineering difficulties forced the program to abandon the approach, requiring each airframe to be substantially disassembled and rebuilt whenever a different experimental loadout was to be evaluated.</p>
 </capabilities>
+
+<overview>
+<p>The Starfire is a medium aerospace fighter developed by the New Avalon Institute of Science and the Banzai Weapons Design Company in the years following the discovery of the Helm Memory Core. Commissioned in 3028 as an airborne testbed for recovered Star League technology, the design emerged alongside several other NAIS research programs aimed at understanding and fielding advanced lostech equipment under operationally realistic conditions. Rather than building a conventional combat aircraft, the NAIS chose an aerospace platform to allow rapid evaluation of new weapons and armor systems. Though produced in only small numbers, the Starfire gave the Federated Suns a meaningful head start in translating Memory Core data into deployable hardware. A limited production run in the mid-3040s placed the fighter in service with NAIS training units, where it filled a secondary combat role even as its experimental origins set it apart from the generation of technology it helped develop.</p>
+</overview>
 
 <deployment>
 <p>The limited production Starfire entered service with the NAIS Cadet Cadre on New Avalon in the mid-3040s, filling both an advanced training role and serving as a continuation of the original research mission. Equipped with production-specification components rather than the hand-assembled experimental hardware of the prototypes, these aircraft were more reliable in routine operations but offered no significant performance advantage over the earlier airframes. The Cadet Cadre's Starfires remained a fixture of NAIS aerospace training into the 3050s and beyond, even as the design was officially declared obsolete. Several were committed to combat during the Jihad when Word of Blake forces threatened New Avalon, with surviving aircraft eventually becoming non-operational as spare parts and support infrastructure eroded in the conflict's aftermath.</p>
@@ -186,4 +173,16 @@ ARMOR:Special-X Ferro-Fibrous
 COMMUNICATIONS:Fighter Series 60
 TARGETING:Raptores 2
 </systemModels>
+
+<source>
+XTR:SW
+</source>
+
+<published>
+XTR:SW
+</published>
+
+<tonnage>
+55.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e917-7b24-bfa1-752767a33108
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Ballista Self-Propelled Artillery Tank
 <year>
 2480
 </year>
-
-<originalBuildYear>
-2480
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -115,39 +115,13 @@ Machine Gun
 ISSniper
 </Turret Equipment>
 
-
-
-
-
-
-<notes>
-The vehicle's armament fluff classifies the individual Sniper weapon as a cannon. However, it is not a true Sniper Artillery Cannon, which is lighter and shorter ranged than a regular Sniper Artillery Piece. The Ballista's record sheet and weapon break down shows that the Sniper Artillery weapon is in fact listed as an Artillery Piece.
-</notes>
-
-<source>
-His:LoT2
-</source>
-
-<published>
-His:LoT2
-</published>
-
-<tonnage>
-55.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-02 15:52:16
-<overview>
-<p>The Ballista is a self-propelled artillery tank developed by Rivverson Technologies of Nanking during the late Age of War, entering service around 2480. Designed as a modernized indirect fire platform, the Ballista improved significantly on earlier artillery designs in mobility, crew protection, and operational flexibility. Lighter and faster than the bulky artillery pieces it replaced, it could deliver heavy indirect fire support while retaining the speed to relocate before counter-battery fire could respond. The vehicle established itself as the standard mobile artillery piece of the Star League era and proved economical and reliable enough to remain in active service across virtually every major military force, sustaining that role across multiple centuries of continuous use.</p>
-</overview>
-
 <capabilities>
 <p>The Ballista's primary weapon is a Hegemony Arms DAT/91 Sniper artillery cannon mounted in a fully traversable turret, a defining feature that allows the vehicle to engage targets across multiple zones without repositioning the entire hull. Organized into batteries of four to six vehicles, a Ballista formation can sustain a continuous five-minute barrage before needing to reload, giving commanders a powerful tool for suppressing fortifications or breaking enemy concentrations. Three KKL/h-12 machine guns mounted in the hull provide the crew with direct-fire protection against infantry that might close under the artillery's minimum range.</p><p>The vehicle's PowerTech 165 HighLift internal combustion engine delivers a top speed just over fifty kilometers per hour, sufficient to execute rapid displacement between firing positions and support the shoot-and-scoot doctrine that keeps artillery crews alive. Seven and a half tons of Quantum Heavy Plate armor give the Ballista enough protection to survive most counter-battery fire and aerial strafing runs, though the vehicle cannot withstand direct engagement with heavier combat units for long. The tracked suspension allows it to cross virtually any terrain type with ease, an important quality for artillery that must constantly seek new positions to avoid retaliation.</p>
 </capabilities>
+
+<overview>
+<p>The Ballista is a self-propelled artillery tank developed by Rivverson Technologies of Nanking during the late Age of War, entering service around 2480. Designed as a modernized indirect fire platform, the Ballista improved significantly on earlier artillery designs in mobility, crew protection, and operational flexibility. Lighter and faster than the bulky artillery pieces it replaced, it could deliver heavy indirect fire support while retaining the speed to relocate before counter-battery fire could respond. The vehicle established itself as the standard mobile artillery piece of the Star League era and proved economical and reliable enough to remain in active service across virtually every major military force, sustaining that role across multiple centuries of continuous use.</p>
+</overview>
 
 <deployment>
 <p>The Ballista served in organized artillery batteries of four to six vehicles across every Star League nation and many Periphery states, fulfilling the standard indirect fire support role across all theaters. Its ease of maintenance, low operating costs, and reliable internal combustion engine made it a natural choice for reserve and garrison formations that could not be equipped with more modern artillery platforms. The vehicle remained a fixture of second-line units through the Amaris Civil War and into the early Succession Wars, a sign of the soundness of Rivverson's original design and the practicality that made it so widely imitated.</p>
@@ -182,4 +156,24 @@ JUMP_JET:N/A
 COMMUNICATIONS:DEC/ML-5WB
 TARGETING:Set DC-5
 </systemModels>
+
+<notes>
+The vehicle's armament fluff classifies the individual Sniper weapon as a cannon. However, it is not a true Sniper Artillery Cannon, which is lighter and shorter ranged than a regular Sniper Artillery Piece. The Ballista's record sheet and weapon break down shows that the Sniper Artillery weapon is in fact listed as an Artillery Piece.
+</notes>
+
+<source>
+His:LoT2
+</source>
+
+<published>
+His:LoT2
+</published>
+
+<tonnage>
+55.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e0f9-753f-8a77-f7879448d50e
+</UUID>
+
 <UnitType>
 ProtoMek
 </UnitType>
@@ -35,10 +39,6 @@ Orc
 <year>
 3066
 </year>
-
-<originalBuildYear>
-3066
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -122,34 +122,13 @@ CLSRM1
 <Legs Equipment>
 </Legs Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<tonnage>
-4.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Orc is a four-ton second-generation ProtoMek designed by Clan Hell's Horses as their first homegrown ProtoMek design. Unveiled in 3066 after the Horses confirmed the value of first-generation ProtoMeks assimilated from the fallen Smoke Jaguars, the Orc was built with the Horses' unique combined-arms battle philosophy firmly in mind. Mounting four single-tube SRM launchers spread across the arms and torso, the Orc was specifically designed for anti-vehicle and anti-infantry work, the tactical roles the Hell's Horses have championed for centuries. The design quickly became a fixture in the Clan's frontline formations as a special attachment to every Cluster.</p>
-</overview>
-
 <capabilities>
 <p>The Orc is built for speed and close-range saturation fire. A thirty-six-rated fusion engine drives the four-ton frame to a cruising speed of sixty-four kilometers per hour, allowing it to keep pace with most Clan medium Meks. The quartet of single-tube SRM launchers, distributed between both arms and the torso, provides excellent missile coverage against multiple target types. Each arm launcher carries five rounds while the torso pair shares a ten-round magazine, giving the Orc twenty total missile salvos before exhausting its ammunition supply.</p><p>Twenty points of armor provide solid protection for a four-ton design, roughly equivalent to the five-ton Centaur and sufficient to survive several light weapon hits before structural compromise. The SRM-heavy loadout makes the Orc particularly effective against vehicles and infantry, where the cluster munitions can exploit weak armor coverage and suppression effects. Against heavier targets, a Point of Orcs can concentrate fire to achieve meaningful damage, though individual machines lack the punch to threaten heavy armor alone. The design lacks jump jets, limiting its tactical flexibility in broken terrain but keeping manufacturing costs and maintenance requirements low, consistent with the Horses' doctrine of fielding large numbers of combined-arms assets.</p>
 </capabilities>
+
+<overview>
+<p>The Orc is a four-ton second-generation ProtoMek designed by Clan Hell's Horses as their first homegrown ProtoMek design. Unveiled in 3066 after the Horses confirmed the value of first-generation ProtoMeks assimilated from the fallen Smoke Jaguars, the Orc was built with the Horses' unique combined-arms battle philosophy firmly in mind. Mounting four single-tube SRM launchers spread across the arms and torso, the Orc was specifically designed for anti-vehicle and anti-infantry work, the tactical roles the Hell's Horses have championed for centuries. The design quickly became a fixture in the Clan's frontline formations as a special attachment to every Cluster.</p>
+</overview>
 
 <deployment>
 <p>The base Orc distributes four single-tube SRM launchers across the frame, with one launcher in each arm and two in the torso. Each arm launcher carries five rounds while the torso pair shares a ten-round magazine, providing twenty total salvos before ammunition exhaustion. This distribution ensures that damage to any single location does not eliminate the Orc's entire weapons capability. Twenty points of armor provide solid all-around protection. The Orc lacks jump jets, relying on its sixty-four kilometers per hour cruising speed for tactical maneuver. Every ProtoMek Star assigned to the Hell's Horses Alpha and Beta Galaxies fielded up to two Orcs, making it the most numerous ProtoMek type in the Clan's frontline forces.</p>
@@ -182,4 +161,16 @@ ARMOR:Standard
 COMMUNICATIONS:Series Augmented
 TARGETING:Series 2.1
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<tonnage>
+4.0
+</tonnage>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-afa7-7e9c-ad09-a2b2b4c87631
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ SGT-4R
 <year>
 3133
 </year>
-
-<originalBuildYear>
-3133
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -121,26 +121,13 @@ IS Ammo MML-5 LRM
 IS Ammo MML-5 SRM
 </Fuselage Equipment>
 
-<source>
-TR:3145
-</source>
-
-<published>
-RS:3145-NTNU,RS:3145
-</published>
-
-<tonnage>
-45.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Sagittarii is a 45-ton aerospace fighter produced by Boeing Interstellar on Terra, entering service in 3084 as one of the Republic of the Sphere's first purpose-built procurement programs. Following the Jihad, the newly formed Republic Air Force inherited a patchwork collection of aerospace assets drawn from across the Inner Sphere, spanning generations of technology and a dozen maintenance standards, making logistics and coordinated operations a persistent liability. Purchase contracts with allied states addressed some gaps, but the mid-weight multi-role role remained poorly covered, and filling it became an early RAF priority. Boeing Interstellar answered the requirement by drawing on its acquisition of Wangker Aerospace's surviving facilities after the Jihad, using that company's venerable Tomahawk as the structural and design foundation for a modern, RAF-exclusive fighter. The Republic has since declined to authorize export sales despite sustained interest from neighboring militaries.</p>
-</overview>
-
 <capabilities>
 <p>The Sagittarii is powered by a PlasmaStar 270 XL engine that gives the fighter exceptional thrust, allowing it to outpace designs that nominally outclass it by mass. PlasmaStar introduced an extralight version of their 270-series powerplant in the final years of the Jihad, and Boeing's acquisition of Wangker's component supplier relationships secured access to it at manageable cost. The airframe carries nearly twelve tons of Fiber 15 heavy ferro-aluminum armor distributed evenly across the hull, with a modest reinforcement at the nose, providing substantial protection against most threats the fighter is likely to encounter in its intended role. Ten double heat sinks handle the thermal load from the weapons systems with room to spare.</p><p>The primary weapon is a nose-mounted Donal snub-nose PPC, an energy weapon well-suited to close engagement where its flat damage curve proves most effective. Two wing-mounted Holly MML-7 launchers complement it with genuine range versatility, allowing the pilot to engage at distance with LRM fire or close and saturate a target with SRM barrages. Four tons of shared ammunition backs both tubes. The Sagittarii's most significant operational constraint is its four-ton fuel reserve, which limits engagement duration and makes the design dependent on carrier or ground support for anything beyond short-range sorties.</p>
 </capabilities>
+
+<overview>
+<p>The Sagittarii is a 45-ton aerospace fighter produced by Boeing Interstellar on Terra, entering service in 3084 as one of the Republic of the Sphere's first purpose-built procurement programs. Following the Jihad, the newly formed Republic Air Force inherited a patchwork collection of aerospace assets drawn from across the Inner Sphere, spanning generations of technology and a dozen maintenance standards, making logistics and coordinated operations a persistent liability. Purchase contracts with allied states addressed some gaps, but the mid-weight multi-role role remained poorly covered, and filling it became an early RAF priority. Boeing Interstellar answered the requirement by drawing on its acquisition of Wangker Aerospace's surviving facilities after the Jihad, using that company's venerable Tomahawk as the structural and design foundation for a modern, RAF-exclusive fighter. The Republic has since declined to authorize export sales despite sustained interest from neighboring militaries.</p>
+</overview>
 
 <deployment>
 <p>Originating as a popular RAF refit package before Boeing adopted it for full production in 3133, the SGT-4R emerged in response to the increased prevalence of glazed armor on designs encountered during the Dark Age. Replacing the nose weapon with a large re-engineered laser specifically effective against glazed protection, and pairing it with Artemis IV-enhanced MML-5s for improved missile accuracy at reduced magazine weight, the 4R is a more specialized anti-armor variant than its predecessors. The design reflects the shifting tactical environment of the post-Fortress Republic era, where the RAF's equipment base and operational priorities diverged from those of the Succession Wars-era designs still fielded by neighboring states.</p>
@@ -173,4 +160,16 @@ ARMOR:Fiber 15 Heavy Ferro-Aluminum
 COMMUNICATIONS:FibroLink
 TARGETING:BANDAR 9
 </systemModels>
+
+<source>
+TR:3145
+</source>
+
+<published>
+RS:3145-NTNU,RS:3145
+</published>
+
+<tonnage>
+45.0
+</tonnage>
 

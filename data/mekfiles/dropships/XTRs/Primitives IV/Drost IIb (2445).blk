@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ac60-730f-8378-e2e41af6b1ba
+</UUID>
+
 <UnitType>
 Dropship
 </UnitType>
@@ -35,10 +39,6 @@ DroST IIb Transport
 <year>
 2445
 </year>
-
-<originalBuildYear>
-2445
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -180,11 +180,45 @@ Medium Laser
 16
 </structural_integrity>
 
+<capabilities>
+<p>The DroST IIb (2445) serves as the armed escort counterpart to the troop-carrying IIa. Where the IIa devotes its tonnage to cargo and troop space, the IIb mounts a formidable weapons array including nine prototype AC/10s in triple mounts covering the nose and forward wing arcs, four LRM-20 launchers, multiple large and medium lasers distributed across all firing arcs. Two hundred seventy-seven single heat sinks manage the thermal load from this considerable arsenal.</p><p>The IIb carries eight small craft in place of the IIa's troop bays, with only 130 tons of cargo capacity remaining. Protected by primitive armor providing 637 points of coverage, the IIb features the same outboard rotating combination drives as the IIa. The crew complement of ninety-three is substantially smaller than the IIa's, reflecting the absence of embarked ground forces. Both subvariants share the atmospheric instability quirk inherent to the DroST II hull design and docking arm capability for small craft operations.</p>
+</capabilities>
 
+<overview>
+<p>The DroST II class represents the final evolution of the original DroST series of military transport DropShips, developed for the Terran Hegemony Armed Forces during the Age of War. Designed to fulfill the Hegemony's need for durable transport craft capable of surviving decades of service and numerous combat deployments, the 5,300-ton Aerodyne addressed critical shortcomings in earlier transport designs that were often rendered unserviceable after only a handful of atmospheric insertions.</p><p>The DroST II spawned two distinct subvariants: the IIa troop and cargo transport, and the IIb armed escort. Together, these vessels formed a complementary pair, with the IIb providing defensive firepower while the IIa delivered troops and materiel to contested landing zones. The class earned a reputation for rugged reliability despite certain design compromises in crew comfort and internal logistics.</p>
+</overview>
 
+<deployment>
+<p>The primitive DroST IIb served as the armed escort element of DroST II transport flotillas, protecting vulnerable IIa transports during atmospheric insertion and orbital operations. Its prototype weaponry and primitive armor limited its effectiveness against more modern opposition, leading to its replacement by the 2470 refit within a generation of its introduction.</p>
+</deployment>
 
+<history>
+<p>The DroST lineage traces its origins to Director-General James McKenna's campaign to expand the newly formed Terran Hegemony in the early twenty-fourth century. The aggressive incorporation of scores of worlds highlighted the urgent need for fleets of small craft and DropShips to carry and deploy Hegemony Armed Forces troops. The Hegemony commissioned dozens of different designs, but many early transports could rarely survive more than a handful of landings before the stress of rapid atmospheric insertions and combat damage rendered them unserviceable.</p><p>The original DroST I addressed some of these durability concerns, and the DroST II followed as a direct evolution. However, the initial DroST II class suffered numerous engine problems from its Kapesen-built drives, leading directly to the introduction of the IIa subvariant to correct these mechanical flaws. The first DroST IIa and IIb vessels entered service in 2445 with primitive armor and prototype weapons, then received standard armor and production weaponry in the 2470 refit. The Hegemony eventually ceased manufacturing the class as more advanced designs superseded it, though surviving hulls continued to serve in garrison and secondary roles for decades afterward.</p>
+</history>
 
+<manufacturer>
+Boeing Interstellar
+</manufacturer>
 
+<primaryFactory>
+Terra
+</primaryFactory>
+
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Various
+TARGETING:Various
+</systemManufacturers>
+
+<systemModels>
+CHASSIS:Various
+ENGINE:Fusion
+ARMOR:Various
+COMMUNICATIONS:Various
+TARGETING:Various
+</systemModels>
 
 <use>
 Cargo Transport
@@ -253,45 +287,4 @@ XTR:Primitives IV
 <escape_pod>
 1
 </escape_pod>
-
-# Fluff Date: 2026-02-28 16:10:19
-<overview>
-<p>The DroST II class represents the final evolution of the original DroST series of military transport DropShips, developed for the Terran Hegemony Armed Forces during the Age of War. Designed to fulfill the Hegemony's need for durable transport craft capable of surviving decades of service and numerous combat deployments, the 5,300-ton Aerodyne addressed critical shortcomings in earlier transport designs that were often rendered unserviceable after only a handful of atmospheric insertions.</p><p>The DroST II spawned two distinct subvariants: the IIa troop and cargo transport, and the IIb armed escort. Together, these vessels formed a complementary pair, with the IIb providing defensive firepower while the IIa delivered troops and materiel to contested landing zones. The class earned a reputation for rugged reliability despite certain design compromises in crew comfort and internal logistics.</p>
-</overview>
-
-<capabilities>
-<p>The DroST IIb (2445) serves as the armed escort counterpart to the troop-carrying IIa. Where the IIa devotes its tonnage to cargo and troop space, the IIb mounts a formidable weapons array including nine prototype AC/10s in triple mounts covering the nose and forward wing arcs, four LRM-20 launchers, multiple large and medium lasers distributed across all firing arcs. Two hundred seventy-seven single heat sinks manage the thermal load from this considerable arsenal.</p><p>The IIb carries eight small craft in place of the IIa's troop bays, with only 130 tons of cargo capacity remaining. Protected by primitive armor providing 637 points of coverage, the IIb features the same outboard rotating combination drives as the IIa. The crew complement of ninety-three is substantially smaller than the IIa's, reflecting the absence of embarked ground forces. Both subvariants share the atmospheric instability quirk inherent to the DroST II hull design and docking arm capability for small craft operations.</p>
-</capabilities>
-
-<deployment>
-<p>The primitive DroST IIb served as the armed escort element of DroST II transport flotillas, protecting vulnerable IIa transports during atmospheric insertion and orbital operations. Its prototype weaponry and primitive armor limited its effectiveness against more modern opposition, leading to its replacement by the 2470 refit within a generation of its introduction.</p>
-</deployment>
-
-<history>
-<p>The DroST lineage traces its origins to Director-General James McKenna's campaign to expand the newly formed Terran Hegemony in the early twenty-fourth century. The aggressive incorporation of scores of worlds highlighted the urgent need for fleets of small craft and DropShips to carry and deploy Hegemony Armed Forces troops. The Hegemony commissioned dozens of different designs, but many early transports could rarely survive more than a handful of landings before the stress of rapid atmospheric insertions and combat damage rendered them unserviceable.</p><p>The original DroST I addressed some of these durability concerns, and the DroST II followed as a direct evolution. However, the initial DroST II class suffered numerous engine problems from its Kapesen-built drives, leading directly to the introduction of the IIa subvariant to correct these mechanical flaws. The first DroST IIa and IIb vessels entered service in 2445 with primitive armor and prototype weapons, then received standard armor and production weaponry in the 2470 refit. The Hegemony eventually ceased manufacturing the class as more advanced designs superseded it, though surviving hulls continued to serve in garrison and secondary roles for decades afterward.</p>
-</history>
-
-<manufacturer>
-Boeing Interstellar
-</manufacturer>
-
-<primaryFactory>
-Terra
-</primaryFactory>
-
-<systemManufacturers>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Various
-TARGETING:Various
-</systemManufacturers>
-
-<systemModels>
-CHASSIS:Various
-ENGINE:Fusion
-ARMOR:Various
-COMMUNICATIONS:Various
-TARGETING:Various
-</systemModels>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-aa21-714a-a161-1273bab9dd40
+</UUID>
+
 <UnitType>
 ConvFighter
 </UnitType>
@@ -35,10 +39,6 @@ Planetlifter Tactical Support
 <year>
 3082
 </year>
-
-<originalBuildYear>
-3082
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -113,9 +113,6 @@ ISTankCockpitCommandConsole
 
 <Aft Equipment>
 IS Vehicular Stealth
-IS Vehicular Stealth
-IS Vehicular Stealth
-IS Vehicular Stealth
 ISArrowIV
 </Aft Equipment>
 
@@ -127,33 +124,13 @@ ISArrowIVAmmo
 ISArrowIVAmmo
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-<source>
-TR:Proto
-</source>
-
-<published>
-RS:Proto
-</published>
-
-<tonnage>
-50.0
-</tonnage>
-
-# Fluff Date: 2026-02-28 17:47:08
-<overview>
-<p>The Planetlifter Tactical Support Aircraft was Imstar Aerospace's refined evolution of their earlier combat Planetlifter concept. Where the original Support variant attempted to combine artillery firepower with a broad tactical oversight role in a single platform, the Tactical Support version accepted a reduced missile magazine in exchange for enhanced command and control capabilities. The addition of a cockpit command console created an operational profile that complemented the Arrow IV battery rather than conflicting with it, as both roles required the aircraft to operate behind the front lines under conditions of friendly aerospace superiority, creating no new vulnerabilities beyond those already inherent in the design.</p>
-</overview>
-
 <capabilities>
 <p>The Planetlifter TSA retains the vehicular stealth armor and Angel ECM suite that defined its predecessor, providing meaningful signature reduction against enemy sensors. However, Imstar's own testing with Cheetah aerospace fighters soon proved that the craft remained an easy target for dedicated interceptors. While opponents unaware of the Planetlifter's renewed capabilities would often ignore the craft, once the Arrow IV missiles launched it immediately became a priority target. This problem appears insurmountable, restricting the TSA to situations of aerospace superiority.</p><p>Given this restriction, the mobility of an airborne Arrow IV launcher proves highly desirable, as different sectors of the battlefield can be swiftly supplied with artillery support. The tactical oversight provided by the command console is typically needed in the same area receiving fire support, making the combined package efficient despite its operational limitations. The reduced missile magazine compared to the Support variant is offset by the command functionality that makes each shot more effective.</p>
 </capabilities>
+
+<overview>
+<p>The Planetlifter Tactical Support Aircraft was Imstar Aerospace's refined evolution of their earlier combat Planetlifter concept. Where the original Support variant attempted to combine artillery firepower with a broad tactical oversight role in a single platform, the Tactical Support version accepted a reduced missile magazine in exchange for enhanced command and control capabilities. The addition of a cockpit command console created an operational profile that complemented the Arrow IV battery rather than conflicting with it, as both roles required the aircraft to operate behind the front lines under conditions of friendly aerospace superiority, creating no new vulnerabilities beyond those already inherent in the design.</p>
+</overview>
 
 <deployment>
 <p>Despite considerable interest, the Planetlifter TSA was not produced in significant numbers until 3082, apparently due to chronic shortages of stealth armor and Angel ECM suites that constrained Imstar's production capacity. Since then, the Marik Commonwealth has acquired the entire output, attaching TSA units in squadron-sized formations to existing aerospace fighter wings that support ground operations. Imstar has requested permission to sell the craft on the open market, but the Commonwealth has thus far maintained its exclusive purchasing arrangement.</p>
@@ -178,4 +155,16 @@ ARMOR:Imstar V-Stealth
 COMMUNICATIONS:IMB Hi-Def ComCon with Angel ECM Suite
 TARGETING:Imstar SkyWatch with LDR Array
 </systemManufacturers>
+
+<source>
+TR:Proto
+</source>
+
+<published>
+RS:Proto
+</published>
+
+<tonnage>
+50.0
+</tonnage>
 

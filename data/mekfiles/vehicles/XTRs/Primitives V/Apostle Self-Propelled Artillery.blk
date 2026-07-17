@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec48-7c24-9448-12f9f7a3db2e
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Apostle Self-Propelled Artillery
 <year>
 2321
 </year>
-
-<originalBuildYear>
-2321
-</originalBuildYear>
 
 <type>
 IS Level 4
@@ -118,34 +118,13 @@ ISSniper
 2
 </engine_tech_rating>
 
-<source>
-XTR:Primitives V
-</source>
-
-<published>
-XTR:Primitives V
-</published>
-
-<tonnage>
-80.0
-</tonnage>
-
-<fuel>
-3.0
-</fuel>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-01 12:28:32
-<overview>
-<p>The Apostle is an eighty-ton primitive self-propelled artillery vehicle commissioned by the Terran Hegemony in 2321. Designed alongside its lighter companion, the Reaper, the Apostle represented the heavier of two artillery platforms developed to modernize the Hegemony Armed Forces' outdated indirect fire capabilities. Intended to provide long-range heavy fire support at the division level, the vehicle was assigned to battalion-sized artillery formations supporting HAF divisions in the field. As one of the earliest purpose-built self-propelled guns fielded by the Hegemony, the Apostle established a new standard for mobile artillery support that would influence Hegemony military doctrine for generations to come.</p>
-</overview>
-
 <capabilities>
 <p>The Apostle's primary armament is a single Sniper artillery piece mounted in the hull, supported by three tons of ammunition providing thirty rounds of sustained fire. An advanced fire control system guides the weapon, enabling accurate engagement of targets at extreme range, while the ammunition capacity permits the crew to carry multiple munition types as the tactical situation demands. A single front-mounted small laser provides minimal self-defense capability against threats that manage to reach the gun line.</p><p>Powered by an internal combustion engine, the Apostle achieves a cruise speed of thirty-two kilometers per hour with a flank speed of fifty-four. Its generous fuel supply provides an operational range of nearly eleven hundred kilometers, well suited to extended campaigns. Five tons of BAR 6 armor afford basic protection, reflecting the expectation that the vehicle would operate well behind the front lines rather than engage in direct combat. A tractor chassis modification allows the Apostle to tow additional equipment or ammunition trailers, extending its logistical footprint. The large crew of ten, including two officers and six dedicated gunners, ensures smooth operation of the complex artillery system.</p>
 </capabilities>
+
+<overview>
+<p>The Apostle is an eighty-ton primitive self-propelled artillery vehicle commissioned by the Terran Hegemony in 2321. Designed alongside its lighter companion, the Reaper, the Apostle represented the heavier of two artillery platforms developed to modernize the Hegemony Armed Forces' outdated indirect fire capabilities. Intended to provide long-range heavy fire support at the division level, the vehicle was assigned to battalion-sized artillery formations supporting HAF divisions in the field. As one of the earliest purpose-built self-propelled guns fielded by the Hegemony, the Apostle established a new standard for mobile artillery support that would influence Hegemony military doctrine for generations to come.</p>
+</overview>
 
 <deployment>
 <p>The Apostle Self-Propelled Artillery served as the primary heavy indirect fire platform for Hegemony Armed Forces division-level operations. Its substantial ammunition capacity and long operational range made it well suited to sustained bombardment campaigns in support of frontline formations. The tractor chassis allowed Apostle batteries to tow additional supplies during extended operations, making the vehicle the centerpiece of HAF heavy artillery battalions.</p>
@@ -178,4 +157,24 @@ ARMOR:BAR 6 (5 tons)
 COMMUNICATIONS:Unknown
 TARGETING:Advanced Fire Control
 </systemModels>
+
+<source>
+XTR:Primitives V
+</source>
+
+<published>
+XTR:Primitives V
+</published>
+
+<tonnage>
+80.0
+</tonnage>
+
+<fuel>
+3.0
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

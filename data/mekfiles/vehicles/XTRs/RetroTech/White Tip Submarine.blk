@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ec75-7cd8-8032-f2d83d9a0544
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ White Tip Submarine
 <year>
 3074
 </year>
-
-<originalBuildYear>
-3074
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -145,30 +145,13 @@ ISERMediumLaser
 4
 </engine_tech_rating>
 
-<source>
-XTR:RetroTech
-</source>
-
-<published>
-XTR:RetroTech
-</published>
-
-<tonnage>
-250.0
-</tonnage>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-12 15:51:37
-<overview>
-<p>The White Tip command submarine was developed by Bigoti Seacraft on Keid in 3074, serving the Word of Blake Protectorate as a mobile command platform for aquatic operations. Rather than building to standard military specifications, Bigoti Seacraft drew on its experience in the civilian shipbuilding market, producing a vessel that met uprated civilian standards at a fraction of the cost of a true military design. This practical approach delivered a platform that could function both as a mobile headquarters and as an auxiliary combatant for coastal patrol work. The White Tip relied on its submersible capability to evade hostile forces rather than on heavy armor protection, a design philosophy that made it well-suited for contested aquatic environments. Despite its modest origins, the design proved resilient enough to outlast its original patron and eventually attract commercial interest well beyond the Protectorate.</p>
-</overview>
-
 <capabilities>
 <p>The White Tip is a 250-ton naval vessel designed around dual roles as a command platform and coastal combat asset. Its primary offensive capability comes from two Long Range Torpedo-15 launchers, one positioned forward and one aft, giving the vessel simultaneous coverage across both arcs. A Long Range Torpedo-10 rounds out the long-range battery, mounted in the turret alongside two Short Range Torpedo-4 launchers for close-range defense. An Extended Range Medium Laser in the bow provides a directed-energy option effective against surface targets and watercraft that may be resistant to torpedo fire.</p><p>The White Tip's armor is minimal by any military standard, relying on just four tons of civilian-grade material rated to BAR 8. This thin protection reflects the core design philosophy of avoidance over absorption. The vessel is intended to remain submerged and difficult to locate, not to absorb fire from dedicated combat units. A cruise speed of 3 and flank speed of 5 are unimpressive for its displacement, but underwater concealment compensates for what it lacks in straight-line performance.</p><p>Command facilities are substantial relative to the vessel's tonnage. Seven tons of communications equipment support a wide-spectrum communications capability, and the ship carries a MASH unit, medical quarters, and berthing for officers and support personnel. Advanced Fire Control guides the weapons suite. A 30-ton cargo hold allows extended independent deployment, reducing reliance on shore support during prolonged operations.</p>
 </capabilities>
+
+<overview>
+<p>The White Tip command submarine was developed by Bigoti Seacraft on Keid in 3074, serving the Word of Blake Protectorate as a mobile command platform for aquatic operations. Rather than building to standard military specifications, Bigoti Seacraft drew on its experience in the civilian shipbuilding market, producing a vessel that met uprated civilian standards at a fraction of the cost of a true military design. This practical approach delivered a platform that could function both as a mobile headquarters and as an auxiliary combatant for coastal patrol work. The White Tip relied on its submersible capability to evade hostile forces rather than on heavy armor protection, a design philosophy that made it well-suited for contested aquatic environments. Despite its modest origins, the design proved resilient enough to outlast its original patron and eventually attract commercial interest well beyond the Protectorate.</p>
+</overview>
 
 <deployment>
 <p>The White Tip is deployed on worlds with significant aquatic terrain, where its submersible capability provides both a tactical and operational advantage. Operating as a mobile command platform, it is best suited to coordinating coastal and riverine operations from submerged positions that deny enemy forces an easy targeting solution. Long-range torpedo batteries allow engagement of surface and underwater targets at standoff distances, while the command facilities give embarked commanders the communications reach to direct dispersed forces across wide areas. The design's light protection means White Tip commanders favor submerged standoff tactics over surface engagements. Medical and personnel support facilities make extended independent deployments practical, allowing the vessel to serve as a self-sufficient mobile headquarters during prolonged coastal operations.</p>
@@ -201,4 +184,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Advanced Fire Control
 </systemModels>
+
+<source>
+XTR:RetroTech
+</source>
+
+<published>
+XTR:RetroTech
+</published>
+
+<tonnage>
+250.0
+</tonnage>
+
+<fuel>
+0.0
+</fuel>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ad77-7bea-b300-fd43ae138b06
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ F-94
 <year>
 3052
 </year>
-
-<originalBuildYear>
-3052
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -120,34 +120,13 @@ Medium Laser
 IS Ammo LRM-10
 </Fuselage Equipment>
 
-
-
-
-
-
-
-
-
-<source>
-TR:3039
-</source>
-
-<published>
-RS:3039u
-</published>
-
-<tonnage>
-60.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The F-90 Stingray is a sixty-ton medium aerospace fighter produced by Andurien AeroTech, a division of Free Worlds Defense Industries. Introduced in 2762, the Stingray refined the forward-swept wing concept pioneered by the failed F-77 Deathstalker prototype into a proven, combat-ready airframe. Instantly recognizable by its distinctive slanted wing profile, the fighter earned a reputation for exceptional maneuverability and stability that made it a favorite among experienced pilots. The Stingray became the Free Worlds League Military's standard medium fighter, with production at multiple Andurien AeroTech facilities ensuring a steady supply. Licensing agreements with Gutierrez Aerospace on Trellisane further expanded output. While most common within the League, every Successor State fields at least a few Stingrays, with the Lyran Commonwealth maintaining a particularly notable inventory inherited from the Star League era.</p>
-</overview>
-
 <capabilities>
 <p>The Stingray's forward-swept wings reduce wingtip vortices and provide aerodynamic stability that would otherwise require much greater surface area, while forward canard surfaces give additional lift to offset the heavy nose section. Powered by a VOX 240a fusion engine, the fighter is not particularly fast, but its atmospheric agility allows it to engage targets at range and earn the respect of even heavy aerospace fighters. The F-90/A frame mounts a Sunspot particle projector cannon in the nose, flanked by a pair of Hellion-a III large lasers and Hellion-b II medium lasers across both wings. This all-energy weapons loadout, cooled by twenty single heat sinks, grants the Stingray extended combat endurance without dependence on ammunition resupply. Andurien Steel Standard armor provides solid protection for the fighter's weight class.</p><p>The nose-heavy weight distribution created by the forward-mounted PPC makes the Stingray feel unpredictable to new pilots, who often describe the flight characteristics as "slippery" or "dicey." It takes months of experience for pilots accustomed to conventional fighters to develop the touch needed to exploit the Stingray's full potential, but those who master it find a supremely capable dogfighter.</p>
 </capabilities>
+
+<overview>
+<p>The F-90 Stingray is a sixty-ton medium aerospace fighter produced by Andurien AeroTech, a division of Free Worlds Defense Industries. Introduced in 2762, the Stingray refined the forward-swept wing concept pioneered by the failed F-77 Deathstalker prototype into a proven, combat-ready airframe. Instantly recognizable by its distinctive slanted wing profile, the fighter earned a reputation for exceptional maneuverability and stability that made it a favorite among experienced pilots. The Stingray became the Free Worlds League Military's standard medium fighter, with production at multiple Andurien AeroTech facilities ensuring a steady supply. Licensing agreements with Gutierrez Aerospace on Trellisane further expanded output. While most common within the League, every Successor State fields at least a few Stingrays, with the Lyran Commonwealth maintaining a particularly notable inventory inherited from the Star League era.</p>
+</overview>
 
 <deployment>
 <p>The F-94 is Gutierrez Aerospace's first independent Stingray design, entering production at their Trellisane facility in 3052. Rather than simply upgrading the existing weapons layout, Gutierrez developed a distinctly different loadout featuring an extended-range large laser and medium lasers in the nose, supported by wing-mounted LRM-10 launchers. While still using single heat sinks, which limits sustained firepower, the addition of missile capability gives the F-94 engagement flexibility the all-energy F-90 lacks. FWLM statistics indicating higher survivability rates for Gutierrez-built fighters generated strong demand, keeping the small manufacturer busy filling orders through the Civil War era.</p>
@@ -180,4 +159,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3039
+</source>
+
+<published>
+RS:3039u
+</published>
+
+<tonnage>
+60.0
+</tonnage>
 

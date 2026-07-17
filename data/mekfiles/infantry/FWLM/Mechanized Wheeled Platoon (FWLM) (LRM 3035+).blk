@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bcc2-7651-93d1-df79063a6039
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,17 +36,9 @@ Mechanized Wheeled Platoon (FWLM)
 7114
 </mul id:>
 
-<source>
-TO:AUE
-</source>
-
 <year>
 3055
 </year>
-
-<originalBuildYear>
-3055
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -63,10 +59,17 @@ Free Worlds League Infantry Kit (3035+)
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>New technology and creative tactical thinking have long featured in FWLM infantry deployment, with varied unit types and specialized formations treated as the norm rather than the exception. Wheeled mechanized platoons in FWLM service ride armored personnel carriers that offer good road speed and reasonable protection, making them well-suited to the League's developed industrial worlds where paved infrastructure supports rapid deployment between population centers. Carrying infantry-portable long-range missile systems, these platoons provide indirect fire capability that extends their engagement envelope well beyond personal weapons range, though the weight and bulk of the launchers reduce the platoon's mobility.</p>
+</overview>
 
 <notes>
 Intro date based on prototype release of infantry LRM launcher. Model name date based on MUL name.
 </notes>
+
+<source>
+TO:AUE
+</source>
 
 <squad_size>
 6
@@ -91,9 +94,4 @@ InfantryLRM
 <encumberingarmor>
 true
 </encumberingarmor>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>New technology and creative tactical thinking have long featured in FWLM infantry deployment, with varied unit types and specialized formations treated as the norm rather than the exception. Wheeled mechanized platoons in FWLM service ride armored personnel carriers that offer good road speed and reasonable protection, making them well-suited to the League's developed industrial worlds where paved infrastructure supports rapid deployment between population centers. Carrying infantry-portable long-range missile systems, these platoons provide indirect fire capability that extends their engagement envelope well beyond personal weapons range, though the weight and bulk of the launchers reduce the platoon's mobility.</p>
-</overview>
 

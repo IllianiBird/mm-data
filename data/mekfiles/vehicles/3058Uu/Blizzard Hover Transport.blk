@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e3e1-7c8d-b3e6-654bdd37d378
+</UUID>
+
 <UnitType>
 Tank
 </UnitType>
@@ -35,10 +39,6 @@ Blizzard Hover Transport
 <year>
 3054
 </year>
-
-<originalBuildYear>
-3054
-</originalBuildYear>
 
 <type>
 IS Level 1
@@ -104,30 +104,13 @@ IS Ammo LRM-5
 LRM 5
 </Turret Equipment>
 
-<source>
-TR:3058U
-</source>
-
-<published>
-RS:3058Uu-I
-</published>
-
-<tonnage>
-25.0
-</tonnage>
-
-<fuelType>
-PETROCHEMICALS
-</fuelType>
-
-# Fluff Date: 2026-03-02 15:52:16
-<overview>
-<p>The Blizzard Hover Transport is a light infantry carrier designed and produced by Kressly WarWorks of Epsilon Eridani, entering service in 3054. Conceived to give small militias and independent commands the ability to deliver troops rapidly across contested terrain, the design reflects Kressly's practical philosophy: affordable, reliable, and easy to maintain. The vehicle was originally intended to counter Clan mobile tactics, relying on extreme speed rather than armor or firepower to survive on a modern battlefield. It found its greatest success not in the Clan Invasion campaigns its designers envisioned, but among the fractious factions of the Chaos March, where its low acquisition cost and exceptional speed made it the transport of choice for underfunded armies, local defense forces, and mercenary commands that needed to move infantry quickly without exhausting their operational budgets.</p>
-</overview>
-
 <capabilities>
 <p>The core of the Blizzard's appeal is its Nissan 95 internal combustion engine, which drives the twenty-five-ton hover chassis to a flank speed of 151 kilometers per hour. This performance allows the vehicle to close with enemy positions under a barrage from its single turret-mounted LongFire V LRM-5, deploy its passengers, and withdraw before absorbing sustained fire. The LRM-5 is deliberately light armament for a front-line vehicle, but it serves its purpose well: once the infantry bays are cleared, the launcher enables the Blizzard to contribute indirect suppression fire from extended range, keeping the vehicle out of direct engagement while still supporting the troops it delivered. The BlazeFire Sight Lock targeting system and Angst Clear Channel 3 communications suite give crews adequate situational awareness for a light transport role.</p><p>The cargo bay holds six tons of capacity, accommodating two standard infantry platoons or a single heavy infantry platoon without reducing the vehicle's speed rating. The ICE powerplant keeps manufacturing costs and logistical complexity low, a deliberate trade-off that broadens the Blizzard's appeal to operators without sophisticated maintenance infrastructure. The primary weakness of the design is its protection: three tons of StarSlab/3 armor can absorb only a limited number of direct hits before the hull is compromised. This vulnerability forces crews to treat the Blizzard as a true transport rather than a fighting vehicle, staying at range and avoiding direct engagement with anything heavier than infantry. For commands that understand its limitations, the Blizzard performs its role effectively; those that push it into the line of fire tend to lose it quickly.</p>
 </capabilities>
+
+<overview>
+<p>The Blizzard Hover Transport is a light infantry carrier designed and produced by Kressly WarWorks of Epsilon Eridani, entering service in 3054. Conceived to give small militias and independent commands the ability to deliver troops rapidly across contested terrain, the design reflects Kressly's practical philosophy: affordable, reliable, and easy to maintain. The vehicle was originally intended to counter Clan mobile tactics, relying on extreme speed rather than armor or firepower to survive on a modern battlefield. It found its greatest success not in the Clan Invasion campaigns its designers envisioned, but among the fractious factions of the Chaos March, where its low acquisition cost and exceptional speed made it the transport of choice for underfunded armies, local defense forces, and mercenary commands that needed to move infantry quickly without exhausting their operational budgets.</p>
+</overview>
 
 <deployment>
 <p>The standard Blizzard performs straightforward infantry transport duties, operating in rapid-insertion or reconnaissance support roles where speed takes priority over protection. Its low acquisition and maintenance cost makes it accessible to militia forces, second-tier mercenary commands, and planetary defense units that cannot afford heavier transports. The vehicle functions best when paired with heavier combat assets that can absorb direct fire while the Blizzard completes its delivery runs. On worlds with open terrain, wetlands, or coastal geography, its hovercraft propulsion allows it to cross terrain that would stop wheeled or tracked vehicles entirely. Most operators hold it back from direct engagement, releasing it only once infantry support has suppressed the nearest anti-vehicle threat.</p>
@@ -162,4 +145,20 @@ JUMP_JET:N/A
 COMMUNICATIONS:Clear Channel 3
 TARGETING:Sight Lock
 </systemModels>
+
+<source>
+TR:3058U
+</source>
+
+<published>
+RS:3058Uu-I
+</published>
+
+<tonnage>
+25.0
+</tonnage>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
 

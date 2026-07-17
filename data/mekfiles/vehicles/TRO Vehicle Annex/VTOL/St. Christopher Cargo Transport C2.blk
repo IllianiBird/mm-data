@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-eb55-7c2a-8bff-ac2a239a9f9d
+</UUID>
+
 <UnitType>
 SupportVTOL
 </UnitType>
@@ -36,17 +40,13 @@ C2
 3067
 </year>
 
-<originalBuildYear>
-3067
-</originalBuildYear>
-
 <type>
 IS Level 2
 </type>
 
 <quirks>
-easy_maintain
 vtol_rotor_dual
+easy_maintain
 </quirks>
 
 <motion_type>
@@ -116,26 +116,13 @@ standardseats:6.0:0:-1::-1:0
 3
 </engine_tech_rating>
 
-<source>
-TR:VAr
-</source>
-
-<tonnage>
-25.0
-</tonnage>
-
-<fuel>
-0.5
-</fuel>
-
-# Fluff Date: 2026-03-11 21:02:11
-<overview>
-<p>The St. Christopher Cargo Transport is a 25-ton medium VTOL manufactured by the Lockheed-CBM Corporation on Furillo. Designed during the 3050s as a cost-effective multi-role transport, the first prototype flew in 3060 with production models entering service during the final stages of the FedCom Civil War. The design was intended to compete with heavier military transport VTOLs like the Karnov UR, offering a lighter and more affordable alternative built around off-the-shelf civilian components. Lockheed-CBM developed two core configurations to address separate market segments: the C1, a militarized variant with reinforced armor and chassis modifications, and the C2, a civilian model prioritizing cargo volume over protection. Both variants were marketed to the Lyran Alliance government and approved Lyran corporations, establishing the St. Christopher as a versatile platform suited to logistics and passenger transport roles where frontline durability was not the primary concern.</p>
-</overview>
-
 <capabilities>
 <p>Both configurations share a common 25-ton VTOL airframe powered by a fuel cell engine that delivers a cruise speed of roughly 130 km/h and a flank speed approaching 195 km/h, with a fuel range of 740 kilometers. The dual rotor arrangement provides stable flight characteristics in varied weather conditions, and the design seats a crew of two enlisted personnel alongside six passengers.</p><p>The C1 mounts an armored chassis modification and military-grade armor composites rated at BAR 10, giving it reasonable survivability against small arms fire and shrapnel. This protection comes at the cost of cargo capacity, limiting the C1's configurable bay to approximately 8.5 tons. The C2 trades this protection for utility, reducing armor to BAR 4 commercial-grade composites and employing a lighter chassis frame. These changes increase cargo capacity to nearly 12.5 tons, and factory-built modifications allow installation of specialized holds including refrigerated units, pressurized compartments, expanded passenger seating, and electronic warfare equipment.</p><p>Neither variant carries weapons, relying entirely on escorts or operating in permissive environments. The civilian component base makes both variants cheap to acquire and straightforward to maintain, though neither can withstand the rough handling that fully militarized designs like the Karnov tolerate without issue. Lockheed-CBM supplements vehicle sales with a range of maintenance service contracts, from minimum servicing required by the Lyran Aviation Authority to full contract staffing on call at any time.</p>
 </capabilities>
+
+<overview>
+<p>The St. Christopher Cargo Transport is a 25-ton medium VTOL manufactured by the Lockheed-CBM Corporation on Furillo. Designed during the 3050s as a cost-effective multi-role transport, the first prototype flew in 3060 with production models entering service during the final stages of the FedCom Civil War. The design was intended to compete with heavier military transport VTOLs like the Karnov UR, offering a lighter and more affordable alternative built around off-the-shelf civilian components. Lockheed-CBM developed two core configurations to address separate market segments: the C1, a militarized variant with reinforced armor and chassis modifications, and the C2, a civilian model prioritizing cargo volume over protection. Both variants were marketed to the Lyran Alliance government and approved Lyran corporations, establishing the St. Christopher as a versatile platform suited to logistics and passenger transport roles where frontline durability was not the primary concern.</p>
+</overview>
 
 <deployment>
 <p>The C2 is the civilian transport configuration, optimized for maximum cargo volume through a lighter chassis frame and reduced armor protection. Its modular cargo bay accepts factory-built modifications ranging from refrigerated and pressurized compartments to expanded passenger seating and electronic warfare suites, making it adaptable to a wide variety of non-combat roles. The Lyran Diplomatic Corps adopted the C2 for VIP shuttle services on Tharkad, and the variant attracted interest from regional leaders seeking affordable transport solutions for post-war reconstruction.</p>
@@ -168,4 +155,16 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+25.0
+</tonnage>
+
+<fuel>
+0.5
+</fuel>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a406-7b6a-a6b1-e9aac40adefd
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Kobold Battle Armor
 <year>
 3069
 </year>
-
-<originalBuildYear>
-3069
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -94,42 +94,14 @@ CLBALightTAG:SSWM:LA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3075
-</source>
-
-<published>
-RS:3075u-CE
-</published>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-3
-</jumpingMP>
-
-<armor>
-5
-</armor>
-
-<Trooper Count>
-5
-</Trooper Count>
-
-<weightclass>
-1
-</weightclass>
-
-# Fluff Date: 2026-03-15 18:47:47
-<overview>
-<p>The Kobold is a light battle armor suit jointly developed by the Free Rasalhague Republic, ComStar, and the second Star League. Entering production in 3069 at Grumium Creations on Grumium, the design was born from the Republic’s desire for a stealth-capable scout suit after failed efforts to procure existing designs from other powers. A humanoid suit with jump capability and low-observable armor, the Kobold filled a gap in Republic and ComStar inventories for a light reconnaissance platform that could hold its own in direct combat while operating alongside heavier battle armor types.</p>
-</overview>
 
 <capabilities>
 <p>Configured with micro grenade launchers and a light TAG unit, this loadout transforms the Kobold into a dedicated spotter formation. The squad leader’s TAG designator allows the team to guide Arrow IV artillery strikes and semi-guided munitions onto high-value targets from concealment, while the grenade launchers on the remaining troopers provide enough firepower to handle unarmored threats encountered during observation missions. Standard practice places the support weapon under the squad leader’s left arm, leaving both hands free for climbing and manipulation. The suit’s basic stealth armor and low signature work in the TAG role’s favor, helping the formation remain undetected while painting targets for heavier assets. Jump capability of ninety meters allows rapid repositioning between observation posts, and armored gloves permit anti-BattleMech attacks and OmniMech mounting when the situation demands direct engagement.</p>
 </capabilities>
+
+<overview>
+<p>The Kobold is a light battle armor suit jointly developed by the Free Rasalhague Republic, ComStar, and the second Star League. Entering production in 3069 at Grumium Creations on Grumium, the design was born from the Republic’s desire for a stealth-capable scout suit after failed efforts to procure existing designs from other powers. A humanoid suit with jump capability and low-observable armor, the Kobold filled a gap in Republic and ComStar inventories for a light reconnaissance platform that could hold its own in direct combat while operating alongside heavier battle armor types.</p>
+</overview>
 
 <deployment>
 <p>Ghost Bear Points equipped with the TAG loadout filled a forward observation role within garrison clusters, painting targets for Clan artillery assets. The five-trooper formation provided redundancy, ensuring the loss of one or two troopers would not eliminate the Point’s ability to maintain target designations during sustained engagements.</p>
@@ -164,4 +136,32 @@ JUMP_JET:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3075
+</source>
+
+<published>
+RS:3075u-CE
+</published>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+5
+</armor>
+
+<Trooper Count>
+5
+</Trooper Count>
+
+<weightclass>
+1
+</weightclass>
 

@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-e8fa-705c-a86e-641d91a256aa
+</UUID>
+
 <UnitType>
 SupportTank
 </UnitType>
@@ -35,10 +39,6 @@ Generic Expandable Services Vehicle Trailer
 <year>
 3066
 </year>
-
-<originalBuildYear>
-3066
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -119,30 +119,13 @@ OmniChassisMod
 4
 </engine_tech_rating>
 
-<source>
-HB:HD
-</source>
-
-<tonnage>
-15.0
-</tonnage>
-
-<baseChassisFireConWeight>
-0.0
-</baseChassisFireConWeight>
-
-<fuel>
-0.0
-</fuel>
-
-# Fluff Date: 2026-03-07 11:22:50
-<overview>
-<p>The Generic Expandable Services Vehicle, commonly known as the GESV, is a multipurpose wheeled support platform developed by the Federated Suns and introduced in 3066. Built around OmniVehicle technology, the design can be rapidly reconfigured to serve virtually any rear-echelon role, from mobile command post to field kitchen to frontline medical facility. The platform serves military units, government agencies, police forces, and civilian relief organizations operating in field environments. Its purpose-built trailer extends the tractor's capabilities further, offering additional configurations for personnel housing and cargo transport. The GESV's design philosophy emphasizes adaptability over specialization, allowing any organization engaged in extended field operations to meet diverse support needs with a single standardized platform rather than a fleet of dedicated vehicles. This flexibility, combined with straightforward maintenance requirements, has made the design a common sight in Federated Suns rear-echelon formations.</p>
-</overview>
-
 <capabilities>
 <p>The GESV Trailer is a fifteen-ton OmniVehicle designed as a dedicated companion to the GESV tractor. Built on an Omni chassis, the trailer is protected by one and a half tons of BAR 7 armor, sufficient to shield cargo and occupants against incidental fire and debris during rear-echelon operations. The trailer carries no engine of its own, relying entirely on the tractor for movement.</p><p>The trailer's OmniVehicle architecture provides full reconfiguration flexibility within available pod space. Unlike traditional cargo or personnel trailers, which commit to a single function from manufacture, the GESV Trailer's interior can be arranged into virtually any configuration that fits within tonnage limits. This makes the platform adaptable to shifting operational priorities without requiring different trailer types in the logistics chain.</p><p>Two GESV Trailers can be coupled and pulled simultaneously by a single tractor, allowing commanders to combine functions, such as pairing bunk space with a workspace module, to support diverse unit requirements from a single prime mover. The principal limitation of the trailer is its complete dependence on the tractor for mobility. Without the tractor, the trailer is stationary, which makes initial positioning decisions critical in dynamic operational environments.</p>
 </capabilities>
+
+<overview>
+<p>The Generic Expandable Services Vehicle, commonly known as the GESV, is a multipurpose wheeled support platform developed by the Federated Suns and introduced in 3066. Built around OmniVehicle technology, the design can be rapidly reconfigured to serve virtually any rear-echelon role, from mobile command post to field kitchen to frontline medical facility. The platform serves military units, government agencies, police forces, and civilian relief organizations operating in field environments. Its purpose-built trailer extends the tractor's capabilities further, offering additional configurations for personnel housing and cargo transport. The GESV's design philosophy emphasizes adaptability over specialization, allowing any organization engaged in extended field operations to meet diverse support needs with a single standardized platform rather than a fleet of dedicated vehicles. This flexibility, combined with straightforward maintenance requirements, has made the design a common sight in Federated Suns rear-echelon formations.</p>
+</overview>
 
 <deployment>
 <p>The Bunk configuration provides mobile living quarters for infantry and other personnel operating in field environments. Two foot infantry bays accommodate up to sixty people, with a small cargo allowance for basic personal supplies. Conditions are acknowledged as cramped, but most soldiers find the configuration preferable to sleeping in the open. It is most commonly paired with a GESV tractor running the MASH or Command Post configuration, where the need to house significant numbers of assigned personnel makes dedicated bunk space operationally valuable.</p>
@@ -175,4 +158,20 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+HB:HD
+</source>
+
+<tonnage>
+15.0
+</tonnage>
+
+<baseChassisFireConWeight>
+0.0
+</baseChassisFireConWeight>
+
+<fuel>
+0.0
+</fuel>
 

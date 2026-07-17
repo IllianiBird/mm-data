@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-bbd3-7699-8104-a8478ced0ea1
+</UUID>
+
 <UnitType>
 Infantry
 </UnitType>
@@ -32,17 +36,9 @@ Foot Platoon (DCMS)
 1146
 </mul id:>
 
-<source>
-TW,TM
-</source>
-
 <year>
 2620
 </year>
-
-<originalBuildYear>
-2620
-</originalBuildYear>
 
 <type>
 IS Level 3
@@ -63,10 +59,17 @@ Draconis Combine Infantry Kit
 <Field Guns Equipment>
 </Field Guns Equipment>
 
+<overview>
+<p>The Combine's martial traditions extend beyond the BattleMech cockpit, and the Dictum Honorium demands that all citizens contribute their talents to the defense of House Kurita. Infantry soldiers of the DCMS embody that expectation on garrison worlds across the realm. Foot infantry are the cheapest troops the DCMS can field, and the Combine fields them in enormous numbers. Every military district maintains garrison formations whose sole purpose is holding ground that BattleMech regiments cannot occupy permanently. Slow and vulnerable in open terrain, these soldiers prove their worth through discipline and endurance, standing post on worlds across the Combine because the Dragon demands nothing less. Their support squads operate portable machine guns that deliver sustained automatic fire at ranges well beyond personal weapons. A single well-placed machine gun team can suppress an entire enemy platoon and threaten light vehicles that would otherwise ignore conventional infantry.</p>
+</overview>
 
 <notes>
 Intro date based on prototype date of DCMS armor kit
 </notes>
+
+<source>
+TW,TM
+</source>
 
 <squad_size>
 7
@@ -87,9 +90,4 @@ InfantryAssaultRifle
 <Secondary>
 Machine Gun (Portable)
 </Secondary>
-
-# Fluff Date: 2026-03-18 15:07:44
-<overview>
-<p>The Combine's martial traditions extend beyond the BattleMech cockpit, and the Dictum Honorium demands that all citizens contribute their talents to the defense of House Kurita. Infantry soldiers of the DCMS embody that expectation on garrison worlds across the realm. Foot infantry are the cheapest troops the DCMS can field, and the Combine fields them in enormous numbers. Every military district maintains garrison formations whose sole purpose is holding ground that BattleMech regiments cannot occupy permanently. Slow and vulnerable in open terrain, these soldiers prove their worth through discipline and endurance, standing post on worlds across the Combine because the Dragon demands nothing less. Their support squads operate portable machine guns that deliver sustained automatic fire at ranges well beyond personal weapons. A single well-placed machine gun team can suppress an entire enemy platoon and threaten light vehicles that would otherwise ignore conventional infantry.</p>
-</overview>
 

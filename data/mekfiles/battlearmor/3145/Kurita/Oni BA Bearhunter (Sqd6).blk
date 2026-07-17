@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a635-71e3-b695-64bc8f30baf9
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Oni Battle Armor
 <year>
 3134
 </year>
-
-<originalBuildYear>
-3134
-</originalBuildYear>
 
 <type>
 Mixed (IS Chassis)
@@ -103,38 +103,14 @@ Clan BA Fire Resistant:RA
 <slotless_equipment>
 BAJumpJet
 </slotless_equipment>
-<source>
-TR:3145:DC
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-6
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-16 21:37:26
-<overview>
-<p>Produced by Luthien Armor Works for the Draconis Combine Mustered Soldiery, the Oni is a medium battlesuit that entered service in 3134 as a replacement for the aging Raiden. The one-ton humanoid design employs mixed Inner Sphere and Clan technology, incorporating advanced protective plating to improve operator survivability. Intended as a flexible line unit, the Oni fills multiple battlefield roles through interchangeable weapon loadouts rather than any single specialization. The suit's name translates from Japanese as "ogre," a designation its operators have found grimly appropriate given the design's imposing but graceless silhouette.</p>
-</overview>
 
 <capabilities>
 <p>The Bearhunter configuration mounts a Bearhunter Superheavy Autocannon on the right-arm modular weapon mount, fed by twenty rounds of ammunition. This loadout punishes other battle armor and conventional infantry at short range, delivering fire that can shred lighter suits quickly. A left-arm Heavy Vibro Claw handles close-quarters fighting, while a basic manipulator on the weapon arm allows interaction with equipment and OmniMech handholds for mechanized transport.</p><p>Three hundred and fifty kilograms of Clan-specification fire-resistant armor absorbs punishment from both conventional weapons and incendiary attacks. An ECM suite disrupts enemy targeting, and extended life support permits prolonged deployment in hostile environments. Ground speed of thirty-two kilometers per hour is adequate but unremarkable, and the Oni lacks any jump capability, limiting tactical mobility in rough terrain.</p>
 </capabilities>
+
+<overview>
+<p>Produced by Luthien Armor Works for the Draconis Combine Mustered Soldiery, the Oni is a medium battlesuit that entered service in 3134 as a replacement for the aging Raiden. The one-ton humanoid design employs mixed Inner Sphere and Clan technology, incorporating advanced protective plating to improve operator survivability. Intended as a flexible line unit, the Oni fills multiple battlefield roles through interchangeable weapon loadouts rather than any single specialization. The suit's name translates from Japanese as "ogre," a designation its operators have found grimly appropriate given the design's imposing but graceless silhouette.</p>
+</overview>
 
 <deployment>
 <p>Six-trooper formations of the Bearhunter configuration appeared in garrison commands that experimented with expanded squad structures modeled on ComStar's Level I organization. The larger formation concentrated more autocannon fire per tactical unit, though the increased logistical demands strained already difficult supply chains. Few commands sustained these oversized formations for extended periods.</p>
@@ -167,4 +143,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:3145:DC
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

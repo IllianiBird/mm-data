@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ab94-7df5-afcd-29f6b48c2528
+</UUID>
+
 <UnitType>
 Dropship
 </UnitType>
@@ -35,10 +39,6 @@ Union-X
 <year>
 3071
 </year>
-
-<originalBuildYear>
-3071
-</originalBuildYear>
 
 <type>
 IS Level 2
@@ -175,12 +175,45 @@ Heavy PPC
 12
 </structural_integrity>
 
+<capabilities>
+<p>The 3071 variant of the Union-X reconfigures the combined-arms loadout for a more infantry-heavy force structure, reducing Mek capacity to four cubicles while expanding battle armor bays to twelve and adding four heavy vehicle slots. Four fighter bays remain for aerospace support, and 335 tons of cargo space handles the increased supply needs of the larger embarked ground force. The expanded crew complement of 143 reflects the additional personnel required to support the vehicle and battle armor contingents. All other systems including the enhanced weapons array, 120 double heat sinks, 737 points of armor, and improved structural integrity remain identical to the original Union-X, making this a reconfiguration rather than a redesign.</p>
+</capabilities>
 
+<overview>
+<p>The Union class DropShip is regarded as the yardstick against which all other military transports are measured. First launched in 2708, this 3,600-ton spheroid design has served as the standard company-level BattleMek carrier for over three centuries, capable of delivering twelve Meks and two aerospace fighters into the hottest landing zone. Produced in enormous numbers by shipyards across the Inner Sphere, the Union weathered the technological collapse of the Succession Wars far better than the larger and more complex transports it was often paired with, and has been in continuous production since its inception.</p><p>Smaller and more numerous than vessels like the Overlord or Colossus, the Union's combination of adequate capacity, proven reliability, and relative ease of manufacture has made it the most widely deployed military DropShip in the Inner Sphere. Its distinctive spheroid silhouette is recognized by soldiers and civilians alike on virtually every inhabited world, an enduring symbol of military power projection from the Periphery to the Clan homeworlds.</p>
+</overview>
 
+<deployment>
+<p>The 3071 variant of the Union-X entered service during the Jihad, configured for the infantry-heavy operations that characterized much of the fighting against the Word of Blake. Its expanded battle armor capacity made it particularly effective for urban combat and facility seizure operations where armored infantry could operate in environments too confined for BattleMeks.</p>
+</deployment>
 
+<history>
+<p>The Union class entered service in 2708 during the Star League era, designed by Boeing Interstellar to provide a standardized company-level Mek transport for the Star League Defense Force. The original vessels featured comparatively luxurious crew facilities including double-occupancy quarters and spacious recreation areas, reflecting the standards of the era. The design proved immediately successful and was adopted across the SLDF, with multiple manufacturers licensed to meet demand.</p><p>The Succession Wars that followed the Star League's collapse tested the Union's durability to its limits. As technological capabilities declined, a series of hydraulic and electrical malfunctions on later production vessels led designers to replace the original crew amenities with communal bunkrooms and multipurpose areas. These modifications also degraded the air circulation system, giving the Union and its larger cousin the Overlord a distinctive stale atmospheric taint that became notorious among their crews. Despite these compromises, the Union's fundamental soundness ensured it remained in production throughout the Succession Wars, though shortages of drive system replacement parts during the Third Succession War nearly ended the class's dominance.</p><p>The Clan Invasion of 3049 brought renewed urgency to modernization efforts. In July 3055, Federated-Boeing Interstellar launched a comprehensive refit featuring significantly upgraded weapons and a return to Star League-era crew facilities with double-occupancy cabins and improved air filtration. A terrorist incident at the Galax shipyards curtailed initial production, but the upgraded model eventually entered widespread service. The Clans independently developed the Union C, scaling the hull up to 4,700 tons with improved thrust and Clan-grade weapons to carry fifteen Meks in the Clan Trinary structure.</p><p>The Word of Blake Jihad spawned the most radical Union variant yet when the Blakists developed the Pocket WarShip conversion, mounting capital-grade missile launchers on a hull that appeared outwardly identical to the standard Union. These vessels attracted infamy during the Jihad for their shock appearances in engagements where defenders expected nothing more than a conventional transport. Meanwhile, the Shipil Company on Skye produced the Union-X, a 3,700-ton expansion that traded Mek capacity for additional fighter and battle armor bays to support the evolving combined-arms doctrine of the post-Clan Invasion era. The Union remains the most produced and widely distributed military DropShip in the Inner Sphere, with no sign of its dominance waning.</p>
+</history>
 
+<manufacturer>
+Shipil Company
+</manufacturer>
 
+<primaryFactory>
+Skye
+</primaryFactory>
 
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<systemModels>
+CHASSIS:Unknown
+ENGINE:Star League V250
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemModels>
 
 <use>
 'Mech/ASF carrier
@@ -237,45 +270,4 @@ RS:3067u
 <escape_pod>
 5
 </escape_pod>
-
-# Fluff Date: 2026-02-28 15:44:34
-<overview>
-<p>The Union class DropShip is regarded as the yardstick against which all other military transports are measured. First launched in 2708, this 3,600-ton spheroid design has served as the standard company-level BattleMek carrier for over three centuries, capable of delivering twelve Meks and two aerospace fighters into the hottest landing zone. Produced in enormous numbers by shipyards across the Inner Sphere, the Union weathered the technological collapse of the Succession Wars far better than the larger and more complex transports it was often paired with, and has been in continuous production since its inception.</p><p>Smaller and more numerous than vessels like the Overlord or Colossus, the Union's combination of adequate capacity, proven reliability, and relative ease of manufacture has made it the most widely deployed military DropShip in the Inner Sphere. Its distinctive spheroid silhouette is recognized by soldiers and civilians alike on virtually every inhabited world, an enduring symbol of military power projection from the Periphery to the Clan homeworlds.</p>
-</overview>
-
-<capabilities>
-<p>The 3071 variant of the Union-X reconfigures the combined-arms loadout for a more infantry-heavy force structure, reducing Mek capacity to four cubicles while expanding battle armor bays to twelve and adding four heavy vehicle slots. Four fighter bays remain for aerospace support, and 335 tons of cargo space handles the increased supply needs of the larger embarked ground force. The expanded crew complement of 143 reflects the additional personnel required to support the vehicle and battle armor contingents. All other systems including the enhanced weapons array, 120 double heat sinks, 737 points of armor, and improved structural integrity remain identical to the original Union-X, making this a reconfiguration rather than a redesign.</p>
-</capabilities>
-
-<deployment>
-<p>The 3071 variant of the Union-X entered service during the Jihad, configured for the infantry-heavy operations that characterized much of the fighting against the Word of Blake. Its expanded battle armor capacity made it particularly effective for urban combat and facility seizure operations where armored infantry could operate in environments too confined for BattleMeks.</p>
-</deployment>
-
-<history>
-<p>The Union class entered service in 2708 during the Star League era, designed by Boeing Interstellar to provide a standardized company-level Mek transport for the Star League Defense Force. The original vessels featured comparatively luxurious crew facilities including double-occupancy quarters and spacious recreation areas, reflecting the standards of the era. The design proved immediately successful and was adopted across the SLDF, with multiple manufacturers licensed to meet demand.</p><p>The Succession Wars that followed the Star League's collapse tested the Union's durability to its limits. As technological capabilities declined, a series of hydraulic and electrical malfunctions on later production vessels led designers to replace the original crew amenities with communal bunkrooms and multipurpose areas. These modifications also degraded the air circulation system, giving the Union and its larger cousin the Overlord a distinctive stale atmospheric taint that became notorious among their crews. Despite these compromises, the Union's fundamental soundness ensured it remained in production throughout the Succession Wars, though shortages of drive system replacement parts during the Third Succession War nearly ended the class's dominance.</p><p>The Clan Invasion of 3049 brought renewed urgency to modernization efforts. In July 3055, Federated-Boeing Interstellar launched a comprehensive refit featuring significantly upgraded weapons and a return to Star League-era crew facilities with double-occupancy cabins and improved air filtration. A terrorist incident at the Galax shipyards curtailed initial production, but the upgraded model eventually entered widespread service. The Clans independently developed the Union C, scaling the hull up to 4,700 tons with improved thrust and Clan-grade weapons to carry fifteen Meks in the Clan Trinary structure.</p><p>The Word of Blake Jihad spawned the most radical Union variant yet when the Blakists developed the Pocket WarShip conversion, mounting capital-grade missile launchers on a hull that appeared outwardly identical to the standard Union. These vessels attracted infamy during the Jihad for their shock appearances in engagements where defenders expected nothing more than a conventional transport. Meanwhile, the Shipil Company on Skye produced the Union-X, a 3,700-ton expansion that traded Mek capacity for additional fighter and battle armor bays to support the evolving combined-arms doctrine of the post-Clan Invasion era. The Union remains the most produced and widely distributed military DropShip in the Inner Sphere, with no sign of its dominance waning.</p>
-</history>
-
-<manufacturer>
-Shipil Company
-</manufacturer>
-
-<primaryFactory>
-Skye
-</primaryFactory>
-
-<systemManufacturers>
-CHASSIS:Unknown
-ENGINE:Unknown
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemManufacturers>
-
-<systemModels>
-CHASSIS:Unknown
-ENGINE:Star League V250
-ARMOR:Unknown
-COMMUNICATIONS:Unknown
-TARGETING:Unknown
-</systemModels>
 

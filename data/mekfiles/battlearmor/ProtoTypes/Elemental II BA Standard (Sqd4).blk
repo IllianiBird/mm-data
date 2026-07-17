@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-a7e0-7a77-8c53-b7b463402402
+</UUID>
+
 <UnitType>
 BattleArmor
 </UnitType>
@@ -35,10 +39,6 @@ Elemental II Battle Armor
 <year>
 3084
 </year>
-
-<originalBuildYear>
-3084
-</originalBuildYear>
 
 <type>
 Clan Level 3
@@ -88,38 +88,14 @@ BABasicManipulator:RA
 
 <Trooper 4 Equipment>
 </Trooper 4 Equipment>
-<source>
-TR:Proto
-</source>
-
-<chassis>
-biped
-</chassis>
-
-<jumpingMP>
-0
-</jumpingMP>
-
-<armor>
-10
-</armor>
-
-<Trooper Count>
-4
-</Trooper Count>
-
-<weightclass>
-2
-</weightclass>
-
-# Fluff Date: 2026-03-13 20:44:32
-<overview>
-<p>Developed by Clan Hell's Horses at the Csesztreg Industriplex Gamma, the Elemental II is a ground-mobility focused evolution of the original Elemental suit. Entering production in 3084 after an extended experimental phase, the one-ton design prioritizes raw ground speed over vertical agility. The Elemental II was shaped by the Horses' combined-arms doctrine, which emphasizes rapid repositioning alongside vehicle and BattleMech formations. While the suit has earned a reputation for reliability and ease of maintenance, its departure from the jump-capable Elemental formula has limited its adoption outside Hell's Horses formations.</p>
-</overview>
 
 <capabilities>
 <p>The Elemental II abandons the original suit's jump jets in favor of a battle armor myomer booster system, tripling ground speed to approximately forty-six kilometers per hour. This dramatic mobility improvement comes at the cost of the vertical agility that defines the standard Elemental. The suit carries an anti-personnel gauss rifle as its primary weapon alongside a secondary anti-personnel mount, providing effective firepower against infantry and light vehicles. Armor protection matches the original Elemental at 250 kilograms, keeping the trooper well-shielded against BattleMech-scale weapons. Battle claws on each arm preserve the ability to execute anti-BattleMech swarming attacks. The myomer booster's heat output is considerable, effectively eliminating any possibility of concealment from infrared detection. The suit's basic manipulators replace the original's battle claws in some configurations, allowing troopers to interact with structures and equipment with reduced collateral damage. For operations requiring rapid ground repositioning across open terrain, the Elemental II outperforms its predecessor, but urban and mountainous environments still favor the jump-capable original.</p>
 </capabilities>
+
+<overview>
+<p>Developed by Clan Hell's Horses at the Csesztreg Industriplex Gamma, the Elemental II is a ground-mobility focused evolution of the original Elemental suit. Entering production in 3084 after an extended experimental phase, the one-ton design prioritizes raw ground speed over vertical agility. The Elemental II was shaped by the Horses' combined-arms doctrine, which emphasizes rapid repositioning alongside vehicle and BattleMech formations. While the suit has earned a reputation for reliability and ease of maintenance, its departure from the jump-capable Elemental formula has limited its adoption outside Hell's Horses formations.</p>
+</overview>
 
 <deployment>
 <p>Inner Sphere forces gained limited access to the Elemental II through salvage and trade during the latter Dark Age period. Four-trooper squads valued the suit's ground speed for rapid response operations across the sprawling urban environments of the former Clan Occupation Zone, where the ability to keep pace with wheeled vehicles outweighed the loss of jump mobility that characterized the original Elemental.</p>
@@ -152,4 +128,28 @@ ARMOR:Unknown
 COMMUNICATIONS:Unknown
 TARGETING:Unknown
 </systemModels>
+
+<source>
+TR:Proto
+</source>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+0
+</jumpingMP>
+
+<armor>
+10
+</armor>
+
+<Trooper Count>
+4
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
 

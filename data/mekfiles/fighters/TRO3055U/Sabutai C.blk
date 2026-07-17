@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -15,7 +15,11 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#Saved from version 0.50.12 on 2026-02-26
+#Saved from version 0.51.01 on 2026-07-12
+<UUID>
+019f583e-ae2e-787b-9046-70271f616484
+</UUID>
+
 <UnitType>
 AeroSpaceFighter
 </UnitType>
@@ -35,10 +39,6 @@ C
 <year>
 3048
 </year>
-
-<originalBuildYear>
-3048
-</originalBuildYear>
 
 <type>
 Clan Level 2
@@ -132,26 +132,13 @@ CLERMediumLaser:OMNI
 <Fuselage Equipment>
 </Fuselage Equipment>
 
-<source>
-TR:3055U
-</source>
-
-<published>
-RS:3055Uu
-</published>
-
-<tonnage>
-75.0
-</tonnage>
-
-# Fluff Date: 2026-02-26 19:50:04
-<overview>
-<p>The Sabutai is a 75-ton heavy OmniFighter developed by Clan Smoke Jaguar and introduced in 3048, conceived around a single overriding philosophy: delivering the maximum possible firepower from a single hull. Its generous pod space gives Clan aerospace commanders a flexible and devastating platform capable of overwhelming most opposition in both atmospheric and space combat. The design pays for its offensive capacity with relatively modest armor for a fighter of its weight class, and configurations carrying heavy energy suites push the base chassis toward its thermal limits. Despite these compromises, the Sabutai proved itself a durable and adaptable frontline asset, spreading well beyond its Smoke Jaguar origins to serve in toumans throughout Clan space. Its combination of raw striking power and the flexibility of pod technology has made it one of the most respected heavy OmniFighters in Clan aerospace arsenals.</p>
-</overview>
-
 <capabilities>
 <p>The Sabutai's base chassis is built around an endo steel airframe driven by a 300-rated XL fusion engine, delivering a safe thrust of 6 and a maximum thrust of 9. This places it among the faster heavy OmniFighters available to Clan aerospace commanders, giving pilots the ability to dictate engagement range against most opponents. Ferro-aluminum armor provides a measure of protection, though at 192 points the coverage leaves the fighter less durable than some contemporaries in the weight class.</p><p>The base chassis allocates 15 double heat sinks for thermal management, a figure that is adequate for ballistic and mixed-weapons configurations but becomes insufficient when heavier energy loadouts are carried. Engineers developing later configurations were compelled to dedicate pod tonnage to additional heat sink capacity to compensate. The 44.5 tons of available pod space is nonetheless exceptional, supporting a wider variety of weapons and support systems than most comparable designs.</p><p>The base communications suite is the Schedule 11, paired with the Mark 11 targeting and tracking system, both of which deliver reliable performance across the Sabutai's full operational envelope. The fighter's primary weakness in ammunition-dependent configurations lies in the limited number of reloads available within the pod space, which can force premature disengagement after sustained fire.</p>
 </capabilities>
+
+<overview>
+<p>The Sabutai is a 75-ton heavy OmniFighter developed by Clan Smoke Jaguar and introduced in 3048, conceived around a single overriding philosophy: delivering the maximum possible firepower from a single hull. Its generous pod space gives Clan aerospace commanders a flexible and devastating platform capable of overwhelming most opposition in both atmospheric and space combat. The design pays for its offensive capacity with relatively modest armor for a fighter of its weight class, and configurations carrying heavy energy suites push the base chassis toward its thermal limits. Despite these compromises, the Sabutai proved itself a durable and adaptable frontline asset, spreading well beyond its Smoke Jaguar origins to serve in toumans throughout Clan space. Its combination of raw striking power and the flexibility of pod technology has made it one of the most respected heavy OmniFighters in Clan aerospace arsenals.</p>
+</overview>
 
 <deployment>
 <p>The C configuration is the Sabutai's pure energy specialist, mounting ER large and medium lasers with no reliance on ammunition. Additional heat sink capacity integrated into the pod loadout manages the thermal demands of sustained fire, making it one of the few Sabutai variants capable of extended independent operations. The C excels at strafing runs against ground targets and protracted dogfights where resupply is unavailable, combining good reach with solid damage output across multiple arcs.</p>
@@ -186,4 +173,16 @@ JUMP_JET:N/A
 COMMUNICATIONS:Schedule 11
 TARGETING:Mark 11
 </systemModels>
+
+<source>
+TR:3055U
+</source>
+
+<published>
+RS:3055Uu
+</published>
+
+<tonnage>
+75.0
+</tonnage>
 
