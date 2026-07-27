@@ -22,9 +22,11 @@
     <shortBriefing>Capture the enemy convoy intact before it can escape.</shortBriefing>
     <detailedBriefing><![CDATA[An enemy supply convoy is running through our area of operations, and command wants it intact—not scattered wreckage. Those vehicles and their cargo are worth far more captured than destroyed.
 
-Immobilize the transports and hold them; do not simply blow them apart. The convoy will run for the far edge the moment it sees you, and its escort will fight to keep it moving. Cripple the escort, box in the transports, and take them before they slip off the map. Restraint is the hard part—it is easier to kill a convoy than to steal one.
+Immobilize the transports and hold them; do not simply blow them apart. The convoy will run for the far edge the moment it sees you, and its escort will fight to keep it moving.
 
-Capture as much of the convoy as you can and drive off its escort.]]></detailedBriefing>
+Cripple the escort, box in the transports, and take them before they slip off the map. Restraint is the hard part—it is easier to kill a convoy than to steal one.
+
+Capture as much of the convoy as you can by driving off its escort.]]></detailedBriefing>
     <battlefieldControl>VICTOR</battlefieldControl>
     <isHostileFacility>false</isHostileFacility>
     <isAlliedFacility>false</isAlliedFacility>
@@ -55,9 +57,7 @@ Capture as much of the convoy as you can and drive off its escort.]]></detailedB
                 <contributesToMapSize>true</contributesToMapSize>
                 <contributesToUnitCount>true</contributesToUnitCount>
                 <deployOffboard>false</deployOffboard>
-                <deploymentZones>
-                    <deploymentZone>6</deploymentZone>
-                </deploymentZones>
+                <deploymentZones />
                 <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>0</forceAlignment>
@@ -70,7 +70,8 @@ Capture as much of the convoy as you can and drive off its escort.]]></detailedB
                 <objectiveLinkedForces />
                 <retreatThreshold>50</retreatThreshold>
                 <startingAltitude>0</startingAltitude>
-                <syncDeploymentType>None</syncDeploymentType>
+                <syncDeploymentType>OppositeEdge</syncDeploymentType>
+                <syncedForceName>Convoy</syncedForceName>
                 <useArtillery>false</useArtillery>
             </value>
         </entry>
@@ -87,9 +88,10 @@ Capture as much of the convoy as you can and drive off its escort.]]></detailedB
                 <contributesToUnitCount>false</contributesToUnitCount>
                 <deployOffboard>false</deployOffboard>
                 <deploymentZones>
-                    <deploymentZone>4</deploymentZone>
+                    <deploymentZone>2</deploymentZone>
+                    <deploymentZone>6</deploymentZone>
                 </deploymentZones>
-                <destinationZone>8</destinationZone>
+                <destinationZone>6</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
                 <forceMultiplier>0.5</forceMultiplier>
@@ -126,15 +128,12 @@ Capture as much of the convoy as you can and drive off its escort.]]></detailedB
                 <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
-                <forceMultiplier>0.75</forceMultiplier>
+                <forceMultiplier>1.0</forceMultiplier>
                 <forceName>OpFor</forceName>
                 <generationMethod>1</generationMethod>
                 <generationOrder>5</generationOrder>
                 <maxWeightClass>4</maxWeightClass>
                 <minWeightClass>0</minWeightClass>
-                <objectiveLinkedForces>
-                    <objectiveLinkedForce>Convoy</objectiveLinkedForce>
-                </objectiveLinkedForces>
                 <retreatThreshold>50</retreatThreshold>
                 <startingAltitude>0</startingAltitude>
                 <syncDeploymentType>SameEdge</syncDeploymentType>

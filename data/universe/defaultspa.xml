@@ -2263,32 +2263,32 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
         <lookupName>edge_when_admin_acquire_fail_other</lookupName>
         <displayName>Use Edge for Acquisition Failure (TN 2–7).</displayName>
-        <desc><![CDATA[Failed acquisition check will be rerolled with edge (only if the Target Number is between 2 and 7).]]></desc>
+        <desc><![CDATA[Failed acquisition check will be rerolled with Edge (only if the Target Number is between 2 and 7).]]></desc>
     </ability>
     <ability>
         <lookupName>edge_when_admin_acquire_fail_greater_than_eight</lookupName>
         <displayName>Use Edge for Acquisition Failure (TN 8–10).</displayName>
-        <desc><![CDATA[Failed acquisition check will be rerolled with edge (only if the Target Number is between 8 and 10).]]></desc>
+        <desc><![CDATA[Failed acquisition check will be rerolled with Edge (only if the Target Number is between 8 and 10).]]></desc>
     </ability>
     <ability>
         <lookupName>edge_when_admin_acquire_fail_greater_than_eleven</lookupName>
         <displayName>Use Edge for Acquisition Failure (TN 11–12).</displayName>
-        <desc><![CDATA[Failed acquisition check will be rerolled with edge (only if the Target Number is 11 or 12).]]></desc>
+        <desc><![CDATA[Failed acquisition check will be rerolled with Edge (only if the Target Number is 11 or 12).]]></desc>
     </ability>
     <ability>
         <lookupName>edge_when_salvage_accident</lookupName>
         <displayName>Use Edge for Salvage Accidents.</displayName>
-        <desc><![CDATA[Salvage Accidents will be rerolled with edge.]]></desc>
+        <desc><![CDATA[Salvage Accidents will be rerolled with Edge.]]></desc>
     </ability>
     <ability>
         <lookupName>edge_when_escape_attempt_fail</lookupName>
         <displayName>Use Edge for Escape Attempt Failure.</displayName>
-        <desc><![CDATA[Failed escape attempts will be rerolled with edge.]]></desc>
+        <desc><![CDATA[Failed escape attempts will be rerolled with Edge.]]></desc>
     </ability>
     <ability>
         <lookupName>edge_when_admin_fail_appraisal</lookupName>
         <displayName>Use Edge for Procurement Cost Appraisal Failure.</displayName>
-        <desc><![CDATA[Failed appraisal checks made to reduce procurement costs will be rerolled with edge.]]></desc>
+        <desc><![CDATA[Failed appraisal checks made to reduce procurement costs will be rerolled with Edge.]]></desc>
     </ability>
     <ability>
         <lookupName>edge_when_commander_negotiation_fail</lookupName>
@@ -2298,12 +2298,17 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
         <lookupName>edge_when_recon_fail</lookupName>
         <displayName>Use Edge for Scouting failure.</displayName>
-        <desc><![CDATA[Failed scouting checks will be rerolled with edge.]]></desc>
+        <desc><![CDATA[Failed scouting checks will be rerolled with Edge.]]></desc>
     </ability>
     <ability>
         <lookupName>edge_when_training_fail</lookupName>
         <displayName>Use Edge for Training Operation Failure.</displayName>
-        <desc><![CDATA[Failed training checks made during training operations will be rerolled with edge.]]></desc>
+        <desc><![CDATA[Failed training checks made during training operations will be rerolled with Edge.]]></desc>
+    </ability>
+    <ability>
+        <lookupName>edge_when_random_event_fail</lookupName>
+        <displayName>Use Edge for Random Event Failure.</displayName>
+        <desc><![CDATA[Failed skill or attributes checks made when resolving a Random Event will be rerolled with Edge.]]></desc>
     </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
@@ -2325,7 +2330,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <edgeTrigger>
         <lookupName>edge_paper_cut</lookupName>
         <displayName>Use Edge to avoid paper cut.</displayName>
-        <desc><![CDATA[A paper cut injury check will be rerolled with edge.]]></desc>
+        <desc><![CDATA[A paper cut injury check will be rerolled with Edge.]]></desc>
     </edgeTrigger>
 
     <implant>

@@ -24,7 +24,9 @@
 
 Do not try to fight the whole ring—you cannot. Concentrate against one arc, blow a hole in it, and drive the force through to open ground before the rest of the cordon can collapse in on you. Speed and shock, not attrition.
 
-Break out and get 50% of the force clear of the map edge.]]></detailedBriefing>
+Break out and get 50% of the force clear of the North map edge.
+
+Alternatively, you can break out of any direction. However, if you choose to go this route MekHQ will incorrectly flag you as having failed the scenario. This can be manually corrected during scenario resolution.]]></detailedBriefing>
     <battlefieldControl>ENEMY</battlefieldControl>
     <isHostileFacility>false</isHostileFacility>
     <isAlliedFacility>false</isAlliedFacility>
@@ -80,7 +82,7 @@ Break out and get 50% of the force clear of the map edge.]]></detailedBriefing>
             </value>
         </entry>
         <entry>
-            <key>OpFor</key>
+            <key>OpForNorth</key>
             <value>
                 <actualDeploymentZone>-1</actualDeploymentZone>
                 <allowAeroBombs>false</allowAeroBombs>
@@ -93,15 +95,47 @@ Break out and get 50% of the force clear of the map edge.]]></detailedBriefing>
                 <deployOffboard>false</deployOffboard>
                 <deploymentZones>
                     <deploymentZone>2</deploymentZone>
-                    <deploymentZone>4</deploymentZone>
-                    <deploymentZone>6</deploymentZone>
-                    <deploymentZone>8</deploymentZone>
                 </deploymentZones>
                 <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
-                <forceMultiplier>1.25</forceMultiplier>
-                <forceName>OpFor</forceName>
+                <forceMultiplier>0.75</forceMultiplier>
+                <forceName>OpFor North</forceName>
+                <generationMethod>1</generationMethod>
+                <generationOrder>5</generationOrder>
+                <maxWeightClass>4</maxWeightClass>
+                <minWeightClass>0</minWeightClass>
+                <objectiveLinkedForces />
+                <retreatThreshold>50</retreatThreshold>
+                <startingAltitude>0</startingAltitude>
+                <syncDeploymentType>None</syncDeploymentType>
+                <useArtillery>false</useArtillery>
+                <roleChoices>
+                    <forceRole>SR_FIRE_SUPPORT</forceRole>
+                    <forceRole>CAVALRY</forceRole>
+                </roleChoices>
+            </value>
+        </entry>
+        <entry>
+            <key>OpForSouth</key>
+            <value>
+                <actualDeploymentZone>-1</actualDeploymentZone>
+                <allowAeroBombs>false</allowAeroBombs>
+                <allowedUnitType>-2</allowedUnitType>
+                <arrivalTurn>0</arrivalTurn>
+                <canReinforceLinked>true</canReinforceLinked>
+                <contributesToBV>false</contributesToBV>
+                <contributesToMapSize>true</contributesToMapSize>
+                <contributesToUnitCount>false</contributesToUnitCount>
+                <deployOffboard>false</deployOffboard>
+                <deploymentZones>
+                    <deploymentZone>6</deploymentZone>
+                </deploymentZones>
+                <destinationZone>5</destinationZone>
+                <fixedUnitCount>0</fixedUnitCount>
+                <forceAlignment>2</forceAlignment>
+                <forceMultiplier>0.75</forceMultiplier>
+                <forceName>OpFor South</forceName>
                 <generationMethod>1</generationMethod>
                 <generationOrder>5</generationOrder>
                 <maxWeightClass>4</maxWeightClass>
@@ -139,7 +173,7 @@ Break out and get 50% of the force clear of the map edge.]]></detailedBriefing>
                 </failureEffect>
             </failureEffects>
             <additionalDetails />
-            <description>Get 50% of the following forces to the far edge. +2 SVP if succeeded, -2 SVP if failed.</description>
+            <description>Get 50% of the following forces to the North edge. +2 SVP if succeeded, -2 SVP if failed.</description>
             <destinationEdge>NORTH</destinationEdge>
             <objectiveCriterion>ReachMapEdge</objectiveCriterion>
             <percentage>50</percentage>
