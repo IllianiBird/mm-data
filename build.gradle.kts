@@ -48,6 +48,13 @@ repositories {
     mavenCentral()
 }
 
+// mm-data only produces the zipped artifacts (unit files, RATs, planetary systems)
+// that the consuming projects (MegaMek, MegaMekLab, MekHQ) substitute for the loose
+// source files. The consumers' own `stageDataFiles` tasks now copy the remaining
+// loose data directly out of `mm-data/data`, so there is no intermediate staging
+// copy here. Removing that copy avoids moving ~900 MB of image/board data twice per
+// build; see each consumer's build.gradle for the split, incremental sync tasks.
+
 tasks.register<Zip>("unitFilesZip") {
     description = "Creates zip archives of all the unit file folders (excluding loose .txt and .xml files)."
     group = "build"
@@ -82,132 +89,4 @@ tasks.register<Zip>("connectorSystemZip") {
     from("data/universe/planetary_systems/connector_systems/")
     destinationDirectory.set(File(stagingFolder, "universe/planetary_systems"))
     archiveFileName.set("connector_systems.zip")
-}
-
-tasks.register<Copy>("stageMMFiles") {
-    description = "Stages files for MM"
-    group = "build"
-
-    dependsOn("ratZip")
-    dependsOn("unitFilesZip")
-
-    from("data") {
-        include("boards/**/*.*")
-        include("css/**/*.*")
-        include("fonts/**/*.*")
-        include("forcegenerator/**/*.*")
-        include("images/camo/**/*.*")
-        include("images/fluff/**/*.*")
-        include("images/hexes/**/*.*")
-        include("images/misc/**/*.*")
-        include("images/portraits/**/*.*")
-        include("images/temp/**/*.*")
-        include("images/units/**/*.*")
-        include("images/universe/**/*.*")
-        include("images/widgets/**/*.*")
-        include("mapgen/**/*.*")
-        include("mapsetup/**/*.*")
-        include("mekfiles/*.txt")
-        include("mekfiles/*.xml")
-        exclude("mekfiles/*.cache")
-        include("names/**/*.*")
-        include("scenarios/**/*.*")
-        include("sounds/**/*.*")
-        include("sourcebooks/*.*")
-        include("universe/eras.xml")
-        include("universe/ranks.xml")
-        include("universe/commands/**/*.*")
-        include("universe/factions/**/*.*")
-    }
-
-    from(stagingFolder) {
-        include("mekfiles/**/*.*")
-        include("rat/**/*.*")
-        exclude("mekfiles/*.cache")
-    }
-
-    into("${stagingFolder}/mm")
-}
-
-tasks.register<Copy>("stageMMLFiles") {
-    description = "Stages files for MML"
-    group = "build"
-
-    mustRunAfter("ratZip")
-    mustRunAfter("unitFilesZip")
-    dependsOn("ratZip")
-    dependsOn("unitFilesZip")
-
-    from("data") {
-        include("fonts/**/*.*")
-        include("forcegenerator/**/*.*")
-        include("images/fluff/**/*.*")
-        include("images/misc/**/*.*")
-        include("images/recordsheets/**/*.*")
-        include("images/units/**/*.*")
-        include("images/universe/**/*.*")
-        include("images/widgets/**/*.*")
-        include("mekfiles/*.txt")
-        include("mekfiles/*.xml")
-        exclude("mekfiles/*.cache")
-        include("names/**/*.*")
-        include("sourcebooks/*.*")
-        include("universe/commands/**/*.*")
-        include("universe/factions/**/*.*")
-        include("universe/eras.xml")
-        include("universe/ranks.xml")
-    }
-
-    from(stagingFolder) {
-        include("mekfiles/**/*.*")
-        include("rat/**/*.*")
-        exclude("mekfiles/*.cache")
-    }
-
-    into("${stagingFolder}/mml")
-}
-
-tasks.register<Copy>("stageFiles") {
-    description = "Stages files for All / MekHQ"
-    group = "build"
-
-    mustRunAfter("ratZip")
-    mustRunAfter("unitFilesZip")
-    mustRunAfter("canonSystemZip")
-    mustRunAfter("connectorSystemZip")
-    dependsOn("ratZip")
-    dependsOn("unitFilesZip")
-    dependsOn("canonSystemZip")
-    dependsOn("connectorSystemZip")
-
-    from("data/mekfiles") {
-        include("*.txt")
-        include("*.xml")
-        into("mekfiles")
-    }
-
-    from("data") {
-        exclude("mekfiles")
-        exclude("rat")
-        exclude("universe/planetary_systems/canon_systems")
-        exclude("universe/planetary_systems/connector_systems")
-        include("**/*.*")
-    }
-
-    from(stagingFolder) {
-        include("mekfiles/**/*.*")
-        exclude("mekfiles/*.cache")
-        include("rat/**/*.*")
-        include("universe/**/*.*")
-    }
-
-    // Mirror faction logos into images/force/Units so MekHQ's force-icon code
-    // can resolve them under data/images/force/ without duplicating the files
-    // in the source tree. The original images/universe/factions/ is preserved
-    // by the include("**/*.*") block above.
-    from("data/images/universe/factions") {
-        into("images/force/Units")
-    }
-
-    into("${stagingFolder}/all")
 }
