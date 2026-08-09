@@ -1107,9 +1107,9 @@ They can make one additional procurement attempt per day.]]></desc>
     <ability>
         <lookupName>atow_alternate_id</lookupName>
         <displayName>Alternate ID (ATOW)</displayName>
-        <desc><![CDATA[A low Reputation trait infers a penalty to Negotiation, Streetwise, and Protocols skill checks. While ranks in the Bloodmark trait cause the character to be hunted by assassins.
+        <desc><![CDATA[A low Fame trait infers a penalty to Reputation. It also applies a penalty to Negotiation, Streetwise, and Protocols skill checks. While ranks in the Bloodmark trait cause the character to be hunted by assassins.
 
-This SPA reduces the penalty from low Reputation by 2 and reduces the chance of an assassination attempt occurring by half. It also decreases the chance of a Dark Secret SPA being revealed.
+This SPA reduces the penalty from low Fame by 2 and reduces the chance of an assassination attempt occurring by half. It also decreases the chance of a Dark Secret SPA being revealed.
 
 While this SPA does exist in ATOW (and that's where you'll find its description), these effects are unique to MekHQ.]]></desc>
         <xpCost>200</xpCost>
@@ -1673,7 +1673,7 @@ This SPA increases maximum by Edge 1, but does not increase the Attribute itself
         <xpCost>-400</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <desc><![CDATA[Unit Reputation is decreased by 1 if this character is the campaign commander.
+        <desc><![CDATA[Force Reputation is decreased by 1 if this character is the campaign commander.
 
 A pilot who has Combat Paralysis rolls three dice per initiative check, keeping the only the lowest two rolls.
 
@@ -1686,7 +1686,7 @@ If individual initiative is enabled, this penalty applies only to the pilot's un
         <xpCost>400</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
-        <desc><![CDATA[Unit Reputation is increased by 1 if this character is the campaign commander.
+        <desc><![CDATA[Force Reputation is increased by 1 if this character is the campaign commander.
 
 A pilot who has Combat Sense rolls three dice per initiative check, keeping the top two rolls.
 
@@ -2044,7 +2044,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
         <lookupName>compulsion_racism</lookupName>
         <displayName>Trivial Compulsion - Racism (ATOW)</displayName>
-        <desc><![CDATA[-1 Reputation.
+        <desc><![CDATA[-1 Fame.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
@@ -2314,7 +2314,7 @@ This only has an effect if Advanced Medical's alternative mode is enabled.]]></d
     <ability>
         <lookupName>compulsion_pathologic_racism</lookupName>
         <displayName>Significant Compulsion - Pathologic Racism (ATOW)</displayName>
-        <desc><![CDATA[-2 Reputation.
+        <desc><![CDATA[-2 Fame.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
@@ -2325,7 +2325,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     <ability>
         <lookupName>compulsion_xenophobia</lookupName>
         <displayName>Significant Compulsion - Xenophobia (ATOW)</displayName>
-        <desc><![CDATA[-1 Reputation, -1 Connections.
+        <desc><![CDATA[-1 Fame, -1 Connections.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
@@ -2508,7 +2508,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
-Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 1 and Connections by 1.
+Once the characters' Dark Secret has been revealed, they permanently reduce their Fame by 1, Connections by 1.
 
 A trivial Dark Secret represents a personal lapse or dishonorable act that could harm the character's reputation if revealed.]]></desc>
         <xpCost>-100</xpCost>
@@ -2524,7 +2524,7 @@ A trivial Dark Secret represents a personal lapse or dishonorable act that could
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
-Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 2 and Connections by 1.
+Once the characters' Dark Secret has been revealed, they permanently reduce their Fame by 2 and Connections by 1.
 
 A significant Dark Secret represents a concealed wrongdoing that would damage key relationships or the character's career.]]></desc>
         <xpCost>-200</xpCost>
@@ -2540,7 +2540,7 @@ A significant Dark Secret represents a concealed wrongdoing that would damage ke
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
-Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 3 and Connections by 2.
+Once the characters' Dark Secret has been revealed, they permanently reduce their Fame by 3 and Connections by 2.
 
 A major Dark Secret represents a serious violation of law, duty, or trust that could lead to legal or social consequences.]]></desc>
         <xpCost>-300</xpCost>
@@ -2556,7 +2556,7 @@ A major Dark Secret represents a serious violation of law, duty, or trust that c
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
-Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 4 and Connections by 2.
+Once the characters' Dark Secret has been revealed, they permanently reduce their Fame by 4 and Connections by 2.
 
 A severe Dark Secret represents a morally or ethically damning secret that would provoke outrage or condemnation.]]></desc>
         <xpCost>-400</xpCost>
@@ -2572,7 +2572,7 @@ A severe Dark Secret represents a morally or ethically damning secret that would
 
 If the character also possesses the Alternate ID SPA, their Dark Secret is only recovered on a roll of 12.
 
-Once the characters' Dark Secret has been revealed, they permanently reduce their Reputation by 5 and Connections by 3.
+Once the characters' Dark Secret has been revealed, they permanently reduce their Fame by 5 and Connections by 3.
 
 An extreme Dark Secret represents a grave betrayal or atrocity that should lead to exile, imprisonment, or execution if exposed (not modeled in MekHQ).]]></desc>
         <xpCost>-500</xpCost>
@@ -2756,6 +2756,265 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <lookupName>edge_when_random_event_fail</lookupName>
         <displayName>Use Edge for Random Event Failure.</displayName>
         <desc><![CDATA[Failed skill or attributes checks made when resolving a Random Event will be rerolled with Edge.]]></desc>
+    </ability>
+    <ability>
+        <lookupName>dont_you_know_who_i_am</lookupName>
+        <displayName>Don't You Know Who I Am? (Unofficial)</displayName>
+        <desc><![CDATA[Increases the effect of this character's Fame on their Chaos Campaign Reputation by 25% (rounded normally).
+
+This is applied after all other modifiers.
+
+Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>certified_nobody</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>certified_nobody</lookupName>
+        <displayName>Certified Nobody (Unofficial)</displayName>
+        <desc><![CDATA[Decreases the effect of this character's Fame on their Chaos Campaign Reputation by 25% (rounded normally).
+
+This is applied after all other modifiers.
+
+Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>dont_you_know_who_i_am</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>important_friends</lookupName>
+        <displayName>Important Friends (Unofficial)</displayName>
+        <desc><![CDATA[Increases the effect of this character's Connections on their Chaos Campaign Reputation by 25% (rounded normally).
+
+This is applied after all other modifiers.
+
+Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>forgets_to_reply</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>forgets_to_reply</lookupName>
+        <displayName>Forgets to Reply (Unofficial)</displayName>
+        <desc><![CDATA[Decreases the effect of this character's Connections on their Chaos Campaign Reputation by 25% (rounded normally).
+
+This is applied after all other modifiers.
+
+Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>important_friends</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>big_personality</lookupName>
+        <displayName>Big Personality (Unofficial)</displayName>
+        <desc><![CDATA[This character counts twice when determining the force's average Experience and Chaos Campaign Reputation.
+
+Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>redacted</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>redacted</lookupName>
+        <displayName>Redacted (Unofficial)</displayName>
+        <desc><![CDATA[This character is ignored when determining the force's average Experience and Chaos Campaign Reputation.
+
+Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>big_personality</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>loose_lips</lookupName>
+        <displayName>Leaves Paper Trail (Unofficial)</displayName>
+        <desc><![CDATA[If this character is involved in an act of Piracy, they always gain a point of Criminal Record, even if their detachment was not caught.
+
+Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>leaves_no_trail</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>leaves_no_trail</lookupName>
+        <displayName>Leaves No Trail (Unofficial)</displayName>
+        <desc><![CDATA[If this character is caught in an act of Piracy, the Criminal Record they gain is reduced by one.
+
+Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>loose_lips</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>blameless</lookupName>
+        <displayName>Blameless (Unofficial)</displayName>
+        <desc><![CDATA[This character's Criminal Record is reduced by 1 when determining their Chaos Campaign Reputation.
+
+Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>scapegoat</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>scapegoat</lookupName>
+        <displayName>Scapegoat (Unofficial)</displayName>
+        <desc><![CDATA[This character's Criminal Record is increased by 1 when determining their Chaos Campaign Reputation.
+
+Has no effect if Chaos Campaign Reputation is disabled or if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>blameless</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>looks_good_on_paper</lookupName>
+        <displayName>Looks Good on Paper (Unofficial)</displayName>
+        <desc><![CDATA[This character counts as one Experience Level higher when determining the force's average Experience and Chaos Campaign Reputation.
+
+Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>unassuming</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>unassuming</lookupName>
+        <displayName>Unassuming (Unofficial)</displayName>
+        <desc><![CDATA[This character counts as one Experience Level lower when determining the force's average Experience and Chaos Campaign Reputation.
+
+Has no effect if Chaos Campaign Reputation is disabled or reduced effect if Campaign Tracked Chaos Reputation is enabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>looks_good_on_paper</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>silver_tongue</lookupName>
+        <displayName>Silver Tongue (Unofficial)</displayName>
+        <desc><![CDATA[While this character is the campaign commander, the force's Chaos Campaign Reputation debt penalty is halved.
+
+Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>loan_shark_victim</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>loan_shark_victim</lookupName>
+        <displayName>Loan Shark Victim (Unofficial)</displayName>
+        <desc><![CDATA[While this character is the campaign commander, the force's Chaos Campaign Reputation debt penalty is doubled.
+
+Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>silver_tongue</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>slippery</lookupName>
+        <displayName>Slippery (Unofficial)</displayName>
+        <desc><![CDATA[While this character is the campaign commander, the force is less likely to be caught committing acts of Piracy.
+
+Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>conspicuous</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>conspicuous</lookupName>
+        <displayName>Conspicuous (Unofficial)</displayName>
+        <desc><![CDATA[While this character is the campaign commander, the force is more likely to be caught committing acts of Piracy.
+
+Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>slippery</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>loot_goblin</lookupName>
+        <displayName>Loot Goblin (Unofficial)</displayName>
+        <desc><![CDATA[While this character is the campaign commander, acts of Piracy yield slightly more loot.
+
+Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+    </ability>
+    <ability>
+        <lookupName>impressive_leader</lookupName>
+        <displayName>Impressive Leader (Unofficial)</displayName>
+        <desc><![CDATA[While this character is the campaign commander, the force's Chaos Campaign Reputation is increased by 1.
+
+Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
+        <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>disappointing_leader</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>disappointing_leader</lookupName>
+        <displayName>Disappointing Leader (Unofficial)</displayName>
+        <desc><![CDATA[While this character is the campaign commander, the force's Chaos Campaign Reputation is decreased by 1.
+
+Has no effect if Chaos Campaign Reputation is disabled.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>impressive_leader</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>good_reputation</lookupName>
+        <displayName>Good Reputation (Unofficial)</displayName>
+        <desc><![CDATA[This character's contribution to their force's Chaos Campaign Reputation is increased by 1.
+
+Has no effect if Chaos Campaign Reputation is disabled or tracked at the campaign level.]]></desc>
+        <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>bad_reputation</invalidAbilities>
+    </ability>
+    <ability>
+        <lookupName>bad_reputation</lookupName>
+        <displayName>Bad Reputation (Unofficial)</displayName>
+        <desc><![CDATA[This character's contribution to their force's Chaos Campaign Reputation is decreased by 1.
+
+Has no effect if Chaos Campaign Reputation is disabled or tracked at the campaign level.]]></desc>
+        <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
+        <weight>1</weight>
+        <skillPrereq />
+        <invalidAbilities>good_reputation</invalidAbilities>
     </ability>
 
     <!-- Example entries corresponding to the examples in customspa.xml
