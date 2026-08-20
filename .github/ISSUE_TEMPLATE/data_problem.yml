@@ -61,10 +61,12 @@ body:
     id: report-files
     attributes:
       label: "Screenshots or files"
-      description: "A photograph of the page, a screenshot of the unit in MegaMek, or the data file itself."
+      description: >
+        A photograph of the page, a screenshot of the unit in MegaMek, or the data file itself.
+        GitHub will not accept a bare `.mtf` or `.blk`, so put those in a ZIP first.
     validations:
       required: false
-      accept: ".png,.jpg,.jpeg,.gif,.pdf,.txt,.csv,.zip,.mtf,.blk,.xml,.yml"
+      accept: ".png,.jpg,.jpeg,.gif,.pdf,.txt,.csv,.zip,.xml,.yml"
 
   - type: checkboxes
     id: final-checks
