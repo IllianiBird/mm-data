@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -16,26 +16,26 @@
 # affiliated with Microsoft.
 
 {
-"name": "Deep Raid Defense",
+"name": "Space - Intercept",
 "stratConScenarioType": "NONE",
-"shortBriefing": "Defend grounded DropShip from raid.",
-"detailedBriefing": "The enemy has launched a deep strike behind our lines, targeting one of our DropShips before it can take off.",
+"shortBriefing": "Intercept and destroy hostile air forces.",
+"detailedBriefing": "A hostile aircraft force is inbound, and we have an opportunity to intercept and cripple their strength before they can achieve their objective.",
 "isHostileFacility": false,
 "isAlliedFacility": false,
-"isSuitedForAmbushes": true,
+"isSuitedForAmbushes": false,
 "isSuitedForBungledPatrols": false,
-"battlefieldControl": "PLAYER",
+"battlefieldControl": "VICTOR",
 "mapParameters": {
-"baseWidth": 0,
-"baseHeight": 0,
+"baseWidth": 50,
+"baseHeight": 50,
 "widthScalingIncrement": 5,
 "heightScalingIncrement": 5,
-"additionalMapSheetTall": 1,
-"additionalMapSheetWide": 1,
+"additionalMapSheetTall": 0,
+"additionalMapSheetWide": 0,
 "allowRotation": false,
 "useStandardAtBSizing": true,
-"mapLocation": "AllGroundTerrain",
-"allowedTerrainTypes": ["DropZone" ]
+"mapLocation": "Space",
+"allowedTerrainTypes": []
 },
 "scenarioModifiers": [
 ],
@@ -44,10 +44,11 @@
 "forceAlignment": 0,
 "generationMethod": 0,
 "forceMultiplier": 1.0,
-"deploymentZones": [10],
+"deploymentZones": [2, 4, 6, 8
+],
 "destinationZone": 5,
 "retreatThreshold": 50,
-"allowedUnitType": -2,
+"allowedUnitType": -3,
 "canReinforceLinked": false,
 "contributesToBV": true,
 "contributesToUnitCount": true,
@@ -63,7 +64,7 @@
 "fixedUnitCount": 0,
 "generationOrder": 1,
 "allowAeroBombs": false,
-"startingAltitude": 0,
+"startingAltitude": 5,
 "useArtillery": false,
 "deployOffBoard": false,
 "objectiveLinkedForces": [],
@@ -76,96 +77,36 @@
 "forceAlignment": 2,
 "generationMethod": 1,
 "forceMultiplier": 1.0,
-"deploymentZones": [2, 4, 6, 8
-],
+"deploymentZones": [],
 "destinationZone": 5,
-"retreatThreshold": 33,
-"allowedUnitType": -2,
-"canReinforceLinked": false,
+"retreatThreshold": 50,
+"allowedUnitType": -3,
+"canReinforceLinked" : false,
 "contributesToBV": false,
 "contributesToUnitCount": false,
 "forceName": "OpFor",
-"syncedForceName": null,
-"syncDeploymentType": "None",
+"syncedForceName": "Player",
+"syncDeploymentType" : "OppositeEdge",
 "syncRetreatThreshold": false,
-"arrivalTurn": 1,
+"arrivalTurn": 0,
 "maxWeightClass": 4,
-"minWeightClass": 2,
-"contributesToMapSize": true,
+"minWeightClass": 0,
+"contributesToMapSize" : true,
 "actualDeploymentZone": -1,
 "fixedUnitCount": 0,
 "generationOrder": 5,
 "allowAeroBombs": false,
-"startingAltitude": 0,
+"startingAltitude" : 5,
 "useArtillery": false,
 "deployOffBoard": false,
-"objectiveLinkedForces": [],
+"objectiveLinkedForces": [
+],
 "subjectToRandomRemoval": true,
 "fixedMul": null,
-"forceRoleStrings": [
-"ARTILLERY", "FIRE_SUPPORT", "FIRE_SUPPORT", "FIRE_SUPPORT", "FIRE_SUPPORT", "FIRE_SUPPORT", "FIRE_SUPPORT", "SR_FIRE_SUPPORT", "SR_FIRE_SUPPORT", "SR_FIRE_SUPPORT", "SR_FIRE_SUPPORT", "SR_FIRE_SUPPORT", "SR_FIRE_SUPPORT"]
-},
-"DropShip": {
-"forceAlignment": 1,
-"generationMethod": 4,
-"forceMultiplier": 1.0,
-"deploymentZones": [10],
-"destinationZone": 5,
-"retreatThreshold": 100,
-"allowedUnitType": 11,
-"canReinforceLinked": false,
-"contributesToBV": true,
-"contributesToUnitCount": true,
-"forceName": "DropShip",
-"syncedForceName": null,
-"syncDeploymentType": "None",
-"syncRetreatThreshold": false,
-"arrivalTurn": 0,
-"maxWeightClass": 4,
-"minWeightClass": 1,
-"contributesToMapSize": true,
-"actualDeploymentZone": -1,
-"fixedUnitCount": 1,
-"generationOrder": 1,
-"allowAeroBombs": false,
-"startingAltitude": 0,
-"useArtillery": false,
-"deployOffBoard": false,
-"objectiveLinkedForces": [],
-"subjectToRandomRemoval": false,
-"fixedMul": null,
-"forceRoleStrings": [
-"MEK_CARRIER", "MEK_CARRIER", "ASF_CARRIER", "VEE_CARRIER", "INFANTRY_CARRIER", "TROOP_CARRIER", "CIVILIAN"]
+"forceRoleStrings": []
 }
 },
 "scenarioObjectives": [ {
-"objectiveCriterion": "Preserve",
-"description": "",
-"destinationEdge": "NONE",
-"percentage": 100,
-"fixedAmount": null,
-"timeLimitType": "Fixed",
-"timeLimitAtMost": false,
-"timeLimit": 12,
-"timeLimitScaleFactor": 2,
-"associatedForceNames": ["DropShip" ],
-"associatedUnitIDs": [],
-"successEffects": [ {
-"effectType": "ScenarioVictory",
-"effectScaling": "Fixed",
-"howMuch": 1
-} ],
-"failureEffects": [ {
-"effectType": "ScenarioDefeat",
-"effectScaling": "Fixed",
-"howMuch": 1
-}, {
-"effectType": "ContractMoraleUpdate",
-"effectScaling": "Fixed",
-"howMuch": 1
-} ],
-"additionalDetails": ["If the DropShip cannot be deployed regenerate the map within MegaMek."]
-}, {
 "objectiveCriterion": "ForceWithdraw",
 "description": "",
 "destinationEdge": "NONE",
@@ -176,6 +117,29 @@
 "timeLimit": null,
 "timeLimitScaleFactor": null,
 "associatedForceNames": ["OpFor" ],
+"associatedUnitIDs": [],
+"successEffects": [ {
+"effectType": "ScenarioVictory",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"failureEffects": [ {
+"effectType": "ScenarioDefeat",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"additionalDetails": []
+}, {
+"objectiveCriterion": "Preserve",
+"description": "",
+"destinationEdge": "NONE",
+"percentage": 66,
+"fixedAmount": null,
+"timeLimitType": "None",
+"timeLimitAtMost": true,
+"timeLimit": null,
+"timeLimitScaleFactor": null,
+"associatedForceNames": ["Player" ],
 "associatedUnitIDs": [],
 "successEffects": [ {
 "effectType": "ScenarioVictory",

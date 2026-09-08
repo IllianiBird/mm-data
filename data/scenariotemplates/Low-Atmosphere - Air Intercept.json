@@ -16,10 +16,10 @@
 # affiliated with Microsoft.
 
 {
-"name": "Low-Altitude - Fighter Sweep",
+"name": "Low-Atmosphere - Air Intercept",
 "stratConScenarioType": "NONE",
-"shortBriefing": "Sweep the skies clear of enemy aerospace and win air superiority.",
-"detailedBriefing": "Command wants the enemy's aerospace presence to break so thoroughly they cede the skies for the rest of the operation. Go out, find them, and shatter them.",
+"shortBriefing": "Intercept and destroy hostile air forces.",
+"detailedBriefing": "A hostile aircraft force is inbound, and we have an opportunity to intercept and cripple their strength before they can achieve their objective.",
 "isHostileFacility": false,
 "isAlliedFacility": false,
 "isSuitedForAmbushes": false,
@@ -38,7 +38,6 @@
 "allowedTerrainTypes": []
 },
 "scenarioModifiers": [
-"Elites.json"
 ],
 "scenarioForces": {
 "Player": {
@@ -49,7 +48,7 @@
 ],
 "destinationZone": 5,
 "retreatThreshold": 50,
-"allowedUnitType": 9,
+"allowedUnitType": -3,
 "canReinforceLinked": false,
 "contributesToBV": true,
 "contributesToUnitCount": true,
@@ -82,7 +81,7 @@
 "destinationZone": 5,
 "retreatThreshold": 50,
 "allowedUnitType": -3,
-"canReinforceLinked" : true,
+"canReinforceLinked" : false,
 "contributesToBV": false,
 "contributesToUnitCount": false,
 "forceName": "OpFor",
@@ -91,7 +90,7 @@
 "syncRetreatThreshold": false,
 "arrivalTurn": 0,
 "maxWeightClass": 4,
-"minWeightClass": 2,
+"minWeightClass": 0,
 "contributesToMapSize" : true,
 "actualDeploymentZone": -1,
 "fixedUnitCount": 0,
@@ -108,16 +107,39 @@
 }
 },
 "scenarioObjectives": [ {
-"objectiveCriterion": "Destroy",
+"objectiveCriterion": "ForceWithdraw",
 "description": "",
 "destinationEdge": "NONE",
-"percentage": 50,
+"percentage": 33,
 "fixedAmount": null,
 "timeLimitType": "None",
 "timeLimitAtMost": true,
 "timeLimit": null,
 "timeLimitScaleFactor": null,
 "associatedForceNames": ["OpFor" ],
+"associatedUnitIDs": [],
+"successEffects": [ {
+"effectType": "ScenarioVictory",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"failureEffects": [ {
+"effectType": "ScenarioDefeat",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"additionalDetails": []
+}, {
+"objectiveCriterion": "Preserve",
+"description": "",
+"destinationEdge": "NONE",
+"percentage": 66,
+"fixedAmount": null,
+"timeLimitType": "None",
+"timeLimitAtMost": true,
+"timeLimit": null,
+"timeLimitScaleFactor": null,
+"associatedForceNames": ["Player" ],
 "associatedUnitIDs": [],
 "successEffects": [ {
 "effectType": "ScenarioVictory",

@@ -19,7 +19,7 @@
 "name": "Combat Drop",
 "stratConScenarioType": "NONE",
 "shortBriefing": "Make a combat drop into a defended zone and break the OpFor.",
-"detailedBriefing": "There is no time for a conventional landing. You are going in the hard way a combat drop straight onto the objective, mid-firefight.\n\n[Objective Notes: If you have a combat DropShip available, you are encouraged to perform a real combat drop in this scenario. Removing the allied DropShip entirely, in the scenario lobby.]",
+"detailedBriefing": "There is no time for a conventional landing. You are going in the hard way a combat drop straight onto the objective, mid-firefight.\n\n[Objective Notes: If you have a combat DropShip available, you are encouraged to perform a real combat drop in this scenario. Removing the allied DropShip entirely in the scenario lobby.]",
 "isHostileFacility": false,
 "isAlliedFacility": false,
 "isSuitedForAmbushes": false,
@@ -149,6 +149,48 @@
 "timeLimit": null,
 "timeLimitScaleFactor": null,
 "associatedForceNames": ["OpFor" ],
+"associatedUnitIDs": [],
+"successEffects": [ {
+"effectType": "ScenarioVictory",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"failureEffects": [ {
+"effectType": "ScenarioDefeat",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"additionalDetails": []
+}, {
+"objectiveCriterion": "Preserve",
+"description": "",
+"destinationEdge": "NONE",
+"percentage": 100,
+"fixedAmount": null,
+"timeLimitType": "None",
+"timeLimitAtMost": true,
+"timeLimit": null,
+"timeLimitScaleFactor": null,
+"associatedForceNames": ["DropShip" ],
+"associatedUnitIDs": [],
+"successEffects": [ ],
+"failureEffects": [ {
+"effectType": "ScenarioDefeat",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"additionalDetails": []
+}, {
+"objectiveCriterion": "Preserve",
+"description": "",
+"destinationEdge": "NONE",
+"percentage": 66,
+"fixedAmount": null,
+"timeLimitType": "None",
+"timeLimitAtMost": true,
+"timeLimit": null,
+"timeLimitScaleFactor": null,
+"associatedForceNames": ["Player" ],
 "associatedUnitIDs": [],
 "successEffects": [ {
 "effectType": "ScenarioVictory",

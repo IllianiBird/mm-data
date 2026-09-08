@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -16,26 +16,26 @@
 # affiliated with Microsoft.
 
 {
-"name": "Official Challenge",
-"stratConScenarioType": "OFFICIAL_CHALLENGE",
-"shortBriefing": "Display your prowess.",
-"detailedBriefing": "A combat challenge has been issued through official channels. Deploy one (and only one) of your forces to fight on our behalf. The results of this duel will significantly impact morale.",
+"name": "Low-Atmosphere - Fighter Sweep",
+"stratConScenarioType": "NONE",
+"shortBriefing": "Sweep the skies clear of enemy aerospace and win air superiority.",
+"detailedBriefing": "Command wants the enemy's aerospace presence to break so thoroughly they cede the skies for the rest of the operation. Go out, find them, and shatter them.",
 "isHostileFacility": false,
 "isAlliedFacility": false,
 "isSuitedForAmbushes": false,
 "isSuitedForBungledPatrols": false,
 "battlefieldControl": "VICTOR",
 "mapParameters": {
-"baseWidth": 0,
-"baseHeight": 0,
+"baseWidth": 50,
+"baseHeight": 50,
 "widthScalingIncrement": 5,
 "heightScalingIncrement": 5,
 "additionalMapSheetTall": 0,
 "additionalMapSheetWide": 0,
 "allowRotation": false,
 "useStandardAtBSizing": true,
-"mapLocation": "AllGroundTerrain",
-"allowedTerrainTypes": ["Plains", "Savannah", "SnowField", "Steppe", "Tundra"]
+"mapLocation": "LowAtmosphere",
+"allowedTerrainTypes": []
 },
 "scenarioModifiers": [
 "Elites.json"
@@ -49,7 +49,7 @@
 ],
 "destinationZone": 5,
 "retreatThreshold": 50,
-"allowedUnitType": -2,
+"allowedUnitType": 9,
 "canReinforceLinked": false,
 "contributesToBV": true,
 "contributesToUnitCount": true,
@@ -65,7 +65,7 @@
 "fixedUnitCount": 0,
 "generationOrder": 1,
 "allowAeroBombs": false,
-"startingAltitude": 0,
+"startingAltitude": 5,
 "useArtillery": false,
 "deployOffBoard": false,
 "objectiveLinkedForces": [],
@@ -76,13 +76,13 @@
 },
 "OpFor": {
 "forceAlignment": 2,
-"generationMethod": 3,
+"generationMethod": 1,
 "forceMultiplier": 1.0,
 "deploymentZones": [],
 "destinationZone": 5,
 "retreatThreshold": 50,
-"allowedUnitType": 0,
-"canReinforceLinked" : false,
+"allowedUnitType": -3,
+"canReinforceLinked" : true,
 "contributesToBV": false,
 "contributesToUnitCount": false,
 "forceName": "OpFor",
@@ -91,18 +91,18 @@
 "syncRetreatThreshold": false,
 "arrivalTurn": 0,
 "maxWeightClass": 4,
-"minWeightClass": 3,
+"minWeightClass": 2,
 "contributesToMapSize" : true,
 "actualDeploymentZone": -1,
-"fixedUnitCount": -1,
+"fixedUnitCount": 0,
 "generationOrder": 5,
 "allowAeroBombs": false,
-"startingAltitude" : 0,
+"startingAltitude" : 5,
 "useArtillery": false,
 "deployOffBoard": false,
 "objectiveLinkedForces": [
 ],
-"subjectToRandomRemoval": false,
+"subjectToRandomRemoval": true,
 "fixedMul": null,
 "forceRoleStrings": []
 }
