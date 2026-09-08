@@ -16,215 +16,176 @@
 # affiliated with Microsoft.
 
 {
-    "name": "Convoy Raid",
-    "stratConScenarioType": "CONVOY",
-    "shortBriefing": "Intercept and disrupt enemy convoy.",
-    "detailedBriefing": "An enemy supply convoy is on the move, and this is our chance to cripple their logistics. Your mission is to intercept and raid the convoy before it can escape the engagement zone. These supplies are vital to the enemy’s war effort, and every truck or transport we eliminate weakens their ability to fight. Speed and aggression will be key—hit them hard, hit them fast, and get out before their reinforcements arrive.\n\nYour primary objective is to prevent at least 50% of the convoy from reaching the far side of the engagement zone. Disrupt their formation, destroy their transports, and force them to abandon their mission. If their escort force proves too formidable, you have an alternative route to success—destroy at least 50% of the convoy’s escorts to force the remaining defenders to surrender. With their protection shattered, the convoy will have no choice but to stand down.\n\nThe more convoy units that survive, the greater the spoils. Disabling transports instead of outright destruction may increase salvage potential, but that is a secondary concern to stopping the convoy itself. However, do not linger. The enemy will respond quickly, and we will not control the field once the battle ends. Execute the raid with precision, neutralize the targets, and withdraw before the enemy's full force arrives.",
-    "isHostileFacility": false,
-    "isAlliedFacility": false,
-    "isSuitedForAmbushes": false,
-    "isSuitedForBungledPatrols": false,
-    "battlefieldControl": "ENEMY",
-    "mapParameters": {
-        "baseWidth": 0,
-        "baseHeight": 0,
-        "widthScalingIncrement": 5,
-        "heightScalingIncrement": 5,
-        "additionalMapSheetTall": 1,
-        "additionalMapSheetWide": 0,
-        "allowRotation": false,
-        "useStandardAtBSizing": true,
-        "mapLocation": "SpecificGroundTerrain",
-        "allowedTerrainTypes": [
-            "Convoy"
-        ]
-    },
-    "scenarioModifiers": [],
-    "scenarioForces": {
-        "Player": {
-            "forceAlignment": 0,
-            "generationMethod": 0,
-            "forceMultiplier": 1.0,
-            "deploymentZones": [
-                10
-            ],
-            "destinationZone": 5,
-            "retreatThreshold": 50,
-            "allowedUnitType": -2,
-            "canReinforceLinked": true,
-            "contributesToBV": true,
-            "contributesToUnitCount": true,
-            "forceName": "Player",
-            "syncedForceName": null,
-            "syncDeploymentType": "None",
-            "syncRetreatThreshold": false,
-            "arrivalTurn": 0,
-            "maxWeightClass": 4,
-            "minWeightClass": 0,
-            "contributesToMapSize": true,
-            "actualDeploymentZone": -1,
-            "fixedUnitCount": 0,
-            "generationOrder": 1,
-            "allowAeroBombs": false,
-            "startingAltitude": 0,
-            "useArtillery": false,
-            "deployOffBoard": false,
-            "objectiveLinkedForces": [],
-            "subjectToRandomRemoval": true,
-            "fixedMul": null,
-            "forceRoleStrings": []
-        },
-        "OpFor": {
-            "forceAlignment": 2,
-            "generationMethod": 1,
-            "forceMultiplier": 1.0,
-            "deploymentZones": [],
-            "destinationZone": 5,
-            "retreatThreshold": 50,
-            "allowedUnitType": -2,
-            "canReinforceLinked": true,
-            "contributesToBV": false,
-            "contributesToUnitCount": false,
-            "forceName": "OpFor",
-            "syncedForceName": "Convoy",
-            "syncDeploymentType": "SameEdge",
-            "syncRetreatThreshold": false,
-            "arrivalTurn": 0,
-            "maxWeightClass": 4,
-            "minWeightClass": 1,
-            "contributesToMapSize": true,
-            "actualDeploymentZone": -1,
-            "fixedUnitCount": 0,
-            "generationOrder": 5,
-            "allowAeroBombs": false,
-            "startingAltitude": 0,
-            "useArtillery": false,
-            "deployOffBoard": false,
-            "objectiveLinkedForces": [],
-            "subjectToRandomRemoval": true,
-            "fixedMul": null,
-            "forceRoleStrings": []
-        },
-        "Convoy": {
-            "forceAlignment": 2,
-            "generationMethod": 1,
-            "forceMultiplier": 0.5,
-            "deploymentZones": [
-                2
-            ],
-            "destinationZone": 6,
-            "retreatThreshold": 0,
-            "allowedUnitType": 1,
-            "canReinforceLinked": true,
-            "contributesToBV": false,
-            "contributesToUnitCount": false,
-            "forceName": "Convoy",
-            "syncedForceName": null,
-            "syncDeploymentType": "None",
-            "syncRetreatThreshold": false,
-            "arrivalTurn": 0,
-            "maxWeightClass": 4,
-            "minWeightClass": 1,
-            "contributesToMapSize": true,
-            "actualDeploymentZone": -1,
-            "fixedUnitCount": 0,
-            "generationOrder": 5,
-            "allowAeroBombs": false,
-            "startingAltitude": 0,
-            "useArtillery": false,
-            "deployOffBoard": false,
-            "objectiveLinkedForces": [],
-            "subjectToRandomRemoval": false,
-            "fixedMul": null,
-            "forceRoleStrings": [
-                "SUPPORT",
-                "SUPPORT",
-                "CARGO",
-                "CARGO",
-                "CARGO",
-                "APC",
-                "APC"
-            ]
-        }
-    },
-    "scenarioObjectives": [
-        {
-            "objectiveCriterion": "PreventReachMapEdge",
-            "description": "",
-            "destinationEdge": "NONE",
-            "percentage": 50,
-            "fixedAmount": null,
-            "timeLimitType": "None",
-            "timeLimitAtMost": true,
-            "timeLimit": null,
-            "timeLimitScaleFactor": null,
-            "associatedForceNames": [
-                "Convoy"
-            ],
-            "associatedUnitIDs": [],
-            "successEffects": [
-                {
-                    "effectType": "ScenarioVictory",
-                    "effectScaling": "Fixed",
-                    "howMuch": 2
-                }
-            ],
-            "failureEffects": [
-                {
-                    "effectType": "ScenarioDefeat",
-                    "effectScaling": "Fixed",
-                    "howMuch": 1
-                }
-            ],
-            "additionalDetails": []
-        },
-        {
-            "objectiveCriterion": "Capture",
-            "description": "",
-            "destinationEdge": "NONE",
-            "percentage": 1,
-            "fixedAmount": 1,
-            "timeLimitType": "None",
-            "timeLimitAtMost": true,
-            "timeLimit": null,
-            "timeLimitScaleFactor": null,
-            "associatedForceNames": [
-                "Convoy"
-            ],
-            "associatedUnitIDs": [],
-            "successEffects": [
-                {
-                    "effectType": "SupplyCache",
-                    "effectScaling": "Linear",
-                    "howMuch": 1
-                }
-            ],
-            "failureEffects": [],
-            "additionalDetails": []
-        },
-        {
-            "objectiveCriterion": "ForceWithdraw",
-            "description": "",
-            "destinationEdge": "NONE",
-            "percentage": 33,
-            "fixedAmount": null,
-            "timeLimitType": "None",
-            "timeLimitAtMost": true,
-            "timeLimit": null,
-            "timeLimitScaleFactor": null,
-            "associatedForceNames": [
-                "OpFor"
-            ],
-            "associatedUnitIDs": [],
-            "successEffects": [
-                {
-                    "effectType": "ScenarioVictory",
-                    "effectScaling": "Fixed",
-                    "howMuch": 2
-                }
-            ],
-            "failureEffects": [],
-            "additionalDetails": []
-        }
-    ]
+"name": "Convoy Raid",
+"stratConScenarioType": "NONE",
+"shortBriefing": "Intercept and disrupt enemy convoy.",
+"detailedBriefing": "An enemy supply convoy is on the move, and this is our chance to cripple their logistics. Your mission is to intercept and raid the convoy before it can escape the engagement zone.\n\n[Objective Notes: Defeating the OpFor will cause the convoy to surrender. This is not handled automatically and you will need to use /victory in chat manually].",
+"isHostileFacility": false,
+"isAlliedFacility": false,
+"isSuitedForAmbushes": false,
+"isSuitedForBungledPatrols": false,
+"battlefieldControl": "VICTOR",
+"mapParameters": {
+"baseWidth": 0,
+"baseHeight": 0,
+"widthScalingIncrement": 5,
+"heightScalingIncrement": 5,
+"additionalMapSheetTall": 1,
+"additionalMapSheetWide": 0,
+"allowRotation": false,
+"useStandardAtBSizing": true,
+"mapLocation": "AllGroundTerrain",
+"allowedTerrainTypes": ["Convoy" ]
+},
+"scenarioModifiers": [
+],
+"scenarioForces": {
+"Player": {
+"forceAlignment": 0,
+"generationMethod": 0,
+"forceMultiplier": 1.0,
+"deploymentZones": [10],
+"destinationZone": 5,
+"retreatThreshold": 50,
+"allowedUnitType": -2,
+"canReinforceLinked": false,
+"contributesToBV": true,
+"contributesToUnitCount": true,
+"forceName": "Player",
+"syncedForceName": null,
+"syncDeploymentType": "None",
+"syncRetreatThreshold": false,
+"arrivalTurn": 0,
+"maxWeightClass": 4,
+"minWeightClass": 0,
+"contributesToMapSize": true,
+"actualDeploymentZone": -1,
+"fixedUnitCount": 0,
+"generationOrder": 1,
+"allowAeroBombs": false,
+"startingAltitude": 0,
+"useArtillery": false,
+"deployOffBoard": false,
+"objectiveLinkedForces": [],
+"subjectToRandomRemoval": false,
+"fixedMul": null,
+"forceRoleStrings": [
+]
+},
+"OpFor": {
+"forceAlignment": 2,
+"generationMethod": 1,
+"forceMultiplier": 1.0,
+"deploymentZones": [],
+"destinationZone": 5,
+"retreatThreshold": 33,
+"allowedUnitType": -2,
+"canReinforceLinked" : true,
+"contributesToBV": false,
+"contributesToUnitCount": false,
+"forceName": "OpFor",
+"syncedForceName": "Convoy",
+"syncDeploymentType" : "SameEdge",
+"syncRetreatThreshold": false,
+"arrivalTurn": 0,
+"maxWeightClass": 3,
+"minWeightClass": 1,
+"contributesToMapSize" : true,
+"actualDeploymentZone": -1,
+"fixedUnitCount": 0,
+"generationOrder": 5,
+"allowAeroBombs": false,
+"startingAltitude" : 0,
+"useArtillery": false,
+"deployOffBoard": false,
+"objectiveLinkedForces": [
+],
+"subjectToRandomRemoval": true,
+"fixedMul": null,
+"forceRoleStrings": ["RAIDER"]
+},
+"Convoy": {
+"forceAlignment": 2,
+"generationMethod": 3,
+"forceMultiplier": 0.5,
+"deploymentZones": [11],
+"destinationZone": 6,
+"retreatThreshold": 0,
+"allowedUnitType": 1,
+"canReinforceLinked": false,
+"contributesToBV": false,
+"contributesToUnitCount": false,
+"forceName": "Convoy",
+"syncedForceName": null,
+"syncDeploymentType": "None",
+"syncRetreatThreshold": false,
+"arrivalTurn": 0,
+"maxWeightClass": 4,
+"minWeightClass": 1,
+"contributesToMapSize": true,
+"actualDeploymentZone": -1,
+"fixedUnitCount": 12,
+"generationOrder": 5,
+"allowAeroBombs": false,
+"startingAltitude": 0,
+"useArtillery": false,
+"deployOffBoard": false,
+"objectiveLinkedForces": [],
+"subjectToRandomRemoval": true,
+"fixedMul": null,
+"forceRoleStrings": [
+"SUPPORT", "SUPPORT", "CARGO", "CARGO", "CARGO", "APC", "APC"]
+}
+},
+"scenarioObjectives": [ {
+"objectiveCriterion": "PreventReachMapEdge",
+"description": "",
+"destinationEdge": "NONE",
+"percentage": 66,
+"fixedAmount": null,
+"timeLimitType": "None",
+"timeLimitAtMost": true,
+"timeLimit": null,
+"timeLimitScaleFactor": null,
+"associatedForceNames": ["Convoy" ],
+"associatedUnitIDs": [],
+"successEffects": [ {
+"effectType": "ScenarioVictory",
+"effectScaling": "Fixed",
+"howMuch": 1
+}, {
+"effectType": "SupplyCache",
+"effectScaling": "Linear",
+"howMuch": 1
+} ],
+"failureEffects": [ {
+"effectType": "ScenarioDefeat",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"additionalDetails": []
+}, {
+"objectiveCriterion": "Destroy",
+"description": "",
+"destinationEdge": "NONE",
+"percentage": 33,
+"fixedAmount": null,
+"timeLimitType": "None",
+"timeLimitAtMost": true,
+"timeLimit": null,
+"timeLimitScaleFactor": null,
+"associatedForceNames": ["OpFor" ],
+"associatedUnitIDs": [],
+"successEffects": [ {
+"effectType": "ScenarioVictory",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"failureEffects": [ {
+"effectType": "ScenarioDefeat",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"additionalDetails": []
+} ]
 }
