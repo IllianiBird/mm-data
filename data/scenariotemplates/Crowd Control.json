@@ -108,7 +108,7 @@
 }
 },
 "scenarioObjectives": [ {
-"objectiveCriterion": "ForceWithdraw",
+"objectiveCriterion": "Destroy",
 "description": "",
 "destinationEdge": "NONE",
 "percentage": 33,
@@ -117,11 +117,9 @@
 "timeLimitAtMost": true,
 "timeLimit": null,
 "timeLimitScaleFactor": null,
-"associatedForceNames": ["Civilians", "OpFor"
-],
-"associatedUnitIDs": [
-],
-"successEffects" : [ {
+"associatedForceNames": ["Civilians" ],
+"associatedUnitIDs": [],
+"successEffects": [ {
 "effectType": "ScenarioVictory",
 "effectScaling": "Fixed",
 "howMuch": 1
