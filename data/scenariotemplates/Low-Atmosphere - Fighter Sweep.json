@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-"name": "Low-Altitude - Fighter Sweep",
+"name": "Low-Atmosphere - Fighter Sweep",
 "stratConScenarioType": "NONE",
 "shortBriefing": "Sweep the skies clear of enemy aerospace and win air superiority.",
 "detailedBriefing": "Command wants the enemy's aerospace presence to break so thoroughly they cede the skies for the rest of the operation. Go out, find them, and shatter them.",
@@ -118,6 +118,29 @@
 "timeLimit": null,
 "timeLimitScaleFactor": null,
 "associatedForceNames": ["OpFor" ],
+"associatedUnitIDs": [],
+"successEffects": [ {
+"effectType": "ScenarioVictory",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"failureEffects": [ {
+"effectType": "ScenarioDefeat",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"additionalDetails": []
+}, {
+"objectiveCriterion": "Preserve",
+"description": "",
+"destinationEdge": "NONE",
+"percentage": 50,
+"fixedAmount": null,
+"timeLimitType": "None",
+"timeLimitAtMost": true,
+"timeLimit": null,
+"timeLimitScaleFactor": null,
+"associatedForceNames": ["Player" ],
 "associatedUnitIDs": [],
 "successEffects": [ {
 "effectType": "ScenarioVictory",

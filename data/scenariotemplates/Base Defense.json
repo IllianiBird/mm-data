@@ -142,7 +142,7 @@
 "objectiveCriterion": "Destroy",
 "description": "",
 "destinationEdge": "NONE",
-"percentage": 33,
+"percentage": 50,
 "fixedAmount": null,
 "timeLimitType": "None",
 "timeLimitAtMost": true,
@@ -182,6 +182,29 @@
 "effectType": "ScenarioDefeat",
 "effectScaling": "Fixed",
 "howMuch": 2
+} ],
+"additionalDetails": []
+}, {
+"objectiveCriterion": "Preserve",
+"description": "",
+"destinationEdge": "NONE",
+"percentage": 50,
+"fixedAmount": null,
+"timeLimitType": "None",
+"timeLimitAtMost": true,
+"timeLimit": null,
+"timeLimitScaleFactor": null,
+"associatedForceNames": ["Player" ],
+"associatedUnitIDs": [],
+"successEffects": [ {
+"effectType": "ScenarioVictory",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"failureEffects": [ {
+"effectType": "ScenarioDefeat",
+"effectScaling": "Fixed",
+"howMuch": 1
 } ],
 "additionalDetails": []
 } ]

@@ -107,7 +107,7 @@
 }
 },
 "scenarioObjectives": [ {
-"objectiveCriterion": "ForceWithdraw",
+"objectiveCriterion": "Destroy",
 "description": "",
 "destinationEdge": "NONE",
 "percentage": 33,
@@ -117,6 +117,29 @@
 "timeLimit": null,
 "timeLimitScaleFactor": null,
 "associatedForceNames": ["OpFor" ],
+"associatedUnitIDs": [],
+"successEffects": [ {
+"effectType": "ScenarioVictory",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"failureEffects": [ {
+"effectType": "ScenarioDefeat",
+"effectScaling": "Fixed",
+"howMuch": 1
+} ],
+"additionalDetails": []
+}, {
+"objectiveCriterion": "Preserve",
+"description": "",
+"destinationEdge": "NONE",
+"percentage": 66,
+"fixedAmount": null,
+"timeLimitType": "None",
+"timeLimitAtMost": true,
+"timeLimit": null,
+"timeLimitScaleFactor": null,
+"associatedForceNames": ["Player" ],
 "associatedUnitIDs": [],
 "successEffects": [ {
 "effectType": "ScenarioVictory",

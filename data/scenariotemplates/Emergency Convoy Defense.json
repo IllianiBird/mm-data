@@ -206,11 +206,9 @@
 "timeLimitAtMost": true,
 "timeLimit": null,
 "timeLimitScaleFactor": null,
-"associatedForceNames": [],
-"associatedUnitIDs": [
-],
-"successEffects": [
-],
+"associatedForceNames": ["Convoy" ],
+"associatedUnitIDs": [],
+"successEffects": [ ],
 "failureEffects": [ {
 "effectType": "ScenarioDefeat",
 "effectScaling": "Fixed",

@@ -172,11 +172,9 @@
 "timeLimitAtMost": true,
 "timeLimit": null,
 "timeLimitScaleFactor": null,
-"associatedForceNames": [],
-"associatedUnitIDs": [
-],
-"successEffects": [
-],
+"associatedForceNames": ["Player" ],
+"associatedUnitIDs": [],
+"successEffects": [ ],
 "failureEffects": [ {
 "effectType": "ScenarioDefeat",
 "effectScaling": "Fixed",
