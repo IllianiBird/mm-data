@@ -1,0 +1,66 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CGB
+name: "Gurdel"
+houses:
+  - founder: "Jaroslav"
+    founderFullName: "Jaroslav Gurdel"
+    founderAffiliation: "Clan Ghost Bear"
+    phenotype: "GENERAL"
+    postReaving: [CGB]
+    summary: "The Gurdel Bloodname was a Clan Ghost Bear founding legacy."
+    notableHolders:
+      - { name: "Kassandra Gurdel", rank: "Galaxy Commander", affiliation: "Clan Ghost Bear" }
+      - { name: "Scott Gurdel", rank: "Galaxy Commander", affiliation: "Ghost Bear Dominion" }
+      - { name: "Tome Gurdel", rank: "Star Admiral", affiliation: "Ghost Bear Dominion" }
+      - { name: "Aril Gurdel", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
+      - { name: "Charles Gurdel", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Clint Gurdel", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Denice Gurdel", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Dimitri Gurdel", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Enya Gurdel", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
+      - { name: "Justin Gurdel", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+      - { name: "Katherine Gurdel", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Long Gurdel", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+      - { name: "Rex Gurdel", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Salvador Gurdel", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Stewart Gurdel", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Tamin Gurdel", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+      - { name: "Tommy Gurdel", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
+      - { name: "Henri Gurdel", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Arlis Gurdel", rank: "MekWarrior", affiliation: "Rasalhague Dominion" }
+      - { name: "Ivan Gurdel", affiliation: "Rasalhague Dominion" }
+      - { name: "Vanessa Gurdel", affiliation: "Rasalhague Dominion" }
+    sources:
+      - { title: "BattleTech: Battle of Tukayyid" }
+      - { title: "BattleTech: Clan Ad Hoc Star" }
+      - { title: "Clanwächter" }
+      - { title: "Dark Age: LinkNet Articles (3136)" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
+      - { title: "Jihad Hot Spots: Terra", abbrev: "JHS:Terra" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "Technical Readout 3058 Upgrade", abbrev: "TR:3058U" }
+      - { title: "Trial by Chaos" }
+      - { title: "Trial of Retribution" }
+    history: ~

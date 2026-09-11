@@ -1,0 +1,91 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CW
+name: "Shaw"
+houses:
+  - founder: "Britta"
+    founderFullName: "Britta Shaw"
+    founderRank: "Star Colonel"
+    founderAffiliation: "Clan Wolf"
+    phenotype: "ELEMENTAL"
+    exclusive: true
+    limited: true
+    limitedSince: 3085
+    postReaving: [CW,CWIE]
+    shared:
+      - { clan: CWIE, date: 3057 }
+    notableHolders:
+      - { name: "Miriam Shaw", rank: "Khan", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Dominic Shaw", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+      - { name: "Wolfgang Shaw", rank: "Star Admiral", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Nihsen Shaw", rank: "Star Commodore", affiliation: "Clan Wolf" }
+      - { name: "Britta Shaw", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Delia Shaw", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Ghassan Shaw", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Giorgy Shaw", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Jeremiah Shaw", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Morten Shaw", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Oliver Shaw", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Sinclair Shaw", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Marijoan Shaw", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Bashar Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Bovard Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Debra Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Devon Shaw", rank: "Star Commander", affiliation: "Wolf Empire" }
+      - { name: "Parac Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Hemsl Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Stunner Shaw", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Arlee Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Carrows Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Dena Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Point Commander Dena Shaw (341st Assault) of Clan Wolf.", affiliation: "Clan Wolf" }
+      - { name: "Dural Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Faldo Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Gavinus Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Graffam Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Ingeborg Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Jullith Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Maigatter Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Malmon Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Margaret Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Markland Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Sharun Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Siegel Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Stemmis Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Yaxunari Shaw", rank: "Point Commander", affiliation: "Clan Wolf" }
+    sources:
+      - { title: "Children of Kerensky" }
+      - { title: "Era Report: 3062" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+      - { title: "Shattered Fortress", abbrev: "SF" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+      - { title: "The Weight of a Name" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
+    history: ~

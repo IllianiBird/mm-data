@@ -1,0 +1,39 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CNC
+name: "Katayama"
+houses:
+  - founder: "Ludmila"
+    founderFullName: "Ludmila Katayama"
+    founderAffiliation: "Clan Nova Cat"
+    summary: "The Katayama Bloodname was a Clan Nova Cat founding legacy."
+    notableHolders:
+      - { name: "Sessu Katayama", rank: "saKhan", affiliation: "Clan Nova Cat" }
+      - { name: "Tomiko Katayama", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Aristophanes Katayama", rank: "Star Captain", affiliation: "Spirit Cats" }
+      - { name: "Ryota Katayama", rank: "Star Captain", affiliation: "Wolf Empire" }
+    sources:
+      - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Mercenary's Handbook 3055", abbrev: "MH55" }
+      - { title: "Recognition Guide: ilClan, vol. 13", abbrev: "RG13" }
+      - { title: "Target of Opportunity" }
+    history: ~

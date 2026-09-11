@@ -83,19 +83,19 @@
 
         <attachedForces ifUnitType="Mek">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforce unitType="Tank"
-                      name="Armor Support">%BATTALION%
+                      name="Armor {echelon}">%BATTALION%
             </subforce>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
 
         <attachedForces ifUnitType="Tank" ifDateBetween=",2500">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforceOption ifDateBetween="2442,">
                 <option ifRating="D|F" />
@@ -105,7 +105,7 @@
                 <option unitType="Mek" ifDateBetween="2470,2499">%BATTALION%</option>
             </subforceOption>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
     </force>

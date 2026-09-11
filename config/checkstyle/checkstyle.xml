@@ -25,9 +25,12 @@
         <property name="severity" value="error" />
     </module>
 
+    <!-- A cited work keeps its published name: the bloodname sources list products such as
+         "MechWarrior: Dark Age - Dossiers and Pilot Cards", and renaming a citation would falsify it.
+         The title: exemption below is the same nominative-use allowance the copyright lines get. -->
     <module name="RegexpSingleline">
         <property name="id" value="ForbiddenWords" />
-        <property name="format" value="^(?!.*(bg\.battletech|MechWarrior Copyright|MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks|BattleMech Manual)).*\b(?i)(mech|mechwarrior|battlemech|aerotech|protomech|'mech|`Mech|TripodMech|BipedMech|QuadMech|LandAirMech|OmniMech|'Mechs)\b.*$" />
+        <property name="format" value="^(?!.*(bg\.battletech|MechWarrior Copyright|MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks|BattleMech Manual|title: &quot;)).*\b(?i)(mech|mechwarrior|battlemech|aerotech|protomech|'mech|`Mech|TripodMech|BipedMech|QuadMech|LandAirMech|OmniMech|'Mechs)\b.*$" />
         <property name="ignoreCase" value="true" />
         <property name="message" value="Forbidden word found" />
         <property name="severity" value="error" />

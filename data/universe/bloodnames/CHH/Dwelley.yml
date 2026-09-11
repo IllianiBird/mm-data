@@ -1,0 +1,51 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CHH
+name: "Dwelley"
+houses:
+  - founder: "Olga"
+    founderFullName: "Olga Dwelley"
+    founderAffiliation: "Clan Hell's Horses"
+    phenotype: "AEROSPACE"
+    exclusive: true
+    postReaving: [CHH,CSL,CSL]
+    shared:
+      - { clan: CSL, date: 3075 }
+    summary: "The Dwelley Bloodname was a Clan Hell's Horses founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
+    notableHolders:
+      - { name: "Ingrid Dwelley", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+      - { name: "Mana Dwelley", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+      - { name: "Chester Dwelley", rank: "Star Admiral", affiliation: "Clan Hell's Horses" }
+      - { name: "Charles Dwelley", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Draza Dwelley", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Icobod Dwelley", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Unger Dwelley", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Lucinda Dwelley", rank: "Star Commodore", affiliation: "Clan Hell's Horses" }
+    sources:
+      - { title: "Elements of Treason: Honor" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

@@ -1,0 +1,119 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CWI
+name: "Vickers"
+houses:
+  - founder: "Tamra"
+    founderFullName: "Tamra Vickers"
+    founderRank: "Star Colonel"
+    founderAffiliation: "Clan Widowmaker"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    postReaving: [CW,CWIE]
+    absorbed: { clan: CW, date: 2834 }
+    shared:
+      - { clan: CWIE, date: 3057 }
+    summary: "The Vickers Bloodname was a Clan Widowmaker founding legacy."
+    notableHolders:
+      - { name: "Chance Vickers", rank: "saKhan", affiliation: "Clan Wolf" }
+      - { name: "Nicholau Vickers", rank: "saKhan", affiliation: "Clan Wolf" }
+      - { name: "Daphne Vickers", rank: "Loremaster", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Bradford Vickers", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+      - { name: "Jun Vickers", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+      - { name: "Sandra Vickers", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+      - { name: "Malcolm Vickers", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+      - { name: "Nowa Vickers", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+      - { name: "Adrienne Vickers", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Alexia Vickers", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Aretha Vickers", rank: "Star Colonel", affiliation: "Steel Wolves" }
+      - { name: "Cameron Vickers", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Deener Vickers", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Keith Vickers", rank: "Star Colonel", affiliation: "Raven Alliance" }
+      - { name: "Koyo Vickers", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Krystal Vickers", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Magarite Vickers", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Mathi Vickers", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Megan Vickers", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Michael Vickers", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Timothy Vickers", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Cary Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Chun Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Coriolanus Vickers", rank: "Star Captain", affiliation: "Wolf Empire" }
+      - { name: "Dejen Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Harrell Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Hannifan Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Krynos Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Makai Vickers", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Marcel Vickers", rank: "Star Captain", affiliation: "Wolf Empire" }
+      - { name: "Margot Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Polina Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Quay Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Robert Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Zora Vickers", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Dolan Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Douglas Vickers", rank: "Star Commander", affiliation: "Wolf Empire" }
+      - { name: "Inez Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Jisston Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Jiyll Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Lents Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Mabrams Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Mike Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Mohir Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Ollis Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Rhena Vickers", rank: "Star Commander", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Willic Vickers", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Carbut Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Freda Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Jon Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Laureus Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Lee Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Quig Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Raston Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Zachary Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Dolester Vickers", affiliation: "Steel Wolves" }
+      - { name: "Zel Vickers", rank: "MekWarrior", affiliation: "Clan Wolf" }
+    sources:
+      - { title: "Era Report: 3062" }
+      - { title: "Era Report: 3145" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Flight of the Falcon" }
+      - { title: "Historical: Brush Wars" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "MechWarrior 4: Mercenaries" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "MechWarrior: Liao Incursion" }
+      - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+      - { title: "Recognition Guide: ilClan, vol. 1" }
+      - { title: "Recognition Guide: ilClan, vol. 4" }
+      - { title: "Recognition Guide: ilClan, vol. 18", abbrev: "RG18" }
+      - { title: "Shattered Fortress", abbrev: "SF" }
+      - { title: "'Shrapnel, Issue 3" }
+      - { title: "Technical Readout: 3145 The Clans", abbrev: "TR:3145:C" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+      - { title: "Wars and Rumors" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
+    history: ~

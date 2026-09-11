@@ -1,0 +1,83 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CGB
+name: "Hall"
+houses:
+  - founder: "Aslanbek"
+    founderFullName: "Aslanbek Hall"
+    founderAffiliation: "Clan Ghost Bear"
+    phenotype: "GENERAL"
+    postReaving: [CGB]
+    summary: "The Hall Bloodname was a Clan Ghost Bear founding legacy."
+    notableHolders:
+      - { name: "Bracelen Hall", rank: "Galaxy Commander", affiliation: "Clan Ghost Bear" }
+      - { name: "Vigo Hall", rank: "Galaxy Commander", affiliation: "Ghost Bear Dominion" }
+      - { name: "Jason Hall", rank: "Galaxy Commander", affiliation: "Ghost Bear Dominion" }
+      - { name: "Timon Hall", rank: "Galaxy Commander", affiliation: "Rasalhague Dominion" }
+      - { name: "Albert Hall", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Anton Hall", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Christer Hall", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+      - { name: "Conner Hall", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Emilio Hall", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Gina Hall", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Gustaf Hall", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+      - { name: "Irving Hall", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Jurgen Hall", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
+      - { name: "Justinian Hall", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+      - { name: "Linda Hall", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
+      - { name: "Oliana Hall", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
+      - { name: "Troy Hall", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Yao-Qing Hall", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
+      - { name: "Aaron Hall", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Hershel Hall", rank: "Star Captain", affiliation: "Rasalhague Dominion" }
+      - { name: "Jacob Hall", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Malika Hall", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Matthew Hall", rank: "Star Captain", affiliation: "Rasalhague Dominion" }
+      - { name: "Pinter Hall", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Daniel Hall", rank: "Star Commander", affiliation: "Clan Ghost Bear" }
+      - { name: "Michelle Hall", rank: "Star Commander", affiliation: "Clan Ghost Bear" }
+      - { name: "Lilith Hall", rank: "Star Captain", affiliation: "Clan Ghost Bear's Silveroot Keshik" }
+      - { name: "Charlotte Hall", rank: "MekWarrior", affiliation: "Clan Ghost Bear" }
+    sources:
+      - { title: "BattleTech: Battle of Tukayyid" }
+      - { title: "BattleTech: Clan Support Star" }
+      - { title: "Betrayal of Ideals" }
+      - { title: "The Burdens of Honor" }
+      - { title: "Dark Age Turning Points: Vega", abbrev: "DTP:Vega" }
+      - { title: "Era Report: 3052" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Ghost Bear's Lament" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "MechWarrior 5: Clans (video game)" }
+      - { title: "MechWarrior Pilot Deck: Mercenaries of the Inner Sphere II" }
+      - { title: "Recognition Guide: ilClan, vol. 21", abbrev: "RG21" }
+      - { title: "Tamar Rising" }
+      - { title: "Technical Readout: 3058 Upgrade", abbrev: "TR:3058U" }
+      - { title: "Technical Readout: 3145 Clans" }
+      - { title: "Technical Readout: 3150", abbrev: "TR:3150" }
+      - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+      - { title: "Trial by Chaos" }
+      - { title: "Of War and Peace and Cherry Trees" }
+    history: ~

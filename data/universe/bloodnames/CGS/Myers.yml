@@ -1,0 +1,58 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CGS
+name: "Myers"
+houses:
+  - founder: "Brian"
+    founderFullName: "Brian Myers"
+    founderAffiliation: "Clan Goliath Scorpion"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    postReaving: [CGS]
+    summary: "The Myers Bloodname was a Clan Goliath Scorpion founding name."
+    notableHolders:
+      - { name: "Kelton Myers", rank: "saKhan", affiliation: "Clan Goliath Scorpion" }
+      - { name: "Barin Myers", rank: "Galaxy Commander", affiliation: "Scorpion Empire" }
+      - { name: "Rik Myers", rank: "Galaxy Commander", affiliation: "Clan Goliath Scorpion" }
+      - { name: "Daishiro Myers", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Gunnar Myers", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+      - { name: "Toma Myers", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Dwayne Myers", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Josey Myers", rank: "Star Captain", affiliation: "Scorpion Empire" }
+      - { name: "Michael Myers", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Kathryn Myers", rank: "Star Commander", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Selma Myers", rank: "Star Commander", affiliation: "Escorpión Imperio" }
+      - { name: "Tyla Myers", rank: "Point Commander", affiliation: "Escorpión Imperio" }
+    sources:
+      - { title: "The Dragon Roars" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Forever Faithful" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Moving Forward" }
+      - { title: "No Dust, No Wear" }
+      - { title: "Operational Turning Points: REVIVAL Trials" }
+      - { title: "Recognition Guide: ilClan, vol. 20", abbrev: "RG20" }
+      - { title: "Spotlight On: Crimson Seeker Star" }
+      - { title: "Spotlight On: Hellion Keshik", abbrev: "SO:HK" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

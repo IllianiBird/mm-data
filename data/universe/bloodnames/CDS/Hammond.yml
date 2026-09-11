@@ -1,0 +1,51 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CDS
+name: "Hammond"
+houses:
+  - founder: "Anthony"
+    founderFullName: "Anthony Hammond"
+    founderAffiliation: "Clan Sea Fox"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    limited: true
+    limitedSince: 3085
+    postReaving: [CDS]
+    notableHolders:
+      - { name: "Xoc Hammond", rank: "Khan", affiliation: "Clan Sea Fox" }
+      - { name: "Orestes Hammond", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+      - { name: "Azerwal Hammond", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+      - { name: "Marko Hammond", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Paul Hammond", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Jeremy Hammond", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Ross Hammond", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+      - { name: "Marcin Hammond", rank: "Stablemaster", affiliation: "Zellbrigen Stables" }
+      - { name: "Najeh Hammond", rank: "MekWarrior", affiliation: "Clan Sea Fox" }
+    sources:
+      - { title: "BattleTech: Clan Command Star" }
+      - { title: "Era Report: 3145" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "MapPack: Solaris VII" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

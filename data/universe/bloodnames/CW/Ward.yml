@@ -1,0 +1,145 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CW
+name: "Ward"
+houses:
+  - founder: "Jal"
+    founderFullName: "Jal Ward"
+    founderRank: "Star Colonel"
+    founderAffiliation: "Clan Wolf"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    postReaving: [CW,CWIE]
+    shared:
+      - { clan: CWIE, date: 3057 }
+    notableHolders:
+      - { name: "Alaric Ward", rank: "ilKhan", affiliation: "Wolf Empire" }
+      - { name: "Victoria Ward", rank: "ilKhan" }
+      - { name: "Alexis Ward", rank: "Khan", affiliation: "Clan Wolf" }
+      - { name: "Elsa Ward", rank: "Khan", affiliation: "Clan Wolf" }
+      - { name: "Kerlin Ward", rank: "Khan", affiliation: "Clan Wolf" }
+      - { name: "Seth Ward", rank: "Khan", affiliation: "Wolf Empire" }
+      - { name: "Vladimir Ward", rank: "Khan", affiliation: "Clan Wolf" }
+      - { name: "Cyrilla Ward", rank: "saKhan", affiliation: "Clan Wolf" }
+      - { name: "Conal Ward", rank: "Loremaster", affiliation: "Clan Wolf" }
+      - { name: "Daskin Ward", rank: "Loremaster", affiliation: "Clan Wolf" }
+      - { name: "Liam Ward", rank: "Loremaster", affiliation: "Wolf Empire" }
+      - { name: "Annie Ward", rank: "Galaxy Commander", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Elise Ward", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+      - { name: "John Ward", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+      - { name: "Mikhail Ward", rank: "Galaxy Commander", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Abioye Ward", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Baiko Ward", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Brett Ward", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Craig Ward", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Damon Ward", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Devon Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Ecker Ward", rank: "Star Colonel", affiliation: "Steel Wolves" }
+      - { name: "Evon Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Ferris Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Hedda Ward", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Josiah Ward", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Juanita Ward", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Lara Ward", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Mirvat Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Naela Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Ansella Ward", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Codera Ward", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Darian Ward", rank: "Star Captain", affiliation: "Wolf Empire" }
+      - { name: "Elysius Ward", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Katrina Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Leo Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Lun Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Moranda Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Nick Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Selma Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Skinner Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Splido Ward", rank: "Star Captain", affiliation: "Wolf Empire" }
+      - { name: "Thalia Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Zetoras Ward", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Archer Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Ava Ward", rank: "Star Commander", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Biffly Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Franklin Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Jevanrod Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Jobi Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Kellin Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Meril Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Nikolai Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Russic Ward", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Alex Ward", rank: "MekWarrior", affiliation: "Wolf's Dragoons" }
+      - { name: "Arvil Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Edina Ward", rank: "MekWarrior", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Ghita Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Hamala Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Maise Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Nikita Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Patton Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Silvia Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Ullor Ward", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Alexei Ward", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Druss Ward", affiliation: "Clan Wolf" }
+      - { name: "Katya Ward", affiliation: "Clan Wolf" }
+      - { name: "Seka Ward", affiliation: "Steel Wolves" }
+      - { name: "Jaela Ward", rank: "Star Colonel", affiliation: "Clan Wolf" }
+    sources:
+      - { title: "Betrayal of Ideals" }
+      - { title: "Blood Legacy", abbrev: "Blood Legacy" }
+      - { title: "Children of Kerensky" }
+      - { title: "Dark Age: 3132-3134 INN" }
+      - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+      - { title: "Era Digest: Golden Century", abbrev: "ED:GC" }
+      - { title: "Era Report: 3052" }
+      - { title: "Era Report: 3145" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Fang and Claw" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
+      - { title: "Lethal Heritage", abbrev: "Lethal Heritage" }
+      - { title: "Lost Destiny", abbrev: "Lost Destiny" }
+      - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "MechWarrior Online" }
+      - { title: "MechWarrior Pilot Deck: Heroes of the Clan Invasion" }
+      - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+      - { title: "Operational Turning Points: The Red Corsair", abbrev: "OTP:RC" }
+      - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+      - { title: "Recognition Guide: ilClan, vol. 4" }
+      - { title: "Recognition Guide: ilClan, vol. 10", abbrev: "RG10" }
+      - { title: "Recognition Guide: ilClan, vol. 13", abbrev: "RG13" }
+      - { title: "Recognition Guide: ilClan, vol. 16", abbrev: "RG16" }
+      - { title: "Roar of Honor" }
+      - { title: "Shattered Fortress", abbrev: "SF" }
+      - { title: "Shrapnel Issue 3" }
+      - { title: "Sword of Sedition" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+      - { title: "Technical Readout: 3145 Clans" }
+      - { title: "Technical Readout: 3145 Free Worlds League", abbrev: "TR:3145:FWL" }
+      - { title: "Turning Points: Irian", abbrev: "TP:Irian" }
+      - { title: "Unopposed (CCG - CommandersEdition)" }
+      - { title: "The Weight of a Name" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
+    history: ~

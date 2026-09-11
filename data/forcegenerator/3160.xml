@@ -302,7 +302,7 @@
             <upgradeMargin>15</upgradeMargin>
             <salvage pct='5'>LA:10</salvage>
         </faction>
-        <faction key='SE'>
+        <faction key='CGS'>
             <pctOmni>0,0,20,50,80</pctOmni>
             <pctClan>10,10,60,70,90</pctClan>
             <pctSL>90,90,40,30,10</pctSL>
@@ -1658,6 +1658,13 @@
                 <availability>RD:6</availability>
             </model>
         </chassis>
+        <chassis name='Aqueduct Liquid Carrier' unitType='Dropship'>
+            <availability>CC:4,LA:4,FWL:4,IS:2,FS:4,CP:4,DC:4,Periphery:2</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Archer' unitType='Mek'>
             <availability>CC:4,RD:4,LA:6,FWL:6,CP:6,Periphery:3,DC:5</availability>
             <model name='(Wolf)'>
@@ -2208,7 +2215,7 @@
                 <availability>IS:4,FVC:2,SL3:4,CJF:1</availability>
             </model>
             <model name='(Tanker)'>
-                <roles>support</roles>
+                <roles>cargo,support</roles>
                 <availability>IS:4,FVC:4,SL3:4,CJF:4</availability>
             </model>
             <model name='(Vehicle)'>
@@ -3020,11 +3027,26 @@
                 <availability>General:4</availability>
             </model>
         </chassis>
+        <chassis name='Behemoth C' unitType='Dropship'>
+            <availability>CLAN:2</availability>
+            <model name='(2848)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+            <model name='(Arcship)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:4</availability>
+            </model>
+        </chassis>
         <chassis name='Behemoth' unitType='Dropship'>
             <availability>CC:2,LA:2,FWL:2,IS:1,FS:2,CP:2,DC:2,Periphery:1</availability>
             <model name='(2658)'>
                 <roles>cargo,civilian</roles>
                 <availability>General:8</availability>
+            </model>
+            <model name='(2782)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:6</availability>
             </model>
         </chassis>
         <chassis name='Bellona Hover Tank' unitType='Tank'>
@@ -3629,10 +3651,18 @@
             </model>
         </chassis>
         <chassis name='Buccaneer' unitType='Dropship'>
-            <availability>CLAN:3,IS:6,Periphery.Deep:5,MERC:5,BAN:5,Periphery:7</availability>
+            <availability>CLAN:3,IS:6,Periphery.Deep:5,MERC:5,BAN:5,Periphery:7,CS.EC:5</availability>
             <model name='(2708)'>
                 <roles>cargo</roles>
                 <availability>General:8</availability>
+            </model>
+            <model name='(2792)'>
+                <roles>cargo</roles>
+                <availability>General:6</availability>
+            </model>
+            <model name='Rezak'>
+                <roles>cargo</roles>
+                <availability>General:6</availability>
             </model>
         </chassis>
         <chassis name='Buccaneer' unitType='Mek'>
@@ -7126,7 +7156,7 @@
             </model>
         </chassis>
         <chassis name='Explorer JumpShip' unitType='Jumpship'>
-            <availability>FWL:1,IS:1</availability>
+            <availability>FWL:1,IS:1,CS.EC:6</availability>
             <model name=''>
                 <roles>civilian</roles>
                 <availability>IS:8</availability>
@@ -14617,6 +14647,13 @@
                 <availability>General:8</availability>
             </model>
         </chassis>
+        <chassis name='Mingo' unitType='Dropship'>
+            <availability>Periphery.Deep:3</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='MIT23 MASH Vehicle' unitType='Tank'>
             <availability>SL3:3,CLAN.IS:3,LA:4,FS:4,MERC:4</availability>
             <model name=''>
@@ -14774,7 +14811,7 @@
             </model>
         </chassis>
         <chassis name='Magellan Jumpship' unitType='Jumpship'>
-            <availability>SL3.CJF:4,SL3:4</availability>
+            <availability>SL3.CJF:4,SL3:4,CS.EC:6</availability>
             <model name='(2960)'>
                 <availability>General:8</availability>
             </model>
@@ -14823,6 +14860,10 @@
             <model name='(2658)'>
                 <roles>cargo,civilian</roles>
                 <availability>General:8</availability>
+            </model>
+            <model name='(2808)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:6</availability>
             </model>
         </chassis>
         <chassis name='Mamono IFV' unitType='Tank'>
@@ -16512,7 +16553,7 @@
             </model>
         </chassis>
         <chassis name='Merchant Jumpship' unitType='Jumpship'>
-            <availability>MERC.KH:4,SE:5,MERC.WD:4,CLAN:5,IS:5,Periphery.Deep:3,MERC:5,Periphery:6</availability>
+            <availability>MERC.KH:4,SE:5,MERC.WD:4,CLAN:5,IS:5,Periphery.Deep:3,MERC:5,Periphery:6,CS.EC:6</availability>
             <model name='(2503)'>
                 <availability>General:6</availability>
             </model>
@@ -17320,6 +17361,13 @@
             <model name='GMMM-2M-B MiningMech MOD'>
                 <roles>fire_support</roles>
                 <availability>CC:2-,FWL:2-,Periphery:3-,TC:1-,MOC:1-,Periphery.Deep:0,SE:0</availability>
+            </model>
+        </chassis>
+        <chassis name='Mule C' unitType='Dropship'>
+            <availability>CLAN:5,BAN:2</availability>
+            <model name='(2842)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
             </model>
         </chassis>
         <chassis name='Mule' unitType='Dropship'>
@@ -20179,6 +20227,10 @@
                 <roles>cargo</roles>
                 <availability>General:8</availability>
             </model>
+            <model name='(Hive)'>
+                <roles>cargo</roles>
+                <availability>General:6</availability>
+            </model>
         </chassis>
         <chassis name='Rottweiler Battle Armor' unitType='BattleArmor'>
             <availability>LA:5,MERC:3</availability>
@@ -20919,7 +20971,7 @@
             </model>
         </chassis>
         <chassis name='Scout JumpShip' unitType='Jumpship'>
-            <availability>SE:5,CLAN:5,IS:6,MERC:5,Periphery:4</availability>
+            <availability>SE:5,CLAN:5,IS:6,MERC:5,Periphery:4,CS.EC:7</availability>
             <model name='(2712)'>
                 <availability>General:8,CLAN:4</availability>
             </model>
@@ -24007,7 +24059,7 @@
             </model>
         </chassis>
         <chassis name='Union' unitType='Dropship'>
-            <availability>IS:8,Periphery:6,BAN:4</availability>
+            <availability>IS:8,Periphery:6,BAN:4,CS.EC:6</availability>
             <model name='(2708)'>
                 <roles>mek_carrier</roles>
                 <availability>General:5,BAN:4</availability>

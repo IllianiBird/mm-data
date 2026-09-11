@@ -1,0 +1,49 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+# Kali Liao raised two Warrior Houses in secret in 3071 with the Word of Blake's Precentor
+# Martial Cameron St. Jamais, out of her Thuggee cult and the Manei Domini. She held no
+# authority to raise a Warrior House, so these answer to her rather than to the Warrior
+# House Orders and do not fall back on them.
+#
+# White Tiger and Rakshasa are one record rather than two because nothing that separates
+# them reaches unit generation. Both were raised in 3071 and destroyed on Sian in January
+# 3074, both are rated A, and both drew on the same two tables. What differs is who filled
+# them - White Tiger from Thuggee cultists handpicked by Kali Liao, Rakshasa from Blakist
+# Manei Domini - and their battlefield abilities. Which House is being generated is chosen
+# in the ruleset instead, where it decides organisation and naming.
+#
+# Their record of service gives the Capellan Confederation and the Shadow Divisions as the
+# two tables their equipment comes from, which is what the pair of fallback factions
+# reproduces - the generator averages them, so the Houses draw on both rather than either.
+#
+# Both were Capellan formations using lances, companies and battalions rather than the Word
+# of Blake's base-six organisation, so they declare Inner Sphere sizes and the Confederation
+# rank system rather than inheriting anything from the Blakist side.
+
+key: CC.THG
+name: Warrior House Thuggee
+yearsActive:
+  - start: 3071
+    end: 3074
+ratingLevels:
+  - A
+fallBackFactions:
+  - CC
+  - WOB.SD
+formationBaseSize: 4
+formationGrouping: 3
+rankSystem: CCAF

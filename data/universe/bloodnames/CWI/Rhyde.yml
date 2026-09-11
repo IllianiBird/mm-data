@@ -1,0 +1,53 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CWI
+name: "Rhyde"
+houses:
+  - founder: "Dejan"
+    founderFullName: "Dejan Rhyde"
+    founderAffiliation: "Clan Widowmaker"
+    phenotype: "AEROSPACE"
+    exclusive: true
+    postReaving: [CW,CWIE]
+    absorbed: { clan: CW, date: 2834 }
+    shared:
+      - { clan: CWIE, date: 3057 }
+    summary: "The Rhyde Bloodname was a Clan Widowmaker founding name."
+    notableHolders:
+      - { name: "Josip Rhyde", rank: "Khan", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Alexia Rhyde", rank: "Acting Galaxy Commander", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Irma Rhyde", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Miriam Rhyde", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Tessandra Rhyde", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Travis Rhyde", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Rylan Rhyde", rank: "Star Captain", affiliation: "Wolf Empire" }
+      - { name: "Zeisemer Rhyde", rank: "Star Captain", affiliation: "Wolf Empire" }
+      - { name: "Baker Rhyde", rank: "Star Commander", affiliation: "Wolf Empire" }
+    sources:
+      - { title: "Children of Kerensky" }
+      - { title: "Era Report: 3145" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "Jihad Hot Spots: Terra", abbrev: "JHS:Terra" }
+    history: ~

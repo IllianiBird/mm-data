@@ -1,0 +1,65 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CJF
+name: "Chistu"
+houses:
+  - founder: "Jill"
+    founderFullName: "Jill Chistu"
+    founderAffiliation: "Clan Jade Falcon"
+    phenotype: "GENERAL"
+    exclusive: true
+    limited: true
+    limitedSince: 3085
+    postReaving: [CJF]
+    summary: "The Chistu Bloodname was a Clan Jade Falcon founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
+    notableHolders:
+      - { name: "Jiyi Chistu", rank: "Khan", affiliation: "Clan Jade Falcon" }
+      - { name: "Ruel Chistu", rank: "Khan", affiliation: "Clan Jade Falcon" }
+      - { name: "Stephanie Chistu", rank: "Khan", affiliation: "Clan Jade Falcon" }
+      - { name: "Vandervahn Chistu", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+      - { name: "Erik Chistu", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon circa 3072" }
+      - { name: "Erik Chistu", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon as of 3135" }
+      - { name: "Benjamin Chistu", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Carl Chistu", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Hastur Chistu", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Lejla Chistu", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Arielle Chistu", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Danton Chistu", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+    sources:
+      - { title: "The Anvil" }
+      - { title: "Era Report: 3052" }
+      - { title: "Era Report: 3145" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
+      - { title: "Jihad Secrets: The Blake Documents", abbrev: "JSBD" }
+      - { title: "Malicious Intent" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "A Rending of Falcons" }
+      - { title: "Tamar Rising" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+      - { title: "Technical Readout: 3150", abbrev: "TR:3150" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

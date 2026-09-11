@@ -168,29 +168,29 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         <attachedForces ifUnitType="Mek">
             <subforceOption>
                 <option unitType="AeroSpaceFighter" weight="2"
-                        name="Aerospace Support">%WING%
+                        name="Aerospace {echelon}">%WING%
                 </option>
                 <option unitType="AeroSpaceFighter" weight="2" num="2"
-                        name="Aerospace Support">%WING%
+                        name="Aerospace {echelon}">%WING%
                 </option>
                 <option unitType="AeroSpaceFighter" num="2"
-                        name="Aerospace Support">%FLIGHT%
+                        name="Aerospace {echelon}">%FLIGHT%
                 </option>
             </subforceOption>
             <subforceOption ifDateBetween=",3080">
                 <option unitType="Tank" weight="2"
-                        name="Armor Support">%BATTALION%
+                        name="Armor {echelon}">%BATTALION%
                 </option>
                 <option unitType="Tank"
-                        name="Armor Support">%REGIMENT%
+                        name="Armor {echelon}">%REGIMENT%
                 </option>
             </subforceOption>
             <subforceOption>
                 <option unitType="Infantry"
-                        name="Infantry Support">%BATTALION%
+                        name="Infantry {echelon}">%BATTALION%
                 </option>
                 <option unitType="Infantry" weight="2"
-                        name="Infantry Support">%REGIMENT%
+                        name="Infantry {echelon}">%REGIMENT%
                 </option>
             </subforceOption>
         </attachedForces>
@@ -199,13 +199,13 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         <attachedForces ifUnitType="Tank" ifDateBetween=",2540">
             <subforceOption>
                 <option unitType="AeroSpaceFighter" weight="2"
-                        name="Aerospace Support">%WING%
+                        name="Aerospace {echelon}">%WING%
                 </option>
                 <option unitType="AeroSpaceFighter" weight="2" num="2"
-                        name="Aerospace Support">%WING%
+                        name="Aerospace {echelon}">%WING%
                 </option>
                 <option unitType="AeroSpaceFighter" num="2"
-                        name="Aerospace Support">%FLIGHT%
+                        name="Aerospace {echelon}">%FLIGHT%
                 </option>
             </subforceOption>
             <subforceOption ifDateBetween="2472,">
@@ -216,7 +216,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
                 <option unitType="Mek" ifDateBetween="2500,2399">%BATTALION%</option>
             </subforceOption>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
     </force>
@@ -244,31 +244,31 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         <attachedForces ifUnitType="Tank"
                         ifRole="!artillery|missile_artillery">
             <subforceOption ifWeightClass="A">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="2">%COMPANY%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="3" />
             </subforceOption>
             <subforceOption ifWeightClass="H">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="2" />
             </subforceOption>
             <subforceOption ifWeightClass="M">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="1">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="2">%LANCE%
                 </option>
                 <option weight="6" />
@@ -335,31 +335,31 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
 
         <attachedForces>
             <subforceOption ifWeightClass="A">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="2">%COMPANY%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="3" />
             </subforceOption>
             <subforceOption ifWeightClass="H">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="2" />
             </subforceOption>
             <subforceOption ifWeightClass="M">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="1">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="2">%LANCE%
                 </option>
                 <option weight="6" />
@@ -877,11 +877,11 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
         <attachedForces>
             <subforceOption>
                 <option unitType="Tank" role="artillery"
-                        name="Artillery Support"
+                        name="Artillery {echelon}"
                         weight="1">%COMPANY%
                 </option>
                 <option unitType="Tank" role="artillery"
-                        name="Artillery Support"
+                        name="Artillery {echelon}"
                         weight="1">%BATTALION%
                 </option>
                 <option weight="4" />
@@ -890,10 +890,10 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
             </subforceOption>
             <subforceOption>
                 <option unitType="Conventional Fighter"
-                        name="Air Support" weight="1">%SQUADRON%
+                        name="Air {echelon}" weight="1">%SQUADRON%
                 </option>
                 <option unitType="Conventional Fighter"
-                        name="Air Support" weight="1">%WING%
+                        name="Air {echelon}" weight="1">%WING%
                 </option>
                 <option weight="10" />
             </subforceOption>
@@ -906,10 +906,10 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
             </subforceOption>
             <subforceOption>
                 <option unitType="Tank" role="infantry_support"
-                        weight="3" name="Armor Support">%COMPANY%
+                        weight="3" name="Armor {echelon}">%COMPANY%
                 </option>
                 <option unitType="Tank" role="infantry_support"
-                        weight="1" name="Armor Support">%BATTALION%
+                        weight="1" name="Armor {echelon}">%BATTALION%
                 </option>
                 <option weight="2" />
                 <option weight="1" ifWeightClass="M" />
@@ -1083,7 +1083,7 @@ use of augmented 4 Vee/2 inf lances in independent armor regiments. -->
 
         <attachedForces>
             <subforceOption>
-                <option weight="2" unitType="Infantry" name="Engineers"
+                <option weight="2" unitType="Infantry" name="Engineering {echelon}"
                         role="engineer">%COMPANY%
                 </option>
                 <option weight="1" />

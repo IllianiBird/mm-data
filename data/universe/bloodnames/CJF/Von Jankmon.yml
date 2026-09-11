@@ -1,0 +1,74 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CJF
+name: "Von Jankmon"
+houses:
+  - founder: "Beezie"
+    founderFullName: "Beezie von Jankmon"
+    founderAffiliation: "Clan Jade Falcon"
+    phenotype: "AEROSPACE"
+    exclusive: true
+    postReaving: [CJF]
+    summary: "The von Jankmon Bloodname was a Clan Jade Falcon founding legacy."
+    notableHolders:
+      - { name: "Jared von Jankmon", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Edwina von Jankmon", rank: "Star Admiral", affiliation: "Clan Jade Falcon" }
+      - { name: "Angela von Jankmon", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Jan von Jankmon", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Natalya von Jankmon", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Nicholas von Jankmon", rank: "Star Commodore", affiliation: "Clan Jade Falcon" }
+      - { name: "Pamula von Jankmon", rank: "Star Commodore", affiliation: "Clan Jade Falcon" }
+      - { name: "Boyington von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Charlotte von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Chingkim von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Gretton von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Krzysztof von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Star Captain Matthew von Jankmon (2nd Falcon Jaegers - Trinary Charlie) of Clan Jade Falcon.", affiliation: "Clan Jade Falcon" }
+      - { name: "Star Captain Matthew von Jankmon (2nd Falcon Jaegers - Trinary Echo) of Clan Jade Falcon.", affiliation: "Clan Jade Falcon" }
+      - { name: "Nerran von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Otto von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Richard von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Wayne von Jankmon", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Avernathy von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Cynthia von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Daniel von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Jeraldine von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Nicola von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Stella von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Ty von Jankmon", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Henry von Jankmon", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+    sources:
+      - { title: "Battle of Coventry" }
+      - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+      - { title: "Era Report: 3052" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "FedCom Civil War", abbrev: "FCCW" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
+      - { title: "Operation Audacity" }
+      - { title: "Operation Ice Storm (novella)" }
+      - { title: "A Rending of Falcons" }
+      - { title: "Starter: Fist and Falcon" }
+      - { title: "Trial of Faith" }
+    history: ~

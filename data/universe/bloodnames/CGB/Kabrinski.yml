@@ -1,0 +1,63 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CGB
+name: "Kabrinski"
+houses:
+  - founder: "Bryan"
+    founderFullName: "Bryan Kabrinski"
+    founderAffiliation: "Clan Ghost Bear"
+    phenotype: "ELEMENTAL"
+    exclusive: true
+    postReaving: [CGB]
+    summary: "The Kabrinski Bloodname was a Clan Ghost Bear founding legacy."
+    notableHolders:
+      - { name: "Aletha Kabrinski", rank: "Khan", affiliation: "Clan Ghost Bear" }
+      - { name: "Jake Kabrinski", rank: "Khan", affiliation: "Clan Hell's Horses" }
+      - { name: "Hans Kabrinski", rank: "Loremaster", affiliation: "Rasalhague Dominion" }
+      - { name: "Eric Kabrinski", rank: "Star Colonel", affiliation: "Ghost Bear Dominion" }
+      - { name: "Isaac Kabrinski", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+      - { name: "Mika Kabrinski", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Sarah Kabrinski", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+      - { name: "Alan Kabrinski", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Brigit Kabrinski", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Bryan Kabrinski", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Byron Kabrinski", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Dale Kabrinski", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Drew Kabrinski", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Endo Kabrinski", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Grendel Kabrinski", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Jocelyn Kabrinski", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Sarah Kabrinski", rank: "Star Captain", affiliation: "Clan Ghost Bear" }
+      - { name: "Edan Kabrinski", rank: "Point Commander", affiliation: "Clan Ghost Bear" }
+    sources:
+      - { title: "The Clawing" }
+      - { title: "Era Report: 3052" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
+      - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+      - { title: "Test of Vengeance" }
+      - { title: "Total Warfare", abbrev: "TW" }
+    history: ~

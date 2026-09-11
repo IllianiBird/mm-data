@@ -67,52 +67,52 @@ types of support units attached to Mek regiments can vary widely. -->
         <attachedForces>
             <subforceOption>
                 <option unitType="AeroSpaceFighter" weight="7"
-                        name="Aerospace Support">%WING%
+                        name="Aerospace {echelon}">%WING%
                 </option>
                 <option unitType="AeroSpaceFighter"
-                        name="Aerospace Support">%SQUADRON%
+                        name="Aerospace {echelon}">%SQUADRON%
                 </option>
                 <option unitType="AeroSpaceFighter"
-                        name="Aerospace Support">%GROUP%
+                        name="Aerospace {echelon}">%GROUP%
                 </option>
                 <option weight="3" />
             </subforceOption>
             <subforceOption>
                 <option unitType="Tank" weight="2"
-                        name="Armor Support">%REGIMENT%
+                        name="Armor {echelon}">%REGIMENT%
                 </option>
                 <option unitType="Tank"
-                        name="Armor Support">%REGIMENT%-
+                        name="Armor {echelon}">%REGIMENT%-
                 </option>
                 <option unitType="Tank" weight="3"
-                        name="Armor Support">%BATTALION%
+                        name="Armor {echelon}">%BATTALION%
                 </option>
                 <option unitType="Tank" weight="2"
-                        name="Armor Support">%BATTALION%-
+                        name="Armor {echelon}">%BATTALION%-
                 </option>
                 <option unitType="Tank"
-                        name="Armor Support">%COMPANY%
+                        name="Armor {echelon}">%COMPANY%
                 </option>
                 <option weight="3" />
             </subforceOption>
             <subforceOption>
                 <option unitType="Infantry"
-                        name="Infantry Support">%REGIMENT%+
+                        name="Infantry {echelon}">%REGIMENT%+
                 </option>
                 <option unitType="Infantry" weight="2"
-                        name="Infantry Support">%REGIMENT%
+                        name="Infantry {echelon}">%REGIMENT%
                 </option>
                 <option unitType="Infantry" weight="2"
-                        name="Infantry Support">%REGIMENT%-
+                        name="Infantry {echelon}">%REGIMENT%-
                 </option>
                 <option unitType="Infantry"
-                        name="Infantry Support">%BATTALION%
+                        name="Infantry {echelon}">%BATTALION%
                 </option>
                 <option unitType="Infantry" weight="2"
-                        name="Infantry Support">%COMPANY%
+                        name="Infantry {echelon}">%COMPANY%
                 </option>
                 <option unitType="BattleArmor"
-                        name="Infantry Support">%PLATOON%
+                        name="Infantry {echelon}">%PLATOON%
                 </option>
                 <option weight="3" />
             </subforceOption>
@@ -294,7 +294,7 @@ types of support units attached to Mek regiments can vary widely. -->
 
         <attachedForces ifUnitType="Tank" ifDateBetween=",2550">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforceOption ifDateBetween="2481,">
                 <option ifRating="D|F" />
@@ -304,7 +304,7 @@ types of support units attached to Mek regiments can vary widely. -->
                 <option unitType="Mek" ifDateBetween="2520,2549">%BATTALION%</option>
             </subforceOption>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
     </force>
@@ -419,7 +419,7 @@ types of support units attached to Mek regiments can vary widely. -->
 
         <attachedForces>
             <subforceOption>
-                <option weight="2" unitType="Infantry" name="Engineers"
+                <option weight="2" unitType="Infantry" name="Engineering {echelon}"
                         role="engineer">%COMPANY%
                 </option>
                 <option weight="1" />

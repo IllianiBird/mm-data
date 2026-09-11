@@ -1,0 +1,55 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CDS
+name: "Clarke"
+houses:
+  - founder: "Anton"
+    founderFullName: "Anton Clarke"
+    founderAffiliation: "Clan Sea Fox"
+    phenotype: "GENERAL"
+    exclusive: true
+    postReaving: [CDS]
+    summary: "The Clarke Bloodname was a Clan Sea Fox founding name."
+    notableHolders:
+      - { name: "Damon Clarke", rank: "Khan", affiliation: "Clan Sea Fox" }
+      - { name: "Patricia Clarke", rank: "Khan", affiliation: "Clan Diamond Shark" }
+      - { name: "Anatoli Clarke", rank: "Loremaster", affiliation: "Clan Sea Fox" }
+      - { name: "Ginny Clarke", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+      - { name: "Sena Clarke", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+      - { name: "Sha Clarke", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+      - { name: "Evangeline Clarke", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+      - { name: "Brencis Clarke", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Khuzymah Clarke", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Megan Clarke", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Stanislaus Clarke", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Thoman Clarke", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Tucker Clarke", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+    sources:
+      - { title: "BattleTech: Battle of Tukayyid" }
+      - { title: "BattleTech: Clan Support Star" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hunters of the Deep" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

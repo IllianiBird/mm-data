@@ -1,0 +1,126 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CJF
+name: "Pryde"
+houses:
+  - founder: "Aeneas"
+    founderFullName: "Aeneas Pryde"
+    founderAffiliation: "Clan Jade Falcon"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    postReaving: [CJF]
+    summary: "The Pryde Bloodname was a Clan Jade Falcon founding legacy."
+    notableHolders:
+      - { name: "Jana Pryde", rank: "Khan", affiliation: "Clan Jade Falcon" }
+      - { name: "Marthe Pryde", rank: "Khan", affiliation: "Clan Jade Falcon" }
+      - { name: "Ryan Pryde", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+      - { name: "Khalus Pryde", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+      - { name: "Brian Pryde", rank: "Loremaster", affiliation: "Clan Jade Falcon" }
+      - { name: "Clarence Pryde", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Aidan Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Alga Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Caro Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "David Pryde", rank: "Star Colonel", affiliation: "Raven Alliance" }
+      - { name: "Diana Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Gabriella Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Gregory Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Halim Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Isabelle Pryde", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Kathryn Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Libusa Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Marshall Pryde", rank: "Star Colonel", affiliation: "Clan Star Adder" }
+      - { name: "Matthias Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Ravill Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Vanessa Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Virginia Pryde", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Archer Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Artemis Pryde", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Arne Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Cameron Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Caro Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Dreeson Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "James Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Jezebel Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Ney Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Nicholas Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Nikolas Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Sands Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Tui Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Darya Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "David Pryde", rank: "Star Commander", affiliation: "Clan Smoke Jaguar" }
+      - { name: "David Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Kellog Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Nigel Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Tania Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Vera Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Brian Pryde", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Glenn Pryde", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Risa Pryde", rank: "Bloodhouse Leader", affiliation: "Clan Jade Falcon" }
+      - { name: "William Pryde", rank: "Falconer", affiliation: "Clan Jade Falcon" }
+      - { name: "Bojin Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Donas Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Gregoria Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Ichiba Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Kothinur Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Odekirk Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Sander Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Tanya Pryde", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Ileana Pryde", affiliation: "Clan Jade Falcon" }
+      - { name: "Ingrid Pryde", affiliation: "Clan Jade Falcon" }
+      - { name: "Teukros Pryde", affiliation: "Clan Jade Falcon" }
+      - { name: "Tholburn Pryde", affiliation: "Clan Jade Falcon" }
+      - { name: "Dominga Pryde", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+    sources:
+      - { title: "The Anvil (novella)" }
+      - { title: "The Battle of Coventry" }
+      - { title: "Bloodname" }
+      - { title: "Dark Age: 3132-3134 INN" }
+      - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+      - { title: "Era Report: 3062" }
+      - { title: "Falcon Guard" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "First Somerset Strikers" }
+      - { title: "First Strike", abbrev: "FS" }
+      - { title: "Flight of the Falcon" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
+      - { title: "Jihad Hot Spots: 3072" }
+      - { title: "Jihad Hot Spots: 3076", abbrev: "JHS:3076" }
+      - { title: "Jihad Hot Spots: Terra", abbrev: "JHS:Terra" }
+      - { title: "Jihad Secrets: The Blake Documents", abbrev: "JSBD" }
+      - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+      - { title: "MechWarrior Tactical Command" }
+      - { title: "Recognition Guide: ilClan, vol. 11", abbrev: "RG11" }
+      - { title: "Recognition Guide: ilClan, vol. 16", abbrev: "RG16" }
+      - { title: "Recognition Guide: ilClan, vol. 17", abbrev: "RG17" }
+      - { title: "A Rending of Falcons" }
+      - { title: "Technical Readout: 3085", abbrev: "TR:3085" }
+      - { title: "Technical Readout: Jihad", abbrev: "TR:J" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+      - { title: "Way of the Clans", abbrev: "Way of the Clans" }
+    history: ~

@@ -257,8 +257,8 @@ division where most factions organize around a regiment. -->
         flights attached to companies. -->
 
         <attachedForces>
-            <subforce unitType="Tank" name="Armor Support">%REGIMENT%</subforce>
-            <subforce unitType="Infantry" name="Infantry Support">%REGIMENT%</subforce>
+            <subforce unitType="Tank" name="Armor {echelon}">%REGIMENT%</subforce>
+            <subforce unitType="Infantry" name="Infantry {echelon}">%REGIMENT%</subforce>
         </attachedForces>
     </force>
 
@@ -364,7 +364,7 @@ division where most factions organize around a regiment. -->
         </subforces>
 
         <attachedForces ifFlags="heavyAssault">
-            <subforce unitType="Infantry" role="artillery" name="Artillery Support">%COMPANY%</subforce>
+            <subforce unitType="Infantry" role="artillery" name="Artillery {echelon}">%COMPANY%</subforce>
         </attachedForces>
     </force>
 
@@ -833,7 +833,7 @@ division where most factions organize around a regiment. -->
 
         <attachedForces ifUnitType="AeroSpaceFighter">
             <subforce unitType="Conventional Fighter">%AIR_REGIMENT%</subforce>
-            <subforce unitType="Infantry" name="Engineers"
+            <subforce unitType="Infantry" name="Engineering {echelon}"
                       role="engineer">%BATTALION%
             </subforce>
         </attachedForces>

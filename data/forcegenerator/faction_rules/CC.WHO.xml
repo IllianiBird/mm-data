@@ -29,6 +29,7 @@ had been upgraded to BA by that date. -->
         <unitType>Mek</unitType>
         <echelon>%BATTALION%</echelon>
         <rankSystem>%RANK_CC_WH%</rankSystem>
+        <rating>C</rating>
     </defaults>
 
     <toc>
@@ -87,11 +88,11 @@ had been upgraded to BA by that date. -->
 
         <attachedForces ifUnitType="Mek">
             <subforce unitType="Infantry"
-                      name="Infantry Support">%BATTALION%
+                      name="Infantry {echelon}">%BATTALION%
             </subforce>
             <subforceOption>
                 <option unitType="AeroSpaceFighter"
-                        name="Aerospace Support">%FLIGHT%
+                        name="Aerospace {echelon}">%FLIGHT%
                 </option>
                 <option weight="3" />
             </subforceOption>
@@ -225,10 +226,10 @@ had been upgraded to BA by that date. -->
         </subforces>
 
         <attachedForces ifUnitType="Mek">
-            <subforce unitType="BattleArmor" augmented="1" name="Infantry Support">%BATTALION%</subforce>
+            <subforce unitType="BattleArmor" augmented="1" name="Infantry {echelon}">%BATTALION%</subforce>
             <subforceOption>
                 <option unitType="AeroSpaceFighter"
-                        name="Aerospace Support">%FLIGHT%
+                        name="Aerospace {echelon}">%FLIGHT%
                 </option>
                 <option weight="3" />
             </subforceOption>

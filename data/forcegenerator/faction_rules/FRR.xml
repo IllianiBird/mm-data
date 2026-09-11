@@ -82,13 +82,13 @@
 
         <attachedForces>
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforce unitType="Tank"
-                      name="Armor Support">%BATTALION%
+                      name="Armor {echelon}">%BATTALION%
             </subforce>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
     </force>

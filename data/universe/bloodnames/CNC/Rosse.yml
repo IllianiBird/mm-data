@@ -1,0 +1,77 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CNC
+name: "Rosse"
+houses:
+  - founder: "Jason"
+    founderFullName: "Jason Rosse"
+    founderAffiliation: "Clan Nova Cat"
+    phenotype: "MEKWARRIOR"
+    abjured: "3060"
+    exclusive: true
+    postReaving: [CNC]
+    summary: "The Rosse Bloodname was a Clan Nova Cat founding legacy."
+    notableHolders:
+      - { name: "Sandra Rosse", rank: "Khan", affiliation: "Clan Nova Cat" }
+      - { name: "John Rosse", rank: "Galaxy Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Bel Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Chyna Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Gregor Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Kaldron Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Kalvin Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Leon Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Shauna Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Sheila Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Tivia Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Wecken Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Yusuf Rosse", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Eli Rosse", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Hajni Rosse", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Michael Rosse", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Wethbin Rosse", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Bridjit Rosse", rank: "Star Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Caden Rosse", rank: "Star Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Ramon Rosse", rank: "Star Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Kev Rosse", rank: "Senator", affiliation: "Spirit Cats" }
+      - { name: "Tiber Rosse", rank: "Mystic", affiliation: "Clan Nova Cat" }
+      - { name: "Faisal Rosse", rank: "MekWarrior", affiliation: "Spirit Cats" }
+      - { name: "Derrik Rosse", affiliation: "Clan Nova Cat" }
+      - { name: "Cheri Rosse", affiliation: "Spirit Cats" }
+    sources:
+      - { title: "BattleTech: Legends" }
+      - { title: "Dark Age: Republic of the Sphere" }
+      - { title: "Era Report: 3062" }
+      - { title: "Era Report: 3145" }
+      - { title: "Explorer Corps", abbrev: "EC" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: ComStar" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Heretic's Faith" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
+      - { title: "Hunter or Hunted" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "MechWarrior: Counterassault" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "MechWarrior: Liao Incursion" }
+      - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+      - { title: "Technical Readout: 3085", abbrev: "TR:3085" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+    history: ~

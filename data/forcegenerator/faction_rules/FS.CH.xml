@@ -56,9 +56,9 @@ are often combined down to the company level. -->
         <subforces>
             <subforce num="3">%BRIGADE%</subforce>
             <subforceOption>
-                <option num="1" unitType="Tank" role="artillery" name="Artillery Support">%BATTALION%</option>
-                <option num="2" unitType="Tank" role="artillery" name="Artillery Support">%BATTALION%</option>
-                <option num="3" unitType="Tank" role="artillery" name="Artillery Support">%BATTALION%</option>
+                <option num="1" unitType="Tank" role="artillery" name="Artillery {echelon}">%BATTALION%</option>
+                <option num="2" unitType="Tank" role="artillery" name="Artillery {echelon}">%BATTALION%</option>
+                <option num="3" unitType="Tank" role="artillery" name="Artillery {echelon}">%BATTALION%</option>
             </subforceOption>
             <subforce num="2" unitType="AeroSpaceFighter">%WING%</subforce>
         </subforces>

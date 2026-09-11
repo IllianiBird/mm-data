@@ -174,10 +174,10 @@ nations this ruleset sets IS as the parent rather than Periphery. -->
 
         <attachedForces>
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
     </force>
@@ -231,13 +231,13 @@ nations this ruleset sets IS as the parent rather than Periphery. -->
 
         <attachedForces>
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforce unitType="Tank"
-                      name="Armor Support">%REGIMENT%
+                      name="Armor {echelon}">%REGIMENT%
             </subforce>
             <subforce unitType="Infantry" ifTopLevel="1"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
     </force>

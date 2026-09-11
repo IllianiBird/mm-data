@@ -323,6 +323,13 @@
                 <availability>General:8</availability>
             </model>
         </chassis>
+        <chassis name='Aqueduct Liquid Carrier' unitType='Dropship'>
+            <availability>SL:3,IS:2,Periphery:2</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Archer' unitType='Mek'>
             <availability>CC:7,TH:7,LA:8,SL:6,IS:4,FWL:8,Periphery.Deep:4,RWR:4,FS:6,Periphery:4,DC:6</availability>
             <model name='ARC-2R'>
@@ -2894,6 +2901,13 @@
         <chassis name='Merkava Heavy Tank' unitType='Tank'>
             <availability>TH:8,TH.pm:6</availability>
             <model name='Mk VIII'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Mingo' unitType='Dropship'>
+            <availability>Periphery.Deep:5</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
                 <availability>General:8</availability>
             </model>
         </chassis>

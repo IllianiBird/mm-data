@@ -1,0 +1,97 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CJF
+name: "Malthus"
+houses:
+  - founder: "Koji"
+    founderFullName: "Koji Malthus"
+    founderAffiliation: "Clan Jade Falcon"
+    phenotype: "GENERAL"
+    exclusive: true
+    limited: true
+    limitedSince: 3085
+    postReaving: [CJF]
+    summary: "The Malthus Bloodname was a Clan Jade Falcon founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
+    notableHolders:
+      - { name: "Beckett Malthus", rank: "Khan", affiliation: "Clan Jade Falcon" }
+      - { name: "Bret Malthus", rank: "Khan", affiliation: "Clan Jade Falcon" }
+      - { name: "Timur Malthus", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+      - { name: "Krishnamurthi Malthus", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Maxwell Malthus", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Adrian Malthus", rank: "Star Admiral", affiliation: "Clan Jade Falcon" }
+      - { name: "Adler Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Arimas Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Arton Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Cassandra Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Howard Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Man-Keung Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Nicolai Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Nikita Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Paulo Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Rex Malthus", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Steven Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Taman Malthus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Benj Malthus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Beth Malthus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Lana Malthus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Callen Malthus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Josh \"Narc\" Malthus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Sedale Malthus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Gews Malthus", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Julkin Malthus", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+      - { name: "Cavell Malthus", affiliation: "Clan Jade Falcon" }
+      - { name: "Cullen Malthus", affiliation: "Clan Jade Falcon" }
+      - { name: "Janora Malthus", affiliation: "Clan Jade Falcon" }
+      - { name: "Selor Malthus", affiliation: "Clan Jade Falcon" }
+      - { name: "Tyle Malthus" }
+    sources:
+      - { title: "The Battle for Twycross" }
+      - { title: "Era Report: 3052" }
+      - { title: "Era Report: 3145" }
+      - { title: "Falcon Rising" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "First Somerset Strikers" }
+      - { title: "Hidden Talons (scenario)" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Honor's Gauntlet" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
+      - { title: "Lethal Heritage", abbrev: "Lethal Heritage" }
+      - { title: "Lost Destiny", abbrev: "Lost Destiny" }
+      - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+      - { title: "Operational Turning Points: Falcon Incursion", abbrev: "OTP:FI" }
+      - { title: "Recognition Guide: ilClan, vol. 3" }
+      - { title: "Recognition Guide: ilClan, vol. 16", abbrev: "RG16" }
+      - { title: "Recognition Guide: ilClan, vol. 17", abbrev: "RG17" }
+      - { title: "Recognition Guide: ilClan, vol. 20", abbrev: "RG20" }
+      - { title: "Recognition Guide: ilClan, vol. 30", abbrev: "RG30" }
+      - { title: "Starter: Fist and Falcon" }
+      - { title: "Tamar Rising" }
+      - { title: "Technical Readout: 3050", abbrev: "TR:3050" }
+      - { title: "Technical Readout: 3050 Revised" }
+      - { title: "Technical Readout: 3145 Clans" }
+      - { title: "That Old Highlander Way" }
+      - { title: "Touring the Stars: Bone-Norman" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

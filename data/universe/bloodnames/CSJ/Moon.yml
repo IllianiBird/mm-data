@@ -1,0 +1,49 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CSJ
+name: "Moon"
+houses:
+  - founder: "Michelle"
+    founderFullName: "Michelle Moon"
+    founderAffiliation: "Clan Smoke Jaguar"
+    phenotype: "ELEMENTAL"
+    dormant: "3060"
+    exclusive: true
+    notableHolders:
+      - { name: "Ian Moon", rank: "Khan", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Prohaska Moon", rank: "Khan", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Logan Moon", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Paul Moon", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
+      - { name: "James Moon", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Wesley Moon", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Franze Moon", rank: "Star Commander", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Calvin Moon", rank: "Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Carine of Clan Smoke Jaguar.", affiliation: "Clan Smoke Jaguar" }
+    sources:
+      - { title: "Grave Covenant" }
+      - { title: "HexPack: Mountains and Canyons" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Mercenaries Supplemental Update" }
+      - { title: "Operation BIRD DOG: Clipping Jaguar Wings (scenario)" }
+      - { title: "Surrender Your Dreams" }
+      - { title: "Twilight of the Clans" }
+    history: ~

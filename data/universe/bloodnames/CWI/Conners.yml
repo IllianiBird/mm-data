@@ -1,0 +1,61 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CWI
+name: "Conners"
+houses:
+  - founder: "Santiago"
+    founderFullName: "Santiago Conners"
+    founderRank: "Star Colonel"
+    founderAffiliation: "Clan Widowmaker"
+    phenotype: "AEROSPACE"
+    exclusive: true
+    limited: true
+    limitedSince: 3085
+    postReaving: [CW]
+    absorbed: { clan: CW, date: 2834 }
+    summary: "The Conners Bloodname was a Clan Widowmaker founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
+    notableHolders:
+      - { name: "Victoria Conners", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+      - { name: "Bert Conners", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Jigme Conners", rank: "Star Colonel", affiliation: "Steel Wolves" }
+      - { name: "Michael Conners", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Sigmund Conners", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Spurlock Conners", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Wolfgang Conners", rank: "Star Colonel", affiliation: "Clan Wolf (may have been made abtakha by Clan Hell's Horses)" }
+      - { name: "Kevlin Conners", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Latonia Conners", affiliation: "Steel Wolves" }
+      - { name: "Miko Conners", affiliation: "Steel Wolves" }
+    sources:
+      - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "MechWarrior: Counterassault" }
+      - { title: "MechWarrior: Death From Above" }
+      - { title: "Sturm auf Arc-Royal" }
+      - { title: "Turning Points: Irian", abbrev: "TP:Irian" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

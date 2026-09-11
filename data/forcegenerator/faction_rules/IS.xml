@@ -36,13 +36,82 @@
             <option ifUnitType="Mek|Tank|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
             <option ifUnitType="Infantry">%REGIMENT%,%BATTALION%,%COMPANY%</option>
             <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
-            <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
+            <option ifUnitType="AeroSpaceFighter|Conventional Fighter">%AIR_REGIMENT%,%WING%,%SQUADRON%,%FLIGHT%</option>
         </echelon>
 
         <rating>
             <option>A,B,C,D,F</option>
         </rating>
     </toc>
+
+    <!-- Inner Sphere formation designation. Inherited by every IS faction that does not override an
+         echelon, and by the Periphery through its own root ruleset.
+
+         Canon does not specify IS company lettering, whether that lettering restarts in each
+         battalion, or whether battalions take ordinals (see the Inner Sphere military structure
+         article), so this is a generator convention rather than a cited rule.
+
+         Every echelon uses "alphabet", so the scheme the player picks (Able/Baker, Alpha/Bravo, A/B,
+         Alpha/Beta) applies the whole way down the tree instead of only at one level. Each echelon
+         restarts its sequence under each parent, giving the same shape at every depth:
+
+             Alpha Regiment
+                 Alpha Battalion
+                     Alpha Company
+                     Beta Company
+                 Beta Battalion
+                     Alpha Company
+             Beta Regiment
+                 Alpha Battalion
+
+         No tier is qualified with its parent's designator: a formation is identified by where it sits
+         in the tree, so "Alpha Company" appearing under more than one battalion is expected rather
+         than a collision. -->
+    <formationNaming>
+        <tier echelon="%REGIMENT%" designator="alphabet" />
+        <tier echelon="%BATTALION%" designator="alphabet" />
+        <tier echelon="%COMPANY%" designator="alphabet" />
+        <tier echelon="%LANCE%" designator="alphabet" />
+        <!-- Echelons above regiment: brigades, and the naval hierarchy (Flotilla 5 / Division 6 /
+             Squadron 7 / Fleet 8 / ship-type category 9 / "Naval Units" root 10). Declaring them keeps
+             naval formations on the same naming scheme as the rest of the force instead of the
+             hardcoded phonetic they used to carry. -->
+        <tier echelon="%BRIGADE%" designator="alphabet" />
+        <tier echelon="%DIVISION%" designator="alphabet" />
+        <tier echelon="%CORPS%" designator="alphabet" />
+        <tier echelon="%ARMY%" designator="alphabet" />
+    </formationNaming>
+
+    <!-- Planetary Militia: a combined-arms garrison, and the fallback organization for any MILITIA faction.
+         Because <force> rule lookup walks parent factions, a militia whose own ruleset defines no garrison rule
+         resolves this one. Infantry-heavy with armor support and a small Mek contingent, approximating the
+         Random Garrisons Table; each contingent delegates to the standard regiment/battalion rules. -->
+    <force echelon="%BRIGADE%" eschName="Planetary Militia">
+        <co>%COLONEL%</co>
+
+        <subforces>
+            <subforceOption>
+                <option num="2" weight="1" unitType="Infantry">%REGIMENT%</option>
+                <option num="3" weight="2" unitType="Infantry">%REGIMENT%</option>
+                <option num="4" weight="3" unitType="Infantry">%REGIMENT%</option>
+                <option num="5" weight="2" unitType="Infantry">%REGIMENT%</option>
+                <option num="6" weight="1" unitType="Infantry">%REGIMENT%</option>
+            </subforceOption>
+            <subforceOption>
+                <option num="1" weight="1" unitType="Tank">%BATTALION%</option>
+                <option num="2" weight="2" unitType="Tank">%BATTALION%</option>
+                <option num="3" weight="3" unitType="Tank">%BATTALION%</option>
+                <option num="4" weight="2" unitType="Tank">%BATTALION%</option>
+                <option num="5" weight="1" unitType="Tank">%BATTALION%</option>
+            </subforceOption>
+            <subforceOption>
+                <option num="0" weight="2"/> <!-- no Mek battalions -->
+                <option num="1" weight="3" unitType="Mek">%BATTALION%</option>
+                <option num="2" weight="2" unitType="Mek">%BATTALION%</option>
+                <option num="3" weight="1" unitType="Mek">%BATTALION%</option>
+            </subforceOption>
+        </subforces>
+    </force>
 
     <force echelon="%REGIMENT%" eschName="Regiment" ifUnitType="Mek|Tank">
         <co>%COLONEL%</co>
@@ -82,19 +151,28 @@
 
         <attachedForces ifUnitType="Mek">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%SQUADRON%
             </subforce>
             <subforce unitType="Tank"
-                      name="Armor Support">%BATTALION%
+                      name="Armor {echelon}">%COMPANY%
             </subforce>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%BATTALION%
             </subforce>
+            <!-- Optional ground engineer support: a regiment gets a full combat engineer Company (a
+                 proper formation, not a loose platoon). Attached at the regiment's ground level rather
+                 than under the aerospace wing, where it does not belong. -->
+            <subforceOption>
+                <option weight="2" unitType="Infantry" name="Engineering {echelon}"
+                        role="engineer">%COMPANY%
+                </option>
+                <option weight="1" />
+            </subforceOption>
         </attachedForces>
 
         <attachedForces ifUnitType="Tank" ifDateBetween=",2550">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforceOption ifDateBetween="2481,">
                 <option ifRating="D|F" />
@@ -104,7 +182,7 @@
                 <option unitType="Mek" ifDateBetween="2520,2549">%BATTALION%</option>
             </subforceOption>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
     </force>
@@ -146,41 +224,50 @@
         <attachedForces ifUnitType="Tank"
                         ifRole="!artillery|missile_artillery">
             <subforceOption ifWeightClass="A">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="2">%COMPANY%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="3" />
             </subforceOption>
             <subforceOption ifWeightClass="H">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="2" />
             </subforceOption>
             <subforceOption ifWeightClass="M">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="1">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="2">%LANCE%
                 </option>
                 <option weight="6" />
+            </subforceOption>
+            <!-- A standalone battalion gets a single combat Engineer Platoon (four subunits). Gated to
+                 top-level so a battalion inside a regiment does not also attach one - the regiment's
+                 Engineer Company covers those. -->
+            <subforceOption ifTopLevel="1">
+                <option weight="2" unitType="Infantry" name="Engineering {echelon}"
+                        role="engineer">%PLATOON%
+                </option>
+                <option weight="1" />
             </subforceOption>
         </attachedForces>
     </force>
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="Mek|Tank">
         <name ifRole="command">Command Company</name>
-        <name>{alpha} Company</name>
+        <name>{cardinal:parent}/{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
         <weightClass>
@@ -226,7 +313,7 @@
     </force>
 
     <force echelon="%LANCE%" eschName="Lance" ifUnitType="Mek">
-        <name>{formation} Lance</name>
+        <name>{alpha:parent}-{cardinal} {formation} Lance</name>
         <co>%LT%</co>
 
         <weightClass>
@@ -330,7 +417,7 @@
     </force>
 
     <force echelon="%LANCE%" eschName="Lance" ifUnitType="Tank">
-        <name>{formation} Lance</name>
+        <name>{alpha:parent}-{cardinal} {formation} Lance</name>
         <co>%LT%</co>
 
         <weightClass>
@@ -445,7 +532,7 @@
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="VTOL">
         <name ifRole="command">Command Company</name>
-        <name>{alpha} Company</name>
+        <name>{cardinal:parent}/{alpha} Company</name>
         <co>%CAPTAIN%</co>
         <xo>%LT%</xo>
 
@@ -455,7 +542,7 @@
     </force>
 
     <force echelon="%LANCE%" eschName="Lance" ifUnitType="VTOL">
-        <name>{formation} Lance</name>
+        <name>{alpha:parent}-{cardinal} {formation} Lance</name>
         <co>%LT%</co>
 
         <formation>
@@ -511,11 +598,11 @@
         <attachedForces>
             <subforceOption>
                 <option unitType="Tank" role="artillery"
-                        name="Artillery Support"
+                        name="Artillery {echelon}"
                         weight="1">%COMPANY%
                 </option>
                 <option unitType="Tank" role="artillery"
-                        name="Artillery Support"
+                        name="Artillery {echelon}"
                         weight="1">%LANCE%
                 </option>
                 <option weight="4" />
@@ -524,10 +611,10 @@
             </subforceOption>
             <subforceOption>
                 <option unitType="Conventional Fighter"
-                        name="Air Support" weight="1">%SQUADRON%
+                        name="Air {echelon}" weight="1">%SQUADRON%
                 </option>
                 <option unitType="Conventional Fighter"
-                        name="Air Support" weight="1">%WING%
+                        name="Air {echelon}" weight="1">%WING%
                 </option>
                 <option weight="10" />
             </subforceOption>
@@ -540,16 +627,114 @@
             </subforceOption>
             <subforceOption>
                 <option unitType="Tank" role="infantry_support"
-                        weight="3" name="Armor Support">%COMPANY%
+                        weight="3" name="Armor {echelon}">%COMPANY%
                 </option>
                 <option unitType="Tank" role="infantry_support"
-                        weight="1" name="Armor Support">%LANCE%
+                        weight="1" name="Armor {echelon}">%LANCE%
                 </option>
                 <option weight="2" />
                 <option weight="1" ifWeightClass="M" />
                 <option weight="2" ifWeightClass="L" />
             </subforceOption>
         </attachedForces>
+    </force>
+
+    <!-- =====================================================================
+         Combat engineer formations (faction-agnostic).
+
+         Rolls engineer units by the specialization facets derived from their
+         equipment (bridge layers, bulldozers/backhoes, saws, minesweepers) and
+         the infantry Combat Engineer specializations. Rooted at Infantry with
+         the engineer role so the same structure also serves as the engineer
+         support attached to combat regiments. Placed ahead of the generic
+         Infantry battalion/company/platoon rules so the more specific engineer
+         rules match first.
+         ===================================================================== -->
+    <force echelon="%BATTALION%" eschName="Engineer Battalion" ifUnitType="Infantry" ifRole="engineer">
+        <name>{ordinal} Engineer Battalion</name>
+        <co>%MAJOR%</co>
+
+        <subforces>
+            <subforce num="4">%COMPANY%</subforce>
+        </subforces>
+    </force>
+
+    <force echelon="%COMPANY%" eschName="Engineer Company" ifUnitType="Infantry" ifRole="engineer">
+        <name>{cardinal:parent}/{alpha} Engineer Company</name>
+        <co>%CAPTAIN%</co>
+
+        <!-- A mix of specialized engineer lances. Each lance subforce sets a single facet role (which
+             clears the inherited engineer role), routing it to the matching named lance rule below.
+             Bridging depends on bridge-layer equipment (2470+); in earlier eras that slot is a second
+             fieldworks lance. -->
+        <subforces>
+            <subforce role="fieldworks">%LANCE%</subforce>
+            <subforceOption>
+                <option role="bridge_layer" ifDateBetween="2470,">%LANCE%</option>
+                <option role="fieldworks" ifDateBetween=",2469">%LANCE%</option>
+            </subforceOption>
+            <subforce role="demolition">%LANCE%</subforce>
+        </subforces>
+    </force>
+
+    <!-- A battalion's engineer support: one combined-arms Engineer Platoon of four subunits - a Combat
+         Engineer (fieldworks) squad, an earthmoving vehicle, a bridge-layer vehicle (2470+) and an
+         engineer IndustrialMek (2520+). Four subunits make it a proper formation (not a loose single
+         leaf that would orphan). Each slot is an %ELEMENT% leaf that rolls its own unit for its facet;
+         the date ranges are mutually exclusive so exactly one option fills per era. -->
+    <force echelon="%PLATOON%" eschName="Engineer Platoon" ifUnitType="Infantry" ifRole="engineer">
+        <name>Engineer Platoon</name>
+        <co>%LT%</co>
+
+        <subforces>
+            <subforce unitType="Infantry" role="fieldworks">%ELEMENT%</subforce>
+            <subforce unitType="Tank" role="fieldworks">%ELEMENT%</subforce>
+            <subforceOption>
+                <option unitType="Tank" role="bridge_layer" ifDateBetween="2470,">%ELEMENT%</option>
+                <option unitType="Tank" role="fieldworks" ifDateBetween=",2469">%ELEMENT%</option>
+            </subforceOption>
+            <subforceOption>
+                <option unitType="Mek" role="engineer" ifDateBetween="2520,">%ELEMENT%</option>
+                <option unitType="Tank" role="engineer" ifDateBetween=",2519">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+    </force>
+
+    <!-- Specialized engineer lances. Each is themed by one facet (the specialist vehicle/Mek/infantry
+         that defines it) and padded with reliable fieldworks engineer infantry so the lance fills even
+         where a facet is thin. Slots are %ELEMENT% (echelon 1) so a fieldworks infantry slot inside a
+         fieldworks lance does not recurse into the lance rule (LANCE and PLATOON are both echelon 3).
+         No generate="model": each slot is a leaf that rolls its own unit for its own unitType+role. -->
+    <force echelon="%LANCE%" eschName="Fieldworks Lance" ifUnitType="Infantry" ifRole="fieldworks">
+        <name>Fieldworks Lance</name>
+        <co>%LT%</co>
+
+        <subforces>
+            <subforce unitType="Infantry" role="fieldworks" num="2">%ELEMENT%</subforce>
+            <subforce unitType="Tank" role="fieldworks" num="2">%ELEMENT%</subforce>
+        </subforces>
+    </force>
+
+    <force echelon="%LANCE%" eschName="Bridging Engineer Lance" ifUnitType="Infantry" ifRole="bridge_layer">
+        <name>Bridging Engineer Lance</name>
+        <co>%LT%</co>
+
+        <subforces>
+            <subforce unitType="Tank" role="bridge_layer">%ELEMENT%</subforce>
+            <subforce unitType="Infantry" role="bridge_layer">%ELEMENT%</subforce>
+            <subforce unitType="Infantry" role="fieldworks" num="2">%ELEMENT%</subforce>
+        </subforces>
+    </force>
+
+    <force echelon="%LANCE%" eschName="Demolition Lance" ifUnitType="Infantry" ifRole="demolition">
+        <name>Demolition Lance</name>
+        <co>%LT%</co>
+
+        <subforces>
+            <subforce unitType="Mek" role="demolition">%ELEMENT%</subforce>
+            <subforce unitType="Infantry" role="demolition">%ELEMENT%</subforce>
+            <subforce unitType="Infantry" role="fieldworks" num="2">%ELEMENT%</subforce>
+        </subforces>
     </force>
 
     <force echelon="%BATTALION%" eschName="Battalion" ifUnitType="Infantry|BattleArmor">
@@ -622,20 +807,8 @@
         </attachedForces>
     </force>
 
-    <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="engineer">
-        <name>{alpha} Engineer Company</name>
-        <co>%CAPTAIN%</co>
-
-        <subforces generate="group">
-            <subforce num="3">%PLATOON%</subforce>
-        </subforces>
-        <subforces>
-            <subforce unitType="Tank">%LANCE%</subforce>
-        </subforces>
-    </force>
-
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry" ifRole="field_gun">
-        <name>{alpha} Field Gun Company</name>
+        <name>{cardinal:parent}/{alpha} Field Gun Company</name>
         <co>%CAPTAIN%</co>
 
         <subforces generate="group">
@@ -645,7 +818,7 @@
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry"
            ifRole="artillery|missile_artillery">
-        <name>{alpha} Field Artillery Company</name>
+        <name>{cardinal:parent}/{alpha} Field Artillery Company</name>
         <co>%CAPTAIN%</co>
 
         <subforces generate="group">
@@ -655,7 +828,7 @@
 
     <force echelon="%COMPANY%" eschName="Company" ifUnitType="Infantry|BattleArmor">
         <name ifRole="command">Command Company</name>
-        <name>{alpha} Company</name>
+        <name>{cardinal:parent}/{alpha} Company</name>
         <co>%CAPTAIN%</co>
 
         <unitType ifUnitType="Infantry" ifDateBetween="3051,"
@@ -738,7 +911,48 @@
         <co>%SGT%</co>
     </force>
 
-    <force echelon="%WING%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+    <!-- SLDF aerospace baseline (Inner Sphere Aerospace Organization): Flight 2 -> Squadron 6 ->
+         Group 18 -> Wing 54. A faction whose air arm differs (Draconis Combine, Capellan
+         Confederation, Taurian Concordat, Marian Hegemony) overrides these rules in its own file;
+         everything else inherits this chain.
+
+         The echelon constants read oddly here and it is deliberate: they are numerically ordered
+         WING(5) < GROUP(6), which is the reverse of the real hierarchy, so a Group has to be declared
+         at %WING% and a Wing at %AIR_REGIMENT% for the tree to nest correctly. eschName carries the
+         canon name. SL.xml uses exactly the same arrangement. -->
+    <force echelon="%AIR_REGIMENT%" eschName="Wing" ifUnitType="AeroSpaceFighter|Conventional Fighter">
+        <co>%COLONEL%</co>
+
+        <weightClass>
+            <option weight="3">L</option>
+            <option weight="4">M</option>
+            <option weight="3">H</option>
+        </weightClass>
+
+        <subforces>
+            <!-- As in the Group rule below, Assault routes to Heavy: aerospace has no Assault weight
+                 class, so an Assault parent would otherwise match no option and collapse the Wing. -->
+            <subforceOption ifWeightClass="H|A" ifUnitType="AeroSpaceFighter">
+                <option weightClass="H,H,H">%WING%</option>
+                <option weightClass="H,H,M">%WING%</option>
+                <option weightClass="H,H,L">%WING%</option>
+            </subforceOption>
+            <subforceOption ifWeightClass="M" ifUnitType="AeroSpaceFighter">
+                <option weightClass="H,M,M">%WING%</option>
+                <option weightClass="M,M,M">%WING%</option>
+                <option weightClass="H,M,L">%WING%</option>
+                <option weightClass="M,M,L">%WING%</option>
+            </subforceOption>
+            <subforceOption ifWeightClass="L" ifUnitType="AeroSpaceFighter">
+                <option weightClass="H,L,L">%WING%</option>
+                <option weightClass="M,L,L">%WING%</option>
+                <option weightClass="L,L,L">%WING%</option>
+            </subforceOption>
+            <subforce ifUnitType="Conventional Fighter" num="3">%WING%</subforce>
+        </subforces>
+    </force>
+
+    <force echelon="%WING%" eschName="Group" ifUnitType="AeroSpaceFighter|Conventional Fighter">
         <co>%MAJOR%</co>
 
         <weightClass>
@@ -771,15 +985,6 @@
             </subforceOption>
             <subforce ifUnitType="Conventional Fighter" num="3">%SQUADRON%</subforce>
         </subforces>
-
-        <attachedForces>
-            <subforceOption>
-                <option weight="2" unitType="Infantry" name="Engineers"
-                        role="engineer">%COMPANY%
-                </option>
-                <option weight="1" />
-            </subforceOption>
-        </attachedForces>
     </force>
 
     <force echelon="%SQUADRON%" eschName="Squadron" ifUnitType="AeroSpaceFighter|Conventional Fighter">

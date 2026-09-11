@@ -53,6 +53,28 @@
         </flags>
     </toc>
 
+    <!-- Clan formation designation. Inherited by every Clan-specific ruleset.
+
+         Galaxies are "named for a letter of the Greek alphabet" (Alpha, Delta, Omega) - the one Clan
+         echelon for which a naming convention is documented, and fixed here rather than left to the
+         player's alphabet preference precisely because it is canon.
+
+         Everything below Galaxy stays with the ruleset, which already produces better Clan names than
+         any positional scheme could: "Trinary [Battle]", "Assault Cluster", "{ordinal:distinct} Binary
+         [Striker]", "{phonetic} Command Nova". Those keep their names unless two siblings actually
+         collide.
+
+         Clusters are numbered rather than lettered - "11th Mechanized Cluster", "3rd Battle Cluster" -
+         so they use numeric ordinals and ignore the player's naming alphabet, as galaxies do. The Clan
+         military structure article does not document this, but it is standard canon usage. -->
+    <formationNaming>
+        <tier echelon="%GALAXY%" designator="greek" />
+        <tier echelon="%CLUSTER%" designator="numeric_ordinal" />
+        <tier echelon="%TRINARY%" designator="engine" />
+        <tier echelon="%BINARY%" designator="engine" />
+        <tier echelon="%STAR%" designator="alphabet" />
+    </formationNaming>
+
     <force echelon="%TOUMAN%" eschName="Touman">
         <co>%KHAN%</co>
         <xo>%SAKHAN%</xo>
@@ -113,6 +135,11 @@
                 <option weight="2" />
             </subforceOption>
         </subforces>
+
+        <!-- Galaxy-level engineer support: a combined-arms Engineer Binary (two Engineer Stars). -->
+        <attachedForces>
+            <subforce unitType="Infantry" role="engineer" name="Engineering {echelon}">%BINARY%</subforce>
+        </attachedForces>
     </force>
 
     <force echelon="%CLUSTER%" eschName="Cluster">
@@ -448,6 +475,8 @@
                 </option>
                 <option weight="11" />
             </subforceOption>
+            <!-- Cluster-level engineer support: a combined-arms Engineer Star. -->
+            <subforce unitType="Infantry" role="engineer" name="Engineering {echelon}">%STAR%</subforce>
         </attachedForces>
     </force>
 
@@ -946,6 +975,38 @@
                 <option weightClass="M,L,L">%STAR%</option>
                 <option weightClass="L,L,L">%STAR%</option>
             </subforceOption>
+        </subforces>
+    </force>
+
+    <!-- =====================================================================
+         Combat engineer formations (Clan). Clans rarely field dedicated combat
+         engineers - engineering is laborer/technician-caste work rather than a
+         warrior specialty - so these appear only as attached support: an Engineer
+         Star at Cluster level and an Engineer Binary at Galaxy level. Combined
+         arms, using the umbrella engineer role because Clan engineer-tagged units
+         are too sparse to split by specialization. Placed ahead of the generic
+         Binary/Star rules so the engineer rules match first for engineer nodes.
+         ===================================================================== -->
+    <force echelon="%BINARY%" eschName="Engineer Binary" ifUnitType="Infantry" ifRole="engineer">
+        <name>Engineer Binary</name>
+        <co>%STAR_CAPTAIN%</co>
+
+        <subforces>
+            <subforce num="2">%STAR%</subforce>
+        </subforces>
+    </force>
+
+    <force echelon="%STAR%" eschName="Engineer Star" ifUnitType="Infantry" ifRole="engineer">
+        <name>Engineer Star</name>
+        <co>%STAR_CMDR%</co>
+
+        <!-- Five Points, combined arms: three infantry engineer Points (5 squads each), one vehicle
+             engineer Point (2 vehicles) and one Mek engineer Point (1 Mek). Each Point resolves through
+             the generic Point rule, which rolls its own unit(s) for its type. -->
+        <subforces>
+            <subforce unitType="Infantry" role="engineer" num="3">%POINT%</subforce>
+            <subforce unitType="Tank" role="engineer">%POINT%</subforce>
+            <subforce unitType="Mek" role="engineer">%POINT%</subforce>
         </subforces>
     </force>
 
@@ -1931,7 +1992,13 @@
             </unitType>
         </ruleGroup>
 
-        <subforces generate="group" ifUnitType="Tank|VTOL|AeroSpaceFighter">
+        <!-- A Point of fighters flew as a matched pair so both pilots shared one profile,
+        so the two resolve to a single model. Vehicle Points keep generating independently. -->
+        <subforces generate="model" ifUnitType="AeroSpaceFighter">
+            <subforce num="2">%ELEMENT%</subforce>
+        </subforces>
+
+        <subforces generate="group" ifUnitType="Tank|VTOL">
             <subforce num="2">%ELEMENT%</subforce>
         </subforces>
 

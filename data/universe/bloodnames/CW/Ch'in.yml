@@ -1,0 +1,74 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CW
+name: "Ch'in"
+houses:
+  - founder: "Olesya"
+    founderFullName: "Olesya Ch'in"
+    founderAffiliation: "Clan Wolf"
+    phenotype: "AEROSPACE"
+    exclusive: true
+    limited: true
+    limitedSince: 3085
+    postReaving: [CW,CWIE]
+    shared:
+      - { clan: CWIE, date: 3057 }
+    summary: "The Ch'in Bloodname was a Clan Wolf founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
+    notableHolders:
+      - { name: "Ronald Ch'in", rank: "Loremaster", affiliation: "Clan Wolf" }
+      - { name: "Jared Ch'in", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+      - { name: "Hannes Ch'in", rank: "Star Admiral", affiliation: "Clan Wolf" }
+      - { name: "Jiln Ch'in", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Sylvia Ch'in", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Thomas Ch'in", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Gunars Ch'in", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Jall Ch'in", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Marita Ch'in", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Sigird Ch'in", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Alyosha Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Baron Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Denal Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Dimon Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Dracena Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Jasal Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Jeanil Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Kroke Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Lutrin Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Nadia Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Osinn Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Pettez Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Sharon Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Tamm Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Valmont Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Yoland Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+      - { name: "Ziegel Ch'in", rank: "Pilot", affiliation: "Clan Wolf" }
+    sources:
+      - { title: "Children of Kerensky" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Shrapnel Issue 3" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
+    history: ~

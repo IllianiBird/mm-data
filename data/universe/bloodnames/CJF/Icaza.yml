@@ -1,0 +1,88 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CJF
+name: "Icaza"
+houses:
+  - founder: "Carl"
+    founderFullName: "Carl Icaza"
+    founderAffiliation: "Clan Jade Falcon"
+    phenotype: "ELEMENTAL"
+    exclusive: true
+    postReaving: [CJF,CHH,CGB]
+    summary: "The Icaza Bloodname was a Clan Jade Falcon founding legacy."
+    notableHolders:
+      - { name: "Andwar Icaza", rank: "Loremaster", affiliation: "Clan Jade Falcon" }
+      - { name: "Amelia Icaza", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Loren Icaza", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+      - { name: "Colbert Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Magnus Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Muriel Icaza", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Nicholai Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Oliver Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Ralph Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Rauf Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Sara \"Vixen\" Icaza", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Hagar Icaza", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Margaret Icaza", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Nicholas Icaza", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Vasilii Icaza", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Arathorn Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Bewton Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Carson Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Hyron Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Isham Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Joqluim Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Lovvins Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Margrette Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Thomas Icaza", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Antonio Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Edward Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Gudrun Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Hider Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Hogan Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Hyle Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Jeremiah Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Lyle Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Randi Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Temujin Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Webster Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Yot Icaza", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+    sources:
+      - { title: "Day of Heroes", abbrev: "Day of Heroes" }
+      - { title: "Era Report: 3062" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Falcon Rising" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Flight of the Falcon" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hot Spots: Hinterlands" }
+      - { title: "Hour of the Wolf" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
+      - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+      - { title: "MechWarrior Card Pack I" }
+      - { title: "MechWarrior Pilot Deck: Heroes of the Clan Invasion" }
+      - { title: "Prince of Havoc" }
+      - { title: "Recognition Guide: ilClan, vol. 2" }
+      - { title: "Recognition Guide: ilClan, vol. 22", abbrev: "RG22" }
+      - { title: "Shadows of War" }
+      - { title: "Tamar Rising" }
+    history: ~

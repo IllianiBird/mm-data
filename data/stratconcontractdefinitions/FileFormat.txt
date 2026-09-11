@@ -49,7 +49,7 @@ globalScenarioModifiers/globalScenarioModifier - a list of all scenario modifier
 
 objectiveParameters - a list of objectives for the contract. Its child elements follow:
 
-objectiveCount - Decimal. How much of this particular objective to generate. A number less than zero indicates that it's a scaling multiplier to the number of contract required lances. Avoid setting this too low or too high, as it will lead to boredom or craziness due to either nothing to do or way too much to do.
+objectiveCount - Decimal. How much of this particular objective to generate. A number less than zero indicates that it's a scaling multiplier to the number of contract required lances. Avoid setting this too low or too high, as it will lead to boredom or craziness due to either nothing to do or way too much to do. Ignored for SpecificScenarioVictory: how many of those scenarios appear, and when, is driven by the contract's scenario schedule (the Track Intensity Table), not by this field.
 
 objectiveScenarios/objectiveScenario - a list of possible scenario file names pre-seeded for this particular objective, that need to be completed in order too meet this objective. Ignored AnyScenarioVictory objective type.
 
@@ -58,6 +58,6 @@ objectivescenarioModifiers/objectiveScenarioModifier - a list of scenario modifi
 
 objectiveType - the class of objective. There are four types:
 AnyScenarioVictory - victory in any scenario.
-SpecificScenarioVictory - victory in specific pre-seeded scenarios, from the list in objectiveScenarios.
+SpecificScenarioVictory - victory in specific scenarios drawn from the list in objectiveScenarios. These are no longer all seeded at contract start; they appear over the contract's run, their number and timing set by the contract's scenario schedule (the Track Intensity Table). objectiveCount is ignored for this type.
 FacilityDestruction - drops some hostile facilities on the map, which the player must seize control over/destroy.
 AlliedFacilityControl - drops some allied facilities on the map, which the player must retain control over (it is possible to retake if they were captured).

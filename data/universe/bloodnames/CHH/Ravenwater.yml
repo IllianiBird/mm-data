@@ -1,0 +1,70 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CHH
+name: "Ravenwater"
+houses:
+  - founder: "Tatiana"
+    founderFullName: "Tatiana Ravenwater"
+    founderAffiliation: "Clan Hell's Horses"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    postReaving: [CHH,CSL]
+    shared:
+      - { clan: CSL, date: 3075 }
+    summary: "The Ravenwater Bloodname was a Clan Hell's Horses founding legacy."
+    notableHolders:
+      - { name: "Jackie Ravenwater", rank: "Loremaster", affiliation: "Clan Stone Lion" }
+      - { name: "Sachiko Ravenwater", rank: "Loremaster", affiliation: "Clan Hell's Horses" }
+      - { name: "Phadorah Ravenwater", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+      - { name: "Zigfried Ravenwater", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+      - { name: "Alicia Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Bernadine Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Dawson Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Debra Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Karol Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Kendric Ravenwater", rank: "Star Colonel", affiliation: "Clan Ghost Bear" }
+      - { name: "Natasha Ravenwater", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Shira Ravenwater", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Wendolyn Ravenwater", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Ernesto Ravenwater", rank: "Nova Captain", affiliation: "Clan Hell's Horses" }
+      - { name: "Andrea Ravenwater", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+      - { name: "Garet Ravenwater", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+      - { name: "Mellysa Ravenwater", rank: "Star Captain", affiliation: "Clan Hell's Horses" }
+      - { name: "Liana Ravenwater", rank: "Nova Commander", affiliation: "Clan Hell's Horses" }
+      - { name: "Petra Ravenwater", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+    sources:
+      - { title: "Elements of Treason: Honor" }
+      - { title: "Era Report: 3145" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Recognition Guide: ilClan, vol. 11", abbrev: "RG11" }
+      - { title: "Recognition Guide: ilClan, vol. 22", abbrev: "RG22" }
+      - { title: "Tamar Rising" }
+      - { title: "Technical Readout: 3050 Upgrade", abbrev: "TR:3050U" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+      - { title: "Technical Readout: Golden Century", abbrev: "TR:GC" }
+      - { title: "Test of Vengeance" }
+      - { title: "A Trial Most Acceptable" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

@@ -189,24 +189,24 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
 
         <attachedForces ifTopLevel="1" ifUnitType="Mek">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforceOption>
                 <option unitType="Tank" weight="4"
-                        name="Armor Support">%BATTALION%
+                        name="Armor {echelon}">%BATTALION%
                 </option>
                 <option unitType="Tank" flags="+reinforced"
-                        name="Armor Support">%BATTALION%
+                        name="Armor {echelon}">%BATTALION%
                 </option>
             </subforceOption>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
 
         <attachedForces ifUnitType="Tank" ifDateBetween=",2510">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforceOption ifDateBetween="2459,">
                 <option ifRating="D|F" />
@@ -216,7 +216,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
                 <option unitType="Mek" ifDateBetween="2485,2509">%BATTALION%</option>
             </subforceOption>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
     </force>
@@ -330,31 +330,31 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         <attachedForces ifUnitType="Tank"
                         ifRole="!artillery|missile_artillery">
             <subforceOption ifWeightClass="A">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="2">%COMPANY%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="3" />
             </subforceOption>
             <subforceOption ifWeightClass="H">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="2" />
             </subforceOption>
             <subforceOption ifWeightClass="M">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="1">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="2">%LANCE%
                 </option>
                 <option weight="6" />
@@ -670,11 +670,11 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
         <attachedForces>
             <subforceOption>
                 <option unitType="Tank" role="artillery"
-                        name="Artillery Support"
+                        name="Artillery {echelon}"
                         weight="1">%COMPANY%
                 </option>
                 <option unitType="Tank" role="artillery"
-                        name="Artillery Support"
+                        name="Artillery {echelon}"
                         weight="1">%LANCE%
                 </option>
                 <option weight="4" />
@@ -683,10 +683,10 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
             </subforceOption>
             <subforceOption>
                 <option unitType="Conventional Fighter"
-                        name="Air Support" weight="1">%SQUADRON%
+                        name="Air {echelon}" weight="1">%SQUADRON%
                 </option>
                 <option unitType="Conventional Fighter"
-                        name="Air Support" weight="1">%WING%
+                        name="Air {echelon}" weight="1">%WING%
                 </option>
                 <option weight="10" />
             </subforceOption>
@@ -698,10 +698,10 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
                 <option weight="2" ifWeightClass="H" />
             </subforceOption>
             <subforceOption>
-                <option unitType="Tank" role="infantry_support" name="Armor Support"
+                <option unitType="Tank" role="infantry_support" name="Armor {echelon}"
                         weight="3">%COMPANY%
                 </option>
-                <option unitType="Tank" role="infantry_support" name="Armor Support"
+                <option unitType="Tank" role="infantry_support" name="Armor {echelon}"
                         weight="1">%BATTALION%
                 </option>
                 <option weight="2" />
@@ -894,7 +894,7 @@ a regimental combat team. Average unit weight tends to be lighter than other fac
 
         <attachedForces>
             <subforceOption>
-                <option weight="2" unitType="Infantry" name="Engineers"
+                <option weight="2" unitType="Infantry" name="Engineering {echelon}"
                         role="engineer">%COMPANY%
                 </option>
                 <option weight="1" />

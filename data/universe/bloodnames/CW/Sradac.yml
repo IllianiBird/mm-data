@@ -1,0 +1,85 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CW
+name: "Sradac"
+houses:
+  - founder: "Guo"
+    founderFullName: "Guo Sradac"
+    founderAffiliation: "Clan Wolf"
+    phenotype: "ELEMENTAL"
+    exclusive: true
+    postReaving: [CW,CGB,CWIE]
+    shared:
+      - { clan: CWIE, date: 3057 }
+    summary: "The Sradac Bloodname was a Clan Wolf founding legacy."
+    notableHolders:
+      - { name: "Shistu Sradac", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+      - { name: "Derak Sradac", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Freddie Sradac", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Ismael Sradac", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Richard Sradac", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Salvatore Sradac", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Terrell Sradac", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Trevor Sradac", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Colleen Sradac", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Eamon Sradac", rank: "Star Captain", affiliation: "Wolf Empire" }
+      - { name: "Hannibal Sradac", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Juanilla Sradac", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Mario Sradac", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Marion Sradac", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Pewell Sradac", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Tora Sradac", rank: "Star Captain", affiliation: "Steel Wolves" }
+      - { name: "Ualtar Sradac", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Jacob Sradac", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Orlena Sradac", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Raynor Sradac", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Alpan Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Biskeborn Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Bryn Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Cyrus Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Denice Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Elise Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Eluard Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Endo Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Genghis Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Herylyn Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Lillic Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Pallum Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Patrick Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Perigard Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Pystol Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Rebeka Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Thuquan Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Truong Sradac", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Private First Class Edan of the Republic of the Sphere.", affiliation: "Republic of the Sphere" }
+    sources:
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Luthien" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "Spotlight On: Stone's Trackers" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
+    history: ~

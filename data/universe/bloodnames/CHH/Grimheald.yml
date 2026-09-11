@@ -1,0 +1,46 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CHH
+name: "Grimheald"
+houses:
+  - founder: "Niu"
+    founderFullName: "Niu Grimheald"
+    founderAffiliation: "Clan Hell's Horses"
+    phenotype: "PROTOMEK"
+    postReaving: [CHH,CSL]
+    shared:
+      - { clan: CSL, date: 3075 }
+    summary: "The Grimheald Bloodname was a Clan Hell's Horses founding legacy."
+    notableHolders:
+      - { name: "Marguerite Grimheald", rank: "Galaxy Commander", affiliation: "Clan Hell's Horses" }
+      - { name: "Elene Grimheald", rank: "Star Colonel", affiliation: "Clan Hell's Horses" }
+      - { name: "Rachel Grimheald", rank: "Star Captain", affiliation: "Steel Wolves" }
+      - { name: "Petra Grimheald", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+      - { name: "Rotislav Grimheald", rank: "Star Commander", affiliation: "Clan Hell's Horses" }
+    sources:
+      - { title: "A Call to Arms", abbrev: "A Call to Arms" }
+      - { title: "Elements of Treason: Honor" }
+      - { title: "Era Report: 3145" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Tamar Rising" }
+      - { title: "A Trial Most Acceptable" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

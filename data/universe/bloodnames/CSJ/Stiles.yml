@@ -1,0 +1,47 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CSJ
+name: "Stiles"
+houses:
+  - founder: "Massimiliano"
+    founderFullName: "Massimiliano Stiles"
+    founderAffiliation: "Clan Smoke Jaguar"
+    phenotype: "AEROSPACE"
+    exclusive: true
+    acquired:
+      - { clan: CW, date: 3060 }
+    summary: "The Stiles Bloodname was a Clan Smoke Jaguar founding name."
+    notableHolders:
+      - { name: "Warren Stiles", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+      - { name: "Clarinda Stiles", rank: "Star Commodore", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Terrance Stiles", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Caslon Stiles", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Ellen Stiles", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Rhonda Stiles", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Walter Stiles", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+    sources:
+      - { title: "Exodus Road" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Shadows of War" }
+    history: ~

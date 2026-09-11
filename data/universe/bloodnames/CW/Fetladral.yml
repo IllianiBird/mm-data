@@ -1,0 +1,110 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CW
+name: "Fetladral"
+houses:
+  - founder: "Elise"
+    founderFullName: "Elise Fetladral"
+    founderRank: "first saKhan"
+    founderAffiliation: "Clan Wolf"
+    phenotype: "GENERAL"
+    exclusive: true
+    postReaving: [CW,CWIE]
+    shared:
+      - { clan: CWIE, date: 3057 }
+    summary: "The Fetladral Bloodname was a Clan Wolf founding legacy."
+    notableHolders:
+      - { name: "Patrik Fetladral", rank: "Khan", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Yvic Fetladral", rank: "Star Admiral", affiliation: "Clan Jade Falcon" }
+      - { name: "Anton Fetladral", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+      - { name: "Jocelyn Fetladral", rank: "Galaxy Commander", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Lois Fetladral", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+      - { name: "Varnoff Fetladral", rank: "Galaxy Commander", affiliation: "Steel Wolves" }
+      - { name: "LaDonna Fetladral", rank: "Star Commodore", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Alexia Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Brad Fetladral", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Brittany Fetladral", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Colten Fetladral", rank: "Star Colonel", affiliation: "Steel Wolves" }
+      - { name: "Craig Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Darren Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Evantha Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Jurgen Fetladral", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Kareem Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Marco Fetladral", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Orlando Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Serena Fetladral", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Veronica Fetladral", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Yrgane Fetladral", rank: "Prefect", affiliation: "Republic of the Sphere" }
+      - { name: "Daniel Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Gwin Fetladral", rank: "Star Captain", affiliation: "Wolf Empire" }
+      - { name: "Hutta Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Josel Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Karron Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Keith Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Kimiko Fetladral", rank: "Star Captain", affiliation: "Steel Wolves" }
+      - { name: "Latharn Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Lena Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Nalbra Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Reshondra Fetladral", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Sigmond Fetladral", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Aberthal Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Dane Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Gom Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Jillce Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Karla Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Lents Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Talas Fetladral", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Jenno Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Kola Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Mikyong Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Peshkov Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Treger Fetladral", rank: "Point Commander", affiliation: "Clan Wolf" }
+      - { name: "Bianca Fetladral", rank: "Legate", affiliation: "Republic of the Sphere" }
+      - { name: "Israel Fetladral", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Sebastian Fetladral", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Kendrick Fetladral", rank: "MekWarrior", affiliation: "Steel Wolves" }
+      - { name: "Zaar Fetladral", rank: "MekWarrior", affiliation: "Steel Wolves" }
+    sources:
+      - { title: "Bred for War" }
+      - { title: "A Call to Arms", abbrev: "A Call to Arms" }
+      - { title: "Clan Invasion Scenario: Last Stand" }
+      - { title: "Dark Age: Republic Worlds (3130)" }
+      - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+      - { title: "Era Report: 3062" }
+      - { title: "Era Report: 3145" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Update" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Flight of the Falcon" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "MechWarrior 2" }
+      - { title: "MechWarrior: Liao Incursion" }
+      - { title: "Recognition Guide: ilClan, vol. 16", abbrev: "RG16" }
+      - { title: "Technical Readout: 3055 Upgrade", abbrev: "TR:3055U" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
+      - { title: "Wolf Hunters", abbrev: "Wolf Hunters" }
+    history: ~

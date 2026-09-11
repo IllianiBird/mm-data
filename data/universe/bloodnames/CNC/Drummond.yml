@@ -1,0 +1,73 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CNC
+name: "Drummond"
+houses:
+  - founder: "Phillip"
+    founderFullName: "Phillip Drummond"
+    founderRank: "first Khan"
+    founderAffiliation: "Clan Nova Cat"
+    phenotype: "MEKWARRIOR"
+    abjured: "3060"
+    exclusive: true
+    postReaving: [CNC]
+    summary: "The Drummond Bloodname was a Clan Nova Cat founding legacy."
+    notableHolders:
+      - { name: "Ajax Drummond", rank: "Khan", affiliation: "Clan Nova Cat" }
+      - { name: "Zachary Drummond", rank: "saKhan", affiliation: "Clan Nova Cat" }
+      - { name: "Shen Drummond", rank: "Galaxy Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Barnum Drummond", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Cassin Drummond", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Cecilia Drummond", rank: "Star Colonel", affiliation: "Spirit Cats" }
+      - { name: "Olivia Drummond", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Lois Drummond", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Angus Drummond", rank: "Star Captain", affiliation: "Spirit Cats" }
+      - { name: "Janet Drummond", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Padrick Drummond", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Patrick Drummond", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Hela Drummond", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Mark Drummond", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Michael Drummond", rank: "Star Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Tyrina Drummond", rank: "Paladin", affiliation: "Republic of the Sphere" }
+      - { name: "Collette Drummond", rank: "Knight", affiliation: "Republic of the Sphere" }
+      - { name: "Arnis Drummond", rank: "MekWarrior", affiliation: "Spirit Cats" }
+      - { name: "Susan Drummond", rank: "MekWarrior", affiliation: "Spirit Cats" }
+      - { name: "Agustin Drummond", affiliation: "Spirit Cats" }
+      - { name: "Aljay Drummond", affiliation: "Spirit Cats" }
+    sources:
+      - { title: "Alpha Strike: Clan Invasion Cards" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: ComStar" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Grave Covenant" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Jihad Hot Spots: Terra", abbrev: "JHS:Terra" }
+      - { title: "MechWarrior: Counterassault" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "MechWarrior: Death From Above" }
+      - { title: "MechWarrior: Liao Incursion" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+      - { title: "Total Chaos", abbrev: "Total Chaos" }
+      - { title: "Turning Points: Irian", abbrev: "TP:Irian" }
+      - { title: "Whispering Death" }
+    history: ~

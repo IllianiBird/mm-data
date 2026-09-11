@@ -1,0 +1,56 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CNC
+name: "Leroux"
+houses:
+  - founder: "Ronetta"
+    founderFullName: "Ronetta Leroux"
+    founderAffiliation: "Clan Nova Cat"
+    phenotype: "AEROSPACE"
+    abjured: "3060"
+    exclusive: true
+    postReaving: [CNC]
+    summary: "The Leroux, Ronetta Bloodname was a Clan Nova Cat founding name."
+    notableHolders:
+      - { name: "Severen Leroux", rank: "Khan", affiliation: "Clan Nova Cat" }
+      - { name: "Paul Leroux", rank: "saKhan", affiliation: "Clan Nova Cat" }
+      - { name: "Bret Leroux", rank: "Galaxy Commander", affiliation: "Clan Sea Fox" }
+      - { name: "Bil Leroux", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Nikki Leroux", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Umberto Leroux", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Vidula Leroux", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Kraig Leroux", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Linda Leroux", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Lucien Leroux", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Marthe Leroux", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Maureen Leroux", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Tiber Leroux", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Trent Leroux", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+    sources:
+      - { title: "Era Report: 3052" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: ComStar" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Recognition Guide: ilClan, vol. 30", abbrev: "RG30" }
+    history: ~

@@ -149,31 +149,31 @@ support wing (cohort). -->
 
         <attachedForces ifRole="!artillery|missile_artillery">
             <subforceOption ifWeightClass="A">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="2">%COMPANY%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="3" />
             </subforceOption>
             <subforceOption ifWeightClass="H">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="2" />
             </subforceOption>
             <subforceOption ifWeightClass="M">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="1">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="2">%LANCE%
                 </option>
                 <option weight="6" />
@@ -213,7 +213,7 @@ support wing (cohort). -->
 
         <attachedForces>
             <subforceOption>
-                <option weight="2" unitType="Infantry" name="Engineers"
+                <option weight="2" unitType="Infantry" name="Engineering {echelon}"
                         role="engineer">%COMPANY%
                 </option>
                 <option weight="1" />

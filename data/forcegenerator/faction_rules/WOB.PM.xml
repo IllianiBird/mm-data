@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
+<ruleset faction="WOB.PM" parent="WOB" ratingSystem="SL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
+
+    <!-- The Protectorate Militia was raised on 1 August 3068 to garrison Protectorate worlds without
+    drawing on the Word of Blake Militia's supply of high-tech equipment. Two things set it apart
+    from every other Blakist formation, and neither survives inheritance from the parent ruleset.
+
+    First, it does not use the base-six organisation the Word of Blake took from ComStar. It uses a
+    modified Inner Sphere structure: four-unit lances, six-unit demi-companies, and battalions called
+    demi-divisions, with a Division at roughly regimental strength. Without a ruleset of its own the
+    Militia generated as a Com Guard Level IV, which is precisely backwards.
+
+    Second, no more than a third of a unit's strength is in BattleMechs. It leans on combat vehicles,
+    conventional infantry, battle armor and aerospace, and its equipment is handed down from the
+    Militia proper or upgraded from older models. The demi-division below is therefore one Mech
+    demi-company to two of everything else, which is where the one-third comes from.
+
+    On the six-versus-four question: a demi-company is six units and a lance is four, so the demi-
+    company is deliberately not built from lances. That is why it is a demi-company rather than a
+    company of three lances. The lance is the Militia's tactical grouping and is offered in its own
+    right; both appear in the table of contents. -->
+
+    <defaults>
+        <echelon>%REGIMENT%</echelon>
+        <rankSystem>%RANK_WOB%</rankSystem>
+        <!-- Second-line garrison troops on cast-off equipment; the Militia proper defaults to A. -->
+        <rating>D</rating>
+    </defaults>
+
+    <toc>
+        <unitType>
+            <option>null,Mek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter</option>
+        </unitType>
+
+        <echelon>
+            <option ifUnitType="">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
+            <option ifUnitType="Mek|Tank|VTOL">%COMPANY%,%LANCE%</option>
+            <option ifUnitType="Infantry|BattleArmor">%COMPANY%,%LANCE%</option>
+            <option ifUnitType="AeroSpaceFighter">%SQUADRON%,%FLIGHT%</option>
+        </echelon>
+
+        <rating>
+            <option>C,D,F</option>
+        </rating>
+    </toc>
+
+    <!-- The Militia inherits ComStar's naming through the parent chain, and ComStar's tiers are
+    keyed to the Level ladder: echelon 6 is a Level IV and takes the engine name, echelon 5 a
+    Level III. Here those same numbers are a Division and a Demi-Division, so the inherited tiers
+    would leave the ordinals in the ruleset's own names unresolved. Divisions are raised and
+    numbered on the world they garrison - the First Lipton, the Third Bryant - and the
+    demi-divisions inside one restart from first, so they are qualified by their parent. -->
+    <formationNaming>
+        <tier echelon="%REGIMENT%" designator="numeric_ordinal" />
+        <tier echelon="%BATTALION%" designator="numeric_ordinal" qualifyWith="parent" />
+        <tier echelon="%COMPANY%" designator="alphabet" qualifyWith="parent" />
+        <tier echelon="%LANCE%" designator="alphabet" qualifyWith="parent" />
+    </formationNaming>
+
+    <!-- Divisions are raised and named on the world they garrison - the First Lipton, the Third
+    Bryant - so they take an ordinal and the formation name, with the world left to the consumer. -->
+    <force echelon="%REGIMENT%" eschName="Division">
+        <name>{ordinal} Protectorate Militia Division</name>
+        <co>%PRECENTOR%</co>
+
+        <weightClass>
+            <option weight="1">A</option>
+            <option weight="4">H</option>
+            <option weight="9">M</option>
+            <option weight="8">L</option>
+        </weightClass>
+
+        <subforces>
+            <subforce role="command" num="1">%BATTALION%</subforce>
+            <subforce num="2">%BATTALION%</subforce>
+        </subforces>
+
+        <attachedForces>
+            <subforceOption>
+                <option weight="3" unitType="AeroSpaceFighter"
+                        name="Militia Aerospace {echelon}">%FLIGHT%</option>
+                <option weight="1" />
+            </subforceOption>
+            <subforceOption>
+                <option weight="2" unitType="BattleArmor" ifDateBetween="3070,"
+                        name="Militia Armored Infantry {echelon}">%COMPANY%</option>
+                <option weight="3" />
+            </subforceOption>
+        </attachedForces>
+    </force>
+
+    <!-- The demi-division carries the one-third rule: one Mech demi-company to two others. -->
+    <force echelon="%BATTALION%" eschName="Demi-Division">
+        <name ifRole="command">Command Demi-Division</name>
+        <name>{ordinal} Demi-Division</name>
+        <co>%DEMIPRECENTOR%</co>
+
+        <subforces>
+            <subforce unitType="Mek" num="1">%COMPANY%</subforce>
+            <subforceOption>
+                <option weight="5" unitType="Tank" num="2">%COMPANY%</option>
+                <option weight="4" unitType="Tank" num="1">%COMPANY%</option>
+                <option weight="2" unitType="VTOL" num="1">%COMPANY%</option>
+            </subforceOption>
+            <subforceOption>
+                <option weight="6" unitType="Infantry" num="1">%COMPANY%</option>
+                <option weight="2" unitType="BattleArmor" ifDateBetween="3070,"
+                        num="1">%COMPANY%</option>
+            </subforceOption>
+        </subforces>
+    </force>
+
+    <!-- Six units, not three lances. See the note at the head of the file. -->
+    <force echelon="%COMPANY%" eschName="Demi-Company" ifUnitType="Mek">
+        <name>{alpha} Demi-Company</name>
+        <co>%ADEPT%</co>
+
+        <weightClass>
+            <option weight="1">A</option>
+            <option weight="4">H</option>
+            <option weight="9">M</option>
+            <option weight="8">L</option>
+        </weightClass>
+
+        <subforces generate="group">
+            <subforceOption ifWeightClass="A">
+                <option weightClass="A,A,H,H,M,M" unitType="Mek">%ELEMENT%</option>
+                <option weightClass="A,H,H,M,M,L" unitType="Mek">%ELEMENT%</option>
+            </subforceOption>
+            <subforceOption ifWeightClass="H">
+                <option weightClass="H,H,H,M,M,L" unitType="Mek">%ELEMENT%</option>
+                <option weightClass="H,H,M,M,L,L" unitType="Mek">%ELEMENT%</option>
+            </subforceOption>
+            <subforceOption ifWeightClass="M">
+                <option weightClass="H,M,M,M,L,L" unitType="Mek">%ELEMENT%</option>
+                <option weightClass="M,M,M,L,L,L" unitType="Mek">%ELEMENT%</option>
+            </subforceOption>
+            <subforceOption ifWeightClass="L">
+                <option weightClass="M,M,L,L,L,L" unitType="Mek">%ELEMENT%</option>
+                <option weightClass="M,L,L,L,L,L" unitType="Mek">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+    </force>
+
+    <force echelon="%COMPANY%" eschName="Demi-Company" ifUnitType="Tank|VTOL">
+        <name>{alpha} Demi-Company</name>
+        <co>%ADEPT%</co>
+
+        <weightClass>
+            <option weight="1">A</option>
+            <option weight="3">H</option>
+            <option weight="8">M</option>
+            <option weight="9">L</option>
+        </weightClass>
+
+        <subforces generate="group">
+            <subforceOption ifWeightClass="A|H">
+                <option weightClass="H,H,M,M,M,L">%ELEMENT%</option>
+                <option weightClass="H,M,M,M,L,L">%ELEMENT%</option>
+            </subforceOption>
+            <subforceOption ifWeightClass="M">
+                <option weightClass="M,M,M,M,L,L">%ELEMENT%</option>
+                <option weightClass="M,M,M,L,L,L">%ELEMENT%</option>
+            </subforceOption>
+            <subforceOption ifWeightClass="L">
+                <option weightClass="M,L,L,L,L,L">%ELEMENT%</option>
+                <option weightClass="L,L,L,L,L,L">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+    </force>
+
+    <!-- Locally raised foot and motorized troops, with the Militia's own armored infantry only once
+    it had any to hand down. -->
+    <force echelon="%COMPANY%" eschName="Demi-Company" ifUnitType="Infantry|BattleArmor">
+        <name>{alpha} Demi-Company</name>
+        <co>%ADEPT%</co>
+
+        <flags ifUnitType="Infantry">
+            <option weight="4">+infFoot</option>
+            <option weight="5">+infMotorized</option>
+            <option weight="2">+infTracked</option>
+        </flags>
+
+        <subforces generate="group">
+            <subforceOption ifUnitType="Infantry">
+                <option num="6" motive="Leg">%ELEMENT%</option>
+                <option num="6" motive="Jump">%ELEMENT%</option>
+                <option num="6" motive="Wheeled">%ELEMENT%</option>
+                <option num="6" motive="Tracked">%ELEMENT%</option>
+            </subforceOption>
+            <subforceOption ifUnitType="BattleArmor">
+                <option num="6">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+    </force>
+
+    <!-- The four-unit tactical grouping. Offered in its own right rather than as a subdivision of
+    the demi-company, which is six. -->
+    <force echelon="%LANCE%" eschName="Lance">
+        <name>{formation} Lance</name>
+        <co>%ADEPT%</co>
+
+        <changeEschelon>
+            <option weight="4" unitType="Tank">%LANCE%</option>
+            <option weight="2" unitType="Mek">%LANCE%</option>
+            <option weight="3" />
+        </changeEschelon>
+
+        <weightClass>
+            <option weight="1">A</option>
+            <option weight="3">H</option>
+            <option weight="8">M</option>
+            <option weight="8">L</option>
+        </weightClass>
+
+        <subforces generate="group">
+            <subforceOption ifWeightClass="A|H">
+                <option weightClass="H,H,M,M">%ELEMENT%</option>
+                <option weightClass="H,M,M,L">%ELEMENT%</option>
+            </subforceOption>
+            <subforceOption ifWeightClass="M">
+                <option weightClass="M,M,M,L">%ELEMENT%</option>
+                <option weightClass="M,M,L,L">%ELEMENT%</option>
+            </subforceOption>
+            <subforceOption ifWeightClass="L">
+                <option weightClass="M,L,L,L">%ELEMENT%</option>
+                <option weightClass="L,L,L,L">%ELEMENT%</option>
+            </subforceOption>
+        </subforces>
+    </force>
+
+</ruleset>

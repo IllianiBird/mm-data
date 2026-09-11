@@ -1,0 +1,64 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CNC
+name: "Lossey"
+houses:
+  - founder: "Andry"
+    founderFullName: "Andry Lossey"
+    founderAffiliation: "Clan Nova Cat"
+    phenotype: "MEKWARRIOR"
+    abjured: "3060"
+    exclusive: true
+    postReaving: [CNC]
+    summary: "The Lossey Bloodname was a Clan Nova Cat founding legacy."
+    notableHolders:
+      - { name: "Brian Lossey", rank: "Galaxy Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Ket Lossey", rank: "Galaxy Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Tol Lossey", rank: "Galaxy Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Austine Lossey", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Brent Lossey", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Jacinta Lossey", rank: "Star Colonel", affiliation: "Spirit Cats" }
+      - { name: "Jullamon Lossey", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Oman Lossey", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Sal Lossey", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Thara Lossey", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Elijah Lossey", rank: "Major", affiliation: "Republic of the Sphere" }
+      - { name: "Hyo Lossey", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Matt Lossey", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Vera Lossey", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Lenett Lossey", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Tora Lossey", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
+      - { name: "Mada Lossey", affiliation: "Spirit Cats" }
+    sources:
+      - { title: "The Dragon Roars" }
+      - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+      - { title: "Field Manual: ComStar" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Heretic's Faith" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hunter or Hunted" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "MechWarrior: Death From Above" }
+      - { title: "Path of Glory", abbrev: "Path of Glory" }
+      - { title: "Recognition Guide: ilClan, vol. 3" }
+      - { title: "Spotlight On: Stone's Trackers" }
+      - { title: "Turning Points: Irian", abbrev: "TP:Irian" }
+    history: ~

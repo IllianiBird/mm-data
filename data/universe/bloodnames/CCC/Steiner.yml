@@ -1,0 +1,49 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CCC
+name: "Steiner"
+houses:
+  - founder: "Kailen"
+    founderFullName: "Kailen Steiner"
+    founderAffiliation: "Clan Cloud Cobra"
+    phenotype: "GENERAL"
+    exclusive: true
+    postReaving: [CCC]
+    summary: "The Steiner Bloodname was a Clan Cloud Cobra founding legacy."
+    notableHolders:
+      - { name: "Din Steiner", rank: "Khan", affiliation: "Clan Cloud Cobra" }
+      - { name: "Raymond Steiner", rank: "saKhan", affiliation: "Clan Cloud Cobra" }
+      - { name: "Jal Steiner", rank: "Galaxy Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Boyle Steiner", rank: "Star Colonel", affiliation: "Clan Goliath Scorpion" }
+      - { name: "Byron Steiner", rank: "Star Colonel", affiliation: "Clan Cloud Cobra" }
+      - { name: "Ejau Steiner", rank: "Star Colonel", affiliation: "Clan Cloud Cobra" }
+      - { name: "Ishaq Steiner", rank: "Star Colonel", affiliation: "Clan Cloud Cobra" }
+      - { name: "Jonas Steiner", rank: "Star Colonel", affiliation: "Clan Cloud Cobra" }
+      - { name: "Penelope Steiner", rank: "Star Colonel", affiliation: "Clan Cloud Cobra" }
+      - { name: "Sergis Steiner", rank: "Star Commander", affiliation: "Ebon Keshik" }
+    sources:
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Icons of War" }
+      - { title: "Field Manual: ComStar" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Seeds of Loyalty" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

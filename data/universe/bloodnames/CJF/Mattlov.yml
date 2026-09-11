@@ -1,0 +1,89 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CJF
+name: "Mattlov"
+houses:
+  - founder: "Daniel"
+    founderFullName: "Daniel Mattlov"
+    founderAffiliation: "Clan Jade Falcon"
+    phenotype: "ELEMENTAL"
+    exclusive: true
+    limited: true
+    limitedSince: 3085
+    postReaving: [CJF]
+    summary: "The Mattlov Bloodname was a Clan Jade Falcon founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
+    notableHolders:
+      - { name: "Angeline Mattlov", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Ramon Mattlov", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Tavin Mattlov", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Arimas Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Creed Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Evak Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Filip Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Jurgen Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Kimberly Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Laura Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Per Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Ruben Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Quillic Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Sujatha Mattlov", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Boris Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Caroline Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Corin Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Elena Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Gorton Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Gregor Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Jurgen Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Manfredo Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Rothgar Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Terrence Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Tomaszewski Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Vabbian Mattlov", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Corbin Mattlov", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Kelli Mattlov", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Thorbin Mattlov", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Kathleen Mattlov", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Gimon Mattlov", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+      - { name: "Heather Mattlov", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+      - { name: "Ytham Mattlov", rank: "Pilot", affiliation: "Clan Jade Falcon" }
+    sources:
+      - { title: "Battle of Coventry" }
+      - { title: "Era Report: 3062" }
+      - { title: "Era Report: 3145" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Mercenaries, Revised" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
+      - { title: "Jihad Secrets: The Blake Documents", abbrev: "JSBD" }
+      - { title: "MechWarrior Tactical Command" }
+      - { title: "Operational Turning Points: Falcon Incursion", abbrev: "OTP:FI" }
+      - { title: "Recognition Guide: ilClan, vol. 30", abbrev: "RG30" }
+      - { title: "A Rending of Falcons" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+      - { title: "Way of the Clans", abbrev: "Way of the Clans" }
+    history: ~

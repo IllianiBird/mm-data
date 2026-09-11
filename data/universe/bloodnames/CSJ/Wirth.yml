@@ -1,0 +1,64 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CSJ
+name: "Wirth"
+houses:
+  - founder: "Aleksandar"
+    founderFullName: "Aleksandar Wirth"
+    founderAffiliation: "Clan Smoke Jaguar"
+    phenotype: "MEKWARRIOR"
+    dormant: "3060"
+    exclusive: true
+    acquired:
+      - { clan: CW, date: 3060 }
+    summary: "The Wirth Bloodname was a Clan Smoke Jaguar founding name."
+    notableHolders:
+      - { name: "Dorian Wirth", rank: "saKhan", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Josh Wirth", rank: "Loremaster", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Anton Wirth", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Larry Wirth", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Logan Wirth", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Tahme Wirth", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Aldo Wirth", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Erlish Wirth", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Jackson Wirth", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Jax Wirth", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Meyer Wirth", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "An Wirth", rank: "Star Commander", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Burnell Wirth", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Cord Wirth", rank: "MekWarrior", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Jacindah Wirth", affiliation: "Clan Smoke Jaguar" }
+    sources:
+      - { title: "The Dragon Roars" }
+      - { title: "Era Report: 3052" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: ComStar" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Freebirth", abbrev: "Freebirth" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Jaguar's Leap" }
+      - { title: "Living Legends", abbrev: "LL" }
+      - { title: "Luthien" }
+      - { title: "MechCommander: Desperate Measures" }
+      - { title: "Recognition Guide: ilClan, vol. 2" }
+      - { title: "Twilight of the Clans" }
+    history: ~

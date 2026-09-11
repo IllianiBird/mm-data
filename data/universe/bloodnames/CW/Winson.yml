@@ -1,0 +1,67 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CW
+name: "Winson"
+houses:
+  - founder: "Jennifer"
+    founderFullName: "Jennifer Winson"
+    founderAffiliation: "Clan Wolf"
+    limited: true
+    limitedSince: 3085
+    postReaving: [CCO]
+    summary: "The Winson Bloodname deriving from Jennifer Winson was a Clan Wolf founding legacy. There is another, separate Winson Bloodname deriving from her supposed brother Jerome Winson. It is worth noting that, although this is not known within the BattleTech universe at large, \"Jennifer Winson\" was a false name, and her supposed family relation to Jerome Winson was a forgery to cover up her real identity"
+    notableHolders:
+      - { name: "Nadia Winson", rank: "Khan", affiliation: "Clan Ghost Bear" }
+      - { name: "Petr Winson", rank: "Galaxy Commander", affiliation: "Clan Coyote" }
+      - { name: "Abioseh Winson", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Alos Winson", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Carmin Winson", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Rodham Winson", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Til Winson", rank: "Star Colonel", affiliation: "Clan Blood Spirit" }
+      - { name: "Fall Winson", rank: "Star Captain", affiliation: "Clan Blood Spirit" }
+      - { name: "Isabella Winson", rank: "Star Commander", affiliation: "Wolf Empire" }
+      - { name: "Alita Winson", affiliation: "Clan Wolf" }
+      - { name: "Eulice Winson", affiliation: "Clan Wolf" }
+      - { name: "Garald Winson", affiliation: "Clan Ghost Bear" }
+    sources:
+      - { title: "BattleTech: Battle of Tukayyid" }
+      - { title: "Bred for War" }
+      - { title: "Campaign Operations", abbrev: "CO" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Field Manual: Update" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Lethal Heritage", abbrev: "Lethal Heritage" }
+      - { title: "Recognition Guide: ilClan, vol. 27", abbrev: "RG27" }
+      - { title: "A Time of War" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+      - { title: "The Wars of Reaving Supplemental", abbrev: "WoRS" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
+    history: ~
+  - founder: "Jerome"
+    founderFullName: "Jerome Winson"
+    founderRank: "Bloodname Founder and ilKhan"
+    founderAffiliation: "Clan Wolf"
+    summary: "The Winson Bloodname deriving from Jerome Winson was a Clan Wolf founding legacy. There is another, separate Winson Bloodname deriving from his purported sister, Jennifer Winson."
+    sources:
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+    history: ~

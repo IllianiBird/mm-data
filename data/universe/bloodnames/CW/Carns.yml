@@ -1,0 +1,123 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CW
+name: "Carns"
+houses:
+  - founder: "Ma"
+    founderFullName: "Ma Carns"
+    founderRank: "Star Colonel"
+    founderAffiliation: "Clan Wolf"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    postReaving: [CW,CWIE]
+    shared:
+      - { clan: CWIE, date: 3057 }
+    notableHolders:
+      - { name: "Lucian Carns", rank: "saKhan", affiliation: "Clan Nova Cat" }
+      - { name: "Dalk Carns", rank: "Loremaster", affiliation: "Clan Wolf" }
+      - { name: "Wolfgang Carns", rank: "Star Admiral", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Edwina Carns", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+      - { name: "Kirsten Carns", rank: "Galaxy Commander", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Niels Carns", rank: "Galaxy Commander", affiliation: "Wolf Empire" }
+      - { name: "Zale Carns", rank: "Galaxy Commander", affiliation: "Clan Wolf" }
+      - { name: "Alfelia Carns", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Barry Carns", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Bruce Carns", rank: "Star Colonel", affiliation: "Clan-in-Exile" }
+      - { name: "Cassius Carns", rank: "Star Colonel", affiliation: "Steel Wolves" }
+      - { name: "Donald Carns", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Gwenneth Carns", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Jacob Carns", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Jera Carns", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Kiandra Carns", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Kiara Carns", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Luca Carns", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Myra Carns", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Owen Carns", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Rhyssa Carns", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Tracy Carns", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Dale Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Eldin Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Gilroy Carns", rank: "Star Captain", affiliation: "ilClan" }
+      - { name: "Hanna Carns", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Jo Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Jule Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Kristina Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Maynar Carns", rank: "Star Captain", affiliation: "Steel Wolves" }
+      - { name: "Oasic Carns", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Pewell Carns", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Sarah Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Tayna Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Theuderic Carns", rank: "Star Captain", affiliation: "Steel Wolves" }
+      - { name: "Vaness Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Zoll Carns", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Cosmo Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Harr Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Mabrams Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Maise Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Melissa Carns", rank: "Star Commander", affiliation: "Wolf Empire" }
+      - { name: "Treh Carns", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Alan Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Amel Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Bisston Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Cyrus Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Kaspar Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Kevin Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Kris Carns", rank: "MekWarrior", affiliation: "Wolf Empire" }
+      - { name: "Murguia Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Pocarra Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Redassa Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Skeld Carns", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Kaste Carns", affiliation: "Steel Wolves" }
+      - { name: "Troi Carns", affiliation: "Steel Wolves" }
+    sources:
+      - { title: "The Battle of Tukayyid", abbrev: "BoT" }
+      - { title: "BattleTech: Clan Heavy Striker Star" }
+      - { title: "A Bonfire of Worlds" }
+      - { title: "Bred for War" }
+      - { title: "The Dragon Roars" }
+      - { title: "Elements of Treason: Honor" }
+      - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+      - { title: "Era Report: 3052" }
+      - { title: "Era Report: 3062" }
+      - { title: "Era Report: 3145" }
+      - { title: "Explorer Corps", abbrev: "EC" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Fang and Claw" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: ComStar" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Flight of the Falcon" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+      - { title: "Roar of Honor" }
+      - { title: "Shattered Fortress", abbrev: "SF" }
+      - { title: "Technical Readout: 3150", abbrev: "TR:3150" }
+      - { title: "A Time of War" }
+      - { title: "Turning Points: Irian", abbrev: "TP:Irian" }
+      - { title: "Twilight of the Clans" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
+    history: ~

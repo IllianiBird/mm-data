@@ -1,0 +1,68 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CSJ
+name: "Osis"
+houses:
+  - founder: "Franklin"
+    founderFullName: "Franklin Osis"
+    founderRank: "first Khan"
+    founderAffiliation: "Clan Smoke Jaguar"
+    phenotype: "MEKWARRIOR"
+    dormant: "3060"
+    exclusive: true
+    summary: "This Osis Bloodname was a Clan Smoke Jaguar founding legacy."
+    notableHolders:
+      - { name: "Theodore Osis", rank: "Khan", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Devon Osis", rank: "Galaxy Commander", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Thibideau Osis", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
+      - { name: "David Osis", rank: "MekWarrior", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Paul Osis", rank: "MekWarrior", affiliation: "Clan Smoke Jaguar" }
+    sources:
+      - { title: "Betrayal of Ideals" }
+      - { title: "Era Digest: Golden Century", abbrev: "ED:GC" }
+      - { title: "Era Report: 3062" }
+      - { title: "Exodus Road" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Historical Turning Points: Luzerne", abbrev: "HTP:Luzerne" }
+      - { title: "Impetus of War" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Long Tom Battery (CCG - Unlimited)" }
+      - { title: "MechCommander: Desperate Measures" }
+      - { title: "Northwind Highlanders" }
+      - { title: "Operation BIRD DOG: Clipping Jaguar Wings (scenario)" }
+      - { title: "Righteous Fury" }
+      - { title: "Spotlight On: Crimson Seeker Star" }
+      - { title: "Trial of Position (CCG - Arsenal)" }
+      - { title: "Trial Under Fire" }
+      - { title: "Twilight of the Clans" }
+    history: ~
+  - founder: "Terissa"
+    founderFullName: "Terrisa Osis"
+    founderAffiliation: "Clan Smoke Jaguar"
+    phenotype: "ELEMENTAL"
+    dormant: "3060"
+    exclusive: true
+    summary: "This Osis Bloodname was a Clan Smoke Jaguar founding legacy."
+    notableHolders:
+      - { name: "Lincoln Osis", rank: "ilKhan", affiliation: "Clan Smoke Jaguar" }
+    sources:
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Prince of Havoc" }
+    history: ~

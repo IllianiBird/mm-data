@@ -54,8 +54,8 @@ with a wing of aerospace support and a battalion of BattleArmor. -->
         </subforces>
 
         <attachedForces>
-            <subforce unitType="AeroSpaceFighter" name="Aerospace Support">%WING%</subforce>
-            <subforce unitType="BattleArmor" name="Infantry Support">%BATTALION%</subforce>
+            <subforce unitType="AeroSpaceFighter" name="Aerospace {echelon}">%WING%</subforce>
+            <subforce unitType="BattleArmor" name="Infantry {echelon}">%BATTALION%</subforce>
         </attachedForces>
     </force>
 
@@ -101,7 +101,7 @@ with a wing of aerospace support and a battalion of BattleArmor. -->
         </subforces>
 
         <attachedForces ifTopLevel="1">
-            <subforce unitType="BattleArmor" name="Infantry Support">%COMPANY%</subforce>
+            <subforce unitType="BattleArmor" name="Infantry {echelon}">%COMPANY%</subforce>
         </attachedForces>
     </force>
 

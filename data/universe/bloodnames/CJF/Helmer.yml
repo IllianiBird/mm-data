@@ -1,0 +1,80 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CJF
+name: "Helmer"
+houses:
+  - founder: "Samuel"
+    founderFullName: "Samuel Helmer"
+    founderRank: "Star Colonel"
+    founderAffiliation: "Clan Jade Falcon"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    limited: true
+    limitedSince: 3085
+    postReaving: [CJF]
+    summary: "The Helmer Bloodname was a Clan Jade Falcon founding legacy."
+    datedNotes:
+      - { year: 3085, text: "By 3085 it was noted as a Limited Bloodname, indicating a Bloodcount of five or less active Bloodheritages." }
+    notableHolders:
+      - { name: "Earl Helmer", rank: "Loremaster", affiliation: "Clan Jade Falcon" }
+      - { name: "Dorcas Helmer", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Earl Helmer", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Mar Helmer", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Noritomo Helmer", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Abzug Helmer", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Cynthia Helmer", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Francis Helmer", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Misha Helmer", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Wanda Helmer", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Djala Helmer", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Enar Helmer", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Jessica Helmer", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Jude Helmer", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Lyza Helmer", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Anitoly Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Aren Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Johan Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Tara Helmer", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Benjamin Helmer", rank: "MekWarrior", affiliation: "Clan Jade Falcon" }
+    sources:
+      - { title: "BattleTech: Clan Heavy Battle Star" }
+      - { title: "Era Report: 3145" }
+      - { title: "Explorer Corps", abbrev: "EC" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Hour of the Wolf" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "MechWarrior: Destiny" }
+      - { title: "Operational Turning Points: REVIVAL Trials" }
+      - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+      - { title: "Recognition Guide: ilClan, vol. 2" }
+      - { title: "A Rending of Falcons" }
+      - { title: "Technical Readout: 3075", abbrev: "TR:3075" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+      - { title: "Technical Readout: 3145 Draconis Combine", abbrev: "TR:3145:DC" }
+      - { title: "Technical Readout: Dark Age", abbrev: "TR:DA" }
+      - { title: "Total Chaos", abbrev: "Total Chaos" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+      - { title: "Alpha Strike Boxed Set" }
+    history: ~

@@ -88,19 +88,19 @@
 
         <attachedForces ifUnitType="Mek">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforce unitType="Tank"
-                      name="Armor Support">%REGIMENT%
+                      name="Armor {echelon}">%REGIMENT%
             </subforce>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
 
         <attachedForces ifUnitType="Tank" ifDateBetween=",2520">
             <subforce unitType="AeroSpaceFighter"
-                      name="Aerospace Support">%WING%
+                      name="Aerospace {echelon}">%WING%
             </subforce>
             <subforceOption ifDateBetween="2470,">
                 <option ifRating="D|F" />
@@ -110,7 +110,7 @@
                 <option unitType="Mek" ifDateBetween="2490,2519">%BATTALION%</option>
             </subforceOption>
             <subforce unitType="Infantry"
-                      name="Infantry Support">%REGIMENT%
+                      name="Infantry {echelon}">%REGIMENT%
             </subforce>
         </attachedForces>
     </force>
@@ -285,31 +285,31 @@
 
         <attachedForces>
             <subforceOption ifWeightClass="A">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="2">%COMPANY%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="3" />
             </subforceOption>
             <subforceOption ifWeightClass="H">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="2">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="1">%LANCE%
                 </option>
                 <option weight="2" />
             </subforceOption>
             <subforceOption ifWeightClass="M">
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="3" num="1">%LANCE%
                 </option>
-                <option role="artillery" name="Artillery Support"
+                <option role="artillery" name="Artillery {echelon}"
                         weight="1" num="2">%LANCE%
                 </option>
                 <option weight="6" />
@@ -513,21 +513,21 @@
         <attachedForces>
             <subforceOption>
                 <option unitType="Tank" role="artillery"
-                        name="Artillery Support"
+                        name="Artillery {echelon}"
                         weight="1">%COMPANY%
                 </option>
                 <option unitType="Tank" role="artillery"
-                        name="Artillery Support"
+                        name="Artillery {echelon}"
                         weight="1">%LANCE%
                 </option>
                 <option weight="4" />
             </subforceOption>
             <subforceOption>
                 <option unitType="Conventional Fighter"
-                        name="Air Support" weight="1">%SQUADRON%
+                        name="Air {echelon}" weight="1">%SQUADRON%
                 </option>
                 <option unitType="Conventional Fighter"
-                        name="Air Support" weight="1">%WING%
+                        name="Air {echelon}" weight="1">%WING%
                 </option>
                 <option weight="10" />
             </subforceOption>
@@ -537,10 +537,10 @@
                 <option weight="5" />
             </subforceOption>
             <subforceOption>
-                <option unitType="Tank" role="infantry_support" name="Armor Support"
+                <option unitType="Tank" role="infantry_support" name="Armor {echelon}"
                         weight="3">%COMPANY%
                 </option>
-                <option unitType="Tank" role="infantry_support" name="Armor Support"
+                <option unitType="Tank" role="infantry_support" name="Armor {echelon}"
                         weight="1">%BATTALION%
                 </option>
                 <option weight="2" />
@@ -581,7 +581,7 @@
                 <option unitType="Infantry" role="artillery" ifDateBetween="3050," flags="+support"
                         weight="1" name="Artillery Company">%COMPANY%
                 </option>
-                <option unitType="Infantry" role="field gun" flags="+support"
+                <option unitType="Infantry" role="field_gun" flags="+support"
                         ifDateBetween="3050," weight="2" name="Battery Company">%COMPANY%
                 </option>
                 <option weight="3" />

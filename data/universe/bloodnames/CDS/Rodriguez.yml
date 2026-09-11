@@ -1,0 +1,60 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CDS
+name: "Rodriguez"
+houses:
+  - founder: "Sora"
+    founderFullName: "Sora Rodriguez"
+    founderAffiliation: "Clan Sea Fox"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    postReaving: [CDS]
+    summary: "The Rodriguez Bloodname was a Clan Sea Fox founding name."
+    notableHolders:
+      - { name: "Samson Rodriguez", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+      - { name: "Winthrop Rodriguez", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+      - { name: "Trevor Rodriguez", rank: "Galaxy Commander", affiliation: "Clan Diamond Shark" }
+      - { name: "Ala Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Breen Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Jem Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Juan Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Mandy Rodriguez", rank: "Star Colonel", affiliation: "Raven Alliance" }
+      - { name: "Porter Rodriguez", rank: "Star Colonel", affiliation: "Raven Alliance" }
+      - { name: "Tahme Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Vito Rodriguez", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Justus Rodriguez", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+      - { name: "Odilon Rodriguez", rank: "Star Captain", affiliation: "Clan Diamond Shark" }
+      - { name: "Senna Rodriguez", rank: "Master Merchant", affiliation: "Clan Sea Fox" }
+      - { name: "Luna Rodriguez", rank: "Merchant", affiliation: "Clan Diamond Shark" }
+    sources:
+      - { title: "BattleTech: Battle of Tukayyid" }
+      - { title: "BattleTech: Clan Ad Hoc Star" }
+      - { title: "Era Report: 3145" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "MechWarrior Card Pack I" }
+      - { title: "A Rending of Falcons" }
+      - { title: "Shrapnel Issue 24" }
+      - { title: "Technical Readout: 3145 Mercenaries", abbrev: "TR:3145:Merc" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

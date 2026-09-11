@@ -56,7 +56,22 @@ brigada seems reasonable. -->
     </toc>
 
     <force echelon="%BRIGADE%" eschName="Brigada">
+        <!-- The four named Castillian Brigadas (Nueva Castile, per Sarna): 1st fields the heaviest
+             Meks and defends the capital Asturias; 2nd uses smaller Meks as an assault force on
+             Cordoba; 3rd is a poorly-trained garrison of Leon/Castile/Aragon; 4th garrisons
+             Navarre/Valencia/Galicia. One is chosen at random and given its characteristic weight. -->
+        <name ifFlags="brigada2">Second Brigada</name>
+        <name ifFlags="brigada3">Third Brigada</name>
+        <name ifFlags="brigada4">Fourth Brigada</name>
+        <name>First Brigada</name>
         <co>%COLONEL%</co>
+
+        <flags>
+            <option weightClass="A">brigada1</option>
+            <option weightClass="L">brigada2</option>
+            <option weightClass="M">brigada3</option>
+            <option weightClass="M">brigada4</option>
+        </flags>
 
         <subforces>
             <subforce num="6">%REGIMENT%</subforce>

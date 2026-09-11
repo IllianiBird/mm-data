@@ -1,0 +1,58 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CNC
+name: "Deleportas"
+houses:
+  - founder: "Serena"
+    founderFullName: "Serena Deleportas"
+    founderAffiliation: "Clan Nova Cat"
+    phenotype: "GENERAL"
+    abjured: "3060"
+    exclusive: true
+    postReaving: [CNC]
+    summary: "The Deleportas Bloodname was a Clan Nova Cat founding legacy."
+    notableHolders:
+      - { name: "Elianna Deleportas", rank: "Galaxy Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Roj Deleportas", rank: "Galaxy Commander", affiliation: "Clan Nova Cat" }
+      - { name: "Adriana Deleportas", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Ambrosia Deleportas", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Ian Deleportas", rank: "Star Colonel", affiliation: "Clan Nova Cat" }
+      - { name: "Ori Deleportas", rank: "Colonel", affiliation: "Republic of the Sphere" }
+      - { name: "Calvin Deleportas", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Ithon Deleportas", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Marat Deleportas", rank: "Star Captain", affiliation: "Spirit Cats" }
+      - { name: "Orville Deleportas", rank: "Star Captain", affiliation: "Spirit Cats" }
+      - { name: "Tina Deleportas", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Kithyo Deleportas", rank: "Star Captain", affiliation: "Clan Nova Cat" }
+      - { name: "Monic Deleportas", rank: "MekWarrior", affiliation: "Clan Nova Cat" }
+    sources:
+      - { title: "BattleTech: Battle of Tukayyid" }
+      - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: ComStar" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Historical: Wars of the Republic Era", abbrev: "His:WotRE" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "Northwind Highlanders" }
+      - { title: "Objective Raids", abbrev: "OR" }
+      - { title: "Technical Readout: 3058 Upgrade", abbrev: "TR:3058U" }
+    history: ~

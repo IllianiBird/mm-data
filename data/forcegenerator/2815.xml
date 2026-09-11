@@ -558,6 +558,13 @@
                 <availability>General:8</availability>
             </model>
         </chassis>
+        <chassis name='Aqueduct Liquid Carrier' unitType='Dropship'>
+            <availability>CC:4,CS:3,LA:4,FWL:4,IS:2,FS:4,DC:4,Periphery:2</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Archer' unitType='Mek'>
             <availability>IS:6,FS:8,LA:9,DC:8,FWL:9,CC:7,CS:5-,PP:3,CLAN:4,CFM:3,CGS:3,CIH:4-,CMG:3,CSV:3,CWOV:3,Periphery:6,NIOPS:5-,Periphery.Deep:6</availability>
             <model name='ARC-2R'>
@@ -831,6 +838,10 @@
                 <roles>cargo,civilian</roles>
                 <availability>General:8</availability>
             </model>
+            <model name='(2782)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:6</availability>
+            </model>
         </chassis>
         <chassis name='Black Knight' unitType='Mek'>
             <availability>FS:5,LA:4,DC:4,FWL:6,MERC:4,CS:7,PP:3+,CLAN:3+,CGS:4+,CIH:2+,CWOV:4+,NIOPS:7</availability>
@@ -905,6 +916,10 @@
             <model name='(2708)'>
                 <roles>cargo</roles>
                 <availability>General:8</availability>
+            </model>
+            <model name='(2792)'>
+                <roles>cargo</roles>
+                <availability>General:6</availability>
             </model>
         </chassis>
         <chassis name='Buffalo' unitType='Tank'>
@@ -994,6 +1009,20 @@
             </model>
             <model name='CON-1 ConstructionMech (RL)'>
                 <availability>PP:8,Periphery:3-,TC:1-,PIR:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Cargomaster' unitType='Dropship'>
+            <availability>FS:1</availability>
+            <model name='(2790)'>
+                <roles>cargo,support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Cargo King' unitType='Dropship'>
+            <availability>FS:1</availability>
+            <model name='(2790)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
             </model>
         </chassis>
         <chassis name='Carson Destroyer' unitType='Warship'>
@@ -3662,6 +3691,10 @@
                 <roles>cargo,civilian</roles>
                 <availability>General:8</availability>
             </model>
+            <model name='(2808)'>
+                <roles>cargo,civilian</roles>
+                <availability>General:6</availability>
+            </model>
         </chassis>
         <chassis name='Manatee' unitType='Dropship'>
             <availability>Periphery:1</availability>
@@ -4171,6 +4204,13 @@
                 <availability>IS:6,CS:4,CLAN:8,PP:8,NIOPS:4</availability>
             </model>
         </chassis>
+        <chassis name='Mingo' unitType='Dropship'>
+            <availability>Periphery.Deep:3</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Mobile Headquarters' unitType='Tank'>
             <availability>CLAN:1+,IS:2+,CS:3+,TC:1+</availability>
             <model name=''>
@@ -4629,14 +4669,14 @@
             </model>
         </chassis>
         <chassis name='Phoenix Hawk LAM Mk I' unitType='Mek'>
-            <availability>PP:1+,IS:2+</availability>
+            <availability>PP:1+,IS:2+,CS:2</availability>
             <model name='PHX-HK1'>
                 <roles>raider,recon,specops</roles>
-                <availability>PP:1+,IS:4</availability>
+                <availability>PP:1+,IS:4,CS:4</availability>
             </model>
             <model name='PHX-HK1R'>
                 <roles>raider,recon,specops</roles>
-                <availability>PP:1+</availability>
+                <availability>PP:1+,CS:2</availability>
             </model>
         </chassis>
         <chassis name='Phoenix Hawk LAM' unitType='Mek'>
@@ -5321,10 +5361,10 @@
             </model>
         </chassis>
         <chassis name='Stinger LAM Mk I' unitType='Mek'>
-            <availability>PP:1+,IS:2</availability>
+            <availability>PP:1+,IS:2,CS:2</availability>
             <model name='STG-A1'>
                 <roles>raider,recon,specops</roles>
-                <availability>PP:1+,IS:2</availability>
+                <availability>PP:1+,IS:2,CS:4</availability>
             </model>
         </chassis>
         <chassis name='Stinger LAM' unitType='Mek'>
@@ -5816,18 +5856,18 @@
             </model>
         </chassis>
         <chassis name='Wasp LAM Mk I' unitType='Mek'>
-            <availability>PP:1+,IS:2</availability>
+            <availability>PP:1+,IS:2,CS:2</availability>
             <model name='WSP-100'>
                 <roles>recon,specops</roles>
-                <availability>PP:1+,IS:4</availability>
+                <availability>PP:1+,IS:4,CS:4</availability>
             </model>
             <model name='WSP-100A'>
                 <roles>recon,specops</roles>
-                <availability>PP:1+,IS:2</availability>
+                <availability>PP:1+,IS:2,CS:2</availability>
             </model>
             <model name='WSP-100b'>
                 <roles>recon,specops</roles>
-                <availability>PP:1+</availability>
+                <availability>PP:1+,CS:2</availability>
             </model>
         </chassis>
         <chassis name='Wasp LAM' unitType='Mek'>

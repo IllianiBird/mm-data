@@ -18,7 +18,7 @@
 key: WOB.PM
 name: Protectorate Militia
 yearsActive:
-  - start: 3066
+  - start: 3068
     end: 3078
 ratingLevels:
   - F
@@ -28,3 +28,13 @@ ratingLevels:
   - A
 fallBackFactions:
   - WOB
+# The Protectorate Militia did not use the base-six organisation the Word of Blake took from
+# ComStar. It used a modified Inner Sphere structure of four-unit lances and six-unit
+# demi-companies, so it declares its own sizes rather than inheriting the parent's six.
+formationBaseSize: 4
+formationGrouping: 3
+# The Militia proper was a mix of enhanced and conventional soldiers, so it keeps the Manei
+# Domini designations. The Protectorate Militia was raised from the population of the worlds
+# it garrisoned and none of its troopers were Manei Domini, so it uses the same ladder
+# without them.
+rankSystem: WOBPM

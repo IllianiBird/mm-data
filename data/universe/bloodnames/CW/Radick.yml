@@ -1,0 +1,121 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CW
+name: "Radick"
+houses:
+  - founder: "Alicia"
+    founderFullName: "Alicia Radick"
+    founderRank: "Star Colonel"
+    founderAffiliation: "Clan Wolf"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    postReaving: [CW,CWIE]
+    shared:
+      - { clan: CWIE, date: 3057 }
+    summary: "The Radick Bloodname was a Clan Wolf founding legacy."
+    notableHolders:
+      - { name: "Abram Radick", rank: "Khan", affiliation: "Clan Nova Cat" }
+      - { name: "Garth Radick", rank: "saKhan", affiliation: "Clan Wolf" }
+      - { name: "Marialle Radick", rank: "saKhan", affiliation: "Clan Wolf" }
+      - { name: "Kal Radick", rank: "Galaxy Commander", affiliation: "Steel Wolves" }
+      - { name: "Amel Radick", rank: "Star Commodore", affiliation: "Clan Wolf" }
+      - { name: "Antonio Radick", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Bart Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Blaine Radick", rank: "Star Colonel", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Dwillt Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Elmer Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Emma Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Finley Radick", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Hiram Radick", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Janet Radick", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Jeven Radick", rank: "Star Colonel", affiliation: "Clan Diamond Shark" }
+      - { name: "Jorunn Radick", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Marcos Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Maurice Radick", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Mellan Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Ronal Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Serret Radick", rank: "Star Colonel", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Tamanna Radick", rank: "Star Colonel", affiliation: "Clan Wolf" }
+      - { name: "Virgil Radick", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "Aaron Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Ancil Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Bryston Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Corinne Radick", rank: "Star Captain", affiliation: "Clan Smoke Jaguar" }
+      - { name: "Derringer Radick", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Jairus Radick", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Kenbarg Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Lark Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Mark Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Mio Radick", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Nikki Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Tylene Radick", rank: "Star Captain", affiliation: "Wolf Empire" }
+      - { name: "Ulston Radick", rank: "Star Captain", affiliation: "Clan Wolf" }
+      - { name: "Valtyr Radick", rank: "Star Captain", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Carla Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Ceralde Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Drison Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Elanor Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Henri Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Ivul Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Jalmes Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Millok Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Tamera Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Traci Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Wilfrid Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Zoll Radick", rank: "Star Commander", affiliation: "Clan Wolf" }
+      - { name: "Star Captain Vicka of Clan Wolf-in-Exile.", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Bosh Radick", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Darla Radick", affiliation: "Clan Wolf" }
+      - { name: "Dirk Radick", rank: "Paladin", affiliation: "Republic of the Sphere" }
+      - { name: "Mio Radick", rank: "MekWarrior", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Palitrice Radick", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Stillett Radick", rank: "MekWarrior", affiliation: "Clan Wolf" }
+      - { name: "Ursula Radick", affiliation: "Steel Wolves" }
+    sources:
+      - { title: "A Bonfire of Worlds" }
+      - { title: "BattleTech: Clan Ad Hoc Star" }
+      - { title: "Dark Age: Republic of the Sphere" }
+      - { title: "Era Digest: Dark Age", abbrev: "ED:DA" }
+      - { title: "Era Report: 3052" }
+      - { title: "Era Report: 3062" }
+      - { title: "The Falcon and the Wolf", abbrev: "F&W" }
+      - { title: "Field Manual: 3085", abbrev: "FM:3085" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Grave Covenant" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "Luthien" }
+      - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+      - { title: "MechWarrior: Dark Age - Dossiers and Pilot Cards" }
+      - { title: "MechWarrior: Liao Incursion" }
+      - { title: "MechWarrior Pilot Deck: Heroes of the Clan Invasion" }
+      - { title: "Operational Turning Points: Widowmaker Absorption", abbrev: "OTP:WA" }
+      - { title: "Recognition Guide: ilClan, vol. 2" }
+      - { title: "Recognition Guide: ilClan, vol. 6" }
+      - { title: "Recognition Guide: ilClan, vol. 10", abbrev: "RG10" }
+      - { title: "Record Sheets: 3050 Upgrade Print Edition" }
+      - { title: "Roar of Honor" }
+      - { title: "Shattered Fortress", abbrev: "SF" }
+      - { title: "Technical Readout: 3145", abbrev: "TR:3145" }
+      - { title: "Wolf Clan Sourcebook", abbrev: "WolfCS" }
+      - { title: "A Wolf in the Eyrie" }
+    history: ~

@@ -1,0 +1,55 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CSV
+name: "Mercer"
+houses:
+  - founder: "Christiane"
+    founderFullName: "Christiane Mercer"
+    founderAffiliation: "Clan Steel Viper"
+    phenotype: "MEKWARRIOR"
+    exclusive: true
+    limited: true
+    limitedSince: 3085
+    postReaving: [CCO]
+    summary: "The Mercer Bloodname was a Clan Steel Viper founding name."
+    notableHolders:
+      - { name: "Sanra Mercer", rank: "Khan", affiliation: "Clan Steel Viper" }
+      - { name: "George Mercer", rank: "saKhan", affiliation: "Clan Steel Viper" }
+      - { name: "Jonathan Mercer", rank: "Galaxy Commander", affiliation: "Clan Steel Viper" }
+      - { name: "Bryan Mercer", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+      - { name: "Emily Mercer", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+      - { name: "Geoff Mercer", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+      - { name: "Henri Mercer", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+      - { name: "Tanya Mercer", rank: "Star Colonel", affiliation: "Clan Steel Viper" }
+      - { name: "Erik Mercer", rank: "Star Commander", affiliation: "Clan Steel Viper" }
+      - { name: "Jorma Mercer", rank: "Star Commander", affiliation: "Clan Steel Viper" }
+      - { name: "Michael Mercer", rank: "MekWarrior", affiliation: "Clan Steel Viper" }
+    sources:
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "Invading Clans", abbrev: "InvC" }
+      - { title: "Jaguar's Leap" }
+      - { title: "MechWarrior Card Pack I" }
+      - { title: "Seven Years' Bad Luck" }
+      - { title: "Technical Readout: 3058 Upgrade", abbrev: "TR:3058U" }
+      - { title: "Undefeated" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

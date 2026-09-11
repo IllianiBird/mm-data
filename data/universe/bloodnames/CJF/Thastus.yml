@@ -1,0 +1,83 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CJF
+name: "Thastus"
+houses:
+  - founder: "Ẑivko"
+    founderFullName: "Živko Thastus"
+    founderAffiliation: "Clan Jade Falcon"
+    phenotype: "AEROSPACE"
+    exclusive: true
+    postReaving: [CJF,CDS,CGB]
+    summary: "The Thastus Bloodname was a Clan Jade Falcon founding legacy."
+    notableHolders:
+      - { name: "Jane Thastus", rank: "saKhan", affiliation: "Clan Jade Falcon" }
+      - { name: "Gilbert Thastus", rank: "ovKhan", affiliation: "Clan Sea Fox" }
+      - { name: "Joel Thastus", rank: "Galaxy Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Martin Thastus", rank: "Star Admiral", affiliation: "Clan Wolf-in-Exile" }
+      - { name: "Jagger Thastus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Juanita Thastus", rank: "Star Colonel", affiliation: "Rasalhague Dominion" }
+      - { name: "Rodney Thastus", rank: "Star Colonel", affiliation: "Wolf Empire" }
+      - { name: "William Thastus", rank: "Star Colonel", affiliation: "Clan Jade Falcon" }
+      - { name: "Mark Thastus", rank: "Star Commodore", affiliation: "Clan Jade Falcon" }
+      - { name: "Elizabeth Thastus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Hogan Thastus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Keiran Thastus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Sophia Thastus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Vecky Thastus", rank: "Star Captain", affiliation: "Clan Jade Falcon" }
+      - { name: "Colleen Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Daniel Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Fedda Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Izabeth Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Jo Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Josefina Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Kelly Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Mon Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Quallun Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Siran Thastus", rank: "Star Commander", affiliation: "Clan Sea Fox" }
+      - { name: "Teff Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Van Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Yvette Thastus", rank: "Star Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Dimon Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Genders Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Heston Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Nanci Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Sardon Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Yetta Thastus", rank: "Point Commander", affiliation: "Clan Jade Falcon" }
+      - { name: "Aisa Thastus", rank: "Star Colonel", affiliation: "Jade Falcons" }
+    sources:
+      - { title: "The Anvil" }
+      - { title: "Battle of Coventry" }
+      - { title: "Elements of Treason: Honor" }
+      - { title: "Explorer Corps", abbrev: "EC" }
+      - { title: "Field Manual: 3145", abbrev: "FM:3145" }
+      - { title: "Field Manual: Crusader Clans", abbrev: "FM:CC" }
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "ilClan", abbrev: "IC" }
+      - { title: "Jade Falcon Sourcebook", abbrev: "JFS" }
+      - { title: "Legacy" }
+      - { title: "The Lions of Prezno" }
+      - { title: "Masters and Minions: The StarCorps Dossiers", abbrev: "M&M" }
+      - { title: "MechWarrior 4: Mercenaries" }
+      - { title: "MechWarrior Pilot Deck: Warriors of Kerensky I" }
+      - { title: "Operation Audacity" }
+      - { title: "Recognition Guide: ilClan, vol. 5" }
+    history: ~

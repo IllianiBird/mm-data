@@ -1,0 +1,44 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# One Bloodname and the Houses descending from it. Mechanical fields decide whether a
+# warrior may hold the name; the rest is descriptive.
+clan: CCC
+name: "Hobbes"
+houses:
+  - founder: "Pierre-Jean"
+    founderFullName: "Pierre-Jean Hobbes"
+    founderAffiliation: "Clan Cloud Cobra"
+    phenotype: "PROTOMEK"
+    exclusive: true
+    limited: true
+    limitedSince: 3085
+    postReaving: [CCC]
+    summary: "The Hobbes Bloodname was a Clan Cloud Cobra founding legacy."
+    notableHolders:
+      - { name: "Yishai Hobbes", rank: "Galaxy Commander", affiliation: "Clan Cloud Cobra" }
+      - { name: "Stephanie Hobbes", rank: "Star Admiral", affiliation: "Clan Cloud Cobra" }
+      - { name: "Keith Hobbes", rank: "Star Colonel", affiliation: "Clan Cloud Cobra" }
+      - { name: "Reginald Hobbes", rank: "Star Colonel", affiliation: "Clan Cloud Cobra" }
+      - { name: "Brittany Hobbes", rank: "Star Commodore", affiliation: "Clan Cloud Cobra" }
+      - { name: "Khalil Hobbes", rank: "Star Commodore", affiliation: "Clan Cloud Cobra" }
+    sources:
+      - { title: "Field Manual: Updates", abbrev: "FM:U" }
+      - { title: "Field Manual: Warden Clans", abbrev: "FM:WC" }
+      - { title: "Historical: Operation Klondike", abbrev: "His:OK" }
+      - { title: "The Wars of Reaving", abbrev: "WoR" }
+    history: ~

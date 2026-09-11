@@ -20,11 +20,11 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
 
+    <!-- Matches the predicate vocabulary implemented in megamek RulesetNode.matches(). -->
     <xs:attributeGroup name="predicateAttributeGroup">
         <xs:attribute name="ifUnitType" type="xs:string" />
         <xs:attribute name="ifWeightClass" type="xs:string" />
         <xs:attribute name="ifRating" type="xs:string" />
-        <xs:attribute name="ifFormation" type="xs:string" />
         <xs:attribute name="ifRole" type="xs:string" />
         <xs:attribute name="ifMotive" type="xs:string" />
         <xs:attribute name="ifAugmented" type="xs:boolean" />
@@ -34,6 +34,7 @@
         <xs:attribute name="ifFaction" type="xs:string" />
         <xs:attribute name="ifFlags" type="xs:string" />
         <xs:attribute name="ifIndex" type="xs:string" />
+        <xs:attribute name="ifEschelon" type="xs:string" />
     </xs:attributeGroup>
 
     <xs:attributeGroup name="assertionAttributeGroup">
@@ -73,6 +74,7 @@
                 <xs:element ref="defaults" />
                 <xs:element minOccurs="0" maxOccurs="1" ref="customRanks" />
                 <xs:element minOccurs="0" maxOccurs="1" ref="toc" />
+                <xs:element minOccurs="0" maxOccurs="1" ref="formationNaming" />
                 <xs:element minOccurs="0" maxOccurs="unbounded" ref="force" />
             </xs:sequence>
             <xs:attribute name="faction" type="xs:string" />
@@ -145,6 +147,50 @@
         </xs:complexType>
     </xs:element>
 
+    <!-- How this faction designates formations relative to their siblings, read by
+         megamek FormationNamingConvention. The <name> elements on <force> supply the flavour part of a
+         name ("Battle Lance", "Assault Cluster", "IV-alpha"); this supplies the positional part, which
+         differs between the Inner Sphere, the Clans and ComStar. Authored in the four root rulesets
+         (IS, CLAN, CS, Periphery) and inherited per echelon via the parent chain, so a faction can
+         override one echelon without restating the rest. -->
+    <xs:element name="formationNaming">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="tier" type="namingTierType" minOccurs="0"
+                            maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="namingTierType">
+        <xs:attribute name="echelon" type="eschelonDefinition" use="required" />
+        <xs:attribute name="designator" type="designatorStyleType" use="required" />
+        <!-- "parent" prefixes the parent formation's designator, which is what keeps names unique
+             once a designator sequence restarts under each parent. Omitted means unqualified. -->
+        <xs:attribute name="qualifyWith">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="parent" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <!-- Matches megamek FormationNamingConvention.DesignatorStyle. "alphabet" is the only value that
+         defers to the consumer's user-facing naming preference; the rest are fixed by the faction's
+         own tradition. -->
+    <xs:simpleType name="designatorStyleType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="engine" />
+            <xs:enumeration value="alphabet" />
+            <xs:enumeration value="ordinal" />
+            <xs:enumeration value="numeric_ordinal" />
+            <xs:enumeration value="roman" />
+            <xs:enumeration value="greek" />
+            <xs:enumeration value="number" />
+        </xs:restriction>
+    </xs:simpleType>
+
     <xs:element name="customRanks">
         <xs:complexType>
             <xs:sequence>
@@ -160,11 +206,14 @@
         </xs:complexType>
     </xs:element>
 
+    <!-- The loader (megamek Ruleset/ForceNode) reads force children by tag name with no ordering
+         requirement, so the content model is an unordered repeated choice rather than a sequence.
+         The shipped rulesets interleave weightTarget/co/rule elements freely, and a force is not
+         required to declare a co. -->
     <xs:element name="force">
         <xs:complexType>
-            <xs:sequence>
-                <xs:element name="name" minOccurs="0"
-                            maxOccurs="unbounded">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="name">
                     <xs:complexType>
                         <xs:simpleContent>
                             <xs:extension base="xs:string">
@@ -174,8 +223,7 @@
                         </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="weightTarget" minOccurs="0"
-                            maxOccurs="unbounded">
+                <xs:element name="weightTarget">
                     <xs:complexType>
                         <xs:simpleContent>
                             <xs:extension base="xs:string">
@@ -187,20 +235,13 @@
                         </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="co" type="commanderType"
-                            maxOccurs="unbounded" />
-                <xs:element name="xo" type="commanderType"
-                            minOccurs="0" maxOccurs="unbounded" />
-                <xs:group ref="ruleGroup"
-                          minOccurs="0" maxOccurs="unbounded" />
-                <xs:element name="ruleGroup" type="ruleGroupType"
-                            minOccurs="0" maxOccurs="unbounded" />
-                <xs:element name="subforces" type="subforcesType"
-                            minOccurs="0" maxOccurs="unbounded" />
-                <xs:element name="attachedForces"
-                            type="subforcesType"
-                            minOccurs="0" maxOccurs="unbounded" />
-            </xs:sequence>
+                <xs:element name="co" type="commanderType" />
+                <xs:element name="xo" type="commanderType" />
+                <xs:group ref="ruleGroup" />
+                <xs:element name="ruleGroup" type="ruleGroupType" />
+                <xs:element name="subforces" type="subforcesType" />
+                <xs:element name="attachedForces" type="subforcesType" />
+            </xs:choice>
 
             <xs:attribute name="echelon" type="xs:string" use="required" />
             <xs:attribute name="eschName" type="xs:string" />
@@ -218,7 +259,6 @@
     <xs:complexType name="tocOptionType">
         <xs:simpleContent>
             <xs:extension base="xs:string">
-                <xs:attribute name="ifEschelon" type="xs:string" />
                 <xs:attributeGroup ref="predicateAttributeGroup" />
             </xs:extension>
         </xs:simpleContent>
@@ -286,23 +326,33 @@
                 <xs:attributeGroup ref="assertionAttributeGroup" />
                 <xs:attribute name="num" type="xs:integer" default="1" />
                 <xs:attribute name="generate" type="generateType" />
+                <xs:attribute name="eschName" type="xs:string" />
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
 
+    <!-- The generation-rule values the engine implements (ForceDescriptor); an empty value clears an
+         inherited rule. -->
     <xs:simpleType name="generateType">
         <xs:restriction base="xs:string">
             <xs:enumeration value="model" />
             <xs:enumeration value="chassis" />
             <xs:enumeration value="group" />
-            <xs:enumeration value="unit" />
             <xs:enumeration value="" />
         </xs:restriction>
     </xs:simpleType>
 
+    <!-- An echelon number or %CONSTANT%, optionally suffixed +, -, or ^.
+
+         Derived from xs:token rather than xs:string with a whiteSpace facet: token collapses
+         whitespace as a built-in property of the type, which validators apply before matching the
+         pattern, whereas the facet on xs:string was not being applied to element content and left
+         every indented <subforce>%CONSTANT%</subforce> failing the pattern. The reader trims the
+         value in any case (ValueNode.loadFromXml), so this makes the schema agree with what the
+         ruleset actually accepts. -->
     <xs:simpleType name="eschelonDefinition">
-        <xs:restriction base="xs:string">
-            <xs:pattern value="([0-9]+|%[A-Z_]+%)[+-^]?" />
+        <xs:restriction base="xs:token">
+            <xs:pattern value="([0-9]+|%[A-Z_]+%)[+\-^]?" />
         </xs:restriction>
     </xs:simpleType>
 
