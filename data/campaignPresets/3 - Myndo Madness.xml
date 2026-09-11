@@ -2553,6 +2553,51 @@
             <legendaryLvl>7</legendaryLvl>
             <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
         </skillType>
+        <skillType>
+            <name>Tracking/Any</name>
+            <target>8</target>
+            <isCountUp>false</isCountUp>
+            <subType>UTILITY</subType>
+            <firstAttribute>INTELLIGENCE</firstAttribute>
+            <secondAttribute>WILLPOWER</secondAttribute>
+            <greenLvl>1</greenLvl>
+            <regLvl>3</regLvl>
+            <vetLvl>4</vetLvl>
+            <eliteLvl>5</eliteLvl>
+            <heroicLvl>6</heroicLvl>
+            <legendaryLvl>7</legendaryLvl>
+            <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
+        </skillType>
+        <skillType>
+            <name>Training</name>
+            <target>9</target>
+            <isCountUp>false</isCountUp>
+            <subType>UTILITY_COMMAND</subType>
+            <firstAttribute>INTELLIGENCE</firstAttribute>
+            <secondAttribute>CHARISMA</secondAttribute>
+            <greenLvl>1</greenLvl>
+            <regLvl>3</regLvl>
+            <vetLvl>4</vetLvl>
+            <eliteLvl>5</eliteLvl>
+            <heroicLvl>6</heroicLvl>
+            <legendaryLvl>7</legendaryLvl>
+            <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
+        </skillType>
+        <skillType>
+            <name>Zero-G Operations</name>
+            <target>7</target>
+            <isCountUp>false</isCountUp>
+            <subType>UTILITY</subType>
+            <firstAttribute>REFLEXES</firstAttribute>
+            <secondAttribute>NO_ATTRIBUTE</secondAttribute>
+            <greenLvl>1</greenLvl>
+            <regLvl>3</regLvl>
+            <vetLvl>4</vetLvl>
+            <eliteLvl>5</eliteLvl>
+            <heroicLvl>6</heroicLvl>
+            <legendaryLvl>7</legendaryLvl>
+            <costs>20,10,20,30,40,50,60,70,80,90,100</costs>
+        </skillType>
     </skillTypes>
     <specialAbilities>
         <ability>
