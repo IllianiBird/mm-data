@@ -17,7 +17,7 @@
 
 {
 "name": "Prisoner Liberation",
-"stratConScenarioType": "NONE",
+"stratConScenarioType": "PRISONER_LIBERATION",
 "shortBriefing": "Escort freed prisoners to friendly lines before the enemy recaptures them.",
 "detailedBriefing": "We have broken open a holding camp and freed our people, but they are not safe yet. They are lightly equipped, exhausted, and a long way from friendly lines and the enemy is already moving to run them down and drag them back.",
 "isHostileFacility": false,
@@ -42,7 +42,7 @@
 "scenarioForces": {
 "Freed Prisoners": {
 "forceAlignment": 1,
-"generationMethod": 3,
+"generationMethod": 6,
 "forceMultiplier": 0.4,
 "deploymentZones": [10],
 "destinationZone": 5,
@@ -50,7 +50,7 @@
 "allowedUnitType": 3,
 "canReinforceLinked": false,
 "contributesToBV": true,
-"contributesToUnitCount": false,
+"contributesToUnitCount": true,
 "forceName": "Freed Prisoners",
 "syncedForceName": null,
 "syncDeploymentType": "None",
@@ -58,7 +58,7 @@
 "arrivalTurn": 0,
 "maxWeightClass": 2,
 "minWeightClass": 0,
-"contributesToMapSize": false,
+"contributesToMapSize": true,
 "actualDeploymentZone": -1,
 "fixedUnitCount": 12,
 "generationOrder": 2,
@@ -70,7 +70,6 @@
 "subjectToRandomRemoval": true,
 "fixedMul": null,
 "forceRoleStrings": [
-"CIVILIAN"
 ]
 },
 "Player": {

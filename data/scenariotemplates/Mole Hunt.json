@@ -17,14 +17,14 @@
 
 {
 "name": "Mole Hunt",
-"stratConScenarioType": "NONE",
+"stratConScenarioType": "MOLE_HUNT",
 "shortBriefing": "Cut through the bodyguard and eliminate the mole.",
 "detailedBriefing": "We have finally pinned down the mole who has been bleeding our operations dry. They are no soldier but they are ringed by a hardened bodyguard detail that will not let you anywhere near them without a fight.",
 "isHostileFacility": false,
 "isAlliedFacility": false,
 "isSuitedForAmbushes": false,
 "isSuitedForBungledPatrols": false,
-"battlefieldControl": "VICTOR",
+"battlefieldControl": "ENEMY",
 "mapParameters": {
 "baseWidth": 0,
 "baseHeight": 0,
@@ -108,34 +108,33 @@
 "forceAlignment": 2,
 "generationMethod": 3,
 "forceMultiplier": 1.0,
-"deploymentZones": [10],
+"deploymentZones": [],
 "destinationZone": 5,
 "retreatThreshold": 0,
 "allowedUnitType": 3,
-"canReinforceLinked": false,
+"canReinforceLinked" : false,
 "contributesToBV": false,
 "contributesToUnitCount": false,
 "forceName": "Mole",
-"syncedForceName": null,
-"syncDeploymentType": "None",
+"syncedForceName": "Player",
+"syncDeploymentType" : "OppositeEdge",
 "syncRetreatThreshold": false,
 "arrivalTurn": 0,
 "maxWeightClass": 4,
 "minWeightClass": 0,
-"contributesToMapSize": true,
+"contributesToMapSize" : true,
 "actualDeploymentZone": -1,
 "fixedUnitCount": 1,
 "generationOrder": 3,
 "allowAeroBombs": false,
-"startingAltitude": 0,
+"startingAltitude" : 0,
 "useArtillery": false,
 "deployOffBoard": false,
-"objectiveLinkedForces": [],
-"subjectToRandomRemoval": true,
+"objectiveLinkedForces": [
+],
+"subjectToRandomRemoval": false,
 "fixedMul": null,
-"forceRoleStrings": [
-"CIVILIAN"
-]
+"forceRoleStrings": []
 }
 },
 "scenarioObjectives": [ {
