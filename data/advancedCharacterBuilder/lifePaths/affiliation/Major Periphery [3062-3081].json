@@ -1,0 +1,110 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+"id": "e6ea7e5d-5112-4cc8-8236-25ec2e28b5f6",
+"version": {
+"major": 0,
+"minor": 51,
+"patch": 1,
+"revision": 0,
+"extra": ""
+},
+"xpCost": -50,
+"source": "A Time of War",
+"name" : "Major Periphery [3062-3081]",
+"flavorText": "PLACEHOLDER",
+"age": 0,
+"xpDiscount": 0,
+"minimumYear": 3062,
+"maximumYear" : 3081,
+"randomWeight": 1.0,
+"lifeStages": [
+"AFFILIATION"
+],
+"categories": [
+"GENERAL_INNER_SPHERE"
+],
+"isPlayerRestricted" : false,
+"requirementsFactions": {
+"0": [
+"CIR"
+],
+"1": [
+"MOC"
+],
+"2": [
+"MH"
+],
+"3": [
+"OA"
+],
+"4": [
+"TC"
+],
+"5": [
+"FR"
+],
+"6": [
+"CDP"
+]
+},
+"requirementsSystems": {},
+"requirementsLifePath": {},
+"requirementsCategories": {},
+"requirementsAttributes": {},
+"requirementsEdge": {},
+"requirementsFlexibleAttribute": {},
+"requirementsTraits": {},
+"requirementsSkills": {},
+"requirementsMetaSkills": {},
+"requirementsAbilities": {},
+"exclusionsFactions": {},
+"exclusionsSystems": {},
+"exclusionsLifePath": {},
+"exclusionsCategories": {},
+"exclusionsAttributes": {},
+"exclusionsEdge": {},
+"exclusionsFlexibleAttribute": {},
+"exclusionsTraits": {},
+"exclusionsSkills": {},
+"exclusionsMetaSkills": {},
+"exclusionsAbilities": {},
+"fixedXPAttributes": {},
+"fixedXPEdge": {},
+"fixedXPFlexibleAttribute": {},
+"fixedXPTraits": {
+"0": {
+"ORIGIN_EQUIPPED": -50
+}
+},
+"fixedXPSkills": {},
+"fixedXPMetaSkills": {},
+"fixedXPNaturalAptitudes": {},
+"fixedXPNaturalAptitudesMetaSkills": {},
+"fixedXPAbilities": {},
+"flexibleXPAttributes": {},
+"flexibleXPEdge": {},
+"flexibleXPFlexibleAttribute": {},
+"flexibleXPTraits": {},
+"flexibleXPSkills": {},
+"flexibleXPMetaSkills": {},
+"flexibleXPNaturalAptitudes": {},
+"flexibleXPNaturalAptitudesMetaSkills": {},
+"flexibleXPAbilities": {},
+"flexibleXPPickCounts": {}
+}

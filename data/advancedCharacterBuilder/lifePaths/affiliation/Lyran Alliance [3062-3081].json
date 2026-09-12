@@ -1,0 +1,113 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+"id": "f9f086ca-e85a-4c47-8071-dde5af3b97d0",
+"version": {
+"major": 0,
+"minor": 51,
+"patch": 1,
+"revision": 0,
+"extra": ""
+},
+"xpCost": 90,
+"source": "A Time of War",
+"name" : "Lyran Alliance [3062-3081]",
+"flavorText": "PLACEHOLDER",
+"age": 0,
+"xpDiscount": 0,
+"minimumYear": 3062,
+"maximumYear" : 3081,
+"randomWeight": 1.0,
+"lifeStages": [
+"AFFILIATION"
+],
+"categories": [
+"GENERAL_INNER_SPHERE"
+],
+"isPlayerRestricted" : false,
+"requirementsFactions": {
+"0": [
+"LA"
+]
+},
+"requirementsSystems": {},
+"requirementsLifePath": {},
+"requirementsCategories": {},
+"requirementsAttributes": {},
+"requirementsEdge": {},
+"requirementsFlexibleAttribute": {},
+"requirementsTraits": {},
+"requirementsSkills": {},
+"requirementsMetaSkills": {},
+"requirementsAbilities": {},
+"exclusionsFactions": {},
+"exclusionsSystems": {},
+"exclusionsLifePath": {},
+"exclusionsCategories": {},
+"exclusionsAttributes": {},
+"exclusionsEdge": {},
+"exclusionsFlexibleAttribute": {},
+"exclusionsTraits": {},
+"exclusionsSkills": {},
+"exclusionsMetaSkills": {},
+"exclusionsAbilities": {},
+"fixedXPAttributes": {
+"0": {
+"WILLPOWER": -50
+}
+},
+"fixedXPEdge": {
+"0": -50
+},
+"fixedXPFlexibleAttribute": {},
+"fixedXPTraits": {
+"0": {
+"EXTRA_INCOME": 50,
+"ORIGIN_EQUIPPED": 100,
+"WEALTH": 100
+}
+},
+"fixedXPSkills": {
+"0": {
+"Protocols/Any": 15,
+"Negotiation": 15,
+"Appraisal": 10
+}
+},
+"fixedXPMetaSkills": {},
+"fixedXPNaturalAptitudes": {},
+"fixedXPNaturalAptitudesMetaSkills": {},
+"fixedXPAbilities": {},
+"flexibleXPAttributes": {},
+"flexibleXPEdge": {},
+"flexibleXPFlexibleAttribute": {},
+"flexibleXPTraits": {},
+"flexibleXPSkills": {},
+"flexibleXPMetaSkills": {},
+"flexibleXPNaturalAptitudes": {},
+"flexibleXPNaturalAptitudesMetaSkills": {},
+"flexibleXPAbilities": {
+"0": {
+"atow_combat_paralysis": -100,
+"flaw_glass_jaw": -100
+}
+},
+"flexibleXPPickCounts": {
+"0": 1
+}
+}
