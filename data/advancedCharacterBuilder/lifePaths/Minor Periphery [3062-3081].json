@@ -1,0 +1,118 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+"id": "795c5bc6-c78c-426e-85a7-d3fd8db7f4d3",
+"version": {
+"major": 0,
+"minor": 51,
+"patch": 1,
+"revision": 0,
+"extra": ""
+},
+"xpCost": -115,
+"source": "A Time of War",
+"name" : "Minor Periphery [3062-3081]",
+"flavorText": "",
+"age": 0,
+"xpDiscount": 0,
+"minimumYear": 3062,
+"maximumYear" : 3081,
+"randomWeight": 1.0,
+"lifeStages": [
+"AFFILIATION"
+],
+"categories": [
+"SPECIAL_MINOR_PERIPHERY",
+"GENERAL_INNER_SPHERE"
+],
+"isPlayerRestricted": false,
+"requirementsFactions": {
+"0": [
+"Periphery"
+]
+},
+"requirementsSystems": {},
+"requirementsLifePath": {},
+"requirementsCategories": {},
+"requirementsAttributes": {},
+"requirementsEdge": {},
+"requirementsFlexibleAttribute": {},
+"requirementsTraits": {},
+"requirementsSkills": {},
+"requirementsMetaSkills": {},
+"requirementsAbilities": {},
+"exclusionsFactions": {
+"0": [
+"MOC",
+"TD",
+"OA",
+"HL",
+"NC",
+"MH",
+"FR",
+"JF",
+"CIR",
+"CDP",
+"UC",
+"TC"
+]
+},
+"exclusionsSystems": {
+"0": [
+"Astrokaszy",
+"Antallos (Port Krin)"
+]
+},
+"exclusionsLifePath": {},
+"exclusionsCategories": {},
+"exclusionsAttributes": {},
+"exclusionsEdge": {},
+"exclusionsFlexibleAttribute": {},
+"exclusionsTraits": {},
+"exclusionsSkills": {},
+"exclusionsMetaSkills": {},
+"exclusionsAbilities": {},
+"fixedXPAttributes": {},
+"fixedXPEdge": {},
+"fixedXPFlexibleAttribute": {},
+"fixedXPTraits": {
+"0": {
+"ORIGIN_EQUIPPED": -150
+}
+},
+"fixedXPSkills": {
+"0": {
+"Perception": 15,
+"Survival/Any": 20
+}
+},
+"fixedXPMetaSkills": {},
+"fixedXPNaturalAptitudes": {},
+"fixedXPNaturalAptitudesMetaSkills": {},
+"fixedXPAbilities": {},
+"flexibleXPAttributes": {},
+"flexibleXPEdge": {},
+"flexibleXPFlexibleAttribute": {},
+"flexibleXPTraits": {},
+"flexibleXPSkills": {},
+"flexibleXPMetaSkills": {},
+"flexibleXPNaturalAptitudes": {},
+"flexibleXPNaturalAptitudesMetaSkills": {},
+"flexibleXPAbilities": {},
+"flexibleXPPickCounts": {}
+}
