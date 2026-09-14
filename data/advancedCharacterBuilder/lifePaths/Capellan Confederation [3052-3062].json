@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "4e5f75a4-8348-413b-bde2-6fa8b5cc43d6",
+    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,35 +24,29 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 190,
-    "source" : "A Time of War",
-    "name" : "Mica Majority [3062-3081]",
+    "xpCost" : 50,
+    "source" : "Era Report 3062",
+    "name" : "Capellan Confederation [3052-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3052,
+    "maximumYear" : 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE",
-        "SPECIAL_NO_NOBLES",
-        "SPECIAL_NO_TITLES"
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "MM"
+            "CC"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : {
-        "0" : [
-            "795c5bc6-c78c-426e-85a7-d3fd8db7f4d3"
-        ]
-    },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -74,26 +68,17 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "REFLEXES" : 100,
-            "BODY" : 100
+            "WILLPOWER" : 75
         }
     },
-    "fixedXPEdge" : {
-        "0" : -100
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "ORIGIN_OWNED_VEHICLE" : -25,
-            "WEALTH" : -100
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Negotiation" : 10,
-            "Career/Any" : 10,
-            "Survival/Any" : 10,
-            "Language/Any" : 10
+            "Protocols/Any" : 15,
+            "Perception" : 15,
+            "Language/Any" : 20
         }
     },
     "fixedXPMetaSkills" : { },
@@ -101,41 +86,18 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "atow_toughness" : 100
+            "compulsion_mild_paranoia" : -150,
+            "exceptional_attribute_edge" : 75
         }
     },
-    "flexibleXPAttributes" : {
-        "0" : {
-            "INTELLIGENCE" : 25,
-            "DEXTERITY" : 25,
-            "REFLEXES" : 25,
-            "WILLPOWER" : 25,
-            "STRENGTH" : 25,
-            "BODY" : 25,
-            "CHARISMA" : 25
-        }
-    },
-    "flexibleXPEdge" : {
-        "0" : 25
-    },
+    "flexibleXPAttributes" : { },
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : {
-        "0" : {
-            "PROPERTY" : 25,
-            "EXTRA_INCOME" : 25,
-            "FAME" : 25,
-            "CONNECTIONS" : 25,
-            "ORIGIN_OWNED_VEHICLE" : 25,
-            "ORIGIN_RANK" : 25,
-            "WEALTH" : 25
-        }
-    },
+    "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 3
-    }
+    "flexibleXPPickCounts" : { }
 }
