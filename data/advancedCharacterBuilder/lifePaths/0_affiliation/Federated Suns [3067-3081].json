@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "dcac9016-cc83-4652-b242-6ebdf1fd8fdb",
+    "id" : "ad8e309c-5286-4c40-8306-71c36eeda5a2",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 90,
+    "xpCost" : 110,
     "source" : "A Time of War",
-    "name" : "Federated Commonwealth - Davion Heritage [3052-3062]",
+    "name" : "Federated Suns [3067-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "minimumYear" : 3067,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
@@ -49,9 +49,6 @@
         ],
         "2" : [
             "WOB"
-        ],
-        "3" : [
-            "FC"
         ]
     },
     "requirementsSystems" : { },
@@ -85,18 +82,13 @@
     "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 25,
-            "Language/Any" : 15
+            "Protocols/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_parent_faction_dislike" : -50
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

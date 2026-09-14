@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "d79b61b0-872c-48c4-ae2d-a0600afab9c1",
+    "id" : "dcac9016-cc83-4652-b242-6ebdf1fd8fdb",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -10,
+    "xpCost" : 90,
     "source" : "A Time of War",
-    "name" : "Lyran Alliance [3062-3081]",
+    "name" : "Federated Commonwealth - Davion Heritage [3052-3067]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3052,
+    "maximumYear" : 3067,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
@@ -42,19 +42,26 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "LA"
+            "FS"
         ],
         "1" : [
             "CS"
         ],
         "2" : [
             "WOB"
+        ],
+        "3" : [
+            "FC"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : { },
     "requirementsCategories" : { },
-    "requirementsAttributes" : { },
+    "requirementsAttributes" : {
+        "0" : {
+            "INTELLIGENCE" : 4
+        }
+    },
     "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : { },
@@ -72,46 +79,38 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "WILLPOWER" : -50
-        }
-    },
-    "fixedXPEdge" : {
-        "0" : -50
-    },
+    "fixedXPAttributes" : { },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "EXTRA_INCOME" : 50,
-            "WEALTH" : 100
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Negotiation" : 15,
-            "Appraisal" : 10
+            "Protocols/Any" : 25,
+            "Language/Any" : 15
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_parent_faction_dislike" : -50
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : { },
-    "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : {
+    "flexibleXPNaturalAptitudes" : {
         "0" : {
-            "atow_combat_paralysis" : -100,
-            "flaw_glass_jaw" : -100
+            "Protocols/Any" : 100,
+            "Strategy" : 100
         }
     },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
     "flexibleXPPickCounts" : {
         "0" : 1
     }

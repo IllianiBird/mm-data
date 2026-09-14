@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "ad8e309c-5286-4c40-8306-71c36eeda5a2",
+    "id" : "dbf6e491-0424-4f6f-a125-72475258c949",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,41 +24,34 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 110,
+    "xpCost" : 75,
     "source" : "A Time of War",
-    "name" : "Federated Suns [3062-3081]",
+    "name" : "Rasalhague Expatriate - Lyran [3062-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
-    "randomWeight" : 1.0,
+    "minimumYear" : 0,
+    "maximumYear" : 9999,
+    "randomWeight" : 0.005,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : {
+    "requirementsFactions" : { },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
         "0" : [
-            "FS"
+            "d79b61b0-872c-48c4-ae2d-a0600afab9c1"
         ],
         "1" : [
-            "CS"
-        ],
-        "2" : [
-            "WOB"
+            "832e5d21-1a6d-4209-a243-187b2e74ff4c"
         ]
     },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : { },
     "requirementsCategories" : { },
-    "requirementsAttributes" : {
-        "0" : {
-            "INTELLIGENCE" : 4
-        }
-    },
+    "requirementsAttributes" : { },
     "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : { },
@@ -76,34 +69,44 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : { },
-    "fixedXPEdge" : { },
+    "fixedXPAttributes" : {
+        "0" : {
+            "WILLPOWER" : 125
+        }
+    },
+    "fixedXPEdge" : {
+        "0" : 100
+    },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "WEALTH" : -50
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10
+            "Martial Arts" : 10,
+            "Protocols/Any" : 10,
+            "Small Arms" : 15,
+            "Language/Any" : 15
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_clan_hate" : -150
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : {
-        "0" : {
-            "Protocols/Any" : 100,
-            "Strategy" : 100
-        }
-    },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPPickCounts" : { }
 }

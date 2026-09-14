@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "dbf6e491-0424-4f6f-a125-72475258c949",
+    "id" : "d79b61b0-872c-48c4-ae2d-a0600afab9c1",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,29 +24,35 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
+    "xpCost" : -10,
     "source" : "A Time of War",
-    "name" : "Clan War Expatriate [3062-3081]",
+    "name" : "Lyran Alliance [3067-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 0,
-    "maximumYear" : 9999,
+    "minimumYear" : 3067,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : { },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : {
+    "requirementsFactions" : {
         "0" : [
-            "bc8dd3f9-f7df-4db2-a4e7-89ef852cc768"
+            "LA"
+        ],
+        "1" : [
+            "CS"
+        ],
+        "2" : [
+            "WOB"
         ]
     },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -68,34 +74,30 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 125
+            "WILLPOWER" : -50
         }
     },
     "fixedXPEdge" : {
-        "0" : 100
+        "0" : -50
     },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "WEALTH" : -50
+            "EXTRA_INCOME" : 50,
+            "WEALTH" : 100
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 10,
-            "Protocols/Any" : 10,
-            "Small Arms" : 15,
-            "Language/Any" : 15
+            "Protocols/Any" : 15,
+            "Negotiation" : 15,
+            "Appraisal" : 10
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_clan_hate" : -150
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
@@ -104,6 +106,13 @@
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPAbilities" : {
+        "0" : {
+            "atow_combat_paralysis" : -100,
+            "flaw_glass_jaw" : -100
+        }
+    },
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
 }

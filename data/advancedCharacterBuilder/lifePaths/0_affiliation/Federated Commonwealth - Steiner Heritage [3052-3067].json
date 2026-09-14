@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "8cb1b1be-452a-4671-9507-d6f8a082cbff",
+    "id" : "832e5d21-1a6d-4209-a243-187b2e74ff4c",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,32 +24,38 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 60,
+    "xpCost" : -35,
     "source" : "A Time of War",
-    "name" : "Coventry Province [3062-3081]",
+    "name" : "Federated Commonwealth - Steiner Heritage [3052-3067]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 0,
-    "maximumYear" : 9999,
+    "minimumYear" : 3052,
+    "maximumYear" : 3067,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : { },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : {
+    "requirementsFactions" : {
         "0" : [
-            "d79b61b0-872c-48c4-ae2d-a0600afab9c1"
+            "LA"
         ],
         "1" : [
-            "832e5d21-1a6d-4209-a243-187b2e74ff4c"
+            "CS"
+        ],
+        "2" : [
+            "WOB"
+        ],
+        "3" : [
+            "FC"
         ]
     },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -71,21 +77,25 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 100
+            "WILLPOWER" : -50
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : -50
+    },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "WEALTH" : 25
+            "EXTRA_INCOME" : 50,
+            "WEALTH" : 100
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10,
-            "Administration" : 10,
-            "Negotiation" : 10
+            "Protocols/Any" : 30,
+            "Negotiation" : 15,
+            "Appraisal" : 10,
+            "Language/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -93,7 +103,7 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_clan_hate" : -95
+            "compulsion_parent_faction_dislike" : -50
         }
     },
     "flexibleXPAttributes" : { },
@@ -104,6 +114,13 @@
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPAbilities" : {
+        "0" : {
+            "atow_combat_paralysis" : -100,
+            "flaw_glass_jaw" : -100
+        }
+    },
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
 }

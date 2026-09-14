@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "8cb1b1be-452a-4671-9507-d6f8a082cbff",
+    "id" : "91914b2a-75b8-4a03-afd1-6b6a7726c36d",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -25,13 +25,13 @@
         "extra" : ""
     },
     "xpCost" : 60,
-    "source" : "A Time of War",
-    "name" : "Coventry Province [3062-3081]",
+    "source" : "Era Report 3062",
+    "name" : "Sarna March [3052-3057]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 0,
-    "maximumYear" : 9999,
+    "minimumYear" : 3052,
+    "maximumYear" : 3057,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -44,9 +44,6 @@
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "d79b61b0-872c-48c4-ae2d-a0600afab9c1"
-        ],
-        "1" : [
             "832e5d21-1a6d-4209-a243-187b2e74ff4c"
         ]
     },
@@ -71,31 +68,30 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 100
+            "INTELLIGENCE" : 50
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "WEALTH" : 25
+            "FAME" : -25
         }
     },
     "fixedXPSkills" : {
         "0" : {
             "Protocols/Any" : 10,
-            "Administration" : 10,
-            "Negotiation" : 10
+            "Language/Any" : 15
         }
     },
-    "fixedXPMetaSkills" : { },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_ART" : 10
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_clan_hate" : -95
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

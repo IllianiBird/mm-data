@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "832e5d21-1a6d-4209-a243-187b2e74ff4c",
+    "id" : "97d4c6de-9eea-48ca-a13b-15ad63b6c96e",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,38 +24,29 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -35,
+    "xpCost" : 75,
     "source" : "A Time of War",
-    "name" : "Federated Commonwealth - Steiner Heritage [3052-3062]",
+    "name" : "Rasalhague Expatriate - Suns [3062-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3062,
-    "randomWeight" : 1.0,
+    "minimumYear" : 0,
+    "maximumYear" : 9999,
+    "randomWeight" : 0.005,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : {
+    "requirementsFactions" : { },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
         "0" : [
-            "LA"
-        ],
-        "1" : [
-            "CS"
-        ],
-        "2" : [
-            "WOB"
-        ],
-        "3" : [
-            "FC"
+            "ad8e309c-5286-4c40-8306-71c36eeda5a2"
         ]
     },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -77,25 +68,24 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : -50
+            "WILLPOWER" : 125
         }
     },
     "fixedXPEdge" : {
-        "0" : -50
+        "0" : 100
     },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "EXTRA_INCOME" : 50,
-            "WEALTH" : 100
+            "WEALTH" : -50
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 30,
-            "Negotiation" : 15,
-            "Appraisal" : 10,
-            "Language/Any" : 10
+            "Martial Arts" : 10,
+            "Protocols/Any" : 10,
+            "Small Arms" : 15,
+            "Language/Any" : 15
         }
     },
     "fixedXPMetaSkills" : { },
@@ -103,7 +93,7 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_parent_faction_dislike" : -50
+            "compulsion_clan_hate" : -150
         }
     },
     "flexibleXPAttributes" : { },
@@ -114,13 +104,6 @@
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : {
-        "0" : {
-            "atow_combat_paralysis" : -100,
-            "flaw_glass_jaw" : -100
-        }
-    },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
 }
