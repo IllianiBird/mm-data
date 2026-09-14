@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "543510e8-e0ab-4198-a490-574326cec028",
+    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,29 +24,32 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 110,
-    "source" : "A Time of War",
-    "name" : "New Samarkand (Galedon) District [3062-3081]",
+    "xpCost" : 50,
+    "source" : "Era Report 3062",
+    "name" : "Capellan Confederation [3052-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3052,
+    "maximumYear" : 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : { },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : {
+    "requirementsFactions" : {
         "0" : [
-            "9bf5a8de-bb2d-46a0-998d-bcdc826c19f3"
+            "CC"
+        ],
+        "1" : [
+            "SIC"
         ]
     },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -68,24 +71,17 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 100,
-            "CHARISMA" : -50
+            "WILLPOWER" : 75
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "CONNECTIONS" : 50
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10,
-            "Negotiation" : 5,
-            "Streetwise/Any" : 10,
-            "Melee Weapons" : 15,
-            "Interest/History" : 10
+            "Protocols/Any" : 15,
+            "Perception" : 15,
+            "Language/Any" : 20
         }
     },
     "fixedXPMetaSkills" : { },
@@ -93,25 +89,18 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_other_faction_hate" : -50
+            "compulsion_mild_paranoia" : -150,
+            "exceptional_attribute_edge" : 75
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : {
-        "0" : {
-            "Thrown Weapons" : 10,
-            "Archery" : 10,
-            "Melee Weapons" : 10
-        }
-    },
+    "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPPickCounts" : { }
 }
