@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "e0ba432d-c9fa-4660-a723-1b2a79ea28d6",
+    "id" : "1e115d5c-7595-4421-9386-ab6eb46a4240",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 30,
+    "xpCost" : 45,
     "source" : "A Time of War",
-    "name" : "ComStar Template",
+    "name" : "ComStar Service [3052-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3052,
+    "maximumYear" : 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUPPLEMENTAL"
@@ -40,7 +40,11 @@
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : { },
+    "requirementsFactions" : {
+        "0" : [
+            "CS"
+        ]
+    },
     "requirementsSystems" : { },
     "requirementsLifePath" : { },
     "requirementsCategories" : { },
@@ -67,28 +71,43 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : { },
+    "fixedXPAttributes" : {
+        "0" : {
+            "INTELLIGENCE" : 30,
+            "WILLPOWER" : -20
+        }
+    },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : -50,
             "ORIGIN_OWNED_VEHICLE" : 100,
             "ORIGIN_RANK" : 50,
-            "ENEMY" : -100
+            "CONNECTIONS" : 75,
+            "ENEMY" : -175,
+            "FAME" : -50
         }
     },
     "fixedXPSkills" : {
         "0" : {
             "Communications/Any" : 10,
-            "Negotiation" : 10,
-            "Interest/Theology" : 10
+            "Protocols/Any" : 20,
+            "Interest/Theology" : 10,
+            "Language/Any" : 10
         }
     },
-    "fixedXPMetaSkills" : { },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "SUPPORT_TECHNICIAN" : 10
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_mild_paranoia" : -25
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
