@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "5f4fbe9b-4a3b-4f17-8446-ba0a2099536e",
+    "id" : "7b2f8805-7346-405e-a434-ce7cb3b58a4b",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -26,12 +26,12 @@
     },
     "xpCost" : 110,
     "source" : "A Time of War",
-    "name" : "Dieron District [3062-3081]",
+    "name" : "Pesht District [3052-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3052,
+    "maximumYear" : 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -68,36 +68,33 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "INTELLIGENCE" : 50,
-            "WILLPOWER" : -50
+            "WILLPOWER" : 100
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : -25
+    },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ENEMY" : -100,
-            "CONNECTIONS" : 60,
+            "CONNECTIONS" : 20,
             "WEALTH" : 50
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Negotiation" : 5,
-            "Interest/History" : 5,
-            "Language/Any" : 15
+            "Martial Arts" : 10,
+            "Protocols/Any" : 20,
+            "Streetwise/Any" : 10,
+            "Melee Weapons" : 15
         }
     },
-    "fixedXPMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_ART" : 15
-        }
-    },
+    "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_xenophobia" : 50
+            "compulsion_other_faction_hate" : -100
         }
     },
     "flexibleXPAttributes" : { },

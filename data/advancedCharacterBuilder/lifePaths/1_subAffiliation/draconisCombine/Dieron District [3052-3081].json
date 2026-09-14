@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a09dcba0-dba8-4ccb-ab26-67943706ddc5",
+    "id" : "5f4fbe9b-4a3b-4f17-8446-ba0a2099536e",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -26,11 +26,11 @@
     },
     "xpCost" : 110,
     "source" : "A Time of War",
-    "name" : "Azami - Independent Heritage [3075-3081]",
+    "name" : "Dieron District [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3075,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -44,7 +44,7 @@
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "cdd0798f-640a-4798-9a1b-6ec1fbbd12ca"
+            "9bf5a8de-bb2d-46a0-998d-bcdc826c19f3"
         ]
     },
     "requirementsCategories" : { },
@@ -68,31 +68,36 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 190
+            "INTELLIGENCE" : 50,
+            "WILLPOWER" : -50
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ORIGIN_OWNED_VEHICLE" : -50,
-            "WEALTH" : -25
+            "ENEMY" : -100,
+            "CONNECTIONS" : 60,
+            "WEALTH" : 50
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 10,
-            "Animal Handling" : 5,
-            "Melee Weapons" : 10,
-            "Survival/Any" : 10
+            "Negotiation" : 5,
+            "Interest/History" : 5,
+            "Language/Any" : 15
         }
     },
-    "fixedXPMetaSkills" : { },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_ART" : 15
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_xenophobia" : -50
+            "compulsion_xenophobia" : 50
         }
     },
     "flexibleXPAttributes" : { },

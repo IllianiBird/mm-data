@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "13d34016-5a90-4e4b-87d7-5b7d3caa1e22",
+    "id" : "4167e066-a940-46fa-893f-b0c1d705f624",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -26,13 +26,13 @@
     },
     "xpCost" : 110,
     "source" : "A Time of War",
-    "name" : "Azami - Combine Heritage [3062-3075]",
+    "name" : "Benjamin District [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3075,
-    "randomWeight" : 0.01,
+    "minimumYear" : 3052,
+    "maximumYear" : 3081,
+    "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
     ],
@@ -66,25 +66,21 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "WILLPOWER" : 190
-        }
-    },
+    "fixedXPAttributes" : { },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ORIGIN_OWNED_VEHICLE" : -50,
-            "WEALTH" : -25
+            "CONNECTIONS" : 50,
+            "WEALTH" : 35
         }
     },
     "fixedXPSkills" : {
         "0" : {
             "Martial Arts" : 10,
-            "Animal Handling" : 5,
-            "Melee Weapons" : 10,
-            "Survival/Any" : 10
+            "Protocols/Any" : 15,
+            "Streetwise/Any" : 10,
+            "Art/Poetry" : 5
         }
     },
     "fixedXPMetaSkills" : { },
@@ -92,7 +88,8 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_xenophobia" : -50
+            "compulsion_parent_faction_dislike" : -50,
+            "atow_patient" : 25
         }
     },
     "flexibleXPAttributes" : { },
