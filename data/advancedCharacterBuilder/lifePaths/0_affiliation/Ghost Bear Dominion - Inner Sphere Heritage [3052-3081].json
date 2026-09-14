@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "692a6fdf-24e8-45e2-b15f-7c20ec853f1f",
+    "id" : "fb0a32fb-9ad3-4ada-939c-c7faf9b2ff5b",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,49 +24,26 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -50,
-    "source" : "A Time of War",
-    "name" : "Major Periphery [3062-3081]",
+    "xpCost" : 25,
+    "source" : "A Time of War (Free Rasalhague Republic)",
+    "name" : "Ghost Bear Dominion - Inner Sphere Heritage [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN_RULED_INNER_SPHERE",
+        "SPECIAL_MERCENARY_IMPACT_FAME"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CIR"
-        ],
-        "1" : [
-            "MOC"
-        ],
-        "2" : [
-            "MH"
-        ],
-        "3" : [
-            "OA"
-        ],
-        "4" : [
-            "TC"
-        ],
-        "5" : [
-            "CDP"
-        ],
-        "6" : [
-            "FR"
-        ],
-        "7" : [
-            "CS"
-        ],
-        "8" : [
-            "WOB"
+            "CGB"
         ]
     },
     "requirementsSystems" : { },
@@ -90,16 +67,26 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : { },
-    "fixedXPEdge" : { },
-    "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
+    "fixedXPAttributes" : {
         "0" : {
-            "ORIGIN_OWNED_VEHICLE" : -50
+            "WILLPOWER" : 25
         }
     },
-    "fixedXPSkills" : { },
-    "fixedXPMetaSkills" : { },
+    "fixedXPEdge" : {
+        "0" : -25
+    },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : { },
+    "fixedXPSkills" : {
+        "0" : {
+            "Negotiation" : 15
+        }
+    },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 10
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : { },

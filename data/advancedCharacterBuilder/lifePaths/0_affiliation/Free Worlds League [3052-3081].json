@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "9bf5a8de-bb2d-46a0-998d-bcdc826c19f3",
+    "id" : "44394dc9-5abf-4e2a-befe-8ea27af17832",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,26 +24,26 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -76,
+    "xpCost" : 25,
     "source" : "A Time of War",
-    "name" : "Draconis Combine [3062-3081]",
+    "name" : "Free Worlds League [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE",
-        "SPECIAL_CHILD_LABOR_ENABLED"
+        "SPECIAL_PROSTHETICS_IMPACT_FAME",
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "DC"
+            "FWL"
         ],
         "1" : [
             "CS"
@@ -73,48 +73,31 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "WILLPOWER" : 50
-        }
-    },
+    "fixedXPAttributes" : { },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
+    "fixedXPTraits" : { },
+    "fixedXPSkills" : {
         "0" : {
-            "WEALTH" : -50
+            "Language/Any" : 15
         }
     },
-    "fixedXPSkills" : { },
-    "fixedXPMetaSkills" : { },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_ART" : 10
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_xenophobia" : -100
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : {
-        "0" : {
-            "Martial Arts" : 10,
-            "Protocols/Any" : 15,
-            "Art/Poetry" : 15
-        }
-    },
+    "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : {
-        "0" : {
-            "pain_resistance" : 100,
-            "atow_combat_sense" : 100
-        }
-    },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
 }

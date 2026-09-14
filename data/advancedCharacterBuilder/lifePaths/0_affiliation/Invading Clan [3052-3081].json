@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "44394dc9-5abf-4e2a-befe-8ea27af17832",
+    "id" : "d819202f-c25e-4900-8a08-979ece2e22de",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,32 +24,43 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 25,
+    "xpCost" : -100,
     "source" : "A Time of War",
-    "name" : "Free Worlds League [3062-3081]",
+    "name" : "Invading Clan [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE",
-        "SPECIAL_PROSTHETICS_IMPACT_FAME"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "FWL"
+            "CDS"
         ],
         "1" : [
-            "CS"
+            "CHH"
         ],
         "2" : [
-            "WOB"
+            "CJF"
+        ],
+        "3" : [
+            "CNC"
+        ],
+        "4" : [
+            "CSR"
+        ],
+        "5" : [
+            "CW"
+        ],
+        "6" : [
+            "CWIE"
         ]
     },
     "requirementsSystems" : { },
@@ -69,7 +80,12 @@
     "exclusionsAttributes" : { },
     "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
-    "exclusionsTraits" : { },
+    "exclusionsTraits" : {
+        "0" : {
+            "EXTRA_INCOME" : 1,
+            "PROPERTY" : 1
+        }
+    },
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
@@ -79,17 +95,19 @@
     "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Language/Any" : 15
+            "Protocols/Any" : 25,
+            "Interest/History" : 25
         }
     },
-    "fixedXPMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_ART" : 10
-        }
-    },
+    "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_unpleasant_personality" : -50,
+            "compulsion_inner_sphere_hate" : -100
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

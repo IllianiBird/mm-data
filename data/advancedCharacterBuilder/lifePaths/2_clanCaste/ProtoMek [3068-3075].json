@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "7f5715fa-e751-4197-9ba9-421d9cc841f4",
+    "id" : "7ee3e859-9cc0-45ac-b454-99a35420deeb",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,17 +24,17 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -150,
+    "xpCost" : 125,
     "source" : "A Time of War",
-    "name" : "Homeworld Clan [3062-3081]",
+    "name" : "ProtoMek [3068-3075]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3068,
+    "maximumYear" : 3075,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "CLAN_CASTE"
     ],
     "categories" : [
         "GENERAL_CLAN"
@@ -57,14 +57,11 @@
     "requirementsAbilities" : { },
     "exclusionsFactions" : {
         "0" : [
-            "CHH",
             "CDS",
-            "CSR",
             "CW",
-            "CNC",
+            "CSV",
             "CJF",
-            "CGB",
-            "CWIE"
+            "CGB"
         ]
     },
     "exclusionsSystems" : { },
@@ -73,32 +70,32 @@
     "exclusionsAttributes" : { },
     "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
-    "exclusionsTraits" : {
-        "0" : {
-            "EXTRA_INCOME" : 1,
-            "PROPERTY" : 1
-        }
-    },
+    "exclusionsTraits" : { },
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : { },
-    "fixedXPEdge" : { },
-    "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
-    "fixedXPSkills" : {
+    "fixedXPAttributes" : {
         "0" : {
-            "Protocols/Any" : 25,
-            "Interest/History" : 25
+            "BODY" : -50,
+            "DEXTERITY" : 150,
+            "REFLEXES" : 150,
+            "STRENGTH" : -50,
+            "CHARISMA" : -25
         }
     },
+    "fixedXPEdge" : {
+        "0" : -25
+    },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : { },
+    "fixedXPSkills" : { },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_other_faction_hate" : -100,
-            "compulsion_inner_sphere_hate" : -100
+            "flaw_impatient" : -50,
+            "atow_fit" : 25
         }
     },
     "flexibleXPAttributes" : { },

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "bc8dd3f9-f7df-4db2-a4e7-89ef852cc768",
+    "id" : "faad3e2c-0c88-44c7-8b6f-f5d3740e35bf",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,32 +24,25 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 25,
+    "xpCost" : 125,
     "source" : "A Time of War",
-    "name" : "Free Rasalhague Republic [3062-3081]",
+    "name" : "ProtoMek [3062-3068]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "maximumYear" : 3068,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "CLAN_CASTE"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE",
-        "SPECIAL_MERCENARY_IMPACT_FAME"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "FRR"
-        ],
-        "1" : [
-            "CS"
-        ],
-        "2" : [
-            "WOB"
+            "CLAN"
         ]
     },
     "requirementsSystems" : { },
@@ -62,7 +55,14 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : { },
+    "exclusionsFactions" : {
+        "0" : [
+            "CDS",
+            "CW",
+            "CSV",
+            "CGB"
+        ]
+    },
     "exclusionsSystems" : { },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
@@ -75,7 +75,11 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 25
+            "BODY" : -50,
+            "DEXTERITY" : 150,
+            "REFLEXES" : 150,
+            "STRENGTH" : -50,
+            "CHARISMA" : -25
         }
     },
     "fixedXPEdge" : {
@@ -83,19 +87,16 @@
     },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : { },
-    "fixedXPSkills" : {
-        "0" : {
-            "Negotiation" : 15
-        }
-    },
-    "fixedXPMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_INTEREST" : 10
-        }
-    },
+    "fixedXPSkills" : { },
+    "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "flaw_impatient" : -50,
+            "atow_fit" : 25
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

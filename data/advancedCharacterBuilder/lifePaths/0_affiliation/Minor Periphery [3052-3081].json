@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "54333746-ae50-4169-8ace-94e559f4d588",
+    "id" : "795c5bc6-c78c-426e-85a7-d3fd8db7f4d3",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,44 +24,29 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 0,
+    "xpCost" : -115,
     "source" : "A Time of War",
-    "name" : "Independent [3062-3081]",
+    "name" : "Minor Periphery [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
     ],
     "categories" : [
+        "SPECIAL_MINOR_PERIPHERY",
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
-        "2" : [
-            "IND"
-        ],
-        "3" : [
-            "MERC"
-        ],
-        "4" : [
-            "PIR"
-        ],
-        "5" : [
-            "TD"
-        ]
-    },
-    "requirementsSystems" : {
         "0" : [
-            "Antallos (Port Krin)"
-        ],
-        "1" : [
-            "Astrokaszy"
+            "Periphery"
         ]
     },
+    "requirementsSystems" : { },
     "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
@@ -71,8 +56,28 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : { },
-    "exclusionsSystems" : { },
+    "exclusionsFactions" : {
+        "0" : [
+            "MOC",
+            "TD",
+            "OA",
+            "HL",
+            "NC",
+            "MH",
+            "FR",
+            "JF",
+            "CIR",
+            "CDP",
+            "UC",
+            "TC"
+        ]
+    },
+    "exclusionsSystems" : {
+        "0" : [
+            "Astrokaszy",
+            "Antallos (Port Krin)"
+        ]
+    },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
     "exclusionsAttributes" : { },
@@ -82,23 +87,20 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "WILLPOWER" : 20
-        }
-    },
-    "fixedXPEdge" : {
-        "0" : 20
-    },
+    "fixedXPAttributes" : { },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ORIGIN_OWNED_VEHICLE" : -20,
-            "FAME" : -10,
-            "WEALTH" : -10
+            "ORIGIN_OWNED_VEHICLE" : -150
         }
     },
-    "fixedXPSkills" : { },
+    "fixedXPSkills" : {
+        "0" : {
+            "Perception" : 15,
+            "Survival/Any" : 20
+        }
+    },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },

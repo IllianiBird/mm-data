@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "4b3b4393-3cef-418c-b72d-a2eb84a1c8bc",
+    "id" : "7f5715fa-e751-4197-9ba9-421d9cc841f4",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,35 +24,28 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 45,
+    "xpCost" : -150,
     "source" : "A Time of War",
-    "name" : "Terran [3062-3081]",
+    "name" : "Homeworld Clan [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CS"
-        ],
-        "1" : [
-            "WOB"
+            "CLAN"
         ]
     },
-    "requirementsSystems" : {
-        "0" : [
-            "Terra"
-        ]
-    },
+    "requirementsSystems" : { },
     "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
@@ -62,34 +55,41 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : { },
+    "exclusionsFactions" : {
+        "0" : [
+            "CHH",
+            "CDS",
+            "CSR",
+            "CW",
+            "CNC",
+            "CJF",
+            "CGB",
+            "CWIE"
+        ]
+    },
     "exclusionsSystems" : { },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
     "exclusionsAttributes" : { },
     "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
-    "exclusionsTraits" : { },
+    "exclusionsTraits" : {
+        "0" : {
+            "EXTRA_INCOME" : 1,
+            "PROPERTY" : 1
+        }
+    },
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "INTELLIGENCE" : 100
-        }
-    },
-    "fixedXPEdge" : {
-        "0" : -150
-    },
+    "fixedXPAttributes" : { },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "FAME" : 100
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Language/Any" : 20
+            "Protocols/Any" : 25,
+            "Interest/History" : 25
         }
     },
     "fixedXPMetaSkills" : { },
@@ -97,19 +97,11 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_unpleasant_personality" : -75
+            "compulsion_other_faction_hate" : -100,
+            "compulsion_inner_sphere_hate" : -100
         }
     },
-    "flexibleXPAttributes" : {
-        "0" : {
-            "CHARISMA" : 50,
-            "DEXTERITY" : 50,
-            "WILLPOWER" : 50,
-            "REFLEXES" : 50,
-            "BODY" : 50,
-            "STRENGTH" : 50
-        }
-    },
+    "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
@@ -118,7 +110,5 @@
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPPickCounts" : { }
 }

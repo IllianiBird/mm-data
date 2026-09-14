@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "faad3e2c-0c88-44c7-8b6f-f5d3740e35bf",
+    "id" : "4b3b4393-3cef-418c-b72d-a2eb84a1c8bc",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,28 +24,35 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 125,
+    "xpCost" : 45,
     "source" : "A Time of War",
-    "name" : "ProtoMek [3062-3081]",
+    "name" : "Terran [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "CLAN_CASTE"
+        "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CLAN"
+            "CS"
+        ],
+        "1" : [
+            "WOB"
         ]
     },
-    "requirementsSystems" : { },
+    "requirementsSystems" : {
+        "0" : [
+            "Terra"
+        ]
+    },
     "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
@@ -68,29 +75,41 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "BODY" : -50,
-            "DEXTERITY" : 150,
-            "REFLEXES" : 150,
-            "STRENGTH" : -50,
-            "CHARISMA" : -25
+            "INTELLIGENCE" : 100
         }
     },
     "fixedXPEdge" : {
-        "0" : -25
+        "0" : -150
     },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
-    "fixedXPSkills" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "FAME" : 100
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Language/Any" : 20
+        }
+    },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "flaw_impatient" : -50,
-            "atow_fit" : 25
+            "compulsion_unpleasant_personality" : -75
         }
     },
-    "flexibleXPAttributes" : { },
+    "flexibleXPAttributes" : {
+        "0" : {
+            "CHARISMA" : 50,
+            "DEXTERITY" : 50,
+            "WILLPOWER" : 50,
+            "REFLEXES" : 50,
+            "BODY" : 50,
+            "STRENGTH" : 50
+        }
+    },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
@@ -99,5 +118,7 @@
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
 }

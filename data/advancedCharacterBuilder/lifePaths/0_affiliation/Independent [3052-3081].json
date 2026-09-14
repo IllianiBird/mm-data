@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "02c4bb02-75dc-4c3f-b250-b5182a03ebbd",
+    "id" : "54333746-ae50-4169-8ace-94e559f4d588",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,13 +24,13 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -20,
+    "xpCost" : 0,
     "source" : "A Time of War",
-    "name" : "Deep Periphery [3062-3081]",
+    "name" : "Independent [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -41,20 +41,27 @@
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
-        "0" : [
-            "HL"
-        ],
-        "1" : [
-            "NC"
-        ],
         "2" : [
-            "UC"
+            "IND"
         ],
         "3" : [
-            "JF"
+            "MERC"
+        ],
+        "4" : [
+            "PIR"
+        ],
+        "5" : [
+            "TD"
         ]
     },
-    "requirementsSystems" : { },
+    "requirementsSystems" : {
+        "0" : [
+            "Antallos (Port Krin)"
+        ],
+        "1" : [
+            "Astrokaszy"
+        ]
+    },
     "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
@@ -77,14 +84,18 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 60
+            "WILLPOWER" : 20
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : 20
+    },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ORIGIN_OWNED_VEHICLE" : -80
+            "ORIGIN_OWNED_VEHICLE" : -20,
+            "FAME" : -10,
+            "WEALTH" : -10
         }
     },
     "fixedXPSkills" : { },
