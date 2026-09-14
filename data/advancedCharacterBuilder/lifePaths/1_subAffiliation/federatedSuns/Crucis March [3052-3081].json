@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "265a3fdf-4bb9-4fa6-91f1-cc4808e774f0",
+    "id" : "7fcb309b-eabf-4c26-90c2-0b06d4920a87",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -26,11 +26,11 @@
     },
     "xpCost" : 40,
     "source" : "A Time of War",
-    "name" : "Draconis March [3062-3081]",
+    "name" : "Crucis March [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -45,6 +45,9 @@
     "requirementsLifePath" : {
         "0" : [
             "ad8e309c-5286-4c40-8306-71c36eeda5a2"
+        ],
+        "1" : [
+            "dcac9016-cc83-4652-b242-6ebdf1fd8fdb"
         ]
     },
     "requirementsCategories" : { },
@@ -66,20 +69,20 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : { },
-    "fixedXPEdge" : {
-        "0" : 25
-    },
-    "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
+    "fixedXPAttributes" : {
         "0" : {
-            "CONNECTIONS" : 20
+            "WILLPOWER" : 50
         }
     },
+    "fixedXPEdge" : {
+        "0" : -50
+    },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 5,
-            "Interest/History" : 10
+            "Protocols/Any" : 15,
+            "Interest/History" : 15
         }
     },
     "fixedXPMetaSkills" : {
@@ -89,11 +92,7 @@
     },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_other_faction_hate" : -30
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "97d4c6de-9eea-48ca-a13b-15ad63b6c96e",
+    "id" : "730902a0-d584-4121-b728-f6a7054a6885",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,15 +24,15 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
+    "xpCost" : 40,
     "source" : "A Time of War",
-    "name" : "Rasalhague Expatriate - Suns [3062-3081]",
+    "name" : "Capellan March [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 0,
-    "maximumYear" : 9999,
-    "randomWeight" : 0.005,
+    "minimumYear" : 3052,
+    "maximumYear" : 3081,
+    "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
     ],
@@ -45,6 +45,9 @@
     "requirementsLifePath" : {
         "0" : [
             "ad8e309c-5286-4c40-8306-71c36eeda5a2"
+        ],
+        "1" : [
+            "dcac9016-cc83-4652-b242-6ebdf1fd8fdb"
         ]
     },
     "requirementsCategories" : { },
@@ -68,24 +71,21 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 125
+            "WILLPOWER" : 40
         }
     },
-    "fixedXPEdge" : {
-        "0" : 100
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "WEALTH" : -50
+            "CONNECTIONS" : 25
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 10,
             "Protocols/Any" : 10,
-            "Small Arms" : 15,
-            "Language/Any" : 15
+            "Interest/History" : 10,
+            "Language/Any" : 5
         }
     },
     "fixedXPMetaSkills" : { },
@@ -93,7 +93,7 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_clan_hate" : -150
+            "compulsion_other_faction_hate" : -50
         }
     },
     "flexibleXPAttributes" : { },
