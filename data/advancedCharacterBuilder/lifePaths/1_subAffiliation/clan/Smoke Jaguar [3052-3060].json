@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "0e4f318c-c66e-4ac7-a717-1daf151a10f7",
+    "id" : "ac1a52d4-917e-46a8-8edb-a3cc273a93bc",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
-    "source" : "A Time of War",
-    "name" : "Ice Hellion [3062-3081]",
+    "xpCost" : 50,
+    "source" : "Era Report 3052",
+    "name" : "Smoke Jaguar [3052-3060]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3052,
+    "maximumYear" : 3060,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,13 +42,13 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CIH"
+            "CSJ"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "7f5715fa-e751-4197-9ba9-421d9cc841f4"
+            "d819202f-c25e-4900-8a08-979ece2e22de"
         ]
     },
     "requirementsCategories" : { },
@@ -73,26 +73,23 @@
     "fixedXPAttributes" : {
         "0" : {
             "WILLPOWER" : 50,
-            "DEXTERITY" : 75,
-            "REFLEXES" : 100,
-            "CHARISMA" : -75
+            "CHARISMA" : -25,
+            "REFLEXES" : 50
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : -50
+    },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : -95
+            "FAME" : 100
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 10,
             "Protocols/Any" : 10,
-            "Negotiation" : 15,
-            "Interest/History" : 15,
-            "Swimming" : 10,
-            "Survival/Any" : 10
+            "Leadership" : 15
         }
     },
     "fixedXPMetaSkills" : { },
@@ -100,8 +97,9 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "flaw_impatient" : -100,
-            "atow_combat_sense" : 50
+            "compulsion_other_faction_hate" : -100,
+            "atow_combat_sense" : 100,
+            "compulsion_unpleasant_personality" : -100
         }
     },
     "flexibleXPAttributes" : { },

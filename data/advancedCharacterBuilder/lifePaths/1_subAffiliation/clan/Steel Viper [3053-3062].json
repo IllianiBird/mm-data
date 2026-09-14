@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "5e516d32-d327-4c4e-a234-fa2a590ad2dc",
+    "id" : "bb7d4bc0-82b6-49ce-b12c-ab45c08c01cf",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,25 +24,26 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
+    "xpCost" : 50,
     "source" : "A Time of War",
-    "name" : "Cloud Cobra [3062-3081]",
+    "name" : "Steel Viper [3053-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3053,
+    "maximumYear" : 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
     ],
     "categories" : [
+        "SPECIAL_CITIZEN_WARRIORS",
         "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CCC"
+            "CSV"
         ]
     },
     "requirementsSystems" : { },
@@ -72,22 +73,24 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 50,
-            "INTELLIGENCE" : 50
+            "WILLPOWER" : 100,
+            "CHARISMA" : -50,
+            "INTELLIGENCE" : 75
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : -75,
-            "ORIGIN_OWNED_VEHICLE" : -25
+            "CONNECTIONS" : 80,
+            "ORIGIN_OWNED_VEHICLE" : 50
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 20,
-            "Interest/Theology" : 20
+            "Protocols/Any" : 15,
+            "Negotiation" : 10,
+            "Survival/Any" : 20
         }
     },
     "fixedXPMetaSkills" : { },
@@ -95,8 +98,8 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_religious_fanaticism" : -75,
-            "atow_patient" : 100
+            "clan_pilot_training" : -100,
+            "compulsion_other_faction_hate" : -150
         }
     },
     "flexibleXPAttributes" : { },
@@ -104,25 +107,9 @@
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_SCIENCE" : 10,
-            "ROLEPLAY_GENERAL" : 10,
-            "ROLEPLAY_INTEREST" : 10,
-            "SUPPORT" : 10,
-            "ROLEPLAY_SECURITY" : 10,
-            "SUPPORT_TECHNICIAN" : 10,
-            "UTILITY_COMMAND" : 10,
-            "COMBAT_PILOTING" : 10,
-            "ROLEPLAY_ART" : 10,
-            "UTILITY" : 10,
-            "COMBAT_GUNNERY" : 10
-        }
-    },
+    "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPPickCounts" : { }
 }

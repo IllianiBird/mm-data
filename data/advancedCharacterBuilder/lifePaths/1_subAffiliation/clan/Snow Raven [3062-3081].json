@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a3e552c3-8fe0-43eb-b645-6224878be10f",
+    "id" : "2aac0cab-8d62-4d39-b0ae-dac3b1d0eeaf",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -26,7 +26,7 @@
     },
     "xpCost" : 50,
     "source" : "A Time of War",
-    "name" : "Diamond Shark [3062-3081]",
+    "name" : "Snow Raven [3062-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
@@ -42,7 +42,7 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CDS"
+            "CSR"
         ]
     },
     "requirementsSystems" : { },
@@ -72,32 +72,31 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "STRENGTH" : -45,
-            "INTELLIGENCE" : 25
+            "INTELLIGENCE" : 20
         }
     },
-    "fixedXPEdge" : {
-        "0" : -50
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "WEALTH" : 30,
-            "CONNECTIONS" : 25,
-            "ORIGIN_OWNED_VEHICLE" : 25
+            "CONNECTIONS" : 50
         }
     },
     "fixedXPSkills" : {
         "0" : {
             "Protocols/Any" : 10,
-            "Negotiation" : 20,
-            "Perception" : 10
+            "Negotiation" : 10,
+            "Zero-G Operations" : 10
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_unpleasant_personality" : -50
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

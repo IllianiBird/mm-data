@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "6d27e949-3aba-4b6a-87a4-5dec3b4b0edb",
+    "id" : "cc1e9ec7-36b7-411e-b07c-22d227951d4a",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
+    "xpCost" : 25,
     "source" : "A Time of War",
-    "name" : "Goliath Scorpion [3062-3081]",
+    "name" : "Blood Spirit [3053-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3053,
+    "maximumYear" : 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,7 +42,7 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CGS"
+            "CBS"
         ]
     },
     "requirementsSystems" : { },
@@ -72,25 +72,24 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "DEXTERITY" : 50,
-            "WILLPOWER" : -50,
-            "INTELLIGENCE" : 50
+            "WILLPOWER" : 100,
+            "CHARISMA" : -50,
+            "BODY" : 25
         }
     },
-    "fixedXPEdge" : {
-        "0" : -50
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : -25
+            "ORIGIN_OWNED_VEHICLE" : -65
         }
     },
     "fixedXPSkills" : {
         "0" : {
+            "Martial Arts" : 15,
             "Protocols/Any" : 10,
-            "Melee Weapons" : 15,
-            "Interest/History" : 20
+            "Small Arms" : 15,
+            "Interest/History" : 25
         }
     },
     "fixedXPMetaSkills" : { },
@@ -98,9 +97,10 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "atow_fit" : 55,
-            "compulsion_unpleasant_personality" : -50,
-            "compulsion_addiction" : -50
+            "exceptional_attribute_willpower" : 150,
+            "compulsion_other_faction_hate" : -75,
+            "compulsion_faction_loyalty" : -75,
+            "flaw_introvert" : -50
         }
     },
     "flexibleXPAttributes" : { },
@@ -109,23 +109,8 @@
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : {
-        "0" : {
-            "Melee Weapons" : 100
-        }
-    },
-    "flexibleXPNaturalAptitudesMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_INTEREST" : 100,
-            "COMBAT_GUNNERY" : 100
-        }
-    },
-    "flexibleXPAbilities" : {
-        "0" : {
-            "exceptional_attribute_intelligence" : 100
-        }
-    },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
 }

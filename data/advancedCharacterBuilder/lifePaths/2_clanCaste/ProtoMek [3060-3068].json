@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "72c2ec13-6ff1-4afe-9128-8cabfd837482",
+    "id" : "faad3e2c-0c88-44c7-8b6f-f5d3740e35bf",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,17 +24,17 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
+    "xpCost" : 125,
     "source" : "A Time of War",
-    "name" : "Coyote [3062-3081]",
+    "name" : "ProtoMek [3060-3068]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3060,
+    "maximumYear" : 3068,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "CLAN_CASTE"
     ],
     "categories" : [
         "GENERAL_CLAN"
@@ -42,15 +42,11 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CCO"
+            "CLAN"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : {
-        "0" : [
-            "7f5715fa-e751-4197-9ba9-421d9cc841f4"
-        ]
-    },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -59,7 +55,14 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : { },
+    "exclusionsFactions" : {
+        "0" : [
+            "CDS",
+            "CW",
+            "CSV",
+            "CGB"
+        ]
+    },
     "exclusionsSystems" : { },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
@@ -72,53 +75,36 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : -60,
-            "INTELLIGENCE" : 100
+            "BODY" : -50,
+            "DEXTERITY" : 150,
+            "REFLEXES" : 150,
+            "STRENGTH" : -50,
+            "CHARISMA" : -25
         }
     },
     "fixedXPEdge" : {
-        "0" : 25
+        "0" : -25
     },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "FAME" : -60,
-            "ORIGIN_OWNED_VEHICLE" : 25
-        }
-    },
-    "fixedXPSkills" : {
-        "0" : {
-            "Protocols/Any" : 10,
-            "Interest/Mythology" : 15,
-            "Survival/Any" : 10
-        }
-    },
+    "fixedXPTraits" : { },
+    "fixedXPSkills" : { },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "flaw_impatient" : -50,
+            "atow_fit" : 25
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : {
-        "0" : {
-            "ORIGIN_OWNED_VEHICLE" : 10
-        }
-    },
+    "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : {
-        "0" : {
-            "Computers" : 10
-        }
-    },
-    "flexibleXPNaturalAptitudesMetaSkills" : {
-        "0" : {
-            "SUPPORT_TECHNICIAN" : 10
-        }
-    },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPPickCounts" : { }
 }

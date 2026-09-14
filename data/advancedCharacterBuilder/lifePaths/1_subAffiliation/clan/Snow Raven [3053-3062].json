@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "faad3e2c-0c88-44c7-8b6f-f5d3740e35bf",
+    "id" : "35ddbac1-a8cf-4f8d-aa6e-27830dfda558",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,17 +24,17 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 125,
+    "xpCost" : 75,
     "source" : "A Time of War",
-    "name" : "ProtoMek [3062-3068]",
+    "name" : "Snow Raven [3053-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3068,
+    "minimumYear" : 3053,
+    "maximumYear" : 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "CLAN_CASTE"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
         "GENERAL_CLAN"
@@ -42,11 +42,15 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CLAN"
+            "CSR"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "d819202f-c25e-4900-8a08-979ece2e22de"
+        ]
+    },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -55,14 +59,7 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : {
-        "0" : [
-            "CDS",
-            "CW",
-            "CSV",
-            "CGB"
-        ]
-    },
+    "exclusionsFactions" : { },
     "exclusionsSystems" : { },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
@@ -75,26 +72,32 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "BODY" : -50,
-            "DEXTERITY" : 150,
-            "REFLEXES" : 150,
-            "STRENGTH" : -50,
-            "CHARISMA" : -25
+            "CHARISMA" : 10,
+            "INTELLIGENCE" : 20
         }
     },
-    "fixedXPEdge" : {
-        "0" : -25
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
-    "fixedXPSkills" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "CONNECTIONS" : 50,
+            "ORIGIN_OWNED_VEHICLE" : 55
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Protocols/Any" : 15,
+            "Negotiation" : 15,
+            "Zero-G Operations" : 15
+        }
+    },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "flaw_impatient" : -50,
-            "atow_fit" : 25
+            "compulsion_mild_paranoia" : -30,
+            "compulsion_unpleasant_personality" : -75
         }
     },
     "flexibleXPAttributes" : { },

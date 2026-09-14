@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "0b333d82-80bc-43d9-b72a-adeea1e24004",
+    "id" : "d1edd2d8-2f67-4906-afd2-311b10be142e",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -26,11 +26,11 @@
     },
     "xpCost" : 50,
     "source" : "A Time of War",
-    "name" : "Jade Falcon [3062-3081]",
+    "name" : "Wolf [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -42,12 +42,18 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CJF"
+            "CW"
+        ],
+        "1" : [
+            "CWIE"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
+            "d819202f-c25e-4900-8a08-979ece2e22de"
+        ],
+        "1" : [
             "d819202f-c25e-4900-8a08-979ece2e22de"
         ]
     },
@@ -72,22 +78,22 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 25
+            "WILLPOWER" : 25,
+            "INTELLIGENCE" : 25
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : 100
+            "ENEMY" : -100,
+            "FAME" : 70,
+            "ORIGIN_OWNED_VEHICLE" : 50
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 15,
-            "Protocols/Any" : 15,
-            "Acting" : 10,
-            "Survival/Any" : 10
+            "Protocols/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -95,18 +101,30 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : -75,
-            "compulsion_other_faction_hate" : -50
+            "compulsion_faction_pride" : -50
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Leadership" : 10,
+            "Negotiation" : 10,
+            "Perception" : 10,
+            "Strategy" : 10
+        }
+    },
+    "flexibleXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 10
+        }
+    },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 2
+    }
 }

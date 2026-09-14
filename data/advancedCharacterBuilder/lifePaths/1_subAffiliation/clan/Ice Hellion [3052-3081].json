@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "d1edd2d8-2f67-4906-afd2-311b10be142e",
+    "id" : "0e4f318c-c66e-4ac7-a717-1daf151a10f7",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,13 +24,13 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
+    "xpCost" : 75,
     "source" : "A Time of War",
-    "name" : "Wolf [3062-3081]",
+    "name" : "Ice Hellion [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3052,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -42,19 +42,13 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CW"
-        ],
-        "1" : [
-            "CWIE"
+            "CIH"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "d819202f-c25e-4900-8a08-979ece2e22de"
-        ],
-        "1" : [
-            "d819202f-c25e-4900-8a08-979ece2e22de"
+            "7f5715fa-e751-4197-9ba9-421d9cc841f4"
         ]
     },
     "requirementsCategories" : { },
@@ -78,22 +72,27 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 25,
-            "INTELLIGENCE" : 25
+            "WILLPOWER" : 50,
+            "DEXTERITY" : 75,
+            "REFLEXES" : 100,
+            "CHARISMA" : -75
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ENEMY" : -100,
-            "FAME" : 70,
-            "ORIGIN_OWNED_VEHICLE" : 50
+            "FAME" : -95
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10
+            "Martial Arts" : 10,
+            "Protocols/Any" : 10,
+            "Negotiation" : 15,
+            "Interest/History" : 15,
+            "Swimming" : 10,
+            "Survival/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -101,30 +100,18 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : -50
+            "flaw_impatient" : -100,
+            "atow_combat_sense" : 50
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : {
-        "0" : {
-            "Leadership" : 10,
-            "Negotiation" : 10,
-            "Perception" : 10,
-            "Strategy" : 10
-        }
-    },
-    "flexibleXPMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_INTEREST" : 10
-        }
-    },
+    "flexibleXPSkills" : { },
+    "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 2
-    }
+    "flexibleXPPickCounts" : { }
 }
