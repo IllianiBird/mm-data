@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "99fdbde1-0ee1-49ba-ab4a-c78662617c9b",
+    "id" : "832e5d21-1a6d-4209-a243-187b2e74ff4c",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,33 +24,38 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
+    "xpCost" : -35,
     "source" : "A Time of War",
-    "name" : "Hell's Horses [3062-3081]",
+    "name" : "Federated Commonwealth - Steiner Heritage [3030-3067]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3030,
+    "maximumYear" : 3067,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CHH"
+            "LA"
+        ],
+        "1" : [
+            "CS"
+        ],
+        "2" : [
+            "WOB"
+        ],
+        "3" : [
+            "FC"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : {
-        "0" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
-        ]
-    },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -72,19 +77,25 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "BODY" : 25,
-            "STRENGTH" : 25
+            "WILLPOWER" : -50
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : -50
+    },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "EXTRA_INCOME" : 50,
+            "WEALTH" : 100
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Melee Weapons" : 10,
-            "Navigation/Any" : 15,
-            "Survival/Any" : 15
+            "Protocols/Any" : 30,
+            "Negotiation" : 15,
+            "Appraisal" : 10,
+            "Language/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -92,8 +103,7 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_other_faction_hate" : -25,
-            "flaw_introvert" : -30
+            "compulsion_parent_faction_dislike" : -50
         }
     },
     "flexibleXPAttributes" : { },
@@ -104,6 +114,13 @@
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPAbilities" : {
+        "0" : {
+            "atow_combat_paralysis" : -100,
+            "flaw_glass_jaw" : -100
+        }
+    },
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
 }

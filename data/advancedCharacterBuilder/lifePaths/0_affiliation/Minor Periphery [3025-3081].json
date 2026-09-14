@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "99fdbde1-0ee1-49ba-ab4a-c78662617c9b",
+    "id" : "795c5bc6-c78c-426e-85a7-d3fd8db7f4d3",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,33 +24,30 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
+    "xpCost" : -115,
     "source" : "A Time of War",
-    "name" : "Hell's Horses [3062-3081]",
+    "name" : "Minor Periphery [3025-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3025,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "SPECIAL_MINOR_PERIPHERY",
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CHH"
+            "Periphery"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : {
-        "0" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
-        ]
-    },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -59,8 +56,28 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : { },
-    "exclusionsSystems" : { },
+    "exclusionsFactions" : {
+        "0" : [
+            "MOC",
+            "TD",
+            "OA",
+            "HL",
+            "NC",
+            "MH",
+            "FR",
+            "JF",
+            "CIR",
+            "CDP",
+            "UC",
+            "TC"
+        ]
+    },
+    "exclusionsSystems" : {
+        "0" : [
+            "Astrokaszy",
+            "Antallos (Port Krin)"
+        ]
+    },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
     "exclusionsAttributes" : { },
@@ -70,32 +87,24 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "BODY" : 25,
-            "STRENGTH" : 25
-        }
-    },
+    "fixedXPAttributes" : { },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "ORIGIN_OWNED_VEHICLE" : -150
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Melee Weapons" : 10,
-            "Navigation/Any" : 15,
-            "Survival/Any" : 15
+            "Perception" : 15,
+            "Survival/Any" : 20
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_other_faction_hate" : -25,
-            "flaw_introvert" : -30
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

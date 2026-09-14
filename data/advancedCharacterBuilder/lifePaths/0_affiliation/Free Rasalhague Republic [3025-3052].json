@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "99fdbde1-0ee1-49ba-ab4a-c78662617c9b",
+    "id" : "2f59b200-d407-453c-a741-5df6e247835f",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,33 +24,36 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
+    "xpCost" : 100,
     "source" : "A Time of War",
-    "name" : "Hell's Horses [3062-3081]",
+    "name" : "Free Rasalhague Republic [3025-3052]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
+    "minimumYear" : 3025,
+    "maximumYear" : 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "SPECIAL_MERCENARY_IMPACT_FAME",
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CHH"
+            "FRR"
+        ],
+        "1" : [
+            "CS"
+        ],
+        "2" : [
+            "WOB"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : {
-        "0" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
-        ]
-    },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -72,8 +75,9 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "BODY" : 25,
-            "STRENGTH" : 25
+            "INTELLIGENCE" : 25,
+            "WILLPOWER" : 25,
+            "CHARISMA" : 25
         }
     },
     "fixedXPEdge" : { },
@@ -81,19 +85,23 @@
     "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Melee Weapons" : 10,
-            "Navigation/Any" : 15,
-            "Survival/Any" : 15
+            "Martial Arts" : 10,
+            "Protocols/Any" : 10,
+            "Negotiation" : 15,
+            "Small Arms" : 15,
+            "Language/Any" : 15
         }
     },
-    "fixedXPMetaSkills" : { },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 10
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_other_faction_hate" : -25,
-            "flaw_introvert" : -30
+            "compulsion_merc_hate" : -50
         }
     },
     "flexibleXPAttributes" : { },

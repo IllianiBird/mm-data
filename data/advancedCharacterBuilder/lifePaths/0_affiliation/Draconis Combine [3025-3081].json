@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "7f5715fa-e751-4197-9ba9-421d9cc841f4",
+    "id" : "9bf5a8de-bb2d-46a0-998d-bcdc826c19f3",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,25 +24,32 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -150,
+    "xpCost" : -76,
     "source" : "A Time of War",
-    "name" : "Homeworld Clan [3052-3081]",
+    "name" : "Draconis Combine [3025-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
+    "minimumYear" : 3025,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "SPECIAL_CHILD_LABOR_ENABLED",
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CLAN"
+            "DC"
+        ],
+        "1" : [
+            "CS"
+        ],
+        "2" : [
+            "WOB"
         ]
     },
     "requirementsSystems" : { },
@@ -55,60 +62,59 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : {
-        "0" : [
-            "CHH",
-            "CDS",
-            "CSR",
-            "CW",
-            "CNC",
-            "CJF",
-            "CGB",
-            "CWIE"
-        ]
-    },
+    "exclusionsFactions" : { },
     "exclusionsSystems" : { },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
     "exclusionsAttributes" : { },
     "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
-    "exclusionsTraits" : {
-        "0" : {
-            "EXTRA_INCOME" : 1,
-            "PROPERTY" : 1
-        }
-    },
+    "exclusionsTraits" : { },
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : { },
-    "fixedXPEdge" : { },
-    "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
-    "fixedXPSkills" : {
+    "fixedXPAttributes" : {
         "0" : {
-            "Protocols/Any" : 25,
-            "Interest/History" : 25
+            "WILLPOWER" : 50
         }
     },
+    "fixedXPEdge" : { },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "WEALTH" : -50
+        }
+    },
+    "fixedXPSkills" : { },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_other_faction_hate" : -100,
-            "compulsion_inner_sphere_hate" : -100
+            "compulsion_xenophobia" : -100
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Martial Arts" : 10,
+            "Protocols/Any" : 15,
+            "Art/Poetry" : 15
+        }
+    },
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPAbilities" : {
+        "0" : {
+            "pain_resistance" : 100,
+            "atow_combat_sense" : 100
+        }
+    },
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
 }

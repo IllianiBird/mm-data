@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "ad8e309c-5286-4c40-8306-71c36eeda5a2",
+    "id" : "692a6fdf-24e8-45e2-b15f-7c20ec853f1f",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,13 +24,13 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 110,
+    "xpCost" : -50,
     "source" : "A Time of War",
-    "name" : "Federated Suns [3067-3081]",
+    "name" : "Major Periphery [3025-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3067,
+    "minimumYear" : 3025,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -42,23 +42,37 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "FS"
+            "CIR"
         ],
         "1" : [
-            "CS"
+            "MOC"
         ],
         "2" : [
+            "MH"
+        ],
+        "3" : [
+            "OA"
+        ],
+        "4" : [
+            "TC"
+        ],
+        "5" : [
+            "CDP"
+        ],
+        "6" : [
+            "FR"
+        ],
+        "7" : [
+            "CS"
+        ],
+        "8" : [
             "WOB"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : { },
     "requirementsCategories" : { },
-    "requirementsAttributes" : {
-        "0" : {
-            "INTELLIGENCE" : 4
-        }
-    },
+    "requirementsAttributes" : { },
     "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : { },
@@ -79,12 +93,12 @@
     "fixedXPAttributes" : { },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
-    "fixedXPSkills" : {
+    "fixedXPTraits" : {
         "0" : {
-            "Protocols/Any" : 10
+            "ORIGIN_OWNED_VEHICLE" : -50
         }
     },
+    "fixedXPSkills" : { },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
@@ -95,15 +109,8 @@
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : {
-        "0" : {
-            "Protocols/Any" : 100,
-            "Strategy" : 100
-        }
-    },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPPickCounts" : { }
 }

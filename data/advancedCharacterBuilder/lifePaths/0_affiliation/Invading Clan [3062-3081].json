@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "99fdbde1-0ee1-49ba-ab4a-c78662617c9b",
+    "id" : "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,9 +24,9 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
+    "xpCost" : -100,
     "source" : "A Time of War",
-    "name" : "Hell's Horses [3062-3081]",
+    "name" : "Invading Clan [3062-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
@@ -34,7 +34,7 @@
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
         "GENERAL_CLAN"
@@ -42,15 +42,29 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
+            "CDS"
+        ],
+        "1" : [
             "CHH"
+        ],
+        "2" : [
+            "CJF"
+        ],
+        "3" : [
+            "CNC"
+        ],
+        "4" : [
+            "CSR"
+        ],
+        "5" : [
+            "CW"
+        ],
+        "6" : [
+            "CWIE"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : {
-        "0" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
-        ]
-    },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -66,25 +80,23 @@
     "exclusionsAttributes" : { },
     "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
-    "exclusionsTraits" : { },
+    "exclusionsTraits" : {
+        "0" : {
+            "EXTRA_INCOME" : 1,
+            "PROPERTY" : 1
+        }
+    },
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "BODY" : 25,
-            "STRENGTH" : 25
-        }
-    },
+    "fixedXPAttributes" : { },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Melee Weapons" : 10,
-            "Navigation/Any" : 15,
-            "Survival/Any" : 15
+            "Protocols/Any" : 25,
+            "Interest/History" : 25
         }
     },
     "fixedXPMetaSkills" : { },
@@ -92,8 +104,8 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_other_faction_hate" : -25,
-            "flaw_introvert" : -30
+            "compulsion_unpleasant_personality" : -50,
+            "compulsion_inner_sphere_hate" : -100
         }
     },
     "flexibleXPAttributes" : { },

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "692a6fdf-24e8-45e2-b15f-7c20ec853f1f",
+    "id" : "a3a4dd79-0fa9-4c94-8981-9c56421964da",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,49 +24,43 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -50,
-    "source" : "A Time of War",
-    "name" : "Major Periphery [3052-3081]",
+    "xpCost" : -100,
+    "source" : "Era Report 3052",
+    "name" : "Invading Clan [3025-3052]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3081,
+    "minimumYear" : 3025,
+    "maximumYear" : 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CIR"
+            "CDS"
         ],
         "1" : [
-            "MOC"
+            "CGB"
         ],
         "2" : [
-            "MH"
+            "CJF"
         ],
         "3" : [
-            "OA"
+            "CNC"
         ],
         "4" : [
-            "TC"
+            "CSJ"
         ],
         "5" : [
-            "CDP"
+            "CSV"
         ],
         "6" : [
-            "FR"
-        ],
-        "7" : [
-            "CS"
-        ],
-        "8" : [
-            "WOB"
+            "CW"
         ]
     },
     "requirementsSystems" : { },
@@ -86,23 +80,34 @@
     "exclusionsAttributes" : { },
     "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
-    "exclusionsTraits" : { },
+    "exclusionsTraits" : {
+        "0" : {
+            "EXTRA_INCOME" : 1,
+            "PROPERTY" : 1
+        }
+    },
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : { },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
+    "fixedXPTraits" : { },
+    "fixedXPSkills" : {
         "0" : {
-            "ORIGIN_OWNED_VEHICLE" : -50
+            "Protocols/Any" : 25,
+            "Interest/History" : 25
         }
     },
-    "fixedXPSkills" : { },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_unpleasant_personality" : -50,
+            "compulsion_inner_sphere_hate" : -100
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

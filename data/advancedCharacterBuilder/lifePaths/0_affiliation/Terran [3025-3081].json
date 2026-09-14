@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "99fdbde1-0ee1-49ba-ab4a-c78662617c9b",
+    "id" : "4b3b4393-3cef-418c-b72d-a2eb84a1c8bc",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,33 +24,36 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
+    "xpCost" : 45,
     "source" : "A Time of War",
-    "name" : "Hell's Horses [3062-3081]",
+    "name" : "Terran [3025-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
+    "minimumYear" : 3025,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CHH"
+            "CS"
+        ],
+        "1" : [
+            "WOB"
         ]
     },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : {
+    "requirementsSystems" : {
         "0" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
+            "Terra"
         ]
     },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -72,19 +75,21 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "BODY" : 25,
-            "STRENGTH" : 25
+            "INTELLIGENCE" : 100
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : -150
+    },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "FAME" : 100
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Melee Weapons" : 10,
-            "Navigation/Any" : 15,
-            "Survival/Any" : 15
+            "Language/Any" : 20
         }
     },
     "fixedXPMetaSkills" : { },
@@ -92,11 +97,19 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_other_faction_hate" : -25,
-            "flaw_introvert" : -30
+            "compulsion_unpleasant_personality" : -75
         }
     },
-    "flexibleXPAttributes" : { },
+    "flexibleXPAttributes" : {
+        "0" : {
+            "CHARISMA" : 50,
+            "DEXTERITY" : 50,
+            "WILLPOWER" : 50,
+            "REFLEXES" : 50,
+            "BODY" : 50,
+            "STRENGTH" : 50
+        }
+    },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
@@ -105,5 +118,7 @@
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
 }

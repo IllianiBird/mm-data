@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "54333746-ae50-4169-8ace-94e559f4d588",
+    "id" : "ad8e309c-5286-4c40-8306-71c36eeda5a2",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,13 +24,13 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 0,
+    "xpCost" : 110,
     "source" : "A Time of War",
-    "name" : "Independent [3052-3081]",
+    "name" : "Federated Suns [3025-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
+    "minimumYear" : 3025,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -41,30 +41,24 @@
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
-        "2" : [
-            "IND"
-        ],
-        "3" : [
-            "MERC"
-        ],
-        "4" : [
-            "PIR"
-        ],
-        "5" : [
-            "TD"
-        ]
-    },
-    "requirementsSystems" : {
         "0" : [
-            "Antallos (Port Krin)"
+            "FS"
         ],
         "1" : [
-            "Astrokaszy"
+            "CS"
+        ],
+        "2" : [
+            "WOB"
         ]
     },
+    "requirementsSystems" : { },
     "requirementsLifePath" : { },
     "requirementsCategories" : { },
-    "requirementsAttributes" : { },
+    "requirementsAttributes" : {
+        "0" : {
+            "INTELLIGENCE" : 4
+        }
+    },
     "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : { },
@@ -82,23 +76,15 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "WILLPOWER" : 20
-        }
-    },
-    "fixedXPEdge" : {
-        "0" : 20
-    },
+    "fixedXPAttributes" : { },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
+    "fixedXPTraits" : { },
+    "fixedXPSkills" : {
         "0" : {
-            "ORIGIN_OWNED_VEHICLE" : -20,
-            "FAME" : -10,
-            "WEALTH" : -10
+            "Protocols/Any" : 10
         }
     },
-    "fixedXPSkills" : { },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
@@ -109,8 +95,15 @@
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudes" : {
+        "0" : {
+            "Protocols/Any" : 100,
+            "Strategy" : 100
+        }
+    },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
 }

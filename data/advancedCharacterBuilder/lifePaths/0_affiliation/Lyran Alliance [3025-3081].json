@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "4b3b4393-3cef-418c-b72d-a2eb84a1c8bc",
+    "id" : "d79b61b0-872c-48c4-ae2d-a0600afab9c1",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,13 +24,13 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 45,
+    "xpCost" : -10,
     "source" : "A Time of War",
-    "name" : "Terran [3052-3081]",
+    "name" : "Lyran Alliance [3025-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
+    "minimumYear" : 3025,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -42,17 +42,16 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CS"
+            "LA"
         ],
         "1" : [
+            "CS"
+        ],
+        "2" : [
             "WOB"
         ]
     },
-    "requirementsSystems" : {
-        "0" : [
-            "Terra"
-        ]
-    },
+    "requirementsSystems" : { },
     "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
@@ -75,41 +74,31 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "INTELLIGENCE" : 100
+            "WILLPOWER" : -50
         }
     },
     "fixedXPEdge" : {
-        "0" : -150
+        "0" : -50
     },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : 100
+            "EXTRA_INCOME" : 50,
+            "WEALTH" : 100
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Language/Any" : 20
+            "Protocols/Any" : 15,
+            "Negotiation" : 15,
+            "Appraisal" : 10
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_unpleasant_personality" : -75
-        }
-    },
-    "flexibleXPAttributes" : {
-        "0" : {
-            "CHARISMA" : 50,
-            "DEXTERITY" : 50,
-            "WILLPOWER" : 50,
-            "REFLEXES" : 50,
-            "BODY" : 50,
-            "STRENGTH" : 50
-        }
-    },
+    "fixedXPAbilities" : { },
+    "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
@@ -117,7 +106,12 @@
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : { },
+    "flexibleXPAbilities" : {
+        "0" : {
+            "atow_combat_paralysis" : -100,
+            "flaw_glass_jaw" : -100
+        }
+    },
     "flexibleXPPickCounts" : {
         "0" : 1
     }

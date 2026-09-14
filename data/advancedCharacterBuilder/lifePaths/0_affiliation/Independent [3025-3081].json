@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "dcac9016-cc83-4652-b242-6ebdf1fd8fdb",
+    "id" : "54333746-ae50-4169-8ace-94e559f4d588",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 90,
+    "xpCost" : 0,
     "source" : "A Time of War",
-    "name" : "Federated Commonwealth - Davion Heritage [3052-3067]",
+    "name" : "Independent [3025-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3067,
+    "minimumYear" : 3025,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
@@ -41,27 +41,30 @@
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
-        "0" : [
-            "FS"
-        ],
-        "1" : [
-            "CS"
-        ],
         "2" : [
-            "WOB"
+            "IND"
         ],
         "3" : [
-            "FC"
+            "MERC"
+        ],
+        "4" : [
+            "PIR"
+        ],
+        "5" : [
+            "TD"
         ]
     },
-    "requirementsSystems" : { },
+    "requirementsSystems" : {
+        "0" : [
+            "Antallos (Port Krin)"
+        ],
+        "1" : [
+            "Astrokaszy"
+        ]
+    },
     "requirementsLifePath" : { },
     "requirementsCategories" : { },
-    "requirementsAttributes" : {
-        "0" : {
-            "INTELLIGENCE" : 4
-        }
-    },
+    "requirementsAttributes" : { },
     "requirementsEdge" : { },
     "requirementsFlexibleAttribute" : { },
     "requirementsTraits" : { },
@@ -79,39 +82,35 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : { },
-    "fixedXPEdge" : { },
-    "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
-    "fixedXPSkills" : {
+    "fixedXPAttributes" : {
         "0" : {
-            "Protocols/Any" : 25,
-            "Language/Any" : 15
+            "WILLPOWER" : 20
         }
     },
+    "fixedXPEdge" : {
+        "0" : 20
+    },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "ORIGIN_OWNED_VEHICLE" : -20,
+            "FAME" : -10,
+            "WEALTH" : -10
+        }
+    },
+    "fixedXPSkills" : { },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_parent_faction_dislike" : -50
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : {
-        "0" : {
-            "Protocols/Any" : 100,
-            "Strategy" : 100
-        }
-    },
+    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPPickCounts" : { }
 }

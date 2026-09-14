@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "832e5d21-1a6d-4209-a243-187b2e74ff4c",
+    "id" : "44394dc9-5abf-4e2a-befe-8ea27af17832",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,34 +24,32 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -35,
+    "xpCost" : 25,
     "source" : "A Time of War",
-    "name" : "Federated Commonwealth - Steiner Heritage [3052-3067]",
+    "name" : "Free Worlds League [3025-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3067,
+    "minimumYear" : 3025,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
     ],
     "categories" : [
+        "SPECIAL_PROSTHETICS_IMPACT_FAME",
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "LA"
+            "FWL"
         ],
         "1" : [
             "CS"
         ],
         "2" : [
             "WOB"
-        ],
-        "3" : [
-            "FC"
         ]
     },
     "requirementsSystems" : { },
@@ -75,37 +73,23 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "WILLPOWER" : -50
-        }
-    },
-    "fixedXPEdge" : {
-        "0" : -50
-    },
+    "fixedXPAttributes" : { },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "EXTRA_INCOME" : 50,
-            "WEALTH" : 100
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 30,
-            "Negotiation" : 15,
-            "Appraisal" : 10,
-            "Language/Any" : 10
+            "Language/Any" : 15
         }
     },
-    "fixedXPMetaSkills" : { },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_ART" : 10
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_parent_faction_dislike" : -50
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
@@ -114,13 +98,6 @@
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : {
-        "0" : {
-            "atow_combat_paralysis" : -100,
-            "flaw_glass_jaw" : -100
-        }
-    },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
 }

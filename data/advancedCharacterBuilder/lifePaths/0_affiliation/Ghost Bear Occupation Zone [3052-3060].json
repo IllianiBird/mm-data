@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "1119e117-bc78-40a8-a466-dea8e6ee384e",
+    "id" : "53dddad8-01c1-4d29-9d18-d7ce7c1594f6",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,29 +24,30 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
-    "source" : "A Time of War",
-    "name" : "Liao Commonality [3052-3062]",
+    "xpCost" : 25,
+    "source" : "A Time of War (Free Rasalhague Republic)",
+    "name" : "Ghost Bear Occupation Zone [3052-3060]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3057,
-    "maximumYear" : 3062,
+    "minimumYear" : 3052,
+    "maximumYear" : 3060,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "SPECIAL_MERCENARY_IMPACT_FAME",
+        "GENERAL_CLAN_RULED_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : { },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : {
+    "requirementsFactions" : {
         "0" : [
-            "a48271b6-f827-468d-8db4-b0673c790f9c"
+            "CGB"
         ]
     },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -68,36 +69,27 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "INTELLIGENCE" : 50,
-            "WILLPOWER" : 50
+            "WILLPOWER" : 25
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : -25
+    },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "FAME" : -50
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 20,
-            "Martial Arts" : 15,
-            "Language/Any" : 25
+            "Negotiation" : 15
         }
     },
     "fixedXPMetaSkills" : {
         "0" : {
-            "ROLEPLAY_ART" : 15
+            "ROLEPLAY_INTEREST" : 10
         }
     },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_mild_paranoia" : -50
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

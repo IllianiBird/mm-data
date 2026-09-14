@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "795c5bc6-c78c-426e-85a7-d3fd8db7f4d3",
+    "id" : "42b0ce1f-20ca-4ae0-b96a-2c6074e510d2",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,26 +24,28 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -115,
-    "source" : "A Time of War",
-    "name" : "Minor Periphery [3052-3081]",
+    "xpCost" : 25,
+    "source" : "Era Report 3052",
+    "name" : "Capellan Confederation [3025-3052]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3081,
+    "minimumYear" : 3025,
+    "maximumYear" : 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
     ],
     "categories" : [
-        "SPECIAL_MINOR_PERIPHERY",
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "Periphery"
+            "CC"
+        ],
+        "1" : [
+            "SIC"
         ]
     },
     "requirementsSystems" : { },
@@ -56,28 +58,8 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : {
-        "0" : [
-            "MOC",
-            "TD",
-            "OA",
-            "HL",
-            "NC",
-            "MH",
-            "FR",
-            "JF",
-            "CIR",
-            "CDP",
-            "UC",
-            "TC"
-        ]
-    },
-    "exclusionsSystems" : {
-        "0" : [
-            "Astrokaszy",
-            "Antallos (Port Krin)"
-        ]
-    },
+    "exclusionsFactions" : { },
+    "exclusionsSystems" : { },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
     "exclusionsAttributes" : { },
@@ -87,24 +69,30 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : { },
-    "fixedXPEdge" : { },
-    "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
+    "fixedXPAttributes" : {
         "0" : {
-            "ORIGIN_OWNED_VEHICLE" : -150
+            "WILLPOWER" : 75
         }
     },
+    "fixedXPEdge" : { },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
+            "Protocols/Any" : 15,
             "Perception" : 15,
-            "Survival/Any" : 20
+            "Language/Any" : 20
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_mild_paranoia" : -150,
+            "exceptional_attribute_edge" : 50
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

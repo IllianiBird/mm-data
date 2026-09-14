@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "d79b61b0-872c-48c4-ae2d-a0600afab9c1",
+    "id" : "fe8d4be3-5efb-4b45-ac4c-64b17a186ac8",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,31 +24,25 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -10,
+    "xpCost" : -150,
     "source" : "A Time of War",
-    "name" : "Lyran Alliance [3067-3081]",
+    "name" : "Homeworld Clan [3062-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3067,
+    "minimumYear" : 3062,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "LA"
-        ],
-        "1" : [
-            "CS"
-        ],
-        "2" : [
-            "WOB"
+            "CLAN"
         ]
     },
     "requirementsSystems" : { },
@@ -61,43 +55,52 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : { },
+    "exclusionsFactions" : {
+        "0" : [
+            "CHH",
+            "CDS",
+            "CSR",
+            "CW",
+            "CNC",
+            "CJF",
+            "CGB",
+            "CWIE"
+        ]
+    },
     "exclusionsSystems" : { },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
     "exclusionsAttributes" : { },
     "exclusionsEdge" : { },
     "exclusionsFlexibleAttribute" : { },
-    "exclusionsTraits" : { },
+    "exclusionsTraits" : {
+        "0" : {
+            "EXTRA_INCOME" : 1,
+            "PROPERTY" : 1
+        }
+    },
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "WILLPOWER" : -50
-        }
-    },
-    "fixedXPEdge" : {
-        "0" : -50
-    },
+    "fixedXPAttributes" : { },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "EXTRA_INCOME" : 50,
-            "WEALTH" : 100
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Negotiation" : 15,
-            "Appraisal" : 10
+            "Protocols/Any" : 25,
+            "Interest/History" : 25
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_other_faction_hate" : -100,
+            "compulsion_inner_sphere_hate" : -100
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
@@ -106,13 +109,6 @@
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : {
-        "0" : {
-            "atow_combat_paralysis" : -100,
-            "flaw_glass_jaw" : -100
-        }
-    },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
 }
