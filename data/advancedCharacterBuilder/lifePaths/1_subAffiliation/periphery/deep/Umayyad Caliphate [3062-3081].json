@@ -1,0 +1,152 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+"id": "db7e9747-781d-4183-a2c8-e0c13d63ba5d",
+"version": {
+"major": 0,
+"minor": 51,
+"patch": 1,
+"revision": 0,
+"extra": ""
+},
+"xpCost": 70,
+"source": "A Time of War",
+"name" : "Umayyad Caliphate [3062-3081]",
+"flavorText": "",
+"age": 0,
+"xpDiscount": 0,
+"minimumYear": 3062,
+"maximumYear" : 3081,
+"randomWeight": 1.0,
+"lifeStages": [
+"SUB_AFFILIATION"
+],
+"categories": [
+"GENERAL_INNER_SPHERE",
+"SPECIAL_NOBLE_OFFICERS",
+"SPECIAL_NOBLE_WARRIORS",
+"SPECIAL_COMBAT_PARALYSIS_IMPACT_FAME",
+"SPECIAL_NOBLE_MEKWARRIORS"
+],
+"isPlayerRestricted": false,
+"requirementsFactions": {
+"0": [
+"UC"
+]
+},
+"requirementsSystems": {},
+"requirementsLifePath": {
+"0": [
+"02c4bb02-75dc-4c3f-b250-b5182a03ebbd"
+]
+},
+"requirementsCategories": {},
+"requirementsAttributes": {},
+"requirementsEdge": {},
+"requirementsFlexibleAttribute": {},
+"requirementsTraits": {},
+"requirementsSkills": {},
+"requirementsMetaSkills": {},
+"requirementsAbilities": {},
+"exclusionsFactions": {},
+"exclusionsSystems": {},
+"exclusionsLifePath": {},
+"exclusionsCategories": {},
+"exclusionsAttributes": {},
+"exclusionsEdge": {},
+"exclusionsFlexibleAttribute": {},
+"exclusionsTraits": {},
+"exclusionsSkills": {},
+"exclusionsMetaSkills": {},
+"exclusionsAbilities": {},
+"fixedXPAttributes": {
+"0": {
+"DEXTERITY": 20
+}
+},
+"fixedXPEdge": {},
+"fixedXPFlexibleAttribute": {},
+"fixedXPTraits": {},
+"fixedXPSkills": {
+"0": {
+"Protocols/Any": 20
+}
+},
+"fixedXPMetaSkills": {
+"0": {
+"ROLEPLAY_INTEREST": 10,
+"ROLEPLAY_ART": 10
+}
+},
+"fixedXPNaturalAptitudes": {},
+"fixedXPNaturalAptitudesMetaSkills": {},
+"fixedXPAbilities": {
+"0": {
+"compulsion_xenophobia": -10
+}
+},
+"flexibleXPAttributes": {
+"0": {
+"INTELLIGENCE": 10,
+"WILLPOWER": 10,
+"DEXTERITY": 10,
+"REFLEXES": 10,
+"CHARISMA": 10,
+"STRENGTH": 10,
+"BODY": 10
+}
+},
+"flexibleXPEdge": {
+"0": 10
+},
+"flexibleXPFlexibleAttribute": {},
+"flexibleXPTraits": {
+"0": {
+"CONNECTIONS": 10,
+"ORIGIN_OWNED_VEHICLE": 10,
+"ORIGIN_RANK": 10,
+"EXTRA_INCOME": 10,
+"PROPERTY": 10,
+"TITLE": 10,
+"FAME": 10,
+"WEALTH": 10
+}
+},
+"flexibleXPSkills": {},
+"flexibleXPMetaSkills": {
+"0": {
+"ROLEPLAY_SCIENCE": 10,
+"ROLEPLAY_INTEREST": 10,
+"COMBAT_PILOTING": 10,
+"SUPPORT_TECHNICIAN": 10,
+"COMBAT_GUNNERY": 10,
+"ROLEPLAY_SECURITY": 10,
+"ROLEPLAY_GENERAL": 10,
+"SUPPORT": 10,
+"ROLEPLAY_ART": 10,
+"UTILITY_COMMAND": 10,
+"UTILITY": 10
+}
+},
+"flexibleXPNaturalAptitudes": {},
+"flexibleXPNaturalAptitudesMetaSkills": {},
+"flexibleXPAbilities": {},
+"flexibleXPPickCounts": {
+"0": 2
+}
+}

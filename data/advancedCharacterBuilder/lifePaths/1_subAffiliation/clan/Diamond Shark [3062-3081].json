@@ -1,0 +1,111 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+"id": "a3e552c3-8fe0-43eb-b645-6224878be10f",
+"version": {
+"major": 0,
+"minor": 51,
+"patch": 1,
+"revision": 0,
+"extra": ""
+},
+"xpCost": 50,
+"source": "A Time of War",
+"name" : "Diamond Shark [3062-3081]",
+"flavorText": "",
+"age": 0,
+"xpDiscount": 0,
+"minimumYear": 3062,
+"maximumYear" : 3081,
+"randomWeight": 1.0,
+"lifeStages": [
+"SUB_AFFILIATION"
+],
+"categories": [
+"GENERAL_CLAN"
+],
+"isPlayerRestricted" : false,
+"requirementsFactions": {
+"0": [
+"CDS"
+]
+},
+"requirementsSystems": {},
+"requirementsLifePath": {
+"0": [
+"d819202f-c25e-4900-8a08-979ece2e22de"
+]
+},
+"requirementsCategories": {},
+"requirementsAttributes": {},
+"requirementsEdge": {},
+"requirementsFlexibleAttribute": {},
+"requirementsTraits": {},
+"requirementsSkills": {},
+"requirementsMetaSkills": {},
+"requirementsAbilities": {},
+"exclusionsFactions": {},
+"exclusionsSystems": {},
+"exclusionsLifePath": {},
+"exclusionsCategories": {},
+"exclusionsAttributes": {},
+"exclusionsEdge": {},
+"exclusionsFlexibleAttribute": {},
+"exclusionsTraits": {},
+"exclusionsSkills": {},
+"exclusionsMetaSkills": {},
+"exclusionsAbilities": {},
+"fixedXPAttributes": {
+"0": {
+"STRENGTH": -45,
+"INTELLIGENCE": 25
+}
+},
+"fixedXPEdge": {
+"0": -50
+},
+"fixedXPFlexibleAttribute": {},
+"fixedXPTraits": {
+"0": {
+"WEALTH": 30,
+"CONNECTIONS": 25,
+"ORIGIN_OWNED_VEHICLE": 25
+}
+},
+"fixedXPSkills": {
+"0": {
+"Protocols/Any": 10,
+"Negotiation": 20,
+"Perception": 10
+}
+},
+"fixedXPMetaSkills": {},
+"fixedXPNaturalAptitudes": {},
+"fixedXPNaturalAptitudesMetaSkills": {},
+"fixedXPAbilities": {},
+"flexibleXPAttributes": {},
+"flexibleXPEdge": {},
+"flexibleXPFlexibleAttribute": {},
+"flexibleXPTraits": {},
+"flexibleXPSkills": {},
+"flexibleXPMetaSkills": {},
+"flexibleXPNaturalAptitudes": {},
+"flexibleXPNaturalAptitudesMetaSkills": {},
+"flexibleXPAbilities": {},
+"flexibleXPPickCounts": {}
+}

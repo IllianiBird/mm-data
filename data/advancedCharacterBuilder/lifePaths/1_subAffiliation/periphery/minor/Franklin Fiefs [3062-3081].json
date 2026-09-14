@@ -1,0 +1,149 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+"id": "2594bee9-3ce3-4d58-ad05-583e1694a5a4",
+"version": {
+"major": 0,
+"minor": 51,
+"patch": 1,
+"revision": 0,
+"extra": ""
+},
+"xpCost": 190,
+"source": "A Time of War",
+"name" : "Franklin Fiefs [3062-3081]",
+"flavorText": "",
+"age": 0,
+"xpDiscount": 0,
+"minimumYear": 3062,
+"maximumYear" : 3081,
+"randomWeight": 1.0,
+"lifeStages": [
+"SUB_AFFILIATION"
+],
+"categories": [
+"SPECIAL_FRANKLIN_FIEFS_RESTRICTIONS",
+"SPECIAL_TITLE_REQUIRES_CITIZENSHIP",
+"GENERAL_INNER_SPHERE"
+],
+"isPlayerRestricted": false,
+"requirementsFactions": {},
+"requirementsSystems": {
+"0": [
+"Novo Franklin"
+]
+},
+"requirementsLifePath": {
+"0": [
+"795c5bc6-c78c-426e-85a7-d3fd8db7f4d3"
+]
+},
+"requirementsCategories": {},
+"requirementsAttributes": {},
+"requirementsEdge": {},
+"requirementsFlexibleAttribute": {},
+"requirementsTraits": {},
+"requirementsSkills": {},
+"requirementsMetaSkills": {},
+"requirementsAbilities": {},
+"exclusionsFactions": {},
+"exclusionsSystems": {},
+"exclusionsLifePath": {},
+"exclusionsCategories": {},
+"exclusionsAttributes": {},
+"exclusionsEdge": {},
+"exclusionsFlexibleAttribute": {},
+"exclusionsTraits": {},
+"exclusionsSkills": {},
+"exclusionsMetaSkills": {},
+"exclusionsAbilities": {},
+"fixedXPAttributes": {
+"0": {
+"INTELLIGENCE": -100,
+"WILLPOWER": 50,
+"BODY": 150
+}
+},
+"fixedXPEdge": {},
+"fixedXPFlexibleAttribute": {},
+"fixedXPTraits": {
+"0": {
+"ORIGIN_OWNED_VEHICLE": -60
+}
+},
+"fixedXPSkills": {
+"0": {
+"Martial Arts": 15,
+"Protocols/Any": 10,
+"Streetwise/Any": 10,
+"MedTech/Any": 10,
+"Survival/Any": 10
+}
+},
+"fixedXPMetaSkills": {},
+"fixedXPNaturalAptitudes": {},
+"fixedXPNaturalAptitudesMetaSkills": {},
+"fixedXPAbilities": {
+"0": {
+"flaw_illiterate": -90,
+"atow_toughness": 100
+}
+},
+"flexibleXPAttributes": {
+"1": {
+"INTELLIGENCE": 25,
+"DEXTERITY": 25,
+"REFLEXES": 25,
+"WILLPOWER": 25,
+"STRENGTH": 25,
+"BODY": 25,
+"CHARISMA": 25
+}
+},
+"flexibleXPEdge": {
+"1": 25
+},
+"flexibleXPFlexibleAttribute": {},
+"flexibleXPTraits": {
+"1": {
+"PROPERTY": 25,
+"TITLE": 25,
+"EXTRA_INCOME": 25,
+"FAME": 25,
+"CONNECTIONS": 25,
+"ORIGIN_OWNED_VEHICLE": 25,
+"ORIGIN_RANK": 25,
+"WEALTH": 25
+}
+},
+"flexibleXPSkills": {
+"0": {
+"Negotiation": 10,
+"Archery": 10,
+"Melee Weapons": 10
+}
+},
+"flexibleXPMetaSkills": {},
+"flexibleXPNaturalAptitudes": {},
+"flexibleXPNaturalAptitudesMetaSkills": {},
+"flexibleXPAbilities": {},
+"flexibleXPPickCounts": {
+"0": 1,
+"1": 3
+}
+}

@@ -1,0 +1,123 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+"id": "ca02baf2-a657-4415-8c13-2a6669e35b42",
+"version": {
+"major": 0,
+"minor": 51,
+"patch": 1,
+"revision": 0,
+"extra": ""
+},
+"xpCost": 110,
+"source": "A Time of War",
+"name" : "Lunar Citizen [3068-3081]",
+"flavorText": "",
+"age": 0,
+"xpDiscount": 0,
+"minimumYear": 3068,
+"maximumYear" : 3081,
+"randomWeight": 0.01,
+"lifeStages": [
+"SUB_AFFILIATION"
+],
+"categories": [
+"GENERAL_INNER_SPHERE"
+],
+"isPlayerRestricted" : false,
+"requirementsFactions": {},
+"requirementsSystems": {},
+"requirementsLifePath": {
+"0": [
+"4b3b4393-3cef-418c-b72d-a2eb84a1c8bc"
+]
+},
+"requirementsCategories": {},
+"requirementsAttributes": {},
+"requirementsEdge": {},
+"requirementsFlexibleAttribute": {},
+"requirementsTraits": {},
+"requirementsSkills": {},
+"requirementsMetaSkills": {},
+"requirementsAbilities": {},
+"exclusionsFactions": {},
+"exclusionsSystems": {},
+"exclusionsLifePath": {},
+"exclusionsCategories": {},
+"exclusionsAttributes": {},
+"exclusionsEdge": {},
+"exclusionsFlexibleAttribute": {},
+"exclusionsTraits": {},
+"exclusionsSkills": {},
+"exclusionsMetaSkills": {},
+"exclusionsAbilities": {},
+"fixedXPAttributes": {
+"0": {
+"STRENGTH": -20,
+"INTELLIGENCE": 50,
+"BODY": -25,
+"WILLPOWER": 65
+}
+},
+"fixedXPEdge": {
+"0": -25
+},
+"fixedXPFlexibleAttribute": {},
+"fixedXPTraits": {
+"0": {
+"ORIGIN_OWNED_VEHICLE": 25,
+"WEALTH": 50
+}
+},
+"fixedXPSkills": {},
+"fixedXPMetaSkills": {
+"0": {
+"SUPPORT_TECHNICIAN": 5
+}
+},
+"fixedXPNaturalAptitudes": {},
+"fixedXPNaturalAptitudesMetaSkills": {},
+"fixedXPAbilities": {
+"0": {
+"flaw_poor_vision": -25
+}
+},
+"flexibleXPAttributes": {},
+"flexibleXPEdge": {},
+"flexibleXPFlexibleAttribute": {},
+"flexibleXPTraits": {},
+"flexibleXPSkills": {
+"0": {
+"Computers": 10,
+"Zero-G Operations": 10,
+"Survival/Any": 10
+}
+},
+"flexibleXPMetaSkills": {
+"0": {
+"ROLEPLAY_INTEREST": 10,
+"ROLEPLAY_ART": 10
+}
+},
+"flexibleXPNaturalAptitudes": {},
+"flexibleXPNaturalAptitudesMetaSkills": {},
+"flexibleXPAbilities": {},
+"flexibleXPPickCounts": {
+"0": 1
+}
+}

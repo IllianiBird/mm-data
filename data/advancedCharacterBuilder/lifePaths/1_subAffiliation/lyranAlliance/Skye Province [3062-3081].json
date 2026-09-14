@@ -1,0 +1,104 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+"id": "2587d011-3613-4295-ae68-df0a68517020",
+"version": {
+"major": 0,
+"minor": 51,
+"patch": 1,
+"revision": 0,
+"extra": ""
+},
+"xpCost": 60,
+"source": "A Time of War",
+"name" : "Skye Province [3062-3081]",
+"flavorText": "",
+"age": 0,
+"xpDiscount": 0,
+"minimumYear": 0,
+"maximumYear" : 9999,
+"randomWeight": 1.0,
+"lifeStages": [
+"SUB_AFFILIATION"
+],
+"categories": [
+"GENERAL_INNER_SPHERE"
+],
+"isPlayerRestricted" : false,
+"requirementsFactions": {},
+"requirementsSystems": {},
+"requirementsLifePath": {
+"0": [
+"d79b61b0-872c-48c4-ae2d-a0600afab9c1"
+]
+},
+"requirementsCategories": {},
+"requirementsAttributes": {},
+"requirementsEdge": {},
+"requirementsFlexibleAttribute": {},
+"requirementsTraits": {},
+"requirementsSkills": {},
+"requirementsMetaSkills": {},
+"requirementsAbilities": {},
+"exclusionsFactions": {},
+"exclusionsSystems": {},
+"exclusionsLifePath": {},
+"exclusionsCategories": {},
+"exclusionsAttributes": {},
+"exclusionsEdge": {},
+"exclusionsFlexibleAttribute": {},
+"exclusionsTraits": {},
+"exclusionsSkills": {},
+"exclusionsMetaSkills": {},
+"exclusionsAbilities": {},
+"fixedXPAttributes": {
+"0": {
+"WILLPOWER": 100
+}
+},
+"fixedXPEdge": {},
+"fixedXPFlexibleAttribute": {},
+"fixedXPTraits": {
+"0": {
+"FAME": -150,
+"CONNECTIONS": 85
+}
+},
+"fixedXPSkills": {
+"0": {
+"Protocols/Any": -15,
+"Negotiation": 15,
+"Streetwise/Any": 15,
+"Language/Any": 10
+}
+},
+"fixedXPMetaSkills": {},
+"fixedXPNaturalAptitudes": {},
+"fixedXPNaturalAptitudesMetaSkills": {},
+"fixedXPAbilities": {},
+"flexibleXPAttributes": {},
+"flexibleXPEdge": {},
+"flexibleXPFlexibleAttribute": {},
+"flexibleXPTraits": {},
+"flexibleXPSkills": {},
+"flexibleXPMetaSkills": {},
+"flexibleXPNaturalAptitudes": {},
+"flexibleXPNaturalAptitudesMetaSkills": {},
+"flexibleXPAbilities": {},
+"flexibleXPPickCounts": {}
+}
