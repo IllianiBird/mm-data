@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "d24b5f8b-ab9d-4a65-adf2-d1efe7b48b7f",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,32 +24,36 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 51,
+    "source" : "A Time of War",
+    "name" : "Tortuga [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
-    "randomWeight" : 1.0,
+    "maximumYear" : 3081,
+    "randomWeight" : 0.001,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_INNER_SPHERE",
+        "SPECIAL_NO_NOBLES",
+        "SPECIAL_LIMITED_SCHOOLING"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "TD",
+            "Periphery"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "54333746-ae50-4169-8ace-94e559f4d588"
+        ]
+    },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -71,17 +75,27 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "STRENGTH" : 10,
+            "WILLPOWER" : 20,
+            "CHARISMA" : -40,
+            "BODY" : 10
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "FAME" : -50
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "Martial Arts" : 10,
+            "Negotiation" : 10,
+            "Streetwise/Any" : 10,
+            "Running" : 1,
+            "Perception" : 10,
+            "Language/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -89,18 +103,28 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "pain_resistance" : 10,
+            "atow_toughness" : 10
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Small Arms" : 10,
+            "Acting" : 10,
+            "Melee Weapons" : 10,
+            "Survival/Any" : 10,
+            "Escape Artist" : 10
+        }
+    },
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 3
+    }
 }

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "18ff115e-3cb0-4cb4-a67c-2986f6350c2f",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,32 +24,29 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 0,
+    "source" : "A Time of War",
+    "name" : "Venusian Citizen [3052-3059]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
-    "randomWeight" : 1.0,
+    "maximumYear" : 3059,
+    "randomWeight" : 0.01,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : {
+    "requirementsFactions" : { },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "4b3b4393-3cef-418c-b72d-a2eb84a1c8bc"
         ]
     },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -71,17 +68,23 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "INTELLIGENCE" : -25,
+            "BODY" : 35
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "ORIGIN_OWNED_VEHICLE" : 25,
+            "FAME" : -25,
+            "WEALTH" : 15
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "Survival/Any" : 20,
+            "Language/Any" : -10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -89,18 +92,32 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "flaw_introvert" : -50
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Computers" : 15,
+            "Martial Arts" : 15,
+            "Melee Weapons" : 15,
+            "MedTech/Any" : 15
+        }
+    },
+    "flexibleXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 15,
+            "SUPPORT_TECHNICIAN" : 15,
+            "ROLEPLAY_ART" : 15
+        }
+    },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
 }

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "c1ae524c-0a27-4092-8004-6c4df439a757",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -25,31 +25,34 @@
         "extra" : ""
     },
     "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "source" : "A Time of War",
+    "name" : "Antallos [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_INNER_SPHERE",
+        "SPECIAL_NO_NOBLES",
+        "SPECIAL_LIMITED_SCHOOLING"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : {
+    "requirementsFactions" : { },
+    "requirementsSystems" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "Antallos (Port Krin)"
         ]
     },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "54333746-ae50-4169-8ace-94e559f4d588"
+        ]
+    },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -71,17 +74,23 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "WILLPOWER" : 10,
+            "CHARISMA" : -10,
+            "BODY" : 20
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "FAME" : -20
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "Streetwise/Any" : 10,
+            "Perception" : 10,
+            "Language/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -89,18 +98,30 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "pain_resistance" : 10,
+            "flaw_illiterate" : -20,
+            "atow_toughness" : 10
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Martial Arts" : 10,
+            "Small Arms" : 10,
+            "Acting" : 10,
+            "Melee Weapons" : 10,
+            "Survival/Any" : 10,
+            "Escape Artist" : 10
+        }
+    },
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 2
+    }
 }

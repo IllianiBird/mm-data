@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "a2bd8a1b-34f4-4cbe-a5ec-fd3219f3ec87",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,32 +24,29 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 105,
+    "source" : "A Time of War",
+    "name" : "Belter [3062-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : {
+    "requirementsFactions" : { },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "4b3b4393-3cef-418c-b72d-a2eb84a1c8bc"
         ]
     },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -71,17 +68,23 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "STRENGTH" : -25,
+            "BODY" : -25
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "FAME" : -50,
+            "WEALTH" : 50
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "Zero-G Operations" : 15,
+            "Navigation/Any" : 15,
+            "Survival/Any" : 15
         }
     },
     "fixedXPMetaSkills" : { },
@@ -89,18 +92,65 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "compulsion_xenophobia" : -100
         }
     },
-    "flexibleXPAttributes" : { },
+    "flexibleXPAttributes" : {
+        "0" : {
+            "STRENGTH" : 100,
+            "DEXTERITY" : 100,
+            "INTELLIGENCE" : 100,
+            "BODY" : 100,
+            "REFLEXES" : 100,
+            "WILLPOWER" : 100
+        }
+    },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
+    "flexibleXPTraits" : {
+        "1" : {
+            "ORIGIN_PROSTHETIC" : 50
+        }
+    },
+    "flexibleXPSkills" : {
+        "2" : {
+            "MedTech/Any" : 10,
+            "Sensor Operations" : 10,
+            "Language/Any" : 10
+        }
+    },
+    "flexibleXPMetaSkills" : {
+        "2" : {
+            "ROLEPLAY_INTEREST" : 10,
+            "SUPPORT_TECHNICIAN" : 10,
+            "COMBAT_PILOTING" : 10
+        }
+    },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
-    "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPAbilities" : {
+        "1" : {
+            "atow_attractive" : 50,
+            "atow_toughness" : 50,
+            "atow_fast_learner" : 50,
+            "exceptional_attribute_strength" : 50,
+            "exceptional_attribute_dexterity" : 50,
+            "atow_good_vision" : 50,
+            "atow_good_hearing" : 50,
+            "pain_resistance" : 50,
+            "atow_ambidextrous" : 50,
+            "exceptional_attribute_edge" : 50,
+            "exceptional_attribute_reflexes" : 50,
+            "exceptional_attribute_charisma" : 50,
+            "exceptional_attribute_willpower" : 50,
+            "atow_g_tolerance" : 50,
+            "exceptional_attribute_body" : 50,
+            "exceptional_attribute_intelligence" : 50
+        }
+    },
+    "flexibleXPPickCounts" : {
+        "0" : 1,
+        "1" : 2,
+        "2" : 1
+    }
 }

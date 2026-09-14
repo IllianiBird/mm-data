@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "d88cf8e2-01ca-4ece-96f0-0b0d06dee1b0",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,17 +24,17 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 150,
+    "source" : "A Time of War",
+    "name" : "Calderon Protectorate [3066-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "minimumYear" : 3066,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
@@ -42,14 +42,15 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "CDP"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "692a6fdf-24e8-45e2-b15f-7c20ec853f1f"
+        ]
+    },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -71,17 +72,21 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "WILLPOWER" : 150
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : 50
+    },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "Martial Arts" : 10,
+            "Negotiation" : 10,
+            "Streetwise/Any" : 15,
+            "Small Arms" : 15,
+            "Survival/Any" : 5
         }
     },
     "fixedXPMetaSkills" : { },
@@ -89,18 +94,57 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "compulsion_other_faction_dislike" : -75,
+            "compulsion_unpleasant_personality" : -75
         }
     },
-    "flexibleXPAttributes" : { },
-    "flexibleXPEdge" : { },
+    "flexibleXPAttributes" : {
+        "0" : {
+            "INTELLIGENCE" : 15,
+            "DEXTERITY" : 15,
+            "REFLEXES" : 15,
+            "WILLPOWER" : 15,
+            "STRENGTH" : 15,
+            "BODY" : 15,
+            "CHARISMA" : 15
+        }
+    },
+    "flexibleXPEdge" : {
+        "0" : 15
+    },
     "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : { },
+    "flexibleXPTraits" : {
+        "0" : {
+            "PROPERTY" : 15,
+            "TITLE" : 15,
+            "EXTRA_INCOME" : 15,
+            "FAME" : 15,
+            "CONNECTIONS" : 15,
+            "ORIGIN_OWNED_VEHICLE" : 15,
+            "ORIGIN_RANK" : 15,
+            "WEALTH" : 15
+        }
+    },
     "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
+    "flexibleXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_ART" : 15,
+            "ROLEPLAY_INTEREST" : 15,
+            "ROLEPLAY_SECURITY" : 15,
+            "SUPPORT_TECHNICIAN" : 15,
+            "COMBAT_GUNNERY" : 15,
+            "ROLEPLAY_SCIENCE" : 15,
+            "SUPPORT" : 15,
+            "ROLEPLAY_GENERAL" : 15,
+            "UTILITY_COMMAND" : 15,
+            "UTILITY" : 15,
+            "COMBAT_PILOTING" : 15
+        }
+    },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 3
+    }
 }

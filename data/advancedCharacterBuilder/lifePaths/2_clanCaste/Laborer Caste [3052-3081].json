@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "e03f93d1-f824-45a1-b61d-63563d13e829",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,28 +24,25 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 250,
+    "source" : "A Time of War",
+    "name" : "Laborer Caste [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "CLAN_CASTE"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "CLAN"
         ]
     },
     "requirementsSystems" : { },
@@ -58,7 +55,11 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : { },
+    "exclusionsFactions" : {
+        "0" : [
+            "BAN"
+        ]
+    },
     "exclusionsSystems" : { },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
@@ -71,7 +72,12 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "BODY" : 100,
+            "DEXTERITY" : 50,
+            "REFLEXES" : 50,
+            "INTELLIGENCE" : -50,
+            "STRENGTH" : 125,
+            "CHARISMA" : -50
         }
     },
     "fixedXPEdge" : { },
@@ -79,20 +85,17 @@
     "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "Career/Any" : 15
         }
     },
-    "fixedXPMetaSkills" : { },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 10
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

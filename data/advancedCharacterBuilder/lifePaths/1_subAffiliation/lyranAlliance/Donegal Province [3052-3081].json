@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "005932fb-f764-4739-9b1e-558e2c706973",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,32 +24,32 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 60,
+    "source" : "A Time of War",
+    "name" : "Donegal Province [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : {
+    "requirementsFactions" : { },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
         "0" : [
-            "CC"
+            "d79b61b0-872c-48c4-ae2d-a0600afab9c1"
         ],
         "1" : [
-            "SIC"
+            "832e5d21-1a6d-4209-a243-187b2e74ff4c"
         ]
     },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -71,17 +71,23 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "WILLPOWER" : 50
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "FAME" : -50,
+            "CONNECTIONS" : 50,
+            "WEALTH" : 50
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
             "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "Negotiation" : 10,
+            "Appraisal" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -89,8 +95,7 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "compulsion_unpleasant_personality" : -75
         }
     },
     "flexibleXPAttributes" : { },

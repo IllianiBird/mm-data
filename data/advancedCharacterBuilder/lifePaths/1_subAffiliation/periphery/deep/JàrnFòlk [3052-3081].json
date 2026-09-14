@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "32a41c3b-5688-4f2e-a421-902948d0cac0",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,32 +24,34 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 70,
+    "source" : "A Time of War",
+    "name" : "JàrnFòlk [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_INNER_SPHERE",
+        "SPECIAL_JARNFOLK_RESTRICTIONS"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "JF"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "02c4bb02-75dc-4c3f-b250-b5182a03ebbd"
+        ]
+    },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -71,36 +73,87 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "REFLEXES" : 20
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "WEALTH" : -10
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
             "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "Negotiation" : 15
         }
     },
     "fixedXPMetaSkills" : { },
-    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudes" : {
+        "0" : {
+            "Martial Arts" : 10
+        }
+    },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "compulsion_xenophobia" : -10
         }
     },
-    "flexibleXPAttributes" : { },
-    "flexibleXPEdge" : { },
+    "flexibleXPAttributes" : {
+        "0" : {
+            "INTELLIGENCE" : 10,
+            "WILLPOWER" : 10,
+            "DEXTERITY" : 10,
+            "REFLEXES" : 10,
+            "CHARISMA" : 10,
+            "STRENGTH" : 10,
+            "BODY" : 10
+        }
+    },
+    "flexibleXPEdge" : {
+        "0" : 10
+    },
     "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : { },
+    "flexibleXPTraits" : {
+        "0" : {
+            "CONNECTIONS" : 10,
+            "ORIGIN_OWNED_VEHICLE" : 10,
+            "ORIGIN_RANK" : 10,
+            "EXTRA_INCOME" : 10,
+            "PROPERTY" : 10,
+            "TITLE" : 10,
+            "FAME" : 10,
+            "WEALTH" : 10
+        }
+    },
     "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
+    "flexibleXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_SCIENCE" : 10,
+            "ROLEPLAY_INTEREST" : 10,
+            "COMBAT_PILOTING" : 10,
+            "SUPPORT_TECHNICIAN" : 10,
+            "COMBAT_GUNNERY" : 10,
+            "ROLEPLAY_SECURITY" : 10,
+            "ROLEPLAY_GENERAL" : 10,
+            "SUPPORT" : 10,
+            "ROLEPLAY_ART" : 10,
+            "UTILITY_COMMAND" : 10,
+            "UTILITY" : 10
+        },
+        "1" : {
+            "ROLEPLAY_INTEREST" : 10,
+            "SUPPORT_TECHNICIAN" : 10,
+            "ROLEPLAY_ART" : 10
+        }
+    },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 2,
+        "1" : 1
+    }
 }

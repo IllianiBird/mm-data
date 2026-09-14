@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "b331f12a-f98a-4508-95dd-1fc3b27c1e7b",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,32 +24,29 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 125,
+    "source" : "A Time of War",
+    "name" : "Other League World [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : {
+    "requirementsFactions" : { },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "44394dc9-5abf-4e2a-befe-8ea27af17832"
         ]
     },
-    "requirementsSystems" : { },
-    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -69,38 +66,65 @@
     "exclusionsSkills" : { },
     "exclusionsMetaSkills" : { },
     "exclusionsAbilities" : { },
-    "fixedXPAttributes" : {
-        "0" : {
-            "WILLPOWER" : 75
-        }
-    },
+    "fixedXPAttributes" : { },
     "fixedXPEdge" : { },
-    "fixedXPFlexibleAttribute" : { },
+    "fixedXPFlexibleAttribute" : {
+        "0" : 35
+    },
     "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
+            "Protocols/Any" : 10,
+            "Appraisal" : 15,
             "Language/Any" : 20
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
-    "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
+    "flexibleXPFlexibleAttribute" : {
+        "1" : 25
+    },
+    "flexibleXPTraits" : {
+        "1" : {
+            "PROPERTY" : 25,
+            "TITLE" : 25,
+            "EXTRA_INCOME" : 25,
+            "FAME" : 25,
+            "CONNECTIONS" : 25,
+            "ORIGIN_OWNED_VEHICLE" : 25,
+            "ORIGIN_RANK" : 25,
+            "WEALTH" : 25
+        }
+    },
+    "flexibleXPSkills" : {
+        "1" : {
+            "Language/Any" : 25
+        }
+    },
+    "flexibleXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_ART" : 10,
+            "ROLEPLAY_INTEREST" : 10,
+            "ROLEPLAY_SECURITY" : 10,
+            "SUPPORT_TECHNICIAN" : 10,
+            "ROLEPLAY_SCIENCE" : 10,
+            "COMBAT_GUNNERY" : 10,
+            "SUPPORT" : 10,
+            "ROLEPLAY_GENERAL" : 10,
+            "UTILITY" : 10,
+            "UTILITY_COMMAND" : 10,
+            "COMBAT_PILOTING" : 10
+        }
+    },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 2,
+        "1" : 1
+    }
 }

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "e126c55c-a561-486c-9414-249a36f71199",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,28 +24,28 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 30,
+    "source" : "A Time of War",
+    "name" : "Spacer [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
-    "randomWeight" : 1.0,
+    "maximumYear" : 3081,
+    "randomWeight" : 0.001,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_INNER_SPHERE",
+        "SPECIAL_NO_TRANSIT_DISORIENTATION_SYNDROME",
+        "SPECIAL_NO_TITLES"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "IS",
+            "Periphery"
         ]
     },
     "requirementsSystems" : { },
@@ -71,36 +71,58 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "STRENGTH" : -10,
+            "REFLEXES" : 10,
+            "DEXTERITY" : 10,
+            "BODY" : -20
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "ORIGIN_OWNED_VEHICLE" : 10
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "Zero-G Operations" : 10,
+            "Career/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
-    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudes" : {
+        "0" : {
+            "Zero-G Operations" : 20
+        }
+    },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "flaw_introvert" : -20
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Negotiation" : 10,
+            "Navigation/Any" : 10,
+            "Appraisal" : 10,
+            "Sensor Operations" : 10
+        }
+    },
+    "flexibleXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 10
+        }
+    },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
 }

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "71cb7296-f73e-428c-8782-41fba9ce2775",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,28 +24,25 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 125,
+    "source" : "A Time of War",
+    "name" : "Aerospace - Naval [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "CLAN_CASTE"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "CSR"
         ]
     },
     "requirementsSystems" : { },
@@ -71,26 +68,31 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "BODY" : -50,
+            "DEXTERITY" : 125,
+            "REFLEXES" : 125,
+            "INTELLIGENCE" : 50,
+            "STRENGTH" : -50,
+            "CHARISMA" : -25
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : -100
+    },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
-    "fixedXPSkills" : {
+    "fixedXPTraits" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "FAME" : 75
         }
     },
+    "fixedXPSkills" : { },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "atow_patient" : 75,
+            "compulsion_unpleasant_personality" : -100
         }
     },
     "flexibleXPAttributes" : { },

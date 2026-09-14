@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "93c17703-4ced-4ccd-9882-352c86c84c49",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,28 +24,25 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 125,
+    "source" : "A Time of War",
+    "name" : "Aerospace [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "CLAN_CASTE"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "CLAN"
         ]
     },
     "requirementsSystems" : { },
@@ -58,7 +55,12 @@
     "requirementsSkills" : { },
     "requirementsMetaSkills" : { },
     "requirementsAbilities" : { },
-    "exclusionsFactions" : { },
+    "exclusionsFactions" : {
+        "0" : [
+            "CGB",
+            "BAN"
+        ]
+    },
     "exclusionsSystems" : { },
     "exclusionsLifePath" : { },
     "exclusionsCategories" : { },
@@ -71,26 +73,26 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "BODY" : -50,
+            "DEXTERITY" : 150,
+            "REFLEXES" : 150,
+            "STRENGTH" : -50,
+            "CHARISMA" : -25
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : -25
+    },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : { },
-    "fixedXPSkills" : {
-        "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
-        }
-    },
+    "fixedXPSkills" : { },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "flaw_impatient" : -50,
+            "atow_fit" : 25
         }
     },
     "flexibleXPAttributes" : { },

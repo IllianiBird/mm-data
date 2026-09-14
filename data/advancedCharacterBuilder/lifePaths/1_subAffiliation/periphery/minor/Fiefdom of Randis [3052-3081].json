@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "7e9644f4-15c8-4b8e-8614-23345e2df596",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,17 +24,17 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 190,
+    "source" : "A Time of War",
+    "name" : "Fiefdom of Randis [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
@@ -42,14 +42,15 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "FOR"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "795c5bc6-c78c-426e-85a7-d3fd8db7f4d3"
+        ]
+    },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -71,17 +72,25 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "BODY" : 125
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : 50
+    },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "WEALTH" : -50
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "Martial Arts" : 10,
+            "Negotiation" : 10,
+            "Streetwise/Any" : 15,
+            "Melee Weapons" : 10,
+            "Survival/Any" : 20
         }
     },
     "fixedXPMetaSkills" : { },
@@ -89,18 +98,42 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "flaw_illiterate" : -75
         }
     },
-    "flexibleXPAttributes" : { },
-    "flexibleXPEdge" : { },
+    "flexibleXPAttributes" : {
+        "0" : {
+            "INTELLIGENCE" : 25,
+            "REFLEXES" : 25,
+            "DEXTERITY" : 25,
+            "WILLPOWER" : 25,
+            "BODY" : 25,
+            "STRENGTH" : 25,
+            "CHARISMA" : 25
+        }
+    },
+    "flexibleXPEdge" : {
+        "0" : 25
+    },
     "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : { },
+    "flexibleXPTraits" : {
+        "0" : {
+            "PROPERTY" : 25,
+            "TITLE" : 25,
+            "EXTRA_INCOME" : 25,
+            "FAME" : 25,
+            "CONNECTIONS" : 25,
+            "ORIGIN_OWNED_VEHICLE" : 25,
+            "ORIGIN_RANK" : 25,
+            "WEALTH" : 25
+        }
+    },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 3
+    }
 }

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a48271b6-f827-468d-8db4-b0673c790f9c",
+    "id" : "d15f10a0-d6ca-453f-8ba0-a892df85c3e2",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,17 +24,17 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "Era Report 3062",
-    "name" : "Capellan Confederation [3052-3062]",
+    "xpCost" : 150,
+    "source" : "A Time of War",
+    "name" : "Circinus Federation [3052-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "AFFILIATION"
+        "SUB_AFFILIATION"
     ],
     "categories" : [
         "GENERAL_INNER_SPHERE"
@@ -42,14 +42,15 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CC"
-        ],
-        "1" : [
-            "SIC"
+            "CIR"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "692a6fdf-24e8-45e2-b15f-7c20ec853f1f"
+        ]
+    },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -71,36 +72,88 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 75
+            "INTELLIGENCE" : -100,
+            "WILLPOWER" : 70,
+            "STRENGTH" : 100,
+            "BODY" : 75
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
-    "fixedXPSkills" : {
+    "fixedXPTraits" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Perception" : 15,
-            "Language/Any" : 20
+            "FAME" : -200,
+            "WEALTH" : -125
         }
     },
+    "fixedXPSkills" : { },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_mild_paranoia" : -150,
-            "exceptional_attribute_edge" : 75
+            "flaw_illiterate" : -75,
+            "atow_toughness" : 300
         }
     },
-    "flexibleXPAttributes" : { },
-    "flexibleXPEdge" : { },
+    "flexibleXPAttributes" : {
+        "1" : {
+            "INTELLIGENCE" : 15,
+            "DEXTERITY" : 15,
+            "REFLEXES" : 15,
+            "WILLPOWER" : 15,
+            "STRENGTH" : 15,
+            "BODY" : 15,
+            "CHARISMA" : 15
+        }
+    },
+    "flexibleXPEdge" : {
+        "1" : 15
+    },
     "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
+    "flexibleXPTraits" : {
+        "1" : {
+            "PROPERTY" : 15,
+            "TITLE" : 15,
+            "EXTRA_INCOME" : 15,
+            "FAME" : 15,
+            "CONNECTIONS" : 15,
+            "ORIGIN_OWNED_VEHICLE" : 15,
+            "ORIGIN_RANK" : 15,
+            "WEALTH" : 15
+        }
+    },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Martial Arts" : 20,
+            "Streetwise/Any" : 20,
+            "Small Arms" : 20,
+            "Animal Handling" : 20,
+            "MedTech/Any" : 20,
+            "Tracking/Any" : 20,
+            "Survival/Any" : 20
+        }
+    },
+    "flexibleXPMetaSkills" : {
+        "1" : {
+            "ROLEPLAY_ART" : 15,
+            "ROLEPLAY_INTEREST" : 15,
+            "ROLEPLAY_SECURITY" : 15,
+            "SUPPORT_TECHNICIAN" : 15,
+            "ROLEPLAY_SCIENCE" : 15,
+            "COMBAT_GUNNERY" : 15,
+            "SUPPORT" : 15,
+            "ROLEPLAY_GENERAL" : 15,
+            "UTILITY" : 15,
+            "UTILITY_COMMAND" : 15,
+            "COMBAT_PILOTING" : 15
+        }
+    },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 3,
+        "1" : 3
+    }
 }
