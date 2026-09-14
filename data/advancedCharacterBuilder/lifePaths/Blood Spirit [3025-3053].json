@@ -1,0 +1,121 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+    "id" : "e0ba295d-e0b6-4a21-bec6-30866b57968a",
+    "version" : {
+        "major" : 0,
+        "minor" : 51,
+        "patch" : 1,
+        "revision" : 0,
+        "extra" : ""
+    },
+    "xpCost" : 25,
+    "source" : "A Time of War",
+    "name" : "Blood Spirit [3025-3053]",
+    "flavorText" : "",
+    "age" : 0,
+    "xpDiscount" : 0,
+    "minimumYear" : 3025,
+    "maximumYear" : 3053,
+    "randomWeight" : 1.0,
+    "lifeStages" : [
+        "SUB_AFFILIATION"
+    ],
+    "categories" : [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted" : false,
+    "requirementsFactions" : {
+        "0" : [
+            "CBS"
+        ],
+        "1" : [
+            "CBS"
+        ]
+    },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "3f9ec543-f469-4569-921b-aca964a63b02"
+        ],
+        "1" : [
+            "a3a4dd79-0fa9-4c94-8981-9c56421964da"
+        ]
+    },
+    "requirementsCategories" : { },
+    "requirementsAttributes" : { },
+    "requirementsEdge" : { },
+    "requirementsFlexibleAttribute" : { },
+    "requirementsTraits" : { },
+    "requirementsSkills" : { },
+    "requirementsMetaSkills" : { },
+    "requirementsAbilities" : { },
+    "exclusionsFactions" : { },
+    "exclusionsSystems" : { },
+    "exclusionsLifePath" : { },
+    "exclusionsCategories" : { },
+    "exclusionsAttributes" : { },
+    "exclusionsEdge" : { },
+    "exclusionsFlexibleAttribute" : { },
+    "exclusionsTraits" : { },
+    "exclusionsSkills" : { },
+    "exclusionsMetaSkills" : { },
+    "exclusionsAbilities" : { },
+    "fixedXPAttributes" : {
+        "0" : {
+            "WILLPOWER" : 100,
+            "CHARISMA" : -50,
+            "BODY" : 25
+        }
+    },
+    "fixedXPEdge" : { },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "ORIGIN_OWNED_VEHICLE" : -65
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Martial Arts" : 15,
+            "Protocols/Any" : 10,
+            "Small Arms" : 15,
+            "Interest/History" : 25
+        }
+    },
+    "fixedXPMetaSkills" : { },
+    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_faction_loyalty" : -100,
+            "flaw_introvert" : -50,
+            "exceptional_attribute_willpower" : 100
+        }
+    },
+    "flexibleXPAttributes" : { },
+    "flexibleXPEdge" : { },
+    "flexibleXPFlexibleAttribute" : { },
+    "flexibleXPTraits" : { },
+    "flexibleXPSkills" : { },
+    "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
+}

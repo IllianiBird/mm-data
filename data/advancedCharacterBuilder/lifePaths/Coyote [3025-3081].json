@@ -1,0 +1,136 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+    "id" : "72c2ec13-6ff1-4afe-9128-8cabfd837482",
+    "version" : {
+        "major" : 0,
+        "minor" : 51,
+        "patch" : 1,
+        "revision" : 0,
+        "extra" : ""
+    },
+    "xpCost" : 75,
+    "source" : "A Time of War",
+    "name" : "Coyote [3025-3081]",
+    "flavorText" : "",
+    "age" : 0,
+    "xpDiscount" : 0,
+    "minimumYear" : 3025,
+    "maximumYear" : 3081,
+    "randomWeight" : 1.0,
+    "lifeStages" : [
+        "SUB_AFFILIATION"
+    ],
+    "categories" : [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted" : false,
+    "requirementsFactions" : {
+        "0" : [
+            "CCO"
+        ],
+        "1" : [
+            "CCO"
+        ],
+        "2" : [
+            "CCO"
+        ]
+    },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "3f9ec543-f469-4569-921b-aca964a63b02"
+        ],
+        "1" : [
+            "fe8d4be3-5efb-4b45-ac4c-64b17a186ac8"
+        ],
+        "2" : [
+            "301ce7dd-a077-4f63-90ea-168c6eac889c"
+        ]
+    },
+    "requirementsCategories" : { },
+    "requirementsAttributes" : { },
+    "requirementsEdge" : { },
+    "requirementsFlexibleAttribute" : { },
+    "requirementsTraits" : { },
+    "requirementsSkills" : { },
+    "requirementsMetaSkills" : { },
+    "requirementsAbilities" : { },
+    "exclusionsFactions" : { },
+    "exclusionsSystems" : { },
+    "exclusionsLifePath" : { },
+    "exclusionsCategories" : { },
+    "exclusionsAttributes" : { },
+    "exclusionsEdge" : { },
+    "exclusionsFlexibleAttribute" : { },
+    "exclusionsTraits" : { },
+    "exclusionsSkills" : { },
+    "exclusionsMetaSkills" : { },
+    "exclusionsAbilities" : { },
+    "fixedXPAttributes" : {
+        "0" : {
+            "WILLPOWER" : -60,
+            "INTELLIGENCE" : 100
+        }
+    },
+    "fixedXPEdge" : {
+        "0" : 25
+    },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "FAME" : -60,
+            "ORIGIN_OWNED_VEHICLE" : 25
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Protocols/Any" : 10,
+            "Interest/Mythology" : 15,
+            "Survival/Any" : 10
+        }
+    },
+    "fixedXPMetaSkills" : { },
+    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPAbilities" : { },
+    "flexibleXPAttributes" : { },
+    "flexibleXPEdge" : { },
+    "flexibleXPFlexibleAttribute" : { },
+    "flexibleXPTraits" : {
+        "0" : {
+            "ORIGIN_OWNED_VEHICLE" : 10
+        }
+    },
+    "flexibleXPSkills" : { },
+    "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : {
+        "0" : {
+            "Computers" : 10
+        }
+    },
+    "flexibleXPNaturalAptitudesMetaSkills" : {
+        "0" : {
+            "SUPPORT_TECHNICIAN" : 10
+        }
+    },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
+}

@@ -1,0 +1,160 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+    "id" : "d1edd2d8-2f67-4906-afd2-311b10be142e",
+    "version" : {
+        "major" : 0,
+        "minor" : 51,
+        "patch" : 1,
+        "revision" : 0,
+        "extra" : ""
+    },
+    "xpCost" : 50,
+    "source" : "A Time of War",
+    "name" : "Wolf [3025-3081]",
+    "flavorText" : "",
+    "age" : 0,
+    "xpDiscount" : 0,
+    "minimumYear" : 3025,
+    "maximumYear" : 3081,
+    "randomWeight" : 1.0,
+    "lifeStages" : [
+        "SUB_AFFILIATION"
+    ],
+    "categories" : [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted" : false,
+    "requirementsFactions" : {
+        "0" : [
+            "CW"
+        ],
+        "1" : [
+            "CWIE"
+        ],
+        "2" : [
+            "CW"
+        ],
+        "3" : [
+            "CW"
+        ],
+        "4" : [
+            "CWIE"
+        ],
+        "5" : [
+            "CWIE"
+        ],
+        "6" : [
+            "CW"
+        ]
+    },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
+        ],
+        "1" : [
+            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+        ],
+        "2" : [
+            "5856deff-b39c-4d43-add6-65b59872bd89"
+        ],
+        "3" : [
+            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+        ],
+        "4" : [
+            "5856deff-b39c-4d43-add6-65b59872bd89"
+        ],
+        "5" : [
+            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
+        ],
+        "6" : [
+            "a3a4dd79-0fa9-4c94-8981-9c56421964da"
+        ]
+    },
+    "requirementsCategories" : { },
+    "requirementsAttributes" : { },
+    "requirementsEdge" : { },
+    "requirementsFlexibleAttribute" : { },
+    "requirementsTraits" : { },
+    "requirementsSkills" : { },
+    "requirementsMetaSkills" : { },
+    "requirementsAbilities" : { },
+    "exclusionsFactions" : { },
+    "exclusionsSystems" : { },
+    "exclusionsLifePath" : { },
+    "exclusionsCategories" : { },
+    "exclusionsAttributes" : { },
+    "exclusionsEdge" : { },
+    "exclusionsFlexibleAttribute" : { },
+    "exclusionsTraits" : { },
+    "exclusionsSkills" : { },
+    "exclusionsMetaSkills" : { },
+    "exclusionsAbilities" : { },
+    "fixedXPAttributes" : {
+        "0" : {
+            "WILLPOWER" : 25,
+            "INTELLIGENCE" : 25
+        }
+    },
+    "fixedXPEdge" : { },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "ENEMY" : -100,
+            "FAME" : 70,
+            "ORIGIN_OWNED_VEHICLE" : 50
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Protocols/Any" : 10
+        }
+    },
+    "fixedXPMetaSkills" : { },
+    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_faction_pride" : -50
+        }
+    },
+    "flexibleXPAttributes" : { },
+    "flexibleXPEdge" : { },
+    "flexibleXPFlexibleAttribute" : { },
+    "flexibleXPTraits" : { },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Leadership" : 10,
+            "Negotiation" : 10,
+            "Perception" : 10,
+            "Strategy" : 10
+        }
+    },
+    "flexibleXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 10
+        }
+    },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : {
+        "0" : 2
+    }
+}
