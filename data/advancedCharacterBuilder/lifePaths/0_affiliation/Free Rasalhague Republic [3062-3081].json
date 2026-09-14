@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-"id": "9bf5a8de-bb2d-46a0-998d-bcdc826c19f3",
+"id": "bc8dd3f9-f7df-4db2-a4e7-89ef852cc768",
 "version": {
 "major": 0,
 "minor": 51,
@@ -24,9 +24,9 @@
 "revision": 0,
 "extra": ""
 },
-"xpCost": -76,
+"xpCost": 25,
 "source": "A Time of War",
-"name" : "Draconis Combine [3062-3081]",
+"name" : "Free Rasalhague Republic [3062-3081]",
 "flavorText": "",
 "age": 0,
 "xpDiscount": 0,
@@ -37,13 +37,19 @@
 "AFFILIATION"
 ],
 "categories": [
-"SPECIAL_CHILD_LABOR_ENABLED",
+"SPECIAL_MERCENARY_IMPACT_FAME",
 "GENERAL_INNER_SPHERE"
 ],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-"DC"
+"FRR"
+]
+"1": [
+"CS"
+],
+"2": [
+"WOB"
 ]
 },
 "requirementsSystems": {},
@@ -69,46 +75,35 @@
 "exclusionsAbilities": {},
 "fixedXPAttributes": {
 "0": {
-"WILLPOWER": 50
+"WILLPOWER": 25
 }
 },
-"fixedXPEdge": {},
+"fixedXPEdge": {
+"0": -25
+},
 "fixedXPFlexibleAttribute": {},
-"fixedXPTraits": {
+"fixedXPTraits": {},
+"fixedXPSkills": {
 "0": {
-"WEALTH": -50
+"Negotiation": 15
 }
 },
-"fixedXPSkills": {},
-"fixedXPMetaSkills": {},
+"fixedXPMetaSkills": {
+"0": {
+"ROLEPLAY_INTEREST": 10
+}
+},
 "fixedXPNaturalAptitudes": {},
 "fixedXPNaturalAptitudesMetaSkills": {},
-"fixedXPAbilities": {
-"0": {
-"compulsion_xenophobia": -100
-}
-},
+"fixedXPAbilities": {},
 "flexibleXPAttributes": {},
 "flexibleXPEdge": {},
 "flexibleXPFlexibleAttribute": {},
 "flexibleXPTraits": {},
-"flexibleXPSkills": {
-"0": {
-"Martial Arts": 10,
-"Protocols/Any": 15,
-"Art/Poetry": 15
-}
-},
+"flexibleXPSkills": {},
 "flexibleXPMetaSkills": {},
 "flexibleXPNaturalAptitudes": {},
 "flexibleXPNaturalAptitudesMetaSkills": {},
-"flexibleXPAbilities": {
-"0": {
-"pain_resistance": 100,
-"atow_combat_sense": 100
-}
-},
-"flexibleXPPickCounts": {
-"0": 1
-}
+"flexibleXPAbilities": {},
+"flexibleXPPickCounts": {}
 }

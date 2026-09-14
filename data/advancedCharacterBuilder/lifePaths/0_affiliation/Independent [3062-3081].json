@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-"id": "bc8dd3f9-f7df-4db2-a4e7-89ef852cc768",
+"id": "54333746-ae50-4169-8ace-94e559f4d588",
 "version": {
 "major": 0,
 "minor": 51,
@@ -24,9 +24,9 @@
 "revision": 0,
 "extra": ""
 },
-"xpCost": 25,
+"xpCost": 0,
 "source": "A Time of War",
-"name" : "Free Rasalhague Republic [3062-3081]",
+"name" : "Independent [3062-3081]",
 "flavorText": "",
 "age": 0,
 "xpDiscount": 0,
@@ -37,16 +37,31 @@
 "AFFILIATION"
 ],
 "categories": [
-"SPECIAL_MERCENARY_IMPACT_FAME",
 "GENERAL_INNER_SPHERE"
 ],
-"isPlayerRestricted": false,
+"isPlayerRestricted" : false,
 "requirementsFactions": {
-"0": [
-"FRR"
+"2": [
+"IND"
+],
+"3": [
+"MERC"
+],
+"4": [
+"PIR"
+],
+"5": [
+"TD"
 ]
 },
-"requirementsSystems": {},
+"requirementsSystems": {
+"0": [
+"Antallos (Port Krin)"
+],
+"1": [
+"Astrokaszy"
+]
+},
 "requirementsLifePath": {},
 "requirementsCategories": {},
 "requirementsAttributes": {},
@@ -69,24 +84,22 @@
 "exclusionsAbilities": {},
 "fixedXPAttributes": {
 "0": {
-"WILLPOWER": 25
+"WILLPOWER": 20
 }
 },
 "fixedXPEdge": {
-"0": -25
+"0": 20
 },
 "fixedXPFlexibleAttribute": {},
-"fixedXPTraits": {},
-"fixedXPSkills": {
+"fixedXPTraits": {
 "0": {
-"Negotiation": 15
+"ORIGIN_OWNED_VEHICLE": -20,
+"FAME": -10,
+"WEALTH": -10
 }
 },
-"fixedXPMetaSkills": {
-"0": {
-"ROLEPLAY_INTEREST": 10
-}
-},
+"fixedXPSkills": {},
+"fixedXPMetaSkills": {},
 "fixedXPNaturalAptitudes": {},
 "fixedXPNaturalAptitudesMetaSkills": {},
 "fixedXPAbilities": {},

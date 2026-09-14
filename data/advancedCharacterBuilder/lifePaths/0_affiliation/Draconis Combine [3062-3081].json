@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-"id": "44394dc9-5abf-4e2a-befe-8ea27af17832",
+"id": "9bf5a8de-bb2d-46a0-998d-bcdc826c19f3",
 "version": {
 "major": 0,
 "minor": 51,
@@ -24,9 +24,9 @@
 "revision": 0,
 "extra": ""
 },
-"xpCost": 25,
+"xpCost": -76,
 "source": "A Time of War",
-"name" : "Free Worlds League [3062-3081]",
+"name" : "Draconis Combine [3062-3081]",
 "flavorText": "",
 "age": 0,
 "xpDiscount": 0,
@@ -37,13 +37,19 @@
 "AFFILIATION"
 ],
 "categories": [
-"SPECIAL_PROSTHETICS_IMPACT_FAME",
+"SPECIAL_CHILD_LABOR_ENABLED",
 "GENERAL_INNER_SPHERE"
 ],
 "isPlayerRestricted": false,
 "requirementsFactions": {
 "0": [
-"FWL"
+"DC"
+]
+"1": [
+"CS"
+],
+"2": [
+"WOB"
 ]
 },
 "requirementsSystems": {},
@@ -67,31 +73,48 @@
 "exclusionsSkills": {},
 "exclusionsMetaSkills": {},
 "exclusionsAbilities": {},
-"fixedXPAttributes": {},
+"fixedXPAttributes": {
+"0": {
+"WILLPOWER": 50
+}
+},
 "fixedXPEdge": {},
 "fixedXPFlexibleAttribute": {},
-"fixedXPTraits": {},
-"fixedXPSkills": {
+"fixedXPTraits": {
 "0": {
-"Language/Any": 15
+"WEALTH": -50
 }
 },
-"fixedXPMetaSkills": {
-"0": {
-"ROLEPLAY_ART": 10
-}
-},
+"fixedXPSkills": {},
+"fixedXPMetaSkills": {},
 "fixedXPNaturalAptitudes": {},
 "fixedXPNaturalAptitudesMetaSkills": {},
-"fixedXPAbilities": {},
+"fixedXPAbilities": {
+"0": {
+"compulsion_xenophobia": -100
+}
+},
 "flexibleXPAttributes": {},
 "flexibleXPEdge": {},
 "flexibleXPFlexibleAttribute": {},
 "flexibleXPTraits": {},
-"flexibleXPSkills": {},
+"flexibleXPSkills": {
+"0": {
+"Martial Arts": 10,
+"Protocols/Any": 15,
+"Art/Poetry": 15
+}
+},
 "flexibleXPMetaSkills": {},
 "flexibleXPNaturalAptitudes": {},
 "flexibleXPNaturalAptitudesMetaSkills": {},
-"flexibleXPAbilities": {},
-"flexibleXPPickCounts": {}
+"flexibleXPAbilities": {
+"0": {
+"pain_resistance": 100,
+"atow_combat_sense": 100
+}
+},
+"flexibleXPPickCounts": {
+"0": 1
+}
 }

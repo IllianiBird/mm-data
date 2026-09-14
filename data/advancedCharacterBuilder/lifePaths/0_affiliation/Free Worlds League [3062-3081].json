@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-"id": "54333746-ae50-4169-8ace-94e559f4d588",
+"id": "44394dc9-5abf-4e2a-befe-8ea27af17832",
 "version": {
 "major": 0,
 "minor": 51,
@@ -24,9 +24,9 @@
 "revision": 0,
 "extra": ""
 },
-"xpCost": 0,
+"xpCost": 25,
 "source": "A Time of War",
-"name" : "Independent [3062-3081]",
+"name" : "Free Worlds League [3062-3081]",
 "flavorText": "",
 "age": 0,
 "xpDiscount": 0,
@@ -37,31 +37,22 @@
 "AFFILIATION"
 ],
 "categories": [
+"SPECIAL_PROSTHETICS_IMPACT_FAME",
 "GENERAL_INNER_SPHERE"
 ],
-"isPlayerRestricted" : false,
+"isPlayerRestricted": false,
 "requirementsFactions": {
-"2": [
-"IND"
-],
-"3": [
-"MERC"
-],
-"4": [
-"PIR"
-],
-"5": [
-"TD"
-]
-},
-"requirementsSystems": {
 "0": [
-"Antallos (Port Krin)"
-],
+"FWL"
+]
 "1": [
-"Astrokaszy"
+"CS"
+],
+"2": [
+"WOB"
 ]
 },
+"requirementsSystems": {},
 "requirementsLifePath": {},
 "requirementsCategories": {},
 "requirementsAttributes": {},
@@ -82,24 +73,20 @@
 "exclusionsSkills": {},
 "exclusionsMetaSkills": {},
 "exclusionsAbilities": {},
-"fixedXPAttributes": {
-"0": {
-"WILLPOWER": 20
-}
-},
-"fixedXPEdge": {
-"0": 20
-},
+"fixedXPAttributes": {},
+"fixedXPEdge": {},
 "fixedXPFlexibleAttribute": {},
-"fixedXPTraits": {
+"fixedXPTraits": {},
+"fixedXPSkills": {
 "0": {
-"ORIGIN_EQUIPPED": -20,
-"FAME": -10,
-"WEALTH": -10
+"Language/Any": 15
 }
 },
-"fixedXPSkills": {},
-"fixedXPMetaSkills": {},
+"fixedXPMetaSkills": {
+"0": {
+"ROLEPLAY_ART": 10
+}
+},
 "fixedXPNaturalAptitudes": {},
 "fixedXPNaturalAptitudesMetaSkills": {},
 "fixedXPAbilities": {},

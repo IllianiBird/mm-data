@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-"id": "795c5bc6-c78c-426e-85a7-d3fd8db7f4d3",
+"id": "692a6fdf-24e8-45e2-b15f-7c20ec853f1f",
 "version": {
 "major": 0,
 "minor": 51,
@@ -24,9 +24,9 @@
 "revision": 0,
 "extra": ""
 },
-"xpCost": -115,
+"xpCost": -50,
 "source": "A Time of War",
-"name" : "Minor Periphery [3062-3081]",
+"name" : "Major Periphery [3062-3081]",
 "flavorText": "",
 "age": 0,
 "xpDiscount": 0,
@@ -37,13 +37,36 @@
 "AFFILIATION"
 ],
 "categories": [
-"SPECIAL_MINOR_PERIPHERY",
 "GENERAL_INNER_SPHERE"
 ],
-"isPlayerRestricted": false,
+"isPlayerRestricted" : false,
 "requirementsFactions": {
 "0": [
-"Periphery"
+"CIR"
+],
+"1": [
+"MOC"
+],
+"2": [
+"MH"
+],
+"3": [
+"OA"
+],
+"4": [
+"TC"
+],
+"5": [
+"CDP"
+],
+"6": [
+"FR"
+]
+"7": [
+"CS"
+],
+"8": [
+"WOB"
 ]
 },
 "requirementsSystems": {},
@@ -56,28 +79,8 @@
 "requirementsSkills": {},
 "requirementsMetaSkills": {},
 "requirementsAbilities": {},
-"exclusionsFactions": {
-"0": [
-"MOC",
-"TD",
-"OA",
-"HL",
-"NC",
-"MH",
-"FR",
-"JF",
-"CIR",
-"CDP",
-"UC",
-"TC"
-]
-},
-"exclusionsSystems": {
-"0": [
-"Astrokaszy",
-"Antallos (Port Krin)"
-]
-},
+"exclusionsFactions": {},
+"exclusionsSystems": {},
 "exclusionsLifePath": {},
 "exclusionsCategories": {},
 "exclusionsAttributes": {},
@@ -92,15 +95,10 @@
 "fixedXPFlexibleAttribute": {},
 "fixedXPTraits": {
 "0": {
-"ORIGIN_EQUIPPED": -150
+"ORIGIN_OWNED_VEHICLE": -50
 }
 },
-"fixedXPSkills": {
-"0": {
-"Perception": 15,
-"Survival/Any": 20
-}
-},
+"fixedXPSkills": {},
 "fixedXPMetaSkills": {},
 "fixedXPNaturalAptitudes": {},
 "fixedXPNaturalAptitudesMetaSkills": {},

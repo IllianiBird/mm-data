@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-"id": "692a6fdf-24e8-45e2-b15f-7c20ec853f1f",
+"id": "02c4bb02-75dc-4c3f-b250-b5182a03ebbd",
 "version": {
 "major": 0,
 "minor": 51,
@@ -24,9 +24,9 @@
 "revision": 0,
 "extra": ""
 },
-"xpCost": -50,
+"xpCost": -20,
 "source": "A Time of War",
-"name" : "Major Periphery [3062-3081]",
+"name" : "Deep Periphery [3062-3081]",
 "flavorText": "",
 "age": 0,
 "xpDiscount": 0,
@@ -42,25 +42,16 @@
 "isPlayerRestricted" : false,
 "requirementsFactions": {
 "0": [
-"CIR"
+"HL"
 ],
 "1": [
-"MOC"
+"NC"
 ],
 "2": [
-"MH"
+"UC"
 ],
 "3": [
-"OA"
-],
-"4": [
-"TC"
-],
-"5": [
-"CDP"
-],
-"6": [
-"FR"
+"JF"
 ]
 },
 "requirementsSystems": {},
@@ -84,12 +75,16 @@
 "exclusionsSkills": {},
 "exclusionsMetaSkills": {},
 "exclusionsAbilities": {},
-"fixedXPAttributes": {},
+"fixedXPAttributes": {
+"0": {
+"WILLPOWER": 60
+}
+},
 "fixedXPEdge": {},
 "fixedXPFlexibleAttribute": {},
 "fixedXPTraits": {
 "0": {
-"ORIGIN_EQUIPPED": -50
+"ORIGIN_OWNED_VEHICLE": -80
 }
 },
 "fixedXPSkills": {},
