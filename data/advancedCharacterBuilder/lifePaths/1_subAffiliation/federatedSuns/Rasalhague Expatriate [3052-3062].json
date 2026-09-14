@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "97d4c6de-9eea-48ca-a13b-15ad63b6c96e",
+    "id" : "a4e975f2-bd81-47a2-b5c4-bda774a61748",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
+    "xpCost" : 25,
     "source" : "A Time of War",
-    "name" : "Rasalhague Expatriate - Suns [3052-3081]",
+    "name" : "Rasalhague Expatriate [3052-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3052,
-    "maximumYear" : 3081,
+    "maximumYear" : 3062,
     "randomWeight" : 0.005,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -44,10 +44,10 @@
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "ad8e309c-5286-4c40-8306-71c36eeda5a2"
+            "dcac9016-cc83-4652-b242-6ebdf1fd8fdb"
         ],
         "1" : [
-            "dcac9016-cc83-4652-b242-6ebdf1fd8fdb"
+            "ad8e309c-5286-4c40-8306-71c36eeda5a2"
         ]
     },
     "requirementsCategories" : { },
@@ -71,7 +71,7 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 125
+            "WILLPOWER" : 100
         }
     },
     "fixedXPEdge" : {
@@ -85,10 +85,8 @@
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 10,
             "Protocols/Any" : 10,
-            "Small Arms" : 15,
-            "Language/Any" : 15
+            "Small Arms" : 15
         }
     },
     "fixedXPMetaSkills" : { },

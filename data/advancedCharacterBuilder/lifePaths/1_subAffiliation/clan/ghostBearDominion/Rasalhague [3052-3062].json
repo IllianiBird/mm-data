@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "dbf6e491-0424-4f6f-a125-72475258c949",
+    "id" : "98221220-4495-4419-9174-09b3fa5392db",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,30 +24,27 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
+    "xpCost" : 50,
     "source" : "A Time of War",
-    "name" : "Rasalhague Expatriate - Lyran [3062-3081]",
+    "name" : "Rasalhague [3052-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3062,
-    "maximumYear" : 3081,
-    "randomWeight" : 0.005,
+    "minimumYear" : 3052,
+    "maximumYear" : 3062,
+    "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_INNER_SPHERE"
+        "GENERAL_CLAN_RULED_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : { },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "d79b61b0-872c-48c4-ae2d-a0600afab9c1"
-        ],
-        "1" : [
-            "832e5d21-1a6d-4209-a243-187b2e74ff4c"
+            "fb0a32fb-9ad3-4ada-939c-c7faf9b2ff5b"
         ]
     },
     "requirementsCategories" : { },
@@ -71,32 +68,35 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 125
+            "WILLPOWER" : 50
         }
     },
-    "fixedXPEdge" : {
-        "0" : 100
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "WEALTH" : -50
+            "FAME" : -50
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 10,
             "Protocols/Any" : 10,
-            "Small Arms" : 15,
-            "Language/Any" : 15
+            "Martial Arts" : 20,
+            "Negotiation" : 10,
+            "Small Arms" : 10,
+            "Melee Weapons" : 15
         }
     },
-    "fixedXPMetaSkills" : { },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 10
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_clan_hate" : -150
+            "flaw_introvert" : -25
         }
     },
     "flexibleXPAttributes" : { },
