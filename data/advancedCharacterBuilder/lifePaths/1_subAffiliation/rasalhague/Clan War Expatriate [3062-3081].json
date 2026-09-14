@@ -1,5 +1,5 @@
 # MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
 # creating free software for the BattleTech community.
@@ -12,98 +12,98 @@
 #
 # MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
 # Microsoft's "Game Content Usage Rules"
-# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
 {
-"id": "dbf6e491-0424-4f6f-a125-72475258c949",
-"version": {
-"major": 0,
-"minor": 51,
-"patch": 1,
-"revision": 0,
-"extra": ""
-},
-"xpCost": 75,
-"source": "A Time of War",
-"name" : "Clan War Expatriate [3062-3081]",
-"flavorText": "",
-"age": 0,
-"xpDiscount": 0,
-"minimumYear": 0,
-"maximumYear" : 9999,
-"randomWeight": 1.0,
-"lifeStages": [
-"SUB_AFFILIATION"
-],
-"categories": [
-"GENERAL_INNER_SPHERE"
-],
-"isPlayerRestricted" : false,
-"requirementsFactions": {},
-"requirementsSystems": {},
-"requirementsLifePath": {
-"0": [
-"bc8dd3f9-f7df-4db2-a4e7-89ef852cc768"
-]
-},
-"requirementsCategories": {},
-"requirementsAttributes": {},
-"requirementsEdge": {},
-"requirementsFlexibleAttribute": {},
-"requirementsTraits": {},
-"requirementsSkills": {},
-"requirementsMetaSkills": {},
-"requirementsAbilities": {},
-"exclusionsFactions": {},
-"exclusionsSystems": {},
-"exclusionsLifePath": {},
-"exclusionsCategories": {},
-"exclusionsAttributes": {},
-"exclusionsEdge": {},
-"exclusionsFlexibleAttribute": {},
-"exclusionsTraits": {},
-"exclusionsSkills": {},
-"exclusionsMetaSkills": {},
-"exclusionsAbilities": {},
-"fixedXPAttributes": {
-"0": {
-"WILLPOWER": 125
-}
-},
-"fixedXPEdge": {
-"0": 100
-},
-"fixedXPFlexibleAttribute": {},
-"fixedXPTraits": {
-"0": {
-"WEALTH": -50
-}
-},
-"fixedXPSkills": {
-"0": {
-"Martial Arts": 10,
-"Protocols/Any": 10,
-"Small Arms": 15,
-"Language/Any": 15
-}
-},
-"fixedXPMetaSkills": {},
-"fixedXPNaturalAptitudes": {},
-"fixedXPNaturalAptitudesMetaSkills": {},
-"fixedXPAbilities": {
-"0": {
-"compulsion_clan_hate": -150
-}
-},
-"flexibleXPAttributes": {},
-"flexibleXPEdge": {},
-"flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits": {},
-"flexibleXPSkills": {},
-"flexibleXPMetaSkills": {},
-"flexibleXPNaturalAptitudes": {},
-"flexibleXPNaturalAptitudesMetaSkills": {},
-"flexibleXPAbilities": {},
-"flexibleXPPickCounts": {}
+    "id" : "dbf6e491-0424-4f6f-a125-72475258c949",
+    "version" : {
+        "major" : 0,
+        "minor" : 51,
+        "patch" : 1,
+        "revision" : 0,
+        "extra" : ""
+    },
+    "xpCost" : 75,
+    "source" : "A Time of War",
+    "name" : "Clan War Expatriate [3062-3081]",
+    "flavorText" : "",
+    "age" : 0,
+    "xpDiscount" : 0,
+    "minimumYear" : 0,
+    "maximumYear" : 9999,
+    "randomWeight" : 1.0,
+    "lifeStages" : [
+        "SUB_AFFILIATION"
+    ],
+    "categories" : [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted" : false,
+    "requirementsFactions" : { },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "bc8dd3f9-f7df-4db2-a4e7-89ef852cc768"
+        ]
+    },
+    "requirementsCategories" : { },
+    "requirementsAttributes" : { },
+    "requirementsEdge" : { },
+    "requirementsFlexibleAttribute" : { },
+    "requirementsTraits" : { },
+    "requirementsSkills" : { },
+    "requirementsMetaSkills" : { },
+    "requirementsAbilities" : { },
+    "exclusionsFactions" : { },
+    "exclusionsSystems" : { },
+    "exclusionsLifePath" : { },
+    "exclusionsCategories" : { },
+    "exclusionsAttributes" : { },
+    "exclusionsEdge" : { },
+    "exclusionsFlexibleAttribute" : { },
+    "exclusionsTraits" : { },
+    "exclusionsSkills" : { },
+    "exclusionsMetaSkills" : { },
+    "exclusionsAbilities" : { },
+    "fixedXPAttributes" : {
+        "0" : {
+            "WILLPOWER" : 125
+        }
+    },
+    "fixedXPEdge" : {
+        "0" : 100
+    },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "WEALTH" : -50
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Martial Arts" : 10,
+            "Protocols/Any" : 10,
+            "Small Arms" : 15,
+            "Language/Any" : 15
+        }
+    },
+    "fixedXPMetaSkills" : { },
+    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_clan_hate" : -150
+        }
+    },
+    "flexibleXPAttributes" : { },
+    "flexibleXPEdge" : { },
+    "flexibleXPFlexibleAttribute" : { },
+    "flexibleXPTraits" : { },
+    "flexibleXPSkills" : { },
+    "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
 }

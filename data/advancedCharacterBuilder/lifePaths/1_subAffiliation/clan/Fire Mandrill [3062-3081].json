@@ -1,5 +1,5 @@
 # MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
 # creating free software for the BattleTech community.
@@ -12,154 +12,154 @@
 #
 # MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
 # Microsoft's "Game Content Usage Rules"
-# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
 {
-"id": "8aaa40fc-63d9-4ef5-b00f-08ea13115ab4",
-"version": {
-"major": 0,
-"minor": 51,
-"patch": 1,
-"revision": 0,
-"extra": ""
-},
-"xpCost": 55,
-"source": "A Time of War",
-"name" : "Fire Mandrill [3062-3081]",
-"flavorText": "",
-"age": 0,
-"xpDiscount": 0,
-"minimumYear": 3062,
-"maximumYear" : 3081,
-"randomWeight": 1.0,
-"lifeStages": [
-"SUB_AFFILIATION"
-],
-"categories": [
-"GENERAL_CLAN"
-],
-"isPlayerRestricted" : false,
-"requirementsFactions": {
-"0": [
-"CFM"
-]
-},
-"requirementsSystems": {},
-"requirementsLifePath": {
-"0": [
-"7f5715fa-e751-4197-9ba9-421d9cc841f4"
-]
-},
-"requirementsCategories": {},
-"requirementsAttributes": {},
-"requirementsEdge": {},
-"requirementsFlexibleAttribute": {},
-"requirementsTraits": {},
-"requirementsSkills": {},
-"requirementsMetaSkills": {},
-"requirementsAbilities": {},
-"exclusionsFactions": {},
-"exclusionsSystems": {},
-"exclusionsLifePath": {},
-"exclusionsCategories": {},
-"exclusionsAttributes": {},
-"exclusionsEdge": {},
-"exclusionsFlexibleAttribute": {},
-"exclusionsTraits": {},
-"exclusionsSkills": {},
-"exclusionsMetaSkills": {},
-"exclusionsAbilities": {},
-"fixedXPAttributes": {
-"0": {
-"WILLPOWER": 25
-}
-},
-"fixedXPEdge": {},
-"fixedXPFlexibleAttribute": {
-"0": -20
-},
-"fixedXPTraits": {
-"0": {
-"ENEMY": -25,
-"FAME": -25
-}
-},
-"fixedXPSkills": {
-"0": {
-"Martial Arts": 15,
-"Protocols/Any": 20,
-"Language/Any": 20
-}
-},
-"fixedXPMetaSkills": {},
-"fixedXPNaturalAptitudes": {},
-"fixedXPNaturalAptitudesMetaSkills": {},
-"fixedXPAbilities": {
-"0": {
-"compulsion_faction_loyalty": -100,
-"compulsion_unpleasant_personality": -100
-}
-},
-"flexibleXPAttributes": {
-"0": {
-"BODY": 75,
-"DEXTERITY": 75,
-"CHARISMA": 75,
-"STRENGTH": 75,
-"REFLEXES": 75,
-"INTELLIGENCE": 75
-}
-},
-"flexibleXPEdge": {
-"0": 75
-},
-"flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits": {},
-"flexibleXPSkills": {
-"2": {
-"Leadership": 10,
-"Negotiation": 10,
-"Melee Weapons": 10,
-"Perception": 10,
-"Tactics/Any": 10
-}
-},
-"flexibleXPMetaSkills": {},
-"flexibleXPNaturalAptitudes": {},
-"flexibleXPNaturalAptitudesMetaSkills": {
-"1": {
-"ROLEPLAY_SCIENCE": 150,
-"ROLEPLAY_GENERAL": 150,
-"ROLEPLAY_INTEREST": 150,
-"SUPPORT": 150,
-"ROLEPLAY_SECURITY": 150,
-"SUPPORT_TECHNICIAN": 150,
-"UTILITY_COMMAND": 150,
-"COMBAT_PILOTING": 150,
-"ROLEPLAY_ART": 150,
-"UTILITY": 150,
-"COMBAT_GUNNERY": 150
-}
-},
-"flexibleXPAbilities": {
-"1": {
-"atow_sixth_sense": 150,
-"atow_fast_learner": 150,
-"exceptional_attribute_strength": 150,
-"exceptional_attribute_edge": 150,
-"exceptional_attribute_reflexes": 150,
-"exceptional_attribute_charisma": 150,
-"exceptional_attribute_willpower": 150,
-"exceptional_attribute_body": 150,
-"exceptional_attribute_intelligence": 150,
-"atow_combat_sense": 150,
-"exceptional_attribute_dexterity": 150
-}
-},
-"flexibleXPPickCounts": {
-"0": 1,
-"1": 1,
-"2": 2
-}
+    "id" : "8aaa40fc-63d9-4ef5-b00f-08ea13115ab4",
+    "version" : {
+        "major" : 0,
+        "minor" : 51,
+        "patch" : 1,
+        "revision" : 0,
+        "extra" : ""
+    },
+    "xpCost" : 55,
+    "source" : "A Time of War",
+    "name" : "Fire Mandrill [3062-3081]",
+    "flavorText" : "",
+    "age" : 0,
+    "xpDiscount" : 0,
+    "minimumYear" : 3062,
+    "maximumYear" : 3081,
+    "randomWeight" : 1.0,
+    "lifeStages" : [
+        "SUB_AFFILIATION"
+    ],
+    "categories" : [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted" : false,
+    "requirementsFactions" : {
+        "0" : [
+            "CFM"
+        ]
+    },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "7f5715fa-e751-4197-9ba9-421d9cc841f4"
+        ]
+    },
+    "requirementsCategories" : { },
+    "requirementsAttributes" : { },
+    "requirementsEdge" : { },
+    "requirementsFlexibleAttribute" : { },
+    "requirementsTraits" : { },
+    "requirementsSkills" : { },
+    "requirementsMetaSkills" : { },
+    "requirementsAbilities" : { },
+    "exclusionsFactions" : { },
+    "exclusionsSystems" : { },
+    "exclusionsLifePath" : { },
+    "exclusionsCategories" : { },
+    "exclusionsAttributes" : { },
+    "exclusionsEdge" : { },
+    "exclusionsFlexibleAttribute" : { },
+    "exclusionsTraits" : { },
+    "exclusionsSkills" : { },
+    "exclusionsMetaSkills" : { },
+    "exclusionsAbilities" : { },
+    "fixedXPAttributes" : {
+        "0" : {
+            "WILLPOWER" : 25
+        }
+    },
+    "fixedXPEdge" : { },
+    "fixedXPFlexibleAttribute" : {
+        "0" : -20
+    },
+    "fixedXPTraits" : {
+        "0" : {
+            "ENEMY" : -25,
+            "FAME" : -25
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Martial Arts" : 15,
+            "Protocols/Any" : 20,
+            "Language/Any" : 20
+        }
+    },
+    "fixedXPMetaSkills" : { },
+    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_faction_loyalty" : -100,
+            "compulsion_unpleasant_personality" : -100
+        }
+    },
+    "flexibleXPAttributes" : {
+        "0" : {
+            "BODY" : 75,
+            "DEXTERITY" : 75,
+            "CHARISMA" : 75,
+            "STRENGTH" : 75,
+            "REFLEXES" : 75,
+            "INTELLIGENCE" : 75
+        }
+    },
+    "flexibleXPEdge" : {
+        "0" : 75
+    },
+    "flexibleXPFlexibleAttribute" : { },
+    "flexibleXPTraits" : { },
+    "flexibleXPSkills" : {
+        "2" : {
+            "Leadership" : 10,
+            "Negotiation" : 10,
+            "Melee Weapons" : 10,
+            "Perception" : 10,
+            "Tactics/Any" : 10
+        }
+    },
+    "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : {
+        "1" : {
+            "ROLEPLAY_SCIENCE" : 150,
+            "ROLEPLAY_GENERAL" : 150,
+            "ROLEPLAY_INTEREST" : 150,
+            "SUPPORT" : 150,
+            "ROLEPLAY_SECURITY" : 150,
+            "SUPPORT_TECHNICIAN" : 150,
+            "UTILITY_COMMAND" : 150,
+            "COMBAT_PILOTING" : 150,
+            "ROLEPLAY_ART" : 150,
+            "UTILITY" : 150,
+            "COMBAT_GUNNERY" : 150
+        }
+    },
+    "flexibleXPAbilities" : {
+        "1" : {
+            "atow_sixth_sense" : 150,
+            "atow_fast_learner" : 150,
+            "exceptional_attribute_strength" : 150,
+            "exceptional_attribute_edge" : 150,
+            "exceptional_attribute_reflexes" : 150,
+            "exceptional_attribute_charisma" : 150,
+            "exceptional_attribute_willpower" : 150,
+            "exceptional_attribute_body" : 150,
+            "exceptional_attribute_intelligence" : 150,
+            "atow_combat_sense" : 150,
+            "exceptional_attribute_dexterity" : 150
+        }
+    },
+    "flexibleXPPickCounts" : {
+        "0" : 1,
+        "1" : 1,
+        "2" : 2
+    }
 }

@@ -1,5 +1,5 @@
 # MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
 # creating free software for the BattleTech community.
@@ -12,143 +12,143 @@
 #
 # MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
 # Microsoft's "Game Content Usage Rules"
-# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
 {
-"id": "ff44234c-a9b1-4eac-a4a5-cb4da34e1e15",
-"version": {
-"major": 0,
-"minor": 51,
-"patch": 1,
-"revision": 0,
-"extra": ""
-},
-"xpCost": 145,
-"source": "A Time of War",
-"name" : "Outworlds Alliance [3062-3081]",
-"flavorText": "",
-"age": 0,
-"xpDiscount": 0,
-"minimumYear": 0,
-"maximumYear" : 9999,
-"randomWeight": 1.0,
-"lifeStages": [
-"SUB_AFFILIATION"
-],
-"categories": [
-"GENERAL_INNER_SPHERE"
-],
-"isPlayerRestricted" : false,
-"requirementsFactions": {
-"0": [
-"OA"
-]
-},
-"requirementsSystems": {},
-"requirementsLifePath": {
-"0": [
-"692a6fdf-24e8-45e2-b15f-7c20ec853f1f"
-]
-},
-"requirementsCategories": {},
-"requirementsAttributes": {},
-"requirementsEdge": {},
-"requirementsFlexibleAttribute": {},
-"requirementsTraits": {},
-"requirementsSkills": {},
-"requirementsMetaSkills": {},
-"requirementsAbilities": {},
-"exclusionsFactions": {},
-"exclusionsSystems": {},
-"exclusionsLifePath": {},
-"exclusionsCategories": {},
-"exclusionsAttributes": {},
-"exclusionsEdge": {},
-"exclusionsFlexibleAttribute": {},
-"exclusionsTraits": {},
-"exclusionsSkills": {},
-"exclusionsMetaSkills": {},
-"exclusionsAbilities": {},
-"fixedXPAttributes": {},
-"fixedXPEdge": {
-"0": 75
-},
-"fixedXPFlexibleAttribute": {},
-"fixedXPTraits": {
-"0": {
-"ORIGIN_OWNED_VEHICLE": -55,
-"WEALTH": -75
-}
-},
-"fixedXPSkills": {
-"0": {
-"Streetwise/Any": 10,
-"Survival/Any": 10
-}
-},
-"fixedXPMetaSkills": {},
-"fixedXPNaturalAptitudes": {},
-"fixedXPNaturalAptitudesMetaSkills": {},
-"fixedXPAbilities": {
-"0": {
-"atow_g_tolerance": 125
-}
-},
-"flexibleXPAttributes": {
-"1": {
-"INTELLIGENCE": 15,
-"DEXTERITY": 15,
-"REFLEXES": 15,
-"WILLPOWER": 15,
-"STRENGTH": 15,
-"BODY": 15,
-"CHARISMA": 15
-}
-},
-"flexibleXPEdge": {
-"1": 15
-},
-"flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits": {
-"1": {
-"PROPERTY": 15,
-"TITLE": 15,
-"EXTRA_INCOME": 15,
-"FAME": 15,
-"CONNECTIONS": 15,
-"ORIGIN_OWNED_VEHICLE": 15,
-"ORIGIN_RANK": 15,
-"WEALTH": 15
-}
-},
-"flexibleXPSkills": {
-"0": {
-"Martial Arts": 10,
-"Small Arms": 10,
-"MedTech/Any": 10
-}
-},
-"flexibleXPMetaSkills": {
-"1": {
-"ROLEPLAY_ART": 15,
-"ROLEPLAY_INTEREST": 15,
-"ROLEPLAY_SECURITY": 15,
-"SUPPORT_TECHNICIAN": 15,
-"COMBAT_GUNNERY": 15,
-"ROLEPLAY_SCIENCE": 15,
-"SUPPORT": 15,
-"ROLEPLAY_GENERAL": 15,
-"UTILITY_COMMAND": 15,
-"UTILITY": 15,
-"COMBAT_PILOTING": 15
-}
-},
-"flexibleXPNaturalAptitudes": {},
-"flexibleXPNaturalAptitudesMetaSkills": {},
-"flexibleXPAbilities": {},
-"flexibleXPPickCounts": {
-"0": 1,
-"1": 3
-}
+    "id" : "ff44234c-a9b1-4eac-a4a5-cb4da34e1e15",
+    "version" : {
+        "major" : 0,
+        "minor" : 51,
+        "patch" : 1,
+        "revision" : 0,
+        "extra" : ""
+    },
+    "xpCost" : 145,
+    "source" : "A Time of War",
+    "name" : "Outworlds Alliance [3062-3081]",
+    "flavorText" : "",
+    "age" : 0,
+    "xpDiscount" : 0,
+    "minimumYear" : 0,
+    "maximumYear" : 9999,
+    "randomWeight" : 1.0,
+    "lifeStages" : [
+        "SUB_AFFILIATION"
+    ],
+    "categories" : [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted" : false,
+    "requirementsFactions" : {
+        "0" : [
+            "OA"
+        ]
+    },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "692a6fdf-24e8-45e2-b15f-7c20ec853f1f"
+        ]
+    },
+    "requirementsCategories" : { },
+    "requirementsAttributes" : { },
+    "requirementsEdge" : { },
+    "requirementsFlexibleAttribute" : { },
+    "requirementsTraits" : { },
+    "requirementsSkills" : { },
+    "requirementsMetaSkills" : { },
+    "requirementsAbilities" : { },
+    "exclusionsFactions" : { },
+    "exclusionsSystems" : { },
+    "exclusionsLifePath" : { },
+    "exclusionsCategories" : { },
+    "exclusionsAttributes" : { },
+    "exclusionsEdge" : { },
+    "exclusionsFlexibleAttribute" : { },
+    "exclusionsTraits" : { },
+    "exclusionsSkills" : { },
+    "exclusionsMetaSkills" : { },
+    "exclusionsAbilities" : { },
+    "fixedXPAttributes" : { },
+    "fixedXPEdge" : {
+        "0" : 75
+    },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "ORIGIN_OWNED_VEHICLE" : -55,
+            "WEALTH" : -75
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Streetwise/Any" : 10,
+            "Survival/Any" : 10
+        }
+    },
+    "fixedXPMetaSkills" : { },
+    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "atow_g_tolerance" : 125
+        }
+    },
+    "flexibleXPAttributes" : {
+        "1" : {
+            "INTELLIGENCE" : 15,
+            "DEXTERITY" : 15,
+            "REFLEXES" : 15,
+            "WILLPOWER" : 15,
+            "STRENGTH" : 15,
+            "BODY" : 15,
+            "CHARISMA" : 15
+        }
+    },
+    "flexibleXPEdge" : {
+        "1" : 15
+    },
+    "flexibleXPFlexibleAttribute" : { },
+    "flexibleXPTraits" : {
+        "1" : {
+            "PROPERTY" : 15,
+            "TITLE" : 15,
+            "EXTRA_INCOME" : 15,
+            "FAME" : 15,
+            "CONNECTIONS" : 15,
+            "ORIGIN_OWNED_VEHICLE" : 15,
+            "ORIGIN_RANK" : 15,
+            "WEALTH" : 15
+        }
+    },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Martial Arts" : 10,
+            "Small Arms" : 10,
+            "MedTech/Any" : 10
+        }
+    },
+    "flexibleXPMetaSkills" : {
+        "1" : {
+            "ROLEPLAY_ART" : 15,
+            "ROLEPLAY_INTEREST" : 15,
+            "ROLEPLAY_SECURITY" : 15,
+            "SUPPORT_TECHNICIAN" : 15,
+            "COMBAT_GUNNERY" : 15,
+            "ROLEPLAY_SCIENCE" : 15,
+            "SUPPORT" : 15,
+            "ROLEPLAY_GENERAL" : 15,
+            "UTILITY_COMMAND" : 15,
+            "UTILITY" : 15,
+            "COMBAT_PILOTING" : 15
+        }
+    },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : {
+        "0" : 1,
+        "1" : 3
+    }
 }

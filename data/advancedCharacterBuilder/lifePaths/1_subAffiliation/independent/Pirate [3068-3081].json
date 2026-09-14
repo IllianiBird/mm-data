@@ -1,5 +1,5 @@
 # MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
 # creating free software for the BattleTech community.
@@ -12,115 +12,115 @@
 #
 # MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
 # Microsoft's "Game Content Usage Rules"
-# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
 {
-"id": "33232251-dc7f-4a5b-b899-cf4fd2b3219e",
-"version": {
-"major": 0,
-"minor": 51,
-"patch": 1,
-"revision": 0,
-"extra": ""
-},
-"xpCost": 50,
-"source": "A Time of War",
-"name" : "Pirate [3068-3081]",
-"flavorText": "",
-"age": 0,
-"xpDiscount": 0,
-"minimumYear": 3068,
-"maximumYear" : 3081,
-"randomWeight": 1.0,
-"lifeStages": [
-"SUB_AFFILIATION"
-],
-"categories": [
-"GENERAL_INNER_SPHERE",
-"SPECIAL_LIMITED_SCHOOLING",
-"SPECIAL_NO_NOBLES"
-],
-"isPlayerRestricted": false,
-"requirementsFactions": {
-"0": [
-"PIR"
-]
-},
-"requirementsSystems": {},
-"requirementsLifePath": {
-"0": [
-"54333746-ae50-4169-8ace-94e559f4d588"
-]
-},
-"requirementsCategories": {},
-"requirementsAttributes": {},
-"requirementsEdge": {},
-"requirementsFlexibleAttribute": {},
-"requirementsTraits": {},
-"requirementsSkills": {},
-"requirementsMetaSkills": {},
-"requirementsAbilities": {},
-"exclusionsFactions": {},
-"exclusionsSystems": {},
-"exclusionsLifePath": {},
-"exclusionsCategories": {},
-"exclusionsAttributes": {},
-"exclusionsEdge": {},
-"exclusionsFlexibleAttribute": {},
-"exclusionsTraits": {},
-"exclusionsSkills": {},
-"exclusionsMetaSkills": {},
-"exclusionsAbilities": {},
-"fixedXPAttributes": {
-"0": {
-"WILLPOWER": 10,
-"CHARISMA": -30,
-"BODY": 20
-}
-},
-"fixedXPEdge": {},
-"fixedXPFlexibleAttribute": {},
-"fixedXPTraits": {
-"0": {
-"FAME": -30
-}
-},
-"fixedXPSkills": {
-"0": {
-"Negotiation": 5,
-"Perception": 15,
-"Language/Any": 10
-}
-},
-"fixedXPMetaSkills": {},
-"fixedXPNaturalAptitudes": {},
-"fixedXPNaturalAptitudesMetaSkills": {},
-"fixedXPAbilities": {
-"0": {
-"pain_resistance": 10,
-"atow_toughness": 10
-}
-},
-"flexibleXPAttributes": {},
-"flexibleXPEdge": {},
-"flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits": {},
-"flexibleXPSkills": {
-"0": {
-"Martial Arts": 10,
-"Small Arms": 10,
-"Acting": 10,
-"Melee Weapons": 10,
-"Survival/Any": 10,
-"Escape Artist": 10
-}
-},
-"flexibleXPMetaSkills": {},
-"flexibleXPNaturalAptitudes": {},
-"flexibleXPNaturalAptitudesMetaSkills": {},
-"flexibleXPAbilities": {},
-"flexibleXPPickCounts": {
-"0": 3
-}
+    "id" : "33232251-dc7f-4a5b-b899-cf4fd2b3219e",
+    "version" : {
+        "major" : 0,
+        "minor" : 51,
+        "patch" : 1,
+        "revision" : 0,
+        "extra" : ""
+    },
+    "xpCost" : 50,
+    "source" : "A Time of War",
+    "name" : "Pirate [3068-3081]",
+    "flavorText" : "",
+    "age" : 0,
+    "xpDiscount" : 0,
+    "minimumYear" : 3068,
+    "maximumYear" : 3081,
+    "randomWeight" : 1.0,
+    "lifeStages" : [
+        "SUB_AFFILIATION"
+    ],
+    "categories" : [
+        "SPECIAL_LIMITED_SCHOOLING",
+        "GENERAL_INNER_SPHERE",
+        "SPECIAL_NO_NOBLES"
+    ],
+    "isPlayerRestricted" : false,
+    "requirementsFactions" : {
+        "0" : [
+            "PIR"
+        ]
+    },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "54333746-ae50-4169-8ace-94e559f4d588"
+        ]
+    },
+    "requirementsCategories" : { },
+    "requirementsAttributes" : { },
+    "requirementsEdge" : { },
+    "requirementsFlexibleAttribute" : { },
+    "requirementsTraits" : { },
+    "requirementsSkills" : { },
+    "requirementsMetaSkills" : { },
+    "requirementsAbilities" : { },
+    "exclusionsFactions" : { },
+    "exclusionsSystems" : { },
+    "exclusionsLifePath" : { },
+    "exclusionsCategories" : { },
+    "exclusionsAttributes" : { },
+    "exclusionsEdge" : { },
+    "exclusionsFlexibleAttribute" : { },
+    "exclusionsTraits" : { },
+    "exclusionsSkills" : { },
+    "exclusionsMetaSkills" : { },
+    "exclusionsAbilities" : { },
+    "fixedXPAttributes" : {
+        "0" : {
+            "WILLPOWER" : 10,
+            "CHARISMA" : -30,
+            "BODY" : 20
+        }
+    },
+    "fixedXPEdge" : { },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "FAME" : -30
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Negotiation" : 5,
+            "Perception" : 15,
+            "Language/Any" : 10
+        }
+    },
+    "fixedXPMetaSkills" : { },
+    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "pain_resistance" : 10,
+            "atow_toughness" : 10
+        }
+    },
+    "flexibleXPAttributes" : { },
+    "flexibleXPEdge" : { },
+    "flexibleXPFlexibleAttribute" : { },
+    "flexibleXPTraits" : { },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Martial Arts" : 10,
+            "Small Arms" : 10,
+            "Acting" : 10,
+            "Melee Weapons" : 10,
+            "Survival/Any" : 10,
+            "Escape Artist" : 10
+        }
+    },
+    "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : {
+        "0" : 3
+    }
 }

@@ -1,5 +1,5 @@
 # MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
 # creating free software for the BattleTech community.
@@ -12,106 +12,106 @@
 #
 # MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
 # Microsoft's "Game Content Usage Rules"
-# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
 {
-"id": "4189eff2-3ee4-4c51-915a-b78dc89091bb",
-"version": {
-"major": 0,
-"minor": 51,
-"patch": 1,
-"revision": 0,
-"extra": ""
-},
-"xpCost": 35,
-"source": "A Time of War",
-"name" : "ComStar Service [3062-3081]",
-"flavorText": "",
-"age": 0,
-"xpDiscount": 0,
-"minimumYear": 3062,
-"maximumYear" : 3081,
-"randomWeight": 1.0,
-"lifeStages": [
-"SUPPLEMENTAL"
-],
-"categories": [
-"GENERAL_INNER_SPHERE"
-],
-"isPlayerRestricted" : false,
-"requirementsFactions": {
-"0": [
-"CS"
-]
-},
-"requirementsSystems": {},
-"requirementsLifePath": {},
-"requirementsCategories": {},
-"requirementsAttributes": {},
-"requirementsEdge": {},
-"requirementsFlexibleAttribute": {},
-"requirementsTraits": {},
-"requirementsSkills": {},
-"requirementsMetaSkills": {},
-"requirementsAbilities": {},
-"exclusionsFactions": {},
-"exclusionsSystems": {},
-"exclusionsLifePath": {},
-"exclusionsCategories": {},
-"exclusionsAttributes": {},
-"exclusionsEdge": {},
-"exclusionsFlexibleAttribute": {},
-"exclusionsTraits": {
-"0": {
-"EXTRA_INCOME": 1,
-"PROPERTY": 1
-}
-},
-"exclusionsSkills": {},
-"exclusionsMetaSkills": {},
-"exclusionsAbilities": {},
-"fixedXPAttributes": {
-"0": {
-"WILLPOWER": -15,
-"INTELLIGENCE": 25
-}
-},
-"fixedXPEdge": {},
-"fixedXPFlexibleAttribute": {},
-"fixedXPTraits": {
-"0": {
-"ENEMY": -200,
-"CONNECTIONS": 50,
-"FAME": -30,
-"ORIGIN_OWNED_VEHICLE": 100,
-"ORIGIN_RANK": 50
-}
-},
-"fixedXPSkills": {
-"0": {
-"Communications/Any": 10,
-"Interest/Theology": 10,
-"Protocols/Any": 15,
-"Negotiation": 10
-}
-},
-"fixedXPMetaSkills": {
-"0": {
-"SUPPORT_TECHNICIAN": 10
-}
-},
-"fixedXPNaturalAptitudes": {},
-"fixedXPNaturalAptitudesMetaSkills": {},
-"fixedXPAbilities": {},
-"flexibleXPAttributes": {},
-"flexibleXPEdge": {},
-"flexibleXPFlexibleAttribute": {},
-"flexibleXPTraits": {},
-"flexibleXPSkills": {},
-"flexibleXPMetaSkills": {},
-"flexibleXPNaturalAptitudes": {},
-"flexibleXPNaturalAptitudesMetaSkills": {},
-"flexibleXPAbilities": {},
-"flexibleXPPickCounts": {}
+    "id" : "4189eff2-3ee4-4c51-915a-b78dc89091bb",
+    "version" : {
+        "major" : 0,
+        "minor" : 51,
+        "patch" : 1,
+        "revision" : 0,
+        "extra" : ""
+    },
+    "xpCost" : 35,
+    "source" : "A Time of War",
+    "name" : "ComStar Service [3062-3081]",
+    "flavorText" : "",
+    "age" : 0,
+    "xpDiscount" : 0,
+    "minimumYear" : 3062,
+    "maximumYear" : 3081,
+    "randomWeight" : 1.0,
+    "lifeStages" : [
+        "SUPPLEMENTAL"
+    ],
+    "categories" : [
+        "GENERAL_INNER_SPHERE"
+    ],
+    "isPlayerRestricted" : false,
+    "requirementsFactions" : {
+        "0" : [
+            "CS"
+        ]
+    },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : { },
+    "requirementsCategories" : { },
+    "requirementsAttributes" : { },
+    "requirementsEdge" : { },
+    "requirementsFlexibleAttribute" : { },
+    "requirementsTraits" : { },
+    "requirementsSkills" : { },
+    "requirementsMetaSkills" : { },
+    "requirementsAbilities" : { },
+    "exclusionsFactions" : { },
+    "exclusionsSystems" : { },
+    "exclusionsLifePath" : { },
+    "exclusionsCategories" : { },
+    "exclusionsAttributes" : { },
+    "exclusionsEdge" : { },
+    "exclusionsFlexibleAttribute" : { },
+    "exclusionsTraits" : {
+        "0" : {
+            "EXTRA_INCOME" : 1,
+            "PROPERTY" : 1
+        }
+    },
+    "exclusionsSkills" : { },
+    "exclusionsMetaSkills" : { },
+    "exclusionsAbilities" : { },
+    "fixedXPAttributes" : {
+        "0" : {
+            "WILLPOWER" : -15,
+            "INTELLIGENCE" : 25
+        }
+    },
+    "fixedXPEdge" : { },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "ENEMY" : -200,
+            "CONNECTIONS" : 50,
+            "FAME" : -30,
+            "ORIGIN_OWNED_VEHICLE" : 100,
+            "ORIGIN_RANK" : 50
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Communications/Any" : 10,
+            "Interest/Theology" : 10,
+            "Protocols/Any" : 15,
+            "Negotiation" : 10
+        }
+    },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "SUPPORT_TECHNICIAN" : 10
+        }
+    },
+    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPAbilities" : { },
+    "flexibleXPAttributes" : { },
+    "flexibleXPEdge" : { },
+    "flexibleXPFlexibleAttribute" : { },
+    "flexibleXPTraits" : { },
+    "flexibleXPSkills" : { },
+    "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
 }
