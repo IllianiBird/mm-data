@@ -1,4 +1,4 @@
-# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -16,20 +16,20 @@
 # affiliated with Microsoft.
 
 {
-  "contractTypeName" : "Riot Duty",
-  "briefing" : "Defend designated facilities.",
+  "contractTypeName" : "Pirate Raid",
+  "briefing" : "Plunder the target's assets and withdraw before its defenders can muster.",
   "alliedFacilityCount" : 0.0,
-  "hostileFacilityCount" : 0.0,
-  "allowEarlyVictory" : false,
+  "hostileFacilityCount" : -0.5,
+  "allowEarlyVictory" : true,
   "allowedScenarios" : null,
   "forbiddenScenarios" : null,
   "objectiveParameters" : [ {
-    "objectiveType" : "AlliedFacilityControl",
-    "objectiveCount" : -0.5,
-    "objectiveScenarios" : [ ],
+    "objectiveType" : "SpecificScenarioVictory",
+    "objectiveCount" : 0.0,
+    "objectiveScenarios" : [ "Convoy Hijack.json" ],
     "objectiveScenarioModifiers" : [ ]
   } ],
   "globalScenarioModifiers" : [ ],
-  "scenarioOdds" : [ 10, 20, 20, 30 ],
-  "deploymentTimes" : [ 4, 5, 5, 5, 6 ]
+  "scenarioOdds" : [ 22, 32, 32, 42 ],
+  "deploymentTimes" : [ 3, 4, 4, 4, 5 ]
 }
