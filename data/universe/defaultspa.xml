@@ -294,21 +294,6 @@ Has no effect if Chassis Familiarity is disabled.]]></desc>
             <skill>Piloting/Ground Vehicle::Regular</skill>
         </skillPrereq>
     </ability>
-    <ability>
-        <lookupName>aptitude_piloting</lookupName>
-        <xpCost>300</xpCost>
-        <originOnly>false</originOnly>
-        <weight>1</weight>
-        <skillPrereq>
-            <skill>Piloting/Aerospace::Veteran</skill>
-            <skill>Piloting/Naval::Veteran</skill>
-            <skill>Piloting/Ground Vehicle::Veteran</skill>
-            <skill>Piloting/Spacecraft::Veteran</skill>
-            <skill>Piloting/VTOL::Veteran</skill>
-            <skill>Piloting/Aircraft::Veteran</skill>
-            <skill>Piloting/Mek::Veteran</skill>
-        </skillPrereq>
-    </ability>
 
     <!--     GUNNERY SPA -->
     <ability>
@@ -463,21 +448,6 @@ Has no effect if Chassis Familiarity is disabled.]]></desc>
             <skill>Gunnery/Spacecraft::Green</skill>
             <skill>Gunnery/BattleArmor::Green</skill>
             <skill>Gunnery/Vehicle::Green</skill>
-        </skillPrereq>
-    </ability>
-    <ability>
-        <lookupName>aptitude_gunnery</lookupName>
-        <xpCost>300</xpCost>
-        <originOnly>false</originOnly>
-        <weight>1</weight>
-        <skillPrereq>
-            <skill>Gunnery/Mek::Veteran</skill>
-            <skill>Gunnery/ProtoMek::Veteran</skill>
-            <skill>Gunnery/Aircraft::Veteran</skill>
-            <skill>Gunnery/Aerospace::Veteran</skill>
-            <skill>Gunnery/Spacecraft::Veteran</skill>
-            <skill>Gunnery/BattleArmor::Veteran</skill>
-            <skill>Gunnery/Vehicle::Veteran</skill>
         </skillPrereq>
     </ability>
     <ability>
