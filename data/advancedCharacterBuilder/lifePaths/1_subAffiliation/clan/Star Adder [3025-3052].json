@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "8aaa40fc-63d9-4ef5-b00f-08ea13115ab4",
+    "id" : "016312d2-44ce-42c6-b38c-81921ccd4cdc",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 55,
-    "source" : "A Time of War",
-    "name" : "Fire Mandrill [3052-3081]",
+    "xpCost" : 25,
+    "source" : "Era Report 3052",
+    "name" : "Star Adder [3025-3052]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3081,
+    "minimumYear" : 3025,
+    "maximumYear" : 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,10 +42,10 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CFM"
+            "CSA"
         ],
         "1" : [
-            "CFM"
+            "CSA"
         ]
     },
     "requirementsSystems" : { },
@@ -78,24 +78,24 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 25
+            "WILLPOWER" : 50,
+            "CHARISMA" : -50,
+            "INTELLIGENCE" : 50
         }
     },
     "fixedXPEdge" : { },
-    "fixedXPFlexibleAttribute" : {
-        "0" : -20
-    },
+    "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ENEMY" : -25,
-            "FAME" : -25
+            "FAME" : 20,
+            "ORIGIN_OWNED_VEHICLE" : 25
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 15,
-            "Protocols/Any" : 20,
-            "Language/Any" : 20
+            "Protocols/Any" : 10,
+            "Leadership" : 10,
+            "Perception" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -103,69 +103,19 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_loyalty" : -100,
-            "compulsion_unpleasant_personality" : -100
+            "clan_pilot_training" : -100,
+            "atow_combat_sense" : 50,
+            "compulsion_unpleasant_personality" : -50
         }
     },
-    "flexibleXPAttributes" : {
-        "0" : {
-            "BODY" : 75,
-            "DEXTERITY" : 75,
-            "CHARISMA" : 75,
-            "STRENGTH" : 75,
-            "REFLEXES" : 75,
-            "INTELLIGENCE" : 75
-        }
-    },
-    "flexibleXPEdge" : {
-        "0" : 75
-    },
+    "flexibleXPAttributes" : { },
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : {
-        "2" : {
-            "Leadership" : 10,
-            "Negotiation" : 10,
-            "Melee Weapons" : 10,
-            "Perception" : 10,
-            "Tactics/Any" : 10
-        }
-    },
+    "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
-    "flexibleXPNaturalAptitudesMetaSkills" : {
-        "1" : {
-            "ROLEPLAY_SCIENCE" : 150,
-            "ROLEPLAY_GENERAL" : 150,
-            "ROLEPLAY_INTEREST" : 150,
-            "SUPPORT" : 150,
-            "ROLEPLAY_SECURITY" : 150,
-            "SUPPORT_TECHNICIAN" : 150,
-            "UTILITY_COMMAND" : 150,
-            "COMBAT_PILOTING" : 150,
-            "ROLEPLAY_ART" : 150,
-            "UTILITY" : 150,
-            "COMBAT_GUNNERY" : 150
-        }
-    },
-    "flexibleXPAbilities" : {
-        "1" : {
-            "atow_sixth_sense" : 150,
-            "atow_fast_learner" : 150,
-            "exceptional_attribute_strength" : 150,
-            "exceptional_attribute_edge" : 150,
-            "exceptional_attribute_reflexes" : 150,
-            "exceptional_attribute_charisma" : 150,
-            "exceptional_attribute_willpower" : 150,
-            "exceptional_attribute_body" : 150,
-            "exceptional_attribute_intelligence" : 150,
-            "atow_combat_sense" : 150,
-            "exceptional_attribute_dexterity" : 150
-        }
-    },
-    "flexibleXPPickCounts" : {
-        "0" : 1,
-        "1" : 1,
-        "2" : 2
-    }
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
 }

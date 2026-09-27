@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "72c2ec13-6ff1-4afe-9128-8cabfd837482",
+    "id" : "549f5497-e8a4-4093-a162-c9006d72b22a",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
-    "source" : "A Time of War",
-    "name" : "Coyote [3052-3081]",
+    "xpCost" : 70,
+    "source" : "Era Report 3052",
+    "name" : "Snow Raven [3025-3053]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3081,
+    "minimumYear" : 3025,
+    "maximumYear" : 3053,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,10 +42,10 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CCO"
+            "CSR"
         ],
         "1" : [
-            "CCO"
+            "CSR"
         ]
     },
     "requirementsSystems" : { },
@@ -54,7 +54,7 @@
             "3f9ec543-f469-4569-921b-aca964a63b02"
         ],
         "1" : [
-            "fe8d4be3-5efb-4b45-ac4c-64b17a186ac8"
+            "301ce7dd-a077-4f63-90ea-168c6eac889c"
         ]
     },
     "requirementsCategories" : { },
@@ -78,53 +78,42 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : -60,
-            "INTELLIGENCE" : 100
+            "CHARISMA" : 10,
+            "INTELLIGENCE" : 20
         }
     },
-    "fixedXPEdge" : {
-        "0" : 25
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : -60,
-            "ORIGIN_OWNED_VEHICLE" : 25
+            "CONNECTIONS" : 50,
+            "ORIGIN_OWNED_VEHICLE" : 75
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10,
-            "Interest/Mythology" : 15,
-            "Survival/Any" : 10
+            "Protocols/Any" : 15,
+            "Negotiation" : 15,
+            "Zero-G Operations" : 15
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_unpleasant_personality" : -100,
+            "compulsion_mild_paranoia" : -30
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : {
-        "0" : {
-            "ORIGIN_OWNED_VEHICLE" : 10
-        }
-    },
+    "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : {
-        "0" : {
-            "Computers" : 10
-        }
-    },
-    "flexibleXPNaturalAptitudesMetaSkills" : {
-        "0" : {
-            "SUPPORT_TECHNICIAN" : 10
-        }
-    },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPPickCounts" : { }
 }

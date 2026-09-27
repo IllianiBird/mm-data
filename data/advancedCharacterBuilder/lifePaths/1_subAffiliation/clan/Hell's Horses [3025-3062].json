@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "a3e552c3-8fe0-43eb-b645-6224878be10f",
+    "id" : "d1fbf186-564a-430a-9e6a-ebe5a74aa6a7",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "A Time of War",
-    "name" : "Diamond Shark [3052-3081]",
+    "xpCost" : -125,
+    "source" : "Era Report 3052",
+    "name" : "Hell's Horses [3025-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3081,
+    "minimumYear" : 3025,
+    "maximumYear" : 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,25 +42,25 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CDS"
+            "CHH"
         ],
         "1" : [
-            "CDS"
+            "CHH"
         ],
         "2" : [
-            "CDS"
+            "CHH"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
+            "3f9ec543-f469-4569-921b-aca964a63b02"
         ],
         "1" : [
-            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
         ],
         "2" : [
-            "5856deff-b39c-4d43-add6-65b59872bd89"
+            "301ce7dd-a077-4f63-90ea-168c6eac889c"
         ]
     },
     "requirementsCategories" : { },
@@ -84,32 +84,30 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "STRENGTH" : -45,
-            "INTELLIGENCE" : 25
+            "BODY" : 25,
+            "STRENGTH" : 25
         }
     },
-    "fixedXPEdge" : {
-        "0" : -50
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "WEALTH" : 30,
-            "CONNECTIONS" : 25,
-            "ORIGIN_OWNED_VEHICLE" : 25
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10,
-            "Negotiation" : 20,
-            "Perception" : 10
+            "Protocols/Any" : 15,
+            "Navigation/Any" : 15,
+            "Survival/Any" : 15,
+            "Melee Weapons" : 10
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "flaw_introvert" : -30,
+            "compulsion_other_faction_hate" : -200
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

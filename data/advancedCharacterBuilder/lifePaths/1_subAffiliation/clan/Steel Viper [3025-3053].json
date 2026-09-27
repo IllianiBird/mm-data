@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "d1edd2d8-2f67-4906-afd2-311b10be142e",
+    "id" : "61b990ee-15eb-4cb7-93c5-75eea37d8dc4",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -25,60 +25,37 @@
         "extra" : ""
     },
     "xpCost" : 50,
-    "source" : "A Time of War",
-    "name" : "Wolf [3052-3081]",
+    "source" : "Era Report 3052",
+    "name" : "Steel Viper [3025-3053]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3081,
+    "minimumYear" : 3025,
+    "maximumYear" : 3053,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "GENERAL_CLAN",
+        "SPECIAL_CITIZEN_WARRIORS"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CW"
+            "CSV"
         ],
         "1" : [
-            "CWIE"
-        ],
-        "2" : [
-            "CW"
-        ],
-        "3" : [
-            "CW"
-        ],
-        "4" : [
-            "CWIE"
-        ],
-        "5" : [
-            "CWIE"
+            "CSV"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
-        ],
-        "1" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
-        ],
-        "2" : [
-            "5856deff-b39c-4d43-add6-65b59872bd89"
-        ],
-        "3" : [
             "eeaba833-5603-4817-8222-7dd4e1f5d846"
         ],
-        "4" : [
-            "5856deff-b39c-4d43-add6-65b59872bd89"
-        ],
-        "5" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
+        "1" : [
+            "a3a4dd79-0fa9-4c94-8981-9c56421964da"
         ]
     },
     "requirementsCategories" : { },
@@ -102,22 +79,23 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 25,
-            "INTELLIGENCE" : 25
+            "WILLPOWER" : 100,
+            "CHARISMA" : -50,
+            "INTELLIGENCE" : 75
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ENEMY" : -100,
-            "FAME" : 70,
-            "ORIGIN_OWNED_VEHICLE" : 50
+            "CONNECTIONS" : 80
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10
+            "Protocols/Any" : 15,
+            "Negotiation" : 10,
+            "Survival/Any" : 20
         }
     },
     "fixedXPMetaSkills" : { },
@@ -125,30 +103,18 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : -50
+            "clan_pilot_training" : -100,
+            "compulsion_other_faction_hate" : -100
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : {
-        "0" : {
-            "Leadership" : 10,
-            "Negotiation" : 10,
-            "Perception" : 10,
-            "Strategy" : 10
-        }
-    },
-    "flexibleXPMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_INTEREST" : 10
-        }
-    },
+    "flexibleXPSkills" : { },
+    "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 2
-    }
+    "flexibleXPPickCounts" : { }
 }

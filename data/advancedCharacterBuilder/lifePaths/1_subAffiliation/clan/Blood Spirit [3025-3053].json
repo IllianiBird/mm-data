@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "846451ed-eda1-4ae6-90ab-e041ea4af101",
+    "id" : "e0ba295d-e0b6-4a21-bec6-30866b57968a",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "A Time of War",
-    "name" : "Nova Cat [3025-3052]",
+    "xpCost" : 25,
+    "source" : "Era Report 3052",
+    "name" : "Blood Spirit [3025-3053]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
     "minimumYear" : 3025,
-    "maximumYear" : 3052,
+    "maximumYear" : 3053,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,16 +42,16 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CNC"
+            "CBS"
         ],
         "1" : [
-            "CNC"
+            "CBS"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+            "3f9ec543-f469-4569-921b-aca964a63b02"
         ],
         "1" : [
             "a3a4dd79-0fa9-4c94-8981-9c56421964da"
@@ -78,18 +78,24 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "CHARISMA" : -25
+            "WILLPOWER" : 100,
+            "CHARISMA" : -50,
+            "BODY" : 25
         }
     },
-    "fixedXPEdge" : {
-        "0" : 50
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "ORIGIN_OWNED_VEHICLE" : -65
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
+            "Martial Arts" : 15,
             "Protocols/Any" : 10,
-            "Interest/Mythology" : 15
+            "Small Arms" : 15,
+            "Interest/History" : 25
         }
     },
     "fixedXPMetaSkills" : { },
@@ -97,8 +103,9 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "atow_sixth_sense" : 100,
-            "compulsion_other_faction_dislike" : -100
+            "compulsion_faction_loyalty" : -100,
+            "flaw_introvert" : -50,
+            "exceptional_attribute_willpower" : 100
         }
     },
     "flexibleXPAttributes" : { },

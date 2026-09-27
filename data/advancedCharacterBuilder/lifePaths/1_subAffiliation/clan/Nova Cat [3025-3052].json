@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "90ae9987-f20b-411f-b75a-701aa6738b25",
+    "id" : "846451ed-eda1-4ae6-90ab-e041ea4af101",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -25,8 +25,8 @@
         "extra" : ""
     },
     "xpCost" : 50,
-    "source" : "A Time of War",
-    "name" : "Ghost Bear [3025-3052]",
+    "source" : "Era Report 3052r",
+    "name" : "Nova Cat [3025-3052]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
@@ -42,10 +42,10 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CGB"
+            "CNC"
         ],
         "1" : [
-            "CGB"
+            "CNC"
         ]
     },
     "requirementsSystems" : { },
@@ -78,31 +78,27 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "BODY" : 25,
-            "STRENGTH" : 25
+            "CHARISMA" : -25
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : 50
+    },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10
+            "Protocols/Any" : 10,
+            "Interest/Mythology" : 15
         }
     },
-    "fixedXPMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_ART" : 10
-        }
-    },
+    "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "exceptional_attribute_strength" : 50,
-            "atow_patient" : 80,
-            "compulsion_other_faction_hate" : -100,
-            "flaw_slow_learner" : -50
+            "atow_sixth_sense" : 100,
+            "compulsion_other_faction_dislike" : -100
         }
     },
     "flexibleXPAttributes" : { },

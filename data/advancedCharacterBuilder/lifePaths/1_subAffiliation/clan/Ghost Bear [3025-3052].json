@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "0e4f318c-c66e-4ac7-a717-1daf151a10f7",
+    "id" : "90ae9987-f20b-411f-b75a-701aa6738b25",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
-    "source" : "A Time of War",
-    "name" : "Ice Hellion [3052-3081]",
+    "xpCost" : 50,
+    "source" : "Era Report 3052",
+    "name" : "Ghost Bear [3025-3052]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3081,
+    "minimumYear" : 3025,
+    "maximumYear" : 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,19 +42,19 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CIH"
+            "CGB"
         ],
         "1" : [
-            "CIH"
+            "CGB"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "3f9ec543-f469-4569-921b-aca964a63b02"
+            "eeaba833-5603-4817-8222-7dd4e1f5d846"
         ],
         "1" : [
-            "fe8d4be3-5efb-4b45-ac4c-64b17a186ac8"
+            "a3a4dd79-0fa9-4c94-8981-9c56421964da"
         ]
     },
     "requirementsCategories" : { },
@@ -78,36 +78,31 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 50,
-            "DEXTERITY" : 75,
-            "REFLEXES" : 100,
-            "CHARISMA" : -75
+            "BODY" : 25,
+            "STRENGTH" : 25
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "FAME" : -95
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 10,
-            "Protocols/Any" : 10,
-            "Negotiation" : 15,
-            "Interest/History" : 15,
-            "Swimming" : 10,
-            "Survival/Any" : 10
+            "Protocols/Any" : 10
         }
     },
-    "fixedXPMetaSkills" : { },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_ART" : 10
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "flaw_impatient" : -100,
-            "atow_combat_sense" : 50
+            "exceptional_attribute_strength" : 50,
+            "atow_patient" : 80,
+            "compulsion_other_faction_hate" : -100,
+            "flaw_slow_learner" : -50
         }
     },
     "flexibleXPAttributes" : { },
