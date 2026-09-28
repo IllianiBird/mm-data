@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "846451ed-eda1-4ae6-90ab-e041ea4af101",
+    "id" : "0b333d82-80bc-43d9-b72a-adeea1e24004",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -25,13 +25,13 @@
         "extra" : ""
     },
     "xpCost" : 50,
-    "source" : "Era Report 3052r",
-    "name" : "Nova Cat [3025-3052]",
+    "source" : "A Time of War",
+    "name" : "Jade Falcon [2950-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
-    "maximumYear" : 3052,
+    "minimumYear" : 2950,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,18 +42,30 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CNC"
+            "CJF"
         ],
         "1" : [
-            "CNC"
+            "CJF"
+        ],
+        "2" : [
+            "CJF"
+        ],
+        "3" : [
+            "CJF"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
         ],
         "1" : [
+            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+        ],
+        "2" : [
+            "5856deff-b39c-4d43-add6-65b59872bd89"
+        ],
+        "3" : [
             "a3a4dd79-0fa9-4c94-8981-9c56421964da"
         ]
     },
@@ -78,18 +90,22 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "CHARISMA" : -25
+            "WILLPOWER" : 25
         }
     },
-    "fixedXPEdge" : {
-        "0" : 50
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "FAME" : 100
+        }
+    },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10,
-            "Interest/Mythology" : 15
+            "Martial Arts" : 15,
+            "Protocols/Any" : 15,
+            "Acting" : 10,
+            "Survival/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -97,8 +113,8 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "atow_sixth_sense" : 100,
-            "compulsion_other_faction_dislike" : -100
+            "compulsion_faction_pride" : -75,
+            "compulsion_other_faction_hate" : -50
         }
     },
     "flexibleXPAttributes" : { },

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "0b333d82-80bc-43d9-b72a-adeea1e24004",
+    "id" : "549f5497-e8a4-4093-a162-c9006d72b22a",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "A Time of War",
-    "name" : "Jade Falcon [3025-3081]",
+    "xpCost" : 70,
+    "source" : "Era Report 3052",
+    "name" : "Snow Raven [2950-3053]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
-    "maximumYear" : 3081,
+    "minimumYear" : 2950,
+    "maximumYear" : 3053,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,31 +42,19 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CJF"
+            "CSR"
         ],
         "1" : [
-            "CJF"
-        ],
-        "2" : [
-            "CJF"
-        ],
-        "3" : [
-            "CJF"
+            "CSR"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
+            "3f9ec543-f469-4569-921b-aca964a63b02"
         ],
         "1" : [
-            "eeaba833-5603-4817-8222-7dd4e1f5d846"
-        ],
-        "2" : [
-            "5856deff-b39c-4d43-add6-65b59872bd89"
-        ],
-        "3" : [
-            "a3a4dd79-0fa9-4c94-8981-9c56421964da"
+            "301ce7dd-a077-4f63-90ea-168c6eac889c"
         ]
     },
     "requirementsCategories" : { },
@@ -90,22 +78,23 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 25
+            "CHARISMA" : 10,
+            "INTELLIGENCE" : 20
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : 100
+            "CONNECTIONS" : 50,
+            "ORIGIN_OWNED_VEHICLE" : 75
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 15,
             "Protocols/Any" : 15,
-            "Acting" : 10,
-            "Survival/Any" : 10
+            "Negotiation" : 15,
+            "Zero-G Operations" : 15
         }
     },
     "fixedXPMetaSkills" : { },
@@ -113,8 +102,8 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : -75,
-            "compulsion_other_faction_hate" : -50
+            "compulsion_unpleasant_personality" : -100,
+            "compulsion_mild_paranoia" : -30
         }
     },
     "flexibleXPAttributes" : { },

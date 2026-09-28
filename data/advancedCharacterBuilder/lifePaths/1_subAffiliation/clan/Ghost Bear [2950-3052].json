@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "98221220-4495-4419-9174-09b3fa5392db",
+    "id" : "90ae9987-f20b-411f-b75a-701aa6738b25",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -25,26 +25,36 @@
         "extra" : ""
     },
     "xpCost" : 50,
-    "source" : "A Time of War",
-    "name" : "Rasalhague [3052-3062]",
+    "source" : "Era Report 3052",
+    "name" : "Ghost Bear [2950-3052]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3052,
-    "maximumYear" : 3062,
+    "minimumYear" : 2950,
+    "maximumYear" : 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN_RULED_INNER_SPHERE"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : { },
+    "requirementsFactions" : {
+        "0" : [
+            "CGB"
+        ],
+        "1" : [
+            "CGB"
+        ]
+    },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "fb0a32fb-9ad3-4ada-939c-c7faf9b2ff5b"
+            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+        ],
+        "1" : [
+            "a3a4dd79-0fa9-4c94-8981-9c56421964da"
         ]
     },
     "requirementsCategories" : { },
@@ -68,35 +78,31 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 50
+            "BODY" : 25,
+            "STRENGTH" : 25
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "FAME" : -50
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10,
-            "Martial Arts" : 20,
-            "Negotiation" : 10,
-            "Small Arms" : 10,
-            "Melee Weapons" : 15
+            "Protocols/Any" : 10
         }
     },
     "fixedXPMetaSkills" : {
         "0" : {
-            "ROLEPLAY_INTEREST" : 10
+            "ROLEPLAY_ART" : 10
         }
     },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "flaw_introvert" : -25
+            "exceptional_attribute_strength" : 50,
+            "atow_patient" : 80,
+            "compulsion_other_faction_hate" : -100,
+            "flaw_slow_learner" : -50
         }
     },
     "flexibleXPAttributes" : { },

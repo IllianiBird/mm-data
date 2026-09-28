@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "72c2ec13-6ff1-4afe-9128-8cabfd837482",
+    "id" : "0e4f318c-c66e-4ac7-a717-1daf151a10f7",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -26,11 +26,11 @@
     },
     "xpCost" : 75,
     "source" : "A Time of War",
-    "name" : "Coyote [3025-3081]",
+    "name" : "Ice Hellion [2950-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
+    "minimumYear" : 2950,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -42,13 +42,13 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CCO"
+            "CIH"
         ],
         "1" : [
-            "CCO"
+            "CIH"
         ],
         "2" : [
-            "CCO"
+            "CIH"
         ]
     },
     "requirementsSystems" : { },
@@ -84,53 +84,46 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : -60,
-            "INTELLIGENCE" : 100
+            "WILLPOWER" : 50,
+            "DEXTERITY" : 75,
+            "REFLEXES" : 100,
+            "CHARISMA" : -75
         }
     },
-    "fixedXPEdge" : {
-        "0" : 25
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : -60,
-            "ORIGIN_OWNED_VEHICLE" : 25
+            "FAME" : -95
         }
     },
     "fixedXPSkills" : {
         "0" : {
+            "Martial Arts" : 10,
             "Protocols/Any" : 10,
-            "Interest/Mythology" : 15,
+            "Negotiation" : 15,
+            "Interest/History" : 15,
+            "Swimming" : 10,
             "Survival/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "flaw_impatient" : -100,
+            "atow_combat_sense" : 50
+        }
+    },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
-    "flexibleXPTraits" : {
-        "0" : {
-            "ORIGIN_OWNED_VEHICLE" : 10
-        }
-    },
+    "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : {
-        "0" : {
-            "Computers" : 10
-        }
-    },
-    "flexibleXPNaturalAptitudesMetaSkills" : {
-        "0" : {
-            "SUPPORT_TECHNICIAN" : 10
-        }
-    },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPPickCounts" : { }
 }

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "6d27e949-3aba-4b6a-87a4-5dec3b4b0edb",
+    "id" : "61b990ee-15eb-4cb7-93c5-75eea37d8dc4",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,43 +24,38 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
-    "source" : "A Time of War",
-    "name" : "Goliath Scorpion [3025-3081]",
+    "xpCost" : 50,
+    "source" : "Era Report 3052",
+    "name" : "Steel Viper [2950-3053]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
-    "maximumYear" : 3081,
+    "minimumYear" : 2950,
+    "maximumYear" : 3053,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "GENERAL_CLAN",
+        "SPECIAL_CITIZEN_WARRIORS"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CGS"
+            "CSV"
         ],
         "1" : [
-            "CGS"
-        ],
-        "2" : [
-            "CGS"
+            "CSV"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "3f9ec543-f469-4569-921b-aca964a63b02"
+            "eeaba833-5603-4817-8222-7dd4e1f5d846"
         ],
         "1" : [
-            "fe8d4be3-5efb-4b45-ac4c-64b17a186ac8"
-        ],
-        "2" : [
-            "301ce7dd-a077-4f63-90ea-168c6eac889c"
+            "a3a4dd79-0fa9-4c94-8981-9c56421964da"
         ]
     },
     "requirementsCategories" : { },
@@ -84,25 +79,23 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "DEXTERITY" : 50,
-            "WILLPOWER" : -50,
-            "INTELLIGENCE" : 50
+            "WILLPOWER" : 100,
+            "CHARISMA" : -50,
+            "INTELLIGENCE" : 75
         }
     },
-    "fixedXPEdge" : {
-        "0" : -50
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : -25
+            "CONNECTIONS" : 80
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10,
-            "Melee Weapons" : 15,
-            "Interest/History" : 20
+            "Protocols/Any" : 15,
+            "Negotiation" : 10,
+            "Survival/Any" : 20
         }
     },
     "fixedXPMetaSkills" : { },
@@ -110,9 +103,8 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "atow_fit" : 55,
-            "compulsion_unpleasant_personality" : -50,
-            "compulsion_addiction" : -50
+            "clan_pilot_training" : -100,
+            "compulsion_other_faction_hate" : -100
         }
     },
     "flexibleXPAttributes" : { },
@@ -121,23 +113,8 @@
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
     "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : {
-        "0" : {
-            "Melee Weapons" : 100
-        }
-    },
-    "flexibleXPNaturalAptitudesMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_INTEREST" : 100,
-            "COMBAT_GUNNERY" : 100
-        }
-    },
-    "flexibleXPAbilities" : {
-        "0" : {
-            "exceptional_attribute_intelligence" : 100
-        }
-    },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
 }

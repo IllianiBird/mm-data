@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "5e516d32-d327-4c4e-a234-fa2a590ad2dc",
+    "id" : "10f2ebb6-67aa-44a5-bc07-1a69eb95d02a",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -26,43 +26,36 @@
     },
     "xpCost" : 75,
     "source" : "A Time of War",
-    "name" : "Cloud Cobra [3025-3081]",
+    "name" : "Capellan Confederation [3062-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
+    "minimumYear" : 3062,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
-        "SUB_AFFILIATION"
+        "AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "SPECIAL_CHILD_LABOR_ENABLED",
+        "SPECIAL_MILITARY_REQUIRES_CITIZENSHIP",
+        "SPECIAL_STAGE_3_NEEDS_CITIZENSHIP",
+        "GENERAL_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CCC"
+            "CC"
         ],
         "1" : [
-            "CCC"
+            "CS"
         ],
         "2" : [
-            "CCC"
+            "WOB"
         ]
     },
     "requirementsSystems" : { },
-    "requirementsLifePath" : {
-        "0" : [
-            "3f9ec543-f469-4569-921b-aca964a63b02"
-        ],
-        "1" : [
-            "fe8d4be3-5efb-4b45-ac4c-64b17a186ac8"
-        ],
-        "2" : [
-            "301ce7dd-a077-4f63-90ea-168c6eac889c"
-        ]
-    },
+    "requirementsLifePath" : { },
     "requirementsCategories" : { },
     "requirementsAttributes" : { },
     "requirementsEdge" : { },
@@ -84,22 +77,17 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 50,
-            "INTELLIGENCE" : 50
+            "WILLPOWER" : 50
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : {
-        "0" : {
-            "FAME" : -75,
-            "ORIGIN_OWNED_VEHICLE" : -25
-        }
-    },
+    "fixedXPTraits" : { },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 20,
-            "Interest/Theology" : 20
+            "Protocols/Any" : 10,
+            "Martial Arts" : 5,
+            "Language/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -107,8 +95,8 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_religious_fanaticism" : -75,
-            "atow_patient" : 100
+            "compulsion_mild_paranoia" : -100,
+            "exceptional_attribute_edge" : 100
         }
     },
     "flexibleXPAttributes" : { },
@@ -116,25 +104,9 @@
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_SCIENCE" : 10,
-            "ROLEPLAY_GENERAL" : 10,
-            "ROLEPLAY_INTEREST" : 10,
-            "SUPPORT" : 10,
-            "ROLEPLAY_SECURITY" : 10,
-            "SUPPORT_TECHNICIAN" : 10,
-            "UTILITY_COMMAND" : 10,
-            "COMBAT_PILOTING" : 10,
-            "ROLEPLAY_ART" : 10,
-            "UTILITY" : 10,
-            "COMBAT_GUNNERY" : 10
-        }
-    },
+    "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 1
-    }
+    "flexibleXPPickCounts" : { }
 }

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "016312d2-44ce-42c6-b38c-81921ccd4cdc",
+    "id" : "237dfe27-596a-4b13-893b-9987a6afae24",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,13 +24,13 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 25,
+    "xpCost" : 50,
     "source" : "Era Report 3052",
-    "name" : "Star Adder [3025-3052]",
+    "name" : "Smoke Jaguar [2950-3052]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
+    "minimumYear" : 2950,
     "maximumYear" : 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -42,19 +42,19 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CSA"
+            "CSJ"
         ],
         "1" : [
-            "CSA"
+            "CSJ"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "3f9ec543-f469-4569-921b-aca964a63b02"
+            "eeaba833-5603-4817-8222-7dd4e1f5d846"
         ],
         "1" : [
-            "fe8d4be3-5efb-4b45-ac4c-64b17a186ac8"
+            "a3a4dd79-0fa9-4c94-8981-9c56421964da"
         ]
     },
     "requirementsCategories" : { },
@@ -79,23 +79,23 @@
     "fixedXPAttributes" : {
         "0" : {
             "WILLPOWER" : 50,
-            "CHARISMA" : -50,
-            "INTELLIGENCE" : 50
+            "REFLEXES" : 50,
+            "CHARISMA" : -25
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : -50
+    },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : 20,
-            "ORIGIN_OWNED_VEHICLE" : 25
+            "FAME" : 100
         }
     },
     "fixedXPSkills" : {
         "0" : {
             "Protocols/Any" : 10,
-            "Leadership" : 10,
-            "Perception" : 10
+            "Leadership" : 15
         }
     },
     "fixedXPMetaSkills" : { },
@@ -103,9 +103,9 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "clan_pilot_training" : -100,
-            "atow_combat_sense" : 50,
-            "compulsion_unpleasant_personality" : -50
+            "compulsion_other_faction_dislike" : -100,
+            "atow_combat_sense" : 100,
+            "compulsion_unpleasant_personality" : -100
         }
     },
     "flexibleXPAttributes" : { },

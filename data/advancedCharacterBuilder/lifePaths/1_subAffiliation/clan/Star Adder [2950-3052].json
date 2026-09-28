@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "d1edd2d8-2f67-4906-afd2-311b10be142e",
+    "id" : "016312d2-44ce-42c6-b38c-81921ccd4cdc",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 50,
-    "source" : "A Time of War",
-    "name" : "Wolf [3025-3081]",
+    "xpCost" : 25,
+    "source" : "Era Report 3052",
+    "name" : "Star Adder [2950-3052]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
-    "maximumYear" : 3081,
+    "minimumYear" : 2950,
+    "maximumYear" : 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,49 +42,19 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CW"
+            "CSA"
         ],
         "1" : [
-            "CWIE"
-        ],
-        "2" : [
-            "CW"
-        ],
-        "3" : [
-            "CW"
-        ],
-        "4" : [
-            "CWIE"
-        ],
-        "5" : [
-            "CWIE"
-        ],
-        "6" : [
-            "CW"
+            "CSA"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
+            "3f9ec543-f469-4569-921b-aca964a63b02"
         ],
         "1" : [
-            "eeaba833-5603-4817-8222-7dd4e1f5d846"
-        ],
-        "2" : [
-            "5856deff-b39c-4d43-add6-65b59872bd89"
-        ],
-        "3" : [
-            "eeaba833-5603-4817-8222-7dd4e1f5d846"
-        ],
-        "4" : [
-            "5856deff-b39c-4d43-add6-65b59872bd89"
-        ],
-        "5" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
-        ],
-        "6" : [
-            "a3a4dd79-0fa9-4c94-8981-9c56421964da"
+            "fe8d4be3-5efb-4b45-ac4c-64b17a186ac8"
         ]
     },
     "requirementsCategories" : { },
@@ -108,22 +78,24 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 25,
-            "INTELLIGENCE" : 25
+            "WILLPOWER" : 50,
+            "CHARISMA" : -50,
+            "INTELLIGENCE" : 50
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ENEMY" : -100,
-            "FAME" : 70,
-            "ORIGIN_OWNED_VEHICLE" : 50
+            "FAME" : 20,
+            "ORIGIN_OWNED_VEHICLE" : 25
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10
+            "Protocols/Any" : 10,
+            "Leadership" : 10,
+            "Perception" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -131,30 +103,19 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_pride" : -50
+            "clan_pilot_training" : -100,
+            "atow_combat_sense" : 50,
+            "compulsion_unpleasant_personality" : -50
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : {
-        "0" : {
-            "Leadership" : 10,
-            "Negotiation" : 10,
-            "Perception" : 10,
-            "Strategy" : 10
-        }
-    },
-    "flexibleXPMetaSkills" : {
-        "0" : {
-            "ROLEPLAY_INTEREST" : 10
-        }
-    },
+    "flexibleXPSkills" : { },
+    "flexibleXPMetaSkills" : { },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : {
-        "0" : 2
-    }
+    "flexibleXPPickCounts" : { }
 }

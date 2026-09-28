@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "237dfe27-596a-4b13-893b-9987a6afae24",
+    "id" : "d1edd2d8-2f67-4906-afd2-311b10be142e",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -25,13 +25,13 @@
         "extra" : ""
     },
     "xpCost" : 50,
-    "source" : "Era Report 3052",
-    "name" : "Smoke Jaguar [3025-3052]",
+    "source" : "A Time of War",
+    "name" : "Wolf [2950-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
-    "maximumYear" : 3052,
+    "minimumYear" : 2950,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,18 +42,48 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CSJ"
+            "CW"
         ],
         "1" : [
-            "CSJ"
+            "CWIE"
+        ],
+        "2" : [
+            "CW"
+        ],
+        "3" : [
+            "CW"
+        ],
+        "4" : [
+            "CWIE"
+        ],
+        "5" : [
+            "CWIE"
+        ],
+        "6" : [
+            "CW"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
         ],
         "1" : [
+            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+        ],
+        "2" : [
+            "5856deff-b39c-4d43-add6-65b59872bd89"
+        ],
+        "3" : [
+            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+        ],
+        "4" : [
+            "5856deff-b39c-4d43-add6-65b59872bd89"
+        ],
+        "5" : [
+            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
+        ],
+        "6" : [
             "a3a4dd79-0fa9-4c94-8981-9c56421964da"
         ]
     },
@@ -78,24 +108,22 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 50,
-            "REFLEXES" : 50,
-            "CHARISMA" : -25
+            "WILLPOWER" : 25,
+            "INTELLIGENCE" : 25
         }
     },
-    "fixedXPEdge" : {
-        "0" : -50
-    },
+    "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : 100
+            "ENEMY" : -100,
+            "FAME" : 70,
+            "ORIGIN_OWNED_VEHICLE" : 50
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10,
-            "Leadership" : 15
+            "Protocols/Any" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -103,19 +131,30 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_other_faction_dislike" : -100,
-            "atow_combat_sense" : 100,
-            "compulsion_unpleasant_personality" : -100
+            "compulsion_faction_pride" : -50
         }
     },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
+    "flexibleXPSkills" : {
+        "0" : {
+            "Leadership" : 10,
+            "Negotiation" : 10,
+            "Perception" : 10,
+            "Strategy" : 10
+        }
+    },
+    "flexibleXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 10
+        }
+    },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 2
+    }
 }

@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "d1fbf186-564a-430a-9e6a-ebe5a74aa6a7",
+    "id" : "98221220-4495-4419-9174-09b3fa5392db",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,43 +24,27 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : -125,
-    "source" : "Era Report 3052",
-    "name" : "Hell's Horses [3025-3062]",
+    "xpCost" : 50,
+    "source" : "A Time of War",
+    "name" : "Rasalhague [2950-3062]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
+    "minimumYear" : 2950,
     "maximumYear" : 3062,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN"
+        "GENERAL_CLAN_RULED_INNER_SPHERE"
     ],
     "isPlayerRestricted" : false,
-    "requirementsFactions" : {
-        "0" : [
-            "CHH"
-        ],
-        "1" : [
-            "CHH"
-        ],
-        "2" : [
-            "CHH"
-        ]
-    },
+    "requirementsFactions" : { },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "3f9ec543-f469-4569-921b-aca964a63b02"
-        ],
-        "1" : [
-            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
-        ],
-        "2" : [
-            "301ce7dd-a077-4f63-90ea-168c6eac889c"
+            "fb0a32fb-9ad3-4ada-939c-c7faf9b2ff5b"
         ]
     },
     "requirementsCategories" : { },
@@ -84,28 +68,35 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "BODY" : 25,
-            "STRENGTH" : 25
+            "WILLPOWER" : 50
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
-    "fixedXPTraits" : { },
-    "fixedXPSkills" : {
+    "fixedXPTraits" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Navigation/Any" : 15,
-            "Survival/Any" : 15,
-            "Melee Weapons" : 10
+            "FAME" : -50
         }
     },
-    "fixedXPMetaSkills" : { },
+    "fixedXPSkills" : {
+        "0" : {
+            "Protocols/Any" : 10,
+            "Martial Arts" : 20,
+            "Negotiation" : 10,
+            "Small Arms" : 10,
+            "Melee Weapons" : 15
+        }
+    },
+    "fixedXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_INTEREST" : 10
+        }
+    },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "flaw_introvert" : -30,
-            "compulsion_other_faction_hate" : -200
+            "flaw_introvert" : -25
         }
     },
     "flexibleXPAttributes" : { },

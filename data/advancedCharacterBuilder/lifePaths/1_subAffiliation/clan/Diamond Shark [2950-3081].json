@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "61b990ee-15eb-4cb7-93c5-75eea37d8dc4",
+    "id" : "a3e552c3-8fe0-43eb-b645-6224878be10f",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -25,36 +25,47 @@
         "extra" : ""
     },
     "xpCost" : 50,
-    "source" : "Era Report 3052",
-    "name" : "Steel Viper [3025-3053]",
+    "source" : "A Time of War",
+    "name" : "Diamond Shark [2950-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
-    "maximumYear" : 3053,
+    "minimumYear" : 2950,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
     ],
     "categories" : [
-        "GENERAL_CLAN",
-        "SPECIAL_CITIZEN_WARRIORS"
+        "GENERAL_CLAN"
     ],
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CSV"
+            "CDS"
         ],
         "1" : [
-            "CSV"
+            "CDS"
+        ],
+        "2" : [
+            "CDS"
+        ],
+        "3" : [
+            "CDS"
         ]
     },
     "requirementsSystems" : { },
     "requirementsLifePath" : {
         "0" : [
-            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+            "dbd5d2e7-5d59-4e24-bcd7-e5ab30cb3a3b"
         ],
         "1" : [
+            "eeaba833-5603-4817-8222-7dd4e1f5d846"
+        ],
+        "2" : [
+            "5856deff-b39c-4d43-add6-65b59872bd89"
+        ],
+        "3" : [
             "a3a4dd79-0fa9-4c94-8981-9c56421964da"
         ]
     },
@@ -79,34 +90,32 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 100,
-            "CHARISMA" : -50,
-            "INTELLIGENCE" : 75
+            "STRENGTH" : -45,
+            "INTELLIGENCE" : 25
         }
     },
-    "fixedXPEdge" : { },
+    "fixedXPEdge" : {
+        "0" : -50
+    },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "CONNECTIONS" : 80
+            "WEALTH" : 30,
+            "CONNECTIONS" : 25,
+            "ORIGIN_OWNED_VEHICLE" : 25
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 15,
-            "Negotiation" : 10,
-            "Survival/Any" : 20
+            "Protocols/Any" : 10,
+            "Negotiation" : 20,
+            "Perception" : 10
         }
     },
     "fixedXPMetaSkills" : { },
     "fixedXPNaturalAptitudes" : { },
     "fixedXPNaturalAptitudesMetaSkills" : { },
-    "fixedXPAbilities" : {
-        "0" : {
-            "clan_pilot_training" : -100,
-            "compulsion_other_faction_hate" : -100
-        }
-    },
+    "fixedXPAbilities" : { },
     "flexibleXPAttributes" : { },
     "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },

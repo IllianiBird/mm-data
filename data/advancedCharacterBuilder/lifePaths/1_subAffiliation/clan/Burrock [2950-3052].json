@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "0e4f318c-c66e-4ac7-a717-1daf151a10f7",
+    "id" : "bfeac79e-5a1d-4dc5-b92c-dab18c5ebcfb",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 75,
-    "source" : "A Time of War",
-    "name" : "Ice Hellion [3025-3081]",
+    "xpCost" : 25,
+    "source" : "Era Report 3052",
+    "name" : "Burrock [2950-3052]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
-    "maximumYear" : 3081,
+    "minimumYear" : 2950,
+    "maximumYear" : 3052,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,13 +42,10 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CIH"
+            "CB"
         ],
         "1" : [
-            "CIH"
-        ],
-        "2" : [
-            "CIH"
+            "CB"
         ]
     },
     "requirementsSystems" : { },
@@ -57,9 +54,6 @@
             "3f9ec543-f469-4569-921b-aca964a63b02"
         ],
         "1" : [
-            "fe8d4be3-5efb-4b45-ac4c-64b17a186ac8"
-        ],
-        "2" : [
             "301ce7dd-a077-4f63-90ea-168c6eac889c"
         ]
     },
@@ -84,27 +78,24 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 50,
-            "DEXTERITY" : 75,
-            "REFLEXES" : 100,
-            "CHARISMA" : -75
+            "WILLPOWER" : -65,
+            "INTELLIGENCE" : 75
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "FAME" : -95
+            "ORIGIN_OWNED_VEHICLE" : 25,
+            "FAME" : -100
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 10,
             "Protocols/Any" : 10,
-            "Negotiation" : 15,
-            "Interest/History" : 15,
-            "Swimming" : 10,
-            "Survival/Any" : 10
+            "Negotiation" : 10,
+            "Streetwise/Any" : 10,
+            "Perception" : 10
         }
     },
     "fixedXPMetaSkills" : { },
@@ -112,8 +103,7 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "flaw_impatient" : -100,
-            "atow_combat_sense" : 50
+            "clan_pilot_training" : 50
         }
     },
     "flexibleXPAttributes" : { },

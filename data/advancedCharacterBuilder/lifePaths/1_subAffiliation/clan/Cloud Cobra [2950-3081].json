@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "bfeac79e-5a1d-4dc5-b92c-dab18c5ebcfb",
+    "id" : "5e516d32-d327-4c4e-a234-fa2a590ad2dc",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,14 +24,14 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 25,
-    "source" : "Era Report 3052",
-    "name" : "Burrock [3025-3052]",
+    "xpCost" : 75,
+    "source" : "A Time of War",
+    "name" : "Cloud Cobra [2950-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
-    "maximumYear" : 3052,
+    "minimumYear" : 2950,
+    "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
         "SUB_AFFILIATION"
@@ -42,10 +42,13 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CB"
+            "CCC"
         ],
         "1" : [
-            "CB"
+            "CCC"
+        ],
+        "2" : [
+            "CCC"
         ]
     },
     "requirementsSystems" : { },
@@ -54,6 +57,9 @@
             "3f9ec543-f469-4569-921b-aca964a63b02"
         ],
         "1" : [
+            "fe8d4be3-5efb-4b45-ac4c-64b17a186ac8"
+        ],
+        "2" : [
             "301ce7dd-a077-4f63-90ea-168c6eac889c"
         ]
     },
@@ -78,24 +84,22 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : -65,
-            "INTELLIGENCE" : 75
+            "WILLPOWER" : 50,
+            "INTELLIGENCE" : 50
         }
     },
     "fixedXPEdge" : { },
     "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ORIGIN_OWNED_VEHICLE" : 25,
-            "FAME" : -100
+            "FAME" : -75,
+            "ORIGIN_OWNED_VEHICLE" : -25
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Protocols/Any" : 10,
-            "Negotiation" : 10,
-            "Streetwise/Any" : 10,
-            "Perception" : 10
+            "Protocols/Any" : 20,
+            "Interest/Theology" : 20
         }
     },
     "fixedXPMetaSkills" : { },
@@ -103,7 +107,8 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "clan_pilot_training" : 50
+            "compulsion_religious_fanaticism" : -75,
+            "atow_patient" : 100
         }
     },
     "flexibleXPAttributes" : { },
@@ -111,9 +116,25 @@
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
     "flexibleXPSkills" : { },
-    "flexibleXPMetaSkills" : { },
+    "flexibleXPMetaSkills" : {
+        "0" : {
+            "ROLEPLAY_SCIENCE" : 10,
+            "ROLEPLAY_GENERAL" : 10,
+            "ROLEPLAY_INTEREST" : 10,
+            "SUPPORT" : 10,
+            "ROLEPLAY_SECURITY" : 10,
+            "SUPPORT_TECHNICIAN" : 10,
+            "UTILITY_COMMAND" : 10,
+            "COMBAT_PILOTING" : 10,
+            "ROLEPLAY_ART" : 10,
+            "UTILITY" : 10,
+            "COMBAT_GUNNERY" : 10
+        }
+    },
     "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : { },
     "flexibleXPAbilities" : { },
-    "flexibleXPPickCounts" : { }
+    "flexibleXPPickCounts" : {
+        "0" : 1
+    }
 }

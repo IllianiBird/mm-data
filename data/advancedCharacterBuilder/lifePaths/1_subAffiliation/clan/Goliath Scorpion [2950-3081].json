@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "id" : "8aaa40fc-63d9-4ef5-b00f-08ea13115ab4",
+    "id" : "6d27e949-3aba-4b6a-87a4-5dec3b4b0edb",
     "version" : {
         "major" : 0,
         "minor" : 51,
@@ -24,13 +24,13 @@
         "revision" : 0,
         "extra" : ""
     },
-    "xpCost" : 55,
+    "xpCost" : 75,
     "source" : "A Time of War",
-    "name" : "Fire Mandrill [3025-3081]",
+    "name" : "Goliath Scorpion [2950-3081]",
     "flavorText" : "",
     "age" : 0,
     "xpDiscount" : 0,
-    "minimumYear" : 3025,
+    "minimumYear" : 2950,
     "maximumYear" : 3081,
     "randomWeight" : 1.0,
     "lifeStages" : [
@@ -42,13 +42,13 @@
     "isPlayerRestricted" : false,
     "requirementsFactions" : {
         "0" : [
-            "CFM"
+            "CGS"
         ],
         "1" : [
-            "CFM"
+            "CGS"
         ],
         "2" : [
-            "CFM"
+            "CGS"
         ]
     },
     "requirementsSystems" : { },
@@ -84,24 +84,25 @@
     "exclusionsAbilities" : { },
     "fixedXPAttributes" : {
         "0" : {
-            "WILLPOWER" : 25
+            "DEXTERITY" : 50,
+            "WILLPOWER" : -50,
+            "INTELLIGENCE" : 50
         }
     },
-    "fixedXPEdge" : { },
-    "fixedXPFlexibleAttribute" : {
-        "0" : -20
+    "fixedXPEdge" : {
+        "0" : -50
     },
+    "fixedXPFlexibleAttribute" : { },
     "fixedXPTraits" : {
         "0" : {
-            "ENEMY" : -25,
             "FAME" : -25
         }
     },
     "fixedXPSkills" : {
         "0" : {
-            "Martial Arts" : 15,
-            "Protocols/Any" : 20,
-            "Language/Any" : 20
+            "Protocols/Any" : 10,
+            "Melee Weapons" : 15,
+            "Interest/History" : 20
         }
     },
     "fixedXPMetaSkills" : { },
@@ -109,69 +110,34 @@
     "fixedXPNaturalAptitudesMetaSkills" : { },
     "fixedXPAbilities" : {
         "0" : {
-            "compulsion_faction_loyalty" : -100,
-            "compulsion_unpleasant_personality" : -100
+            "atow_fit" : 55,
+            "compulsion_unpleasant_personality" : -50,
+            "compulsion_addiction" : -50
         }
     },
-    "flexibleXPAttributes" : {
-        "0" : {
-            "BODY" : 75,
-            "DEXTERITY" : 75,
-            "CHARISMA" : 75,
-            "STRENGTH" : 75,
-            "REFLEXES" : 75,
-            "INTELLIGENCE" : 75
-        }
-    },
-    "flexibleXPEdge" : {
-        "0" : 75
-    },
+    "flexibleXPAttributes" : { },
+    "flexibleXPEdge" : { },
     "flexibleXPFlexibleAttribute" : { },
     "flexibleXPTraits" : { },
-    "flexibleXPSkills" : {
-        "2" : {
-            "Leadership" : 10,
-            "Negotiation" : 10,
-            "Melee Weapons" : 10,
-            "Perception" : 10,
-            "Tactics/Any" : 10
+    "flexibleXPSkills" : { },
+    "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : {
+        "0" : {
+            "Melee Weapons" : 100
         }
     },
-    "flexibleXPMetaSkills" : { },
-    "flexibleXPNaturalAptitudes" : { },
     "flexibleXPNaturalAptitudesMetaSkills" : {
-        "1" : {
-            "ROLEPLAY_SCIENCE" : 150,
-            "ROLEPLAY_GENERAL" : 150,
-            "ROLEPLAY_INTEREST" : 150,
-            "SUPPORT" : 150,
-            "ROLEPLAY_SECURITY" : 150,
-            "SUPPORT_TECHNICIAN" : 150,
-            "UTILITY_COMMAND" : 150,
-            "COMBAT_PILOTING" : 150,
-            "ROLEPLAY_ART" : 150,
-            "UTILITY" : 150,
-            "COMBAT_GUNNERY" : 150
+        "0" : {
+            "ROLEPLAY_INTEREST" : 100,
+            "COMBAT_GUNNERY" : 100
         }
     },
     "flexibleXPAbilities" : {
-        "1" : {
-            "atow_sixth_sense" : 150,
-            "atow_fast_learner" : 150,
-            "exceptional_attribute_strength" : 150,
-            "exceptional_attribute_edge" : 150,
-            "exceptional_attribute_reflexes" : 150,
-            "exceptional_attribute_charisma" : 150,
-            "exceptional_attribute_willpower" : 150,
-            "exceptional_attribute_body" : 150,
-            "exceptional_attribute_intelligence" : 150,
-            "atow_combat_sense" : 150,
-            "exceptional_attribute_dexterity" : 150
+        "0" : {
+            "exceptional_attribute_intelligence" : 100
         }
     },
     "flexibleXPPickCounts" : {
-        "0" : 1,
-        "1" : 1,
-        "2" : 2
+        "0" : 1
     }
 }
