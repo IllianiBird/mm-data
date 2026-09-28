@@ -1,0 +1,117 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+    "id" : "8c9a1668-3467-4ab2-8b0c-19ba4a52e052",
+    "version" : {
+        "major" : 0,
+        "minor" : 51,
+        "patch" : 1,
+        "revision" : 0,
+        "extra" : ""
+    },
+    "xpCost" : 75,
+    "source" : "A Time of War",
+    "name" : "Cloud Cobra [2800-2950]",
+    "flavorText" : "",
+    "age" : 0,
+    "xpDiscount" : 0,
+    "minimumYear" : 2800,
+    "maximumYear" : 2950,
+    "randomWeight" : 1.0,
+    "lifeStages" : [
+        "SUB_AFFILIATION"
+    ],
+    "categories" : [
+        "GENERAL_CLAN"
+    ],
+    "isPlayerRestricted" : false,
+    "requirementsFactions" : {
+        "0" : [
+            "CCC"
+        ],
+        "1" : [
+            "CCC"
+        ]
+    },
+    "requirementsSystems" : { },
+    "requirementsLifePath" : {
+        "0" : [
+            "084b6105-88ac-4565-856a-1e648b0bbebc"
+        ],
+        "1" : [
+            "301ce7dd-a077-4f63-90ea-168c6eac889c"
+        ]
+    },
+    "requirementsCategories" : { },
+    "requirementsAttributes" : { },
+    "requirementsEdge" : { },
+    "requirementsFlexibleAttribute" : { },
+    "requirementsTraits" : { },
+    "requirementsSkills" : { },
+    "requirementsMetaSkills" : { },
+    "requirementsAbilities" : { },
+    "exclusionsFactions" : { },
+    "exclusionsSystems" : { },
+    "exclusionsLifePath" : { },
+    "exclusionsCategories" : { },
+    "exclusionsAttributes" : { },
+    "exclusionsEdge" : { },
+    "exclusionsFlexibleAttribute" : { },
+    "exclusionsTraits" : { },
+    "exclusionsSkills" : { },
+    "exclusionsMetaSkills" : { },
+    "exclusionsAbilities" : { },
+    "fixedXPAttributes" : {
+        "0" : {
+            "WILLPOWER" : 40,
+            "INTELLIGENCE" : 40
+        }
+    },
+    "fixedXPEdge" : { },
+    "fixedXPFlexibleAttribute" : { },
+    "fixedXPTraits" : {
+        "0" : {
+            "ORIGIN_OWNED_VEHICLE" : -35
+        }
+    },
+    "fixedXPSkills" : {
+        "0" : {
+            "Protocols/Any" : 10,
+            "Interest/Theology" : 20
+        }
+    },
+    "fixedXPMetaSkills" : { },
+    "fixedXPNaturalAptitudes" : { },
+    "fixedXPNaturalAptitudesMetaSkills" : { },
+    "fixedXPAbilities" : {
+        "0" : {
+            "compulsion_unpleasant_personality" : -75,
+            "atow_patient" : 75
+        }
+    },
+    "flexibleXPAttributes" : { },
+    "flexibleXPEdge" : { },
+    "flexibleXPFlexibleAttribute" : { },
+    "flexibleXPTraits" : { },
+    "flexibleXPSkills" : { },
+    "flexibleXPMetaSkills" : { },
+    "flexibleXPNaturalAptitudes" : { },
+    "flexibleXPNaturalAptitudesMetaSkills" : { },
+    "flexibleXPAbilities" : { },
+    "flexibleXPPickCounts" : { }
+}
