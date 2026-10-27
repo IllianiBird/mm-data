@@ -2650,30 +2650,3 @@ abilities:
     originOnly: false
     weight: 1
     invalidAbilities: [shrewd_trader]
-
-  # Example entries corresponding to the examples in customspa.xml. See docs/Customization/custom_spa.md.
-  # Edge triggers and implants are listed exactly like any other ability.
-  #
-  # - lookupName: tetris_master
-  #   displayName: Tetris Master
-  #   desc: Increase the capacity of a cargo or transport bay.
-  #   xpCost: 4
-  #   originOnly: false
-  #   weight: 2
-  #   choiceValues: [None, Cargo, Mek, Vehicle, Fighter, Infantry]
-  #   skillPrereqs:
-  #     - Administration: Ultra-Green
-  #
-  # - lookupName: edge_paper_cut
-  #   displayName: Use Edge to avoid paper cut.
-  #   desc: A paper cut injury check will be rerolled with Edge.
-  #
-  # - lookupName: md_prosthetic_blowtorch
-  #   displayName: Prosthetic Blowtorch
-  #   desc: Reduce repair times by 10%.
-  #   skillPrereqs:
-  #     - Tech/Mek: Ultra-Green
-  #       Tech/Vehicle: Ultra-Green
-  #       Tech/Aerospace: Ultra-Green
-  #       Tech/BattleArmor: Ultra-Green
-  #       Tech/Vessel: Ultra-Green
