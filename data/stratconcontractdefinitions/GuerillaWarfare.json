@@ -18,8 +18,6 @@
 {
     "contractTypeName": "Guerrilla Warfare",
     "briefing": "Engage hostile forces. Be quick.",
-    "alliedFacilityCount": 0.0,
-    "hostileFacilityCount": -1.0,
     "allowEarlyVictory": false,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
@@ -47,7 +45,7 @@
         }
     ],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         32,
         42,
         42,
@@ -59,5 +57,19 @@
         3,
         3,
         4
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "The enemy holds the ground and the roads. Strike its depots and convoys rather than its strongest bases.",
+        "typeWeights": {
+            "SupplyDepot": 3,
+            "TankBase": 2,
+            "CommandCenter": 2,
+            "IndustrialFacility": 1,
+            "EarlyWarningSystem": 1,
+            "MilitiaBarracks": 2
+        },
+        "alliedShare": 0.1,
+        "tierModifier": 0,
+        "densityMultiplier": 1.0
+    }
 }

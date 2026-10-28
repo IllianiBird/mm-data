@@ -18,8 +18,6 @@
 {
     "contractTypeName": "Garrison Duty",
     "briefing": "Defend designated facilities.",
-    "alliedFacilityCount": 0.0,
-    "hostileFacilityCount": 0.0,
     "allowEarlyVictory": false,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
@@ -34,7 +32,7 @@
         }
     ],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         10,
         20,
         20,
@@ -46,5 +44,23 @@
         4,
         4,
         5
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "Your employer holds most of the facilities here: small outposts the enemy will try to take back. Keep them garrisoned and supplied, and answer their counterattacks.",
+        "typeWeights": {
+            "TankBase": 3,
+            "MekBase": 2,
+            "EarlyWarningSystem": 2,
+            "SupplyDepot": 2,
+            "CommandCenter": 1,
+            "IndustrialFacility": 1,
+            "SpacePort": 1,
+            "SensorPost": 1,
+            "FieldFortifications": 2,
+            "MilitiaBarracks": 1
+        },
+        "alliedShare": 0.8,
+        "tierModifier": -1,
+        "densityMultiplier": 1.25
+    }
 }

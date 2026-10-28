@@ -6,7 +6,7 @@
 <module name="Checker">
     <module name="SuppressionSingleFilter">
         <property name="checks" value=".*" />
-        <property name="files" value=".gif$|.png$|.ttf$|.jpg$|.svg$|.bmp$|.JPG$|data[\\/]fonts|.mtf$|.blk$|planetary_systems|ratdata|academies|sourcebooks|forcegenerator|rat|mekset|name_change|news.xml|.gz$|.psd$|.xcf$|.icns$|.ico$|.wav$|.gitkeep$|.docx$|wreckset.txt" />
+        <property name="files" value=".gif$|.png$|.ttf$|.jpg$|.svg$|.bmp$|.JPG$|data[\\/]fonts|.mtf$|.blk$|planetary_systems|ratdata|academies|sourcebooks|forcegenerator|data[\\/]rat[\\/]|mekset|name_change|news.xml|.gz$|.psd$|.xcf$|.icns$|.ico$|.wav$|.gitkeep$|.docx$|wreckset.txt" />
     </module>
 
     <module name="SuppressionSingleFilter">
@@ -30,7 +30,7 @@
          The title: exemption below is the same nominative-use allowance the copyright lines get. -->
     <module name="RegexpSingleline">
         <property name="id" value="ForbiddenWords" />
-        <property name="format" value="^(?!.*(bg\.battletech|MechWarrior Copyright|MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks|BattleMech Manual|title: &quot;)).*\b(?i)(mech|mechwarrior|battlemech|aerotech|protomech|'mech|`Mech|TripodMech|BipedMech|QuadMech|LandAirMech|OmniMech|'Mechs)\b.*$" />
+        <property name="format" value="^(?!.*(bg\.battletech|MechWarrior Copyright|MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks|BattleMech Manual|title: &quot;)).*\b(?i)(mechs?|mechwarriors?|battlemechs?|aerotech|protomechs?|'mechs?|`Mechs?|TripodMechs?|BipedMechs?|QuadMechs?|LandAirMechs?|OmniMechs?)\b.*$" />
         <property name="ignoreCase" value="true" />
         <property name="message" value="Forbidden word found" />
         <property name="severity" value="error" />

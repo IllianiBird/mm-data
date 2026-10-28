@@ -18,8 +18,6 @@
 {
   "contractTypeName" : "Riot Duty",
   "briefing" : "Defend designated facilities.",
-  "alliedFacilityCount" : 0.0,
-  "hostileFacilityCount" : 0.0,
   "allowEarlyVictory" : false,
   "allowedScenarios" : null,
   "forbiddenScenarios" : null,
@@ -30,6 +28,19 @@
     "objectiveScenarioModifiers" : [ ]
   } ],
   "globalScenarioModifiers" : [ ],
-  "scenarioOdds" : [ 10, 20, 20, 30 ],
-  "deploymentTimes" : [ 4, 5, 5, 5, 6 ]
+  "deploymentEncounterOdds" : [ 10, 20, 20, 30 ],
+  "deploymentTimes" : [ 4, 5, 5, 5, 6 ],
+    "facilityProfile": {
+        "briefing": "Your employer's command posts and factories are the unrest's targets. Keep them in friendly hands.",
+        "typeWeights": {
+            "CommandCenter": 2,
+            "TankBase": 2,
+            "IndustrialFacility": 2,
+            "DataCenter": 1,
+            "MilitiaBarracks": 2
+        },
+        "alliedShare": 0.8,
+        "tierModifier": -1,
+        "densityMultiplier": 0.75
+    }
 }

@@ -18,14 +18,12 @@
 {
     "contractTypeName": "Temporary Retainer",
     "briefing": "Perform requested military services",
-    "alliedFacilityCount": 0.0,
-    "hostileFacilityCount": 0.0,
     "allowEarlyVictory": false,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
     "objectiveParameters": [],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         16,
         26,
         26,
@@ -37,5 +35,21 @@
         4,
         4,
         5
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "Both sides hold facilities here. Your employer expects you to hold theirs and take the enemy's when you can.",
+        "typeWeights": {
+            "MekBase": 2,
+            "TankBase": 2,
+            "AirBase": 1,
+            "SpacePort": 1,
+            "CommandCenter": 1,
+            "SupplyDepot": 1,
+            "FieldFortifications": 1,
+            "MilitiaBarracks": 1
+        },
+        "alliedShare": 0.6,
+        "tierModifier": 0,
+        "densityMultiplier": 1.0
+    }
 }

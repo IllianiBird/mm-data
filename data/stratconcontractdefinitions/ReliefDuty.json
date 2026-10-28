@@ -18,8 +18,6 @@
 {
     "contractTypeName": "Relief Duty",
     "briefing": "Destroy or capture designated facilities while holding existing gains.",
-    "alliedFacilityCount": 0.0,
-    "hostileFacilityCount": 0.0,
     "allowEarlyVictory": false,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
@@ -51,7 +49,7 @@
         }
     ],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         18,
         28,
         28,
@@ -63,5 +61,19 @@
         3,
         4,
         5
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "Your employer's bases here are hard pressed. Keep their supply lines open and relieve them before they fall.",
+        "typeWeights": {
+            "SupplyDepot": 3,
+            "MekBase": 2,
+            "TankBase": 2,
+            "SpacePort": 1,
+            "CommandCenter": 1,
+            "FieldFortifications": 2
+        },
+        "alliedShare": 0.6,
+        "tierModifier": 0,
+        "densityMultiplier": 1.0
+    }
 }

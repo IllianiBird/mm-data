@@ -18,8 +18,6 @@
 {
     "contractTypeName": "Security Duty",
     "briefing": "Defend designated facilities.",
-    "alliedFacilityCount": 0.0,
-    "hostileFacilityCount": 0.0,
     "allowEarlyVictory": false,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
@@ -44,7 +42,7 @@
         }
     ],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         14,
         24,
         24,
@@ -56,5 +54,20 @@
         5,
         5,
         6
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "You are guarding your employer's installations: factories, data centers and ports. Expect raids on them.",
+        "typeWeights": {
+            "IndustrialFacility": 2,
+            "DataCenter": 2,
+            "SpacePort": 2,
+            "EarlyWarningSystem": 2,
+            "TankBase": 1,
+            "SensorPost": 1,
+            "FieldFortifications": 1
+        },
+        "alliedShare": 0.7,
+        "tierModifier": -1,
+        "densityMultiplier": 1.0
+    }
 }

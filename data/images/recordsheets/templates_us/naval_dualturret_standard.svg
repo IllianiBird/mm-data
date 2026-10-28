@@ -446,7 +446,7 @@
             <text text-anchor="middle" style="font-size:7.74px;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text2768"><tspan x="0" y="0" id="tspan282">Front Turret Armor</tspan><tspan x="0" y="8.116" id="textArmor_FT">( )</tspan></text>
           </g>
           <g transform="translate(529.978,390.26)" id="g283">
-            <text text-anchor="middle" style="font-size:7.74px;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text283"><tspan x="0" y="0" id="tspan283">Rear Turret Armor</tspan><tspan x="0" y="8.116" id="textArmor_TU">( )</tspan></text>
+            <text text-anchor="middle" style="font-size:7.74px;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.25;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text283"><tspan x="0" y="0" id="tspan283">Rear Turret Armor</tspan><tspan x="0" y="8.116" id="textArmor_RT">( )</tspan></text>
           </g>
           <g transform="translate(400.56059,48.944396)" id="g284" />
           <g fill="none" id="armorPips">
@@ -545,16 +545,16 @@
               <rect x="-37.5" width="75" y="70" height="10" id="armorFTRow10" />
               <rect x="-37.5" width="75" y="80" height="10" id="armorFTRow11" />
             </g>
-            <g id="armorPipsTU" transform="translate(529.83,290.28)">
-              <rect x="-37.5" width="75" y="0" height="10" id="armorTURow00" style="mml-gap:-17.5,17.5" />
-              <rect x="-37.5" width="75" y="10" height="10" id="armorTURow02" style="mml-gap:-17.5,17.5" />
-              <rect x="-37.5" width="75" y="20" height="10" id="armorTURow04" style="mml-gap:-17.5,17.5" />
-              <rect x="-37.5" width="75" y="30" height="10" id="armorTURow06" style="mml-gap:-17.5,17.5" />
-              <rect x="-37.5" width="75" y="40" height="10" id="armorTURow07" style="mml-gap:-17.5,17.5" />
-              <rect x="-37.5" width="75" y="50" height="10" id="armorTURow08" style="mml-gap:-17.5,17.5" />
-              <rect x="-37.5" width="75" y="60" height="10" id="armorTURow09" style="mml-gap:-17.5,17.5" />
-              <rect x="-37.5" width="75" y="70" height="10" id="armorTURow10" />
-              <rect x="-37.5" width="75" y="80" height="10" id="armorTURow11" />
+            <g id="armorPipsRT" transform="translate(529.83,290.28)">
+              <rect x="-37.5" width="75" y="0" height="10" id="armorRTRow00" style="mml-gap:-17.5,17.5" />
+              <rect x="-37.5" width="75" y="10" height="10" id="armorRTRow02" style="mml-gap:-17.5,17.5" />
+              <rect x="-37.5" width="75" y="20" height="10" id="armorRTRow04" style="mml-gap:-17.5,17.5" />
+              <rect x="-37.5" width="75" y="30" height="10" id="armorRTRow06" style="mml-gap:-17.5,17.5" />
+              <rect x="-37.5" width="75" y="40" height="10" id="armorRTRow07" style="mml-gap:-17.5,17.5" />
+              <rect x="-37.5" width="75" y="50" height="10" id="armorRTRow08" style="mml-gap:-17.5,17.5" />
+              <rect x="-37.5" width="75" y="60" height="10" id="armorRTRow09" style="mml-gap:-17.5,17.5" />
+              <rect x="-37.5" width="75" y="70" height="10" id="armorRTRow10" />
+              <rect x="-37.5" width="75" y="80" height="10" id="armorRTRow11" />
             </g>
           </g>
           <g fill="none" id="structurePips">
@@ -655,16 +655,16 @@
               <rect x="-14" width="28" y="47.6" height="6.8" id="structurePipsFT07" />
               <rect x="-14" width="28" y="54.4" height="6.8" id="structurePipsFT08" />
             </g>
-            <g id="structurePipsTU" transform="translate(530.8,288.48)">
-              <rect x="-14" width="28" y="0" height="6.8" id="structurePipsTU00" />
-              <rect x="-14" width="28" y="6.8" height="6.8" id="structurePipsTU01" />
-              <rect x="-14" width="28" y="13.6" height="6.8" id="structurePipsTU02" />
-              <rect x="-14" width="28" y="20.4" height="6.8" id="structurePipsTU03" />
-              <rect x="-14" width="28" y="27.2" height="6.8" id="structurePipsTU04" />
-              <rect x="-14" width="28" y="34" height="6.8" id="structurePipsTU05" />
-              <rect x="-14" width="28" y="40.8" height="6.8" id="structurePipsTU06" />
-              <rect x="-14" width="28" y="47.6" height="6.8" id="structurePipsTU07" />
-              <rect x="-14" width="28" y="54.4" height="6.8" id="structurePipsTU08" />
+            <g id="structurePipsRT" transform="translate(530.8,288.48)">
+              <rect x="-14" width="28" y="0" height="6.8" id="structurePipsRT00" />
+              <rect x="-14" width="28" y="6.8" height="6.8" id="structurePipsRT01" />
+              <rect x="-14" width="28" y="13.6" height="6.8" id="structurePipsRT02" />
+              <rect x="-14" width="28" y="20.4" height="6.8" id="structurePipsRT03" />
+              <rect x="-14" width="28" y="27.2" height="6.8" id="structurePipsRT04" />
+              <rect x="-14" width="28" y="34" height="6.8" id="structurePipsRT05" />
+              <rect x="-14" width="28" y="40.8" height="6.8" id="structurePipsRT06" />
+              <rect x="-14" width="28" y="47.6" height="6.8" id="structurePipsRT07" />
+              <rect x="-14" width="28" y="54.4" height="6.8" id="structurePipsRT08" />
             </g>
           </g>
         </g>

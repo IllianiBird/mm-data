@@ -18,8 +18,6 @@
 {
     "contractTypeName": "Recon Raid",
     "briefing": "Conduct reconnaissance on designated units and locations.",
-    "alliedFacilityCount": 0.0,
-    "hostileFacilityCount": -0.5,
     "allowEarlyVictory": true,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
@@ -36,7 +34,7 @@
         }
     ],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         22,
         32,
         32,
@@ -48,5 +46,19 @@
         3,
         3,
         4
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "Expect enemy sensor posts and data centers watching for you. Find them before they find you.",
+        "typeWeights": {
+            "EarlyWarningSystem": 3,
+            "DataCenter": 2,
+            "AirBase": 1,
+            "ArtilleryBase": 1,
+            "SensorPost": 2,
+            "JammingStation": 1
+        },
+        "alliedShare": 0.0,
+        "tierModifier": -1,
+        "densityMultiplier": 0.75
+    }
 }

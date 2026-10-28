@@ -18,8 +18,6 @@
 {
     "contractTypeName": "Objective Raid",
     "briefing": "Destroy designated targets.",
-    "alliedFacilityCount": 0.0,
-    "hostileFacilityCount": -0.5,
     "allowEarlyVictory": true,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
@@ -42,7 +40,7 @@
         }
     ],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         22,
         32,
         32,
@@ -54,5 +52,18 @@
         4,
         4,
         5
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "Expect few enemy installations, but large and well defended ones. Scout before you commit.",
+        "typeWeights": {
+            "DataCenter": 2,
+            "IndustrialFacility": 2,
+            "SpacePort": 2,
+            "CommandCenter": 1,
+            "ArtilleryBase": 1
+        },
+        "alliedShare": 0.0,
+        "tierModifier": 1,
+        "densityMultiplier": 0.5
+    }
 }

@@ -18,8 +18,6 @@
 {
     "contractTypeName": "Extraction Raid",
     "briefing": "Capture and extract designated assets.",
-    "alliedFacilityCount": 0.0,
-    "hostileFacilityCount": -0.5,
     "allowEarlyVictory": true,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
@@ -47,7 +45,7 @@
         }
     ],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         22,
         32,
         32,
@@ -59,5 +57,19 @@
         3,
         3,
         4
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "The enemy's command posts and data centers are where your target is likely to be held.",
+        "typeWeights": {
+            "CommandCenter": 2,
+            "DataCenter": 2,
+            "MekBase": 1,
+            "TankBase": 1,
+            "SpacePort": 1,
+            "JammingStation": 1
+        },
+        "alliedShare": 0.0,
+        "tierModifier": 0,
+        "densityMultiplier": 0.75
+    }
 }

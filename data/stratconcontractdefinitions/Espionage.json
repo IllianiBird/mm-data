@@ -18,8 +18,6 @@
 {
     "contractTypeName": "Espionage",
     "briefing": "Conduct reconnaissance while evading hostile forces.",
-    "alliedFacilityCount": 0.0,
-    "hostileFacilityCount": -0.5,
     "allowEarlyVictory": true,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
@@ -42,7 +40,7 @@
         }
     ],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         38,
         48,
         48,
@@ -54,5 +52,19 @@
         7,
         7,
         8
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "Enemy data centers and command posts hold what you are here to learn. Sabotage and recon serve you better than assaults.",
+        "typeWeights": {
+            "DataCenter": 3,
+            "CommandCenter": 2,
+            "EarlyWarningSystem": 1,
+            "SupplyDepot": 1,
+            "SensorPost": 1,
+            "JammingStation": 1
+        },
+        "alliedShare": 0.2,
+        "tierModifier": 0,
+        "densityMultiplier": 0.75
+    }
 }

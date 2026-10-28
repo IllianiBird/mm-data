@@ -18,8 +18,6 @@
 {
     "contractTypeName": "Cadre Duty",
     "briefing": "Protect attached trainees.",
-    "alliedFacilityCount": -0.3,
-    "hostileFacilityCount": 0.0,
     "allowEarlyVictory": false,
     "allowedScenarios": null,
     "forbiddenScenarios": null,
@@ -32,7 +30,7 @@
         }
     ],
     "globalScenarioModifiers": [],
-    "scenarioOdds": [
+    "deploymentEncounterOdds": [
         6,
         16,
         16,
@@ -44,5 +42,19 @@
         6,
         6,
         7
-    ]
+    ],
+    "facilityProfile": {
+        "briefing": "Your employer's training grounds and depots are yours to protect while you train their troops.",
+        "typeWeights": {
+            "MekBase": 2,
+            "TankBase": 2,
+            "IndustrialFacility": 1,
+            "SpacePort": 1,
+            "FieldFortifications": 1,
+            "MilitiaBarracks": 2
+        },
+        "alliedShare": 0.9,
+        "tierModifier": -1,
+        "densityMultiplier": 0.75
+    }
 }
