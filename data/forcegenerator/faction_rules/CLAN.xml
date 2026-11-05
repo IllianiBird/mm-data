@@ -33,7 +33,7 @@
         </unitType>
 
         <echelon>
-            <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
+            <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%,%TRINARY%</option>
             <option ifUnitType="Warship|Jumpship|Dropship">%TRINARY%,%BINARY%,%STAR%</option>
             <option ifUnitType="Mek">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
@@ -666,6 +666,15 @@
                 </option>
             </subforceOption>
         </subforces>
+    </force>
+
+    <!-- A combined-arms Trinary, offered when no unit type is chosen: a Clan Trinary of mixed arms is the
+         Mek and Elemental Trinary above, so it is built as one. Before Elementals exist that Trinary turns
+         itself into a Mek Trinary. The negated flag stops this node matching again once the flag is set. -->
+    <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="" ifFlags="!mixedMekBA">
+        <changeEschelon>
+            <option flags="+mixedMekBA">%TRINARY%</option>
+        </changeEschelon>
     </force>
 
     <force echelon="%TRINARY%" eschName="Trinary" ifAugmented="0" ifUnitType="Mek|ProtoMek">
