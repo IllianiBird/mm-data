@@ -1,0 +1,80 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.51.01 on 2026-07-28
+<UUID>
+019fac50-e07b-7219-9b53-909b1de18189
+</UUID>
+
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Gun Platoon (Generic)
+</Name>
+
+<Model>
+(Tracked UAC20 3061+)
+</Model>
+
+<year>
+3061
+</year>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Tracked
+</motion_type>
+
+<Troopers Equipment>
+Ballistic Plate, Standard
+</Troopers Equipment>
+
+<Field Guns Equipment>
+ISUltraAC20
+IS Ultra AC/20 Ammo
+</Field Guns Equipment>
+
+<overview>
+<p>Mechanized tracked platoons move their infantry in armored personnel carriers fitted with tracks for reliable all-terrain performance. Tracked APCs handle mud, snow, rubble, and rough ground better than any wheeled or hover alternative, making these platoons the preferred mechanized infantry for operations where terrain is uncertain or hostile. They sacrifice road speed compared to wheeled formations but gain the ability to keep pace with armored vehicles across broken ground. The APCs provide meaningful ballistic protection during transit, though troops must still dismount to fight effectively.</p><p>Towing assault-class ultra autocannon capable of double-rate fire, these field gun crews field the most devastating rapid-fire direct weapons available to conventional ground forces. The presence of assault-class autocannon typically draws heavy counter-fire, with improved body armor helping the crews survive contact long enough to inflict considerable damage with their limited ammunition supply.</p>
+</overview>
+
+<notes>
+Intro date selected as common date for Ultra AC20 field gun. Ballistic plate armor chosen for heavy close-contact potential. Full complement of long arms selected due to low field gun ammo.
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+

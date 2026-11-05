@@ -1,0 +1,79 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.51.01 on 2026-07-17
+<UUID>
+019f6e4b-195c-734d-8b33-01feeab6cb58
+</UUID>
+
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Motorized Platoon (Generic)
+</Name>
+
+<Model>
+(Rifle Anti-Mek 2456+)
+</Model>
+
+<year>
+2456
+</year>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Motorized
+</motion_type>
+
+<Troopers Equipment>
+Generic Infantry Kit
+AntiMekGear
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<overview>
+<p>Motorized infantry platoons use light ground vehicles, typically motorcycles or quad bikes, for rapid movement between positions. Faster than foot infantry and cheaper than fully mechanized formations, motorized platoons fill the gap between static garrison troops and armored combat units. They excel at road-bound patrol routes, rapid redeployment along prepared axes, and screening operations where speed matters more than protection. These anti-BattleMech specialists are trained in the dangerous art of swarming enemy machines using grapling lines and powerful winches to target vulnerable joints and exposed systems that would normally be safely out of reach.</p>
+</overview>
+
+<notes>
+Intro date based on prototype date for anti-Mek equipment
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+

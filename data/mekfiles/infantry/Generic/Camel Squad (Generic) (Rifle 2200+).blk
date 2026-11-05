@@ -1,0 +1,78 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.51.01 on 2026-08-05
+<UUID>
+019fd08e-e16f-78c7-98a8-8d23b28b42b1
+</UUID>
+
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Camel Squad (Generic)
+</Name>
+
+<Model>
+(Rifle 2200+)
+</Model>
+
+<year>
+2200
+</year>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Skirmisher
+</role>
+
+<motion_type>
+Beast:Camel
+</motion_type>
+
+<Troopers Equipment>
+Generic Infantry Kit
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<overview>
+<p>The Terran camel has accompanied humanity across the stars, thriving on arid and desert worlds where vehicles break down and water is scarce. Camels require minimal sustenance, can endure extreme heat, and traverse soft sand and broken ground that would strand wheeled or tracked transports. On Periphery worlds and underdeveloped colonies where mechanized logistics are unreliable, military commanders have turned to camel-mounted infantry as a practical alternative. These formations trade speed and protection for self-sufficiency, capable of operating far from supply lines for extended periods. While no match for armored forces in a direct engagement, camel-mounted troops excel at patrolling vast frontier territories, screening flanks, and conducting raiding operations across inhospitable terrain.</p>
+</overview>
+
+<notes>
+Intro date selected as generic early date, prior to most advanced infantry equipment
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+1
+</squadn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+

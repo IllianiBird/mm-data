@@ -44,7 +44,7 @@ ranked SL units.-->
         </unitType>
 
         <echelon>
-            <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%</option>
+            <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%,%TRINARY%,%STAR%</option>
             <option ifUnitType="Warship">%CLUSTER%,%TRINARY%,%BINARY%,%STAR%</option>
             <option ifUnitType="Dropship|Jumpship">%TRINARY%,%BINARY%,%STAR%</option>
             <option ifUnitType="Mek" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>

@@ -1,0 +1,86 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.51.01 on 2026-07-25
+<UUID>
+019f9a41-d4ff-785d-9bed-9a571d3b3b8b
+</UUID>
+
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Motorized Platoon (Generic)
+</Name>
+
+<Model>
+(MRM 3065+)
+</Model>
+
+<year>
+3065
+</year>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Motorized
+</motion_type>
+
+<Troopers Equipment>
+Generic Infantry Kit
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<overview>
+<p>Motorized infantry platoons use light ground vehicles, typically motorcycles or utility trucks, for rapid movement between positions. Faster than foot infantry and cheaper than fully mechanized formations, motorized platoons fill the gap between static garrison troops and armored combat units. They excel at road-bound patrol routes, rapid redeployment along prepared axes, and screening operations where speed matters more than protection. Off-road performance depends heavily on terrain and vehicle type, and the troops must dismount to fight, leaving their transport vulnerable. Support elements carry disposable medium-range missile launchers that split the difference between the close-range punch of SRM systems and the reach of LRM launchers. The volume of fire compensates for the lack of guidance systems.</p>
+</overview>
+
+<notes>
+Intro date selected as production date of MRM Launcher
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+<Secondary>
+InfantryOneShotMRM
+</Secondary>
+
+

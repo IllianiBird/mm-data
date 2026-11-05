@@ -16,7 +16,7 @@
 # affiliated with Microsoft.
 
 {
-    "contractTypeName": "Temporary Retainer",
+    "contractTypeName": "Retainer",
     "briefing": "Perform requested military services",
     "allowEarlyVictory": false,
     "allowedScenarios": null,
@@ -30,14 +30,14 @@
         36
     ],
     "deploymentTimes": [
+        2,
         3,
-        4,
-        4,
-        4,
-        5
+        3,
+        3,
+        4
     ],
     "facilityProfile": {
-        "briefing": "Both sides hold facilities here. Your employer expects you to hold theirs and take the enemy's when you can.",
+        "briefing": "Your employer holds the facilities here, and no enemy has made planetfall yet. Keep them garrisoned and supplied: when an enemy does arrive, they may try to raise outposts of their own.",
         "typeWeights": {
             "MekBase": 2,
             "TankBase": 2,
