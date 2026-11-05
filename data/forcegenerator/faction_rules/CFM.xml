@@ -38,7 +38,7 @@
         </unitType>
 
         <echelon>
-            <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%,%TRINARY%</option>
+            <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%,%TRINARY%,%STAR%</option>
             <option ifUnitType="Dropship|Jumpship">%TRINARY%,%BINARY%,%STAR%</option>
             <option ifUnitType="Mek|AeroSpaceFighter" ifDateBetween="2870,">%TRINARY%,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>

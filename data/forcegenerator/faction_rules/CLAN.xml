@@ -33,7 +33,7 @@
         </unitType>
 
         <echelon>
-            <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%,%TRINARY%</option>
+            <option ifUnitType="">%TOUMAN%,%GALAXY%,%CLUSTER%,%TRINARY%,%STAR%</option>
             <option ifUnitType="Warship|Jumpship|Dropship">%TRINARY%,%BINARY%,%STAR%</option>
             <option ifUnitType="Mek">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
             <option>%TRINARY%,%BINARY%,%STAR%</option>
@@ -674,6 +674,14 @@
     <force echelon="%TRINARY%" eschName="Trinary" ifUnitType="" ifFlags="!mixedMekBA">
         <changeEschelon>
             <option flags="+mixedMekBA">%TRINARY%</option>
+        </changeEschelon>
+    </force>
+
+    <!-- A combined-arms Star, offered when no unit type is chosen: five 'Meks, built as the 'Mek Star below.
+         Once the unit type is set this node no longer matches, so it cannot loop. -->
+    <force echelon="%STAR%" eschName="Star" ifUnitType="">
+        <changeEschelon>
+            <option unitType="Mek">%STAR%</option>
         </changeEschelon>
     </force>
 
