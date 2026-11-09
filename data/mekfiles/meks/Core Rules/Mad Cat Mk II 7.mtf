@@ -1,0 +1,177 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+uuid:019f6150-ab2a-7088-adec-8384963400f9
+generator:MegaMek Suite 0.51.01 on 2026-07-14
+chassis:Mad Cat Mk II
+model:7
+
+Config:Biped
+techbase:Clan
+era:3150
+source:BT:CB
+published:BT:CB
+rules level:2
+role:Brawler
+availability:CLAN:5,CWE:7,CWIE:6
+
+
+mass:90
+engine:360 XL (Clan) Engine
+structure:Clan Endo Steel
+myomer:Standard
+
+heat sinks:14 Clan Double
+walk mp:4
+jump mp:3
+
+armor:Ferro-Fibrous(Clan)
+LA armor:27
+RA armor:27
+LT armor:26
+RT armor:26
+CT armor:38
+HD armor:9
+LL armor:34
+RL armor:34
+RTL armor:8
+RTR armor:8
+RTC armor:12
+
+Weapons:8
+Rotary AC/5, Left Arm
+Rotary AC/5, Right Arm
+Streak LRM 10, Left Torso
+ER Medium Laser, Left Torso
+ER Small Laser, Left Torso
+Streak LRM 10, Right Torso
+ER Medium Laser, Right Torso
+ER Small Laser, Right Torso
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5 Ammo
+CLRotaryAC5 Ammo
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5
+CLRotaryAC5 Ammo
+CLRotaryAC5 Ammo
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+Jump Jet
+CLStreakLRM10
+CLStreakLRM10
+CLERMediumLaser
+CLERSmallLaser
+Clan Streak LRM 10 Ammo
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+Jump Jet
+CLStreakLRM10
+CLStreakLRM10
+CLERMediumLaser
+CLERSmallLaser
+Clan Streak LRM 10 Ammo
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Jump Jet
+Clan Endo Steel
+
+Head:
+Life Support
+Sensors
+Cockpit
+Clan Ferro-Fibrous
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Clan Endo Steel
+Clan Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+
