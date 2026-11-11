@@ -1,0 +1,94 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.51.01 on 2026-07-23
+<UUID>
+019f9139-2cb6-7b4b-91a9-c1cb83a25f08
+</UUID>
+
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Mechanized Tracked Platoon (Generic)
+</Name>
+
+<Model>
+(MG Heavy 2315+)
+</Model>
+
+<year>
+2315
+</year>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Tracked
+</motion_type>
+
+<Troopers Equipment>
+Ballistic Plate, Standard
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<overview>
+<p>Mechanized tracked platoons move their infantry in armored personnel carriers fitted with tracks for reliable all-terrain performance. Tracked APCs handle mud, snow, rubble, and rough ground better than any wheeled or hover alternative, making these platoons the preferred mechanized infantry for operations where terrain is uncertain or hostile. They sacrifice road speed compared to wheeled formations but gain the ability to keep pace with armored vehicles across broken ground. The APCs provide meaningful ballistic protection during transit, though troops must still dismount to fight effectively.</p><p>Taking full advantage of the carrying capacity of the fighting vehicles, these platoons carry support machine guns to provide heavy firepower against a variety of targets in both offensive and defensive roles. Some are equipped with up-armored vehicles and heavier body armor, allowing these teams to assault well protected objectives and hold critical positions as long as possible.<p>
+</overview>
+
+<notes>
+Intro date based on introduction date of ballistic plate armor.
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+<Secondary>
+Machine Gun (Support)
+</Secondary>
+
+<disposableWeapon>
+Rocket Launcher (LAW)
+</disposableWeapon>
+
+<encumberingarmor>
+true
+</encumberingarmor>
+
+

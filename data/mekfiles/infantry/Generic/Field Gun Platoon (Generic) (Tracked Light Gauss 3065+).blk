@@ -1,0 +1,90 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.51.01 on 2026-07-29
+<UUID>
+019fac78-e5ea-7bd1-8c26-0255e3376251
+</UUID>
+
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Gun Platoon (Generic)
+</Name>
+
+<Model>
+(Tracked Light Gauss 3065+)
+</Model>
+
+<year>
+3065
+</year>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Sniper
+</role>
+
+<motion_type>
+Tracked
+</motion_type>
+
+<Troopers Equipment>
+Generic Infantry Kit
+</Troopers Equipment>
+
+<Field Guns Equipment>
+ISLightGaussRifle
+IS Light Gauss Ammo
+ISLightGaussRifle
+IS Light Gauss Ammo
+</Field Guns Equipment>
+
+<overview>
+<p>Mechanized tracked platoons move their infantry in armored personnel carriers fitted with tracks for reliable all-terrain performance. Tracked APCs handle mud, snow, rubble, and rough ground better than any wheeled or hover alternative, making these platoons the preferred mechanized infantry for operations where terrain is uncertain or hostile. They sacrifice road speed compared to wheeled formations but gain the ability to keep pace with armored vehicles across broken ground. The APCs provide meaningful ballistic protection during transit, though troops must still dismount to fight effectively.</p><p>Towing crew-served light gauss rifles, these platoons trade the raw stopping power of full-size gauss weapons for improved mobility and a lighter logistics footprint, while still delivering magnetically accelerated rounds at ranges that exceed conventional autocannon.</p>
+</overview>
+
+<notes>
+Intro date selected as common/re-introduction date for Light Gauss Rifle field gun
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+1
+</secondn>
+
+<Primary>
+Submachine Gun
+</Primary>
+
+<Secondary>
+InfantryAssaultRifle
+</Secondary>
+
+

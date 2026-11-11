@@ -1,0 +1,84 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.51.01 on 2026-07-28
+<UUID>
+019fac57-26fc-7bbb-a022-bc373d103c07
+</UUID>
+
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Gun Platoon (Generic)
+</Name>
+
+<Model>
+(Wheeled LBX20 3060+)
+</Model>
+
+<year>
+3060
+</year>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Wheeled
+</motion_type>
+
+<Troopers Equipment>
+Ballistic Plate, Standard
+</Troopers Equipment>
+
+<Field Guns Equipment>
+ISLBXAC20
+IS LB 20-X Cluster Ammo
+</Field Guns Equipment>
+
+<overview>
+<p>>Mechanized wheeled platoons transport their infantry in wheeled armored personnel carriers optimized for speed on roads and improved surfaces. Wheeled APCs are cheaper to maintain and faster on pavement than tracked alternatives, making these platoons ideal for garrison rapid-response forces, highway patrol, and urban security operations. Their off-road capability is limited compared to tracked vehicles, restricting employment in rough terrain, but on developed worlds with good road networks, wheeled mechanized infantry offer the best balance of speed, protection, and operating cost.</p><p>Towing assault-class LB-X autocannon that can fire cluster rounds capable of shredding virtually any target, these field gun crews deliver the heaviest area-effect direct fire available to ground forces. Ballistic plate personal armor helps improve the chances of surviving close contact with opposing forces.</p>
+</overview>
+
+<notes>
+Intro date selected as common date for LBX20 field gun. Ballistic plate armor chosen for heavy close-contact potential. Full complement of long arms selected due to low field gun ammo.
+</notes>
+
+<squad_size>
+6
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+<encumberingarmor>
+true
+</encumberingarmor>
+
+

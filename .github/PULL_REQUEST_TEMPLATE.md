@@ -47,6 +47,7 @@ Fixes #
 - [ ] The source is cited above, or this is not a canon change
 - [ ] The changed entries were loaded in the program and look right
 - [ ] Every file in the diff has a deliberate change (no stray reformatting of untouched entries)
+- [ ] Bug fix: I checked whether it is also needed on `main` or the current `releases/` branch, and opened a separate PR there if so
 - [ ] Dev team only: if AI tools were used, the **AI Assisted Development** label is applied, and I can
       explain and have verified the result
 

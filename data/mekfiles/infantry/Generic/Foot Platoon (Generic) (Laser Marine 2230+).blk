@@ -1,0 +1,102 @@
+# MegaMek Data (C) 2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+#Saved from version 0.51.01 on 2026-07-25
+<UUID>
+019f988c-34a1-7851-b9d3-711089af9a13
+</UUID>
+
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Foot Platoon (Generic)
+</Name>
+
+<Model>
+(Laser Marine 2230+)
+</Model>
+
+<year>
+2230
+</year>
+
+<originalBuildYear>
+2330
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Leg
+</motion_type>
+
+<Troopers Equipment>
+Spacesuit, Combat
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<overview>
+<p>Foot infantry platoons are the most basic and numerous conventional military formation across the Inner Sphere and Periphery. Deployed on foot without dedicated transport, these platoons are slow to reposition but cheap to raise, easy to supply, and capable of holding ground that faster units cannot afford to garrison permanently. Every major military fields foot platoons in enormous numbers for planetary defense, installation security, and rear-area policing. Their lack of mobility makes them poorly suited for offensive operations against armored forces, but in prepared defensive positions, urban terrain, or dense forests, dismounted infantry remain difficult to dislodge without committing disproportionate resources.</p><pThese platoons carry laser rifles and low-damage sidearms suited to the confined spaces and zero-gravity conditions of shipboard combat. These marines are trained to fight equally well in zero-gravity and conventional ground environments, conducting shipboard security, boarding actions, and combat in vacuum or pressurized hull conditions.</p>
+</overview>
+
+<notes>
+Intro date based on prototype date of generic Laser Rifle weapon
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+1
+</secondn>
+
+<Primary>
+Laser Rifle
+</Primary>
+
+<Secondary>
+Needler Pistol
+</Secondary>
+
+<encumberingarmor>
+true
+</encumberingarmor>
+
+<spacesuit>
+true
+</spacesuit>
+
+<specialization>
+64
+</specialization>
+
+
