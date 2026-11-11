@@ -30,20 +30,6 @@
     </rankSystem>
     <contractCount>2</contractCount>
     <gm>true</gm>
-    <gameOptions>
-        <gameOption>
-            <name>exclusive_db_deployment</name>
-            <value>false</value>
-        </gameOption>
-        <gameOption>
-            <name>allow_illegal_units</name>
-            <value>true</value>
-        </gameOption>
-        <gameOption>
-            <name>combat_suits</name>
-            <value>true</value>
-        </gameOption>
-    </gameOptions>
 	<campaignOptions>
 		<checkMaintenance>true</checkMaintenance>
 		<maintenanceCycleDays>7</maintenanceCycleDays>
@@ -648,6 +634,7 @@
 		<salvageSystem>CAM_OPS_STRICT</salvageSystem>
 		<isUseRiskySalvage>false</isUseRiskySalvage>
 		<isKeepEnemyCamouflageOnSalvage>false</isKeepEnemyCamouflageOnSalvage>
+		<isReduceSalvageQuality>false</isReduceSalvageQuality>
 		<isEnableSalvageFlagByDefault>true</isEnableSalvageFlagByDefault>
 		<useClanSalvageClause>true</useClanSalvageClause>
 		<stratConPlayType>DISABLED</stratConPlayType>
@@ -728,7 +715,7 @@
 		<personnelMarketName></personnelMarketName>
 		<usedPartPriceMultipliers>0.4,0.45,0.48,0.5,0.55,0.65</usedPartPriceMultipliers>
 		<phenotypeProbabilities>95,100,95,0,95,25</phenotypeProbabilities>
-		<usePortraitForType>true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false</usePortraitForType>
+		<usePortraitForType>true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false</usePortraitForType>
 		<atbBattleChance>40,20,60,10,0</atbBattleChance>
 		<planetTechAcquisitionBonus>-2,-1,0,1,2,8,16</planetTechAcquisitionBonus>
 		<planetIndustryAcquisitionBonus>0,0,0,0,0</planetIndustryAcquisitionBonus>
