@@ -205,6 +205,7 @@
 		<autoLogisticsBomb>100</autoLogisticsBomb>
 		<unitTransitTime>2</unitTransitTime>
 		<noDeliveriesInTransit>false</noDeliveriesInTransit>
+		<useMarginOfSuccessDelivery>false</useMarginOfSuccessDelivery>
 		<usePlanetaryAcquisition>false</usePlanetaryAcquisition>
 		<maxJumpsPlanetaryAcquisition>1</maxJumpsPlanetaryAcquisition>
 		<planetAcquisitionFactionLimit>NEUTRAL</planetAcquisitionFactionLimit>
@@ -525,8 +526,9 @@
 		<payForFood>false</payForFood>
 		<payForHousing>false</payForHousing>
 		<useLoanLimits>false</useLoanLimits>
-		<usePeacetimeCost>true</usePeacetimeCost>
-		<useExtendedPartsModifier>true</useExtendedPartsModifier>
+		<payForPeacetimeSpareParts>true</payForPeacetimeSpareParts>
+		<payForTrainingMunitions>true</payForTrainingMunitions>
+		<payForPeacetimeFuel>true</payForPeacetimeFuel>
 		<showPeacetimeCost>false</showPeacetimeCost>
 		<financialYearDuration>ANNUAL</financialYearDuration>
 		<newFinancialYearFinancesToCSVExport>false</newFinancialYearFinancesToCSVExport>
