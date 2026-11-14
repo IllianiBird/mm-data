@@ -266,7 +266,7 @@
             <salvage pct='5'>OC:2,LA:10</salvage>
         </faction>
         <faction key='NIOPS'>
-            <pctSL>90,90,90,90,90</pctSL>
+            <!-- Star League percentages: 90,90,90,90,90 -->
             <salvage pct='5'>FWL:10,MH:1</salvage>
         </faction>
         <faction key='OC'>
@@ -911,7 +911,7 @@
             <availability>IS:2+,FS:3+,LA!A:6!B:5!C:2,DC!A:4!B:2!C:1,FRR!A:1!B:1,CC!A:1!B:1,SIC!A:1!B:1,MERC:3+,CS!A:6!B:3!C:1,FC!A:5!B:4!C:2,CLAN:3-,CBS!Front Line:1!Second Line:4!Solahma:4!Provisional Garrison:4,CFM:4-,CGS:4-,CIH:2-,CSV:2-,Periphery!A:2!B:1!C:1,NIOPS:4-,Periphery.Deep:0,HL:1+,BAN:4-,PIR!A:1!B:1!C:1</availability>
             <model name='AS7-A'>
                 <roles>command</roles>
-                <availability>FWL!C:1,CC!B:1,SIC!B:1,MERC!B:1!C:1</availability>
+                <availability>FWL!B:1,CC!B:1,SIC!B:1,MERC!B:1!C:1</availability>
             </model>
             <model name='AS7-D'>
                 <roles>command</roles>
@@ -923,7 +923,7 @@
             </model>
             <model name='AS7-RS'>
                 <roles>command</roles>
-                <availability>IS:5,LA:4,FRR:4,MERC:6,CS:0,FC!B:3!C:5</availability>
+                <availability>IS:5,LA:4,FRR:4,MERC:6,CS:0,FC!B:3!C:5,Periphery:8,HL:8,PIR:8</availability>
             </model>
             <model name='C'>
                 <availability>CB!Solahma:1!Provisional Garrison:1,CFM!Second Line:1!Solahma:1!Provisional Garrison:1,CGS:3+,CSJ:5+,CSV:5+,CW:5+,BAN:4+</availability>
@@ -1117,7 +1117,7 @@
         <chassis name='Banshee' unitType='Mek'>
             <availability>IS!D:1!F:3,FS!A:1!B:1!D:1!F:3,LA!A:3!B:1!C:3!D:4!F:5,FWL:3-,DC:2-,FRR!A:5!B:2!C:2!D:3!F:4,MERC:4-,CS:2-,FC!A:1!B:1!D:1!F:1,Periphery!A:3!B:3!C:3!D:4!F:5,Periphery.R!A:4!B:5!C:6!D:6!F:6,NIOPS:2-,HL!A:4!B:4!C:5!D:6!F:6,Periphery.Deep!A:5!B:5!C:6!D:6!F:6,PIR!A:3!B:3!C:4!D:5!F:6</availability>
             <model name='BNC-3E'>
-                <availability>IS:8,FS!C:8!D:8!F:8,LA!B:1!C:8!D:8!F:8,FWL!C:1!D:5!F:8,FRR!B:5!C:8!D:8!F:8,MERC:8,CS:8,FC!D:8!F:8,Periphery:8,HL:8,Periphery.Deep:8,PIR:8</availability>
+                <availability>IS:8,FS!D:8!F:8,LA!B:1!C:8!D:8!F:8,FWL!C:1!D:5!F:8,FRR!B:5!C:8!D:8!F:8,MERC:8,CS:8,FC!D:8!F:8,Periphery:8,HL:8,Periphery.Deep:8,PIR:8</availability>
             </model>
             <model name='BNC-3M'>
                 <availability>FWL!C:6</availability>
@@ -1126,7 +1126,7 @@
                 <availability>FWL!C:3</availability>
             </model>
             <model name='BNC-3S'>
-                <availability>FS!A:8!B:8,LA!A:8!B:8,FRR!A:8!B:1,FC!A:8!B:8</availability>
+                <availability>FS!A:8!B:8,LA!A:8!B:8,FRR!A:8!B:1,FC!A:8!B:8,Periphery:1+:3037,Periphery.MW:1+:3132,Periphery.R:1+:3031,Periphery.DD:1+:3032,Periphery.Deep:0,HL:0,PIR:1+</availability>
             </model>
             <model name='BNC-3S-X'>
                 <availability>LA:1+</availability>
@@ -1521,10 +1521,10 @@
                 <availability>CLAN:8,IS:4+,Periphery:2+,Periphery.Deep:0,PIR:2+,BAN:0</availability>
             </model>
             <model name='BC XV-M-B HaulerMech MOD'>
-                <availability>Periphery:3-,TC:3-,HL:4+,Periphery.Deep!A:3!B:3!C:3!D:2!F:1,PIR:4+</availability>
+                <availability>Periphery:3-,TC:3-,NIOPS:0,HL:4+,Periphery.Deep!A:3!B:3!C:3!D:2!F:1,PIR:4+</availability>
             </model>
             <model name='BC XV-M HaulerMech MOD'>
-                <availability>Periphery:5-,TC:3-,HL:8,Periphery.Deep:8,PIR:8</availability>
+                <availability>Periphery:5-,TC:3-,NIOPS:0,HL:8,Periphery.Deep:8,PIR:8</availability>
             </model>
         </chassis>
         <chassis name='Büffel Engineering Support Vehicle VII' unitType='Tank'>
@@ -1748,7 +1748,7 @@
                 <availability>DC!A:3</availability>
             </model>
             <model name='CGR-1L'>
-                <availability>CC!B:1!C:8,SIC!B:1!C:8</availability>
+                <availability>CC!B:1!C:8,SIC!B:1!C:8,PIR:5+</availability>
             </model>
             <model name='CGR-SB &apos;Challenger&apos;'>
                 <availability>LA!C:1!D:1!F:3,MERC!B:5!C:1,FC:8</availability>
@@ -2399,10 +2399,10 @@
             </model>
             <model name='ED-X2M LoggerMech MOD'>
                 <roles>engineer</roles>
-                <availability>Periphery:3-,HL:3-,Periphery.Deep:6,PIR:5,BAN:5</availability>
+                <availability>Periphery:3-,NIOPS:0,HL:3-,Periphery.Deep:6,PIR:5,BAN:5</availability>
             </model>
             <model name='ED-X2 LoggerMech (RL)'>
-                <availability>Periphery:3-,HL:3-,Periphery.Deep:6,PIR:6,BAN:3</availability>
+                <availability>Periphery:3-,NIOPS:0,HL:3-,Periphery.Deep:6,PIR:6,BAN:3</availability>
             </model>
             <model name='ED-X4 LoggerMech'>
                 <roles>civilian</roles>
@@ -2639,7 +2639,7 @@
                 <availability>CLAN:8</availability>
             </model>
             <model name='RCL-1 MiningMech MOD'>
-                <availability>Periphery:4-,TC:2-,PIR:8,BAN:8</availability>
+                <availability>Periphery:4-,TC:2-,NIOPS:0,PIR:8,BAN:8</availability>
             </model>
         </chassis>
         <chassis name='Donar Assault Helicopter' unitType='VTOL'>
@@ -4050,7 +4050,7 @@
             </model>
         </chassis>
         <chassis name='Goliath' unitType='Mek'>
-            <availability>LA!C:1!D:1!F:1,FWL!B:1!C:4!D:1,MERC!C:3!D:2!F:1,CS!D:2!F:1,Periphery:1,Periphery.CM!A:2!B:2!C:2!D:1!F:1,Periphery.MW!A:2!B:2!C:2!D:1!F:1,Periphery.ME!A:2!B:2!C:2!D:1!F:1,Periphery.Deep!A:1!B:1!C:1,HL!A:1!B:1!C:1!D:1,PIR!B:1!C:2!D:2!F:1</availability>
+            <availability>LA!C:1!D:1!F:1,FWL!B:1!C:4!D:1,MERC!C:3!D:2!F:1,CS!D:2!F:1,FC:0,Periphery:1,Periphery.CM!A:2!B:2!C:2!D:1!F:1,Periphery.MW!A:2!B:2!C:2!D:1!F:1,Periphery.ME!A:2!B:2!C:2!D:1!F:1,Periphery.Deep!A:1!B:1!C:1,HL!A:1!B:1!C:1!D:1,PIR!B:1!C:2!D:2!F:1</availability>
             <model name='GOL-1H'>
                 <roles>fire_support</roles>
                 <availability>LA:8,FWL:5,MERC:8,CS:8,Periphery:8,Periphery.Deep:8,HL:8,PIR:8</availability>
@@ -4669,7 +4669,7 @@
             </model>
             <model name='HGN-733C'>
                 <roles>command</roles>
-                <availability>LA!A:8,CC!A:3!,SIC!A:3,FC!A:6</availability>
+                <availability>LA!A:8,CC!A:3,SIC!A:3,FC!A:6</availability>
             </model>
             <model name='HGN-733P'>
                 <roles>command</roles>
@@ -7745,10 +7745,10 @@
                 <availability>CLAN:8,IS:8,Periphery:2+,HL:1+,Periphery.Deep:0,PIR:0,BAN:3+</availability>
             </model>
             <model name='SC XI-M LoaderMech MOD'>
-                <availability>Periphery:3-,HL:4-,Periphery.Deep:5,PIR:4-,BAN:6-</availability>
+                <availability>Periphery:3-,NIOPS:0,HL:4-,Periphery.Deep:5,PIR:4-,BAN:6-</availability>
             </model>
             <model name='SC XI-M-B LoaderMech MOD'>
-                <availability>Periphery:3-,HL:4-,Periphery.Deep:8,PIR:6-,BAN:4-</availability>
+                <availability>Periphery:3-,NIOPS:0,HL:4-,Periphery.Deep:8,PIR:6-,BAN:4-</availability>
             </model>
             <model name='SC XV HaulerMech'>
                 <roles>cargo,civilian</roles>
@@ -7864,7 +7864,7 @@
             </model>
         </chassis>
         <chassis name='Quasit' unitType='Mek'>
-            <availability>Periphery:4-,PIR:3</availability>
+            <availability>Periphery:4-,NIOPS:0,PIR:3</availability>
             <model name='QUA-51T MilitiaMech'>
                 <availability>Periphery:8,PIR:8</availability>
             </model>
