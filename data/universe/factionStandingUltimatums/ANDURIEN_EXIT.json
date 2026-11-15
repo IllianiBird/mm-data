@@ -21,6 +21,11 @@
   "notes" : "This is the date listed in \"Historical - Brush Wars\" of the Duchess' capture and broadcasting of her announcement to end hostilities from the resistance.",
   "affectedFactionCodes" : [ "DA" ],
   "sides" : [ {
+    "id" : "DA",
+    "name" : "Duchess Catherine Humphreys",
+    "role" : "NOBLE",
+    "factionCode" : "DA"
+  }, {
     "id" : "FWL",
     "name" : "Captain-General Thomas Marik",
     "role" : "NOBLE",
@@ -28,5 +33,11 @@
   } ],
   "dissenterPreference" : "FWL",
   "isViolentTransition" : false,
-  "divisiveness" : -2
+  "divisiveness" : -2,
+  "isIntroducedByThirdParty" : true,
+  "hasNoDissent" : false,
+  "offersMercenary" : true,
+  "offersPirate" : true,
+  "offersBanditCaste" : false,
+  "hasSharedResult" : false
 }
