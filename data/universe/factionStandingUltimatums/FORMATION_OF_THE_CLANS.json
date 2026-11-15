@@ -21,6 +21,11 @@
   "notes" : "This is the date that Nicholas Kerensky actually assembled the first warriors of the clans and told them what clans they would belong to, two days after the general speech announcing the formation of them.",
   "affectedFactionCodes" : [ "SLIE" ],
   "sides" : [ {
+    "id" : "CLAN",
+    "name" : "IlKhan Nicholas Kerensky",
+    "role" : "MEKWARRIOR",
+    "factionCode" : "CLAN"
+  }, {
     "id" : "CBS",
     "name" : "Khan Colleen Schmitt",
     "role" : "MEKWARRIOR",
@@ -123,5 +128,11 @@
   } ],
   "dissenterPreference" : "CW",
   "isViolentTransition" : false,
-  "divisiveness" : -6
+  "divisiveness" : -6,
+  "isIntroducedByThirdParty" : true,
+  "hasNoDissent" : true,
+  "offersMercenary" : true,
+  "offersPirate" : false,
+  "offersBanditCaste" : true,
+  "hasSharedResult" : true
 }
