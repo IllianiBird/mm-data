@@ -1194,7 +1194,7 @@
             </model>
             <model name='BLR-1S'>
                 <roles>command</roles>
-                <availability>LA!A:6!B:5!C:1,FC!A:7!B:6!C:5!D:3!F:1</availability>
+                <availability>LA!A:6!B:5!C:1,FC!A:7!B:6!C:5!D:3!F:1,Periphery.R:1+,Periphery.DD:1+,Periphery.Deep:0,HL:0,PIR:0</availability>
             </model>
             <model name='BLR-2C'>
                 <roles>command</roles>
@@ -1751,7 +1751,7 @@
                 <availability>CC!B:1!C:8,SIC!B:1!C:8,PIR:5+</availability>
             </model>
             <model name='CGR-SB &apos;Challenger&apos;'>
-                <availability>LA!C:1!D:1!F:3,MERC!B:5!C:1,FC:8</availability>
+                <availability>LA!C:1!D:1!F:3,MERC!B:5!C:1,FC:8,Periphery.R:1+:3030</availability>
             </model>
         </chassis>
         <chassis name='Chariot High-Speed Medevac' unitType='Conventional Fighter'>
@@ -9395,7 +9395,7 @@
                 <availability>IS:8,FS!A:8!B:5!C:1,LA!B:3!C:5,CC!A:8!B:8,SIC!A:8!B:8,MERC:8,CS:8,FC:8,Periphery:8,Periphery.Deep:8,HL:8,PIR:8</availability>
             </model>
             <model name='VTR-9S'>
-                <availability>LA!B:8!C:1,FC!A:7!B:5!C:1</availability>
+                <availability>LA!B:8!C:1,FC!A:7!B:5!C:1,Periphery.R:8-,Periphery.DD:7-,Periphery.MW:7-</availability>
             </model>
         </chassis>
         <chassis name='Vincent Corvette' unitType='Warship'>
@@ -9808,7 +9808,7 @@
                 <availability>FS:8,LA:7,FRR:8,MERC:8,FC:6,Periphery:8,Periphery.Deep:8,HL:8,PIR:8</availability>
             </model>
             <model name='ZEU-6T'>
-                <availability>FS!A:5!B:1,LA!A:5!B:1,FC!A:8!B:5!C:1</availability>
+                <availability>FS!A:5!B:1,LA!A:5!B:1,FC!A:8!B:5!C:1,Periphery.MW:1+:3032,Periphery.R:1+:3031,Periphery.DD:1+:3032</availability>
             </model>
         </chassis>
         <chassis name='Zhukov Heavy Tank' unitType='Tank'>
