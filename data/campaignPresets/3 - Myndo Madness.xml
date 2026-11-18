@@ -582,9 +582,6 @@
 		<basePayOnlyConsidersScale>false</basePayOnlyConsidersScale>
 		<useChaosSupportPointConversion>true</useChaosSupportPointConversion>
 		<useChaosScaleSupportPointConversion>true</useChaosScaleSupportPointConversion>
-		<multiplyTrackIntensityByScale>true</multiplyTrackIntensityByScale>
-		<minimumOneTrackPerRoll>true</minimumOneTrackPerRoll>
-		<rollTracksWeekly>true</rollTracksWeekly>
 		<useContractFactionModifiers>true</useContractFactionModifiers>
 		<useIntelObfuscation>true</useIntelObfuscation>
 		<useNonNegotiableTerms>true</useNonNegotiableTerms>
@@ -597,7 +594,6 @@
 		<contractBattlefieldLossMultiplier>0.5</contractBattlefieldLossMultiplier>
 		<contractTransportMultiplier>0.5</contractTransportMultiplier>
 		<contractSalvageMultiplier>0.5</contractSalvageMultiplier>
-		<scenarioTempoMultiplier>1.0</scenarioTempoMultiplier>
 		<useLegacyContractPay>false</useLegacyContractPay>
 		<useAlternatePaymentMode>true</useAlternatePaymentMode>
 		<useDiminishingContractPay>true</useDiminishingContractPay>
@@ -677,8 +673,8 @@
 		<boardScalingType>NORMAL</boardScalingType>
 		<moraleVictoryEffect>1</moraleVictoryEffect>
 		<moraleDecisiveVictoryEffect>2</moraleDecisiveVictoryEffect>
-		<moraleDefeatEffect>-4</moraleDefeatEffect>
-		<moraleDecisiveDefeatEffect>-5</moraleDecisiveDefeatEffect>
+		<moraleDefeatEffect>-2</moraleDefeatEffect>
+		<moraleDecisiveDefeatEffect>-3</moraleDecisiveDefeatEffect>
 		<restrictPartsByMission>true</restrictPartsByMission>
 		<useGenericBattleValue>true</useGenericBattleValue>
 		<useVerboseBidding>false</useVerboseBidding>
