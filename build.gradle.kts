@@ -55,7 +55,7 @@ spotless {
             "data/**/*.txt", "data/**/*.yml", "data/**/*.yaml", "data/**/*.json", "data/**/*.xml",
             "data/**/*.csv", "data/**/*.mtf", "data/**/*.board", "data/**/*.mms",
             "data/**/*.tileinc", "data/**/*.mul", "data/**/*.xsd", "data/**/*.md",
-            "*.md", "*.kts", "config/**/*.xml"
+            "unitfluff/**/*.yml", "unitfluff/**/*.md", "*.md", "*.kts", "config/**/*.xml"
         )
         trimTrailingWhitespace()
         endWithNewline()
