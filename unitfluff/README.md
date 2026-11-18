@@ -10,8 +10,12 @@ not part of the MegaMek, MegaMekLab and MekHQ downloads. Each MegaMek release al
 Download `unit-fluff-<version>.zip` from the MegaMek release on GitHub and extract it into one of these folders, so
 that the fluff files end up in a `data/unitfluff` folder:
 
-- your User Directory (set in the client settings), e.g. `<User Directory>/data/unitfluff/`
-- the `userdata` folder of your MegaMek, MegaMekLab or MekHQ installation, e.g. `userdata/data/unitfluff/`
+- the `userdata` folder of your MegaMek, MegaMekLab or MekHQ installation, e.g. `userdata/data/unitfluff/`, for that
+  installation only
+- your User Directory (set in the client settings), e.g. `<User Directory>/data/unitfluff/`, for every installation
+  that uses it
+
+When both folders have a fluff file for the same unit, the one in `userdata` is used.
 
 The programs show the fluff in unit readouts, TROs and record sheets. Fluff in a unit file always comes first; a fluff
 file only fills in what its unit file leaves out. Fluff from these files is never written into units or saved games.
