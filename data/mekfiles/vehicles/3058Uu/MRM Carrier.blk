@@ -101,6 +101,44 @@ MRM 30
 <Rear Equipment>
 </Rear Equipment>
 
+<capabilities>
+<p>The MRM Carrier mounts three MRM-30 launchers as its primary armament, supplemented by a C3 slave unit for networked targeting data. An InterComBust 180 internal combustion engine maintains the standard fifty-four kilometer per hour top speed. Lexington Ltd. High Grade ferro-fibrous armor provides fifty-three points of protection, improved over the standard carrier's Simple Armor Plate.</p><p>A Communicator system with C3 link and FireScan with IndirecTrack targeting enable coordination with C3 master units. Each MRM-30 launcher carries only eight rounds, giving the vehicle limited endurance before requiring resupply. The MRM system's inherent scatter pattern makes it most effective against clustered targets or in area-denial roles.</p>
+</capabilities>
+
+<overview>
+<p>The MRM Carrier is a sixty-ton tracked combat vehicle mounting three MRM-30 launchers on the standard carrier chassis. Developed by the Quikscell Company as a variant of the SRM/LRM Carrier family, the MRM Carrier emerged during the FedCom Civil War era to exploit medium-range missile technology. A C3 slave unit enables networked targeting to compensate for the MRM system's inherent inaccuracy at extended range.</p>
+</overview>
+
+<deployment>
+<p>Quikscell produced the MRM Carrier at its Oliver facility beginning around 3063. The design found modest adoption across the Inner Sphere, often paired with ECM-equipped units to protect the slow-moving carrier from electronic countermeasures during engagements.</p>
+</deployment>
+
+<history>
+<p>The MRM Carrier was introduced by Quikscell as a variant during the FedCom Civil War era, mounting three MRM-30 launchers with a C3 slave unit on the standard carrier chassis. TRO:3058 Upgrade describes it as 'almost an entirely new design,' noting that it is often paired with ECM-equipped units as it is too slow to keep up in swift advances. Each launcher carries only eight rounds, requiring frequent resupply.</p><p>Quikscell produced the MRM Carrier at its Oliver facility for distribution across the Inner Sphere. The design found modest popularity as a middle-ground between the long-range LRM Carrier and the close-range SRM Carrier, though limited ammunition capacity remained a persistent complaint.</p>
+</history>
+
+<manufacturer>
+Quikscell Company
+</manufacturer>
+
+<primaryFactory>
+Oliver
+</primaryFactory>
+
+<systemManufacturers>
+ENGINE:InterComBust
+ARMOR:Lexington Ltd.
+COMMUNICATIONS:Communicator
+TARGETING:FireScan
+</systemManufacturers>
+
+<systemModels>
+ENGINE:180 ICE
+ARMOR:High Grade
+COMMUNICATIONS:with C3
+TARGETING:with IndirecTrack
+</systemModels>
+
 <source>
 TR:3058U
 </source>
