@@ -44,12 +44,6 @@ Encapsulate appropriately within XML and other such markup files.
 # affiliated with Microsoft.
 ```
 
-## Unit Fluff
-
-The descriptive texts of the units (overview, capabilities, deployment, history, manufacturers) are kept in
-`unitfluff/`, outside `data/`, so they are not shipped with the programs. Each MegaMek release has a separate
-`unit-fluff-<version>.zip` download for players who want them. See [unitfluff/README.md](unitfluff/README.md).
-
 ## Utilities
 
 This folder holds various utilities that are/have been used to handle various tasks through out the process of the data repo.
