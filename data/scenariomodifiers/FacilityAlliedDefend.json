@@ -17,7 +17,7 @@
 
 {
 "modifierName": "Defend",
-"additionalBriefingText": "Preserve 25% of the designated turrets.",
+"additionalBriefingText": "Preserve 50% of the designated turrets.",
 "benefitsPlayer": false,
 "blockFurtherEvents": false,
 "eventTiming": "PostForceGeneration",
@@ -36,7 +36,7 @@
 "reinforcementDelayReduction": null,
 "objectives": [ {
 "objectiveCriterion": "Preserve",
-"description": "Preserve 25% of the following force(s) and unit(s):",
+"description": "Preserve 50% of the following force(s) and unit(s):",
 "destinationEdge": "NONE",
 "percentage": 50,
 "fixedAmount": null,
@@ -52,7 +52,7 @@
 "howMuch": 1
 } ],
 "failureEffects": [ {
-"effectType": "FacilityRemoved",
+"effectType": "FacilityCaptured",
 "effectScaling": "Fixed",
 "howMuch": 1
 } ],

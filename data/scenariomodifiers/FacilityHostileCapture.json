@@ -17,7 +17,7 @@
 
 {
 "modifierName": "Capture",
-"additionalBriefingText": "This facility must be captured: 75% of the designated buildings must remain intact.",
+"additionalBriefingText": "This facility must be captured: 25% of the designated buildings must remain intact, and 75% of the hostile forces destroyed, crippled or forced to withdraw.",
 "benefitsPlayer": false,
 "blockFurtherEvents": false,
 "eventTiming": "PostForceGeneration",
@@ -36,7 +36,7 @@
 "reinforcementDelayReduction": null,
 "objectives": [ {
 "objectiveCriterion": "Preserve",
-"description": "Leave intact the following force(s) and unit(s) to be able to take control of this facility:",
+"description": "Leave intact at least 25% of the following force(s) and unit(s) to be able to take control of this facility:",
 "destinationEdge": "NONE",
 "percentage": 25,
 "fixedAmount": null,
@@ -59,7 +59,7 @@
 "additionalDetails": ["Crippled turrets are considered intact for the purposes of this objective."]
 }, {
 "objectiveCriterion": "ForceWithdraw",
-"description": "Destroy, cripple or force the withdrawal of 75% of the following force(s) and\n                unit(s) to take control of the facility:\n            ",
+"description": "Destroy, cripple or force the withdrawal of 75% of the following force(s) and unit(s) to take control of the facility:",
 "destinationEdge": "NONE",
 "percentage": 75,
 "fixedAmount": null,
