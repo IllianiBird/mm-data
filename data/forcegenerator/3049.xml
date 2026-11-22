@@ -980,7 +980,7 @@
             </model>
             <model name='ARC-2Rb'>
                 <roles>command,fire_support</roles>
-                <availability> CLAN:2-,CLAN.IS:2-,CLAN.HW:3-,CBS:4-,CB:8,CGS:4-,CHH:8,CIH:8,CSR:8,NIOPS:6+,BAN:6</availability>
+                <availability>CLAN:2-,CLAN.IS:2-,CLAN.HW:3-,CBS:4-,CB:8,CGS:4-,CHH:8,CIH:8,CSR:8,NIOPS:6+,BAN:6</availability>
             </model>
             <model name='ARC-2S'>
                 <roles>command,fire_support</roles>
@@ -3549,7 +3549,7 @@
             </model>
         </chassis>
         <chassis name='Exterminator' unitType='Mek'>
-            <availability>FWL:2+,DC:3+,DC.GHO:1+,CS:5,WOB:4,CLAN!Solahma:1,CLAN.IS!Solahma:1,CDS!Solahma:1!Provisional Garrison:1,CSV:-1,CLAN.HW!Solahma:1,CBS!Solahma:1!Provisional Garrison:1,CFM!Solahma:1!Provisional Garrison:1,CIH!Second Line:1!Solahma:1,CSR:1-,CSA:1-,CIR:0,NIOPS:4,BAN:0</availability>
+            <availability>FWL:2+,DC:3+,DC.GHO:1+,CS:5,WOB:4,CLAN!Solahma:1,CLAN.IS!Solahma:1,CDS!Solahma:1!Provisional Garrison:1,CSV:1-,CLAN.HW!Solahma:1,CBS!Solahma:1!Provisional Garrison:1,CFM!Solahma:1!Provisional Garrison:1,CIH!Second Line:1!Solahma:1,CSR:1-,CSA:1-,CIR:0,NIOPS:4,BAN:0</availability>
             <model name='EXT-4A'>
                 <availability>FWL:8</availability>
             </model>
@@ -3776,7 +3776,7 @@
             </model>
             <model name='(Wheeled Sniper 2367+)'>
                 <roles>mixed_artillery</roles>
-                <availability>CC!B:6!C:5!D:4!C:3</availability>
+                <availability>CC!B:6!C:5!D:4</availability>
             </model>
             <model name='(Wheeled Sniper 3045+)'>
                 <roles>mixed_artillery</roles>
@@ -6158,7 +6158,7 @@
             </model>
         </chassis>
         <chassis name='Hunchback' unitType='Mek'>
-            <availability>IS:4+,FS:4,LA:4,FWL:5+,DC:5+,FRR:5+,CC:5+,MERC:5,CS:4,WOB:5,FC:5+,CLAN.IS:1-:3050,CNC:-1:3051,CDS:1-:3052,CSV:1-:3051,CHH:0,CSR:0,Periphery:3+,Periphery.ME:4+,Periphery.MW:4+,NIOPS:5-,CIR:4+,HL:2+,Periphery.Deep:1+,PIR:4+</availability>
+            <availability>IS:4+,FS:4,LA:4,FWL:5+,DC:5+,FRR:5+,CC:5+,MERC:5,CS:4,WOB:5,FC:5+,CLAN.IS:1-:3050,CNC:1-:3051,CDS:1-:3052,CSV:1-:3051,CHH:0,CSR:0,Periphery:3+,Periphery.ME:4+,Periphery.MW:4+,NIOPS:5-,CIR:4+,HL:2+,Periphery.Deep:1+,PIR:4+</availability>
             <model name='HBK-4G'>
                 <roles>urban</roles>
                 <availability>IS:7+,LA:8,FWL:8,DC:8+,FRR:8,CC:8+,SIC:8+,MERC:8+,WOB:6,FC:8,CLAN.IS:8,CNC:6,Periphery:7+,CIR:6+,HL:5+,Periphery.Deep:5+,PIR:8</availability>
