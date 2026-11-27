@@ -87,7 +87,7 @@
          x="22.523"
          id="type"
          y="8.774"
-         style="font-family:Eurostile;font-size:7.200px;font-weight:normal;font-style:normal;mml-field-width:70"
+         style="font-family:Eurostile;font-size:7.200px;font-weight:normal;font-style:normal;mml-field-width:69"
          text-anchor="start">Lorem Ipsum</text>
       <text
          fill="#000000"
@@ -126,7 +126,7 @@
          x="21.702"
          id="role"
          y="26.322"
-         style="font-family:Eurostile;font-size:7.200px;font-weight:normal;font-style:normal;mml-field-width:70.964"
+         style="font-family:Eurostile;font-size:7.200px;font-weight:normal;font-style:normal;mml-field-width:69"
          text-anchor="start">Lorem Ipsum</text>
       <text
          fill="#000000"
@@ -179,13 +179,13 @@
          text-anchor="middle">0</text>
     </g>
     <g
-       transform="translate (97.667 11.786)"
+       transform="translate (95.667 11.786)"
        id="g11">
       <g
          id="g10">
         <path
            fill="#ffffff"
-           d="M 0.00915018,8.2212856 5.6984091,0.00915018 H 186.90572 l 5.68926,8.21213542 V 72.397714 l -5.68926,8.212136 H 5.6984091 L 0.00915018,72.397714 Z"
+           d="M 0.00915018,8.2212856 5.6984091,0.00915018 H 188.90572 l 5.68926,8.21213542 V 72.397714 l -5.68926,8.212136 H 5.6984091 L 0.00915018,72.397714 Z"
            stroke-width="0.9683"
            stroke-linejoin="round"
            stroke="#000000"
@@ -195,7 +195,7 @@
            id="g9">
           <path
              fill="#000000"
-             d="M 0,5.625 3.900323,0 H 183.51181 l 3.90032,5.625 -3.90032,5.625 H 3.900323 Z"
+             d="M 0,5.625 3.900323,0 H 185.51181 l 3.90032,5.625 -3.90032,5.625 H 3.900323 Z"
              id="path9"
              style="stroke-width:1.01998" />
           <text
@@ -207,14 +207,14 @@
              textLength="88.665001"
              lengthAdjust="spacingAndGlyphs"
              id="text9"
-             transform="translate(5)">WEAPONS INVENTORY</text>
+             transform="translate(6)">WEAPONS INVENTORY</text>
         </g>
       </g>    
       <g id="gInventoryBox">
       <rect
          fill="none"
          x="3.000"
-         width="189"
+         width="191"
          id="inventory"
          height="65.369"
          y="14.250" />
@@ -626,28 +626,29 @@
                d="m 0,0 c 0,2.953 -1.683,5.507 -4.139,6.772 0.097,1.612 0.182,3.361 0.251,5.275 h 0.593 l 3.294,2.835 v 4.252 l -3.294,2.835 h -0.386 c 0.01,1.24 0.016,2.52 0.015,3.855 -0.022,2.493 -2.671,6.678 -2.671,6.678 h -6.677 l -2.671,-4.006 h -9.35 l -1.336,9.349 h -8.014 l -1.336,-9.349 h -9.348 l -2.671,4.006 h -6.677 c 0,0 -1.185,-0.966 -2.671,-6.678 -0.046,-1.337 -0.08,-2.613 -0.109,-3.855 h -0.455 l -3.293,-2.835 v -4.252 l 3.293,-2.835 h 0.397 c 0.029,-1.971 0.082,-3.78 0.158,-5.432 -2.297,-1.312 -3.848,-3.78 -3.848,-6.615 0,-3.518 2.387,-6.471 5.629,-7.347 0.419,-1.457 0.844,-2.369 1.211,-2.939 0.588,-0.916 1.023,-0.953 1.023,-0.953 0,0 4.008,-1.336 6.679,-1.336 0,-8.346 32.052,-7.011 32.052,0 2.671,0 6.679,1.336 6.679,1.336 0,0 0.468,0.049 1.084,1.559 0.222,0.544 0.463,1.279 0.708,2.269 C -2.512,-6.624 0,-3.608 0,0 Z"
                id="path2722" />
           </g>
-          <g
+          <ellipse
              id="shadow_MG"
-             transform="translate(509.6985,687.7286)">
-            <path
-               style="fill:#c7c8ca;fill-opacity:1;fill-rule:nonzero;stroke:#c7c8ca;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 0,0 c -3.853,0 -6.977,-3.906 -6.977,-8.721 0,-4.817 3.124,-8.72 6.977,-8.72 3.854,0 6.978,3.903 6.978,8.72 C 6.978,-3.906 3.854,0 0,0"
-               id="path2726" />
-          </g>
+             cx="511.858"
+             cy="678.465"
+             rx="6.5"
+             ry="9.25"
+             fill="#c7c8ca"
+             stroke="#c7c8ca"
+             stroke-width="0.75" />
           <g
              id="g2728"
-             transform="translate(537.7727,654.2096)">
+             transform="translate(538.3953,658.8462)">
             <path
                style="fill:#c7c8ca;fill-opacity:1;fill-rule:nonzero;stroke:none"
-               d="M 0,0 -0.957,-1.914 H -1.914 L -2.87,0 h -9.57 l -0.957,-1.914 h -0.958 L -15.312,0 l -1.914,19.141 1.914,3.828 h 1.913 l 10e-4,-3.828 5.742,1.914 5.744,-1.914 -0.002,3.828 h 2.871 l 0.957,-3.828 z"
+               d="M 0,0 -1.0345,-2.159 H -2.069 L -3.1025,0 h -10.3452 l -1.0345,-2.159 h -1.0356 L -16.5523,0 l -2.069,21.591 2.069,4.318 h 2.068 l 0.0011,-4.318 6.2071,2.159 6.2093,-2.159 -0.0022,4.318 h 3.1036 l 1.0345,-4.318 z"
                id="path2730" />
           </g>
           <g
              id="g2732"
-             transform="translate(537.7727,654.2096)">
+             transform="translate(538.3953,658.8462)">
             <path
                style="fill:none;stroke:#c7c8ca;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="M 0,0 -0.957,-1.914 H -1.914 L -2.87,0 h -9.57 l -0.957,-1.914 h -0.958 L -15.312,0 l -1.914,19.141 1.914,3.828 h 1.913 l 10e-4,-3.828 5.742,1.914 5.744,-1.914 -0.002,3.828 h 2.871 l 0.957,-3.828 z"
+               d="M 0,0 -1.0345,-2.159 H -2.069 L -3.1025,0 h -10.3452 l -1.0345,-2.159 h -1.0356 L -16.5523,0 l -2.069,21.591 2.069,4.318 h 2.068 l 0.0011,-4.318 6.2071,2.159 6.2093,-2.159 -0.0022,4.318 h 3.1036 l 1.0345,-4.318 z"
                id="path2734" />
           </g>
           <g
@@ -657,6 +658,7 @@
                style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
                d="m 0,0 c -1.387,1.502 -2.627,3.106 -3.736,4.834 -0.702,0.555 -1.436,1.067 -2.198,1.539 l -1.978,5.714 c 1.266,3.197 1.851,6.656 1.76,10.109 l -0.661,1.097 -1.099,0.88 -0.219,1.319 c -2.176,3.6 -4.444,7.112 -6.812,10.548 -0.073,1.465 0,2.923 0.216,4.374 -0.616,-1.51 -1.084,-1.559 -1.084,-1.559 0,0 -4.007,-1.335 -6.678,-1.335 0,-7.012 -32.053,-8.347 -32.053,0 -2.671,0 -6.679,1.335 -6.679,1.335 0,0 -0.434,0.038 -1.023,0.954 0.151,-1.251 0.218,-2.507 0.156,-3.769 -2.368,-3.436 -4.637,-6.948 -6.812,-10.548 l -0.219,-1.319 -1.1,-0.88 -0.66,-1.097 c -0.092,-3.453 0.493,-6.912 1.76,-10.109 L -71.097,6.373 C -71.859,5.901 -72.591,5.389 -73.295,4.834 -74.404,3.106 -75.645,1.502 -77.031,0 l -0.219,-1.098 h 2.197 l 0.221,-1.099 c 3.474,-0.249 6.88,0.27 10.107,1.538 0.753,0.517 1.561,0.927 2.424,1.228 l 0.157,-0.315 -2.594,-7.493 c -0.997,-0.619 -0.735,-1.293 -1.658,-2.017 -1.456,-2.265 -2.101,-4.369 -3.917,-6.34 l -0.288,-1.44 h 2.879 l 0.288,-1.441 c 4.548,-0.307 6.815,0.373 11.052,2.017 3.287,1.93 6.917,3.304 10.662,4.035 l 1.442,0.864 0.576,1.729 c -0.437,1.494 -1.013,2.936 -1.728,4.322 l 0.286,1.442 c -0.121,2.633 -0.404,5.183 -0.864,7.779 -0.575,0.768 -1.151,1.537 -1.727,2.306 l -0.289,2.016 c 0.217,2.147 0.6,4.255 1.153,6.341 1.944,1.493 3.695,3.243 5.185,5.186 0.45,1.362 1.122,2.611 2.018,3.746 l 1.153,0.576 1.152,-0.576 c 0.898,-1.134 1.571,-2.383 2.017,-3.746 1.491,-1.943 3.242,-3.693 5.186,-5.186 0.556,-2.085 0.938,-4.194 1.153,-6.341 L -29.294,6.017 C -29.871,5.249 -30.448,4.48 -31.023,3.711 -31.48,1.115 -31.764,-1.435 -31.888,-4.068 L -31.6,-5.51 c -0.716,-1.386 -1.294,-2.827 -1.729,-4.322 l 0.576,-1.729 1.441,-0.864 c 3.746,-0.731 7.375,-2.105 10.663,-4.035 4.237,-1.644 8.706,-2.324 13.254,-2.017 l 0.288,1.441 h 2.88 l -0.287,1.44 c -1.817,1.971 -3.443,4.074 -4.898,6.34 -0.923,0.726 -1.883,1.399 -2.881,2.017 l -2.595,7.493 0.158,0.315 c 0.863,-0.301 1.67,-0.711 2.423,-1.228 3.228,-1.268 6.634,-1.787 10.108,-1.538 l 0.22,1.099 h 2.198 z"
                id="path2738" />
+            <path id="structureRegionL" fill="#c7c7c7" stroke="#000000" stroke-width="0.45" d="M -7.7015,11.479 L -7.912,12.087 C -6.646,15.284 -6.061,18.743 -6.152,22.196 L -6.813,23.293 L -7.912,24.173 L -8.131,25.492 C -10.307,29.092 -12.575,32.604 -14.943,36.04 C -15.016,37.505 -14.943,38.963 -14.727,40.414 C -15.343,38.904 -15.811,38.855 -15.811,38.855 C -15.811,38.855 -19.818,37.52 -22.489,37.52 C -22.489,30.508 -54.542,29.173 -54.542,37.52 C -57.213,37.52 -61.221,38.855 -61.221,38.855 C -61.221,38.855 -61.655,38.893 -62.244,39.809 C -62.093,38.558 -62.026,37.302 -62.088,36.04 C -64.456,32.604 -66.725,29.092 -68.9,25.492 L -69.119,24.173 L -70.219,23.293 L -70.879,22.196 C -70.971,18.743 -70.386,15.284 -69.119,12.087 L -69.3295,11.479 L -47.5267,11.479 C -47.3439,12.4498 -47.1254,13.4142 -46.871,14.374 C -44.927,15.867 -43.176,17.617 -41.686,19.56 C -41.236,20.922 -40.564,22.171 -39.668,23.306 L -38.515,23.882 L -37.363,23.306 C -36.465,22.172 -35.792,20.923 -35.346,19.56 C -33.855,17.617 -32.104,15.867 -30.16,14.374 C -29.9041,13.4146 -29.6851,12.45 -29.5023,11.479 Z" />
           </g>
           <g
              id="g2740"
@@ -673,6 +675,7 @@
                style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
                d="m 0,0 c 0,2.953 -1.683,5.507 -4.139,6.772 0.097,1.612 0.182,3.361 0.251,5.275 h 0.593 l 3.294,2.835 v 4.252 l -3.294,2.835 h -0.386 c 0.01,1.24 0.016,2.52 0.015,3.855 -0.022,2.493 -2.671,6.678 -2.671,6.678 h -6.677 l -2.671,-4.006 h -9.35 l -1.336,9.349 h -8.014 l -1.336,-9.349 h -9.348 l -2.671,4.006 h -6.677 c 0,0 -1.185,-0.966 -2.671,-6.678 -0.046,-1.337 -0.08,-2.613 -0.109,-3.855 h -0.455 l -3.293,-2.835 v -4.252 l 3.293,-2.835 h 0.397 c 0.029,-1.971 0.082,-3.78 0.158,-5.432 -2.297,-1.312 -3.848,-3.78 -3.848,-6.615 0,-3.518 2.387,-6.471 5.629,-7.347 0.419,-1.457 0.844,-2.369 1.211,-2.939 0.588,-0.916 1.023,-0.953 1.023,-0.953 0,0 4.008,-1.336 6.679,-1.336 0,-8.346 32.052,-7.011 32.052,0 2.671,0 6.679,1.336 6.679,1.336 0,0 0.468,0.049 1.084,1.559 0.222,0.544 0.463,1.279 0.708,2.269 C -2.512,-6.624 0,-3.608 0,0"
                id="path2746" />
+            <path id="structureRegionT" fill="#c7c7c7" stroke="#000000" stroke-width="0.45" d="M -60.315,-3.0353 C -59.3996,-5.1347 -57.5632,-6.7398 -55.316,-7.347 C -54.897,-8.804 -54.472,-9.716 -54.105,-10.286 C -53.517,-11.202 -53.082,-11.239 -53.082,-11.239 C -53.082,-11.239 -49.074,-12.575 -46.403,-12.575 C -46.403,-20.921 -14.351,-19.586 -14.351,-12.575 C -11.68,-12.575 -7.672,-11.239 -7.672,-11.239 C -7.672,-11.239 -7.204,-11.19 -6.588,-9.68 C -6.366,-9.136 -6.125,-8.401 -5.88,-7.411 C -3.5195,-6.8594 -1.5795,-5.213 -0.6301,-3.0353 Z" />
           </g>
           <g
              id="g2748"
@@ -682,258 +685,201 @@
                d="m 0,0 c 0,2.953 -1.683,5.507 -4.139,6.772 0.097,1.612 0.182,3.361 0.251,5.275 h 0.593 l 3.294,2.835 v 4.252 l -3.294,2.835 h -0.386 c 0.01,1.24 0.016,2.52 0.015,3.855 -0.022,2.493 -2.671,6.678 -2.671,6.678 h -6.677 l -2.671,-4.006 h -9.35 l -1.336,9.349 h -8.014 l -1.336,-9.349 h -9.348 l -2.671,4.006 h -6.677 c 0,0 -1.185,-0.966 -2.671,-6.678 -0.046,-1.337 -0.08,-2.613 -0.109,-3.855 h -0.455 l -3.293,-2.835 v -4.252 l 3.293,-2.835 h 0.397 c 0.029,-1.971 0.082,-3.78 0.158,-5.432 -2.297,-1.312 -3.848,-3.78 -3.848,-6.615 0,-3.518 2.387,-6.471 5.629,-7.347 0.419,-1.457 0.844,-2.369 1.211,-2.939 0.588,-0.916 1.023,-0.953 1.023,-0.953 0,0 4.008,-1.336 6.679,-1.336 0,-8.346 32.052,-7.011 32.052,0 2.671,0 6.679,1.336 6.679,1.336 0,0 0.468,0.049 1.084,1.559 0.222,0.544 0.463,1.279 0.708,2.269 C -2.512,-6.624 0,-3.608 0,0 Z"
                id="path2750" />
           </g>
-          <g
-             id="armor_MG"
-             transform="translate(508.2805,689.1461)">
-            <path
-               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 0,0 c -3.853,0 -6.977,-3.906 -6.977,-8.721 0,-4.817 3.124,-8.72 6.977,-8.72 3.854,0 6.978,3.903 6.978,8.72 C 6.978,-3.906 3.854,0 0,0"
-               id="path2754" />
+          <g id="armor_MG">
+            <ellipse
+               cx="510.44"
+               cy="679.882"
+               rx="6.5"
+               ry="9.25"
+               fill="#ffffff"
+               stroke="#000000"
+               stroke-width="0.75" />
+            <path id="structureRegionMG" fill="#c7c7c7" stroke="#000000" stroke-width="0.45" d="M 504.0574,678.1322 H 516.8226 A 6.5,9.25 0 0 0 504.0574,678.1322 Z" />
           </g>
           <g
              id="g2756"
-             transform="translate(536.3547,655.627)">
+             transform="translate(536.9773,660.2636)">
             <path
                style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-               d="M 0,0 -0.957,-1.914 H -1.914 L -2.87,0 h -9.57 l -0.957,-1.914 h -0.958 L -15.312,0 l -1.914,19.141 1.914,3.828 h 1.913 l 10e-4,-3.828 5.742,1.914 5.744,-1.914 -0.002,3.828 h 2.871 l 0.957,-3.828 z"
+               d="M 0,0 -1.0345,-2.159 H -2.069 L -3.1025,0 h -10.3452 l -1.0345,-2.159 h -1.0356 L -16.5523,0 l -2.069,21.591 2.069,4.318 h 2.068 l 0.0011,-4.318 6.2071,2.159 6.2093,-2.159 -0.0022,4.318 h 3.1036 l 1.0345,-4.318 z"
                id="path2758" />
+            <path id="structureRegionHD" fill="#c7c7c7" stroke="#000000" stroke-width="0.45" d="M 0.5384,5.6186 L 0,0 L -1.0345,-2.159 L -2.069,-2.159 L -3.1025,0 L -13.4477,0 L -14.4822,-2.159 L -15.5178,-2.159 L -16.5523,0 L -17.0907,5.6186 Z" />
           </g>
           <g
              id="g2760"
-             transform="translate(536.3547,655.627)">
+             transform="translate(536.9773,660.2636)">
             <path
                style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="M 0,0 -0.957,-1.914 H -1.914 L -2.87,0 h -9.57 l -0.957,-1.914 h -0.958 L -15.312,0 l -1.914,19.141 1.914,3.828 h 1.913 l 10e-4,-3.828 5.742,1.914 5.744,-1.914 -0.002,3.828 h 2.871 l 0.957,-3.828 z"
+               d="M 0,0 -1.0345,-2.159 H -2.069 L -3.1025,0 h -10.3452 l -1.0345,-2.159 h -1.0356 L -16.5523,0 l -2.069,21.591 2.069,4.318 h 2.068 l 0.0011,-4.318 6.2071,2.159 6.2093,-2.159 -0.0022,4.318 h 3.1036 l 1.0345,-4.318 z"
                id="path2762" />
           </g>
-          <g
-             transform="translate(0,13.000223)"
-             id="g40">
-            <text
-               style="font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.33199406px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-               id="text3032"
-               transform="matrix(0.98162644,0,-0.19081282,-0.98162644,488.9417,626.3481)"><tspan
-                 x="35.990208"
-                 y="9.820631"
-                 id="tspan3028">Torso</tspan><tspan
-                 x="38.034908"
-                 y="15.885423"
-                 id="tspan3030">Legs</tspan></text>
-          </g>
-          <g
-             transform="translate(-4.8002987,23.399537)"
-             id="g41">
-            <text
-               style="font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.58099556px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-               id="text_MG"
-               transform="matrix(0.98162643,0,-0.19081285,-0.98162643,523.5285,662.6363)"><tspan
-                 x="0 3.6060627"
-                 y="0"
-                 id="tspan3034">Main Gun</tspan></text>
-          </g>
-          <g
-             transform="translate(6.1999059,16.600156)"
-             id="g42">
-            <text
-               style="font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.33199406px;font-family:Eurostile;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-               id="text3040"
-               transform="matrix(0.98162644,0,-0.19081282,-0.98162644,533.5791,653.47)"><tspan
-                 x="0"
-                 y="0"
-                 id="tspan3038">Head</tspan></text>
-          </g>
+        </g>
+        <g fill="#000000" style="font-family:Eurostile;font-size:4.5px;font-weight:600">
+          <text x="13.5" y="7.4" id="text_MG" text-anchor="end">Main<tspan x="13.5" dy="4.6">Gun</tspan></text>
+          <text x="52" y="7" id="text3040">Head</text>
+          <text x="73" y="49">Torso</text>
+          <text x="39.8" y="101" text-anchor="middle">Legs</text>
         </g>
         <g
            fill="none"
            id="armorPips">
           <g
-             style="mml-multisection:true"
              id="armorPipsHD"
-             transform="translate(39.8,17.28)">
-            <g
-               id="armorPipsHDSection01">
-              <rect
-                 x="-8.1"
-                 width="16.2"
-                 y="0"
-                 height="3.2"
-                 id="armorHDRow00" />
-              <rect
-                 x="-8.1"
-                 width="16.2"
-                 y="1.3"
-                 height="3.2"
-                 id="armorHDRow01" />
-              <rect
-                 x="-8.1"
-                 width="16.2"
-                 y="2.6"
-                 height="3.2"
-                 id="armorHDRow02" />
-            </g>
-            <g
-               id="armorPipsHDSection02">
-              <rect
-                 x="-7.5"
-                 width="15"
-                 y="7.8"
-                 height="3.2"
-                 id="armorHDRow03" />
-              <rect
-                 x="-6.9"
-                 width="13.8"
-                 y="9.1"
-                 height="3.2"
-                 id="armorHDRow04" />
-              <rect
-                 x="-6.7"
-                 width="13.4"
-                 y="10.4"
-                 height="3.2"
-                 id="armorHDRow05" />
-            </g>
+             transform="translate(39.8,10.4)">
+            <rect
+               x="-8.7"
+               width="17.4"
+               y="0"
+               height="3.55"
+               id="armorHDRow00" />
+            <rect
+               x="-8.55"
+               width="17.1"
+               y="3.55"
+               height="3.55"
+               id="armorHDRow01" />
+            <rect
+               x="-8.3"
+               width="16.6"
+               y="7.1"
+               height="3.55"
+               id="armorHDRow02" />
+            <rect
+               x="-8.08"
+               width="16.16"
+               y="10.65"
+               height="3.55"
+               id="armorHDRow03" />
           </g>
           <g
              id="armorPipsT"
-             transform="translate(39.8,35.08)">
+             transform="translate(39.8,31.72)">
             <rect
                x="-25"
                width="50"
                y="0"
-               height="3.2"
+               height="3.6"
                id="armorTRow00"
-               style="mml-gap:-8.7,8.7" />
+               style="mml-gap:-11,11" />
             <rect
-               x="-25"
-               width="50"
+               x="-26"
+               width="51.7"
                y="2.6"
-               height="3.2"
+               height="3.6"
                id="armorTRow01" />
             <rect
-               x="-25"
-               width="50"
-               y="5.2"
-               height="3.2"
+               x="-28"
+               width="55.7"
+               y="5.8"
+               height="3.6"
+               id="armorTRow02" />
+            <rect
+               x="-29"
+               width="57.7"
+               y="9"
+               height="3.6"
                id="armorTRow03" />
             <rect
-               x="-25"
-               width="50"
-               y="7.8"
-               height="3.2"
+               x="-27.4"
+               width="54.5"
+               y="12.2"
+               height="3.6"
                id="armorTRow04" />
             <rect
-               x="-25"
-               width="50"
-               y="10.4"
-               height="3.2"
+               x="-24.6"
+               width="48.9"
+               y="13.7"
+               height="3.6"
                id="armorTRow05" />
-            <rect
-               x="-25"
-               width="50"
-               y="13"
-               height="3.2"
-               id="armorTRow06" />
           </g>
           <g
              id="armorPipsL"
+             style="mml-mirror:true"
              transform="translate(39.8,68.58)">
             <rect
-               x="-27.5"
-               width="55"
-               y="7.8"
-               height="3.2"
-               id="armorLRow00"
-               style="mml-gap:-9,9" />
-            <rect
-               x="-27.5"
-               width="55"
-               y="10.4"
-               height="3.2"
-               id="armorLRow01"
-               style="mml-gap:-10,10" />
-            <rect
-               x="-27.5"
-               width="55"
-               y="13"
-               height="3.2"
+               x="-29.8"
+               width="59.4"
+               y="14.2"
+               height="3.6"
                id="armorLRow02"
-               style="mml-gap:-11,11" />
+               style="mml-gap:-10.6,10.6" />
             <rect
-               x="-27.5"
-               width="55"
-               y="15.6"
-               height="3.2"
+               x="-30.6"
+               width="61"
+               y="17.4"
+               height="3.6"
                id="armorLRow03"
-               style="mml-gap:-11,11" />
+               style="mml-gap:-10.6,10.6" />
             <rect
-               x="-27.5"
-               width="55"
-               y="18.2"
-               height="3.2"
+               x="-32.4"
+               width="64.6"
+               y="20.6"
+               height="3.6"
                id="armorLRow04"
-               style="mml-gap:-11,11" />
+               style="mml-gap:-10.3,10.3" />
             <rect
-               x="-27.5"
-               width="55"
-               y="20.8"
-               height="3.2"
+               x="-22.5"
+               width="44.8"
+               y="23.8"
+               height="3.6"
                id="armorLRow05"
-               style="mml-gap:-10.7,10.7" />
+               style="mml-gap:-9.4,9.4" />
             <rect
-               x="-22"
-               width="44"
-               y="23.4"
-               height="3.2"
+               x="-23"
+               width="45.8"
+               y="27"
+               height="3.6"
                id="armorLRow06"
-               style="mml-gap:-8.8,8.8" />
+               style="mml-gap:-8.3,8.3" />
             <rect
-               x="-20"
-               width="40"
-               y="26"
-               height="3.2"
+               x="-23.6"
+               width="47"
+               y="30.2"
+               height="3.6"
                id="armorLRow07"
-               style="mml-gap:-8.8,8.8" />
+               style="mml-gap:-8.2,8.2" />
             <rect
-               x="-20"
-               width="40"
-               y="28.6"
-               height="3.2"
+               x="-25"
+               width="49.8"
+               y="33.4"
+               height="3.6"
                id="armorLRow08"
-               style="mml-gap:-8.8,8.8" />
+               style="mml-gap:-8,8" />
+            <rect
+               x="-27"
+               width="54"
+               y="36.6"
+               height="3.6"
+               id="armorLRow09"
+               style="mml-gap:-10.5,10.5" />
           </g>
           <g
              id="armorPipsMG"
-             transform="translate(19.035,3.78)">
+             transform="translate(21.5,3.65)">
             <rect
-               x="-1.5"
-               width="3"
+               x="-4.8"
+               width="9.6"
                y="0"
-               height="3.2"
+               height="3"
                id="armorMGRow00" />
             <rect
-               x="-3.1"
-               width="6.2"
-               y="1.3"
-               height="3.2"
+               x="-5.4"
+               width="10.8"
+               y="1.8"
+               height="3"
                id="armorMGRow01" />
             <rect
-               x="-3.75"
-               width="7.5"
-               y="2.6"
-               height="3.2"
+               x="-6.1"
+               width="12.2"
+               y="4"
+               height="3"
                id="armorMGRow02" />
             <rect
-               x="-4"
-               width="8"
-               y="3.9"
-               height="3.2"
+               x="-6.1"
+               width="12.2"
+               y="5.6"
+               height="3"
                id="armorMGRow03" />
-            <rect
-               x="-3.9"
-               width="7.8"
-               y="5.2"
-               height="3.2"
-               id="armorMGRow04" />
           </g>
         </g>
         <g
@@ -941,70 +887,78 @@
            id="structurePips">
           <g
              id="structurePipsHD"
-             transform="translate(39.8,22.48)">
+             transform="translate(39.8,25.45)">
             <rect
-               x="-7.4"
-               width="14.8"
+               x="-7.75"
+               width="15.5"
                y="0"
-               height="2.6"
+               height="4.1"
                id="structureHDRow00" />
           </g>
           <g
              id="structurePipsT"
-             transform="translate(39.8,50.68)">
+             transform="translate(39.8,48.45)">
             <rect
-               x="-23.2"
-               width="46.4"
+               x="-17.25"
+               width="34.5"
                y="0"
-               height="2.6"
+               height="4.05"
                id="structureTRow00" />
             <rect
-               x="-20"
-               width="40"
-               y="2.6"
-               height="2.6"
+               x="-16"
+               width="31.8"
+               y="4.2"
+               height="4.05"
                id="structureTRow01" />
+            <rect
+               x="-12.3"
+               width="24.3"
+               y="8.25"
+               height="4.05"
+               id="structureTRow02" />
           </g>
           <g
              id="structurePipsL"
+             style="mml-mirror:true"
              transform="translate(39.8,68.58)">
             <rect
                x="-27.5"
                width="55"
                y="0"
-               height="2.6"
+               height="3.4"
                id="structureLRow00"
-               style="mml-gap:-4,4" />
+               style="mml-gap:-3,3" />
             <rect
-               x="-27.5"
-               width="55"
-               y="2.6"
-               height="2.6"
+               x="-29"
+               width="58"
+               y="3.4"
+               height="3.4"
                id="structureLRow01"
-               style="mml-gap:-4.5,4.5" />
+               style="mml-gap:-4.4,4.4" />
             <rect
-               x="-27.5"
-               width="55"
-               y="5.2"
-               height="2.6"
+               x="-30.3"
+               width="60.4"
+               y="6.8"
+               height="3.4"
                id="structureLRow02"
-               style="mml-gap:-5.7,5.7" />
+               style="mml-gap:-6.4,6.4" />
+            <rect
+               x="-29.2"
+               width="58.4"
+               y="10.2"
+               height="3.4"
+               id="structureLRow03"
+               style="mml-gap:-8.9,8.9" />
           </g>
           <g
              id="structurePipsMG"
-             transform="translate(19.035,3.78)">
+             transform="translate(21.5,13.2)">
             <rect
-               x="-3.3"
-               width="6.6"
-               y="6.5"
-               height="2.6"
+               x="-4.8"
+               width="9.6"
+               y="0"
+               height="3.55"
                id="structureMGRow00" />
-            <rect
-               x="-2.4"
-               width="4.8"
-               y="7.8"
-               height="2.6"
-               id="structureMGRow01" />
           </g>
         </g>
       </g>
@@ -1252,7 +1206,7 @@
        text-anchor="start">Standard</text>
     <rect
        fill="none"
-       x="75.667"
+       x="68.667"
        width="20.000"
        id="eraIcon"
        height="20.000"
